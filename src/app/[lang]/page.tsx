@@ -13,9 +13,9 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
   const dict = await getDictionary(lang);
   const years = allMilestones.map(yearOf);
   const biggest = allMilestones
-    .filter((m) => m.opportunity.returnMultiple && m.verified)
+    .filter((m) => (m.opportunity.returnMultiple ?? 0) > 1 && m.verified)
     .sort((a, b) => b.opportunity.returnMultiple! - a.opportunity.returnMultiple!)
-    .slice(0, 8);
+    .slice(0, 10);
 
   return (
     <div className="space-y-20">
@@ -74,9 +74,9 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
         </section>
       )}
 
-      <section>
+      <section id="countries" className="scroll-mt-8">
         <h2 className="font-display text-3xl font-bold sm:text-4xl">{dict.home.countries}</h2>
-        <div className="mt-6 grid gap-4 md:grid-cols-2">
+        <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {countries.map((c) => {
             const s = countryStats(c.code);
             return (
@@ -86,12 +86,12 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
                 className="group rounded-2xl border border-line bg-surface p-6 transition-colors hover:border-gold"
               >
                 <div className="flex items-start justify-between">
-                  <span className="text-5xl">{c.flag}</span>
+                  <span className="text-4xl">{c.flag}</span>
                   <span className="font-mono text-sm tabular text-gold">
                     {s.from}–{s.to}
                   </span>
                 </div>
-                <div className="mt-6 font-display text-3xl font-bold group-hover:text-gold">{t(c.name, lang)}</div>
+                <div className="mt-4 font-display text-2xl font-bold group-hover:text-gold">{t(c.name, lang)}</div>
                 <div className="mt-1 text-sm text-muted">
                   <span className="font-mono tabular text-ink">{s.count}</span> {dict.home.milestones} ·{" "}
                   <span className="font-mono tabular text-ink">{s.verified}</span> {dict.home.verified}

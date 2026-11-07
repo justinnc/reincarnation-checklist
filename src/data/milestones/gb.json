@@ -1,0 +1,2014 @@
+[
+  {
+    "id": "gb-right-to-buy-1980",
+    "country": "gb",
+    "date": "1980-10-03",
+    "category": "real-estate",
+    "title": {
+      "vi": "'Right to Buy' — Mua nhà hội đồng giá rẻ của Thatcher",
+      "en": "'Right to Buy' — Thatcher's discounted council housing"
+    },
+    "summary": {
+      "vi": "Đạo luật Nhà ở 1980 cho phép người thuê nhà hội đồng mua nhà chiết khấu tới 70%, tạo ra 2 triệu chủ nhà mới.",
+      "en": "The Housing Act 1980 let council tenants buy their homes at up to 70% discount, creating 2 million new homeowners."
+    },
+    "description": {
+      "vi": "Đạo luật Nhà ở 1980, có hiệu lực từ 3/10/1980, trao cho người thuê nhà hội đồng Anh quyền mua lại căn nhà đang thuê với mức chiết khấu 33-50% (sau tăng lên tối đa 60-70% tùy thời gian thuê). Đây là chính sách mang tính biểu tượng của Thatcher nhằm xây dựng 'xã hội sở hữu tài sản'. Tính đến nay, hơn 2 triệu căn nhà hội đồng đã được bán theo chương trình này tại Anh, với mức chiết khấu trung bình 44% so với giá thị trường; tổng giá trị thị trường của các căn nhà này hiện ước đạt 430 tỷ bảng.",
+      "en": "The Housing Act 1980, in force from 3 October 1980, gave council tenants in England the right to buy their rented home at a 33-50% discount (later raised to a maximum of 60-70% depending on tenancy length). It was an emblematic Thatcher policy to build a 'property-owning democracy'. To date, over 2 million council homes have been sold under the scheme at an average 44% discount to market value; the combined current market value of those homes is estimated at £430bn."
+    },
+    "opportunity": {
+      "asset": "UK council housing (residential property)",
+      "action": {
+        "vi": "Mua nhà hội đồng đang thuê với chiết khấu lớn ngay khi chương trình có hiệu lực",
+        "en": "Buy a rented council home at the large discount as soon as the scheme took effect"
+      },
+      "buyWhen": {
+        "vi": "Đăng ký mua ngay sau tháng 10/1980 với chiết khấu 33-50%",
+        "en": "Apply to buy right after Oct 1980 at the 33-50% discount"
+      },
+      "sellWhen": {
+        "vi": "Giữ bất động sản lâu dài qua các đợt tăng giá nhà 1980s, 1990s-2000s và 2010s-2020s",
+        "en": "Hold the property long-term through the 1980s, 1990s-2000s and 2010s-2020s house-price booms"
+      },
+      "estimatedReturn": {
+        "vi": "Giá nhà Anh tăng trung bình 8%/năm (gấp hơn 5 lần) từ 1983-2007, cộng thêm chiết khấu mua ban đầu 44%",
+        "en": "UK house prices rose an average 8% a year (over 5x) from 1983-2007, on top of an initial ~44% purchase discount"
+      },
+      "returnMultiple": 5.36,
+      "priceCurrency": "GBP",
+      "risk": "low",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết trước giá nhà Anh sẽ tăng hơn 500% trong 24 năm tới (1983-2007), mua nhà hội đồng với chiết khấu tối đa (lên tới 70%) ngay khi đủ điều kiện và giữ càng lâu càng tốt, đặc biệt ở London nơi giá tăng gấp đôi sau mỗi thập kỷ.",
+      "en": "Knowing UK house prices would rise over 500% in the next 24 years (1983-2007), buy a council home at the maximum discount (up to 70%) as soon as eligible and hold as long as possible — especially in London, where prices roughly doubled each decade."
+    },
+    "pitfalls": {
+      "vi": "Chính sách này bị chỉ trích vì làm giảm mạnh quỹ nhà ở xã hội (từ 6,5 triệu căn năm 1979 xuống còn khoảng 2 triệu năm 2017), góp phần gây khủng hoảng nhà ở hiện nay; người bán lại nhà quá sớm phải hoàn trả một phần chiết khấu.",
+      "en": "The policy is blamed for sharply shrinking the social housing stock (from 6.5 million units in 1979 to about 2 million by 2017), contributing to today's housing crisis; selling too soon required repaying part of the discount."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Đạo luật nào đã trao quyền 'Right to Buy' cho người thuê nhà hội đồng Anh năm 1980?",
+        "en": "Which act gave English council tenants the 'Right to Buy' in 1980?"
+      },
+      "choices": [
+        {
+          "vi": "Đạo luật Nhà ở 1980",
+          "en": "The Housing Act 1980"
+        },
+        {
+          "vi": "Đạo luật Ngân hàng 1979",
+          "en": "The Banking Act 1979"
+        },
+        {
+          "vi": "Đạo luật Tài chính 1986",
+          "en": "The Finance Act 1986"
+        },
+        {
+          "vi": "Đạo luật Doanh nghiệp 1985",
+          "en": "The Companies Act 1985"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "Đạo luật Nhà ở 1980 (có hiệu lực 3/10/1980) đã trao quyền Right to Buy, một chính sách trọng tâm của Thatcher.",
+        "en": "The Housing Act 1980 (in force 3 Oct 1980) introduced Right to Buy, a flagship Thatcher policy."
+      }
+    },
+    "sources": [
+      {
+        "title": "Wikipedia: Right to Buy",
+        "url": "https://en.wikipedia.org/wiki/Right_to_Buy"
+      },
+      {
+        "title": "BBC: Town halls buy back Right-to-Buy homes",
+        "url": "https://www.bbc.com/news/uk-england-39264631"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Housing Act 1980 in force 3 Oct 1980, discounts 33-70%, 2m+ homes sold, 44% average discount confirmed via Wikipedia and BBC history pieces."
+  },
+  {
+    "id": "gb-bt-privatisation-1984",
+    "country": "gb",
+    "date": "1984-11-28",
+    "category": "stocks",
+    "title": {
+      "vi": "Tư nhân hóa British Telecom 1984",
+      "en": "British Telecom privatisation 1984"
+    },
+    "summary": {
+      "vi": "Thatcher bán British Telecom giá 130p/cổ phiếu, công chúng lãi ngay ngày đầu giao dịch.",
+      "en": "Thatcher's BT sale at 130p a share rewarded 2 million public buyers from day one."
+    },
+    "description": {
+      "vi": "Chính phủ Thatcher bán 50,2% cổ phần British Telecom với giá chào bán 130p/cổ phiếu vào tháng 11/1984, huy động 3,9 tỷ bảng. Hơn 2 triệu người dân mua cổ phiếu lần đầu tiên, và đến cuối ngày giao dịch đầu tiên (3/12/1984) giá đã tăng khoảng 33% lên quanh 173p. Đây là vụ tư nhân hóa lớn đầu tiên và mở đường cho làn sóng IPO nhà nước thập niên 1980.",
+      "en": "Thatcher's government sold 50.2% of British Telecom at an offer price of 130p per share in November 1984, raising £3.9bn. Over 2 million members of the public bought shares for the first time, and by the close of first-day dealing (3 Dec 1984) the price had risen about 33% to roughly 173p. It was the first mega-privatisation and kicked off the 1980s wave of state share sales."
+    },
+    "opportunity": {
+      "asset": "British Telecom (BT.L)",
+      "action": {
+        "vi": "Mua cổ phiếu BT trong đợt chào bán công chúng",
+        "en": "Buy BT shares in the public offer"
+      },
+      "buyWhen": {
+        "vi": "Đăng ký mua trong đợt IPO tháng 11/1984 ở giá 130p",
+        "en": "Apply in the Nov 1984 public offer at 130p"
+      },
+      "sellWhen": {
+        "vi": "Chốt lời ngay cuối phiên giao dịch đầu tiên hoặc giữ dài hạn qua thập niên 1990",
+        "en": "Flip for a quick profit on day-one close, or hold through the 1990s bull run"
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng +33% chỉ trong ngày giao dịch đầu tiên",
+        "en": "About +33% on the very first day of trading"
+      },
+      "returnMultiple": 1.33,
+      "entryPrice": 1.3,
+      "exitPrice": 1.73,
+      "priceCurrency": "GBP",
+      "exitDate": "1984-12-03",
+      "risk": "low",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Biết trước Chính phủ sẽ cố tình định giá thấp để đảm bảo đợt IPO 'thành công về mặt chính trị' — mua tối đa suất được phép và bán ngay khi mở cửa.",
+      "en": "Knowing the government deliberately underpriced the float for political success, apply for the maximum allocation and flip at the open."
+    },
+    "pitfalls": {
+      "vi": "Cổ phiếu phải trả làm nhiều đợt (partly-paid), và về dài hạn BT mất phần lớn giá trị sau khi bong bóng dot-com nổ năm 2000-2003.",
+      "en": "Shares were partly paid in instalments, and long-term holders saw BT lose most of its value after the dot-com bubble burst in 2000-2003."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Giá chào bán cổ phiếu British Telecom năm 1984 là bao nhiêu?",
+        "en": "What was the BT share offer price in 1984?"
+      },
+      "choices": [
+        {
+          "vi": "100p",
+          "en": "100p"
+        },
+        {
+          "vi": "130p",
+          "en": "130p"
+        },
+        {
+          "vi": "200p",
+          "en": "200p"
+        },
+        {
+          "vi": "50p",
+          "en": "50p"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "BT được chào bán ở mức 130p/cổ phiếu, tăng lên khoảng 173p vào cuối ngày giao dịch đầu tiên.",
+        "en": "BT was offered at 130p per share, closing around 173p by the end of the first day of trading."
+      }
+    },
+    "sources": [
+      {
+        "title": "Guardian: Royal Mail shares — lessons from 1980s flotations",
+        "url": "https://theguardian.com/business/2013/oct/11/royal-mail-shares-lessons-1980s-flotations"
+      },
+      {
+        "title": "Hansard: British Telecom (16 Nov 1984)",
+        "url": "https://api.parliament.uk/historic-hansard/commons/1984/nov/16/british-telecom"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed via Guardian and Hansard: 130p offer price, ~173p close day one, £3.9bn raised, Nov-Dec 1984."
+  },
+  {
+    "id": "gb-big-bang-1986",
+    "country": "gb",
+    "date": "1986-10-27",
+    "category": "stocks",
+    "title": {
+      "vi": "Big Bang bãi bỏ quy định Sở GDCK London",
+      "en": "The 'Big Bang' deregulation of the LSE"
+    },
+    "summary": {
+      "vi": "Ngày 27/10/1986, London bãi bỏ hoa hồng cố định, mở cửa cho ngân hàng nước ngoài, biến London thành trung tâm tài chính toàn cầu.",
+      "en": "On 27 Oct 1986 London scrapped fixed commissions and let foreign banks in, igniting its rise as a global finance hub."
+    },
+    "description": {
+      "vi": "'Big Bang' là đợt cải cách thị trường tài chính London ngày 27/10/1986: bỏ hoa hồng môi giới cố định, cho phép giao dịch điện tử và các ngân hàng/công ty nước ngoài mua lại các hãng môi giới Anh. Sự kiện này châm ngòi cho một thập kỷ bùng nổ của ngành dịch vụ tài chính London, biến thành phố này thành đối thủ cạnh tranh trực tiếp với New York.",
+      "en": "The 'Big Bang' was the 27 October 1986 deregulation of the London Stock Exchange: it scrapped fixed brokerage commissions, enabled electronic trading, and let foreign banks and firms buy up British brokerages. It triggered a decade-long boom in London's financial services industry, turning the City into a true rival to New York."
+    },
+    "opportunity": {
+      "asset": "UK merchant banks / stockbroking firms (e.g. Mercury Asset Management, Phillips & Drew)",
+      "action": {
+        "vi": "Mua cổ phần các công ty môi giới/ngân hàng thương mại Anh trước khi bị thâu tóm bởi ngân hàng nước ngoài",
+        "en": "Buy stakes in UK stockbroking/merchant banking firms before foreign banks snapped them up"
+      },
+      "buyWhen": {
+        "vi": "Trước tháng 10/1986, khi tin đồn bãi bỏ quy định lan rộng",
+        "en": "Before Oct 1986, as deregulation rumours spread"
+      },
+      "sellWhen": {
+        "vi": "Khi các ngân hàng Mỹ/Nhật trả giá cao để thâu tóm công ty môi giới Anh năm 1986-1987",
+        "en": "When US/Japanese banks paid high premiums to acquire UK brokers in 1986-87"
+      },
+      "estimatedReturn": {
+        "vi": "Nhiều công ty môi giới được mua lại với giá cao gấp nhiều lần giá trị sổ sách",
+        "en": "Many brokerages were bought out at multiples of book value"
+      },
+      "risk": "medium",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết trước London sẽ vượt Tokyo/Frankfurt để trở thành trung tâm tài chính số 1 châu Âu — đầu tư sớm vào bất động sản văn phòng khu Canary Wharf/City of London trước khi giá tăng vọt thập niên 1990-2000.",
+      "en": "Knowing London would overtake Frankfurt/Tokyo to become Europe's top financial centre, invest early in Canary Wharf/City office property before its 1990s-2000s surge."
+    },
+    "pitfalls": {
+      "vi": "Chỉ 13 tháng sau, Black Monday (19/10/1987) đã xóa sạch nhiều khoản lãi ngắn hạn từ làn sóng sáp nhập Big Bang.",
+      "en": "Only 13 months later, Black Monday (19 Oct 1987) wiped out many of the short-term gains from the Big Bang merger wave."
+    },
+    "quiz": {
+      "question": {
+        "vi": "'Big Bang' của Sở GDCK London diễn ra vào ngày nào?",
+        "en": "When did the London Stock Exchange 'Big Bang' take place?"
+      },
+      "choices": [
+        {
+          "vi": "19/10/1987",
+          "en": "19 October 1987"
+        },
+        {
+          "vi": "27/10/1986",
+          "en": "27 October 1986"
+        },
+        {
+          "vi": "16/9/1992",
+          "en": "16 September 1992"
+        },
+        {
+          "vi": "3/1/1984",
+          "en": "3 January 1984"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Big Bang diễn ra ngày 27/10/1986 khi London bãi bỏ hoa hồng cố định và mở cửa thị trường.",
+        "en": "The Big Bang took place on 27 October 1986 when London scrapped fixed commissions and opened its markets."
+      }
+    },
+    "sources": [
+      {
+        "title": "Goldman Sachs: 1986 Big Bang",
+        "url": "https://www.goldmansachs.com/our-firm/history/moments/1986-big-bang.html"
+      },
+      {
+        "title": "LA Times: The 'Big Bang' Rocks London",
+        "url": "https://www.latimes.com/archives/la-xpm-1986-10-27-fi-7568-story.html"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed date (27 Oct 1986) and nature of deregulation via Goldman Sachs history page and LA Times contemporary reporting."
+  },
+  {
+    "id": "gb-tell-sid-british-gas-1986",
+    "country": "gb",
+    "date": "1986-12-08",
+    "category": "stocks",
+    "title": {
+      "vi": "'Tell Sid' — Tư nhân hóa British Gas",
+      "en": "'Tell Sid' — British Gas privatisation"
+    },
+    "summary": {
+      "vi": "Chiến dịch quảng cáo 'Tell Sid' đưa 4,5 triệu người Anh mua cổ phiếu British Gas giá 135p, lãi ngay phiên đầu.",
+      "en": "The 'Tell Sid' ad campaign got 4.5m Britons to buy British Gas at 135p, up on debut day."
+    },
+    "description": {
+      "vi": "British Gas được tư nhân hóa tháng 12/1986 với giá chào bán 135p/cổ phiếu (trả làm 2 đợt, 50p ban đầu), huy động 5,6 tỷ bảng — đợt IPO lớn nhất thế giới lúc đó. Chiến dịch quảng cáo 'If you see Sid, tell him' đã thu hút 4,5 triệu đơn đăng ký. Trong 90 phút đầu giao dịch ngày 8/12/1986, hơn 800 triệu cổ phiếu được trao tay; giá phần đã trả (50p) tăng lên đóng cửa ở 62,5p, tức lãi khoảng 25% ngay ngày đầu.",
+      "en": "British Gas was privatised in December 1986 at an offer price of 135p per share (paid in two instalments, 50p upfront), raising £5.6bn — then the world's biggest ever IPO. The 'If you see Sid, tell him' ad campaign drew 4.5 million applications. In the first 90 minutes of trading on 8 Dec 1986, over 800 million shares changed hands; the partly-paid 50p stock closed at 62.5p, a roughly 25% first-day gain."
+    },
+    "opportunity": {
+      "asset": "British Gas plc",
+      "action": {
+        "vi": "Mua cổ phiếu trong đợt IPO 'Tell Sid'",
+        "en": "Buy shares in the 'Tell Sid' public offer"
+      },
+      "buyWhen": {
+        "vi": "Đăng ký mua tháng 11/1986 ở giá 135p (trả trước 50p)",
+        "en": "Apply in Nov 1986 at 135p (50p payable upfront)"
+      },
+      "sellWhen": {
+        "vi": "Chốt lời ngày giao dịch đầu tiên 8/12/1986 hoặc giữ cho đến khi demerger thành Centrica/BG/National Grid thập niên 1990-2000",
+        "en": "Take profit on first-day dealing 8 Dec 1986, or hold through the Centrica/BG/National Grid demergers of the 1990s-2000s"
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng +25% trên phần đã trả chỉ trong ngày đầu tiên",
+        "en": "About +25% on the paid-up portion in a single day"
+      },
+      "returnMultiple": 1.25,
+      "entryPrice": 0.5,
+      "exitPrice": 0.625,
+      "priceCurrency": "GBP",
+      "exitDate": "1986-12-08",
+      "risk": "low",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Biết trước nhu cầu đăng ký sẽ vượt xa nguồn cung (gấp nhiều lần), nộp đơn sớm và tối đa ngay khi mở bán vì Chính phủ luôn cố định giá thấp hơn giá trị thực để đảm bảo thành công chính trị.",
+      "en": "Knowing demand would vastly outstrip supply, apply early and for the maximum allocation — governments habitually underpriced these offers to guarantee a political success story."
+    },
+    "pitfalls": {
+      "vi": "Nhiều nhà đầu tư nhỏ bán ngay để chốt lời ngắn hạn và bỏ lỡ hàng thập kỷ cổ tức và tăng giá sau đó qua Centrica/BG Group/National Grid.",
+      "en": "Many small investors sold immediately for a quick flip and missed decades of subsequent dividends and gains through Centrica/BG Group/National Grid."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Chiến dịch quảng cáo nào đã quảng bá đợt IPO British Gas năm 1986?",
+        "en": "What ad campaign promoted the 1986 British Gas IPO?"
+      },
+      "choices": [
+        {
+          "vi": "'Just Do It'",
+          "en": "'Just Do It'"
+        },
+        {
+          "vi": "'Tell Sid'",
+          "en": "'Tell Sid'"
+        },
+        {
+          "vi": "'Every Little Helps'",
+          "en": "'Every Little Helps'"
+        },
+        {
+          "vi": "'Keep Calm and Carry On'",
+          "en": "'Keep Calm and Carry On'"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "'If you see Sid, tell him' là slogan nổi tiếng khuyến khích công chúng Anh mua cổ phiếu British Gas.",
+        "en": "'If you see Sid, tell him' was the famous slogan urging the British public to buy British Gas shares."
+      }
+    },
+    "sources": [
+      {
+        "title": "Guardian: Royal Mail shares — lessons from 1980s flotations",
+        "url": "https://theguardian.com/business/2013/oct/11/royal-mail-shares-lessons-1980s-flotations"
+      },
+      {
+        "title": "Hansard: British Gas (21 Nov 1986)",
+        "url": "https://hansard.parliament.uk/Commons/1986-11-21/debates/4a9c9a33-845b-4767-9985-9f38631b8636/BritishGas"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed 135p offer price, 50p first instalment, £5.6bn raised, first-day close ~62.5p on paid-up shares via Guardian and Hansard records."
+  },
+  {
+    "id": "gb-black-monday-1987",
+    "country": "gb",
+    "date": "1987-10-19",
+    "category": "stocks",
+    "title": {
+      "vi": "Black Monday — Sụp đổ FTSE 100",
+      "en": "Black Monday — FTSE 100 crash"
+    },
+    "summary": {
+      "vi": "Ngày 19/10/1987, FTSE 100 giảm gần 11% trong một phiên, tiếp tục rơi 12% hôm sau, xóa hơn 1/5 giá trị thị trường.",
+      "en": "On 19 Oct 1987 the FTSE 100 fell nearly 11% in a day, then another 12% the next, erasing over a fifth of market value."
+    },
+    "description": {
+      "vi": "Black Monday là vụ sụp đổ chứng khoán toàn cầu ngày 19/10/1987. Tại London, FTSE 100 giảm từ khoảng 2301,9 xuống 2052,3 điểm (-10,8%) trong một phiên, rồi tiếp tục giảm thêm khoảng 12% ngày hôm sau. Việc London đóng cửa sớm hôm 16/10 vì bão lớn khiến thị trường 'bỏ lỡ' đợt điều chỉnh sớm, làm cú sốc dồn lại mạnh hơn khi mở cửa trở lại đúng vào ngày Thứ Hai Đen tối.",
+      "en": "Black Monday was a global stock market crash on 19 October 1987. In London, the FTSE 100 fell from about 2301.9 to 2052.3 (-10.8%) in a single session, then dropped a further ~12% the next day. London's early close on 16 October due to a major storm meant the market missed an early correction, compounding the shock when it reopened on Black Monday itself."
+    },
+    "opportunity": {
+      "asset": "FTSE 100 index / UK blue-chip equities",
+      "action": {
+        "vi": "Bán khống hoặc thoát vị thế cổ phiếu trước ngày 19/10, sau đó mua lại đáy",
+        "en": "Short or exit equities before 19 Oct, then buy back near the bottom"
+      },
+      "buyWhen": {
+        "vi": "Mua lại sau khi thị trường ổn định cuối tháng 10/đầu tháng 11/1987",
+        "en": "Buy back once markets stabilised late Oct/early Nov 1987"
+      },
+      "sellWhen": {
+        "vi": "Bán/thoát vị thế long trước ngày 19/10/1987",
+        "en": "Exit long positions before 19 October 1987"
+      },
+      "estimatedReturn": {
+        "vi": "Tránh được khoản lỗ hơn 20% trong vòng 2 ngày",
+        "en": "Avoided a drawdown of over 20% in two trading days"
+      },
+      "entryPrice": 2301.9,
+      "exitPrice": 2052.3,
+      "priceCurrency": "points",
+      "exitDate": "1987-10-19",
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết chính xác ngày sụp đổ, bán khống chỉ số FTSE 100 hoặc mua quyền chọn bán (put option) ngay trước ngày 19/10/1987 để thu lợi khổng lồ từ cú sốc một ngày.",
+      "en": "Knowing the exact crash date, short the FTSE 100 or buy put options right before 19 Oct 1987 to profit massively from the single-day shock."
+    },
+    "pitfalls": {
+      "vi": "Thị trường hồi phục khá nhanh trong 2 năm sau đó nên giữ vị thế short quá lâu sẽ mất lợi nhuận; thị trường tổng thể giảm khoảng 31% từ đỉnh xuống đáy trong năm 1987.",
+      "en": "Markets recovered fairly quickly over the following two years, so holding a short position too long would give back the gains; the broader 1987 peak-to-trough fall was about 31%."
+    },
+    "quiz": {
+      "question": {
+        "vi": "FTSE 100 giảm bao nhiêu phần trăm trong phiên Black Monday 19/10/1987?",
+        "en": "By roughly what percentage did the FTSE 100 fall on Black Monday, 19 Oct 1987?"
+      },
+      "choices": [
+        {
+          "vi": "~2%",
+          "en": "~2%"
+        },
+        {
+          "vi": "~5%",
+          "en": "~5%"
+        },
+        {
+          "vi": "~11%",
+          "en": "~11%"
+        },
+        {
+          "vi": "~30%",
+          "en": "~30%"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "FTSE 100 giảm khoảng 10,8% (từ 2301,9 xuống 2052,3) trong phiên 19/10/1987.",
+        "en": "The FTSE 100 fell about 10.8% (from 2301.9 to 2052.3) on 19 Oct 1987."
+      }
+    },
+    "sources": [
+      {
+        "title": "This is Money: Black Monday wiped off a fifth of the LSE's value",
+        "url": "https://www.thisismoney.co.uk/money/markets/article-4992812/30-years-aBlack-Monday-wiped-fifth-LSE-s-value.html"
+      },
+      {
+        "title": "Wikipedia: Black Monday (1987)",
+        "url": "https://en.wikipedia.org/wiki/Black_Monday_(1987)"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "FTSE 100 fall confirmed at ~10.8% on 19 Oct 1987 (2301.9 to 2052.3) via This Is Money and corroborating index data."
+  },
+  {
+    "id": "gb-black-wednesday-1992",
+    "country": "gb",
+    "date": "1992-09-16",
+    "category": "macro",
+    "title": {
+      "vi": "Black Wednesday — Soros đánh sập đồng Bảng",
+      "en": "Black Wednesday — Soros breaks the pound"
+    },
+    "summary": {
+      "vi": "Ngày 16/9/1992, Anh buộc rút khỏi ERM; George Soros lãi khoảng 1 tỷ USD nhờ bán khống đồng Bảng.",
+      "en": "On 16 Sept 1992 the UK was forced out of the ERM; George Soros pocketed roughly $1bn shorting the pound."
+    },
+    "description": {
+      "vi": "Black Wednesday (16/9/1992) là ngày Anh buộc phải rút đồng Bảng khỏi Cơ chế Tỷ giá hối đoái châu Âu (ERM) sau khi không thể giữ tỷ giá trên mức sàn quy định, dù Ngân hàng Trung ương Anh đã nâng lãi suất lên tới 15% trong ngày và chi hàng tỷ Bảng can thiệp. George Soros, thông qua quỹ Quantum, đã xây dựng vị thế bán khống đồng Bảng trị giá khoảng 10 tỷ USD và thu lợi nhuận ước tính gần 1 tỷ USD, khiến ông được mệnh danh là 'người đánh sập Ngân hàng Anh'.",
+      "en": "Black Wednesday (16 Sept 1992) was the day the UK was forced to withdraw sterling from the European Exchange Rate Mechanism (ERM) after failing to defend its currency floor, even after the Bank of England briefly hiked interest rates to 15% in a single day and spent billions intervening. George Soros, through his Quantum Fund, built a roughly $10bn short position against the pound and reportedly made close to $1bn in profit, earning him the nickname 'the man who broke the Bank of England'."
+    },
+    "opportunity": {
+      "asset": "GBP/DEM (British pound vs Deutschmark)",
+      "action": {
+        "vi": "Bán khống đồng Bảng Anh trước ngày 16/9/1992",
+        "en": "Short the British pound ahead of 16 Sept 1992"
+      },
+      "buyWhen": {
+        "vi": "Mở vị thế bán khống GBP trong các tuần đầu tháng 9/1992 khi áp lực ERM gia tăng",
+        "en": "Open the GBP short in early September 1992 as ERM pressure mounted"
+      },
+      "sellWhen": {
+        "vi": "Đóng vị thế ngay sau khi Anh rút khỏi ERM ngày 16/9/1992, khi đồng Bảng mất giá khoảng 15% so với Mark Đức",
+        "en": "Close the position right after the UK exited the ERM on 16 Sept 1992, once sterling had fallen roughly 15% against the Deutschmark"
+      },
+      "estimatedReturn": {
+        "vi": "Soros lãi khoảng 1 tỷ USD trên vị thế khoảng 10 tỷ USD",
+        "en": "Soros profited about $1bn on a roughly $10bn position"
+      },
+      "returnMultiple": 1.1,
+      "priceCurrency": "USD",
+      "exitDate": "1992-09-16",
+      "risk": "high",
+      "capital": "high"
+    },
+    "insiderTip": {
+      "vi": "Biết chắc chắn Chính phủ Anh sẽ thất bại trong việc bảo vệ tỷ giá sàn 2,778 Mark Đức/Bảng, vay càng nhiều Bảng càng tốt để bán khống ngay từ đầu tháng 9/1992 — không cần chờ đến gần ngày 16/9 như Soros đã làm.",
+      "en": "Knowing for certain the UK would fail to defend its 2.778 Deutschmark floor, borrow and short as much sterling as possible from early September 1992 rather than waiting, as Soros did, until closer to the 16th."
+    },
+    "pitfalls": {
+      "vi": "Chiến lược bán khống đòi hỏi vốn và đòn bẩy rất lớn; nếu Chính phủ Anh bảo vệ thành công tỷ giá (như nhiều người kỳ vọng ban đầu), khoản lỗ có thể vô cùng lớn.",
+      "en": "The short strategy required enormous capital and leverage; had the UK government successfully defended the rate (as many initially expected), losses could have been catastrophic."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Ai được mệnh danh là 'người đánh sập Ngân hàng Anh' trong sự kiện Black Wednesday?",
+        "en": "Who was dubbed 'the man who broke the Bank of England' during Black Wednesday?"
+      },
+      "choices": [
+        {
+          "vi": "Warren Buffett",
+          "en": "Warren Buffett"
+        },
+        {
+          "vi": "George Soros",
+          "en": "George Soros"
+        },
+        {
+          "vi": "John Major",
+          "en": "John Major"
+        },
+        {
+          "vi": "Nigel Lawson",
+          "en": "Nigel Lawson"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "George Soros, qua quỹ Quantum, bán khống khoảng 10 tỷ USD đồng Bảng và lãi gần 1 tỷ USD.",
+        "en": "George Soros, via his Quantum Fund, shorted about $10bn of sterling and profited close to $1bn."
+      }
+    },
+    "sources": [
+      {
+        "title": "NYT 1992: Big Winner From Plunge In Sterling",
+        "url": "https://nytimes.com/1992/10/27/business/big-winner-from-plunge-in-sterling.html?src=pm"
+      },
+      {
+        "title": "Wikipedia: Black Wednesday",
+        "url": "https://en.wikipedia.org/wiki/Black_Wednesday"
+      },
+      {
+        "title": "Investopedia: Black Wednesday",
+        "url": "https://www.investopedia.com/terms/b/black-wednesday.asp"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Date (16 Sept 1992), Soros's ~$10bn position and ~$1bn profit confirmed via contemporary NYT report and Wikipedia/Investopedia summaries."
+  },
+  {
+    "id": "gb-london-property-boom-1995-2007",
+    "country": "gb",
+    "date": "1995",
+    "category": "real-estate",
+    "title": {
+      "vi": "Siêu chu kỳ tăng giá nhà Anh 1995-2007",
+      "en": "The UK's 1995-2007 house-price supercycle"
+    },
+    "summary": {
+      "vi": "Giá nhà Anh tăng hơn gấp ba từ 1995-2007 (theo Halifax, +220%), tạo ra 3.000 tỷ bảng giá trị tài sản mới.",
+      "en": "UK house prices more than tripled from 1995-2007 (Halifax: +220%), creating £3 trillion in new housing wealth."
+    },
+    "description": {
+      "vi": "Từ 1995 đến 2007, Anh trải qua chu kỳ tăng giá nhà lớn nhất lịch sử: giá nhà trung bình tăng 220% (hơn gấp 3 lần) theo chỉ số Halifax, được thúc đẩy bởi tín dụng rẻ, nguồn cung hạn chế và làn sóng mua nhà cho thuê (buy-to-let). Riêng London chứng kiến mức tăng mạnh nhất. Tổng giá trị nhà ở Anh tăng thêm khoảng 3.000 tỷ bảng trong giai đoạn này. Cơn sốt kết thúc đột ngột khi khủng hoảng tín dụng 2007-2008 ập đến, khiến giá nhà giảm 16,4% chỉ riêng năm 2008.",
+      "en": "From 1995 to 2007, the UK experienced its biggest-ever house-price cycle: average prices rose 220% (more than tripling) on the Halifax index, driven by cheap credit, constrained supply and a buy-to-let investing boom. London saw the strongest gains. Total UK housing wealth grew by roughly £3 trillion over the period. The boom ended abruptly when the 2007-2008 credit crunch hit, with prices falling 16.4% in 2008 alone."
+    },
+    "opportunity": {
+      "asset": "UK residential property (especially London)",
+      "action": {
+        "vi": "Mua bất động sản London/Đông Nam Anh bằng vay thế chấp đòn bẩy cao đầu/giữa thập niên 1990",
+        "en": "Buy London/South East property with high-leverage mortgages in the early/mid-1990s"
+      },
+      "buyWhen": {
+        "vi": "Mua vào năm 1995-1996, ngay sau đáy thị trường nhà ở đầu thập niên 1990",
+        "en": "Buy in 1995-1996, right after the early-1990s housing-market bottom"
+      },
+      "sellWhen": {
+        "vi": "Bán hoặc chốt lãi cuối 2007, ngay trước khi khủng hoảng tín dụng giáng đòn",
+        "en": "Sell or lock in gains in late 2007, right before the credit crunch hit"
+      },
+      "estimatedReturn": {
+        "vi": "+220% (hơn gấp 3 lần) trong 12 năm, theo chỉ số Halifax toàn quốc; London tăng mạnh hơn mức trung bình",
+        "en": "+220% (over 3x) over 12 years nationally per Halifax; London rose even more than the average"
+      },
+      "returnMultiple": 3.2,
+      "priceCurrency": "GBP",
+      "risk": "medium",
+      "capital": "high"
+    },
+    "insiderTip": {
+      "vi": "Biết trước Anh sắp bước vào chu kỳ tăng giá nhà dài và mạnh nhất lịch sử, vay thế chấp tối đa để mua càng nhiều bất động sản London càng tốt năm 1995-1996, và quan trọng hơn — bán sạch trước cuối 2007 để tránh sụp đổ 2008.",
+      "en": "Knowing the UK was about to enter its longest, strongest house-price cycle ever, take out maximum mortgage leverage to buy as much London property as possible in 1995-96 — and critically, sell everything before late 2007 to dodge the 2008 crash."
+    },
+    "pitfalls": {
+      "vi": "Đòn bẩy cao khiến nhà đầu tư dễ bị 'âm vốn chủ sở hữu' (negative equity) nếu giữ qua đợt sụp đổ 2008; những người mua-để-cho-thuê vay nợ nặng vào cuối chu kỳ (2006-2007) chịu thiệt hại nặng nhất.",
+      "en": "High leverage left investors exposed to negative equity if they held through the 2008 crash; buy-to-let investors who piled in heavily late in the cycle (2006-2007) suffered the worst losses."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Giá nhà trung bình Anh tăng bao nhiêu phần trăm từ 1995 đến 2007 theo chỉ số Halifax?",
+        "en": "By what percentage did average UK house prices rise from 1995 to 2007 per the Halifax index?"
+      },
+      "choices": [
+        {
+          "vi": "~50%",
+          "en": "~50%"
+        },
+        {
+          "vi": "~100%",
+          "en": "~100%"
+        },
+        {
+          "vi": "~220%",
+          "en": "~220%"
+        },
+        {
+          "vi": "~500%",
+          "en": "~500%"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "Theo Halifax House Price Index, giá nhà Anh tăng 220% (hơn gấp 3 lần) từ 1995 đến 2007.",
+        "en": "According to the Halifax House Price Index, UK house prices rose 220% (more than tripling) from 1995 to 2007."
+      }
+    },
+    "sources": [
+      {
+        "title": "lovemoney: Britain's greatest property investors",
+        "url": "https://www.lovemoney.com/news/4595/britains-greatest-property-investors"
+      },
+      {
+        "title": "European Commission: The UK Housing Market",
+        "url": "https://ec.europa.eu/economy_finance/publications/pages/publication13282_en.pdf"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "220% national rise 1995-2007 (Halifax), ~£3trn wealth creation, 2008 -16.4% fall confirmed via lovemoney/Halifax data and European Commission report."
+  },
+  {
+    "id": "gb-arm-ipo-1998",
+    "country": "gb",
+    "date": "1998-04-17",
+    "category": "technology",
+    "title": {
+      "vi": "ARM Holdings IPO song song London-Nasdaq",
+      "en": "ARM Holdings' dual London-Nasdaq IPO"
+    },
+    "summary": {
+      "vi": "ARM niêm yết ngày 17/4/1998 giá 575p, đóng cửa 825p ngay ngày đầu — khởi đầu của gã khổng lồ chip di động.",
+      "en": "ARM listed on 17 Apr 1998 at 575p, closing 825p on debut — the start of mobile chip giant."
+    },
+    "description": {
+      "vi": "ARM Holdings, công ty thiết kế vi xử lý tách ra từ Acorn Computers, niêm yết đồng thời trên Sở GDCK London và Nasdaq ngày 17/4/1998 với giá IPO 575p/cổ phiếu (vốn hóa ban đầu 264 triệu bảng). Nhu cầu mạnh đến mức ngân hàng bảo lãnh phải nâng giá chào bán 3 lần; giá đóng cửa ngày đầu đạt 825p, tăng 250p (~43%). Đến tháng 2/2000, cổ phiếu đạt đỉnh 1010p trước khi bong bóng dot-com sụp đổ.",
+      "en": "ARM Holdings, a chip-design spin-off from Acorn Computers, listed simultaneously on the London Stock Exchange and Nasdaq on 17 April 1998 at an IPO price of 575p per share (initial market cap £264m). Demand was so strong the underwriters raised the price three times; the stock closed day one at 825p, up 250p (~43%). By February 2000 shares peaked at 1010p before the dot-com bubble burst."
+    },
+    "opportunity": {
+      "asset": "ARM Holdings (ARM.L / ARMH)",
+      "action": {
+        "vi": "Mua cổ phiếu ARM trong đợt IPO tháng 4/1998",
+        "en": "Buy ARM shares in the April 1998 IPO"
+      },
+      "buyWhen": {
+        "vi": "Đăng ký mua ở giá IPO 575p ngày 17/4/1998",
+        "en": "Subscribe at the 575p IPO price on 17 Apr 1998"
+      },
+      "sellWhen": {
+        "vi": "Bán gần đỉnh dot-com tháng 2/2000 ở khoảng 1010p, trước khi cổ phiếu giảm hơn 60% trong năm 2002",
+        "en": "Sell near the dot-com peak in Feb 2000 at around 1010p, before the stock fell over 60% in 2002"
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng +76% từ IPO đến đỉnh (575p -> 1010p) trong chưa đầy 2 năm",
+        "en": "About +76% from IPO to peak (575p to 1010p) in under two years"
+      },
+      "returnMultiple": 1.76,
+      "entryPrice": 5.75,
+      "exitPrice": 10.1,
+      "priceCurrency": "GBP",
+      "exitDate": "2000-02",
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết trước ARM sẽ trở thành chuẩn kiến trúc chip cho hầu hết điện thoại thông minh và sau này được SoftBank mua lại năm 2016 với giá 1700p/cổ phiếu — nắm giữ dài hạn thay vì bán ở đỉnh dot-com sẽ mang lại lợi nhuận gấp gần 3 lần so với giá IPO.",
+      "en": "Knowing ARM would become the chip-architecture standard for nearly every smartphone and later be bought by SoftBank in 2016 at 1700p a share, holding long-term rather than selling at the dot-com peak would have still nearly tripled the IPO price."
+    },
+    "pitfalls": {
+      "vi": "Sau đỉnh dot-com, cổ phiếu ARM lao dốc tới gần giá IPO vào cuối 2002 và chạm 80p trong khủng hoảng tài chính 2009 — biên độ dao động cực lớn khiến việc giữ dài hạn đòi hỏi thần kinh thép.",
+      "en": "After the dot-com peak, ARM's stock crashed back near its IPO price by late 2002 and touched 80p during the 2009 financial crisis — the huge swings meant holding long-term required nerves of steel."
+    },
+    "quiz": {
+      "question": {
+        "vi": "ARM Holdings niêm yết với giá IPO bao nhiêu vào tháng 4/1998?",
+        "en": "What was ARM Holdings' IPO price in April 1998?"
+      },
+      "choices": [
+        {
+          "vi": "100p",
+          "en": "100p"
+        },
+        {
+          "vi": "575p",
+          "en": "575p"
+        },
+        {
+          "vi": "1000p",
+          "en": "1000p"
+        },
+        {
+          "vi": "50p",
+          "en": "50p"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "ARM niêm yết với giá 575p/cổ phiếu (~29 USD/ADS trên Nasdaq) ngày 17/4/1998.",
+        "en": "ARM listed at 575p per share (~$29 per ADS on Nasdaq) on 17 Apr 1998."
+      }
+    },
+    "sources": [
+      {
+        "title": "The Times: Arm float that made a splash 25 years ago",
+        "url": "https://thetimes.co.uk/article/arm-float-that-made-a-splash-25-years-ago-zdpqh2cbz"
+      },
+      {
+        "title": "Motley Fool: How ARM Holdings Became a 20-Bagger",
+        "url": "https://fool.com/investing/international/2013/03/13/how-arm-holdings-became-a-20-bagger.aspx"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "IPO price 575p, day-one close 825p, Feb 2000 peak 1010p confirmed via The Times and Motley Fool historical accounts."
+  },
+  {
+    "id": "gb-browns-bottom-gold-1999",
+    "country": "gb",
+    "date": "1999-05-07",
+    "category": "commodities",
+    "title": {
+      "vi": "'Đáy của Brown' — Anh bán vàng giá thấp kỷ lục",
+      "en": "'Brown's Bottom' — UK sells gold at a 20-year low"
+    },
+    "summary": {
+      "vi": "Gordon Brown công bố bán vàng dự trữ tháng 5/1999 ngay đáy 20 năm, bán 395 tấn giá bình quân 275 USD/ounce.",
+      "en": "Gordon Brown announced gold sales in May 1999 right at a 20-year low, selling 395 tonnes at an average $275/oz."
+    },
+    "description": {
+      "vi": "Ngày 7/5/1999, Bộ trưởng Tài chính Gordon Brown công bố kế hoạch bán gần một nửa dự trữ vàng của Anh để đa dạng hóa sang ngoại tệ, ngay khi giá vàng ở mức 282,40 USD/ounce — gần đáy 20 năm. Việc công bố trước khiến giá vàng giảm thêm 10%, chạm đáy 252,80 USD ngày 20/7/1999. Từ 1999-2002, Anh bán 395 tấn vàng qua 17 đợt đấu giá, thu về 3,5 tỷ USD với giá bình quân chỉ 275 USD/ounce — thấp hơn nhiều so với đỉnh 850 USD năm 1980 và hiện đã vượt mốc 4000 USD năm 2025.",
+      "en": "On 7 May 1999, Chancellor Gordon Brown announced plans to sell nearly half the UK's gold reserves to diversify into foreign currencies, right when gold stood at $282.40/oz — near a 20-year low. Pre-announcing the sale pushed the price down a further 10%, to a low of $252.80 on 20 July 1999. From 1999-2002 the UK sold 395 tonnes across 17 auctions, raising $3.5bn at an average of just $275/oz — far below gold's 1980 peak of $850 and its 2025 record above $4,000."
+    },
+    "opportunity": {
+      "asset": "Gold (XAU/USD)",
+      "action": {
+        "vi": "Mua vàng ngay khi Chính phủ Anh công bố bán",
+        "en": "Buy gold the moment the UK government announced its sale"
+      },
+      "buyWhen": {
+        "vi": "Mua vào quanh đáy tháng 7/1999 ở 252,80 USD/ounce",
+        "en": "Buy near the July 1999 bottom at $252.80/oz"
+      },
+      "sellWhen": {
+        "vi": "Giữ dài hạn — giá vàng tăng trung bình 8%/năm từ 1999-2024",
+        "en": "Hold long-term — gold rose an average 8% a year from 1999-2024"
+      },
+      "estimatedReturn": {
+        "vi": "Vàng tăng gần 15 lần từ đáy Brown's Bottom đến năm 2025",
+        "en": "Gold rose almost 15-fold from the Brown's Bottom low to 2025"
+      },
+      "returnMultiple": 15.8,
+      "entryPrice": 252.8,
+      "exitPrice": 4000,
+      "priceCurrency": "USD",
+      "exitDate": "2025-10",
+      "risk": "low",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết chắc chắn Chính phủ Anh sắp bán tháo vàng ở đáy 20 năm của chính kim loại này và giá sẽ bước vào thị trường tăng kéo dài 25 năm, dồn toàn bộ tiền nhàn rỗi mua vàng vật chất ngay tháng 5-7/1999.",
+      "en": "Knowing for certain the UK was about to dump gold at a 20-year low right before a 25-year bull market, put all spare cash into physical gold in May-July 1999."
+    },
+    "pitfalls": {
+      "vi": "Vàng không trả cổ tức và có những giai đoạn đi ngang kéo dài (như 2012-2018); nhà đầu tư cần kiên nhẫn qua nhiều thập kỷ để đạt lợi nhuận tối đa.",
+      "en": "Gold pays no dividend and had long flat stretches (e.g. 2012-2018); investors needed decades of patience to realise the full gain."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Anh đã bán vàng dự trữ với giá bình quân bao nhiêu USD/ounce trong giai đoạn 1999-2002?",
+        "en": "At what average price did the UK sell its gold reserves from 1999-2002?"
+      },
+      "choices": [
+        {
+          "vi": "850 USD",
+          "en": "$850"
+        },
+        {
+          "vi": "275 USD",
+          "en": "$275"
+        },
+        {
+          "vi": "1000 USD",
+          "en": "$1,000"
+        },
+        {
+          "vi": "100 USD",
+          "en": "$100"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Anh bán 395 tấn vàng với giá bình quân 275 USD/ounce, gần đáy 20 năm của giá vàng.",
+        "en": "The UK sold 395 tonnes of gold at an average $275/oz, near a 20-year low for the metal."
+      }
+    },
+    "sources": [
+      {
+        "title": "BBC: Gold — Gordon Brown's sale remains controversial 20 years on",
+        "url": "https://www.bbc.com/news/business-48177767"
+      },
+      {
+        "title": "Wikipedia: 1999-2002 sale of British gold reserves",
+        "url": "https://en.wikipedia.org/wiki/1999%E2%80%932002_sale_of_British_gold_reserves"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "395 tonnes sold 1999-2002 at avg $275/oz, announcement 7 May 1999 at $282.40/oz, low of $252.80 on 20 Jul 1999, confirmed via BBC and Wikipedia."
+  },
+  {
+    "id": "gb-dotcom-peak-ftse-2000",
+    "country": "gb",
+    "date": "1999-12-30",
+    "category": "stocks",
+    "title": {
+      "vi": "FTSE 100 lập đỉnh lịch sử cuối bong bóng dot-com",
+      "en": "FTSE 100 hits record dot-com-era high"
+    },
+    "summary": {
+      "vi": "FTSE 100 đóng cửa kỷ lục 6930,2 điểm ngày 30/12/1999, mốc không bị vượt qua cho đến năm 2015.",
+      "en": "The FTSE 100 closed a record 6930.2 on 30 Dec 1999 — a high not beaten again until 2015."
+    },
+    "description": {
+      "vi": "Nhờ cơn sốt cổ phiếu công nghệ và internet, FTSE 100 lập đỉnh đóng cửa lịch sử 6930,2 điểm vào ngày 30/12/1999. Từ cuối tháng 3/1995 đến cuối tháng 3/2000, chỉ số này tăng hơn gấp đôi (+108%). Tuy nhiên đỉnh này không bị vượt qua cho đến tháng 2/2015 — 15 năm sau — do bong bóng dot-com sụp đổ ngay sau đó.",
+      "en": "Fuelled by the tech and internet stock mania, the FTSE 100 closed at a record 6930.2 on 30 December 1999. From end-March 1995 to end-March 2000, the index more than doubled (+108%). That peak was not surpassed again until February 2015 — 15 years later — because the dot-com bubble burst shortly after."
+    },
+    "opportunity": {
+      "asset": "FTSE 100 index",
+      "action": {
+        "vi": "Bán toàn bộ cổ phiếu công nghệ/internet UK trước khi bong bóng vỡ",
+        "en": "Sell out of UK tech/internet names before the bubble popped"
+      },
+      "buyWhen": {
+        "vi": "Không mua thêm cổ phiếu công nghệ cuối 1999",
+        "en": "Avoid adding to tech positions in late 1999"
+      },
+      "sellWhen": {
+        "vi": "Thoát vị thế trước hoặc ngay tại đỉnh 30/12/1999",
+        "en": "Exit before or right at the 30 Dec 1999 peak"
+      },
+      "estimatedReturn": {
+        "vi": "Tránh được khoản lỗ ~53% trong 3 năm sau đó",
+        "en": "Avoided a ~53% drawdown over the next three years"
+      },
+      "entryPrice": 6930.2,
+      "priceCurrency": "points",
+      "exitDate": "1999-12-30",
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết chính xác bong bóng dot-com sẽ sụp đổ ngay sau Tết 2000, bán khống chỉ số FTSE 100 hoặc các cổ phiếu công nghệ/viễn thông (như BT, Marconi, Vodafone) ngay tại đỉnh tháng 12/1999.",
+      "en": "Knowing the dot-com bubble would burst right after New Year 2000, short the FTSE 100 or tech/telecom names (BT, Marconi, Vodafone) right at the December 1999 peak."
+    },
+    "pitfalls": {
+      "vi": "Rất khó xác định chính xác thời điểm đỉnh khi đang ở giữa cơn sốt; nhiều nhà đầu tư bán khống quá sớm (1998) đã bị 'squeeze' nặng trước khi thị trường cuối cùng đảo chiều.",
+      "en": "Timing the exact top is hard while euphoria is peaking; investors who shorted too early (1998) were badly squeezed before the market eventually turned."
+    },
+    "quiz": {
+      "question": {
+        "vi": "FTSE 100 lập đỉnh lịch sử khi nào trong cơn sốt dot-com?",
+        "en": "When did the FTSE 100 hit its dot-com-era record high?"
+      },
+      "choices": [
+        {
+          "vi": "30/12/1999",
+          "en": "30 December 1999"
+        },
+        {
+          "vi": "12/3/2003",
+          "en": "12 March 2003"
+        },
+        {
+          "vi": "9/3/2009",
+          "en": "9 March 2009"
+        },
+        {
+          "vi": "23/6/2016",
+          "en": "23 June 2016"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "FTSE 100 đóng cửa ở mức kỷ lục 6930,2 điểm vào 30/12/1999.",
+        "en": "The FTSE 100 closed at a record 6930.2 on 30 Dec 1999."
+      }
+    },
+    "sources": [
+      {
+        "title": "IG: Average Returns of the FTSE 100 (largest drawdowns)",
+        "url": "https://www.ig.com/ae/trading-strategies/what-are-the-average-returns-of-the-ftse-100--200529"
+      },
+      {
+        "title": "Nivritee: UK FTSE 100 1999-2003 fall",
+        "url": "https://nivritee.com/research/market-crashes-and-recovery-times"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Record close of 6930.2 on 30 Dec 1999, not surpassed until Feb 2015, confirmed via IG and independent market-history summary."
+  },
+  {
+    "id": "gb-ftse-dotcom-trough-2003",
+    "country": "gb",
+    "date": "2003-03-12",
+    "category": "stocks",
+    "title": {
+      "vi": "FTSE 100 chạm đáy bong bóng dot-com",
+      "en": "FTSE 100 bottoms out after the dot-com crash"
+    },
+    "summary": {
+      "vi": "FTSE 100 chạm đáy 3287 điểm ngày 12/3/2003, giảm 52,6% từ đỉnh — rồi tăng 40,6% trong 12 tháng sau.",
+      "en": "The FTSE 100 bottomed at 3287 on 12 March 2003, down 52.6% from its peak — then rose 40.6% over the next 12 months."
+    },
+    "description": {
+      "vi": "Sau khi bong bóng dot-com nổ, chiến tranh Iraq bắt đầu và niềm tin nhà đầu tư sụp đổ hậu sự kiện 11/9, FTSE 100 chạm đáy 3287 điểm vào ngày 12/3/2003 — mức giảm 52,6% so với đỉnh 6930,2 của tháng 12/1999, mức sụt giảm đỉnh-đáy lớn nhất trong lịch sử chỉ số này. Cổ phiếu BT Group giảm hơn 85% so với đỉnh. Sau khi chạm đáy, FTSE 100 tăng 40,6% trong 12 tháng tiếp theo.",
+      "en": "After the dot-com bubble burst, the Iraq War began, and investor confidence collapsed post-9/11, the FTSE 100 bottomed at 3287 on 12 March 2003 — a 52.6% fall from its December 1999 peak of 6930.2, the index's largest-ever peak-to-trough drawdown. BT Group shares fell over 85% from their peak. After bottoming, the FTSE 100 rose 40.6% over the following 12 months."
+    },
+    "opportunity": {
+      "asset": "FTSE 100 index",
+      "action": {
+        "vi": "Mua mạnh chỉ số FTSE 100 hoặc cổ phiếu blue-chip đã giảm giá",
+        "en": "Buy aggressively into the FTSE 100 or beaten-down blue chips"
+      },
+      "buyWhen": {
+        "vi": "Mua quanh đáy 12/3/2003 ở mức 3287 điểm",
+        "en": "Buy around the 12 March 2003 bottom at 3287"
+      },
+      "sellWhen": {
+        "vi": "Chốt lời sau 12 tháng khi chỉ số tăng hơn 40%, hoặc giữ tới đỉnh 2007",
+        "en": "Take profit after 12 months once the index rose over 40%, or hold toward the 2007 peak"
+      },
+      "estimatedReturn": {
+        "vi": "+40,6% trong 12 tháng sau đáy",
+        "en": "+40.6% in the 12 months after the bottom"
+      },
+      "returnMultiple": 1.41,
+      "entryPrice": 3287,
+      "exitPrice": 4622,
+      "priceCurrency": "points",
+      "exitDate": "2004-03",
+      "risk": "medium",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết chính xác ngày đáy thị trường trùng với thời điểm bắt đầu chiến tranh Iraq, dồn toàn bộ vốn mua chỉ số FTSE 100 ngày 12/3/2003 — đây là một trong những điểm mua tốt nhất trong lịch sử thị trường Anh hiện đại.",
+      "en": "Knowing the exact market bottom coincided with the start of the Iraq War, deploy all capital into the FTSE 100 on 12 March 2003 — one of the best entry points in modern UK market history."
+    },
+    "pitfalls": {
+      "vi": "Rất khó bắt đáy chính xác giữa lúc tâm lý bi quan cực độ; nhiều nhà đầu tư đã bán tháo đúng lúc gần đáy vì sợ hãi.",
+      "en": "Catching the exact bottom amid extreme pessimism is very hard; many investors capitulated and sold right near the low out of fear."
+    },
+    "quiz": {
+      "question": {
+        "vi": "FTSE 100 chạm đáy ở mức bao nhiêu điểm vào tháng 3/2003?",
+        "en": "At what level did the FTSE 100 bottom out in March 2003?"
+      },
+      "choices": [
+        {
+          "vi": "6930",
+          "en": "6930"
+        },
+        {
+          "vi": "3287",
+          "en": "3287"
+        },
+        {
+          "vi": "3512",
+          "en": "3512"
+        },
+        {
+          "vi": "5806",
+          "en": "5806"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "FTSE 100 chạm đáy 3287 điểm ngày 12/3/2003, giảm 52,6% từ đỉnh lịch sử.",
+        "en": "The FTSE 100 bottomed at 3287 on 12 March 2003, down 52.6% from its all-time high."
+      }
+    },
+    "sources": [
+      {
+        "title": "IG: Average Returns of the FTSE 100",
+        "url": "https://www.ig.com/ae/trading-strategies/what-are-the-average-returns-of-the-ftse-100--200529"
+      },
+      {
+        "title": "This is Money: The fall and rise of the Footsie",
+        "url": "https://www.thisismoney.co.uk/money/markets/article-1593716/The-fall-and-rise-of-the-Footsie.html"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Trough of 3287 on 12 Mar 2003, -52.6% drawdown and +40.6% next-12-month return confirmed via IG; BT -85% confirmed via IG/investinglive."
+  },
+  {
+    "id": "gb-northern-rock-run-2007",
+    "country": "gb",
+    "date": "2007-09-14",
+    "category": "business",
+    "title": {
+      "vi": "Northern Rock — Lần rút tiền hàng loạt đầu tiên sau 150 năm",
+      "en": "Northern Rock — first UK bank run in 150 years"
+    },
+    "summary": {
+      "vi": "Ngày 14/9/2007, khách hàng xếp hàng rút tiền khỏi Northern Rock, cổ phiếu giảm 30% trong một ngày, báo hiệu khủng hoảng tài chính toàn cầu.",
+      "en": "On 14 Sept 2007 depositors queued to pull cash from Northern Rock, shares fell 30% in a day, foreshadowing the global financial crisis."
+    },
+    "description": {
+      "vi": "Ngày 13/9/2007, tin tức Northern Rock cần hỗ trợ khẩn cấp từ Ngân hàng Trung ương Anh bị rò rỉ, dẫn đến đợt rút tiền hàng loạt đầu tiên tại một ngân hàng Anh trong 150 năm. Ngày 14/9, khách hàng xếp hàng dài trước 76 chi nhánh để rút tiền, cổ phiếu giảm 30% trong ngày. Bộ trưởng Tài chính Alistair Darling phải bảo lãnh toàn bộ tiền gửi ngày 17/9 để ngăn hoảng loạn. Northern Rock bị quốc hữu hóa tháng 2/2008 — một trong những dấu hiệu sớm nhất của khủng hoảng tài chính toàn cầu 2007-2009.",
+      "en": "On 13 Sept 2007, news leaked that Northern Rock needed emergency Bank of England support, triggering the first run on a UK bank in 150 years. On 14 Sept, customers queued outside its 76 branches to withdraw savings, and shares fell 30% that day. Chancellor Alistair Darling had to guarantee all deposits on 17 Sept to stop the panic. Northern Rock was nationalised in February 2008 — one of the earliest signals of the 2007-2009 global financial crisis."
+    },
+    "opportunity": {
+      "asset": "Northern Rock plc shares / UK bank stocks",
+      "action": {
+        "vi": "Bán khống cổ phiếu Northern Rock và các ngân hàng Anh phụ thuộc vốn vay liên ngân hàng",
+        "en": "Short Northern Rock and UK banks dependent on wholesale funding"
+      },
+      "buyWhen": {
+        "vi": "Mở vị thế bán khống đầu/giữa 2007 khi khủng hoảng tín dụng dưới chuẩn Mỹ bắt đầu lan rộng",
+        "en": "Open shorts in early/mid-2007 as the US subprime credit crunch began spreading"
+      },
+      "sellWhen": {
+        "vi": "Đóng vị thế khi cổ phiếu bị đình chỉ giao dịch và quốc hữu hóa tháng 2/2008",
+        "en": "Close out when shares were suspended and the bank nationalised in Feb 2008"
+      },
+      "estimatedReturn": {
+        "vi": "Cổ phiếu Northern Rock mất gần như toàn bộ giá trị trước khi bị quốc hữu hóa",
+        "en": "Northern Rock shares lost almost all value before nationalisation"
+      },
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết trước mô hình huy động vốn bán buôn (wholesale funding) của Northern Rock sẽ sụp đổ ngay khi thị trường liên ngân hàng đóng băng, bán khống cổ phiếu từ giữa năm 2007 — trước cả khi tin tức rò rỉ công khai ngày 13/9.",
+      "en": "Knowing Northern Rock's wholesale-funding model would collapse the moment interbank markets froze, short the stock from mid-2007 — well before the leak became public on 13 Sept."
+    },
+    "pitfalls": {
+      "vi": "Chính phủ Anh có thể can thiệp bảo lãnh đột ngột (như đã làm ngày 17/9), khiến vị thế bán khống gặp rủi ro bị siết nếu thị trường phục hồi niềm tin tạm thời.",
+      "en": "The government could abruptly intervene with guarantees (as it did on 17 Sept), creating squeeze risk for shorts if confidence temporarily recovered."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Northern Rock là ngân hàng Anh đầu tiên trong bao nhiêu năm bị rút tiền hàng loạt?",
+        "en": "Northern Rock was the first UK bank in how many years to suffer a bank run?"
+      },
+      "choices": [
+        {
+          "vi": "10 năm",
+          "en": "10 years"
+        },
+        {
+          "vi": "50 năm",
+          "en": "50 years"
+        },
+        {
+          "vi": "150 năm",
+          "en": "150 years"
+        },
+        {
+          "vi": "300 năm",
+          "en": "300 years"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "Đây là lần rút tiền hàng loạt đầu tiên tại một ngân hàng Anh trong 150 năm, theo Thư viện Nghị viện Anh.",
+        "en": "It was the first bank run on a British bank in 150 years, per the House of Commons Library."
+      }
+    },
+    "sources": [
+      {
+        "title": "UK Parliament Commons Library: Bank rescues of 2007-09",
+        "url": "https://commonslibrary.parliament.uk/research-briefings/sn05748/"
+      },
+      {
+        "title": "Northern Rock FINAL REPORT (data.parliament.uk)",
+        "url": "https://data.parliament.uk/DepositedPapers/Files/DEP2009-0710/DEP2009-0710.pdf"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "14 Sept 2007 run, 30% share price drop, first UK bank run in 150 years, 17 Sept guarantee confirmed via UK Parliament Commons Library and official report."
+  },
+  {
+    "id": "gb-rbs-lloyds-bailout-2008",
+    "country": "gb",
+    "date": "2008-10-13",
+    "category": "macro",
+    "title": {
+      "vi": "Gói giải cứu ngân hàng Anh 2008",
+      "en": "The 2008 UK bank bailout"
+    },
+    "summary": {
+      "vi": "13/10/2008, Chính phủ Anh bơm 37 tỷ bảng vào RBS, Lloyds/HBOS; RBS mất 87% giá trị cổ phiếu trong năm.",
+      "en": "On 13 Oct 2008 the UK pumped £37bn into RBS and Lloyds/HBOS; RBS shares lost 87% of their value that year."
+    },
+    "description": {
+      "vi": "Ngày 7/10/2008, cổ phiếu RBS giảm 35% chỉ trong buổi sáng khi CEO Fred Goodwin đang thuyết trình; ngân hàng gần như cạn tiền ngay chiều hôm đó. Ngày 13/10/2008, Chính phủ Anh công bố gói 37 tỷ bảng để tái cấp vốn cho RBS (20 tỷ bảng ban đầu, sau tăng lên 45,5 tỷ bảng, nắm 84% cổ phần) cùng Lloyds TSB/HBOS (sáp nhập, nhận 17 tỷ bảng). Trong năm 2008, cổ phiếu RBS mất 87% giá trị. Đây là một trong những sự kiện quốc hữu hóa ngân hàng lớn nhất lịch sử nước Anh.",
+      "en": "On 7 Oct 2008, RBS shares fell 35% in a single morning while CEO Fred Goodwin was mid-presentation; the bank nearly ran out of cash that same afternoon. On 13 Oct 2008, the UK government announced a £37bn package to recapitalise RBS (£20bn initially, later rising to £45.5bn for an 84% stake) and Lloyds TSB/HBOS (which merged, receiving £17bn). RBS shares lost 87% of their value over 2008 — one of the largest bank nationalisation events in British history."
+    },
+    "opportunity": {
+      "asset": "Royal Bank of Scotland (RBS.L) / Lloyds Banking Group (LLOY.L)",
+      "action": {
+        "vi": "Bán khống cổ phiếu RBS/HBOS trước tháng 10/2008; sau đó mua lại cổ phần giá rẻ của Lloyds sau giải cứu",
+        "en": "Short RBS/HBOS before October 2008, then buy discounted Lloyds shares post-bailout"
+      },
+      "buyWhen": {
+        "vi": "Mở vị thế bán khống giữa 2008 khi khủng hoảng Lehman lan rộng; mua lại Lloyds/RBS cuối 2009-2010 khi giá hồi phục",
+        "en": "Short mid-2008 as the Lehman crisis spread; buy back into Lloyds/RBS late 2009-2010 as prices recovered"
+      },
+      "sellWhen": {
+        "vi": "Đóng vị thế bán khống ngay trước/trong ngày 13/10/2008 khi tin giải cứu được công bố",
+        "en": "Close the short right before/on 13 Oct 2008 when the bailout news broke"
+      },
+      "estimatedReturn": {
+        "vi": "RBS giảm 87% giá trị trong năm 2008 — mức lãi tiềm năng khổng lồ cho vị thế bán khống",
+        "en": "RBS fell 87% in 2008 — a huge potential short-side gain"
+      },
+      "priceCurrency": "GBP",
+      "risk": "high",
+      "capital": "high"
+    },
+    "insiderTip": {
+      "vi": "Biết trước RBS sẽ gần như phá sản chỉ trong một buổi sáng ngày 7/10/2008, bán khống cổ phiếu từ đầu năm 2008 và đóng vị thế đúng lúc tin giải cứu được công bố để tránh short-squeeze từ đợt bơm vốn nhà nước.",
+      "en": "Knowing RBS would nearly collapse in a single morning on 7 Oct 2008, short from early 2008 and close out right as the bailout news broke, to avoid a short squeeze from the state capital injection."
+    },
+    "pitfalls": {
+      "vi": "Chính phủ có thể can thiệp bất cứ lúc nào, gây short-squeeze đột ngột; cổ phần nhà nước tại RBS vẫn chưa được bán hết hoàn toàn hàng chục năm sau, chứng tỏ hồi phục rất chậm.",
+      "en": "Government intervention could trigger a sudden short squeeze at any time; the state's RBS stake still wasn't fully sold off decades later, showing how slow the recovery was."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Chính phủ Anh bơm bao nhiêu tiền tái cấp vốn ban đầu cho các ngân hàng ngày 13/10/2008?",
+        "en": "How much did the UK government initially inject to recapitalise banks on 13 Oct 2008?"
+      },
+      "choices": [
+        {
+          "vi": "5 tỷ bảng",
+          "en": "£5bn"
+        },
+        {
+          "vi": "37 tỷ bảng",
+          "en": "£37bn"
+        },
+        {
+          "vi": "100 tỷ bảng",
+          "en": "£100bn"
+        },
+        {
+          "vi": "1 tỷ bảng",
+          "en": "£1bn"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Ngày 13/10/2008, Anh công bố gói 37 tỷ bảng để tái cấp vốn RBS, Lloyds TSB và HBOS.",
+        "en": "On 13 Oct 2008 the UK announced a £37bn package to recapitalise RBS, Lloyds TSB and HBOS."
+      }
+    },
+    "sources": [
+      {
+        "title": "UK Commons Library: RBS bailout — 10 years and counting",
+        "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-11728/"
+      },
+      {
+        "title": "Reuters 2008: Bailout to take big stakes in RBS and HBOS",
+        "url": "https://www.reuters.com/article/markets/wealth/bailout-to-take-big-stakes-in-rbs-and-hbos-idUSLNE49800E/"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "£37bn initial package, 7 Oct 35% intraday RBS fall, 87% full-year decline, 84% eventual state stake confirmed via UK Parliament Commons Library and Reuters."
+  },
+  {
+    "id": "gb-woolworths-collapse-2008",
+    "country": "gb",
+    "date": "2008-11-26",
+    "category": "business",
+    "title": {
+      "vi": "Woolworths Anh phá sản — domino bán lẻ đầu tiên",
+      "en": "Woolworths UK collapses — first retail domino"
+    },
+    "summary": {
+      "vi": "26/11/2008, Woolworths vào diện quản lý phá sản với nợ 385 triệu bảng; toàn bộ 807 cửa hàng đóng cửa đầu năm 2009, 27.000 người mất việc.",
+      "en": "On 26 Nov 2008 Woolworths entered administration with £385m of debt; all 807 stores closed by early 2009, 27,000 jobs lost."
+    },
+    "description": {
+      "vi": "Ngày 26/11/2008, cổ phiếu Woolworths Group bị đình chỉ giao dịch và công ty vào diện quản lý phá sản với khoản nợ 385 triệu bảng, sau khi các ngân hàng cho vay từ chối tái cấp vốn giữa khủng hoảng tín dụng. Toàn bộ 807 cửa hàng đóng cửa theo từng đợt từ 27/12/2008 đến 6/1/2009, khiến 27.000 nhân viên mất việc. Đây được coi là 'quân cờ domino đầu tiên' của làn sóng sụp đổ bán lẻ trên phố cao (high street) Anh trong và sau khủng hoảng tài chính.",
+      "en": "On 26 Nov 2008, Woolworths Group's shares were suspended and the company entered administration with £385m of debt, after lenders refused to refinance it amid the credit crunch. All 807 stores closed in stages from 27 Dec 2008 to 6 Jan 2009, costing 27,000 jobs. It is widely seen as 'the first domino' of the UK high-street retail collapse during and after the financial crisis."
+    },
+    "opportunity": {
+      "asset": "Woolworths Group plc shares",
+      "action": {
+        "vi": "Bán khống/tránh cổ phiếu Woolworths và các chuỗi bán lẻ phố cao nợ nhiều",
+        "en": "Short or avoid Woolworths and other heavily indebted high-street retailers"
+      },
+      "buyWhen": {
+        "vi": "Không áp dụng — đây là vị thế tránh/short",
+        "en": "N/A — this is an avoid/short play"
+      },
+      "sellWhen": {
+        "vi": "Thoát toàn bộ vị thế cổ phiếu trước tháng 11/2008 khi tín dụng thắt chặt rõ rệt",
+        "en": "Exit all equity positions before Nov 2008 as credit conditions visibly tightened"
+      },
+      "estimatedReturn": {
+        "vi": "Tránh được khoản lỗ gần như 100% khi cổ phiếu về 0",
+        "en": "Avoided a near-100% loss as the stock went to zero"
+      },
+      "risk": "high",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Biết trước mô hình bán lẻ đa dạng hóa kiểu cũ (đĩa nhạc, đồ chơi, kẹo) của Woolworths sẽ không trụ nổi trước Amazon và các chuỗi giảm giá như Primark/Poundland, bán khống cổ phiếu từ đầu 2008 trước khi khủng hoảng tín dụng giáng đòn cuối cùng.",
+      "en": "Knowing Woolworths' old-style diversified retail model (music, toys, pick'n'mix) couldn't survive Amazon and discounters like Primark, short the stock from early 2008 before the credit crunch delivered the final blow."
+    },
+    "pitfalls": {
+      "vi": "Thương hiệu Woolworths vẫn tồn tại trực tuyến dưới Shop Direct sau khi được mua lại tháng 2/2009, nên vị thế bán khống cần đóng đúng lúc công ty mẹ vào diện phá sản, không chờ thương hiệu biến mất hoàn toàn.",
+      "en": "The Woolworths brand survived online under Shop Direct after a Feb 2009 purchase, so the short needed closing when the parent entered administration, not when the brand fully vanished."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Bao nhiêu cửa hàng Woolworths tại Anh đã đóng cửa trong vụ phá sản 2008-2009?",
+        "en": "How many UK Woolworths stores closed in the 2008-2009 collapse?"
+      },
+      "choices": [
+        {
+          "vi": "100",
+          "en": "100"
+        },
+        {
+          "vi": "400",
+          "en": "400"
+        },
+        {
+          "vi": "807",
+          "en": "807"
+        },
+        {
+          "vi": "1500",
+          "en": "1500"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "Toàn bộ 807 cửa hàng Woolworths tại Anh đóng cửa trong giai đoạn 27/12/2008 đến 6/1/2009.",
+        "en": "All 807 UK Woolworths stores closed between 27 Dec 2008 and 6 Jan 2009."
+      }
+    },
+    "sources": [
+      {
+        "title": "Wikipedia: Woolworths (United Kingdom)",
+        "url": "https://en.wikipedia.org/wiki/Woolworths_(United_Kingdom)"
+      },
+      {
+        "title": "BBC: Final Woolworths stores shut down",
+        "url": "http://news.bbc.co.uk/1/hi/business/7811187.stm"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "26 Nov 2008 administration, £385m debt, 807 stores closed 27 Dec 2008-6 Jan 2009, 27,000 jobs lost confirmed via Wikipedia and BBC contemporary report."
+  },
+  {
+    "id": "gb-ftse-low-2009",
+    "country": "gb",
+    "date": "2009-03-03",
+    "category": "stocks",
+    "title": {
+      "vi": "FTSE 100 chạm đáy khủng hoảng tài chính toàn cầu",
+      "en": "FTSE 100 bottoms out in the global financial crisis"
+    },
+    "summary": {
+      "vi": "FTSE 100 chạm đáy 3512 điểm đầu tháng 3/2009, giảm 49,3% từ đỉnh — rồi tăng 64,1% trong 12 tháng tiếp theo.",
+      "en": "The FTSE 100 bottomed at 3512 in early March 2009, down 49.3% from its peak — then rallied 64.1% over the next 12 months."
+    },
+    "description": {
+      "vi": "Từ đỉnh 6731 điểm (10/2007), FTSE 100 lao dốc suốt khủng hoảng tài chính toàn cầu, chạm đáy 3512 điểm vào đầu tháng 3/2009 (một số nguồn ghi 9/3, một số ghi 3/3 — tuần giao dịch quanh mốc 3500-3512), giảm khoảng 49,3% so với đỉnh. Chỉ số Dow Jones Mỹ cũng chạm đáy cùng thời điểm (9/3/2009). Sau khi tạo đáy, FTSE 100 tăng 64,1% trong 12 tháng tiếp theo nhờ các gói nới lỏng định lượng (QE) của Ngân hàng Trung ương Anh.",
+      "en": "From its October 2007 peak of 6731, the FTSE 100 slid throughout the global financial crisis, bottoming at 3512 in early March 2009 (sources cite both 3 and 9 March, within the same ~3500-3512 trading range), down about 49.3% from its peak. The US Dow Jones also bottomed around the same time (9 Mar 2009). After bottoming, the FTSE 100 rallied 64.1% over the following 12 months, fuelled by the Bank of England's quantitative easing programme."
+    },
+    "opportunity": {
+      "asset": "FTSE 100 index",
+      "action": {
+        "vi": "Mua mạnh chỉ số FTSE 100 và cổ phiếu ngân hàng bị bán tháo quá mức",
+        "en": "Buy aggressively into the FTSE 100 and oversold bank stocks"
+      },
+      "buyWhen": {
+        "vi": "Mua quanh đáy đầu tháng 3/2009 ở mức 3512 điểm",
+        "en": "Buy around the early March 2009 bottom at 3512"
+      },
+      "sellWhen": {
+        "vi": "Giữ ít nhất 12 tháng để hưởng đợt hồi phục +64%, hoặc dài hạn hơn tới đỉnh mới 2013+",
+        "en": "Hold at least 12 months to capture the +64% rally, or longer toward new highs from 2013 onward"
+      },
+      "estimatedReturn": {
+        "vi": "+64,1% trong 12 tháng sau đáy",
+        "en": "+64.1% in the 12 months after the bottom"
+      },
+      "returnMultiple": 1.641,
+      "entryPrice": 3512,
+      "exitPrice": 5763,
+      "priceCurrency": "points",
+      "exitDate": "2010-03",
+      "risk": "medium",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết trước Ngân hàng Trung ương Anh sắp tung chương trình nới lỏng định lượng (QE) lần đầu tiên trong lịch sử ngay tháng 3/2009, mua mạnh cổ phiếu ngân hàng và chỉ số FTSE 100 đúng lúc thị trường hoảng loạn cực độ.",
+      "en": "Knowing the Bank of England was about to launch its first-ever quantitative easing programme that same March 2009, buy heavily into bank stocks and the FTSE 100 at peak panic."
+    },
+    "pitfalls": {
+      "vi": "Tâm lý thị trường cực kỳ bi quan khiến việc bắt đáy rất khó; nhiều ngân hàng lớn (RBS, Lloyds) vẫn cần nhiều năm để phục hồi hoàn toàn, một số cổ phiếu ngân hàng chưa bao giờ trở lại mức đỉnh trước khủng hoảng.",
+      "en": "Extreme market pessimism made bottom-fishing very hard; major banks (RBS, Lloyds) took years to fully recover, and some bank shares never returned to pre-crisis highs."
+    },
+    "quiz": {
+      "question": {
+        "vi": "FTSE 100 giảm bao nhiêu phần trăm từ đỉnh đến đáy khủng hoảng tài chính 2007-2009?",
+        "en": "By what percentage did the FTSE 100 fall peak-to-trough in the 2007-2009 financial crisis?"
+      },
+      "choices": [
+        {
+          "vi": "~10%",
+          "en": "~10%"
+        },
+        {
+          "vi": "~25%",
+          "en": "~25%"
+        },
+        {
+          "vi": "~49%",
+          "en": "~49%"
+        },
+        {
+          "vi": "~90%",
+          "en": "~90%"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "FTSE 100 giảm khoảng 49,3% từ đỉnh tháng 10/2007 đến đáy tháng 3/2009 ở mức 3512 điểm.",
+        "en": "The FTSE 100 fell about 49.3% from its October 2007 peak to its March 2009 trough of 3512."
+      }
+    },
+    "sources": [
+      {
+        "title": "IG: Average Returns of the FTSE 100 (largest drawdowns)",
+        "url": "https://www.ig.com/ae/trading-strategies/what-are-the-average-returns-of-the-ftse-100--200529"
+      },
+      {
+        "title": "Wikipedia: United States bear market of 2007-2009 (FTSE data)",
+        "url": "https://en.wikipedia.org/wiki/United_States_bear_market_of_2007%E2%80%932009"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "FTSE 100 trough of 3512 in early March 2009, -49.3% drawdown, +64.1% next-12-month rally confirmed via IG and Wikipedia cross-market data."
+  },
+  {
+    "id": "gb-brexit-referendum-2016",
+    "country": "gb",
+    "date": "2016-06-23",
+    "category": "macro",
+    "title": {
+      "vi": "Trưng cầu dân ý Brexit — Bảng Anh rơi tự do",
+      "en": "Brexit referendum — the pound's freefall"
+    },
+    "summary": {
+      "vi": "23/6/2016, Anh bỏ phiếu rời EU; đồng Bảng rơi hơn 10% trong một đêm, từ 1,50 xuống dưới 1,32 USD — thấp nhất 31 năm.",
+      "en": "On 23 June 2016 the UK voted to leave the EU; the pound crashed over 10% overnight from $1.50 to below $1.32 — a 31-year low."
+    },
+    "description": {
+      "vi": "Ngày 23/6/2016, cử tri Anh bỏ phiếu rời Liên minh châu Âu với tỷ lệ 51,9%-48,1%. Đồng Bảng, vốn đạt đỉnh 1,50 USD ngay khi các điểm bỏ phiếu đóng cửa (dự đoán 'Remain' thắng), đã sụp đổ hơn 10% trong vài giờ khi kết quả kiểm phiếu cho thấy phe 'Leave' thắng thế, chạm đáy dưới 1,32 USD — mức thấp nhất trong 31 năm — đây là mức giảm trong ngày lớn nhất trong lịch sử của đồng tiền này. FTSE 100 giảm từ 6338 xuống 5806 trong 10 phút đầu phiên 24/6 trước khi hồi phục một phần.",
+      "en": "On 23 June 2016, British voters chose to leave the European Union by 51.9% to 48.1%. The pound, which had spiked to $1.50 as polls closed (on expectations of a 'Remain' win), collapsed over 10% within hours as results showed 'Leave' pulling ahead, bottoming below $1.32 — a 31-year low and sterling's largest-ever one-day fall. The FTSE 100 fell from 6338 to 5806 in the first 10 minutes of trading on 24 June before partially recovering."
+    },
+    "opportunity": {
+      "asset": "GBP/USD",
+      "action": {
+        "vi": "Bán khống đồng Bảng Anh ngay khi kết quả kiểm phiếu bắt đầu nghiêng về 'Leave'",
+        "en": "Short the British pound as soon as vote counts began tilting toward 'Leave'"
+      },
+      "buyWhen": {
+        "vi": "Mở vị thế bán khống GBP/USD đêm 23/6/2016 khi kết quả Sunderland/Newcastle công bố cho thấy xu hướng Leave",
+        "en": "Open the GBP/USD short on the night of 23 June 2016 as Sunderland/Newcastle results signalled a Leave trend"
+      },
+      "sellWhen": {
+        "vi": "Đóng vị thế khi GBP chạm đáy dưới 1,32 USD rạng sáng 24/6/2016",
+        "en": "Close out once GBP bottomed below $1.32 in the early hours of 24 June 2016"
+      },
+      "estimatedReturn": {
+        "vi": "Hơn +10% trên vị thế bán khống GBP trong vài giờ",
+        "en": "Over +10% on a GBP short position within hours"
+      },
+      "entryPrice": 1.5,
+      "exitPrice": 1.3229,
+      "priceCurrency": "USD",
+      "exitDate": "2016-06-24",
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết chắc chắn kết quả 'Leave' sẽ thắng, bán khống đồng Bảng ngay từ đầu buổi tối kiểm phiếu (thay vì chờ các cuộc thăm dò exit poll gây nhiễu) để tối đa hóa lợi nhuận trước khi thị trường kịp phản ứng đầy đủ.",
+      "en": "Knowing for certain 'Leave' would win, short the pound right at the start of vote counting (rather than waiting on misleading exit polls) to maximise profit before the market fully reacted."
+    },
+    "pitfalls": {
+      "vi": "Biến động cực lớn trong vài giờ khiến việc thực thi lệnh khó khăn (thanh khoản mỏng lúc nửa đêm); nhiều quỹ đã bị thiệt hại nặng vì đặt cược sai hướng dựa theo các cuộc thăm dò dự đoán 'Remain' thắng.",
+      "en": "Extreme volatility within hours made execution difficult (thin overnight liquidity); many funds were badly burned betting the wrong way based on polls predicting a 'Remain' win."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Đồng Bảng Anh giảm xuống mức thấp nhất bao nhiêu năm sau trưng cầu dân ý Brexit?",
+        "en": "The pound fell to its lowest level in how many years after the Brexit vote?"
+      },
+      "choices": [
+        {
+          "vi": "5 năm",
+          "en": "5 years"
+        },
+        {
+          "vi": "10 năm",
+          "en": "10 years"
+        },
+        {
+          "vi": "31 năm",
+          "en": "31 years"
+        },
+        {
+          "vi": "100 năm",
+          "en": "100 years"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "Đồng Bảng chạm đáy dưới 1,32 USD, mức thấp nhất trong 31 năm, ngay sau khi kết quả trưng cầu dân ý được công bố.",
+        "en": "The pound bottomed below $1.32, a 31-year low, immediately after the referendum result."
+      }
+    },
+    "sources": [
+      {
+        "title": "Wikipedia: 2015-2016 stock market selloff (Brexit section)",
+        "url": "https://en.wikipedia.org/wiki/2015%E2%80%932016_stock_market_selloff"
+      },
+      {
+        "title": "MarketWatch: How the pound can find a silver lining",
+        "url": "https://www.marketwatch.com/story/how-the-pound-can-find-a-silver-lining-in-europes-2017-stormclouds-2016-12-23"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "23 June 2016 vote, GBP/USD fall from ~$1.50 to below $1.32 (31-year low), FTSE 100 intraday drop confirmed via Wikipedia and MarketWatch."
+  },
+  {
+    "id": "gb-arm-softbank-buyout-2016",
+    "country": "gb",
+    "date": "2016-07-18",
+    "category": "technology",
+    "title": {
+      "vi": "SoftBank thâu tóm ARM với giá 24,3 tỷ bảng",
+      "en": "SoftBank's £24.3bn acquisition of ARM"
+    },
+    "summary": {
+      "vi": "18/7/2016, SoftBank đồng ý mua ARM Holdings giá 1700p/cổ phiếu — cao hơn 43% so với giá đóng cửa trước đó.",
+      "en": "On 18 July 2016 SoftBank agreed to buy ARM Holdings at 1700p a share — a 43% premium to its prior close."
+    },
+    "description": {
+      "vi": "Ngày 18/7/2016, tập đoàn SoftBank của Nhật Bản công bố thỏa thuận mua lại toàn bộ ARM Holdings — nhà thiết kế chip hàng đầu Cambridge cung cấp kiến trúc cho hầu hết điện thoại thông minh thế giới — với giá 1700 pence/cổ phiếu bằng tiền mặt, tổng giá trị khoảng 24,3 tỷ bảng (32 tỷ USD). Mức giá này cao hơn 43% so với giá đóng cửa 1189p ngày 15/7/2016 và cao hơn 41,1% so với đỉnh lịch sử 1205p (16/3/2015). Đây là thương vụ thâu tóm công ty công nghệ châu Âu lớn nhất từ trước đến nay vào thời điểm đó.",
+      "en": "On 18 July 2016, Japan's SoftBank announced an all-cash deal to acquire ARM Holdings — the Cambridge chip-design firm whose architecture powers most of the world's smartphones — for 1700 pence per share, valuing it at roughly £24.3bn ($32bn). The price was a 43% premium to the 1189p closing price on 15 July 2016 and a 41.1% premium to the all-time-high closing price of 1205p (16 March 2015). It was then the largest-ever acquisition of a European technology company."
+    },
+    "opportunity": {
+      "asset": "ARM Holdings (ARM.L)",
+      "action": {
+        "vi": "Mua cổ phiếu ARM trước khi tin thâu tóm được công bố",
+        "en": "Buy ARM shares before the takeover announcement"
+      },
+      "buyWhen": {
+        "vi": "Mua trước ngày 15/7/2016, khi giá đóng cửa ở mức 1189p",
+        "en": "Buy before 15 July 2016, when the stock closed at 1189p"
+      },
+      "sellWhen": {
+        "vi": "Bán/chấp nhận chào mua khi thương vụ hoàn tất (quý 3/2016) ở giá 1700p/cổ phiếu",
+        "en": "Sell/accept the offer when the deal closed (Q3 2016) at 1700p per share"
+      },
+      "estimatedReturn": {
+        "vi": "+43% chỉ trong vài ngày khi tin thâu tóm được công bố",
+        "en": "+43% within days of the takeover announcement"
+      },
+      "returnMultiple": 1.43,
+      "entryPrice": 11.89,
+      "exitPrice": 17.0,
+      "priceCurrency": "GBP",
+      "exitDate": "2016-09",
+      "risk": "medium",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết chính xác ngày 18/7/2016 SoftBank sẽ công bố giá chào mua 1700p, mua tối đa cổ phiếu ARM ngay trước đó — đây là một trong những khoản lợi nhuận chênh lệch giá (merger arbitrage) chắc chắn nhất lịch sử M&A công nghệ Anh.",
+      "en": "Knowing the exact date (18 July 2016) SoftBank would announce its 1700p offer, buy as much ARM stock as possible right beforehand — one of the surest merger-arbitrage payoffs in UK tech M&A history."
+    },
+    "pitfalls": {
+      "vi": "Thương vụ cần được cổ đông ARM và tòa án Anh phê duyệt nên vẫn có rủi ro đổ vỡ lý thuyết (dù trong thực tế đã hoàn tất suôn sẻ); mua cổ phiếu ngay sau khi tin rò rỉ (nếu có) sẽ làm giảm biên lợi nhuận.",
+      "en": "The deal required ARM shareholder and English court approval, so there was theoretical break risk (though it closed smoothly in practice); buying after any leak reduced the margin of profit."
+    },
+    "quiz": {
+      "question": {
+        "vi": "SoftBank trả bao nhiêu tiền mặt cho mỗi cổ phiếu ARM trong thương vụ 2016?",
+        "en": "How much cash per share did SoftBank pay for ARM in the 2016 deal?"
+      },
+      "choices": [
+        {
+          "vi": "575p",
+          "en": "575p"
+        },
+        {
+          "vi": "1189p",
+          "en": "1189p"
+        },
+        {
+          "vi": "1700p",
+          "en": "1700p"
+        },
+        {
+          "vi": "5000p",
+          "en": "5000p"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "SoftBank trả 1700 pence/cổ phiếu tiền mặt, tổng giá trị thương vụ khoảng 24,3 tỷ bảng.",
+        "en": "SoftBank paid 1700 pence per share in cash, valuing the deal at roughly £24.3bn."
+      }
+    },
+    "sources": [
+      {
+        "title": "SoftBank press release: Recommended Acquisition of ARM",
+        "url": "https://group.softbank/en/news/press/20160718"
+      },
+      {
+        "title": "Sky News: iPhone Chip Supplier ARM In £24bn Takeover Deal",
+        "url": "https://news.sky.com/story/iphone-chip-supplier-arm-in-24bn-takeover-deal-10504914"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "1700p/share, £24.3bn deal value, 43% premium to 1189p close, 41.1% premium to all-time high confirmed via official SoftBank press release."
+  },
+  {
+    "id": "gb-rolls-royce-covid-crash-2020",
+    "country": "gb",
+    "date": "2020-10-02",
+    "category": "stocks",
+    "title": {
+      "vi": "Rolls-Royce rơi về đáy lịch sử trong đại dịch",
+      "en": "Rolls-Royce hits a record low amid the pandemic"
+    },
+    "summary": {
+      "vi": "Cổ phiếu Rolls-Royce rơi xuống 39p vào 2/10/2020, giảm hơn 80% từ đỉnh 2018, sau khi ngành hàng không toàn cầu tê liệt vì Covid.",
+      "en": "Rolls-Royce shares collapsed to 39p on 2 Oct 2020, down over 80% from 2018 highs, as the pandemic grounded global aviation."
+    },
+    "description": {
+      "vi": "Rolls-Royce kiếm phần lớn doanh thu từ dịch vụ bảo dưỡng động cơ máy bay tính theo giờ bay. Đại dịch Covid-19 khiến ngành hàng không gần như đóng băng, đẩy cổ phiếu từ đỉnh 375p (8/2018) xuống chỉ còn 38,98p vào ngày 2/10/2020 — giảm hơn 195p, tức hơn 80%. Công ty lỗ gần 4 tỷ bảng năm 2020, cắt 7.000 việc làm, và phát hành 6,4 tỷ cổ phiếu mới tháng 10/2020 (tỷ lệ 10 cổ phiếu mới giá 32p cho mỗi 3 cổ phiếu cũ) để huy động 2 tỷ bảng, pha loãng mạnh cổ đông hiện hữu.",
+      "en": "Rolls-Royce earns most of its revenue servicing jet engines by flying hours. The Covid-19 pandemic brought global aviation to a near-standstill, driving the stock from a peak of 375p (Aug 2018) down to just 38.98p on 2 Oct 2020 — a fall of over 195p, or more than 80%. The company lost almost £4bn in 2020, cut 7,000 jobs, and in October 2020 issued 6.4 billion new shares (10 new shares at 32p for every 3 held) to raise £2bn, heavily diluting existing shareholders."
+    },
+    "opportunity": {
+      "asset": "Rolls-Royce Holdings (RR.L)",
+      "action": {
+        "vi": "Mua cổ phiếu Rolls-Royce ở vùng đáy đại dịch",
+        "en": "Buy Rolls-Royce shares at the pandemic-era bottom"
+      },
+      "buyWhen": {
+        "vi": "Mua quanh đáy 2/10/2020 ở mức 38,98p",
+        "en": "Buy around the 2 Oct 2020 bottom of 38.98p"
+      },
+      "sellWhen": {
+        "vi": "Chốt lời khi cổ phiếu hồi phục về khoảng 90-100p cuối 2022/đầu 2023, trước khi đợt tái cấu trúc thực sự bắt đầu",
+        "en": "Take an interim profit once shares recovered to around 90-100p by late 2022/early 2023, before the real turnaround began"
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng +130% từ đáy 39p lên khoảng 90p cuối 2022/đầu 2023",
+        "en": "About +130% from the 39p low to around 90p by late 2022/early 2023"
+      },
+      "returnMultiple": 2.3,
+      "entryPrice": 0.39,
+      "exitPrice": 0.9,
+      "priceCurrency": "GBP",
+      "exitDate": "2023-01",
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết trước ngành hàng không sẽ dần phục hồi sau đại dịch, dồn vốn mua mạnh ở vùng đáy 38-40p cuối 2020 và giữ ít nhất đến đầu 2023 khi công ty bắt đầu ổn định dưới CEO mới.",
+      "en": "Knowing aviation would gradually recover post-pandemic, buy heavily at the 38-40p bottom in late 2020 and hold at least into early 2023 as the company began stabilising under new leadership."
+    },
+    "pitfalls": {
+      "vi": "Việc phát hành thêm 6,4 tỷ cổ phiếu mới năm 2020 làm pha loãng mạnh; giá cổ phiếu còn giảm thêm tới đầu 2021 (-40% từ tháng 12/2020 đến tháng 1/2021) trước khi phục hồi thực sự bắt đầu từ 2023.",
+      "en": "The 2020 issuance of 6.4bn new shares heavily diluted holders; the price fell further into early 2021 (-40% from Dec 2020 to Jan 2021) before the real recovery began in 2023."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Cổ phiếu Rolls-Royce chạm đáy ở mức giá nào trong đại dịch Covid?",
+        "en": "At what price did Rolls-Royce shares bottom out during the Covid pandemic?"
+      },
+      "choices": [
+        {
+          "vi": "375p",
+          "en": "375p"
+        },
+        {
+          "vi": "232p",
+          "en": "232p"
+        },
+        {
+          "vi": "~39p",
+          "en": "~39p"
+        },
+        {
+          "vi": "742p",
+          "en": "742p"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "Cổ phiếu Rolls-Royce chạm đáy 38,98p vào ngày 2/10/2020.",
+        "en": "Rolls-Royce shares bottomed at 38.98p on 2 October 2020."
+      }
+    },
+    "sources": [
+      {
+        "title": "Motley Fool UK: The Rolls-Royce share price is crashing in April!",
+        "url": "https://fool.co.uk/2021/04/21/the-rolls-royce-share-price-is-crashing-in-april-should-i-buy-rr-today"
+      },
+      {
+        "title": "Yahoo Finance: Rolls-Royce shares are nudging higher",
+        "url": "https://finance.yahoo.com/news/rolls-royce-shares-nudging-higher-120243844.html"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "38.98p low on 2 Oct 2020, 6.4bn new shares at 32p (Oct 2020 rights issue) confirmed via Motley Fool UK and Yahoo Finance contemporary reports."
+  },
+  {
+    "id": "gb-fca-crypto-derivatives-ban-2020",
+    "country": "gb",
+    "date": "2020-10-06",
+    "category": "crypto",
+    "title": {
+      "vi": "FCA cấm bán phái sinh tiền mã hóa cho nhà đầu tư cá nhân",
+      "en": "FCA bans crypto derivatives for retail investors"
+    },
+    "summary": {
+      "vi": "6/10/2020, FCA công bố lệnh cấm bán CFD/phái sinh tiền mã hóa cho nhà đầu tư cá nhân, có hiệu lực từ 6/1/2021.",
+      "en": "On 6 Oct 2020 the FCA announced a ban on selling crypto CFDs/derivatives to retail investors, effective 6 Jan 2021."
+    },
+    "description": {
+      "vi": "Ngày 6/10/2020, Cơ quan Quản lý Tài chính Anh (FCA) công bố quy định cấm bán, phân phối và quảng cáo các sản phẩm phái sinh (CFD, quyền chọn, hợp đồng tương lai) và chứng chỉ giao dịch (ETN) tham chiếu tới tiền mã hóa chưa được quản lý cho khách hàng cá nhân tại Anh, với lý do biến động giá quá lớn và khó định giá đáng tin cậy. Lệnh cấm có hiệu lực từ 6/1/2021, ngay trước khi Bitcoin bước vào đợt tăng giá kỷ lục lên gần 69.000 USD cuối 2021.",
+      "en": "On 6 Oct 2020, the UK Financial Conduct Authority (FCA) published final rules banning the sale, distribution and marketing of derivatives (CFDs, options, futures) and exchange-traded notes (ETNs) referencing unregulated cryptoassets to UK retail clients, citing extreme volatility and the inherent difficulty of reliably valuing them. The ban took effect 6 Jan 2021 — right before Bitcoin entered a record rally toward almost $69,000 in late 2021."
+    },
+    "opportunity": {
+      "asset": "Bitcoin (BTC) / crypto CFDs and ETNs available to UK retail",
+      "action": {
+        "vi": "Mua Bitcoin trực tiếp (không qua CFD/ETN) trước khi lệnh cấm có hiệu lực, hoặc chuyển sang nắm giữ tài sản thực thay vì phái sinh",
+        "en": "Buy Bitcoin directly (not via CFD/ETN) ahead of the ban, or shift from derivatives to holding the real asset"
+      },
+      "buyWhen": {
+        "vi": "Mua Bitcoin trực tiếp cuối 2020 khi giá quanh 10.000-13.000 USD",
+        "en": "Buy Bitcoin directly in late 2020 around $10,000-13,000"
+      },
+      "sellWhen": {
+        "vi": "Chốt lời gần đỉnh tháng 11/2021 khi Bitcoin đạt gần 69.000 USD",
+        "en": "Take profit near the November 2021 peak when Bitcoin hit almost $69,000"
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng +5 đến +6 lần trong vòng một năm với Bitcoin nắm giữ trực tiếp",
+        "en": "Roughly 5-6x within a year holding Bitcoin directly"
+      },
+      "returnMultiple": 5.5,
+      "priceCurrency": "USD",
+      "exitDate": "2021-11",
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết trước FCA sắp siết chặt quản lý phái sinh tiền mã hóa nhưng Bitcoin bản thân sẽ không bị cấm, chuyển hoàn toàn từ CFD sang mua và giữ Bitcoin thực trước ngày 6/1/2021 để vừa tránh lệnh cấm vừa hưởng trọn đợt tăng giá kỷ lục cuối 2021.",
+      "en": "Knowing the FCA would crack down on crypto derivatives but not ban Bitcoin itself, shift entirely from CFDs to buying and holding real Bitcoin before 6 Jan 2021 — sidestepping the ban while catching the full late-2021 record rally."
+    },
+    "pitfalls": {
+      "vi": "Lệnh cấm chỉ áp dụng cho sản phẩm phái sinh, không áp dụng cho việc sở hữu trực tiếp tiền mã hóa — nhiều nhà đầu tư hiểu nhầm và rút hoàn toàn khỏi thị trường, bỏ lỡ đợt tăng giá sau đó; thị trường crypto cũng sụp đổ mạnh năm 2022.",
+      "en": "The ban applied only to derivative products, not direct crypto ownership — many investors misunderstood this and exited the market entirely, missing the subsequent rally; the crypto market also crashed hard in 2022."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Lệnh cấm của FCA đối với phái sinh tiền mã hóa cho nhà đầu tư cá nhân có hiệu lực từ ngày nào?",
+        "en": "When did the FCA's ban on crypto derivatives for retail investors take effect?"
+      },
+      "choices": [
+        {
+          "vi": "6/10/2020",
+          "en": "6 October 2020"
+        },
+        {
+          "vi": "6/1/2021",
+          "en": "6 January 2021"
+        },
+        {
+          "vi": "1/1/2020",
+          "en": "1 January 2020"
+        },
+        {
+          "vi": "31/1/2020",
+          "en": "31 January 2020"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Quy định được công bố ngày 6/10/2020 nhưng chính thức có hiệu lực từ 6/1/2021.",
+        "en": "The rules were announced on 6 Oct 2020 but came into force on 6 Jan 2021."
+      }
+    },
+    "sources": [
+      {
+        "title": "FCA: FCA bans the sale of crypto-derivatives to retail consumers",
+        "url": "https://www.fca.org.uk/news/press-releases/fca-bans-sale-crypto-derivatives-retail-consumers"
+      },
+      {
+        "title": "FCA PS20/10 policy statement",
+        "url": "https://www.fca.org.uk/publication/policy/ps20-10.pdf"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Announced 6 Oct 2020, effective 6 Jan 2021, confirmed directly via official FCA press release and policy statement PDF."
+  },
+  {
+    "id": "gb-astrazeneca-oxford-vaccine-2020",
+    "country": "gb",
+    "date": "2020-11-23",
+    "category": "business",
+    "title": {
+      "vi": "Vaccine Oxford/AstraZeneca được công bố hiệu quả",
+      "en": "Oxford/AstraZeneca vaccine results announced"
+    },
+    "summary": {
+      "vi": "23/11/2020, AstraZeneca công bố vaccine Covid-19 hiệu quả 70,4%; MHRA Anh phê duyệt khẩn cấp ngày 30/12/2020 — sớm nhất thế giới.",
+      "en": "On 23 Nov 2020 AstraZeneca announced its Covid-19 vaccine was 70.4% effective; UK regulator MHRA approved it on 30 Dec 2020 — the world's first."
+    },
+    "description": {
+      "vi": "Ngày 23/11/2020, AstraZeneca và Đại học Oxford công bố kết quả thử nghiệm giai đoạn III cho thấy vaccine AZD1222 (sau này là Covid-19 Vaccine AstraZeneca) đạt hiệu quả tổng thể 70,4% trong việc ngăn ngừa Covid-19 có triệu chứng, với phác đồ nửa liều sau đó một liều đầy đủ đạt hiệu quả tới 90%. Ngày 30/12/2020, Cơ quan Quản lý Dược phẩm Anh (MHRA) phê duyệt khẩn cấp vaccine này — là quốc gia đầu tiên trên thế giới phê duyệt vaccine Oxford/AstraZeneca. Mũi tiêm đầu tiên được thực hiện ngày 4/1/2021. Vaccine này được cung cấp phi lợi nhuận trong đại dịch.",
+      "en": "On 23 Nov 2020, AstraZeneca and the University of Oxford announced Phase III trial results showing their AZD1222 vaccine (later 'Covid-19 Vaccine AstraZeneca') had an overall 70.4% efficacy against symptomatic Covid-19, with a half-dose-then-full-dose regimen reaching 90% efficacy. On 30 Dec 2020, the UK's MHRA granted emergency authorisation — the first country in the world to approve the Oxford/AstraZeneca vaccine. The first jab was administered on 4 Jan 2021. The vaccine was supplied on a not-for-profit basis during the pandemic."
+    },
+    "opportunity": {
+      "asset": "AstraZeneca plc (AZN.L)",
+      "action": {
+        "vi": "Mua cổ phiếu AstraZeneca trước khi kết quả thử nghiệm tích cực được công bố",
+        "en": "Buy AstraZeneca shares ahead of the positive trial results"
+      },
+      "buyWhen": {
+        "vi": "Mua trong giai đoạn thử nghiệm Covid tháng 4-11/2020, trước thông báo 23/11/2020",
+        "en": "Buy during the Covid trial period Apr-Nov 2020, before the 23 Nov 2020 announcement"
+      },
+      "sellWhen": {
+        "vi": "Chốt lời sau khi được phê duyệt và vaccine được triển khai rộng rãi đầu-giữa 2021",
+        "en": "Take profit after approval and wide rollout in early-mid 2021"
+      },
+      "estimatedReturn": {
+        "vi": "Uy tín toàn cầu và doanh thu từ vaccine giúp củng cố vị thế blue-chip của AstraZeneca, dù giá cổ phiếu tăng khiêm tốn hơn Pfizer/Moderna do cam kết phi lợi nhuận",
+        "en": "Global reputation and vaccine revenue cemented AstraZeneca's blue-chip status, though shares rose more modestly than Pfizer/Moderna given its not-for-profit pledge"
+      },
+      "priceCurrency": "GBP",
+      "risk": "medium",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết trước vaccine Oxford/AstraZeneca sẽ là vaccine giá rẻ, dễ bảo quản được triển khai rộng khắp thế giới đang phát triển (dù lợi nhuận hạn chế do cam kết phi lợi nhuận), tập trung đầu tư vào danh mục dược phẩm rộng hơn của AstraZeneca thay vì chỉ kỳ vọng lợi nhuận ngắn hạn từ riêng vaccine.",
+      "en": "Knowing the Oxford/AstraZeneca vaccine would become a cheap, easy-to-store jab distributed across the developing world (though with limited profit given its not-for-profit pledge), focus on AstraZeneca's broader drug pipeline rather than expecting a short-term windfall from the vaccine alone."
+    },
+    "pitfalls": {
+      "vi": "Vì cam kết cung cấp phi lợi nhuận trong đại dịch, cổ phiếu AstraZeneca không tăng vọt như các đối thủ Mỹ (Pfizer/Moderna); các lo ngại hiếm gặp về cục máu đông năm 2021 cũng gây áp lực ngắn hạn lên cổ phiếu và niềm tin công chúng.",
+      "en": "Because of its not-for-profit pandemic pledge, AstraZeneca's stock didn't spike as much as its US rivals (Pfizer/Moderna); rare blood-clot concerns in 2021 also pressured the shares and public trust short-term."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Vaccine Oxford/AstraZeneca được MHRA phê duyệt khẩn cấp vào ngày nào?",
+        "en": "On what date did the MHRA grant emergency approval for the Oxford/AstraZeneca vaccine?"
+      },
+      "choices": [
+        {
+          "vi": "23/11/2020",
+          "en": "23 November 2020"
+        },
+        {
+          "vi": "30/12/2020",
+          "en": "30 December 2020"
+        },
+        {
+          "vi": "4/1/2021",
+          "en": "4 January 2021"
+        },
+        {
+          "vi": "1/3/2020",
+          "en": "1 March 2020"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "MHRA phê duyệt khẩn cấp vaccine ngày 30/12/2020, sau khi hiệu quả 70,4% được công bố ngày 23/11/2020.",
+        "en": "The MHRA granted emergency approval on 30 Dec 2020, after the 70.4% efficacy data was announced on 23 Nov 2020."
+      }
+    },
+    "sources": [
+      {
+        "title": "AstraZeneca: COVID-19 vaccine authorised for emergency supply in the UK",
+        "url": "https://www.astrazeneca.com/media-centre/press-releases/2020/astrazenecas-covid-19-vaccine-authorised-in-uk.html"
+      },
+      {
+        "title": "gov.uk: Oxford University/AstraZeneca COVID-19 vaccine approved",
+        "url": "https://www.gov.uk/government/news/oxford-universityastrazeneca-covid-19-vaccine-approved"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "23 Nov 2020 70.4% efficacy announcement and 30 Dec 2020 MHRA approval confirmed via official AstraZeneca and gov.uk press releases."
+  },
+  {
+    "id": "gb-liz-truss-mini-budget-2022",
+    "country": "gb",
+    "date": "2022-09-23",
+    "category": "macro",
+    "title": {
+      "vi": "Mini-budget của Liz Truss gây khủng hoảng trái phiếu",
+      "en": "Liz Truss's mini-budget triggers a gilt crisis"
+    },
+    "summary": {
+      "vi": "23/9/2022, gói cắt giảm thuế 45 tỷ bảng của Truss khiến Bảng Anh rơi xuống kỷ lục 1,03 USD và lợi suất trái phiếu tăng vọt.",
+      "en": "On 23 Sept 2022, Truss's £45bn unfunded tax-cut package sent the pound to a record low of $1.03 and gilt yields soaring."
+    },
+    "description": {
+      "vi": "Ngày 23/9/2022, tân Thủ tướng Liz Truss và Bộ trưởng Tài chính Kwasi Kwarteng công bố 'mini-budget' với gói cắt giảm thuế không có nguồn bù đắp trị giá khoảng 45 tỷ bảng — lớn nhất trong 50 năm. Thị trường phản ứng dữ dội: đồng Bảng rơi xuống mức thấp kỷ lục mọi thời đại 1,03 USD vào ngày 26/9; lợi suất trái phiếu chính phủ (gilt) kỳ hạn 30 năm tăng vọt lên mức cao nhất 20 năm. Ngân hàng Trung ương Anh buộc phải can thiệp khẩn cấp ngày 28/9, mua 19,3 tỷ bảng trái phiếu dài hạn để ngăn chặn khủng hoảng thanh khoản trong các quỹ hưu trí sử dụng chiến lược LDI. Truss từ chức chỉ 49 ngày sau khi nhậm chức.",
+      "en": "On 23 Sept 2022, new PM Liz Truss and Chancellor Kwasi Kwarteng unveiled a 'mini-budget' with roughly £45bn of unfunded tax cuts — the biggest in 50 years. Markets reacted violently: the pound fell to an all-time record low of $1.03 on 26 Sept; 30-year gilt yields spiked to a 20-year high. The Bank of England was forced to intervene emergency on 28 Sept, buying £19.3bn of long-dated gilts to stop a liquidity crisis among pension funds using LDI strategies. Truss resigned just 49 days after taking office."
+    },
+    "opportunity": {
+      "asset": "GBP/USD, UK 30-year gilts",
+      "action": {
+        "vi": "Bán khống đồng Bảng và trái phiếu chính phủ Anh (gilt) trước ngày công bố mini-budget",
+        "en": "Short the pound and UK government bonds (gilts) ahead of the mini-budget announcement"
+      },
+      "buyWhen": {
+        "vi": "Mở vị thế bán khống GBP/gilt ngay trước/trong ngày 23/9/2022",
+        "en": "Open GBP/gilt shorts right before/on 23 Sept 2022"
+      },
+      "sellWhen": {
+        "vi": "Đóng vị thế khi GBP chạm đáy kỷ lục 1,03 USD ngày 26/9/2022, trước khi Ngân hàng Trung ương Anh can thiệp ngày 28/9",
+        "en": "Close out once GBP hit its record low of $1.03 on 26 Sept 2022, before the Bank of England intervened on 28 Sept"
+      },
+      "estimatedReturn": {
+        "vi": "Bảng Anh giảm khoảng 9% từ 1,13 xuống 1,03 USD trong vài ngày",
+        "en": "The pound fell about 9% from $1.13 to $1.03 within days"
+      },
+      "entryPrice": 1.13,
+      "exitPrice": 1.03,
+      "priceCurrency": "USD",
+      "exitDate": "2022-09-26",
+      "risk": "high",
+      "capital": "high"
+    },
+    "insiderTip": {
+      "vi": "Biết chắc chắn thị trường trái phiếu sẽ phản ứng cực đoan và Ngân hàng Trung ương Anh sẽ phải can thiệp khẩn cấp trong vòng 5 ngày, bán khống GBP và gilt dài hạn ngay ngày 23/9/2022 rồi đóng vị thế đúng lúc trước khi BoE công bố chương trình mua trái phiếu ngày 28/9.",
+      "en": "Knowing for certain the bond market would react extremely and the Bank of England would be forced into emergency intervention within five days, short GBP and long gilts right on 23 Sept 2022 and close out just before the BoE's 28 Sept bond-buying announcement."
+    },
+    "pitfalls": {
+      "vi": "Biến động cực lớn trong thời gian ngắn khiến quản trị rủi ro rất khó; việc Ngân hàng Trung ương can thiệp đột ngột có thể gây short-squeeze nghiêm trọng nếu giữ vị thế quá lâu.",
+      "en": "Extreme short-term volatility made risk management very hard; the sudden central-bank intervention could trigger a severe short squeeze if the position was held too long."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Đồng Bảng Anh chạm mức thấp kỷ lục nào so với USD sau mini-budget của Liz Truss?",
+        "en": "To what record low did the pound fall against the dollar after Liz Truss's mini-budget?"
+      },
+      "choices": [
+        {
+          "vi": "1,50 USD",
+          "en": "$1.50"
+        },
+        {
+          "vi": "1,32 USD",
+          "en": "$1.32"
+        },
+        {
+          "vi": "1,03 USD",
+          "en": "$1.03"
+        },
+        {
+          "vi": "0,80 USD",
+          "en": "$0.80"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "Đồng Bảng chạm đáy kỷ lục mọi thời đại 1,03 USD vào ngày 26/9/2022, sau mini-budget của Truss.",
+        "en": "The pound hit an all-time record low of $1.03 on 26 Sept 2022, following Truss's mini-budget."
+      }
+    },
+    "sources": [
+      {
+        "title": "Lords Library: Stability in the financial markets",
+        "url": "https://lordslibrary.parliament.uk/stability-in-the-financial-markets-impact-on-pensions-mortgages-and-the-rental-market/"
+      },
+      {
+        "title": "CNBC: 3 charts showing the market turmoil during Truss' tenure",
+        "url": "https://www.cnbc.com/2022/10/21/3-charts-showing-the-market-turmoil-wreaked-during-uk-pm-truss-tenure.html"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "23 Sept 2022 mini-budget, $1.03 record low on 26 Sept, BoE £19.3bn gilt intervention from 28 Sept confirmed via UK Parliament Lords Library and CNBC."
+  },
+  {
+    "id": "gb-rolls-royce-turnaround-2023-2025",
+    "country": "gb",
+    "date": "2023-01",
+    "category": "stocks",
+    "title": {
+      "vi": "Rolls-Royce lội ngược dòng ngoạn mục 2023-2025",
+      "en": "Rolls-Royce's dramatic 2023-2025 turnaround"
+    },
+    "summary": {
+      "vi": "Dưới CEO mới Tufan Erginbilgic (từ 1/2023), cổ phiếu Rolls-Royce tăng từ ~93p lên đỉnh lịch sử 742p — gấp gần 8 lần.",
+      "en": "Under new CEO Tufan Erginbilgic (from Jan 2023), Rolls-Royce shares rose from ~93p to an all-time high of 742p — nearly 8x."
+    },
+    "description": {
+      "vi": "Tufan Erginbilgic tiếp quản vị trí CEO Rolls-Royce vào tháng 1/2023, gọi công ty là 'nền tảng đang bốc cháy' cần cải tổ khẩn cấp, khi cổ phiếu giao dịch quanh 90-100p. Nhờ cắt giảm chi phí, tối ưu thương mại và ngành hàng không phục hồi mạnh, lợi nhuận cơ bản tăng từ 652 triệu bảng (2022) lên 1,6 tỷ bảng (2023) rồi 2,46 tỷ bảng (2024). Cổ phiếu tăng hơn 200% chỉ trong năm đầu tiên của Erginbilgic, đạt đỉnh lịch sử 742p vào tháng 2/2025 sau kết quả năm 2024 vượt kỳ vọng và công bố chia cổ tức trở lại sau 5 năm tạm dừng — mức tăng gấp gần 8 lần từ đáy đầu nhiệm kỳ.",
+      "en": "Tufan Erginbilgic took over as Rolls-Royce CEO in January 2023, calling the company a 'burning platform' needing urgent reform, with shares trading around 90-100p. Through cost cuts, commercial optimisation and a strong aviation recovery, underlying profit rose from £652m (2022) to £1.6bn (2023) to £2.46bn (2024). The stock rose over 200% in Erginbilgic's first year alone, hitting an all-time high of 742p in February 2025 after 2024 results beat expectations and the company reinstated dividends after a five-year pause — nearly an 8x gain from the start of his tenure."
+    },
+    "opportunity": {
+      "asset": "Rolls-Royce Holdings (RR.L)",
+      "action": {
+        "vi": "Mua cổ phiếu Rolls-Royce ngay khi Tufan Erginbilgic nhậm chức CEO",
+        "en": "Buy Rolls-Royce shares right as Tufan Erginbilgic took over as CEO"
+      },
+      "buyWhen": {
+        "vi": "Mua đầu tháng 1/2023 ở khoảng 93p, khi Erginbilgic vừa công bố kế hoạch tái cấu trúc",
+        "en": "Buy in early January 2023 at around 93p, as Erginbilgic unveiled his turnaround plan"
+      },
+      "sellWhen": {
+        "vi": "Chốt lời gần đỉnh lịch sử tháng 2/2025 ở khoảng 742p, sau kết quả 2024 kỷ lục",
+        "en": "Take profit near the February 2025 all-time high of around 742p, after record 2024 results"
+      },
+      "estimatedReturn": {
+        "vi": "Gần +700% (gấp gần 8 lần) trong hơn 2 năm",
+        "en": "Almost +700% (nearly 8x) in just over two years"
+      },
+      "returnMultiple": 7.98,
+      "entryPrice": 0.93,
+      "exitPrice": 7.42,
+      "priceCurrency": "GBP",
+      "exitDate": "2025-02",
+      "risk": "medium",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết trước Tufan Erginbilgic sẽ thực hiện cuộc tái cấu trúc hiệu quả nhất lịch sử công ty, mua mạnh cổ phiếu ngay khi ông nhậm chức tháng 1/2023 (giá chỉ 93p) và giữ xuyên suốt tới đỉnh lịch sử 742p đầu 2025 — một trong những câu chuyện lội ngược dòng tốt nhất của FTSE 100 thế kỷ 21.",
+      "en": "Knowing Tufan Erginbilgic would deliver the most effective turnaround in company history, buy heavily right as he took charge in January 2023 (at just 93p) and hold all the way to the February 2025 all-time high of 742p — one of the FTSE 100's great 21st-century comeback stories."
+    },
+    "pitfalls": {
+      "vi": "Ngành hàng không vẫn chịu rủi ro từ các sự cố kỹ thuật động cơ và chuỗi cung ứng; cổ phiếu có thể biến động mạnh theo tin tức về lỗi động cơ hoặc nhu cầu máy bay toàn cầu.",
+      "en": "The aviation sector remains exposed to engine technical issues and supply-chain risk; the stock can swing sharply on engine-defect news or global aircraft demand shifts."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Ai là CEO dẫn dắt cuộc lội ngược dòng của Rolls-Royce từ năm 2023?",
+        "en": "Who was the CEO who led Rolls-Royce's turnaround from 2023?"
+      },
+      "choices": [
+        {
+          "vi": "Warren East",
+          "en": "Warren East"
+        },
+        {
+          "vi": "Tufan Erginbilgic",
+          "en": "Tufan Erginbilgic"
+        },
+        {
+          "vi": "Fred Goodwin",
+          "en": "Fred Goodwin"
+        },
+        {
+          "vi": "Alistair Darling",
+          "en": "Alistair Darling"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Tufan Erginbilgic trở thành CEO Rolls-Royce tháng 1/2023 và dẫn dắt cổ phiếu tăng gần 8 lần đến đầu 2025.",
+        "en": "Tufan Erginbilgic became Rolls-Royce CEO in January 2023 and led the stock to an almost 8x gain by early 2025."
+      }
+    },
+    "sources": [
+      {
+        "title": "LinkedIn/afgwealth: Rolls-Royce's Two-Year Financial Resurgence (2023-2025)",
+        "url": "https://www.linkedin.com/pulse/rolls-royces-two-year-financial-resurgence-20232025-afgwealth-4arof"
+      },
+      {
+        "title": "Yahoo Finance: Rolls-Royce hits turnaround targets two years early",
+        "url": "https://finance.yahoo.com/news/rolls-royce-hits-turnaround-targets-113330094.html?fr=sycsrp_catchall"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Jan 2023 CEO start at ~93p, Feb 2025 all-time high of 742p confirmed via Yahoo Finance; profit figures (£652m->£1.6bn->£2.46bn) corroborated via businessplus.ie reporting."
+  }
+]

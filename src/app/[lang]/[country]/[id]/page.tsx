@@ -4,8 +4,8 @@ import { notFound } from "next/navigation";
 import { hasLocale, locales, t } from "@/lib/i18n";
 import { getDictionary } from "@/lib/dictionaries";
 import { allMilestones, getCountry, getMilestone, getMilestones } from "@/lib/data";
-import { formatDate, formatMoney, formatMultiple } from "@/lib/format";
-import { MultipleBadge, RiskBadge, UnverifiedBadge } from "@/components/Badges";
+import { formatDate, formatDrop, formatMoney, formatMultiple } from "@/lib/format";
+import { DropBadge, MultipleBadge, RiskBadge, UnverifiedBadge } from "@/components/Badges";
 import CheckButton from "@/components/CheckButton";
 
 export async function generateStaticParams() {
@@ -72,7 +72,11 @@ export default async function MilestonePage({ params }: PageProps<"/[lang]/[coun
           {m.summary && <p className="mt-4 max-w-2xl text-xl text-muted">{t(m.summary, lang)}</p>}
         </div>
         <div className="flex flex-col items-start gap-3 lg:items-end">
-          {o.returnMultiple ? <MultipleBadge text={formatMultiple(o.returnMultiple, lang)} large /> : null}
+          {o.returnMultiple && o.returnMultiple < 1 ? (
+            <DropBadge text={formatDrop(o.returnMultiple, lang)} label={tl.drop} large />
+          ) : o.returnMultiple ? (
+            <MultipleBadge text={formatMultiple(o.returnMultiple, lang)} large />
+          ) : null}
           <CheckButton id={m.id} label={tl.add} labelOn={tl.added} />
         </div>
       </header>
@@ -127,7 +131,7 @@ export default async function MilestonePage({ params }: PageProps<"/[lang]/[coun
                 </div>
               )}
             </dl>
-            {o.returnMultiple ? (
+            {o.returnMultiple && o.returnMultiple >= 1 ? (
               <div className="mt-5 rounded-xl bg-raised p-4 text-sm">
                 <span className="text-muted">
                   {formatMoney(c.stake.amount, c.stake.currency, lang)} {tl.whatIf} {tl.becomes}

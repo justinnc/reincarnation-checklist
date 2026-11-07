@@ -4,7 +4,11 @@
     "tagline": "Reborn in the past with every memory intact. Here is what to do with it.",
     "disclaimer": "For entertainment and education only. Not investment advice. Past returns are historical and approximate."
   },
-  "nav": { "timeline": "Timelines", "quiz": "Quiz", "checklist": "My checklist" },
+  "nav": {
+    "timeline": "Timelines",
+    "quiz": "Quiz",
+    "checklist": "My checklist"
+  },
   "home": {
     "kicker": "Trọng sinh · Reborn",
     "wakeUp": "You wake up in",
@@ -53,12 +57,22 @@
     "readMore": "Details",
     "add": "Add to checklist",
     "added": "On checklist",
-    "levels": { "low": "Low", "medium": "Medium", "high": "High" },
+    "levels": {
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High"
+    },
     "capital": "Capital needed",
     "categories": {
-      "stocks": "Stocks", "crypto": "Crypto", "real-estate": "Real estate", "technology": "Technology",
-      "business": "Business", "macro": "Macro", "commodities": "Commodities"
-    }
+      "stocks": "Stocks",
+      "crypto": "Crypto",
+      "real-estate": "Real estate",
+      "technology": "Technology",
+      "business": "Business",
+      "macro": "Macro",
+      "commodities": "Commodities"
+    },
+    "drop": "Price fell — the play is to sell, short or avoid"
   },
   "detail": {
     "back": "Back to timeline",
@@ -89,6 +103,11 @@
     "score": "Your score",
     "again": "Play again",
     "learn": "Read the milestone",
-    "ranks": ["Lost in time", "Lucky tourist", "Seasoned time traveller", "Prophet of the markets"]
+    "ranks": [
+      "Lost in time",
+      "Lucky tourist",
+      "Seasoned time traveller",
+      "Prophet of the markets"
+    ]
   }
 }

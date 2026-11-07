@@ -80,7 +80,7 @@ export default function Timeline({ milestones, lang, dict, cards }: Props) {
             <Chip active={sort === "return"} onClick={() => setSort("return")}>{dict.sortReturn}</Chip>
           </div>
         </div>
-        <div className="flex gap-2 overflow-x-auto pb-1">
+        <div className="no-scrollbar flex gap-2 overflow-x-auto pb-1">
           <Chip active={category === "all"} onClick={() => setCategory("all")}>{dict.all}</Chip>
           {usedCats.map((c) => (
             <Chip key={c} active={category === c} onClick={() => setCategory(c)}>

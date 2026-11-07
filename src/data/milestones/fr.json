@@ -1,0 +1,2012 @@
+[
+  {
+    "id": "fr-privatization-saint-gobain-1986",
+    "country": "fr",
+    "date": "1986-11-17",
+    "category": "business",
+    "title": {
+      "vi": "Tư nhân hóa Saint-Gobain 1986",
+      "en": "Saint-Gobain privatization 1986"
+    },
+    "summary": {
+      "vi": "Chính phủ Chirac bán Saint-Gobain với giá 310 franc/cổ phiếu, mở màn làn sóng tư nhân hóa Pháp.",
+      "en": "Chirac's government sold Saint-Gobain at FF310/share, kicking off France's big 1986-88 privatization wave."
+    },
+    "description": {
+      "vi": "Ngày 17/11/1986, Saint-Gobain trở thành doanh nghiệp đầu tiên được tư nhân hóa dưới chính phủ Jacques Chirac, với giá chào bán 310 franc/cổ phiếu. Cổ phiếu niêm yết lần đầu ngày 24/12/1986 ở mức 369 franc (+19%) và vượt 600 franc cuối năm 1988. 1,5 triệu người Pháp trở thành cổ đông, mở đường cho Paribas, TF1, Société Générale, CGE/Alcatel tư nhân hóa năm 1987.",
+      "en": "On 17 Nov 1986 Saint-Gobain became the first company privatized by Jacques Chirac's government, offered at FF310/share. It first traded on 24 Dec 1986 at FF369 (+19%) and topped FF600 by end-1988. 1.5 million French citizens became shareholders, paving the way for Paribas, TF1, Société Générale and CGE/Alcatel privatizations in 1987."
+    },
+    "opportunity": {
+      "asset": "Saint-Gobain (SGO.PA)",
+      "action": {
+        "vi": "Mua cổ phiếu trong đợt IPO tư nhân hóa",
+        "en": "Buy shares in the privatization IPO"
+      },
+      "buyWhen": {
+        "vi": "Ngày chào bán, tháng 11/1986, giá 310 franc",
+        "en": "At the Nov 1986 offer price of FF310"
+      },
+      "sellWhen": {
+        "vi": "Trước vụ sụp đổ Thứ Hai Đen tháng 10/1987, hoặc giữ dài hạn",
+        "en": "Before Black Monday Oct 1987, or hold long-term"
+      },
+      "estimatedReturn": {
+        "vi": "+19% ngay phiên đầu, gần gấp đôi cuối 1988",
+        "en": "+19% on debut, nearly doubled by end-1988"
+      },
+      "returnMultiple": 1.19,
+      "entryPrice": 310,
+      "exitPrice": 369,
+      "priceCurrency": "EUR",
+      "exitDate": "1986-12-24",
+      "risk": "low",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết trước đây là vụ IPO tư nhân hóa thành công nhất, oversubscribed 14 lần — đăng ký mua sớm và tối đa số lượng cho phép.",
+      "en": "Knowing this was the most oversubscribed (14x) privatization IPO of the era, apply early and for the maximum allowed allocation."
+    },
+    "pitfalls": {
+      "vi": "Thứ Hai Đen tháng 10/1987 (sụp đổ chứng khoán toàn cầu) xóa sạch phần lớn lợi nhuận của các cổ phiếu tư nhân hóa gần đây — cần chốt lời trước tháng 10/1987.",
+      "en": "Black Monday (Oct 1987) global crash wiped out much of the gains on recently privatized stocks — take profits before October 1987."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Giá chào bán cổ phiếu Saint-Gobain trong đợt tư nhân hóa 1986 là bao nhiêu?",
+        "en": "What was the Saint-Gobain privatization offer price in 1986?"
+      },
+      "choices": [
+        {
+          "vi": "150 franc",
+          "en": "FF150"
+        },
+        {
+          "vi": "600 franc",
+          "en": "FF600"
+        },
+        {
+          "vi": "1000 franc",
+          "en": "FF1000"
+        },
+        {
+          "vi": "310 franc",
+          "en": "FF310"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "vi": "Giá chào bán là 310 franc/cổ phiếu, niêm yết lần đầu ở mức 369 franc.",
+        "en": "The offer price was FF310/share; it debuted trading at FF369."
+      }
+    },
+    "sources": [
+      {
+        "title": "Saint-Gobain Archives — 1986: le pari réussi de la privatisation",
+        "url": "https://archives.saint-gobain.com/ressource/xxe/1986/1986-le-pari-reussi-de-la-privatisation"
+      },
+      {
+        "title": "Encyclopædia Universalis — Succès de la privatisation de Saint-Gobain",
+        "url": "https://www.universalis.fr/evenement/6-24-decembre-1986-succes-de-la-privatisation-de-saint-gobain/"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed offer price FF310, listing price FF369 on 24 Dec 1986, and >FF600 by end-1988 via Saint-Gobain official archives and Universalis."
+  },
+  {
+    "id": "fr-lvmh-formation-1987",
+    "country": "fr",
+    "date": "1987-06",
+    "category": "business",
+    "title": {
+      "vi": "LVMH ra đời từ sáp nhập 1987",
+      "en": "LVMH formed by 1987 merger"
+    },
+    "summary": {
+      "vi": "Louis Vuitton sáp nhập Moët Hennessy tạo ra đế chế xa xỉ lớn nhất thế giới — Bernard Arnault nắm quyền năm 1989.",
+      "en": "Louis Vuitton merged with Moët Hennessy to create the world's largest luxury empire; Bernard Arnault took control in 1989."
+    },
+    "description": {
+      "vi": "Năm 1987, Louis Vuitton và Moët Hennessy (vốn là sáp nhập Moët & Chandon với Hennessy năm 1971) hợp nhất thành LVMH, khi đó có 10 nhà mốt, 12.000 nhân viên và doanh thu 3 tỷ euro. Năm 1989, Bernard Arnault giành quyền kiểm soát qua một cuộc thâu tóm thù địch và trở thành Chủ tịch kiêm CEO, biến LVMH thành tập đoàn xa xỉ giá trị nhất thế giới trong ba thập niên sau đó.",
+      "en": "In 1987 Louis Vuitton merged with Moët Hennessy (itself formed from the 1971 Moët & Chandon/Hennessy merger) to create LVMH, then with 10 Maisons, 12,000 employees and €3bn in sales. In 1989 Bernard Arnault seized control via a hostile takeover and became Chairman/CEO, turning LVMH into the world's most valuable luxury conglomerate over the following three decades."
+    },
+    "opportunity": {
+      "asset": "LVMH (MC.PA)",
+      "action": {
+        "vi": "Mua và nắm giữ cổ phiếu LVMH ngay từ khi niêm yết, đặc biệt sau khi Arnault lên nắm quyền 1989",
+        "en": "Buy and hold LVMH stock from listing, especially after Arnault takes control in 1989"
+      },
+      "buyWhen": {
+        "vi": "1987-1989",
+        "en": "1987-1989"
+      },
+      "sellWhen": {
+        "vi": "Không bán — nắm giữ hàng thập kỷ",
+        "en": "Never sell — hold for decades"
+      },
+      "estimatedReturn": {
+        "vi": "Hàng chục lần trong 30+ năm nhờ tăng trưởng xa xỉ toàn cầu",
+        "en": "Tens-fold over 30+ years driven by global luxury growth"
+      },
+      "risk": "low",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Bernard Arnault — khi đó một nhà phát triển bất động sản ít tên tuổi — sẽ thâu tóm công ty năm 1989 và biến nó thành đế chế toàn cầu; mua cổ phần trước khi ông ta hành động.",
+      "en": "Bernard Arnault — then a little-known property developer — will seize control in 1989 and build it into a global empire; accumulate shares before he moves."
+    },
+    "pitfalls": {
+      "vi": "Giai đoạn đầu có tranh chấp quyền lực dữ dội giữa gia tộc sáng lập và Arnault, cổ phiếu biến động mạnh trước khi ông giành quyền kiểm soát.",
+      "en": "The early years saw a fierce power struggle between the founding families and Arnault, with volatile shares before he secured control."
+    },
+    "quiz": {
+      "question": {
+        "vi": "LVMH được thành lập từ sáp nhập giữa Louis Vuitton và công ty nào?",
+        "en": "LVMH was formed by merging Louis Vuitton with which company?"
+      },
+      "choices": [
+        {
+          "vi": "Christian Dior",
+          "en": "Christian Dior"
+        },
+        {
+          "vi": "Moët Hennessy",
+          "en": "Moët Hennessy"
+        },
+        {
+          "vi": "Hermès",
+          "en": "Hermès"
+        },
+        {
+          "vi": "Chanel",
+          "en": "Chanel"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "LVMH ra đời năm 1987 từ sáp nhập Moët Hennessy và Louis Vuitton.",
+        "en": "LVMH was created in 1987 from the merger of Moët Hennessy and Louis Vuitton."
+      }
+    },
+    "sources": [
+      {
+        "title": "LVMH — History",
+        "url": "https://www.lvmh.com/en/our-group/history"
+      },
+      {
+        "title": "Britannica — LVMH",
+        "url": "https://www.britannica.com/topic/LVMH"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed 1987 merger date, 10 Maisons/12,000 employees/€3bn sales figures, and 1989 Arnault takeover via LVMH official history and Britannica."
+  },
+  {
+    "id": "fr-black-monday-1987",
+    "country": "fr",
+    "date": "1987-10-19",
+    "category": "stocks",
+    "title": {
+      "vi": "Thứ Hai Đen tại Paris Bourse",
+      "en": "Black Monday hits the Paris Bourse"
+    },
+    "summary": {
+      "vi": "Chứng khoán Paris lao dốc gần 10% ngày 26/10 khi Thứ Hai Đen từ Wall Street lan sang châu Âu.",
+      "en": "Paris stocks plunged almost 10% in late October as Wall Street's Black Monday crash spread to Europe."
+    },
+    "description": {
+      "vi": "Ngày 19/10/1987, Dow Jones mất 22,6% trong một phiên. Hiệu ứng lan sang Paris: CAC mất 5,5% ngày 15/10, 7,72% ngày 26/10 và tiếp tục giảm gần 8% ngày 27/10 khi đồng đô la sụt giá. Các cổ phiếu vừa tư nhân hóa (Saint-Gobain, Paribas) bị bán tháo mạnh. Từ đỉnh mùa xuân 1987, thị trường Pháp mất khoảng 35% giá trị.",
+      "en": "On 19 Oct 1987 the Dow fell 22.6% in a single session. The shock reached Paris: the index fell 5.5% on 15 Oct, 7.72% on 26 Oct, and nearly 8% more on 27 Oct as the dollar slid. Recently privatized stocks (Saint-Gobain, Paribas) were hit hard in the selloff. From its spring 1987 peak, the French market had lost about 35%."
+    },
+    "opportunity": {
+      "asset": "Saint-Gobain, Paribas, CGE (French blue-chips)",
+      "action": {
+        "vi": "Bán trước hoặc tránh mua đuổi giữa tháng 10/1987, rồi mua lại đáy cuối năm",
+        "en": "Sell before or avoid chasing mid-Oct 1987, then buy the year-end bottom"
+      },
+      "buyWhen": {
+        "vi": "Cuối tháng 12/1987 sau khi thị trường ổn định",
+        "en": "Late December 1987 once markets stabilized"
+      },
+      "sellWhen": {
+        "vi": "Tránh nắm giữ qua giai đoạn 15-27/10/1987",
+        "en": "Avoid holding through 15-27 Oct 1987"
+      },
+      "estimatedReturn": {
+        "vi": "Tránh được khoản lỗ tạm thời ~35% từ đỉnh mùa xuân",
+        "en": "Avoids a temporary ~35% drawdown from the spring peak"
+      },
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết chính xác ngày 19/10/1987 (Thứ Hai Đen ở Mỹ) để thoát hàng vài ngày trước khi hiệu ứng lan tới Paris vào cuối tuần đó.",
+      "en": "Knowing the exact date of US Black Monday (19 Oct 1987) lets you exit days before the shockwave reaches Paris that same week."
+    },
+    "pitfalls": {
+      "vi": "Thị trường Paris tiếp tục rung lắc mạnh suốt cuối tháng 10, dễ bắt đáy quá sớm và bị cuốn thêm một đợt giảm nữa.",
+      "en": "Paris kept swinging violently through late October, so catching the bottom too early risks getting caught in a further leg down."
+    },
+    "quiz": {
+      "question": {
+        "vi": "CAC giảm bao nhiêu phần trăm trong phiên 26/10/1987?",
+        "en": "How much did the Paris index fall on 26 Oct 1987?"
+      },
+      "choices": [
+        {
+          "vi": "2,5%",
+          "en": "2.5%"
+        },
+        {
+          "vi": "7,72%",
+          "en": "7.72%"
+        },
+        {
+          "vi": "15%",
+          "en": "15%"
+        },
+        {
+          "vi": "22,6%",
+          "en": "22.6%"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Paris Bourse đóng cửa giảm 7,72% ngày 26/10/1987 theo tường thuật UPI.",
+        "en": "The Paris exchange closed down 7.72% on 26 Oct 1987 per UPI wire reporting."
+      }
+    },
+    "sources": [
+      {
+        "title": "UPI Archives — Stocks plummet around the world",
+        "url": "https://www.upi.com/Archives/1987/10/26/Stocks-plummet-around-the-world/5780562222800/"
+      },
+      {
+        "title": "Le Monde — Jeudi noir à la Bourse de Paris",
+        "url": "https://www.lemonde.fr/archives/article/1987/10/17/jeudi-noir-a-la-bourse-de-paris-la-desillusion-des-petits-epargnants_4073312_1819218.html"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed Paris Bourse declines of ~5.5%-9.6% across multiple sessions in Oct 1987 via UPI, CSMonitor and Le Monde archives."
+  },
+  {
+    "id": "fr-eurotunnel-ipo-1987",
+    "country": "fr",
+    "date": "1987-11",
+    "category": "stocks",
+    "title": {
+      "vi": "Eurotunnel IPO 1987 — thảm họa kinh điển",
+      "en": "Eurotunnel's 1987 IPO disaster"
+    },
+    "summary": {
+      "vi": "Cổ phiếu Eurotunnel rớt 27-29% ngay phiên chào sàn, mở đầu một trong những khoản đầu tư tệ nhất lịch sử Pháp.",
+      "en": "Eurotunnel shares fell 27-29% on their very first trading day, the start of one of France's worst-ever retail investments."
+    },
+    "description": {
+      "vi": "Đợt IPO thứ hai của Eurotunnel diễn ra ngay sau vụ sụp đổ Thứ Hai Đen tháng 10/1987 nhưng vẫn thu hút hơn 100.000 cổ đông và huy động khoảng 1,5 tỷ USD. Ngày chào sàn 10/12/1987, cổ phiếu giảm 27% tại Paris (từ giá chào 35 franc xuống 25,55 franc) và 29% tại London. Hàng triệu tiểu chủ Pháp (nhiều người dùng tiền hưu trí) mất phần lớn vốn trong hai thập niên sau đó khi dự án liên tục đội vốn và thua lỗ.",
+      "en": "Eurotunnel's second share offering launched right after the October 1987 Black Monday crash, but still drew over 100,000 shareholders and raised roughly $1.5bn. On its 10 Dec 1987 debut, shares fell 27% in Paris (from a FF35 offer to FF25.55) and 29% in London. Millions of French retail investors — many using retirement savings — lost most of their capital over the following two decades as the project ran over budget and posted heavy losses."
+    },
+    "opportunity": {
+      "asset": "Eurotunnel (Groupe Eurotunnel)",
+      "action": {
+        "vi": "TRÁNH MUA hoặc bán khống nếu có thể — đây là bẫy đầu tư, không phải cơ hội",
+        "en": "AVOID buying, or short if possible — this is a trap, not an opportunity"
+      },
+      "buyWhen": {
+        "vi": "Không bao giờ nên mua ở đợt IPO",
+        "en": "Never buy at the IPO"
+      },
+      "sellWhen": {
+        "vi": "N/A — tránh hoàn toàn",
+        "en": "N/A — avoid entirely"
+      },
+      "estimatedReturn": {
+        "vi": "Mất khoảng 27-29% ngay ngày đầu, và phần lớn vốn trong dài hạn",
+        "en": "Lost ~27-29% on day one alone, and most capital over the long run"
+      },
+      "entryPrice": 35,
+      "exitPrice": 25.55,
+      "priceCurrency": "EUR",
+      "exitDate": "1987-12-10",
+      "risk": "high",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Biết trước dự án sẽ liên tục đội vốn và tái cơ cấu nợ nhiều lần (1997, 2006...), nên tránh hoàn toàn hoặc chỉ lướt sóng cực ngắn hạn quanh tin tức tích cực.",
+      "en": "Knowing the project will blow its budget repeatedly and face multiple debt restructurings (1997, 2006...), avoid entirely or only trade short-term news pops."
+    },
+    "pitfalls": {
+      "vi": "Chính phủ Pháp ủng hộ công khai dự án khiến nhiều nhà đầu tư tin tưởng sai lầm rằng nhà nước sẽ không để nó thất bại.",
+      "en": "Public French government backing misled many investors into wrongly believing the state would never let the project fail."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Cổ phiếu Eurotunnel giảm bao nhiêu % tại Paris trong ngày chào sàn 10/12/1987?",
+        "en": "How much did Eurotunnel shares fall in Paris on their 10 Dec 1987 debut?"
+      },
+      "choices": [
+        {
+          "vi": "5%",
+          "en": "5%"
+        },
+        {
+          "vi": "15%",
+          "en": "15%"
+        },
+        {
+          "vi": "27%",
+          "en": "27%"
+        },
+        {
+          "vi": "50%",
+          "en": "50%"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "Cổ phiếu giảm 27% tại Paris, từ 35 xuống 25,55 franc.",
+        "en": "Shares fell 27% in Paris, from FF35 to FF25.55."
+      }
+    },
+    "sources": [
+      {
+        "title": "New York Times — Eurotunnel Shares Drop",
+        "url": "https://www.nytimes.com/1987/12/11/business/eurotunnel-shares-drop.html"
+      },
+      {
+        "title": "LA Times — Eurotunnel Stock Dives on 1st Day of Trading",
+        "url": "https://www.latimes.com/archives/la-xpm-1987-12-11-fi-18974-story.html"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed Dec 1987 debut decline of 27% in Paris (FF35 to FF25.55) and 29% in London via NYT and LA Times contemporaneous reports."
+  },
+  {
+    "id": "fr-cac40-launch-1987",
+    "country": "fr",
+    "date": "1987-12-31",
+    "category": "stocks",
+    "title": {
+      "vi": "Ra đời chỉ số CAC 40",
+      "en": "CAC 40 index is born"
+    },
+    "summary": {
+      "vi": "Chỉ số chứng khoán chuẩn của Pháp khởi đầu ở mốc 1.000 điểm đúng lúc thị trường vừa sụp đổ.",
+      "en": "France's benchmark stock index was set at 1,000 points right after the October 1987 crash."
+    },
+    "description": {
+      "vi": "CAC 40 được thiết lập mốc cơ sở 1.000 điểm vào ngày 31/12/1987, tương đương vốn hóa 370,4 tỷ franc của 40 công ty lớn nhất Paris Bourse. Chỉ số chính thức ra mắt giao dịch điện tử ngày 15/6/1988. Vì mốc 1.000 được đặt ngay sau vụ sụp đổ tháng 10/1987, người mua vào cuối 1987 bắt được đáy của một chu kỳ tăng giá kéo dài hơn một thập niên.",
+      "en": "The CAC 40 was set to a 1,000-point base on 31 Dec 1987, equal to FF370.4bn market cap for Paris's top 40 companies; it officially launched electronic trading 15 June 1988. Because the base was fixed right after the October 1987 crash, buying French blue-chips at year-end 1987 caught the bottom of a decade-plus bull run."
+    },
+    "opportunity": {
+      "asset": "CAC 40 index",
+      "action": {
+        "vi": "Mua rổ cổ phiếu CAC 40 hoặc quỹ chỉ số tương đương",
+        "en": "Buy a CAC 40 basket or equivalent index tracker"
+      },
+      "buyWhen": {
+        "vi": "31/12/1987, mốc 1.000 điểm",
+        "en": "31 Dec 1987 at the 1,000-point base"
+      },
+      "sellWhen": {
+        "vi": "Gần đỉnh dot-com tháng 9/2000 (6.922 điểm)",
+        "en": "Near the dot-com peak Sept 2000 (6,922 points)"
+      },
+      "estimatedReturn": {
+        "vi": "~x6.9 trong gần 13 năm",
+        "en": "~6.9x over almost 13 years"
+      },
+      "returnMultiple": 6.92,
+      "entryPrice": 1000,
+      "exitPrice": 6922.33,
+      "priceCurrency": "points",
+      "exitDate": "2000-09-04",
+      "risk": "medium",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Chỉ số còn chưa tồn tại dưới dạng sản phẩm đầu tư năm 1987, nhưng người tái sinh có thể mua trực tiếp rổ 40 cổ phiếu cấu thành ngay từ ngày đầu.",
+      "en": "No index fund existed yet in 1987, but a reincarnated investor can buy the 40 constituent blue-chips directly from day one."
+    },
+    "pitfalls": {
+      "vi": "Chỉ số vừa mất 28,75% trong năm 1987 trước khi mốc 1.000 được ấn định — đừng hoảng loạn bán theo đám đông đang hoảng sợ sau Thứ Hai Đen.",
+      "en": "The index had just lost 28.75% during 1987 before the 1,000 base was set — don't panic-sell with the post-Black-Monday crowd."
+    },
+    "quiz": {
+      "question": {
+        "vi": "CAC 40 được ấn định mốc cơ sở 1.000 điểm vào ngày nào?",
+        "en": "On what date was the CAC 40 set to its 1,000-point base?"
+      },
+      "choices": [
+        {
+          "vi": "15/6/1988",
+          "en": "15 June 1988"
+        },
+        {
+          "vi": "31/12/1987",
+          "en": "31 December 1987"
+        },
+        {
+          "vi": "1/1/1990",
+          "en": "1 January 1990"
+        },
+        {
+          "vi": "19/10/1987",
+          "en": "19 October 1987"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Mốc 1.000 điểm được ấn định ngày 31/12/1987; giao dịch điện tử chính thức bắt đầu 15/6/1988.",
+        "en": "The 1,000-point base was fixed 31 Dec 1987; official electronic trading launched 15 June 1988."
+      }
+    },
+    "sources": [
+      {
+        "title": "Euronext — CAC 40 Index",
+        "url": "https://www.euronext.com/en/news/cac-40-index-0"
+      },
+      {
+        "title": "Wikipedia — CAC 40",
+        "url": "https://en.wikipedia.org/wiki/CAC_40"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed base date 31 Dec 1987 at 1,000 points, FF370.4bn market cap, and 6,922.33 all-time high Sept 2000 via Euronext official page and Wikipedia."
+  },
+  {
+    "id": "fr-paris-real-estate-boom",
+    "country": "fr",
+    "date": "1991",
+    "category": "real-estate",
+    "title": {
+      "vi": "Siêu chu kỳ bất động sản Paris",
+      "en": "Paris real estate's three-decade boom"
+    },
+    "summary": {
+      "vi": "Giá căn hộ Paris tăng từ ~3.463 euro/m² (1991) lên đỉnh 10.760 euro/m² (2020), gấp hơn 3 lần.",
+      "en": "Paris apartment prices rose from ~€3,463/m² (1991) to a 2020 peak of €10,760/m², over 3x."
+    },
+    "description": {
+      "vi": "Theo dữ liệu công chứng viên Pháp (Notaires de France/Chambre des Notaires de Paris), giá căn hộ cũ trung bình tại Paris tăng từ khoảng 3.463 euro/m² năm 1991 lên đỉnh 10.760 euro/m² năm 2020 — tăng hơn 3,1 lần (~3,6%/năm thực, gấp đôi lạm phát). Giai đoạn 1991-1996 giá còn giảm do khủng hoảng đầu thập niên 1990, trước khi bước vào chu kỳ tăng gần như liên tục suốt 25 năm tiếp theo nhờ lãi suất thấp và nhu cầu quốc tế.",
+      "en": "Per French notary data (Notaires de France/Chambre des Notaires de Paris), the average price of existing Paris apartments rose from about €3,463/m² in 1991 to a 2020 peak of €10,760/m² — more than 3.1x (~3.6%/year real, double the inflation rate). Prices actually fell from 1991-1996 amid an early-1990s downturn before entering a near-continuous 25-year uptrend driven by low interest rates and international demand."
+    },
+    "opportunity": {
+      "asset": "Paris residential property (per m²)",
+      "action": {
+        "vi": "Mua căn hộ Paris sau khủng hoảng đầu 1990, giữ dài hạn qua nhiều thập kỷ",
+        "en": "Buy a Paris apartment after the early-1990s downturn, hold for decades"
+      },
+      "buyWhen": {
+        "vi": "Giữa thập niên 1990 (đáy chu kỳ, ~1996-1999)",
+        "en": "Mid-1990s (cycle bottom, ~1996-1999)"
+      },
+      "sellWhen": {
+        "vi": "2020, gần đỉnh 10.760 euro/m², hoặc tiếp tục giữ cho thuê",
+        "en": "2020, near the €10,760/m² peak, or continue holding for rental income"
+      },
+      "estimatedReturn": {
+        "vi": "Giá tăng khoảng 3-4 lần tùy quận, từ đáy thập niên 1990 đến đỉnh 2020",
+        "en": "Prices rose roughly 3-4x depending on arrondissement, from the 1990s bottom to the 2020 peak"
+      },
+      "returnMultiple": 3.11,
+      "entryPrice": 3463,
+      "exitPrice": 10760,
+      "priceCurrency": "EUR",
+      "exitDate": "2020",
+      "risk": "low",
+      "capital": "high"
+    },
+    "insiderTip": {
+      "vi": "Quận 2 (Bourse) có mức tăng mạnh nhất, từ 2.760 euro/m² (1991) lên 9.830 euro/m² (2016) — chọn các quận trung tâm đang 'gentrify' sớm thay vì khu đã đắt sẵn.",
+      "en": "The 2nd arrondissement (Bourse) saw the strongest gains, from €2,760/m² (1991) to €9,830/m² (2016) — target centrally-located areas gentrifying early rather than already-expensive ones."
+    },
+    "pitfalls": {
+      "vi": "Giá bắt đầu điều chỉnh nhẹ sau 2020 (khoảng -10% đến 2025) do lãi suất tăng — thời điểm thoát hàng quan trọng không kém thời điểm mua vào.",
+      "en": "Prices began a mild correction after 2020 (roughly -10% by 2025) as interest rates rose — exit timing matters almost as much as entry timing."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Giá căn hộ Paris đạt đỉnh vào năm nào, khoảng 10.760 euro/m²?",
+        "en": "In what year did Paris apartment prices peak at around €10,760/m²?"
+      },
+      "choices": [
+        {
+          "vi": "2008",
+          "en": "2008"
+        },
+        {
+          "vi": "2016",
+          "en": "2016"
+        },
+        {
+          "vi": "2020",
+          "en": "2020"
+        },
+        {
+          "vi": "2024",
+          "en": "2024"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "Giá đạt đỉnh 10.760 euro/m² năm 2020 theo dữ liệu công chứng viên Pháp.",
+        "en": "Prices peaked at €10,760/m² in 2020 per French notary data."
+      }
+    },
+    "sources": [
+      {
+        "title": "Solum Real Estate — Paris property prices by arrondissement",
+        "url": "https://solumre.com/markets/paris"
+      },
+      {
+        "title": "Accuracy — Is real estate at the peak of its cycle? The Paris example",
+        "url": "https://accuracy.com/accuracy-talks-straight-5-industry-insight"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed €3,463/m² (1991) to €10,760/m² (2020 peak, -10% by 2025) via Solum Real Estate and Accuracy, both citing Paris Notaires chamber data."
+  },
+  {
+    "id": "fr-credit-lyonnais-crisis-1993",
+    "country": "fr",
+    "date": "1993",
+    "category": "stocks",
+    "title": {
+      "vi": "Khủng hoảng Crédit Lyonnais",
+      "en": "Crédit Lyonnais banking crisis"
+    },
+    "summary": {
+      "vi": "Ngân hàng quốc doanh lớn nhất Pháp lỗ kỷ lục 6,9 tỷ franc năm 1993, cần nhà nước giải cứu nhiều lần.",
+      "en": "France's largest state bank posted a record FF6.9bn loss in 1993 and needed repeated state bailouts."
+    },
+    "description": {
+      "vi": "Sau giai đoạn mở rộng ồ ạt cuối thập niên 1980 vào bất động sản và Hollywood (mua MGM), Crédit Lyonnais lỗ 1,8 tỷ franc năm 1992 và 6,9 tỷ franc năm 1993 — khoản lỗ lớn nhất lịch sử một ngân hàng công tại Pháp. Nhà nước phải bơm vốn 4,9 tỷ franc năm 1994 và bảo lãnh tới 135 tỷ franc tài sản xấu năm 1995, tổng chi phí cứu trợ ước tính 45-50 tỷ franc cho người nộp thuế Pháp.",
+      "en": "After an aggressive late-1980s expansion into real estate and Hollywood (buying MGM), Crédit Lyonnais lost FF1.8bn in 1992 and FF6.9bn in 1993 — the largest loss in French public-bank history. The state injected FF4.9bn of capital in 1994 and guaranteed up to FF135bn of bad assets in 1995, with total bailout costs to French taxpayers estimated at FF45-50bn."
+    },
+    "opportunity": {
+      "asset": "Crédit Lyonnais",
+      "action": {
+        "vi": "TRÁNH hoặc bán khống cổ phiếu/trái phiếu liên quan trước khi khủng hoảng công bố",
+        "en": "AVOID or short related equity/debt before the crisis was disclosed"
+      },
+      "buyWhen": {
+        "vi": "Không nên nắm giữ qua giai đoạn 1992-1995",
+        "en": "Do not hold through 1992-1995"
+      },
+      "sellWhen": {
+        "vi": "Trước khi công bố lỗ tháng 3/1993 và 3/1994",
+        "en": "Before the loss disclosures of March 1993 and March 1994"
+      },
+      "estimatedReturn": {
+        "vi": "Tránh tổn thất lớn; ngân hàng cần cứu trợ nhiều lần đến tận 1998",
+        "en": "Avoids heavy losses; the bank needed repeated bailouts through 1998"
+      },
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết trước thương vụ mua MGM và các khoản đầu tư bất động sản liều lĩnh cuối thập niên 1980 sẽ trở thành nợ xấu khổng lồ.",
+      "en": "Knowing the late-1980s MGM purchase and reckless property lending will turn into a mountain of bad debt."
+    },
+    "pitfalls": {
+      "vi": "Là ngân hàng quốc doanh, nhiều nhà đầu tư tin nhà nước sẽ luôn bảo lãnh toàn bộ — đúng về mặt sống còn nhưng cổ đông vẫn mất giá trị nặng nề qua các đợt tái cấp vốn.",
+      "en": "As a state bank, investors assumed the state would always fully backstop it — true for survival, but shareholders still suffered heavy dilution through repeated recapitalizations."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Crédit Lyonnais lỗ bao nhiêu tỷ franc năm 1993?",
+        "en": "How much did Crédit Lyonnais lose in 1993 (FF billions)?"
+      },
+      "choices": [
+        {
+          "vi": "1,8 tỷ",
+          "en": "1.8bn"
+        },
+        {
+          "vi": "6,9 tỷ",
+          "en": "6.9bn"
+        },
+        {
+          "vi": "18 tỷ",
+          "en": "18bn"
+        },
+        {
+          "vi": "45 tỷ",
+          "en": "45bn"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Khoản lỗ 6,9 tỷ franc năm 1993 là lớn nhất lịch sử ngân hàng công Pháp.",
+        "en": "The FF6.9bn 1993 loss was the largest in French public-bank history."
+      }
+    },
+    "sources": [
+      {
+        "title": "Le Monde — L'Etat au secours du Crédit lyonnais (1994)",
+        "url": "https://www.lemonde.fr/archives/article/1994/03/26/l-etat-au-secours-du-credit-lyonnais_3831500_1819218.html"
+      },
+      {
+        "title": "EUR-Lex — Commission Decision 95/547",
+        "url": "https://eur-lex.europa.eu/legal-content/CS/ALL/?uri=CELEX:31995D0547"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed FF1.8bn (1992) and FF6.9bn (1993) losses, FF4.9bn 1994 capital injection, and FF135bn 1995 asset guarantee via Le Monde and EUR-Lex official decision."
+  },
+  {
+    "id": "fr-hermes-ipo-1993",
+    "country": "fr",
+    "date": "1993-06",
+    "category": "stocks",
+    "title": {
+      "vi": "Hermès niêm yết 1993",
+      "en": "Hermès IPO in 1993"
+    },
+    "summary": {
+      "vi": "Hermès lên sàn Paris tháng 6/1993 ở giá 300 franc/cổ phiếu, được đặt mua gấp 34 lần.",
+      "en": "Hermès listed on the Paris Bourse in June 1993 at FF300/share, oversubscribed 34 times."
+    },
+    "description": {
+      "vi": "Tháng 6/1993, Hermès bán ra 425.000 cổ phiếu (khoảng 4% vốn) với giá 300 franc (~55 USD) mỗi cổ phiếu, được đặt mua vượt mức 34 lần. Gia tộc giữ lại khoảng 96% vốn. Đến năm 1995, cổ phiếu đã tăng lên 600 franc. Hermès sau đó trở thành một trong những cổ phiếu xa xỉ tăng giá mạnh nhất thế giới, đặc biệt khi chống lại thành công nỗ lực thâu tóm âm thầm của LVMH giai đoạn 2010-2014.",
+      "en": "In June 1993 Hermès floated 425,000 shares (about 4% of capital) at FF300 (~$55) each, oversubscribed 34 times, with the family retaining roughly 96%. By 1995 the shares had risen to FF600. Hermès went on to become one of the world's best-performing luxury stocks, notably after fending off LVMH's stealth takeover attempt in 2010-2014."
+    },
+    "opportunity": {
+      "asset": "Hermès International (RMS.PA)",
+      "action": {
+        "vi": "Mua tại IPO và nắm giữ hàng chục năm",
+        "en": "Buy at IPO and hold for decades"
+      },
+      "buyWhen": {
+        "vi": "Tháng 6/1993, giá 300 franc (~45,7 euro)",
+        "en": "June 1993 at FF300 (~€45.7)"
+      },
+      "sellWhen": {
+        "vi": "Không bán — một trong các cổ phiếu tăng giá tốt nhất châu Âu nhiều thập kỷ",
+        "en": "Never sell — one of Europe's best-performing stocks for decades"
+      },
+      "estimatedReturn": {
+        "vi": "Tăng gấp đôi chỉ trong 2 năm đầu (300→600 franc)",
+        "en": "Doubled in just the first 2 years (FF300→FF600)"
+      },
+      "returnMultiple": 2.0,
+      "entryPrice": 300,
+      "exitPrice": 600,
+      "priceCurrency": "EUR",
+      "exitDate": "1995",
+      "risk": "low",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Gia tộc Hermès chỉ bán ra một phần nhỏ cổ phần và sẽ thành công chống lại nỗ lực thâu tóm của LVMH hai thập kỷ sau — đây là cổ phiếu 'mua và quên đi' lý tưởng.",
+      "en": "The Hermès family sold only a sliver of equity and will successfully repel LVMH's takeover bid two decades later — an ideal 'buy and forget' stock."
+    },
+    "pitfalls": {
+      "vi": "Khối lượng cổ phiếu tự do giao dịch rất thấp (chỉ ~4%) khiến thanh khoản hạn chế trong những năm đầu.",
+      "en": "Very low free float (only ~4%) meant limited liquidity in the early years."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Hermès niêm yết trên sàn Paris năm nào?",
+        "en": "In what year did Hermès list on the Paris exchange?"
+      },
+      "choices": [
+        {
+          "vi": "1987",
+          "en": "1987"
+        },
+        {
+          "vi": "1999",
+          "en": "1999"
+        },
+        {
+          "vi": "2004",
+          "en": "2004"
+        },
+        {
+          "vi": "1993",
+          "en": "1993"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "vi": "Hermès niêm yết tháng 6/1993 với giá chào bán 300 franc/cổ phiếu, đặt mua vượt 34 lần.",
+        "en": "Hermès listed in June 1993 at an offer price of FF300/share, 34x oversubscribed."
+      }
+    },
+    "sources": [
+      {
+        "title": "Encyclopedia.com — Hermès International S.A.",
+        "url": "https://www.encyclopedia.com/books/politics-and-business-magazines/hermes-international-sa"
+      },
+      {
+        "title": "CorpDigest — Hermès History",
+        "url": "https://corpdigest.com/company/hermes/company-history"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed June 1993 IPO at FF300/share (34x oversubscribed), ~4% float, and FF600 price by 1995 via Encyclopedia.com and corporate history sources."
+  },
+  {
+    "id": "fr-dassault-systemes-ipo-1996",
+    "country": "fr",
+    "date": "1996-06-28",
+    "category": "technology",
+    "title": {
+      "vi": "Dassault Systèmes IPO 1996",
+      "en": "Dassault Systèmes IPO in 1996"
+    },
+    "summary": {
+      "vi": "Hãng phần mềm CAD của Pháp niêm yết song song tại Paris và Nasdaq, giá ADS 23 USD, đặt mua gấp 35 lần.",
+      "en": "The French CAD software maker dual-listed in Paris and on Nasdaq at $23/ADS, 35x oversubscribed."
+    },
+    "description": {
+      "vi": "Ngày 28/6/1996, Dassault Systèmes (công ty con phần mềm của Dassault Aviation) IPO đồng thời tại Paris Bourse và Nasdaq (mã DASTY), với giá 118 franc/cổ phiếu tại Paris (23 USD/ADS). Đợt chào bán 17,5% vốn được đặt mua vượt 35 lần; cổ phiếu tăng hơn 35% ngay phiên đầu và đạt 229 franc chỉ sau 6 tháng. Đây là một trong những IPO công nghệ Pháp thành công nhất, cho phép công ty mua lại SolidWorks năm 1997.",
+      "en": "On 28 June 1996 Dassault Systèmes (the software arm of Dassault Aviation) dual-listed on the Paris Bourse and Nasdaq (ticker DASTY) at FF118/share in Paris ($23/ADS). The 17.5%-of-capital offering was 35x oversubscribed; shares jumped over 35% on debut and reached FF229 within six months. It remains one of France's most successful tech IPOs, funding the 1997 acquisition of SolidWorks."
+    },
+    "opportunity": {
+      "asset": "Dassault Systèmes (DSY.PA)",
+      "action": {
+        "vi": "Mua tại IPO, nắm giữ dài hạn qua các thương vụ thâu tóm SolidWorks, Enovia...",
+        "en": "Buy at IPO, hold long-term through acquisitions like SolidWorks, Enovia..."
+      },
+      "buyWhen": {
+        "vi": "28/6/1996, giá 118 franc",
+        "en": "28 June 1996 at FF118"
+      },
+      "sellWhen": {
+        "vi": "Cuối 1996, giá 229 franc (lướt sóng ngắn hạn) hoặc giữ dài hạn",
+        "en": "End of 1996 at FF229 (short flip) or hold long-term"
+      },
+      "estimatedReturn": {
+        "vi": "Gần gấp đôi chỉ trong 6 tháng",
+        "en": "Nearly doubled in just 6 months"
+      },
+      "returnMultiple": 1.94,
+      "entryPrice": 118,
+      "exitPrice": 229,
+      "priceCurrency": "EUR",
+      "exitDate": "1996-12",
+      "risk": "medium",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Biết trước Dassault Systèmes sẽ dùng vốn IPO để mua SolidWorks năm 1997 và trở thành gã khổng lồ phần mềm công nghiệp toàn cầu.",
+      "en": "Knowing Dassault Systèmes will use IPO proceeds to buy SolidWorks in 1997 and become a global industrial-software giant."
+    },
+    "pitfalls": {
+      "vi": "Dassault Aviation vẫn giữ hơn 60% cổ phần, hạn chế quyền biểu quyết của cổ đông nhỏ lẻ.",
+      "en": "Dassault Aviation retained over 60% of shares, limiting minority shareholders' influence."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Dassault Systèmes IPO đồng thời tại Paris và sàn nào ở Mỹ?",
+        "en": "Dassault Systèmes dual-listed in Paris and which US exchange?"
+      },
+      "choices": [
+        {
+          "vi": "NYSE",
+          "en": "NYSE"
+        },
+        {
+          "vi": "AMEX",
+          "en": "AMEX"
+        },
+        {
+          "vi": "OTC Markets",
+          "en": "OTC Markets"
+        },
+        {
+          "vi": "Nasdaq",
+          "en": "Nasdaq"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "vi": "Dassault Systèmes niêm yết trên Nasdaq với mã DASTY cùng ngày niêm yết tại Paris.",
+        "en": "Dassault Systèmes listed on Nasdaq under ticker DASTY the same day as its Paris listing."
+      }
+    },
+    "sources": [
+      {
+        "title": "Dassault Systèmes Investor Relations — IPO press release",
+        "url": "https://investor.3ds.com/news-releases/news-release-details/initial-public-offering"
+      },
+      {
+        "title": "3DS Blog — History of Dassault Systèmes timeline",
+        "url": "https://blog.3ds.com/topics/company-news/the-history-of-dassault-systemes-a-timeline/"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed 28 June 1996 IPO at $23/ADS (FF118/share), 35x oversubscription, and FF229 price by year-end via official investor relations release and Les Echos archive."
+  },
+  {
+    "id": "fr-france-telecom-ipo-1997",
+    "country": "fr",
+    "date": "1997-10-20",
+    "category": "stocks",
+    "title": {
+      "vi": "France Télécom IPO 1997",
+      "en": "France Télécom IPO in 1997"
+    },
+    "summary": {
+      "vi": "Đợt tư nhân hóa viễn thông lớn nhất Pháp, giá chào bán 182 franc, huy động 42 tỷ franc.",
+      "en": "France's biggest telecom privatization, priced at FF182 for retail, raising FF42bn."
+    },
+    "description": {
+      "vi": "Nhà nước Pháp bán 23,2% vốn France Télécom qua IPO ngày 20/10/1997, giá 182 franc cho nhà đầu tư cá nhân và 187 franc cho tổ chức (tương đương 27,75 euro sau quy đổi). Phiên đầu đóng cửa ở 206,5 franc (+13,5%). Đây là đợt IPO lớn nhất châu Âu thời điểm đó, thu hút 4 triệu cổ đông cá nhân, huy động 42 tỷ franc cho ngân sách nhà nước.",
+      "en": "The French state sold 23.2% of France Télécom via IPO on 20 Oct 1997, priced at FF182 for retail investors and FF187 for institutions (equivalent to €27.75). It closed its first day at FF206.5 (+13.5%). It was Europe's largest IPO at the time, drawing 4 million retail shareholders and raising FF42bn for the state budget."
+    },
+    "opportunity": {
+      "asset": "France Télécom (now Orange, ORA.PA)",
+      "action": {
+        "vi": "Mua tại IPO, nhưng PHẢI BÁN trước đỉnh dot-com",
+        "en": "Buy at IPO, but MUST SELL before the dot-com peak"
+      },
+      "buyWhen": {
+        "vi": "20/10/1997, giá 182 franc (27,75 euro)",
+        "en": "20 Oct 1997 at FF182 (€27.75)"
+      },
+      "sellWhen": {
+        "vi": "Đầu tháng 3/2000, đỉnh 219 euro",
+        "en": "Early March 2000, peak of €219"
+      },
+      "estimatedReturn": {
+        "vi": "~x7,9 trong 2,5 năm nếu bán đúng đỉnh",
+        "en": "~7.9x in 2.5 years if sold at the exact peak"
+      },
+      "returnMultiple": 7.89,
+      "entryPrice": 27.75,
+      "exitPrice": 219,
+      "priceCurrency": "EUR",
+      "exitDate": "2000-03-02",
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết trước cổ phiếu sẽ đạt đỉnh chính xác ngày 2/3/2000 ở mức 219 euro rồi lao dốc 97% xuống 6,94 euro vào 30/9/2002 — đây là bài học kinh điển 'bán trước khi bong bóng vỡ'.",
+      "en": "Knowing the stock peaks exactly on 2 March 2000 at €219 before crashing 97% to €6.94 by 30 Sept 2002 — a textbook 'sell before the bubble bursts' case."
+    },
+    "pitfalls": {
+      "vi": "Công ty sau đó mua lại Orange từ Vodafone với giá 39,7 tỷ euro năm 2000, chất thêm nợ khổng lồ góp phần vào vụ sụp đổ cổ phiếu.",
+      "en": "The company then bought Orange from Vodafone for €39.7bn in 2000, piling on debt that contributed to the subsequent stock collapse."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Cổ phiếu France Télécom đạt đỉnh bao nhiêu euro vào tháng 3/2000?",
+        "en": "What peak price (EUR) did France Télécom reach in March 2000?"
+      },
+      "choices": [
+        {
+          "vi": "50 euro",
+          "en": "€50"
+        },
+        {
+          "vi": "100 euro",
+          "en": "€100"
+        },
+        {
+          "vi": "219 euro",
+          "en": "€219"
+        },
+        {
+          "vi": "6,94 euro",
+          "en": "€6.94"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "Cổ phiếu đạt đỉnh 219 euro ngày 2/3/2000 trước khi lao dốc trong vụ nổ bong bóng dot-com.",
+        "en": "Shares peaked at €219 on 2 March 2000 before collapsing in the dot-com bust."
+      }
+    },
+    "sources": [
+      {
+        "title": "ifo Institut — Privatization Experiences in France (PDF)",
+        "url": "https://www.ifo.de/DocDL/cesifo1_wp1195.pdf"
+      },
+      {
+        "title": "Le Monde — France Télécom fait une entrée en fanfare (1997)",
+        "url": "https://www.lemonde.fr/archives/article/1997/10/21/france-telecom-fait-une-entree-en-fanfare-a-la-bourse-de-paris_3777377_1819218.html"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed IPO price FF182/187, 20 Oct 1997 debut at FF206.5, €219 peak (2 Mar 2000), and €6.94 low (30 Sept 2002) via ifo Institut working paper and Le Monde."
+  },
+  {
+    "id": "fr-euro-introduction-1999",
+    "country": "fr",
+    "date": "1999-01-01",
+    "category": "macro",
+    "title": {
+      "vi": "Pháp gia nhập đồng euro",
+      "en": "France joins the euro"
+    },
+    "summary": {
+      "vi": "Tỷ giá quy đổi franc-euro cố định vĩnh viễn ở mức 6,55957, mở đường cho hội nhập tiền tệ châu Âu.",
+      "en": "The franc-euro conversion rate was irrevocably fixed at 6.55957, paving the way for European monetary union."
+    },
+    "description": {
+      "vi": "Ngày 1/1/1999, Hội đồng EU ấn định tỷ giá quy đổi không thể đảo ngược: 1 euro = 6,55957 franc Pháp. Đồng euro trở thành đơn vị kế toán chính thức từ ngày đó, còn tiền giấy/xu euro chỉ lưu hành vật lý từ 1/1/2002. Biết trước tỷ giá chính xác này cho phép định giá tài sản, nợ và hợp đồng bằng franc một cách chắc chắn tuyệt đối trong giai đoạn chuyển đổi 1999-2002.",
+      "en": "On 1 Jan 1999 the EU Council fixed the irrevocable conversion rate: 1 euro = 6.55957 French francs. The euro became the official unit of account from that date, while euro notes and coins only entered physical circulation on 1 Jan 2002. Knowing this exact rate allows perfect valuation of franc-denominated assets, debts and contracts through the 1999-2002 transition period."
+    },
+    "opportunity": {
+      "asset": "EUR/FRF",
+      "action": {
+        "vi": "Chốt mọi hợp đồng, khoản vay, tài sản bằng franc theo đúng tỷ giá trước khi công bố chính thức",
+        "en": "Lock in any franc-denominated contracts, loans or assets at the exact rate before the official announcement"
+      },
+      "buyWhen": {
+        "vi": "Trước 31/12/1998 khi tỷ giá được công bố chính thức ngày 31/12/1998",
+        "en": "Before 31 Dec 1998 official announcement date"
+      },
+      "sellWhen": {
+        "vi": "N/A — đây là thông tin cố định, không phải giao dịch đầu cơ",
+        "en": "N/A — this is a fixed fact, not a speculative trade"
+      },
+      "estimatedReturn": {
+        "vi": "Lợi thế thông tin tuyệt đối trong định giá và phòng hộ tỷ giá franc/euro giai đoạn chuyển đổi",
+        "en": "Absolute informational edge in franc/euro valuation and hedging during the transition"
+      },
+      "entryPrice": 6.55957,
+      "priceCurrency": "EUR",
+      "risk": "low",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Tỷ giá 6,55957 được các bộ trưởng tài chính EU công bố ngày 31/12/1998 — một người tái sinh có thể giao dịch hợp đồng kỳ hạn franc/euro với độ chắc chắn tuyệt đối trước đó nhiều tháng.",
+      "en": "The 6.55957 rate was announced by EU finance ministers on 31 Dec 1998 — a reincarnated trader could position in franc/euro forward contracts with absolute certainty months beforehand."
+    },
+    "pitfalls": {
+      "vi": "Tỷ giá chỉ mang tính kế toán cho đến 2002; thị trường franc vật lý vẫn dao động nhẹ theo kỳ vọng cho đến khi chính thức khóa cứng.",
+      "en": "The rate was only an accounting figure until 2002; the physical franc market still drifted slightly on expectations until it was officially locked."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Tỷ giá quy đổi cố định giữa franc Pháp và euro là bao nhiêu?",
+        "en": "What was the fixed French franc to euro conversion rate?"
+      },
+      "choices": [
+        {
+          "vi": "5,99573",
+          "en": "5.99573"
+        },
+        {
+          "vi": "7,45",
+          "en": "7.45"
+        },
+        {
+          "vi": "1,95583",
+          "en": "1.95583"
+        },
+        {
+          "vi": "6,55957",
+          "en": "6.55957"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "vi": "1 euro = 6,55957 franc Pháp, công bố chính thức ngày 31/12/1998.",
+        "en": "1 euro = 6.55957 French francs, officially announced 31 Dec 1998."
+      }
+    },
+    "sources": [
+      {
+        "title": "European Central Bank — Determination of the euro conversion rates",
+        "url": "https://www.ecb.europa.eu/press/pr/date/1998/html/pr981231_2.en.html"
+      },
+      {
+        "title": "EUR-Lex — Council Regulation on conversion rates",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:51998PC0732"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed exact rate 6.55957 FRF/EUR via official ECB press release and EUR-Lex regulation text, effective 1 Jan 1999."
+  },
+  {
+    "id": "fr-ppr-gucci-1999",
+    "country": "fr",
+    "date": "1999-03",
+    "category": "business",
+    "title": {
+      "vi": "PPR mua 42% Gucci năm 1999",
+      "en": "PPR acquires 42% of Gucci in 1999"
+    },
+    "summary": {
+      "vi": "François Pinault chi 3 tỷ USD mua 42% Gucci, đặt nền móng cho đế chế xa xỉ Kering sau này.",
+      "en": "François Pinault paid $3bn for a 42% Gucci stake, laying the foundation for what became the Kering luxury empire."
+    },
+    "description": {
+      "vi": "Tháng 3/1999, Pinault-Printemps-Redoute (PPR, sau đổi tên Kering) mua 42% Gucci Group với giá 3 tỷ USD (75 USD/cổ phiếu) để giúp Gucci chống lại nỗ lực thâu tóm của LVMH — mở màn cuộc chiến pháp lý kéo dài 2,5 năm giữa Pinault và Bernard Arnault. PPR sau đó nâng sở hữu lên 67,6% năm 2003 và 99,4% năm 2004, biến Gucci thành trụ cột của tập đoàn xa xỉ lớn thứ hai thế giới.",
+      "en": "In March 1999, Pinault-Printemps-Redoute (PPR, later renamed Kering) bought a 42% Gucci stake for $3bn ($75/share) to help Gucci fend off a takeover attempt by LVMH, triggering a 2.5-year legal battle between Pinault and Bernard Arnault. PPR raised its stake to 67.6% in 2003 and 99.4% in 2004, turning Gucci into the cornerstone of the world's second-largest luxury group."
+    },
+    "opportunity": {
+      "asset": "PPR / Kering (KER.PA)",
+      "action": {
+        "vi": "Mua cổ phiếu PPR khi công bố thương vụ Gucci; giữ qua quá trình chuyển đổi thành Kering",
+        "en": "Buy PPR stock on the Gucci deal announcement; hold through the transformation into Kering"
+      },
+      "buyWhen": {
+        "vi": "Tháng 3/1999",
+        "en": "March 1999"
+      },
+      "sellWhen": {
+        "vi": "Giữ dài hạn qua thập niên 2010 khi Kering mở rộng danh mục xa xỉ",
+        "en": "Hold long-term through the 2010s as Kering built out its luxury portfolio"
+      },
+      "estimatedReturn": {
+        "vi": "Đặt nền móng biến nhà bán lẻ thành tập đoàn xa xỉ trị giá hàng chục tỷ euro",
+        "en": "Laid the foundation turning a retailer into a luxury conglomerate worth tens of billions of euros"
+      },
+      "risk": "medium",
+      "capital": "high"
+    },
+    "insiderTip": {
+      "vi": "Biết trước cuộc chiến Pinault-Arnault sẽ kéo dài đến tháng 9/2001 và PPR sẽ thắng với giá rẻ hơn (75 USD/cổ phiếu so với giá chào 85 USD của LVMH).",
+      "en": "Knowing the Pinault-Arnault battle will drag to Sept 2001 and PPR will ultimately win at a cheaper price ($75/share vs. LVMH's $85 bid)."
+    },
+    "pitfalls": {
+      "vi": "Tòa án Amsterdam từng đóng băng giao dịch năm 1999, tạo rủi ro pháp lý đáng kể trong giai đoạn đầu.",
+      "en": "An Amsterdam court froze the transaction in 1999, creating significant legal risk in the early phase."
+    },
+    "quiz": {
+      "question": {
+        "vi": "PPR trả bao nhiêu để mua 42% Gucci năm 1999?",
+        "en": "How much did PPR pay for its 42% Gucci stake in 1999?"
+      },
+      "choices": [
+        {
+          "vi": "1 tỷ USD",
+          "en": "$1bn"
+        },
+        {
+          "vi": "3 tỷ USD",
+          "en": "$3bn"
+        },
+        {
+          "vi": "9 tỷ USD",
+          "en": "$9bn"
+        },
+        {
+          "vi": "15 tỷ USD",
+          "en": "$15bn"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "PPR trả 3 tỷ USD (75 USD/cổ phiếu) cho 42% cổ phần Gucci.",
+        "en": "PPR paid $3bn ($75/share) for the 42% Gucci stake."
+      }
+    },
+    "sources": [
+      {
+        "title": "Kering — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Kering"
+      },
+      {
+        "title": "Quartr — Kering's Rise to Power: The Epic Battle for Gucci",
+        "url": "https://quartr.com/insights/company-research/kerings-rise-to-power-the-epic-battle-for-gucci"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed $3bn/42% stake at $75/share (March 1999), later raised to 67.6% (2003) and 99.4% (2004) via Wikipedia and Quartr research citing contemporaneous reporting."
+  },
+  {
+    "id": "fr-cac40-dotcom-peak-2000",
+    "country": "fr",
+    "date": "2000-09-04",
+    "category": "stocks",
+    "title": {
+      "vi": "Đỉnh bong bóng dot-com của CAC 40",
+      "en": "CAC 40's dot-com bubble peak"
+    },
+    "summary": {
+      "vi": "CAC 40 đạt đỉnh lịch sử 6.922,33 điểm ngày 4/9/2000 trước khi mất 65% trong 3 năm tiếp theo.",
+      "en": "The CAC 40 hit its all-time high of 6,922.33 on 4 Sept 2000, then lost 65% over the next three years."
+    },
+    "description": {
+      "vi": "Ngày 4/9/2000, CAC 40 đạt đỉnh lịch sử mọi thời đại 6.922,33 điểm giữa cơn sốt công nghệ/viễn thông (Vivendi, France Télécom, Alcatel). Chỉ số sau đó lao dốc liên tục, chạm đáy 2.403,04 điểm ngày 12/3/2003 — mức giảm 65,3% từ đỉnh. Đây là cơ hội kinh điển để bán/ short trước khi bong bóng vỡ, đặc biệt với các cổ phiếu công nghệ-viễn thông bị định giá quá cao.",
+      "en": "On 4 Sept 2000 the CAC 40 hit its all-time record of 6,922.33 points amid the tech/telecom mania (Vivendi, France Télécom, Alcatel). The index then fell relentlessly, bottoming at 2,403.04 on 12 March 2003 — a 65.3% drop from the peak. A textbook case for selling or shorting before the bubble burst, especially overvalued tech-telecom names."
+    },
+    "opportunity": {
+      "asset": "CAC 40 index",
+      "action": {
+        "vi": "Bán toàn bộ cổ phiếu công nghệ/viễn thông hoặc bán khống chỉ số",
+        "en": "Sell all tech/telecom holdings or short the index"
+      },
+      "buyWhen": {
+        "vi": "Mua lại (hoặc đóng vị thế short) tại đáy 12/3/2003",
+        "en": "Cover/buy back at the 12 March 2003 bottom"
+      },
+      "sellWhen": {
+        "vi": "4/9/2000, đỉnh 6.922,33 điểm",
+        "en": "4 Sept 2000, peak of 6,922.33"
+      },
+      "estimatedReturn": {
+        "vi": "Tránh được khoản lỗ 65,3%; vị thế bán khống (short) có thể lãi tương ứng mức giảm của chỉ số",
+        "en": "Avoids a 65.3% loss; a short position would gain roughly in proportion to the index's decline"
+      },
+      "entryPrice": 6922.33,
+      "exitPrice": 2403.04,
+      "priceCurrency": "points",
+      "exitDate": "2003-03-12",
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết chính xác ngày đỉnh (4/9/2000) và đáy (12/3/2003) cho phép định thời điểm short chỉ số hoặc futures CAC 40 với độ chính xác gần như hoàn hảo.",
+      "en": "Knowing the exact peak (4 Sept 2000) and trough (12 March 2003) dates allows near-perfect timing of a CAC 40 index/futures short."
+    },
+    "pitfalls": {
+      "vi": "Short bán khống đòi hỏi vốn ký quỹ và chịu được biến động mạnh — thị trường có nhiều đợt hồi phục giả trong 2001-2002 có thể kích hoạt margin call.",
+      "en": "Shorting requires margin and tolerance for violent swings — several false rallies in 2001-2002 could trigger margin calls."
+    },
+    "quiz": {
+      "question": {
+        "vi": "CAC 40 giảm bao nhiêu % từ đỉnh tháng 9/2000 đến đáy tháng 3/2003?",
+        "en": "How much did the CAC 40 fall from its Sept 2000 peak to the March 2003 trough?"
+      },
+      "choices": [
+        {
+          "vi": "25%",
+          "en": "25%"
+        },
+        {
+          "vi": "45%",
+          "en": "45%"
+        },
+        {
+          "vi": "65,3%",
+          "en": "65.3%"
+        },
+        {
+          "vi": "90%",
+          "en": "90%"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "Chỉ số giảm 65,3% từ 6.922,33 xuống 2.403,04 điểm.",
+        "en": "The index fell 65.3% from 6,922.33 to 2,403.04."
+      }
+    },
+    "sources": [
+      {
+        "title": "Edinformatics — CAC 40 History",
+        "url": "https://www.edinformatics.com/investor_education/cac40.htm"
+      },
+      {
+        "title": "Wikipedia (German) — CAC 40",
+        "url": "https://de.wikipedia.org/wiki/CAC_40"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed all-time high 6,922.33 on 4 Sept 2000 and low 2,403.04 on 12 March 2003 (-65.3%) via Edinformatics and German Wikipedia citing AMF data."
+  },
+  {
+    "id": "fr-vivendi-universal-collapse-2002",
+    "country": "fr",
+    "date": "2002-07-02",
+    "category": "business",
+    "title": {
+      "vi": "Đế chế Vivendi Universal sụp đổ",
+      "en": "The Vivendi Universal empire collapses"
+    },
+    "summary": {
+      "vi": "Jean-Marie Messier bị sa thải sau khi cổ phiếu Vivendi mất hơn 60% trong năm 2002 vì nợ nần từ thâu tóm ồ ạt.",
+      "en": "Jean-Marie Messier was ousted after Vivendi shares lost over 60% in 2002 under the weight of acquisition-fueled debt."
+    },
+    "description": {
+      "vi": "Trong 18 tháng, CEO Jean-Marie Messier chi khoảng 100 tỷ USD thâu tóm (Seagram/Universal, Canal Plus...) biến một công ty xử lý nước 149 năm tuổi thành tập đoàn truyền thông lớn thứ hai thế giới. Vivendi báo lỗ kỷ lục 11,8 tỷ euro năm 2001 (lớn nhất lịch sử doanh nghiệp Pháp) rồi 23,3 tỷ USD năm 2002. Cổ phiếu giảm hơn 60% trong năm 2002, buộc Messier từ chức ngày 1/7/2002.",
+      "en": "Over 18 months, CEO Jean-Marie Messier spent roughly $100bn on acquisitions (Seagram/Universal, Canal Plus...) turning a 149-year-old water utility into the world's second-largest media company. Vivendi reported a record €11.8bn loss for 2001 (the largest in French corporate history) followed by a $23.3bn loss for 2002. Shares fell over 60% during 2002, forcing Messier's resignation on 1 July 2002."
+    },
+    "opportunity": {
+      "asset": "Vivendi Universal",
+      "action": {
+        "vi": "Bán hoặc bán khống trước khi công bố lỗ; tránh hoàn toàn cổ phiếu trong giai đoạn thâu tóm điên cuồng",
+        "en": "Sell or short before the loss disclosures; avoid the stock entirely during the acquisition spree"
+      },
+      "buyWhen": {
+        "vi": "Không nên mua vào trong giai đoạn 2000-2002",
+        "en": "Do not buy during 2000-2002"
+      },
+      "sellWhen": {
+        "vi": "Đầu năm 2001, trước các đợt giảm giá trị tài sản lớn",
+        "en": "Early 2001, before the major write-downs"
+      },
+      "estimatedReturn": {
+        "vi": "Tránh khoản lỗ hơn 60% trong năm 2002 một mình",
+        "en": "Avoids a loss of over 60% in 2002 alone"
+      },
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết rằng tham vọng 'đế chế truyền thông Pháp-Mỹ' của Messier sẽ sụp đổ chỉ trong 18 tháng và kết thúc bằng việc ông bị hội đồng quản trị sa thải.",
+      "en": "Knowing Messier's 'Franco-American media empire' ambition will collapse within 18 months and end with his board-forced ouster."
+    },
+    "pitfalls": {
+      "vi": "Cổ phiếu từng được giới phân tích Phố Wall ca ngợi là mô hình 'hội tụ truyền thông' hấp dẫn, khiến nhiều người giữ quá lâu.",
+      "en": "Wall Street analysts once praised the stock as an exciting 'media convergence' model, leading many to hold on too long."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Vivendi Universal lỗ bao nhiêu năm 2001 theo chuẩn kế toán Pháp?",
+        "en": "How much did Vivendi Universal lose in 2001 under French accounting rules?"
+      },
+      "choices": [
+        {
+          "vi": "2 tỷ euro",
+          "en": "€2bn"
+        },
+        {
+          "vi": "11,8 tỷ euro",
+          "en": "€11.8bn"
+        },
+        {
+          "vi": "50 tỷ euro",
+          "en": "€50bn"
+        },
+        {
+          "vi": "100 tỷ euro",
+          "en": "€100bn"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Vivendi báo lỗ 11,8 tỷ euro năm 2001, khoản lỗ lớn nhất lịch sử doanh nghiệp Pháp tính đến thời điểm đó.",
+        "en": "Vivendi reported an €11.8bn loss for 2001, the largest in French corporate history at the time."
+      }
+    },
+    "sources": [
+      {
+        "title": "LA Times — Acquisition Spree Leads to Big Loss for Vivendi",
+        "url": "https://www.latimes.com/archives/la-xpm-2002-mar-06-fi-vivendi6-story.html"
+      },
+      {
+        "title": "NYT — After 60% Fall in Share Price, Vivendi Chief Is Forced Out",
+        "url": "https://www.nytimes.com/2002/07/02/business/shake-up-vivendi-overview-after-60-fall-share-price-vivendi-chief-forced.html"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed €11.8bn 2001 loss, $100bn in 18-month acquisitions, >60% 2002 share decline, and Messier's 1 July 2002 resignation via LA Times and NYT contemporaneous reporting."
+  },
+  {
+    "id": "fr-france-telecom-short-2002",
+    "country": "fr",
+    "date": "2002-09-30",
+    "category": "stocks",
+    "title": {
+      "vi": "Bán khống France Télécom tới đáy 2002",
+      "en": "Shorting France Télécom to its 2002 low"
+    },
+    "summary": {
+      "vi": "Từ đỉnh 219 euro (3/2000), cổ phiếu France Télécom rơi tự do xuống 6,94 euro ngày 30/9/2002 — giảm 97%.",
+      "en": "From its €219 peak (March 2000), France Télécom shares went into freefall to €6.94 on 30 Sept 2002 — a 97% collapse."
+    },
+    "description": {
+      "vi": "Sau khi chi 39,7 tỷ euro mua Orange từ Vodafone năm 2000 và gánh khoản nợ khổng lồ hơn 70 tỷ euro, France Télécom báo lỗ ròng kỷ lục 23 tỷ USD năm 2002 (lỗ doanh nghiệp lớn nhất thế giới lúc bấy giờ). Cổ phiếu rơi từ đỉnh 219 euro (2/3/2000) xuống đáy 6,94 euro (30/9/2002), giảm 97%, trước khi hồi phục mạnh khi CEO mới Thierry Breton công bố kế hoạch tái cấu trúc 'TOP' tháng 12/2002.",
+      "en": "After spending €39.7bn to buy Orange from Vodafone in 2000 and taking on over €70bn of debt, France Télécom posted a record $23bn net loss for 2002 — the largest corporate loss in the world at the time. Shares fell from a €219 peak (2 March 2000) to a €6.94 low (30 Sept 2002), a 97% collapse, before rebounding sharply once new CEO Thierry Breton unveiled the 'TOP' restructuring plan in December 2002."
+    },
+    "opportunity": {
+      "asset": "France Télécom (ORA.PA)",
+      "action": {
+        "vi": "Bán khống từ đỉnh 2000, đóng vị thế khi giá chạm đáy cuối 9/2002",
+        "en": "Short from the 2000 peak, cover when price bottoms in late Sept 2002"
+      },
+      "buyWhen": {
+        "vi": "Đóng vị thế short (mua lại) ngày 30/9/2002, giá 6,94 euro",
+        "en": "Cover (buy back) on 30 Sept 2002 at €6.94"
+      },
+      "sellWhen": {
+        "vi": "Mở vị thế short đầu tháng 3/2000, giá 219 euro",
+        "en": "Open the short in early March 2000 at €219"
+      },
+      "estimatedReturn": {
+        "vi": "Lãi khoảng 97% trên vị thế short nếu giữ trọn vẹn đến đáy",
+        "en": "~97% gain on a short position held to the exact bottom"
+      },
+      "returnMultiple": 0.0317,
+      "entryPrice": 219,
+      "exitPrice": 6.94,
+      "priceCurrency": "EUR",
+      "exitDate": "2002-09-30",
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết đáy chính xác là 30/9/2002 cho phép đóng vị thế short đúng lúc trước khi cổ phiếu bật tăng hơn 25% chỉ trong 2 ngày sau tin bổ nhiệm CEO mới và kế hoạch TOP tháng 12/2002.",
+      "en": "Knowing the exact 30 Sept 2002 bottom lets a trader cover the short right before the stock jumped over 25% in two days on the new-CEO and TOP-plan news in December 2002."
+    },
+    "pitfalls": {
+      "vi": "Bán khống cổ phiếu quốc doanh lớn rủi ro bị can thiệp chính trị/nhà nước bất ngờ hỗ trợ, có thể gây short squeeze.",
+      "en": "Shorting a major state-linked stock risks sudden political/state intervention support that could trigger a short squeeze."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Cổ phiếu France Télécom chạm đáy bao nhiêu euro ngày 30/9/2002?",
+        "en": "What was France Télécom's low price on 30 Sept 2002?"
+      },
+      "choices": [
+        {
+          "vi": "6,94 euro",
+          "en": "€6.94"
+        },
+        {
+          "vi": "27,75 euro",
+          "en": "€27.75"
+        },
+        {
+          "vi": "50 euro",
+          "en": "€50"
+        },
+        {
+          "vi": "100 euro",
+          "en": "€100"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "Cổ phiếu chạm đáy 6,94 euro, giảm 97% từ đỉnh 219 euro.",
+        "en": "The stock bottomed at €6.94, down 97% from its €219 peak."
+      }
+    },
+    "sources": [
+      {
+        "title": "EUR-Lex — Decision 2018/1616 (France Télécom share price data)",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32018D1616&rid=1"
+      },
+      {
+        "title": "CNN — France Tel posts record $23b loss",
+        "url": "https://www.cnn.com/2003/BUSINESS/03/05/francetel/index.html"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed €219 peak (2 Mar 2000), €6.94 low (30 Sept 2002, -97%), and record $23bn 2002 loss via EUR-Lex official decision and CNN reporting."
+  },
+  {
+    "id": "fr-cac40-2003-low",
+    "country": "fr",
+    "date": "2003-03-12",
+    "category": "stocks",
+    "title": {
+      "vi": "Đáy CAC 40 hậu dot-com, tháng 3/2003",
+      "en": "CAC 40's post-dot-com bottom, March 2003"
+    },
+    "summary": {
+      "vi": "Chỉ số chạm đáy 2.403 điểm giữa lúc chiến tranh Iraq bùng nổ, mở ra đợt phục hồi kéo dài 5 năm.",
+      "en": "The index bottomed at 2,403 points amid the outbreak of the Iraq war, launching a five-year recovery rally."
+    },
+    "description": {
+      "vi": "Ngày 12/3/2003, CAC 40 chạm đáy 2.403,04 điểm — mức thấp nhất kể từ tháng 4/1997 — sau ba năm bong bóng dot-com xì hơi và căng thẳng trước chiến tranh Iraq. Chỉ số bật tăng gần 20% chỉ trong vài tuần sau đó và tiếp tục xu hướng tăng tới năm 2007, đóng cửa 2003 ở mức 3.557,9 điểm (+16,12% cho cả năm).",
+      "en": "On 12 March 2003 the CAC 40 bottomed at 2,403.04 points — its lowest level since April 1997 — after three years of dot-com deflation and pre-Iraq-war jitters. The index rallied almost 20% within weeks and kept climbing into 2007, closing out 2003 at 3,557.9 (+16.12% for the year)."
+    },
+    "opportunity": {
+      "asset": "CAC 40 index",
+      "action": {
+        "vi": "Mua rổ cổ phiếu CAC 40 tại đáy",
+        "en": "Buy a CAC 40 basket at the bottom"
+      },
+      "buyWhen": {
+        "vi": "12/3/2003, đáy 2.403,04 điểm",
+        "en": "12 March 2003, bottom of 2,403.04"
+      },
+      "sellWhen": {
+        "vi": "Cuối 2003 hoặc giữ tới đỉnh tiếp theo năm 2007",
+        "en": "End of 2003, or hold to the next peak in 2007"
+      },
+      "estimatedReturn": {
+        "vi": "+48% đến cuối 2003 (3.557,9 điểm)",
+        "en": "+48% by end of 2003 (3,557.9 points)"
+      },
+      "returnMultiple": 1.48,
+      "entryPrice": 2403.04,
+      "exitPrice": 3557.9,
+      "priceCurrency": "points",
+      "exitDate": "2003-12-31",
+      "risk": "medium",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Biết chính xác ngày đáy (12/3/2003), ngay trước khi quân Mỹ phát động chiến dịch 'Iraqi Freedom' và thị trường bật tăng theo kiểu 'tin xấu đã phản ánh hết'.",
+      "en": "Knowing the exact bottom date (12 March 2003), right before the US launched 'Iraqi Freedom' and markets rallied on a 'bad news priced in' relief."
+    },
+    "pitfalls": {
+      "vi": "Thị trường vẫn dao động dữ dội quanh tin tức chiến tranh trong vài tuần đầu tháng 3/2003, đòi hỏi kiên nhẫn qua biến động ngắn hạn.",
+      "en": "Markets still swung wildly on war headlines through early March 2003, requiring patience through short-term volatility."
+    },
+    "quiz": {
+      "question": {
+        "vi": "CAC 40 chạm đáy vào ngày nào năm 2003?",
+        "en": "On what date did the CAC 40 bottom out in 2003?"
+      },
+      "choices": [
+        {
+          "vi": "1/1/2003",
+          "en": "1 Jan 2003"
+        },
+        {
+          "vi": "12/3/2003",
+          "en": "12 March 2003"
+        },
+        {
+          "vi": "24/12/2003",
+          "en": "24 Dec 2003"
+        },
+        {
+          "vi": "30/9/2003",
+          "en": "30 Sept 2003"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Đáy chính xác là 12/3/2003 ở mức 2.403,04 điểm.",
+        "en": "The exact bottom was 12 March 2003 at 2,403.04 points."
+      }
+    },
+    "sources": [
+      {
+        "title": "AMF Annual Report 2003 — Financial Markets in 2003 (PDF)",
+        "url": "https://www.amf-france.org/sites/institutionnel/files/contenu_simple/rapport_annuel/rapport_annuel_amf/Annual%20Report%202003%20-%20Chapter%201%20-%20Financial%20Markets%20in%202003%20(2%205%20Mo).pdf"
+      },
+      {
+        "title": "Wikipedia (German) — CAC 40 annual returns",
+        "url": "https://de.wikipedia.org/wiki/CAC_40"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed 12 March 2003 bottom at 2,403.04 and 2003 year-end close of 3,557.9 (+16.12%) via AMF official annual report and German Wikipedia."
+  },
+  {
+    "id": "fr-societe-generale-kerviel-2008",
+    "country": "fr",
+    "date": "2008-01-24",
+    "category": "stocks",
+    "title": {
+      "vi": "Vụ Kerviel chấn động Société Générale",
+      "en": "The Kerviel scandal rocks Société Générale"
+    },
+    "summary": {
+      "vi": "Ngân hàng công bố khoản lỗ gian lận 4,9 tỷ euro từ một trader duy nhất, cổ phiếu lao dốc hơn 20%.",
+      "en": "The bank disclosed a €4.9bn fraud loss from a single trader, sending shares down over 20%."
+    },
+    "description": {
+      "vi": "Ngày 24/1/2008, Société Générale công bố phát hiện gian lận của trader Jérôme Kerviel, người đã tạo các vị thế giả trị giá gần 50 tỷ euro trên hợp đồng tương lai chỉ số châu Âu. Ngân hàng phải thanh lý vị thế trong 3 ngày giữa lúc thị trường lao dốc, chịu lỗ 4,9 tỷ euro — gần bằng lợi nhuận ròng cả năm 2006. Cổ phiếu SocGen giảm hơn 20% trong giai đoạn 17-25/1/2008 trước khi ổn định sau đợt tăng vốn khẩn cấp.",
+      "en": "On 24 Jan 2008 Société Générale disclosed it had uncovered fraud by trader Jérôme Kerviel, who had built nearly €50bn of fictitious positions in European index futures. The bank unwound the positions over three days during a market slump, incurring a €4.9bn loss — nearly its entire 2006 net profit. SocGen shares fell over 20% between 17-25 Jan 2008 before stabilizing after an emergency capital raise."
+    },
+    "opportunity": {
+      "asset": "Société Générale (GLE.PA)",
+      "action": {
+        "vi": "Bán khống ngắn hạn quanh tin tức, sau đó mua lại khi giá quá bán phục hồi",
+        "en": "Short the headline shock, then buy the oversold rebound"
+      },
+      "buyWhen": {
+        "vi": "Sau khi tăng vốn khẩn cấp được công bố, giá đã chiết khấu sâu",
+        "en": "After the emergency capital raise, once the stock was deeply discounted"
+      },
+      "sellWhen": {
+        "vi": "Bán/short trước khi công bố chính thức ngày 24/1/2008",
+        "en": "Sell/short before the 24 Jan 2008 public disclosure"
+      },
+      "estimatedReturn": {
+        "vi": "Tránh khoản sụt giảm hơn 20% trong vài ngày; cơ hội mua giá rẻ sau đó",
+        "en": "Avoids a >20% drop over a few days; a bargain-buying opportunity afterward"
+      },
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết chính xác ngày công bố (24/1/2008) và quy mô thiệt hại (4,9 tỷ euro) cho phép định vị giao dịch quyền chọn hoặc short trước khi tin tức ra ngoài.",
+      "en": "Knowing the exact disclosure date (24 Jan 2008) and loss size (€4.9bn) allows positioning options or shorts ahead of the public news."
+    },
+    "pitfalls": {
+      "vi": "Sự kiện trùng thời điểm thị trường toàn cầu đã biến động mạnh (đầu khủng hoảng tài chính 2008), khiến việc tách bạch nguyên nhân giảm giá khó khăn.",
+      "en": "The event coincided with already-volatile global markets (early 2008 financial crisis), making it hard to isolate the cause of the price drop."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Khoản lỗ gian lận của Société Générale năm 2008 là bao nhiêu?",
+        "en": "How large was Société Générale's 2008 fraud loss?"
+      },
+      "choices": [
+        {
+          "vi": "0,5 tỷ euro",
+          "en": "€0.5bn"
+        },
+        {
+          "vi": "15 tỷ euro",
+          "en": "€15bn"
+        },
+        {
+          "vi": "50 tỷ euro",
+          "en": "€50bn"
+        },
+        {
+          "vi": "4,9 tỷ euro",
+          "en": "€4.9bn"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "vi": "Khoản lỗ cuối cùng được kiểm toán là 4,9 tỷ euro từ việc thanh lý các vị thế gian lận gần 50 tỷ euro.",
+        "en": "The final audited loss was €4.9bn from unwinding nearly €50bn of fraudulent positions."
+      }
+    },
+    "sources": [
+      {
+        "title": "Société Générale — Kerviel case official statement",
+        "url": "https://www.societegenerale.com/en/news/newsroom/kerviel-case"
+      },
+      {
+        "title": "CNBC — French Bank Blames Trader for $7 Billion Loss",
+        "url": "https://www.cnbc.com/2008/01/24/french-bank-blames-trader-for-7-billion-loss.html"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed €4.9bn loss, ~€50bn unwound positions, and 24 Jan 2008 disclosure date via Société Générale's own official statement and CNBC contemporaneous reporting."
+  },
+  {
+    "id": "fr-cac40-2009-low",
+    "country": "fr",
+    "date": "2009-03-09",
+    "category": "stocks",
+    "title": {
+      "vi": "Đáy CAC 40 khủng hoảng tài chính toàn cầu",
+      "en": "CAC 40's global financial crisis bottom"
+    },
+    "summary": {
+      "vi": "Chỉ số chạm đáy 2.519,29 điểm ngày 9/3/2009, giảm 59,2% từ đỉnh tháng 6/2007.",
+      "en": "The index bottomed at 2,519.29 on 9 March 2009, down 59.2% from its June 2007 peak."
+    },
+    "description": {
+      "vi": "Sau sự sụp đổ của Lehman Brothers (9/2008) và vụ lừa đảo Madoff, CAC 40 rơi liên tục, mất mốc 3.000 điểm ngày 20/11/2008 rồi chạm đáy 2.519,29 điểm ngày 9/3/2009 — giảm 59,2% kể từ 1/6/2007. Đây cũng chính là đáy của thị trường chứng khoán toàn cầu (S&P 500 cũng tạo đáy cùng ngày). Từ đáy này, CAC 40 tăng 65% chỉ trong 23 tháng tiếp theo, đóng cửa 2009 ở mức 3.936,33 điểm (+22,32%).",
+      "en": "After the Lehman Brothers collapse (Sept 2008) and the Madoff scandal, the CAC 40 fell relentlessly, breaking below 3,000 on 20 Nov 2008 then bottoming at 2,519.29 on 9 March 2009 — down 59.2% from 1 June 2007. This date also marked the global equity market bottom (the S&P 500 bottomed the same day). From this low, the CAC 40 rose 65% in the next 23 months, closing out 2009 at 3,936.33 (+22.32%)."
+    },
+    "opportunity": {
+      "asset": "CAC 40 index",
+      "action": {
+        "vi": "Mua rổ cổ phiếu CAC 40 tại đáy khủng hoảng",
+        "en": "Buy a CAC 40 basket at the crisis bottom"
+      },
+      "buyWhen": {
+        "vi": "9/3/2009, đáy 2.519,29 điểm",
+        "en": "9 March 2009, bottom of 2,519.29"
+      },
+      "sellWhen": {
+        "vi": "Cuối 2009 hoặc giữ tới đỉnh tháng 2/2011 (4.157 điểm)",
+        "en": "End of 2009, or hold to the Feb 2011 peak (4,157 points)"
+      },
+      "estimatedReturn": {
+        "vi": "+65% trong 23 tháng tiếp theo",
+        "en": "+65% over the following 23 months"
+      },
+      "returnMultiple": 1.65,
+      "entryPrice": 2519.29,
+      "exitPrice": 4157.14,
+      "priceCurrency": "points",
+      "exitDate": "2011-02-18",
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết chính xác đáy toàn cầu trùng ngày 9/3/2009 (cả CAC 40 và S&P 500) cho phép dồn toàn bộ vốn mua vào đúng ngày hoảng loạn cực độ nhất.",
+      "en": "Knowing the global bottom coincided exactly on 9 March 2009 (both CAC 40 and S&P 500) allows deploying maximum capital at peak panic."
+    },
+    "pitfalls": {
+      "vi": "Tâm lý thị trường cực kỳ bi quan đầu 2009 khiến việc mua vào đòi hỏi bản lĩnh thép — nhiều chuyên gia dự báo suy thoái còn kéo dài nhiều năm.",
+      "en": "Market sentiment was extremely bearish in early 2009, requiring nerves of steel — many experts predicted the downturn would last years longer."
+    },
+    "quiz": {
+      "question": {
+        "vi": "CAC 40 giảm bao nhiêu % từ đỉnh tháng 6/2007 đến đáy tháng 3/2009?",
+        "en": "How much did the CAC 40 fall from its June 2007 peak to its March 2009 trough?"
+      },
+      "choices": [
+        {
+          "vi": "30%",
+          "en": "30%"
+        },
+        {
+          "vi": "45%",
+          "en": "45%"
+        },
+        {
+          "vi": "59,2%",
+          "en": "59.2%"
+        },
+        {
+          "vi": "80%",
+          "en": "80%"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "Chỉ số giảm 59,2% từ tháng 6/2007 đến đáy 9/3/2009.",
+        "en": "The index fell 59.2% from June 2007 to the 9 March 2009 bottom."
+      }
+    },
+    "sources": [
+      {
+        "title": "Le Figaro — CAC 40: une décennie renversante",
+        "url": "https://www.lefigaro.fr/bourse/2009/12/31/04013-20091231ARTFIG00474-cac-40-une-decennie-renversante-.php"
+      },
+      {
+        "title": "Wikipedia (German) — CAC 40 2008-2011 history",
+        "url": "https://de.wikipedia.org/wiki/CAC_40"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed 9 March 2009 bottom at 2,519.29 (-59.2% from June 2007), 2009 year-end close 3,936.33 (+22.32%), and Feb 2011 peak of 4,157.14 via Le Figaro and German Wikipedia."
+  },
+  {
+    "id": "fr-euro-debt-crisis-banks-2011",
+    "country": "fr",
+    "date": "2011-09",
+    "category": "macro",
+    "title": {
+      "vi": "Khủng hoảng nợ eurozone đánh gục ngân hàng Pháp",
+      "en": "Eurozone debt crisis slams French banks"
+    },
+    "summary": {
+      "vi": "Société Générale và Crédit Agricole mất 60-65% giá trị trong vài tháng vì lo ngại nợ Hy Lạp.",
+      "en": "Société Générale and Crédit Agricole lost 60-65% of their value in months on Greek debt fears."
+    },
+    "description": {
+      "vi": "Giữa năm 2011, lo ngại vỡ nợ Hy Lạp lan rộng khiến cổ phiếu ngân hàng Pháp bị bán tháo: Société Générale giảm từ đỉnh ~52 euro cuối tháng 2 xuống 15,57 euro giữa tháng 9 (giảm ~70%), Crédit Agricole giảm 60%, BNP Paribas giảm 53% trong cùng giai đoạn. Moody's hạ xếp hạng Société Générale và Crédit Agricole ngày 14/9/2011. Mặc dù mức độ phơi nhiễm nợ Hy Lạp thực tế khá nhỏ (Société Générale chỉ ~6,6 tỷ euro), thị trường lo sợ khủng hoảng thanh khoản USD lan rộng.",
+      "en": "In mid-2011, fears of a Greek default triggered a selloff of French bank stocks: Société Générale fell from a ~€52 peak in late February to €15.57 by mid-September (down ~70%), Crédit Agricole fell 60%, and BNP Paribas fell 53% over the same period. Moody's downgraded Société Générale and Crédit Agricole on 14 Sept 2011. Although actual Greek debt exposure was relatively small (Société Générale only ~€6.6bn), markets feared a broader dollar-funding liquidity crisis."
+    },
+    "opportunity": {
+      "asset": "Société Générale (GLE.PA), Crédit Agricole",
+      "action": {
+        "vi": "Bán/tránh trước đợt bán tháo, sau đó mua vào khi hoảng loạn đạt đỉnh",
+        "en": "Sell/avoid ahead of the rout, then buy at peak panic"
+      },
+      "buyWhen": {
+        "vi": "Giữa tháng 9/2011, khi SocGen chạm 15,57 euro",
+        "en": "Mid-Sept 2011, when SocGen hit €15.57"
+      },
+      "sellWhen": {
+        "vi": "Cuối tháng 2/2011, trước khi lao dốc bắt đầu",
+        "en": "Late Feb 2011, before the slide began"
+      },
+      "estimatedReturn": {
+        "vi": "Tránh khoản lỗ ~70%; cơ hội mua đáy hồi phục mạnh sau đó",
+        "en": "Avoids a ~70% loss; a strong rebound buying opportunity afterward"
+      },
+      "entryPrice": 52,
+      "exitPrice": 15.57,
+      "priceCurrency": "EUR",
+      "exitDate": "2011-09-12",
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết rằng mức độ phơi nhiễm nợ Hy Lạp thực tế của các ngân hàng Pháp khá nhỏ so với mức sụt giảm cổ phiếu, cho thấy đây là tình huống bán tháo thái quá — cơ hội mua giá rẻ cho người có dữ liệu chính xác.",
+      "en": "Knowing French banks' actual Greek debt exposure was small relative to the share price collapse signals an overreaction — a bargain-buying opportunity for someone with precise data."
+    },
+    "pitfalls": {
+      "vi": "Rủi ro hệ thống thực sự tồn tại (thiếu thanh khoản USD), nên việc mua đáy cần có sự can thiệp của ECB/Fed để thành công — không phải lúc nào quá bán cũng hồi phục nhanh.",
+      "en": "Real systemic risk existed (USD funding shortage), so the bottom-fishing trade depended on ECB/Fed intervention succeeding — oversold conditions don't always bounce back quickly."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Cổ phiếu Société Générale giảm khoảng bao nhiêu % từ đỉnh tháng 2 đến giữa tháng 9/2011?",
+        "en": "How much did Société Générale shares fall from the Feb peak to mid-Sept 2011?"
+      },
+      "choices": [
+        {
+          "vi": "20%",
+          "en": "20%"
+        },
+        {
+          "vi": "40%",
+          "en": "40%"
+        },
+        {
+          "vi": "~70%",
+          "en": "~70%"
+        },
+        {
+          "vi": "90%",
+          "en": "90%"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "Cổ phiếu giảm từ khoảng 52 euro xuống 15,57 euro, tương đương khoảng 70%.",
+        "en": "Shares fell from about €52 to €15.57, roughly a 70% decline."
+      }
+    },
+    "sources": [
+      {
+        "title": "NYT — Debt Fears Rattle Big Banks in France",
+        "url": "https://nytimes.com/2011/09/13/business/global/turmoil-ensnares-big-french-banks.html?pagewanted=all"
+      },
+      {
+        "title": "Al Jazeera — Credit agency downgrades two French banks",
+        "url": "https://aljazeera.com/business/news/2011/09/20119148043132382.html"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed SocGen fall from ~€52 (Feb 2011) to €15.57 (12 Sept 2011), Crédit Agricole/BNP declines of 60%/53%, and Moody's downgrades via NYT and Al Jazeera contemporaneous reporting."
+  },
+  {
+    "id": "fr-pacte-law-crypto-2019",
+    "country": "fr",
+    "date": "2019-05-22",
+    "category": "crypto",
+    "title": {
+      "vi": "Luật PACTE mở khung pháp lý crypto Pháp",
+      "en": "France's PACTE law legalizes crypto services"
+    },
+    "summary": {
+      "vi": "Luật PACTE (22/5/2019) tạo quy chế PSAN đầu tiên cho sàn giao dịch crypto, đúng lúc Bitcoin chuẩn bị tăng từ ~8.000 USD lên 69.000 USD.",
+      "en": "The PACTE law (22 May 2019) created France's first regulated crypto-exchange status, just as Bitcoin was about to run from ~$8,000 to $69,000."
+    },
+    "description": {
+      "vi": "Luật PACTE (Loi relative à la croissance et la transformation des entreprises), ban hành ngày 22/5/2019, lập ra quy chế 'Nhà cung cấp dịch vụ tài sản số' (PSAN) do AMF quản lý, cho phép các sàn giao dịch crypto hoạt động hợp pháp tại Pháp lần đầu tiên và mở đường cho ICO được cấp phép (nhãn tùy chọn). Luật có hiệu lực ngay trước khi giá Bitcoin tăng từ khoảng 8.000 USD (tháng 5/2019) lên đỉnh gần 69.000 USD (tháng 11/2021) — mức tăng hơn 8,6 lần.",
+      "en": "The PACTE law (Loi relative à la croissance et la transformation des entreprises), enacted 22 May 2019, created the 'Digital Asset Service Provider' (PSAN/DASP) status regulated by the AMF, legalizing crypto exchanges in France for the first time and enabling an optional ICO licensing label. It took effect just before Bitcoin rallied from roughly $8,000 (May 2019) to a near-$69,000 peak (Nov 2021) — a gain of over 8.6x."
+    },
+    "opportunity": {
+      "asset": "Bitcoin (BTC)",
+      "action": {
+        "vi": "Mua Bitcoin qua sàn được quản lý ngay khi luật PACTE có hiệu lực",
+        "en": "Buy Bitcoin through a newly regulated exchange as PACTE took effect"
+      },
+      "buyWhen": {
+        "vi": "Tháng 5/2019, giá khoảng 8.000 USD",
+        "en": "May 2019, around $8,000"
+      },
+      "sellWhen": {
+        "vi": "Tháng 11/2021, đỉnh gần 69.000 USD",
+        "en": "November 2021, near the $69,000 peak"
+      },
+      "estimatedReturn": {
+        "vi": "~x8,6 trong hơn 2 năm",
+        "en": "~8.6x in just over 2 years"
+      },
+      "returnMultiple": 8.6,
+      "entryPrice": 8000,
+      "exitPrice": 69000,
+      "priceCurrency": "USD",
+      "exitDate": "2021-11",
+      "risk": "high",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Khung pháp lý PSAN giúp người Pháp tiếp cận sàn giao dịch crypto nội địa hợp pháp sớm hơn nhiều nước châu Âu khác — tận dụng lợi thế pháp lý này để tích lũy Bitcoin với chi phí/rủi ro pháp lý thấp hơn ngay từ 2019.",
+      "en": "The PSAN framework gave French residents legal access to domestic crypto exchanges earlier than many European peers — exploit this regulatory head start to accumulate Bitcoin with lower cost/legal risk from 2019 onward."
+    },
+    "pitfalls": {
+      "vi": "Đăng ký PSAN chỉ là bắt buộc một phần (custody/mua bán fiat), nhiều nền tảng (như Bitstamp) hoạt động không đăng ký nhiều năm sau hạn chót 19/12/2020 — chọn sàn đã đăng ký đúng quy định để tránh rủi ro pháp lý.",
+      "en": "PSAN registration was only mandatory for some activities (custody/fiat trading); some platforms (e.g. Bitstamp) operated unregistered for years past the 19 Dec 2020 deadline — choose a properly registered exchange to avoid legal risk."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Luật PACTE tạo ra quy chế nào cho các sàn giao dịch crypto tại Pháp?",
+        "en": "What status did the PACTE law create for crypto exchanges in France?"
+      },
+      "choices": [
+        {
+          "vi": "PSAN (Prestataire de services sur actifs numériques)",
+          "en": "PSAN (Digital Asset Service Provider)"
+        },
+        {
+          "vi": "Ngân hàng số",
+          "en": "Digital bank"
+        },
+        {
+          "vi": "Quỹ đầu tư mạo hiểm",
+          "en": "Venture capital fund"
+        },
+        {
+          "vi": "Công ty bảo hiểm",
+          "en": "Insurance company"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "Luật PACTE lập ra quy chế PSAN do AMF quản lý cho các nhà cung cấp dịch vụ tài sản số.",
+        "en": "PACTE created the AMF-regulated PSAN (Digital Asset Service Provider) status."
+      }
+    },
+    "sources": [
+      {
+        "title": "Banque de France ACPR — Crypto-assets FAQ",
+        "url": "https://acpr.banque-france.fr/en/faq/recherche"
+      },
+      {
+        "title": "Clifford Chance — Fintech: the French regulatory landscape",
+        "url": "https://www.cliffordchance.com/insights/resources/blogs/talking-tech/en/articles/2022/06/fintech-the-french-regulatory-landscape.html"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed PACTE law enacted 22 May 2019 and PSAN/DASP status via Banque de France ACPR official FAQ and Clifford Chance legal analysis. Bitcoin's $8,000 (May 2019) to ~$69,000 (Nov 2021) price move is well-documented market history, not France-specific, so noted as general crypto-market context rather than independently re-verified for this task."
+  },
+  {
+    "id": "fr-lvmh-luxury-rebound-2020-2021",
+    "country": "fr",
+    "date": "2020-03",
+    "category": "stocks",
+    "title": {
+      "vi": "LVMH bật tăng từ đáy COVID lên đỉnh lịch sử 2021",
+      "en": "LVMH rockets from COVID dip to 2021 record high"
+    },
+    "summary": {
+      "vi": "LVMH giảm xuống 278,70 euro (mid-session low 2020) rồi lập đỉnh 741,60 euro cuối 2021 nhờ nhu cầu xa xỉ bùng nổ hậu đại dịch.",
+      "en": "LVMH dipped to a €278.70 mid-session low in 2020 then hit a €741.60 record by end-2021 on a post-pandemic luxury demand boom."
+    },
+    "description": {
+      "vi": "Theo báo cáo cổ đông chính thức của LVMH, giá cổ phiếu chạm đáy giữa phiên 278,70 euro năm 2020 (trong đợt bán tháo COVID) trước khi bùng nổ lên đỉnh giữa phiên 741,60 euro cuối năm 2021, đóng cửa năm ở 727 euro (+42,3% cho cả năm 2021). Nhu cầu hàng xa xỉ phục hồi mạnh mẽ (đặc biệt từ Trung Quốc và Mỹ) cùng thương vụ mua lại Tiffany & Co. (16,2 tỷ USD, hoàn tất tháng 1/2021) củng cố vị thế toàn cầu của LVMH.",
+      "en": "Per LVMH's own shareholder report, the stock bottomed at a mid-session €278.70 in 2020 (during the COVID selloff) before surging to a mid-session high of €741.60 by the end of 2021, closing the year at €727 (+42.3% for 2021 alone). A powerful luxury demand rebound (especially from China and the US) alongside the Tiffany & Co. acquisition ($16.2bn, closed Jan 2021) cemented LVMH's global dominance."
+    },
+    "opportunity": {
+      "asset": "LVMH (MC.PA)",
+      "action": {
+        "vi": "Mua tại đáy COVID 2020, giữ qua đợt phục hồi xa xỉ hậu đại dịch",
+        "en": "Buy at the 2020 COVID dip, hold through the post-pandemic luxury rebound"
+      },
+      "buyWhen": {
+        "vi": "Tháng 3/2020, vùng giá ~278,70 euro",
+        "en": "March 2020, around the €278.70 low"
+      },
+      "sellWhen": {
+        "vi": "Cuối 2021, vùng đỉnh 727-741 euro",
+        "en": "End of 2021, near the €727-741 peak"
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng gấp 2,6 lần trong chưa đầy 2 năm",
+        "en": "Roughly 2.6x in under two years"
+      },
+      "returnMultiple": 2.61,
+      "entryPrice": 278.7,
+      "exitPrice": 727.0,
+      "priceCurrency": "EUR",
+      "exitDate": "2021-12-31",
+      "risk": "medium",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết trước thương vụ Tiffany & Co. (ban đầu bị hoãn vì tranh chấp pháp lý giữa LVMH và Tiffany năm 2020) sẽ hoàn tất đầu năm 2021 và thúc đẩy đà tăng của cổ phiếu.",
+      "en": "Knowing the Tiffany & Co. deal (initially stalled by a 2020 LVMH-Tiffany legal dispute) will close in early 2021 and fuel the stock's rally."
+    },
+    "pitfalls": {
+      "vi": "LVMH từng dọa rút khỏi thương vụ Tiffany giữa 2020, gây biến động giá cổ phiếu và rủi ro pháp lý tạm thời trước khi hai bên đạt thỏa thuận giá thấp hơn.",
+      "en": "LVMH briefly threatened to walk away from the Tiffany deal in mid-2020, causing share volatility and temporary legal risk before the two sides settled on a lower price."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Giá cổ phiếu LVMH đóng cửa năm 2021 ở mức bao nhiêu euro?",
+        "en": "What was LVMH's year-end 2021 closing share price?"
+      },
+      "choices": [
+        {
+          "vi": "278,70 euro",
+          "en": "€278.70"
+        },
+        {
+          "vi": "414,20 euro",
+          "en": "€414.20"
+        },
+        {
+          "vi": "727 euro",
+          "en": "€727"
+        },
+        {
+          "vi": "959 euro",
+          "en": "€959"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "LVMH đóng cửa năm 2021 ở mức 727 euro, tăng 42,3% trong năm.",
+        "en": "LVMH closed 2021 at €727, up 42.3% for the year."
+      }
+    },
+    "sources": [
+      {
+        "title": "LVMH — Letter to Shareholders, March 2022 (official)",
+        "url": "https://www.lvmh.com/static/letter-to-shareholders-march-2022/"
+      },
+      {
+        "title": "companiesmarketcap.com — LVMH stock price history",
+        "url": "https://companiesmarketcap.com/lvmh/stock-price-history/"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed 2020 mid-session low €278.70, 2021 mid-session high €741.60, and 2021 year-end close €727 (+42.3%) via LVMH's own official shareholder letter."
+  },
+  {
+    "id": "fr-cac40-2020-covid-low",
+    "country": "fr",
+    "date": "2020-03-18",
+    "category": "stocks",
+    "title": {
+      "vi": "Đáy CAC 40 mùa COVID 2020",
+      "en": "CAC 40's 2020 COVID crash bottom"
+    },
+    "summary": {
+      "vi": "Chỉ số rơi xuống 3.754,84 điểm ngày 18/3/2020, giảm hơn 38% chỉ trong một tháng rưỡi.",
+      "en": "The index plunged to 3,754.84 on 18 March 2020, down over 38% in just six weeks."
+    },
+    "description": {
+      "vi": "Từ đỉnh đầu năm ~6.100 điểm, CAC 40 lao dốc khi đại dịch COVID-19 lan rộng ở châu Âu, mất 12,28% trong một phiên duy nhất ngày 12/3/2020 ('Black Thursday') và chạm đáy nội phiên 3.754,84 điểm ngày 18/3/2020. Nhờ các gói kích thích tiền tệ-tài khóa khổng lồ từ ECB và chính phủ Pháp, chỉ số phục hồi mạnh, đóng cửa năm 2020 ở 5.551,41 điểm.",
+      "en": "From a January peak of around 6,100, the CAC 40 collapsed as COVID-19 spread across Europe, falling 12.28% in a single session on 12 March 2020 ('Black Thursday') and hitting an intraday low of 3,754.84 on 18 March 2020. Massive ECB and French government monetary-fiscal stimulus fueled a strong recovery, with the index closing out 2020 at 5,551.41."
+    },
+    "opportunity": {
+      "asset": "CAC 40 index",
+      "action": {
+        "vi": "Mua rổ cổ phiếu CAC 40 (hoặc LVMH, L'Oréal, Airbus riêng lẻ) tại đáy COVID",
+        "en": "Buy a CAC 40 basket (or individual names like LVMH, L'Oréal, Airbus) at the COVID bottom"
+      },
+      "buyWhen": {
+        "vi": "18/3/2020, đáy 3.754,84 điểm",
+        "en": "18 March 2020, bottom of 3,754.84"
+      },
+      "sellWhen": {
+        "vi": "Cuối 2020 hoặc giữ sang 2021-2022 khi thị trường tiếp tục tăng",
+        "en": "End of 2020, or hold into 2021-2022 as markets kept rallying"
+      },
+      "estimatedReturn": {
+        "vi": "+47,8% chỉ trong hơn 9 tháng (đến cuối 2020)",
+        "en": "+47.8% in just over 9 months (to end-2020)"
+      },
+      "returnMultiple": 1.478,
+      "entryPrice": 3754.84,
+      "exitPrice": 5551.41,
+      "priceCurrency": "points",
+      "exitDate": "2020-12-31",
+      "risk": "medium",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Biết chính xác ngày đáy (18/3/2020) và rằng ECB/các chính phủ sẽ tung gói kích thích chưa từng có chỉ vài ngày sau giúp định thời điểm mua với độ tự tin tối đa giữa hoảng loạn đại chúng.",
+      "en": "Knowing the exact bottom date (18 March 2020) and that unprecedented ECB/government stimulus was just days away allows buying with maximum confidence amid mass panic."
+    },
+    "pitfalls": {
+      "vi": "Tình hình dịch bệnh vẫn bất định nghiêm trọng vào tháng 3/2020, nhiều chuyên gia dự báo suy thoái kéo dài — cần bản lĩnh để mua giữa tin tức cực kỳ tiêu cực.",
+      "en": "The pandemic outlook was still deeply uncertain in March 2020, with many forecasting a prolonged recession — buying amid extremely negative headlines required real nerve."
+    },
+    "quiz": {
+      "question": {
+        "vi": "CAC 40 giảm bao nhiêu % trong phiên 'Black Thursday' 12/3/2020?",
+        "en": "How much did the CAC 40 fall on 'Black Thursday,' 12 March 2020?"
+      },
+      "choices": [
+        {
+          "vi": "5%",
+          "en": "5%"
+        },
+        {
+          "vi": "12,28%",
+          "en": "12.28%"
+        },
+        {
+          "vi": "25%",
+          "en": "25%"
+        },
+        {
+          "vi": "40%",
+          "en": "40%"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Chỉ số giảm 12,28% trong một phiên duy nhất ngày 12/3/2020.",
+        "en": "The index fell 12.28% in a single session on 12 March 2020."
+      }
+    },
+    "sources": [
+      {
+        "title": "Daily Sabah — European stocks suffer historic losses amid coronavirus concerns",
+        "url": "https://www.dailysabah.com/business/economy/european-stock-exchanges-go-into-freefall-over-coronavirus-concerns"
+      },
+      {
+        "title": "ConvexTrade — CAC 40 in 2020: full year analysis",
+        "url": "https://convextrade.com/metrics/cac40/history/2020"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed 12.28% single-day drop (12 March 2020, Black Thursday) via Daily Sabah contemporaneous reporting; intraday low 3,754.84 (18 Mar) and 2020 close 5,551.41 via ConvexTrade historical data, cross-checked against Wikipedia's 2020 stock market crash entry."
+  }
+]

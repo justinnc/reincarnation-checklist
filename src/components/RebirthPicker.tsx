@@ -39,7 +39,7 @@ export default function RebirthPicker({ milestones, countries, lang, dict, minYe
       />
       <div className="relative grid gap-10 lg:grid-cols-[1.1fr_1fr]">
         <div>
-          <div className="flex gap-2">
+          <div className="flex flex-wrap gap-2">
             {countries.map((c) => (
               <button
                 key={c.code}
@@ -96,9 +96,9 @@ export default function RebirthPicker({ milestones, countries, lang, dict, minYe
                     <span className="block font-mono text-xs tabular text-gold">{m.date.slice(0, 4)}</span>
                     <span className="block truncate font-medium">{t(m.title, lang)}</span>
                   </span>
-                  {m.opportunity.returnMultiple ? (
+                  {(m.opportunity.returnMultiple ?? 0) > 1 ? (
                     <span className="rounded-md bg-gain px-2 py-0.5 font-mono text-sm font-semibold tabular text-on-gain">
-                      {formatMultiple(m.opportunity.returnMultiple, lang)}
+                      {formatMultiple(m.opportunity.returnMultiple!, lang)}
                     </span>
                   ) : null}
                 </Link>

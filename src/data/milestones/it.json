@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "it-luxottica-growth",
+    "country": "it",
+    "date": "1990-01",
+    "category": "stocks",
+    "title": {
+      "vi": "Luxottica: từ dưới 1 USD lên hơn 50 euro/cổ phiếu",
+      "en": "Luxottica: from under $1 to over EUR 50 a share"
+    },
+    "summary": {
+      "vi": "Luxottica IPO tại New York năm 1990 với giá dưới 1 USD/cổ phiếu, đến khi rời sàn Milan năm 2017 đã tăng giá trị hơn 50 lần.",
+      "en": "Luxottica IPO'd in New York in 1990 under $1/share; by its 2017 Milan delisting the stock had multiplied over 50-fold."
+    },
+    "description": {
+      "vi": "Nhà sản xuất kính mắt Luxottica (Ray-Ban, Oakley...) niêm yết ADR trên NYSE tháng 1/1990 với giá dưới 1 USD/cổ phiếu, trở thành công ty Ý đầu tiên niêm yết tại Mỹ trước cả khi niêm yết ở Milan (tháng 12/2000). Theo công bố chính thức của công ty, khi rời sàn Milan năm 2017-2019 (sau khi sáp nhập thành EssilorLuxottica), giá cổ phiếu đã vượt 50 euro, tức tăng hơn 50 lần trong gần 30 năm nhờ chiến lược tích hợp dọc, mua lại Ray-Ban (1999) và Sunglass Hut, cùng tăng trưởng doanh số đều đặn gần 30%/năm thập niên 1990.",
+      "en": "Eyewear maker Luxottica (Ray-Ban, Oakley...) listed ADRs on the NYSE in January 1990 at under $1 per share, becoming the first Italian company to list in the US even before listing in Milan (December 2000). Per the company's own official statement, by the time it delisted from Milan in 2017-2019 (after merging into EssilorLuxottica), the share price had topped EUR 50 - a more than 50-fold increase over almost 30 years, driven by vertical integration, the Ray-Ban (1999) and Sunglass Hut acquisitions, and roughly 30%/year revenue growth through the 1990s."
+    },
+    "opportunity": {
+      "asset": "Luxottica Group (NYSE: LUX / BIT: LUX)",
+      "action": {
+        "vi": "Mua ADR Luxottica ngay từ IPO tháng 1/1990 và giữ dài hạn",
+        "en": "Buy Luxottica ADRs at the January 1990 IPO and hold long-term"
+      },
+      "buyWhen": {
+        "vi": "Tháng 1/1990, giá dưới 1 USD/cổ phiếu",
+        "en": "January 1990, at under $1 per share"
+      },
+      "sellWhen": {
+        "vi": "2017-2019, khi công ty rời sàn Milan ở giá hơn 50 euro",
+        "en": "2017-2019, when the company delisted from Milan above EUR 50"
+      },
+      "estimatedReturn": {
+        "vi": "Hơn 50 lần giá trị ban đầu trong gần 30 năm, theo công bố chính thức của công ty",
+        "en": "Over 50x the original value across almost 30 years, per the company's own disclosure"
+      },
+      "returnMultiple": 50,
+      "exitDate": "2017",
+      "risk": "low",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết trước Luxottica sẽ thâu tóm Ray-Ban (1999) và thống trị ngành kính mắt toàn cầu giúp bỏ qua các đợt điều chỉnh ngắn hạn và giữ cổ phiếu xuyên suốt gần 3 thập kỷ.",
+      "en": "Knowing Luxottica would acquire Ray-Ban (1999) and come to dominate the global eyewear industry lets you ignore short-term pullbacks and hold through nearly three decades."
+    },
+    "pitfalls": {
+      "vi": "Cổ phiếu từng giảm mạnh đầu những năm 2000 (từ 17 USD xuống dưới 8 USD năm 2000) nên cần kỷ luật nắm giữ dài hạn thay vì bán non.",
+      "en": "The stock fell sharply in the early 2000s (from $17 to under $8 in 2000), so long-term holding discipline is required rather than selling early."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Luxottica niêm yết lần đầu ở sàn nào vào năm 1990?",
+        "en": "Where did Luxottica first list in 1990?"
+      },
+      "choices": [
+        {
+          "vi": "Sàn chứng khoán Milan",
+          "en": "Milan Stock Exchange"
+        },
+        {
+          "vi": "Sàn London",
+          "en": "London Stock Exchange"
+        },
+        {
+          "vi": "Sàn chứng khoán New York (NYSE)",
+          "en": "New York Stock Exchange (NYSE)"
+        },
+        {
+          "vi": "Sàn Hong Kong",
+          "en": "Hong Kong Stock Exchange"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "Luxottica là công ty Ý đầu tiên niêm yết tại Mỹ (NYSE) vào tháng 1/1990, trước khi niêm yết tại Milan năm 2000.",
+        "en": "Luxottica was the first Italian company to list in the US (NYSE) in January 1990, before listing in Milan in 2000."
+      }
+    },
+    "sources": [
+      {
+        "title": "Luxottica Delists From Milan Stock Exchange (WWD)",
+        "url": "https://wwd.com/accessories-news/eyewear/feature/luxottica-delists-from-milan-stock-exchange-1203077253/"
+      },
+      {
+        "title": "Luxottica - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Luxottica"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "50x+ growth (under $1 in 1990 to over EUR 50 at 2017-19 delisting) confirmed via company press release and WWD reporting."
+  },
+  {
+    "id": "it-lira-erm-exit-1992",
+    "country": "it",
+    "date": "1992-09-16",
+    "category": "macro",
+    "title": {
+      "vi": "Lira bị đánh bật khỏi ERM (Thứ Tư Đen)",
+      "en": "Lira crashes out of ERM ('Black Wednesday')"
+    },
+    "summary": {
+      "vi": "Soros tấn công đồng lira, Ý rút khỏi ERM, lira mất khoảng 30% giá trị trong vài tuần.",
+      "en": "Soros attacked the lira; Italy exited the ERM and the lira lost roughly 30% of its value within weeks."
+    },
+    "description": {
+      "vi": "Ngày 16/9/1992, cùng ngày đồng bảng Anh sụp đổ, George Soros và các nhà đầu cơ khác cũng bán khống đồng lira khiến Ngân hàng Ý mất khoảng 48 tỷ USD dự trữ. Ý buộc phải rút lira khỏi Cơ chế Tỷ giá Hối đoái châu Âu (ERM) ngày 17/9/1992, và đồng tiền này mất giá khoảng 20-30% so với Mark Đức trong những tuần sau đó. Chính phủ Amato sau đó phải áp dụng gói thắt lưng buộc bụng 93 nghìn tỷ lira, bao gồm cả việc rút tiền cưỡng bức từ tài khoản ngân hàng.",
+      "en": "On 16 September 1992, the same day the British pound collapsed, George Soros and other speculators shorted the Italian lira, draining the Bank of Italy of roughly $48 billion in reserves. Italy was forced to pull the lira out of the European Exchange Rate Mechanism (ERM) on 17 September 1992, and the currency devalued by roughly 20-30% against the German mark over the following weeks. The Amato government then had to pass a 93 trillion lira austerity package, including a forced levy on bank accounts."
+    },
+    "opportunity": {
+      "asset": "USD/ITL or DEM/ITL (short lira)",
+      "action": {
+        "vi": "Bán khống đồng lira trước ngày 16/9/1992, hoặc mua ngoại tệ mạnh (USD/DEM) trước khủng hoảng",
+        "en": "Short the Italian lira before 16 September 1992, or hold hard currency (USD/DEM) ahead of the crisis"
+      },
+      "buyWhen": {
+        "vi": "Đầu tháng 9/1992 khi áp lực lên ERM đã rõ ràng",
+        "en": "Early September 1992, once pressure on the ERM was evident"
+      },
+      "sellWhen": {
+        "vi": "Ngay sau khi lira rút khỏi ERM và mất giá mạnh (cuối tháng 9/1992)",
+        "en": "Right after the lira exited the ERM and devalued sharply (late September 1992)"
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng 20-30% trên vị thế bán khống lira trong vài tuần",
+        "en": "Roughly 20-30% on a short-lira position within weeks"
+      },
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết trước chính xác ngày 16/9/1992 cho phép đặt cược đòn bẩy cực lớn vào việc lira sụp đổ, giống như Soros đã làm với bảng Anh.",
+      "en": "Knowing the exact date of 16 September 1992 lets you place a maximally leveraged bet on the lira's collapse, just as Soros did with the pound."
+    },
+    "pitfalls": {
+      "vi": "Ngân hàng Ý can thiệp mạnh trước đó khiến thời điểm chính xác khó đoán nếu không biết trước; đòn bẩy cao trên FX có thể bị thanh lý nếu vào lệnh quá sớm.",
+      "en": "The Bank of Italy intervened heavily beforehand, so timing is hard without foreknowledge; high FX leverage risks liquidation if the position is entered too early."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Ngân hàng Ý mất khoảng bao nhiêu dự trữ ngoại hối khi cố bảo vệ đồng lira năm 1992?",
+        "en": "About how much in reserves did the Bank of Italy lose defending the lira in 1992?"
+      },
+      "choices": [
+        {
+          "vi": "48 tỷ USD",
+          "en": "$48 billion"
+        },
+        {
+          "vi": "5 tỷ USD",
+          "en": "$5 billion"
+        },
+        {
+          "vi": "200 tỷ USD",
+          "en": "$200 billion"
+        },
+        {
+          "vi": "1 tỷ USD",
+          "en": "$1 billion"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "Theo các nguồn tin, cuộc tấn công của Soros khiến Ngân hàng Ý mất khoảng 48 tỷ USD dự trữ trước khi rút lira khỏi ERM.",
+        "en": "Sources report that Soros's attack cost the Bank of Italy roughly $48 billion in reserves before the lira was pulled from the ERM."
+      }
+    },
+    "sources": [
+      {
+        "title": "Soros: 30 years ago the speculative attack that sank the lira and the pound",
+        "url": "https://www.firstonline.info/en/soros-happened-today-30-years-ago-the-speculative-attack-that-sank-the-lira-and-the-pound/"
+      },
+      {
+        "title": "Annex VI: The ERM Crisis of September 1992 (IMF)",
+        "url": "https://www.elibrary.imf.org/display/book/9781557752901/ch13.xml"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Date (16-17 Sept 1992), $48bn reserve loss, and ~20-30% lira devaluation confirmed via firstonline.info and IMF eLibrary."
+  },
+  {
+    "id": "it-eni-ipo-1995",
+    "country": "it",
+    "date": "1995-11-21",
+    "category": "stocks",
+    "title": {
+      "vi": "ENI tư nhân hóa, IPO giá 5.250 lira",
+      "en": "ENI privatized at 5,250-lire IPO price"
+    },
+    "summary": {
+      "vi": "Đợt IPO đầu tiên của ENI năm 1995 định giá 5.250 lira/cổ phiếu, mở đầu chương trình tư nhân hóa lớn nhất châu Âu lục địa thời điểm đó.",
+      "en": "ENI's first 1995 tranche was priced at 5,250 lire per share, launching what was then continental Europe's biggest privatization program."
+    },
+    "description": {
+      "vi": "Chính phủ Ý bắt đầu tư nhân hóa gã khổng lồ năng lượng ENI vào tháng 11/1995, bán khoảng 15% cổ phần với giá 5.250 lira (khoảng 3,29 USD)/cổ phiếu, niêm yết trên sàn Milan và New York. Qua 4 đợt chào bán 1995-1998, giá tăng dần: 5.250 → 7.400 → 9.900 → 11.800 lira/cổ phiếu (tính theo euro: 5,42 → 7,4 → 9,9 → 11,8 euro), tổng thu hơn 41 nghìn tỷ lira (hơn 21 tỷ euro), khoản tiền tư nhân hóa lớn nhất châu Âu lục địa lúc đó cho một công ty.",
+      "en": "The Italian government began privatizing energy giant ENI in November 1995, selling about 15% of the company at 5,250 lire (about $3.29) per share, listed in Milan and New York. Across four tranches from 1995-1998, the offer price rose steadily: 5,250 -> 7,400 -> 9,900 -> 11,800 lire per share (5.42 -> 7.4 -> 9.9 -> 11.8 euros), raising over 41 trillion lire (more than 21 billion euros) in total — then the biggest privatization proceeds ever taken by a continental European government for a single company."
+    },
+    "opportunity": {
+      "asset": "Eni S.p.A. (ENI.MI)",
+      "action": {
+        "vi": "Mua cổ phiếu ENI ngay trong đợt IPO tháng 11/1995",
+        "en": "Buy Eni shares at the November 1995 IPO"
+      },
+      "buyWhen": {
+        "vi": "21/11/1995, giá chào bán 5.250 lira/cổ phiếu",
+        "en": "21 November 1995, at the 5,250-lire offer price"
+      },
+      "sellWhen": {
+        "vi": "Giữ dài hạn qua các đợt tư nhân hóa tiếp theo đến 1998 trở đi khi giá đã tăng hơn gấp đôi",
+        "en": "Hold long-term through subsequent tranches to 1998 and beyond as the price more than doubled"
+      },
+      "estimatedReturn": {
+        "vi": "Giá chào bán tăng từ 5,42 lên 11,8 euro/cổ phiếu qua 4 đợt (1995-1998), tương đương hơn 2 lần",
+        "en": "Offer price rose from EUR 5.42 to EUR 11.8 per share across 4 tranches (1995-1998), more than 2x"
+      },
+      "returnMultiple": 2.18,
+      "entryPrice": 5.42,
+      "exitPrice": 11.8,
+      "priceCurrency": "EUR",
+      "exitDate": "1998",
+      "risk": "low",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết trước ENI sẽ trở thành công ty dầu khí lớn với cổ tức ổn định giúp mua ngay từ đợt đầu và giữ xuyên suốt các đợt bán tiếp theo mà không hoảng loạn trước biến động giá dầu.",
+      "en": "Knowing ENI would become a major, dividend-reliable oil & gas major lets you buy the first tranche and hold through subsequent offerings without panicking over oil-price swings."
+    },
+    "pitfalls": {
+      "vi": "Giá dầu thập niên 1990 biến động mạnh; cổ phần nhà nước vẫn chi phối nhiều năm, hạn chế một số quyết định quản trị.",
+      "en": "Oil prices were volatile through the 1990s; the state retained a controlling stake for years, constraining some governance decisions."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Giá IPO đầu tiên của ENI vào tháng 11/1995 là bao nhiêu lira/cổ phiếu?",
+        "en": "What was ENI's first IPO price in November 1995, per share?"
+      },
+      "choices": [
+        {
+          "vi": "1.000 lira",
+          "en": "1,000 lire"
+        },
+        {
+          "vi": "20.000 lira",
+          "en": "20,000 lire"
+        },
+        {
+          "vi": "5.250 lira",
+          "en": "5,250 lire"
+        },
+        {
+          "vi": "500 lira",
+          "en": "500 lire"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "Theo Legal500 và New York Times, giá chào bán ENI năm 1995 là 5.250 lira/cổ phiếu (khoảng 3,29 USD).",
+        "en": "Per Legal500 and the New York Times, ENI's 1995 offer price was 5,250 lire per share (about $3.29)."
+      }
+    },
+    "sources": [
+      {
+        "title": "Eni shares - privatisation history",
+        "url": "https://www.eni.com/en-IT/investors/remuneration-policy/share.html"
+      },
+      {
+        "title": "Regulation of Public Utilities - Privatization of Italian Gas and Petroleum Company",
+        "url": "https://www.legal500.com/intelligence/italy/environment/regulation-of-public-utilities-privatization-of-italian-gas-and-petroleum-company"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "IPO date, 5,250-lire price, and tranche prices (5.42-11.8 EUR) confirmed via Eni's official investor page and Legal500/NYT reporting."
+  },
+  {
+    "id": "it-euro-conversion-1999",
+    "country": "it",
+    "date": "1999-01-01",
+    "category": "macro",
+    "title": {
+      "vi": "Tỷ giá lira-euro bị khóa cố định vĩnh viễn",
+      "en": "Lira-to-euro rate locked forever"
+    },
+    "summary": {
+      "vi": "Ngày 1/1/1999, 1 euro được ấn định vĩnh viễn bằng 1.936,27 lira, mở khóa kinh doanh chênh lệch giá tài sản bằng lira.",
+      "en": "On 1 Jan 1999, 1 euro was irrevocably fixed at 1,936.27 lire, unlocking arbitrage on lira-denominated assets."
+    },
+    "description": {
+      "vi": "Từ 1/1/1999, tỷ giá chuyển đổi euro-lira được ấn định vĩnh viễn ở mức 1 EUR = 1.936,27 ITL, dù tiền giấy euro chỉ lưu hành từ 2002. Biết trước tỷ giá chính xác này giúp định giá lại mọi tài sản bằng lira (cổ phiếu, trái phiếu, bất động sản) và dự đoán việc hội tụ lãi suất Ý về mức gần với Đức trong những năm 1990, khi lợi suất trái phiếu BTP giảm mạnh để bắt kịp Bund Đức trước khi gia nhập eurozone.",
+      "en": "From 1 January 1999, the euro-lira conversion rate was irrevocably fixed at 1 EUR = 1,936.27 ITL, even though euro banknotes only circulated from 2002. Knowing this exact rate in advance lets you reprice every lira-denominated asset (stocks, bonds, real estate) and anticipate the convergence of Italian interest rates toward German levels in the 1990s, as BTP bond yields fell sharply to catch up with German Bunds ahead of eurozone entry."
+    },
+    "opportunity": {
+      "asset": "Italian BTP government bonds (10-year)",
+      "action": {
+        "vi": "Mua trái phiếu chính phủ Ý (BTP) kỳ hạn dài giữa những năm 1990 khi lợi suất còn cao (~10-12%)",
+        "en": "Buy long-dated Italian government bonds (BTP) in the mid-1990s while yields were still high (~10-12%)"
+      },
+      "buyWhen": {
+        "vi": "1995-1996, trước khi hội tụ lãi suất về mức châu Âu diễn ra",
+        "en": "1995-1996, before interest-rate convergence toward European levels took hold"
+      },
+      "sellWhen": {
+        "vi": "1998-1999, khi lợi suất BTP đã hội tụ gần với Bund Đức",
+        "en": "1998-1999, once BTP yields had converged close to German Bunds"
+      },
+      "estimatedReturn": {
+        "vi": "Lãi vốn đáng kể từ việc lợi suất giảm từ ~12% xuống dưới 5%",
+        "en": "Substantial capital gains as yields fell from ~12% toward under 5%"
+      },
+      "priceCurrency": "EUR",
+      "risk": "low",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết chính xác ngày và tỷ giá hội tụ euro giúp khóa lợi nhuận chênh lệch lãi suất Ý-Đức một cách gần như không rủi ro.",
+      "en": "Knowing the exact date and rate of euro convergence lets you lock in the Italy-Germany interest-rate spread trade almost risk-free."
+    },
+    "pitfalls": {
+      "vi": "Rủi ro chính trị (liệu Ý có đáp ứng tiêu chí Maastricht hay không) vẫn tồn tại cho đến phút chót năm 1998.",
+      "en": "Political risk (whether Italy would meet the Maastricht criteria) persisted right up to late 1998."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Tỷ giá cố định vĩnh viễn giữa euro và lira Ý là bao nhiêu?",
+        "en": "What was the irrevocably fixed euro-to-lira conversion rate?"
+      },
+      "choices": [
+        {
+          "vi": "1 EUR = 1.000 ITL",
+          "en": "1 EUR = 1,000 ITL"
+        },
+        {
+          "vi": "1 EUR = 1.936,27 ITL",
+          "en": "1 EUR = 1,936.27 ITL"
+        },
+        {
+          "vi": "1 EUR = 2.500 ITL",
+          "en": "1 EUR = 2,500 ITL"
+        },
+        {
+          "vi": "1 EUR = 500 ITL",
+          "en": "1 EUR = 500 ITL"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Theo Ngân hàng Trung ương châu Âu và Ủy ban châu Âu, tỷ giá chính thức là 1.936,27 lira cho mỗi euro, có hiệu lực từ 1/1/1999.",
+        "en": "Per the ECB and European Commission, the official rate was 1,936.27 lire per euro, effective 1 January 1999."
+      }
+    },
+    "sources": [
+      {
+        "title": "Irrevocable exchange rates (Banco de España)",
+        "url": "https://www.bde.es/wbe/en/sobre-banco/actividad-europea/eurosistema-sebc/historia-eurosistema/euro/tipos-irrevocables/"
+      },
+      {
+        "title": "Bulletin for the European Union 1999/05",
+        "url": "https://ec.europa.eu/archives/bulletin/en/9905/p000456.htm"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Fixed rate of 1,936.27 ITL per EUR effective 1 Jan 1999 confirmed via Banco de España and European Commission bulletin."
+  },
+  {
+    "id": "it-enel-ipo-1999",
+    "country": "it",
+    "date": "1999-11-02",
+    "category": "stocks",
+    "title": {
+      "vi": "ENEL IPO - đợt chào bán cổ phiếu lớn nhất thế giới",
+      "en": "Enel IPO - the world's biggest share offering"
+    },
+    "summary": {
+      "vi": "Enel niêm yết ngày 2/11/1999 với giá 4,3 euro/cổ phiếu, huy động gần 16,55 tỷ euro, kỷ lục IPO toàn cầu thời điểm đó.",
+      "en": "Enel listed on 2 Nov 1999 at EUR 4.30/share, raising nearly EUR 16.55 billion - a world-record IPO at the time."
+    },
+    "description": {
+      "vi": "Ngày 2/11/1999, công ty điện lực nhà nước Enel niêm yết trên sàn Milan và New York với giá 4,3 euro/cổ phiếu (45,23 USD/ADR, mỗi ADR = 10 cổ phiếu), bán 31,74% vốn và huy động khoảng 16,55 tỷ euro (gần 19 tỷ USD) - IPO lớn nhất thế giới tại thời điểm đó, vượt qua Deutsche Telekom. Khoảng 4 triệu người Ý tham gia mua cổ phiếu bán lẻ. Cổ phiếu tăng nhẹ ngày đầu lên 4,31 euro nhưng sau đó chịu áp lực giảm trong khủng hoảng nợ châu Âu, chạm đáy khoảng 2,2 euro trong giai đoạn 2011-2012 trước khi phục hồi.",
+      "en": "On 2 November 1999, state utility Enel listed on the Milan and New York exchanges at EUR 4.30 per share ($45.23 per ADR, each ADR representing 10 shares), selling 31.74% of the company and raising about EUR 16.55 billion (nearly $19 billion) - the world's largest IPO at the time, surpassing Deutsche Telekom. About 4 million Italians subscribed as retail investors. The stock edged up to EUR 4.31 on day one but later fell under pressure during the eurozone debt crisis, touching roughly EUR 2.20 in 2011-2012 before recovering."
+    },
+    "opportunity": {
+      "asset": "Enel S.p.A. (ENEL.MI)",
+      "action": {
+        "vi": "Mua cổ phiếu Enel ngay tại giá IPO, nhưng tránh/bán trước đáy khủng hoảng nợ 2011-2012 rồi mua lại ở đáy",
+        "en": "Buy Enel at the IPO price, but sell before the 2011-2012 debt-crisis trough and rebuy near the bottom"
+      },
+      "buyWhen": {
+        "vi": "2/11/1999 ở giá IPO 4,3 euro, và lại ở đáy khoảng 2,2 euro năm 2011-2012",
+        "en": "2 Nov 1999 at the EUR 4.30 IPO price, and again near the ~EUR 2.20 trough in 2011-2012"
+      },
+      "sellWhen": {
+        "vi": "Trước đợt giảm giá do khủng hoảng nợ châu Âu năm 2011",
+        "en": "Before the 2011 eurozone-debt-crisis selloff"
+      },
+      "estimatedReturn": {
+        "vi": "Cổ tức ổn định dài hạn dù giá cổ phiếu đi ngang-giảm trong hai thập kỷ sau IPO",
+        "en": "Steady long-term dividends even as the share price traded flat-to-down over the two decades after the IPO"
+      },
+      "entryPrice": 4.3,
+      "priceCurrency": "EUR",
+      "exitDate": "2011",
+      "risk": "medium",
+      "capital": "high"
+    },
+    "insiderTip": {
+      "vi": "Biết trước đây là IPO lớn nhất thế giới giúp đăng ký mua sớm với mức chiết khấu bán lẻ mà chính phủ Ý dành cho dân Ý.",
+      "en": "Knowing this would be the world's largest IPO lets you subscribe early for the retail discount the Italian government offered domestic buyers."
+    },
+    "pitfalls": {
+      "vi": "Cổ phiếu Enel đi ngang hoặc giảm trong nhiều năm sau IPO do nợ công châu Âu và tái cấu trúc; lợi nhuận chủ yếu đến từ cổ tức, không phải tăng giá mạnh.",
+      "en": "Enel shares traded flat or down for years after the IPO due to European sovereign debt troubles and restructuring; most of the return came from dividends, not price appreciation."
+    },
+    "quiz": {
+      "question": {
+        "vi": "IPO của Enel năm 1999 huy động được khoảng bao nhiêu?",
+        "en": "About how much did Enel's 1999 IPO raise?"
+      },
+      "choices": [
+        {
+          "vi": "1 tỷ euro",
+          "en": "EUR 1 billion"
+        },
+        {
+          "vi": "100 tỷ euro",
+          "en": "EUR 100 billion"
+        },
+        {
+          "vi": "500 triệu euro",
+          "en": "EUR 500 million"
+        },
+        {
+          "vi": "16,55 tỷ euro",
+          "en": "EUR 16.55 billion"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "vi": "Theo báo cáo thường niên 1999 của Enel, đợt IPO huy động được 16,55 tỷ euro, là IPO lớn nhất thế giới tại thời điểm đó.",
+        "en": "Per Enel's 1999 annual report, the IPO raised EUR 16.55 billion, the world's largest IPO at the time."
+      }
+    },
+    "sources": [
+      {
+        "title": "Enel's record IPO hits markets in $19 billion offering",
+        "url": "http://www.marketwatch.com/story/enels-record-ipo-hits-markets-in-19-billion-offering"
+      },
+      {
+        "title": "Enel 1999 Annual Report",
+        "url": "https://ddd.uab.cat/pub/infanu/29660/iaENELa1999ieng.pdf"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "IPO date, EUR 4.30 price, and EUR 16.55bn raised confirmed via Enel's 1999 annual report and MarketWatch coverage."
+  },
+  {
+    "id": "it-telecom-italia-bubble-2000",
+    "country": "it",
+    "date": "2000-03-06",
+    "category": "stocks",
+    "title": {
+      "vi": "Bong bóng dot-com: Telecom Italia đạt đỉnh rồi sụp đổ",
+      "en": "Dot-com bubble: Telecom Italia peaks then collapses"
+    },
+    "summary": {
+      "vi": "Cổ phiếu Telecom Italia đạt đỉnh lịch sử 193,8 euro ngày 6/3/2000 rồi mất phần lớn giá trị trong 2 năm sau.",
+      "en": "Telecom Italia shares hit an all-time high of EUR 193.8 on 6 March 2000, then lost most of their value over the next two years."
+    },
+    "description": {
+      "vi": "Sau cuộc thâu tóm của Olivetti năm 1999 và cơn sốt công nghệ, cổ phiếu phổ thông Telecom Italia đạt kỷ lục 193,789 euro ngày 6/3/2000 (theo TradingView) còn cổ phiếu ưu đãi đạt đỉnh riêng 9 euro ngày 6/3/2000 theo báo cáo quý 1 năm 2000 của công ty, với cổ phiếu phổ thông đạt 20,35 euro ngày 11/2/2000. Khi bong bóng dot-com vỡ từ tháng 3/2000, chỉ số Nuovo Mercato (sàn công nghệ Ý) mất hơn 85-90% giá trị đến cuối 2002, kéo Telecom Italia đi xuống nhiều năm vì gánh nặng nợ từ thương vụ LBO 1999 và 2001.",
+      "en": "After Olivetti's 1999 takeover and the tech frenzy, Telecom Italia ordinary shares hit a record EUR 193.789 on 6 March 2000 per TradingView, while the company's own Q1 2000 report cites a record high of EUR 20.35 for ordinary shares on 11 Feb 2000 and EUR 9.00 for savings shares on 6 March 2000. When the dot-com bubble burst from March 2000, the Nuovo Mercato (Italy's tech exchange) lost over 85-90% of its value by late 2002, dragging Telecom Italia down for years under the debt burden of the 1999 and 2001 leveraged buyouts."
+    },
+    "opportunity": {
+      "asset": "Telecom Italia (TIT.MI)",
+      "action": {
+        "vi": "Bán hoặc tránh cổ phiếu Telecom Italia/cổ phiếu Nuovo Mercato trước khi bong bóng vỡ tháng 3/2000",
+        "en": "Sell or avoid Telecom Italia / Nuovo Mercato shares before the bubble burst in March 2000"
+      },
+      "buyWhen": {
+        "vi": "Không mua - đây là cơ hội BÁN hoặc bán khống",
+        "en": "Do not buy - this is a SELL or short opportunity"
+      },
+      "sellWhen": {
+        "vi": "Trước hoặc ngay đầu tháng 3/2000",
+        "en": "Before or right at the start of March 2000"
+      },
+      "estimatedReturn": {
+        "vi": "Tránh được khoản lỗ hơn 80-90% trong 2 năm tiếp theo",
+        "en": "Avoids an 80-90%+ drawdown over the following two years"
+      },
+      "entryPrice": 20.35,
+      "exitPrice": 193.789,
+      "priceCurrency": "EUR",
+      "exitDate": "2000-03-06",
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết chính xác ngày đỉnh (6/3/2000 cho cổ phiếu phổ thông theo TradingView) cho phép bán toàn bộ hoặc bán khống ngay trước khi dot-com sụp đổ toàn cầu.",
+      "en": "Knowing the exact peak date (6 March 2000 for ordinary shares per TradingView) lets you sell everything or go short right before the global dot-com collapse."
+    },
+    "pitfalls": {
+      "vi": "Các nguồn có số liệu đỉnh hơi khác nhau (báo cáo công ty vs TradingView) do điều chỉnh cổ tức/tách cổ phiếu; không nên nhầm giữa cổ phiếu phổ thông và cổ phiếu tiết kiệm.",
+      "en": "Sources show slightly different peak figures (company report vs TradingView) due to dividend/split adjustments; don't confuse ordinary and savings shares."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Cổ phiếu Telecom Italia đạt đỉnh lịch sử (theo TradingView) vào ngày nào?",
+        "en": "When did Telecom Italia shares hit their all-time high (per TradingView)?"
+      },
+      "choices": [
+        {
+          "vi": "6/3/2000",
+          "en": "6 March 2000"
+        },
+        {
+          "vi": "1/1/2008",
+          "en": "1 January 2008"
+        },
+        {
+          "vi": "16/9/1992",
+          "en": "16 September 1992"
+        },
+        {
+          "vi": "2015",
+          "en": "2015"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "TradingView ghi nhận đỉnh lịch sử của TIT.MI là 193,789 euro vào ngày 6/3/2000, đúng lúc đỉnh bong bóng dot-com toàn cầu.",
+        "en": "TradingView records TIT.MI's all-time high as EUR 193.789 on 6 March 2000, right at the peak of the global dot-com bubble."
+      }
+    },
+    "sources": [
+      {
+        "title": "TIT Stock Price and Chart - TradingView",
+        "url": "https://www.tradingview.com/symbols/MIL-TIT/"
+      },
+      {
+        "title": "Telecom Italia First Quarter Report 2000",
+        "url": "https://www.gruppotim.it/content/dam/telecomitalia/en/archive/documents/investors/Interim_Results/2000/Firstquarterreport2000.pdf"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Peak date/price confirmed via TradingView (EUR 193.789, 6 Mar 2000) and Telecom Italia's own Q1 2000 report (EUR 20.35 ordinary shares, 11 Feb 2000)."
+  },
+  {
+    "id": "it-campari-growth",
+    "country": "it",
+    "date": "2001-07",
+    "category": "stocks",
+    "title": {
+      "vi": "Davide Campari: 20 năm tăng vốn hóa gấp 15 lần",
+      "en": "Davide Campari: 15x market cap growth in 20 years"
+    },
+    "summary": {
+      "vi": "Cổ phiếu Campari niêm yết năm 2001 tăng vốn hóa gấp 15 lần trong 20 năm, lợi suất bình quân 16%/năm, vượt xa chỉ số thị trường.",
+      "en": "Campari's shares, listed in 2001, grew market cap 15x over 20 years with a 16% annualized return, far outpacing the market index."
+    },
+    "description": {
+      "vi": "Davide Campari-Milano niêm yết trên sàn Ý từ năm 2001. Theo thông cáo báo chí chính thức của công ty nhân kỷ niệm 20 năm niêm yết (tháng 7/2021), vốn hóa thị trường tăng 15 lần lên 13 tỷ euro, với tổng lợi suất cổ đông (TSR) bình quân 16%/năm kể từ IPO - vượt trội so với chỉ số thị trường và các đối thủ cùng ngành. Cổ phiếu đạt đỉnh lịch sử khoảng 10,97 euro vào tháng 11/2021 nhờ các thương hiệu như Aperol, Campari, Wild Turkey và Grand Marnier.",
+      "en": "Davide Campari-Milano has been listed on the Italian exchange since 2001. Per the company's own press release marking its 20th listing anniversary (July 2021), market capitalization grew 15-fold to EUR 13 billion, with an average annualized total shareholder return (TSR) of 16% since the IPO - outperforming the market index and industry peers. The stock hit an all-time high of about EUR 10.97 in November 2021, driven by brands like Aperol, Campari, Wild Turkey, and Grand Marnier."
+    },
+    "opportunity": {
+      "asset": "Davide Campari-Milano (CPR.MI)",
+      "action": {
+        "vi": "Mua và giữ dài hạn cổ phiếu Campari từ sau niêm yết 2001",
+        "en": "Buy and hold Campari shares long-term from after its 2001 listing"
+      },
+      "buyWhen": {
+        "vi": "Đầu những năm 2000, đặc biệt sau cú giảm 2001",
+        "en": "Early 2000s, especially after the 2001 dip"
+      },
+      "sellWhen": {
+        "vi": "Có thể chốt lời một phần gần đỉnh tháng 11/2021 (10,97 euro) trước đợt giảm 2022-2024",
+        "en": "Consider partial profit-taking near the November 2021 peak (EUR 10.97) before the 2022-2024 decline"
+      },
+      "estimatedReturn": {
+        "vi": "Vốn hóa tăng 15 lần trong 20 năm (2001-2021), TSR bình quân 16%/năm",
+        "en": "Market cap grew 15x over 20 years (2001-2021), 16% average annual TSR"
+      },
+      "returnMultiple": 15,
+      "priceCurrency": "EUR",
+      "exitDate": "2021-11",
+      "risk": "medium",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết trước thương hiệu Aperol Spritz sẽ trở thành hiện tượng toàn cầu giữa thập niên 2010 giúp tăng tỷ trọng nắm giữ đúng lúc nhu cầu bùng nổ.",
+      "en": "Knowing the Aperol Spritz brand would become a global phenomenon in the mid-2010s lets you size up the position right as demand exploded."
+    },
+    "pitfalls": {
+      "vi": "Cổ phiếu giảm mạnh năm 2022-2024 (gần -43% riêng năm 2024) do lo ngại tăng trưởng chậm lại và các thương vụ M&A tốn kém; không phải đường thẳng tăng.",
+      "en": "The stock fell sharply in 2022-2024 (down almost 43% in 2024 alone) on growth-slowdown fears and costly M&A; the path up was not a straight line."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Vốn hóa thị trường của Campari tăng bao nhiêu lần trong 20 năm kể từ niêm yết 2001?",
+        "en": "How many times did Campari's market cap grow in the 20 years since its 2001 listing?"
+      },
+      "choices": [
+        {
+          "vi": "2 lần",
+          "en": "2x"
+        },
+        {
+          "vi": "15 lần",
+          "en": "15x"
+        },
+        {
+          "vi": "100 lần",
+          "en": "100x"
+        },
+        {
+          "vi": "5 lần",
+          "en": "5x"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Theo thông cáo báo chí chính thức của Campari Group (tháng 7/2021), vốn hóa thị trường tăng 15 lần lên 13 tỷ euro kể từ IPO năm 2001.",
+        "en": "Per Campari Group's own July 2021 press release, market cap grew 15x to EUR 13 billion since the 2001 IPO."
+      }
+    },
+    "sources": [
+      {
+        "title": "Campari Group H1 2021 Press Release - 20 years on the stock exchange",
+        "url": "https://camparigroup.com/sites/default/files/downloads/20210727%20Press%20Release%20H1%202021%20ENG.pdf"
+      },
+      {
+        "title": "Davide Campari-Milano stock price history",
+        "url": "https://companiesmarketcap.com/gbp/campari/stock-price-history"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "15x market-cap growth and 16% annualized TSR since 2001 IPO confirmed via Campari Group's own official press release."
+  },
+  {
+    "id": "it-parmalat-fraud-2003",
+    "country": "it",
+    "date": "2003-12-19",
+    "category": "business",
+    "title": {
+      "vi": "Vụ gian lận Parmalat: 'Enron của châu Âu'",
+      "en": "Parmalat fraud: 'Europe's Enron'"
+    },
+    "summary": {
+      "vi": "Tập đoàn sữa Parmalat sụp đổ cuối năm 2003 sau khi lộ ra tài khoản 4 tỷ euro ở Cayman không hề tồn tại; cổ phiếu mất 95% giá trị.",
+      "en": "Dairy giant Parmalat collapsed in late 2003 after a supposed EUR 4 billion Cayman Islands account turned out not to exist; the stock lost 95% of its value."
+    },
+    "description": {
+      "vi": "Ngày 19/12/2003, Bank of America xác nhận tài khoản 4 tỷ euro mà Parmalat khai báo tại một công ty con ở Cayman không hề tồn tại. Giá ADR Parmalat đóng cửa ở 40 cent, giảm 68% chỉ trong một ngày; cổ phiếu tiếp tục lao dốc và bị đình chỉ giao dịch ngày 29/12/2003 sau khi mất tới 95% giá trị. Công ty nộp đơn phá sản ngày 24/12/2003 với lỗ hổng tài chính 14 tỷ euro - một trong những vụ gian lận doanh nghiệp lớn nhất lịch sử. Công ty tái cấu trúc, niêm yết lại tháng 10/2005 ở giá 3,15 euro.",
+      "en": "On 19 December 2003, Bank of America confirmed that a EUR 4 billion account Parmalat claimed to hold at a Cayman Islands subsidiary did not exist. Parmalat's ADRs closed at 40 cents, down 68% in a single day; the stock kept falling and was suspended from trading on 29 December 2003 after losing as much as 95% of its value. The company filed for bankruptcy on 24 December 2003 with a EUR 14 billion financial hole - one of history's largest corporate frauds. The restructured company relisted in October 2005 at EUR 3.15 per share."
+    },
+    "opportunity": {
+      "asset": "Parmalat Finanziaria S.p.A.",
+      "action": {
+        "vi": "Bán khống hoặc thoát toàn bộ vị thế Parmalat trước tháng 12/2003",
+        "en": "Short or fully exit any Parmalat position before December 2003"
+      },
+      "buyWhen": {
+        "vi": "Không mua trước sự kiện - đây là cơ hội bán khống/tránh",
+        "en": "Do not buy before the event - this is a short/avoid play"
+      },
+      "sellWhen": {
+        "vi": "Trước ngày 9/12/2003 khi công ty vỡ nợ khoản trái phiếu 150 triệu euro đầu tiên",
+        "en": "Before 9 December 2003, when the company first defaulted on a EUR 150 million bond payment"
+      },
+      "estimatedReturn": {
+        "vi": "Tránh được khoản lỗ gần như toàn bộ (95%) hoặc thu lợi lớn từ vị thế bán khống",
+        "en": "Avoids a near-total (95%) loss, or captures large gains from a short position"
+      },
+      "exitPrice": 0.4,
+      "priceCurrency": "USD",
+      "exitDate": "2003-12-19",
+      "risk": "high",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Biết trước ngày 19/12/2003 là lúc gian lận bị phanh phui cho phép thoát vị thế hoặc mở bán khống đúng lúc tối ưu, trước cả khi S&P hạ xếp hạng tín dụng xuống 'junk'.",
+      "en": "Knowing 19 December 2003 is when the fraud surfaced lets you exit or open a short at the optimal moment, even before S&P downgraded the debt to junk."
+    },
+    "pitfalls": {
+      "vi": "Cổ phiếu đã biến động mạnh trước đó do tin đồn, dễ bị dừng giao dịch đột ngột (29/12/2003) khiến khó thoát vị thế nếu vào quá muộn.",
+      "en": "The stock was already volatile from rumors, and trading was abruptly suspended (29 Dec 2003), making it hard to exit a position if you act too late."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Khoản tiền bị phát hiện là không tồn tại trong vụ gian lận Parmalat trị giá bao nhiêu?",
+        "en": "How much was the nonexistent account at the center of the Parmalat fraud?"
+      },
+      "choices": [
+        {
+          "vi": "400 triệu euro",
+          "en": "EUR 400 million"
+        },
+        {
+          "vi": "4 tỷ euro",
+          "en": "EUR 4 billion"
+        },
+        {
+          "vi": "40 tỷ euro",
+          "en": "EUR 40 billion"
+        },
+        {
+          "vi": "4 triệu euro",
+          "en": "EUR 4 million"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Theo hồ sơ của SEC, Bank of America xác nhận tài khoản 4 tỷ euro tại chi nhánh Cayman của Parmalat không hề tồn tại.",
+        "en": "Per SEC filings, Bank of America confirmed the EUR 4 billion account at Parmalat's Cayman subsidiary did not exist."
+      }
+    },
+    "sources": [
+      {
+        "title": "SEC Litigation Complaint - Parmalat",
+        "url": "http://sec.gov/litigation/complaints/comp18527.htm"
+      },
+      {
+        "title": "FACTBOX-Italy's Parmalat financial scandal (Reuters)",
+        "url": "https://www.reuters.com/article/legal/government/factbox-italys-parmalat-financial-scandal-idUSL14394193/"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Dates, $4bn/EUR4bn fake account, 95% stock collapse, and Dec 24 2003 bankruptcy filing confirmed via SEC complaint and Reuters factbox."
+  },
+  {
+    "id": "it-prada-ipo-2011",
+    "country": "it",
+    "date": "2011-06-24",
+    "category": "stocks",
+    "title": {
+      "vi": "Prada niêm yết tại Hong Kong, công ty Ý đầu tiên trên HKEX",
+      "en": "Prada lists in Hong Kong, the first Italian firm on the HKEX"
+    },
+    "summary": {
+      "vi": "Prada IPO tại Hong Kong tháng 6/2011 giá 39,5 HKD, huy động 2,14 tỷ USD, đặt cược vào tăng trưởng hàng xa xỉ Trung Quốc.",
+      "en": "Prada IPO'd in Hong Kong in June 2011 at HK$39.50, raising $2.14 billion, betting on China's luxury-spending growth."
+    },
+    "description": {
+      "vi": "Hãng thời trang xa xỉ Milan Prada S.p.A. trở thành công ty Ý đầu tiên niêm yết tại Sở Giao dịch Chứng khoán Hong Kong, định giá IPO ở mức thấp của khoảng dự kiến: 39,5 HKD/cổ phiếu (khoảng 5,08 USD), huy động 16,72 tỷ HKD (2,14 tỷ USD) cho 16,5% cổ phần, bắt đầu giao dịch ngày 24/6/2011. Quyết định niêm yết tại châu Á thay vì châu Âu phản ánh tầm nhìn đón đầu nhu cầu hàng xa xỉ bùng nổ tại Trung Quốc trong thập niên 2010.",
+      "en": "Milan luxury fashion house Prada S.p.A. became the first Italian company to list on the Hong Kong Stock Exchange, pricing its IPO at the low end of its range: HK$39.50 per share (about $5.08), raising HK$16.72 billion ($2.14 billion) for a 16.5% stake, with trading beginning on 24 June 2011. The decision to list in Asia rather than Europe reflected a bet on China's booming luxury demand through the 2010s."
+    },
+    "opportunity": {
+      "asset": "Prada S.p.A. (1913.HK)",
+      "action": {
+        "vi": "Mua cổ phiếu Prada ngay tại IPO Hong Kong, đặt cược vào tăng trưởng tiêu dùng xa xỉ Trung Quốc",
+        "en": "Buy Prada shares at the Hong Kong IPO, betting on Chinese luxury consumption growth"
+      },
+      "buyWhen": {
+        "vi": "24/6/2011, giá IPO 39,5 HKD",
+        "en": "24 June 2011, at the HK$39.50 IPO price"
+      },
+      "sellWhen": {
+        "vi": "Theo dõi chu kỳ tiêu dùng xa xỉ Trung Quốc; chốt lời quanh các đỉnh 2013-2014 trước khi tăng trưởng Trung Quốc chậm lại",
+        "en": "Track the Chinese luxury-spending cycle; take profits around the 2013-2014 peaks before Chinese growth slowed"
+      },
+      "estimatedReturn": {
+        "vi": "IPO định giá thấp hơn kỳ vọng ban đầu, phản ánh thận trọng về thị trường; hiệu suất sau đó phụ thuộc nhiều vào chu kỳ tiêu dùng Trung Quốc",
+        "en": "The IPO was priced below initial expectations, reflecting market caution; subsequent performance depended heavily on the Chinese consumption cycle"
+      },
+      "entryPrice": 39.5,
+      "priceCurrency": "USD",
+      "risk": "medium",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết trước Hong Kong sẽ là cửa ngõ tốt nhất để hưởng lợi từ bùng nổ tiêu dùng xa xỉ Trung Quốc giúp tham gia IPO dù giá bị cắt giảm so với kỳ vọng ban đầu.",
+      "en": "Knowing Hong Kong would be the best gateway to benefit from China's luxury boom justifies joining the IPO even though pricing was cut from initial expectations."
+    },
+    "pitfalls": {
+      "vi": "IPO phải hạ giá chào bán gần 20% do nhà đầu tư thận trọng; cổ phiếu giao dịch khá ảm đạm ngày đầu, không bùng nổ như Ferrari hay Moncler.",
+      "en": "The IPO had to cut its offer price by nearly 20% due to investor caution; the stock traded fairly flat on debut, unlike the explosive Ferrari or Moncler listings."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Prada niêm yết lần đầu tại sàn giao dịch nào?",
+        "en": "Where did Prada first list its shares?"
+      },
+      "choices": [
+        {
+          "vi": "Sàn Milan",
+          "en": "Milan exchange"
+        },
+        {
+          "vi": "Sở Giao dịch Chứng khoán Hong Kong",
+          "en": "Hong Kong Stock Exchange"
+        },
+        {
+          "vi": "NYSE",
+          "en": "NYSE"
+        },
+        {
+          "vi": "Sàn Thượng Hải",
+          "en": "Shanghai exchange"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Theo Financial Times và Dealbook/NYT, Prada là công ty Ý đầu tiên niêm yết tại Hong Kong, ra mắt ngày 24/6/2011.",
+        "en": "Per the Financial Times and NYT DealBook, Prada was the first Italian company to list in Hong Kong, debuting on 24 June 2011."
+      }
+    },
+    "sources": [
+      {
+        "title": "Prada's I.P.O. Debuts in Hong Kong Amid Investor Jitters (NYT DealBook)",
+        "url": "https://dealbook.nytimes.com/2011/06/23/pradas-i-p-o-debuts-in-hong-kong-amid-investor-jitters"
+      },
+      {
+        "title": "Prada cuts share flotation price (The Guardian)",
+        "url": "https://theguardian.com/business/2011/jun/17/prada-cuts-share-flotation-price"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "HK$39.50 IPO price, $2.14bn raised, and 24 June 2011 listing date confirmed via NYT DealBook and The Guardian."
+  },
+  {
+    "id": "it-btp-yield-crisis-2011",
+    "country": "it",
+    "date": "2011-11-09",
+    "category": "macro",
+    "title": {
+      "vi": "Lợi suất trái phiếu BTP Ý vượt 7% trong khủng hoảng nợ",
+      "en": "Italian BTP yields break 7% in the debt crisis"
+    },
+    "summary": {
+      "vi": "Ngày 9/11/2011, lợi suất trái phiếu chính phủ Ý kỳ hạn 10 năm vượt 7%, mức được coi là 'không bền vững', trước khi giảm mạnh sau cải cách.",
+      "en": "On 9 Nov 2011, Italy's 10-year government bond yield broke above 7%, a level deemed 'unsustainable', before falling sharply after reforms."
+    },
+    "description": {
+      "vi": "Giữa khủng hoảng nợ công châu Âu, lợi suất trái phiếu BTP kỳ hạn 10 năm của Ý vọt lên mức kỷ lục khoảng 7,5% ngày 9/11/2011, vượt ngưỡng 7% được coi là mất khả năng tiếp cận thị trường vốn bền vững, khi chênh lệch với trái phiếu Đức (spread) đạt đỉnh 553-575 điểm cơ bản. Áp lực này buộc Thủ tướng Berlusconi từ chức, chính phủ kỹ trị Mario Monti lên thay. Sau khi quốc hội thông qua gói thắt lưng buộc bụng, lợi suất giảm nhanh xuống 6,7% chỉ trong vài ngày (11/11/2011).",
+      "en": "In the depths of the European debt crisis, Italy's 10-year BTP yield spiked to a record roughly 7.5% on 9 November 2011, breaching the 7% threshold seen as marking loss of sustainable market access, with the spread over German Bunds peaking at 553-575 basis points. The pressure forced PM Berlusconi to resign, replaced by technocrat Mario Monti. After parliament passed an austerity package, yields fell quickly to 6.7% within days (11 Nov 2011)."
+    },
+    "opportunity": {
+      "asset": "Italian 10-year BTP government bonds",
+      "action": {
+        "vi": "Mua trái phiếu BTP kỳ hạn 10 năm ngay tại đỉnh lợi suất khủng hoảng (giá trái phiếu ở đáy)",
+        "en": "Buy 10-year BTP bonds right at the yield-crisis peak (when bond prices were at their trough)"
+      },
+      "buyWhen": {
+        "vi": "Đầu đến giữa tháng 11/2011, khi lợi suất đạt 7-7,5%",
+        "en": "Early-to-mid November 2011, when yields hit 7-7.5%"
+      },
+      "sellWhen": {
+        "vi": "Sau tuyên bố 'whatever it takes' của Draghi tháng 7/2012, khi lợi suất giảm về dưới 4-5%",
+        "en": "After Draghi's 'whatever it takes' pledge in July 2012, once yields fell back under 4-5%"
+      },
+      "estimatedReturn": {
+        "vi": "Lãi vốn lớn từ việc giá trái phiếu phục hồi khi lợi suất giảm từ 7,5% về dưới 4,5%",
+        "en": "Large capital gains as bond prices recovered when yields fell from 7.5% toward under 4.5%"
+      },
+      "entryPrice": 7.5,
+      "exitPrice": 4.5,
+      "priceCurrency": "points",
+      "exitDate": "2012-12",
+      "risk": "medium",
+      "capital": "high"
+    },
+    "insiderTip": {
+      "vi": "Biết trước ECB sẽ can thiệp (Draghi 2012) và Ý sẽ không vỡ nợ giúp mua trái phiếu ở đáy giá mà không sợ hãi như nhà đầu tư thời điểm đó.",
+      "en": "Knowing the ECB would intervene (Draghi, 2012) and that Italy would not default lets you buy bonds at their price trough without the fear gripping contemporary investors."
+    },
+    "pitfalls": {
+      "vi": "Lợi suất có thể còn tăng cao hơn trước khi giảm (rủi ro thời điểm); khủng hoảng chính trị (từ chức Berlusconi) tạo biến động mạnh trong ngắn hạn.",
+      "en": "Yields could have risen even higher before falling (timing risk); the political crisis (Berlusconi's resignation) created sharp short-term volatility."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Lợi suất trái phiếu BTP 10 năm của Ý đạt đỉnh khoảng bao nhiêu % vào tháng 11/2011?",
+        "en": "About what level did Italy's 10-year BTP yield peak at in November 2011?"
+      },
+      "choices": [
+        {
+          "vi": "2%",
+          "en": "2%"
+        },
+        {
+          "vi": "15%",
+          "en": "15%"
+        },
+        {
+          "vi": "7,5%",
+          "en": "7.5%"
+        },
+        {
+          "vi": "4%",
+          "en": "4%"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "Theo Reuters và New York Times, lợi suất BTP 10 năm của Ý đạt đỉnh khoảng 7,5% (kỷ lục thời kỳ đồng euro) vào ngày 9/11/2011.",
+        "en": "Per Reuters and the New York Times, Italy's 10-year BTP yield peaked at about 7.5% (a euro-era record) on 9 November 2011."
+      }
+    },
+    "sources": [
+      {
+        "title": "Fear grows over Europe debt woes as Italy falters (ABC News/USA Today)",
+        "url": "https://abcnews.com/Business/fear-grows-europe-debt-woes-italy-falters/story?id=14920050"
+      },
+      {
+        "title": "Italian Bond Yields Soar (NYT)",
+        "url": "https://www.nytimes.com/interactive/2011/11/09/business/italian-bond-yields-soar.html"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "7-7.5% peak yield on 9 Nov 2011 and subsequent decline to 6.7% confirmed via Reuters and NYT reporting."
+  },
+  {
+    "id": "it-real-estate-crash-2008-2013",
+    "country": "it",
+    "date": "2012",
+    "category": "real-estate",
+    "title": {
+      "vi": "Giá nhà Ý giảm sâu 2008-2013, cơ hội mua đáy",
+      "en": "Italian home prices slump 2008-2013, a buy-the-dip window"
+    },
+    "summary": {
+      "vi": "Chỉ số giá nhà Ý (Istat HPI) giảm liên tục từ 2008, chạm đáy khoảng -5,7% năm 2013 so với 2012, tạo cơ hội mua bất động sản giá rẻ.",
+      "en": "Italy's house-price index (Istat HPI) fell continuously from 2008, bottoming around -5.7% in 2013 vs 2012, creating a cheap buying window."
+    },
+    "description": {
+      "vi": "Theo Istat, chỉ số giá nhà toàn quốc Ý (IPAB, gốc 2010=100) giảm liên tục từ đỉnh 2008 đến 2014: năm 2012 giảm 2,7-2,8%, năm 2013 giảm thêm 5,6-5,7% so với 2012 (chỉ số rơi xuống khoảng 92,2 vào quý 3/2013), và tiếp tục giảm đến khoảng 86,9 cuối 2014. Riêng giá nhà Milan giảm khoảng 20% liên tục từ 2008 theo công ty môi giới Tecnocasa. Nhà đầu tư biết trước thị trường sẽ ổn định từ 2014-2015 (trùng với Expo Milano 2015) có thể mua đáy bất động sản tại các thành phố lớn.",
+      "en": "Per Istat, Italy's national house-price index (IPAB, base 2010=100) fell continuously from its 2008 peak through 2014: down 2.7-2.8% in 2012, a further 5.6-5.7% in 2013 vs 2012 (the index fell to about 92.2 in Q3 2013), and continued down to roughly 86.9 by end-2014. Milan prices specifically fell about 20% cumulatively from 2008, per broker Tecnocasa. An investor who knew the market would stabilize from 2014-2015 (coinciding with Expo Milano 2015) could buy real estate near the bottom in major cities."
+    },
+    "opportunity": {
+      "asset": "Residential real estate, Milan / major Italian cities",
+      "action": {
+        "vi": "Mua căn hộ tại Milan hoặc các thành phố lớn khi giá chạm đáy",
+        "en": "Buy apartments in Milan or other major Italian cities near the price trough"
+      },
+      "buyWhen": {
+        "vi": "2013-2014, khi chỉ số giá nhà và số giao dịch đều ở mức thấp nhất",
+        "en": "2013-2014, when both the price index and transaction volumes were at their lowest"
+      },
+      "sellWhen": {
+        "vi": "Có thể giữ dài hạn hoặc cho thuê qua thập niên 2015-2025 khi giá Milan tăng khoảng 40%",
+        "en": "Hold long-term or rent through 2015-2025 as Milan prices rose about 40%"
+      },
+      "estimatedReturn": {
+        "vi": "Giá Milan tăng khoảng 40% từ 2015 đến 2023 theo Casavo",
+        "en": "Milan prices rose about 40% from 2015 to 2023, per Casavo"
+      },
+      "risk": "low",
+      "capital": "high"
+    },
+    "insiderTip": {
+      "vi": "Biết trước Milan sẽ tổ chức Expo 2015 và sau đó là Thế vận hội Mùa đông 2026 giúp nhắm đến các khu vực như Porta Nuova, CityLife để mua trước làn sóng tái phát triển đô thị.",
+      "en": "Knowing Milan would host Expo 2015 and later the 2026 Winter Olympics lets you target areas like Porta Nuova and CityLife before the urban-redevelopment wave."
+    },
+    "pitfalls": {
+      "vi": "Bất động sản kém thanh khoản, chi phí giao dịch và thuế cao ở Ý; thị trường ngoài các thành phố lớn (Milan, Rome) phục hồi chậm hơn nhiều hoặc không phục hồi.",
+      "en": "Real estate is illiquid, and transaction/tax costs in Italy are high; markets outside major cities (Milan, Rome) recovered much more slowly or not at all."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Giá nhà tại Milan giảm khoảng bao nhiêu % liên tục từ 2008 đến khi chạm đáy?",
+        "en": "By about how much did Milan home prices fall cumulatively from 2008 to the bottom?"
+      },
+      "choices": [
+        {
+          "vi": "Khoảng 80%",
+          "en": "About 80%"
+        },
+        {
+          "vi": "Tăng 20%",
+          "en": "Up 20%"
+        },
+        {
+          "vi": "Khoảng 20%",
+          "en": "About 20%"
+        },
+        {
+          "vi": "Không đổi",
+          "en": "Unchanged"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "Theo New York Times trích dẫn công ty môi giới Tecnocasa, giá bất động sản Milan giảm liên tục mỗi năm từ 2008, tổng cộng khoảng 20%.",
+        "en": "Per the New York Times citing broker Tecnocasa, Milan property prices fell every year from 2008, for a combined drop of about 20%."
+      }
+    },
+    "sources": [
+      {
+        "title": "Istat House Price Index Q3 2013 provisional data",
+        "url": "https://www.istat.it/wp-content/uploads/2014/01/CS-HPI-provQ32013.pdf"
+      },
+      {
+        "title": "For Evidence of a Rebound in Milan, Just Look Up (NYT)",
+        "url": "https://mobile.nytimes.com/2014/03/14/greathomesanddestinations/new-developments-are-changing-the-face-of-milan.html"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Istat HPI decline (~5.6-5.7% in 2013) and Milan's ~20% cumulative price drop since 2008 confirmed via official Istat press release and NYT/Tecnocasa reporting."
+  },
+  {
+    "id": "it-brunello-cucinelli-ipo-2012",
+    "country": "it",
+    "date": "2012-04-27",
+    "category": "stocks",
+    "title": {
+      "vi": "Brunello Cucinelli IPO: tăng 49,7% ngay ngày đầu",
+      "en": "Brunello Cucinelli IPO: up 49.7% on debut day"
+    },
+    "summary": {
+      "vi": "Hãng cashmere xa xỉ Brunello Cucinelli niêm yết 27/4/2012 ở 7,75 euro, tăng 49,7% ngay phiên đầu lên 11,60 euro.",
+      "en": "Luxury cashmere maker Brunello Cucinelli listed on 27 Apr 2012 at EUR 7.75, surging 49.7% on debut to close at EUR 11.60."
+    },
+    "description": {
+      "vi": "Brunello Cucinelli S.p.A., hãng thời trang cashmere sang trọng từ Solomeo (Umbria), IPO trên sàn Milan (MTA) ngày 27/4/2012 ở mức giá cao nhất khoảng chào bán (6,75-7,75 euro), tức 7,75 euro/cổ phiếu, định giá công ty 527 triệu euro. Sổ lệnh được đặt mua gấp 17 lần. Ngay phiên giao dịch đầu tiên, cổ phiếu tăng 49,7% đóng cửa ở 11,60 euro, giao dịch bị tạm dừng hai lần do tăng quá nhanh. Đây là một trong những IPO thành công nhất của ngành thời trang Ý.",
+      "en": "Brunello Cucinelli S.p.A., the luxury cashmere fashion house from Solomeo (Umbria), IPO'd on the Milan exchange (MTA) on 27 April 2012 at the top of its offer range (EUR 6.75-7.75), i.e. EUR 7.75 per share, valuing the company at EUR 527 million. The order book was 17x oversubscribed. On the very first trading day, the stock surged 49.7% to close at EUR 11.60, with trading halted twice due to the rapid rise. It was one of the most successful IPOs in Italian fashion history."
+    },
+    "opportunity": {
+      "asset": "Brunello Cucinelli S.p.A. (BC.MI)",
+      "action": {
+        "vi": "Mua cổ phiếu Brunello Cucinelli ngay tại giá IPO và giữ dài hạn",
+        "en": "Buy Brunello Cucinelli shares at the IPO price and hold long-term"
+      },
+      "buyWhen": {
+        "vi": "27/4/2012, giá IPO 7,75 euro",
+        "en": "27 April 2012, at the EUR 7.75 IPO price"
+      },
+      "sellWhen": {
+        "vi": "Giữ dài hạn qua thập niên 2010-2020 khi hãng mở rộng tại Mỹ và châu Á",
+        "en": "Hold long-term through the 2010s-2020s as the brand expanded in the US and Asia"
+      },
+      "estimatedReturn": {
+        "vi": "Tăng 49,7% ngay ngày đầu giao dịch",
+        "en": "Up 49.7% on the very first trading day"
+      },
+      "entryPrice": 7.75,
+      "exitPrice": 11.6,
+      "priceCurrency": "EUR",
+      "exitDate": "2012-04-27",
+      "risk": "medium",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Biết trước chiến lược 'cashmere nhân văn' độc đáo của Brunello Cucinelli sẽ thu hút nhà đầu tư quốc tế giúp mạnh dạn đặt mua dù định giá ban đầu đã khá cao.",
+      "en": "Knowing Brunello Cucinelli's distinctive 'humanistic cashmere' brand strategy would attract international investors justifies subscribing confidently even at a rich initial valuation."
+    },
+    "pitfalls": {
+      "vi": "Cổ phiếu luôn giao dịch ở định giá rất cao (P/E lớn) do quy mô nhỏ và tính độc quyền thương hiệu; biến động mạnh theo tâm lý tiêu dùng xa xỉ toàn cầu.",
+      "en": "The stock has always traded at a very rich valuation (high P/E) due to its small scale and brand exclusivity; it's volatile with swings in global luxury sentiment."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Cổ phiếu Brunello Cucinelli tăng bao nhiêu % trong ngày giao dịch đầu tiên?",
+        "en": "How much did Brunello Cucinelli shares rise on their first trading day?"
+      },
+      "choices": [
+        {
+          "vi": "5%",
+          "en": "5%"
+        },
+        {
+          "vi": "200%",
+          "en": "200%"
+        },
+        {
+          "vi": "49,7%",
+          "en": "49.7%"
+        },
+        {
+          "vi": "-10%",
+          "en": "-10%"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "Theo WWD, cổ phiếu Brunello Cucinelli tăng 49,7% trong ngày giao dịch đầu tiên, đóng cửa ở 11,60 euro so với giá IPO 7,75 euro.",
+        "en": "Per WWD, Brunello Cucinelli shares rose 49.7% on their first trading day, closing at EUR 11.60 versus the EUR 7.75 IPO price."
+      }
+    },
+    "sources": [
+      {
+        "title": "Brunello Cucinelli Shares Soar on Debut (WWD)",
+        "url": "https://wwd.com/fashion-news/designer-luxury/brunello-cucinelli-shares-soar-on-debut-5879940/"
+      },
+      {
+        "title": "BRUNELLO CUCINELLI Initial Public offering on Euronext",
+        "url": "https://live.euronext.com/en/ipo-showcase/brunello-cucinelli"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "IPO price EUR 7.75 and +49.7% debut-day gain to EUR 11.60 confirmed via WWD and Euronext's official IPO showcase page."
+  },
+  {
+    "id": "it-draghi-whatever-it-takes-2012",
+    "country": "it",
+    "date": "2012-07-26",
+    "category": "macro",
+    "title": {
+      "vi": "Draghi tuyên bố 'Whatever it takes' cứu đồng euro",
+      "en": "Draghi's 'whatever it takes' pledge saves the euro"
+    },
+    "summary": {
+      "vi": "Ngày 26/7/2012 tại London, Mario Draghi tuyên bố ECB sẽ làm 'bất cứ điều gì cần thiết' để bảo vệ đồng euro, chặn đứng khủng hoảng nợ ngay lập tức.",
+      "en": "On 26 July 2012 in London, Mario Draghi declared the ECB would do 'whatever it takes' to preserve the euro, instantly turning the tide of the debt crisis."
+    },
+    "description": {
+      "vi": "Tại Hội nghị Đầu tư Toàn cầu ở London ngày 26/7/2012, Chủ tịch ECB Mario Draghi tuyên bố: 'Trong phạm vi nhiệm vụ của mình, ECB sẵn sàng làm bất cứ điều gì cần thiết để bảo vệ đồng euro. Và hãy tin tôi, điều đó sẽ đủ.' Ngay sau bài phát biểu, lợi suất trái phiếu Ý và Tây Ban Nha giảm mạnh, đồng euro tăng giá. Trong những tháng tiếp theo, chênh lệch lợi suất (spread) giữa trái phiếu ngoại vi và Đức giảm dần về mức có thể quản lý được sau 3 năm tăng liên tục, đánh dấu bước ngoặt của khủng hoảng nợ eurozone.",
+      "en": "At the Global Investment Conference in London on 26 July 2012, ECB President Mario Draghi declared: 'Within our mandate, the ECB is ready to do whatever it takes to preserve the euro. And believe me, it will be enough.' Markets reacted immediately: Italian and Spanish bond yields fell sharply and the euro strengthened. Over the following months, peripheral-vs-German bond spreads gradually dropped to manageable levels after three years of relentless increases, marking the turning point of the eurozone debt crisis."
+    },
+    "opportunity": {
+      "asset": "Italian & Spanish government bonds / FTSE MIB index",
+      "action": {
+        "vi": "Mua mạnh trái phiếu ngoại vi (BTP Ý, Bonos Tây Ban Nha) và cổ phiếu ngân hàng Ý ngay trước/trong bài phát biểu",
+        "en": "Buy aggressively into peripheral bonds (Italian BTP, Spanish Bonos) and Italian bank stocks right before/during the speech"
+      },
+      "buyWhen": {
+        "vi": "Sáng 26/7/2012, trước bài phát biểu tại London",
+        "en": "Morning of 26 July 2012, before the London speech"
+      },
+      "sellWhen": {
+        "vi": "Có thể chốt lời một phần sau vài tháng khi spread đã thu hẹp đáng kể",
+        "en": "Consider partial profit-taking a few months later once spreads had narrowed substantially"
+      },
+      "estimatedReturn": {
+        "vi": "Lợi suất và chênh lệch giảm mạnh ngay lập tức, cổ phiếu ngân hàng và chỉ số FTSE MIB tăng vọt trong các tháng sau",
+        "en": "Yields and spreads fell sharply immediately, and bank stocks/the FTSE MIB index surged in the following months"
+      },
+      "risk": "medium",
+      "capital": "high"
+    },
+    "insiderTip": {
+      "vi": "Biết trước chính xác câu nói và ngày phát biểu cho phép đặt lệnh mua lớn ngay trước giờ G để bắt trọn đợt phục hồi tức thì của thị trường.",
+      "en": "Knowing the exact words and date of the speech in advance lets you place large buy orders right before the moment to capture the market's instant relief rally."
+    },
+    "pitfalls": {
+      "vi": "Phục hồi không phải ngay lập tức hoàn toàn bền vững; vẫn còn biến động trong các năm sau (ví dụ khủng hoảng ngân hàng Ý 2016-2017).",
+      "en": "The recovery wasn't instantly or fully permanent; volatility continued in subsequent years (e.g., the 2016-2017 Italian banking crisis)."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Mario Draghi đưa ra tuyên bố 'whatever it takes' ở thành phố nào?",
+        "en": "In which city did Mario Draghi make his 'whatever it takes' pledge?"
+      },
+      "choices": [
+        {
+          "vi": "Roma",
+          "en": "Rome"
+        },
+        {
+          "vi": "Frankfurt",
+          "en": "Frankfurt"
+        },
+        {
+          "vi": "Paris",
+          "en": "Paris"
+        },
+        {
+          "vi": "London",
+          "en": "London"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "vi": "Theo Bloomberg và BIS, Draghi phát biểu tại Hội nghị Đầu tư Toàn cầu ở London ngày 26/7/2012.",
+        "en": "Per Bloomberg and the BIS, Draghi spoke at the Global Investment Conference in London on 26 July 2012."
+      }
+    },
+    "sources": [
+      {
+        "title": "Draghi Says ECB Will Do What's Needed to Preserve Euro (Bloomberg)",
+        "url": "https://www.bloomberg.com/news/articles/2012-07-26/draghi-says-ecb-to-do-whatever-needed-as-yields-threaten-europe"
+      },
+      {
+        "title": "Mario Draghi: Verbatim of the remarks (BIS)",
+        "url": "https://www.bis.org/speeches/20120727-verbatim-remarks-global-investment-conference.pdf"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Date (26 July 2012), location (London), and exact quote confirmed via BIS official speech transcript and Bloomberg report."
+  },
+  {
+    "id": "it-moncler-ipo-2013",
+    "country": "it",
+    "date": "2013-12-16",
+    "category": "stocks",
+    "title": {
+      "vi": "Moncler IPO thành công nhất châu Âu năm 2013",
+      "en": "Moncler - Europe's best IPO debut of 2013"
+    },
+    "summary": {
+      "vi": "Moncler niêm yết tại Milan ngày 16/12/2013 giá 10,2 euro, tăng 47% ngay phiên đầu lên 14,97 euro.",
+      "en": "Moncler listed in Milan on 16 Dec 2013 at EUR 10.20, surging 47% on debut to close at EUR 14.97."
+    },
+    "description": {
+      "vi": "Hãng áo khoác lông vũ cao cấp Moncler IPO trên sàn Milan ngày 16/12/2013 ở mức giá tối đa trong khoảng chào bán (8,75-10,2 euro), tức 10,2 euro/cổ phiếu, định giá công ty 2,5 tỷ euro. Sổ lệnh được đặt mua gấp 27-30 lần lượng chào bán. Ngay phiên giao dịch đầu tiên, cổ phiếu tăng 47% lên đóng cửa ở 14,97 euro, trở thành IPO châu Âu thành công nhất năm 2013 (vượt qua Royal Mail). Đến cuối 2021, cổ phiếu đạt đỉnh hơn 69 euro, tức tăng gần 7 lần so với giá IPO.",
+      "en": "Luxury down-jacket maker Moncler IPO'd on the Milan exchange on 16 December 2013 at the top of its offer range (EUR 8.75-10.20), i.e. EUR 10.20 per share, valuing the company at EUR 2.5 billion. The order book was 27-30x oversubscribed. On the very first day of trading, the stock jumped 47% to close at EUR 14.97, making it Europe's best IPO debut of 2013 (beating Royal Mail). By late 2021, the stock peaked above EUR 69, almost 7x the IPO price."
+    },
+    "opportunity": {
+      "asset": "Moncler S.p.A. (MONC.MI)",
+      "action": {
+        "vi": "Mua cổ phiếu Moncler ngay tại giá IPO và giữ đến đỉnh 2021",
+        "en": "Buy Moncler shares at the IPO price and hold until the 2021 peak"
+      },
+      "buyWhen": {
+        "vi": "16/12/2013, giá IPO 10,2 euro",
+        "en": "16 December 2013, at the EUR 10.20 IPO price"
+      },
+      "sellWhen": {
+        "vi": "Cuối 2021, khi giá đóng cửa cao nhất đạt khoảng 69,28 euro",
+        "en": "Late 2021, near the all-time closing high of about EUR 69.28"
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng gần 7 lần giá IPO trong 8 năm",
+        "en": "About 7x the IPO price over 8 years"
+      },
+      "returnMultiple": 6.79,
+      "entryPrice": 10.2,
+      "exitPrice": 69.28,
+      "priceCurrency": "EUR",
+      "exitDate": "2021",
+      "risk": "medium",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết trước nhu cầu hàng xa xỉ Trung Quốc sẽ bùng nổ thập niên 2010 giúp giữ vững niềm tin qua các đợt điều chỉnh để chạm đỉnh 2021.",
+      "en": "Knowing Chinese luxury demand would boom through the 2010s justifies holding through pullbacks all the way to the 2021 peak."
+    },
+    "pitfalls": {
+      "vi": "Cổ phiếu mang tính chu kỳ cao theo tiêu dùng xa xỉ Trung Quốc; giảm mạnh sau đỉnh 2021 (còn khoảng 50 euro cuối 2024) do nhu cầu Trung Quốc suy yếu.",
+      "en": "The stock is highly cyclical with Chinese luxury spending; it fell sharply from its 2021 peak (to around EUR 50 by late 2024) as Chinese demand weakened."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Cổ phiếu Moncler tăng bao nhiêu % trong ngày giao dịch đầu tiên (16/12/2013)?",
+        "en": "How much did Moncler shares rise on their first trading day (16 Dec 2013)?"
+      },
+      "choices": [
+        {
+          "vi": "47%",
+          "en": "47%"
+        },
+        {
+          "vi": "5%",
+          "en": "5%"
+        },
+        {
+          "vi": "150%",
+          "en": "150%"
+        },
+        {
+          "vi": "10%",
+          "en": "10%"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "Theo Bloomberg và trang web chính thức của Moncler, cổ phiếu tăng 47% trong ngày giao dịch đầu tiên, đóng cửa ở 14,97 euro so với giá IPO 10,2 euro.",
+        "en": "Per Bloomberg and Moncler's own corporate site, the stock rose 47% on its first trading day, closing at EUR 14.97 versus the EUR 10.20 IPO price."
+      }
+    },
+    "sources": [
+      {
+        "title": "Moncler Tops Royal Mail for Europe's Best IPO Debut of 2013 (Bloomberg)",
+        "url": "https://www.bloomberg.com/news/articles/2013-12-16/moncler-shares-soar-on-luxury-skiwear-maker-s-trading-debut"
+      },
+      {
+        "title": "Share information - Moncler Group",
+        "url": "https://www.monclergroup.com/en/investor-relations/share-information"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "IPO price EUR 10.20, +47% debut close at EUR 14.97, and 2021 high of EUR 69.28 confirmed via Bloomberg and Moncler Group's official share-price table."
+  },
+  {
+    "id": "it-fiat-chrysler-merger-2014",
+    "country": "it",
+    "date": "2014-10-12",
+    "category": "business",
+    "title": {
+      "vi": "Fiat-Chrysler sáp nhập, mở đường cho Ferrari tách riêng",
+      "en": "Fiat-Chrysler merger paves the way for Ferrari spin-off"
+    },
+    "summary": {
+      "vi": "Fiat và Chrysler chính thức sáp nhập ngày 12/10/2014 thành FCA, niêm yết New York và Milan, mở đường cho IPO Ferrari 2015.",
+      "en": "Fiat and Chrysler formally merged on 12 Oct 2014 into FCA, listing in New York and Milan, paving the way for Ferrari's 2015 IPO."
+    },
+    "description": {
+      "vi": "Sau khi Fiat tăng dần sở hữu Chrysler từ 20% (2009) lên 58,5% (2012) rồi 100% (tháng 1/2014), thương vụ sáp nhập Fiat S.p.A. vào Fiat Chrysler Automobiles N.V. (FCA) hoàn tất ngày 12/10/2014. Cổ phiếu FCA bắt đầu giao dịch tại NYSE (mã FCAU) ngày 13/10/2014, mở cửa ở 9 USD/cổ phiếu, và trên sàn Milan (MTA). Công ty hợp nhất trở thành nhà sản xuất ô tô lớn thứ 7 thế giới. Sự kiện này đặt nền móng cho việc tách Ferrari thành công ty niêm yết riêng vào tháng 10/2015 - một trong những thương vụ sinh lời nhất của cổ đông Fiat.",
+      "en": "After Fiat gradually raised its Chrysler stake from 20% (2009) to 58.5% (2012) and then 100% (January 2014), the merger of Fiat S.p.A. into Fiat Chrysler Automobiles N.V. (FCA) was completed on 12 October 2014. FCA shares began trading on the NYSE (ticker FCAU) on 13 October 2014, opening at $9 per share, and on the Milan exchange (MTA). The combined company became the world's 7th-largest automaker. This merger laid the groundwork for spinning off Ferrari as a separately listed company in October 2015 - one of the most profitable moves for Fiat shareholders."
+    },
+    "opportunity": {
+      "asset": "Fiat Chrysler Automobiles N.V. (NYSE: FCAU)",
+      "action": {
+        "vi": "Mua cổ phiếu FCA ngay khi niêm yết, biết trước công ty sẽ tách Ferrari (2015) và sau đó sáp nhập thành Stellantis (2021)",
+        "en": "Buy FCA shares at listing, knowing the company would spin off Ferrari (2015) and later merge into Stellantis (2021)"
+      },
+      "buyWhen": {
+        "vi": "13/10/2014, giá mở cửa khoảng 9 USD/cổ phiếu",
+        "en": "13 October 2014, at the opening price of about $9/share"
+      },
+      "sellWhen": {
+        "vi": "Giữ cổ phần Ferrari được chia tách năm 2016 riêng biệt, bán FCA gốc nếu muốn trước sáp nhập Stellantis 2021",
+        "en": "Hold the separately distributed Ferrari shares from 2016; sell the original FCA position if desired before the 2021 Stellantis merger"
+      },
+      "estimatedReturn": {
+        "vi": "Lợi nhuận chính đến từ cổ phần Ferrari được chia miễn phí cho cổ đông FCA năm 2016, tăng giá trị gấp nhiều lần sau đó",
+        "en": "Most of the gain came from the Ferrari shares distributed free to FCA shareholders in 2016, which multiplied in value afterward"
+      },
+      "entryPrice": 9.0,
+      "priceCurrency": "USD",
+      "exitDate": "2021-01",
+      "risk": "medium",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết trước kế hoạch tách Ferrari (công bố 29/10/2014, hoàn tất 3/1/2016) giúp mua cổ phiếu FCA trước khi thị trường định giá đầy đủ giá trị ẩn của thương hiệu Ferrari.",
+      "en": "Knowing the Ferrari spin-off plan in advance (announced 29 Oct 2014, completed 3 Jan 2016) lets you buy FCA shares before the market fully priced in Ferrari's hidden brand value."
+    },
+    "pitfalls": {
+      "vi": "FCA gốc (trừ Ferrari) có hiệu suất tầm thường hơn nhiều so với Ferrari; phần lớn giá trị tạo ra nằm ở thương hiệu siêu sang được tách ra, không phải mảng ô tô đại trà.",
+      "en": "FCA's core business (excluding Ferrari) performed far more modestly than Ferrari; most of the value creation was in the spun-off luxury brand, not the mass-market auto business."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Thương vụ sáp nhập Fiat-Chrysler chính thức hoàn tất vào ngày nào?",
+        "en": "On what date did the Fiat-Chrysler merger officially complete?"
+      },
+      "choices": [
+        {
+          "vi": "12/10/2014",
+          "en": "12 October 2014"
+        },
+        {
+          "vi": "1/1/2009",
+          "en": "1 January 2009"
+        },
+        {
+          "vi": "21/10/2015",
+          "en": "21 October 2015"
+        },
+        {
+          "vi": "16/1/2021",
+          "en": "16 January 2021"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "Theo thông cáo báo chí chính thức của FCA, việc sáp nhập Fiat S.p.A. vào FCA có hiệu lực ngày 12/10/2014, với cổ phiếu bắt đầu giao dịch tại NYSE ngày hôm sau.",
+        "en": "Per FCA's official press release, the merger of Fiat S.p.A. into FCA became effective on 12 October 2014, with shares beginning to trade on the NYSE the next day."
+      }
+    },
+    "sources": [
+      {
+        "title": "Merger to Form Fiat Chrysler Automobiles N.V. Completed (FCA press release)",
+        "url": "https://media.stellantis.com/em-en/fca-archive/press/merger-to-form-fiat-chrysler-automobiles-n-v-completed-fca-debuts-on-the-nyse"
+      },
+      {
+        "title": "Fiat Chrysler Automobiles - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Fiat_chrysler_automobiles"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Merger completion date (12 Oct 2014), NYSE debut, and $9 opening price confirmed via FCA's official press release and FoxBusiness reporting."
+  },
+  {
+    "id": "it-milan-real-estate-boom-2015-2025",
+    "country": "it",
+    "date": "2015",
+    "category": "real-estate",
+    "title": {
+      "vi": "Bất động sản Milan tăng 40% sau Expo 2015",
+      "en": "Milan real estate rises 40% after Expo 2015"
+    },
+    "summary": {
+      "vi": "Từ sau Expo Milano 2015, giá nhà Milan tăng khoảng 40% đến 2023, dẫn đầu bởi các khu Porta Nuova, CityLife.",
+      "en": "Since Expo Milano 2015, Milan home prices have risen about 40% through 2023, led by districts like Porta Nuova and CityLife."
+    },
+    "description": {
+      "vi": "Expo Milano 2015 (22 triệu lượt khách trong 6 tháng) đánh dấu bước ngoặt cho bất động sản Milan sau khủng hoảng 2008-2013. Theo công ty bất động sản Casavo, tính đến 2023 giá nhà Milan đã tăng khoảng 40% so với 2015, đạt trung bình 5.199 euro/m² (so với trung bình toàn quốc chỉ 1.962 euro/m²). Các khu phát triển mới như Porta Nuova (tháp UniCredit, Bosco Verticale) và CityLife (tháp của Zaha Hadid, Libeskind, Isozaki) dẫn đầu đà tăng, với giá đỉnh khu trung tâm vượt 15.000 euro/m² năm 2023.",
+      "en": "Expo Milano 2015 (22 million visitors over six months) marked the turning point for Milan real estate after the 2008-2013 crash. Per real-estate firm Casavo, by 2023 Milan home prices had risen about 40% since 2015, averaging EUR 5,199/m² (versus a national average of just EUR 1,962/m²). New developments like Porta Nuova (UniCredit Tower, Bosco Verticale) and CityLife (towers by Zaha Hadid, Libeskind, Isozaki) led the surge, with prime central prices exceeding EUR 15,000/m² in 2023."
+    },
+    "opportunity": {
+      "asset": "Milan residential real estate (Porta Nuova / CityLife districts)",
+      "action": {
+        "vi": "Mua căn hộ tại các khu phát triển mới của Milan ngay trước/trong Expo 2015",
+        "en": "Buy apartments in Milan's new-development districts right before/during Expo 2015"
+      },
+      "buyWhen": {
+        "vi": "2013-2015, trước và trong thời gian diễn ra Expo",
+        "en": "2013-2015, before and during the Expo"
+      },
+      "sellWhen": {
+        "vi": "Giữ dài hạn đến 2023-2025 khi giá đã tăng 40%+",
+        "en": "Hold long-term to 2023-2025 as prices rose 40%+"
+      },
+      "estimatedReturn": {
+        "vi": "Tăng khoảng 40% tính đến 2023, cao hơn nhiều mức trung bình cả nước",
+        "en": "About 40% gain by 2023, far outpacing the national average"
+      },
+      "risk": "low",
+      "capital": "high"
+    },
+    "insiderTip": {
+      "vi": "Biết trước Milan sẽ được chọn đăng cai Olympic Mùa đông 2026 cùng Cortina giúp xác định sớm làn sóng đầu tư hạ tầng và bất động sản tiếp theo.",
+      "en": "Knowing Milan would be chosen (with Cortina) to host the 2026 Winter Olympics lets you anticipate the next wave of infrastructure and real-estate investment early."
+    },
+    "pitfalls": {
+      "vi": "Tăng giá tập trung mạnh ở trung tâm Milan; giá thuê tăng gây phản ứng xã hội và áp lực chính trị về nhà ở giá rẻ.",
+      "en": "Price gains are heavily concentrated in central Milan; rising rents have sparked social backlash and political pressure over affordable housing."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Giá nhà trung bình tại Milan năm 2023 là bao nhiêu mỗi m², so với trung bình cả nước?",
+        "en": "What was Milan's average home price per m² in 2023, versus the national average?"
+      },
+      "choices": [
+        {
+          "vi": "1.000 euro (bằng cả nước)",
+          "en": "EUR 1,000 (same as nationally)"
+        },
+        {
+          "vi": "50.000 euro",
+          "en": "EUR 50,000"
+        },
+        {
+          "vi": "500 euro",
+          "en": "EUR 500"
+        },
+        {
+          "vi": "5.199 euro (so với 1.962 euro cả nước)",
+          "en": "EUR 5,199 (vs EUR 1,962 nationally)"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "vi": "Theo Casavo, giá nhà Milan năm 2023 trung bình 5.199 euro/m², so với trung bình toàn quốc chỉ 1.962 euro/m².",
+        "en": "Per Casavo, Milan's 2023 average home price was EUR 5,199/m², versus a national average of just EUR 1,962/m²."
+      }
+    },
+    "sources": [
+      {
+        "title": "Milan Real Estate Market: House Prices Per Square Meter (Casavo)",
+        "url": "https://blog.casavo.com/en/articoli/house-prices-per-square-meter-in-milan"
+      },
+      {
+        "title": "Milan bets on big events to fuel its transformation to global city (AP)",
+        "url": "https://apnews.com/article/milan-olympics-legacy-italy-ba1bf6c35ecc5c8fd34a746ff69e4bba"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "40% price rise since 2015 and 2023 average of EUR 5,199/m² confirmed via Casavo's published data; Expo 2015 visitor count confirmed via AP."
+  },
+  {
+    "id": "it-ferrari-ipo-2015",
+    "country": "it",
+    "date": "2015-10-21",
+    "category": "stocks",
+    "title": {
+      "vi": "Ferrari IPO: giá 52 USD, tăng vọt ngay ngày đầu",
+      "en": "Ferrari IPO: priced at $52, surged on debut"
+    },
+    "summary": {
+      "vi": "Ferrari niêm yết trên NYSE ngày 21/10/2015 ở giá 52 USD, mở cửa 60 USD (+15%); đây là một trong những IPO thành công nhất của Ý.",
+      "en": "Ferrari listed on the NYSE on 21 Oct 2015 at $52, opening at $60 (+15%); one of Italy's most successful IPOs."
+    },
+    "description": {
+      "vi": "Ferrari NV, được tách khỏi Fiat Chrysler Automobiles, IPO trên NYSE ngày 21/10/2015 với giá 52 USD/cổ phiếu (mức cao nhất trong khoảng 48-52 USD đưa ra), huy động 893 triệu USD, định giá công ty 9,8 tỷ USD. Cổ phiếu mở cửa ở 60 USD, tăng 15,4% ngay phiên đầu. Ferrari sau đó tiếp tục tăng mạnh trong các năm sau nhờ biên lợi nhuận cao và định vị thương hiệu siêu sang, trở thành một trong những cổ phiếu châu Âu có hiệu suất tốt nhất giai đoạn 2015-2023.",
+      "en": "Ferrari NV, spun off from Fiat Chrysler Automobiles, IPO'd on the NYSE on 21 October 2015 at $52 per share (the top of the $48-52 range), raising $893 million and valuing the company at $9.8 billion. The stock opened at $60, up 15.4% on debut. Ferrari went on to rally strongly in subsequent years thanks to high margins and its ultra-luxury brand positioning, becoming one of Europe's best-performing stocks from 2015 to 2023."
+    },
+    "opportunity": {
+      "asset": "Ferrari N.V. (NYSE: RACE)",
+      "action": {
+        "vi": "Mua cổ phiếu Ferrari ngay tại giá IPO và giữ dài hạn",
+        "en": "Buy Ferrari shares at the IPO price and hold long-term"
+      },
+      "buyWhen": {
+        "vi": "21/10/2015, giá IPO 52 USD/cổ phiếu",
+        "en": "21 October 2015, at the $52 IPO price"
+      },
+      "sellWhen": {
+        "vi": "Giữ nhiều năm; cổ phiếu tăng gấp nhiều lần vào giữa thập niên 2020",
+        "en": "Hold for years; the stock multiplied several times over by the mid-2020s"
+      },
+      "estimatedReturn": {
+        "vi": "Cổ phiếu tăng vọt 15% ngay ngày đầu và tiếp tục là một trong những cổ phiếu tăng mạnh nhất châu Âu các năm sau",
+        "en": "The stock jumped 15% on debut and went on to be one of Europe's strongest performers in following years"
+      },
+      "entryPrice": 52.0,
+      "exitPrice": 60.0,
+      "priceCurrency": "USD",
+      "exitDate": "2015-10-21",
+      "risk": "low",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết trước Ferrari sẽ tách khỏi FCA và giữ định vị siêu sang (sản lượng giới hạn, biên lợi nhuận cao) giúp tự tin mua ngay từ phiên IPO thay vì chờ điều chỉnh.",
+      "en": "Knowing Ferrari would spin off from FCA and maintain its ultra-luxury positioning (limited production, high margins) justifies buying right at the IPO instead of waiting for a pullback."
+    },
+    "pitfalls": {
+      "vi": "Cổ phiếu bị giới hạn ở mức chào bán chỉ 9,1% vốn, thanh khoản ban đầu thấp; định giá luôn ở mức cao (P/E lớn) nên không phải 'món hời' theo định giá truyền thống.",
+      "en": "The float was limited to just 9.1% of the company, so initial liquidity was thin; valuation has stayed rich (high P/E), so this isn't a 'bargain' by traditional metrics."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Ferrari niêm yết với giá IPO bao nhiêu trên sàn NYSE?",
+        "en": "What was Ferrari's IPO price on the NYSE?"
+      },
+      "choices": [
+        {
+          "vi": "10 USD",
+          "en": "$10"
+        },
+        {
+          "vi": "150 USD",
+          "en": "$150"
+        },
+        {
+          "vi": "25 USD",
+          "en": "$25"
+        },
+        {
+          "vi": "52 USD",
+          "en": "$52"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "vi": "Theo CNBC và Reuters, Ferrari định giá IPO ở mức cao nhất của khoảng dự kiến: 52 USD/cổ phiếu.",
+        "en": "Per CNBC and Reuters, Ferrari priced its IPO at the top of its indicated range: $52 per share."
+      }
+    },
+    "sources": [
+      {
+        "title": "Ferrari spikes 15% in market debut (CNBC)",
+        "url": "https://www.cnbc.com/2015/10/21/ferrari-spikes-15-in-market-debut.html"
+      },
+      {
+        "title": "FCA Announces Pricing of Initial Public Offering of Ferrari N.V.",
+        "url": "https://www.media.stellantis.com/em-en/fca-archive/press/fca-announces-pricing-of-initial-public-offering-of-ferrari-n-v-common-shares"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "IPO date (21 Oct 2015), $52 price, $60 open (+15.4%) confirmed via CNBC and FCA/Stellantis official press release."
+  },
+  {
+    "id": "it-mps-bailout-2017",
+    "country": "it",
+    "date": "2017-07-28",
+    "category": "stocks",
+    "title": {
+      "vi": "Monte dei Paschi: cổ đông cũ mất gần hết vốn",
+      "en": "Monte dei Paschi: old shareholders wiped out"
+    },
+    "summary": {
+      "vi": "Ngân hàng cổ nhất thế giới Monte dei Paschi được nhà nước Ý giải cứu 8,1 tỷ euro năm 2017, pha loãng cổ đông cũ chỉ còn 2,5% vốn.",
+      "en": "The world's oldest bank, Monte dei Paschi, was bailed out by Italy for EUR 8.1 billion in 2017, diluting old shareholders down to just 2.5% of the company."
+    },
+    "description": {
+      "vi": "Sau nhiều năm thua lỗ và scandal kế toán, Banca Monte dei Paschi di Siena (BMPS) được Bộ Tài chính Ý giải cứu phòng ngừa với gói 8,1 tỷ euro được EU phê duyệt tháng 7/2017. Trái phiếu phụ (subordinated debt) trị giá 4,3-4,5 tỷ euro bị chuyển đổi cưỡng bức thành cổ phiếu mới ở giá 8,65 euro (burden sharing), trong khi Bộ Tài chính mua cổ phiếu mới giá 6,49 euro, nâng sở hữu nhà nước lên 52,2% rồi sau đó 68%. Cổ đông hiện hữu bị pha loãng mạnh, chỉ còn giữ khoảng 2,5% vốn công ty sau tái cấu trúc; cổ phiếu MPS giảm gần 80% kể từ khi giao dịch trở lại sau gói cứu trợ.",
+      "en": "After years of losses and an accounting scandal, Banca Monte dei Paschi di Siena (BMPS) received a precautionary bailout of EUR 8.1 billion approved by the EU in July 2017. EUR 4.3-4.5 billion in subordinated debt was forcibly converted into new shares at EUR 8.65 ('burden sharing'), while the Treasury subscribed new shares at EUR 6.49, raising the state's stake to 52.2% and later 68%. Existing shareholders were massively diluted, retaining only about 2.5% of the company after restructuring; MPS shares fell nearly 80% from when trading resumed after the bailout."
+    },
+    "opportunity": {
+      "asset": "Banca Monte dei Paschi di Siena (BMPS.MI)",
+      "action": {
+        "vi": "Bán hoặc tránh hoàn toàn cổ phiếu MPS trước gói giải cứu 2017",
+        "en": "Sell or fully avoid MPS shares before the 2017 bailout"
+      },
+      "buyWhen": {
+        "vi": "Không mua - đây là cơ hội BÁN/TRÁNH",
+        "en": "Do not buy - this is a SELL/AVOID play"
+      },
+      "sellWhen": {
+        "vi": "Trước tháng 7/2017, khi kế hoạch burden-sharing được công bố",
+        "en": "Before July 2017, when the burden-sharing plan was announced"
+      },
+      "estimatedReturn": {
+        "vi": "Tránh được khoản lỗ gần 80% (và pha loãng còn 2,5% vốn) nếu nắm giữ cổ phiếu cũ",
+        "en": "Avoids an almost 80% loss (and dilution to just 2.5% ownership) for holders of the old shares"
+      },
+      "priceCurrency": "EUR",
+      "exitDate": "2017-07",
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết trước kết quả stress test ECB (CET1 chỉ 0,58% cuối 2015, dưới mức tối thiểu 4,5%) giúp thoát vị thế nhiều năm trước khi gói cứu trợ chính thức công bố.",
+      "en": "Knowing the ECB stress-test results in advance (CET1 of just 0.58% at end-2015, below the 4.5% minimum) lets you exit years before the bailout was formally announced."
+    },
+    "pitfalls": {
+      "vi": "Cổ phiếu ngân hàng có thể phục hồi tạm thời theo tin đồn sáp nhập trước khi tiếp tục giảm; nhà đầu tư bán lẻ bị lừa bán trái phiếu phụ cũng chịu thiệt hại nặng.",
+      "en": "Bank shares can rally temporarily on merger rumors before resuming their decline; retail investors mis-sold the subordinated bonds also suffered heavy losses."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Sau tái cấu trúc 2017, cổ đông hiện hữu của MPS chỉ còn giữ khoảng bao nhiêu % vốn công ty?",
+        "en": "After the 2017 restructuring, how much of the company did existing MPS shareholders retain?"
+      },
+      "choices": [
+        {
+          "vi": "2,5%",
+          "en": "2.5%"
+        },
+        {
+          "vi": "50%",
+          "en": "50%"
+        },
+        {
+          "vi": "90%",
+          "en": "90%"
+        },
+        {
+          "vi": "30%",
+          "en": "30%"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "Theo The New Bagehot Project (Yale), cổ đông hiện hữu chỉ còn giữ khoảng 2,5% vốn sau khi chuyển đổi nợ và nhà nước bơm vốn.",
+        "en": "Per the New Bagehot Project (Yale), existing shareholders were left with only about 2.5% of the company after debt conversion and the state's capital injection."
+      }
+    },
+    "sources": [
+      {
+        "title": "Italy - Banca Monte dei Paschi di Siena Capital Injection 2017 (Yale)",
+        "url": "https://newbagehot.yale.edu/docs/italy-banca-monte-dei-paschi-di-siena-capital-injection-2017"
+      },
+      {
+        "title": "Monte Paschi Bailout: What Did Draghi's ECB Not Tell Us? (Bloomberg)",
+        "url": "https://www.bloomberg.com/graphics/2019-opinion-monte-paschi/"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "EUR 8.1bn bailout, EUR 8.65/6.49 conversion prices, 2.5% shareholder dilution, and ~80% stock decline confirmed via Yale's New Bagehot Project and Bloomberg."
+  },
+  {
+    "id": "it-stm-chip-boom-2020-2024",
+    "country": "it",
+    "date": "2020-03",
+    "category": "technology",
+    "title": {
+      "vi": "STMicroelectronics: cổ phiếu bán dẫn tăng gấp 3,5 lần hậu COVID",
+      "en": "STMicroelectronics: chip stock triples post-COVID"
+    },
+    "summary": {
+      "vi": "Cổ phiếu STMicroelectronics (Pháp-Ý) giảm còn 15 USD khi COVID ập đến, rồi tăng lên đỉnh 52 USD cuối 2021 nhờ thiếu hụt chip toàn cầu.",
+      "en": "Franco-Italian chipmaker STMicroelectronics fell to $15 when COVID hit, then rallied to a $52 peak by late 2021 amid the global chip shortage."
+    },
+    "description": {
+      "vi": "STMicroelectronics, công ty bán dẫn liên doanh Pháp-Ý (trụ sở tại Geneva, có nguồn gốc từ SGS Ý và Thomson Pháp), chạm đáy khoảng 15,06 USD/cổ phiếu vào tháng 3/2020 giữa hoảng loạn COVID-19. Khi tình trạng thiếu hụt chip bán dẫn toàn cầu bùng nổ năm 2021 (do nhu cầu xe điện, 5G, thiết bị điện tử tăng vọt), cổ phiếu tăng vọt lên đỉnh 52,13 USD ngày 18/11/2021 - mức cao nhất kể từ năm 2000 - trước khi điều chỉnh giảm các năm 2022-2024.",
+      "en": "STMicroelectronics, the Franco-Italian semiconductor joint venture (headquartered in Geneva, with roots in Italy's SGS and France's Thomson), bottomed around $15.06 per share in March 2020 amid COVID-19 panic. As the global chip shortage exploded in 2021 (driven by surging demand for EVs, 5G, and electronics), the stock soared to a peak of $52.13 on 18 November 2021 - its highest since 2000 - before pulling back through 2022-2024."
+    },
+    "opportunity": {
+      "asset": "STMicroelectronics N.V. (NYSE: STM)",
+      "action": {
+        "vi": "Mua cổ phiếu STM tại đáy hoảng loạn COVID tháng 3/2020, bán gần đỉnh thiếu hụt chip cuối 2021",
+        "en": "Buy STM shares at the March 2020 COVID panic low, sell near the late-2021 chip-shortage peak"
+      },
+      "buyWhen": {
+        "vi": "Tháng 3/2020, giá khoảng 15,06 USD",
+        "en": "March 2020, at around $15.06"
+      },
+      "sellWhen": {
+        "vi": "18/11/2021, đỉnh 52,13 USD",
+        "en": "18 November 2021, at the $52.13 peak"
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng 3,46 lần trong chưa đầy 2 năm",
+        "en": "About 3.46x in under 2 years"
+      },
+      "returnMultiple": 3.46,
+      "entryPrice": 15.06,
+      "exitPrice": 52.13,
+      "priceCurrency": "USD",
+      "exitDate": "2021-11-18",
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết trước đại dịch sẽ gây thiếu hụt chip toàn cầu nghiêm trọng (do gián đoạn chuỗi cung ứng và bùng nổ nhu cầu xe điện/điện tử) giúp mua mạnh ngay tại đáy hoảng loạn tháng 3/2020.",
+      "en": "Knowing the pandemic would trigger a severe global chip shortage (from supply-chain disruption plus EV/electronics demand booms) lets you buy heavily right at the March 2020 panic low."
+    },
+    "pitfalls": {
+      "vi": "Ngành bán dẫn có tính chu kỳ cao; cổ phiếu STM giảm mạnh trở lại sau 2022 (xuống dưới 25 USD cuối 2024) khi dư cung xuất hiện, nên cần bán đúng thời điểm đỉnh chu kỳ.",
+      "en": "The semiconductor industry is highly cyclical; STM fell sharply again after 2022 (below $25 by late 2024) as oversupply emerged, so timing the cycle peak to sell matters."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Cổ phiếu STMicroelectronics đạt đỉnh cao nhất kể từ năm 2000 vào ngày nào?",
+        "en": "On what date did STMicroelectronics shares hit their highest level since 2000?"
+      },
+      "choices": [
+        {
+          "vi": "16/3/2020",
+          "en": "16 March 2020"
+        },
+        {
+          "vi": "1/1/2010",
+          "en": "1 January 2010"
+        },
+        {
+          "vi": "2015",
+          "en": "2015"
+        },
+        {
+          "vi": "18/11/2021",
+          "en": "18 November 2021"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "vi": "Theo dữ liệu được tổng hợp trên keenable.ai/devyara, giá đóng cửa 52,13 USD ngày 18/11/2021 là mức cao nhất của STM kể từ 28/9/2000.",
+        "en": "Per aggregated data (keenable.ai/devyara), STM's close of $52.13 on 18 Nov 2021 was its highest since 28 Sept 2000."
+      }
+    },
+    "sources": [
+      {
+        "title": "STMicroelectronics N.V. Stock Overview - Dec 31 2021 close",
+        "url": "https://cards.keenable.ai/w/01a1b52b-ef38-7673-a81b-7adba7bde572"
+      },
+      {
+        "title": "STMicroelectronics - 15 Year Stock Price History (Macrotrends)",
+        "url": "https://www.macrotrends.net/stocks/charts/STM/stmicroelectronics/stock-price-history"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "2020 low ~$15.06 and 2021 high $52.13 (18 Nov 2021) confirmed via Macrotrends annual data and an aggregated stock-overview card citing the exact date/price."
+  },
+  {
+    "id": "it-bitcoin-retail-boom-2020-2021",
+    "country": "it",
+    "date": "2020-03-16",
+    "category": "crypto",
+    "title": {
+      "vi": "Người Ý đổ xô mua Bitcoin trong phong tỏa COVID",
+      "en": "Italians pile into Bitcoin during the COVID lockdown"
+    },
+    "summary": {
+      "vi": "Số người dùng sàn crypto Bitpanda tại Ý tăng hơn gấp đôi sau phong tỏa 2020, trùng lúc Bitcoin tăng từ đáy 5.000 USD lên đỉnh gần 69.000 USD tháng 11/2021.",
+      "en": "Bitpanda's Italian user base more than doubled after the 2020 lockdown, as Bitcoin rallied from a $5,000 trough to a near-$69,000 peak by November 2021."
+    },
+    "description": {
+      "vi": "Ý là một trong những nước bị phong tỏa sớm và nghiêm ngặt nhất vì COVID-19 (từ tháng 3/2020). Theo khảo sát của sàn giao dịch Bitpanda (OnePoll, 6/2021), số người dùng Bitpanda tại Ý tăng hơn gấp đôi kể từ 2020 khi người dân ở nhà tìm kiếm kênh đầu tư mới. Cùng giai đoạn, giá Bitcoin giảm còn khoảng 5.000 USD ngày 16/3/2020 giữa hoảng loạn COVID toàn cầu, rồi tăng vọt lên đỉnh lịch sử khoảng 67.549-69.000 USD vào đầu tháng 11/2021 theo Investopedia/Wikipedia, tức tăng khoảng 13-14 lần.",
+      "en": "Italy was among the first countries to impose a strict COVID-19 lockdown (from March 2020). Per a June 2021 Bitpanda/OnePoll survey, the exchange's Italian user base more than doubled since 2020 as people stuck at home sought new investment avenues. Over the same period, Bitcoin fell to around $5,000 on 16 March 2020 amid global COVID panic, then surged to an all-time high of roughly $67,549-$69,000 in early November 2021 per Investopedia/Wikipedia - about a 13-14x gain."
+    },
+    "opportunity": {
+      "asset": "Bitcoin (BTC)",
+      "action": {
+        "vi": "Mua Bitcoin qua sàn giao dịch (như Bitpanda, phổ biến với người Ý) ngay tại đáy hoảng loạn COVID",
+        "en": "Buy Bitcoin via an exchange (like Bitpanda, popular with Italians) right at the COVID panic low"
+      },
+      "buyWhen": {
+        "vi": "16/3/2020, giá khoảng 5.000 USD",
+        "en": "16 March 2020, at around $5,000"
+      },
+      "sellWhen": {
+        "vi": "Đầu tháng 11/2021, gần đỉnh lịch sử 67.549-69.000 USD",
+        "en": "Early November 2021, near the all-time high of $67,549-$69,000"
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng 13-14 lần trong chưa đầy 2 năm",
+        "en": "About 13-14x in under 2 years"
+      },
+      "returnMultiple": 13.5,
+      "entryPrice": 5000,
+      "exitPrice": 67549,
+      "priceCurrency": "USD",
+      "exitDate": "2021-11-08",
+      "risk": "high",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Biết trước các ngân hàng trung ương sẽ bơm thanh khoản khổng lồ để chống COVID giúp tự tin mua đáy Bitcoin tháng 3/2020 thay vì hoảng loạn bán như đa số nhà đầu tư bán lẻ Ý lúc đó.",
+      "en": "Knowing central banks would flood markets with liquidity to fight COVID justifies confidently buying the March 2020 Bitcoin bottom instead of panic-selling like most Italian retail investors did at the time."
+    },
+    "pitfalls": {
+      "vi": "Dù vậy, khảo sát cho thấy phần lớn người Ý vẫn rất thận trọng với crypto (Ý nằm trong nhóm sở hữu crypto thấp nhất thế giới theo Statista); biến động Bitcoin cực lớn, có thể mất hơn 70% giá trị sau đỉnh 2021.",
+      "en": "That said, surveys show most Italians remained very cautious about crypto (Italy ranked among the lowest in crypto ownership globally per Statista); Bitcoin is extremely volatile and lost over 70% of its value after the 2021 peak."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Bitcoin đạt đỉnh lịch sử khoảng bao nhiêu USD vào đầu tháng 11/2021?",
+        "en": "About how high did Bitcoin's all-time high reach in early November 2021?"
+      },
+      "choices": [
+        {
+          "vi": "5.000 USD",
+          "en": "$5,000"
+        },
+        {
+          "vi": "67.549-69.000 USD",
+          "en": "$67,549-$69,000"
+        },
+        {
+          "vi": "1.000.000 USD",
+          "en": "$1,000,000"
+        },
+        {
+          "vi": "10.000 USD",
+          "en": "$10,000"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Theo Investopedia và Wikipedia, Bitcoin đạt đỉnh lịch sử khoảng 67.549 USD ngày 8/11/2021 (một số nguồn ghi gần 69.000 USD).",
+        "en": "Per Investopedia and Wikipedia, Bitcoin hit an all-time high of about $67,549 on 8 November 2021 (some sources cite close to $69,000)."
+      }
+    },
+    "sources": [
+      {
+        "title": "History of bitcoin - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/History_of_bitcoin"
+      },
+      {
+        "title": "Most Italians are ready to invest (even in crypto) - Bitpanda survey",
+        "url": "https://en.cryptonomist.ch/2021/06/08/most-italians-are-ready-to-invest-even-in-crypto"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "BTC's March 2020 ~$5,000 low and Nov 2021 ~$67,549-69,000 peak confirmed via Wikipedia's sourced price table; Bitpanda Italian-user-doubling claim confirmed via Cryptonomist's report of the OnePoll survey."
+  },
+  {
+    "id": "it-unicredit-covid-rally-2020-2024",
+    "country": "it",
+    "date": "2020-05-14",
+    "category": "stocks",
+    "title": {
+      "vi": "UniCredit: từ đáy COVID đến đỉnh lịch sử mới",
+      "en": "UniCredit: from COVID low to new record highs"
+    },
+    "summary": {
+      "vi": "Cổ phiếu UniCredit chạm đáy lịch sử 6,01 euro giữa COVID (14/5/2020) rồi tăng lên đỉnh mới trên 33 euro giữa 2025.",
+      "en": "UniCredit shares bottomed at an all-time low of EUR 6.01 during COVID (14 May 2020), then rallied to new record highs above EUR 33 by mid-2025."
+    },
+    "description": {
+      "vi": "Ngân hàng lớn thứ hai nước Ý, UniCredit, chạm đáy lịch sử 6,01 euro/cổ phiếu ngày 14/5/2020 giữa hoảng loạn COVID-19, sau nhiều lần giảm vốn/gộp cổ phiếu trong thập niên 2010. Dưới sự lãnh đạo của CEO Andrea Orcel (từ 2021), ngân hàng cải thiện mạnh lợi nhuận, mua lại cổ phiếu quy mô lớn và tăng trưởng lợi nhuận kỷ lục nhờ lãi suất cao của ECB, đẩy cổ phiếu tăng liên tục: +67% (2021), +99% (2023), +57-59% (2024), đạt đỉnh lịch sử 33,39 euro ngày 16/6/2025.",
+      "en": "Italy's second-largest bank, UniCredit, bottomed at an all-time low of EUR 6.01 per share on 14 May 2020 amid COVID-19 panic, following several capital reductions/reverse splits through the 2010s. Under CEO Andrea Orcel (from 2021), the bank sharply improved profitability, ran large share buybacks, and posted record profit growth thanks to high ECB interest rates, driving the stock up relentlessly: +67% (2021), +99% (2023), +57-59% (2024), reaching an all-time high of EUR 33.39 on 16 June 2025."
+    },
+    "opportunity": {
+      "asset": "UniCredit S.p.A. (UCG.MI)",
+      "action": {
+        "vi": "Mua cổ phiếu UniCredit ngay tại đáy hoảng loạn COVID và giữ xuyên suốt đợt tăng lợi nhuận hậu 2021",
+        "en": "Buy UniCredit shares right at the COVID-panic bottom and hold through the post-2021 earnings rally"
+      },
+      "buyWhen": {
+        "vi": "Giữa tháng 5/2020, giá khoảng 6,01 euro",
+        "en": "Mid-May 2020, at around EUR 6.01"
+      },
+      "sellWhen": {
+        "vi": "Giữa năm 2025, gần đỉnh lịch sử 33,39 euro",
+        "en": "Mid-2025, near the all-time high of EUR 33.39"
+      },
+      "estimatedReturn": {
+        "vi": "Tăng khoảng 5,5 lần trong 5 năm",
+        "en": "About 5.5x over 5 years"
+      },
+      "returnMultiple": 5.56,
+      "entryPrice": 6.01,
+      "exitPrice": 33.39,
+      "priceCurrency": "EUR",
+      "exitDate": "2025-06-16",
+      "risk": "medium",
+      "capital": "high"
+    },
+    "insiderTip": {
+      "vi": "Biết trước Andrea Orcel sẽ trở thành CEO năm 2021 và tập trung vào mua lại cổ phiếu, kỷ luật chi phí giúp tự tin mua đáy COVID bất chấp lo ngại nợ xấu ngân hàng Ý.",
+      "en": "Knowing Andrea Orcel would become CEO in 2021 and focus on buybacks and cost discipline justifies buying the COVID bottom despite fears over Italian bank bad loans."
+    },
+    "pitfalls": {
+      "vi": "Cổ phiếu ngân hàng Ý từng trải qua nhiều lần giảm vốn/gộp cổ phiếu trước đó (như MPS, Veneto Banks) nên rủi ro hệ thống vẫn cao tại thời điểm mua đáy 2020.",
+      "en": "Italian bank stocks had seen repeated capital reductions/reverse splits before (as with MPS and the Veneto banks), so systemic risk was still high at the 2020 buy point."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Cổ phiếu UniCredit chạm đáy lịch sử ở mức giá nào trong đại dịch COVID-19?",
+        "en": "What was UniCredit's all-time-low price during the COVID-19 pandemic?"
+      },
+      "choices": [
+        {
+          "vi": "50 euro",
+          "en": "EUR 50"
+        },
+        {
+          "vi": "6,01 euro (14/5/2020)",
+          "en": "EUR 6.01 (14 May 2020)"
+        },
+        {
+          "vi": "0,50 euro",
+          "en": "EUR 0.50"
+        },
+        {
+          "vi": "100 euro",
+          "en": "EUR 100"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Theo TradingView, UniCredit (UCG.MI) chạm đáy lịch sử 6,01 euro vào ngày 14/5/2020.",
+        "en": "Per TradingView, UniCredit (UCG.MI) hit its all-time low of EUR 6.01 on 14 May 2020."
+      }
+    },
+    "sources": [
+      {
+        "title": "UniCredit Stock Price and Chart - TradingView",
+        "url": "https://tradingview.com/symbols/MIL-UCG/"
+      },
+      {
+        "title": "UniCredit S.p.A. 8 Year Stock Price History (Macrotrends)",
+        "url": "https://www.macrotrends.net/stocks/charts/UNCRY/unicredit-spa/stock-price-history"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "All-time low EUR 6.01 (14 May 2020) and all-time high EUR 33.39 (16 June 2025) confirmed via TradingView and Macrotrends annual data."
+  },
+  {
+    "id": "it-natural-gas-crisis-2022",
+    "country": "it",
+    "date": "2022-03-07",
+    "category": "commodities",
+    "title": {
+      "vi": "Khủng hoảng khí đốt 2022: giá TTF lập đỉnh lịch sử",
+      "en": "2022 gas crisis: TTF prices hit record highs"
+    },
+    "summary": {
+      "vi": "Giá khí đốt châu Âu (TTF) đạt đỉnh lịch sử hơn 213 euro/MWh ngày 7/3/2022 sau khi Nga xâm lược Ukraine, đẩy lợi nhuận Eni tăng vọt.",
+      "en": "European gas prices (TTF) hit a record high above EUR 213/MWh on 7 March 2022 after Russia's invasion of Ukraine, sending Eni's profits soaring."
+    },
+    "description": {
+      "vi": "Sau khi Nga xâm lược Ukraine (24/2/2022), giá khí đốt tự nhiên chuẩn châu Âu tại trung tâm TTF (Hà Lan) tăng vọt lên mức kỷ lục nội phiên 213,895 euro/MWh ngày 7/3/2022 (có thời điểm chạm khoảng 335 euro/MWh), gấp hơn 10 lần mức trung bình lịch sử, do lo ngại gián đoạn nguồn cung khí đốt Nga (chiếm khoảng 40% nguồn cung EU trước chiến tranh). Tập đoàn năng lượng Eni của Ý hưởng lợi lớn: lợi nhuận hoạt động điều chỉnh 9 tháng đầu 2022 tăng 139% so với cùng kỳ 2021 lên 13,52 tỷ euro, nhờ giá khí đốt thực nhận tăng 43%.",
+      "en": "After Russia's invasion of Ukraine (24 February 2022), the benchmark European natural gas price at the Dutch TTF hub spiked to a record intraday high of EUR 213.895/MWh on 7 March 2022 (briefly touching around EUR 335/MWh) - more than 10 times the historical average - on fears of disrupted Russian gas supply (which had accounted for about 40% of EU imports pre-war). Italy's Eni benefited enormously: nine-month 2022 adjusted operating profit rose 139% year-on-year to EUR 13.52 billion, driven by a 43% rise in realized gas prices."
+    },
+    "opportunity": {
+      "asset": "Eni S.p.A. (ENI.MI) / natural gas futures (TTF)",
+      "action": {
+        "vi": "Mua cổ phiếu Eni hoặc hợp đồng tương lai khí đốt TTF ngay trước/khi cuộc xâm lược Ukraine bắt đầu",
+        "en": "Buy Eni shares or TTF gas futures right before/as the invasion of Ukraine began"
+      },
+      "buyWhen": {
+        "vi": "Cuối tháng 2/2022, ngay trước hoặc khi cuộc xâm lược bắt đầu (24/2/2022)",
+        "en": "Late February 2022, right before or as the invasion began (24 Feb 2022)"
+      },
+      "sellWhen": {
+        "vi": "Tháng 8-12/2022, khi giá khí đốt bắt đầu hạ nhiệt do EU tích trữ đủ và nhu cầu giảm",
+        "en": "Aug-Dec 2022, as gas prices began cooling once the EU built sufficient storage and demand eased"
+      },
+      "estimatedReturn": {
+        "vi": "Giá khí đốt tăng hơn 10 lần so với mức trung bình lịch sử; lợi nhuận Eni tăng 139% trong 9 tháng 2022",
+        "en": "Gas prices rose over 10x historical averages; Eni's profit rose 139% in the first nine months of 2022"
+      },
+      "entryPrice": 20,
+      "exitPrice": 213.895,
+      "priceCurrency": "EUR",
+      "exitDate": "2022-03-07",
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết trước chính xác ngày Nga xâm lược Ukraine (24/2/2022) và việc châu Âu sẽ hoảng loạn tích trữ khí đốt giúp mua hợp đồng tương lai TTF hoặc cổ phiếu Eni ngay trước khi tin tức lan ra.",
+      "en": "Knowing the exact date of Russia's invasion of Ukraine (24 Feb 2022) and that Europe would panic-buy gas storage lets you buy TTF futures or Eni shares right before the news breaks."
+    },
+    "pitfalls": {
+      "vi": "Thị trường năng lượng cực kỳ biến động và chịu can thiệp chính trị (giá trần EU, thuế bất ngờ đánh vào lợi nhuận 'siêu ngạch' của các công ty năng lượng).",
+      "en": "Energy markets are extremely volatile and subject to political intervention (EU price caps, windfall taxes on energy-company profits)."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Giá khí đốt TTF châu Âu đạt đỉnh nội phiên bao nhiêu euro/MWh vào tháng 3/2022?",
+        "en": "What intraday peak did European TTF gas prices reach in March 2022?"
+      },
+      "choices": [
+        {
+          "vi": "213,895 euro/MWh",
+          "en": "EUR 213.895/MWh"
+        },
+        {
+          "vi": "20 euro/MWh",
+          "en": "EUR 20/MWh"
+        },
+        {
+          "vi": "1.000 euro/MWh",
+          "en": "EUR 1,000/MWh"
+        },
+        {
+          "vi": "50 euro/MWh",
+          "en": "EUR 50/MWh"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "Theo EnergyScan (Engie), giá khí đốt TTF tương lai tháng 4/2022 đạt đỉnh nội phiên kỷ lục 213,895 euro/MWh ngày 7/3/2022.",
+        "en": "Per EnergyScan (Engie), the TTF April 2022 gas futures contract hit a record intraday high of EUR 213.895/MWh on 7 March 2022."
+      }
+    },
+    "sources": [
+      {
+        "title": "Prices rose to all-time highs (EnergyScan/Engie)",
+        "url": "https://energyscan.engie.com/daily-news/gas/prices-rose-to-all-time-highs"
+      },
+      {
+        "title": "Eni results for the third quarter and nine months of 2022",
+        "url": "https://www.eni.com/content/dam/enicom/documents/press-release/migrated/2022-en/10/eni-third-quarter-2022-ceo-claudio-descalzi-comments-results.pdf"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "TTF record price (EUR 213.895/MWh, 7 Mar 2022) confirmed via EnergyScan/Engie; Eni's 139% profit rise in 9M 2022 confirmed via Eni's own official results PDF."
+  }
+]

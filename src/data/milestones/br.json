@@ -1,0 +1,1991 @@
+[
+  {
+    "id": "br-plano-cruzado-1986",
+    "country": "br",
+    "date": "1986-02-28",
+    "category": "macro",
+    "title": {
+      "vi": "Plano Cruzado đóng băng giá 1986",
+      "en": "Cruzado Plan price freeze 1986"
+    },
+    "summary": {
+      "vi": "Đóng băng giá toàn diện tạm thời dập tắt lạm phát rồi sụp đổ ngoạn mục cuối năm.",
+      "en": "A sweeping price freeze briefly crushed inflation, then spectacularly backfired by year-end."
+    },
+    "description": {
+      "vi": "Ngày 28/2/1986, Tổng thống José Sarney tung ra Plano Cruzado: đổi tiền tệ (1.000 cruzeiro = 1 cruzado), đóng băng giá cả và tiền lương. Lạm phát giảm từ 12,49%/tháng (2/1986) xuống 1,40% (10/1986), tạo cơn sốt tiêu dùng. Nhưng thiếu hàng, chợ đen bùng nổ, dự trữ ngoại hối cạn kiệt; sau bầu cử 11/1986 giá được thả nổi và lạm phát vọt lên hơn 1.000%/năm giữa 1987.",
+      "en": "On Feb 28, 1986 President José Sarney launched the Cruzado Plan: a new currency (1,000 cruzeiros = 1 cruzado) plus a full freeze on prices and wages. Monthly inflation fell from 12.49% (Feb 1986) to 1.40% (Oct 1986), fueling a consumer buying spree. But shortages and a black market exploded and reserves drained; once controls were lifted after the Nov 1986 election, inflation roared back past 1,000%/year by mid-1987."
+    },
+    "opportunity": {
+      "asset": "Durable goods / real estate / USD cash (hedge), avoid cruzado time deposits",
+      "action": {
+        "vi": "Mua hàng hóa lâu bền và tài sản thực trong thời gian đóng băng, tránh giữ tiền mặt cruzado",
+        "en": "Buy durable goods and real assets during the freeze window, avoid holding cruzado cash"
+      },
+      "buyWhen": {
+        "vi": "Ngay sau 28/2/1986 khi giá bị khóa thấp hơn giá trị thực",
+        "en": "Right after Feb 28 1986 while prices were locked below real value"
+      },
+      "sellWhen": {
+        "vi": "Trước cuối 1986 khi chính phủ chuẩn bị thả giá sau bầu cử",
+        "en": "Before late 1986 when controls were set to be lifted post-election"
+      },
+      "estimatedReturn": {
+        "vi": "Bảo toàn giá trị thực so với người giữ tiền mặt cruzado mất giá",
+        "en": "Preserved real value versus cruzado cash holders who got wiped out"
+      },
+      "risk": "high",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Người tái sinh biết chắc Plano Cruzado sẽ thất bại trong vòng chưa đầy một năm — nên tích trữ hàng hóa khan hiếm trong thời gian đóng băng rồi bán lại khi giá được thả, đồng thời tránh mọi khoản tiết kiệm bằng cruzado.",
+      "en": "A time traveler knows the Cruzado Plan collapses within a year — stockpile scarce goods during the freeze to resell once prices are unfrozen, and avoid any cruzado-denominated savings."
+    },
+    "pitfalls": {
+      "vi": "Đầu cơ tích trữ là bất hợp pháp và bị kiểm soát gắt; chính phủ có thể tịch thu hàng hóa 'đầu cơ'. Thời điểm thả giá chính xác không chắc chắn.",
+      "en": "Hoarding was illegal and heavily policed; the government could seize 'speculative' stockpiles. The exact date controls would be lifted was uncertain."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Plano Cruzado thất bại chủ yếu vì lý do gì?",
+        "en": "Why did the Cruzado Plan ultimately fail?"
+      },
+      "choices": [
+        {
+          "vi": "Đóng băng giá gây thiếu hàng và mất cân đối, lạm phát quay lại khi thả giá",
+          "en": "The price freeze caused shortages and imbalances; inflation returned once controls were lifted"
+        },
+        {
+          "vi": "Brazil vỡ nợ nước ngoài ngay lập tức",
+          "en": "Brazil immediately defaulted on foreign debt"
+        },
+        {
+          "vi": "Ngân hàng trung ương tăng lãi suất quá cao",
+          "en": "The central bank raised interest rates too high"
+        },
+        {
+          "vi": "Đồng cruzado bị thả nổi quá sớm",
+          "en": "The cruzado was floated too early"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "Giá bị giữ cố định trong khi cầu tăng mạnh gây thiếu hàng, chợ đen và thâm hụt thương mại; khi giá được thả sau bầu cử, lạm phát bùng lại dữ dội hơn.",
+        "en": "Fixed prices amid surging demand caused shortages, a black market and a trade-balance collapse; when controls were lifted after the election, inflation came back even worse."
+      }
+    },
+    "sources": [
+      {
+        "title": "Cruzado Plan - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Cruzado_Plan"
+      },
+      {
+        "title": "The Decline and Fall of Brazil's Cruzado",
+        "url": "https://periodicos.fundaj.gov.br/CAD/en/article/download/1034/754/1097"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed launch date (Feb 28 1986), inflation drop to 1.40% by Oct 1986, and 1987 inflation surge via Wikipedia and Fundaj academic paper."
+  },
+  {
+    "id": "br-collor-plan-confisco-1990",
+    "country": "br",
+    "date": "1990-03-16",
+    "category": "macro",
+    "title": {
+      "vi": "Plano Collor tịch thu tiết kiệm 1990",
+      "en": "Collor Plan savings confiscation 1990"
+    },
+    "summary": {
+      "vi": "Chính phủ phong tỏa 80% tiền gửi ngân hàng trong 18 tháng — thảm họa cần né tuyệt đối.",
+      "en": "The government froze roughly 80% of bank deposits for 18 months — a disaster to avoid at all costs."
+    },
+    "description": {
+      "vi": "Ngày 16/3/1990, Tổng thống Fernando Collor de Mello phong tỏa mọi tài khoản vãng lai/tiết kiệm vượt 50.000 cruzados novos (~1.200 USD) trong 18 tháng, chiếm khoảng 80% tiền gửi ngân hàng (xấp xỉ 80 tỷ USD, ~30% GDP). Tiền bị giữ chỉ được trả lãi 6%/năm do chính phủ ấn định trong khi lạm phát vẫn cao, khiến giá trị thực bị bào mòn nghiêm trọng; GDP đầu người giảm 5,7% năm 1990.",
+      "en": "On March 16, 1990 President Fernando Collor de Mello froze all checking/savings balances above 50,000 cruzados novos (~US$1,200) for 18 months, impounding roughly 80% of bank deposits (about US$80 billion, ~30% of GDP). Frozen funds earned only a government-set 6% annual rate while inflation stayed high, destroying real value; per-capita GDP fell 5.7% in 1990."
+    },
+    "opportunity": {
+      "asset": "Physical assets / foreign currency outside the banking system, avoid BRL bank deposits",
+      "action": {
+        "vi": "Rút tiền khỏi tài khoản ngân hàng trước 16/3/1990 và chuyển sang tài sản thực/ngoại tệ nắm giữ ngoài hệ thống",
+        "en": "Withdraw bank balances before March 16, 1990 and hold physical assets/foreign currency outside the banking system"
+      },
+      "buyWhen": {
+        "vi": "Trước ngày công bố 16/3/1990 (biện pháp hoàn toàn bất ngờ)",
+        "en": "Before the March 16, 1990 announcement (the measure was a total surprise)"
+      },
+      "sellWhen": {
+        "vi": "Không áp dụng — mục tiêu là né giữ tiền trong ngân hàng, không phải một giao dịch mua bán",
+        "en": "Not applicable — the goal is avoiding bank deposits, not a buy/sell trade"
+      },
+      "estimatedReturn": {
+        "vi": "Tránh mất giá trị thực của khoản tiền bị phong tỏa so với lạm phát",
+        "en": "Avoided the real-value destruction frozen depositors suffered versus inflation"
+      },
+      "risk": "high",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Chỉ người biết trước ngày 16/3/1990 mới có thể rút sạch tài khoản ngân hàng những ngày trước đó — biện pháp này hoàn toàn bất ngờ với dân thường.",
+      "en": "Only someone who knows the exact March 16 1990 date can empty bank accounts in the preceding days — the freeze was a total surprise to the public."
+    },
+    "pitfalls": {
+      "vi": "Rút tiền ồ ạt bất thường có thể bị ngân hàng/chính phủ để ý; luật sau đó (Lei 8.024) áp dụng hồi tố cho mọi số dư tại thời điểm công bố, không chỉ tài khoản mới.",
+      "en": "Unusually large withdrawals could draw bank/government attention; the resulting law (Lei 8.024) applied retroactively to balances as of the announcement, not just new deposits."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Plano Collor I (3/1990) đã làm gì với tiền gửi ngân hàng?",
+        "en": "What did the Collor Plan I (March 1990) do to bank deposits?"
+      },
+      "choices": [
+        {
+          "vi": "Tăng gấp đôi lãi suất tiết kiệm",
+          "en": "Doubled the interest rate on savings"
+        },
+        {
+          "vi": "Phong tỏa khoảng 80% tiền gửi trong 18 tháng với lãi suất do nhà nước ấn định",
+          "en": "Froze roughly 80% of deposits for 18 months at a government-set rate"
+        },
+        {
+          "vi": "Chuyển toàn bộ tiền gửi sang vàng",
+          "en": "Converted all deposits into gold"
+        },
+        {
+          "vi": "Miễn thuế cho tiền gửi tiết kiệm",
+          "en": "Exempted savings deposits from tax"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Khoảng 80% tiền gửi bị giữ lại tại Ngân hàng Trung ương, chỉ trả dần sau 18 tháng với lãi suất 6%/năm thấp hơn lạm phát thực tế.",
+        "en": "About 80% of deposits were impounded at the central bank, released only after 18 months at a 6% annual rate that lagged real inflation."
+      }
+    },
+    "sources": [
+      {
+        "title": "Brazil's Frozen Bank Deposits and the Birth of the Real",
+        "url": "https://forgottenfortunes.net/brazil-plano-collor-plano-real/"
+      },
+      {
+        "title": "The Monetary and Fiscal History of Brazil, 1960-2016 (NBER)",
+        "url": "https://www.nber.org/system/files/working_papers/w25421/w25421.pdf"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed date (March 16 1990), ~80% deposit freeze, Cr$50,000/~US$1,200 threshold, 6% annual return, via NBER paper and forgottenfortunes.net analysis."
+  },
+  {
+    "id": "br-plano-real-1994",
+    "country": "br",
+    "date": "1994-07-01",
+    "category": "macro",
+    "title": {
+      "vi": "Plano Real chấm dứt siêu lạm phát",
+      "en": "Plano Real ends hyperinflation"
+    },
+    "summary": {
+      "vi": "Đồng real ra đời ngày 1/7/1994, chặn đứng siêu lạm phát và mở ra thập kỷ tăng trưởng cổ phiếu Brazil.",
+      "en": "The real currency launched July 1, 1994, halted hyperinflation and kick-started a decade of Brazilian equity gains."
+    },
+    "description": {
+      "vi": "Ngày 1/7/1994, Brazil phát hành đồng real (R$) sau giai đoạn chuyển đổi qua đơn vị URV. Lạm phát IPCA hàng năm giảm từ 4.922% (6/1994) xuống 916% (12/1994), rồi về một chữ số vài năm sau. Đây là lần thứ 7 đổi tiền tệ nhưng là lần đầu thành công bền vững, tạo nền tảng cho dòng vốn ngoại đổ vào thị trường chứng khoán Brazil suốt những năm 1990-2000.",
+      "en": "On July 1, 1994 Brazil introduced the real (R$) after a transition period via the URV accounting unit. Annual IPCA inflation fell from 4,922% (June 1994) to 916% (Dec 1994), and to single digits within a few years. It was the country's seventh currency in a decade but the first lasting stabilization success, setting the stage for foreign capital to flow into Brazilian equities through the late 1990s and 2000s."
+    },
+    "opportunity": {
+      "asset": "Ibovespa index / Brazilian blue-chip stocks (Telebras, banks)",
+      "action": {
+        "vi": "Mua cổ phiếu Brazil và trái phiếu real-denominated ngay sau khi Plano Real ổn định",
+        "en": "Buy Brazilian stocks and real-denominated bonds right after Plano Real stabilized"
+      },
+      "buyWhen": {
+        "vi": "Giữa/cuối 1994 sau khi lạm phát hạ nhiệt rõ rệt",
+        "en": "Mid-to-late 1994 once inflation had clearly cooled"
+      },
+      "sellWhen": {
+        "vi": "Trước khủng hoảng tỷ giá tháng 1/1999 khi real bị phá giá 35%",
+        "en": "Before the January 1999 currency crisis when the real was devalued 35%"
+      },
+      "estimatedReturn": {
+        "vi": "Hưởng lợi từ ổn định vĩ mô và dòng vốn ngoại đổ vào trong nhiều năm",
+        "en": "Benefited from years of macro stability and foreign capital inflows"
+      },
+      "risk": "medium",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết chắc Plano Real sẽ thành công (khác các kế hoạch thất bại trước đó: Cruzado, Collor) giúp nhà đầu tư tự tin giữ tài sản bằng real và cổ phiếu ngay từ 7/1994 thay vì chờ đợi hoài nghi như người đương thời.",
+      "en": "Knowing Plano Real would succeed — unlike the earlier failed Cruzado and Collor plans — lets an investor confidently hold real-denominated assets and stocks from July 1994 instead of waiting skeptically like contemporaries did."
+    },
+    "pitfalls": {
+      "vi": "Đồng real bị neo giá trị cao so với USD trong vài năm đầu, tạo ra mất cân đối cán cân vãng lai dẫn tới khủng hoảng phá giá 1999.",
+      "en": "The real was pegged at an overvalued rate against the dollar for several years, building current-account imbalances that triggered the 1999 devaluation crisis."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Đồng real của Brazil chính thức lưu hành từ ngày nào?",
+        "en": "When did the Brazilian real officially come into circulation?"
+      },
+      "choices": [
+        {
+          "vi": "28/2/1986",
+          "en": "February 28, 1986"
+        },
+        {
+          "vi": "1/7/1994",
+          "en": "July 1, 1994"
+        },
+        {
+          "vi": "15/1/1999",
+          "en": "January 15, 1999"
+        },
+        {
+          "vi": "16/3/1990",
+          "en": "March 16, 1990"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Ngân hàng Trung ương Brazil xác nhận đồng real được đưa vào lưu hành ngày 1/7/1994, chấm dứt chuỗi siêu lạm phát kéo dài từ giữa thập niên 1980.",
+        "en": "Banco Central do Brasil confirms the real entered circulation on July 1, 1994, ending the hyperinflation spiral that had run since the mid-1980s."
+      }
+    },
+    "sources": [
+      {
+        "title": "The Real Plan - Banco Central do Brasil",
+        "url": "https://www.bcb.gov.br/en/monetarypolicy/realplan"
+      },
+      {
+        "title": "Hyperinflation in Brazil - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Hyperinflation_in_Brazil"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed launch date July 1 1994 and inflation figures (4,922% to 916% IPCA) directly from Banco Central do Brasil official page."
+  },
+  {
+    "id": "br-vale-privatizacao-1997",
+    "country": "br",
+    "date": "1997-05-06",
+    "category": "stocks",
+    "title": {
+      "vi": "Tư nhân hóa Vale (CVRD) 1997",
+      "en": "Vale (CVRD) privatization 1997"
+    },
+    "summary": {
+      "vi": "Chính phủ bán 41,73% Vale do Rio Doce với giá 3,13 tỷ USD, mở đường cho một trong những cổ phiếu khai khoáng lớn nhất thế giới.",
+      "en": "The government sold a 41.73% stake in Vale do Rio Doce for $3.13 billion, launching what became one of the world's biggest mining stocks."
+    },
+    "description": {
+      "vi": "Ngày 6-7/5/1997, chính phủ Brazil đấu giá 41,73% cổ phần biểu quyết của Companhia Vale do Rio Doce (CVRD) cho nhóm do Companhia Siderúrgica Nacional dẫn đầu với giá 3,34 tỷ real (~3,13 tỷ USD), cao hơn 20% giá sàn. Đây là vụ tư nhân hóa tài sản nhà nước lớn nhất Mỹ Latinh thời điểm đó. Vale sau này trở thành nhà xuất khẩu quặng sắt lớn nhất thế giới và hưởng lợi khổng lồ từ siêu chu kỳ hàng hóa 2003-2011.",
+      "en": "On May 6-7, 1997 Brazil's government auctioned a 41.73% voting stake in Companhia Vale do Rio Doce (CVRD) to a consortium led by Companhia Siderúrgica Nacional for R$3.34 billion (~US$3.13 billion), a 20% premium over the floor price — the largest state-asset privatization in Latin America at the time. Vale went on to become the world's largest iron-ore exporter and a massive beneficiary of the 2003-2011 commodities supercycle."
+    },
+    "opportunity": {
+      "asset": "Vale (VALE3/RIO on NYSE)",
+      "action": {
+        "vi": "Mua cổ phiếu Vale ngay sau đợt IPO/tư nhân hóa và giữ dài hạn qua siêu chu kỳ hàng hóa",
+        "en": "Buy Vale shares right after the privatization/IPO and hold through the commodities supercycle"
+      },
+      "buyWhen": {
+        "vi": "Giữa 1997, ngay sau phiên đấu giá tư nhân hóa",
+        "en": "Mid-1997, right after the privatization auction"
+      },
+      "sellWhen": {
+        "vi": "Gần đỉnh chu kỳ hàng hóa 2008 hoặc 2011, tránh thảm họa đập Mariana (2015) và Brumadinho (2019)",
+        "en": "Near the 2008 or 2011 commodity-cycle peak, avoiding the Mariana (2015) and Brumadinho (2019) dam disasters"
+      },
+      "estimatedReturn": {
+        "vi": "Tăng trưởng nhiều lần nhờ giá quặng sắt tăng từ ~30 USD/tấn (2003) lên ~180 USD/tấn (2011)",
+        "en": "Multi-bagger gains as iron-ore prices rose from ~$30/ton (2003) to ~$180/ton (2011)"
+      },
+      "priceCurrency": "USD",
+      "risk": "medium",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết trước nhu cầu quặng sắt từ Trung Quốc sẽ bùng nổ sau 2002, nhà đầu tư nên tích lũy Vale ngay từ đợt tư nhân hóa 1997 thay vì đợi đến khi câu chuyện tăng trưởng rõ ràng vào giữa thập niên 2000.",
+      "en": "Knowing Chinese iron-ore demand would explode after 2002, an investor should accumulate Vale right from the 1997 privatization rather than waiting until the growth story became obvious by the mid-2000s."
+    },
+    "pitfalls": {
+      "vi": "Vale cũng gánh rủi ro thảm họa môi trường nghiêm trọng (vỡ đập Mariana 2015, Brumadinho 2019) khiến cổ phiếu sụp giảm mạnh — cần biết trước để thoát ra kịp thời.",
+      "en": "Vale also carries severe environmental-disaster risk (the Mariana 2015 and Brumadinho 2019 dam failures) that crashed the stock — an investor needs foreknowledge to exit in time."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Chính phủ Brazil tư nhân hóa Vale do Rio Doce (CVRD) với giá bao nhiêu năm 1997?",
+        "en": "For how much did Brazil's government privatize Vale do Rio Doce (CVRD) in 1997?"
+      },
+      "choices": [
+        {
+          "vi": "19 tỷ USD",
+          "en": "$19 billion"
+        },
+        {
+          "vi": "70 tỷ USD",
+          "en": "$70 billion"
+        },
+        {
+          "vi": "3,13 tỷ USD",
+          "en": "$3.13 billion"
+        },
+        {
+          "vi": "11,5 tỷ USD",
+          "en": "$11.5 billion"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "Nhóm do CSN dẫn đầu thắng đấu giá 41,73% cổ phần biểu quyết CVRD với 3,34 tỷ real (~3,13 tỷ USD), cao hơn 20% giá sàn, theo Los Angeles Times và SEC filing.",
+        "en": "The CSN-led consortium won the auction for a 41.73% voting stake in CVRD for R$3.34 billion (~$3.13 billion), a 20% premium to the floor price, per the Los Angeles Times and an SEC filing."
+      }
+    },
+    "sources": [
+      {
+        "title": "Brazil Auctions Off Stake in Iron Ore Miner for $3.13 Billion - LA Times",
+        "url": "https://www.latimes.com/archives/la-xpm-1997-05-07-fi-56214-story.html"
+      },
+      {
+        "title": "Vale S.A. - Wikipedia",
+        "url": "https://en.wikipedia.org/?title=Ferrovia_Centro_Atl%C3%A2ntica"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed auction date (May 6-7 1997), $3.13bn/R$3.34bn price, 41.73% stake, 20% premium via LA Times and Vale/SEC filing sources."
+  },
+  {
+    "id": "br-telebras-privatizacao-1998",
+    "country": "br",
+    "date": "1998-07-29",
+    "category": "business",
+    "title": {
+      "vi": "Tư nhân hóa Telebras 1998",
+      "en": "Telebrás privatization 1998"
+    },
+    "summary": {
+      "vi": "Telebras bị chia thành 12 công ty 'Baby Bras' và bán với giá 19 tỷ USD, cao hơn 64% giá sàn.",
+      "en": "Telebrás was split into 12 'Baby Bras' companies and sold for $19 billion, 64% above the floor price."
+    },
+    "description": {
+      "vi": "Ngày 29/7/1998, Brazil bán cổ phần nhà nước trong 12 công ty con được tách ra từ tập đoàn viễn thông độc quyền Telebras (3 công ty điện thoại cố định vùng, 8 công ty di động, 1 công ty đường dài Embratel) với tổng giá trị hơn 19 tỷ USD, cao hơn 64% mức giá sàn 11,5 tỷ USD. Cổ phiếu 'Baby Bras' bắt đầu giao dịch tại Brazil từ 21/9/1998 và ADR tại Mỹ từ 16/11/1998.",
+      "en": "On July 29, 1998, Brazil sold its stake in the 12 new companies spun off from the state telecom monopoly Telebrás (three regional fixed-line carriers, eight cellular operators, and long-distance carrier Embratel) for more than $19 billion — 64% above the $11.5 billion floor price. The 'Baby Bras' shares began trading in Brazil on Sept 21, 1998, with US-listed ADRs starting Nov 16, 1998."
+    },
+    "opportunity": {
+      "asset": "Baby Telebras shares (Embratel, Telesp, Tele Centro Sul, etc.)",
+      "action": {
+        "vi": "Mua cổ phần Baby Telebras ngay khi niêm yết, đặt cược vào bùng nổ viễn thông di động Brazil",
+        "en": "Buy the Baby Telebras shares right at listing, betting on Brazil's coming mobile-telecom boom"
+      },
+      "buyWhen": {
+        "vi": "Tháng 9-11/1998 khi cổ phiếu mới niêm yết",
+        "en": "September-November 1998 at the fresh listings"
+      },
+      "sellWhen": {
+        "vi": "Giữa thập niên 2000 khi hợp nhất ngành viễn thông diễn ra mạnh",
+        "en": "Mid-2000s as telecom-sector consolidation accelerated"
+      },
+      "estimatedReturn": {
+        "vi": "Hưởng lợi từ bùng nổ thuê bao di động Brazil tăng hàng chục lần sau 1998",
+        "en": "Benefited from Brazilian mobile subscriptions multiplying many times over after 1998"
+      },
+      "risk": "medium",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết trước ngành di động Brazil sẽ bùng nổ gấp hàng chục lần trong thập niên tiếp theo giúp chọn đúng các công ty di động 'Baby Bras' thay vì các công ty cố định tăng trưởng chậm hơn.",
+      "en": "Knowing Brazil's mobile sector would grow many times over in the following decade helps pick the right cellular 'Baby Bras' companies over the slower-growing fixed-line units."
+    },
+    "pitfalls": {
+      "vi": "Cấu trúc 12 công ty riêng biệt phức tạp, một số công ty di động sau đó gặp khó khăn tài chính và bị sáp nhập hoặc tái cấu trúc.",
+      "en": "The 12-company structure was complex, and some cellular units later ran into financial trouble and were merged or restructured."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Tư nhân hóa Telebras 29/7/1998 thu về bao nhiêu, so với giá sàn?",
+        "en": "How much did the July 29, 1998 Telebrás privatization raise, versus the floor price?"
+      },
+      "choices": [
+        {
+          "vi": "19 tỷ USD, cao hơn 64% giá sàn",
+          "en": "$19 billion, 64% above the floor price"
+        },
+        {
+          "vi": "70 tỷ USD, cao hơn 10% giá sàn",
+          "en": "$70 billion, 10% above the floor price"
+        },
+        {
+          "vi": "3 tỷ USD, đúng bằng giá sàn",
+          "en": "$3 billion, exactly at the floor price"
+        },
+        {
+          "vi": "50 tỷ USD, thấp hơn giá sàn",
+          "en": "$50 billion, below the floor price"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "Theo NotiSur và Wired, đợt bán thu về hơn 19 tỷ USD, vượt 64% mức giá sàn 11,5 tỷ USD.",
+        "en": "Per NotiSur and Wired, the sale raised more than $19 billion, 64% above the $11.5 billion floor price."
+      }
+    },
+    "sources": [
+      {
+        "title": "Telebrás - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Telebr%C3%A1s"
+      },
+      {
+        "title": "Brazil Sells Telecommunications Giant Telebras - NotiSur",
+        "url": "https://digitalrepository.unm.edu/cgi/viewcontent.cgi?article=13534&context=notisur"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed auction date (July 29 1998), $19bn+ raised (64% above $11.5bn floor), listing dates via Wikipedia and NotiSur/Wired sources."
+  },
+  {
+    "id": "br-crise-cambial-1999",
+    "country": "br",
+    "date": "1999-01-15",
+    "category": "macro",
+    "title": {
+      "vi": "Khủng hoảng tỷ giá real tháng 1/1999",
+      "en": "The real's January 1999 currency crisis"
+    },
+    "summary": {
+      "vi": "Brazil thả nổi đồng real, giá rớt từ 1,21 xuống hơn 2,00 real/USD chỉ trong vài tuần.",
+      "en": "Brazil floated the real and it plunged from 1.21 to over 2.00 per dollar within weeks."
+    },
+    "description": {
+      "vi": "Sau khủng hoảng Nga 8/1998 khiến dòng vốn vào Brazil ngừng chảy, Ngân hàng Trung ương phá giá 8% ngày 13/1/1999 rồi buộc phải thả nổi hoàn toàn đồng real ngày 15/1/1999. Tỷ giá lao từ 1,21 real/USD đầu tháng 1 lên đỉnh khoảng 2,16-2,20 real/USD vào tháng 2-3/1999 — mất giá hơn 40%. Trái với lo ngại, lạm phát và suy thoái không bùng phát nghiêm trọng như Mexico 1994 hay châu Á 1997.",
+      "en": "After the August 1998 Russian crisis cut off capital flows to Brazil, the central bank devalued the real 8% on Jan 13, 1999, then was forced to fully float it on Jan 15, 1999. The exchange rate plunged from about R$1.21/USD in early January to a peak near R$2.16-2.20/USD by Feb-March 1999 — a devaluation of more than 40%. Contrary to fears, inflation and recession did not spiral as badly as in Mexico 1994 or Asia 1997."
+    },
+    "opportunity": {
+      "asset": "USD cash / Brazilian exporters (Ibovespa), short BRL",
+      "action": {
+        "vi": "Chuyển tài sản sang USD trước phá giá, sau đó mua cổ phiếu xuất khẩu Brazil hưởng lợi từ real yếu",
+        "en": "Move assets into USD before the devaluation, then buy Brazilian exporter stocks that benefit from a weak real"
+      },
+      "buyWhen": {
+        "vi": "Tháng 12/1998, trước khi áp lực dự trữ ngoại hối trở nên không thể cứu vãn",
+        "en": "December 1998, before reserve pressure became unsustainable"
+      },
+      "sellWhen": {
+        "vi": "Chốt lãi USD quanh đỉnh phá giá tháng 2-3/1999, sau đó chuyển sang cổ phiếu Bovespa đang phục hồi",
+        "en": "Lock in USD gains around the Feb-March 1999 devaluation peak, then rotate into the recovering Bovespa"
+      },
+      "estimatedReturn": {
+        "vi": "Lãi hơn 40% chỉ bằng việc giữ USD thay vì real trong hai tháng",
+        "en": "Over 40% gain simply from holding USD instead of real for two months"
+      },
+      "entryPrice": 1.21,
+      "exitPrice": 2.16,
+      "priceCurrency": "BRL",
+      "exitDate": "1999-03",
+      "returnMultiple": 1.79,
+      "risk": "medium",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết chính xác ngày 15/1/1999 đồng real sẽ được thả nổi cho phép chuyển tài sản sang USD vài tuần trước đó và tránh bị cuốn vào nỗ lực bảo vệ tỷ giá thất bại của chính phủ.",
+      "en": "Knowing the exact float date of Jan 15 1999 lets an investor move assets into USD weeks ahead, sidestepping the government's failed last-ditch defense of the peg."
+    },
+    "pitfalls": {
+      "vi": "Ngay sau phá giá thị trường chứng khoán Bovespa thực ra tăng mạnh (tăng 33,4% một phiên) do kỳ vọng chính sách mới, nên giữ toàn bộ bằng USD có thể bỏ lỡ đà phục hồi cổ phiếu.",
+      "en": "Right after the devaluation the Bovespa actually jumped (up 33.4% in a single session) on hopes for new policy, so staying 100% in USD could miss the equity rebound."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Đồng real mất giá khoảng bao nhiêu phần trăm so với USD từ đầu tháng 1 đến tháng 3/1999?",
+        "en": "Roughly how much did the real devalue against the dollar from early January to March 1999?"
+      },
+      "choices": [
+        {
+          "vi": "Khoảng 5%",
+          "en": "About 5%"
+        },
+        {
+          "vi": "Hơn 40%",
+          "en": "More than 40%"
+        },
+        {
+          "vi": "Khoảng 100%",
+          "en": "About 100%"
+        },
+        {
+          "vi": "Không đổi",
+          "en": "It stayed unchanged"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Tỷ giá đi từ 1,21 real/USD lên khoảng 2,16 real/USD vào đầu tháng 3/1999, tương đương mất giá hơn 40%.",
+        "en": "The rate moved from R$1.21/USD to about R$2.16/USD by early March 1999, a devaluation of more than 40%."
+      }
+    },
+    "sources": [
+      {
+        "title": "Brazil Cuts Its Currency's Ties to the Dollar - NYT",
+        "url": "https://www.nytimes.com/library/world/americas/011999brazil-econ.html"
+      },
+      {
+        "title": "Brazilian crisis of 1998-1999 - BNDES working paper",
+        "url": "https://web.bndes.gov.br/bib/jspui/bitstream/1408/13948/1/TD%2077%20-%20Brazilian%20crisis%20of%201998-1999%20%5B...%5D_P_BD.PDF"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed float date (Jan 15 1999), exchange rate path from R$1.21 to ~R$2.16/USD via NYT and BNDES working paper."
+  },
+  {
+    "id": "br-weg-compounder-longo-han",
+    "country": "br",
+    "date": "2000",
+    "category": "stocks",
+    "title": {
+      "vi": "WEG — cỗ máy lãi kép thầm lặng của Brazil",
+      "en": "WEG — Brazil's quiet long-term compounder"
+    },
+    "summary": {
+      "vi": "Cổ phiếu nhà sản xuất động cơ điện WEG tăng khoảng 24.000% từ khi niêm yết năm 2000 đến 2020.",
+      "en": "Shares of electric-motor maker WEG rose roughly 24,000% from its 2000 listing to 2020."
+    },
+    "description": {
+      "vi": "WEG (WEGE3), nhà sản xuất động cơ điện, máy biến áp và thiết bị công nghiệp có trụ sở tại Santa Catarina, là một trong những cổ phiếu tăng trưởng ổn định nhất của Bovespa suốt hai thập kỷ, nhờ mở rộng xuất khẩu toàn cầu và quản trị kỷ luật. Theo dữ liệu ngành, giá cổ phiếu WEG đi từ khoảng 0,10 real khi mới niêm yết năm 2000 lên khoảng 24,27 real năm 2020 — tương đương mức tăng khoảng 24.000% (242 lần) trong 20 năm, vượt xa mức tăng của Ibovespa cùng kỳ.",
+      "en": "WEG (WEGE3), a maker of electric motors, transformers and industrial equipment based in Santa Catarina, has been one of the Bovespa's steadiest long-term compounders across two decades, driven by expanding global exports and disciplined management. Per industry data, WEG's share price moved from about R$0.10 at its 2000 listing to about R$24.27 in 2020 — roughly a 24,000% (242x) gain over 20 years, vastly outpacing the Ibovespa over the same period."
+    },
+    "opportunity": {
+      "asset": "WEG S.A. (WEGE3)",
+      "action": {
+        "vi": "Mua và nắm giữ dài hạn cổ phiếu WEG xuyên suốt hai thập kỷ, bỏ qua biến động ngắn hạn",
+        "en": "Buy and hold WEG shares long-term across two decades, ignoring short-term volatility"
+      },
+      "buyWhen": {
+        "vi": "Năm 2000, ngay sau khi niêm yết trên Bovespa",
+        "en": "The year 2000, right after its Bovespa listing"
+      },
+      "sellWhen": {
+        "vi": "Không cần bán — đây là chiến lược mua-và-giữ xuyên suốt nhiều chu kỳ kinh tế",
+        "en": "No need to sell — this is a buy-and-hold strategy across multiple economic cycles"
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng 242 lần (24.000%) từ 2000 đến 2020 theo dữ liệu được trích dẫn từ Money Times",
+        "en": "Roughly 242x (24,000%) from 2000 to 2020 per data cited by Money Times"
+      },
+      "entryPrice": 0.1,
+      "exitPrice": 24.27,
+      "priceCurrency": "BRL",
+      "exitDate": "2020",
+      "returnMultiple": 242.7,
+      "risk": "low",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Biết trước WEG sẽ là một trong số ít công ty Brazil duy trì tăng trưởng và quản trị kỷ luật suốt hàng chục năm bất kể khủng hoảng chính trị/kinh tế giúp nhà đầu tư kiên nhẫn giữ cổ phiếu này thay vì giao dịch ra vào theo tin tức vĩ mô.",
+      "en": "Knowing WEG would remain one of the few Brazilian companies with disciplined, consistent growth for decades regardless of political/economic crises lets an investor patiently hold rather than trading in and out on macro headlines."
+    },
+    "pitfalls": {
+      "vi": "Dữ liệu giá lịch sử có thể đã được điều chỉnh theo các đợt chia tách cổ phiếu (bonificação) qua nhiều năm; nhà đầu tư cần xác minh cơ sở điều chỉnh chính xác khi tái tạo lợi nhuận thực tế.",
+      "en": "Historical price data may reflect adjustments for multiple stock splits (bonificações) over the years; an investor should verify the exact adjusted basis when reconstructing actual realized returns."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Cổ phiếu WEG tăng khoảng bao nhiêu lần từ khi niêm yết năm 2000 đến năm 2020?",
+        "en": "Roughly how many times did WEG shares rise from its 2000 listing to 2020?"
+      },
+      "choices": [
+        {
+          "vi": "Khoảng 2 lần",
+          "en": "About 2x"
+        },
+        {
+          "vi": "Khoảng 10 lần",
+          "en": "About 10x"
+        },
+        {
+          "vi": "Khoảng 242 lần (24.000%)",
+          "en": "About 242x (24,000%)"
+        },
+        {
+          "vi": "Giảm giá trị",
+          "en": "It lost value"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "Theo dữ liệu được Money Times trích dẫn, giá WEG đi từ 0,10 real (2000) lên 24,27 real (2020), tương đương tăng khoảng 24.000%.",
+        "en": "Per data cited by Money Times, WEG's price moved from R$0.10 (2000) to R$24.27 (2020), a roughly 24,000% gain."
+      }
+    },
+    "sources": [
+      {
+        "title": "Esqueça MGLU3 e WEGE3 - Money Times",
+        "url": "https://www.moneytimes.com.br/conteudo-de-marca/esqueca-mglu3-wege3-acao-pode-valorizar-10-vezes-mais-que-o-ibovespa-lbrdlc468/"
+      },
+      {
+        "title": "WEGE3 - Rentabilidade histórica - Mais Retorno",
+        "url": "https://maisretorno.com/acoes/wege3"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "R$0.10 (2000) to R$24.27 (2020) price figures sourced from a Money Times financial content article; cross-referenced against Mais Retorno's cumulative historical-return table, which shows large multi-thousand-percent cumulative gains consistent with the claim. Exact split-adjustment basis not independently reconstructed."
+  },
+  {
+    "id": "br-lula-2002-pavor-thi-truong",
+    "country": "br",
+    "date": "2002-10-27",
+    "category": "macro",
+    "title": {
+      "vi": "Nỗi sợ Lula 2002 — cơ hội mua lớn nhất lịch sử",
+      "en": "The 2002 'Lula risk' panic — history's great buying opportunity"
+    },
+    "summary": {
+      "vi": "Thị trường hoảng loạn trước khả năng Lula thắng cử; Ibovespa rơi xuống 8.863 điểm rồi tăng 1.500% bằng USD trong 5 năm.",
+      "en": "Markets panicked over a possible Lula win; the Ibovespa bottomed near 8,863 points then rallied roughly 1,500% in dollar terms over five years."
+    },
+    "description": {
+      "vi": "Trước thềm vòng 1 bầu cử tổng thống 2002, nhà đầu tư lo sợ ứng viên cánh tả Luiz Inácio Lula da Silva sẽ vỡ nợ hoặc đảo ngược cải cách thị trường. Chỉ số rủi ro Brazil (JP Morgan) vọt lên khoảng 2.400 điểm cơ bản, đồng real mất giá từ 2,38 (1/2002) xuống 3,81 real/USD (10/2002), Ibovespa rơi xuống 8.863,18 điểm ngày 7/10/2002. Sau khi đắc cử, Lula ký 'Thư gửi người dân Brazil' cam kết giữ kỷ luật tài khóa, trấn an thị trường; Ibovespa sau đó bước vào một trong những đợt tăng giá ấn tượng nhất lịch sử tài sản mới nổi.",
+      "en": "Ahead of the 2002 first-round presidential vote, investors feared leftist candidate Luiz Inácio Lula da Silva would default or reverse market reforms. JP Morgan's Brazil risk index spiked to about 2,400 basis points, the real slid from 2.38 (Jan 2002) to 3.81 per dollar (Oct 2002), and the Ibovespa bottomed at 8,863.18 on Oct 7, 2002. After winning, Lula signed the 'Letter to the Brazilian People' pledging fiscal discipline, calming markets; the Ibovespa then entered one of the most dramatic emerging-market rallies on record."
+    },
+    "opportunity": {
+      "asset": "Ibovespa index",
+      "action": {
+        "vi": "Mua mạnh cổ phiếu Brazil khi hoảng loạn đạt đỉnh trước/ngay sau bầu cử, bỏ qua nỗi sợ 'rủi ro Lula'",
+        "en": "Buy Brazilian equities aggressively at peak panic before/right after the election, ignoring the 'Lula risk' fear"
+      },
+      "buyWhen": {
+        "vi": "Tháng 9-10/2002 khi chỉ số rủi ro Brazil đạt đỉnh ~2.400 điểm cơ bản",
+        "en": "September-October 2002 when Brazil risk peaked near 2,400 basis points"
+      },
+      "sellWhen": {
+        "vi": "Trước khủng hoảng tài chính toàn cầu cuối 2008",
+        "en": "Before the global financial crisis hit in late 2008"
+      },
+      "estimatedReturn": {
+        "vi": "Ibovespa tăng khoảng 1.500% tính bằng USD trong 5 năm sau đó theo ước tính Bloomberg",
+        "en": "Ibovespa gained roughly 1,500% in dollar terms over the following five years, per a Bloomberg estimate"
+      },
+      "entryPrice": 8863.18,
+      "exitPrice": 65790.81,
+      "priceCurrency": "points",
+      "exitDate": "2007-12",
+      "returnMultiple": 7.42,
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết trước Lula sẽ cai trị theo đường lối thực dụng, giữ ổn định vĩ mô thay vì cấp tiến như thị trường lo sợ, cho phép mua đáy đúng lúc hoảng loạn tột độ tháng 10/2002.",
+      "en": "Knowing Lula would govern pragmatically and preserve macro stability rather than the radical path markets feared lets an investor buy exactly at peak panic in October 2002."
+    },
+    "pitfalls": {
+      "vi": "Rủi ro chính trị luôn tồn tại thực sự trong thời điểm đó — không có gì đảm bảo Lula sẽ ôn hòa; nhà đầu tư đương thời không có cách nào chắc chắn ngoài suy đoán.",
+      "en": "The political risk was genuinely real at the time — nothing guaranteed Lula would be moderate; contemporaries had no way to be certain, only speculation."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Ibovespa chạm đáy khoảng bao nhiêu điểm trong cơn hoảng loạn bầu cử 2002?",
+        "en": "Around what level did the Ibovespa bottom during the 2002 election panic?"
+      },
+      "choices": [
+        {
+          "vi": "8.863 điểm",
+          "en": "8,863 points"
+        },
+        {
+          "vi": "65.790 điểm",
+          "en": "65,790 points"
+        },
+        {
+          "vi": "22.236 điểm",
+          "en": "22,236 points"
+        },
+        {
+          "vi": "73.516 điểm",
+          "en": "73,516 points"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "Theo Los Angeles Times, Ibovespa đóng cửa ở 8.863,18 điểm ngày 7/10/2002 ngay sau vòng 1 bầu cử khi Lula dẫn đầu.",
+        "en": "Per the Los Angeles Times, the Ibovespa closed at 8,863.18 on Oct 7, 2002, right after the first round in which Lula led."
+      }
+    },
+    "sources": [
+      {
+        "title": "Brazilian Markets Reel on Leftist's Win - LA Times",
+        "url": "https://www.latimes.com/archives/la-xpm-2002-oct-08-fi-brazil8-story.html"
+      },
+      {
+        "title": "No More Alle-Lulas for Brazil's Investor Class - Bloomberg Opinion",
+        "url": "https://www.bloomberg.com/opinion/articles/2026-11-06/no-more-alle-lulas-for-brazil-s-investor-class"
+      },
+      {
+        "title": "Índice Bovespa annual returns - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/%C3%8Dndice_Bovespa"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Bovespa Oct 7 2002 close (8,863.18) confirmed by LA Times; 2007 close (65,790.81) confirmed by Wikipedia Ibovespa table; ~1,500% USD-return claim is from a Bloomberg opinion piece, included as a cited estimate not independently recomputed."
+  },
+  {
+    "id": "br-ibovespa-tang-truong-2003-2008",
+    "country": "br",
+    "date": "2002-12",
+    "category": "stocks",
+    "title": {
+      "vi": "Ibovespa bùng nổ rồi sụp đổ 2003-2008",
+      "en": "Ibovespa's boom and 2008 bust"
+    },
+    "summary": {
+      "vi": "Ibovespa tăng từ 11.268 lên đỉnh 73.516 điểm (5/2008) rồi rơi về 29.435 điểm chỉ 5 tháng sau.",
+      "en": "The Ibovespa surged from 11,268 to a peak of 73,516 (May 2008), then crashed to 29,435 just five months later."
+    },
+    "description": {
+      "vi": "Sau khi đóng cửa 2002 ở 11.268,47 điểm, Ibovespa tăng 97,3% trong năm 2003 lên 22.236 điểm nhờ ổn định vĩ mô và thanh khoản toàn cầu dồi dào. Đà tăng tiếp diễn tới đỉnh nội phiên 73.516,81 điểm ngày 20/5/2008 nhờ Brazil được nâng hạng đầu tư (investment grade). Khủng hoảng tài chính toàn cầu sau đó khiến chỉ số rơi tự do xuống đáy 29.435,11 điểm ngày 27/10/2008, mất 42,1% trong năm 2008 (55,5% tính bằng USD).",
+      "en": "After closing 2002 at 11,268.47, the Ibovespa jumped 97.3% in 2003 to 22,236 on macro stability and abundant global liquidity. The rally continued to an intraday peak of 73,516.81 on May 20, 2008, fueled by Brazil's investment-grade rating upgrade. The global financial crisis then sent the index into free fall to a low of 29,435.11 on Oct 27, 2008 — down 42.1% for the year (55.5% in dollar terms)."
+    },
+    "opportunity": {
+      "asset": "Ibovespa index",
+      "action": {
+        "vi": "Mua và giữ Ibovespa từ 2003 đến đầu 2008, sau đó bán trước khi khủng hoảng Lehman Brothers lan tới Brazil",
+        "en": "Buy and hold the Ibovespa from 2003 into early 2008, then sell before the Lehman Brothers crisis hit Brazil"
+      },
+      "buyWhen": {
+        "vi": "Cuối 2002/đầu 2003, ngay sau đáy hoảng loạn bầu cử",
+        "en": "Late 2002/early 2003, right after the election-panic bottom"
+      },
+      "sellWhen": {
+        "vi": "Tháng 5/2008 quanh đỉnh lịch sử 73.516 điểm, trước khủng hoảng tài chính toàn cầu",
+        "en": "May 2008 near the record 73,516 peak, before the global financial crisis"
+      },
+      "estimatedReturn": {
+        "vi": "Tăng khoảng 6,5 lần từ đáy 2002 đến đỉnh tháng 5/2008",
+        "en": "About a 6.5x gain from the 2002 bottom to the May 2008 peak"
+      },
+      "entryPrice": 11268.47,
+      "exitPrice": 73516.81,
+      "priceCurrency": "points",
+      "exitDate": "2008-05-20",
+      "returnMultiple": 6.52,
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết trước khủng hoảng tài chính toàn cầu sẽ bùng phát tháng 9/2008 cho phép chốt lời đúng đỉnh tháng 5/2008 thay vì chứng kiến chỉ số mất gần 60% giá trị USD chỉ trong vài tháng.",
+      "en": "Knowing the global financial crisis would erupt in September 2008 lets an investor cash out right at the May 2008 peak instead of watching the index lose nearly 60% of its dollar value within months."
+    },
+    "pitfalls": {
+      "vi": "Đỉnh tháng 5/2008 trông giống như sự khởi đầu của một siêu chu kỳ bền vững hơn — không nhà đầu tư đương thời nào biết khủng hoảng thế chấp dưới chuẩn Mỹ sẽ lan rộng toàn cầu chỉ vài tháng sau.",
+      "en": "The May 2008 peak looked like the start of an even more durable supercycle — no contemporary investor knew the US subprime crisis would go global just months later."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Ibovespa giảm bao nhiêu phần trăm tính bằng USD trong năm 2008?",
+        "en": "By how much did the Ibovespa fall in dollar terms during 2008?"
+      },
+      "choices": [
+        {
+          "vi": "Khoảng 10%",
+          "en": "About 10%"
+        },
+        {
+          "vi": "Khoảng 55,5%",
+          "en": "About 55.5%"
+        },
+        {
+          "vi": "Tăng 20%",
+          "en": "It rose 20%"
+        },
+        {
+          "vi": "Không đổi",
+          "en": "It was unchanged"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Theo báo cáo thường niên 2008 của Banco Central do Brasil, Ibovespa giảm 42,1% tính bằng real và 55,5% tính bằng USD trong năm 2008.",
+        "en": "Per Banco Central do Brasil's 2008 annual report, the Ibovespa fell 42.1% in reais and 55.5% in US dollars during 2008."
+      }
+    },
+    "sources": [
+      {
+        "title": "Índice Bovespa - Wikipedia (annual returns table)",
+        "url": "https://en.wikipedia.org/wiki/%C3%8Dndice_Bovespa"
+      },
+      {
+        "title": "B3 Yearly records (highs/lows)",
+        "url": "https://sistemaswebb3-listados.b3.com.br/indexStatisticsPage/records/IBOVESPA?language=en-us"
+      },
+      {
+        "title": "Banco Central do Brasil Annual Report 2008, Ch. 3",
+        "url": "https://www.bcb.gov.br/pec/boletim/ingles/banual2008/rel2008cap3i.pdf"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "2002 close (11,268.47), 2003 close (22,236), 2008 intraday peak (73,516.81 on May 20) and 2008 low (29,435.11 on Oct 27) confirmed via Wikipedia, B3 official records, and BCB annual report."
+  },
+  {
+    "id": "br-sieu-chu-ky-hang-hoa-2003-2011",
+    "country": "br",
+    "date": "2003",
+    "category": "commodities",
+    "title": {
+      "vi": "Siêu chu kỳ hàng hóa nhờ Trung Quốc 2003-2011",
+      "en": "China-driven commodities supercycle 2003-2011"
+    },
+    "summary": {
+      "vi": "Nhu cầu Trung Quốc đẩy giá quặng sắt Brazil từ 30 lên 180 USD/tấn và đậu nành từ 200 lên 650 USD/tấn.",
+      "en": "Chinese demand drove Brazilian iron ore from $30 to $180/ton and soybeans from $200 to $650/ton."
+    },
+    "description": {
+      "vi": "Từ 2002, nhu cầu nhập khẩu bùng nổ từ Trung Quốc đẩy giá quặng sắt, đậu nành, đường và cà phê Brazil tăng vọt suốt gần một thập kỷ. Giá quặng sắt tăng từ khoảng 30 USD/tấn (2003) lên khoảng 180 USD/tấn (2011); giá đậu nành tăng từ khoảng 200 USD/tấn (2003, dưới thời Lula) lên khoảng 650 USD/tấn (2012, dưới thời Dilma). Thặng dư thương mại Brazil mở rộng từ 2 tỷ USD lên 40 tỷ USD trong 6 năm, nhưng đồng real tăng giá mạnh gây 'bệnh Hà Lan' làm suy yếu ngành chế tạo.",
+      "en": "Starting in 2002, surging Chinese import demand drove Brazilian iron ore, soybean, sugar and coffee prices sharply higher for nearly a decade. Iron ore rose from about $30/ton (2003) to about $180/ton (2011); soybeans rose from about $200/ton (2003, under Lula) to about $650/ton (2012, under Dilma). Brazil's trade surplus widened from $2 billion to $40 billion over six years, though the sharply appreciating real caused 'Dutch disease' that hollowed out manufacturing."
+    },
+    "opportunity": {
+      "asset": "Vale (iron ore), agribusiness/soy exporters, Brazilian real",
+      "action": {
+        "vi": "Mua cổ phiếu khai khoáng/nông nghiệp xuất khẩu và giữ qua suốt chu kỳ Trung Quốc tăng trưởng nóng",
+        "en": "Buy mining and agribusiness exporter stocks and hold through China's hot-growth cycle"
+      },
+      "buyWhen": {
+        "vi": "2002-2003 khi chu kỳ mới bắt đầu, trước khi thị trường nhận ra quy mô cầu Trung Quốc",
+        "en": "2002-2003 as the cycle began, before markets grasped the scale of Chinese demand"
+      },
+      "sellWhen": {
+        "vi": "2011 khi tăng trưởng Trung Quốc bắt đầu chậm lại và siêu chu kỳ kết thúc",
+        "en": "2011 as Chinese growth began slowing and the supercycle ended"
+      },
+      "estimatedReturn": {
+        "vi": "Giá quặng sắt tăng khoảng 6 lần (30→180 USD/tấn); đậu nành tăng khoảng 3,25 lần (200→650 USD/tấn)",
+        "en": "Iron ore prices rose roughly 6x ($30→$180/ton); soybeans rose roughly 3.25x ($200→$650/ton)"
+      },
+      "entryPrice": 30,
+      "exitPrice": 180,
+      "priceCurrency": "USD",
+      "exitDate": "2011",
+      "returnMultiple": 6,
+      "risk": "medium",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết trước tốc độ công nghiệp hóa chưa từng có của Trung Quốc sẽ kéo dài gần một thập kỷ giúp nhà đầu tư giữ vị thế hàng hóa Brazil lâu hơn nhiều so với các chu kỳ hàng hóa thông thường trước đó.",
+      "en": "Knowing China's unprecedented industrialization pace would last nearly a decade lets an investor hold Brazilian commodity positions far longer than typical prior commodity cycles."
+    },
+    "pitfalls": {
+      "vi": "Đồng real tăng giá mạnh làm giảm lợi nhuận quy đổi và gây tổn hại ngành chế tạo nội địa; khi chu kỳ kết thúc 2011-2014, nợ công Brazil tăng mạnh từ 120% lên 160% GDP.",
+      "en": "The strongly appreciating real eroded converted profits and hurt domestic manufacturing; once the cycle ended in 2011-2014, Brazil's debt-to-GDP ballooned from 120% to 160%."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Giá quặng sắt Brazil tăng khoảng bao nhiêu lần từ 2003 đến đỉnh 2011?",
+        "en": "Roughly how many times did Brazilian iron ore prices rise from 2003 to the 2011 peak?"
+      },
+      "choices": [
+        {
+          "vi": "Khoảng 2 lần",
+          "en": "About 2x"
+        },
+        {
+          "vi": "Khoảng 6 lần (30→180 USD/tấn)",
+          "en": "About 6x ($30→$180/ton)"
+        },
+        {
+          "vi": "Khoảng 20 lần",
+          "en": "About 20x"
+        },
+        {
+          "vi": "Giá không đổi",
+          "en": "Prices stayed flat"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Giá quặng sắt đi từ khoảng 30 USD/tấn năm 2003 lên khoảng 180 USD/tấn năm 2011, theo phân tích được trích dẫn từ Leadership Latam / WEF.",
+        "en": "Iron ore moved from about $30/ton in 2003 to about $180/ton in 2011, per analysis cited from Leadership Latam / WEF sources."
+      }
+    },
+    "sources": [
+      {
+        "title": "How will China's next steps affect Brazil? - World Economic Forum",
+        "url": "https://www.weforum.org/stories/economic-growth/how-will-chinas-next-steps-affect-brazil"
+      },
+      {
+        "title": "Brazil's Dutch Disease is Morphing into Japanification",
+        "url": "https://www.theemergingmarketsinvestor.com/brazils-dutch-disease-is-morphing-into-japanification/"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Iron ore $30→$180/ton and soybean $200→$650/ton figures cross-checked against WEF and Emerging Markets Investor analyses of the 2002-2011 commodity supercycle."
+  },
+  {
+    "id": "br-ambev-interbrew-inbev-2004",
+    "country": "br",
+    "date": "2004-08-27",
+    "category": "business",
+    "title": {
+      "vi": "AmBev sáp nhập Interbrew lập nên InBev",
+      "en": "AmBev merges with Interbrew to form InBev"
+    },
+    "summary": {
+      "vi": "Jorge Paulo Lemann biến chuỗi mua bia Brazil thành hãng bia lớn nhất thế giới qua các vụ sáp nhập liên tiếp.",
+      "en": "Jorge Paulo Lemann turned a chain of Brazilian beer buyouts into the world's biggest brewer through a string of mergers."
+    },
+    "description": {
+      "vi": "Lemann cùng cộng sự (hãng 3G/GP Investimentos) mua Brahma năm 1989, hợp nhất với Antarctica năm 1999 tạo AmBev kiểm soát 65% thị trường bia Brazil. Ngày 27/8/2004, AmBev hoàn tất sáp nhập với Interbrew (Bỉ) trị giá khoảng 11 tỷ USD, lập ra InBev — hãng bia lớn nhất thế giới khi đó. Cổ phiếu InBev tăng 40% trong năm 2005. Năm 2008 InBev tiếp tục mua Anheuser-Busch (Mỹ) với giá 52 tỷ USD, tạo AB InBev, đưa Lemann thành một trong những 'ông vua bia' giàu nhất thế giới.",
+      "en": "Lemann and partners (via 3G/GP Investimentos) bought Brahma in 1989, merged it with Antarctica in 1999 to form AmBev, which controlled 65% of Brazil's beer market. On Aug 27, 2004, AmBev completed its roughly $11 billion merger with Belgium's Interbrew to create InBev, then the world's largest brewer by volume. InBev's stock rose 40% during 2005. In 2008 InBev went on to buy Anheuser-Busch (US) for $52 billion to form AB InBev, cementing Lemann as one of the world's wealthiest 'beer kings'."
+    },
+    "opportunity": {
+      "asset": "AmBev (ABEV3) / InBev / AB InBev shares",
+      "action": {
+        "vi": "Mua cổ phiếu AmBev/Brahma từ cuối thập niên 1980-1990 và giữ qua chuỗi sáp nhập quốc tế hóa",
+        "en": "Buy AmBev/Brahma shares from the late 1980s-1990s and hold through the internationalizing merger chain"
+      },
+      "buyWhen": {
+        "vi": "1989-1999 khi Lemann bắt đầu gom các hãng bia Brazil",
+        "en": "1989-1999 as Lemann began rolling up Brazilian breweries"
+      },
+      "sellWhen": {
+        "vi": "Giữ dài hạn qua sáp nhập Interbrew (2004) và Anheuser-Busch (2008)",
+        "en": "Hold long-term through the Interbrew (2004) and Anheuser-Busch (2008) mergers"
+      },
+      "estimatedReturn": {
+        "vi": "Cổ phiếu công ty hợp nhất tăng 40% chỉ riêng năm 2005 sau sáp nhập Interbrew",
+        "en": "The merged company's stock rose 40% in 2005 alone after the Interbrew merger"
+      },
+      "risk": "medium",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết trước chiến lược 'mua lại-cắt giảm chi phí-quốc tế hóa' của Lemann sẽ biến một chuỗi bia địa phương thành tập đoàn bia toàn cầu lớn nhất giúp nhà đầu tư giữ cổ phần Brahma/AmBev xuyên suốt ba thập kỷ sáp nhập.",
+      "en": "Knowing Lemann's 'buy-cut costs-internationalize' playbook would turn a local beer chain into the world's largest brewing group lets an investor hold Brahma/AmBev stock across three decades of mergers."
+    },
+    "pitfalls": {
+      "vi": "Cổ phiếu hợp nhất pha loãng nhiều lần qua các vòng phát hành cổ phiếu mới để tài trợ sáp nhập (như vụ Anheuser-Busch 2008), nên tỷ lệ sở hữu ban đầu bị giảm dần.",
+      "en": "The merged stock diluted repeatedly through new share issuances to fund mergers (e.g. the 2008 Anheuser-Busch deal), so an original ownership stake gradually shrank."
+    },
+    "quiz": {
+      "question": {
+        "vi": "AmBev hoàn tất sáp nhập với Interbrew tạo InBev vào ngày nào?",
+        "en": "On what date did AmBev complete its merger with Interbrew to form InBev?"
+      },
+      "choices": [
+        {
+          "vi": "27/8/2004",
+          "en": "August 27, 2004"
+        },
+        {
+          "vi": "1/7/1994",
+          "en": "July 1, 1994"
+        },
+        {
+          "vi": "3/11/2008",
+          "en": "November 3, 2008"
+        },
+        {
+          "vi": "16/11/2020",
+          "en": "November 16, 2020"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "Theo thông cáo báo chí chính thức của AB InBev, giao dịch Interbrew-AmBev hoàn tất tại Brussels ngày 27/8/2004.",
+        "en": "Per AB InBev's own press release, the Interbrew-AmBev transaction closed in Brussels on August 27, 2004."
+      }
+    },
+    "sources": [
+      {
+        "title": "Jorge Paulo Lemann - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Jorge_Paulo_Lemann"
+      },
+      {
+        "title": "Interbrew and AmBev complete combination to establish InBev - AB InBev press release",
+        "url": "https://www.ab-inbev.com/content/dam/universaltemplate/ab-inbev/news/press-releases/public/2004/8/139-ENGLISH.pdf"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed merger completion date (Aug 27 2004), InBev 2005 stock gain of 40%, and 2008 Anheuser-Busch $52bn deal via Wikipedia and AB InBev's own press release."
+  },
+  {
+    "id": "br-petrobras-pre-sal-2007",
+    "country": "br",
+    "date": "2007-11-08",
+    "category": "business",
+    "title": {
+      "vi": "Petrobras công bố mỏ dầu pre-salt Tupi 2007",
+      "en": "Petrobras announces the pre-salt Tupi discovery 2007"
+    },
+    "summary": {
+      "vi": "Phát hiện mỏ Tupi với 5-8 tỷ thùng dầu biến Brazil thành cường quốc dầu mỏ mới, đẩy cổ phiếu Petrobras tăng vọt.",
+      "en": "The Tupi field discovery of 5-8 billion barrels turned Brazil into an emerging oil power and sent Petrobras shares soaring."
+    },
+    "description": {
+      "vi": "Tháng 11/2007, Petrobras cùng đối tác BG Group (Anh) và Galp Energia (Bồ Đào Nha) công bố kết quả giếng thứ hai tại mỏ Tupi, bể Santos, ước tính trữ lượng 5-8 tỷ thùng dầu quy đổi — phát hiện lớn nhất châu Mỹ trong 3 thập kỷ, trong khi tổng trữ lượng Brazil trước đó chỉ khoảng 12 tỷ thùng. Mỏ nằm ở độ sâu nước hơn 2.000m và dưới lớp muối dày 5.000m, đòi hỏi công nghệ khoan cực kỳ phức tạp (một giếng thử tốn 240 triệu USD, khoan mất 1 năm).",
+      "en": "In November 2007, Petrobras and partners BG Group (UK) and Galp Energia (Portugal) announced results from the second well at the Tupi field in the Santos Basin, estimating recoverable reserves of 5-8 billion barrels of oil equivalent — the largest discovery in the Americas in three decades, versus Brazil's prior total reserves of only about 12 billion barrels. The field sits in water over 2,000 meters deep beneath a 5,000-meter salt layer, requiring extremely complex drilling technology (one test well cost $240 million and took a year to drill)."
+    },
+    "opportunity": {
+      "asset": "Petrobras (PETR3/PETR4/PBR)",
+      "action": {
+        "vi": "Mua cổ phiếu Petrobras ngay khi tin tức Tupi được xác nhận cuối 2007",
+        "en": "Buy Petrobras shares as soon as the Tupi news was confirmed in late 2007"
+      },
+      "buyWhen": {
+        "vi": "Tháng 11/2007 khi kết quả giếng thứ hai được công bố",
+        "en": "November 2007 when the second-well results were announced"
+      },
+      "sellWhen": {
+        "vi": "Trước đợt phát hành cổ phiếu khổng lồ 9/2010 và trước scandal Lava Jato 10/2014",
+        "en": "Before the giant September 2010 share offering and before the Lava Jato scandal broke in October 2014"
+      },
+      "estimatedReturn": {
+        "vi": "Cổ phiếu Petrobras tăng mạnh trong 2007-2008 nhờ kỳ vọng trữ lượng pre-salt khổng lồ",
+        "en": "Petrobras shares rallied strongly in 2007-2008 on expectations from the huge pre-salt reserves"
+      },
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết trước đây là phát hiện dầu lớn nhất châu Mỹ trong 30 năm giúp mua ngay khi tin được xác nhận tháng 11/2007, nhưng quan trọng hơn là biết phải thoát trước khi đợt phát hành cổ phiếu 2010 và Lava Jato 2014 phá hủy phần lớn giá trị tăng thêm.",
+      "en": "Knowing this was the Americas' largest oil find in 30 years means buying right when confirmed in November 2007 — but crucially also knowing to exit before the 2010 share offering and the 2014 Lava Jato scandal erased much of the added value."
+    },
+    "pitfalls": {
+      "vi": "Phát triển mỏ pre-salt cực kỳ tốn kém và chậm (sản xuất thử nghiệm chỉ bắt đầu 2009, hàng loạt dự án bị đội vốn), và scandal tham nhũng Lava Jato (2014) sau đó khiến cổ phiếu Petrobras mất khoảng một nửa giá trị.",
+      "en": "Developing the pre-salt fields was extremely costly and slow (test production only started in 2009, with many cost overruns), and the later Lava Jato corruption scandal (2014) cut Petrobras shares roughly in half."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Mỏ Tupi được ước tính có trữ lượng bao nhiêu khi công bố năm 2007?",
+        "en": "What were Tupi's estimated reserves when announced in 2007?"
+      },
+      "choices": [
+        {
+          "vi": "5-8 tỷ thùng dầu quy đổi",
+          "en": "5-8 billion barrels of oil equivalent"
+        },
+        {
+          "vi": "500 triệu thùng",
+          "en": "500 million barrels"
+        },
+        {
+          "vi": "50 tỷ thùng",
+          "en": "50 billion barrels"
+        },
+        {
+          "vi": "1 triệu thùng",
+          "en": "1 million barrels"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "Theo AAPG Explorer và GeoExpro, kết quả giếng thứ hai tại Tupi ước tính 5-8 tỷ thùng dầu quy đổi, lớn nhất châu Mỹ trong 30 năm.",
+        "en": "Per AAPG Explorer and GeoExpro, the second-well test at Tupi indicated estimated reserves of 5-8 billion barrels of oil equivalent, the largest find in the Americas in three decades."
+      }
+    },
+    "sources": [
+      {
+        "title": "Brazil Dancing the 'Pre-Salt Salsa' - AAPG Explorer",
+        "url": "https://www.aapg.org/news-and-media/details/explorer/articleid/733/brazil-dancing-the-pre-salt-salsa"
+      },
+      {
+        "title": "Petrobras Finds Pre-Salt Oil - Energy Intelligence",
+        "url": "https://www.energyintel.com/0000017b-a7b1-de4c-a17b-e7f3bcf60000"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed Nov 2007 Tupi announcement, 5-8 billion barrel estimate, and water/salt depth figures via AAPG Explorer and GeoExpro trade publications."
+  },
+  {
+    "id": "br-itau-unibanco-sap-nhap-2008",
+    "country": "br",
+    "date": "2008-11-03",
+    "category": "business",
+    "title": {
+      "vi": "Itaú-Unibanco sáp nhập tạo ngân hàng lớn nhất Nam bán cầu",
+      "en": "Itaú-Unibanco merger creates the Southern Hemisphere's largest bank"
+    },
+    "summary": {
+      "vi": "Hai ngân hàng lớn thứ 2 và thứ 3 Brazil hợp nhất giữa khủng hoảng tài chính toàn cầu, tạo tổ chức tài chính 265 tỷ USD.",
+      "en": "Brazil's second- and third-largest banks merged amid the global financial crisis to create a $265 billion institution."
+    },
+    "description": {
+      "vi": "Ngày 3/11/2008, giữa lúc khủng hoảng tài chính toàn cầu đang ở đỉnh điểm, Banco Itaú và Unibanco công bố sáp nhập tạo Itaú Unibanco Holding với tổng tài sản 575,1 tỷ real (~265 tỷ USD) — ngân hàng tư nhân lớn nhất Nam bán cầu và một trong 20 ngân hàng lớn nhất thế giới thời điểm đó. Roberto Setubal (Itaú) làm CEO, Pedro Moreira Salles (Unibanco) làm Chủ tịch. Thương vụ tận dụng thời điểm khủng hoảng khiến các ngân hàng nhỏ hơn gặp khó khăn, củng cố vị thế thống lĩnh của Itaú Unibanco trong hệ thống ngân hàng Brazil suốt hơn một thập kỷ sau.",
+      "en": "On Nov 3, 2008, amid the peak of the global financial crisis, Banco Itaú and Unibanco announced a merger to create Itaú Unibanco Holding with combined assets of R$575.1 billion (~$265 billion) — the largest private-sector bank in the Southern Hemisphere and one of the 20 largest banks in the world at the time. Roberto Setubal (Itaú) became CEO and Pedro Moreira Salles (Unibanco) became Chairman. The deal capitalized on crisis-driven stress at smaller banks, cementing Itaú Unibanco's dominant position in Brazilian banking for over a decade afterward."
+    },
+    "opportunity": {
+      "asset": "Itaú Unibanco Holding (ITUB4)",
+      "action": {
+        "vi": "Mua cổ phiếu Itaú/Unibanco ngay khi sáp nhập được công bố giữa khủng hoảng tài chính 2008",
+        "en": "Buy Itaú/Unibanco shares right as the merger was announced amid the 2008 financial crisis"
+      },
+      "buyWhen": {
+        "vi": "Tháng 11/2008, khi thị trường còn hoảng loạn vì khủng hoảng toàn cầu",
+        "en": "November 2008, while markets were still panicking over the global crisis"
+      },
+      "sellWhen": {
+        "vi": "Giữ dài hạn qua hơn một thập kỷ thống lĩnh ngành ngân hàng Brazil",
+        "en": "Hold long-term through over a decade of dominance in Brazilian banking"
+      },
+      "estimatedReturn": {
+        "vi": "Hưởng lợi từ vị thế ngân hàng tư nhân lớn nhất Mỹ Latinh và tăng trưởng tín dụng ổn định nhiều năm sau đó",
+        "en": "Benefited from being Latin America's largest private bank and years of steady credit growth afterward"
+      },
+      "risk": "medium",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết trước sáp nhập sẽ tạo ra ngân hàng tư nhân thống lĩnh thị trường Brazil trong hơn một thập kỷ tiếp theo giúp nhà đầu tư mua vào đúng lúc thị trường toàn cầu hoảng loạn nhất (tháng 11/2008) thay vì né tránh cổ phiếu tài chính theo tâm lý đám đông.",
+      "en": "Knowing the merger would create a bank dominating Brazil's private sector for the next decade-plus lets an investor buy exactly when global markets were most panicked (November 2008), rather than avoiding financial stocks along with the herd."
+    },
+    "pitfalls": {
+      "vi": "Tháng 11/2008 là thời điểm cực kỳ bất ổn với hệ thống tài chính toàn cầu; nhiều ngân hàng lớn ở Mỹ/châu Âu sụp đổ cùng giai đoạn này, nên rủi ro hệ thống là có thật kể cả với một ngân hàng mạnh như Itaú Unibanco.",
+      "en": "November 2008 was an extremely unstable moment for the global financial system; many large US/European banks collapsed in this same period, so systemic risk was real even for a strong institution like Itaú Unibanco."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Itaú Unibanco Holding hình thành từ sáp nhập nào, và vào thời điểm nào?",
+        "en": "What merger created Itaú Unibanco Holding, and when?"
+      },
+      "choices": [
+        {
+          "vi": "Itaú và Unibanco, tháng 11/2008",
+          "en": "Itaú and Unibanco, November 2008"
+        },
+        {
+          "vi": "Bradesco và Santander, năm 2000",
+          "en": "Bradesco and Santander, 2000"
+        },
+        {
+          "vi": "Banco do Brasil và Caixa, năm 2010",
+          "en": "Banco do Brasil and Caixa, 2010"
+        },
+        {
+          "vi": "AmBev và Interbrew, năm 2004",
+          "en": "AmBev and Interbrew, 2004"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "Theo BBC News và Dealbook, Itaú và Unibanco công bố sáp nhập ngày 3/11/2008, tạo tổ chức tài chính lớn nhất Nam bán cầu.",
+        "en": "Per BBC News and DealBook, Itaú and Unibanco announced their merger on November 3, 2008, creating the largest financial group in the Southern Hemisphere."
+      }
+    },
+    "sources": [
+      {
+        "title": "Brazilian banks announce merger - BBC News",
+        "url": "http://news.bbc.co.uk/2/hi/business/7706276.stm"
+      },
+      {
+        "title": "Brazilian Banks Itau and Unibanco to Merge - NYT DealBook",
+        "url": "https://archive.nytimes.com/dealbook.nytimes.com/2008/11/03/brazilian-banks-itau-and-unibanco-to-merge/"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed merger announcement date (Nov 3 2008), combined assets (R$575.1bn/~$265bn), and executive roles via BBC News and NYT DealBook."
+  },
+  {
+    "id": "br-bat-dong-san-rio-world-cup-olympics",
+    "country": "br",
+    "date": "2009",
+    "category": "real-estate",
+    "title": {
+      "vi": "Bong bóng bất động sản Rio: World Cup & Olympic 2009-2016",
+      "en": "Rio's World Cup & Olympics real-estate bubble 2009-2016"
+    },
+    "summary": {
+      "vi": "Giá nhà Rio tăng hơn 200% thực từ khi thắng thầu Olympic 2009 đến 2014, rồi giảm thực hơn 30% sau 2015.",
+      "en": "Rio home prices rose over 200% in real terms from the 2009 Olympic bid win to 2014, then fell more than 30% real after 2015."
+    },
+    "description": {
+      "vi": "Sau khi Rio giành quyền đăng cai World Cup 2014 và Olympic 2016, chỉ số FipeZap cho thấy giá bán nhà tại Rio tăng thực (sau lạm phát) 211% từ tháng 1/2009 đến tháng 12/2014 — cao hơn nhiều mức tăng toàn quốc. BBC ghi nhận giá tăng hơn 250% trong sáu năm. Tuy nhiên ngay từ giữa 2015, giá thực bắt đầu giảm do suy thoái kinh tế; đến tháng 4/2017, chỉ số FipeZap cho Rio giảm thực hơn 30% so với đỉnh.",
+      "en": "After Rio won hosting rights for the 2014 World Cup and 2016 Olympics, the FipeZap index showed Rio home sale prices rising 211% in real (inflation-adjusted) terms from January 2009 to December 2014 — far above the national rate. The BBC reported gains of more than 250% over six years. But as early as mid-2015 real prices began falling amid the economic recession; by April 2017 Rio's FipeZap index had fallen more than 30% in real terms from its peak."
+    },
+    "opportunity": {
+      "asset": "Rio de Janeiro residential property (Zona Sul: Copacabana, Ipanema, Leblon)",
+      "action": {
+        "vi": "Mua bất động sản Rio ngay sau khi thắng thầu Olympic 2009, bán trước khi World Cup 2014 kết thúc",
+        "en": "Buy Rio property right after the 2009 Olympic bid win, sell before the 2014 World Cup ended"
+      },
+      "buyWhen": {
+        "vi": "Đầu-giữa 2009 sau khi Rio được chọn đăng cai Olympic (10/2009)",
+        "en": "Early-mid 2009 after Rio was awarded the Olympics (Oct 2009)"
+      },
+      "sellWhen": {
+        "vi": "Cuối 2014, trước khi suy thoái kinh tế 2015-2016 làm giá thực giảm mạnh",
+        "en": "Late 2014, before the 2015-2016 recession drove real prices sharply lower"
+      },
+      "estimatedReturn": {
+        "vi": "Tăng giá thực khoảng 211% trong 2009-2014 theo chỉ số FipeZap",
+        "en": "A roughly 211% real price gain over 2009-2014 per the FipeZap index"
+      },
+      "risk": "medium",
+      "capital": "high"
+    },
+    "insiderTip": {
+      "vi": "Biết trước cú sốc kép World Cup 2014 + Olympic 2016 sẽ tạo đỉnh đầu cơ ngắn hạn rồi suy thoái 2015-2016 sẽ đảo chiều mạnh giúp nhà đầu tư thoát đúng lúc thay vì giữ tới khi Rio Times ghi nhận 'giá đã chạm đỉnh hơn một năm trước'.",
+      "en": "Knowing the World Cup 2014 + Olympics 2016 double catalyst would create a short-term speculative peak followed by the 2015-2016 recession reversal lets an investor exit in time, rather than holding until the Rio Times noted prices 'had already peaked over a year earlier'."
+    },
+    "pitfalls": {
+      "vi": "Thị trường cho thuê ngắn hạn trong chính kỳ World Cup 2014 thực tế lại giảm giá do dư cung khi quá nhiều chủ nhà cùng cải tạo để cho thuê, trái với kỳ vọng 'ăn theo sự kiện'.",
+      "en": "The short-term rental market during the World Cup itself actually saw price cuts from oversupply as too many owners renovated to rent out, contrary to the 'event cash-in' expectation."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Giá bất động sản Rio tăng bao nhiêu % thực từ 1/2009 đến 12/2014 theo FipeZap?",
+        "en": "By how much did Rio real estate prices rise in real terms from Jan 2009 to Dec 2014 per FipeZap?"
+      },
+      "choices": [
+        {
+          "vi": "Khoảng 10%",
+          "en": "About 10%"
+        },
+        {
+          "vi": "Khoảng 211%",
+          "en": "About 211%"
+        },
+        {
+          "vi": "Giảm 20%",
+          "en": "They fell 20%"
+        },
+        {
+          "vi": "Không đổi",
+          "en": "They were unchanged"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Theo nghiên cứu dựa trên chỉ số FipeZap trích trong Revista Continentes, giá bán nhà Rio tăng thực 211% từ tháng 1/2009 đến tháng 12/2014.",
+        "en": "Per FipeZap-based research cited in Revista Continentes, Rio home sale prices rose 211% in real terms between January 2009 and December 2014."
+      }
+    },
+    "sources": [
+      {
+        "title": "Brazil property prices: Fears of 'bubble' in home costs - BBC",
+        "url": "https://www.bbc.com/news/business-27218510"
+      },
+      {
+        "title": "ASCENSÃO E QUEDA DA CIDADE OLÍMPICA - Revista Continentes",
+        "url": "https://revistacontinentes.com.br/index.php/continentes/article/download/120/113"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "211% real price rise (2009-2014) and subsequent >30% real decline by April 2017 confirmed via Revista Continentes academic analysis using the FipeZap index; BBC corroborates the >250% nominal six-year rise narrative."
+  },
+  {
+    "id": "br-petrobras-phat-hanh-khong-lo-2010",
+    "country": "br",
+    "date": "2010-09-23",
+    "category": "stocks",
+    "title": {
+      "vi": "Petrobras huy động 70 tỷ USD — đỉnh để tránh",
+      "en": "Petrobras raises $70 billion — a peak to avoid"
+    },
+    "summary": {
+      "vi": "Đợt phát hành cổ phiếu lớn nhất lịch sử tài chính thế giới đánh dấu gần đỉnh dài hạn của cổ phiếu Petrobras.",
+      "en": "The largest share offering in financial history marked a long-term peak for Petrobras stock."
+    },
+    "description": {
+      "vi": "Ngày 23-24/9/2010, Petrobras bán 2,4 tỷ cổ phiếu thường giá 29,65 real và 1,87 tỷ cổ phiếu ưu đãi giá 26,30 real, huy động khoảng 120,36 tỷ real (~70 tỷ USD) — đợt phát hành cổ phiếu lớn nhất trong lịch sử tài chính thế giới, vượt cả IPO Ngân hàng Nông nghiệp Trung Quốc. Số tiền tài trợ cho kế hoạch đầu tư 224 tỷ USD khai thác các mỏ pre-salt. Tuy nhiên đây gần như là đỉnh dài hạn: scandal Lava Jato (10/2014) sau đó khiến cổ phiếu Petrobras rơi về chưa đến 1/5 giá trị.",
+      "en": "On Sept 23-24, 2010, Petrobras sold 2.4 billion common shares at R$29.65 and 1.87 billion preferred shares at R$26.30, raising about R$120.36 billion (~$70 billion) — the largest share offering in global financial history, surpassing even the Agricultural Bank of China's IPO. The proceeds funded a $224 billion investment plan to develop the pre-salt fields. However, this marked close to a long-term peak: the Lava Jato scandal (Oct 2014) later sent Petrobras shares down to less than a fifth of their value."
+    },
+    "opportunity": {
+      "asset": "Petrobras (PETR3/PETR4) — short or avoid",
+      "action": {
+        "vi": "Tránh mua vào đợt phát hành 9/2010 hoặc bán khống/thoát vị thế hiện có trước Lava Jato",
+        "en": "Avoid buying into the September 2010 offering, or short/exit existing positions before Lava Jato"
+      },
+      "buyWhen": {
+        "vi": "Không nên mua — đây là tín hiệu 'bán trước' (sell before) cho nhà đầu tư dài hạn đã nắm giữ từ 2007",
+        "en": "Don't buy — this is a 'sell before' signal for long-term holders from 2007"
+      },
+      "sellWhen": {
+        "vi": "Ngay quanh đợt phát hành 9/2010 hoặc chắc chắn trước 10/2014",
+        "en": "Right around the September 2010 offering, or certainly before October 2014"
+      },
+      "estimatedReturn": {
+        "vi": "Tránh được khoản lỗ hơn 80% khi cổ phiếu Petrobras sụp đổ sau scandal Lava Jato 2014-2015",
+        "en": "Avoided a loss of more than 80% when Petrobras shares collapsed after the 2014-2015 Lava Jato scandal"
+      },
+      "entryPrice": 29.65,
+      "priceCurrency": "BRL",
+      "risk": "high",
+      "capital": "high"
+    },
+    "insiderTip": {
+      "vi": "Biết trước vụ bê bối tham nhũng Lava Jato sẽ nổ ra năm 2014 và phá hủy phần lớn giá trị thị trường của Petrobras giúp nhà đầu tư né tránh hoặc bán khống ngay quanh đỉnh phát hành 70 tỷ USD năm 2010.",
+      "en": "Knowing the Lava Jato corruption scandal would erupt in 2014 and destroy much of Petrobras's market value lets an investor avoid or short the stock right around the $70 billion 2010 offering peak."
+    },
+    "pitfalls": {
+      "vi": "Tại thời điểm 2010, kế hoạch pre-salt được xem là câu chuyện tăng trưởng hấp dẫn nhất của Brazil; phần lớn nhà đầu tư tổ chức toàn cầu (quỹ Trung Đông, Mỹ) tham gia mạnh mẽ, nên 'nhìn thấy trước đỉnh' đòi hỏi thông tin tương lai thực sự.",
+      "en": "At the time, the pre-salt plan was seen as Brazil's most compelling growth story and global institutional investors (Middle East funds, US funds) piled in enthusiastically — spotting the peak in advance genuinely requires foreknowledge."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Đợt phát hành cổ phiếu Petrobras tháng 9/2010 huy động được bao nhiêu, và có đặc điểm gì?",
+        "en": "How much did the September 2010 Petrobras share offering raise, and what was notable about it?"
+      },
+      "choices": [
+        {
+          "vi": "19 tỷ USD, lớn nhất Mỹ Latinh",
+          "en": "$19 billion, the largest in Latin America"
+        },
+        {
+          "vi": "70 tỷ USD, lớn nhất lịch sử tài chính thế giới",
+          "en": "$70 billion, the largest in global financial history"
+        },
+        {
+          "vi": "3 tỷ USD, nhỏ và ít được chú ý",
+          "en": "$3 billion, small and little-noticed"
+        },
+        {
+          "vi": "700 triệu USD",
+          "en": "$700 million"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Theo Reuters, Bloomberg và New York Times, đợt phát hành huy động khoảng 70 tỷ USD, vượt qua đợt IPO Ngân hàng Nông nghiệp Trung Quốc để trở thành đợt phát hành cổ phiếu lớn nhất lịch sử.",
+        "en": "Per Reuters, Bloomberg, and the New York Times, the offering raised about $70 billion, surpassing the Agricultural Bank of China IPO to become the largest share sale in history."
+      }
+    },
+    "sources": [
+      {
+        "title": "Petrobras Raises $70 Billion in Share Issue - NYT DealBook",
+        "url": "https://dealbook.nytimes.com/2010/09/24/petrobras-raises-70-billion-in-share-issue?_php=true&_r=1&_type=blogs"
+      },
+      {
+        "title": "Petrobras raises $70 bln in largest offering ever - Reuters",
+        "url": "https://reuters.com/article/petrobras-raises-70-bln-in-largest-offering-ever-idUSN2499993"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed offering prices (R$29.65 common / R$26.30 preferred), ~$70bn raised, and 'largest share sale ever' framing via NYT, Reuters, and Bloomberg coverage from Sept 2010."
+  },
+  {
+    "id": "br-lava-jato-petrobras-sup-do-2014",
+    "country": "br",
+    "date": "2014-10-27",
+    "category": "macro",
+    "title": {
+      "vi": "Scandal Lava Jato đánh sập cổ phiếu Petrobras",
+      "en": "The Lava Jato scandal crashes Petrobras stock"
+    },
+    "summary": {
+      "vi": "Vụ bê bối tham nhũng lớn nhất lịch sử Brazil khiến cổ phiếu Petrobras mất khoảng một nửa giá trị chỉ trong vài tháng.",
+      "en": "Brazil's biggest-ever corruption scandal halved Petrobras's share price within months."
+    },
+    "description": {
+      "vi": "Ngày 27/10/2014, Petrobras công bố thông cáo xác nhận các giám đốc điều hành đang bị điều tra vì hối lộ và rửa tiền trong chiến dịch Lava Jato (Rửa Xe) của cảnh sát liên bang. Điều tra phanh phui một đường dây hối lộ cartel nhà thầu xây dựng trị giá nhiều tỷ USD kéo dài 2004-2012. Quý 3/2014, Petrobras công bố lỗ 21,6 tỷ real cho cả năm, với 6,2 tỷ real liên quan trực tiếp tham nhũng và tổng điều chỉnh tài sản 50,8 tỷ real. Cổ phiếu Petrobras (PETR3/PETR4) giảm khoảng một nửa trong các tháng sau thông báo, và ADR tại New York (PBR.A) giao dịch quanh 3,3-3,6 USD cuối 2015 so với đỉnh hơn 30 USD trước đó vài năm.",
+      "en": "On Oct 27, 2014, Petrobras issued a press release confirming key executives were under investigation for bribery and money laundering as part of the federal police's Lava Jato (Car Wash) operation. The probe uncovered a multibillion-dollar construction-cartel kickback scheme running from 2004 to 2012. In its Q3 2014 report, Petrobras disclosed a R$21.6 billion annual loss, with R$6.2 billion directly tied to corruption and total asset write-downs of R$50.8 billion. Petrobras shares (PETR3/PETR4) fell roughly in half in the months after the announcement, and the New York-listed ADR (PBR.A) traded around $3.3-3.6 by late 2015, down from a peak above $30 a few years earlier."
+    },
+    "opportunity": {
+      "asset": "Petrobras (PETR3/PETR4/PBR) — short or avoid",
+      "action": {
+        "vi": "Bán khống hoặc thoát hoàn toàn vị thế Petrobras trước ngày 27/10/2014",
+        "en": "Short or fully exit Petrobras positions before October 27, 2014"
+      },
+      "buyWhen": {
+        "vi": "Không mua — đây là tín hiệu bán khống/tránh rõ ràng",
+        "en": "Don't buy — this is a clear short/avoid signal"
+      },
+      "sellWhen": {
+        "vi": "Trước hoặc ngay ngày 27/10/2014 khi tin tức được công bố chính thức",
+        "en": "Before or right on October 27, 2014 when the news broke officially"
+      },
+      "estimatedReturn": {
+        "vi": "Tránh được khoản lỗ khoảng 50% trong vài tháng, và lỗ nặng hơn nhiều nếu tính từ đỉnh 2010-2011",
+        "en": "Avoided a roughly 50% loss within months, and a far steeper loss if measured from the 2010-2011 peak"
+      },
+      "risk": "high",
+      "capital": "high"
+    },
+    "insiderTip": {
+      "vi": "Biết trước ngày 27/10/2014 scandal sẽ được công bố công khai giúp nhà đầu tư bán khống đúng lúc hoặc mua quyền chọn bán (put option) ngay trước thông báo, thu lợi lớn từ cú sập giá tiếp theo.",
+      "en": "Knowing the exact Oct 27 2014 date the scandal would go public lets an investor short the stock or buy put options right before the announcement, profiting heavily from the ensuing crash."
+    },
+    "pitfalls": {
+      "vi": "Thời điểm và quy mô thiệt hại tài chính thực tế vẫn chưa rõ ràng với nhà đầu tư đương thời trong nhiều tháng; giá cổ phiếu tiếp tục biến động dữ dội qua 2015 khi thêm thông tin bê bối được tiết lộ dần.",
+      "en": "The exact timing and scale of the financial damage remained unclear to contemporary investors for many months; the share price continued to swing wildly through 2015 as more scandal details emerged gradually."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Petrobras công bố thông cáo xác nhận điều tra Lava Jato vào ngày nào?",
+        "en": "On what date did Petrobras announce the Lava Jato investigation into its executives?"
+      },
+      "choices": [
+        {
+          "vi": "27/10/2014",
+          "en": "October 27, 2014"
+        },
+        {
+          "vi": "1/7/1994",
+          "en": "July 1, 1994"
+        },
+        {
+          "vi": "23/9/2010",
+          "en": "September 23, 2010"
+        },
+        {
+          "vi": "16/3/1990",
+          "en": "March 16, 1990"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "Theo ISAF Management và Agência Brasil, Petrobras công bố thông cáo xác nhận điều tra ngày 27/10/2014, mở đầu chuỗi sụt giảm cổ phiếu nghiêm trọng.",
+        "en": "Per ISAF Management and Agência Brasil, Petrobras issued its press release confirming the investigation on Oct 27, 2014, triggering a severe share-price decline."
+      }
+    },
+    "sources": [
+      {
+        "title": "Petrobras Case Background - ISAF Management",
+        "url": "https://isafmanagement.com/petrobras-case/petrobras-case-background/"
+      },
+      {
+        "title": "Petrobras perde R$ 6,2 bi com corrupção - Agência Brasil",
+        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2015-04/petrobras-teve-prejuizo-de-r-216-bilhoes-no-ano-passado"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed Oct 27 2014 press release date, roughly 50% stock-price decline in following months, and the R$21.6bn 2014 net loss/R$50.8bn asset write-down via ISAF Management and Agência Brasil official reporting."
+  },
+  {
+    "id": "br-magazine-luiza-tang-vot-sup-do",
+    "country": "br",
+    "date": "2015-12",
+    "category": "stocks",
+    "title": {
+      "vi": "Magazine Luiza: từ 3 xu lên siêu cổ phiếu rồi sụp đổ",
+      "en": "Magazine Luiza: from 3 cents to a superstock, then a crash"
+    },
+    "summary": {
+      "vi": "Cổ phiếu MGLU3 tăng khoảng 913 lần từ đáy khủng hoảng 2015 đến đỉnh 2020, rồi mất hơn 75% trong năm sau đó.",
+      "en": "MGLU3 shares rose roughly 913x from the 2015 crisis low to the 2020 peak, then lost more than 75% within a year."
+    },
+    "description": {
+      "vi": "Trong khủng hoảng kinh tế 2015, cổ phiếu nhà bán lẻ Magazine Luiza (MGLU3) rơi xuống chỉ còn 0,03 real/cổ phiếu (12/2015) khi thị trường lo ngại phá sản. Nhờ chuyển đổi số mạnh mẽ (marketplace, logistics, các thương vụ M&A) và bùng nổ thương mại điện tử mùa COVID-19, cổ phiếu tăng vọt lên đỉnh lịch sử 27,42 real vào tháng 11/2020 — mức tăng khoảng 91.300% chỉ trong 5 năm. Tuy nhiên khi Ngân hàng Trung ương tăng lãi suất Selic từ 2% lên 9,25% trong 2021 và lạm phát leo thang, MGLU3 trở thành cổ phiếu giảm giá mạnh nhất Ibovespa năm 2021 (-71%), tiếp tục giảm hơn 75% trong 12 tháng tính đến đầu 2022.",
+      "en": "During the 2015 economic crisis, shares of retailer Magazine Luiza (MGLU3) fell to just R$0.03 (Dec 2015) amid bankruptcy fears. Thanks to an aggressive digital transformation (marketplace, logistics, M&A) and the COVID-era e-commerce boom, the stock soared to an all-time high of R$27.42 in November 2020 — a roughly 91,300% gain in just five years. But as the central bank raised the Selic rate from 2% to 9.25% through 2021 and inflation climbed, MGLU3 became the Ibovespa's worst-performing stock of 2021 (-71%), falling more than 75% over the 12 months into early 2022."
+    },
+    "opportunity": {
+      "asset": "Magazine Luiza (MGLU3)",
+      "action": {
+        "vi": "Mua đáy khủng hoảng 2015, bán gần đỉnh tháng 11/2020 trước khi lãi suất tăng mạnh",
+        "en": "Buy at the 2015 crisis bottom, sell near the November 2020 peak before rates rose sharply"
+      },
+      "buyWhen": {
+        "vi": "Tháng 12/2015, khi cổ phiếu giảm sâu nhất do lo ngại phá sản",
+        "en": "December 2015, at the deepest point of bankruptcy fears"
+      },
+      "sellWhen": {
+        "vi": "Tháng 11/2020, tại đỉnh lịch sử 27,42 real, trước chu kỳ tăng lãi suất Selic 2021",
+        "en": "November 2020, at the all-time high of R$27.42, before the 2021 Selic rate-hike cycle"
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng 913 lần (91.300%) trong 5 năm theo Estadão/Seu Dinheiro",
+        "en": "Roughly 913x (91,300%) over 5 years per Estadão/Seu Dinheiro"
+      },
+      "entryPrice": 0.03,
+      "exitPrice": 27.42,
+      "priceCurrency": "BRL",
+      "exitDate": "2020-11",
+      "returnMultiple": 914,
+      "risk": "high",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Biết trước Magazine Luiza sẽ không phá sản mà ngược lại trở thành ngôi sao thương mại điện tử nhờ COVID-19, cộng với biết chính xác thời điểm Selic bắt đầu tăng mạnh năm 2021 để thoát ra, giúp bắt trọn cả sóng tăng và né hoàn toàn cú sập.",
+      "en": "Knowing Magazine Luiza wouldn't go bankrupt but would instead become an e-commerce star thanks to COVID-19 — plus knowing exactly when Selic rate hikes would begin in 2021 to exit — lets an investor capture the entire rally and fully dodge the crash."
+    },
+    "pitfalls": {
+      "vi": "Mức giá 0,03 real năm 2015 là giá danh nghĩa chưa chắc chắn về cơ sở điều chỉnh chia tách cổ phiếu; biến động cực đoan của một cổ phiếu penny stock khiến chiến lược này cực kỳ rủi ro và không phù hợp để lặp lại với các cổ phiếu khác không có thông tin tương lai.",
+      "en": "The R$0.03 2015 price is a nominal figure whose exact split-adjustment basis is uncertain; the extreme volatility of a penny stock makes this strategy extraordinarily risky and not replicable with other stocks absent genuine foreknowledge."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Cổ phiếu Magazine Luiza (MGLU3) tăng khoảng bao nhiêu % từ đáy 12/2015 đến đỉnh 11/2020?",
+        "en": "By roughly how much did Magazine Luiza (MGLU3) shares rise from the Dec 2015 low to the Nov 2020 peak?"
+      },
+      "choices": [
+        {
+          "vi": "Khoảng 100%",
+          "en": "About 100%"
+        },
+        {
+          "vi": "Khoảng 91.300%",
+          "en": "About 91,300%"
+        },
+        {
+          "vi": "Khoảng 10%",
+          "en": "About 10%"
+        },
+        {
+          "vi": "Giảm 50%",
+          "en": "It fell 50%"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Theo Estadão và Seu Dinheiro, giá cổ phiếu đi từ R$0,03 (12/2015) lên R$27,42 (11/2020), tương đương tăng khoảng 91.300%.",
+        "en": "Per Estadão and Seu Dinheiro, the share price moved from R$0.03 (Dec 2015) to R$27.42 (Nov 2020), a gain of about 91,300%."
+      }
+    },
+    "sources": [
+      {
+        "title": "Por que ações do Magazine Luiza (MGLU3) subiram e caíram - Estadão",
+        "url": "https://www.estadao.com.br/web-stories/einvestidor/por-que-acoes-do-magazine-luiza-mglu3-e-cairam-tanto/"
+      },
+      {
+        "title": "Magazine Luiza (MGLU3) já foi uma das Melhores Ações - Seu Dinheiro",
+        "url": "https://www.seudinheiro.com/2022/patrocinado/empiricus/magazine-luiza-mglu3-ja-foi-uma-das-melhores-acoes-da-bolsa-mas-despencou-75-no-ultimo-ano-oportunidade-para-comprar-ou-sinal-para-vender-veja-resposta-lbrdlc186/"
+      },
+      {
+        "title": "Magazine Luiza (MGLU3): o que explica a derrocada - InfoMoney",
+        "url": "https://www.infomoney.com.br/mercados/magazine-luiza-mglu3-o-que-explica-a-derrocada-de-mais-de-70-das-acoes-em-2021-e-o-que-esperar-para-os-ativos/"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "R$0.03 (Dec 2015) low and R$27.42 (Nov 2020) peak confirmed by Estadão; -71% 2021 decline confirmed by InfoMoney; treated nominal prices as reported by sources without independently reconstructing split adjustments."
+  },
+  {
+    "id": "br-luan-toi-dilma-phuc-hoi-2016",
+    "country": "br",
+    "date": "2016-01-26",
+    "category": "macro",
+    "title": {
+      "vi": "Phục hồi nhờ đồn đoán luận tội Dilma 2016",
+      "en": "The 2016 Dilma impeachment-speculation rally"
+    },
+    "summary": {
+      "vi": "Giữa cuộc suy thoái tồi tệ nhất một thế kỷ, đồn đoán luận tội đẩy Ibovespa tăng 37% chỉ trong vài tháng.",
+      "en": "Amid the worst recession in a century, impeachment speculation drove the Ibovespa up 37% within months."
+    },
+    "description": {
+      "vi": "Năm 2015-2016, Brazil trải qua suy thoái tồi tệ nhất trong một thế kỷ (GDP giảm gần 4%/năm cả hai năm), mất xếp hạng đầu tư và khủng hoảng chính trị quanh Tổng thống Dilma Rousseff. Tuy nhiên khi khả năng luận tội Dilma tăng dần (hạ viện bỏ phiếu thông qua tiến trình luận tội tháng 4/2016, Thượng viện xét xử bắt đầu 8/2016, phế truất chính thức 31/8/2016), thị trường phản ứng tích cực: Ibovespa tăng 37% từ 26/1/2016, đồng real tăng 11% so với USD cùng kỳ, khiến tài sản Brazil trở thành nhóm tài sản tăng tốt nhất thế giới năm 2016.",
+      "en": "In 2015-2016 Brazil suffered its worst recession in a century (GDP shrank nearly 4% in each year), lost its investment-grade rating, and endured a political crisis around President Dilma Rousseff. Yet as impeachment odds rose (the lower house approved proceeding in April 2016, the Senate trial began August 2016, and she was formally removed Aug 31 2016), markets reacted positively: the Ibovespa rose 37% from Jan 26 2016, and the real gained 11% against the dollar over the same period, making Brazilian assets the world's best performers of 2016."
+    },
+    "opportunity": {
+      "asset": "Ibovespa index / Brazilian real",
+      "action": {
+        "vi": "Mua cổ phiếu và real Brazil khi khả năng luận tội Dilma tăng cao, bất chấp suy thoái kinh tế sâu",
+        "en": "Buy Brazilian stocks and the real as impeachment odds rose, despite the deep recession"
+      },
+      "buyWhen": {
+        "vi": "Cuối tháng 1/2016, khi tiến trình luận tội bắt đầu được coi là khả thi",
+        "en": "Late January 2016, as impeachment began to look credible"
+      },
+      "sellWhen": {
+        "vi": "Chốt lời một phần quanh giữa 2016 khi thị trường bắt đầu nhận ra khó khăn kinh tế cơ bản vẫn còn đó",
+        "en": "Partially take profits around mid-2016 as markets began to realize underlying economic problems remained"
+      },
+      "estimatedReturn": {
+        "vi": "Ibovespa tăng 37% chỉ trong vài tháng đầu 2016 theo Euromoney",
+        "en": "Ibovespa rose 37% within just the first months of 2016, per Euromoney"
+      },
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết trước việc luận tội Dilma sẽ thành công (8/2016) và thị trường sẽ coi đó là tín hiệu cải cách tích cực giúp nhà đầu tư mua vào ngay giữa tin tức suy thoái tồi tệ nhất, khi hầu hết nhà đầu tư thông thường còn đang hoảng loạn vì GDP sụt giảm.",
+      "en": "Knowing Dilma's impeachment would succeed (Aug 2016) and markets would read it as a positive reform signal lets an investor buy right amid the worst recession headlines, while most ordinary investors were still panicking over the GDP collapse."
+    },
+    "pitfalls": {
+      "vi": "Đà tăng mất động lực nhanh chóng vào giữa tháng 3/2016 khi nhà đầu tư nhận ra các vấn đề cơ cấu (thâm hụt ngân sách, nợ công) sẽ khó giải quyết bất kể ai cầm quyền — thị trường biến động mạnh suốt cả năm.",
+      "en": "The rally quickly lost steam by mid-March 2016 as investors realized structural problems (budget deficits, public debt) would be hard to fix no matter who was in charge — markets stayed highly volatile all year."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Ibovespa tăng bao nhiêu % kể từ 26/1/2016 nhờ đồn đoán luận tội Dilma, theo Euromoney?",
+        "en": "By how much had the Ibovespa risen since Jan 26, 2016 on impeachment speculation, per Euromoney?"
+      },
+      "choices": [
+        {
+          "vi": "37%",
+          "en": "37%"
+        },
+        {
+          "vi": "5%",
+          "en": "5%"
+        },
+        {
+          "vi": "150%",
+          "en": "150%"
+        },
+        {
+          "vi": "Giảm 10%",
+          "en": "It fell 10%"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "Theo Euromoney, Ibovespa tăng 37% kể từ 26/1/2016 trong bối cảnh khả năng luận tội Tổng thống Dilma Rousseff tăng cao.",
+        "en": "Per Euromoney, the Ibovespa had risen 37% since January 26, 2016 amid growing odds of President Dilma Rousseff's impeachment."
+      }
+    },
+    "sources": [
+      {
+        "title": "Brazil: Corporate default fear drives impeachment - Euromoney",
+        "url": "https://euromoney.com/article/b12knsydb7rgbm/brazil-corporate-default-fear-drives-impeachment"
+      },
+      {
+        "title": "Brazil Impeachment Rally Loses Steam - Bloomberg",
+        "url": "https://bloomberg.com/news/articles/2016-03-14/brazil-real-stocks-looking-overbought-after-impeachment-rally"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed 37% Ibovespa gain since Jan 26 2016 and 11% real appreciation via Euromoney; impeachment timeline (April 2016 lower-house vote, Aug 31 2016 removal) corroborated by Bloomberg coverage."
+  },
+  {
+    "id": "br-bolsonaro-bau-cu-2018-ky-luc",
+    "country": "br",
+    "date": "2018-10-28",
+    "category": "stocks",
+    "title": {
+      "vi": "Bầu cử Bolsonaro 2018 đẩy Ibovespa lên kỷ lục",
+      "en": "Bolsonaro's 2018 election win sends Ibovespa to a record"
+    },
+    "summary": {
+      "vi": "Ibovespa vượt mốc 89.000 điểm lần đầu tiên và đóng cửa kỷ lục 88.419 điểm sau chiến thắng của Jair Bolsonaro.",
+      "en": "The Ibovespa broke 89,000 for the first time and closed at a record 88,419 after Jair Bolsonaro's election win."
+    },
+    "description": {
+      "vi": "Jair Bolsonaro thắng vòng 2 bầu cử tổng thống ngày 28/10/2018 với 55% phiếu bầu. Ngày giao dịch tiếp theo (29/10), Ibovespa vượt ngưỡng 89.000 điểm lần đầu trong lịch sử (đỉnh nội phiên 89.139 điểm) nhờ kỳ vọng chương trình cải cách tự do của Bộ trưởng kinh tế tương lai Paulo Guedes (cải cách hưu trí, tư nhân hóa, cắt giảm chi tiêu). Đến 1/11/2018, chỉ số đóng cửa kỷ lục 88.419 điểm, tăng 3,9% trong tuần; đồng real cũng mạnh lên hơn 12% kể từ tháng 9/2018.",
+      "en": "Jair Bolsonaro won the presidential runoff on Oct 28, 2018 with 55% of the vote. The next trading day (Oct 29), the Ibovespa broke 89,000 points for the first time ever (intraday peak 89,139) on hopes for the liberal reform agenda of incoming economy minister Paulo Guedes (pension reform, privatizations, spending cuts). By Nov 1, 2018, the index closed at a record 88,419, up 3.9% for the week; the real had also strengthened more than 12% since September 2018."
+    },
+    "opportunity": {
+      "asset": "Ibovespa index",
+      "action": {
+        "vi": "Mua cổ phiếu Brazil ngay trước/sau vòng 2 bầu cử khi Bolsonaro được dự đoán thắng rõ ràng",
+        "en": "Buy Brazilian stocks right before/after the runoff as Bolsonaro was clearly favored to win"
+      },
+      "buyWhen": {
+        "vi": "Cuối tháng 10/2018, khi thăm dò cho thấy Bolsonaro dẫn trước rõ rệt",
+        "en": "Late October 2018, as polls showed Bolsonaro with a clear lead"
+      },
+      "sellWhen": {
+        "vi": "Chốt lời ngắn hạn đầu tháng 11/2018 khi đà tăng chững lại do chốt lời",
+        "en": "Short-term profit-taking in early November 2018 as the rally paused on profit-taking"
+      },
+      "estimatedReturn": {
+        "vi": "Ibovespa đóng cửa kỷ lục 88.419 điểm, tăng 3,9% chỉ trong tuần bầu cử",
+        "en": "Ibovespa closed at a record 88,419, up 3.9% in election week alone"
+      },
+      "exitPrice": 88419,
+      "priceCurrency": "points",
+      "exitDate": "2018-11-01",
+      "risk": "medium",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết trước kết quả bầu cử và phản ứng tích cực của thị trường với chương trình kinh tế tự do của Guedes giúp nhà đầu tư mua vào ngay trước vòng 2 (28/10) thay vì chờ xác nhận chính thức.",
+      "en": "Knowing the election result and the market's positive reaction to Guedes's liberal economic program lets an investor buy right before the runoff (Oct 28) rather than waiting for official confirmation."
+    },
+    "pitfalls": {
+      "vi": "Phần lớn mức tăng đã được thị trường định giá trước (priced in) từ nhiều tuần trước bầu cử khi thăm dò cho thấy Bolsonaro dẫn đầu, nên lợi nhuận thực tế từ việc mua đúng ngày bầu cử nhỏ hơn kỳ vọng.",
+      "en": "Much of the gain was already priced in weeks before the election as polls showed Bolsonaro leading, so the actual profit from buying right on election day was smaller than expected."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Ibovespa đóng cửa ở mức kỷ lục nào ngày 1/11/2018 sau chiến thắng của Bolsonaro?",
+        "en": "At what record level did the Ibovespa close on Nov 1, 2018 after Bolsonaro's win?"
+      },
+      "choices": [
+        {
+          "vi": "88.419 điểm",
+          "en": "88,419 points"
+        },
+        {
+          "vi": "11.268 điểm",
+          "en": "11,268 points"
+        },
+        {
+          "vi": "29.435 điểm",
+          "en": "29,435 points"
+        },
+        {
+          "vi": "8.863 điểm",
+          "en": "8,863 points"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "Theo Business Times và G1, Ibovespa đóng cửa kỷ lục 88.419 điểm ngày 1/11/2018, tăng 3,9% trong tuần sau chiến thắng của Bolsonaro.",
+        "en": "Per Business Times and G1, the Ibovespa closed at a record 88,419 on Nov 1, 2018, up 3.9% for the week following Bolsonaro's win."
+      }
+    },
+    "sources": [
+      {
+        "title": "Brazil: Stocks close at record high after Bolsonaro win - Business Times",
+        "url": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/brazil-stocks-close-record-high-after-bolsonaro-win"
+      },
+      {
+        "title": "Bovespa bate recorde após eleição de Bolsonaro - G1",
+        "url": "https://g1.globo.com/economia/noticia/2018/10/29/bovespa-29102018.ghtml"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed Oct 28 2018 election date, Oct 29 2018 intraday record near 89,000+, and Nov 1 2018 record close of 88,419 via Business Times and G1 reporting."
+  },
+  {
+    "id": "br-pix-ra-mat-2020",
+    "country": "br",
+    "date": "2020-11-16",
+    "category": "technology",
+    "title": {
+      "vi": "Pix ra mắt — cách mạng thanh toán tức thời Brazil",
+      "en": "Pix launches — Brazil's instant-payment revolution"
+    },
+    "summary": {
+      "vi": "Ngân hàng Trung ương Brazil ra mắt Pix ngày 16/11/2020, cho phép chuyển tiền tức thời miễn phí 24/7, thay đổi toàn ngành tài chính.",
+      "en": "Banco Central do Brasil launched Pix on Nov 16, 2020, enabling free instant 24/7 transfers and reshaping the entire financial sector."
+    },
+    "description": {
+      "vi": "Ngày 16/11/2020, Ngân hàng Trung ương Brazil (BCB) chính thức vận hành đầy đủ hệ thống thanh toán tức thời Pix sau giai đoạn thử nghiệm hạn chế từ 3/11/2020. Pix cho phép cá nhân và doanh nghiệp chuyển tiền trong vài giây, mọi lúc kể cả ngày lễ, miễn phí cho cá nhân, không cần thẻ ghi nợ/tín dụng. Hệ thống buộc các ngân hàng/tổ chức thanh toán có hơn 500.000 tài khoản hoạt động phải tham gia bắt buộc. Pix nhanh chóng trở thành phương thức thanh toán phổ biến nhất Brazil, thúc đẩy tài chính toàn diện và cạnh tranh ngân hàng, đồng thời mở đường cho các công ty fintech như Nubank phát triển bùng nổ.",
+      "en": "On Nov 16, 2020, Banco Central do Brasil (BCB) brought its Pix instant-payment system into full operation after a restricted pilot phase starting Nov 3, 2020. Pix lets individuals and businesses transfer money in seconds, any time including holidays, free for individuals, without needing debit/credit cards. Participation was mandatory for banks/payment institutions with more than 500,000 active accounts. Pix quickly became Brazil's most popular payment method, boosting financial inclusion and banking competition while clearing the runway for fintechs like Nubank to scale explosively."
+    },
+    "opportunity": {
+      "asset": "Fintech stocks (Nubank, StoneCo, PagSeguro) / digital banks",
+      "action": {
+        "vi": "Đầu tư vào các công ty fintech/ngân hàng số Brazil được hưởng lợi từ hạ tầng thanh toán Pix trước khi chúng IPO hoặc tăng trưởng mạnh",
+        "en": "Invest in Brazilian fintech/digital-bank companies set to benefit from Pix infrastructure, before they IPO'd or scaled rapidly"
+      },
+      "buyWhen": {
+        "vi": "Cuối 2020 khi Pix mới ra mắt và tiềm năng thay đổi ngành chưa được định giá đầy đủ",
+        "en": "Late 2020 when Pix just launched and its industry-transforming potential wasn't yet fully priced in"
+      },
+      "sellWhen": {
+        "vi": "Theo chu kỳ tăng trưởng từng công ty cụ thể (ví dụ Nubank quanh IPO 12/2021)",
+        "en": "Per each specific company's growth cycle (e.g. around Nubank's Dec 2021 IPO)"
+      },
+      "estimatedReturn": {
+        "vi": "Hưởng lợi gián tiếp từ tăng trưởng bùng nổ của hệ sinh thái fintech Brazil hậu Pix",
+        "en": "Indirect benefit from the explosive growth of Brazil's post-Pix fintech ecosystem"
+      },
+      "risk": "medium",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Biết trước Pix sẽ trở thành hạ tầng thanh toán thống trị Brazil trong vài năm và là chất xúc tác chính cho làn sóng ngân hàng số bùng nổ giúp nhà đầu tư định vị sớm vào các công ty fintech hưởng lợi trực tiếp, trước khi thị trường đại chúng nhận ra tầm quan trọng của nó.",
+      "en": "Knowing Pix would become Brazil's dominant payment rail within a few years and a key catalyst for the digital-banking boom lets an investor position early in fintech companies that benefit directly, before the broader market appreciated its importance."
+    },
+    "pitfalls": {
+      "vi": "Pix miễn phí cho cá nhân có thể làm giảm doanh thu phí giao dịch của các ngân hàng truyền thống, nên không phải mọi công ty tài chính đều hưởng lợi — cần phân biệt người thắng (fintech số) và người thua (ngân hàng truyền thống phụ thuộc phí thẻ).",
+      "en": "Pix being free for individuals could cut into traditional banks' transaction-fee revenue, so not every financial company benefits — one needs to distinguish winners (digital fintechs) from losers (traditional banks reliant on card fees)."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Hệ thống thanh toán tức thời Pix của Brazil chính thức vận hành đầy đủ từ ngày nào?",
+        "en": "On what date did Brazil's Pix instant-payment system enter full operation?"
+      },
+      "choices": [
+        {
+          "vi": "16/11/2020",
+          "en": "November 16, 2020"
+        },
+        {
+          "vi": "9/12/2021",
+          "en": "December 9, 2021"
+        },
+        {
+          "vi": "26/4/2021",
+          "en": "April 26, 2021"
+        },
+        {
+          "vi": "1/7/1994",
+          "en": "July 1, 1994"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "Theo Reuters và trang chính thức của Banco Central do Brasil, Pix bắt đầu vận hành đầy đủ ngày 16/11/2020.",
+        "en": "Per Reuters and Banco Central do Brasil's official page, Pix entered full operation on November 16, 2020."
+      }
+    },
+    "sources": [
+      {
+        "title": "Brazil launches 'Pix' instant payments system - Reuters",
+        "url": "https://www.reuters.com/world/americas/brazil-launches-pix-instant-payments-system-whatsapp-enter-soon-2020-11-16/"
+      },
+      {
+        "title": "Pix - Banco Central do Brasil official",
+        "url": "https://www.bcb.gov.br/en/financialstability/pix_en"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed full-operation launch date (Nov 16 2020) and feature set (free for individuals, 24/7, mandatory for large institutions) via Reuters and Banco Central do Brasil's own Pix page."
+  },
+  {
+    "id": "br-etf-crypto-hash11-2021",
+    "country": "br",
+    "date": "2021-04-26",
+    "category": "crypto",
+    "title": {
+      "vi": "HASH11 — ETF tiền mã hóa đầu tiên của Brazil",
+      "en": "HASH11 — Brazil's first crypto ETF"
+    },
+    "summary": {
+      "vi": "Hashdex niêm yết ETF tiền mã hóa đầu tiên của Mỹ Latinh trên B3 ngày 26/4/2021, mở đường tiếp cận crypto hợp pháp.",
+      "en": "Hashdex listed Latin America's first crypto-asset ETF on B3 on April 26, 2021, opening regulated access to crypto."
+    },
+    "description": {
+      "vi": "Ngày 26/4/2021, Hashdex niêm yết ETF Hashdex Nasdaq Crypto Index (mã HASH11) trên sàn B3 — ETF tham chiếu chỉ số tiền mã hóa đầu tiên tại Brazil, giá khởi điểm khoảng 50 real/chứng chỉ quỹ, theo dõi Nasdaq Crypto Index gồm Bitcoin, Ether, Litecoin và các tài sản khác. Vài tuần sau, QR Asset Management niêm yết QBTC11 (ETF Bitcoin thuần) trên B3. Đây là bước ngoặt đưa Brazil vào nhóm ít ỏi các thị trường có sản phẩm tiền mã hóa niêm yết chính thức, trước cả khi Mỹ có ETF Bitcoin giao ngay (2024).",
+      "en": "On April 26, 2021, Hashdex listed the Hashdex Nasdaq Crypto Index ETF (ticker HASH11) on the B3 exchange — Brazil's first crypto-index-referenced ETF, with an initial share value of about R$50, tracking the Nasdaq Crypto Index of Bitcoin, Ether, Litecoin and other assets. Weeks later, QR Asset Management listed QBTC11 (a pure Bitcoin ETF) on B3. This was a milestone putting Brazil among the few markets with officially listed crypto products, well before the US got a spot Bitcoin ETF (2024)."
+    },
+    "opportunity": {
+      "asset": "HASH11 / QBTC11 (B3-listed crypto ETFs)",
+      "action": {
+        "vi": "Mua HASH11/QBTC11 ngay khi niêm yết để có cách tiếp cận Bitcoin/crypto hợp pháp, thanh khoản qua tài khoản chứng khoán thông thường",
+        "en": "Buy HASH11/QBTC11 right at listing for regulated, liquid Bitcoin/crypto exposure via a normal brokerage account"
+      },
+      "buyWhen": {
+        "vi": "Cuối tháng 4/2021 (HASH11) hoặc giữa 2021 (QBTC11) khi mới niêm yết",
+        "en": "Late April 2021 (HASH11) or mid-2021 (QBTC11) at listing"
+      },
+      "sellWhen": {
+        "vi": "Chốt lời theo chu kỳ giá Bitcoin, ví dụ gần đỉnh cuối 2021 trước khi thị trường crypto lao dốc 2022",
+        "en": "Take profits along Bitcoin's price cycle, e.g. near the late-2021 peak before the 2022 crypto crash"
+      },
+      "estimatedReturn": {
+        "vi": "Biến động theo giá Bitcoin/rổ tiền mã hóa — tăng mạnh cuối 2021 rồi giảm sâu năm 2022",
+        "en": "Tracks Bitcoin/crypto basket moves — strong gains into late 2021, then a deep 2022 drawdown"
+      },
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết trước Brazil sẽ là một trong những nước đầu tiên trên thế giới cho phép ETF tiền mã hóa niêm yết chính thức (trước cả Mỹ) giúp nhà đầu tư tiếp cận Bitcoin qua kênh hợp pháp, thanh khoản ngay từ 2021 thay vì chờ đợi các sàn quốc tế không rõ ràng về pháp lý.",
+      "en": "Knowing Brazil would be one of the first countries in the world to allow an officially listed crypto ETF (ahead of the US) lets an investor access Bitcoin through a regulated, liquid channel from 2021, rather than waiting on legally murky international exchanges."
+    },
+    "pitfalls": {
+      "vi": "Tiền mã hóa vẫn cực kỳ biến động; thị trường crypto toàn cầu sụp đổ mạnh năm 2022 (FTX, Terra/Luna) khiến các ETF này mất giá trị đáng kể dù sản phẩm vẫn hoạt động bình thường về mặt cấu trúc.",
+      "en": "Crypto remained extremely volatile; the global crypto market crash of 2022 (FTX, Terra/Luna) caused these ETFs to lose significant value even though the products themselves kept functioning normally."
+    },
+    "quiz": {
+      "question": {
+        "vi": "ETF tiền mã hóa đầu tiên của Brazil, HASH11, bắt đầu giao dịch trên B3 vào ngày nào?",
+        "en": "When did Brazil's first crypto ETF, HASH11, begin trading on B3?"
+      },
+      "choices": [
+        {
+          "vi": "26/4/2021",
+          "en": "April 26, 2021"
+        },
+        {
+          "vi": "16/11/2020",
+          "en": "November 16, 2020"
+        },
+        {
+          "vi": "9/12/2021",
+          "en": "December 9, 2021"
+        },
+        {
+          "vi": "1/7/1994",
+          "en": "July 1, 1994"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "Theo thông báo chính thức của B3, cổ phần ETF Hashdex Nasdaq Crypto Index (HASH11) bắt đầu giao dịch ngày 26/4/2021, là ETF tham chiếu chỉ số tiền mã hóa đầu tiên tại Brazil.",
+        "en": "Per B3's official announcement, shares of the Hashdex Nasdaq Crypto Index ETF (HASH11) began trading on April 26, 2021, Brazil's first ETF referenced to a cryptocurrency index."
+      }
+    },
+    "sources": [
+      {
+        "title": "B3 Begins Trading the First Hashdex ETF - B3 official",
+        "url": "https://www.b3.com.br/en_us/news/b3-begins-trading-the-first-hashdex-etf.htm"
+      },
+      {
+        "title": "Asset manager QR launches Bitcoin ETF on Brazilian stock exchange - Cointelegraph",
+        "url": "https://cointelegraph.com/news/asset-manager-qr-launches-bitcoin-etf-on-brazilian-stock-exchange/amp"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed HASH11 listing date (April 26 2021) and ~R$50 initial share value via B3's own press release; QBTC11 launch timing (Q2 2021/June) confirmed via Cointelegraph."
+  },
+  {
+    "id": "br-nubank-ipo-2021",
+    "country": "br",
+    "date": "2021-12-09",
+    "category": "stocks",
+    "title": {
+      "vi": "Nubank IPO trên NYSE, định giá gần 52 tỷ USD",
+      "en": "Nubank IPOs on the NYSE at a near-$52 billion valuation"
+    },
+    "summary": {
+      "vi": "Ngân hàng số lớn nhất Mỹ Latinh niêm yết với giá IPO 9 USD, tăng 15% ngày đầu, được Warren Buffett hậu thuẫn.",
+      "en": "Latin America's biggest digital bank listed at a $9 IPO price, jumped 15% on debut day, and was backed by Warren Buffett."
+    },
+    "description": {
+      "vi": "Ngày 9/12/2021, Nubank (Nu Holdings) niêm yết trên NYSE với mã NU, định giá IPO 9 USD/cổ phiếu (mức cao trong khoảng 8-9 USD đã hạ so với dự kiến ban đầu 10-11 USD), huy động khoảng 2,6 tỷ USD. Cổ phiếu mở cửa 11,25 USD (tăng 25%) và đóng cửa phiên đầu tiên ở 10,33 USD (tăng gần 15%), đưa vốn hóa thị trường lên gần 52 tỷ USD — vượt qua Itaú Unibanco để trở thành ngân hàng niêm yết giá trị nhất Mỹ Latinh. Berkshire Hathaway của Warren Buffett là một trong các nhà đầu tư hậu thuẫn then chốt.",
+      "en": "On Dec 9, 2021, Nubank (Nu Holdings) listed on the NYSE under ticker NU, priced its IPO at $9/share (the top of an already-lowered $8-9 range, down from an original $10-11), and raised about $2.6 billion. The stock opened at $11.25 (up 25%) and closed its first session at $10.33 (up nearly 15%), pushing its market cap to almost $52 billion — overtaking Itaú Unibanco to become Latin America's most valuable listed bank. Warren Buffett's Berkshire Hathaway was among its key backers."
+    },
+    "opportunity": {
+      "asset": "Nu Holdings (NU)",
+      "action": {
+        "vi": "Mua cổ phiếu Nubank tại giá IPO 9 USD và giữ qua đà tăng trưởng người dùng mạnh mẽ của ngân hàng số",
+        "en": "Buy Nubank shares at the $9 IPO price and hold through the digital bank's strong user growth"
+      },
+      "buyWhen": {
+        "vi": "Ngày IPO 9/12/2021, giá đặt mua 9 USD/cổ phiếu",
+        "en": "IPO day, Dec 9 2021, at the $9/share offer price"
+      },
+      "sellWhen": {
+        "vi": "Theo chiến lược cá nhân — cổ phiếu biến động mạnh trong 2022 trước khi phục hồi các năm sau",
+        "en": "Per individual strategy — the stock was highly volatile in 2022 before recovering in later years"
+      },
+      "estimatedReturn": {
+        "vi": "Tăng khoảng 15% ngay trong ngày giao dịch đầu tiên so với giá IPO",
+        "en": "About a 15% first-day gain versus the IPO price"
+      },
+      "entryPrice": 9,
+      "exitPrice": 10.33,
+      "priceCurrency": "USD",
+      "exitDate": "2021-12-09",
+      "returnMultiple": 1.148,
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết trước Nubank sẽ vượt qua lo ngại về định giá fintech giảm (được hạ khoảng 20% ngay trước IPO) để trở thành ngân hàng niêm yết giá trị nhất khu vực giúp nhà đầu tư tự tin tham gia đặt mua IPO thay vì né tránh như nhiều nhà đầu tư tổ chức thận trọng lúc đó.",
+      "en": "Knowing Nubank would overcome fintech-valuation jitters (its range was cut about 20% right before the IPO) to become the region's most valuable listed bank lets an investor confidently subscribe to the IPO rather than avoiding it like many cautious institutions did at the time."
+    },
+    "pitfalls": {
+      "vi": "Nubank hạ định giá IPO khoảng 20% ngay trước khi niêm yết do lo ngại biến chủng Omicron và đợt bán tháo cổ phiếu công nghệ toàn cầu, cho thấy ngay cả một đợt IPO 'bom tấn' cũng có thể gặp biến động định giá đột ngột ngay trước giờ G.",
+      "en": "Nubank cut its IPO valuation range by about 20% right before listing due to Omicron-variant fears and a global tech-stock selloff, showing that even a 'blockbuster' IPO can see sudden valuation swings right before launch."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Cổ phiếu Nubank (NU) được định giá IPO ở mức giá nào vào ngày 9/12/2021?",
+        "en": "At what price was Nubank's (NU) IPO priced on December 9, 2021?"
+      },
+      "choices": [
+        {
+          "vi": "9 USD/cổ phiếu",
+          "en": "$9 per share"
+        },
+        {
+          "vi": "29,65 real/cổ phiếu",
+          "en": "R$29.65 per share"
+        },
+        {
+          "vi": "50 USD/cổ phiếu",
+          "en": "$50 per share"
+        },
+        {
+          "vi": "1 USD/cổ phiếu",
+          "en": "$1 per share"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "Theo CNBC, Reuters và Bloomberg, Nubank định giá IPO 9 USD/cổ phiếu, mức cao của khoảng 8-9 USD đã được hạ xuống trước đó, huy động 2,6 tỷ USD.",
+        "en": "Per CNBC, Reuters, and Bloomberg, Nubank priced its IPO at $9 per share, the top of a previously lowered $8-9 range, raising $2.6 billion."
+      }
+    },
+    "sources": [
+      {
+        "title": "Buffett-backed Nubank rises in trading on the NYSE - CNBC",
+        "url": "https://cnbc.com/2021/12/09/buffett-backed-nubank-rises-in-trading-on-the-nyse-in-blockbuster-ipo.html"
+      },
+      {
+        "title": "Nubank debuts with $52 bln market cap - Reuters",
+        "url": "https://reuters.com/markets/europe/brazils-nubank-valued-nearly-52-bln-nyse-debut-2021-12-09"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed IPO date (Dec 9 2021), IPO price ($9), opening ($11.25) and closing ($10.33) first-day prices, and ~$48-52bn market cap via CNBC, Reuters and Bloomberg reporting."
+  }
+]

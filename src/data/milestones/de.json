@@ -1,0 +1,1957 @@
+[
+  {
+    "id": "de-sap-ipo-long-hold-1988",
+    "country": "de",
+    "date": "1988-11-04",
+    "category": "stocks",
+    "title": {
+      "vi": "Mua SAP từ ngày IPO 1988 và giữ mãi mãi",
+      "en": "Buy SAP at Its 1988 IPO and Hold Forever"
+    },
+    "summary": {
+      "vi": "SAP niêm yết năm 1988 ở giá 753,06 DM và trở thành công ty công nghệ giá trị nhất châu Âu.",
+      "en": "SAP listed in 1988 at 753.06 DM and grew into Europe's most valuable tech company."
+    },
+    "description": {
+      "vi": "SAP AG niêm yết lần đầu ngày 4/11/1988 tại Sở giao dịch chứng khoán Đức với giá tham chiếu 753,06 DM (385,03 EUR). Trải qua nhiều lần chia tách cổ phiếu, SAP trở thành thành viên lâu năm của DAX và tới cuối 2024 đạt vốn hoá gần 270 tỷ EUR, chiếm tới 40% hiệu suất tăng của cả chỉ số DAX trong năm đó — khẳng định vị thế công ty công nghệ giá trị nhất châu Âu.",
+      "en": "SAP AG first listed on 4 November 1988 on the German stock exchange at a reference price of 753.06 DM (385.03 EUR). After multiple stock splits it became a long-standing DAX member, and by the end of 2024 reached a market cap of nearly EUR 270 billion, accounting for about 40% of the DAX's entire gain that year — cementing its place as Europe's most valuable tech company."
+    },
+    "opportunity": {
+      "asset": "SAP SE (SAP)",
+      "action": {
+        "vi": "Mua cổ phiếu từ ngày IPO và giữ xuyên nhiều thập kỷ, bỏ qua các đợt điều chỉnh ngắn hạn",
+        "en": "Buy at IPO and hold for decades, riding out short-term corrections"
+      },
+      "buyWhen": {
+        "vi": "4/11/1988, ngày niêm yết",
+        "en": "4 November 1988, listing day"
+      },
+      "sellWhen": {
+        "vi": null,
+        "en": null
+      },
+      "estimatedReturn": {
+        "vi": "Tăng trưởng hàng chục lần qua 35+ năm nhờ chia tách cổ phiếu và tăng trưởng doanh thu phần mềm doanh nghiệp (không tính được hệ số chính xác vì đã qua nhiều lần tách cổ phiếu)",
+        "en": "Multi-decade compounding through several stock splits and enterprise-software growth (exact multiple not computable across splits)"
+      },
+      "risk": "low",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết trước SAP sẽ thống trị phần mềm hoạch định nguồn lực doanh nghiệp (ERP) toàn cầu và trở thành cổ phiếu trọng số lớn nhất DAX, bạn có thể bỏ qua hoàn toàn các tin đồn phá sản/cạnh tranh thập niên 1990-2000.",
+      "en": "Knowing SAP will dominate global enterprise resource-planning software and become the DAX's largest-weighted stock lets you ignore 1990s-2000s bankruptcy/competition scares entirely."
+    },
+    "pitfalls": {
+      "vi": "SAP từng mất hơn 70% giá trị trong vụ sụp đổ Neuer Markt/dot-com 2000-2003; cần kỷ luật giữ dài hạn thay vì bán tháo khi thị trường hoảng loạn.",
+      "en": "SAP still lost over 70% of its value in the 2000-2003 dot-com crash — you need the discipline to hold through panics rather than sell."
+    },
+    "quiz": {
+      "question": {
+        "vi": "SAP niêm yết lần đầu vào năm nào?",
+        "en": "In what year did SAP first go public?"
+      },
+      "choices": [
+        {
+          "vi": "1988",
+          "en": "1988"
+        },
+        {
+          "vi": "1995",
+          "en": "1995"
+        },
+        {
+          "vi": "2000",
+          "en": "2000"
+        },
+        {
+          "vi": "1972",
+          "en": "1972"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "SAP IPO ngày 4/11/1988 với giá tham chiếu 753,06 DM, theo trang quan hệ nhà đầu tư chính thức của SAP.",
+        "en": "SAP IPO'd on 4 November 1988 at a reference price of 753.06 DM, per SAP's official investor relations page."
+      }
+    },
+    "sources": [
+      {
+        "title": "FAQ - SAP Investor Relations",
+        "url": "https://www.sap.com/investors/en/resources/faq.html"
+      },
+      {
+        "title": "SAP Integrated Report 2024",
+        "url": "https://www.sap.com/docs/download/investors/2024/sap-2024-integrated-report.pdf"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "IPO date and price (4 Nov 1988, 753.06 DM/385.03 EUR) confirmed by SAP IR FAQ; 2024 market cap (~EUR 270bn) and DAX performance share confirmed by SAP's 2024 Integrated Report. Entry/exit price fields omitted because multiple stock splits since 1988 make a raw IPO-to-today price comparison invalid."
+  },
+  {
+    "id": "de-reunification-dax-1990",
+    "country": "de",
+    "date": "1990-10-03",
+    "category": "macro",
+    "title": {
+      "vi": "Tái thống nhất nước Đức 1990",
+      "en": "German Reunification 1990"
+    },
+    "summary": {
+      "vi": "Mua cổ phiếu Tây Đức trước ngày tái thống nhất 3/10/1990, cưỡi làn sóng tăng trưởng cả thập niên.",
+      "en": "Buy West German blue-chips before reunification on 3 Oct 1990 and ride the decade-long boom."
+    },
+    "description": {
+      "vi": "Khi Đông và Tây Đức hợp nhất ngày 3/10/1990, thị trường Tây Đức đã kỳ vọng sẵn nhưng vẫn biến động mạnh vì chi phí tái thiết và lãi suất Bundesbank tăng khiến DAX giảm 21,9% trong năm 1990 (đóng cửa 1.398,23 điểm). Tuy nhiên từ đáy đó, DAX tăng gần 6 lần lên đỉnh 8.136,16 điểm vào tháng 3/2000 nhờ làn sóng tư nhân hoá, hội nhập châu Âu và bùng nổ công nghệ.",
+      "en": "When East and West Germany merged on 3 October 1990, Bundesbank rate hikes and reunification costs dragged the DAX down 21.9% that year to a close of 1,398.23 points. But from that base the index rose nearly six-fold to a peak of 8,136.16 points in March 2000, fuelled by privatizations, EU integration and the tech boom."
+    },
+    "opportunity": {
+      "asset": "DAX Index",
+      "action": {
+        "vi": "Mua và nắm giữ rổ cổ phiếu DAX ngay sau khi giá giảm cuối 1990",
+        "en": "Buy and hold a DAX basket right after the 1990 dip"
+      },
+      "buyWhen": {
+        "vi": "Cuối năm 1990, sau cú giảm do chi phí tái thiết",
+        "en": "Late 1990, after the reunification-cost selloff"
+      },
+      "sellWhen": {
+        "vi": "Quanh đỉnh bong bóng dot-com, tháng 3/2000",
+        "en": "Near the dot-com bubble peak, March 2000"
+      },
+      "estimatedReturn": {
+        "vi": "Tăng khoảng gần 6 lần trong một thập kỷ",
+        "en": "Roughly six-fold over the decade"
+      },
+      "returnMultiple": 5.82,
+      "entryPrice": 1398.23,
+      "exitPrice": 8136.16,
+      "priceCurrency": "points",
+      "exitDate": "2000-03",
+      "risk": "medium",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết trước rằng chi phí tái thiết Đông Đức sẽ gây đau đớn ngắn hạn nhưng Đức sẽ trở thành nền kinh tế lớn nhất châu Âu, nên mạnh dạn mua đáy 1990 thay vì hoảng sợ bán.",
+      "en": "Knowing the pain of East German reconstruction costs was temporary and Germany would become Europe's largest economy lets you buy the 1990 dip instead of panic-selling."
+    },
+    "pitfalls": {
+      "vi": "Đừng dùng đòn bẩy quá đà vì DAX vẫn mất hơn 20% năm 1990 trước khi phục hồi; cũng cần bán trước khi bong bóng Neuer Markt/dot-com vỡ năm 2000.",
+      "en": "Avoid heavy leverage — the DAX still fell over 20% in 1990 before recovering, and you must exit before the Neuer Markt/dot-com bubble bursts in 2000."
+    },
+    "quiz": {
+      "question": {
+        "vi": "DAX đóng cửa năm 1990 ở mức bao nhiêu điểm sau cú giảm do chi phí tái thống nhất?",
+        "en": "Where did the DAX close in 1990 after the reunification-cost selloff?"
+      },
+      "choices": [
+        {
+          "vi": "1.398,23 điểm",
+          "en": "1,398.23 points"
+        },
+        {
+          "vi": "3.000 điểm",
+          "en": "3,000 points"
+        },
+        {
+          "vi": "8.136 điểm",
+          "en": "8,136 points"
+        },
+        {
+          "vi": "500 điểm",
+          "en": "500 points"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "Theo Wikipedia, DAX giảm 21,9% trong năm 1990, đóng cửa ở 1.398,23 điểm.",
+        "en": "Per Wikipedia's DAX annual-returns table, the index fell 21.9% in 1990 to close at 1,398.23 points."
+      }
+    },
+    "sources": [
+      {
+        "title": "DAX - Wikipedia (annual returns table)",
+        "url": "https://en.wikipedia.org/wiki/DAX"
+      },
+      {
+        "title": "DAX: 36 years tracking the German stock market's eventful run - STOXX",
+        "url": "https://stoxx.com/dax-36-years-tracking-the-german-stock-markets-eventful-run/"
+      },
+      {
+        "title": "Facts from 30 years of DAX - Boerse Frankfurt",
+        "url": "https://live.deutsche-boerse.com/en/know-how/about/geschichte-der-frankfurter-wertpapierboerse/facts-from-30-years-of-dax"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed 1990 DAX close (1,398.23, -21.9%) via Wikipedia DAX table; confirmed March 2000 peak 8,136.16 via Boerse Frankfurt; confirmed 'nearly six-fold' framing via STOXX analysis."
+  },
+  {
+    "id": "de-deutsche-telekom-ipo-1996",
+    "country": "de",
+    "date": "1996-11-18",
+    "category": "stocks",
+    "title": {
+      "vi": "IPO 'Cổ phiếu quốc dân' Deutsche Telekom",
+      "en": "Deutsche Telekom 'Volksaktie' IPO"
+    },
+    "summary": {
+      "vi": "Mua T-Aktie ở giá IPO 14,57 EUR rồi bán trước khi nó rơi khỏi đỉnh 104,90 EUR năm 2000.",
+      "en": "Buy the T-share at its 14.57 EUR IPO price, then sell before it collapses from its 104.90 EUR 2000 peak."
+    },
+    "description": {
+      "vi": "Ngày 18/11/1996, Deutsche Telekom IPO với giá 28,50 DM (14,57 EUR) mỗi cổ phiếu, được quảng bá rầm rộ như 'cổ phiếu quốc dân' (Volksaktie) với sự xuất hiện của diễn viên Manfred Krug. Nhờ cơn sốt dot-com, giá cổ phiếu tăng vọt lên đỉnh 104,90 EUR vào ngày 6/3/2000 trước khi sụp đổ, khiến hàng triệu nhà đầu tư cá nhân Đức mất tiền và mất niềm tin vào thị trường chứng khoán.",
+      "en": "On 18 November 1996 Deutsche Telekom IPO'd at 28.50 DM (14.57 EUR) per share in a massive ad campaign starring actor Manfred Krug, marketed as the 'people's share' (Volksaktie). Riding the dot-com mania it peaked at 104.90 EUR on 6 March 2000 before crashing, wiping out millions of first-time German retail investors."
+    },
+    "opportunity": {
+      "asset": "Deutsche Telekom (DTE)",
+      "action": {
+        "vi": "Mua ở đợt IPO, bán toàn bộ gần đỉnh 2000",
+        "en": "Buy the IPO allocation, fully exit near the 2000 peak"
+      },
+      "buyWhen": {
+        "vi": "18/11/1996, ngày IPO",
+        "en": "18 November 1996, IPO day"
+      },
+      "sellWhen": {
+        "vi": "Đầu tháng 3/2000, trước khi bong bóng dot-com vỡ",
+        "en": "Early March 2000, before the dot-com bust"
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng 7 lần tiền gốc trong hơn 3 năm",
+        "en": "Roughly 7x in just over three years"
+      },
+      "returnMultiple": 7.2,
+      "entryPrice": 14.57,
+      "exitPrice": 104.9,
+      "priceCurrency": "EUR",
+      "exitDate": "2000-03-06",
+      "risk": "medium",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Người du hành thời gian biết chính xác ngày đỉnh 6/3/2000 — hãy đặt lệnh bán trước đó, vì sau đó cổ phiếu gần như không bao giờ quay lại mức này.",
+      "en": "A time traveler knows the exact peak date of 6 March 2000 — place the sell order before then, because the stock essentially never returns to that level afterward."
+    },
+    "pitfalls": {
+      "vi": "Nhiều người giữ T-Aktie vì lòng tin vào 'cổ phiếu quốc dân' và thua lỗ nặng khi giá rơi về dưới mệnh giá IPO trong các năm sau.",
+      "en": "Many retail holders stayed loyal to the 'people's share' narrative and suffered deep losses as the price fell back below the IPO level in later years."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Giá IPO của Deutsche Telekom năm 1996 là bao nhiêu?",
+        "en": "What was Deutsche Telekom's 1996 IPO price?"
+      },
+      "choices": [
+        {
+          "vi": "50 EUR",
+          "en": "50 EUR"
+        },
+        {
+          "vi": "14,57 EUR (28,50 DM)",
+          "en": "14.57 EUR (28.50 DM)"
+        },
+        {
+          "vi": "100 DM",
+          "en": "100 DM"
+        },
+        {
+          "vi": "5 EUR",
+          "en": "5 EUR"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Telekom.com và Deutsche Börse xác nhận giá IPO là 28,50 DM, tương đương 14,57 EUR.",
+        "en": "Telekom.com and Deutsche Börse confirm the IPO price was 28.50 DM, equivalent to 14.57 EUR."
+      }
+    },
+    "sources": [
+      {
+        "title": "Company History - Deutsche Telekom",
+        "url": "https://www.telekom.com/en/about-us/company-history"
+      },
+      {
+        "title": "Deutsche Telekom - Wikipedia (DE)",
+        "url": "https://de.wikipedia.org/wiki/Deutsche_Telekom"
+      },
+      {
+        "title": "20 Jahre T-Aktie - BR.de",
+        "url": "https://www.br.de/radio/bayern2/sendungen/notizbuch/telekom-aktie-volksaktie-100.html"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "IPO price 28.50 DM / 14.57 EUR confirmed by telekom.com and de.wikipedia.org; peak of 104.90 EUR on 6 March 2000 confirmed by de.wikipedia.org."
+  },
+  {
+    "id": "de-neuer-markt-bubble-2000",
+    "country": "de",
+    "date": "2000-03-10",
+    "category": "stocks",
+    "title": {
+      "vi": "Bong bóng Neuer Markt vỡ tung",
+      "en": "Neuer Markt Bubble Bursts"
+    },
+    "summary": {
+      "vi": "Nemax 50 đạt đỉnh 9.666 điểm rồi mất hơn 96% giá trị trong 31 tháng — tránh xa hoặc bán khống.",
+      "en": "The Nemax 50 peaked at 9,666 points then lost over 96% in 31 months — avoid or short it."
+    },
+    "description": {
+      "vi": "Sàn Neuer Markt (mở năm 1997 theo mô hình Nasdaq) và chỉ số chủ chốt Nemax 50 đạt đỉnh lịch sử 9.666 điểm ngày 10/3/2000 với vốn hoá hơn 230 tỷ EUR cho khoảng 229-300 công ty công nghệ. Sau khi bong bóng dot-com vỡ và vụ khủng bố 11/9/2001, chỉ số rơi xuống chỉ còn 318 điểm vào ngày 9/10/2002 — mất hơn 96% giá trị — buộc Deutsche Börse phải đóng cửa hẳn sàn này vào 5/6/2003.",
+      "en": "The Neuer Markt segment (launched 1997, modeled on Nasdaq) and its Nemax 50 benchmark hit an all-time high of 9,666 points on 10 March 2000, valuing roughly 229-300 listed tech firms at over EUR 230 billion. After the dot-com bust and the 9/11 attacks, the index collapsed to just 318 points by 9 October 2002 — a loss of more than 96% — forcing Deutsche Börse to shut the segment entirely on 5 June 2003."
+    },
+    "opportunity": {
+      "asset": "Nemax 50 Index",
+      "action": {
+        "vi": "Tránh mua hoặc bán khống các cổ phiếu Neuer Markt quanh đỉnh",
+        "en": "Avoid buying, or short Neuer Markt stocks, near the peak"
+      },
+      "buyWhen": {
+        "vi": "Không nên mua — hoặc bán khống ngay sau đỉnh 10/3/2000",
+        "en": "Do not buy — or open a short right after the 10 Mar 2000 peak"
+      },
+      "sellWhen": {
+        "vi": "Đóng vị thế khi chỉ số chạm đáy khoảng cuối 2002",
+        "en": "Cover around the index bottom in late 2002"
+      },
+      "estimatedReturn": {
+        "vi": "Mất hơn 96% nếu mua tại đỉnh; lãi lớn nếu bán khống",
+        "en": "Over 96% loss if bought at the peak; large gains if shorted"
+      },
+      "returnMultiple": 0.033,
+      "entryPrice": 9666,
+      "exitPrice": 318,
+      "priceCurrency": "points",
+      "exitDate": "2002-10-09",
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết trước ngày đỉnh chính xác 10/3/2000 cho phép bạn thoát toàn bộ vị thế công nghệ Đức hoặc mở vị thế bán khống đúng lúc thị trường quay đầu ngay hôm sau.",
+      "en": "Knowing the exact peak date of 10 March 2000 lets you exit all German tech positions — or open a short — right as the market turns the very next day."
+    },
+    "pitfalls": {
+      "vi": "Bán khống sớm quá sẽ bị thiêu rụi bởi đà tăng điên cuồng trước đó (cổ phiếu như Mobilcom tăng 2.800% trong năm đầu); cần đúng thời điểm.",
+      "en": "Shorting too early gets burned by the preceding mania (Mobilcom rose 2,800% in its first year) — timing right at the top matters."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Nemax 50 giảm bao nhiêu phần trăm từ đỉnh tháng 3/2000 đến đáy tháng 10/2002?",
+        "en": "How much did the Nemax 50 fall from its March 2000 peak to its October 2002 low?"
+      },
+      "choices": [
+        {
+          "vi": "Khoảng 30%",
+          "en": "About 30%"
+        },
+        {
+          "vi": "Khoảng 50%",
+          "en": "About 50%"
+        },
+        {
+          "vi": "Hơn 96%",
+          "en": "Over 96%"
+        },
+        {
+          "vi": "Khoảng 10%",
+          "en": "About 10%"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "Theo Wikipedia tiếng Đức, chỉ số giảm từ 9.666 xuống 318 điểm, tức hơn 96% trong 31 tháng.",
+        "en": "Per German Wikipedia, the index fell from 9,666 to 318 points — over 96% — in 31 months."
+      }
+    },
+    "sources": [
+      {
+        "title": "Neuer Markt - Wikipedia (DE)",
+        "url": "https://de.wikipedia.org/wiki/Neuer_Markt"
+      },
+      {
+        "title": "Hoehepunkt des Irrsinns - computerwoche.de",
+        "url": "https://www.computerwoche.de/article/2634569/neuer-markt-vor-zehn-jahren-auf-rekordhoch.html"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Peak of 9,666/9,694 points on 10 March 2000 and collapse to ~306-318 points in Oct 2002 (>96% loss) confirmed by two independent German sources."
+  },
+  {
+    "id": "de-infineon-spinoff-ipo-2000",
+    "country": "de",
+    "date": "2000-03-13",
+    "category": "technology",
+    "title": {
+      "vi": "IPO Infineon và cú sập 99% sau đó",
+      "en": "Infineon's IPO and Its Subsequent 99% Crash"
+    },
+    "summary": {
+      "vi": "Infineon IPO ở 35 EUR, tăng gấp đôi ngay trong ngày rồi rơi xuống chỉ còn 0,44 EUR vào năm 2009.",
+      "en": "Infineon IPO'd at EUR 35, doubled on debut day, then crashed to just EUR 0.44 by 2009."
+    },
+    "description": {
+      "vi": "Ngày 13/3/2000, Infineon Technologies — công ty bán dẫn được Siemens tách ra — IPO đồng thời tại Frankfurt và New York với giá 35 EUR/cổ phiếu, được đặt mua vượt mức 33 lần. Giá đóng cửa ngày đầu tiên đã tăng gấp đôi lên khoảng 70 EUR. Tuy nhiên sau khi bong bóng dot-com vỡ và ngành bán dẫn rơi vào khủng hoảng chu kỳ, cổ phiếu lao dốc không phanh, có lúc chỉ còn 0,44 EUR vào năm 2009 giữa khủng hoảng tài chính toàn cầu — mất hơn 98% giá trị so với giá IPO.",
+      "en": "On 13 March 2000, Infineon Technologies — the semiconductor unit spun off from Siemens — IPO'd simultaneously in Frankfurt and New York at EUR 35 per share, oversubscribed 33 times. The stock doubled on its first day to about EUR 70. But after the dot-com bubble burst and the chip industry hit a cyclical crisis, the stock collapsed, falling to as low as EUR 0.44 in 2009 amid the global financial crisis — a loss of over 98% from the IPO price."
+    },
+    "opportunity": {
+      "asset": "Infineon Technologies (IFX)",
+      "action": {
+        "vi": "Mua cổ phiếu IPO rồi bán ngay trong ngày đầu tiên khi giá tăng gấp đôi; tuyệt đối tránh giữ dài hạn qua 2001-2009",
+        "en": "Flip the IPO allocation on day one when the price doubles; absolutely avoid holding long-term through 2001-2009"
+      },
+      "buyWhen": {
+        "vi": "13/3/2000, giá IPO 35 EUR",
+        "en": "13 March 2000, at the IPO price of EUR 35"
+      },
+      "sellWhen": {
+        "vi": "Ngay trong ngày giao dịch đầu tiên, khi giá đạt khoảng 70 EUR",
+        "en": "On the very first trading day, once the price reached about EUR 70"
+      },
+      "estimatedReturn": {
+        "vi": "Gấp đôi trong một ngày nếu bán ngay; mất hơn 98% nếu giữ tới 2009",
+        "en": "Doubled in a single day if flipped immediately; lost over 98% if held to 2009"
+      },
+      "returnMultiple": 0.0126,
+      "entryPrice": 35,
+      "exitPrice": 0.44,
+      "priceCurrency": "EUR",
+      "exitDate": "2009",
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết trước ngành bán dẫn sẽ trải qua chu kỳ bùng-vỡ dữ dội suốt thập niên 2000, bạn chỉ nên lướt sóng ngày IPO để chốt lời gấp đôi, tuyệt đối không giữ Infineon như một khoản đầu tư 'mua và quên'.",
+      "en": "Knowing the chip industry will go through brutal boom-bust cycles throughout the 2000s, you should only flip the IPO for a quick double — never treat Infineon as a 'buy and forget' holding."
+    },
+    "pitfalls": {
+      "vi": "Đây là bài học kinh điển về rủi ro của các vụ IPO tách công ty con thời bong bóng dot-com: giá tăng vì hưng phấn ngắn hạn chứ không phản ánh nền tảng kinh doanh của một ngành có tính chu kỳ cao.",
+      "en": "This is a textbook lesson in the risk of dot-com-era spinoff IPOs: the price rose on short-term euphoria, not the fundamentals of a highly cyclical industry."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Infineon IPO với giá bao nhiêu vào tháng 3/2000?",
+        "en": "At what price did Infineon IPO in March 2000?"
+      },
+      "choices": [
+        {
+          "vi": "100 EUR",
+          "en": "EUR 100"
+        },
+        {
+          "vi": "350 EUR",
+          "en": "EUR 350"
+        },
+        {
+          "vi": "3,5 EUR",
+          "en": "EUR 3.5"
+        },
+        {
+          "vi": "35 EUR",
+          "en": "EUR 35"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "vi": "Trang quan hệ nhà đầu tư của Infineon xác nhận giá IPO là 35 EUR/cổ phiếu ngày 13/3/2000.",
+        "en": "Infineon's own investor relations page confirms the IPO price was EUR 35 per share on 13 March 2000."
+      }
+    },
+    "sources": [
+      {
+        "title": "Infineon share - official investor relations",
+        "url": "https://www.infineon.com/about/investor/infineon-share"
+      },
+      {
+        "title": "Infineon: From Siemens Spin-off to Global Leader - all-about-industries.com",
+        "url": "https://www.all-about-industries.com/from-siemens-spin-off-to-global-market-leader-the-milestones-of-infineon-a-5b142ad876ebd8365536689c06afa8f1/"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "IPO price of EUR 35 on 13 Mar 2000 confirmed by Infineon's own investor relations page; the doubling on debut day, subsequent fall to ~EUR 35 by early 2001, and further collapse to as low as EUR 0.44 by spring 2009 confirmed by all-about-industries.com and EE Times reporting."
+  },
+  {
+    "id": "de-euro-cash-launch-2002",
+    "country": "de",
+    "date": "2002-01-01",
+    "category": "macro",
+    "title": {
+      "vi": "Ra mắt tiền mặt đồng Euro",
+      "en": "Euro Cash Launch"
+    },
+    "summary": {
+      "vi": "Biết trước tỷ giá cố định 1 EUR = 1,95583 DM giúp quy đổi tài sản DM chính xác trước ngày chuyển đổi.",
+      "en": "Knowing the fixed rate of 1 EUR = 1.95583 DM in advance lets you convert DM assets precisely before the changeover."
+    },
+    "description": {
+      "vi": "Ngày 1/1/2002, tiền giấy và xu Euro chính thức thay thế Deutsche Mark tại Đức theo tỷ giá cố định đã ấn định từ 1999: 1 EUR = 1,95583 DM. Người Đức có thể đổi DM sang Euro miễn phí tại Bundesbank vô thời hạn, nhưng nhiều doanh nghiệp đã lợi dụng việc làm tròn giá để tăng giá ngầm, gây ra hiện tượng lạm phát cảm nhận được gọi là 'Teuro'.",
+      "en": "On 1 January 2002, euro banknotes and coins officially replaced the Deutsche Mark in Germany at the fixed rate set back in 1999: 1 EUR = 1.95583 DM. Germans can still exchange old DM for euros free of charge at the Bundesbank indefinitely, but many businesses used the rounding of prices to quietly raise them, a phenomenon nicknamed 'Teuro' (expensive-euro)."
+    },
+    "opportunity": {
+      "asset": "DEM/EUR fixed conversion",
+      "action": {
+        "vi": "Chuyển đổi tiền mặt/tài sản định giá DM sang EUR đúng tỷ giá trước khi tâm lý 'Teuro' đẩy giá hàng hoá lên",
+        "en": "Convert DM-denominated cash/assets at the exact fixed rate before 'Teuro' price-rounding pushes up the cost of goods"
+      },
+      "buyWhen": {
+        "vi": "Trước 1/1/2002",
+        "en": "Before 1 January 2002"
+      },
+      "sellWhen": {
+        "vi": null,
+        "en": null
+      },
+      "estimatedReturn": {
+        "vi": "Không phải giao dịch sinh lời trực tiếp mà là bảo toàn sức mua trước lạm phát cảm nhận",
+        "en": "Not a direct profit trade — it preserves purchasing power ahead of perceived 'Teuro' inflation"
+      },
+      "risk": "low",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Người du hành thời gian biết chính xác tỷ giá 1,95583 từ năm 1999, nên có thể khoá hợp đồng hoặc giá cả bằng DM trước ngày chuyển đổi để tránh bị làm tròn giá bất lợi.",
+      "en": "A time traveler knows the exact 1.95583 rate from 1999 onward and can lock contracts or prices in DM before the changeover to avoid unfavourable rounding."
+    },
+    "pitfalls": {
+      "vi": "Hàng chục tỷ DM tiền mặt vẫn chưa được đổi lại nhiều năm sau — đừng quên đổi tiền giấy/xu cũ vì Bundesbank vẫn nhận đổi miễn phí vô thời hạn.",
+      "en": "Billions of DM in cash remained unexchanged years later — don't forget to redeem old notes/coins, since the Bundesbank accepts them free of charge indefinitely."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Tỷ giá cố định giữa Euro và Deutsche Mark là bao nhiêu?",
+        "en": "What was the fixed conversion rate between the euro and the Deutsche Mark?"
+      },
+      "choices": [
+        {
+          "vi": "1 EUR = 3 DM",
+          "en": "1 EUR = 3 DM"
+        },
+        {
+          "vi": "1 EUR = 2,5 DM",
+          "en": "1 EUR = 2.5 DM"
+        },
+        {
+          "vi": "1 EUR = 1 DM",
+          "en": "1 EUR = 1 DM"
+        },
+        {
+          "vi": "1 EUR = 1,95583 DM",
+          "en": "1 EUR = 1.95583 DM"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "vi": "Bundesbank và Uỷ ban châu Âu xác nhận tỷ giá cố định là 1 EUR = 1,95583 DM.",
+        "en": "The Bundesbank and the European Commission confirm the fixed rate was 1 EUR = 1.95583 DM."
+      }
+    },
+    "sources": [
+      {
+        "title": "Euro cash turns 20! - Deutsche Bundesbank",
+        "url": "https://www.bundesbank.de/en/tasks/topics/euro-cash-turns-20--856390"
+      },
+      {
+        "title": "Germany and the euro - European Commission",
+        "url": "https://economy-finance.ec.europa.eu/euro/eu-countries-and-euro/germany-and-euro_en"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Fixed rate 1 EUR = 1.95583 DEM and 1 Jan 2002 cash launch date confirmed by Bundesbank and European Commission."
+  },
+  {
+    "id": "de-dax-low-2003",
+    "country": "de",
+    "date": "2003-03-12",
+    "category": "stocks",
+    "title": {
+      "vi": "Bắt đáy DAX hậu bong bóng dot-com 2003",
+      "en": "Buying the DAX Bottom After the Dot-Com Bust"
+    },
+    "summary": {
+      "vi": "DAX chạm đáy 2.202,96 điểm tháng 3/2003 rồi tăng 3,7 lần lên đỉnh mới năm 2007.",
+      "en": "The DAX bottomed at 2,202.96 points in March 2003, then rose 3.7x to a new high in 2007."
+    },
+    "description": {
+      "vi": "Sau khi bong bóng dot-com vỡ, DAX giảm 73% từ đỉnh 8.136,16 điểm (tháng 3/2000) xuống đáy 2.202,96 điểm vào ngày 12/3/2003 — mức thấp nhất trong nhiều năm, giữa lúc lo ngại chiến tranh Iraq và suy thoái kinh tế Đức. Từ đáy đó, chỉ số phục hồi mạnh mẽ, tăng 37% ngay trong năm 2003 và tiếp tục leo lên đỉnh mới 8.151,57 điểm vào ngày 13/7/2007 — gấp khoảng 3,7 lần so với đáy.",
+      "en": "After the dot-com bubble burst, the DAX fell 73% from its March 2000 peak of 8,136.16 points to a low of 2,202.96 points on 12 March 2003 — a multi-year low amid Iraq War fears and German recession. From that bottom, the index rebounded sharply, rising 37% in 2003 alone and climbing to a new high of 8,151.57 points on 13 July 2007 — about 3.7x the low."
+    },
+    "opportunity": {
+      "asset": "DAX Index",
+      "action": {
+        "vi": "Mua rổ cổ phiếu DAX (hoặc hợp đồng tương lai/ETF) đúng đáy tháng 3/2003",
+        "en": "Buy a DAX basket (or futures/ETF) right at the March 2003 bottom"
+      },
+      "buyWhen": {
+        "vi": "12/3/2003, đáy thị trường",
+        "en": "12 March 2003, the market bottom"
+      },
+      "sellWhen": {
+        "vi": "Tháng 7/2007, gần đỉnh trước khủng hoảng tài chính toàn cầu",
+        "en": "July 2007, near the peak before the global financial crisis"
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng 3,7 lần trong hơn 4 năm",
+        "en": "Roughly 3.7x over just over four years"
+      },
+      "returnMultiple": 3.7,
+      "entryPrice": 2202.96,
+      "exitPrice": 8151.57,
+      "priceCurrency": "points",
+      "exitDate": "2007-07-13",
+      "risk": "medium",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết trước ngày 12/3/2003 là đáy chính xác của chu kỳ dot-com cho phép bạn dồn vốn vào đúng thời điểm thị trường bi quan nhất, thay vì đoán mò đáy như nhà đầu tư thông thường.",
+      "en": "Knowing 12 March 2003 is the exact bottom of the dot-com cycle lets you deploy capital at peak pessimism instead of guessing the bottom like ordinary investors."
+    },
+    "pitfalls": {
+      "vi": "Thị trường vẫn còn biến động mạnh quanh chiến tranh Iraq (bắt đầu 20/3/2003) ngay sau đáy, nên cần vững tâm lý trước các đợt rung lắc ngắn hạn.",
+      "en": "Markets remained volatile around the Iraq War's start (20 March 2003) right after the bottom, so you need the nerve to withstand short-term aftershocks."
+    },
+    "quiz": {
+      "question": {
+        "vi": "DAX chạm đáy ở mức bao nhiêu điểm vào ngày 12/3/2003?",
+        "en": "What level did the DAX bottom at on 12 March 2003?"
+      },
+      "choices": [
+        {
+          "vi": "1.000 điểm",
+          "en": "1,000 points"
+        },
+        {
+          "vi": "8.136 điểm",
+          "en": "8,136 points"
+        },
+        {
+          "vi": "5.000 điểm",
+          "en": "5,000 points"
+        },
+        {
+          "vi": "2.202,96 điểm",
+          "en": "2,202.96 points"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "vi": "Börse Frankfurt xác nhận DAX đóng cửa ở 2.202,96 điểm ngày 12/3/2003, mức thấp nhất sau khi bong bóng dot-com vỡ.",
+        "en": "Börse Frankfurt confirms the DAX closed at 2,202.96 points on 12 March 2003, the low point after the dot-com bust."
+      }
+    },
+    "sources": [
+      {
+        "title": "Facts from 30 years of DAX - Boerse Frankfurt",
+        "url": "https://live.deutsche-boerse.com/en/know-how/about/geschichte-der-frankfurter-wertpapierboerse/facts-from-30-years-of-dax"
+      },
+      {
+        "title": "DAX: 36 years tracking the German stock market's eventful run - STOXX",
+        "url": "https://stoxx.com/dax-36-years-tracking-the-german-stock-markets-eventful-run/"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Low of 2,202.96 on 12 Mar 2003 and subsequent 2007 high of 8,151.57 on 13 Jul 2007 both confirmed directly by Boerse Frankfurt's official 'Facts from 30 years of DAX' page; the 73% peak-to-trough decline cross-confirmed by STOXX."
+  },
+  {
+    "id": "de-puma-kering-spinoff",
+    "country": "de",
+    "date": "2007-04-10",
+    "category": "business",
+    "title": {
+      "vi": "PPR/Kering mua rồi thoái vốn khỏi Puma",
+      "en": "PPR/Kering's Buyout and Later Exit from Puma"
+    },
+    "summary": {
+      "vi": "PPR trả 330 EUR/cổ phiếu mua Puma năm 2007, nhưng cổ phiếu chỉ sinh lời 5,7% trong hơn 1 thập kỷ do Kering nắm giữ — kém xa Adidas và Nike.",
+      "en": "PPR paid EUR 330/share for Puma in 2007, yet the stock returned just 5.7% during Kering's decade-plus ownership — far behind Adidas and Nike."
+    },
+    "description": {
+      "vi": "Ngày 10/4/2007, tập đoàn xa xỉ Pháp PPR (sau đổi tên thành Kering) công bố mua lại 27% cổ phần Puma và đề nghị mua toàn bộ với giá 330 EUR/cổ phiếu, định giá Puma 5,3 tỷ EUR; tới tháng 7/2007 PPR đã sở hữu hơn 60%. Tuy nhiên, trong suốt thời gian thuộc sở hữu Kering, Puma hoạt động kém hiệu quả: cổ phiếu chỉ mang lại tổng lợi nhuận (gồm cổ tức) 5,7% tính đến đầu 2018 — so với 89% của DAX, 360% của Adidas và 454% của Nike trong cùng giai đoạn. Tháng 1/2018, Kering công bố tách Puma ra khỏi tập đoàn, khiến cổ phiếu Puma giảm 16% ngay trong phiên vì lo ngại áp lực bán từ cổ đông Kering.",
+      "en": "On 10 April 2007, French luxury group PPR (later renamed Kering) announced it had bought a 27% stake in Puma and would make a full takeover offer at EUR 330 per share, valuing Puma at EUR 5.3 billion; by July 2007 PPR owned over 60%. Yet throughout Kering's ownership, Puma underperformed badly: the stock returned just 5.7% including dividends through early 2018, versus 89% for the DAX, 360% for Adidas and 454% for Nike over the same period. In January 2018, Kering announced it would spin Puma off, and Puma shares fell 16% that same session on fears of selling pressure from Kering shareholders receiving the distribution."
+    },
+    "opportunity": {
+      "asset": "Puma SE (PUM) vs Adidas (ADS)",
+      "action": {
+        "vi": "Tránh mua Puma theo giá thâu tóm 330 EUR của PPR; thay vào đó nên nắm giữ đối thủ Adidas hoặc Nike trong cùng giai đoạn",
+        "en": "Avoid buying Puma at PPR's EUR 330 takeover price; hold rival Adidas or Nike over the same period instead"
+      },
+      "buyWhen": {
+        "vi": "Nếu muốn đầu tư ngành thể thao Đức, chọn Adidas thay vì Puma năm 2007",
+        "en": "If investing in German sportswear in 2007, pick Adidas instead of Puma"
+      },
+      "sellWhen": {
+        "vi": null,
+        "en": null
+      },
+      "estimatedReturn": {
+        "vi": "Puma chỉ lãi 5,7% trong hơn 1 thập kỷ dưới thời Kering, so với 360% của Adidas",
+        "en": "Puma returned just 5.7% over a decade-plus under Kering, versus 360% for Adidas"
+      },
+      "risk": "medium",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết trước Puma sẽ tụt hậu xa so với Adidas và Nike trong giai đoạn 2007-2018 dù cùng ngành thể thao, bạn có thể chọn đúng 'con ngựa thắng' ngay từ đầu thay vì theo tên tuổi quen thuộc.",
+      "en": "Knowing Puma will badly lag Adidas and Nike in the same sportswear sector from 2007-2018 lets you pick the right horse from the start instead of following a familiar brand name."
+    },
+    "pitfalls": {
+      "vi": "Việc một tập đoàn mẹ lớn mua lại không đảm bảo cổ phiếu con sẽ tăng trưởng tốt — quản trị, chiến lược thương hiệu và mức độ ưu tiên đầu tư nội bộ cũng quan trọng không kém ngành kinh doanh.",
+      "en": "Being acquired by a large parent group doesn't guarantee strong stock performance — governance, brand strategy and internal capital-allocation priorities matter just as much as the industry."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Puma mang lại tổng lợi nhuận bao nhiêu phần trăm trong thời gian thuộc sở hữu của Kering (2007-2018)?",
+        "en": "What total return did Puma generate during Kering's ownership (2007-2018)?"
+      },
+      "choices": [
+        {
+          "vi": "1.000%",
+          "en": "1,000%"
+        },
+        {
+          "vi": "360%",
+          "en": "360%"
+        },
+        {
+          "vi": "454%",
+          "en": "454%"
+        },
+        {
+          "vi": "Chỉ 5,7%",
+          "en": "Just 5.7%"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "vi": "Irish Times xác nhận Puma chỉ mang lại tổng lợi nhuận 5,7% (gồm cổ tức) trong giai đoạn này, so với 360% của Adidas và 454% của Nike.",
+        "en": "The Irish Times confirms Puma returned just 5.7% total (including dividends) over the period, versus 360% for Adidas and 454% for Nike."
+      }
+    },
+    "sources": [
+      {
+        "title": "Puma (brand) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Puma_(brand)"
+      },
+      {
+        "title": "Puma no longer fits for luxury group Kering - Irish Times",
+        "url": "https://www.irishtimes.com/business/retail-and-services/puma-no-longer-fits-for-luxury-group-kering-1.3353074"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "EUR 330/share PPR takeover price (2007) confirmed by Wikipedia; Puma's 5.7% total return vs Adidas's 360% and Nike's 454% through the Kering ownership period, plus the 16% drop on the January 2018 spin-off announcement, confirmed by the Irish Times."
+  },
+  {
+    "id": "de-porsche-vw-short-squeeze-2008",
+    "country": "de",
+    "date": "2008-10-28",
+    "category": "stocks",
+    "title": {
+      "vi": "Cú siết lệnh bán khống VW của Porsche",
+      "en": "Porsche's VW Short Squeeze"
+    },
+    "summary": {
+      "vi": "VW trở thành công ty giá trị nhất thế giới trong một ngày khi Porsche siết chết các quỹ bán khống.",
+      "en": "VW briefly became the world's most valuable company in a day as Porsche crushed short sellers."
+    },
+    "description": {
+      "vi": "Ngày 26/10/2008, Porsche tiết lộ đã kiểm soát 74,1% cổ phần VW qua cổ phiếu và quyền chọn, trong khi lượng cổ phiếu tự do giao dịch chỉ còn chưa tới 6%. Các quỹ phòng hộ từng bán khống ồ ạt VW buộc phải mua lại gấp để đóng vị thế, đẩy giá cổ phiếu VW tăng vọt, có lúc vượt mốc 1.000 EUR/cổ phiếu trong phiên 28/10/2008 — biến VW thành công ty vốn hoá lớn nhất thế giới, vượt cả Exxon Mobil, trước khi Porsche nới lỏng và giá rơi gần một nửa ngay hôm sau.",
+      "en": "On 26 October 2008, Porsche revealed it controlled 74.1% of VW via shares and options, leaving less than 6% of VW's stock freely tradable. Hedge funds that had piled into short positions were forced to scramble to cover, sending VW shares briefly above EUR 1,000 per share intraday on 28 October 2008 — momentarily making VW the world's most valuable company by market cap, ahead of Exxon Mobil — before Porsche eased its hedges and the price nearly halved the very next day."
+    },
+    "opportunity": {
+      "asset": "Volkswagen ordinary shares (VOW)",
+      "action": {
+        "vi": "Tránh bán khống VW quanh thời điểm này, hoặc mua trước thông báo của Porsche rồi bán ngay khi giá chạm đỉnh trong phiên",
+        "en": "Avoid shorting VW around this event, or buy ahead of Porsche's announcement and sell into the intraday spike"
+      },
+      "buyWhen": {
+        "vi": "Trước thông báo của Porsche ngày 26/10/2008",
+        "en": "Before Porsche's announcement on 26 October 2008"
+      },
+      "sellWhen": {
+        "vi": "Trong phiên 28/10/2008 khi giá vượt 1.000 EUR",
+        "en": "Intraday on 28 October 2008 once price topped EUR 1,000"
+      },
+      "estimatedReturn": {
+        "vi": "Giá cổ phiếu có lúc vượt 1.000 EUR trong phiên, tăng gấp nhiều lần trong vài ngày",
+        "en": "Shares briefly topped EUR 1,000 intraday, a multi-fold spike within days"
+      },
+      "exitPrice": 1000,
+      "priceCurrency": "EUR",
+      "exitDate": "2008-10-28",
+      "risk": "high",
+      "capital": "high"
+    },
+    "insiderTip": {
+      "vi": "Người du hành thời gian biết chính xác ngày 26/10/2008 Porsche sẽ công bố cổ phần 74,1%, nên có thể đặt lệnh mua trước và thoát ngay trong phiên 28/10 khi giá đạt đỉnh, tránh bị cuốn vào cú giảm 45% ngày hôm sau.",
+      "en": "A time traveler knows Porsche will disclose its 74.1% stake on 26 October 2008 exactly, so they can buy ahead of time and exit intraday on 28 October at the peak — avoiding the 45% plunge the very next day."
+    },
+    "pitfalls": {
+      "vi": "Đây là một trong những vụ siết lệnh bán khống nguy hiểm nhất lịch sử — nhiều quỹ phòng hộ phá sản; cổ phiếu giảm gần 45% chỉ một ngày sau đỉnh, nên timing phải cực kỳ chính xác.",
+      "en": "This is one of history's most dangerous short squeezes — several hedge funds collapsed; the stock fell nearly 45% just one day after the peak, so timing must be razor-precise."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Giá cổ phiếu VW đạt mức cao nhất khoảng bao nhiêu trong phiên 28/10/2008?",
+        "en": "Roughly what price did VW shares reach intraday on 28 October 2008?"
+      },
+      "choices": [
+        {
+          "vi": "Khoảng 200 EUR",
+          "en": "About EUR 200"
+        },
+        {
+          "vi": "Hơn 1.000 EUR",
+          "en": "Over EUR 1,000"
+        },
+        {
+          "vi": "Khoảng 50 EUR",
+          "en": "About EUR 50"
+        },
+        {
+          "vi": "Khoảng 500 EUR",
+          "en": "About EUR 500"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "CNBC và Reuters xác nhận giá VW vượt 1.000 EUR trong phiên giao dịch ngày 28/10/2008, đưa VW thành công ty vốn hoá lớn nhất thế giới trong thời gian ngắn.",
+        "en": "CNBC and Reuters confirm VW shares exceeded EUR 1,000 intraday on 28 October 2008, briefly making VW the world's largest company by market cap."
+      }
+    },
+    "sources": [
+      {
+        "title": "VW Briefly Rivals Exxon for Biggest Market Cap - CNBC",
+        "url": "https://www.cnbc.com/2008/10/28/vw-briefly-rivals-exxon-for-biggest-market-cap.html"
+      },
+      {
+        "title": "VW shares halve as Porsche eases short squeeze - Reuters",
+        "url": "https://www.reuters.com/article/markets/oil/vw-shares-halve-as-porsche-eases-short-squeeze-idUSLT075103/"
+      },
+      {
+        "title": "Short Sellers Responsible for Extreme Price Movements - Porsche SE",
+        "url": "https://www.porsche-se.com/en/media/press-releases/detail/short-sellers-responsible-for-extreme-price-movements-in-volkswagen-ordinary-shares-1"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Intraday price exceeding EUR 1,000 on 28 Oct 2008 and the ~45% drop the next day confirmed by CNBC and Reuters; Porsche's own press release confirms the 74.1% stake disclosure and short-squeeze dynamics. Precise pre-squeeze entry price was not found in a citable source, so entryPrice is omitted rather than guessed."
+  },
+  {
+    "id": "de-berlin-real-estate-boom",
+    "country": "de",
+    "date": "2009-01",
+    "category": "real-estate",
+    "title": {
+      "vi": "Bùng nổ bất động sản Berlin hậu khủng hoảng",
+      "en": "Berlin's Post-Crisis Real Estate Boom"
+    },
+    "summary": {
+      "vi": "Giá đất xây dựng tại Berlin tăng từ 200 EUR/m² (2009) lên 1.328 EUR/m² (2019) — gấp hơn 6,6 lần.",
+      "en": "Berlin's development-land prices rose from EUR 200/sqm (2009) to EUR 1,328/sqm (2019) — more than 6.6x."
+    },
+    "description": {
+      "vi": "Sau khủng hoảng tài chính 2008-2009, Berlin — khi đó vẫn là thủ đô 'nghèo nhưng quyến rũ' với giá nhà rẻ bậc nhất các thủ đô châu Âu — bắt đầu một thập kỷ tăng giá bất động sản chưa từng có. Theo Cục Thống kê Liên bang Đức, giá đất xây dựng sẵn sàng tại Berlin tăng từ 200 EUR/m² năm 2009 lên đỉnh 1.328 EUR/m² năm 2019 (trước khi điều chỉnh nhẹ còn 932 EUR/m² năm 2020) — tăng hơn 6,6 lần trong một thập kỷ nhờ dòng vốn đầu tư quốc tế, lãi suất gần 0% và tình trạng thiếu nhà ở trầm trọng.",
+      "en": "After the 2008-09 financial crisis, Berlin — then still Europe's 'poor but sexy' capital with some of the cheapest housing among major European capitals — began a decade of unprecedented real-estate appreciation. Per Germany's Federal Statistical Office, Berlin's price for development-ready land rose from EUR 200/sqm in 2009 to a peak of EUR 1,328/sqm in 2019 (before easing slightly to EUR 932/sqm in 2020) — a more than 6.6x gain in a decade, driven by international capital inflows, near-zero interest rates and a severe housing shortage."
+    },
+    "opportunity": {
+      "asset": "Berlin development land / residential property",
+      "action": {
+        "vi": "Mua đất hoặc căn hộ tại Berlin ngay sau khủng hoảng tài chính khi giá còn rất rẻ",
+        "en": "Buy land or apartments in Berlin right after the financial crisis while prices are still very cheap"
+      },
+      "buyWhen": {
+        "vi": "2009-2012, khi giá đất mới khoảng 200-346 EUR/m²",
+        "en": "2009-2012, when land prices were still only EUR 200-346/sqm"
+      },
+      "sellWhen": {
+        "vi": "2019, gần đỉnh chu kỳ trước khi chính sách kiểm soát giá thuê 'Mietendeckel' gây biến động năm 2020",
+        "en": "2019, near the cycle peak before the 'Mietendeckel' rent-control policy roiled the market in 2020"
+      },
+      "estimatedReturn": {
+        "vi": "Hơn 6,6 lần giá đất trong một thập kỷ",
+        "en": "Over 6.6x the land price in a decade"
+      },
+      "returnMultiple": 6.64,
+      "entryPrice": 200,
+      "exitPrice": 1328,
+      "priceCurrency": "EUR",
+      "exitDate": "2019",
+      "risk": "medium",
+      "capital": "high"
+    },
+    "insiderTip": {
+      "vi": "Biết trước Berlin sẽ trở thành điểm đến hàng đầu cho startup, nghệ sĩ và vốn đầu tư quốc tế, cộng với lãi suất ECB sẽ ở mức gần 0% suốt cả thập kỷ, bạn có thể mua bất động sản Berlin với giá 'không tưởng' trước khi cả thế giới nhận ra tiềm năng của thành phố.",
+      "en": "Knowing Berlin will become a top destination for startups, artists and international capital — plus that ECB rates will stay near zero for a decade — lets you buy Berlin property at 'unbelievable' prices before the world catches on."
+    },
+    "pitfalls": {
+      "vi": "Chính sách kiểm soát giá thuê 'Mietendeckel' (2020, sau đó bị Toà án Hiến pháp bác bỏ năm 2021) và các cuộc trưng cầu dân ý về quốc hữu hoá nhà ở lớn cho thấy rủi ro chính trị luôn hiện hữu ở thị trường này.",
+      "en": "The 2020 'Mietendeckel' rent cap (later struck down by Germany's Constitutional Court in 2021) and referendums on expropriating large landlords show political risk is ever-present in this market."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Giá đất xây dựng tại Berlin tăng từ 200 EUR/m² (2009) lên khoảng bao nhiêu vào năm 2019?",
+        "en": "Berlin's development-land price rose from EUR 200/sqm (2009) to roughly what by 2019?"
+      },
+      "choices": [
+        {
+          "vi": "10.000 EUR/m²",
+          "en": "EUR 10,000/sqm"
+        },
+        {
+          "vi": "300 EUR/m²",
+          "en": "EUR 300/sqm"
+        },
+        {
+          "vi": "1.328 EUR/m²",
+          "en": "EUR 1,328/sqm"
+        },
+        {
+          "vi": "500 EUR/m²",
+          "en": "EUR 500/sqm"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "Theo dữ liệu của Cục Thống kê Liên bang Đức được accentro.de trích dẫn, giá đất đạt đỉnh 1.328 EUR/m² năm 2019.",
+        "en": "Per Germany's Federal Statistical Office data cited by accentro.de, land prices peaked at EUR 1,328/sqm in 2019."
+      }
+    },
+    "sources": [
+      {
+        "title": "Real Estate Prices in Berlin: Factors, Trends, and Comparisons - Accentro",
+        "url": "https://accentro.de/en/real-estate-guide/land-prices-in-berlin-accentro"
+      },
+      {
+        "title": "Real estate prices Berlin Development, trends, forecast & Co. - Stonehedge",
+        "url": "https://www.stonehedge-immobilien.de/en/real-estate-prices-in-berlin-development-trends-forecast-figures-districts/"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Berlin development-land price series (EUR 200/sqm in 2009 rising to EUR 1,328/sqm in 2019, easing to EUR 932/sqm in 2020) sourced from Germany's Federal Statistical Office via accentro.de; district-level apartment price gains (e.g. Kreuzberg EUR 2,000 to EUR 4,700/sqm 2009-2019) cross-confirmed by stonehedge-immobilien.de."
+  },
+  {
+    "id": "de-commerzbank-bailout-2008",
+    "country": "de",
+    "date": "2009-01-08",
+    "category": "stocks",
+    "title": {
+      "vi": "Gói cứu trợ và pha loãng Commerzbank",
+      "en": "Commerzbank's Bailout and Dilution"
+    },
+    "summary": {
+      "vi": "Chính phủ Đức bơm khoảng 18,2 tỷ EUR cứu Commerzbank, pha loãng mạnh cổ đông hiện hữu — nên tránh nắm giữ qua giai đoạn này.",
+      "en": "The German government injected about EUR 18.2 billion to save Commerzbank, heavily diluting existing shareholders — a stock to avoid holding through this period."
+    },
+    "description": {
+      "vi": "Sau khi sáp nhập với Dresdner Bank giữa khủng hoảng tài chính, Commerzbank — ngân hàng lớn thứ hai nước Đức — phải nhận gói cứu trợ của chính phủ: 8,2 tỷ EUR tiền mặt cộng 15 tỷ EUR bảo lãnh vào tháng 11/2008, sau đó thêm gói 10 tỷ EUR ngày 8/1/2009 đổi lấy 25% cổ phần nhà nước với giá chỉ 6 EUR/cổ phiếu mới. Tin tức quốc hữu hoá một phần khiến cổ phiếu rơi 21,3% xuống mức thấp kỷ lục 4,79 EUR trong ngày.",
+      "en": "After merging with Dresdner Bank amid the financial crisis, Commerzbank — Germany's second-largest bank — needed a government rescue: EUR 8.2bn cash plus EUR 15bn in guarantees in November 2008, followed by a further EUR 10bn package on 8 January 2009 in exchange for a 25% state stake priced at just EUR 6 per new share. News of the partial nationalization sent the stock down 21.3% to a then-record intraday low of EUR 4.79."
+    },
+    "opportunity": {
+      "asset": "Commerzbank (CBK)",
+      "action": {
+        "vi": "Tránh nắm giữ cổ phiếu Commerzbank qua giai đoạn cứu trợ/pha loãng 2008-2009, hoặc bán khống trước tin quốc hữu hoá",
+        "en": "Avoid holding Commerzbank through the 2008-09 bailout/dilution, or short ahead of the nationalization news"
+      },
+      "buyWhen": {
+        "vi": "Không mua — nếu đang giữ thì bán trước tháng 11/2008",
+        "en": "Don't buy — if holding, sell before November 2008"
+      },
+      "sellWhen": {
+        "vi": "Trước tháng 11/2008 nếu đang nắm giữ",
+        "en": "Before November 2008 if already holding"
+      },
+      "estimatedReturn": {
+        "vi": "Cổ phiếu rơi hơn 21% trong một phiên xuống đáy kỷ lục 4,79 EUR sau tin bơm vốn nhà nước",
+        "en": "Shares fell over 21% in a single session to a record low of EUR 4.79 on the state-capital-injection news"
+      },
+      "exitPrice": 4.79,
+      "priceCurrency": "EUR",
+      "exitDate": "2009-01-08",
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết trước vụ sáp nhập Dresdner Bank sẽ buộc chính phủ phải cứu trợ và pha loãng cổ đông hiện hữu, bạn có thể tránh mua hoặc bán khống Commerzbank từ giữa năm 2008, trước khi tin bơm vốn chính thức công bố.",
+      "en": "Knowing the Dresdner Bank merger will force a government rescue that dilutes existing shareholders lets you avoid buying, or short Commerzbank, from mid-2008 — before the capital-injection news is officially announced."
+    },
+    "pitfalls": {
+      "vi": "Nhà nước Đức giữ cổ phần Commerzbank tới tận hơn một thập kỷ sau đó, cổ phiếu không bao giờ phục hồi về mức trước khủng hoảng — đây là ví dụ cổ điển về cổ phiếu ngân hàng 'zombie' cần tránh dài hạn.",
+      "en": "The German state held its Commerzbank stake for well over a decade afterward, and the stock never recovered to pre-crisis levels — a classic 'zombie bank' stock to avoid long-term."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Chính phủ Đức nhận bao nhiêu phần trăm cổ phần Commerzbank đổi lấy gói cứu trợ tháng 1/2009?",
+        "en": "What stake did the German government take in Commerzbank in exchange for the January 2009 rescue package?"
+      },
+      "choices": [
+        {
+          "vi": "5%",
+          "en": "5%"
+        },
+        {
+          "vi": "25%",
+          "en": "25%"
+        },
+        {
+          "vi": "75%",
+          "en": "75%"
+        },
+        {
+          "vi": "100%",
+          "en": "100%"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Spiegel Online xác nhận chính phủ Đức nhận 25% cổ phần Commerzbank với giá 6 EUR/cổ phiếu đổi lấy khoảng 10 tỷ EUR.",
+        "en": "Spiegel Online confirms the German government took a 25% Commerzbank stake at EUR 6 per share in exchange for about EUR 10 billion."
+      }
+    },
+    "sources": [
+      {
+        "title": "Bank Bailout: Germany's Commerzbank Announces Partial Nationalization - Spiegel",
+        "url": "https://www.spiegel.de/international/business/bank-bailout-germany-s-commerzbank-announces-partial-nationalization-a-600228.html"
+      },
+      {
+        "title": "Financial Crisis: Germany's No. 2 Bank Taps Government Rescue Fund - Spiegel",
+        "url": "https://www.spiegel.de/international/germany/financial-crisis-germany-s-no-2-bank-taps-government-rescue-fund-a-588050.html"
+      },
+      {
+        "title": "Commerzbank to cut government stake - BBC",
+        "url": "https://www.bbc.com/news/business-21767042"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "EUR 8.2bn+EUR 15bn Nov 2008 package, EUR 10bn/25%-stake Jan 2009 package at EUR 6/share, and the 21.3% drop to EUR 4.79 all confirmed by Spiegel Online's contemporaneous reporting; total ~EUR 16.4bn/18.2bn figures cross-confirmed by BBC."
+  },
+  {
+    "id": "de-dax-low-2009",
+    "country": "de",
+    "date": "2009-03-06",
+    "category": "stocks",
+    "title": {
+      "vi": "Bắt đáy DAX khủng hoảng tài chính 2009",
+      "en": "Buying the DAX Bottom of the 2009 Financial Crisis"
+    },
+    "summary": {
+      "vi": "DAX chạm đáy 3.666,41 điểm tháng 3/2009 rồi tăng 62% ngay trong năm đó.",
+      "en": "The DAX bottomed at 3,666.41 points in March 2009, then rose 62% that same year."
+    },
+    "description": {
+      "vi": "Trong cuộc khủng hoảng tài chính toàn cầu, DAX mất 54,8% giá trị từ đỉnh 8.105,69 điểm (16/7/2007) xuống đáy 3.666,41 điểm vào ngày 6/3/2009 — mức thấp nhất kể từ tháng 8/2004, ngay sau vụ sụp đổ Lehman Brothers và giữa lúc các ngân hàng trung ương toàn cầu cắt lãi suất khẩn cấp. Chỉ số phục hồi nhanh chóng ngay trong năm, đóng cửa năm 2009 ở mức 5.957,43 điểm, tăng tới 62% so với đáy tháng 3.",
+      "en": "During the global financial crisis, the DAX lost 54.8% of its value from its 16 July 2007 peak of 8,105.69 points to a low of 3,666.41 points on 6 March 2009 — its lowest level since August 2004, right after the Lehman Brothers collapse and amid emergency global central-bank rate cuts. The index rebounded quickly that same year, closing 2009 at 5,957.43 points, up 62% from the March low."
+    },
+    "opportunity": {
+      "asset": "DAX Index",
+      "action": {
+        "vi": "Mua rổ cổ phiếu DAX (hoặc ETF) đúng đáy khủng hoảng tháng 3/2009",
+        "en": "Buy a DAX basket (or ETF) right at the March 2009 crisis bottom"
+      },
+      "buyWhen": {
+        "vi": "6/3/2009, đáy khủng hoảng tài chính",
+        "en": "6 March 2009, the financial-crisis bottom"
+      },
+      "sellWhen": {
+        "vi": "Cuối năm 2009 hoặc giữ dài hơn tới khi DAX lập đỉnh mới khoảng 2013",
+        "en": "End of 2009, or hold longer until the DAX sets a new high around 2013"
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng 62% chỉ trong 10 tháng cuối năm 2009",
+        "en": "About 62% in just the final ten months of 2009"
+      },
+      "returnMultiple": 1.625,
+      "entryPrice": 3666.41,
+      "exitPrice": 5957.43,
+      "priceCurrency": "points",
+      "exitDate": "2009-12-30",
+      "risk": "medium",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết trước các gói kích thích và cắt giảm lãi suất của ngân hàng trung ương sẽ hiệu quả, bạn có thể mua đúng đáy 6/3/2009 — ngày mà hầu hết nhà đầu tư còn đang hoảng loạn vì sợ hệ thống ngân hàng toàn cầu sụp đổ.",
+      "en": "Knowing central-bank stimulus and rate cuts will work lets you buy right at the 6 March 2009 bottom — the day most investors were still panicking over a possible global banking collapse."
+    },
+    "pitfalls": {
+      "vi": "Thị trường vẫn còn biến động dữ dội quanh đáy này; nhiều nhà đầu tư thoát sớm vì sợ 'bẫy tăng giá' trong một thị trường gấu đang diễn ra.",
+      "en": "Markets were still extremely volatile around this bottom; many investors sold too early fearing a 'bear-market rally trap'."
+    },
+    "quiz": {
+      "question": {
+        "vi": "DAX tăng bao nhiêu phần trăm từ đáy tháng 3/2009 đến cuối năm 2009?",
+        "en": "How much did the DAX rise from its March 2009 low to the end of 2009?"
+      },
+      "choices": [
+        {
+          "vi": "Khoảng 62%",
+          "en": "About 62%"
+        },
+        {
+          "vi": "Khoảng 10%",
+          "en": "About 10%"
+        },
+        {
+          "vi": "Giảm thêm 20%",
+          "en": "It fell a further 20%"
+        },
+        {
+          "vi": "Khoảng 200%",
+          "en": "About 200%"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "Từ đáy 3.666,41 điểm (6/3/2009) lên mức đóng cửa năm 5.957,43 điểm, DAX tăng khoảng 62%.",
+        "en": "From the 3,666.41-point low (6 Mar 2009) to the year-end close of 5,957.43 points, the DAX rose roughly 62%."
+      }
+    },
+    "sources": [
+      {
+        "title": "EQS-News Q1 2009 report (DAX 3,666.41 low, 6 March)",
+        "url": "https://www.eqs-news.com/media/document/b03b0ac8-b0e5-4520-a563-3d6a8229385f/assets/DE0005800809-Q1-2009-EQ-E-00.pdf"
+      },
+      {
+        "title": "DAX - Wikipedia (2009 annual close 5,957.43)",
+        "url": "https://en.wikipedia.org/wiki/DAX"
+      },
+      {
+        "title": "The Scariest Stock Market Crashes of All Time - finanzlennard.de",
+        "url": "https://www.finanzlennard.de/en/blog/scariest-stock-market-crashes"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Low of 3,666.41 on 6 Mar 2009 confirmed by a contemporaneous EQS-News quarterly report PDF; 2009 year-end close of 5,957.43 confirmed by Wikipedia's DAX annual-returns table; the 54.8% peak-to-trough decline cross-confirmed by finanzlennard.de."
+  },
+  {
+    "id": "de-zalando-ipo-2014",
+    "country": "de",
+    "date": "2014-10-01",
+    "category": "technology",
+    "title": {
+      "vi": "IPO Zalando, startup thời trang lớn nhất châu Âu",
+      "en": "Zalando's IPO, Europe's Biggest Fashion Startup"
+    },
+    "summary": {
+      "vi": "Zalando niêm yết ở Frankfurt với giá 21,50 EUR, mở phiên tăng 12% lên 24,10 EUR.",
+      "en": "Zalando listed in Frankfurt at EUR 21.50 and opened up 12% at EUR 24.10."
+    },
+    "description": {
+      "vi": "Ngày 1/10/2014, startup thời trang trực tuyến Zalando (trụ sở Berlin) niêm yết tại Sở giao dịch chứng khoán Frankfurt với giá IPO 21,50 EUR/cổ phiếu, định giá công ty khoảng 5,3 tỷ EUR — đợt IPO công nghệ lớn nhất của Đức kể từ Deutsche Telekom năm 2000. Cổ phiếu mở phiên tăng 12% lên 24,10 EUR nhưng sau đó thoái lui, đóng cửa ngày đầu đúng bằng giá IPO 21,50 EUR.",
+      "en": "On 1 October 2014, Berlin-based online fashion startup Zalando listed on the Frankfurt Stock Exchange at an IPO price of EUR 21.50 per share, valuing the company at about EUR 5.3 billion — Germany's biggest tech IPO since Deutsche Telekom in 2000. Shares opened up 12% at EUR 24.10 but gave back the gains, closing the first day flat at the EUR 21.50 IPO price."
+    },
+    "opportunity": {
+      "asset": "Zalando SE (ZAL)",
+      "action": {
+        "vi": "Mua ở giá IPO và giữ trung hạn khi Zalando mở rộng thành nền tảng thời trang số 1 châu Âu",
+        "en": "Buy at the IPO price and hold medium-term as Zalando grows into Europe's #1 online fashion platform"
+      },
+      "buyWhen": {
+        "vi": "1/10/2014, ngày IPO, giá 21,50 EUR",
+        "en": "1 October 2014, IPO day, at EUR 21.50"
+      },
+      "sellWhen": {
+        "vi": null,
+        "en": null
+      },
+      "estimatedReturn": {
+        "vi": "Biến động mạnh theo chu kỳ bán lẻ trực tuyến; không có một mức giá thoát chuẩn hoá",
+        "en": "Highly volatile with online-retail cycles; no single standardized exit level"
+      },
+      "entryPrice": 21.5,
+      "priceCurrency": "EUR",
+      "risk": "medium",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Biết trước Zalando sẽ trở thành nền tảng thời trang trực tuyến thống trị châu Âu (và hưởng lợi lớn từ đại dịch COVID-19 khi mua sắm trực tuyến bùng nổ năm 2020-2021) giúp bạn tự tin giữ qua các giai đoạn biến động của cổ phiếu bán lẻ non trẻ.",
+      "en": "Knowing Zalando will become Europe's dominant online fashion platform (and benefit hugely from the COVID-19 e-commerce boom of 2020-21) gives you the confidence to hold through a young retail stock's volatility."
+    },
+    "pitfalls": {
+      "vi": "Cổ phiếu bán lẻ trực tuyến rất nhạy cảm với chi phí logistics, cạnh tranh từ Shein/Amazon và chu kỳ tiêu dùng — không nên kỳ vọng tăng trưởng theo đường thẳng.",
+      "en": "Online retail stocks are highly sensitive to logistics costs, competition from Shein/Amazon and consumer cycles — don't expect straight-line growth."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Zalando niêm yết với giá IPO bao nhiêu vào tháng 10/2014?",
+        "en": "What was Zalando's IPO price in October 2014?"
+      },
+      "choices": [
+        {
+          "vi": "21,50 EUR",
+          "en": "EUR 21.50"
+        },
+        {
+          "vi": "100 EUR",
+          "en": "EUR 100"
+        },
+        {
+          "vi": "5 EUR",
+          "en": "EUR 5"
+        },
+        {
+          "vi": "50 EUR",
+          "en": "EUR 50"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "Börse Frankfurt và CNBC xác nhận giá IPO/giá đăng ký của Zalando là 21,50 EUR/cổ phiếu.",
+        "en": "Börse Frankfurt and CNBC confirm Zalando's IPO/subscription price was EUR 21.50 per share."
+      }
+    },
+    "sources": [
+      {
+        "title": "Zalando SE Equity - Deutsche Boerse company details",
+        "url": "https://live.deutsche-boerse.com/equity/zalando-se/company-details"
+      },
+      {
+        "title": "Zalando shares rise as much as 12 percent in debut - CNBC",
+        "url": "https://cnbc.com/2014/10/01/zalando-shares-rise-12-percent-in-market-debut.html"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "IPO/subscription price of EUR 21.50 and first-day opening pop to EUR 24.10 confirmed by Deutsche Boerse's own company-details page and CNBC's contemporaneous report."
+  },
+  {
+    "id": "de-vw-dieselgate-2015",
+    "country": "de",
+    "date": "2015-09-18",
+    "category": "stocks",
+    "title": {
+      "vi": "Scandal khí thải Dieselgate của VW",
+      "en": "VW's Dieselgate Emissions Scandal"
+    },
+    "summary": {
+      "vi": "Cổ phiếu VW mất khoảng 15 tỷ EUR vốn hoá chỉ trong một phiên sau khi bê bối gian lận khí thải bị phanh phui.",
+      "en": "VW shares shed about EUR 15 billion in market value in a single session once the emissions-cheating scandal broke."
+    },
+    "description": {
+      "vi": "Ngày 18/9/2015, Cơ quan Bảo vệ Môi trường Mỹ (EPA) công bố VW đã cài 'thiết bị gian lận' (defeat device) trên khoảng 500.000 xe diesel để qua mặt kiểm tra khí thải. Cổ phiếu VW giảm 19,4% trong phiên 21/9/2015 xuống gần đáy 3 năm ở mức 130,20 EUR, thổi bay khoảng 15 tỷ EUR vốn hoá chỉ trong một ngày và cuối cùng khiến CEO Martin Winterkorn từ chức.",
+      "en": "On 18 September 2015, the US EPA revealed VW had installed 'defeat devices' on roughly 500,000 diesel cars to cheat emissions tests. VW shares fell 19.4% on 21 September 2015 to a near three-year low of 130.20 EUR, wiping out about EUR 15 billion in market value in a single day and ultimately forcing CEO Martin Winterkorn to resign."
+    },
+    "opportunity": {
+      "asset": "Volkswagen preferred shares (VOW3)",
+      "action": {
+        "vi": "Bán khống hoặc thoát vị thế VW ngay khi tin tức EPA được công bố",
+        "en": "Short or exit VW positions the moment the EPA news breaks"
+      },
+      "buyWhen": {
+        "vi": "Không mua — mở vị thế bán khống ngay khi tin EPA ra (18/9/2015)",
+        "en": "Don't buy — open a short the moment the EPA news breaks (18 Sep 2015)"
+      },
+      "sellWhen": {
+        "vi": "18-21/9/2015, ngay khi bê bối được công bố",
+        "en": "18-21 September 2015, right as the scandal was disclosed"
+      },
+      "estimatedReturn": {
+        "vi": "Giá giảm khoảng 19,4% chỉ trong phiên 21/9, và tiếp tục giảm hơn 40% so với đỉnh đầu năm trong các tháng sau",
+        "en": "Price fell about 19.4% in a single session on 21 Sep, and more than 40% below its earlier-2015 peak in the following months"
+      },
+      "returnMultiple": 0.81,
+      "exitPrice": 130.2,
+      "priceCurrency": "EUR",
+      "exitDate": "2015-09-21",
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết trước ngày 18/9/2015 EPA sẽ công khai cáo buộc gian lận khí thải, bạn có thể bán khống VW vài ngày trước và chốt lời ngay sau cú giảm 19,4%.",
+      "en": "Knowing the EPA will go public with the emissions-cheating allegations on 18 September 2015 lets you short VW days ahead and cover right after the 19.4% plunge."
+    },
+    "pitfalls": {
+      "vi": "Cổ phiếu phục hồi một phần cuối năm 2015 khi tin tức tạm lắng, nên vị thế bán khống kéo dài quá lâu có thể bị lỗ; chốt lời sớm quanh đáy ngắn hạn.",
+      "en": "Shares partially recovered by late 2015 as news flow cooled, so holding a short position too long can backfire — take profits near the short-term low."
+    },
+    "quiz": {
+      "question": {
+        "vi": "VW bị phát hiện gian lận khí thải trên khoảng bao nhiêu xe diesel tại Mỹ?",
+        "en": "VW was found to have cheated emissions tests on roughly how many US diesel cars?"
+      },
+      "choices": [
+        {
+          "vi": "5 triệu xe",
+          "en": "5 million cars"
+        },
+        {
+          "vi": "5.000 xe",
+          "en": "5,000 cars"
+        },
+        {
+          "vi": "500.000 xe",
+          "en": "500,000 cars"
+        },
+        {
+          "vi": "50.000 xe",
+          "en": "50,000 cars"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "CNBC và Jalopnik xác nhận con số khoảng 500.000 xe diesel tại Mỹ bị cài thiết bị gian lận.",
+        "en": "CNBC and Jalopnik confirm roughly 500,000 US diesel cars were fitted with the defeat device."
+      }
+    },
+    "sources": [
+      {
+        "title": "Volkswagen stock drops 20% on US diesel recall probe - CNBC",
+        "url": "https://www.cnbc.com/2015/09/21/volkswagen-stock-drops-20-on-us-diesel-recall-probe.html"
+      },
+      {
+        "title": "Volkswagen Sees Billions Wiped Off Market - Jalopnik",
+        "url": "https://www.jalopnik.com/volkswagen-sees-billions-wiped-off-market-as-stock-tumb-1732045939/"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "19.4% single-day drop to a near-three-year low of 130.20 EUR on 21 Sep 2015, and the ~EUR 15bn market-value loss, confirmed by CNBC and Jalopnik/AP reporting. EntryPrice omitted (derivable only indirectly from the stated percentage) to avoid presenting a guessed figure as fact."
+  },
+  {
+    "id": "de-deutsche-bank-crisis-2016",
+    "country": "de",
+    "date": "2016-09-30",
+    "category": "stocks",
+    "title": {
+      "vi": "Khủng hoảng Deutsche Bank 2016",
+      "en": "Deutsche Bank's 2016 Crisis"
+    },
+    "summary": {
+      "vi": "Deutsche Bank rơi xuống dưới 10 EUR lần đầu tiên trong lịch sử khi Bộ Tư pháp Mỹ đòi phạt 14 tỷ USD.",
+      "en": "Deutsche Bank fell below EUR 10 for the first time ever as the US DOJ sought a $14bn fine."
+    },
+    "description": {
+      "vi": "Năm 2016, Deutsche Bank đối mặt khủng hoảng niềm tin khi Bộ Tư pháp Mỹ ban đầu đòi khoản phạt 14 tỷ USD liên quan tới chứng khoán thế chấp nhà đất độc hại trước khủng hoảng 2008. Tin đồn các quỹ phòng hộ rút tiền khỏi ngân hàng khiến cổ phiếu rơi xuống mức thấp kỷ lục 9,90 EUR (giá trong phiên) ngày 30/9/2016 — lần đầu dưới ngưỡng 10 EUR trong lịch sử ngân hàng — trước khi phục hồi sau khi đạt thoả thuận 5,4 tỷ USD với Mỹ vào tháng 12.",
+      "en": "In 2016, Deutsche Bank faced a confidence crisis after the US DOJ initially demanded a $14 billion fine over toxic pre-2008 mortgage-backed securities. Reports that hedge funds were pulling cash from the bank sent shares to a record intraday low of EUR 9.90 on 30 September 2016 — the first time ever below EUR 10 — before recovering once a $5.4 billion settlement with the US was reached in December."
+    },
+    "opportunity": {
+      "asset": "Deutsche Bank (DBK)",
+      "action": {
+        "vi": "Tránh nắm giữ hoặc bán khống Deutsche Bank trong năm 2016, mua lại sau khi đạt thoả thuận với DOJ",
+        "en": "Avoid holding, or short, Deutsche Bank through 2016, then buy back after the DOJ settlement"
+      },
+      "buyWhen": {
+        "vi": "Cuối 2016/đầu 2017 sau khi tin tức xấu nhất qua đi",
+        "en": "Late 2016/early 2017 once the worst news has passed"
+      },
+      "sellWhen": {
+        "vi": "Trước/trong năm 2016 nếu đang nắm giữ cổ phiếu",
+        "en": "Before/during 2016 if already holding the stock"
+      },
+      "estimatedReturn": {
+        "vi": "Giá giảm hơn 56% từ 22,53 EUR cuối 2015 xuống đáy 9,90 EUR năm 2016",
+        "en": "Price fell over 56% from 22.53 EUR at end-2015 to a 2016 low of 9.90 EUR"
+      },
+      "returnMultiple": 0.439,
+      "entryPrice": 22.53,
+      "exitPrice": 9.9,
+      "priceCurrency": "EUR",
+      "exitDate": "2016-09-30",
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết trước khoản phạt cuối cùng sẽ chỉ là 5,4 tỷ USD (thấp hơn nhiều mức 14 tỷ USD ban đầu đồn đoán) giúp bạn tránh hoảng loạn bán ở đáy và mua lại đúng lúc hồi phục cuối năm.",
+      "en": "Knowing the final settlement will be only $5.4bn (far less than the rumored initial $14bn demand) helps you avoid panic-selling at the bottom and buy back right as it recovers late in the year."
+    },
+    "pitfalls": {
+      "vi": "Đây không phải cú giảm một lần — Deutsche Bank tiếp tục vật lộn nhiều năm sau đó với tái cơ cấu liên tục; chỉ nên giao dịch ngắn hạn quanh sự kiện, không nắm giữ dài hạn mù quáng.",
+      "en": "This wasn't a one-off dip — Deutsche Bank kept struggling with repeated restructuring for years afterward, so trade the event short-term rather than holding blindly long-term."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Cổ phiếu Deutsche Bank chạm đáy bao nhiêu EUR trong phiên ngày 30/9/2016?",
+        "en": "What intraday low did Deutsche Bank shares hit on 30 September 2016?"
+      },
+      "choices": [
+        {
+          "vi": "9,90 EUR",
+          "en": "EUR 9.90"
+        },
+        {
+          "vi": "22 EUR",
+          "en": "EUR 22"
+        },
+        {
+          "vi": "50 EUR",
+          "en": "EUR 50"
+        },
+        {
+          "vi": "100 EUR",
+          "en": "EUR 100"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "Báo cáo thường niên 2016 của Deutsche Bank và Reuters/CNBC xác nhận mức đáy trong phiên là 9,90 EUR, lần đầu dưới 10 EUR trong lịch sử ngân hàng.",
+        "en": "Deutsche Bank's 2016 Annual Report and Reuters/CNBC confirm the intraday low of EUR 9.90, the first time ever below EUR 10."
+      }
+    },
+    "sources": [
+      {
+        "title": "Deutsche Bank Annual Report 2016 (PDF)",
+        "url": "https://investor-relations.db.com/files/documents/annual-reports/Deutsche_Bank_Annual_Report_2016.pdf?language_id=1"
+      },
+      {
+        "title": "Deutsche Bank woes keep stocks on steep slide - Reuters",
+        "url": "https://www.reuters.com/article/deutsche-bank-woes-keep-stocks-on-steep-slide-idUSL8N1C61TH/"
+      },
+      {
+        "title": "Deutsche Bank shares claw back gains after hitting record low - CNBC",
+        "url": "https://www.cnbc.com/2016/09/30/deutsche-bank-shares-fall-7-as-european-trading-session-opens.html"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Low of EUR 9.90 on 30 Sep 2016 and 2015 year-end price of EUR 22.53 both confirmed directly by Deutsche Bank's own 2016 Annual Report PDF; the $14bn-to-$5.4bn DOJ settlement narrative confirmed by Reuters/CNBC/DW."
+  },
+  {
+    "id": "de-dax-low-2020-covid",
+    "country": "de",
+    "date": "2020-03-18",
+    "category": "stocks",
+    "title": {
+      "vi": "Bắt đáy DAX trong cú sập COVID-19 2020",
+      "en": "Buying the DAX's COVID-19 Crash Bottom"
+    },
+    "summary": {
+      "vi": "DAX rơi 38,8% chỉ trong 28 ngày xuống đáy 8.441,71 điểm rồi gần như phục hồi hoàn toàn cuối năm.",
+      "en": "The DAX fell 38.8% in just 28 days to a low of 8,441.71 points, then almost fully recovered by year-end."
+    },
+    "description": {
+      "vi": "Đại dịch COVID-19 gây ra cú sập nhanh nhất lịch sử DAX: chỉ số rơi từ đỉnh 13.789,00 điểm (19/2/2020) xuống đáy 8.441,71 điểm vào ngày 18/3/2020 — giảm 38,8% chỉ trong 28 ngày. Nhờ các gói kích thích tiền tệ và tài khoá khổng lồ, DAX phục hồi ngoạn mục, đóng cửa năm 2020 ở mức 13.719 điểm — gần như quay lại đỉnh trước dịch chỉ trong chưa đầy 10 tháng.",
+      "en": "The COVID-19 pandemic caused the fastest crash in DAX history: the index fell from a peak of 13,789.00 points (19 Feb 2020) to a low of 8,441.71 points on 18 March 2020 — a 38.8% drop in just 28 days. Thanks to massive monetary and fiscal stimulus, the DAX staged a dramatic recovery, closing 2020 at 13,719 points — almost back to its pre-crash peak in under ten months."
+    },
+    "opportunity": {
+      "asset": "DAX Index",
+      "action": {
+        "vi": "Mua rổ cổ phiếu DAX (hoặc ETF) đúng đáy dịch COVID-19",
+        "en": "Buy a DAX basket (or ETF) right at the COVID-19 crash bottom"
+      },
+      "buyWhen": {
+        "vi": "18/3/2020, đáy cú sập COVID-19",
+        "en": "18 March 2020, the COVID-19 crash bottom"
+      },
+      "sellWhen": {
+        "vi": "Cuối năm 2020, gần như hồi phục hoàn toàn về đỉnh trước dịch",
+        "en": "End of 2020, almost fully recovered to the pre-crash peak"
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng 62% chỉ trong chưa đầy 10 tháng",
+        "en": "About 62% in under ten months"
+      },
+      "returnMultiple": 1.625,
+      "entryPrice": 8441.71,
+      "exitPrice": 13719,
+      "priceCurrency": "points",
+      "exitDate": "2020-12-30",
+      "risk": "medium",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết trước các ngân hàng trung ương sẽ bơm thanh khoản chưa từng có và vắc-xin sẽ xuất hiện trong năm, bạn có thể mua mạnh tay đúng ngày 18/3/2020 khi phần lớn nhà đầu tư còn đang hoảng loạn bán tháo.",
+      "en": "Knowing central banks will unleash unprecedented liquidity and vaccines will arrive within the year lets you buy aggressively on 18 March 2020, while most investors are still panic-selling."
+    },
+    "pitfalls": {
+      "vi": "Đây là một trong những đợt biến động mạnh nhất lịch sử — tâm lý thị trường có thể đảo chiều trong vài giờ, nên cần sẵn sàng chịu biến động cực lớn trước khi thấy lợi nhuận.",
+      "en": "This was one of the most volatile episodes in market history — sentiment could flip within hours, so be ready to stomach extreme swings before seeing gains."
+    },
+    "quiz": {
+      "question": {
+        "vi": "DAX rơi bao nhiêu phần trăm chỉ trong 28 ngày hồi tháng 2-3/2020?",
+        "en": "How much did the DAX fall in just 28 days in Feb-Mar 2020?"
+      },
+      "choices": [
+        {
+          "vi": "10%",
+          "en": "10%"
+        },
+        {
+          "vi": "38,8%",
+          "en": "38.8%"
+        },
+        {
+          "vi": "75%",
+          "en": "75%"
+        },
+        {
+          "vi": "5%",
+          "en": "5%"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "DrawdownTracker xác nhận DAX giảm 38,8% từ 13.789,00 (19/2/2020) xuống 8.441,71 (18/3/2020) trong 28 ngày.",
+        "en": "DrawdownTracker confirms the DAX fell 38.8% from 13,789.00 (19 Feb 2020) to 8,441.71 (18 Mar 2020) over 28 days."
+      }
+    },
+    "sources": [
+      {
+        "title": "DAX 40 Daily Drawdown & Max Drawdown History - drawdowntracker.com",
+        "url": "https://www.drawdowntracker.com/indexes/dax"
+      },
+      {
+        "title": "Shares and Bonds - Volkswagen Group Annual Report 2020 (PDF)",
+        "url": "https://annualreport2020.volkswagenag.com/servicepages/downloads/files/shares-and-bonds-vw-ar20.pdf"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "38.8% drop from 13,789.00 (19 Feb 2020) to 8,441.71 (18 Mar 2020) confirmed by drawdowntracker.com; year-end 2020 DAX close of 13,719 confirmed directly by Volkswagen's own 2020 Annual Report PDF, which tabulates the DAX's Jan high, Mar 18 low and Dec 30 close."
+  },
+  {
+    "id": "de-wirecard-fraud-2020",
+    "country": "de",
+    "date": "2020-06-18",
+    "category": "stocks",
+    "title": {
+      "vi": "Vụ gian lận kế toán Wirecard sụp đổ",
+      "en": "Wirecard's Accounting Fraud Collapse"
+    },
+    "summary": {
+      "vi": "Cổ phiếu Wirecard rơi từ 104,50 EUR xuống 1,28 EUR trong chưa đầy 10 ngày sau khi 1,9 tỷ EUR 'biến mất'.",
+      "en": "Wirecard shares fell from 104.50 EUR to 1.28 EUR in under 10 days after EUR 1.9 billion 'disappeared'."
+    },
+    "description": {
+      "vi": "Ngày 18/6/2020, kiểm toán viên EY công bố không thể xác nhận sự tồn tại của 1,9 tỷ EUR tiền mặt trong bảng cân đối kế toán của công ty thanh toán điện tử Wirecard — số tiền sau đó được xác nhận là không hề tồn tại. CEO Markus Braun bị bắt, công ty nộp đơn phá sản ngày 25/6/2020, và cổ phiếu rơi tự do từ 104,50 EUR (17/6) xuống còn 1,28 EUR (26/6), tức mất hơn 98% giá trị chỉ trong chưa đầy hai tuần — vụ gian lận doanh nghiệp lớn nhất lịch sử Đức hậu chiến.",
+      "en": "On 18 June 2020, auditor EY announced it could not confirm the existence of EUR 1.9 billion in cash on payments company Wirecard's balance sheet — money later confirmed to not exist at all. CEO Markus Braun was arrested, the company filed for insolvency on 25 June 2020, and the stock free-fell from 104.50 EUR (17 June) to 1.28 EUR (26 June) — a loss of over 98% in under two weeks, Germany's largest post-war corporate fraud."
+    },
+    "opportunity": {
+      "asset": "Wirecard AG (WDI)",
+      "action": {
+        "vi": "Bán khống hoặc thoát toàn bộ vị thế Wirecard ngay khi tin kiểm toán xuất hiện",
+        "en": "Short, or fully exit, Wirecard the moment the audit news breaks"
+      },
+      "buyWhen": {
+        "vi": "Không mua — mở vị thế bán khống trước ngày 18/6/2020",
+        "en": "Don't buy — open a short before 18 June 2020"
+      },
+      "sellWhen": {
+        "vi": "18/6/2020, ngày EY công bố không xác nhận được 1,9 tỷ EUR",
+        "en": "18 June 2020, the day EY disclosed it couldn't confirm the EUR 1.9bn"
+      },
+      "estimatedReturn": {
+        "vi": "Mất hơn 98% giá trị trong chưa đầy 2 tuần; lãi lớn nếu bán khống",
+        "en": "Lost over 98% of value in under two weeks; large gains if shorted"
+      },
+      "returnMultiple": 0.0122,
+      "entryPrice": 104.5,
+      "exitPrice": 1.28,
+      "priceCurrency": "EUR",
+      "exitDate": "2020-06-26",
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Người du hành thời gian biết trước 1,9 tỷ EUR 'tiền mặt' của Wirecard thực chất không tồn tại — họ có thể bán khống hoặc thoát lệnh từ rất lâu trước báo cáo kiểm toán tháng 6/2020, khi nhiều nhà báo điều tra (FT) đã cảnh báo từ năm 2019 nhưng ít ai tin.",
+      "en": "A time traveler knows in advance that Wirecard's EUR 1.9bn in 'cash' simply doesn't exist, and can short or exit long before the June 2020 audit report — even though the Financial Times had raised red flags as early as 2019 with few believers."
+    },
+    "pitfalls": {
+      "vi": "Nhiều nhà đầu tư cá nhân mua vào khi giá rơi sâu, tin rằng đây là cơ hội 'bắt đáy', nhưng công ty đã nộp đơn phá sản và cổ phiếu gần như về 0 — đừng bắt dao rơi.",
+      "en": "Many retail investors bought the dip believing it was a bargain, but the company filed for insolvency and the stock went to near zero — don't catch this falling knife."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Số tiền 'biến mất' khỏi bảng cân đối kế toán của Wirecard là bao nhiêu?",
+        "en": "How much money 'disappeared' from Wirecard's balance sheet?"
+      },
+      "choices": [
+        {
+          "vi": "900 triệu EUR",
+          "en": "EUR 900 million"
+        },
+        {
+          "vi": "190 triệu EUR",
+          "en": "EUR 190 million"
+        },
+        {
+          "vi": "19 tỷ EUR",
+          "en": "EUR 19 billion"
+        },
+        {
+          "vi": "1,9 tỷ EUR",
+          "en": "EUR 1.9 billion"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "vi": "CNBC, Fortune và NYT đều xác nhận con số 1,9 tỷ EUR (khoảng 2,1 tỷ USD) tiền mặt không thể xác nhận tồn tại.",
+        "en": "CNBC, Fortune and the NYT all confirm EUR 1.9 billion (about USD 2.1bn) in cash that could not be verified to exist."
+      }
+    },
+    "sources": [
+      {
+        "title": "Why some investors are holding onto Wirecard shares - CNBC",
+        "url": "https://www.cnbc.com/2020/07/09/why-some-investors-are-holding-onto-wirecard-shares-even-after-insolvency.html"
+      },
+      {
+        "title": "Wirecard files for insolvency - Fortune",
+        "url": "https://fortune.com/2020/06/25/wirecard-insolvency-accounting-scandal/"
+      },
+      {
+        "title": "Deutsche Bank May Offer Wirecard a Lifeline - NYT",
+        "url": "https://www.nytimes.com/2020/07/02/business/wirecard-deutsche-bank.html"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Price drop from 104.50 EUR (17 Jun 2020) to 1.28 EUR (26 Jun 2020), and the EUR 1.9bn missing-cash figure, confirmed by CNBC and Fortune reporting from the time."
+  },
+  {
+    "id": "de-biontech-covid-vaccine-rally-2020",
+    "country": "de",
+    "date": "2020-11-09",
+    "category": "technology",
+    "title": {
+      "vi": "BioNTech và cuộc đua vắc-xin COVID-19",
+      "en": "BioNTech and the COVID-19 Vaccine Race"
+    },
+    "summary": {
+      "vi": "Cổ phiếu BioNTech tăng từ khoảng 34 USD đầu 2020 lên đỉnh 420 USD năm 2021 nhờ vắc-xin cùng Pfizer.",
+      "en": "BioNTech shares rose from about $34 in early 2020 to a 2021 peak of $420 on its Pfizer vaccine."
+    },
+    "description": {
+      "vi": "Công ty công nghệ sinh học BioNTech (Mainz, Đức) niêm yết tại Nasdaq cuối 2019 với giá cổ phiếu quanh 34 USD đầu năm 2020. Ngày 9/11/2020, BioNTech cùng đối tác Pfizer công bố vắc-xin mRNA COVID-19 đạt hiệu quả hơn 90% trong thử nghiệm giai đoạn 3, đẩy giá cổ phiếu tăng vọt lên khoảng 115 USD. Sau khi vắc-xin được Mỹ phê duyệt khẩn cấp tháng 12/2020 và triển khai toàn cầu, cổ phiếu tiếp tục leo thang, đạt đỉnh khoảng 420 USD vào giữa tháng 8/2021 — tăng khoảng 12 lần so với đầu năm 2020.",
+      "en": "German biotech BioNTech (Mainz) listed on Nasdaq in late 2019 and traded around $34 in early 2020. On 9 November 2020, BioNTech and partner Pfizer announced their mRNA COVID-19 vaccine was over 90% effective in Phase 3 trials, sending shares surging to around $115. After the US granted emergency authorization in December 2020 and the vaccine rolled out globally, the stock kept climbing, peaking around $420 by mid-August 2021 — roughly 12x its early-2020 level."
+    },
+    "opportunity": {
+      "asset": "BioNTech SE ADS (BNTX)",
+      "action": {
+        "vi": "Mua cổ phiếu BioNTech đầu năm 2020, trước khi tin tức hiệu quả vắc-xin được công bố, bán gần đỉnh giữa 2021",
+        "en": "Buy BioNTech shares in early 2020, before vaccine-efficacy news breaks, sell near the mid-2021 peak"
+      },
+      "buyWhen": {
+        "vi": "Đầu năm 2020, trước đại dịch bùng phát toàn cầu",
+        "en": "Early 2020, before the pandemic goes global"
+      },
+      "sellWhen": {
+        "vi": "Giữa tháng 8/2021, gần đỉnh giá",
+        "en": "Mid-August 2021, near the price peak"
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng 12 lần trong hơn một năm rưỡi",
+        "en": "Roughly 12x over about a year and a half"
+      },
+      "returnMultiple": 12.3529,
+      "entryPrice": 34,
+      "exitPrice": 420,
+      "priceCurrency": "USD",
+      "exitDate": "2021-08",
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết trước chính xác BioNTech/Pfizer sẽ là một trong những vắc-xin COVID-19 thành công đầu tiên (hiệu quả hơn 90%) cho phép bạn mua cổ phiếu từ đầu năm 2020, rất lâu trước khi thị trường định giá đúng tiềm năng công ty công nghệ sinh học ít người biết đến này.",
+      "en": "Knowing in advance that BioNTech/Pfizer will be one of the first successful COVID-19 vaccines (over 90% effective) lets you buy from early 2020, long before the market prices in the potential of this then little-known biotech."
+    },
+    "pitfalls": {
+      "vi": "Cổ phiếu cực kỳ biến động và nhạy cảm tin tức — từng giảm hơn 40% so với đỉnh chỉ vài tháng sau khi tốc độ tiêm chủng toàn cầu chững lại năm 2022; không nên giữ mù quáng sau khi câu chuyện tăng trưởng đã qua đỉnh.",
+      "en": "The stock was extremely volatile and news-sensitive — falling more than 40% from its peak within months once global vaccination rates slowed in 2022; don't hold blindly once the growth story has peaked."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Cổ phiếu BioNTech đạt đỉnh khoảng bao nhiêu USD vào giữa năm 2021?",
+        "en": "Roughly what price did BioNTech shares peak at by mid-2021?"
+      },
+      "choices": [
+        {
+          "vi": "Khoảng 50 USD",
+          "en": "About $50"
+        },
+        {
+          "vi": "Khoảng 420 USD",
+          "en": "About $420"
+        },
+        {
+          "vi": "Khoảng 1.000 USD",
+          "en": "About $1,000"
+        },
+        {
+          "vi": "Khoảng 100 USD",
+          "en": "About $100"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Forbes xác nhận cổ phiếu BioNTech đạt gần 420 USD vào giữa tháng 8/2021, tăng khoảng 5 lần chỉ từ đầu năm 2021.",
+        "en": "Forbes confirms BioNTech shares reached close to $420 by mid-August 2021, roughly a 5x gain from the start of 2021 alone."
+      }
+    },
+    "sources": [
+      {
+        "title": "What Drove BioNTech Stock's Incredible Rise From $80 To $420 This Year? - Forbes",
+        "url": "https://forbes.com/sites/greatspeculations/2021/08/12/what-drove-biontech-stocks-incredible-rise-from-80-to-420-this-year"
+      },
+      {
+        "title": "If You Invested $1,000 In BioNTech Stock One Year Ago - Benzinga",
+        "url": "https://cdn1.benzinga.com/general/education/21/04/20729734/if-you-invested-1-000-in-biontech-stock-one-year-ago-heres-how-much-youd-have-now"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Early-2020 price around $34-36, November 2020 vaccine-efficacy jump to ~$115, and ~$420 mid-August 2021 peak confirmed by Benzinga and Forbes contemporaneous reporting."
+  },
+  {
+    "id": "de-bitcoin-tax-free-holding-rule",
+    "country": "de",
+    "date": "2021-01",
+    "category": "crypto",
+    "title": {
+      "vi": "Quy tắc miễn thuế Bitcoin sau 1 năm tại Đức",
+      "en": "Germany's Tax-Free Bitcoin Rule After 1 Year"
+    },
+    "summary": {
+      "vi": "Đức miễn hoàn toàn thuế lãi vốn với Bitcoin/Ether nếu nắm giữ trên 12 tháng — không giới hạn số tiền.",
+      "en": "Germany grants a full capital-gains tax exemption on Bitcoin/Ether held over 12 months — with no cap on the amount."
+    },
+    "description": {
+      "vi": "Theo Điều 23 Luật Thuế thu nhập Đức (EStG), lãi từ việc bán tài sản tư nhân như Bitcoin, Ether được miễn hoàn toàn thuế thu nhập nếu thời gian nắm giữ vượt quá 1 năm — không có giới hạn số tiền lãi, khác hẳn hầu hết các nước đánh thuế lãi vốn crypto vĩnh viễn. Nếu bán trong vòng 1 năm, lãi chịu thuế thu nhập cá nhân (tới 45%) nhưng được miễn nếu tổng lãi dưới 1.000 EUR/năm. Tòa án Tài chính Liên bang (BFH) đã xác nhận quy tắc này năm 2023, dù đề xuất bãi bỏ đang được thảo luận từ cuối 2025.",
+      "en": "Under Section 23 of Germany's Income Tax Act (EStG), gains from selling private assets like Bitcoin or Ether are entirely income-tax-free once the holding period exceeds one year — with no cap on the amount of gain, unlike most countries that tax crypto gains indefinitely. Sell within a year and the gain is taxed at the personal income tax rate (up to 45%), though gains under EUR 1,000 per year are exempt. Germany's Federal Fiscal Court (BFH) confirmed this rule in a 2023 ruling, though a proposal to abolish it has been under discussion since late 2025."
+    },
+    "opportunity": {
+      "asset": "Bitcoin (BTC) held by a German tax resident",
+      "action": {
+        "vi": "Mua Bitcoin và giữ hơn đúng 1 năm trước khi bán để được miễn hoàn toàn thuế lãi vốn tại Đức",
+        "en": "Buy Bitcoin and hold for just over one year before selling to fully avoid German capital-gains tax"
+      },
+      "buyWhen": {
+        "vi": "Bất kỳ lúc nào, miễn là bán sau khi đã qua mốc 12 tháng",
+        "en": "Anytime, as long as the sale happens after the 12-month mark"
+      },
+      "sellWhen": {
+        "vi": "Sau khi vượt mốc 1 năm kể từ ngày mua",
+        "en": "After the one-year holding period has passed"
+      },
+      "estimatedReturn": {
+        "vi": "Không tạo lợi nhuận trực tiếp mà giữ lại toàn bộ phần lãi lẽ ra bị đánh thuế tới 45%",
+        "en": "Doesn't create profit directly — it keeps 100% of a gain that would otherwise be taxed up to 45%"
+      },
+      "risk": "low",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Biết trước quy tắc miễn thuế 1 năm sẽ tồn tại suốt giai đoạn tăng giá mạnh nhất của Bitcoin (2017-2021, 2023-2025), bạn có thể lên kế hoạch mua/bán đúng thời điểm để tối đa hoá phần lãi được giữ lại hợp pháp, thay vì bị đánh thuế thu nhập cá nhân.",
+      "en": "Knowing the one-year exemption will persist through Bitcoin's biggest rallies (2017-2021, 2023-2025) lets you time purchases and sales to legally keep the maximum share of gains instead of losing them to personal income tax."
+    },
+    "pitfalls": {
+      "vi": "Nếu giao dịch quá thường xuyên (mua bán liên tục), cơ quan thuế có thể coi đó là hoạt động kinh doanh thương mại thay vì quản lý tài sản tư nhân, khiến quy tắc miễn thuế không còn áp dụng; đề xuất bãi bỏ quy tắc này từ cuối 2025 cũng là rủi ro chính sách cần theo dõi.",
+      "en": "Trading too frequently can cause tax authorities to classify the activity as a commercial enterprise rather than private asset management, voiding the exemption; the late-2025 proposal to abolish the rule entirely is also a policy risk to watch."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Sau bao lâu nắm giữ thì lãi từ bán Bitcoin được miễn thuế hoàn toàn tại Đức?",
+        "en": "After how long of holding is a Bitcoin sale gain fully tax-free in Germany?"
+      },
+      "choices": [
+        {
+          "vi": "Không bao giờ miễn thuế",
+          "en": "Never tax-free"
+        },
+        {
+          "vi": "Hơn 1 tháng",
+          "en": "More than 1 month"
+        },
+        {
+          "vi": "Hơn 1 năm",
+          "en": "More than 1 year"
+        },
+        {
+          "vi": "Hơn 10 năm",
+          "en": "More than 10 years"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "Theo Điều 23 EStG, được xác nhận bởi Blockpit và bitcoin-tax.de, lãi từ bán Bitcoin nắm giữ hơn 1 năm được miễn hoàn toàn thuế thu nhập.",
+        "en": "Per Section 23 EStG, confirmed by Blockpit and bitcoin-tax.de, gains from Bitcoin held over one year are fully exempt from income tax."
+      }
+    },
+    "sources": [
+      {
+        "title": "Crypto Tax in Germany: 1-Year Rule, Rates & Filing - Blockpit",
+        "url": "https://www.blockpit.io/tax-guides/crypto-tax-germany"
+      },
+      {
+        "title": "FAQ: German Crypto Tax Questions Answered - Bitcoin-Tax.de",
+        "url": "https://bitcoin-tax.de/en/faq/"
+      },
+      {
+        "title": "Taxation of crypto assets in Germany - Oxford Academic",
+        "url": "https://academic.oup.com/tandt/advance-article/doi/10.1093/tandt/ttag057/8724208?guestAccessKey=05412684-d1aa-4aec-868f-fc549492df7a"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "The one-year tax-free holding rule under Section 23 EStG, the EUR 1,000 annual exemption threshold, and the 2023 BFH confirmation are all corroborated across Blockpit, bitcoin-tax.de and the Oxford Academic legal article."
+  },
+  {
+    "id": "de-rheinmetall-rally-2022",
+    "country": "de",
+    "date": "2022-02-24",
+    "category": "stocks",
+    "title": {
+      "vi": "Rheinmetall tăng 10 lần sau chiến tranh Ukraine",
+      "en": "Rheinmetall's 10x Rally After the Ukraine War"
+    },
+    "summary": {
+      "vi": "Cổ phiếu hãng vũ khí Rheinmetall tăng khoảng 10 lần từ 96,8 EUR lên 968 EUR trong 3 năm sau khi Nga xâm lược Ukraine.",
+      "en": "Arms maker Rheinmetall's stock rose roughly tenfold from EUR 96.8 to EUR 968 in the three years after Russia invaded Ukraine."
+    },
+    "description": {
+      "vi": "Khi Nga xâm lược Ukraine ngày 24/2/2022, cổ phiếu hãng quốc phòng Đức Rheinmetall tăng 5,4% lên 101,20 EUR ngay hôm sau và vượt mốc 200 EUR chỉ một tháng sau đó (28/3/2022). Nhờ các nước NATO tăng mạnh chi tiêu quốc phòng và Rheinmetall gia nhập chỉ số DAX tháng 3/2023, cổ phiếu tiếp tục tăng phi mã, đạt khoảng 968 EUR vào đầu năm 2025 — tăng khoảng 10 lần so với mức 96,8 EUR ngày 23/2/2022, một ngày trước cuộc xâm lược.",
+      "en": "When Russia invaded Ukraine on 24 February 2022, German defense firm Rheinmetall's shares jumped 5.4% to EUR 101.20 the next day and topped EUR 200 just a month later (28 March 2022). Driven by NATO members ramping up defense spending and Rheinmetall's addition to the DAX in March 2023, the stock kept climbing, reaching about EUR 968 in early 2025 — roughly a tenfold gain from the EUR 96.8 level on 23 February 2022, the day before the invasion."
+    },
+    "opportunity": {
+      "asset": "Rheinmetall AG (RHM)",
+      "action": {
+        "vi": "Mua cổ phiếu quốc phòng Đức ngay trước/trong ngày Nga xâm lược Ukraine và giữ dài hạn",
+        "en": "Buy German defense stocks right before/on the day Russia invades Ukraine and hold long-term"
+      },
+      "buyWhen": {
+        "vi": "23-24/2/2022, ngay trước khi Nga xâm lược Ukraine",
+        "en": "23-24 February 2022, right before Russia's invasion of Ukraine"
+      },
+      "sellWhen": {
+        "vi": "Có thể tiếp tục giữ nếu chi tiêu quốc phòng châu Âu còn tăng; chốt lời một phần quanh đầu 2025",
+        "en": "Can keep holding while European defense spending keeps rising; consider partial profit-taking around early 2025"
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng 10 lần trong 3 năm",
+        "en": "Roughly 10x over three years"
+      },
+      "returnMultiple": 10.0,
+      "entryPrice": 96.8,
+      "exitPrice": 968,
+      "priceCurrency": "EUR",
+      "exitDate": "2025-02",
+      "risk": "medium",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết trước chính xác ngày Nga xâm lược Ukraine (24/2/2022) và việc châu Âu sẽ tăng vọt chi tiêu quốc phòng nhiều năm liền cho phép bạn mua cổ phiếu Rheinmetall sớm hơn thị trường một bước.",
+      "en": "Knowing the exact invasion date (24 February 2022) and that Europe will ramp up defense spending for years lets you buy Rheinmetall one step ahead of the market."
+    },
+    "pitfalls": {
+      "vi": "Cổ phiếu quốc phòng tăng giá có thể đảo ngược nhanh nếu có lệnh ngừng bắn hoặc hoà đàm bất ngờ; đừng dồn toàn bộ vốn vào một cổ phiếu dù câu chuyện vĩ mô thuyết phục.",
+      "en": "Defense-stock rallies can reverse quickly on a surprise ceasefire or peace talks — don't put all capital into one name even with a compelling macro story."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Cổ phiếu Rheinmetall tăng khoảng bao nhiêu lần trong 3 năm sau khi Nga xâm lược Ukraine?",
+        "en": "Roughly how many times did Rheinmetall's stock rise in the three years after Russia's invasion of Ukraine?"
+      },
+      "choices": [
+        {
+          "vi": "Giảm một nửa",
+          "en": "It fell by half"
+        },
+        {
+          "vi": "Khoảng 2 lần",
+          "en": "About 2 times"
+        },
+        {
+          "vi": "Khoảng 10 lần",
+          "en": "About 10 times"
+        },
+        {
+          "vi": "Không đổi",
+          "en": "It stayed flat"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "Yahoo Finance xác nhận giá tăng từ 96,8 EUR (23/2/2022) lên 968 EUR, tức khoảng 10 lần, trong vòng 3 năm.",
+        "en": "Yahoo Finance confirms the price rose from EUR 96.8 (23 Feb 2022) to EUR 968 — roughly 10x — within three years."
+      }
+    },
+    "sources": [
+      {
+        "title": "Share history - Rheinmetall",
+        "url": "https://www.rheinmetall.com/en/company/history/share-history"
+      },
+      {
+        "title": "Germany's Rheinmetall sees share price up tenfold since Ukraine war - Yahoo Finance",
+        "url": "https://finance.yahoo.com/news/germanys-rheinmetall-sees-share-price-130321524.html"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "EUR 96.8 pre-invasion price (23 Feb 2022) and EUR 968 price about three years later both confirmed by Yahoo Finance; EUR 101.20 post-invasion jump and EUR 200 level in March 2022 confirmed by Rheinmetall's own official share-history page."
+  },
+  {
+    "id": "de-europe-gas-crisis-2022",
+    "country": "de",
+    "date": "2022-08-26",
+    "category": "commodities",
+    "title": {
+      "vi": "Khủng hoảng giá khí đốt châu Âu 2022",
+      "en": "Europe's 2022 Natural Gas Price Crisis"
+    },
+    "summary": {
+      "vi": "Giá khí đốt TTF vượt 300 EUR/MWh vào tháng 8/2022 sau khi Nga siết nguồn cung qua Nord Stream.",
+      "en": "TTF gas prices exceeded EUR 300/MWh in August 2022 after Russia throttled Nord Stream supplies."
+    },
+    "description": {
+      "vi": "Sau cuộc xâm lược Ukraine và việc Nga liên tục cắt giảm dòng khí đốt qua đường ống Nord Stream (chỉ còn chạy ở 20% công suất cuối tháng 8/2022 trước khi dừng hẳn), giá khí đốt tự nhiên chuẩn châu Âu (hợp đồng tương lai TTF tháng trước) tăng vọt lên gần 314 EUR/MWh vào ngày 26/8/2022 — gấp hàng chục lần mức giá trung bình lịch sử, đẩy Đức (nước phụ thuộc nặng vào khí đốt Nga) vào khủng hoảng năng lượng và lạm phát hai con số.",
+      "en": "Following Russia's invasion of Ukraine and its repeated throttling of Nord Stream gas flows (down to just 20% of capacity by late August 2022, before a full halt), Europe's benchmark natural gas price (the front-month TTF futures contract) spiked to almost EUR 314/MWh on 26 August 2022 — tens of times the historical average, plunging Germany, heavily dependent on Russian gas, into an energy crisis and double-digit inflation."
+    },
+    "opportunity": {
+      "asset": "Dutch TTF natural gas futures",
+      "action": {
+        "vi": "Mua hợp đồng tương lai khí đốt TTF hoặc cổ phiếu năng lượng/LNG trước mùa hè 2022 khi Nga bắt đầu siết nguồn cung",
+        "en": "Buy TTF gas futures or energy/LNG stocks ahead of summer 2022 as Russia begins throttling supply"
+      },
+      "buyWhen": {
+        "vi": "Giữa 2022, khi Nord Stream bắt đầu giảm công suất",
+        "en": "Mid-2022, as Nord Stream flows begin shrinking"
+      },
+      "sellWhen": {
+        "vi": "Cuối tháng 8/2022, gần đỉnh giá kỷ lục trước khi giá hạ nhiệt dần",
+        "en": "Late August 2022, near the record peak before prices gradually cooled"
+      },
+      "estimatedReturn": {
+        "vi": "Giá đạt đỉnh gần 314-345 EUR/MWh, gấp nhiều lần mức bình thường dưới 50 EUR/MWh",
+        "en": "Prices peaked near EUR 314-345/MWh, many times the normal sub-EUR-50/MWh range"
+      },
+      "exitPrice": 314,
+      "priceCurrency": "EUR",
+      "exitDate": "2022-08-26",
+      "risk": "high",
+      "capital": "high"
+    },
+    "insiderTip": {
+      "vi": "Biết trước chính xác Nga sẽ vũ khí hoá nguồn cung khí đốt và cuối cùng phá hoại đường ống Nord Stream (tháng 9/2022), bạn có thể mua hợp đồng tương lai khí đốt hoặc cổ phiếu năng lượng/LNG từ đầu 2022 và thoát đúng đỉnh cuối tháng 8.",
+      "en": "Knowing in advance that Russia will weaponize gas supply and the Nord Stream pipelines will ultimately be sabotaged (September 2022) lets you buy gas futures or energy/LNG stocks from early 2022 and exit right at the late-August peak."
+    },
+    "pitfalls": {
+      "vi": "Thị trường năng lượng cực kỳ biến động và chịu ảnh hưởng chính trị bất ngờ (như vụ phá hoại đường ống); chính phủ Đức cũng can thiệp bằng trần giá và trợ cấp, có thể làm méo lợi nhuận giao dịch thực tế.",
+      "en": "Energy markets are extremely volatile and subject to sudden political shocks (like the pipeline sabotage); the German government also intervened with price caps and subsidies, which can distort real trading returns."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Giá khí đốt TTF đạt đỉnh khoảng bao nhiêu EUR/MWh vào cuối tháng 8/2022?",
+        "en": "Roughly what price did TTF gas peak at in late August 2022?"
+      },
+      "choices": [
+        {
+          "vi": "Gần 314-345 EUR/MWh",
+          "en": "Nearly EUR 314-345/MWh"
+        },
+        {
+          "vi": "Khoảng 50 EUR/MWh",
+          "en": "About EUR 50/MWh"
+        },
+        {
+          "vi": "Khoảng 10 EUR/MWh",
+          "en": "About EUR 10/MWh"
+        },
+        {
+          "vi": "Khoảng 1.000 EUR/MWh",
+          "en": "About EUR 1,000/MWh"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "S&P Global và Brussels Times xác nhận giá TTF đạt gần 300-345 EUR/MWh trong các phiên cuối tháng 8/2022.",
+        "en": "S&P Global and the Brussels Times confirm TTF prices reached nearly EUR 300-345/MWh during sessions in late August 2022."
+      }
+    },
+    "sources": [
+      {
+        "title": "European gas prices surge on renewed Russian gas supply uncertainty - S&P Global",
+        "url": "https://www.spglobal.com/energy/en/news-research/latest-news/natural-gas/082222-european-gas-prices-surge-on-renewed-russian-gas-supply-uncertainty"
+      },
+      {
+        "title": "European gas price peaks to new record again - Brussels Times",
+        "url": "https://www.brusselstimes.com/277896/european-gas-price-peaks-to-new-record-again"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "TTF month-ahead price peak of ~EUR 295-314/MWh around 22-26 August 2022, and the Nord Stream throttling to 20% capacity, confirmed by S&P Global's contemporaneous market report; the record-closing level of EUR 292.15/MWh on 24 Aug 2022 confirmed by the Brussels Times."
+  }
+]

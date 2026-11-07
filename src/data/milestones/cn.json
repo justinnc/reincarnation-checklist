@@ -1,0 +1,2076 @@
+[
+  {
+    "id": "cn-reform-opening-1978",
+    "country": "cn",
+    "date": "1978-12-18",
+    "category": "macro",
+    "title": {
+      "vi": "Cải cách và Mở cửa",
+      "en": "Reform and Opening Up"
+    },
+    "summary": {
+      "vi": "Hội nghị Trung ương 3 khóa XI đưa Đặng Tiểu Bình lên nắm quyền, mở ra kinh tế thị trường.",
+      "en": "The Third Plenum put Deng Xiaoping in charge and launched China's market reforms."
+    },
+    "description": {
+      "vi": "Từ 18-22/12/1978, Hội nghị toàn thể lần 3 Ban Chấp hành Trung ương khóa XI họp tại Bắc Kinh, chính thức chuyển trọng tâm từ đấu tranh giai cấp sang xây dựng kinh tế. Đây là thời điểm Đặng Tiểu Bình trở thành lãnh đạo tối cao trên thực tế, mở đường cho tư nhân hóa nông nghiệp, thu hút đầu tư nước ngoài và hình thành các đặc khu kinh tế sau này.",
+      "en": "From December 18-22, 1978, the Third Plenum of the 11th CPC Central Committee met in Beijing and officially shifted the party's focus from class struggle to economic construction. This is the moment Deng Xiaoping became China's de facto paramount leader, paving the way for rural decollectivization, foreign investment and the Special Economic Zones that followed."
+    },
+    "opportunity": {
+      "asset": "Any pre-1978 Chinese land-use rights / early joint-venture equity",
+      "action": {
+        "vi": "Chuẩn bị vốn và quan hệ để tham gia làn sóng tư nhân hóa, đất đai và liên doanh sắp tới.",
+        "en": "Position capital and connections ahead of the coming wave of land-use rights, private farming and joint ventures."
+      },
+      "buyWhen": {
+        "vi": "Ngay sau tháng 12/1978, khi chính sách bắt đầu nới lỏng.",
+        "en": "Right after December 1978 as policy begins loosening."
+      },
+      "sellWhen": {
+        "vi": "Không áp dụng — đây là khởi đầu một chu kỳ tăng trưởng kéo dài hàng thập kỷ.",
+        "en": "N/A — this kicks off a multi-decade growth cycle."
+      },
+      "estimatedReturn": {
+        "vi": "Không thể định lượng bằng một mã tài sản; đây là điểm khởi đầu của cả nền kinh tế.",
+        "en": "Not quantifiable as a single asset; this is the starting gun for the whole economy."
+      },
+      "risk": "medium",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Trong vòng hai năm, các đặc khu kinh tế ven biển (Thâm Quyến, Chu Hải, Sán Đầu, Hạ Môn) sẽ được thành lập — ai có mặt sớm ở đó về đất đai và nhà xưởng sẽ hưởng lợi nhất.",
+      "en": "Within two years the coastal Special Economic Zones (Shenzhen, Zhuhai, Shantou, Xiamen) will be created — early land and factory positions there pay off the most."
+    },
+    "pitfalls": {
+      "vi": "Chính sách thời kỳ đầu đảo chiều liên tục (như vụ dao động quanh Thâm Quyến giữa thập niên 1980); cải cách chính trị bị siết lại sau 1989.",
+      "en": "Early policy flip-flopped repeatedly (e.g. doubts about Shenzhen in the mid-1980s); political reform tightened sharply after 1989."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Sự kiện nào năm 1978 được coi là khởi đầu chính thức của Cải cách và Mở cửa ở Trung Quốc?",
+        "en": "Which 1978 event is considered the official start of China's Reform and Opening Up?"
+      },
+      "choices": [
+        {
+          "vi": "Đại hội Đảng toàn quốc lần thứ 12",
+          "en": "The 12th National Party Congress"
+        },
+        {
+          "vi": "Hội nghị toàn thể lần 3 khóa XI (tháng 12/1978)",
+          "en": "The Third Plenum of the 11th Central Committee (Dec 1978)"
+        },
+        {
+          "vi": "Thành lập đặc khu Thâm Quyến",
+          "en": "The founding of the Shenzhen SEZ"
+        },
+        {
+          "vi": "Trung Quốc gia nhập WTO",
+          "en": "China joining the WTO"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Hội nghị toàn thể lần 3 khóa XI (18-22/12/1978) chính thức đưa Đặng Tiểu Bình lên nắm quyền và chuyển hướng sang xây dựng kinh tế.",
+        "en": "The Third Plenum (Dec 18-22, 1978) formally installed Deng Xiaoping as paramount leader and pivoted policy to economic construction."
+      }
+    },
+    "sources": [
+      {
+        "title": "BBC News — Q&A: China's Third Plenum",
+        "url": "https://www.bbc.com/news/world-asia-china-24846812"
+      },
+      {
+        "title": "Wikipedia — Third plenary session of the 11th Central Committee",
+        "url": "https://en.wikipedia.org/wiki/Third_plenary_session_of_the_11th_Central_Committee_of_the_Chinese_Communist_Party"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Date (Dec 18-22, 1978) and significance confirmed via BBC and Wikipedia."
+  },
+  {
+    "id": "cn-shenzhen-sez-1980",
+    "country": "cn",
+    "date": "1980-08-26",
+    "category": "real-estate",
+    "title": {
+      "vi": "Đặc khu kinh tế Thâm Quyến",
+      "en": "Shenzhen Special Economic Zone"
+    },
+    "summary": {
+      "vi": "Làng chài 30.000 dân biến thành siêu đô thị nhờ quy chế đặc khu kinh tế đầu tiên của Trung Quốc.",
+      "en": "A 30,000-person fishing village became a megacity after becoming China's first Special Economic Zone."
+    },
+    "description": {
+      "vi": "Ngày 26/8/1980, Ủy ban Thường vụ Quốc hội phê chuẩn quy chế đặc khu kinh tế Quảng Đông, chính thức biến Thâm Quyến thành đặc khu kinh tế đầu tiên của Trung Quốc (cùng Chu Hải, Sán Đầu, Hạ Môn). Từ một thị trấn 30.000 dân, Thâm Quyến tăng trưởng GDP trung bình 27%/năm giai đoạn 1980-2005 và trở thành một trong những thành phố giàu nhất Trung Quốc.",
+      "en": "On August 26, 1980, the National People's Congress Standing Committee approved the Guangdong SEZ regulations, formally making Shenzhen China's first Special Economic Zone (alongside Zhuhai, Shantou and Xiamen). From a town of 30,000 people, Shenzhen averaged 27% annual GDP growth from 1980-2005 and became one of China's richest cities."
+    },
+    "opportunity": {
+      "asset": "Shenzhen land-use rights / early factory & housing property",
+      "action": {
+        "vi": "Mua quyền sử dụng đất hoặc bất động sản sớm tại Thâm Quyến trước làn sóng di dân và đầu tư nước ngoài.",
+        "en": "Acquire land-use rights or early property in Shenzhen before the wave of migration and foreign investment."
+      },
+      "buyWhen": {
+        "vi": "Ngay sau tháng 8/1980.",
+        "en": "Right after August 1980."
+      },
+      "sellWhen": {
+        "vi": "Giữ dài hạn qua nhiều thập kỷ tăng trưởng đô thị hóa.",
+        "en": "Hold long-term through decades of urbanization."
+      },
+      "estimatedReturn": {
+        "vi": "GDP Thâm Quyến tăng trưởng bình quân 27%/năm trong 25 năm (1980-2005).",
+        "en": "Shenzhen GDP grew at an average 27%/year over 25 years (1980-2005)."
+      },
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Thâm Quyến từng bị chính các lãnh đạo bảo thủ nghi ngờ muốn hủy bỏ giữa thập niên 1980 — vững tâm giữ tài sản vì Đặng Tiểu Bình sẽ bảo vệ mô hình này trong chuyến 'Nam tuần' năm 1992.",
+      "en": "Conservative leaders nearly scrapped Shenzhen's SEZ status in the mid-1980s — hold your nerve, because Deng Xiaoping's 1992 Southern Tour will cement the model for good."
+    },
+    "pitfalls": {
+      "vi": "Giai đoạn đầu chủ yếu là dệt may, chế biến thực phẩm công nghệ thấp; lợi nhuận thực sự lớn chỉ đến sau giữa thập niên 1990 khi công nghệ cao và tài chính phát triển.",
+      "en": "The early years were mostly low-tech textiles and food processing; the biggest payoffs only arrive after the mid-1990s as tech and finance mature."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Thâm Quyến trở thành đặc khu kinh tế đầu tiên của Trung Quốc vào năm nào?",
+        "en": "In what year did Shenzhen become China's first Special Economic Zone?"
+      },
+      "choices": [
+        {
+          "vi": "1978",
+          "en": "1978"
+        },
+        {
+          "vi": "1990",
+          "en": "1990"
+        },
+        {
+          "vi": "1984",
+          "en": "1984"
+        },
+        {
+          "vi": "1980",
+          "en": "1980"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "vi": "Quy chế đặc khu kinh tế Quảng Đông được phê chuẩn ngày 26/8/1980, biến Thâm Quyến thành đặc khu đầu tiên.",
+        "en": "The Guangdong SEZ regulations were approved on August 26, 1980, making Shenzhen the first SEZ."
+      }
+    },
+    "sources": [
+      {
+        "title": "Wikipedia — Shenzhen Special Economic Zone",
+        "url": "https://en.wikipedia.org/wiki/Shenzhen_Special_Economic_Zone"
+      },
+      {
+        "title": "fDi Intelligence — China's special economic zones",
+        "url": "https://www.fdiintelligence.com/content/780811d8-cbd9-5351-af1c-d5d8828a08ae"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Establishment date (Aug 26, 1980) and 27%/year GDP growth 1980-2005 confirmed via Wikipedia and fDi Intelligence."
+  },
+  {
+    "id": "cn-shanghai-stock-exchange-1990",
+    "country": "cn",
+    "date": "1990-12-19",
+    "category": "stocks",
+    "title": {
+      "vi": "Sàn giao dịch chứng khoán Thượng Hải mở lại",
+      "en": "Shanghai Stock Exchange Reopens"
+    },
+    "summary": {
+      "vi": "Sau 41 năm đóng cửa, Thượng Hải mở lại sàn chứng khoán, khởi đầu thị trường vốn hiện đại Trung Quốc.",
+      "en": "After 41 years shut, Shanghai reopened its stock exchange, kick-starting modern China's capital markets."
+    },
+    "description": {
+      "vi": "Sàn giao dịch chứng khoán Thượng Hải (SSE) được tái lập ngày 26/11/1990 và chính thức hoạt động từ 19/12/1990 tại khách sạn Phố Giang cũ, chỉ số SSE Composite được lập với mốc cơ sở 100 điểm. Đây là lần đầu tiên từ năm 1949 Trung Quốc có một sàn chứng khoán quốc gia hợp pháp.",
+      "en": "The Shanghai Stock Exchange (SSE) was re-established on November 26, 1990 and began formal operations on December 19, 1990 in the old Pujiang Hotel, with the SSE Composite Index set at a base of 100. It was the first legal national stock exchange in China since 1949."
+    },
+    "opportunity": {
+      "asset": "SSE Composite Index",
+      "action": {
+        "vi": "Mua cổ phiếu niêm yết sớm trên sàn Thượng Hải ngay từ ngày khai trương.",
+        "en": "Buy early listed A-shares on the Shanghai exchange from opening day."
+      },
+      "buyWhen": {
+        "vi": "19/12/1990, chỉ số khởi điểm 100 điểm.",
+        "en": "December 19, 1990, index base of 100 points."
+      },
+      "sellWhen": {
+        "vi": "Trước đỉnh bong bóng tháng 10/2007 (xem mục riêng).",
+        "en": "Before the October 2007 bubble peak (see separate entry)."
+      },
+      "estimatedReturn": {
+        "vi": "Chỉ số tăng từ 100 điểm (1990) lên đỉnh 6.124 điểm (2007) — khoảng 61 lần trong 17 năm, dù biến động cực mạnh.",
+        "en": "Index rose from 100 points (1990) to a 6,124-point peak (2007) — roughly 61x over 17 years, despite extreme volatility."
+      },
+      "entryPrice": 100,
+      "exitPrice": 6124.04,
+      "priceCurrency": "points",
+      "exitDate": "2007-10-16",
+      "returnMultiple": 61.24,
+      "risk": "high",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Thị trường sẽ trải qua nhiều chu kỳ bong bóng-vỡ bong bóng dữ dội (1992-93, 2001, 2007, 2015) — giao dịch theo chu kỳ, đừng mua và giữ mù quáng.",
+      "en": "The market will go through violent boom-bust cycles (1992-93, 2001, 2007, 2015) — trade the cycles, don't blindly buy and hold."
+    },
+    "pitfalls": {
+      "vi": "Thanh khoản thấp, hạn chế sở hữu nước ngoài (cổ phiếu B/A tách biệt), và sàn thường bị chi phối bởi quyết định của chính phủ trung ương.",
+      "en": "Low early liquidity, foreign-ownership restrictions (separate A/B shares), and the market is often driven by central-government decisions rather than fundamentals."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Sàn giao dịch chứng khoán Thượng Hải chính thức hoạt động trở lại vào ngày nào?",
+        "en": "On what date did the Shanghai Stock Exchange begin formal operations?"
+      },
+      "choices": [
+        {
+          "vi": "26/11/1990",
+          "en": "November 26, 1990"
+        },
+        {
+          "vi": "1/1/1992",
+          "en": "January 1, 1992"
+        },
+        {
+          "vi": "3/7/1991",
+          "en": "July 3, 1991"
+        },
+        {
+          "vi": "19/12/1990",
+          "en": "December 19, 1990"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "vi": "SSE được thành lập 26/11/1990 nhưng bắt đầu giao dịch chính thức từ 19/12/1990.",
+        "en": "SSE was established on Nov 26, 1990 but formal trading began on Dec 19, 1990."
+      }
+    },
+    "sources": [
+      {
+        "title": "Shanghai Stock Exchange — Overview/History",
+        "url": "https://english.sse.com.cn/aboutsse/overview/"
+      },
+      {
+        "title": "Goldman Sachs — The Shanghai Stock Exchange Reopens in 1990",
+        "url": "https://www.goldmansachs.com/our-firm/history/moments/1990-shanghai-stock-exchange-reopens"
+      },
+      {
+        "title": "Trading Economics — Shanghai Composite all-time high 6124.04",
+        "url": "https://tradingeconomics.com/china/stock-market"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Founding/opening dates confirmed via SSE official site and Goldman Sachs; 6124.04 peak confirmed via Trading Economics."
+  },
+  {
+    "id": "cn-shenzhen-stock-exchange-1991",
+    "country": "cn",
+    "date": "1991-07-03",
+    "category": "stocks",
+    "title": {
+      "vi": "Sàn giao dịch chứng khoán Thâm Quyến khai trương",
+      "en": "Shenzhen Stock Exchange Opens"
+    },
+    "summary": {
+      "vi": "Sàn chứng khoán thứ hai của Trung Quốc mở cửa, tạo nền tảng cho các công ty vừa và nhỏ, công nghệ niêm yết.",
+      "en": "China's second stock exchange opened, becoming the home for SME and tech listings."
+    },
+    "description": {
+      "vi": "Sàn giao dịch chứng khoán Thâm Quyến (SZSE) được thành lập ngày 1/12/1990 và chính thức khai trương giao dịch ngày 3/7/1991. Năm 2004 SZSE mở bảng doanh nghiệp vừa và nhỏ (SME Board), và tháng 10/2009 mở bảng ChiNext — nơi sau này CATL niêm yết năm 2018.",
+      "en": "The Shenzhen Stock Exchange (SZSE) was founded on December 1, 1990 and officially began trading on July 3, 1991. In 2004 SZSE launched its SME Board, and in October 2009 it launched the ChiNext board — where CATL would later list in 2018."
+    },
+    "opportunity": {
+      "asset": "SZSE Component Index",
+      "action": {
+        "vi": "Mở tài khoản và mua cổ phiếu A niêm yết sớm trên sàn Thâm Quyến.",
+        "en": "Open an account and buy early A-share listings on the Shenzhen exchange."
+      },
+      "buyWhen": {
+        "vi": "Ngay từ ngày khai trương 3/7/1991.",
+        "en": "From the opening day, July 3, 1991."
+      },
+      "sellWhen": {
+        "vi": "Theo dõi các đợt bong bóng-vỡ cùng Thượng Hải (2007, 2015).",
+        "en": "Trade around the same bubble/crash cycles as Shanghai (2007, 2015)."
+      },
+      "estimatedReturn": {
+        "vi": "Không có một chỉ số chuẩn công khai từ ngày đầu; lợi nhuận phụ thuộc cổ phiếu cụ thể được chọn.",
+        "en": "No single public benchmark exists from day one; returns depend on the specific stock picked."
+      },
+      "risk": "high",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Thâm Quyến sẽ trở thành sàn của công nghệ và doanh nghiệp vừa/nhỏ — hãy chú ý bảng ChiNext ra đời năm 2009, nơi CATL và nhiều công ty pin, công nghệ niêm yết sau này.",
+      "en": "Shenzhen becomes the SME/tech exchange — watch for the ChiNext board launching in 2009, home to CATL and many battery/tech companies later."
+    },
+    "pitfalls": {
+      "vi": "Thị trường vẫn chịu sự quản lý chặt của nhà nước; nhiều công ty nhỏ niêm yết sớm sau này phá sản hoặc bị hủy niêm yết.",
+      "en": "The market remains tightly state-regulated; many small early listings later went bankrupt or were delisted."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Sàn giao dịch chứng khoán Thâm Quyến bắt đầu giao dịch chính thức vào ngày nào?",
+        "en": "When did the Shenzhen Stock Exchange officially begin trading?"
+      },
+      "choices": [
+        {
+          "vi": "1/12/1990",
+          "en": "December 1, 1990"
+        },
+        {
+          "vi": "19/12/1990",
+          "en": "December 19, 1990"
+        },
+        {
+          "vi": "3/7/1991",
+          "en": "July 3, 1991"
+        },
+        {
+          "vi": "20/3/1991",
+          "en": "March 20, 1991"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "SZSE được thành lập 1/12/1990 nhưng khai trương giao dịch chính thức ngày 3/7/1991.",
+        "en": "SZSE was founded Dec 1, 1990 but officially opened for trading on July 3, 1991."
+      }
+    },
+    "sources": [
+      {
+        "title": "Wikipedia — Shenzhen Stock Exchange",
+        "url": "https://en.wikipedia.org/wiki/Shenzhen_Stock_Exchange"
+      },
+      {
+        "title": "SZSE — About SZSE",
+        "url": "https://www.szse.cn/English/about/overview/"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Founding (Dec 1, 1990) and trading start (July 3, 1991) confirmed via Wikipedia and SZSE official site."
+  },
+  {
+    "id": "cn-moutai-ipo-2001",
+    "country": "cn",
+    "date": "2001-08-27",
+    "category": "stocks",
+    "title": {
+      "vi": "Quý Châu Mao Đài niêm yết",
+      "en": "Kweichow Moutai IPO"
+    },
+    "summary": {
+      "vi": "Cổ phiếu rượu Mao Đài niêm yết giá 31,39 NDT, sau trở thành một trong những cổ phiếu sinh lời nhất Trung Quốc.",
+      "en": "Moutai liquor listed at 31.39 yuan and became one of China's greatest long-term compounders."
+    },
+    "description": {
+      "vi": "Ngày 27/8/2001, Quý Châu Mao Đài (600519.SH) niêm yết trên sàn Thượng Hải với giá phát hành 31,39 NDT/cổ phiếu, huy động khoảng 2,25 tỷ NDT. Giá đóng cửa phiên đầu tiên là 35,55 NDT. Hai thập kỷ sau, đây là một trong các cổ phiếu blue-chip đắt giá và có giá trị vốn hóa lớn nhất Trung Quốc, dù đã điều chỉnh giảm từ đỉnh 2.627,88 NDT (2/2021).",
+      "en": "On August 27, 2001, Kweichow Moutai (600519.SH) listed on the Shanghai Stock Exchange at an issue price of 31.39 yuan per share, raising about 2.25 billion yuan; it closed its first day at 35.55 yuan. Two decades later it became one of China's largest and priciest blue chips, though it has pulled back from its February 2021 peak of 2,627.88 yuan."
+    },
+    "opportunity": {
+      "asset": "Kweichow Moutai (600519.SH)",
+      "action": {
+        "vi": "Mua cổ phiếu ngay phiên IPO và giữ dài hạn qua nhiều chu kỳ.",
+        "en": "Buy at IPO and hold through multiple cycles."
+      },
+      "buyWhen": {
+        "vi": "27/8/2001, giá IPO 31,39 NDT.",
+        "en": "August 27, 2001, IPO price 31.39 yuan."
+      },
+      "sellWhen": {
+        "vi": "Cân nhắc chốt lời một phần quanh đỉnh tháng 2/2021 (~2.628 NDT) trước khi thị trường rượu cao cấp Trung Quốc hạ nhiệt.",
+        "en": "Consider trimming near the February 2021 peak (~2,628 yuan) before China's baijiu/luxury-liquor demand cooled."
+      },
+      "estimatedReturn": {
+        "vi": "Từ 31,39 NDT (2001) lên khoảng 1.453 NDT hiện tại — hơn 46 lần trong khoảng hai thập kỷ.",
+        "en": "From 31.39 yuan (2001) to about 1,453 yuan currently — more than 46x over roughly two decades."
+      },
+      "entryPrice": 31.39,
+      "exitPrice": 1453.0,
+      "priceCurrency": "CNY",
+      "exitDate": "2026-11-06",
+      "returnMultiple": 46.3,
+      "risk": "medium",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Giá rượu Mao Đài sẽ trở thành thước đo tầng lớp trung lưu-thượng lưu Trung Quốc; mỗi đợt chiến dịch chống tham nhũng (2012-2013) gây giảm giá tạm thời — đó là cơ hội mua thêm, không phải lý do bán.",
+      "en": "Moutai's price becomes a barometer of China's wealthy middle class; anti-corruption crackdowns (2012-2013) cause temporary dips that are buying opportunities, not reasons to sell."
+    },
+    "pitfalls": {
+      "vi": "Cổ phiếu đã đạt mức định giá cực cao (P/E hàng chục lần) vào 2020-2021, khiến lợi nhuận cận biên giảm dần sau đó; doanh thu năm 2025 lần đầu sụt giảm.",
+      "en": "The stock reached extremely high valuations (dozens of P/E) by 2020-2021, so marginal forward returns shrink after that; 2025 marked its first-ever annual revenue decline."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Giá IPO của cổ phiếu Quý Châu Mao Đài năm 2001 là bao nhiêu?",
+        "en": "What was Kweichow Moutai's 2001 IPO price?"
+      },
+      "choices": [
+        {
+          "vi": "3,14 NDT",
+          "en": "3.14 yuan"
+        },
+        {
+          "vi": "31,39 NDT",
+          "en": "31.39 yuan"
+        },
+        {
+          "vi": "100 NDT",
+          "en": "100 yuan"
+        },
+        {
+          "vi": "313,9 NDT",
+          "en": "313.9 yuan"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Mao Đài niêm yết ngày 27/8/2001 với giá phát hành 31,39 NDT/cổ phiếu.",
+        "en": "Moutai listed on August 27, 2001 at an issue price of 31.39 yuan per share."
+      }
+    },
+    "sources": [
+      {
+        "title": "Shenzhen Daily — The price of liquor",
+        "url": "https://www.eyeshenzhen.com/content/2020-09/28/content_23600496.htm"
+      },
+      {
+        "title": "Trading Economics — Kweichow Moutai quote",
+        "url": "https://tradingeconomics.com/600519:ch"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "IPO price 31.39 yuan confirmed via Shenzhen Daily/Moomoo; current price ~1,453 yuan confirmed via Trading Economics/Bloomberg (Nov 2026)."
+  },
+  {
+    "id": "cn-wto-accession-2001",
+    "country": "cn",
+    "date": "2001-12-11",
+    "category": "macro",
+    "title": {
+      "vi": "Trung Quốc gia nhập WTO",
+      "en": "China Joins the WTO"
+    },
+    "summary": {
+      "vi": "Trung Quốc trở thành thành viên thứ 143 của WTO, mở ra hai thập kỷ xuất khẩu bùng nổ.",
+      "en": "China became the WTO's 143rd member, unleashing two decades of export-led boom."
+    },
+    "description": {
+      "vi": "Ngày 11/12/2001, Trung Quốc chính thức trở thành thành viên thứ 143 của Tổ chức Thương mại Thế giới sau 15 năm đàm phán. Thuế quan bình quân giảm từ 15,3% (2001) xuống 9,8% (2010), mở đường cho làn sóng đầu tư trực tiếp nước ngoài và xuất khẩu sản xuất khổng lồ biến Trung Quốc thành 'công xưởng thế giới'.",
+      "en": "On December 11, 2001, China officially became the WTO's 143rd member after 15 years of negotiations. Average tariffs fell from 15.3% (2001) to 9.8% (2010), opening the floodgates to foreign direct investment and manufacturing exports that turned China into the 'world's factory'."
+    },
+    "opportunity": {
+      "asset": "Chinese export manufacturers / Shanghai & Hong Kong-listed industrials, shipping, ports",
+      "action": {
+        "vi": "Mua cổ phiếu các công ty sản xuất, logistics, cảng biển Trung Quốc hưởng lợi từ xuất khẩu.",
+        "en": "Buy export manufacturers, logistics and port operators positioned to benefit from trade liberalization."
+      },
+      "buyWhen": {
+        "vi": "Cuối năm 2001, ngay sau khi gia nhập WTO.",
+        "en": "Late 2001, right after WTO accession."
+      },
+      "sellWhen": {
+        "vi": "Trước khủng hoảng tài chính toàn cầu 2008 làm chậm xuất khẩu.",
+        "en": "Before the 2008 global financial crisis slowed exports."
+      },
+      "estimatedReturn": {
+        "vi": "GDP Trung Quốc tăng hơn 4 lần (tính theo USD) từ 2001 đến 2008.",
+        "en": "China's GDP more than quadrupled in USD terms from 2001 to 2008."
+      },
+      "risk": "medium",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Ngành dệt may, điện tử lắp ráp và vận tải container sẽ tăng trưởng nhanh nhất trong 5 năm đầu sau khi gia nhập WTO.",
+      "en": "Textiles, electronics assembly and container shipping grow fastest in the first five years after accession."
+    },
+    "pitfalls": {
+      "vi": "Cơ chế bảo hộ đặc biệt về dệt may (textile safeguard) duy trì đến hết 2008 có thể gây gián đoạn với một số ngành cụ thể.",
+      "en": "The special textiles safeguard mechanism lasting through 2008 could disrupt specific sub-sectors."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Trung Quốc chính thức gia nhập WTO vào ngày nào?",
+        "en": "On what date did China formally join the WTO?"
+      },
+      "choices": [
+        {
+          "vi": "10/11/2001",
+          "en": "November 10, 2001"
+        },
+        {
+          "vi": "17/9/2001",
+          "en": "September 17, 2001"
+        },
+        {
+          "vi": "1/1/2002",
+          "en": "January 1, 2002"
+        },
+        {
+          "vi": "11/12/2001",
+          "en": "December 11, 2001"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "vi": "Trung Quốc trở thành thành viên thứ 143 của WTO vào ngày 11/12/2001.",
+        "en": "China became the WTO's 143rd member on December 11, 2001."
+      }
+    },
+    "sources": [
+      {
+        "title": "WTO — Accessions: China",
+        "url": "https://www.wto.org/english/thewto_e/acc_e/a1_chine_e.htm"
+      },
+      {
+        "title": "USTR — Background on China's Accession to the WTO",
+        "url": "https://ustr.gov/archive/Document_Library/Fact_Sheets/2001/Background_Information_on_China's_Accession_to_the_World_Trade_Organization.html"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Accession date (Dec 11, 2001) confirmed directly from WTO official page."
+  },
+  {
+    "id": "cn-commodity-supercycle-2003",
+    "country": "cn",
+    "date": "2003",
+    "category": "commodities",
+    "title": {
+      "vi": "Siêu chu kỳ hàng hóa do Trung Quốc dẫn dắt",
+      "en": "China-Driven Commodity Supercycle"
+    },
+    "summary": {
+      "vi": "Nhu cầu xây dựng và công nghiệp hóa khổng lồ của Trung Quốc đẩy giá quặng sắt, đồng tăng vọt 2003-2008.",
+      "en": "China's massive construction and industrialization boom sent iron ore and copper prices soaring 2003-2008."
+    },
+    "description": {
+      "vi": "Từ khoảng năm 2003, tốc độ đô thị hóa và xây dựng hạ tầng chóng mặt của Trung Quốc (chiếm hơn 30% tiêu thụ kim loại công nghiệp toàn cầu) đã khởi động một 'siêu chu kỳ hàng hóa' kéo dài đến giữa 2008, đẩy giá quặng sắt, đồng, than và nhiều kim loại cơ bản lên các mức kỷ lục trước khi khủng hoảng tài chính toàn cầu làm giá sụp đổ cuối 2008.",
+      "en": "From around 2003, China's breakneck urbanization and infrastructure build-out (consuming more than 30% of global industrial metals) kicked off a 'commodity supercycle' that lasted until mid-2008, driving iron ore, copper, coal and many base metals to record highs before the global financial crisis crashed prices in late 2008."
+    },
+    "opportunity": {
+      "asset": "Iron ore, copper, and mining equities (e.g. BHP, Rio Tinto, Vale, Jiangxi Copper)",
+      "action": {
+        "vi": "Mua cổ phiếu khai khoáng/kim loại toàn cầu và hợp đồng hàng hóa trước khi nhu cầu Trung Quốc bùng nổ.",
+        "en": "Buy global mining/metals equities and commodity exposure ahead of the China demand boom."
+      },
+      "buyWhen": {
+        "vi": "Khoảng 2003, khi tốc độ xây dựng hạ tầng Trung Quốc tăng tốc rõ rệt.",
+        "en": "Around 2003, as China's infrastructure build-out visibly accelerates."
+      },
+      "sellWhen": {
+        "vi": "Giữa năm 2008, trước khi khủng hoảng tài chính toàn cầu làm giá hàng hóa sụp đổ.",
+        "en": "Mid-2008, before the global financial crisis crashes commodity prices."
+      },
+      "estimatedReturn": {
+        "vi": "Giá đồng và quặng sắt tăng gấp nhiều lần (ước tính 5-8 lần tùy loại hàng hóa) trong giai đoạn 2003-2008.",
+        "en": "Copper and iron-ore prices rose several-fold (roughly 5-8x depending on the commodity) over 2003-2008."
+      },
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Trung Quốc sẽ tung gói kích thích 4.000 tỷ NDT cuối 2008 khởi động lại nhu cầu hàng hóa nhanh hơn dự kiến — đừng rời thị trường quá lâu sau cú sập 2008.",
+      "en": "China will unleash a 4-trillion-yuan stimulus in late 2008 that reignites commodity demand faster than expected — don't stay out of the market too long after the 2008 crash."
+    },
+    "pitfalls": {
+      "vi": "Giá hàng hóa cực kỳ biến động và nhạy với chính sách; không có một mã cổ phiếu/giá tham chiếu duy nhất nên lợi nhuận thực tế phụ thuộc nhiều vào tài sản cụ thể được chọn.",
+      "en": "Commodity prices are extremely volatile and policy-sensitive; there is no single reference price, so actual returns depend heavily on the specific asset chosen."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Yếu tố nào chủ yếu thúc đẩy siêu chu kỳ hàng hóa toàn cầu giai đoạn 2003-2008?",
+        "en": "What was the main driver of the 2003-2008 global commodity supercycle?"
+      },
+      "choices": [
+        {
+          "vi": "Chiến tranh Iraq",
+          "en": "The Iraq War"
+        },
+        {
+          "vi": "Giá dầu giảm",
+          "en": "Falling oil prices"
+        },
+        {
+          "vi": "Khủng hoảng tài chính Mỹ",
+          "en": "The US financial crisis"
+        },
+        {
+          "vi": "Đô thị hóa và xây dựng hạ tầng của Trung Quốc",
+          "en": "China's urbanization and infrastructure build-out"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "vi": "Nhu cầu khổng lồ về kim loại và năng lượng cho xây dựng, công nghiệp hóa của Trung Quốc là động lực chính của siêu chu kỳ này.",
+        "en": "China's enormous appetite for metals and energy to fuel construction and industrialization was the primary driver of this supercycle."
+      }
+    },
+    "sources": [
+      {
+        "title": "Reuters — China's top regulators crackdown context (background on China demand era)",
+        "url": "https://www.reuters.com/world/china/"
+      },
+      {
+        "title": "Wikipedia — Commodity supercycle",
+        "url": "https://en.wikipedia.org/wiki/Commodity_supercycle"
+      }
+    ],
+    "verified": false,
+    "verifiedNote": "General commodity-supercycle narrative is well documented, but specific price multiples (5-8x) are an industry-standard approximation, not pinned to a single fetched primary source with exact start/end prices — flagged unverified; no numeric price fields were set to avoid inventing figures."
+  },
+  {
+    "id": "cn-tencent-ipo-2004",
+    "country": "cn",
+    "date": "2004-06-16",
+    "category": "stocks",
+    "title": {
+      "vi": "Tencent niêm yết tại Hồng Kông",
+      "en": "Tencent's Hong Kong IPO"
+    },
+    "summary": {
+      "vi": "Tencent niêm yết giá HK$3,70, trở thành một trong những khoản đầu tư công nghệ sinh lời nhất châu Á.",
+      "en": "Tencent IPO'd at HK$3.70 and became one of Asia's greatest tech compounders."
+    },
+    "description": {
+      "vi": "Ngày 16/6/2004, Tencent Holdings (0700.HK) niêm yết trên Sở giao dịch chứng khoán Hồng Kông với giá chào bán HK$3,70/cổ phiếu, huy động khoảng HK$1,55 tỷ. Công ty khi đó chủ yếu được biết đến với phần mềm nhắn tin QQ; hai thập kỷ sau trở thành một trong những công ty internet giá trị nhất thế giới nhờ WeChat và game.",
+      "en": "On June 16, 2004, Tencent Holdings (0700.HK) listed on the Hong Kong Stock Exchange at an offer price of HK$3.70 per share, raising about HK$1.55 billion. The company was then known mainly for its QQ messaging software; two decades later it became one of the world's most valuable internet companies via WeChat and gaming."
+    },
+    "opportunity": {
+      "asset": "Tencent Holdings (0700.HK)",
+      "action": {
+        "vi": "Mua cổ phiếu ngay IPO và giữ xuyên suốt sự bùng nổ game/mạng xã hội Trung Quốc.",
+        "en": "Buy at IPO and hold through China's gaming and social-media boom."
+      },
+      "buyWhen": {
+        "vi": "16/6/2004, giá IPO HK$3,70.",
+        "en": "June 16, 2004, IPO price HK$3.70."
+      },
+      "sellWhen": {
+        "vi": "Có thể chốt lời một phần quanh đỉnh 2021 trước đợt siết quản lý 'big tech' của Bắc Kinh.",
+        "en": "Consider trimming near the 2021 peak before Beijing's big-tech regulatory crackdown."
+      },
+      "estimatedReturn": {
+        "vi": "Cổ phiếu từng đạt HK$159,60 chỉ sau 3 năm (gấp 43 lần giá IPO) trước khi tiếp tục tăng mạnh hơn trong các năm sau.",
+        "en": "The stock hit HK$159.60 within 3 years (43x the IPO price) and climbed much further in the years after."
+      },
+      "entryPrice": 3.7,
+      "exitPrice": 159.6,
+      "priceCurrency": "HKD",
+      "exitDate": "2007",
+      "returnMultiple": 43.1,
+      "risk": "medium",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Chú ý bản phát hành WeChat năm 2011 — đó là bước ngoặt biến Tencent từ công ty nhắn tin PC thành đế chế di động thống trị Trung Quốc.",
+      "en": "Watch for WeChat's 2011 launch — the turning point that transforms Tencent from a PC-messaging firm into China's dominant mobile empire."
+    },
+    "pitfalls": {
+      "vi": "Cổ phiếu chia tách 5-1 vào tháng 5/2014 làm giá IPO điều chỉnh còn HK$0,74; đợt siết quản lý game/fintech 2018 và 2021 từng khiến cổ phiếu giảm hơn 50% từ đỉnh.",
+      "en": "A 5-for-1 split in May 2014 adjusts the IPO price to HK$0.74; regulatory crackdowns on gaming/fintech in 2018 and 2021 each cut the stock more than 50% from its peak."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Tencent niêm yết tại Hồng Kông với giá bao nhiêu vào năm 2004?",
+        "en": "What price did Tencent IPO at in Hong Kong in 2004?"
+      },
+      "choices": [
+        {
+          "vi": "HK$0,37",
+          "en": "HK$0.37"
+        },
+        {
+          "vi": "HK$17,00",
+          "en": "HK$17.00"
+        },
+        {
+          "vi": "HK$37,00",
+          "en": "HK$37.00"
+        },
+        {
+          "vi": "HK$3,70",
+          "en": "HK$3.70"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "vi": "Tencent niêm yết ngày 16/6/2004 với giá chào bán HK$3,70/cổ phiếu.",
+        "en": "Tencent listed on June 16, 2004 at an offer price of HK$3.70 per share."
+      }
+    },
+    "sources": [
+      {
+        "title": "Tencent — Tencent successfully listed on HKEX",
+        "url": "https://www.tencent.com/en-us/articles/1600069.html"
+      },
+      {
+        "title": "SCMP — Lai See (43x listing price)",
+        "url": "https://www.scmp.com/article/701395/lai-see"
+      },
+      {
+        "title": "Capital.com — Tencent share price history",
+        "url": "https://capital.com/en-gb/learn/market-guides/trade-tencent"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "IPO price HK$3.70 confirmed via Tencent IR release; HK$159.60 level (43x) confirmed via SCMP; 2014 5-for-1 split confirmed via Capital.com."
+  },
+  {
+    "id": "cn-baidu-ipo-2005",
+    "country": "cn",
+    "date": "2005-08-05",
+    "category": "technology",
+    "title": {
+      "vi": "Baidu niêm yết trên Nasdaq",
+      "en": "Baidu's Nasdaq IPO"
+    },
+    "summary": {
+      "vi": "Baidu tăng hơn 350% trong phiên IPO đầu tiên — cú 'pop' lớn nhất kể từ thời dot-com.",
+      "en": "Baidu surged over 350% on its IPO day — the biggest debut pop since the dot-com era."
+    },
+    "description": {
+      "vi": "Ngày 5/8/2005, 'Google của Trung Quốc' Baidu.com (BIDU) niêm yết trên Nasdaq với giá IPO 27 USD/ADS. Cổ phiếu mở cửa quanh 66 USD và đóng cửa phiên đầu tiên ở mức 122,54 USD, tăng hơn 350% — một trong những phiên IPO công nghệ ấn tượng nhất kể từ bong bóng dot-com 1999-2000.",
+      "en": "On August 5, 2005, 'China's Google' Baidu.com (BIDU) listed on the Nasdaq at an IPO price of $27 per ADS. The stock opened around $66 and closed its first day at $122.54, up more than 350% — one of the most dramatic tech IPO debuts since the 1999-2000 dot-com bubble."
+    },
+    "opportunity": {
+      "asset": "Baidu (NASDAQ: BIDU)",
+      "action": {
+        "vi": "Tham gia IPO hoặc mua ngay phiên đầu nếu không có suất IPO, giữ qua thập kỷ thống trị tìm kiếm tại Trung Quốc.",
+        "en": "Get into the IPO, or buy on debut day if shut out of allocation, and hold through Baidu's decade of search dominance in China."
+      },
+      "buyWhen": {
+        "vi": "5/8/2005, giá IPO 27 USD/ADS.",
+        "en": "August 5, 2005, IPO price $27/ADS."
+      },
+      "sellWhen": {
+        "vi": "Theo dõi sát khi các đối thủ di động như Tencent/ByteDance bắt đầu giành thị phần quảng cáo từ giữa thập niên 2010.",
+        "en": "Watch closely as mobile-era rivals like Tencent/ByteDance start eating ad-market share from the mid-2010s."
+      },
+      "estimatedReturn": {
+        "vi": "Tăng từ 27 USD lên 122,54 USD chỉ trong một phiên giao dịch — gấp khoảng 4,5 lần.",
+        "en": "Rose from $27 to $122.54 in a single trading session — roughly 4.5x."
+      },
+      "entryPrice": 27,
+      "exitPrice": 122.54,
+      "priceCurrency": "USD",
+      "exitDate": "2005-08-05",
+      "returnMultiple": 4.54,
+      "risk": "high",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Google sẽ rút khỏi thị trường tìm kiếm đại lục Trung Quốc năm 2010, càng củng cố vị thế độc quyền của Baidu trong gần một thập kỷ sau đó.",
+      "en": "Google will exit mainland China search in 2010, cementing Baidu's near-monopoly for nearly a decade afterward."
+    },
+    "pitfalls": {
+      "vi": "Phần lớn mức tăng 350% xảy ra ngay trong phiên đầu — nhà đầu tư cá nhân mua sau khi đã tăng giá sẽ chịu rủi ro điều chỉnh mạnh trong các tuần sau đó.",
+      "en": "Most of the 350% gain happens on day one itself — retail investors buying into the spike risk a sharp pullback in the following weeks."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Cổ phiếu Baidu tăng bao nhiêu phần trăm trong phiên giao dịch đầu tiên năm 2005?",
+        "en": "By what percentage did Baidu's stock rise on its first trading day in 2005?"
+      },
+      "choices": [
+        {
+          "vi": "Khoảng 50%",
+          "en": "About 50%"
+        },
+        {
+          "vi": "Khoảng 100%",
+          "en": "About 100%"
+        },
+        {
+          "vi": "Hơn 350%",
+          "en": "More than 350%"
+        },
+        {
+          "vi": "Khoảng 20%",
+          "en": "About 20%"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "Baidu mở giá IPO 27 USD và đóng cửa phiên đầu ở 122,54 USD, tăng hơn 350%.",
+        "en": "Baidu priced its IPO at $27 and closed its first day at $122.54, up more than 350%."
+      }
+    },
+    "sources": [
+      {
+        "title": "Baidu IR — Announces Initial Public Offering",
+        "url": "https://ir.baidu.com/news-releases/news-release-details/baiducom-inc-announces-initial-public-offering/"
+      },
+      {
+        "title": "Chicago Tribune — Chinese dot-com's IPO steals spotlight",
+        "url": "https://www.chicagotribune.com/2005/08/06/chinese-dot-coms-ipo-steals-spotlight/"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "IPO price $27 and first-day close $122.54 (+350%) confirmed via Baidu IR release and Chicago Tribune/Bloomberg report."
+  },
+  {
+    "id": "cn-shanghai-composite-peak-2007",
+    "country": "cn",
+    "date": "2007-10-16",
+    "category": "stocks",
+    "title": {
+      "vi": "Đỉnh bong bóng chứng khoán Thượng Hải 2007",
+      "en": "2007 Shanghai Composite Bubble Peak"
+    },
+    "summary": {
+      "vi": "Chỉ số Thượng Hải đạt đỉnh lịch sử 6.124 điểm rồi sụp đổ hơn 70% trong năm sau đó.",
+      "en": "The Shanghai Composite hit an all-time high of 6,124 points, then crashed more than 70% within a year."
+    },
+    "description": {
+      "vi": "Ngày 16/10/2007, chỉ số SSE Composite đạt đỉnh lịch sử 6.124,04 điểm, tăng từ đáy 998,22 điểm (6/6/2005) — tức gấp khoảng 6 lần trong hơn hai năm nhờ dòng tiền đầu cơ ồ ạt. Sau đó chỉ số sụp đổ xuống còn khoảng 1.820 điểm vào cuối năm 2008 do khủng hoảng tài chính toàn cầu, giảm hơn 70% từ đỉnh.",
+      "en": "On October 16, 2007, the SSE Composite Index hit an all-time high of 6,124.04 points, up from a trough of 998.22 (June 6, 2005) — roughly a 6x rise in just over two years driven by speculative frenzy. The index then crashed to about 1,820 points by end-2008 as the global financial crisis hit, down more than 70% from the peak."
+    },
+    "opportunity": {
+      "asset": "SSE Composite Index",
+      "action": {
+        "vi": "Bán hoặc short trước đỉnh tháng 10/2007; đứng ngoài thị trường A-share Trung Quốc suốt năm 2008.",
+        "en": "Sell or short ahead of the October 2007 peak; stay out of China A-shares through 2008."
+      },
+      "buyWhen": {
+        "vi": "Không áp dụng — đây là tín hiệu bán, không phải mua.",
+        "en": "N/A — this is a sell signal, not a buy."
+      },
+      "sellWhen": {
+        "vi": "Ngay trước hoặc tại đỉnh 16/10/2007 (6.124,04 điểm).",
+        "en": "Right before or at the October 16, 2007 peak (6,124.04 points)."
+      },
+      "estimatedReturn": {
+        "vi": "Tránh được khoản lỗ hơn 70% khi chỉ số rơi từ 6.124 xuống khoảng 1.820 điểm cuối 2008.",
+        "en": "Avoided a 70%+ loss as the index fell from 6,124 to about 1,820 points by end-2008."
+      },
+      "entryPrice": 6124.04,
+      "exitPrice": 1820.81,
+      "priceCurrency": "points",
+      "exitDate": "2008-12-31",
+      "returnMultiple": 0.297,
+      "risk": "high",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Chỉ số sẽ không quay lại mức 6.124 điểm trong ít nhất hai thập kỷ tiếp theo — đây là đỉnh lịch sử chưa từng bị phá tính đến năm 2026.",
+      "en": "The index will not retouch 6,124 points for at least two decades — it remains an unbroken all-time high as of 2026."
+    },
+    "pitfalls": {
+      "vi": "Việc bắt đỉnh chính xác gần như bất khả thi; chiến lược thực tế hơn là giảm dần tỷ trọng cổ phiếu Trung Quốc suốt nửa cuối 2007.",
+      "en": "Timing the exact top is nearly impossible; a more realistic strategy is gradually trimming China equity exposure through the second half of 2007."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Chỉ số SSE Composite đạt đỉnh lịch sử 6.124,04 điểm vào ngày nào?",
+        "en": "On what date did the SSE Composite hit its all-time high of 6,124.04 points?"
+      },
+      "choices": [
+        {
+          "vi": "16/10/2007",
+          "en": "October 16, 2007"
+        },
+        {
+          "vi": "12/6/2015",
+          "en": "June 12, 2015"
+        },
+        {
+          "vi": "6/6/2005",
+          "en": "June 6, 2005"
+        },
+        {
+          "vi": "31/12/2008",
+          "en": "December 31, 2008"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "Đỉnh lịch sử 6.124,04 điểm được xác lập ngày 16/10/2007, vẫn chưa bị phá tính đến nay.",
+        "en": "The all-time high of 6,124.04 was set on October 16, 2007 and remains unbroken to this day."
+      }
+    },
+    "sources": [
+      {
+        "title": "Trading Economics — China Shanghai Composite Stock Market Index",
+        "url": "https://tradingeconomics.com/china/stock-market"
+      },
+      {
+        "title": "Global Times — Confidence in stock markets still low",
+        "url": "https://www.globaltimes.cn/content/818525.shtml"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Peak 6,124.04 on Oct 16, 2007 and subsequent all-time-high status confirmed via Trading Economics; 2008 year-end close ~1,820.81 corroborated by a secondary aggregator."
+  },
+  {
+    "id": "cn-beijing-olympics-2008",
+    "country": "cn",
+    "date": "2008-08-08",
+    "category": "business",
+    "title": {
+      "vi": "Thế vận hội Bắc Kinh 2008",
+      "en": "Beijing 2008 Olympics"
+    },
+    "summary": {
+      "vi": "Thế vận hội mùa hè 2008 là bệ phóng quảng bá cho hạ tầng, du lịch và thương hiệu quốc gia Trung Quốc.",
+      "en": "The 2008 Summer Olympics showcased China's infrastructure, tourism and national brand to the world."
+    },
+    "description": {
+      "vi": "Thế vận hội mùa hè khai mạc ngày 8/8/2008 tại Bắc Kinh (chọn ngày 8/8 vì số 8 được coi là may mắn). Trung Quốc đầu tư hàng chục tỷ USD vào hạ tầng, sân vận động (Tổ chim, Thủy lập phương) và giao thông đô thị, tạo cú hích ngắn hạn cho xây dựng, truyền thông, quảng cáo nhưng trùng thời điểm với khởi đầu khủng hoảng tài chính toàn cầu khiến thị trường chứng khoán giảm mạnh ngay trong năm đó.",
+      "en": "The Summer Olympics opened on August 8, 2008 in Beijing (the date chosen because 8 is considered lucky). China spent tens of billions of dollars on infrastructure, stadiums (the Bird's Nest, Water Cube) and urban transit, giving a short-term boost to construction, media and advertising — but it coincided with the onset of the global financial crisis, so the stock market fell sharply that same year."
+    },
+    "opportunity": {
+      "asset": "Chinese construction, media/advertising, and consumer-brand equities pre-2008",
+      "action": {
+        "vi": "Đầu tư vào các công ty xây dựng hạ tầng, truyền thông, quảng cáo trước 2008 rồi thoát sớm trước khi khủng hoảng tài chính lan tới.",
+        "en": "Invest in infrastructure, media and advertising companies ahead of 2008, then exit early before the financial crisis arrives."
+      },
+      "buyWhen": {
+        "vi": "2005-2006, khi Bắc Kinh tăng tốc đầu tư hạ tầng Olympic.",
+        "en": "2005-2006, as Beijing ramps up Olympic infrastructure spending."
+      },
+      "sellWhen": {
+        "vi": "Trước giữa năm 2008, do khủng hoảng tài chính toàn cầu sắp ập đến bất kể Olympic.",
+        "en": "Before mid-2008, since the global financial crisis is coming regardless of the Olympics."
+      },
+      "estimatedReturn": {
+        "vi": "Lợi ích chủ yếu là gián tiếp (hình ảnh quốc gia, hạ tầng đô thị Bắc Kinh) hơn là một khoản đầu tư tài chính trực tiếp đo lường được.",
+        "en": "The benefit is mostly indirect (national image, Beijing urban infrastructure) rather than a directly measurable financial trade."
+      },
+      "risk": "medium",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Thị trường chứng khoán Trung Quốc đã đạt đỉnh một năm trước Olympic (10/2007) — đừng nhầm lẫn 'hiệu ứng Olympic' với xu hướng thị trường chung, vì chỉ số sẽ giảm mạnh ngay trong năm diễn ra sự kiện.",
+      "en": "China's stock market had already peaked a year before the Olympics (Oct 2007) — don't confuse the 'Olympic effect' with the broader market trend, since the index falls sharply in the very year of the Games."
+    },
+    "pitfalls": {
+      "vi": "Nhiều nhà đầu tư kỳ vọng 'hiệu ứng Olympic' sẽ đẩy giá cổ phiếu tăng quanh thời điểm sự kiện, nhưng thực tế chỉ số giảm mạnh do khủng hoảng tài chính toàn cầu trùng thời điểm.",
+      "en": "Many investors expected an 'Olympic effect' to lift stocks around the Games, but in reality the index fell sharply due to the coinciding global financial crisis."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Thế vận hội Bắc Kinh khai mạc vào ngày nào, và vì sao chọn ngày đó?",
+        "en": "On what date did the Beijing Olympics open, and why was that date chosen?"
+      },
+      "choices": [
+        {
+          "vi": "1/10/2008, Quốc khánh Trung Quốc",
+          "en": "October 1, 2008, China's National Day"
+        },
+        {
+          "vi": "1/1/2008, đầu năm mới",
+          "en": "January 1, 2008, New Year's Day"
+        },
+        {
+          "vi": "8/8/2008, vì số 8 được coi là may mắn",
+          "en": "August 8, 2008, because 8 is considered lucky"
+        },
+        {
+          "vi": "4/6/2008, không có ý nghĩa đặc biệt",
+          "en": "June 4, 2008, no special meaning"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "Lễ khai mạc được tổ chức lúc 8 giờ tối ngày 8/8/2008 vì số 8 tượng trưng cho sự thịnh vượng trong văn hóa Trung Quốc.",
+        "en": "The opening ceremony was held at 8 pm on 8/8/2008 because the number 8 symbolizes prosperity in Chinese culture."
+      }
+    },
+    "sources": [
+      {
+        "title": "Wikipedia — 2008 Summer Olympics",
+        "url": "https://en.wikipedia.org/wiki/2008_Summer_Olympics"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Opening date Aug 8, 2008 and the 'lucky number 8' rationale are well-documented general knowledge confirmed via Wikipedia; no specific financial return figures were invented."
+  },
+  {
+    "id": "cn-byd-buffett-2008",
+    "country": "cn",
+    "date": "2008-09-27",
+    "category": "stocks",
+    "title": {
+      "vi": "Buffett đầu tư vào BYD",
+      "en": "Buffett's BYD Investment"
+    },
+    "summary": {
+      "vi": "Berkshire Hathaway mua 10% cổ phần BYD giá HK$8/cổ phiếu — khoản đầu tư sinh lời gấp 38 lần.",
+      "en": "Berkshire Hathaway bought a 10% BYD stake at HK$8/share — a trade that eventually returned 38x."
+    },
+    "description": {
+      "vi": "Ngày 27/9/2008, MidAmerican Energy Holdings (công ty con của Berkshire Hathaway) công bố mua 225 triệu cổ phiếu H mới phát hành của BYD với giá HK$8/cổ phiếu, tổng giá trị HK$1,8 tỷ (~230 triệu USD), tương đương gần 10% cổ phần công ty. BYD khi đó là nhà sản xuất pin và linh kiện điện thoại, mới bắt đầu làm xe điện. Berkshire nắm giữ cổ phần này suốt 14 năm và hoàn tất thoái vốn năm 2022-2025 với lợi nhuận gấp khoảng 38 lần.",
+      "en": "On September 27, 2008, MidAmerican Energy Holdings (a Berkshire Hathaway subsidiary) announced it would buy 225 million newly issued BYD H-shares at HK$8 per share, a HK$1.8 billion (~$230 million) deal for close to a 10% stake. BYD was then a battery and handset-component maker just entering electric vehicles. Berkshire held the stake for 14 years and completed its exit by 2022-2025 with roughly a 38x return."
+    },
+    "opportunity": {
+      "asset": "BYD Company (1211.HK)",
+      "action": {
+        "vi": "Mua cổ phiếu BYD cùng thời điểm Berkshire Hathaway công bố khoản đầu tư.",
+        "en": "Buy BYD shares alongside Berkshire Hathaway's announced investment."
+      },
+      "buyWhen": {
+        "vi": "27/9/2008, giá HK$8/cổ phiếu (chiết khấu 4,8% so với giá đóng cửa trước đó).",
+        "en": "September 27, 2008, at HK$8/share (a 4.8% discount to the prior close)."
+      },
+      "sellWhen": {
+        "vi": "Có thể giữ đến 2022 khi Berkshire bắt đầu thoái vốn dần, hoặc chốt lời sớm hơn quanh đỉnh giá xe điện 2021-2022.",
+        "en": "Hold until 2022 when Berkshire begins trimming, or take profits earlier around the 2021-2022 EV valuation peak."
+      },
+      "estimatedReturn": {
+        "vi": "Berkshire Hathaway ghi nhận lợi nhuận gấp khoảng 38 lần trên khoản đầu tư ban đầu sau khi thoái vốn hoàn toàn.",
+        "en": "Berkshire Hathaway booked roughly a 38x return on its original investment after fully exiting."
+      },
+      "entryPrice": 8,
+      "priceCurrency": "HKD",
+      "returnMultiple": 38,
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "BYD sẽ vượt Tesla để trở thành hãng xe điện bán chạy nhất thế giới theo doanh số vào năm 2023-2024 — kiên nhẫn giữ cổ phiếu qua nhiều năm công ty chỉ được biết đến như nhà sản xuất pin.",
+      "en": "BYD will overtake Tesla to become the world's best-selling EV maker by units around 2023-2024 — be patient and hold through the years it's known only as a battery maker."
+    },
+    "pitfalls": {
+      "vi": "Cổ phiếu gần như đi ngang hoặc giảm trong nhiều năm đầu (2010-2019) khi mảng xe điện chưa có lãi; cần kiên nhẫn cực lớn để không bán sớm.",
+      "en": "The stock was largely flat or down for years (2010-2019) while the EV business was unprofitable; it takes enormous patience not to sell early."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Berkshire Hathaway (qua MidAmerican) mua cổ phần BYD với giá bao nhiêu mỗi cổ phiếu năm 2008?",
+        "en": "At what price per share did Berkshire Hathaway (via MidAmerican) buy its BYD stake in 2008?"
+      },
+      "choices": [
+        {
+          "vi": "HK$0,80",
+          "en": "HK$0.80"
+        },
+        {
+          "vi": "HK$80,00",
+          "en": "HK$80.00"
+        },
+        {
+          "vi": "HK$8,00",
+          "en": "HK$8.00"
+        },
+        {
+          "vi": "HK$18,00",
+          "en": "HK$18.00"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "MidAmerican mua 225 triệu cổ phiếu H mới của BYD với giá HK$8/cổ phiếu, tổng HK$1,8 tỷ.",
+        "en": "MidAmerican bought 225 million new BYD H-shares at HK$8 per share, for a total of HK$1.8 billion."
+      }
+    },
+    "sources": [
+      {
+        "title": "CNBC — Warren Buffett Stake Sends BYD Shares 42% Higher",
+        "url": "https://www.cnbc.com/2008/09/29/warren-buffett-stake-sends-chinese-battery-makers-shares-42-higher-in-hong-kong.html"
+      },
+      {
+        "title": "TradingKey — Buffett Sells Entire BYD Stake, Capping 38-Bagger",
+        "url": "https://www.tradingkey.com/news/stocks/251125529-warren-buffett-sells-entire-byd-stake-stock-falls-tradingkey"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Purchase price HK$8/share, 225M shares, HK$1.8B total confirmed via CNBC/FinanceAsia/SCMP; 38x total return confirmed via TradingKey report on full exit."
+  },
+  {
+    "id": "cn-stimulus-2008",
+    "country": "cn",
+    "date": "2008-11-09",
+    "category": "macro",
+    "title": {
+      "vi": "Gói kích thích 4.000 tỷ NDT",
+      "en": "China's 4 Trillion Yuan Stimulus"
+    },
+    "summary": {
+      "vi": "Trung Quốc tung gói kích thích 4.000 tỷ NDT (~586 tỷ USD) để chống khủng hoảng tài chính toàn cầu.",
+      "en": "China unveiled a 4-trillion-yuan (~$586B) stimulus package to counter the global financial crisis."
+    },
+    "description": {
+      "vi": "Ngày 9/11/2008, Quốc vụ viện Trung Quốc công bố gói kích thích kinh tế trị giá 4.000 tỷ NDT (khoảng 586 tỷ USD, sau được làm rõ là 570 tỷ USD) chi trong hai năm cho nhà ở thu nhập thấp, hạ tầng nông thôn, đường sắt, điện, môi trường và tái thiết sau động đất Tứ Xuyên. Gói kích thích giúp Trung Quốc duy trì tăng trưởng GDP quanh 9% năm 2008 trong khi các nền kinh tế phát triển suy thoái, nhưng cũng gieo mầm cho bong bóng bất động sản và nợ địa phương sau này.",
+      "en": "On November 9, 2008, China's State Council announced a 4-trillion-yuan (about $586 billion, later clarified as $570 billion) stimulus package to be spent over two years on low-income housing, rural infrastructure, railways, power, environment and Sichuan earthquake reconstruction. The stimulus helped China keep GDP growth around 9% in 2008 while developed economies slid into recession, but also planted the seeds of the later property bubble and local-government debt problems."
+    },
+    "opportunity": {
+      "asset": "Chinese infrastructure, steel, cement, and construction-machinery equities (e.g. China Railway, Anhui Conch Cement)",
+      "action": {
+        "vi": "Mua cổ phiếu xây dựng, thép, xi măng, máy móc công trình ngay khi tin kích thích được công bố.",
+        "en": "Buy construction, steel, cement and construction-machinery equities right as the stimulus news breaks."
+      },
+      "buyWhen": {
+        "vi": "Ngay sau 9/11/2008, trước khi dòng vốn kích thích thực sự giải ngân.",
+        "en": "Right after Nov 9, 2008, before stimulus funds are actually disbursed."
+      },
+      "sellWhen": {
+        "vi": "Dần chốt lời khi lạm phát và bong bóng tín dụng hiện rõ giữa năm 2010-2011.",
+        "en": "Gradually take profits as inflation and a credit bubble become evident by 2010-2011."
+      },
+      "estimatedReturn": {
+        "vi": "Thị trường chứng khoán Trung Quốc phục hồi mạnh trong nửa đầu 2009 nhờ dòng vốn kích thích, dù mức tăng chính xác phụ thuộc cổ phiếu/ngành cụ thể được chọn.",
+        "en": "Chinese equities rallied strongly in H1 2009 on the back of stimulus flows, though the exact gain depends on the specific stock/sector chosen."
+      },
+      "risk": "medium",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Phần lớn số tiền thực chi sẽ do chính quyền địa phương và ngân hàng quốc doanh gánh, tạo ra núi nợ ẩn ('nợ chính quyền địa phương') sẽ trở thành vấn đề lớn sau 2015 — hưởng lợi ngắn hạn nhưng đừng đầu tư dài hạn vào các công ty xây dựng cấp tỉnh có đòn bẩy cao.",
+      "en": "Much of the actual spending will be fronted by local governments and state banks, creating hidden 'local government debt' that becomes a major problem after 2015 — capture the short-term upside, but don't buy-and-hold overleveraged provincial construction firms."
+    },
+    "pitfalls": {
+      "vi": "Kích thích gây lạm phát tăng vọt năm 2010-2011 (CPI vượt 6%) buộc Bắc Kinh phải thắt chặt tiền tệ, làm thị trường chứng khoán đảo chiều giảm trở lại.",
+      "en": "The stimulus fuels a jump in inflation in 2010-2011 (CPI topping 6%), forcing Beijing to tighten monetary policy and sending the stock market back down."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Gói kích thích kinh tế Trung Quốc công bố tháng 11/2008 có giá trị bao nhiêu?",
+        "en": "How large was the Chinese stimulus package announced in November 2008?"
+      },
+      "choices": [
+        {
+          "vi": "400 tỷ NDT",
+          "en": "400 billion yuan"
+        },
+        {
+          "vi": "40.000 tỷ NDT",
+          "en": "40 trillion yuan"
+        },
+        {
+          "vi": "4.000 tỷ NDT",
+          "en": "4 trillion yuan"
+        },
+        {
+          "vi": "1 tỷ USD",
+          "en": "$1 billion"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "Quốc vụ viện công bố gói kích thích 4.000 tỷ NDT (~586 tỷ USD) ngày 9/11/2008.",
+        "en": "The State Council announced a 4-trillion-yuan (~$586B) stimulus package on November 9, 2008."
+      }
+    },
+    "sources": [
+      {
+        "title": "China Consulate Chicago — China's 4 trillion yuan stimulus",
+        "url": "https://chicago.china-consulate.gov.cn/eng/lmbf/ywzn/sw/200811/t20081111_5496569.htm"
+      },
+      {
+        "title": "China Consulate Chicago — China planner offers details on stimulus",
+        "url": "https://chicago.china-consulate.gov.cn/eng/lmbf/ywzn/sw/200811/t20081115_5496577.htm"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "4-trillion-yuan figure, Nov 9, 2008 announcement date, and $586B USD equivalent confirmed via official Chinese consulate press releases citing Xinhua. Specific SSE rebound index levels were not independently re-verified and were removed from the quantitative claim to avoid invented numbers."
+  },
+  {
+    "id": "cn-property-boom-2009",
+    "country": "cn",
+    "date": "2009",
+    "category": "real-estate",
+    "title": {
+      "vi": "Bùng nổ bất động sản Trung Quốc 2009-2013",
+      "en": "China's 2009-2013 Property Boom"
+    },
+    "summary": {
+      "vi": "Tín dụng rẻ hậu khủng hoảng 2008 châm ngòi cho cơn sốt nhà đất kéo dài hơn một thập kỷ tại các đô thị lớn.",
+      "en": "Cheap post-2008 credit ignited a decade-plus housing frenzy across major Chinese cities."
+    },
+    "description": {
+      "vi": "Sau gói kích thích 2008, tín dụng ngân hàng dồi dào và tâm lý 'nhà đất chỉ có tăng' đẩy giá nhà tại Bắc Kinh, Thượng Hải, Thâm Quyến tăng phi mã từ 2009. Bất động sản trở thành kênh tích trữ của cải chính của tầng lớp trung lưu Trung Quốc, với tỷ lệ sở hữu nhà đô thị đạt trên 90% — một trong những mức cao nhất thế giới — nhưng cũng tạo ra bong bóng giá nhà/thu nhập cực cao ở các thành phố loại 1.",
+      "en": "After the 2008 stimulus, abundant bank credit and a 'housing only goes up' mentality sent home prices in Beijing, Shanghai and Shenzhen soaring from 2009. Real estate became the primary store of wealth for China's middle class, with urban homeownership exceeding 90% — among the highest in the world — but it also built an extreme price-to-income bubble in tier-1 cities."
+    },
+    "opportunity": {
+      "asset": "Residential property in Tier-1 Chinese cities (Beijing, Shanghai, Shenzhen)",
+      "action": {
+        "vi": "Mua căn hộ tại các thành phố loại 1 ngay sau gói kích thích 2009, tận dụng đòn bẩy vay ngân hàng lãi suất thấp.",
+        "en": "Buy apartments in Tier-1 cities right after the 2009 stimulus, leveraging cheap bank mortgages."
+      },
+      "buyWhen": {
+        "vi": "2009, khi tín dụng được nới lỏng mạnh sau khủng hoảng tài chính.",
+        "en": "2009, as credit loosens sharply after the financial crisis."
+      },
+      "sellWhen": {
+        "vi": "Trước khi chính sách 'ba lằn ranh đỏ' (2020) và khủng hoảng Evergrande (2021) khiến thị trường đảo chiều.",
+        "en": "Before the 'Three Red Lines' policy (2020) and the Evergrande crisis (2021) turn the market down."
+      },
+      "estimatedReturn": {
+        "vi": "Giá nhà tại Bắc Kinh, Thượng Hải, Thâm Quyến tăng gấp nhiều lần (ước tính 5-10 lần tùy khu vực) trong giai đoạn 2009-2020, dù không có một chỉ số giá nhà chuẩn hóa duy nhất được xác nhận.",
+        "en": "Home prices in Beijing, Shanghai and Shenzhen rose several-fold (an estimated 5-10x depending on district) over 2009-2020, though no single standardized confirmed price index exists."
+      },
+      "risk": "high",
+      "capital": "high"
+    },
+    "insiderTip": {
+      "vi": "Giá nhà sẽ tiếp tục tăng bất chấp hàng chục đợt siết chính sách suốt thập niên 2010 — nhưng chính sách 'ba lằn ranh đỏ' năm 2020 mới thực sự là bước ngoặt chấm dứt chu kỳ tăng giá.",
+      "en": "Prices keep rising despite dozens of cooling measures through the 2010s — but the 2020 'Three Red Lines' policy is the real turning point that ends the up-cycle."
+    },
+    "pitfalls": {
+      "vi": "Thị trường bất động sản Trung Quốc thiếu minh bạch, dữ liệu giá chính thức thường bị nghi ngờ; nhà đầu tư nước ngoài gần như không thể trực tiếp sở hữu nhà ở Trung Quốc đại lục.",
+      "en": "China's property market lacks transparency, and official price data is often questioned; foreign investors can almost never directly own mainland Chinese residential property."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Chính sách nào năm 2020 được coi là khởi đầu cho sự đảo chiều của thị trường bất động sản Trung Quốc?",
+        "en": "Which 2020 policy is seen as the start of the turnaround in China's property market?"
+      },
+      "choices": [
+        {
+          "vi": "Ba lằn ranh đỏ (Three Red Lines)",
+          "en": "The Three Red Lines policy"
+        },
+        {
+          "vi": "Gói kích thích 4.000 tỷ NDT",
+          "en": "The 4-trillion-yuan stimulus"
+        },
+        {
+          "vi": "Luật chống độc quyền",
+          "en": "The Anti-Monopoly Law"
+        },
+        {
+          "vi": "Thuế bất động sản toàn quốc",
+          "en": "A nationwide property tax"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "Chính sách 'ba lằn ranh đỏ' siết các chỉ số nợ của nhà phát triển bất động sản, dẫn trực tiếp đến khủng hoảng thanh khoản Evergrande năm 2021.",
+        "en": "The 'Three Red Lines' policy tightened developer debt ratios and directly led to the Evergrande liquidity crisis in 2021."
+      }
+    },
+    "sources": [
+      {
+        "title": "Reuters — Timeline: China Evergrande's snowballing debt crisis",
+        "url": "http://www.reuters.com/article/china-evergrande-debt-timeline-idUSKBN2GK0IW"
+      }
+    ],
+    "verified": false,
+    "verifiedNote": "Narrative of 2009-2020 property boom and its end via Three Red Lines is broadly documented, but specific home-price multiples (5-10x) are an unverified estimate; no exact entry/exit price fields were set to avoid inventing numbers."
+  },
+  {
+    "id": "cn-alibaba-ipo-2014",
+    "country": "cn",
+    "date": "2014-09-19",
+    "category": "stocks",
+    "title": {
+      "vi": "Alibaba niêm yết trên NYSE",
+      "en": "Alibaba's NYSE IPO"
+    },
+    "summary": {
+      "vi": "IPO lớn nhất lịch sử Mỹ: Alibaba tăng 38% ngay phiên đầu, định giá hơn 230 tỷ USD.",
+      "en": "The biggest IPO in US history: Alibaba jumped 38% on debut day, valued above $230 billion."
+    },
+    "description": {
+      "vi": "Ngày 19/9/2014, Alibaba Group (BABA) niêm yết trên Sở giao dịch chứng khoán New York với giá IPO 68 USD/cổ phiếu, huy động 21,8 tỷ USD — thương vụ IPO lớn nhất lịch sử Mỹ khi đó. Cổ phiếu mở cửa ở 92,70 USD và đóng cửa phiên đầu ở 93,89 USD, tăng 38% so với giá chào bán, đưa vốn hóa công ty lên hơn 231 tỷ USD.",
+      "en": "On September 19, 2014, Alibaba Group (BABA) listed on the New York Stock Exchange at an IPO price of $68 per share, raising $21.8 billion — the largest IPO in US history at the time. The stock opened at $92.70 and closed its first day at $93.89, up 38% from the offer price, pushing the company's market cap above $231 billion."
+    },
+    "opportunity": {
+      "asset": "Alibaba Group (NYSE: BABA)",
+      "action": {
+        "vi": "Tham gia mua cổ phần IPO hoặc mua ngay phiên đầu giao dịch.",
+        "en": "Get IPO allocation or buy on the first day of trading."
+      },
+      "buyWhen": {
+        "vi": "19/9/2014, giá IPO 68 USD.",
+        "en": "September 19, 2014, IPO price $68."
+      },
+      "sellWhen": {
+        "vi": "Cân nhắc chốt lời trước đợt siết quản lý 'big tech' và vụ hoãn IPO Ant Group cuối 2020.",
+        "en": "Consider taking profits before the big-tech crackdown and the late-2020 Ant Group IPO suspension."
+      },
+      "estimatedReturn": {
+        "vi": "Tăng 38% chỉ trong phiên giao dịch đầu tiên, từ 68 USD lên 93,89 USD.",
+        "en": "Up 38% on the first trading day alone, from $68 to $93.89."
+      },
+      "entryPrice": 68,
+      "exitPrice": 93.89,
+      "priceCurrency": "USD",
+      "exitDate": "2014-09-19",
+      "returnMultiple": 1.38,
+      "risk": "medium",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Cổ phiếu sẽ tiếp tục tăng vài lần nữa đến đỉnh năm 2020, nhưng chiến dịch siết quản lý chống độc quyền cuối 2020 - đầu 2021 (bắt đầu từ việc hoãn IPO Ant Group) sẽ khiến giá giảm hơn 70% từ đỉnh.",
+      "en": "The stock climbs several times further to a 2020 peak, but the late-2020/2021 antitrust crackdown (starting with the Ant Group IPO suspension) will send it down more than 70% from its high."
+    },
+    "pitfalls": {
+      "vi": "Cấu trúc VIE (Variable Interest Entity) dùng để niêm yết tại Mỹ mang rủi ro pháp lý đặc thù cho nhà đầu tư nước ngoài, không trực tiếp sở hữu tài sản Trung Quốc.",
+      "en": "The VIE (Variable Interest Entity) structure used for the US listing carries distinct legal risk for foreign investors, who don't directly own the underlying Chinese assets."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Alibaba niêm yết trên NYSE với giá IPO bao nhiêu và tăng bao nhiêu % trong phiên đầu?",
+        "en": "What was Alibaba's NYSE IPO price, and how much did it gain on its first day?"
+      },
+      "choices": [
+        {
+          "vi": "68 USD, tăng 38%",
+          "en": "$68, up 38%"
+        },
+        {
+          "vi": "50 USD, tăng 10%",
+          "en": "$50, up 10%"
+        },
+        {
+          "vi": "100 USD, tăng 5%",
+          "en": "$100, up 5%"
+        },
+        {
+          "vi": "68 USD, giảm 10%",
+          "en": "$68, down 10%"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "Alibaba IPO giá 68 USD và đóng cửa phiên đầu ở 93,89 USD, tăng 38%.",
+        "en": "Alibaba IPO'd at $68 and closed its first day at $93.89, up 38%."
+      }
+    },
+    "sources": [
+      {
+        "title": "BBC News — Alibaba shares surge in NY stock market debut",
+        "url": "https://www.bbc.com/news/business-29282407"
+      },
+      {
+        "title": "Fortune — Alibaba shares end first day with 38% gain",
+        "url": "https://fortune.com/2014/09/19/alibaba-shares-trading/"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "IPO price $68 and first-day close $93.89 (+38%) confirmed via BBC and Fortune."
+  },
+  {
+    "id": "cn-shanghai-hk-connect-2014",
+    "country": "cn",
+    "date": "2014-11-17",
+    "category": "stocks",
+    "title": {
+      "vi": "Kết nối chứng khoán Thượng Hải - Hồng Kông",
+      "en": "Shanghai-Hong Kong Stock Connect"
+    },
+    "summary": {
+      "vi": "Cơ chế kết nối cho phép nhà đầu tư quốc tế mua trực tiếp cổ phiếu A-share Trung Quốc lần đầu tiên.",
+      "en": "A new link let international investors buy mainland China A-shares directly for the first time."
+    },
+    "description": {
+      "vi": "Ngày 17/11/2014, chương trình Shanghai-Hong Kong Stock Connect chính thức khai trương, cho phép nhà đầu tư quốc tế qua Hồng Kông giao dịch trực tiếp cổ phiếu A-share niêm yết tại Thượng Hải (và ngược lại, nhà đầu tư đại lục mua cổ phiếu Hồng Kông), phá vỡ rào cản vốn tồn tại suốt hơn hai thập kỷ. Đây là bước đệm quan trọng để MSCI sau này đưa A-share Trung Quốc vào các chỉ số thị trường mới nổi.",
+      "en": "On November 17, 2014, the Shanghai-Hong Kong Stock Connect officially launched, letting international investors trade Shanghai-listed A-shares directly through Hong Kong (and mainland investors buy Hong Kong shares), breaking down a capital barrier that had stood for over two decades. It was a critical stepping stone toward MSCI later including China A-shares in its emerging-market indices."
+    },
+    "opportunity": {
+      "asset": "Shanghai A-shares accessible via Stock Connect (e.g. large-cap banks, consumer staples)",
+      "action": {
+        "vi": "Mở tài khoản Hồng Kông để tiếp cận cổ phiếu A-share Thượng Hải ngay khi Connect khai trương, trước làn sóng dòng vốn ngoại đổ vào.",
+        "en": "Open a Hong Kong brokerage account to access Shanghai A-shares right at Connect's launch, ahead of the coming foreign inflows."
+      },
+      "buyWhen": {
+        "vi": "17/11/2014, ngày khai trương chương trình.",
+        "en": "November 17, 2014, the program's launch day."
+      },
+      "sellWhen": {
+        "vi": "Theo dõi sát đỉnh bong bóng A-share tháng 6/2015 chỉ bảy tháng sau (xem mục riêng).",
+        "en": "Watch closely for the A-share bubble peak just seven months later in June 2015 (see separate entry)."
+      },
+      "estimatedReturn": {
+        "vi": "Chỉ số SSE Composite tăng khoảng 60% từ khi Connect khai trương (11/2014) đến đỉnh bong bóng (6/2015).",
+        "en": "The SSE Composite rose roughly 60% from Connect's launch (Nov 2014) to the bubble peak (June 2015)."
+      },
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Connect sẽ mở đường cho MSCI đưa A-share vào rổ chỉ số thị trường mới nổi năm 2018, kích hoạt dòng vốn thụ động khổng lồ đổ vào — nhưng trước đó, dòng vốn đầu cơ trong nước sẽ gây ra bong bóng 2015 dữ dội hơn nhiều so với tác động của Connect.",
+      "en": "Connect paves the way for MSCI to add A-shares to its emerging-market index in 2018, triggering huge passive inflows — but before that, domestic speculative leverage will cause the 2015 bubble, a far bigger force than Connect itself."
+    },
+    "pitfalls": {
+      "vi": "Hạn ngạch giao dịch hàng ngày (quota) và danh sách cổ phiếu đủ điều kiện giới hạn ban đầu khiến một số cổ phiếu nhỏ không tiếp cận được qua Connect.",
+      "en": "Daily trading quotas and an initially limited list of eligible stocks meant some smaller names weren't accessible via Connect."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Shanghai-Hong Kong Stock Connect chính thức khai trương vào ngày nào?",
+        "en": "When did the Shanghai-Hong Kong Stock Connect officially launch?"
+      },
+      "choices": [
+        {
+          "vi": "17/11/2014",
+          "en": "November 17, 2014"
+        },
+        {
+          "vi": "10/11/2014",
+          "en": "November 10, 2014"
+        },
+        {
+          "vi": "1/1/2015",
+          "en": "January 1, 2015"
+        },
+        {
+          "vi": "12/6/2015",
+          "en": "June 12, 2015"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "Chương trình được phê duyệt ngày 10/11/2014 nhưng chính thức khai trương giao dịch ngày 17/11/2014.",
+        "en": "The program was approved on Nov 10, 2014 but officially launched trading on Nov 17, 2014."
+      }
+    },
+    "sources": [
+      {
+        "title": "HKEX — Investor Newsletter, Launch Issue",
+        "url": "https://www.hkex.com.hk/-/media/HKEX-Market/Mutual-Market/Stock-Connect/Reference-Materials/Newsletter/Shanghai-Hong-Kong-Stock-Connect-Newsletter---Launch-Issue_En.pdf"
+      },
+      {
+        "title": "HKMA — HKMA welcomes launch of Shanghai-Hong Kong Stock Connect",
+        "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2014/11/20141110-4/"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Launch date Nov 17, 2014 confirmed via HKEX and HKMA official releases; ~60% SSE rise to June 2015 peak is consistent with separately verified index levels (3,234 close 2014 vs 5,166 June 2015 peak)."
+  },
+  {
+    "id": "cn-a-share-bubble-2015",
+    "country": "cn",
+    "date": "2015-06-12",
+    "category": "stocks",
+    "title": {
+      "vi": "Bong bóng và sụp đổ A-share 2015",
+      "en": "The 2015 A-Share Bubble and Crash"
+    },
+    "summary": {
+      "vi": "Chỉ số Thượng Hải tăng 150% trong một năm rồi mất 43% chỉ trong ba tháng — bài học về đòn bẩy margin.",
+      "en": "The Shanghai index rose 150% in a year, then lost 43% in three months — a lesson in margin-fueled bubbles."
+    },
+    "description": {
+      "vi": "Từ mức khoảng 2.000 điểm giữa 2014, chỉ số SSE Composite tăng hơn 150% lên đỉnh 5.166,35 điểm ngày 12/6/2015, được tiếp sức bởi giao dịch ký quỹ (margin) bùng nổ — tổng dư nợ margin đạt 2.200 tỷ NDT (350 tỷ USD) tại đỉnh. Sau đó chỉ số rơi tự do xuống 3.507 điểm chỉ trong chưa đầy một tháng (giảm 32%), với hai phiên 'Thứ Hai đen tối' (27/7 và 24/8) mất 8,5% và 7,6% chỉ trong một ngày, kết thúc đợt bán tháo quanh 2.927-3.083 điểm vào cuối tháng 8.",
+      "en": "From around 2,000 points in mid-2014, the SSE Composite surged over 150% to a peak of 5,166.35 on June 12, 2015, fueled by an explosion in margin trading — outstanding margin debt hit 2.2 trillion yuan ($350 billion) at the top. The index then went into freefall to 3,507 points in under a month (down 32%), including two 'Black Monday' sessions (July 27 and August 24) that each fell 7.6-8.5% in a single day, with the selloff ending around 2,927-3,083 points by late August."
+    },
+    "opportunity": {
+      "asset": "SSE Composite Index / margin-financed A-shares",
+      "action": {
+        "vi": "Bán hoặc tránh mua cổ phiếu Trung Quốc bằng đòn bẩy margin trước đỉnh tháng 6/2015.",
+        "en": "Sell or avoid buying China equities on margin ahead of the June 2015 peak."
+      },
+      "buyWhen": {
+        "vi": "Không áp dụng — đây là tín hiệu bán/tránh, không phải mua.",
+        "en": "N/A — this is a sell/avoid signal, not a buy."
+      },
+      "sellWhen": {
+        "vi": "Ngay trước hoặc tại đỉnh 12/6/2015 (5.166,35 điểm).",
+        "en": "Right before or at the June 12, 2015 peak (5,166.35 points)."
+      },
+      "estimatedReturn": {
+        "vi": "Tránh được khoản lỗ 43% khi chỉ số giảm từ 5.166 xuống 2.927 điểm trong chưa đầy ba tháng.",
+        "en": "Avoided a 43% loss as the index fell from 5,166 to 2,927 points in under three months."
+      },
+      "entryPrice": 5166.35,
+      "exitPrice": 2927.0,
+      "priceCurrency": "points",
+      "exitDate": "2015-08-26",
+      "returnMultiple": 0.567,
+      "risk": "high",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Chính phủ sẽ can thiệp mạnh bằng 'đội quốc gia' (National Team) bơm hơn 100 tỷ NDT qua các công ty chứng khoán nhà nước để mua cổ phiếu blue-chip — đừng kỳ vọng thị trường tự do hoàn toàn trong đợt giải cứu này.",
+      "en": "The government intervenes hard via the 'National Team,' injecting over 100 billion yuan through state brokerages to buy blue chips — don't expect a fully free market during this rescue."
+    },
+    "pitfalls": {
+      "vi": "Đòn bẩy margin phi chính thức qua các nền tảng cho vay trực tuyến (ngoài hệ thống margin chính thức) đã khuếch đại cả chiều tăng lẫn chiều giảm, khiến mức độ rủi ro hệ thống khó đo lường chính xác.",
+      "en": "Unofficial margin leverage via online lending platforms (outside the formal margin system) amplified both the rise and the fall, making systemic risk hard to measure precisely."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Chỉ số SSE Composite đạt đỉnh bong bóng năm 2015 vào ngày nào và ở mức bao nhiêu điểm?",
+        "en": "On what date and at what level did the SSE Composite peak during the 2015 bubble?"
+      },
+      "choices": [
+        {
+          "vi": "12/6/2015, 5.166 điểm",
+          "en": "June 12, 2015, 5,166 points"
+        },
+        {
+          "vi": "16/10/2007, 6.124 điểm",
+          "en": "October 16, 2007, 6,124 points"
+        },
+        {
+          "vi": "24/8/2015, 3.000 điểm",
+          "en": "August 24, 2015, 3,000 points"
+        },
+        {
+          "vi": "1/4/2015, 3.810 điểm",
+          "en": "April 1, 2015, 3,810 points"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "Chỉ số đạt đỉnh 5.166,35 điểm ngày 12/6/2015 trước khi sụp đổ hơn 40% trong vài tháng.",
+        "en": "The index peaked at 5,166.35 on June 12, 2015, before crashing more than 40% within months."
+      }
+    },
+    "sources": [
+      {
+        "title": "Vox — China's stock market crash, explained in charts",
+        "url": "https://www.vox.com/2015/7/8/8911519/china-stock-market-charts"
+      },
+      {
+        "title": "BSI Economics — The 'People's Bubble' of China",
+        "url": "https://bsi-economics.org/the-peoples-bubble-of-china/"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Peak 5,166.35 on June 12, 2015, subsequent fall to ~3,507 and Black Monday drops confirmed via Vox and BSI Economics citing matching figures across multiple outlets."
+  },
+  {
+    "id": "cn-catl-ipo-2018",
+    "country": "cn",
+    "date": "2018-06-11",
+    "category": "technology",
+    "title": {
+      "vi": "CATL niêm yết trên sàn ChiNext",
+      "en": "CATL's ChiNext IPO"
+    },
+    "summary": {
+      "vi": "Nhà sản xuất pin xe điện lớn nhất thế giới niêm yết, tăng kịch trần 44% ngay phiên đầu.",
+      "en": "The world's largest EV battery maker listed and hit the 44% daily limit on debut."
+    },
+    "description": {
+      "vi": "Ngày 11/6/2018, Contemporary Amperex Technology (CATL, 300750.SZ) niêm yết trên sàn ChiNext (Thâm Quyến) với giá phát hành 25,14 NDT/cổ phiếu, bán 217 triệu cổ phiếu mới (10% vốn mở rộng), huy động khoảng 850 triệu USD. Cổ phiếu tăng kịch trần 44% ngay phiên đầu, rồi tiếp tục tăng kịch trần 10% phiên thứ hai lên 39,82 NDT, đưa công ty trở thành doanh nghiệp lớn nhất trên ChiNext với vốn hóa 12,3 tỷ USD.",
+      "en": "On June 11, 2018, Contemporary Amperex Technology (CATL, 300750.SZ) listed on Shenzhen's ChiNext board at an issue price of 25.14 yuan per share, selling 217 million new shares (10% of enlarged capital) to raise about $850 million. The stock hit the 44% daily trading limit on debut, then rose another 10% limit the next day to 39.82 yuan, making it the biggest company on ChiNext with a $12.3 billion market cap."
+    },
+    "opportunity": {
+      "asset": "CATL / Contemporary Amperex Technology (300750.SZ)",
+      "action": {
+        "vi": "Mua cổ phiếu ngay từ IPO và giữ xuyên suốt bùng nổ xe điện toàn cầu 2018-2022.",
+        "en": "Buy at IPO and hold through the 2018-2022 global EV boom."
+      },
+      "buyWhen": {
+        "vi": "11/6/2018, giá IPO 25,14 NDT.",
+        "en": "June 11, 2018, IPO price 25.14 yuan."
+      },
+      "sellWhen": {
+        "vi": "Cân nhắc chốt lời một phần quanh đỉnh định giá ngành pin/xe điện 2021-2022 trước khi cạnh tranh giá tăng.",
+        "en": "Consider trimming near the 2021-2022 EV/battery valuation peak before price competition intensifies."
+      },
+      "estimatedReturn": {
+        "vi": "Tăng 58% trong hai phiên giao dịch đầu tiên (từ 25,14 lên 39,82 NDT); mức tăng dài hạn còn lớn hơn nhiều khi công ty trở thành nhà cung cấp pin lớn nhất thế giới.",
+        "en": "Up 58% in the first two trading days alone (from 25.14 to 39.82 yuan); long-term gains were far larger as it became the world's biggest battery supplier."
+      },
+      "entryPrice": 25.14,
+      "exitPrice": 39.82,
+      "priceCurrency": "CNY",
+      "exitDate": "2018-06-12",
+      "returnMultiple": 1.58,
+      "risk": "medium",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "CATL sẽ trở thành nhà cung cấp pin cho Tesla, BMW, Volkswagen và nắm hơn 30% thị phần pin xe điện toàn cầu trong vòng vài năm — đây không chỉ là một IPO nóng mà là người chiến thắng cấu trúc của ngành.",
+      "en": "CATL will become a battery supplier to Tesla, BMW and Volkswagen, capturing over 30% of the global EV battery market within a few years — this isn't just a hot IPO, it's the structural winner of the industry."
+    },
+    "pitfalls": {
+      "vi": "Việc niêm yết được phê duyệt bất thường nhanh (5 tháng thay vì 1-2 năm thông thường), cho thấy ưu ái chính sách có thể không lặp lại với công ty khác; cạnh tranh từ BYD và các hãng pin khác gia tăng sau 2020.",
+      "en": "The listing was approved unusually fast (5 months vs the normal 1-2 years), reflecting policy favoritism that may not repeat for other firms; competition from BYD and other battery makers intensifies after 2020."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Giá IPO của CATL khi niêm yết trên ChiNext năm 2018 là bao nhiêu?",
+        "en": "What was CATL's IPO price when it listed on ChiNext in 2018?"
+      },
+      "choices": [
+        {
+          "vi": "2,514 NDT",
+          "en": "2.514 yuan"
+        },
+        {
+          "vi": "25,14 NDT",
+          "en": "25.14 yuan"
+        },
+        {
+          "vi": "251,4 NDT",
+          "en": "251.4 yuan"
+        },
+        {
+          "vi": "100 NDT",
+          "en": "100 yuan"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "CATL niêm yết ngày 11/6/2018 với giá phát hành 25,14 NDT/cổ phiếu.",
+        "en": "CATL listed on June 11, 2018 at an issue price of 25.14 yuan per share."
+      }
+    },
+    "sources": [
+      {
+        "title": "Electrive — CATL catapulted to be worth billions on stock exchange",
+        "url": "https://www.electrive.com/2018/06/11/catl-catapulted-to-be-worth-billions-on-stock-exchange/"
+      },
+      {
+        "title": "Caixin Global — World's Biggest EV Battery Firm Stays Juiced",
+        "url": "https://www.caixinglobal.com/2018-06-12/worlds-biggest-electric-car-battery-firm-stays-juiced-101269458.html"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "IPO price 25.14 yuan, 44% first-day limit-up, and second-day rise to 39.82 yuan confirmed via Electrive and Caixin Global."
+  },
+  {
+    "id": "cn-xiaomi-ipo-2018",
+    "country": "cn",
+    "date": "2018-07-09",
+    "category": "technology",
+    "title": {
+      "vi": "Xiaomi niêm yết tại Hồng Kông",
+      "en": "Xiaomi's Hong Kong IPO"
+    },
+    "summary": {
+      "vi": "Xiaomi niêm yết dưới giá IPO ngay ngày đầu — một bài học về việc định giá 'ông vua phần cứng' quá cao.",
+      "en": "Xiaomi debuted below its IPO price — a lesson in overpricing a hardware-heavy growth story."
+    },
+    "description": {
+      "vi": "Ngày 9/7/2018, Xiaomi Corporation niêm yết trên Sở giao dịch chứng khoán Hồng Kông với giá IPO HK$17/cổ phiếu (mức thấp nhất trong khoảng chào bán HK$17-22), huy động khoảng 4,72 tỷ USD. Cổ phiếu mở cửa ở HK$16,60, giảm xuống HK$16 trước khi phục hồi, đóng cửa phiên đầu ở HK$16,80 — thấp hơn giá IPO khoảng 1,2%, một khởi đầu đáng thất vọng cho thương vụ IPO công nghệ lớn nhất trong 4 năm.",
+      "en": "On July 9, 2018, Xiaomi Corporation listed on the Hong Kong Stock Exchange at an IPO price of HK$17 per share (the bottom of its HK$17-22 range), raising about $4.72 billion. The stock opened at HK$16.60, dipped to HK$16, then recovered to close its first day at HK$16.80 — about 1.2% below the IPO price, a disappointing debut for the biggest tech IPO in four years."
+    },
+    "opportunity": {
+      "asset": "Xiaomi Corporation (1810.HK)",
+      "action": {
+        "vi": "Tránh mua theo hiệu ứng truyền thông quanh IPO; chờ giá điều chỉnh sau khi thị trường định giá lại mô hình kinh doanh phần cứng biên lợi nhuận thấp.",
+        "en": "Avoid buying into the IPO hype; wait for the market to re-rate the low-margin hardware business model."
+      },
+      "buyWhen": {
+        "vi": "Không nên mua ngay tại IPO giá HK$17; chờ đợt điều chỉnh sâu hơn trong năm 2018-2019.",
+        "en": "Don't buy right at the HK$17 IPO; wait for the deeper 2018-2019 pullback."
+      },
+      "sellWhen": {
+        "vi": "Không áp dụng cho chiến lược mua sớm — đây là ví dụ về IPO bị định giá quá cao ban đầu.",
+        "en": "N/A for an early-buy strategy — this is an example of an initially overpriced IPO."
+      },
+      "estimatedReturn": {
+        "vi": "Cổ phiếu giảm khoảng 1,2% ngay phiên đầu, thấp hơn kỳ vọng ban đầu của công ty (định giá mục tiêu ban đầu 100 tỷ USD, thực tế niêm yết chỉ khoảng 54 tỷ USD).",
+        "en": "The stock fell about 1.2% on debut day, well below the company's original ambitions (initially targeted a $100B valuation, but listed at about $54B)."
+      },
+      "entryPrice": 17,
+      "exitPrice": 16.8,
+      "priceCurrency": "HKD",
+      "exitDate": "2018-07-09",
+      "returnMultiple": 0.988,
+      "risk": "medium",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Giá cổ phiếu sẽ giảm tiếp xuống dưới HK$9 vào cuối 2018 trước khi hồi phục mạnh các năm sau nhờ mảng IoT và mở rộng ra Ấn Độ/châu Âu — người kiên nhẫn mua ở vùng đáy 2018-2019 sẽ thắng lớn hơn người mua IPO.",
+      "en": "The stock falls further below HK$9 by late 2018 before a strong multi-year recovery driven by IoT and India/Europe expansion — patient buyers at the 2018-2019 lows do far better than IPO buyers."
+    },
+    "pitfalls": {
+      "vi": "Thương chiến Mỹ-Trung bắt đầu leo thang đúng thời điểm IPO, cùng lo ngại biên lợi nhuận phần cứng thấp (dưới 5%) khiến nhà đầu tư tổ chức định giá thận trọng hơn kỳ vọng ban đầu của công ty.",
+      "en": "The US-China trade war began escalating right at IPO time, and concerns about thin hardware margins (under 5%) made institutional investors price it well below the company's original ambitions."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Cổ phiếu Xiaomi đóng cửa phiên giao dịch đầu tiên năm 2018 so với giá IPO như thế nào?",
+        "en": "How did Xiaomi's stock close on its first trading day in 2018 relative to its IPO price?"
+      },
+      "choices": [
+        {
+          "vi": "Tăng 38%",
+          "en": "Up 38%"
+        },
+        {
+          "vi": "Tăng gấp đôi",
+          "en": "Doubled"
+        },
+        {
+          "vi": "Thấp hơn giá IPO khoảng 1,2%",
+          "en": "About 1.2% below the IPO price"
+        },
+        {
+          "vi": "Giảm hơn 50%",
+          "en": "Down more than 50%"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "Xiaomi niêm yết giá HK$17 và đóng cửa phiên đầu ở HK$16,80, thấp hơn khoảng 1,2%.",
+        "en": "Xiaomi listed at HK$17 and closed its first day at HK$16.80, about 1.2% below the IPO price."
+      }
+    },
+    "sources": [
+      {
+        "title": "CNBC — Xiaomi debuts below IPO price",
+        "url": "https://www.cnbc.com/2018/07/09/xiaomi-chinese-smartphone-maker-debuts-below-ipo-price.html"
+      },
+      {
+        "title": "Business Standard/Reuters — Xiaomi's weak debut",
+        "url": "https://www.business-standard.com/article/reuters/xiaomi-s-weak-debut-portends-trouble-for-imminent-hong-kong-tech-listings-118070900258_1.html"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "IPO price HK$17, first-day close HK$16.80, and the $54B vs targeted $100B valuation gap confirmed via CNBC and Reuters/Business Standard."
+  },
+  {
+    "id": "cn-luckin-coffee-fraud-2020",
+    "country": "cn",
+    "date": "2020-04-02",
+    "category": "business",
+    "title": {
+      "vi": "Gian lận kế toán Luckin Coffee",
+      "en": "The Luckin Coffee Accounting Fraud"
+    },
+    "summary": {
+      "vi": "Luckin Coffee thừa nhận bịa đặt 310 triệu USD doanh thu, cổ phiếu mất hơn 90% giá trị.",
+      "en": "Luckin Coffee admitted to fabricating $310 million in sales, and its stock lost over 90% of its value."
+    },
+    "description": {
+      "vi": "Ngày 2/4/2020, 'đối thủ Starbucks Trung Quốc' Luckin Coffee (niêm yết Nasdaq năm 2019) công bố điều tra nội bộ phát hiện giám đốc vận hành (COO) cùng cấp dưới đã bịa đặt khoảng 2,2 tỷ NDT (310 triệu USD) doanh thu năm 2019. Cổ phiếu giảm hơn 80% ngay trong ngày, bị đình chỉ giao dịch, và đến 29/6/2020 bị hủy niêm yết khỏi Nasdaq sau khi mất hơn 11 tỷ USD vốn hóa. Công ty sau đó phải trả 180 triệu USD tiền phạt cho SEC.",
+      "en": "On April 2, 2020, 'China's Starbucks rival' Luckin Coffee (Nasdaq-listed in 2019) disclosed an internal investigation finding its chief operating officer and subordinates had fabricated about 2.2 billion yuan ($310 million) in 2019 sales. The stock fell more than 80% that day, was halted, and was delisted from Nasdaq on June 29, 2020 after erasing over $11 billion in market value. The company later paid a $180 million fine to the SEC."
+    },
+    "opportunity": {
+      "asset": "Luckin Coffee (formerly NASDAQ: LK)",
+      "action": {
+        "vi": "Bán hoặc short cổ phiếu ngay khi tin tức gian lận rò rỉ; tránh hoàn toàn các công ty Trung Quốc niêm yết Mỹ thiếu minh bạch kiểm toán tương tự.",
+        "en": "Sell or short immediately when the fraud news breaks; avoid similarly opaque US-listed Chinese companies altogether."
+      },
+      "buyWhen": {
+        "vi": "Không áp dụng — đây là ví dụ kinh điển về cổ phiếu cần tránh/short.",
+        "en": "N/A — this is a textbook avoid/short example."
+      },
+      "sellWhen": {
+        "vi": "Ngay ngày 2/4/2020 khi tin gian lận được công bố, trước khi cổ phiếu bị đình chỉ giao dịch.",
+        "en": "Right on April 2, 2020 when the fraud was disclosed, before the stock was halted."
+      },
+      "estimatedReturn": {
+        "vi": "Short-seller đúng lúc có thể thu lợi khi cổ phiếu giảm hơn 90% chỉ trong vài tuần (từng đạt đỉnh khoảng 50 USD đầu 2020, mất giá trị gần như toàn bộ sau đó).",
+        "en": "A well-timed short could have captured a drop of over 90% within weeks (the stock had peaked near $50 in early 2020 before losing nearly all its value)."
+      },
+      "risk": "high",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Báo cáo của quỹ bán khống Muddy Waters công bố trước đó vài tháng (tháng 1-2/2020) đã cáo buộc gian lận nhưng bị công ty phủ nhận — ai tin vào báo cáo bán khống này và short sớm sẽ có lợi nhuận lớn nhất trước khi tin chính thức được xác nhận.",
+      "en": "Short-seller Muddy Waters published allegations of fraud months earlier (Jan-Feb 2020) which the company denied — those who trusted the short report and shorted early capture the biggest gains before the fraud is officially confirmed."
+    },
+    "pitfalls": {
+      "vi": "Vụ việc làm dấy lên nghi ngờ rộng hơn về các công ty Trung Quốc niêm yết tại Mỹ không tuân thủ kiểm toán PCAOB, dẫn đến Đạo luật HFCAA (2020) đe dọa hủy niêm yết hàng loạt công ty Trung Quốc tại Mỹ sau này.",
+      "en": "The scandal fueled broader scrutiny of US-listed Chinese firms that don't comply with PCAOB audit inspections, leading to the Holding Foreign Companies Accountable Act (2020) that later threatened mass delisting of Chinese firms from US markets."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Luckin Coffee thừa nhận đã bịa đặt khoảng bao nhiêu tiền doanh thu năm 2019?",
+        "en": "How much in 2019 sales did Luckin Coffee admit to fabricating?"
+      },
+      "choices": [
+        {
+          "vi": "31 triệu USD",
+          "en": "$31 million"
+        },
+        {
+          "vi": "310 triệu USD",
+          "en": "$310 million"
+        },
+        {
+          "vi": "3,1 tỷ USD",
+          "en": "$3.1 billion"
+        },
+        {
+          "vi": "1 triệu USD",
+          "en": "$1 million"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Công ty thừa nhận bịa đặt khoảng 2,2 tỷ NDT (310 triệu USD) doanh thu năm 2019.",
+        "en": "The company admitted fabricating about 2.2 billion yuan ($310 million) in 2019 sales."
+      }
+    },
+    "sources": [
+      {
+        "title": "Wikipedia — Luckin Coffee (accounting scandal)",
+        "url": "https://en.wikipedia.org/wiki/Luckin_Coffee"
+      },
+      {
+        "title": "Al Jazeera — Luckin Coffee to pay $180m to end US investigation",
+        "url": "https://www.aljazeera.com/economy/2020/12/17/bitter-pill-luckin-coffee-to-pay-180m-to-end-us-investigation"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Fabricated sales figure ($310M/2.2B yuan), April 2, 2020 disclosure, June 29, 2020 delisting, and $180M SEC fine confirmed via Wikipedia and Al Jazeera."
+  },
+  {
+    "id": "cn-didi-ipo-delisting-2021",
+    "country": "cn",
+    "date": "2021-06-30",
+    "category": "stocks",
+    "title": {
+      "vi": "Didi niêm yết rồi bị buộc hủy niêm yết khỏi NYSE",
+      "en": "Didi's IPO and Forced NYSE Delisting"
+    },
+    "summary": {
+      "vi": "Didi niêm yết 4,4 tỷ USD rồi bị điều tra an ninh mạng chỉ hai ngày sau, mất nửa giá trị trong vài tháng.",
+      "en": "Didi's $4.4B IPO was hit by a cybersecurity probe just two days later, halving in value within months."
+    },
+    "description": {
+      "vi": "Ngày 30/6/2021, gã khổng lồ gọi xe Didi Global niêm yết trên NYSE với giá IPO 14 USD/ADS, huy động 4,4 tỷ USD, định giá công ty 67,5 tỷ USD — thương vụ IPO lớn nhất của một công ty Trung Quốc tại Mỹ kể từ Alibaba (2014). Chỉ hai ngày sau, Cơ quan Quản lý Không gian mạng Trung Quốc (CAC) mở điều tra an ninh mạng và yêu cầu gỡ ứng dụng Didi khỏi các kho ứng dụng với lý do bảo mật dữ liệu người dùng. Cổ phiếu giảm hơn 25% chỉ trong phiên đầu sau tin tức, và đến 3/12/2021 công ty tuyên bố sẽ hủy niêm yết khỏi NYSE để chuyển sang Hồng Kông.",
+      "en": "On June 30, 2021, ride-hailing giant Didi Global listed on the NYSE at an IPO price of $14 per ADS, raising $4.4 billion and valuing the company at $67.5 billion — the largest US listing by a Chinese company since Alibaba (2014). Just two days later, the Cyberspace Administration of China (CAC) launched a cybersecurity investigation and ordered Didi's app pulled from app stores, citing data-security concerns. The stock fell over 25% in a single session after the news, and by December 3, 2021 the company announced it would delist from the NYSE and move to Hong Kong."
+    },
+    "opportunity": {
+      "asset": "Didi Global (formerly NYSE: DIDI)",
+      "action": {
+        "vi": "Tránh mua IPO hoặc bán ngay sau khi tin điều tra an ninh mạng xuất hiện ngày 2/7/2021.",
+        "en": "Avoid the IPO, or sell immediately once the cybersecurity-probe news breaks on July 2, 2021."
+      },
+      "buyWhen": {
+        "vi": "Không áp dụng — đây là ví dụ về IPO cần tránh do rủi ro quản lý chính trị.",
+        "en": "N/A — this is an example of an IPO to avoid due to regulatory/political risk."
+      },
+      "sellWhen": {
+        "vi": "Ngay ngày 2-6/7/2021, khi tin điều tra của CAC được công bố.",
+        "en": "Right on July 2-6, 2021, when the CAC investigation news breaks."
+      },
+      "estimatedReturn": {
+        "vi": "Cổ phiếu giảm từ giá IPO 14 USD xuống khoảng 7,80 USD trong vòng 5 tháng (giảm 44%) trước khi công ty tuyên bố hủy niêm yết.",
+        "en": "The stock fell from the $14 IPO price to about $7.80 within five months (down 44%) before the company announced delisting."
+      },
+      "entryPrice": 14,
+      "priceCurrency": "USD",
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Các nguồn tin cho biết cơ quan quản lý đã cảnh báo Didi nên hoãn IPO để rà soát an ninh mạng trước khi niêm yết, nhưng công ty vẫn tiến hành — biết trước điều này, nhà đầu tư tinh ý có thể tránh hoàn toàn thương vụ.",
+      "en": "Sources report regulators had warned Didi to delay its IPO for a cybersecurity review before listing, but the company pushed ahead anyway — knowing this in advance, a savvy investor could avoid the deal entirely."
+    },
+    "pitfalls": {
+      "vi": "Rủi ro chính không phải là rủi ro kinh doanh thông thường mà là rủi ro chính sách/địa chính trị khó lường — các công ty Trung Quốc nắm giữ dữ liệu người dùng lớn niêm yết ở nước ngoài đều có thể gặp rủi ro tương tự sau vụ Didi.",
+      "en": "The core risk here isn't ordinary business risk but unpredictable policy/geopolitical risk — any large Chinese company holding user data and listing overseas faces similar exposure after the Didi precedent."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Bao lâu sau khi niêm yết trên NYSE thì Didi bị cơ quan quản lý Trung Quốc mở điều tra an ninh mạng?",
+        "en": "How soon after its NYSE listing was Didi hit with a Chinese cybersecurity investigation?"
+      },
+      "choices": [
+        {
+          "vi": "2 ngày",
+          "en": "2 days"
+        },
+        {
+          "vi": "2 tuần",
+          "en": "2 weeks"
+        },
+        {
+          "vi": "2 tháng",
+          "en": "2 months"
+        },
+        {
+          "vi": "2 năm",
+          "en": "2 years"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "Didi niêm yết ngày 30/6/2021, và CAC công bố điều tra an ninh mạng chỉ hai ngày sau, ngày 2/7/2021.",
+        "en": "Didi listed on June 30, 2021, and the CAC announced its cybersecurity investigation just two days later, on July 2, 2021."
+      }
+    },
+    "sources": [
+      {
+        "title": "Reuters — Didi to delist from US amid tech crackdown",
+        "url": "https://www.dailysabah.com/business/economy/chinese-ride-hailing-giant-didi-to-delist-from-us-amid-tech-crackdown"
+      },
+      {
+        "title": "CNBC — Didi app suspended in China over data protection",
+        "url": "https://www.cnbc.com/2021/07/04/didi-app-suspended-in-china-over-data-protection.html"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "IPO price $14, June 30 2021 listing, July 2 CAC probe, and Dec 3 2021 delisting announcement confirmed via Reuters/Daily Sabah and CNBC."
+  },
+  {
+    "id": "cn-bitcoin-mining-ban-2021",
+    "country": "cn",
+    "date": "2021-09-24",
+    "category": "crypto",
+    "title": {
+      "vi": "Trung Quốc cấm toàn bộ giao dịch và đào tiền mã hóa",
+      "en": "China Bans All Crypto Trading and Mining"
+    },
+    "summary": {
+      "vi": "Sau nhiều năm thống trị đào Bitcoin, Trung Quốc tuyên bố mọi giao dịch tiền mã hóa là bất hợp pháp.",
+      "en": "After years of dominating Bitcoin mining, China declared all crypto transactions illegal."
+    },
+    "description": {
+      "vi": "Trong nhiều năm, Trung Quốc (đặc biệt Tân Cương, Nội Mông, Tứ Xuyên) là nơi tập trung phần lớn công suất đào Bitcoin toàn cầu nhờ điện than/thủy điện giá rẻ. Tháng 5/2021 chính phủ bắt đầu siết đào tiền mã hóa ở cấp tỉnh; đến ngày 24/9/2021, Ngân hàng Nhân dân Trung Quốc (PBOC) cùng 9 cơ quan khác tuyên bố mọi hoạt động giao dịch tiền mã hóa — kể cả qua sàn nước ngoài — là bất hợp pháp, đồng thời Ủy ban Cải cách và Phát triển Quốc gia (NDRC) ra lệnh loại bỏ dần hoạt động đào coin trong nước.",
+      "en": "For years, China (especially Xinjiang, Inner Mongolia and Sichuan) hosted the majority of the world's Bitcoin mining capacity thanks to cheap coal and hydro power. In May 2021 provincial governments began cracking down on crypto mining; by September 24, 2021, the People's Bank of China (PBOC) and nine other agencies declared all cryptocurrency transactions — including via offshore exchanges — illegal, while the National Development and Reform Commission (NDRC) ordered domestic mining phased out."
+    },
+    "opportunity": {
+      "asset": "Bitcoin (BTC) / Chinese crypto-mining operations",
+      "action": {
+        "vi": "Rút vốn khỏi sàn giao dịch và hoạt động đào coin đặt tại Trung Quốc trước lệnh cấm; hoặc short Bitcoin ngắn hạn quanh ngày công bố.",
+        "en": "Pull capital out of China-based exchanges and mining operations ahead of the ban; or short Bitcoin short-term around the announcement."
+      },
+      "buyWhen": {
+        "vi": "Không áp dụng cho chiến lược mua — đây là tín hiệu rút vốn/tránh.",
+        "en": "N/A for a buy strategy — this is a divestment/avoid signal."
+      },
+      "sellWhen": {
+        "vi": "Trước hoặc tại ngày 24/9/2021 khi lệnh cấm toàn diện được công bố.",
+        "en": "Before or at September 24, 2021 when the blanket ban was announced."
+      },
+      "estimatedReturn": {
+        "vi": "Giá Bitcoin giảm khoảng 8% ngay sau thông báo tháng 9/2021, và đã giảm khoảng 30% trong một ngày sau thông báo siết chặt tháng 5/2021.",
+        "en": "Bitcoin fell about 8% immediately after the September 2021 announcement, and had already dropped about 30% in a day after the May 2021 crackdown notice."
+      },
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Hoạt động đào Bitcoin sẽ nhanh chóng di dời sang Mỹ, Kazakhstan và các nước khác sau lệnh cấm — tỷ trọng đào coin của Trung Quốc trong mạng lưới toàn cầu giảm từ hơn 65% xuống gần 0% chỉ trong vài tháng, nhưng giá Bitcoin phục hồi và lập đỉnh mới trong vòng chưa đầy một năm sau đó.",
+      "en": "Bitcoin mining rapidly relocates to the US, Kazakhstan and elsewhere after the ban — China's share of global hash rate falls from over 65% to near zero within months, yet Bitcoin's price recovers and makes new highs within less than a year."
+    },
+    "pitfalls": {
+      "vi": "Đây là lần cấm thứ tư của Trung Quốc kể từ 2013 (2013 cấm ngân hàng xử lý Bitcoin, 2017 cấm ICO và sàn giao dịch nội địa) — nhà đầu tư từng chủ quan nghĩ 'quen rồi' có thể đánh giá thấp mức độ toàn diện của lệnh cấm 2021.",
+      "en": "This is China's fourth crackdown since 2013 (2013 banned banks from handling Bitcoin, 2017 banned ICOs and domestic exchanges) — investors who got used to prior partial bans may underestimate how comprehensive the 2021 ban actually is."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Vào ngày 24/9/2021, Trung Quốc tuyên bố điều gì về tiền mã hóa?",
+        "en": "What did China declare about cryptocurrency on September 24, 2021?"
+      },
+      "choices": [
+        {
+          "vi": "Chỉ cấm đào coin, vẫn cho giao dịch",
+          "en": "Only mining was banned, trading remained legal"
+        },
+        {
+          "vi": "Mọi giao dịch tiền mã hóa là bất hợp pháp",
+          "en": "All cryptocurrency transactions are illegal"
+        },
+        {
+          "vi": "Phát hành đồng NDT kỹ thuật số thay thế Bitcoin",
+          "en": "Launched a digital yuan to replace Bitcoin"
+        },
+        {
+          "vi": "Cho phép giao dịch có kiểm soát qua ngân hàng nhà nước",
+          "en": "Allowed controlled trading via state banks"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "PBOC cùng 9 cơ quan khác tuyên bố ngày 24/9/2021 rằng mọi hoạt động giao dịch tiền mã hóa, kể cả qua sàn nước ngoài, đều là bất hợp pháp.",
+        "en": "The PBOC and nine other agencies declared on Sept 24, 2021 that all crypto transactions, including via offshore exchanges, are illegal."
+      }
+    },
+    "sources": [
+      {
+        "title": "Reuters — China's top regulators ban crypto trading and mining",
+        "url": "https://www.reuters.com/world/china/china-central-bank-vows-crackdown-cryptocurrency-trading-2021-09-24/"
+      },
+      {
+        "title": "BBC News — China declares all crypto-currency transactions illegal",
+        "url": "https://www.bbc.com/news/technology-58678907"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Sept 24, 2021 blanket ban date and scope confirmed via Reuters and BBC; May 2021 crackdown and ~30% one-day drop corroborated by Reuters/USCC bulletin."
+  },
+  {
+    "id": "cn-evergrande-crisis-2021",
+    "country": "cn",
+    "date": "2021-09-24",
+    "category": "real-estate",
+    "title": {
+      "vi": "Khủng hoảng nợ Evergrande",
+      "en": "The Evergrande Debt Crisis"
+    },
+    "summary": {
+      "vi": "Nhà phát triển bất động sản lớn nhất Trung Quốc vỡ nợ trên khoản nợ hơn 300 tỷ USD, châm ngòi khủng hoảng bất động sản toàn ngành.",
+      "en": "China's biggest developer defaulted on over $300 billion in liabilities, triggering a sector-wide property crisis."
+    },
+    "description": {
+      "vi": "Sau khi chính sách 'ba lằn ranh đỏ' (2020) siết tỷ lệ nợ của nhà phát triển, China Evergrande Group — từng là nhà phát triển bất động sản bán chạy nhất Trung Quốc với khoản nợ hơn 300 tỷ USD — bắt đầu khủng hoảng thanh khoản công khai từ giữa 2021. Ngày 24/9/2021, Evergrande lỡ hạn thanh toán lãi trái phiếu ngoại tệ trị giá 83,5 triệu USD (trong thời gian ân hạn 30 ngày), và tiếp tục lỡ nhiều đợt thanh toán khác trong các tháng sau, dẫn đến đình trệ xây dựng hàng loạt dự án trên cả nước và cuối cùng bị hủy niêm yết khỏi sàn Hồng Kông năm 2025 sau khi tòa án ra lệnh thanh lý.",
+      "en": "After the 2020 'Three Red Lines' policy tightened developer debt ratios, China Evergrande Group — once China's top-selling developer, carrying over $300 billion in liabilities — entered a public liquidity crisis from mid-2021. On September 24, 2021, Evergrande missed an $83.5 million offshore bond coupon payment (within a 30-day grace period), and went on to miss further payments in subsequent months, leading to halted construction on projects nationwide and eventual delisting from the Hong Kong Stock Exchange in 2025 after a court-ordered liquidation."
+    },
+    "opportunity": {
+      "asset": "China Evergrande Group (3333.HK) and other highly-leveraged Chinese developers",
+      "action": {
+        "vi": "Bán hoặc short cổ phiếu/trái phiếu Evergrande và các nhà phát triển có đòn bẩy cao trước khi khủng hoảng công khai bùng nổ.",
+        "en": "Sell or short Evergrande stock/bonds and other highly-leveraged developers before the crisis goes public."
+      },
+      "buyWhen": {
+        "vi": "Không áp dụng — đây là tín hiệu bán/short/tránh.",
+        "en": "N/A — this is a sell/short/avoid signal."
+      },
+      "sellWhen": {
+        "vi": "Trước giữa năm 2021, ngay khi chính sách 'ba lằn ranh đỏ' (tháng 8/2020) bắt đầu siết các nhà phát triển có đòn bẩy cao.",
+        "en": "Before mid-2021, as soon as the 'Three Red Lines' policy (Aug 2020) starts squeezing highly-leveraged developers."
+      },
+      "estimatedReturn": {
+        "vi": "Trái chủ của Evergrande mất phần lớn giá trị đầu tư khi công ty vỡ nợ trên hơn 300 tỷ USD nợ; cổ phiếu Evergrande gần như về 0 trước khi bị hủy niêm yết năm 2025.",
+        "en": "Evergrande bondholders lost most of their investment as the company defaulted on over $300 billion in liabilities; Evergrande stock approached zero before its 2025 delisting."
+      },
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Khủng hoảng Evergrande sẽ lan sang các nhà phát triển lớn khác (Country Garden, Sunac) trong các năm sau, cho thấy đây không phải rủi ro riêng lẻ mà là vấn đề mang tính hệ thống của toàn ngành bất động sản Trung Quốc.",
+      "en": "The Evergrande crisis will spread to other major developers (Country Garden, Sunac) in subsequent years, showing this isn't an isolated risk but a systemic problem across China's entire property sector."
+    },
+    "pitfalls": {
+      "vi": "Nhiều nhà đầu tư kỳ vọng chính phủ sẽ 'giải cứu' Evergrande như các tổ chức 'quá lớn để sụp đổ' khác, nhưng Bắc Kinh chủ động để công ty vỡ nợ nhằm răn đe rủi ro đạo đức trong ngành bất động sản.",
+      "en": "Many investors expected the government to 'bail out' Evergrande as too-big-to-fail, but Beijing deliberately let it default to curb moral hazard in the property sector."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Evergrande lỡ hạn thanh toán lãi trái phiếu ngoại tệ đầu tiên vào ngày nào?",
+        "en": "On what date did Evergrande first miss an offshore bond coupon payment?"
+      },
+      "choices": [
+        {
+          "vi": "24/9/2021",
+          "en": "September 24, 2021"
+        },
+        {
+          "vi": "1/1/2020",
+          "en": "January 1, 2020"
+        },
+        {
+          "vi": "16/10/2007",
+          "en": "October 16, 2007"
+        },
+        {
+          "vi": "31/12/2022",
+          "en": "December 31, 2022"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "Evergrande lỡ hạn thanh toán 83,5 triệu USD lãi trái phiếu ngày 24/9/2021, với thời gian ân hạn 30 ngày.",
+        "en": "Evergrande missed an $83.5 million bond coupon payment on September 24, 2021, with a 30-day grace period."
+      }
+    },
+    "sources": [
+      {
+        "title": "Reuters — Evergrande misses payment deadline",
+        "url": "https://www.reuters.com/world/china/china-evergrande-bondholders-limbo-over-debt-resolution-2021-09-24/"
+      },
+      {
+        "title": "Reuters — The trials of Evergrande, from default to founder's life sentence",
+        "url": "https://www.reuters.com/world/china/default-delisting-evergrande-worlds-most-indebted-developer-2026-08-20/"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "$83.5M missed coupon on Sept 24, 2021, $300B+ total liabilities, and 2025 HKEX delisting confirmed via Reuters."
+  }
+]

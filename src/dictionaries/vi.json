@@ -4,7 +4,11 @@
     "tagline": "Trọng sinh về quá khứ với toàn bộ ký ức. Đây là những gì bạn nên làm.",
     "disclaimer": "Nội dung mang tính giải trí và giáo dục, không phải lời khuyên đầu tư. Lợi nhuận là số liệu lịch sử, mang tính xấp xỉ."
   },
-  "nav": { "timeline": "Dòng thời gian", "quiz": "Đố vui", "checklist": "Checklist của tôi" },
+  "nav": {
+    "timeline": "Dòng thời gian",
+    "quiz": "Đố vui",
+    "checklist": "Checklist của tôi"
+  },
   "home": {
     "kicker": "Trọng sinh · Reborn",
     "wakeUp": "Bạn tỉnh dậy vào năm",
@@ -53,12 +57,22 @@
     "readMore": "Chi tiết",
     "add": "Thêm vào checklist",
     "added": "Đã thêm",
-    "levels": { "low": "Thấp", "medium": "Vừa", "high": "Cao" },
+    "levels": {
+      "low": "Thấp",
+      "medium": "Vừa",
+      "high": "Cao"
+    },
     "capital": "Vốn cần",
     "categories": {
-      "stocks": "Chứng khoán", "crypto": "Crypto", "real-estate": "Bất động sản", "technology": "Công nghệ",
-      "business": "Kinh doanh", "macro": "Vĩ mô", "commodities": "Hàng hoá"
-    }
+      "stocks": "Chứng khoán",
+      "crypto": "Crypto",
+      "real-estate": "Bất động sản",
+      "technology": "Công nghệ",
+      "business": "Kinh doanh",
+      "macro": "Vĩ mô",
+      "commodities": "Hàng hoá"
+    },
+    "drop": "Giá sụp — cách kiếm tiền là bán, bán khống hoặc tránh xa"
   },
   "detail": {
     "back": "Quay lại dòng thời gian",
@@ -89,6 +103,11 @@
     "score": "Điểm của bạn",
     "again": "Chơi lại",
     "learn": "Đọc mốc này",
-    "ranks": ["Lạc lối thời gian", "Khách du lịch may mắn", "Người trọng sinh lão luyện", "Nhà tiên tri thị trường"]
+    "ranks": [
+      "Lạc lối thời gian",
+      "Khách du lịch may mắn",
+      "Người trọng sinh lão luyện",
+      "Nhà tiên tri thị trường"
+    ]
   }
 }

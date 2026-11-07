@@ -2,8 +2,8 @@ import Link from "next/link";
 import { t, type Locale } from "@/lib/i18n";
 import type { Country, Milestone } from "@/lib/types";
 import type { Dictionary } from "@/lib/dictionaries";
-import { formatDate, formatMoney, formatMultiple } from "@/lib/format";
-import { MultipleBadge, RiskBadge, UnverifiedBadge } from "./Badges";
+import { formatDate, formatDrop, formatMoney, formatMultiple } from "@/lib/format";
+import { DropBadge, MultipleBadge, RiskBadge, UnverifiedBadge } from "./Badges";
 import CheckButton from "./CheckButton";
 
 type Props = { m: Milestone; lang: Locale; dict: Dictionary["timeline"]; country: Country };
@@ -31,7 +31,7 @@ export default function MilestoneCard({ m, lang, dict, country }: Props) {
         <CheckButton id={m.id} label={dict.add} labelOn={dict.added} compact />
       </div>
 
-      <div className="mt-5 grid gap-4 rounded-xl bg-raised p-4 sm:grid-cols-[1fr_auto] sm:items-center">
+      <div className="mt-5 grid gap-4 rounded-xl bg-raised p-4 sm:grid-cols-[minmax(0,1fr)_minmax(0,14rem)] sm:items-center">
         <div className="space-y-1 text-sm">
           {o.asset && <div className="font-mono text-xs uppercase tracking-wide text-faint">{o.asset}</div>}
           <div className="text-ink">{t(o.action, lang)}</div>
@@ -45,7 +45,12 @@ export default function MilestoneCard({ m, lang, dict, country }: Props) {
           </div>
         </div>
         <div className="sm:text-right">
-          {o.returnMultiple ? (
+          {o.returnMultiple && o.returnMultiple < 1 ? (
+            <>
+              <DropBadge text={formatDrop(o.returnMultiple, lang)} label={dict.drop} />
+              <div className="mt-1 text-xs text-danger">{dict.drop}</div>
+            </>
+          ) : o.returnMultiple ? (
             <>
               <MultipleBadge text={formatMultiple(o.returnMultiple, lang)} />
               <div className="mt-1 font-mono text-xs tabular text-muted">
@@ -56,7 +61,7 @@ export default function MilestoneCard({ m, lang, dict, country }: Props) {
               </div>
             </>
           ) : (
-            <div className="text-sm font-semibold text-gain">{t(o.estimatedReturn, lang)}</div>
+            <div className="text-sm font-semibold leading-snug text-gain">{t(o.estimatedReturn, lang)}</div>
           )}
         </div>
       </div>

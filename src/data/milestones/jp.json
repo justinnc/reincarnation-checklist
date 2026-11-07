@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "jp-plaza-accord-1985",
+    "country": "jp",
+    "date": "1985-09-22",
+    "category": "macro",
+    "title": {
+      "vi": "Hiệp định Plaza khiến đồng Yên tăng vọt",
+      "en": "Plaza Accord Sends the Yen Soaring"
+    },
+    "summary": {
+      "vi": "G5 đồng thuận hạ giá USD, Yên tăng ~40% so với đô la trong hai năm.",
+      "en": "G5 nations agree to weaken the dollar; the yen strengthens ~40% against USD in two years."
+    },
+    "description": {
+      "vi": "Ngày 22/9/1985 tại khách sạn Plaza (New York), bộ trưởng tài chính Mỹ, Nhật, Đức, Pháp, Anh ký thỏa thuận phối hợp can thiệp để hạ giá đô la. Tỷ giá USD/JPY giảm từ khoảng 240 (tháng 9/1985) xuống còn khoảng 150 vào cuối năm 1987, tức Yên tăng giá khoảng 40%. BOJ sau đó nới lỏng tiền tệ mạnh để bù đắp, châm ngòi cho bong bóng tài sản 1986-1990.",
+      "en": "On Sept. 22, 1985 at New York's Plaza Hotel, finance ministers of the US, Japan, West Germany, France and the UK agreed to coordinated intervention to weaken the dollar. USD/JPY fell from about 240 (Sept 1985) to roughly 150 by end-1987, a ~40% yen appreciation. The BOJ then eased aggressively to offset the shock, fueling the 1986-1990 asset bubble."
+    },
+    "opportunity": {
+      "asset": "USD/JPY",
+      "action": {
+        "vi": "Bán khống đô la Mỹ / mua Yên trước và ngay sau thỏa thuận.",
+        "en": "Short the US dollar / go long yen right before and after the accord."
+      },
+      "buyWhen": {
+        "vi": "Ngay sau 22/9/1985 khi thỏa thuận được công bố.",
+        "en": "Immediately after the Sept 22, 1985 announcement."
+      },
+      "sellWhen": {
+        "vi": "Cuối 1987, khi Yên đã tăng giá mạnh và Hiệp định Louvre (1987) tìm cách ổn định lại tỷ giá.",
+        "en": "Late 1987, once the yen had appreciated sharply and the 1987 Louvre Accord sought to stabilize rates."
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng 40% lợi nhuận trên vị thế Yên/đô la trong hơn 2 năm.",
+        "en": "Roughly a 40% gain on a long-yen/short-dollar position over just over two years."
+      },
+      "entryPrice": 240,
+      "exitPrice": 150,
+      "priceCurrency": "JPY",
+      "exitDate": "1987-12",
+      "risk": "medium",
+      "capital": "high"
+    },
+    "insiderTip": {
+      "vi": "Biết trước ngày họp G5 cho phép đặt cược full-size vào Yên trước khi thị trường phản ứng; các đợt can thiệp của Mỹ-Đức diễn ra dồn dập chỉ trong vài tuần đầu.",
+      "en": "Knowing the G5 meeting date in advance lets you take a full-size long-yen position before the market reacts; US-German interventions were concentrated in just the first few weeks."
+    },
+    "pitfalls": {
+      "vi": "Yên tăng giá cũng bóp nghẹt các nhà xuất khẩu Nhật và gây ra 'cú sốc đồng Yên cao' (endaka fukyo); nhiều công ty như Olympus chuyển sang đầu cơ tài chính để bù lỗ, gieo mầm cho bê bối sau này.",
+      "en": "Yen appreciation also squeezed Japanese exporters, causing the 'high yen recession' (endaka fukyo); many firms like Olympus turned to financial speculation to offset losses, planting the seeds for later scandals."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Thỏa thuận Plaza năm 1985 được ký tại đâu và có mục tiêu gì?",
+        "en": "Where was the 1985 Plaza Accord signed, and what was its goal?"
+      },
+      "choices": [
+        {
+          "vi": "Khách sạn Plaza, New York — hạ giá đồng đô la Mỹ",
+          "en": "The Plaza Hotel, New York — to weaken the US dollar"
+        },
+        {
+          "vi": "Tokyo — tăng giá đồng Yên không giới hạn",
+          "en": "Tokyo — to appreciate the yen without limit"
+        },
+        {
+          "vi": "Paris — cố định tỷ giá vàng",
+          "en": "Paris — to fix the gold exchange rate"
+        },
+        {
+          "vi": "Washington — tăng lãi suất toàn cầu",
+          "en": "Washington — to raise global interest rates"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "G5 họp tại khách sạn Plaza ở New York ngày 22/9/1985 để phối hợp hạ giá đô la Mỹ so với Yên và Mark Đức.",
+        "en": "The G5 met at the Plaza Hotel in New York on Sept 22, 1985 to coordinate weakening the US dollar against the yen and Deutsche mark."
+      }
+    },
+    "sources": [
+      {
+        "title": "The Plaza Agreement and Japan (Baker Institute working paper)",
+        "url": "https://www.bakerinstitute.org/sites/default/files/2015-09/import/WorkingPaper-Plaza-Ito-092815.pdf"
+      },
+      {
+        "title": "JEF: The Early 1980s & the Present",
+        "url": "https://www.jef.or.jp/journal/pdf/253rd_Economic_Indicators.pdf"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed date (Sept 22, 1985) and USD/JPY move (~240 to ~150) via Baker Institute working paper and JEF economic indicators PDF."
+  },
+  {
+    "id": "jp-keyence-automation-growth",
+    "country": "jp",
+    "date": "1987",
+    "category": "stocks",
+    "title": {
+      "vi": "Keyence: Từ IPO Osaka đến đế chế cảm biến tỷ đô",
+      "en": "Keyence: From an Osaka IPO to a Billion-Dollar Sensor Empire"
+    },
+    "summary": {
+      "vi": "Keyence niêm yết tại Osaka năm 1987; cổ phiếu tăng gần gấp đôi chỉ trong năm 2020, đưa nhà sáng lập thành người giàu nhất Nhật Bản.",
+      "en": "Keyence listed in Osaka in 1987; its stock nearly doubled in 2020 alone, making its founder Japan's richest person."
+    },
+    "description": {
+      "vi": "Takemitsu Takizaki IPO cổ phiếu Keyence — nhà sản xuất cảm biến và thiết bị tự động hóa công nghiệp — tại Sở GDCK Osaka năm 1987, sau đó niêm yết trên sàn hai Tokyo năm 1989. Nhờ biên lợi nhuận cực cao và mô hình bán hàng trực tiếp độc đáo, cổ phiếu Keyence tăng khoảng 96% chỉ trong năm 2020, giúp giá trị thị trường công ty đạt khoảng 167 tỷ đô la — đứng thứ hai Nhật Bản chỉ sau Toyota, và đưa Takizaki vượt qua Tadashi Yanai (Uniqlo) để trở thành người giàu nhất Nhật Bản năm 2021.",
+      "en": "Takemitsu Takizaki took Keyence — a maker of industrial sensors and automation equipment — public on the Osaka Stock Exchange in 1987, later listing on Tokyo's second section in 1989. Thanks to extremely high margins and a unique direct-sales model, Keyence shares rose roughly 96% in 2020 alone, pushing the company's market value to about $167 billion — Japan's second-largest by that measure, behind only Toyota — and making Takizaki Japan's richest person in 2021, surpassing Uniqlo's Tadashi Yanai."
+    },
+    "opportunity": {
+      "asset": "Keyence Corp (6861.T)",
+      "action": {
+        "vi": "Mua và giữ dài hạn cổ phiếu Keyence từ sau IPO 1987, đặc biệt gia tăng tỷ trọng quanh 2020 khi tự động hóa nhà máy bùng nổ.",
+        "en": "Buy and hold Keyence stock from its 1987 IPO, adding especially around 2020 as factory automation boomed."
+      },
+      "buyWhen": {
+        "vi": "Ngay sau IPO năm 1987, hoặc gia tăng tỷ trọng đầu năm 2020.",
+        "en": "Right after the 1987 IPO, or add to the position in early 2020."
+      },
+      "sellWhen": {
+        "vi": "Không bắt buộc — cổ phiếu tăng trưởng đều qua nhiều thập kỷ nhờ biên lợi nhuận cao bền vững.",
+        "en": "Not mandatory — a steady multi-decade compounder thanks to sustainably high margins."
+      },
+      "estimatedReturn": {
+        "vi": "Cổ phiếu tăng khoảng 96% chỉ trong năm 2020; tài sản của nhà sáng lập tăng từ 7,2 tỷ đô (2015) lên 38,2 tỷ đô (2021), tức hơn 5 lần.",
+        "en": "The stock rose about 96% in 2020 alone; the founder's net worth grew from $7.2 billion (2015) to $38.2 billion (2021), more than 5x."
+      },
+      "returnMultiple": 5.3,
+      "priceCurrency": "JPY",
+      "risk": "low",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Keyence giữ bí mật sản xuất, không tự sản xuất mà chỉ thiết kế và bán trực tiếp với biên lợi nhuận gộp hơn 80% — hiểu rõ mô hình kinh doanh độc đáo này từ sớm giúp tự tin nắm giữ qua các chu kỳ suy thoái công nghiệp ngắn hạn.",
+      "en": "Keyence keeps manufacturing a secret, outsourcing production while designing and selling direct at gross margins over 80% — understanding this unusual business model early gives the confidence to hold through short industrial downcycles."
+    },
+    "pitfalls": {
+      "vi": "Cổ phiếu Keyence rất nhạy với chu kỳ đầu tư vốn công nghiệp toàn cầu; từng giảm khi nhu cầu nhà máy suy yếu (ví dụ 2015), nên cần kiên nhẫn qua các giai đoạn trầm lắng ngắn hạn.",
+      "en": "Keyence stock is highly sensitive to the global industrial capex cycle; it has fallen during factory-demand slowdowns (e.g. 2015), requiring patience through short-term soft patches."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Khi nào Keyence lần đầu niêm yết cổ phiếu (IPO) tại Osaka?",
+        "en": "When did Keyence first go public (IPO) in Osaka?"
+      },
+      "choices": [
+        {
+          "vi": "1974",
+          "en": "1974"
+        },
+        {
+          "vi": "1994",
+          "en": "1994"
+        },
+        {
+          "vi": "2006",
+          "en": "2006"
+        },
+        {
+          "vi": "1987",
+          "en": "1987"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "vi": "Takemitsu Takizaki đưa Keyence IPO tại Sở GDCK Osaka năm 1987, theo hồ sơ Bloomberg Billionaires Index.",
+        "en": "Takemitsu Takizaki took Keyence public on the Osaka Stock Exchange in 1987, per the Bloomberg Billionaires Index profile."
+      }
+    },
+    "sources": [
+      {
+        "title": "Bloomberg Billionaires Index: Takemitsu Takizaki",
+        "url": "https://bloomberg.com/billionaires/profiles/takemitsu-takizaki"
+      },
+      {
+        "title": "Business Insider: Japan's new richest person is Takemitsu Takizaki",
+        "url": "https://businessinsider.com/japan-richest-man-takemitsu-takizaki-sensor-manufacturing-keyence-2021-9"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed 1987 Osaka IPO and 1989 Tokyo listing via Bloomberg Billionaires profile; confirmed ~96% 2020 share rise and Takizaki's net-worth growth from $7.2B (2015) to $38.2B (2021) via Business Insider. Exact share price data not independently located, so entry/exit prices are omitted."
+  },
+  {
+    "id": "jp-nikkei-bubble-peak-1989",
+    "country": "jp",
+    "date": "1989-12-29",
+    "category": "stocks",
+    "title": {
+      "vi": "Đỉnh bong bóng Nikkei 225 cuối 1989",
+      "en": "Nikkei 225 Bubble Peak, Dec 1989"
+    },
+    "summary": {
+      "vi": "Nikkei 225 đóng cửa kỷ lục 38.915,87 điểm — kỷ lục giữ suốt 34 năm.",
+      "en": "Nikkei 225 closed at a record 38,915.87 — a record that stood for 34 years."
+    },
+    "description": {
+      "vi": "Phiên giao dịch cuối cùng của thập niên 1980, ngày 29/12/1989, chỉ số Nikkei 225 đóng cửa ở mức kỷ lục 38.915,87 điểm (đỉnh trong phiên 38.957,44), tăng gấp sáu lần trong thập kỷ. Đây là đỉnh của bong bóng giá tài sản Nhật Bản; sau đó chỉ số lao dốc gần 82% trong 19 năm tiếp theo, chạm đáy 7.054,98 vào tháng 3/2009.",
+      "en": "On the last trading day of the 1980s, Dec 29, 1989, the Nikkei 225 closed at a record 38,915.87 (intraday high 38,957.44), having grown sixfold during the decade. This marked the peak of the Japanese asset price bubble; the index then collapsed nearly 82% over the next 19 years, bottoming at 7,054.98 in March 2009."
+    },
+    "opportunity": {
+      "asset": "Nikkei 225",
+      "action": {
+        "vi": "Bán toàn bộ cổ phiếu Nhật / mở vị thế bán khống chỉ số trước năm mới 1990.",
+        "en": "Sell all Japanese equities / short the index ahead of 1990."
+      },
+      "buyWhen": {
+        "vi": "Không mua — đây là tín hiệu bán.",
+        "en": "N/A — this is a sell/short signal."
+      },
+      "sellWhen": {
+        "vi": "Ngay tại hoặc trước phiên 29/12/1989.",
+        "en": "At or just before the Dec 29, 1989 close."
+      },
+      "estimatedReturn": {
+        "vi": "Tránh được khoản lỗ ~82% trong 19 năm sau đó nếu nắm giữ chỉ số.",
+        "en": "Avoids an ~82% drawdown over the next 19 years for index holders."
+      },
+      "returnMultiple": null,
+      "entryPrice": 38915.87,
+      "exitPrice": 7054.98,
+      "priceCurrency": "points",
+      "exitDate": "2009-03-10",
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Chỉ số này sẽ không lập đỉnh mới trong 34 năm — nếu buộc phải nắm giữ cổ phiếu Nhật, hãy chuyển sang tiền mặt, trái phiếu nước ngoài hoặc bán khống hợp đồng tương lai Nikkei ngay đầu 1990.",
+      "en": "This index will not make a new high for 34 years — if forced to hold Japanese equities, rotate into cash, foreign bonds, or short Nikkei futures right at the start of 1990."
+    },
+    "pitfalls": {
+      "vi": "Thị trường tiếp tục tăng thêm vài điểm phần trăm trong vài tuần đầu 1990 trước khi sụp đổ thật sự bắt đầu vào tháng 2/1990 — đừng cố bắt đỉnh tuyệt đối.",
+      "en": "The market ground a bit higher in the first weeks of 1990 before the real crash began in February 1990 — don't try to time the exact top."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Nikkei 225 đóng cửa ở mức bao nhiêu vào ngày 29/12/1989?",
+        "en": "At what level did the Nikkei 225 close on Dec 29, 1989?"
+      },
+      "choices": [
+        {
+          "vi": "38.915,87 điểm",
+          "en": "38,915.87 points"
+        },
+        {
+          "vi": "7.054,98 điểm",
+          "en": "7,054.98 points"
+        },
+        {
+          "vi": "20.000 điểm",
+          "en": "20,000 points"
+        },
+        {
+          "vi": "39.098,68 điểm",
+          "en": "39,098.68 points"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "38.915,87 là mức đóng cửa kỷ lục ngày 29/12/1989, giữ vững suốt 34 năm cho tới tháng 2/2024.",
+        "en": "38,915.87 was the record close on Dec 29, 1989, which stood for 34 years until February 2024."
+      }
+    },
+    "sources": [
+      {
+        "title": "AP: Nikkei breaks 1989 record and surges to all-time high",
+        "url": "https://apnews.com/article/japan-nikkei-shares-record-economy-93003abeedbc99cf8f3dab78de78c298"
+      },
+      {
+        "title": "Nikkei 225 (Wikipedia)",
+        "url": "https://ca.wikipedia.org/wiki/en:Nikkei_225"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed 38,915.87 close on Dec 29, 1989 and the 2009 bottom of 7,054.98 via AP and Wikipedia Nikkei 225 article."
+  },
+  {
+    "id": "jp-tokyo-real-estate-bubble-1991",
+    "country": "jp",
+    "date": "1991",
+    "category": "real-estate",
+    "title": {
+      "vi": "Đỉnh giá đất Tokyo và cú sập bất động sản",
+      "en": "Tokyo Land Price Peak and Real Estate Crash"
+    },
+    "summary": {
+      "vi": "Giá đất thương mại Tokyo đạt đỉnh 7,75 triệu Yên/m² năm 1991 rồi lao dốc suốt thập kỷ sau.",
+      "en": "Tokyo commercial land hit ¥7.75 million/sqm in 1991, then fell for the next decade."
+    },
+    "description": {
+      "vi": "Giá đất thương mại tại Tokyo đạt đỉnh 7.750.000 Yên/m² năm 1991 (đất ở đạt đỉnh 951.300 Yên/m² năm 1988); tại 5 quận trung tâm, giá đất tăng gấp khoảng 10 lần chỉ trong một thập kỷ. Sau khi chính phủ siết tín dụng bất động sản và tăng lãi suất cuối thập niên 80, giá đất giảm liên tục suốt những năm 1990 và 2000, chỉ phục hồi rõ rệt từ giữa thập niên 2010.",
+      "en": "Tokyo commercial land prices peaked at ¥7.75 million per square meter in 1991 (residential land peaked at ¥951,300/sqm in 1988); in the five central wards, land values rose roughly tenfold in a single decade. After the government tightened real-estate lending and raised rates in the late 1980s, land prices fell continuously through the 1990s and 2000s, only recovering meaningfully from the mid-2010s."
+    },
+    "opportunity": {
+      "asset": "Tokyo commercial land",
+      "action": {
+        "vi": "Bán bất động sản thương mại Tokyo (hoặc tránh mua) trước 1991; mua lại giá rẻ từ giữa những năm 2000.",
+        "en": "Sell Tokyo commercial real estate (or avoid buying) before 1991; rebuy cheaply from the mid-2000s."
+      },
+      "buyWhen": {
+        "vi": "Giữa những năm 2000 đến đầu 2010 khi giá đã giảm sâu và ổn định.",
+        "en": "Mid-2000s to early 2010s, once prices had fallen deeply and stabilized."
+      },
+      "sellWhen": {
+        "vi": "1990-1991, trước khi giá đất chính thức đảo chiều.",
+        "en": "1990-1991, before land prices officially turned down."
+      },
+      "estimatedReturn": {
+        "vi": "Tránh khoản lỗ hàng chục phần trăm giá trị trong các năm 1992-1993 tại ba vùng đô thị lớn.",
+        "en": "Avoids tens of percent in losses during 1992-1993 across the three major metro areas."
+      },
+      "returnMultiple": null,
+      "priceCurrency": "JPY",
+      "risk": "high",
+      "capital": "high"
+    },
+    "insiderTip": {
+      "vi": "Giá đất 5 quận trung tâm Tokyo không trở lại đỉnh 1991 trong nhiều thập kỷ — nếu có vốn lớn, hãy thoái vốn bất động sản thương mại Tokyo năm 1990 và quay lại gom hàng khi giá giảm hơn 50% vào cuối thập niên 1990.",
+      "en": "Central Tokyo land prices did not revisit their 1991 peak for decades — with large capital, divest Tokyo commercial property in 1990 and re-enter once prices had fallen over 50% by the late 1990s."
+    },
+    "pitfalls": {
+      "vi": "Thị trường bất động sản kém thanh khoản hơn cổ phiếu nhiều; việc bán tháo diện rộng năm 1990-1991 rất khó thực hiện mà không chịu chiết khấu lớn.",
+      "en": "Real estate is far less liquid than stocks; a broad 1990-1991 sell-off would have been hard to execute without accepting steep discounts."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Giá đất thương mại tại Tokyo đạt đỉnh vào năm nào?",
+        "en": "In what year did Tokyo commercial land prices peak?"
+      },
+      "choices": [
+        {
+          "vi": "1985",
+          "en": "1985"
+        },
+        {
+          "vi": "2003",
+          "en": "2003"
+        },
+        {
+          "vi": "2013",
+          "en": "2013"
+        },
+        {
+          "vi": "1991",
+          "en": "1991"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "vi": "Giá đất thương mại Tokyo đạt đỉnh 7,75 triệu Yên/m² vào năm 1991, theo Bộ Đất đai, Hạ tầng, Giao thông và Du lịch Nhật Bản.",
+        "en": "Tokyo commercial land peaked at ¥7.75 million/sqm in 1991, per Japan's Ministry of Land, Infrastructure, Transport and Tourism data."
+      }
+    },
+    "sources": [
+      {
+        "title": "PropertyAccess: Tokyo 23 Wards land price trends",
+        "url": "https://propertyaccess.com/articles/tokyo-23-wards-average-property-price-per-square-meter-market-trends-2026"
+      },
+      {
+        "title": "IMF: Movements in Asset Prices (Ch. VI)",
+        "url": "https://www.elibrary.imf.org/downloadpdf/display/book/9781557754622/ch06.pdf"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed Tokyo commercial land peak of ¥7.75M/sqm in 1991 and residential peak ¥951,300/sqm in 1988 via PropertyAccess (citing Tokyo Metropolitan Government Bureau of Finance) and IMF chapter on asset prices."
+  },
+  {
+    "id": "jp-fast-retailing-uniqlo-listing-1994",
+    "country": "jp",
+    "date": "1994-07",
+    "category": "business",
+    "title": {
+      "vi": "Fast Retailing (Uniqlo) niêm yết năm 1994",
+      "en": "Fast Retailing (Uniqlo) Goes Public in 1994"
+    },
+    "summary": {
+      "vi": "Công ty mẹ Uniqlo niêm yết tại Sở GDCK Hiroshima tháng 7/1994, khởi đầu một trong các cổ phiếu tăng mạnh nhất Nhật Bản.",
+      "en": "Uniqlo's parent listed on the Hiroshima Stock Exchange in July 1994, the start of one of Japan's best-performing stocks."
+    },
+    "description": {
+      "vi": "Fast Retailing (đổi tên từ Ogori Shoji năm 1991) niêm yết cổ phiếu trên Sở GDCK Hiroshima vào tháng 7/1994 khi chuỗi Uniqlo đã có hơn 100 cửa hàng. Công ty sau đó chuyển lên Sở GDCK Tokyo năm 1997 và lên sàn chính (First Section) năm 1999. Cổ phiếu đã chia tách 7 lần tính đến nay và đưa nhà sáng lập Tadashi Yanai trở thành một trong những người giàu nhất Nhật Bản.",
+      "en": "Fast Retailing (renamed from Ogori Shoji in 1991) listed its shares on the Hiroshima Stock Exchange in July 1994, when the Uniqlo chain had grown to over 100 stores. The company later moved to the Tokyo Stock Exchange's Second Section in 1997 and its First Section in 1999. The stock has split seven times to date and made founder Tadashi Yanai one of Japan's richest people."
+    },
+    "opportunity": {
+      "asset": "Fast Retailing (9983.T)",
+      "action": {
+        "vi": "Mua cổ phiếu Fast Retailing ngay từ đợt niêm yết năm 1994 và giữ dài hạn qua quá trình bành trướng Uniqlo toàn cầu.",
+        "en": "Buy Fast Retailing stock at its 1994 listing and hold through Uniqlo's global expansion."
+      },
+      "buyWhen": {
+        "vi": "Tháng 7/1994, ngay khi niêm yết tại Sở GDCK Hiroshima.",
+        "en": "July 1994, right at the Hiroshima Stock Exchange listing."
+      },
+      "sellWhen": {
+        "vi": "Không bắt buộc — đây là cổ phiếu để giữ dài hạn qua nhiều thập kỷ.",
+        "en": "Not mandatory — a multi-decade buy-and-hold stock."
+      },
+      "estimatedReturn": {
+        "vi": "Cổ phiếu đã chia tách 7 lần và vốn hóa công ty tăng từ vài chục tỷ lên hàng nghìn tỷ Yên.",
+        "en": "The stock has split 7 times and the company's market cap grew from tens of billions to trillions of yen."
+      },
+      "priceCurrency": "JPY",
+      "risk": "medium",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Yanai sẽ mở rộng Uniqlo ra quốc tế từ cuối thập niên 1990 (London 2001, New York 2006) và biến hãng thành nhà bán lẻ thời trang lớn nhất châu Á — mua sớm và giữ qua các đợt điều chỉnh là chiến lược thắng.",
+      "en": "Yanai will take Uniqlo international from the late 1990s (London 2001, New York 2006), turning it into Asia's largest apparel retailer — buying early and holding through pullbacks is the winning strategy."
+    },
+    "pitfalls": {
+      "vi": "Các đợt mở rộng quốc tế đầu tiên tại Anh (2001) thua lỗ nặng và phải đóng gần hết cửa hàng — cổ phiếu có những giai đoạn giảm mạnh trước khi chiến lược toàn cầu hóa thành công.",
+      "en": "Early UK expansion (2001) lost heavily and most stores had to close — the stock saw sharp drawdowns before the global strategy succeeded."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Fast Retailing (công ty mẹ Uniqlo) niêm yết lần đầu trên sở giao dịch nào?",
+        "en": "On which exchange did Fast Retailing (Uniqlo's parent) first list?"
+      },
+      "choices": [
+        {
+          "vi": "Sở GDCK Tokyo",
+          "en": "Tokyo Stock Exchange"
+        },
+        {
+          "vi": "Sở GDCK Hiroshima",
+          "en": "Hiroshima Stock Exchange"
+        },
+        {
+          "vi": "Sở GDCK Osaka",
+          "en": "Osaka Stock Exchange"
+        },
+        {
+          "vi": "Sở GDCK Hong Kong",
+          "en": "Hong Kong Stock Exchange"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Fast Retailing niêm yết lần đầu trên Sở GDCK Hiroshima vào tháng 7/1994, trước khi chuyển lên Tokyo năm 1997 và 1999.",
+        "en": "Fast Retailing first listed on the Hiroshima Stock Exchange in July 1994, before moving to Tokyo in 1997 and 1999."
+      }
+    },
+    "sources": [
+      {
+        "title": "Fast Retailing IR FAQ",
+        "url": "https://fastretailing.com/eng/ir/faq"
+      },
+      {
+        "title": "Wikipedia: Uniqlo",
+        "url": "https://en.wikipedia.org/wiki/Uniqlo"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed July 1994 Hiroshima Stock Exchange listing and subsequent 1997/1999 Tokyo listings via Fast Retailing's own IR FAQ page and Wikipedia."
+  },
+  {
+    "id": "jp-sony-playstation-1994",
+    "country": "jp",
+    "date": "1994-12-03",
+    "category": "technology",
+    "title": {
+      "vi": "Sony ra mắt PlayStation, mở đế chế game",
+      "en": "Sony Launches the PlayStation, Birth of a Gaming Empire"
+    },
+    "summary": {
+      "vi": "PlayStation ra mắt tại Nhật ngày 3/12/1994 giá 39.800 Yên, bán hết 100.000 máy ngay lập tức.",
+      "en": "The PlayStation launched in Japan on Dec 3, 1994 at ¥39,800, selling out its first 100,000 units instantly."
+    },
+    "description": {
+      "vi": "Sony tung ra máy chơi game PlayStation tại Nhật Bản ngày 3/12/1994 với giá 39.800 Yên, một tuần sau khi đối thủ Sega Saturn ra mắt. Lô hàng đầu 100.000 máy bán hết ngay, và chỉ trong nửa năm đã bán được 1 triệu máy. Đây là bước ngoặt đưa Sony từ một hãng điện tử tiêu dùng thành thế lực thống trị ngành game toàn cầu trong ba thập kỷ sau.",
+      "en": "Sony released the PlayStation console in Japan on Dec 3, 1994 at ¥39,800, one week after rival Sega Saturn's launch. The first 100,000 units sold out immediately, and one million units sold within half a year. This was the turning point that took Sony from a consumer-electronics maker to a dominant global gaming force for the next three decades."
+    },
+    "opportunity": {
+      "asset": "Sony Corp (6758.T)",
+      "action": {
+        "vi": "Mua cổ phiếu Sony trước khi PlayStation ra mắt và thống trị thị trường game 32-bit.",
+        "en": "Buy Sony stock ahead of the PlayStation launch and its dominance of the 32-bit console war."
+      },
+      "buyWhen": {
+        "vi": "Giữa năm 1994, trước ngày ra mắt 3/12/1994.",
+        "en": "Mid-1994, ahead of the Dec 3, 1994 launch."
+      },
+      "sellWhen": {
+        "vi": "Không bắt buộc — có thể giữ dài hạn qua các thế hệ PS2/PS3/PS4/PS5.",
+        "en": "Not mandatory — can be held long-term through the PS2/PS3/PS4/PS5 generations."
+      },
+      "estimatedReturn": {
+        "vi": "PlayStation bán được hơn 100 triệu máy trong vòng đời, giúp mảng game trở thành trụ cột lợi nhuận của Sony trong nhiều thập kỷ.",
+        "en": "The PlayStation sold over 100 million units over its lifetime, turning gaming into a core profit pillar for Sony for decades."
+      },
+      "priceCurrency": "JPY",
+      "risk": "medium",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Việc Nintendo từ chối hợp tác đĩa CD với Sony vào năm 1991 chính là lý do Sony tự phát triển PlayStation — biết trước điều này giúp nhận ra Sony, chứ không phải Nintendo hay Sega, sẽ thắng thế hệ console tiếp theo.",
+      "en": "Nintendo's 1991 decision to abandon its CD-ROM partnership with Sony is exactly why Sony built the PlayStation alone — knowing this in advance flags Sony, not Nintendo or Sega, as the winner of the next console generation."
+    },
+    "pitfalls": {
+      "vi": "Mảng game không đủ sức bù đắp cho sự suy yếu của mảng TV/điện tử tiêu dùng cốt lõi của Sony trong những năm 2000; cổ phiếu Sony vẫn trải qua giai đoạn trì trệ dài trước khi hồi phục mạnh từ giữa thập niên 2010.",
+      "en": "Gaming alone couldn't offset the decline of Sony's core TV/consumer-electronics business in the 2000s; Sony shares still went through a long stagnant period before a strong recovery from the mid-2010s."
+    },
+    "quiz": {
+      "question": {
+        "vi": "PlayStation đầu tiên ra mắt tại Nhật Bản với giá bao nhiêu?",
+        "en": "At what price did the original PlayStation launch in Japan?"
+      },
+      "choices": [
+        {
+          "vi": "19.800 Yên",
+          "en": "¥19,800"
+        },
+        {
+          "vi": "29.800 Yên",
+          "en": "¥29,800"
+        },
+        {
+          "vi": "39.800 Yên",
+          "en": "¥39,800"
+        },
+        {
+          "vi": "49.800 Yên",
+          "en": "¥49,800"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "PlayStation ra mắt ngày 3/12/1994 tại Nhật Bản với giá 39.800 Yên, theo Sony Group History chính thức.",
+        "en": "The PlayStation launched in Japan on Dec 3, 1994 at ¥39,800, per Sony Group's official corporate history."
+      }
+    },
+    "sources": [
+      {
+        "title": "Sony Group History: The PlayStation",
+        "url": "https://www.sony.com/en/SonyInfo/CorporateInfo/History/SonyHistory/2-09.html"
+      },
+      {
+        "title": "Wikipedia: PlayStation (console)",
+        "url": "https://en.wikipedia.org/wiki/PlayStation_(console)"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed launch date (Dec 3, 1994) and price (¥39,800) via Sony's own corporate history page and Wikipedia."
+  },
+  {
+    "id": "jp-softbank-alibaba-stake-2000",
+    "country": "jp",
+    "date": "2000-01",
+    "category": "business",
+    "title": {
+      "vi": "SoftBank rót 20 triệu đô vào Alibaba năm 2000",
+      "en": "SoftBank's $20 Million Bet on Alibaba, 2000"
+    },
+    "summary": {
+      "vi": "Masayoshi Son đầu tư 20 triệu đô vào Alibaba năm 2000; đến IPO 2014, cổ phần trị giá khoảng 60 tỷ đô.",
+      "en": "Masayoshi Son invested $20 million in Alibaba in 2000; by its 2014 IPO, the stake was worth about $60 billion."
+    },
+    "description": {
+      "vi": "Đầu năm 2000, giữa lúc bong bóng dot-com đang đạt đỉnh, Masayoshi Son của SoftBank quyết định đầu tư 20 triệu đô la vào Alibaba — khi đó mới chỉ là một công ty thương mại điện tử B2B non trẻ của Jack Ma. Khi Alibaba IPO tại New York tháng 9/2014, cổ phần 34,4% của SoftBank được định giá khoảng 50-60 tỷ đô la, một trong những thương vụ đầu tư sinh lời cao nhất lịch sử công nghệ.",
+      "en": "In early 2000, at the height of the dot-com bubble, SoftBank's Masayoshi Son decided to invest $20 million in Alibaba — then a fledgling B2B e-commerce company run by Jack Ma. When Alibaba IPO'd in New York in September 2014, SoftBank's 34.4% stake was valued at roughly $50-60 billion, one of the most profitable investments in tech history."
+    },
+    "opportunity": {
+      "asset": "Alibaba Group (via SoftBank stake)",
+      "action": {
+        "vi": "Đầu tư tư nhân vào Alibaba giai đoạn hạt giống năm 2000.",
+        "en": "Make a private seed-stage investment in Alibaba in 2000."
+      },
+      "buyWhen": {
+        "vi": "Đầu năm 2000, khi Jack Ma mới thành lập Alibaba và bị hơn 30 nhà đầu tư từ chối.",
+        "en": "Early 2000, when Jack Ma had just founded Alibaba and had been turned down by more than 30 other investors."
+      },
+      "sellWhen": {
+        "vi": "Có thể chốt lời một phần ngay sau IPO tháng 9/2014 khi cổ phần đạt đỉnh định giá.",
+        "en": "Could partially cash out right after the Sept 2014 IPO when the stake hit peak valuation."
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng 3.000 lần trên vốn đầu tư ban đầu tính theo giá trị cổ phần tại thời điểm IPO.",
+        "en": "Roughly a 3,000x return on the original investment, based on the stake's value at IPO."
+      },
+      "returnMultiple": 3000,
+      "exitDate": "2014-09",
+      "risk": "high",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Jack Ma khi đó chưa có doanh thu đáng kể và đã bị hơn 30 nhà đầu tư từ chối — biết trước Alibaba sẽ thống trị 80% thương mại điện tử Trung Quốc là lợi thế then chốt để không bỏ lỡ cơ hội này giữa cơn hoảng loạn dot-com.",
+      "en": "Jack Ma had little revenue and had already been rejected by more than 30 investors — knowing in advance that Alibaba would come to control 80% of Chinese e-commerce is the key edge needed not to pass on this deal amid dot-com panic."
+    },
+    "pitfalls": {
+      "vi": "Đây là khoản đầu tư tư nhân, không phải cổ phiếu niêm yết, nên nhà đầu tư cá nhân thông thường không thể tiếp cận; SoftBank tự mình cũng mất phần lớn giá trị thị trường ngay sau đó do sụp đổ dot-com.",
+      "en": "This was a private investment, not a public stock, so an ordinary retail investor could not access it; SoftBank itself lost most of its own market value shortly after, due to the dot-com crash."
+    },
+    "quiz": {
+      "question": {
+        "vi": "SoftBank đầu tư bao nhiêu tiền vào Alibaba năm 2000?",
+        "en": "How much did SoftBank invest in Alibaba in 2000?"
+      },
+      "choices": [
+        {
+          "vi": "20 triệu đô la",
+          "en": "$20 million"
+        },
+        {
+          "vi": "2 triệu đô la",
+          "en": "$2 million"
+        },
+        {
+          "vi": "200 triệu đô la",
+          "en": "$200 million"
+        },
+        {
+          "vi": "2 tỷ đô la",
+          "en": "$2 billion"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "SoftBank đầu tư 20 triệu đô la vào Alibaba năm 2000, cổ phần này trị giá khoảng 50-60 tỷ đô sau IPO năm 2014.",
+        "en": "SoftBank invested $20 million into Alibaba in 2000, a stake worth roughly $50-60 billion after the 2014 IPO."
+      }
+    },
+    "sources": [
+      {
+        "title": "Bloomberg: SoftBank Makes $58 Billion on Alibaba",
+        "url": "https://www.bloomberg.com/news/articles/2014-05-07/son-makes-58-billion-on-alibaba-with-buffett-type-return"
+      },
+      {
+        "title": "NYT DealBook: Valuing SoftBank in Alibaba's Aftermath",
+        "url": "https://archive.nytimes.com/dealbook.nytimes.com/2014/09/22/valuing-softbank-in-alibabas-aftermath/"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed $20 million 2000 investment and ~$58-75 billion stake valuation around the 2014 IPO via Bloomberg and NYT DealBook reporting."
+  },
+  {
+    "id": "jp-softbank-dotcom-crash-2000",
+    "country": "jp",
+    "date": "2000-02-18",
+    "category": "stocks",
+    "title": {
+      "vi": "Cổ phiếu SoftBank sập hơn 90% sau đỉnh dot-com",
+      "en": "SoftBank Stock Collapses Over 90% After Dot-Com Peak"
+    },
+    "summary": {
+      "vi": "SoftBank đạt đỉnh 10.111 Yên ngày 18/2/2000 rồi mất hơn 90% giá trị trong 2 năm sau.",
+      "en": "SoftBank peaked at ¥10,111 on Feb 18, 2000, then lost over 90% of its value in the next two years."
+    },
+    "description": {
+      "vi": "Giữa cơn sốt cổ phiếu internet, SoftBank đạt đỉnh giá đóng cửa 10.111,1 Yên ngày 18/2/2000 (đỉnh trong phiên 11.000 Yên ba ngày trước đó), khiến riêng SoftBank chiếm gần 1/4 tổng giá trị giao dịch trên sàn Tokyo hôm đó. Khi bong bóng dot-com vỡ, cổ phiếu lao dốc hơn 90% so với đỉnh và phải mất gần 21 năm, tới tháng 2/2021, mới vượt lại mức đỉnh cũ.",
+      "en": "Amid the internet stock mania, SoftBank hit a closing peak of ¥10,111.1 on Feb 18, 2000 (an intraday high of ¥11,000 three days earlier), with SoftBank alone accounting for nearly a quarter of the day's total trading value on the Tokyo exchange. When the dot-com bubble burst, the stock fell more than 90% from its peak and took almost 21 years, until February 2021, to surpass that old high."
+    },
+    "opportunity": {
+      "asset": "SoftBank Group (9984.T)",
+      "action": {
+        "vi": "Bán khống hoặc chốt lời cổ phiếu SoftBank quanh đỉnh dot-com tháng 2/2000.",
+        "en": "Short or take profits on SoftBank stock around its Feb 2000 dot-com peak."
+      },
+      "buyWhen": {
+        "vi": "Không mua lúc này — đây là tín hiệu bán/tránh.",
+        "en": "N/A — this is a sell/avoid signal."
+      },
+      "sellWhen": {
+        "vi": "Giữa tháng 2/2000, ngay tại vùng đỉnh 10.000-11.000 Yên.",
+        "en": "Mid-February 2000, right at the ¥10,000-11,000 peak zone."
+      },
+      "estimatedReturn": {
+        "vi": "Tránh khoản lỗ hơn 90% trong hai năm sau đó.",
+        "en": "Avoids a loss of more than 90% over the following two years."
+      },
+      "returnMultiple": null,
+      "entryPrice": 10111.1,
+      "priceCurrency": "JPY",
+      "exitDate": "2000-02-18",
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Phải mất gần 21 năm để cổ phiếu SoftBank vượt lại đỉnh năm 2000 — nếu buộc phải nắm giữ, hãy bán ngay giữa tháng 2/2000 bất kể tin tức tích cực nào (như tin đồn SoftBank sẽ mua lại một ngân hàng) đang đẩy giá lên.",
+      "en": "It took nearly 21 years for SoftBank stock to reclaim its 2000 peak — if forced to hold, sell in mid-February 2000 regardless of bullish news (like rumors SoftBank would acquire a bank) driving the price up."
+    },
+    "pitfalls": {
+      "vi": "SoftBank vẫn là công ty hoạt động, không phá sản — nhà đầu tư dài hạn cực kỳ kiên nhẫn (nắm giữ tới 2021 hoặc 2024) cuối cùng cũng hòa vốn hoặc có lãi nhờ các khoản đầu tư công nghệ khác như Arm.",
+      "en": "SoftBank remained a going concern, not a bankruptcy — extremely patient long-term holders (to 2021 or 2024) eventually broke even or profited thanks to other tech bets like Arm."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Cổ phiếu SoftBank mất bao nhiêu phần trăm giá trị sau khi bong bóng dot-com vỡ năm 2000?",
+        "en": "How much of its value did SoftBank stock lose after the 2000 dot-com bubble burst?"
+      },
+      "choices": [
+        {
+          "vi": "Khoảng 30%",
+          "en": "About 30%"
+        },
+        {
+          "vi": "Khoảng 50%",
+          "en": "About 50%"
+        },
+        {
+          "vi": "Hơn 90%",
+          "en": "More than 90%"
+        },
+        {
+          "vi": "Khoảng 10%",
+          "en": "About 10%"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "Cổ phiếu SoftBank giảm hơn 90% so với đỉnh dot-com tháng 2/2000, theo CNBC, và chỉ vượt lại mức đỉnh đó vào tháng 2/2021.",
+        "en": "SoftBank stock fell more than 90% from its February 2000 dot-com peak, per CNBC, only reclaiming that high in February 2021."
+      }
+    },
+    "sources": [
+      {
+        "title": "CNBC: SoftBank stock hits its first record high in 24 years",
+        "url": "https://www.cnbc.com/2024/07/04/softbank-shares-hit-record-high-after-24-years-on-arm-and-ai-boost.html?doc=108000613"
+      },
+      {
+        "title": "WSJ: SoftBank Stock Sets New Record in Throwback to Dot-Com Boom",
+        "url": "https://www.wsj.com/articles/softbank-stock-sets-new-record-in-throwback-to-dot-com-boom-11613481845"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed Feb 18, 2000 closing peak of ¥10,111.1 and the >90% subsequent decline, plus the Feb 2021 reclaim date, via CNBC and WSJ reporting."
+  },
+  {
+    "id": "jp-nikkei-lost-decade-bottom-2003",
+    "country": "jp",
+    "date": "2003-04-28",
+    "category": "stocks",
+    "title": {
+      "vi": "Đáy 'thập kỷ mất mát' của Nikkei năm 2003",
+      "en": "Lost Decade Bottom for the Nikkei, 2003"
+    },
+    "summary": {
+      "vi": "Nikkei chạm đáy 20 năm ở mức 7.607,88 điểm ngày 28/4/2003, thấp nhất kể từ 1982.",
+      "en": "The Nikkei hit a 20-year low of 7,607.88 on April 28, 2003, the lowest since 1982."
+    },
+    "description": {
+      "vi": "Sau khủng hoảng ngân hàng, giảm phát kéo dài và lo ngại từ dịch SARS cùng chiến tranh Iraq, Nikkei 225 giảm xuống mức đóng cửa 7.607,88 điểm ngày 28/4/2003 — thấp nhất kể từ tháng 11/1982. Từ đáy này, chỉ số bắt đầu một đợt hồi phục kéo dài đưa Nikkei lên khoảng 18.000 điểm vào giữa năm 2007.",
+      "en": "After a banking crisis, prolonged deflation, and worries over SARS and the Iraq war, the Nikkei 225 fell to a closing low of 7,607.88 on April 28, 2003 — its lowest since November 1982. From this bottom the index began a multi-year rally that carried it to around 18,000 by mid-2007."
+    },
+    "opportunity": {
+      "asset": "Nikkei 225",
+      "action": {
+        "vi": "Mua chỉ số Nikkei hoặc các blue-chip ngân hàng/công nghệ gần đáy.",
+        "en": "Buy the Nikkei index or bank/tech blue chips near the bottom."
+      },
+      "buyWhen": {
+        "vi": "Cuối tháng 4/2003, khi chỉ số chạm 7.607,88.",
+        "en": "Late April 2003, as the index touched 7,607.88."
+      },
+      "sellWhen": {
+        "vi": "Giữa năm 2007, trước khủng hoảng tài chính toàn cầu, khi Nikkei quanh mức 18.000.",
+        "en": "Mid-2007, before the global financial crisis, when the Nikkei was around 18,000."
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng 2,4 lần trong vòng hơn 4 năm.",
+        "en": "Roughly a 2.4x gain over just over 4 years."
+      },
+      "returnMultiple": 2.4,
+      "entryPrice": 7607.88,
+      "exitPrice": 18261,
+      "priceCurrency": "points",
+      "exitDate": "2007-07",
+      "risk": "medium",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Đáy chính xác rơi vào 28/4/2003, ngay trước kỳ nghỉ Golden Week — thanh khoản thấp khiến việc mua vào không gây biến động giá lớn.",
+      "en": "The exact bottom fell on April 28, 2003, right before Golden Week — thin liquidity meant buying in didn't move prices much."
+    },
+    "pitfalls": {
+      "vi": "Đợt hồi phục này bị xóa sạch bởi khủng hoảng tài chính toàn cầu 2008-2009, nên cần chốt lời trước khi Lehman sụp đổ tháng 9/2008.",
+      "en": "This recovery was wiped out by the 2008-2009 global financial crisis, so profits needed to be taken before Lehman's September 2008 collapse."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Nikkei 225 chạm đáy ở mức giá nào vào tháng 4/2003?",
+        "en": "At what level did the Nikkei 225 bottom in April 2003?"
+      },
+      "choices": [
+        {
+          "vi": "18.261 điểm",
+          "en": "18,261 points"
+        },
+        {
+          "vi": "7.607,88 điểm",
+          "en": "7,607.88 points"
+        },
+        {
+          "vi": "38.915 điểm",
+          "en": "38,915 points"
+        },
+        {
+          "vi": "10.395 điểm",
+          "en": "10,395 points"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Nikkei đóng cửa ở mức 7.607,88 điểm ngày 28/4/2003, mức thấp nhất kể từ tháng 11/1982, theo The Japan Times.",
+        "en": "The Nikkei closed at 7,607.88 on April 28, 2003, its lowest since November 1982, per The Japan Times."
+      }
+    },
+    "sources": [
+      {
+        "title": "The Japan Times: Unease over Sony, banks drags Nikkei to fresh low",
+        "url": "https://www.japantimes.co.jp/news/2003/04/29/business/unease-over-sony-banks-drags-nikkei-to-fresh-low"
+      },
+      {
+        "title": "Yahoo Finance: Nikkei 225 historical data",
+        "url": "https://finance.yahoo.com/quote/%5EN225/history/"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed the April 28, 2003 close of 7,607.88 via The Japan Times contemporaneous report; 2007 peak level (~18,261) corroborated by IMF chapter referencing the mid-2000s Nikkei range."
+  },
+  {
+    "id": "jp-gfc-nikkei-bottom-2009",
+    "country": "jp",
+    "date": "2009-03-10",
+    "category": "stocks",
+    "title": {
+      "vi": "Đáy khủng hoảng tài chính toàn cầu của Nikkei",
+      "en": "Global Financial Crisis Bottom for the Nikkei"
+    },
+    "summary": {
+      "vi": "Nikkei đóng cửa 7.054,98 điểm ngày 10/3/2009 — thấp nhất trong 27 năm, giảm 82% từ đỉnh 1989.",
+      "en": "The Nikkei closed at 7,054.98 on March 10, 2009 — a 27-year low, down 82% from the 1989 peak."
+    },
+    "description": {
+      "vi": "Khủng hoảng tài chính toàn cầu sau sự sụp đổ của Lehman Brothers (9/2008) đẩy Nikkei 225 xuống đáy đóng cửa 7.054,98 điểm ngày 10/3/2009, thấp nhất kể từ năm 1982 và giảm 81,9% so với đỉnh kỷ lục năm 1989. Từ đáy này, thị trường chứng khoán toàn cầu và Nhật Bản bắt đầu phục hồi mạnh trong những năm sau.",
+      "en": "The global financial crisis following Lehman Brothers' September 2008 collapse pushed the Nikkei 225 to a closing bottom of 7,054.98 on March 10, 2009, the lowest since 1982 and 81.9% below its 1989 record peak. From this bottom, global and Japanese equity markets began a strong multi-year recovery."
+    },
+    "opportunity": {
+      "asset": "Nikkei 225",
+      "action": {
+        "vi": "Mua chỉ số Nikkei hoặc các cổ phiếu xuất khẩu lớn tại đáy khủng hoảng.",
+        "en": "Buy the Nikkei index or major exporter stocks at the crisis bottom."
+      },
+      "buyWhen": {
+        "vi": "Ngày 10/3/2009, khi chỉ số chạm 7.054,98.",
+        "en": "March 10, 2009, when the index touched 7,054.98."
+      },
+      "sellWhen": {
+        "vi": "Đầu 2013, trước khi Abenomics đẩy chỉ số tăng vọt thêm, hoặc giữ lâu dài tới 2024.",
+        "en": "Early 2013, before Abenomics drove the index further up, or hold long-term to 2024."
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng 5,5 lần nếu giữ tới khi Nikkei lập đỉnh mới tháng 2/2024 (39.098,68 điểm).",
+        "en": "Roughly a 5.5x gain if held until the Nikkei's new record high in Feb 2024 (39,098.68)."
+      },
+      "returnMultiple": 5.54,
+      "entryPrice": 7054.98,
+      "exitPrice": 39098.68,
+      "priceCurrency": "points",
+      "exitDate": "2024-02-22",
+      "risk": "medium",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Đáy chính xác rơi vào 10/3/2009 — một ngày sau phiên giảm xuống 7.086,03; mua đúng phiên này nắm bắt được điểm thấp nhất tuyệt đối của toàn bộ 'thập kỷ mất mát'.",
+      "en": "The exact bottom was March 10, 2009 — one day after a close of 7,086.03; buying on this session captures the absolute low of the entire 'lost decades' era."
+    },
+    "pitfalls": {
+      "vi": "Thị trường còn giảm thêm vào tháng 11/2011 (đáy 8.160,01) do khủng hoảng nợ châu Âu, nên nhà đầu tư ngắn hạn có thể bị rung lắc mạnh trước khi xu hướng tăng thực sự bắt đầu.",
+      "en": "The market dipped again in Nov 2011 (low of 8,160.01) due to the European debt crisis, so short-term holders could be shaken out before the real uptrend began."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Nikkei 225 giảm bao nhiêu phần trăm so với đỉnh 1989 khi chạm đáy tháng 3/2009?",
+        "en": "How far below its 1989 peak was the Nikkei when it bottomed in March 2009?"
+      },
+      "choices": [
+        {
+          "vi": "Khoảng 40%",
+          "en": "About 40%"
+        },
+        {
+          "vi": "Khoảng 60%",
+          "en": "About 60%"
+        },
+        {
+          "vi": "Khoảng 81,9%",
+          "en": "About 81.9%"
+        },
+        {
+          "vi": "Khoảng 95%",
+          "en": "About 95%"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "Nikkei đóng cửa ở 7.054,98 điểm ngày 10/3/2009, thấp hơn 81,9% so với đỉnh 38.915,87 năm 1989.",
+        "en": "The Nikkei closed at 7,054.98 on March 10, 2009, 81.9% below its 1989 peak of 38,915.87."
+      }
+    },
+    "sources": [
+      {
+        "title": "Yahoo Finance: This Day In Market History — Nikkei 27-year low",
+        "url": "https://finance.yahoo.com/news/day-market-history-japans-nikkei-145520505.html"
+      },
+      {
+        "title": "Nikkei 225 (Wikipedia)",
+        "url": "https://a.osmarks.net/content/wikipedia_en_all_maxi_2020-08/A/Nikkei_225"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed March 10, 2009 close of 7,054.98 and the 81.9% decline figure via Yahoo Finance market-history piece and Wikipedia Nikkei 225 mirror; 2024 exit level confirmed separately via AP/BBC."
+  },
+  {
+    "id": "jp-toyota-recall-crisis-2010",
+    "country": "jp",
+    "date": "2010-01-21",
+    "category": "stocks",
+    "title": {
+      "vi": "Khủng hoảng triệu hồi Toyota 2009-2010 — mua đáy hoảng loạn",
+      "en": "Toyota's 2009-2010 Recall Crisis — Buying the Panic"
+    },
+    "summary": {
+      "vi": "Cổ phiếu Toyota mất khoảng 20% giá trị thị trường (~35 tỷ đô) trong hơn một tháng vì khủng hoảng chân ga.",
+      "en": "Toyota stock lost about 20% of its market value (~$35 billion) in just over a month amid the sticky-pedal crisis."
+    },
+    "description": {
+      "vi": "Từ cuối 2009 sang đầu 2010, Toyota đối mặt làn sóng triệu hồi khổng lồ (hơn 7,5 triệu xe) do lỗi chân ga/thảm sàn gây tăng tốc ngoài ý muốn, liên quan tới hàng chục ca tử vong. Sau khi CEO Akio Toyoda điều trần trước Quốc hội Mỹ, cổ phiếu Toyota giảm khoảng 20% chỉ trong hơn một tháng, tương đương khoảng 35 tỷ đô la vốn hóa bốc hơi. Doanh số Toyota tại Mỹ giảm 16% trong tháng 1/2010 so với cùng kỳ.",
+      "en": "From late 2009 into early 2010, Toyota faced a massive recall wave (over 7.5 million vehicles) over sticky accelerator pedals/floor mats linked to unintended acceleration, tied to dozens of deaths. After CEO Akio Toyoda testified before the US Congress, Toyota shares fell about 20% in just over a month, equivalent to roughly $35 billion in market value wiped out. Toyota's US sales fell 16% year-over-year in January 2010."
+    },
+    "opportunity": {
+      "asset": "Toyota Motor (7203.T)",
+      "action": {
+        "vi": "Mua cổ phiếu Toyota khi hoảng loạn đạt đỉnh trong đợt điều trần Quốc hội Mỹ.",
+        "en": "Buy Toyota stock as panic peaked during the US congressional hearings."
+      },
+      "buyWhen": {
+        "vi": "Cuối tháng 2/2010, sau khi cổ phiếu đã giảm khoảng 20% và tin xấu nhất đã lan truyền rộng rãi.",
+        "en": "Late February 2010, after the stock had fallen about 20% and the worst news had been widely priced in."
+      },
+      "sellWhen": {
+        "vi": "Không bắt buộc — Toyota phục hồi và duy trì vị thế nhà sản xuất ô tô lớn nhất thế giới trong thập kỷ sau.",
+        "en": "Not mandatory — Toyota recovered and remained the world's largest automaker for the following decade."
+      },
+      "estimatedReturn": {
+        "vi": "Nhà đầu tư mua đáy khủng hoảng thường thu hồi phần lớn khoản lỗ trong vòng 1-2 năm khi Toyota chứng minh không có lỗi điện tử và doanh số phục hồi.",
+        "en": "Investors buying the crisis dip typically recovered most of the loss within 1-2 years, once Toyota was cleared of electronic defects and sales rebounded."
+      },
+      "priceCurrency": "JPY",
+      "risk": "medium",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Các kỹ sư NASA sau đó xác nhận không có lỗi điện tử trong hệ thống của Toyota — biết trước kết luận điều tra này giúp tự tin mua vào giữa lúc truyền thông đưa tin tiêu cực cực đoan.",
+      "en": "NASA engineers later confirmed there was no electronic flaw in Toyota's system — knowing this investigative conclusion in advance supports buying amid extreme negative media coverage."
+    },
+    "pitfalls": {
+      "vi": "Khủng hoảng kéo dài hơn dự kiến với các đợt triệu hồi bổ sung trong suốt năm 2010, nên người mua quá sớm có thể chịu thêm áp lực giảm giá ngắn hạn trước khi phục hồi thực sự.",
+      "en": "The crisis dragged on longer than expected with additional recalls throughout 2010, so buyers who entered too early could face further short-term pressure before a real recovery."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Cổ phiếu Toyota giảm khoảng bao nhiêu phần trăm trong đợt khủng hoảng triệu hồi 2009-2010?",
+        "en": "By about how much did Toyota stock fall during the 2009-2010 recall crisis?"
+      },
+      "choices": [
+        {
+          "vi": "Khoảng 5%",
+          "en": "About 5%"
+        },
+        {
+          "vi": "Khoảng 20%",
+          "en": "About 20%"
+        },
+        {
+          "vi": "Khoảng 50%",
+          "en": "About 50%"
+        },
+        {
+          "vi": "Khoảng 80%",
+          "en": "About 80%"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Cổ phiếu Toyota giảm khoảng 20%, tương đương 35 tỷ đô vốn hóa, trong hơn một tháng khủng hoảng triệu hồi, theo nghiên cứu tình huống của Sage Business Cases.",
+        "en": "Toyota stock fell about 20%, roughly $35 billion in market value, over just over a month of the recall crisis, per a Sage Business Cases study."
+      }
+    },
+    "sources": [
+      {
+        "title": "Sage Business Cases: Unintended Acceleration — Toyota's Recall Crisis",
+        "url": "https://sk.sagepub.com/cases/unintended-acceleration-toyotas-recall-crisis"
+      },
+      {
+        "title": "University of Washington: Accounting for Toyota's Recalls (case PDF)",
+        "url": "https://faculty.washington.edu/rbowen/cases/Toyota_Recall_case_April_2011.pdf"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed ~20% stock decline (~$35bn market value loss) over roughly a month via Sage Business Cases study; confirmed Jan 2010 16% US sales drop via University of Washington case PDF."
+  },
+  {
+    "id": "jp-olympus-accounting-scandal-2011",
+    "country": "jp",
+    "date": "2011-10-14",
+    "category": "business",
+    "title": {
+      "vi": "Bê bối kế toán Olympus phơi bày khoản lỗ ẩn 1,7 tỷ đô",
+      "en": "Olympus Accounting Scandal Exposes $1.7 Billion Cover-Up"
+    },
+    "summary": {
+      "vi": "CEO Michael Woodford bị sa thải sau khi chất vấn các khoản phí bất thường; cổ phiếu Olympus giảm hơn 80% trong vài tuần.",
+      "en": "CEO Michael Woodford was fired after questioning suspicious fees; Olympus shares fell more than 80% within weeks."
+    },
+    "description": {
+      "vi": "Ngày 14/10/2011, CEO người Anh Michael Woodford bị hội đồng quản trị Olympus sa thải sau khi ông chất vấn khoản phí tư vấn 687 triệu đô la trong thương vụ mua lại Gyrus năm 2008. Woodford công khai tố cáo, dẫn đến việc Olympus thừa nhận đã che giấu khoảng 1,7 tỷ đô la lỗ đầu tư trong suốt khoảng 20 năm. Từ giữa tháng 10 đến đầu tháng 11/2011, cổ phiếu Olympus giảm hơn 80% giá trị.",
+      "en": "On Oct 14, 2011, British CEO Michael Woodford was fired by Olympus's board after questioning $687 million in advisory fees tied to its 2008 Gyrus acquisition. Woodford went public, leading Olympus to admit it had hidden roughly $1.7 billion in investment losses over about 20 years. Between mid-October and early November 2011, Olympus shares fell more than 80%."
+    },
+    "opportunity": {
+      "asset": "Olympus Corp (7733.T)",
+      "action": {
+        "vi": "Bán/tránh cổ phiếu Olympus ngay khi tin Woodford bị sa thải xuất hiện; mua lại sau khi giá giảm sâu để bắt đáy phục hồi.",
+        "en": "Sell/avoid Olympus stock right when news of Woodford's firing broke; rebuy after the deep decline to catch the recovery."
+      },
+      "buyWhen": {
+        "vi": "Đầu tháng 11/2011, sau khi cổ phiếu đã giảm hơn 70-80% và tình hình tệ nhất đã được phản ánh vào giá.",
+        "en": "Early November 2011, after the stock had already fallen 70-80% and the worst news was priced in."
+      },
+      "sellWhen": {
+        "vi": "Bán ngay ngày 14/10/2011 nếu đang nắm giữ từ trước.",
+        "en": "Sell immediately on Oct 14, 2011 if already holding the stock."
+      },
+      "estimatedReturn": {
+        "vi": "Người mua vào tháng 11/2011 được ghi nhận lãi hơn 10 lần tính tới vài năm sau, theo phân tích MoneyWeek.",
+        "en": "Buyers in November 2011 are reported to have made over 10x by a few years later, per MoneyWeek analysis."
+      },
+      "returnMultiple": 10,
+      "priceCurrency": "JPY",
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Mầm mống của vụ lừa đảo bắt nguồn từ các khoản đầu cơ tài chính nhằm bù đắp thiệt hại do Yên tăng giá sau Hiệp định Plaza 1985 — biết trước cấu trúc che giấu lỗ qua các công ty vỏ bọc giúp dự đoán được quy mô thiệt hại thực sự khi sự việc vỡ lở.",
+      "en": "The fraud's roots trace back to financial speculation meant to offset losses from yen appreciation after the 1985 Plaza Accord — knowing the shell-company loss-hiding structure in advance helps anticipate the true scale of damage once it unravels."
+    },
+    "pitfalls": {
+      "vi": "Mua đáy một vụ bê bối kế toán đang diễn ra là cực kỳ rủi ro — nếu gian lận nghiêm trọng hơn công bố ban đầu hoặc công ty bị hủy niêm yết, nhà đầu tư có thể mất trắng thay vì lãi 10 lần.",
+      "en": "Buying the dip of an active accounting scandal is extremely risky — had the fraud proven worse than initially disclosed, or had the company been delisted, investors could have been wiped out instead of making 10x."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Ai là CEO đã bị Olympus sa thải năm 2011 sau khi tố giác bê bối kế toán?",
+        "en": "Who was the Olympus CEO fired in 2011 after blowing the whistle on the accounting scandal?"
+      },
+      "choices": [
+        {
+          "vi": "Tsuyoshi Kikukawa",
+          "en": "Tsuyoshi Kikukawa"
+        },
+        {
+          "vi": "Michael Woodford",
+          "en": "Michael Woodford"
+        },
+        {
+          "vi": "Hisashi Mori",
+          "en": "Hisashi Mori"
+        },
+        {
+          "vi": "Hideo Yamada",
+          "en": "Hideo Yamada"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Michael Woodford, CEO người Anh đầu tiên của Olympus, bị sa thải ngày 14/10/2011 sau khi chất vấn các khoản phí bất thường.",
+        "en": "Michael Woodford, Olympus's first British CEO, was fired on Oct 14, 2011 after questioning the suspicious fees."
+      }
+    },
+    "sources": [
+      {
+        "title": "BBC: Olympus reports a 33bn-yen loss",
+        "url": "https://bbc.co.uk/news/business-17009459"
+      },
+      {
+        "title": "MoneyWeek: Great frauds in history — Tsuyoshi Kikukawa and Olympus",
+        "url": "https://moneyweek.com/514984/great-frauds-in-history-tsuyoshi-kikukawa-and-olympus"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed Oct 14, 2011 firing date, $1.7bn hidden losses, and the >80% share-price decline via BBC and MoneyWeek retrospectives; the ~10x recovery estimate is MoneyWeek's own analysis, flagged as an approximate illustrative figure."
+  },
+  {
+    "id": "jp-abenomics-kuroda-qqe-2013",
+    "country": "jp",
+    "date": "2012-11-16",
+    "category": "macro",
+    "title": {
+      "vi": "Abenomics và 'bazooka' tiền tệ của Kuroda",
+      "en": "Abenomics and Kuroda's Monetary 'Bazooka'"
+    },
+    "summary": {
+      "vi": "Kỳ vọng Abenomics đẩy Nikkei tăng 80% và Yên giảm 25% chỉ trong 6 tháng (11/2012-5/2013).",
+      "en": "Abenomics expectations drove an 80% Nikkei rally and a 25% yen slide in just six months (Nov 2012-May 2013)."
+    },
+    "description": {
+      "vi": "Khi Hạ viện Nhật giải tán ngày 16/11/2012 và Shinzo Abe hứa 'nới lỏng tiền tệ mạnh tay', Nikkei (quanh 8.500-9.000 điểm) bắt đầu tăng tốc. Ngày 4/4/2013, Thống đốc BOJ mới Haruhiko Kuroda công bố gói nới lỏng định lượng-định tính (QQE) 'không giới hạn', cam kết tăng gấp đôi cơ số tiền trong 2 năm. Từ giữa tháng 11/2012 đến giữa tháng 5/2013, Nikkei tăng khoảng 80% còn Yên mất giá khoảng 25% so với đô la.",
+      "en": "When Japan's Lower House was dissolved on Nov 16, 2012 and Shinzo Abe promised 'bold monetary easing,' the Nikkei (around 8,500-9,000) began to accelerate. On April 4, 2013, new BOJ Governor Haruhiko Kuroda unveiled an 'unlimited' Quantitative and Qualitative Easing (QQE) package, pledging to double the monetary base in two years. Between mid-November 2012 and mid-May 2013, the Nikkei rose about 80% while the yen depreciated roughly 25% against the dollar."
+    },
+    "opportunity": {
+      "asset": "Nikkei 225 / USD-JPY",
+      "action": {
+        "vi": "Mua cổ phiếu Nhật (đặc biệt các nhà xuất khẩu) và bán khống Yên.",
+        "en": "Buy Japanese equities (especially exporters) and short the yen."
+      },
+      "buyWhen": {
+        "vi": "Giữa tháng 11/2012, ngay khi Hạ viện giải tán và bầu cử được ấn định.",
+        "en": "Mid-November 2012, right as the Lower House was dissolved and an election set."
+      },
+      "sellWhen": {
+        "vi": "Giữa tháng 5/2013, trước đợt điều chỉnh giảm hơn 20% do lãi suất trái phiếu tăng.",
+        "en": "Mid-May 2013, before a correction of more than 20% triggered by rising bond yields."
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng 80% trên chỉ số Nikkei trong 6 tháng.",
+        "en": "About an 80% gain on the Nikkei index in six months."
+      },
+      "returnMultiple": 1.8,
+      "priceCurrency": "points",
+      "exitDate": "2013-05",
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "'Kuroda bazooka' được công bố chính xác ngày 4/4/2013 — vào full vị thế ngay sau cuộc họp chính sách này, trước khi dòng vốn nước ngoài ồ ạt đổ vào đẩy giá lên cao hơn nữa.",
+      "en": "The 'Kuroda bazooka' was announced precisely on April 4, 2013 — go all-in right after this policy meeting, before the wave of foreign inflows pushed prices even higher."
+    },
+    "pitfalls": {
+      "vi": "Thị trường trái phiếu chính phủ Nhật biến động mạnh sau QQE, lợi suất kỳ hạn 10 năm tăng từ 0,32% lên 0,97% chỉ trong 7 tuần, kéo theo điều chỉnh cổ phiếu hơn 20% vào đầu tháng 6/2013.",
+      "en": "Japanese government bond markets became highly volatile after QQE, with the 10-year yield rising from 0.32% to 0.97% in just seven weeks, triggering a stock correction of more than 20% by early June 2013."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Thống đốc BOJ nào đã công bố gói 'Nới lỏng định lượng-định tính' (QQE) vào tháng 4/2013?",
+        "en": "Which BOJ governor announced the Quantitative and Qualitative Easing (QQE) package in April 2013?"
+      },
+      "choices": [
+        {
+          "vi": "Masaaki Shirakawa",
+          "en": "Masaaki Shirakawa"
+        },
+        {
+          "vi": "Haruhiko Kuroda",
+          "en": "Haruhiko Kuroda"
+        },
+        {
+          "vi": "Kazuo Ueda",
+          "en": "Kazuo Ueda"
+        },
+        {
+          "vi": "Toshihiko Fukui",
+          "en": "Toshihiko Fukui"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Haruhiko Kuroda, nhậm chức Thống đốc BOJ tháng 3/2013, công bố QQE ngày 4/4/2013, được gọi là 'bazooka tiền tệ'.",
+        "en": "Haruhiko Kuroda, who became BOJ Governor in March 2013, announced QQE on April 4, 2013, dubbed the monetary 'bazooka'."
+      }
+    },
+    "sources": [
+      {
+        "title": "BOJ: Introduction of QQE (official announcement)",
+        "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2013/k130404a.pdf"
+      },
+      {
+        "title": "CIRJE Discussion Paper: Response of Asset Prices to Monetary Policy under Abenomics",
+        "url": "https://www.cirje.e.u-tokyo.ac.jp/research/dp/2013/2013cf894.pdf"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed QQE announcement date (April 4, 2013) via official BOJ press release; confirmed ~80% Nikkei rise and ~25% yen depreciation between mid-Nov 2012 and mid-May 2013, and the subsequent >20% correction, via University of Tokyo CIRJE working paper."
+  },
+  {
+    "id": "jp-tokyo-electron-semiconductor-boom",
+    "country": "jp",
+    "date": "2012-12",
+    "category": "technology",
+    "title": {
+      "vi": "Tokyo Electron cưỡi sóng siêu chu kỳ bán dẫn",
+      "en": "Tokyo Electron Rides the Semiconductor Supercycle"
+    },
+    "summary": {
+      "vi": "Cổ phiếu ADR Tokyo Electron tăng từ khoảng 4,97 đô cuối 2012 lên đỉnh 132,54 đô tháng 3/2024 — tăng hơn 26 lần.",
+      "en": "Tokyo Electron's US ADR rose from about $4.97 at end-2012 to a peak of $132.54 in March 2024 — a more than 26x gain."
+    },
+    "description": {
+      "vi": "Tokyo Electron là một trong những nhà sản xuất thiết bị bán dẫn lớn nhất thế giới, hưởng lợi trực tiếp từ làn sóng đầu tư chip toàn cầu suốt thập niên 2010-2020, đặc biệt là bùng nổ AI từ 2023. Theo dữ liệu Macrotrends, giá đóng cửa ADR (TOELY) cuối năm 2012 là khoảng 4,97 đô la; đến ngày 6/3/2024 giá đóng cửa đạt đỉnh mọi thời đại 132,54 đô la — tăng hơn 26 lần trong vòng 11 năm.",
+      "en": "Tokyo Electron is one of the world's largest semiconductor equipment makers, benefiting directly from the global chip investment wave across the 2010s-2020s, especially the AI boom from 2023. Per Macrotrends data, the US ADR (TOELY) closed around $4.97 at end-2012; by March 6, 2024, its closing price hit an all-time high of $132.54 — more than a 26x gain over 11 years."
+    },
+    "opportunity": {
+      "asset": "Tokyo Electron ADR (TOELY)",
+      "action": {
+        "vi": "Mua và giữ dài hạn cổ phiếu Tokyo Electron qua siêu chu kỳ bán dẫn.",
+        "en": "Buy and hold Tokyo Electron stock through the semiconductor supercycle."
+      },
+      "buyWhen": {
+        "vi": "Cuối năm 2012, khi giá ADR quanh mức 4,97 đô la.",
+        "en": "End of 2012, when the ADR traded around $4.97."
+      },
+      "sellWhen": {
+        "vi": "Đầu tháng 3/2024, gần đỉnh lịch sử 132,54 đô la trước đợt điều chỉnh ngành bán dẫn.",
+        "en": "Early March 2024, near the all-time high of $132.54, before a semiconductor sector pullback."
+      },
+      "estimatedReturn": {
+        "vi": "Hơn 26 lần trong 11 năm.",
+        "en": "More than 26x over 11 years."
+      },
+      "returnMultiple": 26.67,
+      "entryPrice": 4.97,
+      "exitPrice": 132.54,
+      "priceCurrency": "USD",
+      "exitDate": "2024-03-06",
+      "risk": "medium",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Thiết bị khắc và phủ màng của Tokyo Electron là mắt xích không thể thay thế trong chuỗi cung ứng sản xuất chip tiên tiến — biết trước làn sóng đầu tư xây nhà máy bán dẫn tại Mỹ, Nhật, Đài Loan sau 2020 giúp tự tin nắm giữ qua các đợt điều chỉnh ngắn hạn.",
+      "en": "Tokyo Electron's etching and coating equipment is an irreplaceable link in the advanced chipmaking supply chain — knowing in advance the post-2020 wave of fab investment in the US, Japan and Taiwan supports holding through short-term pullbacks."
+    },
+    "pitfalls": {
+      "vi": "Cổ phiếu có tính chu kỳ cao, từng giảm gần 47% trong năm 2022 khi nhu cầu chip tiêu dùng suy yếu — không phải đường thẳng đi lên.",
+      "en": "The stock is highly cyclical, falling nearly 47% in 2022 as consumer-chip demand weakened — not a straight line up."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Cổ phiếu ADR Tokyo Electron (TOELY) đạt đỉnh lịch sử vào thời điểm nào?",
+        "en": "When did Tokyo Electron's US ADR (TOELY) hit its all-time high?"
+      },
+      "choices": [
+        {
+          "vi": "Tháng 3/2009",
+          "en": "March 2009"
+        },
+        {
+          "vi": "Tháng 4/2013",
+          "en": "April 2013"
+        },
+        {
+          "vi": "Tháng 3/2024",
+          "en": "March 2024"
+        },
+        {
+          "vi": "Tháng 8/2024",
+          "en": "August 2024"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "Theo Macrotrends, giá đóng cửa ADR Tokyo Electron đạt đỉnh mọi thời đại 132,54 đô la vào ngày 6/3/2024.",
+        "en": "Per Macrotrends, Tokyo Electron's ADR hit an all-time closing high of $132.54 on March 6, 2024."
+      }
+    },
+    "sources": [
+      {
+        "title": "Macrotrends: Tokyo Electron 16 Year Stock Price History",
+        "url": "https://www.macrotrends.net/stocks/charts/TOELY/tokyo-electron/stock-price-history"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed end-2012 ADR close (~$4.97) and March 6, 2024 all-time-high close ($132.54) directly from Macrotrends' published annual/historical price table for TOELY."
+  },
+  {
+    "id": "jp-mtgox-bitcoin-collapse-2014",
+    "country": "jp",
+    "date": "2014-02-28",
+    "category": "crypto",
+    "title": {
+      "vi": "Sàn Mt. Gox tại Tokyo sụp đổ, mất 850.000 BTC",
+      "en": "Tokyo's Mt. Gox Exchange Collapses, Loses 850,000 BTC"
+    },
+    "summary": {
+      "vi": "Mt. Gox, từng xử lý 70% giao dịch Bitcoin toàn cầu, phá sản tháng 2/2014 sau khi mất khoảng 850.000 BTC.",
+      "en": "Mt. Gox, once handling 70% of global bitcoin trades, collapsed in Feb 2014 after losing about 850,000 BTC."
+    },
+    "description": {
+      "vi": "Mt. Gox, sàn giao dịch Bitcoin đặt tại Tokyo, từng xử lý tới 70% khối lượng giao dịch Bitcoin toàn cầu vào năm 2013. Ngày 28/2/2014, sàn nộp đơn phá sản tại Nhật Bản sau khi tiết lộ mất khoảng 850.000 BTC (750.000 của khách hàng, 100.000 của chính công ty) do lỗ hổng bảo mật kéo dài nhiều năm — khi đó trị giá khoảng 460 triệu đô la. Giá Bitcoin giảm từ khoảng 800 đô xuống dưới 500 đô trong những ngày khủng hoảng.",
+      "en": "Mt. Gox, a Tokyo-based bitcoin exchange, handled as much as 70% of global bitcoin trading volume in 2013. On Feb 28, 2014, it filed for bankruptcy in Japan after disclosing the loss of roughly 850,000 BTC (750,000 belonging to customers, 100,000 to the company itself) due to a years-long security hole — worth about $460 million at the time. Bitcoin's price fell from around $800 to under $500 during the crisis days."
+    },
+    "opportunity": {
+      "asset": "Bitcoin (BTC) / Mt. Gox exposure",
+      "action": {
+        "vi": "Tránh hoàn toàn việc giữ Bitcoin trên Mt. Gox từ cuối 2013; nếu đang có tài khoản, rút hết tiền và coin trước tháng 2/2014.",
+        "en": "Avoid holding bitcoin on Mt. Gox from late 2013 entirely; if already holding funds there, withdraw everything before February 2014."
+      },
+      "buyWhen": {
+        "vi": "Không mua qua Mt. Gox — chuyển sang sàn khác hoặc ví lạnh.",
+        "en": "N/A — move to another exchange or cold storage instead."
+      },
+      "sellWhen": {
+        "vi": "Rút toàn bộ BTC/tiền mặt khỏi Mt. Gox trước khi sàn ngừng rút tiền vào đầu tháng 2/2014.",
+        "en": "Withdraw all BTC/cash from Mt. Gox before withdrawals were halted in early February 2014."
+      },
+      "estimatedReturn": {
+        "vi": "Tránh mất trắng tới 99% tài sản bị khóa trong vụ phá sản (chủ nợ chỉ bắt đầu nhận bồi thường một phần từ 2024).",
+        "en": "Avoids losing up to 99% of assets frozen in the bankruptcy (creditors only began receiving partial repayment from 2024)."
+      },
+      "returnMultiple": null,
+      "priceCurrency": "USD",
+      "risk": "high",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Các dấu hiệu rắc rối đã xuất hiện từ giữa 2013 (lệnh tạm dừng rút tiền USD của cơ quan quản lý Mỹ); người biết trước có thể rút sạch tài sản khỏi Mt. Gox nhiều tháng trước khi sàn sụp đổ hoàn toàn ngày 28/2/2014.",
+      "en": "Warning signs appeared from mid-2013 (US regulators freezing USD withdrawals); someone with foreknowledge could withdraw all assets from Mt. Gox months before its full Feb 28, 2014 collapse."
+    },
+    "pitfalls": {
+      "vi": "Ngay cả sau khi rút được tài sản, một số giao dịch rút tiền bị trì hoãn do chính Mt. Gox hạn chế rút để che giấu khoản thiếu hụt — không phải ai hành động sớm cũng rút được 100%.",
+      "en": "Even those who tried to withdraw could face delays, since Mt. Gox itself was restricting withdrawals to hide the shortfall — not everyone who acted early could pull out 100% of their funds."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Mt. Gox tuyên bố mất khoảng bao nhiêu Bitcoin khi phá sản năm 2014?",
+        "en": "How many bitcoins did Mt. Gox disclose losing in its 2014 bankruptcy?"
+      },
+      "choices": [
+        {
+          "vi": "85.000 BTC",
+          "en": "85,000 BTC"
+        },
+        {
+          "vi": "8,5 triệu BTC",
+          "en": "8.5 million BTC"
+        },
+        {
+          "vi": "8.500 BTC",
+          "en": "8,500 BTC"
+        },
+        {
+          "vi": "850.000 BTC",
+          "en": "850,000 BTC"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "vi": "Mt. Gox mất khoảng 850.000 BTC (750.000 của khách hàng và 100.000 của công ty), theo BBC News.",
+        "en": "Mt. Gox lost about 850,000 BTC (750,000 belonging to customers and 100,000 to the company), per BBC News."
+      }
+    },
+    "sources": [
+      {
+        "title": "BBC: MtGox bitcoin exchange files for bankruptcy",
+        "url": "https://www.bbc.com/news/technology-25233230"
+      },
+      {
+        "title": "Reuters Special Report: Twice burned — Mt. Gox bitcoin customers",
+        "url": "https://www.reuters.com/investigates/special-report/bitcoin-gox"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed the ~850,000 BTC loss figure and Feb 2014 Tokyo bankruptcy filing via BBC News and Reuters investigative reporting."
+  },
+  {
+    "id": "jp-nintendo-pokemon-go-spike-2016",
+    "country": "jp",
+    "date": "2016-07-06",
+    "category": "technology",
+    "title": {
+      "vi": "Pokémon Go thổi bay rồi làm nổ tung cổ phiếu Nintendo",
+      "en": "Pokémon Go Inflates Then Pops Nintendo's Stock"
+    },
+    "summary": {
+      "vi": "Cổ phiếu Nintendo tăng hơn gấp đôi sau khi Pokémon Go ra mắt, rồi giảm gần 18% chỉ trong một phiên khi sự thật về lợi nhuận được làm rõ.",
+      "en": "Nintendo stock more than doubled after Pokémon Go's launch, then fell nearly 18% in a single session once the profit reality was clarified."
+    },
+    "description": {
+      "vi": "Sau khi game di động Pokémon Go ra mắt ngày 6/7/2016 tại Mỹ, Úc, New Zealand, cổ phiếu Nintendo tăng hơn gấp đôi từ khoảng 14.380 Yên lên hơn 32.000 Yên, có lúc vượt giá trị vốn hóa của Sony — dù Nintendo không trực tiếp phát triển game (chỉ sở hữu khoảng 1/3 Pokémon Company và một phần nhỏ Niantic). Ngày 25/7/2016, Nintendo thông báo tác động lợi nhuận từ game 'còn hạn chế', khiến cổ phiếu giảm tới 17-18% trong một phiên, mức giảm mạnh nhất kể từ 1990, dù vẫn cao hơn 60% so với trước khi game ra mắt.",
+      "en": "After the mobile game Pokémon Go launched on July 6, 2016 in the US, Australia and New Zealand, Nintendo stock more than doubled from about ¥14,380 to over ¥32,000, briefly surpassing Sony's market cap — even though Nintendo didn't directly develop the game (it owned only about a third of The Pokémon Company and a small stake in Niantic). On July 25, 2016, Nintendo announced the game's profit impact would be 'limited,' sending shares down as much as 17-18% in a single session, the steepest drop since 1990, though still up 60% from pre-launch levels."
+    },
+    "opportunity": {
+      "asset": "Nintendo Co. (7974.T)",
+      "action": {
+        "vi": "Mua nhanh ngay khi Pokémon Go ra mắt để bắt sóng đầu cơ, nhưng bán chốt lời trước khi Nintendo công bố báo cáo thu nhập làm rõ mức độ hưởng lợi thực tế.",
+        "en": "Buy quickly at Pokémon Go's launch to ride the speculative wave, but sell before Nintendo's earnings clarification exposes the real limited benefit."
+      },
+      "buyWhen": {
+        "vi": "Ngày 6-7/7/2016, ngay khi game ra mắt và bắt đầu viral.",
+        "en": "July 6-7, 2016, right as the game launched and went viral."
+      },
+      "sellWhen": {
+        "vi": "Trước ngày 22/7/2016 (thứ Sáu, khi Nintendo ra thông cáo sau giờ giao dịch) — chắc chắn phải bán trước phiên thứ Hai 25/7.",
+        "en": "Before July 22, 2016 (the Friday Nintendo issued its after-hours statement) — certainly before the Monday, July 25 session."
+      },
+      "estimatedReturn": {
+        "vi": "Hơn gấp đôi (khoảng 123%) nếu bán đúng đỉnh giữa tháng 7, nhưng mất phần lớn lợi nhuận đó nếu giữ qua ngày 25/7.",
+        "en": "More than doubled (about 123%) if sold right at the mid-July peak, but most of that gain was erased if held through July 25."
+      },
+      "returnMultiple": 2.23,
+      "entryPrice": 14380,
+      "exitPrice": 32000,
+      "priceCurrency": "JPY",
+      "exitDate": "2016-07-19",
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Nintendo chỉ sở hữu khoảng 1/3 Pokémon Company và một phần nhỏ Niantic — biết trước cấu trúc sở hữu hạn chế này từ đầu cho phép bán ra đúng đỉnh đầu cơ phi lý thay vì tin rằng lợi nhuận sẽ tương xứng với mức tăng giá cổ phiếu.",
+      "en": "Nintendo owned only about a third of The Pokémon Company and a minor Niantic stake — knowing this limited ownership structure from the start allows selling right at the irrational speculative peak instead of believing profits would match the share-price surge."
+    },
+    "pitfalls": {
+      "vi": "Ngân hàng Nomura đã cảnh báo trước rằng phản ứng thị trường là 'thái quá' so với đóng góp lợi nhuận thực tế (chỉ 1-2 tỷ Yên) — nhiều nhà đầu tư cá nhân vào sau vẫn giữ cổ phiếu qua cú giảm 18% vì tin vào câu chuyện dài hạn về game di động.",
+      "en": "Investment bank Nomura had warned in advance that the market reaction was 'excessive' relative to the real profit contribution (just ¥1-2 billion) — many retail investors who entered late still held through the 18% drop, believing in the long-term mobile-gaming narrative."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Vì sao cổ phiếu Nintendo giảm mạnh ngày 25/7/2016 sau khi Pokémon Go ra mắt?",
+        "en": "Why did Nintendo stock drop sharply on July 25, 2016 after Pokémon Go's launch?"
+      },
+      "choices": [
+        {
+          "vi": "Nintendo công bố tác động lợi nhuận từ game là 'hạn chế'",
+          "en": "Nintendo announced the game's profit impact would be 'limited'"
+        },
+        {
+          "vi": "Game bị cấm tại một số nước",
+          "en": "The game was banned in some countries"
+        },
+        {
+          "vi": "Nintendo bị kiện bản quyền",
+          "en": "Nintendo was sued for copyright infringement"
+        },
+        {
+          "vi": "Máy chủ game sập toàn cầu",
+          "en": "The game's servers crashed globally"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "Nintendo thông báo thu nhập hợp nhất từ Pokémon Go 'còn hạn chế' do cấu trúc sở hữu chỉ một phần, khiến cổ phiếu giảm 17-18% trong một phiên.",
+        "en": "Nintendo disclosed that its consolidated earnings impact from Pokémon Go would be 'limited' given its partial ownership structure, sending shares down 17-18% in a single session."
+      }
+    },
+    "sources": [
+      {
+        "title": "BuzzFeed News: Nintendo Shares Crash As It Calls Pokémon's Effect On Business 'Limited'",
+        "url": "https://www.buzzfeednews.com/article/matthewzeitlin/nintendo-shares-crash-as-it-calls-pokemons-effect-on-busines"
+      },
+      {
+        "title": "Forbes: 'Pokémon GO' Hype Bubble Pops For Nintendo's Shares",
+        "url": "https://www.forbes.com/sites/parmyolson/2016/07/25/pokemon-go-nintendos-shares-earnings/"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed pre-launch price (~¥14,380), peak above ¥32,000, the July 25, 2016 ~17-18% single-day drop, and Nintendo's 'limited' profit-impact statement via BuzzFeed News and Forbes reporting."
+  },
+  {
+    "id": "jp-sharp-foxconn-rescue-2016",
+    "country": "jp",
+    "date": "2016-08-12",
+    "category": "business",
+    "title": {
+      "vi": "Sharp được Foxconn giải cứu sau nhiều năm thua lỗ",
+      "en": "Sharp Is Rescued by Foxconn After Years of Losses"
+    },
+    "summary": {
+      "vi": "Foxconn hoàn tất mua 66% cổ phần Sharp với giá 388,8 tỷ Yên tháng 8/2016; cổ phiếu Sharp tăng hơn 10% ngay sau tin.",
+      "en": "Foxconn completed a 66% stake purchase in Sharp for ¥388.8 billion in August 2016; Sharp shares jumped over 10% on the news."
+    },
+    "description": {
+      "vi": "Sau nhiều năm thua lỗ nặng do cạnh tranh trong mảng màn hình LCD, Sharp đồng ý bán 66,07% cổ phần cho tập đoàn Đài Loan Foxconn (Hon Hai) với giá 388,8 tỷ Yên (khoảng 3,84 tỷ đô la), thương vụ hoàn tất ngày 12/8/2016 sau khi vượt qua rà soát chống độc quyền tại Trung Quốc. Giá mua là 88 Yên/cổ phiếu; ngay phiên đầu sau khi thương vụ hoàn tất, cổ phiếu Sharp tăng vọt hơn 10%, có lúc chạm 124 Yên.",
+      "en": "After years of heavy losses amid LCD display competition, Sharp agreed to sell a 66.07% stake to Taiwan's Foxconn (Hon Hai) for ¥388.8 billion (about $3.84 billion), with the deal completing on Aug 12, 2016 after clearing Chinese antitrust review. The purchase price was ¥88 per share; in the first session after completion, Sharp shares jumped more than 10%, briefly touching ¥124."
+    },
+    "opportunity": {
+      "asset": "Sharp Corp (6753.T)",
+      "action": {
+        "vi": "Mua cổ phiếu Sharp khi giá gần mức thỏa thuận 88 Yên/cổ phiếu, trước khi thương vụ hoàn tất.",
+        "en": "Buy Sharp stock near the ¥88/share deal price, ahead of deal completion."
+      },
+      "buyWhen": {
+        "vi": "Giữa 2016, khi cổ phiếu dao động quanh hoặc dưới giá thỏa thuận 88 Yên do lo ngại thương vụ đổ vỡ.",
+        "en": "Mid-2016, when the stock traded around or below the ¥88 deal price on fears the deal might collapse."
+      },
+      "sellWhen": {
+        "vi": "Ngay sau khi thương vụ hoàn tất 12/8/2016, khi cổ phiếu tăng vọt lên 124 Yên.",
+        "en": "Right after the deal completed on Aug 12, 2016, when the stock spiked to ¥124."
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng 41% lợi nhuận (từ 88 lên 124 Yên) chỉ trong phiên giao dịch đầu sau khi thương vụ hoàn tất.",
+        "en": "About a 41% gain (from ¥88 to ¥124) in just the first trading session after deal completion."
+      },
+      "returnMultiple": 1.41,
+      "entryPrice": 88,
+      "exitPrice": 124,
+      "priceCurrency": "JPY",
+      "exitDate": "2016-08-15",
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Thương vụ từng bị trì hoãn do Foxconn phát hiện các khoản nợ tiềm ẩn 350 tỷ Yên và hạ giá mua 25,4% so với đề xuất ban đầu — biết trước Foxconn vẫn quyết tâm hoàn tất giúp tránh hoảng loạn bán tháo giữa giai đoạn bất định.",
+      "en": "The deal was delayed after Foxconn discovered ¥350 billion in contingent liabilities and cut its offer price 25.4% from the original proposal — knowing in advance that Foxconn would still push the deal through avoids panic-selling during the uncertain period."
+    },
+    "pitfalls": {
+      "vi": "Trước khi thương vụ được xác nhận, cổ phiếu Sharp từng giảm xuống dưới giá thỏa thuận 88 Yên do lo ngại đổ vỡ — nhà đầu tư thiếu kiên nhẫn có thể bán tháo đúng đáy trước khi tin tốt đến.",
+      "en": "Before the deal was confirmed, Sharp shares briefly traded below the ¥88 deal price on collapse fears — impatient investors could have sold right at the bottom before the good news arrived."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Foxconn trả bao nhiêu tiền để mua 66% cổ phần Sharp năm 2016?",
+        "en": "How much did Foxconn pay for its 66% stake in Sharp in 2016?"
+      },
+      "choices": [
+        {
+          "vi": "388,8 tỷ Yên",
+          "en": "¥388.8 billion"
+        },
+        {
+          "vi": "38,88 tỷ Yên",
+          "en": "¥38.88 billion"
+        },
+        {
+          "vi": "3.888 tỷ Yên",
+          "en": "¥3,888 billion"
+        },
+        {
+          "vi": "8,88 tỷ Yên",
+          "en": "¥8.88 billion"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "Foxconn chi 388,8 tỷ Yên (khoảng 3,84 tỷ đô) để mua 66,07% cổ phần Sharp, hoàn tất tháng 8/2016.",
+        "en": "Foxconn paid ¥388.8 billion (about $3.84 billion) for a 66.07% stake in Sharp, completed in August 2016."
+      }
+    },
+    "sources": [
+      {
+        "title": "Business Standard/Reuters: Sharp shares up more than 10 percent after Foxconn completes stake purchase",
+        "url": "https://business-standard.com/article/reuters/sharp-shares-up-more-than-10-percent-after-foxconn-completes-stake-purchase-116081500156_1.html"
+      },
+      {
+        "title": "China Daily: Foxconn to add Sharp to portfolio, deal worth 388.8b yen",
+        "url": "https://global.chinadaily.com.cn/business/2016-03/31/content_24206208.htm"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed ¥388.8 billion deal value, ¥88/share price, 66.07% stake, and the post-completion jump to ¥124 via Reuters (Business Standard republish) and China Daily reporting."
+  },
+  {
+    "id": "jp-takata-airbag-bankruptcy-2017",
+    "country": "jp",
+    "date": "2017-06-26",
+    "category": "business",
+    "title": {
+      "vi": "Takata phá sản vì bê bối túi khí lỗi lớn nhất lịch sử ô tô",
+      "en": "Takata Collapses in History's Largest Automotive Airbag Scandal"
+    },
+    "summary": {
+      "vi": "Takata nộp đơn phá sản ngày 26/6/2017, bị hủy niêm yết sau vụ triệu hồi hơn 100 triệu túi khí liên quan ít nhất 17 ca tử vong.",
+      "en": "Takata filed for bankruptcy on June 26, 2017 and was delisted after a recall of over 100 million airbags linked to at least 17 deaths."
+    },
+    "description": {
+      "vi": "Nhà sản xuất túi khí Takata đối mặt vụ triệu hồi ô tô lớn nhất lịch sử ngành do bộ phận bơm khí dùng chất amoni nitrat dễ bị phân hủy, có thể phát nổ gây văng mảnh kim loại, liên quan tới ít nhất 17 ca tử vong toàn cầu. Ngày 26/6/2017, Takata nộp đơn xin bảo hộ phá sản tại Nhật Bản và Mỹ, bán phần lớn tài sản cho Key Safety Systems (Mỹ) với giá 1,588 tỷ đô la. Sở GDCK Tokyo đình chỉ giao dịch và hủy niêm yết cổ phiếu Takata ngay sau đó.",
+      "en": "Airbag maker Takata faced the auto industry's largest-ever recall due to inflators using ammonium nitrate propellant that could degrade and explode, spraying metal shrapnel, linked to at least 17 deaths worldwide. On June 26, 2017, Takata filed for bankruptcy protection in Japan and the US, selling most of its assets to US-based Key Safety Systems for $1.588 billion. The Tokyo Stock Exchange halted trading and delisted Takata shares shortly after."
+    },
+    "opportunity": {
+      "asset": "Takata Corp (7312.T)",
+      "action": {
+        "vi": "Bán khống hoặc tránh hoàn toàn cổ phiếu Takata ngay khi các vụ triệu hồi lớn leo thang từ 2014-2015.",
+        "en": "Short or completely avoid Takata stock as major recalls escalated from 2014-2015."
+      },
+      "buyWhen": {
+        "vi": "Không mua — đây là trường hợp tránh/bán khống hoàn toàn.",
+        "en": "N/A — a complete avoid/short case."
+      },
+      "sellWhen": {
+        "vi": "Trước năm 2014, khi quy mô vấn đề túi khí bắt đầu được báo chí Mỹ phanh phui.",
+        "en": "Before 2014, as the scope of the airbag problem began surfacing in the US press."
+      },
+      "estimatedReturn": {
+        "vi": "Tránh mất trắng gần như toàn bộ giá trị cổ phiếu khi công ty bị hủy niêm yết tháng 7/2017.",
+        "en": "Avoids a near-total wipeout of share value when the company was delisted in July 2017."
+      },
+      "returnMultiple": null,
+      "priceCurrency": "JPY",
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết trước chất bơm khí amoni nitrat của Takata là lựa chọn rẻ nhưng không ổn định về mặt hóa học, khác với hầu hết đối thủ — giúp nhận diện Takata là rủi ro hệ thống trước khi NHTSA mở điều tra chính thức năm 2014.",
+      "en": "Knowing in advance that Takata's ammonium nitrate propellant was a cheap but chemically unstable choice, unlike most rivals, flags Takata as a systemic risk before NHTSA's formal 2014 investigation."
+    },
+    "pitfalls": {
+      "vi": "Một số nhà đầu tư đặt cược công ty sẽ được cứu bởi một nhà sản xuất ô tô lớn do tầm quan trọng trong chuỗi cung ứng — nhưng khoản nợ liên quan tới bồi thường quá lớn khiến không ai chịu mua lại toàn bộ công ty.",
+      "en": "Some investors bet the company would be rescued by a major automaker given its supply-chain importance — but recall-related liabilities were too large for anyone to acquire the whole company."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Takata bán phần lớn tài sản cho công ty nào trong thủ tục phá sản năm 2017?",
+        "en": "Which company acquired most of Takata's assets during its 2017 bankruptcy?"
+      },
+      "choices": [
+        {
+          "vi": "Bosch",
+          "en": "Bosch"
+        },
+        {
+          "vi": "Autoliv",
+          "en": "Autoliv"
+        },
+        {
+          "vi": "Denso",
+          "en": "Denso"
+        },
+        {
+          "vi": "Key Safety Systems",
+          "en": "Key Safety Systems"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "vi": "Key Safety Systems (Mỹ) mua lại hầu hết tài sản Takata với giá 1,588 tỷ đô la trong thủ tục phá sản năm 2017.",
+        "en": "US-based Key Safety Systems acquired most of Takata's assets for $1.588 billion during the 2017 bankruptcy."
+      }
+    },
+    "sources": [
+      {
+        "title": "Reuters: Airbag maker Takata files for bankruptcy protection in Japan",
+        "url": "https://www.reuters.com/article/us-takata-bankruptcy-japan-filing-idUSKBN19H01W/"
+      },
+      {
+        "title": "Japan Exchange Group: Decision on Delisting — Takata Corporation",
+        "url": "https://www.jpx.co.jp/english/news/1021/20170626-11.html"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed June 26, 2017 bankruptcy filing date, the $1.588bn Key Safety Systems deal, and the TSE delisting via Reuters and the Japan Exchange Group's official delisting notice."
+  },
+  {
+    "id": "jp-buffett-trading-houses-2020",
+    "country": "jp",
+    "date": "2020-08-31",
+    "category": "stocks",
+    "title": {
+      "vi": "Buffett âm thầm mua 5% các tập đoàn thương mại Nhật",
+      "en": "Buffett Quietly Buys 5% of Japan's Trading Houses"
+    },
+    "summary": {
+      "vi": "Berkshire Hathaway công bố nắm hơn 5% mỗi tập đoàn Itochu, Marubeni, Mitsubishi, Mitsui, Sumitomo — tổng trị giá hơn 6 tỷ đô.",
+      "en": "Berkshire Hathaway disclosed >5% stakes each in Itochu, Marubeni, Mitsubishi, Mitsui and Sumitomo — worth over $6 billion combined."
+    },
+    "description": {
+      "vi": "Ngày 31/8/2020 (sinh nhật 90 tuổi của Warren Buffett), Berkshire Hathaway công bố đã âm thầm gom hơn 5% cổ phần mỗi công ty trong 5 tập đoàn thương mại lớn nhất Nhật Bản — Itochu, Marubeni, Mitsubishi, Mitsui và Sumitomo — qua các giao dịch trên sàn Tokyo trong khoảng 12 tháng, tổng giá trị hơn 6 tỷ đô la. Ngay phiên kế tiếp, cổ phiếu Marubeni và Sumitomo tăng hơn 9%, Mitsubishi và Mitsui tăng hơn 7%.",
+      "en": "On Aug 31, 2020 (Warren Buffett's 90th birthday), Berkshire Hathaway disclosed it had quietly accumulated over 5% stakes in each of Japan's five largest trading houses — Itochu, Marubeni, Mitsubishi, Mitsui and Sumitomo — via Tokyo exchange purchases over roughly 12 months, worth over $6 billion in total. On the very next trading session, Marubeni and Sumitomo shares jumped more than 9%, Mitsubishi and Mitsui more than 7%."
+    },
+    "opportunity": {
+      "asset": "Itochu, Marubeni, Mitsubishi, Mitsui, Sumitomo (Japanese sogo shosha)",
+      "action": {
+        "vi": "Mua cổ phiếu 5 tập đoàn thương mại này trước khi tin Berkshire mua vào được công bố, hoặc ngay sau công bố để hưởng hiệu ứng 'con dấu Buffett'.",
+        "en": "Buy these five trading house stocks before Berkshire's purchase news broke, or right after for the 'Buffett stamp of approval' effect."
+      },
+      "buyWhen": {
+        "vi": "Trước hoặc đúng ngày 31/8/2020.",
+        "en": "Before or on Aug 31, 2020."
+      },
+      "sellWhen": {
+        "vi": "Có thể giữ dài hạn — Berkshire tiếp tục tăng tỷ trọng các năm sau, đưa giá trị cổ phần tăng gấp đôi vào năm 2023.",
+        "en": "Could be held long-term — Berkshire kept raising its stakes in subsequent years, roughly doubling the position's value by 2023."
+      },
+      "estimatedReturn": {
+        "vi": "Tăng hơn 7-9% ngay trong phiên công bố; hiệu suất cộng dồn nhiều năm sau còn cao hơn đáng kể nhờ giá hàng hóa tăng và đồng Yên yếu.",
+        "en": "Up more than 7-9% on the announcement day alone; multi-year compounded returns were considerably higher thanks to rising commodity prices and a weak yen."
+      },
+      "priceCurrency": "JPY",
+      "risk": "low",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Berkshire đã âm thầm gom hàng suốt 12 tháng trước khi công bố — biết trước thời điểm công bố chính xác (sinh nhật Buffett, 31/8/2020) cho phép mua ngay trước phiên để bắt trọn mức tăng giá do tin tức.",
+      "en": "Berkshire had been quietly accumulating for 12 months before disclosure — knowing the exact announcement date (Buffett's birthday, Aug 31, 2020) allows buying right before the session to capture the full news-driven pop."
+    },
+    "pitfalls": {
+      "vi": "Buffett cam kết giới hạn tỷ lệ sở hữu ở mức 9,9% trừ khi được hội đồng quản trị đồng ý — nhà đầu tư không nên kỳ vọng một thương vụ thâu tóm toàn bộ sẽ đẩy giá tăng vọt hơn nữa.",
+      "en": "Buffett pledged to cap ownership at 9.9% unless approved by the investee's board — investors shouldn't expect a full buyout that would push prices dramatically higher still."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Berkshire Hathaway công bố mua cổ phần 5 tập đoàn thương mại Nhật vào ngày nào?",
+        "en": "On what date did Berkshire Hathaway disclose its stakes in Japan's five trading houses?"
+      },
+      "choices": [
+        {
+          "vi": "31/8/2020",
+          "en": "Aug 31, 2020"
+        },
+        {
+          "vi": "22/2/2024",
+          "en": "Feb 22, 2024"
+        },
+        {
+          "vi": "5/8/2024",
+          "en": "Aug 5, 2024"
+        },
+        {
+          "vi": "29/12/1989",
+          "en": "Dec 29, 1989"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "Berkshire Hathaway công bố thông tin này ngày 31/8/2020, đúng sinh nhật 90 tuổi của Warren Buffett, theo thông cáo báo chí chính thức của công ty.",
+        "en": "Berkshire Hathaway made the disclosure on Aug 31, 2020, Warren Buffett's 90th birthday, per the company's own press release."
+      }
+    },
+    "sources": [
+      {
+        "title": "Berkshire Hathaway official press release (Aug 31, 2020)",
+        "url": "https://www.berkshirehathaway.com/news/aug3020.pdf"
+      },
+      {
+        "title": "Reuters: Buffett looks to Japan with $6-bln bet on five biggest trading firms",
+        "url": "https://www.reuters.com/business/media-telecom/buffett-looks-japan-with-6-bln-bet-five-biggest-trading-firms-2020-08-31"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed Aug 31, 2020 disclosure date, the five named companies, the >5% stakes, the $6+ billion total value, and the next-day share price pops via Berkshire's own press release and Reuters."
+  },
+  {
+    "id": "jp-nikkei-new-record-high-2024",
+    "country": "jp",
+    "date": "2024-02-22",
+    "category": "stocks",
+    "title": {
+      "vi": "Nikkei lập đỉnh lịch sử mới sau 34 năm",
+      "en": "Nikkei Sets a New All-Time High After 34 Years"
+    },
+    "summary": {
+      "vi": "Nikkei đóng cửa 39.098,68 điểm ngày 22/2/2024, vượt kỷ lục 38.915,87 từ năm 1989.",
+      "en": "The Nikkei closed at 39,098.68 on Feb 22, 2024, surpassing its 1989 record of 38,915.87."
+    },
+    "description": {
+      "vi": "Ngày 22/2/2024, Nikkei 225 tăng 2,2% lên mức đóng cửa kỷ lục 39.098,68 điểm, chính thức vượt qua đỉnh cũ 38.915,87 lập ngày 29/12/1989 sau 34 năm 2 tháng. Đà tăng được thúc đẩy bởi cải cách quản trị doanh nghiệp, lợi nhuận doanh nghiệp mạnh mẽ, đồng Yên yếu hỗ trợ xuất khẩu, và sự lan tỏa từ báo cáo lợi nhuận bùng nổ của Nvidia tới các cổ phiếu bán dẫn Nhật Bản.",
+      "en": "On Feb 22, 2024, the Nikkei 225 rose 2.2% to a record close of 39,098.68, officially surpassing its old peak of 38,915.87 set on Dec 29, 1989, after 34 years and 2 months. The rally was driven by corporate governance reforms, strong corporate earnings, a weak yen supporting exporters, and a spillover from Nvidia's blockbuster earnings report into Japanese semiconductor stocks."
+    },
+    "opportunity": {
+      "asset": "Nikkei 225",
+      "action": {
+        "vi": "Giữ hoặc mua thêm cổ phiếu Nhật trong đợt tái định giá 2023-2024 trước khi đạt đỉnh lịch sử.",
+        "en": "Hold or add to Japanese equities during the 2023-2024 re-rating, ahead of the historic new high."
+      },
+      "buyWhen": {
+        "vi": "Đầu năm 2023, khi Sở GDCK Tokyo bắt đầu gây áp lực buộc các công ty cải thiện ROE và định giá.",
+        "en": "Early 2023, when the Tokyo Stock Exchange began pressuring companies to improve ROE and valuations."
+      },
+      "sellWhen": {
+        "vi": "Có thể chốt lời một phần quanh 22/2/2024 khi tin tức lập đỉnh lan rộng toàn cầu, trước đợt điều chỉnh do giải chấp carry trade tháng 8/2024.",
+        "en": "Could take partial profits around Feb 22, 2024 once the record-high news went global, before the August 2024 carry-trade unwind correction."
+      },
+      "estimatedReturn": {
+        "vi": "Nikkei tăng khoảng 17% chỉ từ đầu năm 2024 đến ngày lập đỉnh.",
+        "en": "The Nikkei rose about 17% from the start of 2024 alone to the day of the record."
+      },
+      "exitPrice": 39098.68,
+      "priceCurrency": "points",
+      "exitDate": "2024-02-22",
+      "risk": "medium",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Sở GDCK Tokyo công khai yêu cầu các công ty có P/B dưới 1 phải cải thiện định giá từ đầu 2023 — đây là chất xúc tác cơ bản ít được chú ý ở nước ngoài nhưng đã âm thầm khởi động đợt tăng kéo dài hơn một năm.",
+      "en": "The Tokyo Stock Exchange publicly pressed companies trading below book value to improve valuations from early 2023 — an under-the-radar fundamental catalyst that quietly kicked off a rally lasting over a year."
+    },
+    "pitfalls": {
+      "vi": "Chỉ 6 tháng sau khi lập đỉnh, thị trường trải qua phiên giảm kỷ lục 12,4% vào 5/8/2024 do giải chấp carry trade Yên — minh chứng việc giữ đòn bẩy cao ngay cả sau một đợt tăng cơ bản vững chắc vẫn rất rủi ro.",
+      "en": "Just six months after the record, the market suffered a record 12.4% single-day drop on Aug 5, 2024 due to the yen carry trade unwind — proof that holding high leverage even after a fundamentally sound rally remains very risky."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Nikkei 225 mất bao lâu để vượt lại đỉnh năm 1989?",
+        "en": "How long did it take the Nikkei 225 to surpass its 1989 peak?"
+      },
+      "choices": [
+        {
+          "vi": "10 năm",
+          "en": "10 years"
+        },
+        {
+          "vi": "20 năm",
+          "en": "20 years"
+        },
+        {
+          "vi": "34 năm",
+          "en": "34 years"
+        },
+        {
+          "vi": "50 năm",
+          "en": "50 years"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "Phải mất 34 năm 2 tháng, từ 29/12/1989 đến 22/2/2024, để Nikkei lập đỉnh đóng cửa mới, theo Nippon.com.",
+        "en": "It took 34 years and 2 months, from Dec 29, 1989 to Feb 22, 2024, for the Nikkei to set a new closing record, per Nippon.com."
+      }
+    },
+    "sources": [
+      {
+        "title": "Nippon.com: Nikkei Index Sets First Record High Since 1989",
+        "url": "https://nippon.com/en/japan-data/h01927"
+      },
+      {
+        "title": "CNN: Japan's Nikkei 225 surpasses all-time high reached in 1989",
+        "url": "https://cnn.com/2024/02/22/business/japan-nikkei-225-record-high-intl-hnk"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed Feb 22, 2024 close of 39,098.68 and the 34-years-2-months gap since Dec 29, 1989 via Nippon.com and CNN; 17% YTD figure confirmed via NYT reporting cited in the same search batch."
+  },
+  {
+    "id": "jp-reiwa-rice-shortage-2024",
+    "country": "jp",
+    "date": "2024-08",
+    "category": "commodities",
+    "title": {
+      "vi": "Khủng hoảng gạo 'Reiwa' khiến giá gạo tăng gấp đôi",
+      "en": "The 'Reiwa Rice Crisis' Doubles Rice Prices"
+    },
+    "summary": {
+      "vi": "Giá gạo bán lẻ Nhật Bản tăng hơn gấp đôi từ khoảng 2.000 Yên lên đỉnh 4.300 Yên/túi 5kg trong 2024-2025.",
+      "en": "Japan's retail rice price more than doubled from about ¥2,000 to a peak of ¥4,300 per 5kg bag during 2024-2025."
+    },
+    "description": {
+      "vi": "Mùa hè 2024, Nhật Bản đối mặt tình trạng thiếu gạo nghiêm trọng nhất trong hơn 20 năm do vụ mùa 2023 kém chất lượng (nắng nóng), nhu cầu tăng vọt từ khách du lịch và tâm lý tích trữ sau cảnh báo động đất lớn tháng 8/2024. Giá một túi gạo 5kg tăng từ khoảng 2.000 Yên đầu 2024 lên đỉnh khoảng 4.300-4.400 Yên đầu 2025 — mức tăng theo năm hơn 98% vào tháng 5/2025, cao nhất trong hơn nửa thế kỷ. Chính phủ lần đầu tiên xả kho dự trữ khẩn cấp từ tháng 2/2025.",
+      "en": "In summer 2024, Japan faced its worst rice shortage in over 20 years due to a poor-quality 2023 harvest (extreme heat), surging tourist demand, and panic-buying after an August 2024 major earthquake warning. The price of a 5kg bag of rice rose from about ¥2,000 in early 2024 to a peak of roughly ¥4,300-4,400 in early 2025 — a year-over-year increase of more than 98% by May 2025, the largest in over half a century. The government released emergency reserves for the first time starting February 2025."
+    },
+    "opportunity": {
+      "asset": "Japanese table rice (per 5kg retail bag)",
+      "action": {
+        "vi": "Mua tích trữ gạo hoặc đầu tư vào cổ phiếu các công ty phân phối/nhập khẩu gạo trước khi giá tăng gấp đôi; bán/thoát vị thế khi chính phủ bắt đầu xả kho dự trữ.",
+        "en": "Stockpile rice or invest in rice distribution/import-related stocks before prices double; sell/exit once the government begins releasing reserves."
+      },
+      "buyWhen": {
+        "vi": "Đầu 2024, khi giá còn khoảng 2.000 Yên/túi 5kg và trước khi tình trạng thiếu hụt được truyền thông đưa tin rộng rãi.",
+        "en": "Early 2024, while prices were still around ¥2,000 per 5kg bag and before the shortage received wide media coverage."
+      },
+      "sellWhen": {
+        "vi": "Đầu đến giữa 2025, khi giá đạt đỉnh khoảng 4.300-4.400 Yên và chính phủ bắt đầu xả kho dự trữ khẩn cấp.",
+        "en": "Early-to-mid 2025, when prices peaked around ¥4,300-4,400 and the government began releasing emergency reserves."
+      },
+      "estimatedReturn": {
+        "vi": "Giá tăng hơn gấp đôi (khoảng 115-120%) từ đáy đầu 2024 đến đỉnh đầu 2025.",
+        "en": "Prices more than doubled (roughly 115-120%) from the early-2024 low to the early-2025 peak."
+      },
+      "returnMultiple": 2.15,
+      "entryPrice": 2000,
+      "exitPrice": 4300,
+      "priceCurrency": "JPY",
+      "exitDate": "2025-01",
+      "risk": "medium",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Cảnh báo động đất lớn Nankai Trough tháng 8/2024 gây làn sóng tích trữ gạo hoảng loạn trên diện rộng — biết trước thời điểm và tác động của cảnh báo này giúp mua gạo hoặc cổ phần liên quan ngay trước khi tâm lý hoảng loạn đẩy giá lên.",
+      "en": "The August 2024 Nankai Trough megaquake warning triggered widespread panic rice-buying — knowing the timing and impact of this warning in advance allows buying rice or related exposure right before panic psychology drove prices up."
+    },
+    "pitfalls": {
+      "vi": "Chu kỳ đảo ngược rất nhanh: nông dân tăng sản lượng mạnh để đón giá cao khiến nguồn cung dư thừa, kéo giá giảm trở lại dưới 3.300 Yên vào cuối 2025-2026 — giữ vị thế quá lâu sẽ mất phần lớn lợi nhuận.",
+      "en": "The cycle reversed quickly: farmers ramped up production hard to chase high prices, creating an oversupply that pushed prices back down below ¥3,300 by late 2025-2026 — holding the position too long erodes most of the gain."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Nguyên nhân chính nào gây ra khủng hoảng thiếu gạo 'Reiwa' tại Nhật Bản năm 2024?",
+        "en": "What was a key cause of Japan's 2024 'Reiwa rice crisis' shortage?"
+      },
+      "choices": [
+        {
+          "vi": "Lệnh cấm xuất khẩu gạo của chính phủ",
+          "en": "A government rice export ban"
+        },
+        {
+          "vi": "Dịch bệnh trên cây lúa",
+          "en": "A rice crop disease epidemic"
+        },
+        {
+          "vi": "Thuế quan mới với gạo nhập khẩu",
+          "en": "New tariffs on imported rice"
+        },
+        {
+          "vi": "Vụ mùa 2023 kém chất lượng, nhu cầu du lịch tăng và tích trữ sau cảnh báo động đất",
+          "en": "A poor 2023 harvest, rising tourist demand, and panic-buying after an earthquake warning"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "vi": "Thiếu hụt bắt nguồn từ vụ mùa 2023 chất lượng kém do nắng nóng, nhu cầu tăng từ du khách, và tâm lý tích trữ sau cảnh báo động đất lớn tháng 8/2024, theo báo cáo USDA FAS.",
+        "en": "The shortage stemmed from a poor-quality, heat-damaged 2023 harvest, rising tourist demand, and panic-buying after the August 2024 megaquake warning, per a USDA FAS report."
+      }
+    },
+    "sources": [
+      {
+        "title": "USDA FAS: Continued High Prices for Japanese Table Rice...",
+        "url": "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Continued%20High%20Prices%20for%20Japanese%20Table%20Rice%20Leads%20to%20High%20Import%20Demand%20and%20Release%20of%20Government%20Emergency%20Rice%20Supplies%20_Tokyo_Japan_JA2025-0009"
+      },
+      {
+        "title": "CNBC: Japan rice crisis shows signs of easing",
+        "url": "https://cnbc.com/2025/06/26/japan-rice-crisis-shows-signs-of-easing-as-prices-stabilize-and-stocks-return-to-shelves.html"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed the ~¥2,000-to-¥4,300+ price rise, the 2023 heat-damaged harvest, tourist demand, earthquake-warning panic buying, and the government's first-ever emergency reserve release via USDA FAS reports and CNBC reporting."
+  },
+  {
+    "id": "jp-yen-carry-trade-unwind-2024",
+    "country": "jp",
+    "date": "2024-08-05",
+    "category": "macro",
+    "title": {
+      "vi": "Giải chấp giao dịch chênh lệch lãi suất Yên gây sập Nikkei",
+      "en": "Yen Carry Trade Unwind Crashes the Nikkei"
+    },
+    "summary": {
+      "vi": "Nikkei giảm 12,4% ngày 5/8/2024 — phiên tệ nhất kể từ Black Monday 1987 — do giải chấp carry trade.",
+      "en": "The Nikkei plunged 12.4% on Aug 5, 2024 — its worst day since 1987's Black Monday — as the yen carry trade unwound."
+    },
+    "description": {
+      "vi": "Sau khi BOJ tăng lãi suất lên 0,25% cuối tháng 7/2024, đồng Yên tăng giá mạnh (lên mức cao nhất 7 tháng), buộc các nhà đầu tư vay Yên lãi suất thấp để mua tài sản khác (chủ yếu cổ phiếu công nghệ Mỹ) phải giải chấp hàng loạt. Ngày 5/8/2024, Nikkei 225 giảm 12,4% (mất 4.451,28 điểm, mức giảm điểm lớn nhất lịch sử), đóng cửa 31.458,42 — giảm 27% so với đỉnh 42.426,77 lập ngày 11/7/2024, chính thức bước vào thị trường gấu.",
+      "en": "After the BOJ raised rates to 0.25% in late July 2024, the yen strengthened sharply (to a seven-month high), forcing mass unwinding by investors who had borrowed cheap yen to buy other assets (mainly US tech stocks). On Aug 5, 2024, the Nikkei 225 fell 12.4% (losing 4,451.28 points, its largest-ever point drop), closing at 31,458.42 — down 27% from its July 11, 2024 peak of 42,426.77, officially entering a bear market."
+    },
+    "opportunity": {
+      "asset": "Nikkei 225 / USD-JPY carry trade",
+      "action": {
+        "vi": "Đóng vị thế carry trade vay Yên và chốt lời cổ phiếu Nhật trước cuộc họp BOJ cuối tháng 7/2024; mua lại Nikkei sau cú sập ngày 5/8.",
+        "en": "Close yen-funded carry trades and take profits on Japanese equities ahead of the late-July 2024 BOJ meeting; rebuy the Nikkei after the Aug 5 crash."
+      },
+      "buyWhen": {
+        "vi": "Ngay sau phiên 5/8/2024, khi Nikkei chạm đáy 31.458,42.",
+        "en": "Right after the Aug 5, 2024 session, when the Nikkei bottomed at 31,458.42."
+      },
+      "sellWhen": {
+        "vi": "Trước cuộc họp BOJ ngày 31/7/2024 nếu đang nắm giữ vị thế carry trade.",
+        "en": "Before the July 31, 2024 BOJ meeting if holding a carry-trade position."
+      },
+      "estimatedReturn": {
+        "vi": "Thị trường phục hồi phần lớn mức giảm trong vài phiên sau đó, nên người mua đáy ngày 5/8 ghi nhận lợi nhuận hai chữ số chỉ trong vài tuần.",
+        "en": "The market recovered most of the loss within a few sessions, so buyers of the Aug 5 dip saw double-digit gains within weeks."
+      },
+      "entryPrice": 31458.42,
+      "priceCurrency": "points",
+      "exitDate": "2024-08",
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "BOJ tăng lãi suất đúng ngày 31/7/2024 là chất xúc tác trực tiếp — biết trước ngày họp chính sách và xu hướng tăng lãi suất cho phép thoát khỏi vị thế carry trade trước khi cơn bán tháo lan rộng toàn cầu vào thứ Hai 5/8.",
+      "en": "The BOJ's rate hike on exactly July 31, 2024 was the direct catalyst — knowing the policy meeting date and the tightening bias in advance allows exiting carry positions before the global sell-off spread on Monday, Aug 5."
+    },
+    "pitfalls": {
+      "vi": "Biến động cực đoan trong một phiên khiến việc giao dịch theo thời gian thực gần như bất khả thi với nhà đầu tư cá nhân — chỉ số VIX và chỉ số biến động Nikkei tăng vọt lên mức chỉ thấy trong các cuộc khủng hoảng.",
+      "en": "The single-day volatility was so extreme that real-time trading was nearly impossible for retail investors — the VIX and Nikkei volatility index spiked to crisis-only levels."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Nikkei 225 giảm bao nhiêu phần trăm trong phiên 5/8/2024?",
+        "en": "By what percentage did the Nikkei 225 fall on Aug 5, 2024?"
+      },
+      "choices": [
+        {
+          "vi": "Khoảng 5%",
+          "en": "About 5%"
+        },
+        {
+          "vi": "Khoảng 12,4%",
+          "en": "About 12.4%"
+        },
+        {
+          "vi": "Khoảng 20%",
+          "en": "About 20%"
+        },
+        {
+          "vi": "Khoảng 30%",
+          "en": "About 30%"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Nikkei giảm 12,4% ngày 5/8/2024, mức giảm phần trăm lớn nhất kể từ Black Monday tháng 10/1987, theo Reuters.",
+        "en": "The Nikkei fell 12.4% on Aug 5, 2024, its largest percentage drop since the October 1987 Black Monday crash, per Reuters."
+      }
+    },
+    "sources": [
+      {
+        "title": "Reuters (via Japan News/Yomiuri): Japan's Nikkei Plummets 13% in Biggest Rout Since 1987",
+        "url": "https://japannews.yomiuri.co.jp/news-services/reuters/20240805-202848"
+      },
+      {
+        "title": "BIS Bulletin: The market turbulence and carry trade unwind of August 2024",
+        "url": "https://bis.org/publications/bulletin-90-market-turbulence-and-carry-trade-unwind-august-2024.pdf"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed Aug 5, 2024 12.4% Nikkei drop, the 4,451.28-point record loss, the 31,458.42 close, and the July 11 peak of 42,426.77 via Reuters/Yomiuri and corroborated by the BIS bulletin on the carry trade unwind."
+  }
+]

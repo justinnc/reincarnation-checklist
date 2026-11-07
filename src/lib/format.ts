@@ -5,9 +5,12 @@ export function formatMoney(value: number, currency: string, lang: Locale) {
   if (value >= 1_000_000) {
     // Compact with words ("10 triệu", "1.2 million") reads better than "10 Tr ₫".
     const n = new Intl.NumberFormat(loc, { notation: "compact", compactDisplay: "long", maximumFractionDigits: 1 }).format(value);
-    if (currency === "USD") return `$${n}`;
-    if (currency === "VND") return `${n} ₫`;
-    return `${n} ${currency}`;
+    const symbols: Record<string, [string, string]> = {
+      USD: ["$", ""], VND: ["", " ₫"], EUR: ["€", ""], GBP: ["£", ""], JPY: ["¥", ""], CNY: ["¥", ""],
+      INR: ["₹", ""], CAD: ["C$", ""], BRL: ["R$", ""],
+    };
+    const [pre, post] = symbols[currency] ?? ["", ` ${currency}`];
+    return `${pre}${n}${post}`;
   }
   return new Intl.NumberFormat(loc, { style: "currency", currency, maximumFractionDigits: 0 }).format(value);
 }
@@ -26,4 +29,9 @@ export function formatDate(date: string, lang: Locale) {
   return new Intl.DateTimeFormat(intlLocale(lang), { ...opts, timeZone: "UTC" }).format(
     new Date(Date.UTC(y, (m ?? 1) - 1, d ?? 1)),
   );
+}
+
+/** Percent change for a multiple, e.g. 0.0122 -> "−98.8%" */
+export function formatDrop(x: number, lang: Locale) {
+  return new Intl.NumberFormat(intlLocale(lang), { style: "percent", maximumFractionDigits: 1, signDisplay: "always" }).format(x - 1);
 }

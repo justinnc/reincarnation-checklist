@@ -2,7 +2,7 @@
 
 > Chuyển sinh về quá khứ với toàn bộ ký ức — bạn sẽ làm gì để giàu?
 
-Trang web tổng hợp các mốc lịch sử theo từng quốc gia mà một người "chuyển sinh" có thể tận dụng để kiếm tiền: **mua gì, khi nào mua, khi nào bán, lời bao nhiêu**. Bắt đầu với 🇻🇳 Việt Nam và 🇺🇸 Mỹ.
+Trang web tổng hợp các mốc lịch sử theo từng quốc gia mà một người "chuyển sinh" có thể tận dụng để kiếm tiền: **mua gì, khi nào mua, khi nào bán, lời bao nhiêu**. Gồm 🇻🇳 Việt Nam và 10 nền kinh tế lớn nhất thế giới theo GDP (IMF).
 
 ## Chạy local
 
@@ -76,7 +76,8 @@ Thêm object vào `src/data/milestones/<country>.json`:
 
 - [x] MVP: timeline VN + Mỹ, lọc danh mục, tìm kiếm, song ngữ
 - [x] v0.2: DESIGN.md, chọn năm trọng sinh, checklist cá nhân, trang chi tiết, bảng xếp hạng, quiz, 53 mốc (51 đã kiểm chứng) — xem `docs/REVIEW.md`
-- [ ] Mở rộng lên 50+ mốc/quốc gia, thêm quốc gia mới
+- [x] v0.3: thêm 9 nước top 10 GDP (Trung Quốc, Đức, Nhật, Ấn Độ, Anh, Pháp, Ý, Canada, Brazil) — tổng 252 mốc; mốc "bán khống/tránh xa" hiển thị % giảm
+- [ ] Thêm quốc gia mới (spec nghiên cứu mẫu: `docs/research-specs/`)
 - [ ] SEO: OG image cho từng mốc, sitemap
 - [ ] Chia sẻ điểm quiz / checklist lên mạng xã hội
 - [ ] Deploy Vercel
