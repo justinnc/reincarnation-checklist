@@ -1,0 +1,274 @@
+[
+  {
+    "id": "vn-doi-moi",
+    "country": "vn",
+    "date": "1986-12",
+    "category": "macro",
+    "title": {
+      "vi": "Đổi Mới",
+      "en": "Đổi Mới reforms"
+    },
+    "description": {
+      "vi": "Đại hội VI của Đảng khởi xướng công cuộc Đổi Mới, chuyển sang kinh tế thị trường.",
+      "en": "The 6th Party Congress launches Đổi Mới, shifting Vietnam toward a market economy."
+    },
+    "opportunity": {
+      "action": {
+        "vi": "Gom đất ở các thành phố lớn (TP.HCM, Hà Nội) và mở kinh doanh tư nhân sớm.",
+        "en": "Accumulate land in major cities (HCMC, Hanoi) and start a private business early."
+      },
+      "buyWhen": {
+        "vi": "Cuối thập niên 1980 – đầu 1990",
+        "en": "Late 1980s – early 1990s"
+      },
+      "sellWhen": {
+        "vi": "Giữ dài hạn",
+        "en": "Hold long term"
+      },
+      "estimatedReturn": {
+        "vi": "Rất lớn (khó định lượng)",
+        "en": "Very large (hard to quantify)"
+      }
+    },
+    "sources": [
+      {
+        "title": "Đổi Mới – Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/%C4%90%E1%BB%95i_M%E1%BB%9Bi"
+      }
+    ],
+    "verified": false
+  },
+  {
+    "id": "vn-us-embargo",
+    "country": "vn",
+    "date": "1994-02-03",
+    "category": "macro",
+    "title": {
+      "vi": "Mỹ dỡ bỏ cấm vận",
+      "en": "US lifts trade embargo"
+    },
+    "description": {
+      "vi": "Tổng thống Bill Clinton dỡ bỏ lệnh cấm vận thương mại với Việt Nam.",
+      "en": "President Bill Clinton lifts the US trade embargo on Vietnam."
+    },
+    "opportunity": {
+      "action": {
+        "vi": "Đón đầu làn sóng FDI: kinh doanh xuất nhập khẩu, đất gần khu công nghiệp.",
+        "en": "Front-run the FDI wave: import/export, land near industrial zones."
+      },
+      "buyWhen": {
+        "vi": "Đầu 1994",
+        "en": "Early 1994"
+      },
+      "estimatedReturn": {
+        "vi": "Phụ thuộc lĩnh vực",
+        "en": "Depends on the sector"
+      }
+    },
+    "sources": [
+      {
+        "title": "United States–Vietnam relations – Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/United_States%E2%80%93Vietnam_relations"
+      }
+    ],
+    "verified": false
+  },
+  {
+    "id": "vn-stock-exchange",
+    "country": "vn",
+    "date": "2000-07-28",
+    "category": "stocks",
+    "title": {
+      "vi": "Phiên giao dịch chứng khoán đầu tiên",
+      "en": "First stock trading session"
+    },
+    "description": {
+      "vi": "Trung tâm Giao dịch Chứng khoán TP.HCM (nay là HOSE) có phiên giao dịch đầu tiên với 2 mã REE và SAM.",
+      "en": "The HCMC Securities Trading Center (now HOSE) holds its first session with two tickers: REE and SAM."
+    },
+    "opportunity": {
+      "action": {
+        "vi": "Mua các cổ phiếu niêm yết đầu tiên và các công ty đầu ngành khi niêm yết.",
+        "en": "Buy the first listed stocks and sector leaders as they list."
+      },
+      "buyWhen": {
+        "vi": "2000–2005",
+        "en": "2000–2005"
+      },
+      "sellWhen": {
+        "vi": "Trước đỉnh 2007",
+        "en": "Before the 2007 peak"
+      },
+      "estimatedReturn": {
+        "vi": "Nhiều lần",
+        "en": "Several-fold"
+      }
+    },
+    "sources": [
+      {
+        "title": "Ho Chi Minh City Stock Exchange – Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ho_Chi_Minh_City_Stock_Exchange"
+      }
+    ],
+    "verified": false
+  },
+  {
+    "id": "vn-vinamilk-listing",
+    "country": "vn",
+    "date": "2006-01-19",
+    "category": "stocks",
+    "title": {
+      "vi": "Vinamilk niêm yết",
+      "en": "Vinamilk lists on HOSE"
+    },
+    "description": {
+      "vi": "Vinamilk (VNM) niêm yết trên sàn HOSE.",
+      "en": "Vinamilk (VNM) lists on HOSE."
+    },
+    "opportunity": {
+      "action": {
+        "vi": "Mua cổ phiếu VNM — doanh nghiệp sữa đầu ngành, cổ tức đều.",
+        "en": "Buy VNM — the dairy leader with steady dividends."
+      },
+      "buyWhen": {
+        "vi": "Khi niêm yết",
+        "en": "At listing"
+      },
+      "sellWhen": {
+        "vi": "Giữ dài hạn (đỉnh khoảng 2017–2018)",
+        "en": "Hold long term (peaked around 2017–2018)"
+      },
+      "estimatedReturn": {
+        "vi": "Nhiều lần (bao gồm cổ tức)",
+        "en": "Several-fold (incl. dividends)"
+      }
+    },
+    "sources": [
+      {
+        "title": "Vinamilk – Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Vinamilk"
+      }
+    ],
+    "verified": false
+  },
+  {
+    "id": "vn-wto",
+    "country": "vn",
+    "date": "2007-01-11",
+    "category": "macro",
+    "title": {
+      "vi": "Việt Nam gia nhập WTO",
+      "en": "Vietnam joins the WTO"
+    },
+    "description": {
+      "vi": "Việt Nam chính thức trở thành thành viên thứ 150 của WTO; chứng khoán bùng nổ.",
+      "en": "Vietnam becomes the WTO's 150th member; the stock market booms."
+    },
+    "opportunity": {
+      "action": {
+        "vi": "Mua cổ phiếu năm 2006 và chốt lời trước khi thị trường sụp đổ.",
+        "en": "Buy stocks in 2006 and take profit before the crash."
+      },
+      "buyWhen": {
+        "vi": "Đầu 2006",
+        "en": "Early 2006"
+      },
+      "sellWhen": {
+        "vi": "Đỉnh VN-Index tháng 3/2007 (~1.170 điểm)",
+        "en": "VN-Index peak March 2007 (~1,170)"
+      },
+      "estimatedReturn": {
+        "vi": "VN-Index tăng khoảng 3–4 lần",
+        "en": "VN-Index rose roughly 3–4x"
+      },
+      "returnMultiple": 3
+    },
+    "sources": [
+      {
+        "title": "Vietnam and the WTO – WTO",
+        "url": "https://www.wto.org/english/thewto_e/countries_e/vietnam_e.htm"
+      }
+    ],
+    "verified": false
+  },
+  {
+    "id": "vn-2009-bottom",
+    "country": "vn",
+    "date": "2009-02-24",
+    "category": "stocks",
+    "title": {
+      "vi": "VN-Index chạm đáy sau khủng hoảng",
+      "en": "VN-Index bottoms after the crisis"
+    },
+    "description": {
+      "vi": "Sau khủng hoảng 2008, VN-Index rơi xuống vùng ~235 điểm.",
+      "en": "After the 2008 crisis, the VN-Index falls to around 235."
+    },
+    "opportunity": {
+      "action": {
+        "vi": "Mua cổ phiếu đầu ngành / quỹ chỉ số tại đáy.",
+        "en": "Buy blue chips / index funds at the bottom."
+      },
+      "buyWhen": {
+        "vi": "Tháng 2–3/2009",
+        "en": "Feb–Mar 2009"
+      },
+      "sellWhen": {
+        "vi": "Cuối 2009 (VN-Index ~600) hoặc giữ dài hạn",
+        "en": "Late 2009 (VN-Index ~600) or hold long term"
+      },
+      "estimatedReturn": {
+        "vi": "Hơn 2 lần trong vài tháng",
+        "en": "Over 2x within months"
+      },
+      "returnMultiple": 2
+    },
+    "sources": [
+      {
+        "title": "VN-Index – Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/VN-Index"
+      }
+    ],
+    "verified": false
+  },
+  {
+    "id": "vn-covid-2020",
+    "country": "vn",
+    "date": "2020-03-24",
+    "category": "stocks",
+    "title": {
+      "vi": "Đáy COVID-19 & sóng F0",
+      "en": "COVID-19 bottom & retail-investor wave"
+    },
+    "description": {
+      "vi": "VN-Index giảm về vùng ~660 điểm do COVID, sau đó làn sóng nhà đầu tư mới (F0) đẩy chỉ số lên đỉnh ~1.528 đầu 2022.",
+      "en": "The VN-Index drops to ~660 on COVID, then a wave of new retail investors pushes it to ~1,528 in early 2022."
+    },
+    "opportunity": {
+      "action": {
+        "vi": "Mua cổ phiếu ngân hàng, thép, chứng khoán.",
+        "en": "Buy banks, steel and brokerage stocks."
+      },
+      "buyWhen": {
+        "vi": "Cuối tháng 3/2020",
+        "en": "Late March 2020"
+      },
+      "sellWhen": {
+        "vi": "Đầu tháng 1/2022",
+        "en": "Early January 2022"
+      },
+      "estimatedReturn": {
+        "vi": "VN-Index ~2,3 lần; nhiều mã tăng 5–10 lần",
+        "en": "VN-Index ~2.3x; many stocks 5–10x"
+      },
+      "returnMultiple": 2.3
+    },
+    "sources": [
+      {
+        "title": "VN-Index – Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/VN-Index"
+      }
+    ],
+    "verified": false
+  }
+]

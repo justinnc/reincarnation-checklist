@@ -1,0 +1,403 @@
+[
+  {
+    "id": "us-apple-ipo",
+    "country": "us",
+    "date": "1980-12-12",
+    "category": "stocks",
+    "title": {
+      "vi": "Apple IPO",
+      "en": "Apple IPO"
+    },
+    "description": {
+      "vi": "Apple niêm yết trên NASDAQ với giá 22 USD/cổ phiếu.",
+      "en": "Apple lists on NASDAQ at $22 per share."
+    },
+    "opportunity": {
+      "action": {
+        "vi": "Mua cổ phiếu Apple (AAPL) và giữ dài hạn, đặc biệt tăng tỷ trọng khi Steve Jobs quay lại (1997).",
+        "en": "Buy Apple (AAPL) and hold long term; add more when Steve Jobs returns (1997)."
+      },
+      "buyWhen": {
+        "vi": "Ngày IPO hoặc giai đoạn 1997–2003 khi giá rất thấp",
+        "en": "IPO day, or 1997–2003 when the price was very low"
+      },
+      "sellWhen": {
+        "vi": "Giữ đến nay",
+        "en": "Hold to today"
+      },
+      "estimatedReturn": {
+        "vi": "Hơn 1.000 lần (đã điều chỉnh chia tách)",
+        "en": "Over 1,000x (split-adjusted)"
+      },
+      "returnMultiple": 1000
+    },
+    "sources": [
+      {
+        "title": "Apple Inc. – Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Apple_Inc."
+      }
+    ],
+    "verified": false
+  },
+  {
+    "id": "us-microsoft-ipo",
+    "country": "us",
+    "date": "1986-03-13",
+    "category": "stocks",
+    "title": {
+      "vi": "Microsoft IPO",
+      "en": "Microsoft IPO"
+    },
+    "description": {
+      "vi": "Microsoft IPO với giá 21 USD/cổ phiếu.",
+      "en": "Microsoft goes public at $21 per share."
+    },
+    "opportunity": {
+      "action": {
+        "vi": "Mua cổ phiếu Microsoft (MSFT).",
+        "en": "Buy Microsoft (MSFT)."
+      },
+      "buyWhen": {
+        "vi": "Ngày IPO",
+        "en": "IPO day"
+      },
+      "sellWhen": {
+        "vi": "Giữ đến nay",
+        "en": "Hold to today"
+      },
+      "estimatedReturn": {
+        "vi": "Hơn 1.000 lần (đã điều chỉnh chia tách)",
+        "en": "Over 1,000x (split-adjusted)"
+      },
+      "returnMultiple": 1000
+    },
+    "sources": [
+      {
+        "title": "Microsoft – Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Microsoft"
+      }
+    ],
+    "verified": false
+  },
+  {
+    "id": "us-amazon-ipo",
+    "country": "us",
+    "date": "1997-05-15",
+    "category": "stocks",
+    "title": {
+      "vi": "Amazon IPO",
+      "en": "Amazon IPO"
+    },
+    "description": {
+      "vi": "Amazon IPO với giá 18 USD/cổ phiếu khi còn là hiệu sách online.",
+      "en": "Amazon IPOs at $18 per share while still an online bookstore."
+    },
+    "opportunity": {
+      "action": {
+        "vi": "Mua cổ phiếu Amazon (AMZN); mua thêm sau khi bong bóng dot-com vỡ (2001).",
+        "en": "Buy Amazon (AMZN); buy more after the dot-com crash (2001)."
+      },
+      "buyWhen": {
+        "vi": "Ngày IPO hoặc 2001",
+        "en": "IPO day or 2001"
+      },
+      "sellWhen": {
+        "vi": "Giữ đến nay",
+        "en": "Hold to today"
+      },
+      "estimatedReturn": {
+        "vi": "Hơn 1.000 lần (đã điều chỉnh chia tách)",
+        "en": "Over 1,000x (split-adjusted)"
+      },
+      "returnMultiple": 1000
+    },
+    "sources": [
+      {
+        "title": "Amazon – Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Amazon_(company)"
+      }
+    ],
+    "verified": false
+  },
+  {
+    "id": "us-nvidia-ipo",
+    "country": "us",
+    "date": "1999-01-22",
+    "category": "stocks",
+    "title": {
+      "vi": "Nvidia IPO",
+      "en": "Nvidia IPO"
+    },
+    "description": {
+      "vi": "Nvidia IPO với giá 12 USD/cổ phiếu.",
+      "en": "Nvidia IPOs at $12 per share."
+    },
+    "opportunity": {
+      "action": {
+        "vi": "Mua Nvidia (NVDA) — hưởng lợi từ GPU, crypto mining rồi AI.",
+        "en": "Buy Nvidia (NVDA) — rides GPUs, crypto mining, then AI."
+      },
+      "buyWhen": {
+        "vi": "Ngày IPO, hoặc bất kỳ lúc nào trước 2016",
+        "en": "IPO day, or any time before 2016"
+      },
+      "sellWhen": {
+        "vi": "Giữ đến nay",
+        "en": "Hold to today"
+      },
+      "estimatedReturn": {
+        "vi": "Hơn 1.000 lần (đã điều chỉnh chia tách)",
+        "en": "Over 1,000x (split-adjusted)"
+      },
+      "returnMultiple": 1000
+    },
+    "sources": [
+      {
+        "title": "Nvidia – Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Nvidia"
+      }
+    ],
+    "verified": false
+  },
+  {
+    "id": "us-google-ipo",
+    "country": "us",
+    "date": "2004-08-19",
+    "category": "stocks",
+    "title": {
+      "vi": "Google IPO",
+      "en": "Google IPO"
+    },
+    "description": {
+      "vi": "Google IPO với giá 85 USD/cổ phiếu.",
+      "en": "Google IPOs at $85 per share."
+    },
+    "opportunity": {
+      "action": {
+        "vi": "Mua cổ phiếu Google (nay là Alphabet – GOOGL).",
+        "en": "Buy Google (now Alphabet – GOOGL)."
+      },
+      "buyWhen": {
+        "vi": "Ngày IPO",
+        "en": "IPO day"
+      },
+      "sellWhen": {
+        "vi": "Giữ đến nay",
+        "en": "Hold to today"
+      },
+      "estimatedReturn": {
+        "vi": "Hàng chục lần",
+        "en": "Dozens of times"
+      }
+    },
+    "sources": [
+      {
+        "title": "Google – Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Google"
+      }
+    ],
+    "verified": false
+  },
+  {
+    "id": "us-lehman-2008",
+    "country": "us",
+    "date": "2008-09-15",
+    "category": "macro",
+    "title": {
+      "vi": "Lehman Brothers phá sản",
+      "en": "Lehman Brothers collapses"
+    },
+    "description": {
+      "vi": "Lehman Brothers nộp đơn phá sản, khủng hoảng tài chính toàn cầu bùng nổ.",
+      "en": "Lehman Brothers files for bankruptcy, triggering the global financial crisis."
+    },
+    "opportunity": {
+      "action": {
+        "vi": "Bán cổ phiếu trước khủng hoảng; mua quỹ chỉ số S&P 500 tại đáy.",
+        "en": "Sell stocks before the crisis; buy an S&P 500 index fund at the bottom."
+      },
+      "buyWhen": {
+        "vi": "Đáy thị trường tháng 3/2009 (S&P 500 ~666 điểm)",
+        "en": "Market bottom March 2009 (S&P 500 ~666)"
+      },
+      "sellWhen": {
+        "vi": "Giữ dài hạn",
+        "en": "Hold long term"
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng 7–8 lần (chưa tính cổ tức)",
+        "en": "Roughly 7–8x (excluding dividends)"
+      },
+      "returnMultiple": 7
+    },
+    "sources": [
+      {
+        "title": "Bankruptcy of Lehman Brothers – Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Bankruptcy_of_Lehman_Brothers"
+      },
+      {
+        "title": "2008 financial crisis – Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2008_financial_crisis"
+      }
+    ],
+    "verified": false
+  },
+  {
+    "id": "us-bitcoin-pizza",
+    "country": "us",
+    "date": "2010-05-22",
+    "category": "crypto",
+    "title": {
+      "vi": "Bitcoin Pizza Day",
+      "en": "Bitcoin Pizza Day"
+    },
+    "description": {
+      "vi": "Laszlo Hanyecz trả 10.000 BTC cho hai chiếc pizza — giao dịch thực tế đầu tiên bằng Bitcoin.",
+      "en": "Laszlo Hanyecz pays 10,000 BTC for two pizzas — the first real-world Bitcoin purchase."
+    },
+    "opportunity": {
+      "action": {
+        "vi": "Mua và tự lưu trữ Bitcoin (giữ private key an toàn!).",
+        "en": "Buy and self-custody Bitcoin (keep your private keys safe!)."
+      },
+      "buyWhen": {
+        "vi": "2010–2012, khi giá dưới vài USD",
+        "en": "2010–2012, while under a few dollars"
+      },
+      "sellWhen": {
+        "vi": "Đỉnh chu kỳ hoặc giữ đến nay",
+        "en": "Cycle tops or hold to today"
+      },
+      "estimatedReturn": {
+        "vi": "Hàng chục nghìn lần trở lên",
+        "en": "Tens of thousands of times or more"
+      },
+      "returnMultiple": 10000
+    },
+    "sources": [
+      {
+        "title": "Bitcoin – Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Bitcoin"
+      }
+    ],
+    "verified": false
+  },
+  {
+    "id": "us-facebook-ipo",
+    "country": "us",
+    "date": "2012-05-18",
+    "category": "stocks",
+    "title": {
+      "vi": "Facebook IPO",
+      "en": "Facebook IPO"
+    },
+    "description": {
+      "vi": "Facebook IPO với giá 38 USD, rồi giảm mạnh xuống dưới 20 USD trong vài tháng sau.",
+      "en": "Facebook IPOs at $38, then falls below $20 within months."
+    },
+    "opportunity": {
+      "action": {
+        "vi": "Mua Facebook (nay là Meta – META) khi giá giảm sau IPO.",
+        "en": "Buy Facebook (now Meta – META) during the post-IPO slump."
+      },
+      "buyWhen": {
+        "vi": "Cuối 2012",
+        "en": "Late 2012"
+      },
+      "sellWhen": {
+        "vi": "Giữ dài hạn",
+        "en": "Hold long term"
+      },
+      "estimatedReturn": {
+        "vi": "Hàng chục lần",
+        "en": "Dozens of times"
+      }
+    },
+    "sources": [
+      {
+        "title": "Meta Platforms – Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Meta_Platforms"
+      }
+    ],
+    "verified": false
+  },
+  {
+    "id": "us-covid-crash",
+    "country": "us",
+    "date": "2020-03-23",
+    "category": "macro",
+    "title": {
+      "vi": "Đáy thị trường do COVID-19",
+      "en": "COVID-19 market bottom"
+    },
+    "description": {
+      "vi": "Thị trường chứng khoán Mỹ lao dốc mạnh vì COVID-19 rồi hồi phục nhanh kỷ lục.",
+      "en": "US stocks crash on COVID-19 fears, then stage a record-fast recovery."
+    },
+    "opportunity": {
+      "action": {
+        "vi": "Mua quỹ chỉ số S&P 500 / NASDAQ và cổ phiếu công nghệ, thương mại điện tử.",
+        "en": "Buy S&P 500 / NASDAQ index funds and tech, e-commerce stocks."
+      },
+      "buyWhen": {
+        "vi": "Cuối tháng 3/2020",
+        "en": "Late March 2020"
+      },
+      "sellWhen": {
+        "vi": "Giữ dài hạn",
+        "en": "Hold long term"
+      },
+      "estimatedReturn": {
+        "vi": "S&P 500 lập đỉnh mới chỉ sau ~5 tháng",
+        "en": "S&P 500 hit new highs within ~5 months"
+      },
+      "returnMultiple": 2
+    },
+    "sources": [
+      {
+        "title": "2020 stock market crash – Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2020_stock_market_crash"
+      }
+    ],
+    "verified": false
+  },
+  {
+    "id": "us-chatgpt",
+    "country": "us",
+    "date": "2022-11-30",
+    "category": "technology",
+    "title": {
+      "vi": "OpenAI ra mắt ChatGPT",
+      "en": "OpenAI launches ChatGPT"
+    },
+    "description": {
+      "vi": "ChatGPT ra mắt, mở đầu cơn sốt AI tạo sinh.",
+      "en": "ChatGPT launches, kicking off the generative-AI boom."
+    },
+    "opportunity": {
+      "action": {
+        "vi": "Mua cổ phiếu hưởng lợi từ AI, đặc biệt Nvidia (NVDA).",
+        "en": "Buy AI beneficiaries, especially Nvidia (NVDA)."
+      },
+      "buyWhen": {
+        "vi": "Cuối 2022",
+        "en": "Late 2022"
+      },
+      "sellWhen": {
+        "vi": "Giữ dài hạn",
+        "en": "Hold long term"
+      },
+      "estimatedReturn": {
+        "vi": "Nvidia tăng nhiều lần trong 2023–2024",
+        "en": "Nvidia rose several-fold in 2023–2024"
+      }
+    },
+    "sources": [
+      {
+        "title": "ChatGPT – Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/ChatGPT"
+      }
+    ],
+    "verified": false
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "site": {
+    "name": "The Reincarnation Checklist",
+    "tagline": "Chuyển sinh về quá khứ với toàn bộ ký ức — đây là danh sách những gì cần làm để giàu.",
+    "disclaimer": "Nội dung mang tính giải trí/giáo dục, không phải lời khuyên đầu tư. Lợi nhuận ước tính là xấp xỉ."
+  },
+  "nav": {
+    "quiz": "Mini game"
+  },
+  "home": {
+    "heading": "Nếu được sống lại, bạn sẽ làm gì?",
+    "intro": "Tổng hợp các mốc lịch sử theo từng quốc gia mà người “chuyển sinh” có thể tận dụng để kiếm tiền — mua gì, khi nào mua, khi nào bán.",
+    "chooseCountry": "Chọn quốc gia",
+    "milestones": "mốc lịch sử"
+  },
+  "timeline": {
+    "search": "Tìm kiếm...",
+    "all": "Tất cả",
+    "empty": "Không có mốc nào phù hợp.",
+    "opportunity": "Cơ hội",
+    "buyWhen": "Thời điểm vào",
+    "sellWhen": "Thời điểm ra",
+    "estimatedReturn": "Lợi nhuận ước tính",
+    "sources": "Nguồn",
+    "unverified": "Chưa kiểm chứng",
+    "categories": {
+      "stocks": "Chứng khoán",
+      "crypto": "Crypto",
+      "real-estate": "Bất động sản",
+      "technology": "Công nghệ",
+      "business": "Kinh doanh",
+      "macro": "Vĩ mô",
+      "commodities": "Hàng hoá"
+    }
+  },
+  "quiz": {
+    "heading": "Mini game: Bạn có sẵn sàng chuyển sinh?",
+    "comingSoon": "Sắp ra mắt — trả lời câu hỏi trắc nghiệm để kiểm tra kiến thức lịch sử kiếm tiền của bạn."
+  }
+}

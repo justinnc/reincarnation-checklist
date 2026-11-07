@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# The Reincarnation Checklist ⏳
 
-## Getting Started
+> Chuyển sinh về quá khứ với toàn bộ ký ức — bạn sẽ làm gì để giàu?
 
-First, run the development server:
+Trang web tổng hợp các mốc lịch sử theo từng quốc gia mà một người "chuyển sinh" có thể tận dụng để kiếm tiền: **mua gì, khi nào mua, khi nào bán, lời bao nhiêu**. Bắt đầu với 🇻🇳 Việt Nam và 🇺🇸 Mỹ.
+
+## Chạy local
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+nvm use        # Node 24 (xem .nvmrc) — Node < 22.12 sẽ lỗi build
+npm install
+npm run dev    # http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Công nghệ
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Next.js 16 (App Router, Cache Components) + TypeScript + Tailwind CSS 4
+- Dữ liệu: file JSON trong repo — **chưa cần database**
+- i18n: route `/[lang]/...` (`vi`, `en`), tự redirect theo `Accept-Language` trong `src/proxy.ts`
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Cấu trúc
 
-## Learn More
+```
+src/
+  app/[lang]/              # layout, trang chủ
+  app/[lang]/[country]/    # timeline theo quốc gia
+  app/[lang]/quiz/         # mini game (sắp có)
+  components/Timeline.tsx  # lọc theo danh mục + tìm kiếm (client)
+  data/milestones/*.json   # DỮ LIỆU các mốc lịch sử, mỗi quốc gia 1 file
+  dictionaries/*.json      # chữ trên giao diện theo ngôn ngữ
+  lib/types.ts             # schema của 1 mốc lịch sử
+  lib/data.ts              # danh sách quốc gia + đọc dữ liệu
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Thêm một mốc lịch sử
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Thêm object vào `src/data/milestones/<country>.json`:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```json
+{
+  "id": "us-apple-ipo",
+  "country": "us",
+  "date": "1980-12-12",
+  "category": "stocks",
+  "title": { "vi": "...", "en": "..." },
+  "description": { "vi": "...", "en": "..." },
+  "opportunity": {
+    "action": { "vi": "...", "en": "..." },
+    "buyWhen": { "vi": "...", "en": "..." },
+    "sellWhen": { "vi": "...", "en": "..." },
+    "estimatedReturn": { "vi": "...", "en": "..." },
+    "returnMultiple": 1000
+  },
+  "sources": [{ "title": "...", "url": "https://..." }],
+  "verified": false
+}
+```
 
-## Deploy on Vercel
+- `category`: `stocks | crypto | real-estate | technology | business | macro | commodities`
+- `date`: `YYYY`, `YYYY-MM` hoặc `YYYY-MM-DD`
+- `verified`: để `false` cho tới khi đã đối chiếu nguồn (UI hiện nhãn "Chưa kiểm chứng")
+- Text thiếu ngôn ngữ nào sẽ fallback sang `en`.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Thêm quốc gia / ngôn ngữ
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Quốc gia: tạo `src/data/milestones/<code>.json`, import và thêm vào `countries` trong `src/lib/data.ts`.
+- Ngôn ngữ: thêm mã vào `locales` (`src/lib/i18n.ts`), tạo `src/dictionaries/<code>.json`, đăng ký trong `src/lib/dictionaries.ts`.
+
+## Roadmap
+
+- [x] MVP: timeline VN + Mỹ, lọc danh mục, tìm kiếm, song ngữ
+- [ ] Kiểm chứng toàn bộ dữ liệu mẫu (đang `verified: false`) và mở rộng lên 50+ mốc/quốc gia
+- [ ] Trang chi tiết từng mốc + SEO (metadata, OG image) + sắp xếp theo lợi nhuận
+- [ ] Mini game trắc nghiệm: sinh câu hỏi từ dữ liệu mốc ("Năm nào Apple IPO?", "Mua gì lời nhất năm 2009?")
+- [ ] Nút đổi ngôn ngữ giữ nguyên trang hiện tại
+- [ ] Deploy Vercel
+- [ ] (Khi cần) Database: chỉ khi có tài khoản, bảng xếp hạng mini game, hoặc cho người dùng đóng góp dữ liệu
+
+⚠️ Nội dung mang tính giải trí/giáo dục, không phải lời khuyên đầu tư.
