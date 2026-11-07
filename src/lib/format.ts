@@ -1,14 +1,15 @@
 import { intlLocale, type Locale } from "./i18n";
 
 export function formatMoney(value: number, currency: string, lang: Locale) {
-  const compact = value >= 1_000_000;
-  return new Intl.NumberFormat(intlLocale(lang), {
-    style: "currency",
-    currency,
-    notation: compact ? "compact" : "standard",
-    compactDisplay: lang === "vi" ? "long" : "short",
-    maximumFractionDigits: compact ? 1 : 0,
-  }).format(value);
+  const loc = intlLocale(lang);
+  if (value >= 1_000_000) {
+    // Compact with words ("10 triệu", "1.2 million") reads better than "10 Tr ₫".
+    const n = new Intl.NumberFormat(loc, { notation: "compact", compactDisplay: "long", maximumFractionDigits: 1 }).format(value);
+    if (currency === "USD") return `$${n}`;
+    if (currency === "VND") return `${n} ₫`;
+    return `${n} ${currency}`;
+  }
+  return new Intl.NumberFormat(loc, { style: "currency", currency, maximumFractionDigits: 0 }).format(value);
 }
 
 export function formatMultiple(x: number, lang: Locale) {

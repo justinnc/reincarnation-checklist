@@ -27,7 +27,15 @@ export default function Quiz({ questions, countries, lang, dict }: { questions: 
 
   const start = () => {
     const src = questions.filter((q) => pool === "all" || q.country === pool);
-    setRound(shuffle(src).slice(0, ROUND));
+    // Shuffle answer order each round so the correct answer is not always in the same slot.
+    setRound(
+      shuffle(src)
+        .slice(0, ROUND)
+        .map((q) => {
+          const order = shuffle(q.quiz.choices.map((_, i) => i));
+          return { ...q, quiz: { ...q.quiz, choices: order.map((i) => q.quiz.choices[i]), answer: order.indexOf(q.quiz.answer) } };
+        }),
+    );
     setIndex(0);
     setPicked(null);
     setScore(0);

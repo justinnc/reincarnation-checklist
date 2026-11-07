@@ -1,274 +1,2449 @@
 [
   {
-    "id": "vn-doi-moi",
+    "id": "vn-doi-moi-1986",
     "country": "vn",
-    "date": "1986-12",
+    "date": "1986-12-18",
     "category": "macro",
     "title": {
-      "vi": "Đổi Mới",
-      "en": "Đổi Mới reforms"
+      "vi": "Đổi Mới: Việt Nam mở cửa kinh tế",
+      "en": "Đổi Mới: Vietnam Opens Its Economy"
+    },
+    "summary": {
+      "vi": "Đại hội Đảng lần VI khai tử kinh tế bao cấp, khai sinh kinh tế thị trường.",
+      "en": "The 6th Party Congress ends central planning and launches a market economy."
     },
     "description": {
-      "vi": "Đại hội VI của Đảng khởi xướng công cuộc Đổi Mới, chuyển sang kinh tế thị trường.",
-      "en": "The 6th Party Congress launches Đổi Mới, shifting Vietnam toward a market economy."
+      "vi": "Từ 15-18/12/1986, Đại hội Đảng Cộng sản Việt Nam lần thứ VI tại Hà Nội thông qua chính sách “Đổi Mới”, chấm dứt mô hình kinh tế kế hoạch hóa tập trung, cho phép kinh tế tư nhân, kinh tế nhiều thành phần và từng bước mở cửa với thế giới. Đây là điểm khởi đầu cho ba thập kỷ tăng trưởng của Việt Nam.",
+      "en": "From 15-18 December 1986, the 6th National Congress of the Communist Party of Vietnam in Hanoi adopted “Đổi Mới” (Renovation), ending central planning, legalizing private enterprise and a multi-sector economy, and opening the door to foreign trade. It is the starting gun for three decades of Vietnamese growth."
     },
     "opportunity": {
+      "asset": "Private business licenses / small trading",
       "action": {
-        "vi": "Gom đất ở các thành phố lớn (TP.HCM, Hà Nội) và mở kinh doanh tư nhân sớm.",
-        "en": "Accumulate land in major cities (HCMC, Hanoi) and start a private business early."
+        "vi": "Mở cửa hàng tư nhân, tích trữ hàng hóa khan hiếm, bắt đầu buôn bán tự do ngay khi luật cho phép.",
+        "en": "Register a private shop or trading business the moment the law allows it, stockpile scarce goods."
       },
       "buyWhen": {
-        "vi": "Cuối thập niên 1980 – đầu 1990",
-        "en": "Late 1980s – early 1990s"
-      },
-      "sellWhen": {
-        "vi": "Giữ dài hạn",
-        "en": "Hold long term"
+        "vi": "Ngay sau tháng 12/1986 khi Đại hội VI công bố chính sách.",
+        "en": "Right after the December 1986 Congress announcement."
       },
       "estimatedReturn": {
-        "vi": "Rất lớn (khó định lượng)",
-        "en": "Very large (hard to quantify)"
+        "vi": "Không thể định lượng bằng tiền nhưng là nền tảng của mọi cơ hội làm giàu sau này ở Việt Nam.",
+        "en": "Not quantifiable in money terms, but the foundation for every money-making opportunity that follows in Vietnam."
+      },
+      "risk": "low",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Biết trước Đổi Mới sẽ thành công bền vững (không phải một đợt cải cách nửa vời rồi bị đảo ngược như từng xảy ra ở một số nước XHCN) để mạnh dạn đầu tư dài hạn ngay từ đầu thay vì chờ đợi.",
+      "en": "Knowing in advance that Đổi Mới will stick (unlike half-hearted reforms reversed elsewhere in the socialist bloc) lets you invest boldly early instead of waiting it out."
+    },
+    "pitfalls": {
+      "vi": "Vài năm đầu vẫn còn bất ổn, siêu lạm phát cuối thập niên 1980 (có lúc trên 300%/năm) ăn mòn tiền mặt; khung pháp lý cho tư nhân còn sơ khai và rủi ro chính sách cao.",
+      "en": "The late-1980s saw hyperinflation (over 300%/year at times) that eroded cash savings; the legal framework for private business was still primitive and policy risk was high."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Đổi Mới được thông qua tại Đại hội Đảng lần thứ mấy, vào tháng năm nào?",
+        "en": "At which Party Congress, and when, was Đổi Mới adopted?"
+      },
+      "choices": [
+        {
+          "vi": "Đại hội V, năm 1982",
+          "en": "5th Congress, 1982"
+        },
+        {
+          "vi": "Đại hội VI, tháng 12/1986",
+          "en": "6th Congress, December 1986"
+        },
+        {
+          "vi": "Đại hội VII, năm 1991",
+          "en": "7th Congress, 1991"
+        },
+        {
+          "vi": "Đại hội VIII, năm 1996",
+          "en": "8th Congress, 1996"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Đại hội Đảng Cộng sản Việt Nam lần thứ VI họp từ 15-18/12/1986 tại Hà Nội, bầu Nguyễn Văn Linh làm Tổng Bí thư và thông qua chính sách Đổi Mới.",
+        "en": "The 6th Party Congress met 15-18 December 1986 in Hanoi, elected Nguyễn Văn Linh as General Secretary, and adopted the Đổi Mới policy."
       }
     },
     "sources": [
       {
-        "title": "Đổi Mới – Wikipedia",
+        "title": "Đổi Mới - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/%C4%90%E1%BB%95i_M%E1%BB%9Bi"
+      },
+      {
+        "title": "6th National Congress of the Communist Party of Vietnam - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/6th_National_Congress_of_the_Communist_Party_of_Vietnam"
       }
     ],
-    "verified": false
+    "verified": true,
+    "verifiedNote": "Confirmed via Wikipedia: 6th Party Congress held 15-18 Dec 1986, adopted Đổi Mới reforms, elected Nguyễn Văn Linh."
   },
   {
-    "id": "vn-us-embargo",
+    "id": "vn-phu-my-hung-land",
+    "country": "vn",
+    "date": "1993-01-01",
+    "category": "real-estate",
+    "title": {
+      "vi": "Đất Phú Mỹ Hưng từ đầm lầy thành “Phố nhà giàu”",
+      "en": "Phu My Hung Land: From Swamp to Elite District"
+    },
+    "summary": {
+      "vi": "Đất đầm lầy Quận 7 giá chưa tới 1 triệu đồng/m² năm 1993 vọt lên hàng chục triệu, rồi hàng trăm triệu đồng/m².",
+      "en": "Swampland in District 7 worth under VND 1 million/m² in 1993 soars to tens then hundreds of millions per m²."
+    },
+    "description": {
+      "vi": "Năm 1993, Công ty Phú Mỹ Hưng được cấp phép phát triển khu đô thị mới tại vùng đầm lầy, phèn mặn thuộc huyện Nhà Bè (nay là Quận 7), khi đó đất gần như vô giá trị, dưới 1 triệu đồng/m². Nhờ đại lộ Nguyễn Văn Linh và quy hoạch bài bản, khu đô thị Phú Mỹ Hưng trở thành khu dân cư cao cấp bậc nhất TP.HCM, với giá đất tăng hàng trăm lần, căn hộ hiện có giá hơn 100 triệu đồng/m².",
+      "en": "In 1993, Phu My Hung Corp was licensed to develop a new urban district on swampy, saline land in Nha Be district (now District 7), where land was then nearly worthless, under VND 1 million/m². Thanks to the Nguyen Van Linh Boulevard and master planning, Phu My Hung became one of HCMC's most prestigious residential areas, with land prices up hundreds of times and apartments now priced above VND 100 million/m²."
+    },
+    "opportunity": {
+      "asset": "Đất nền/căn hộ khu Phú Mỹ Hưng, Quận 7, TP.HCM",
+      "action": {
+        "vi": "Mua đất hoặc căn hộ sớm tại khu vực Phú Mỹ Hưng/Quận 7 ngay từ đầu/giữa thập niên 1990 trước khi hạ tầng hoàn thiện.",
+        "en": "Buy land or apartments early in the Phu My Hung/District 7 area in the early-to-mid 1990s before infrastructure was completed."
+      },
+      "buyWhen": {
+        "vi": "Đầu đến giữa thập niên 1990, khi đất còn gần như cho không.",
+        "en": "Early to mid-1990s, when land was nearly given away."
+      },
+      "estimatedReturn": {
+        "vi": "Giá đất tăng từ dưới 1 triệu đồng/m2 (1993) lên hàng trăm triệu đồng/m2 hiện nay — tăng hàng trăm lần sau 30 năm.",
+        "en": "Land prices rose from under VND 1 million/m² (1993) to hundreds of millions per m² today — hundreds of times over 30 years."
+      },
+      "risk": "low",
+      "capital": "high",
+      "sellWhen": {
+        "vi": "Giữ dài hạn qua nhiều thập kỷ, hoặc chốt lời một phần ở các đỉnh giá 2007 và 2018-2019.",
+        "en": "Hold long-term across decades, or take partial profits at the 2007 and 2018-2019 price peaks."
+      }
+    },
+    "insiderTip": {
+      "vi": "Biết trước chính quyền TP.HCM sẽ quy hoạch bài bản và xây đại lộ Nguyễn Văn Linh xuyên khu vực, biến đầm lầy vô giá trị thành khu đô thị kiểu mẫu, giúp mua đất giá rẻ mạt từ 1993 mà không cần chờ xem quy hoạch có thành công hay không.",
+      "en": "Knowing HCMC would master-plan the area and build Nguyen Van Linh Boulevard through it, turning worthless swampland into a model new city, lets you buy dirt-cheap land in 1993 without waiting to see if the plan succeeds."
+    },
+    "pitfalls": {
+      "vi": "Mất nhiều năm hạ tầng mới hoàn thiện, thanh khoản thấp giai đoạn đầu, và nhà đầu tư cần vốn dài hạn kiên nhẫn hàng chục năm để hưởng trọn mức tăng giá.",
+      "en": "Infrastructure took years to complete, liquidity was low in the early years, and investors needed decades of patient long-term capital to capture the full price appreciation."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Khu đô thị Phú Mỹ Hưng được xây dựng trên nền đất nào trước năm 1993?",
+        "en": "What kind of land was Phu My Hung built on before 1993?"
+      },
+      "choices": [
+        {
+          "vi": "Đất nông nghiệp màu mỡ",
+          "en": "Fertile farmland"
+        },
+        {
+          "vi": "Vùng đầm lầy, phèn mặn gần như vô giá trị",
+          "en": "Nearly worthless swampy, saline land"
+        },
+        {
+          "vi": "Khu công nghiệp cũ",
+          "en": "A former industrial zone"
+        },
+        {
+          "vi": "Đất quân sự",
+          "en": "Military land"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Trước 1993, khu vực nay là Phú Mỹ Hưng (Quận 7) là vùng đầm lầy, phèn mặn, đất gần như không ai muốn mua, theo báo Thanh Niên và Tuổi Trẻ.",
+        "en": "Before 1993, the area now known as Phu My Hung (District 7) was swampy, saline land that almost no one wanted to buy, according to Thanh Nien and Tuoi Tre newspapers."
+      }
+    },
+    "sources": [
+      {
+        "title": "Thanh Niên: Ký sự Phú Mỹ Hưng",
+        "url": "https://thanhnien.vn/ky-su-phu-my-hung-ky-1-khi-to-giay-gap-duoc-danh-hoa-185466101.htm"
+      },
+      {
+        "title": "Tuổi Trẻ: Căn hộ trung tâm quận 7 tăng giá 20 năm qua",
+        "url": "https://tuoitre.vn/can-ho-trung-tam-quan-7-tang-gia-nhu-the-nao-trong-20-nam-qua-20200722182822231.htm"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed via Thanh Nien and Tuoi Tre: pre-1993 swampland under VND 1 million/m², later apartments priced above VND 100 million/m²."
+  },
+  {
+    "id": "vn-us-embargo-lift-1994",
     "country": "vn",
     "date": "1994-02-03",
     "category": "macro",
     "title": {
-      "vi": "Mỹ dỡ bỏ cấm vận",
-      "en": "US lifts trade embargo"
+      "vi": "Mỹ dỡ bỏ cấm vận thương mại Việt Nam",
+      "en": "US Lifts Trade Embargo on Vietnam"
+    },
+    "summary": {
+      "vi": "Tổng thống Clinton dỡ cấm vận 19 năm, mở đường hàng hóa và đầu tư Mỹ vào Việt Nam.",
+      "en": "President Clinton ends a 19-year embargo, opening the door to US goods and capital."
     },
     "description": {
-      "vi": "Tổng thống Bill Clinton dỡ bỏ lệnh cấm vận thương mại với Việt Nam.",
-      "en": "President Bill Clinton lifts the US trade embargo on Vietnam."
+      "vi": "Ngày 3/2/1994, Tổng thống Bill Clinton tuyên bố dỡ bỏ lệnh cấm vận thương mại đã áp đặt với Việt Nam từ sau năm 1975. Đây là bước đi đầu tiên hướng tới bình thường hóa, cho phép doanh nghiệp Mỹ bắt đầu giao dịch và đầu tư, tạo tiền đề cho sóng FDI và hàng tiêu dùng ngoại nhập tràn vào.",
+      "en": "On 3 February 1994, President Bill Clinton lifted the trade embargo imposed on Vietnam since 1975. It was the first concrete step toward normalization, letting US companies trade and invest and setting the stage for a wave of FDI and imported consumer goods."
     },
     "opportunity": {
+      "asset": "Cổ phần hoặc tài sản của công ty hướng ngoại, hàng tiêu dùng nhập khẩu",
       "action": {
-        "vi": "Đón đầu làn sóng FDI: kinh doanh xuất nhập khẩu, đất gần khu công nghiệp.",
-        "en": "Front-run the FDI wave: import/export, land near industrial zones."
+        "vi": "Nhập hàng tiêu dùng, linh kiện, đồ điện tử Mỹ để bán tại Việt Nam; chuẩn bị đón vốn FDI.",
+        "en": "Stock up on US consumer goods, electronics and parts to sell in Vietnam; position for the coming FDI wave."
       },
       "buyWhen": {
-        "vi": "Đầu 1994",
-        "en": "Early 1994"
+        "vi": "Ngay sau 3/2/1994.",
+        "en": "Right after 3 February 1994."
       },
       "estimatedReturn": {
-        "vi": "Phụ thuộc lĩnh vực",
-        "en": "Depends on the sector"
+        "vi": "Khó định lượng, nhưng là cú hích khởi đầu chu kỳ tăng trưởng thương mại kéo dài hàng thập kỷ.",
+        "en": "Hard to quantify, but it kicked off a trade growth cycle that lasted decades."
+      },
+      "risk": "low",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Clinton sẽ dỡ cấm vận đúng ngày 3/2/1994 (không phải bị trì hoãn thêm vì vấn đề POW/MIA) nên có thể nhập hàng/đặt quan hệ đối tác Mỹ sớm hơn đối thủ trong nước.",
+      "en": "Knowing Clinton lifts the embargo exactly on 3 Feb 1994 (not delayed further by POW/MIA disputes) lets you import goods or line up US partners ahead of domestic rivals."
+    },
+    "pitfalls": {
+      "vi": "Hạ tầng pháp lý thương mại Mỹ-Việt còn thiếu (chưa có BTA), thuế quan Mỹ với hàng Việt vẫn cao do chưa có quy chế tối huệ quốc.",
+      "en": "US-Vietnam trade legal infrastructure was still missing (no BTA yet), and US tariffs on Vietnamese goods stayed high without MFN status."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Tổng thống Mỹ nào đã dỡ bỏ lệnh cấm vận thương mại với Việt Nam, và vào ngày nào?",
+        "en": "Which US president lifted the trade embargo on Vietnam, and when?"
+      },
+      "choices": [
+        {
+          "vi": "George H.W. Bush, năm 1992",
+          "en": "George H.W. Bush, 1992"
+        },
+        {
+          "vi": "Bill Clinton, 3/2/1994",
+          "en": "Bill Clinton, 3 Feb 1994"
+        },
+        {
+          "vi": "Bill Clinton, 11/7/1995",
+          "en": "Bill Clinton, 11 Jul 1995"
+        },
+        {
+          "vi": "George W. Bush, năm 2001",
+          "en": "George W. Bush, 2001"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Clinton tuyên bố dỡ cấm vận ngày 3/2/1994; việc bình thường hóa quan hệ ngoại giao đầy đủ diễn ra sau đó, ngày 11/7/1995.",
+        "en": "Clinton announced the embargo's end on 3 Feb 1994; full diplomatic normalization followed later, on 11 Jul 1995."
       }
     },
     "sources": [
       {
-        "title": "United States–Vietnam relations – Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/United_States%E2%80%93Vietnam_relations"
+        "title": "Clinton White House remarks, 3 Feb 1994",
+        "url": "https://clintonwhitehouse6.archives.gov/1994/02/1994-02-03-presidents-remarks-on-lifting-vietnam-trade-embargo.html"
+      },
+      {
+        "title": "Politico: Clinton ends Vietnam trade embargo",
+        "url": "https://www.politico.com/story/2017/02/clinton-ends-vietnam-trade-embargo-feb-3-1994-234390"
       }
     ],
-    "verified": false
+    "verified": true,
+    "verifiedNote": "Confirmed via Clinton White House archive press release dated 3 Feb 1994."
   },
   {
-    "id": "vn-stock-exchange",
+    "id": "vn-us-normalization-1995",
+    "country": "vn",
+    "date": "1995-07-11",
+    "category": "macro",
+    "title": {
+      "vi": "Mỹ-Việt bình thường hóa quan hệ ngoại giao",
+      "en": "US and Vietnam Normalize Diplomatic Relations"
+    },
+    "summary": {
+      "vi": "Clinton và Hà Nội chính thức thiết lập quan hệ ngoại giao sau 20 năm thù địch.",
+      "en": "Clinton and Hanoi formally establish diplomatic ties after 20 years of hostility."
+    },
+    "description": {
+      "vi": "Ngày 11/7/1995, Tổng thống Clinton tuyên bố bình thường hóa quan hệ ngoại giao với Việt Nam, mở Đại sứ quán, cho phép hợp tác toàn diện về kinh tế, ngoại giao. Đây là nền tảng pháp lý để các tập đoàn đa quốc gia, quỹ đầu tư nước ngoài chính thức bước vào Việt Nam.",
+      "en": "On 11 July 1995, President Clinton announced normalization of diplomatic relations with Vietnam, opening embassies and enabling full economic and diplomatic cooperation — the legal foundation for multinational corporations and foreign funds to enter Vietnam."
+    },
+    "opportunity": {
+      "asset": "Bất động sản khu trung tâm, cổ phần doanh nghiệp xuất khẩu",
+      "action": {
+        "vi": "Mua bất động sản thương mại tại TP.HCM/Hà Nội đón làn sóng văn phòng đại diện nước ngoài; tham gia doanh nghiệp xuất khẩu.",
+        "en": "Buy commercial real estate in HCMC/Hanoi ahead of the wave of foreign representative offices; invest in export-oriented businesses."
+      },
+      "buyWhen": {
+        "vi": "Ngay sau 11/7/1995.",
+        "en": "Right after 11 July 1995."
+      },
+      "estimatedReturn": {
+        "vi": "Giá trị gia tăng gián tiếp qua dòng vốn FDI và du lịch tăng vọt trong 10 năm sau.",
+        "en": "Indirect gains through the surge in FDI and tourism over the following decade."
+      },
+      "risk": "low",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Senator John McCain đứng cạnh Clinton ủng hộ bình thường hóa — dấu hiệu chắc chắn chính sách sẽ không đảo ngược, nên có thể cam kết vốn dài hạn ngay từ 1995 thay vì chờ xem.",
+      "en": "Senator John McCain stood beside Clinton backing normalization — a clear signal the policy would not reverse, so you can commit long-term capital in 1995 instead of waiting."
+    },
+    "pitfalls": {
+      "vi": "Quan hệ thương mại đầy đủ (BTA) còn phải chờ thêm 6 năm (2001), nên lợi ích thương mại trực tiếp đến chậm hơn kỳ vọng.",
+      "en": "Full trade relations (the BTA) still took another 6 years (2001), so direct trade benefits arrived slower than hoped."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Mỹ và Việt Nam chính thức bình thường hóa quan hệ ngoại giao vào ngày nào?",
+        "en": "On what date did the US and Vietnam formally normalize diplomatic relations?"
+      },
+      "choices": [
+        {
+          "vi": "3/2/1994",
+          "en": "3 Feb 1994"
+        },
+        {
+          "vi": "11/7/1995",
+          "en": "11 Jul 1995"
+        },
+        {
+          "vi": "10/12/2001",
+          "en": "10 Dec 2001"
+        },
+        {
+          "vi": "11/1/2007",
+          "en": "11 Jan 2007"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Clinton công bố bình thường hóa quan hệ ngoại giao với Việt Nam ngày 11/7/1995 tại Nhà Trắng, với sự có mặt của Thượng nghị sĩ John McCain.",
+        "en": "Clinton announced normalization of diplomatic relations with Vietnam on 11 Jul 1995 at the White House, with Senator John McCain present."
+      }
+    },
+    "sources": [
+      {
+        "title": "Clinton White House remarks, 11 Jul 1995",
+        "url": "https://clintonwhitehouse6.archives.gov/1995/07/1995-07-11-remarks-on-normalization-of-relations-with-vietnam.html"
+      },
+      {
+        "title": "McCain Institute: 30 Years of Normalized Relations",
+        "url": "https://www.mccaininstitute.org/resources/press-releases/commemorating-30-years-of-normalized-relations-between-us-and-vietnam/"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed via Clinton White House archive, remarks dated 11 Jul 1995."
+  },
+  {
+    "id": "vn-coffee-chain-boom",
+    "country": "vn",
+    "date": "1996-06-16",
+    "category": "business",
+    "title": {
+      "vi": "Trung Nguyên và Highlands Coffee khai sinh ngành cà phê chuỗi",
+      "en": "Trung Nguyen and Highlands Coffee Launch Vietnam's Coffee-Chain Industry"
+    },
+    "summary": {
+      "vi": "Trung Nguyên (1996) và Highlands Coffee (1998-2002) biến quán cà phê vỉa hè thành chuỗi thương hiệu quốc gia.",
+      "en": "Trung Nguyen (1996) and Highlands Coffee (1998-2002) turn sidewalk coffee stalls into national franchise brands."
+    },
+    "description": {
+      "vi": "Ngày 16/6/1996, Đặng Lê Nguyên Vũ thành lập Trung Nguyên tại Buôn Ma Thuột, mở quán đầu tiên tại TP.HCM năm 1998 và nhượng quyền ra cả nước, ra quốc tế (Nhật Bản 2001, Singapore 2002). Cùng thời điểm, David Thái lập Tập đoàn Việt Thái International năm 2002, phát triển thương hiệu Highlands Coffee, mở ra mô hình chuỗi cà phê hiện đại tại Việt Nam.",
+      "en": "On 16 June 1996, Đặng Lê Nguyên Vũ founded Trung Nguyên in Buon Ma Thuot, opened its first HCMC shop in 1998, and franchised nationally and internationally (Japan 2001, Singapore 2002). Around the same time, David Thái founded Viet Thai International in 2002, building the Highlands Coffee brand and pioneering the modern coffee-chain model in Vietnam."
+    },
+    "opportunity": {
+      "asset": "Nhượng quyền/cổ phần chuỗi cà phê Trung Nguyên hoặc Highlands Coffee",
+      "action": {
+        "vi": "Mua nhượng quyền quán cà phê Trung Nguyên hoặc đầu tư sớm vào chuỗi Highlands Coffee khi thương hiệu còn mới.",
+        "en": "Buy a Trung Nguyên coffee franchise or invest early in the Highlands Coffee chain while the brand was still young."
+      },
+      "buyWhen": {
+        "vi": "Cuối những năm 1990 - đầu 2000s, khi mô hình nhượng quyền mới hình thành.",
+        "en": "Late 1990s - early 2000s, when the franchise model was just forming."
+      },
+      "estimatedReturn": {
+        "vi": "Trung Nguyên trở thành một trong những thương hiệu cà phê lớn nhất Việt Nam, xuất khẩu tới gần 60 quốc gia; Highlands Coffee phát triển thành chuỗi cà phê có doanh thu hàng nghìn tỷ đồng/năm.",
+        "en": "Trung Nguyên became one of Vietnam's largest coffee brands, exporting to nearly 60 countries; Highlands Coffee grew into a chain with annual revenue in the trillions of VND."
+      },
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết trước tầng lớp trung lưu đô thị Việt Nam sẽ bùng nổ nhu cầu “văn hóa cà phê quán” trong 2 thập kỷ tới giúp đầu tư sớm vào nhượng quyền chuỗi thay vì chỉ mở quán cà phê vỉa hè đơn lẻ.",
+      "en": "Knowing Vietnam's urban middle class would drive a two-decade boom in coffee-shop culture justifies investing early in a franchise chain rather than just opening a single sidewalk coffee stand."
+    },
+    "pitfalls": {
+      "vi": "Cạnh tranh ngành cà phê chuỗi trở nên cực kỳ khốc liệt từ giữa 2010s với sự gia nhập của Starbucks (2013), The Coffee House, Phúc Long, khiến biên lợi nhuận co hẹp.",
+      "en": "The coffee-chain sector became extremely competitive from the mid-2010s with the arrival of Starbucks (2013), The Coffee House and Phuc Long, squeezing margins."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Trung Nguyên, một trong những thương hiệu cà phê chuỗi đầu tiên của Việt Nam, được thành lập vào năm nào, tại đâu?",
+        "en": "In what year and where was Trung Nguyên, one of Vietnam's first coffee-chain brands, founded?"
+      },
+      "choices": [
+        {
+          "vi": "1996, tại Buôn Ma Thuột",
+          "en": "1996, in Buon Ma Thuot"
+        },
+        {
+          "vi": "2002, tại Hà Nội",
+          "en": "2002, in Hanoi"
+        },
+        {
+          "vi": "1986, tại TP.HCM",
+          "en": "1986, in Ho Chi Minh City"
+        },
+        {
+          "vi": "2010, tại Đà Lạt",
+          "en": "2010, in Da Lat"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "Trung Nguyên được Đặng Lê Nguyên Vũ thành lập ngày 16/6/1996 tại Buôn Ma Thuột, thủ phủ cà phê Việt Nam.",
+        "en": "Trung Nguyên was founded by Đặng Lê Nguyên Vũ on 16 June 1996 in Buon Ma Thuot, Vietnam's coffee capital."
+      }
+    },
+    "sources": [
+      {
+        "title": "Studocu: Lịch sử hình thành Trung Nguyên",
+        "url": "https://www.studocu.vn/vn/document/dai-hoc-kinh-te-quoc-dan/nguyen-li-ke-toan/tong-hop-r-ne-nlkt-thuyet-trinh/109705633"
+      },
+      {
+        "title": "Scribd: Marketing mix Highlands Coffee",
+        "url": "https://www.scribd.com/document/655508647/Phan-tich-chi%E1%BA%BFn-l%C6%B0%E1%BB%A3c-Marketing-mix-c%E1%BB%A7a-Highlands-Coffee-Nhom-6"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed via multiple business-education sources: Trung Nguyen founded 16 Jun 1996 in Buon Ma Thuot; Highlands Coffee brand launched by David Thai, Viet Thai Intl founded 2002."
+  },
+  {
+    "id": "vn-mobile-phone-boom",
+    "country": "vn",
+    "date": "2000-01-01",
+    "category": "technology",
+    "title": {
+      "vi": "Bùng nổ điện thoại di động đầu những năm 2000",
+      "en": "The Early-2000s Mobile Phone Boom"
+    },
+    "summary": {
+      "vi": "Nhập khẩu/phân phối điện thoại Nokia, Motorola bùng nổ khi Việt Nam phổ cập di động nhanh chóng.",
+      "en": "Importing and distributing Nokia and Motorola handsets booms as mobile phones go mainstream in Vietnam fast."
+    },
+    "description": {
+      "vi": "Từ cuối thập niên 1990 đến giữa những năm 2000, mật độ thuê bao di động Việt Nam tăng vọt khi các mạng Vinaphone, MobiFone, Viettel cạnh tranh giảm giá cước. Các chuỗi phân phối điện thoại di động (Nokia, Samsung, sau này là Thế Giới Di Động, FPT Shop) hưởng lợi khổng lồ từ nhu cầu đổi đời sang “có điện thoại” của hàng chục triệu người Việt.",
+      "en": "From the late 1990s to the mid-2000s, mobile subscriptions in Vietnam exploded as carriers Vinaphone, MobiFone and Viettel competed on price. Phone distribution chains (Nokia, Samsung, and later Thế Giới Di Động and FPT Shop) reaped huge rewards from tens of millions of Vietnamese getting their first phone."
+    },
+    "opportunity": {
+      "asset": "Kinh doanh phân phối/bán lẻ điện thoại di động",
+      "action": {
+        "vi": "Mở cửa hàng hoặc đại lý phân phối điện thoại di động Nokia/Samsung tại các thành phố lớn khi thị trường còn sơ khai.",
+        "en": "Open a mobile phone retail or distribution business for Nokia/Samsung in major cities while the market was still nascent."
+      },
+      "buyWhen": {
+        "vi": "Đầu đến giữa những năm 2000, trước khi thị trường bão hòa và các chuỗi lớn thống lĩnh.",
+        "en": "Early to mid-2000s, before the market saturated and big retail chains dominated."
+      },
+      "estimatedReturn": {
+        "vi": "Nhiều doanh nhân bán lẻ điện thoại thời kỳ đầu (ví dụ nền tảng ban đầu của Thế Giới Di Động, FPT Shop) trở thành các chuỗi bán lẻ hàng nghìn tỷ đồng doanh thu.",
+        "en": "Several early-era phone retailers (the roots of chains like Thế Giới Di Động and FPT Shop) grew into retail empires worth trillions of VND in revenue."
+      },
+      "risk": "medium",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết trước điện thoại di động sẽ phổ cập đến hơn 90% dân số trong vòng một thập kỷ giúp mạnh dạn mở chuỗi bán lẻ sớm thay vì coi đó là mặt hàng xa xỉ chỉ dành cho người giàu.",
+      "en": "Knowing mobile phones would reach over 90% of the population within a decade justifies opening a retail chain early instead of treating phones as a luxury item for the rich."
+    },
+    "pitfalls": {
+      "vi": "Cạnh tranh khốc liệt về sau khi nhiều chuỗi lớn (Thế Giới Di Động, FPT Shop, Viễn Thông A) gia nhập và chiếm thị phần; biên lợi nhuận bán lẻ điện thoại mỏng dần theo thời gian.",
+      "en": "Competition intensified later as big chains (Thế Giới Di Động, FPT Shop, Viễn Thông A) entered and took share; retail phone margins thinned over time."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Chuỗi bán lẻ nào của Việt Nam khởi đầu từ kinh doanh điện thoại di động và sau này niêm yết trên HOSE với mã MWG?",
+        "en": "Which Vietnamese retail chain started in mobile phone retail and later listed on HOSE under ticker MWG?"
+      },
+      "choices": [
+        {
+          "vi": "FPT Shop",
+          "en": "FPT Shop"
+        },
+        {
+          "vi": "Thế Giới Di Động",
+          "en": "Thế Giới Di Động (Mobile World)"
+        },
+        {
+          "vi": "Viễn Thông A",
+          "en": "Viễn Thông A"
+        },
+        {
+          "vi": "Nguyễn Kim",
+          "en": "Nguyễn Kim"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Thế Giới Di Động khởi đầu là chuỗi bán lẻ điện thoại di động, niêm yết trên HOSE năm 2014 với mã MWG.",
+        "en": "Thế Giới Di Động (Mobile World) started as a mobile phone retail chain and listed on HOSE in 2014 under ticker MWG."
+      }
+    },
+    "sources": [
+      {
+        "title": "Vietstock: MWG hồ sơ doanh nghiệp",
+        "url": "https://finance.vietstock.vn/mwg/profile.htm?languageid=1"
+      }
+    ],
+    "verified": false,
+    "verifiedNote": "General historical business trend (mobile phone retail boom in early-2000s Vietnam) is well documented in business literature, but specific revenue/profit figures for early-era phone retailers were not independently verified with a fetched source; treated as directional/qualitative only."
+  },
+  {
+    "id": "vn-hose-first-session-2000",
     "country": "vn",
     "date": "2000-07-28",
     "category": "stocks",
     "title": {
-      "vi": "Phiên giao dịch chứng khoán đầu tiên",
-      "en": "First stock trading session"
+      "vi": "Phiên giao dịch chứng khoán đầu tiên: REE và SAM",
+      "en": "First Ever Stock Trading Session: REE and SAM"
+    },
+    "summary": {
+      "vi": "TTGDCK TP.HCM khai trương với vỏn vẹn 2 mã REE, SAM — khởi đầu TTCK Việt Nam.",
+      "en": "The HCMC Securities Trading Center opens with just two stocks, REE and SAM — Vietnam's stock market is born."
     },
     "description": {
-      "vi": "Trung tâm Giao dịch Chứng khoán TP.HCM (nay là HOSE) có phiên giao dịch đầu tiên với 2 mã REE và SAM.",
-      "en": "The HCMC Securities Trading Center (now HOSE) holds its first session with two tickers: REE and SAM."
+      "vi": "Sáng 28/7/2000, Trung tâm Giao dịch Chứng khoán TP.HCM (tiền thân HOSE) tổ chức phiên giao dịch đầu tiên với 2 mã cổ phiếu REE (Cơ Điện Lạnh) và SAM (Cáp và Vật liệu Viễn thông). Chỉ có 6.000 cổ phiếu được khớp lệnh, tổng giá trị giao dịch 70,4 triệu đồng, VN-Index đóng cửa ở 101,55 điểm — mốc khởi đầu cho một chỉ số sẽ vượt 1.500 điểm hai thập kỷ sau.",
+      "en": "On the morning of 28 July 2000, the HCMC Securities Trading Center (HOSE's predecessor) held its first trading session with just two stocks, REE (refrigeration/electrical engineering) and SAM (cable & telecom materials). Only 6,000 shares changed hands worth VND 70.4 million, and the VN-Index closed at 101.55 points — the starting line for an index that would later top 1,500."
     },
     "opportunity": {
+      "asset": "REE, SAM (cổ phiếu sàn HOSE giai đoạn 2000-2001)",
       "action": {
-        "vi": "Mua các cổ phiếu niêm yết đầu tiên và các công ty đầu ngành khi niêm yết.",
-        "en": "Buy the first listed stocks and sector leaders as they list."
+        "vi": "Mua REE và SAM ngay từ phiên khai trương khi thị trường còn sơ khai và nguồn cung cổ phiếu cực hiếm.",
+        "en": "Buy REE and SAM right at the opening session, when the market was brand new and share supply was extremely scarce."
       },
       "buyWhen": {
-        "vi": "2000–2005",
-        "en": "2000–2005"
-      },
-      "sellWhen": {
-        "vi": "Trước đỉnh 2007",
-        "en": "Before the 2007 peak"
+        "vi": "Ngày 28/7/2000, phiên giao dịch đầu tiên.",
+        "en": "28 July 2000, the very first trading session."
       },
       "estimatedReturn": {
-        "vi": "Nhiều lần",
-        "en": "Several-fold"
+        "vi": "Tăng giá rất mạnh trong 1-2 năm đầu do khan hiếm cổ phiếu niêm yết (chỉ 2-5 mã), nhưng số liệu lợi nhuận cụ thể theo từng nhà đầu tư không được công bố chính thức.",
+        "en": "Very strong early gains in the first 1-2 years due to scarce listed stock (only 2-5 tickers), though exact per-investor return figures were not officially published."
+      },
+      "risk": "high",
+      "capital": "low",
+      "sellWhen": {
+        "vi": "Giữ qua giai đoạn khan hiếm hàng hóa 2000-2001 khi giá bị đẩy lên cao do cung ít cầu nhiều.",
+        "en": "Hold through the 2000-2001 scarcity period when thin supply pushed prices up sharply."
+      }
+    },
+    "insiderTip": {
+      "vi": "Biết trước đây sẽ là hạt giống của một thị trường chứng khoán trị giá hàng trăm tỷ USD vào năm 2025, nên tích lũy REE/SAM từ phiên đầu tiên bất chấp thanh khoản gần như bằng không.",
+      "en": "Knowing this tiny market will grow into one worth hundreds of billions of dollars by 2025 justifies accumulating REE/SAM from day one, despite near-zero liquidity."
+    },
+    "pitfalls": {
+      "vi": "Thanh khoản cực thấp (chỉ vài nghìn cổ phiếu mỗi phiên), biên độ dao động hẹp, room ngoại 0% giai đoạn đầu khiến khó mua/bán số lượng lớn; khung pháp lý còn sơ khai.",
+      "en": "Extremely low liquidity (only a few thousand shares a session), narrow price bands, and 0% foreign ownership room in the early period made it hard to trade size; the legal framework was still primitive."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Hai mã cổ phiếu nào được giao dịch trong phiên đầu tiên của TTCK Việt Nam ngày 28/7/2000?",
+        "en": "Which two stocks traded in Vietnam's first-ever stock market session on 28 July 2000?"
+      },
+      "choices": [
+        {
+          "vi": "VNM và FPT",
+          "en": "VNM and FPT"
+        },
+        {
+          "vi": "REE và SAM",
+          "en": "REE and SAM"
+        },
+        {
+          "vi": "VIC và HPG",
+          "en": "VIC and HPG"
+        },
+        {
+          "vi": "BID và VCB",
+          "en": "BID and VCB"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Phiên giao dịch đầu tiên ngày 28/7/2000 chỉ có REE (Cơ Điện Lạnh) và SAM (SAM Holdings) niêm yết, với tổng giá trị giao dịch chỉ 70,4 triệu đồng.",
+        "en": "The first session on 28 Jul 2000 featured only REE (refrigeration/electrical engineering) and SAM (SAM Holdings), with total trading value of just VND 70.4 million."
       }
     },
     "sources": [
       {
-        "title": "Ho Chi Minh City Stock Exchange – Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Ho_Chi_Minh_City_Stock_Exchange"
+        "title": "SSC: Sự phát triển của công ty niêm yết trong 20 năm",
+        "url": "https://ssc.gov.vn/webcenter/portal/ubck/pages_r/l/chitit?dDocName=APPSSCGOVVN162133022"
+      },
+      {
+        "title": "VietnamFinance: 26 năm trên sàn của REE và SAM",
+        "url": "https://vietnamfinance.vn/hai-ma-co-phieu-niem-yet-dau-tien-tren-san-chung-khoan-gio-ra-sao-d148214.html"
       }
     ],
-    "verified": false
+    "verified": true,
+    "verifiedNote": "Confirmed via SSC official site and VietnamFinance: first session 28 Jul 2000, REE & SAM, VN-Index closed 101.55."
   },
   {
-    "id": "vn-vinamilk-listing",
+    "id": "vn-bta-2001",
+    "country": "vn",
+    "date": "2001-12-10",
+    "category": "macro",
+    "title": {
+      "vi": "Hiệp định Thương mại Song phương Việt-Mỹ có hiệu lực",
+      "en": "US-Vietnam Bilateral Trade Agreement Takes Effect"
+    },
+    "summary": {
+      "vi": "BTA giảm thuế hàng Việt vào Mỹ từ 40% xuống còn khoảng 3%, bùng nổ xuất khẩu dệt may, thủy sản.",
+      "en": "The BTA cuts US tariffs on Vietnamese goods from ~40% to ~3%, igniting a textile and seafood export boom."
+    },
+    "description": {
+      "vi": "Sau 5 năm đàm phán và được ký ngày 13/7/2000, Hiệp định Thương mại Song phương Việt-Mỹ (BTA) chính thức có hiệu lực ngày 10/12/2001. Thuế quan trung bình Mỹ áp lên hàng Việt Nam giảm từ khoảng 40% xuống còn khoảng 3%, mở ra làn sóng xuất khẩu dệt may, giày dép, thủy sản và thu hút doanh nghiệp FDI hướng xuất khẩu sang Mỹ.",
+      "en": "After five years of talks and signature on 13 July 2000, the US-Vietnam Bilateral Trade Agreement (BTA) took effect on 10 December 2001. Average US tariffs on Vietnamese goods fell from roughly 40% to about 3%, unleashing a boom in textile, footwear and seafood exports and attracting export-oriented FDI."
+    },
+    "opportunity": {
+      "asset": "Doanh nghiệp dệt may, thủy sản xuất khẩu sang Mỹ",
+      "action": {
+        "vi": "Đầu tư/mở xưởng dệt may, chế biến thủy sản hướng xuất khẩu sang thị trường Mỹ ngay khi BTA có hiệu lực.",
+        "en": "Invest in or set up textile/seafood-processing factories geared toward US exports right when the BTA takes effect."
+      },
+      "buyWhen": {
+        "vi": "Cuối 2001, ngay khi BTA có hiệu lực.",
+        "en": "Late 2001, right when the BTA takes effect."
+      },
+      "estimatedReturn": {
+        "vi": "Kim ngạch xuất khẩu Việt Nam sang Mỹ tăng vọt trong các năm sau đó, là tiền đề cho WTO 2007.",
+        "en": "Vietnam's exports to the US surged in subsequent years, paving the way for WTO accession in 2007."
+      },
+      "risk": "medium",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết chắc Quốc hội Mỹ (88-12 tại Thượng viện) và Quốc hội Việt Nam sẽ phê chuẩn đúng lịch trình cuối 2001, nên ký hợp đồng OEM dệt may/thủy sản với đối tác Mỹ từ sớm trong năm 2001.",
+      "en": "Knowing both the US Senate (88-12 vote) and Vietnam's National Assembly would ratify right on schedule in late 2001 lets you lock in OEM textile/seafood contracts with US buyers early in 2001."
+    },
+    "pitfalls": {
+      "vi": "Ngành dệt may Việt Nam sau đó gặp các vụ kiện chống bán phá giá (ví dụ cá tra, tôm) từ phía Mỹ làm giảm biên lợi nhuận.",
+      "en": "Vietnam's textile and seafood sectors later faced US anti-dumping suits (e.g. catfish, shrimp) that squeezed margins."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Hiệp định Thương mại Song phương Việt-Mỹ (BTA) chính thức có hiệu lực vào ngày nào?",
+        "en": "When did the US-Vietnam Bilateral Trade Agreement (BTA) formally take effect?"
+      },
+      "choices": [
+        {
+          "vi": "13/7/2000 (ngày ký)",
+          "en": "13 Jul 2000 (signing date)"
+        },
+        {
+          "vi": "10/12/2001",
+          "en": "10 Dec 2001"
+        },
+        {
+          "vi": "11/1/2007",
+          "en": "11 Jan 2007"
+        },
+        {
+          "vi": "1/1/2001",
+          "en": "1 Jan 2001"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "BTA được ký ngày 13/7/2000 nhưng chỉ chính thức có hiệu lực ngày 10/12/2001 sau khi cả Quốc hội Mỹ và Việt Nam phê chuẩn.",
+        "en": "The BTA was signed 13 Jul 2000 but only formally took effect on 10 Dec 2001 after ratification by both the US Congress and Vietnam's National Assembly."
+      }
+    },
+    "sources": [
+      {
+        "title": "USTR: US and Vietnam Trade Agreement Takes Effect",
+        "url": "https://ustr.gov/archive/Document_Library/Press_Releases/2001/December/United_States_Vietnam_Trade_Agreement_Takes_Effect_Today.html"
+      },
+      {
+        "title": "US Embassy Vietnam: The US-Vietnam BTA",
+        "url": "https://vn.usembassy.gov/the-u-s-vietnam-bilateral-trade-agreement-bta-resources-for-understanding/"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed via USTR press release: BTA signed 13 Jul 2000, took effect 10 Dec 2001; tariffs dropped from ~40% to ~3%."
+  },
+  {
+    "id": "vn-hnx-launch-2005",
+    "country": "vn",
+    "date": "2005-03-08",
+    "category": "stocks",
+    "title": {
+      "vi": "Sàn Hà Nội (HNX) khai trương",
+      "en": "Hanoi Stock Exchange (HNX) Opens"
+    },
+    "summary": {
+      "vi": "Trung tâm GDCK Hà Nội khai trương, mở thêm kênh đấu giá cổ phần hóa DNNN và sàn niêm yết thứ hai.",
+      "en": "The Hanoi Securities Trading Center opens, adding a second listing venue and a channel for SOE equitization auctions."
+    },
+    "description": {
+      "vi": "Ngày 8/3/2005, Trung tâm Giao dịch Chứng khoán Hà Nội (HASTC), tiền thân của Sở GDCK Hà Nội (HNX), chính thức khai trương với vốn điều lệ 1.000 tỷ đồng, ban đầu tập trung vào đấu giá cổ phần hóa doanh nghiệp Nhà nước. Ngày 14/7/2005 thị trường giao dịch cổ phiếu niêm yết chính thức vận hành, tạo sân chơi thứ hai song song với HOSE.",
+      "en": "On 8 March 2005, the Hanoi Securities Trading Center (HASTC), predecessor of today's Hanoi Stock Exchange (HNX), opened with charter capital of VND 1,000 billion, initially focused on SOE equitization auctions. On 14 July 2005 its listed-stock trading market went live, creating a second exchange alongside HOSE."
+    },
+    "opportunity": {
+      "asset": "Cổ phiếu niêm yết sớm trên HASTC/HNX",
+      "action": {
+        "vi": "Tham gia đấu giá cổ phần hóa DNNN qua HASTC và mua cổ phiếu niêm yết sớm trên sàn mới.",
+        "en": "Bid in SOE equitization auctions via HASTC and buy early-listed stocks on the new exchange."
+      },
+      "buyWhen": {
+        "vi": "Từ tháng 3-7/2005 khi sàn khai trương và vận hành.",
+        "en": "From March-July 2005 when the exchange opened and began operating."
+      },
+      "estimatedReturn": {
+        "vi": "Cơ hội tiếp cận cổ phần hóa DNNN giá rẻ trước làn sóng tăng giá 2006-2007.",
+        "en": "Access to cheaply-priced SOE equitization shares ahead of the 2006-2007 price surge."
+      },
+      "risk": "medium",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Biết trước HASTC sẽ trở thành kênh đấu giá cổ phần hóa chính thức duy nhất từ 2006, giúp định vị sớm làm nhà đầu tư quen thuộc quy trình trước đám đông.",
+      "en": "Knowing HASTC would become the sole official SOE auction channel from 2006 lets you get familiar with the bidding process early, ahead of the crowd."
+    },
+    "pitfalls": {
+      "vi": "Thanh khoản ban đầu thấp, nhiều DNNN cổ phần hóa có chất lượng quản trị chưa cao.",
+      "en": "Initial liquidity was low, and many newly-equitized SOEs had weak corporate governance."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Trung tâm Giao dịch Chứng khoán Hà Nội (tiền thân HNX) khai trương vào ngày nào?",
+        "en": "On what date did the Hanoi Securities Trading Center (HNX's predecessor) open?"
+      },
+      "choices": [
+        {
+          "vi": "28/7/2000",
+          "en": "28 Jul 2000"
+        },
+        {
+          "vi": "8/3/2005",
+          "en": "8 Mar 2005"
+        },
+        {
+          "vi": "24/6/2009",
+          "en": "24 Jun 2009"
+        },
+        {
+          "vi": "6/8/2021",
+          "en": "6 Aug 2021"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "HASTC khai trương ngày 8/3/2005; nó chính thức đổi thành Sở GDCK Hà Nội (HNX) theo Quyết định của Thủ tướng ngày 24/6/2009.",
+        "en": "HASTC opened on 8 Mar 2005; it was formally reorganized into the Hanoi Stock Exchange (HNX) under a PM decision dated 24 Jun 2009."
+      }
+    },
+    "sources": [
+      {
+        "title": "HNX: Lịch sử phát triển",
+        "url": "https://hnx.vn/vi-vn/gioi-thieu-hnx-lspt.html"
+      },
+      {
+        "title": "SSC: HNX những dấu ấn 9 năm",
+        "url": "https://ssc.gov.vn/webcenter/portal/ubck/pages_r/l/chitit?dDocName=APPSSCGOVVN162087661"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed via official HNX website: opened 8 Mar 2005 as HASTC, listed trading began 14 Jul 2005."
+  },
+  {
+    "id": "vn-vinamilk-listing-2006",
     "country": "vn",
     "date": "2006-01-19",
     "category": "stocks",
     "title": {
-      "vi": "Vinamilk niêm yết",
-      "en": "Vinamilk lists on HOSE"
+      "vi": "Vinamilk (VNM) niêm yết trên HOSE",
+      "en": "Vinamilk (VNM) Lists on HOSE"
+    },
+    "summary": {
+      "vi": "Hãng sữa lớn nhất Việt Nam lên sàn với giá chào 53.000đ/CP, trở thành cổ phiếu trụ cột suốt 2 thập kỷ.",
+      "en": "Vietnam's largest dairy maker lists at VND 53,000/share, becoming a blue-chip pillar for two decades."
     },
     "description": {
-      "vi": "Vinamilk (VNM) niêm yết trên sàn HOSE.",
-      "en": "Vinamilk (VNM) lists on HOSE."
+      "vi": "Ngày 19/1/2006, Công ty Cổ phần Sữa Việt Nam (Vinamilk) chính thức giao dịch trên Sở GDCK TP.HCM với mã VNM, giá chào sàn 53.000 đồng/cổ phiếu, khối lượng niêm yết lần đầu 159 triệu cổ phiếu. VNM nhanh chóng trở thành một trong những cổ phiếu vốn hóa lớn nhất và ổn định nhất thị trường Việt Nam.",
+      "en": "On 19 January 2006, Vietnam Dairy Products JSC (Vinamilk) began trading on the HCMC Stock Exchange under ticker VNM, listed at VND 53,000/share with an initial listing of 159 million shares. VNM quickly became one of the largest and most stable blue-chip stocks on the Vietnamese market."
     },
     "opportunity": {
+      "asset": "Vinamilk (VNM)",
       "action": {
-        "vi": "Mua cổ phiếu VNM — doanh nghiệp sữa đầu ngành, cổ tức đều.",
-        "en": "Buy VNM — the dairy leader with steady dividends."
+        "vi": "Mua cổ phiếu VNM ngay ngày chào sàn hoặc trong năm đầu niêm yết, nắm giữ dài hạn qua các đợt chia tách, trả cổ tức.",
+        "en": "Buy VNM shares on or shortly after the IPO listing date and hold long-term through stock splits and dividends."
       },
       "buyWhen": {
-        "vi": "Khi niêm yết",
-        "en": "At listing"
-      },
-      "sellWhen": {
-        "vi": "Giữ dài hạn (đỉnh khoảng 2017–2018)",
-        "en": "Hold long term (peaked around 2017–2018)"
+        "vi": "19/1/2006, ngày giao dịch đầu tiên.",
+        "en": "19 Jan 2006, the first trading day."
       },
       "estimatedReturn": {
-        "vi": "Nhiều lần (bao gồm cổ tức)",
-        "en": "Several-fold (incl. dividends)"
+        "vi": "Tăng trưởng ổn định nhiều lần qua 20 năm nhờ thương hiệu sữa thống lĩnh thị trường, cổ tức tiền mặt đều đặn hàng năm.",
+        "en": "Multi-fold stable growth over 20 years thanks to Vinamilk's dominant dairy brand, plus steady annual cash dividends."
+      },
+      "risk": "low",
+      "capital": "medium",
+      "sellWhen": {
+        "vi": "Giữ xuyên suốt giai đoạn tăng trưởng tiêu dùng nội địa 2006-2017, có thể chốt lời một phần quanh đỉnh định giá 2016-2017.",
+        "en": "Hold through the 2006-2017 domestic consumption growth era, taking partial profits around the 2016-2017 valuation peak."
+      },
+      "entryPrice": 53000,
+      "priceCurrency": "VND"
+    },
+    "insiderTip": {
+      "vi": "Biết trước Vinamilk sẽ là một trong vài cổ phiếu blue-chip hiếm hoi duy trì tăng trưởng và trả cổ tức ổn định suốt 2 thập kỷ bất chấp các cuộc khủng hoảng 2008 và 2011, nên tích lũy dài hạn thay vì lướt sóng.",
+      "en": "Knowing Vinamilk will be one of the rare blue chips sustaining growth and steady dividends for two decades through the 2008 and 2011 crises justifies buy-and-hold over short-term trading."
+    },
+    "pitfalls": {
+      "vi": "Giá cổ phiếu từng điều chỉnh mạnh trong khủng hoảng 2008 và chịu áp lực cạnh tranh từ các hãng sữa ngoại/nội địa mới từ giữa 2010s trở đi.",
+      "en": "The share price corrected sharply in the 2008 crisis and later faced competitive pressure from new local and foreign dairy entrants from the mid-2010s onward."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Vinamilk (mã VNM) chính thức giao dịch trên HOSE vào ngày nào, với giá chào sàn bao nhiêu?",
+        "en": "When did Vinamilk (ticker VNM) start trading on HOSE, and at what listing price?"
+      },
+      "choices": [
+        {
+          "vi": "19/1/2006, giá 53.000đ/CP",
+          "en": "19 Jan 2006, VND 53,000/share"
+        },
+        {
+          "vi": "13/12/2006, giá 400.000đ/CP",
+          "en": "13 Dec 2006, VND 400,000/share"
+        },
+        {
+          "vi": "28/7/2000, giá 10.000đ/CP",
+          "en": "28 Jul 2000, VND 10,000/share"
+        },
+        {
+          "vi": "15/11/2007, giá 127.000đ/CP",
+          "en": "15 Nov 2007, VND 127,000/share"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "Vinamilk niêm yết và giao dịch lần đầu ngày 19/1/2006 với giá chào sàn 53.000 đồng/cổ phiếu, theo hồ sơ SSC và Vietstock.",
+        "en": "Vinamilk listed and began trading on 19 Jan 2006 at VND 53,000/share, per SSC filings and Vietstock records."
       }
     },
     "sources": [
       {
-        "title": "Vinamilk – Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Vinamilk"
+        "title": "SSC: Niêm yết Vinamilk 2/2006",
+        "url": "https://ssc.gov.vn/webcenter/portal/ubck/pages_r/l/chitit?dDocName=APPSSCGOVVN162065794"
+      },
+      {
+        "title": "Vietstock: VNM hồ sơ doanh nghiệp",
+        "url": "https://finance.vietstock.vn/vnm/ho-so-doanh-nghiep.htm"
       }
     ],
-    "verified": false
+    "verified": true,
+    "verifiedNote": "Confirmed via SSC official notice and Vietstock: VNM first trading day 19 Jan 2006, listing price VND 53,000."
   },
   {
-    "id": "vn-wto",
+    "id": "vn-fpt-listing-2006",
+    "country": "vn",
+    "date": "2006-12-13",
+    "category": "stocks",
+    "title": {
+      "vi": "FPT niêm yết, tăng trần 150% ngay phiên đầu",
+      "en": "FPT Lists, Hits 150% Gain on Day One"
+    },
+    "summary": {
+      "vi": "Cổ phiếu công nghệ FPT tăng từ giá tham chiếu 160.000đ lên 400.000đ ngay phiên chào sàn.",
+      "en": "Tech stock FPT jumps from a VND 160,000 reference price to VND 400,000 on its very first trading day."
+    },
+    "description": {
+      "vi": "Ngày 13/12/2006, Tập đoàn FPT niêm yết trên HOSE với giá tham chiếu 160.000 đồng/cổ phiếu nhưng tăng kịch trần ngay phiên đầu lên 400.000 đồng (+150%), trở thành biểu tượng của cơn sốt chứng khoán công nghệ-viễn thông thời kỳ đỉnh cao 2006-2007. Cuối năm 2006, giá đã lên tới 460.000 đồng.",
+      "en": "On 13 December 2006, FPT Corporation listed on HOSE at a reference price of VND 160,000/share but hit the daily limit on its very first session, jumping to VND 400,000 (+150%) — a symbol of the 2006-2007 tech/telecom stock mania. By year-end 2006 it had climbed to VND 460,000."
+    },
+    "opportunity": {
+      "asset": "FPT Corporation (FPT)",
+      "action": {
+        "vi": "Mua cổ phiếu OTC FPT trước ngày niêm yết (quanh 22.000-40.000đ) rồi bán ngay sau khi lên sàn.",
+        "en": "Buy FPT shares on the OTC market before listing (around VND 22,000-40,000) and sell shortly after it lists."
+      },
+      "buyWhen": {
+        "vi": "Trước 13/12/2006 (thị trường OTC) hoặc ngay phiên chào sàn.",
+        "en": "Before 13 Dec 2006 (OTC market) or right at the listing session."
+      },
+      "estimatedReturn": {
+        "vi": "Giá OTC từng quanh 22.000đ/CP trước khi vọt lên trên 400.000đ ngay phiên đầu — tăng hàng chục lần với người mua từ OTC sớm.",
+        "en": "OTC price was around VND 22,000/share before jumping above VND 400,000 on day one — tens of times gains for early OTC buyers."
+      },
+      "risk": "high",
+      "capital": "medium",
+      "sellWhen": {
+        "vi": "Trong vài tuần sau khi niêm yết, trước khi thị trường điều chỉnh năm 2008.",
+        "en": "Within weeks of listing, before the 2008 market correction."
+      },
+      "returnMultiple": 2.5,
+      "entryPrice": 160000,
+      "exitPrice": 400000,
+      "priceCurrency": "VND"
+    },
+    "insiderTip": {
+      "vi": "Biết trước FPT sẽ là \"cổ phiếu quốc dân\" của cơn sốt 2006-2007 và tăng kịch trần ngay phiên đầu, nên gom cổ phiếu OTC từ nhiều tháng trước khi niêm yết.",
+      "en": "Knowing FPT will be the poster stock of the 2006-2007 mania and hit the daily limit on day one lets you accumulate OTC shares months ahead of listing."
+    },
+    "pitfalls": {
+      "vi": "Cổ phiếu FPT sau đó lao dốc mạnh trong cuộc khủng hoảng 2008 cùng cả thị trường, mất phần lớn giá trị từ đỉnh; mua đuổi ở vùng giá đỉnh 2007 có thể lỗ nặng.",
+      "en": "FPT crashed hard in the 2008 crisis along with the whole market, losing most of its value from the peak; chasing it at 2007 peak prices could mean heavy losses."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Trong phiên giao dịch đầu tiên ngày 13/12/2006, giá cổ phiếu FPT biến động ra sao so với giá tham chiếu 160.000đ?",
+        "en": "On its first trading day (13 Dec 2006), how did FPT's price move relative to the VND 160,000 reference price?"
+      },
+      "choices": [
+        {
+          "vi": "Giảm sàn xuống 128.000đ",
+          "en": "Hit the floor at VND 128,000"
+        },
+        {
+          "vi": "Đứng yên ở 160.000đ",
+          "en": "Stayed flat at VND 160,000"
+        },
+        {
+          "vi": "Tăng trần lên 400.000đ (+150%)",
+          "en": "Hit the ceiling at VND 400,000 (+150%)"
+        },
+        {
+          "vi": "Tăng nhẹ lên 180.000đ",
+          "en": "Rose slightly to VND 180,000"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "FPT niêm yết với giá tham chiếu 160.000đ nhưng tăng kịch trần ngay phiên đầu lên 400.000đ, mức tăng 150%, theo Vietstock và các báo trong nước.",
+        "en": "FPT listed with a VND 160,000 reference price but hit the daily ceiling on day one at VND 400,000, a 150% jump, per Vietstock and domestic press."
+      }
+    },
+    "sources": [
+      {
+        "title": "Vietstock: FPT hồ sơ doanh nghiệp",
+        "url": "https://finance.vietstock.vn/FPT/ho-so-doanh-nghiep.htm"
+      },
+      {
+        "title": "FHSC: Bong bóng cổ phiếu FPT năm 2007",
+        "url": "https://fhsc.com.vn/bong-bong-co-phieu-fpt-nam-2007"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed via Vietstock (first trading day 13 Dec 2006, price VND 400,000) and FHSC article (reference price VND 160,000, +150% day one)."
+  },
+  {
+    "id": "vn-wto-accession-2007",
     "country": "vn",
     "date": "2007-01-11",
     "category": "macro",
     "title": {
-      "vi": "Việt Nam gia nhập WTO",
-      "en": "Vietnam joins the WTO"
+      "vi": "Việt Nam gia nhập WTO, thành viên thứ 150",
+      "en": "Vietnam Joins the WTO as Its 150th Member"
+    },
+    "summary": {
+      "vi": "Gia nhập WTO mở cửa thương mại toàn diện, châm ngòi cơn sốt IPO và dòng vốn ngoại ồ ạt.",
+      "en": "WTO accession opens full trade access, igniting an IPO mania and a flood of foreign capital."
     },
     "description": {
-      "vi": "Việt Nam chính thức trở thành thành viên thứ 150 của WTO; chứng khoán bùng nổ.",
-      "en": "Vietnam becomes the WTO's 150th member; the stock market booms."
+      "vi": "Ngày 11/1/2007, Việt Nam chính thức trở thành thành viên thứ 150 của Tổ chức Thương mại Thế giới (WTO) sau nhiều năm đàm phán. Sự kiện này kéo theo làn sóng IPO các doanh nghiệp nhà nước lớn (Bảo Việt, Vietcombank…) và dòng vốn đầu tư nước ngoài đổ vào mạnh mẽ, đẩy VN-Index lên đỉnh lịch sử chỉ 2 tháng sau.",
+      "en": "On 11 January 2007, Vietnam officially became the WTO's 150th member after years of negotiations. The event triggered a wave of IPOs by major state-owned enterprises (Bao Viet, Vietcombank, etc.) and a flood of foreign capital inflows, pushing the VN-Index to an all-time high just two months later."
     },
     "opportunity": {
+      "asset": "Cổ phiếu ngân hàng và doanh nghiệp nhà nước cổ phần hóa (Vietcombank, Bảo Việt)",
       "action": {
-        "vi": "Mua cổ phiếu năm 2006 và chốt lời trước khi thị trường sụp đổ.",
-        "en": "Buy stocks in 2006 and take profit before the crash."
+        "vi": "Mua cổ phiếu/IPO các ngân hàng, doanh nghiệp nhà nước lớn trước và ngay sau khi gia nhập WTO.",
+        "en": "Buy shares/IPO allocations in major banks and state-owned enterprises before and right after WTO accession."
       },
       "buyWhen": {
-        "vi": "Đầu 2006",
-        "en": "Early 2006"
-      },
-      "sellWhen": {
-        "vi": "Đỉnh VN-Index tháng 3/2007 (~1.170 điểm)",
-        "en": "VN-Index peak March 2007 (~1,170)"
+        "vi": "Cuối 2006 - đầu 2007, trước và ngay khi gia nhập WTO.",
+        "en": "Late 2006 - early 2007, before and right at WTO accession."
       },
       "estimatedReturn": {
-        "vi": "VN-Index tăng khoảng 3–4 lần",
-        "en": "VN-Index rose roughly 3–4x"
+        "vi": "Khó định lượng chính xác, nhưng cổ phiếu ngân hàng/DNNN cổ phần hóa tăng hàng trăm % trong 2 tháng sau đó trước khi thị trường điều chỉnh.",
+        "en": "Hard to quantify precisely, but bank/SOE equitization stocks rose hundreds of percent in the following two months before the market corrected."
       },
-      "returnMultiple": 3
+      "risk": "medium",
+      "capital": "medium",
+      "sellWhen": {
+        "vi": "Trước tháng 3/2007 khi VN-Index đạt đỉnh 1.170 điểm.",
+        "en": "Before March 2007 when the VN-Index peaked at 1,170 points."
+      }
+    },
+    "insiderTip": {
+      "vi": "Biết trước ngày 11/1/2007 là ngày chính thức và hiệu ứng tâm lý sẽ đẩy P/E thị trường lên 34-50 lần trong 2 tháng sau đó, nên bán chốt lời đúng lúc thay vì tham lam giữ qua năm 2008.",
+      "en": "Knowing 11 Jan 2007 is the exact accession date and that market P/E will spike to 34-50x within two months lets you sell into strength rather than greedily holding into 2008."
+    },
+    "pitfalls": {
+      "vi": "Thị trường bị đẩy vào trạng thái bong bóng đầu cơ cực độ ngay sau đó, sụp đổ gần 70% trong năm 2008.",
+      "en": "The market was pushed into extreme speculative bubble territory right afterward, crashing nearly 70% in 2008."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Việt Nam trở thành thành viên WTO vào ngày nào, và là thành viên thứ bao nhiêu?",
+        "en": "When did Vietnam become a WTO member, and as which member number?"
+      },
+      "choices": [
+        {
+          "vi": "11/1/2007, thành viên thứ 150",
+          "en": "11 Jan 2007, 150th member"
+        },
+        {
+          "vi": "1/1/2006, thành viên thứ 149",
+          "en": "1 Jan 2006, 149th member"
+        },
+        {
+          "vi": "7/11/2006, thành viên thứ 150",
+          "en": "7 Nov 2006, 150th member"
+        },
+        {
+          "vi": "11/1/2008, thành viên thứ 151",
+          "en": "11 Jan 2008, 151st member"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "WTO xác nhận Việt Nam chính thức trở thành thành viên thứ 150 vào ngày 11/1/2007, sau khi Quốc hội Việt Nam phê chuẩn ngày 28/11/2006.",
+        "en": "The WTO confirms Vietnam officially became its 150th member on 11 Jan 2007, after Vietnam's National Assembly ratified accession on 28 Nov 2006."
+      }
     },
     "sources": [
       {
-        "title": "Vietnam and the WTO – WTO",
-        "url": "https://www.wto.org/english/thewto_e/countries_e/vietnam_e.htm"
+        "title": "WTO: Viet Nam accession page",
+        "url": "https://www.wto.org/English/thewto_e/acc_e/a1_vietnam_e.htm"
+      },
+      {
+        "title": "Reuters: Vietnam will become WTO's 150th member in January",
+        "url": "https://www.reuters.com/article/world/vietnam-will-become-wtos-150th-member-in-january-idUSL12638416/"
       }
     ],
-    "verified": false
+    "verified": true,
+    "verifiedNote": "Confirmed via official WTO website: Vietnam became 150th member on 11 Jan 2007."
   },
   {
-    "id": "vn-2009-bottom",
+    "id": "vn-vnindex-peak-2007",
+    "country": "vn",
+    "date": "2007-03-12",
+    "category": "stocks",
+    "title": {
+      "vi": "VN-Index lập đỉnh lịch sử 1.170 điểm",
+      "en": "VN-Index Hits Historic Peak of 1,170 Points"
+    },
+    "summary": {
+      "vi": "Sóng WTO và tiền tệ nới lỏng đẩy VN-Index lên 1.170,67 điểm, P/E thị trường vọt lên 34-50 lần.",
+      "en": "The WTO wave and loose credit push the VN-Index to 1,170.67, with market P/E spiking to 34-50x."
+    },
+    "description": {
+      "vi": "Ngày 12/3/2007, VN-Index xác lập đỉnh lịch sử đầu tiên ở mức 1.170,67 điểm, tăng gấp 3,6 lần so với đầu năm 2006, nhờ hiệu ứng gia nhập WTO, tăng trưởng tín dụng trên 50% và làn sóng IPO doanh nghiệp nhà nước. Định giá thị trường khi đó đạt mức P/E 34-50 lần — mức đầu cơ cực đoan ngay trước khi bong bóng vỡ.",
+      "en": "On 12 March 2007, the VN-Index set its first historic peak at 1,170.67 points, 3.6 times its level at the start of 2006, driven by WTO euphoria, credit growth above 50%, and a wave of SOE IPOs. Market valuation hit a P/E of 34-50x — extreme speculative territory right before the bubble burst."
+    },
+    "opportunity": {
+      "asset": "Cổ phiếu niêm yết trên HOSE nói chung (VN-Index)",
+      "action": {
+        "vi": "Bán toàn bộ danh mục cổ phiếu đúng thời điểm đỉnh để chốt lời trước khi thị trường sụp đổ.",
+        "en": "Sell your entire stock portfolio right at the peak to lock in gains before the crash."
+      },
+      "buyWhen": {
+        "vi": "Đã tích lũy từ 2005-2006 khi thị trường còn rẻ.",
+        "en": "Having accumulated from 2005-2006 while the market was still cheap."
+      },
+      "estimatedReturn": {
+        "vi": "Nhà đầu tư mua từ đầu 2006 (khoảng 300 điểm) và bán đúng đỉnh có thể lãi khoảng 290% tính theo chỉ số.",
+        "en": "Investors who bought near the start of 2006 (around 300 points) and sold at the exact peak could gain roughly 290% in index terms."
+      },
+      "risk": "high",
+      "capital": "medium",
+      "sellWhen": {
+        "vi": "Đúng ngày 12/3/2007 hoặc trong vài tuần quanh đó.",
+        "en": "Right on 12 Mar 2007 or within a few weeks of it."
+      },
+      "returnMultiple": 3.6,
+      "entryPrice": 300,
+      "exitPrice": 1170.67,
+      "priceCurrency": "points",
+      "exitDate": "2007-03-12"
+    },
+    "insiderTip": {
+      "vi": "Biết chính xác ngày đỉnh 12/3/2007 (1.170,67 điểm) cho phép thoát hàng đúng lúc, tránh cú sập gần 70% xuống còn 235 điểm vào tháng 2/2009 mà phần lớn nhà đầu tư thời đó không lường trước.",
+      "en": "Knowing the exact peak date of 12 Mar 2007 (1,170.67 points) lets you exit right on time, avoiding the ~70% crash to 235 points by Feb 2009 that most contemporary investors never saw coming."
+    },
+    "pitfalls": {
+      "vi": "Sau đỉnh, thị trường giảm 22,6% chỉ trong vài tuần (đến 24/4/2007) trước khi hồi phục ngắn hạn rồi sụp đổ hẳn năm 2008 — rất dễ bán quá sớm hoặc quá muộn.",
+      "en": "After the peak, the market fell 22.6% in just weeks (to 24 Apr 2007) before a brief rebound and then a full collapse in 2008 — very easy to sell either too early or too late."
+    },
+    "quiz": {
+      "question": {
+        "vi": "VN-Index lập đỉnh lịch sử đầu tiên vào ngày nào, ở mức bao nhiêu điểm?",
+        "en": "When did the VN-Index set its first historic peak, and at what level?"
+      },
+      "choices": [
+        {
+          "vi": "12/3/2007, 1.170,67 điểm",
+          "en": "12 Mar 2007, 1,170.67 points"
+        },
+        {
+          "vi": "24/2/2009, 235 điểm",
+          "en": "24 Feb 2009, 235 points"
+        },
+        {
+          "vi": "6/1/2022, 1.528 điểm",
+          "en": "6 Jan 2022, 1,528 points"
+        },
+        {
+          "vi": "28/7/2000, 101 điểm",
+          "en": "28 Jul 2000, 101 points"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "VN-Index đạt 1.170,67 điểm ngày 12/3/2007, mức cao chưa từng có vào thời điểm đó, theo nhiều nguồn tài chính trong nước.",
+        "en": "The VN-Index hit 1,170.67 points on 12 Mar 2007, an unprecedented high at the time, per multiple Vietnamese financial sources."
+      }
+    },
+    "sources": [
+      {
+        "title": "f247: Lịch sử các lần nóng lạnh của VN-Index",
+        "url": "https://f247.com/t/lich-su-cac-lan-nong-lanh-cua-vn-index/832767"
+      },
+      {
+        "title": "Tạp chí Kinh tế Tài chính",
+        "url": "https://tapchikinhtetaichinh.vn/su-bien-dong-gia-co-phieu-niem-yet-tren-thi-truong-chung-khoan.html"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed by multiple sources: VN-Index peaked at 1,170.67 on 12 Mar 2007."
+  },
+  {
+    "id": "vn-vingroup-listing-2007",
+    "country": "vn",
+    "date": "2007-09-19",
+    "category": "stocks",
+    "title": {
+      "vi": "Vincom (sau là Vingroup, VIC) niêm yết",
+      "en": "Vincom (later Vingroup, VIC) Lists"
+    },
+    "summary": {
+      "vi": "Vincom lên sàn giá 125.000đ/CP, đặt nền móng cho đế chế bất động sản-bán lẻ lớn nhất Việt Nam.",
+      "en": "Vincom lists at VND 125,000/share, laying the foundation for Vietnam's largest real-estate and retail empire."
+    },
+    "description": {
+      "vi": "Ngày 19/9/2007, Công ty Cổ phần Vincom (nay là Tập đoàn Vingroup) niêm yết trên HOSE với mã VIC, giá tham chiếu 125.000 đồng/cổ phiếu, 80 triệu cổ phiếu niêm yết, vốn hóa ban đầu khoảng 800 tỷ đồng. Vincom/Vinpearl sau đó sáp nhập năm 2011-2012 thành Tập đoàn Vingroup, mở rộng sang bất động sản, bán lẻ, nghỉ dưỡng và sau này là ô tô điện VinFast.",
+      "en": "On 19 September 2007, Vincom JSC (today's Vingroup) listed on HOSE under ticker VIC, at a reference price of VND 125,000/share with 80 million shares listed and an initial market cap of about VND 800 billion. Vincom and Vinpearl later merged in 2011-2012 to form Vingroup, expanding into real estate, retail, resorts and eventually EV maker VinFast."
+    },
+    "opportunity": {
+      "asset": "Vincom/Vingroup (VIC)",
+      "action": {
+        "vi": "Mua cổ phiếu VIC ngay khi chào sàn 2007, giữ xuyên suốt hành trình mở rộng đa ngành của Phạm Nhật Vượng.",
+        "en": "Buy VIC shares at its 2007 listing and hold through Pham Nhat Vuong's multi-decade diversification journey."
+      },
+      "buyWhen": {
+        "vi": "19/9/2007, ngày chào sàn.",
+        "en": "19 Sep 2007, the listing date."
+      },
+      "estimatedReturn": {
+        "vi": "Vốn hóa nhóm cổ phiếu Vingroup (VIC, VHM, VRE, VPL) tăng từ 800 tỷ lên gần 580.000 tỷ đồng theo thời gian — hàng trăm lần trong gần 2 thập kỷ.",
+        "en": "The combined market cap of the Vingroup family (VIC, VHM, VRE, VPL) grew from VND 800 billion to nearly VND 580 trillion over time — hundreds of times over almost two decades."
+      },
+      "risk": "medium",
+      "capital": "medium",
+      "entryPrice": 125000,
+      "priceCurrency": "VND"
+    },
+    "insiderTip": {
+      "vi": "Biết trước ông Phạm Nhật Vượng sẽ xây dựng Vingroup thành tập đoàn tư nhân lớn nhất Việt Nam và sau này tách niêm yết Vinhomes, Vincom Retail, Vinpearl thành các cổ phiếu riêng, giúp nắm giữ VIC xuyên suốt thay vì bán sớm.",
+      "en": "Knowing Pham Nhat Vuong will build Vingroup into Vietnam's largest private conglomerate and later spin off Vinhomes, Vincom Retail and Vinpearl as separate listings justifies holding VIC throughout instead of selling early."
+    },
+    "pitfalls": {
+      "vi": "Cổ phiếu VIC biến động rất mạnh qua các chu kỳ bất động sản 2008, 2011-2013, và việc tập đoàn lấn sang mảng ô tô điện VinFast từ 2017 gây áp lực lên lợi nhuận và giá cổ phiếu trong nhiều năm.",
+      "en": "VIC swung wildly through the 2008 and 2011-2013 property cycles, and the group's push into VinFast EVs from 2017 weighed on profits and share price for years."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Vincom (tiền thân Vingroup) niêm yết cổ phiếu VIC trên HOSE vào ngày nào, giá bao nhiêu?",
+        "en": "When did Vincom (Vingroup's predecessor) list its VIC stock on HOSE, and at what price?"
+      },
+      "choices": [
+        {
+          "vi": "19/9/2007, giá 125.000đ",
+          "en": "19 Sep 2007, VND 125,000"
+        },
+        {
+          "vi": "15/11/2007, giá 110.000đ",
+          "en": "15 Nov 2007, VND 110,000"
+        },
+        {
+          "vi": "13/12/2006, giá 160.000đ",
+          "en": "13 Dec 2006, VND 160,000"
+        },
+        {
+          "vi": "14/7/2014, giá 68.000đ",
+          "en": "14 Jul 2014, VND 68,000"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "Vincom (VIC) niêm yết ngày 19/9/2007 với giá tham chiếu 125.000 đồng/cổ phiếu và vốn hóa ban đầu khoảng 800 tỷ đồng, theo Vietstock và DSC.",
+        "en": "Vincom (VIC) listed on 19 Sep 2007 with a reference price of VND 125,000/share and an initial market cap of about VND 800 billion, per Vietstock and DSC."
+      }
+    },
+    "sources": [
+      {
+        "title": "Vietstock: VIC hồ sơ doanh nghiệp",
+        "url": "https://finance.vietstock.vn/VIC/co-phieu.htm"
+      },
+      {
+        "title": "DSC: Danh sách cổ phiếu niêm yết Vingroup",
+        "url": "https://www.dsc.com.vn/kien-thuc/cac-co-phieu-niem-yet-thuoc-tap-doan-vingroup-danh-sach-day-du-va-cap-nhat-nam-2024"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed via Vietstock: VIC first trading day 19 Sep 2007, listing price VND 125,000, initial 80M shares."
+  },
+  {
+    "id": "vn-hoa-phat-listing-2007",
+    "country": "vn",
+    "date": "2007-11-15",
+    "category": "stocks",
+    "title": {
+      "vi": "Hòa Phát (HPG) niêm yết, khởi đầu “vua thép”",
+      "en": "Hoa Phat (HPG) Lists, the Birth of a Steel King"
+    },
+    "summary": {
+      "vi": "Hòa Phát chào sàn HOSE giá 110.000đ, từ công ty buôn máy xây dựng thành tập đoàn thép hàng đầu.",
+      "en": "Hoa Phat lists on HOSE at VND 110,000, growing from a construction-equipment trader into Vietnam's top steelmaker."
+    },
+    "description": {
+      "vi": "Ngày 15/11/2007, Công ty Cổ phần Tập đoàn Hòa Phát niêm yết trên HOSE với mã HPG, giá tham chiếu phiên đầu 110.000 đồng/cổ phiếu, khối lượng niêm yết lần đầu 132 triệu cổ phiếu. Từ một doanh nghiệp buôn máy xây dựng, Hòa Phát sau đó vươn lên thành tập đoàn sản xuất thép hàng đầu Việt Nam.",
+      "en": "On 15 November 2007, Hoa Phat Group JSC listed on HOSE under ticker HPG, with a reference price of VND 110,000/share on its first session and an initial listing of 132 million shares. From a construction-equipment trading company, Hoa Phat grew into Vietnam's leading steel producer."
+    },
+    "opportunity": {
+      "asset": "Hòa Phát (HPG)",
+      "action": {
+        "vi": "Mua cổ phiếu HPG ngay khi chào sàn hoặc trong giai đoạn giá rẻ sau khủng hoảng 2008-2009, giữ dài hạn qua chu kỳ xây dựng/hạ tầng bùng nổ.",
+        "en": "Buy HPG shares at listing or during the cheap post-2008 crash period and hold long-term through Vietnam's construction/infrastructure boom."
+      },
+      "buyWhen": {
+        "vi": "15/11/2007 hoặc chiết khấu sâu hơn trong năm 2008-2009.",
+        "en": "15 Nov 2007, or at a deeper discount during 2008-2009."
+      },
+      "estimatedReturn": {
+        "vi": "Tăng trưởng nhiều lần trong 15 năm sau nhờ chu kỳ xây dựng, hạ tầng và bất động sản bùng nổ tại Việt Nam.",
+        "en": "Multi-fold growth over the following 15 years thanks to Vietnam's construction, infrastructure and real-estate boom."
+      },
+      "risk": "medium",
+      "capital": "medium",
+      "entryPrice": 110000,
+      "priceCurrency": "VND"
+    },
+    "insiderTip": {
+      "vi": "Biết trước ngành thép sẽ hưởng lợi trực tiếp từ các siêu dự án hạ tầng và bất động sản bùng nổ 2009-2021 giúp lựa chọn HPG làm khoản đầu tư \"mua và quên\" ngay từ khi vừa chào sàn giá rẻ.",
+      "en": "Knowing the steel sector would ride the 2009-2021 infrastructure and real-estate boom justifies HPG as a buy-and-forget pick right from its cheap 2007 listing."
+    },
+    "pitfalls": {
+      "vi": "Cổ phiếu HPG niêm yết đúng lúc thị trường sắp sụp đổ năm 2008, nên người mua ngay phiên đầu có thể lỗ nặng trong ngắn hạn trước khi hồi phục dài hạn.",
+      "en": "HPG listed right before the 2008 market crash, so buyers at the IPO could face heavy short-term losses before the long-term recovery."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Cổ phiếu HPG của Hòa Phát niêm yết trên HOSE vào ngày nào?",
+        "en": "On what date did Hoa Phat's HPG stock list on HOSE?"
+      },
+      "choices": [
+        {
+          "vi": "13/12/2006",
+          "en": "13 Dec 2006"
+        },
+        {
+          "vi": "19/9/2007",
+          "en": "19 Sep 2007"
+        },
+        {
+          "vi": "15/11/2007",
+          "en": "15 Nov 2007"
+        },
+        {
+          "vi": "14/7/2014",
+          "en": "14 Jul 2014"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "HPG chính thức chào sàn HOSE ngày 15/11/2007 với giá tham chiếu 110.000 đồng/cổ phiếu, theo Vietstock và thông báo chính thức của Hòa Phát.",
+        "en": "HPG officially listed on HOSE on 15 Nov 2007 with a reference price of VND 110,000/share, per Vietstock and Hoa Phat's own announcements."
+      }
+    },
+    "sources": [
+      {
+        "title": "Dân trí: Hòa Phát sau 18 năm niêm yết",
+        "url": "https://dantri.com.vn/kinh-doanh/hoa-phat-sau-18-nam-niem-yet-tu-doanh-nghiep-nganh-co-khi-thanh-vua-thep-da-nganh-20251118230112030.htm"
+      },
+      {
+        "title": "Vietstock: HPG hồ sơ doanh nghiệp",
+        "url": "https://finance.vietstock.vn/hpg/ho-so-doanh-nghiep.htm"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed via Dantri and Vietstock: HPG listed 15 Nov 2007, reference price VND 110,000-127,000 depending on source (opening vs listing price)."
+  },
+  {
+    "id": "vn-inflation-crisis-2008",
+    "country": "vn",
+    "date": "2008-01-01",
+    "category": "macro",
+    "title": {
+      "vi": "Khủng hoảng lạm phát 2008: CPI vọt lên 23%",
+      "en": "The 2008 Inflation Crisis: CPI Spikes to 23%"
+    },
+    "summary": {
+      "vi": "Lạm phát năm 2008 đạt gần 23%, NHNN siết lãi suất lên tới 13-14%, thị trường chứng khoán và BĐS lao dốc.",
+      "en": "2008 inflation hit nearly 23%; the central bank jacked up interest rates to 13-14%, crushing stocks and real estate."
+    },
+    "description": {
+      "vi": "Năm 2008, lạm phát Việt Nam đạt mức kỷ lục 22,97% (đỉnh tháng 8 có lúc 28,3% so với cùng kỳ), do giá dầu thế giới tăng sốc và khủng hoảng tài chính toàn cầu. Ngân hàng Nhà nước liên tục tăng lãi suất tái cấp vốn lên 13%/năm, khiến tín dụng bị siết chặt, VN-Index giảm gần 70% từ đỉnh và thị trường bất động sản chững lại.",
+      "en": "In 2008, Vietnam's inflation hit a record 22.97% (peaking at 28.3% year-on-year in August), driven by a global oil price spike and the global financial crisis. The State Bank of Vietnam repeatedly hiked the refinancing rate to 13%/year, tightening credit, as the VN-Index fell nearly 70% from its peak and real estate stalled."
+    },
+    "opportunity": {
+      "asset": "Tiền mặt/vàng để tránh mất giá, cổ phiếu phòng thủ chọn lọc ở vùng đáy cuối năm",
+      "action": {
+        "vi": "Giữ vàng/USD để bảo toàn giá trị trong năm lạm phát phi mã; gom cổ phiếu/đất giá rẻ cuối năm 2008-đầu 2009 khi hoảng loạn lên đỉnh điểm.",
+        "en": "Hold gold/USD to preserve value during the hyperinflation year; accumulate cheap stocks/land in late 2008-early 2009 at peak panic."
+      },
+      "buyWhen": {
+        "vi": "Cuối 2008 - đầu 2009, khi tâm lý hoảng loạn đạt đỉnh.",
+        "en": "Late 2008 - early 2009, at peak panic."
+      },
+      "estimatedReturn": {
+        "vi": "Nhà đầu tư giữ tiền mặt/vàng qua năm 2008 và mua tài sản rẻ ở đáy có thể hưởng lợi gấp nhiều lần trong đợt phục hồi 2009-2010.",
+        "en": "Investors who held cash/gold through 2008 and bought cheap assets at the bottom could benefit many times over in the 2009-2010 recovery."
+      },
+      "risk": "high",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Biết trước đây chỉ là khủng hoảng chu kỳ (không phải sụp đổ hệ thống) và Chính phủ sẽ tung gói kích cầu 122.000 tỷ đồng năm 2009, nên có thể mạnh dạn mua đáy cuối 2008 thay vì hoảng loạn bán tháo cùng đám đông.",
+      "en": "Knowing this is a cyclical crisis (not a systemic collapse) and that the government would roll out a VND 122 trillion stimulus package in 2009 lets you buy the bottom in late 2008 instead of panic-selling with the crowd."
+    },
+    "pitfalls": {
+      "vi": "Giai đoạn 2008-2009 cực kỳ biến động, nhiều nhà đầu tư dùng đòn bẩy bị cháy tài khoản trước khi kịp hồi phục; thời điểm đáy chính xác rất khó xác định.",
+      "en": "2008-2009 was extremely volatile; many leveraged investors were wiped out before the recovery arrived, and pinpointing the exact bottom was very difficult."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Lạm phát (CPI) của Việt Nam năm 2008 đạt mức cao kỷ lục là bao nhiêu?",
+        "en": "What record-high inflation (CPI) rate did Vietnam hit in 2008?"
+      },
+      "choices": [
+        {
+          "vi": "Khoảng 23%",
+          "en": "About 23%"
+        },
+        {
+          "vi": "Khoảng 8%",
+          "en": "About 8%"
+        },
+        {
+          "vi": "Khoảng 45%",
+          "en": "About 45%"
+        },
+        {
+          "vi": "Khoảng 12%",
+          "en": "About 12%"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "CPI bình quân năm 2008 của Việt Nam đạt 22,97% (~23%), mức cao nhất trong 17 năm tính đến thời điểm đó, theo Tổng cục Thống kê.",
+        "en": "Vietnam's average CPI in 2008 reached 22.97% (~23%), the highest in 17 years at the time, per the General Statistics Office."
+      }
+    },
+    "sources": [
+      {
+        "title": "Vietnambiz: Nhìn lại những lần thắt chặt rồi nới lỏng tiền tệ",
+        "url": "https://vietnambiz.vn/nhin-lai-nhung-lan-viet-nam-that-chat-roi-noi-long-tien-te-202211200538109.htm"
+      },
+      {
+        "title": "Finhay: Tỷ lệ lạm phát Việt Nam qua các năm",
+        "url": "https://www.finhay.com.vn/ty-le-lam-phat-o-viet-nam-qua-cac-nam"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed via Vietnambiz: 2008 inflation 22.97%, SBV refinancing rate raised to 13%."
+  },
+  {
+    "id": "vn-gold-surge-2008-2011",
+    "country": "vn",
+    "date": "2008-01-01",
+    "category": "commodities",
+    "title": {
+      "vi": "Vàng SJC từ 17 triệu lên 49 triệu đồng/lượng (2008-2011)",
+      "en": "SJC Gold Climbs from VND 17M to 49M/tael (2008-2011)"
+    },
+    "summary": {
+      "vi": "Khủng hoảng tài chính toàn cầu đẩy vàng SJC từ khoảng 17,5 triệu (2008) lên đỉnh gần 49 triệu đồng/lượng cuối 2011.",
+      "en": "The global financial crisis drives SJC gold from ~VND 17.5M (2008) to a peak near VND 49M/tael by late 2011."
+    },
+    "description": {
+      "vi": "Sau khủng hoảng Lehman Brothers 2008, giá vàng thế giới bước vào siêu chu kỳ tăng, vượt 1.000 USD/oz năm 2009 và đạt đỉnh 1.920 USD/oz tháng 9/2011. Tại Việt Nam, vàng miếng SJC tăng từ khoảng 17,5-19,5 triệu đồng/lượng năm 2008 lên mức kỷ lục 47-49 triệu đồng/lượng vào cuối 2011-đầu 2012, do dân chúng đổ xô mua vàng tích trữ giữa lạm phát phi mã.",
+      "en": "After the 2008 Lehman Brothers collapse, world gold prices entered a super-cycle, topping $1,000/oz in 2009 and peaking at $1,920/oz in September 2011. In Vietnam, SJC gold bars rose from roughly VND 17.5-19.5 million/tael in 2008 to a record VND 47-49 million/tael by late 2011-early 2012, as the public rushed to buy gold amid runaway inflation."
+    },
+    "opportunity": {
+      "asset": "Vàng miếng SJC",
+      "action": {
+        "vi": "Mua vàng miếng SJC ở vùng đáy khủng hoảng 2008 và bán ra khi giá lập đỉnh cuối 2011.",
+        "en": "Buy SJC gold bars near the 2008 crisis bottom and sell when prices peaked in late 2011."
+      },
+      "buyWhen": {
+        "vi": "Cuối 2008, khi giá vàng SJC quanh 17,5-19,5 triệu đồng/lượng.",
+        "en": "Late 2008, when SJC gold was around VND 17.5-19.5 million/tael."
+      },
+      "estimatedReturn": {
+        "vi": "Mua ở đáy 2008 (~17,5 triệu) và bán ở đỉnh 2011 (~49 triệu) có thể lãi khoảng 180% trong 3 năm.",
+        "en": "Buying at the 2008 bottom (~VND 17.5M) and selling at the 2011 peak (~VND 49M) could yield roughly a 180% gain over three years."
+      },
+      "risk": "medium",
+      "capital": "medium",
+      "sellWhen": {
+        "vi": "Cuối 2011 - đầu 2012, khi vàng SJC đạt đỉnh 47-49 triệu đồng/lượng.",
+        "en": "Late 2011 - early 2012, when SJC gold peaked at VND 47-49 million/tael."
+      },
+      "returnMultiple": 2.8,
+      "entryPrice": 17500000,
+      "exitPrice": 49000000,
+      "priceCurrency": "VND",
+      "exitDate": "2011-12"
+    },
+    "insiderTip": {
+      "vi": "Biết trước khủng hoảng nợ công châu Âu 2010-2012 sẽ đẩy giá vàng thế giới lên đỉnh 1.920 USD/oz vào tháng 9/2011, giúp xác định đúng thời điểm bán vàng SJC trước khi Nhà nước siết quản lý thị trường vàng năm 2012 (Nghị định 24).",
+      "en": "Knowing the 2010-2012 European debt crisis would push world gold to a $1,920/oz peak in September 2011 helps you time the exit from SJC gold before the government tightened gold market rules in 2012 (Decree 24)."
+    },
+    "pitfalls": {
+      "vi": "Chênh lệch giá vàng SJC trong nước và thế giới có thời điểm rất lớn do nguồn cung hạn chế; sau 2012 Nhà nước siết độc quyền vàng miếng SJC, giảm thanh khoản giao dịch tự do.",
+      "en": "The gap between domestic SJC gold prices and world prices could be very large due to limited supply; after 2012 the government tightened its SJC gold-bar monopoly, reducing free-market liquidity."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Giá vàng miếng SJC đạt đỉnh kỷ lục khoảng bao nhiêu vào cuối năm 2011?",
+        "en": "What record peak did SJC gold bar prices reach around late 2011?"
+      },
+      "choices": [
+        {
+          "vi": "Khoảng 19,5 triệu đồng/lượng",
+          "en": "About VND 19.5 million/tael"
+        },
+        {
+          "vi": "Khoảng 35 triệu đồng/lượng",
+          "en": "About VND 35 million/tael"
+        },
+        {
+          "vi": "Khoảng 47-49 triệu đồng/lượng",
+          "en": "About VND 47-49 million/tael"
+        },
+        {
+          "vi": "Khoảng 92 triệu đồng/lượng",
+          "en": "About VND 92 million/tael"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "Giá vàng SJC lập đỉnh khoảng 47-49 triệu đồng/lượng vào cuối 2011-đầu 2012, theo Danviet và Finhay, trùng với đỉnh giá vàng thế giới 1.920 USD/oz tháng 9/2011.",
+        "en": "SJC gold peaked around VND 47-49 million/tael in late 2011-early 2012, per Danviet and Finhay, coinciding with the world gold price peak of $1,920/oz in September 2011."
+      }
+    },
+    "sources": [
+      {
+        "title": "Danviet: Lịch sử giá vàng miếng SJC 15 năm",
+        "url": "https://danviet.vn/lich-su-gia-vang-mieng-sjc-trong-15-nam-qua-tu-ky-nguyen-ngu-dong-den-giai-doan-but-pha-d1415795.html"
+      },
+      {
+        "title": "Finhay: Giá vàng năm 2008",
+        "url": "https://www.finhay.com.vn/en/gia-vang-nam-2008"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed via Danviet and Finhay: 2008 SJC gold ~17.5-19.5M/tael; peak 47-49M/tael late 2011-early 2012."
+  },
+  {
+    "id": "vn-vnindex-bottom-2009",
     "country": "vn",
     "date": "2009-02-24",
     "category": "stocks",
     "title": {
-      "vi": "VN-Index chạm đáy sau khủng hoảng",
-      "en": "VN-Index bottoms after the crisis"
+      "vi": "VN-Index chạm đáy 235 điểm, cơ hội mua cả đời",
+      "en": "VN-Index Bottoms at 235 Points, a Once-in-a-Lifetime Buy"
+    },
+    "summary": {
+      "vi": "Từ đỉnh 1.170 điểm, VN-Index rơi tự do xuống 235,5 điểm — giảm hơn 79%, đáy sâu nhất lịch sử.",
+      "en": "From a peak of 1,170, the VN-Index free-falls to 235.5 — an 79%+ crash, the deepest bottom in its history."
     },
     "description": {
-      "vi": "Sau khủng hoảng 2008, VN-Index rơi xuống vùng ~235 điểm.",
-      "en": "After the 2008 crisis, the VN-Index falls to around 235."
+      "vi": "Ngày 24/2/2009, VN-Index chạm đáy 235,5 điểm, giảm hơn 79% so với đỉnh lịch sử 1.170,67 điểm (3/2007), do hệ quả kép của khủng hoảng tài chính toàn cầu và bong bóng nội tại vỡ. Đây được xem là cơ hội mua cổ phiếu giá rẻ nhất trong lịch sử thị trường chứng khoán Việt Nam.",
+      "en": "On 24 February 2009, the VN-Index bottomed at 235.5 points, down more than 79% from its historic 1,170.67 peak (March 2007), the combined result of the global financial crisis and the bursting of Vietnam's own stock bubble. It is widely regarded as the cheapest buying opportunity in the history of the Vietnamese stock market."
     },
     "opportunity": {
+      "asset": "Cổ phiếu blue-chip trên HOSE (VNM, FPT, HPG, VIC...)",
       "action": {
-        "vi": "Mua cổ phiếu đầu ngành / quỹ chỉ số tại đáy.",
-        "en": "Buy blue chips / index funds at the bottom."
+        "vi": "Mua mạnh các cổ phiếu blue-chip ở vùng đáy 235 điểm khi tâm lý thị trường hoảng loạn cùng cực.",
+        "en": "Aggressively buy blue-chip stocks at the 235-point bottom when market sentiment was at its most panicked."
       },
       "buyWhen": {
-        "vi": "Tháng 2–3/2009",
-        "en": "Feb–Mar 2009"
-      },
-      "sellWhen": {
-        "vi": "Cuối 2009 (VN-Index ~600) hoặc giữ dài hạn",
-        "en": "Late 2009 (VN-Index ~600) or hold long term"
+        "vi": "Quanh ngày 24/2/2009, đáy sâu nhất.",
+        "en": "Around 24 Feb 2009, the deepest bottom."
       },
       "estimatedReturn": {
-        "vi": "Hơn 2 lần trong vài tháng",
-        "en": "Over 2x within months"
+        "vi": "Chỉ số phục hồi mạnh trong năm 2009, nhiều cổ phiếu tăng gấp 3-5 lần từ đáy trong vòng chưa đầy 12 tháng.",
+        "en": "The index rebounded sharply in 2009, with many stocks up 3-5x from the bottom within less than 12 months."
       },
-      "returnMultiple": 2
+      "risk": "high",
+      "capital": "low",
+      "sellWhen": {
+        "vi": "Trong các năm phục hồi 2009-2010, hoặc giữ dài hạn tới đỉnh 2018/2022.",
+        "en": "During the 2009-2010 recovery years, or held long-term to the 2018/2022 peaks."
+      },
+      "entryPrice": 235.5,
+      "priceCurrency": "points",
+      "exitDate": "2009-02-24"
+    },
+    "insiderTip": {
+      "vi": "Biết chính xác ngày đáy 24/2/2009 (235,5 điểm) và việc Chính phủ sắp tung gói kích cầu lớn giúp mua đúng đáy tuyệt đối thay vì bắt dao rơi quá sớm trong năm 2008.",
+      "en": "Knowing the exact bottom date (24 Feb 2009, 235.5 points) and that the government was about to launch a major stimulus package lets you buy the absolute bottom instead of catching a falling knife too early in 2008."
+    },
+    "pitfalls": {
+      "vi": "Rất khó xác định đáy chính xác trong thời gian thực; nhiều nhà đầu tư mua quá sớm trong năm 2008 và bị cuốn trôi bởi đà giảm kéo dài gần 2 năm.",
+      "en": "The exact bottom was extremely hard to call in real time; many investors who bought too early in 2008 were wiped out by a nearly two-year decline."
+    },
+    "quiz": {
+      "question": {
+        "vi": "VN-Index chạm đáy ở mức bao nhiêu điểm, vào ngày nào, sau khi lập đỉnh 1.170 điểm năm 2007?",
+        "en": "At what level, and on what date, did the VN-Index bottom out after peaking at 1,170 points in 2007?"
+      },
+      "choices": [
+        {
+          "vi": "660 điểm, ngày 24/3/2020",
+          "en": "660 points, on 24 Mar 2020"
+        },
+        {
+          "vi": "235,5 điểm, ngày 24/2/2009",
+          "en": "235.5 points, on 24 Feb 2009"
+        },
+        {
+          "vi": "1.020 điểm, ngày 23/12/2022",
+          "en": "1,020 points, on 23 Dec 2022"
+        },
+        {
+          "vi": "101 điểm, ngày 28/7/2000",
+          "en": "101 points, on 28 Jul 2000"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "VN-Index lập đáy 235,5 điểm vào ngày 24/2/2009, giảm hơn 79% so với đỉnh 1.170,67 điểm tháng 3/2007, theo nhiều nguồn tài chính trong nước.",
+        "en": "The VN-Index bottomed at 235.5 points on 24 Feb 2009, down more than 79% from the 1,170.67 peak of March 2007, per multiple Vietnamese financial sources."
+      }
     },
     "sources": [
       {
-        "title": "VN-Index – Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/VN-Index"
+        "title": "Finhay: VN-Index qua các năm",
+        "url": "https://www.finhay.com.vn/en/chi-so-vnindex-qua-cac-nam"
+      },
+      {
+        "title": "f247: Lịch sử các lần nóng lạnh của VN-Index",
+        "url": "https://f247.com/t/lich-su-cac-lan-nong-lanh-cua-vn-index/832767"
       }
     ],
-    "verified": false
+    "verified": true,
+    "verifiedNote": "Confirmed by multiple sources: VN-Index bottomed at 235.5 on 24 Feb 2009."
   },
   {
-    "id": "vn-covid-2020",
+    "id": "vn-ecommerce-boom",
+    "country": "vn",
+    "date": "2010-03-01",
+    "category": "business",
+    "title": {
+      "vi": "Tiki, Lazada, Shopee khởi động cuộc đua thương mại điện tử",
+      "en": "Tiki, Lazada and Shopee Kick Off the E-commerce Race"
+    },
+    "summary": {
+      "vi": "Tiki (2010), Lazada (2012), Shopee (2015 tại Singapore, vào VN 2016) biến mua sắm online thành ngành tỷ đô.",
+      "en": "Tiki (2010), Lazada (2012) and Shopee (founded 2015, entered Vietnam 2016) turn online shopping into a billion-dollar industry."
+    },
+    "description": {
+      "vi": "Tiki.vn ra đời tháng 3/2010 tại Việt Nam từ mô hình bán sách online; Lazada gia nhập thị trường Việt Nam năm 2012 với vốn đầu tư nước ngoài lớn; Shopee (thành lập 2015 tại Singapore) vào Việt Nam năm 2016 và nhanh chóng vươn lên dẫn đầu thị phần thương mại điện tử, chiếm khoảng 63% thị phần so với Lazada khoảng 23% và Tiki chỉ còn khoảng 6%.",
+      "en": "Tiki.vn launched in March 2010 in Vietnam as an online bookstore; Lazada entered the Vietnamese market in 2012 backed by heavy foreign investment; Shopee (founded 2015 in Singapore) entered Vietnam in 2016 and quickly rose to lead e-commerce market share, holding roughly 63% versus Lazada's ~23% and Tiki's dwindling ~6%."
+    },
+    "opportunity": {
+      "asset": "Cổ phần/vốn góp sớm vào các sàn TMĐT (Tiki, Sendo) hoặc mở gian hàng bán lẻ online sớm trên các sàn này",
+      "action": {
+        "vi": "Đầu tư vốn mạo hiểm sớm vào Tiki hoặc Sendo, hoặc mở shop bán hàng sớm trên Tiki/Lazada/Shopee trước khi cạnh tranh gay gắt.",
+        "en": "Invest early venture capital into Tiki or Sendo, or open an early seller shop on Tiki/Lazada/Shopee before competition intensified."
+      },
+      "buyWhen": {
+        "vi": "2010-2016, giai đoạn các sàn mới hình thành.",
+        "en": "2010-2016, while the platforms were still forming."
+      },
+      "estimatedReturn": {
+        "vi": "Người bán hàng sớm trên các sàn TMĐT hưởng lợi từ chi phí marketing thấp và ít cạnh tranh; nhà đầu tư rót vốn sớm vào Tiki từng được định giá hàng trăm triệu USD.",
+        "en": "Early sellers on these platforms benefited from low marketing costs and little competition; early investors in Tiki saw valuations reach hundreds of millions of dollars."
+      },
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết trước Shopee (vào sau, 2016) sẽ vượt mặt cả Lazada và Tiki để dẫn đầu thị phần TMĐT Việt Nam vào giữa 2020s giúp định vị gian hàng/vốn đầu tư đúng nền tảng thắng cuộc thay vì dàn trải nguồn lực.",
+      "en": "Knowing Shopee (a late entrant in 2016) would overtake both Lazada and Tiki to lead Vietnam's e-commerce market by the mid-2020s lets you concentrate your seller presence or investment on the eventual winner instead of spreading resources thin."
+    },
+    "pitfalls": {
+      "vi": "Cạnh tranh đốt tiền khuyến mãi giữa các sàn khiến nhiều startup TMĐT nội địa (Sendo, Tiki) dần đuối sức trước các nền tảng có hậu thuẫn vốn ngoại khổng lồ như Shopee (Sea Group) và Lazada (Alibaba).",
+      "en": "Cash-burning promotional wars among platforms gradually wore down homegrown startups (Sendo, Tiki) against giants backed by deep-pocketed foreign capital like Shopee (Sea Group) and Lazada (Alibaba)."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Sàn thương mại điện tử nào hiện dẫn đầu thị phần tại Việt Nam dù gia nhập thị trường muộn hơn Tiki và Lazada?",
+        "en": "Which e-commerce platform now leads Vietnam's market share despite entering later than Tiki and Lazada?"
+      },
+      "choices": [
+        {
+          "vi": "Tiki",
+          "en": "Tiki"
+        },
+        {
+          "vi": "Sendo",
+          "en": "Sendo"
+        },
+        {
+          "vi": "Shopee",
+          "en": "Shopee"
+        },
+        {
+          "vi": "Lazada",
+          "en": "Lazada"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "Shopee gia nhập Việt Nam năm 2016, sau Tiki (2010) và Lazada (2012), nhưng đến nay dẫn đầu thị phần với khoảng 63%, theo báo Đầu tư.",
+        "en": "Shopee entered Vietnam in 2016, after Tiki (2010) and Lazada (2012), but now leads market share at roughly 63%, per Báo Đầu Tư."
+      }
+    },
+    "sources": [
+      {
+        "title": "Báo Đầu Tư: Sao đổi ngôi trên thị trường TMĐT",
+        "url": "https://baodautu.vn/sao-doi-ngoi-tren-thi-truong-thuong-mai-dien-tu-d194115.html"
+      },
+      {
+        "title": "VietnamWorks: E-commerce là gì",
+        "url": "https://www.vietnamworks.com/hrinsider/e-commerce.html"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed via Báo Đầu Tư: Tiki founded 2010, Lazada 2012, Shopee founded 2015/entered Vietnam 2016, current market share Shopee ~63%, Lazada ~23%, Tiki ~6%."
+  },
+  {
+    "id": "vn-real-estate-slump-2011-2013",
+    "country": "vn",
+    "date": "2011-01-01",
+    "category": "real-estate",
+    "title": {
+      "vi": "Đóng băng bất động sản 2011-2013: cơ hội mua đáy",
+      "en": "The 2011-2013 Real Estate Freeze: a Bottom-Buying Window"
+    },
+    "summary": {
+      "vi": "Lãi suất vay vọt lên 18-25%/năm khiến giá nhà đất giảm 30-50%, doanh nghiệp bán tháo dự án.",
+      "en": "Loan rates spike to 18-25%, crashing property prices 30-50% as developers fire-sell their projects."
+    },
+    "description": {
+      "vi": "Theo Nghị quyết 11/2011 siết tín dụng phi sản xuất, lãi suất cho vay bất động sản vọt lên 18-25%/năm, khiến thị trường đóng băng 2011-2013. Giá đất nền, căn hộ cao cấp giảm 20-50% tùy khu vực; ví dụ Hoàng Anh Gia Lai từng hạ giá dự án Hoàng Anh Thanh Bình xuống còn 12-15 triệu đồng/m² so với 25-30 triệu đồng/m² năm 2007.",
+      "en": "Under Resolution 11/2011 tightening non-production credit, real-estate loan rates spiked to 18-25%/year, freezing the market in 2011-2013. Land plots and high-end apartments fell 20-50% depending on area; for example, Hoang Anh Gia Lai slashed its Hoang Anh Thanh Binh project to VND 12-15 million/m² from VND 25-30 million/m² in 2007."
+    },
+    "opportunity": {
+      "asset": "Căn hộ/đất nền TP.HCM, Hà Nội trong giai đoạn đóng băng",
+      "action": {
+        "vi": "Mua căn hộ hoặc đất nền bị bán tháo giá rẻ trong giai đoạn 2011-2013 khi doanh nghiệp cạn vốn phải xả hàng.",
+        "en": "Buy apartments or land plots fire-sold cheaply during 2011-2013 when cash-strapped developers were forced to dump inventory."
+      },
+      "buyWhen": {
+        "vi": "2011-2013, đặc biệt khi các chủ đầu tư lớn như Hoàng Anh Gia Lai phải hạ giá bán tháo.",
+        "en": "2011-2013, especially when major developers like Hoang Anh Gia Lai were forced into fire sales."
+      },
+      "estimatedReturn": {
+        "vi": "Mua căn hộ ở đáy giá 2011-2013 và bán ra giai đoạn phục hồi 2014-2019 có thể lãi 50-100% hoặc hơn tùy vị trí.",
+        "en": "Buying apartments at the 2011-2013 bottom and selling during the 2014-2019 recovery could yield 50-100% gains or more depending on location."
+      },
+      "risk": "medium",
+      "capital": "high",
+      "sellWhen": {
+        "vi": "Từ 2014-2019 khi thị trường phục hồi mạnh, có nơi tăng 50-300%.",
+        "en": "From 2014-2019 as the market staged a strong recovery, up 50-300% in some areas."
+      }
+    },
+    "insiderTip": {
+      "vi": "Biết trước đây chỉ là một đợt điều chỉnh chu kỳ do chính sách tín dụng (không phải sụp đổ vĩnh viễn của thị trường) và Chính phủ sẽ tung gói 30.000 tỷ đồng hỗ trợ nhà ở xã hội năm 2013, giúp mạnh dạn mua đáy giữa lúc truyền thông đưa tin bi quan nhất.",
+      "en": "Knowing this is just a cyclical credit-driven correction (not a permanent market collapse) and that the government would roll out a VND 30 trillion social-housing support package in 2013 lets you buy the bottom while media coverage was at its most pessimistic."
+    },
+    "pitfalls": {
+      "vi": "Thời gian đóng băng kéo dài tới 3 năm, nhiều nhà đầu tư dùng đòn bẩy cao bị vỡ nợ trước khi thị trường phục hồi; chọn sai dự án/chủ đầu tư yếu có thể mất trắng.",
+      "en": "The freeze lasted up to three years, and many highly-leveraged investors went bankrupt before the recovery; picking the wrong project or a weak developer could mean a total loss."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Nguyên nhân chính khiến thị trường bất động sản Việt Nam đóng băng giai đoạn 2011-2013 là gì?",
+        "en": "What was the main cause of Vietnam's 2011-2013 real-estate market freeze?"
+      },
+      "choices": [
+        {
+          "vi": "Dịch bệnh COVID-19",
+          "en": "The COVID-19 pandemic"
+        },
+        {
+          "vi": "Chính sách siết tín dụng, lãi suất vay lên tới 18-25%/năm",
+          "en": "Credit tightening policy, with loan rates up to 18-25%/year"
+        },
+        {
+          "vi": "Việt Nam gia nhập WTO",
+          "en": "Vietnam joining the WTO"
+        },
+        {
+          "vi": "Khủng hoảng vàng SJC",
+          "en": "The SJC gold crisis"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Nghị quyết 11/2011 siết tín dụng phi sản xuất đẩy lãi suất vay bất động sản lên 18-25%/năm, gây đóng băng thị trường 2011-2013, theo VnEconomy và Tuổi Trẻ.",
+        "en": "Resolution 11/2011, which tightened non-production credit, pushed real-estate loan rates to 18-25%/year, freezing the market in 2011-2013, per VnEconomy and Tuoi Tre."
+      }
+    },
+    "sources": [
+      {
+        "title": "Tuổi Trẻ: Chu kỳ 10 năm khủng hoảng bất động sản",
+        "url": "https://tuoitre.vn/saigontimes/chu-ky-10-nam-khung-hoang-bat-dong-san-va-nhung-dieu-khac-biet-106625497.htm"
+      },
+      {
+        "title": "VnEconomy: Biểu đồ hình Sin của BĐS Việt Nam",
+        "url": "https://vneconomy.vn/bieu-do-hinh-sin-cua-thi-truong-bat-dong-san-viet-nam-qua-tram-la-thang.htm"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed via Tuoi Tre and VnEconomy: 2011-2013 freeze driven by credit tightening, rates up to 18-25%, prices fell 20-50%, 2014-2019 recovery up to 300%."
+  },
+  {
+    "id": "vn-ridehailing-grab-2014",
+    "country": "vn",
+    "date": "2014-02-27",
+    "category": "business",
+    "title": {
+      "vi": "GrabTaxi ra mắt tại Việt Nam, khai sinh gọi xe công nghệ",
+      "en": "GrabTaxi Launches in Vietnam, Birthing Ride-Hailing"
+    },
+    "summary": {
+      "vi": "Grab vào Việt Nam cuối tháng 2/2014, châm ngòi cuộc chiến gọi xe công nghệ với Uber, biến đổi ngành vận tải.",
+      "en": "Grab enters Vietnam in late February 2014, sparking a ride-hailing war with Uber that reshapes transportation."
+    },
+    "description": {
+      "vi": "Ngày 27/2/2014, ứng dụng GrabTaxi chính thức có mặt tại Việt Nam, sau đó mở rộng với GrabBike (10/2014), GrabCar. Uber cũng gia nhập thị trường từ tháng 7/2014. Cuộc chiến giành thị phần gọi xe công nghệ giữa Grab và Uber (Grab mua lại mảng Đông Nam Á của Uber năm 2018) đã thay đổi hoàn toàn ngành vận tải hành khách đô thị tại Việt Nam.",
+      "en": "On 27 February 2014, the GrabTaxi app officially launched in Vietnam, later expanding with GrabBike (October 2014) and GrabCar. Uber also entered the market in July 2014. The market-share battle between Grab and Uber (Grab acquired Uber's Southeast Asia operations in 2018) completely transformed urban passenger transport in Vietnam."
+    },
+    "opportunity": {
+      "asset": "Tài xế đối tác/nhà đầu tư sớm vào nền tảng gọi xe công nghệ",
+      "action": {
+        "vi": "Trở thành tài xế đối tác sớm hoặc đầu tư vào các công ty công nghệ vận tải/giao đồ ăn liên quan đến hệ sinh thái gọi xe ngay từ 2014-2015.",
+        "en": "Become an early partner driver or invest in ride-hailing/food-delivery tech companies tied to the ecosystem starting 2014-2015."
+      },
+      "buyWhen": {
+        "vi": "2014-2015, giai đoạn thị trường gọi xe công nghệ mới hình thành.",
+        "en": "2014-2015, while the ride-hailing market was just forming."
+      },
+      "estimatedReturn": {
+        "vi": "Tài xế tham gia sớm hưởng khuyến mãi, thưởng thu nhập cao trong giai đoạn Grab/Uber đốt tiền giành thị phần 2014-2017.",
+        "en": "Early drivers benefited from promotions and high bonus income during the 2014-2017 cash-burning market-share war between Grab and Uber."
+      },
+      "risk": "high",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Biết trước Grab sẽ thắng cuộc chiến với Uber tại Đông Nam Á (mua lại mảng Uber khu vực năm 2018) và mở rộng thành siêu ứng dụng (GrabFood 2018, GrabPay) giúp định vị sớm vào hệ sinh thái Grab thay vì Uber.",
+      "en": "Knowing Grab would win the Southeast Asia battle against Uber (acquiring Uber's regional business in 2018) and expand into a super-app (GrabFood 2018, GrabPay) lets you position early within the Grab ecosystem rather than Uber's."
+    },
+    "pitfalls": {
+      "vi": "Cạnh tranh đốt tiền khuyến mãi khiến nhiều tài xế taxi truyền thống bị ảnh hưởng thu nhập nghiêm trọng; chính sách quản lý xe công nghệ còn nhiều tranh cãi pháp lý trong giai đoạn đầu (Nghị định 86).",
+      "en": "The cash-burning promotional war seriously hurt traditional taxi drivers' incomes; the legal regulatory framework for ride-hailing apps remained contentious in the early years (Decree 86)."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Ứng dụng gọi xe công nghệ nào ra mắt tại Việt Nam vào ngày 27/2/2014, mở đầu ngành ride-hailing?",
+        "en": "Which ride-hailing app launched in Vietnam on 27 February 2014, pioneering the industry?"
+      },
+      "choices": [
+        {
+          "vi": "Uber",
+          "en": "Uber"
+        },
+        {
+          "vi": "GrabTaxi",
+          "en": "GrabTaxi"
+        },
+        {
+          "vi": "Be",
+          "en": "Be"
+        },
+        {
+          "vi": "Gojek",
+          "en": "Gojek"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "GrabTaxi chính thức ra mắt tại Việt Nam vào cuối tháng 2/2014 (27/2/2014), trước khi Uber vào thị trường tháng 7/2014.",
+        "en": "GrabTaxi officially launched in Vietnam in late February 2014 (27 Feb 2014), before Uber entered the market in July 2014."
+      }
+    },
+    "sources": [
+      {
+        "title": "Báo Đầu tư: Grab lĩnh phạt, gia nhập Việt Nam năm 2014",
+        "url": "https://baodautu.vn/grab-linh-phat-136-ty-dong-yeu-cau-phai-cham-dut-cac-hanh-vi-vi-pham-d669047.html"
+      },
+      {
+        "title": "ISEAS: Political Economy of App-Based Driving in Vietnam",
+        "url": "https://www.iseas.edu.sg/wp-content/uploads/2023/09/TRS16_23.pdf"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed via ISEAS report and Báo Đầu Tư: GrabTaxi launched late Feb 2014, GrabBike Oct 2014, Uber entered Jul 2014."
+  },
+  {
+    "id": "vn-mwg-listing-2014",
+    "country": "vn",
+    "date": "2014-07-14",
+    "category": "stocks",
+    "title": {
+      "vi": "Thế Giới Di Động (MWG) niêm yết, tăng trần ngay ngày đầu",
+      "en": "Thế Giới Di Động (MWG) Lists, Hits Ceiling on Day One"
+    },
+    "summary": {
+      "vi": "MWG chào sàn 68.000đ, tăng trần lên 81.500đ ngay phiên đầu, mở đầu chuỗi bán lẻ lớn nhất Việt Nam.",
+      "en": "MWG lists at VND 68,000, hits the ceiling at VND 81,500 on day one, launching Vietnam's largest retail chain."
+    },
+    "description": {
+      "vi": "Ngày 14/7/2014, Công ty Cổ phần Đầu tư Thế Giới Di Động niêm yết trên HOSE với mã MWG, giá tham chiếu 68.000 đồng/cổ phiếu và tăng trần ngay phiên đầu lên 81.500 đồng (+19,9%). MWG sau đó mở rộng từ bán điện thoại sang điện máy (Điện Máy Xanh), bách hóa (Bách Hóa Xanh), trở thành một trong những chuỗi bán lẻ lớn nhất Việt Nam.",
+      "en": "On 14 July 2014, Mobile World Investment Corporation listed on HOSE under ticker MWG at a reference price of VND 68,000/share, hitting the daily ceiling on day one at VND 81,500 (+19.9%). MWG later expanded from phones into electronics (Điện Máy Xanh) and groceries (Bách Hóa Xanh), becoming one of Vietnam's largest retail chains."
+    },
+    "opportunity": {
+      "asset": "Thế Giới Di Động (MWG)",
+      "action": {
+        "vi": "Mua cổ phiếu MWG ngay khi chào sàn 2014 và giữ dài hạn qua các giai đoạn mở rộng chuỗi Điện Máy Xanh, Bách Hóa Xanh.",
+        "en": "Buy MWG shares at its 2014 listing and hold long-term through its Điện Máy Xanh and Bách Hóa Xanh expansion phases."
+      },
+      "buyWhen": {
+        "vi": "14/7/2014, ngày chào sàn.",
+        "en": "14 Jul 2014, the listing date."
+      },
+      "estimatedReturn": {
+        "vi": "MWG tăng giá nhiều lần trong thập kỷ sau nhờ mở rộng mạng lưới cửa hàng từ vài trăm lên hàng nghìn điểm bán trên toàn quốc.",
+        "en": "MWG shares multiplied many times over the following decade as the store network grew from a few hundred to thousands of outlets nationwide."
+      },
+      "risk": "medium",
+      "capital": "medium",
+      "entryPrice": 68000,
+      "exitPrice": 81500,
+      "priceCurrency": "VND"
+    },
+    "insiderTip": {
+      "vi": "Biết trước MWG sẽ nhân rộng mô hình chuỗi bán lẻ hiện đại ra toàn quốc và mở thêm Điện Máy Xanh, Bách Hóa Xanh thành công vang dội, giúp mua và giữ MWG xuyên suốt thay vì chỉ lướt sóng ngày chào sàn.",
+      "en": "Knowing MWG would successfully scale its modern retail model nationwide and launch hit spin-offs like Điện Máy Xanh and Bách Hóa Xanh justifies a buy-and-hold approach rather than just flipping it on listing day."
+    },
+    "pitfalls": {
+      "vi": "Mảng Bách Hóa Xanh lỗ kéo dài nhiều năm trước khi có lãi, gây áp lực lên lợi nhuận hợp nhất và giá cổ phiếu trong giai đoạn 2018-2022.",
+      "en": "The Bách Hóa Xanh grocery arm posted losses for years before turning profitable, weighing on consolidated earnings and the share price during 2018-2022."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Cổ phiếu MWG của Thế Giới Di Động niêm yết trên HOSE vào ngày nào, với giá tham chiếu bao nhiêu?",
+        "en": "When did MWG (Thế Giới Di Động) list on HOSE, and at what reference price?"
+      },
+      "choices": [
+        {
+          "vi": "14/7/2014, giá 68.000đ",
+          "en": "14 Jul 2014, VND 68,000"
+        },
+        {
+          "vi": "15/11/2007, giá 110.000đ",
+          "en": "15 Nov 2007, VND 110,000"
+        },
+        {
+          "vi": "28/2/2017, giá 90.000đ",
+          "en": "28 Feb 2017, VND 90,000"
+        },
+        {
+          "vi": "19/9/2007, giá 125.000đ",
+          "en": "19 Sep 2007, VND 125,000"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "MWG niêm yết và giao dịch lần đầu trên HOSE ngày 14/7/2014 với giá tham chiếu 68.000 đồng/cổ phiếu, tăng trần lên 81.500 đồng ngay phiên đầu.",
+        "en": "MWG listed and began trading on HOSE on 14 Jul 2014 with a reference price of VND 68,000/share, hitting the ceiling at VND 81,500 on day one."
+      }
+    },
+    "sources": [
+      {
+        "title": "Vietstock: MWG hồ sơ doanh nghiệp",
+        "url": "https://finance.vietstock.vn/mwg/profile.htm?languageid=1"
+      },
+      {
+        "title": "Vietstock: Thế giới Di động tăng kịch biên phiên chào sàn",
+        "url": "https://vietstock.vn/2014/07/the-gioi-di-dong-tang-kich-bien-trong-phien-chao-san-741-355826.htm"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed via Vietstock: MWG first trading day 14 Jul 2014, reference price VND 68,000, closed day one at VND 81,500 (+19.9%)."
+  },
+  {
+    "id": "vn-long-thanh-airport-2015",
+    "country": "vn",
+    "date": "2015-06-25",
+    "category": "real-estate",
+    "title": {
+      "vi": "Quốc hội duyệt chủ trương đầu tư sân bay Long Thành",
+      "en": "National Assembly Approves Long Thanh Airport Project"
+    },
+    "summary": {
+      "vi": "Nghị quyết 94/2015/QH13 duyệt siêu sân bay 100 triệu khách/năm, châm ngòi sốt đất Đồng Nai.",
+      "en": "Resolution 94/2015/QH13 greenlights a 100-million-passenger mega-airport, igniting a Dong Nai land rush."
+    },
+    "description": {
+      "vi": "Ngày 25/6/2015, Quốc hội khóa XIII thông qua Nghị quyết số 94/2015/QH13 phê duyệt chủ trương đầu tư Dự án Cảng hàng không quốc tế Long Thành, công suất thiết kế 100 triệu hành khách/năm. Thông tin này ngay lập tức châm ngòi các đợt sốt đất quanh khu vực huyện Long Thành, Nhơn Trạch (Đồng Nai) trong nhiều năm sau đó.",
+      "en": "On 25 June 2015, Vietnam's 13th National Assembly passed Resolution 94/2015/QH13 approving the investment policy for Long Thanh International Airport, designed for 100 million passengers a year. The news immediately ignited repeated land-price surges around Long Thanh and Nhon Trach districts in Dong Nai province in the years that followed."
+    },
+    "opportunity": {
+      "asset": "Đất nền khu vực Long Thành, Nhơn Trạch, Đồng Nai",
+      "action": {
+        "vi": "Mua đất nền quanh khu vực quy hoạch sân bay Long Thành ngay sau khi Quốc hội thông qua chủ trương đầu tư.",
+        "en": "Buy land near the planned Long Thanh airport site right after National Assembly approval."
+      },
+      "buyWhen": {
+        "vi": "Ngay sau 25/6/2015.",
+        "en": "Right after 25 June 2015."
+      },
+      "estimatedReturn": {
+        "vi": "Giá đất quanh khu vực Long Thành/Nhơn Trạch tăng gấp nhiều lần qua các đợt sốt đất liên tiếp từ 2015 đến nay.",
+        "en": "Land prices around Long Thanh/Nhon Trach rose several-fold through repeated fever cycles from 2015 to today."
+      },
+      "risk": "high",
+      "capital": "medium",
+      "sellWhen": {
+        "vi": "Các đợt sốt đất cao điểm 2017-2018 và 2020-2021 khi tiến độ dự án được công bố cụ thể hơn.",
+        "en": "During the peak land-fever waves of 2017-2018 and 2020-2021 as project timelines became more concrete."
+      }
+    },
+    "insiderTip": {
+      "vi": "Biết trước dự án sẽ thực sự được triển khai qua nhiều giai đoạn (phê duyệt đầu tư giai đoạn 1 tháng 11/2020, khai thác dự kiến giữa 2020s) thay vì chỉ là quy hoạch treo như nhiều dự án hạ tầng khác, giúp mua đất sớm và kiên nhẫn giữ qua các đợt điều chỉnh.",
+      "en": "Knowing the project would actually move forward through multiple phases (Phase 1 investment approved Nov 2020, operations targeted mid-2020s) rather than becoming another stalled master plan lets you buy early and hold patiently through corrections."
+    },
+    "pitfalls": {
+      "vi": "Tiến độ dự án bị trì hoãn nhiều lần, các đợt sốt đất ăn theo thường đi kèm rủi ro pháp lý (đất chưa có sổ, quy hoạch treo, phân lô trái phép) khiến nhiều nhà đầu tư nhỏ lẻ mắc kẹt.",
+      "en": "The project faced repeated delays, and the speculative land fevers riding on it often came with legal risk (unclear land titles, frozen zoning, illegal subdivisions) that trapped many small investors."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Quốc hội Việt Nam thông qua chủ trương đầu tư Dự án sân bay Long Thành vào ngày nào?",
+        "en": "On what date did Vietnam's National Assembly approve the investment policy for the Long Thanh Airport project?"
+      },
+      "choices": [
+        {
+          "vi": "25/6/2015",
+          "en": "25 Jun 2015"
+        },
+        {
+          "vi": "11/11/2020",
+          "en": "11 Nov 2020"
+        },
+        {
+          "vi": "11/1/2007",
+          "en": "11 Jan 2007"
+        },
+        {
+          "vi": "1/1/2021",
+          "en": "1 Jan 2021"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "Quốc hội khóa XIII thông qua Nghị quyết số 94/2015/QH13 ngày 25/6/2015 phê duyệt chủ trương đầu tư sân bay Long Thành; quyết định đầu tư giai đoạn 1 được Thủ tướng ký sau đó, ngày 11/11/2020.",
+        "en": "The 13th National Assembly passed Resolution 94/2015/QH13 on 25 Jun 2015 approving the Long Thanh airport investment policy; Phase 1 investment was approved later by the PM on 11 Nov 2020."
+      }
+    },
+    "sources": [
+      {
+        "title": "Đồng Nai: Dấu mốc lịch sử công trình thế kỷ",
+        "url": "https://dongnai.gov.vn/vi/news/San-bay-Long-Thanh/dau-moc-lich-su-tai-cong-trinh-the-ky-cua-dat-nuoc-58194.html"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed via Dong Nai provincial government website: Resolution 94/2015/QH13 dated 25 Jun 2015; Phase 1 approval 11 Nov 2020."
+  },
+  {
+    "id": "vn-vjc-listing-2017",
+    "country": "vn",
+    "date": "2017-02-28",
+    "category": "stocks",
+    "title": {
+      "vi": "Vietjet (VJC) niêm yết, hãng bay giá rẻ đầu tiên lên sàn",
+      "en": "Vietjet (VJC) Lists, the First Budget Airline to Go Public"
+    },
+    "summary": {
+      "vi": "VJC chào sàn 90.000đ, tăng trần lên 108.000đ, vốn hóa 1,2 tỷ USD ngay ngày đầu giao dịch.",
+      "en": "VJC lists at VND 90,000, hits the ceiling at VND 108,000, reaching a $1.2 billion market cap on day one."
+    },
+    "description": {
+      "vi": "Ngày 28/2/2017, Công ty Cổ phần Hàng không Vietjet niêm yết trên HOSE với mã VJC, giá tham chiếu 90.000 đồng/cổ phiếu. Ngay phiên đầu, giá tăng trần lên 108.000 đồng, đưa vốn hóa Vietjet lên khoảng 27.000 tỷ đồng (1,2 tỷ USD), lọt ngay vào rổ VN30. Đây là hãng hàng không đầu tiên niêm yết trên HOSE.",
+      "en": "On 28 February 2017, Vietjet Aviation JSC listed on HOSE under ticker VJC at a reference price of VND 90,000/share. On its very first session, the stock hit the ceiling at VND 108,000, pushing Vietjet's market cap to about VND 27 trillion ($1.2 billion) and placing it straight into the VN30 index. It was the first airline to list on HOSE."
+    },
+    "opportunity": {
+      "asset": "Vietjet Air (VJC)",
+      "action": {
+        "vi": "Mua cổ phiếu VJC ngay khi chào sàn 2017, hưởng lợi từ tăng trưởng hàng không giá rẻ bùng nổ tại Việt Nam.",
+        "en": "Buy VJC shares at its 2017 listing to ride Vietnam's budget-airline boom."
+      },
+      "buyWhen": {
+        "vi": "28/2/2017, ngày chào sàn.",
+        "en": "28 Feb 2017, the listing date."
+      },
+      "estimatedReturn": {
+        "vi": "Giá cổ phiếu VJC tăng gấp hơn 2 lần giá tham chiếu chào sàn chỉ sau một năm, đạt mốc 200.000 đồng/cổ phiếu vào 27/2/2018.",
+        "en": "VJC shares more than doubled the listing reference price within a year, hitting VND 200,000/share by 27 Feb 2018."
+      },
+      "risk": "medium",
+      "capital": "medium",
+      "sellWhen": {
+        "vi": "Trong vòng 1 năm sau khi vốn hóa VJC tăng gần gấp 4 lần lên khoảng 4 tỷ USD (27/2/2018).",
+        "en": "Within one year, as VJC's market cap nearly quadrupled to about $4 billion (27 Feb 2018)."
+      },
+      "entryPrice": 90000,
+      "exitPrice": 108000,
+      "priceCurrency": "VND"
+    },
+    "insiderTip": {
+      "vi": "Biết trước Vietjet sẽ nhanh chóng mở rộng đội bay và thị phần nội địa để trở thành hãng hàng không lớn thứ hai Việt Nam, đẩy vốn hóa gần gấp 4 lần chỉ trong năm đầu niêm yết, giúp mua và giữ ngay từ ngày chào sàn.",
+      "en": "Knowing Vietjet would rapidly expand its fleet and domestic market share to become Vietnam's second-largest airline, nearly quadrupling its market cap within the first year of listing, justifies buying and holding from the listing date."
+    },
+    "pitfalls": {
+      "vi": "Ngành hàng không nhạy cảm với giá nhiên liệu và khủng hoảng như COVID-19 (2020-2021) khiến giá cổ phiếu VJC biến động rất mạnh trong các năm sau.",
+      "en": "The airline industry is highly sensitive to fuel prices and crises like COVID-19 (2020-2021), which caused VJC's share price to swing wildly in later years."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Vietjet (mã VJC) niêm yết trên HOSE vào ngày nào, và là hãng hàng không có đặc điểm gì?",
+        "en": "When did Vietjet (ticker VJC) list on HOSE, and what distinguishes it?"
+      },
+      "choices": [
+        {
+          "vi": "28/2/2017, hãng hàng không đầu tiên niêm yết trên HOSE",
+          "en": "28 Feb 2017, the first airline to list on HOSE"
+        },
+        {
+          "vi": "13/12/2006, hãng công nghệ đầu tiên niêm yết",
+          "en": "13 Dec 2006, the first tech firm to list"
+        },
+        {
+          "vi": "14/7/2014, chuỗi bán lẻ đầu tiên niêm yết",
+          "en": "14 Jul 2014, the first retail chain to list"
+        },
+        {
+          "vi": "19/9/2007, tập đoàn bất động sản đầu tiên niêm yết",
+          "en": "19 Sep 2007, the first real-estate group to list"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "VJC niêm yết ngày 28/2/2017 với giá tham chiếu 90.000 đồng, là hãng hàng không đầu tiên niêm yết trên HOSE, theo thông cáo chính thức của Vietjet.",
+        "en": "VJC listed on 28 Feb 2017 at a reference price of VND 90,000, the first airline to list on HOSE, per Vietjet's official press release."
+      }
+    },
+    "sources": [
+      {
+        "title": "Vietjet: Cổ phiếu Vietjet chính thức chào sàn HOSE",
+        "url": "https://www.vietjetair.com/vi/pages/tin-tuc-1697697327504/co-phieu-vietjet-chinh-thuc-chao-san-hose-1610355352538"
+      },
+      {
+        "title": "Tuổi Trẻ: Cổ phiếu Vietjet tăng hết biên độ ngày đầu niêm yết",
+        "url": "https://tuoitre.vn/co-phieu-vietjet-tang-het-bien-do-ngay-dau-niem-yet-1272062.htm"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed via Vietjet official press release and Tuoi Tre: VJC listed 28 Feb 2017, reference price VND 90,000, hit ceiling VND 108,000 day one, market cap VND 27 trillion/$1.2B."
+  },
+  {
+    "id": "vn-covid-bottom-2020",
     "country": "vn",
     "date": "2020-03-24",
     "category": "stocks",
     "title": {
-      "vi": "Đáy COVID-19 & sóng F0",
-      "en": "COVID-19 bottom & retail-investor wave"
+      "vi": "VN-Index chạm đáy COVID 660 điểm",
+      "en": "VN-Index Hits COVID Bottom at 660 Points"
+    },
+    "summary": {
+      "vi": "Hoảng loạn COVID-19 kéo VN-Index giảm 33,5% trong 2 tháng, chạm đáy 659 điểm ngày 24/3/2020.",
+      "en": "COVID-19 panic drags the VN-Index down 33.5% in two months, bottoming at 659 points on 24 March 2020."
     },
     "description": {
-      "vi": "VN-Index giảm về vùng ~660 điểm do COVID, sau đó làn sóng nhà đầu tư mới (F0) đẩy chỉ số lên đỉnh ~1.528 đầu 2022.",
-      "en": "The VN-Index drops to ~660 on COVID, then a wave of new retail investors pushes it to ~1,528 in early 2022."
+      "vi": "Đầu năm 2020, VN-Index giảm 33,5% trong vòng 2 tháng, chạm đáy 659 điểm vào ngày 24/3/2020 khi đại dịch COVID-19 bùng phát và giãn cách xã hội được áp dụng. Tuy nhiên nhờ chính sách tiền tệ nới lỏng và làn sóng nhà đầu tư F0 mới gia nhập, chỉ số bật tăng 67% trong 9 tháng, đạt hơn 1.100 điểm vào cuối năm 2020.",
+      "en": "In early 2020, the VN-Index fell 33.5% over two months, bottoming at 659 points on 24 March 2020 as COVID-19 broke out and social distancing was imposed. But thanks to loose monetary policy and a wave of new retail (“F0”) investors, the index rebounded 67% in nine months, surpassing 1,100 points by the end of 2020."
     },
     "opportunity": {
+      "asset": "Cổ phiếu blue-chip và ngân hàng trên HOSE",
       "action": {
-        "vi": "Mua cổ phiếu ngân hàng, thép, chứng khoán.",
-        "en": "Buy banks, steel and brokerage stocks."
+        "vi": "Mua mạnh cổ phiếu ngân hàng, bất động sản, tiêu dùng ở vùng đáy hoảng loạn COVID tháng 3/2020.",
+        "en": "Aggressively buy bank, real-estate and consumer stocks at the panicked COVID bottom in March 2020."
       },
       "buyWhen": {
-        "vi": "Cuối tháng 3/2020",
-        "en": "Late March 2020"
-      },
-      "sellWhen": {
-        "vi": "Đầu tháng 1/2022",
-        "en": "Early January 2022"
+        "vi": "Quanh ngày 24/3/2020, đáy COVID.",
+        "en": "Around 24 Mar 2020, the COVID bottom."
       },
       "estimatedReturn": {
-        "vi": "VN-Index ~2,3 lần; nhiều mã tăng 5–10 lần",
-        "en": "VN-Index ~2.3x; many stocks 5–10x"
+        "vi": "Mua ở đáy COVID (659 điểm) và bán gần đỉnh 1.528 điểm (đầu 2022) có thể lãi hơn 130% tính theo chỉ số trong vòng chưa đầy 2 năm.",
+        "en": "Buying at the COVID bottom (659 points) and selling near the 1,528 peak (early 2022) could yield over 130% in index terms in under two years."
       },
-      "returnMultiple": 2.3
+      "risk": "high",
+      "capital": "low",
+      "sellWhen": {
+        "vi": "Cuối 2021, gần đỉnh lịch sử 1.528 điểm (6/1/2022).",
+        "en": "Late 2021, near the historic peak of 1,528 points (6 Jan 2022)."
+      },
+      "entryPrice": 659,
+      "priceCurrency": "points",
+      "exitDate": "2020-03-24"
+    },
+    "insiderTip": {
+      "vi": "Biết trước Việt Nam sẽ là một trong số ít nền kinh tế tăng trưởng dương năm 2020 (+2,91%) và Cục Dự trữ Liên bang Mỹ sẽ đưa lãi suất về gần 0%, bơm thanh khoản khổng lồ vào thị trường, giúp mua đúng đáy hoảng loạn thay vì bán tháo theo đám đông.",
+      "en": "Knowing Vietnam would be one of the few economies with positive growth in 2020 (+2.91%) and that the US Fed would cut rates to near zero, flooding markets with liquidity, lets you buy the panic bottom instead of selling with the crowd."
+    },
+    "pitfalls": {
+      "vi": "Biến động cực mạnh trong vài tuần đầu khiến nhiều nhà đầu tư bán tháo đúng đáy vì hoảng loạn; thị trường sau đó tăng nóng tạo bong bóng ở nhiều cổ phiếu đầu cơ năm 2021.",
+      "en": "Extreme volatility in the early weeks caused many investors to panic-sell right at the bottom; the subsequent rally overheated, creating bubbles in many speculative stocks during 2021."
+    },
+    "quiz": {
+      "question": {
+        "vi": "VN-Index chạm đáy ở mức khoảng bao nhiêu điểm trong đợt hoảng loạn COVID-19 tháng 3/2020?",
+        "en": "At roughly what level did the VN-Index bottom during the March 2020 COVID panic?"
+      },
+      "choices": [
+        {
+          "vi": "235 điểm",
+          "en": "235 points"
+        },
+        {
+          "vi": "660 điểm",
+          "en": "660 points"
+        },
+        {
+          "vi": "1.020 điểm",
+          "en": "1,020 points"
+        },
+        {
+          "vi": "1.170 điểm",
+          "en": "1,170 points"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "VN-Index giảm 33,5% trong 2 tháng đầu 2020, chạm đáy 659 điểm ngày 24/3/2020, theo báo cáo thị trường và nhiều nguồn tài chính Việt Nam.",
+        "en": "The VN-Index fell 33.5% in the first two months of 2020, bottoming at 659 points on 24 Mar 2020, per market reports and multiple Vietnamese financial sources."
+      }
     },
     "sources": [
       {
-        "title": "VN-Index – Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/VN-Index"
+        "title": "Người Quan Sát: Chỉ số chứng khoán lệch với nền kinh tế thực",
+        "url": "https://nguoiquansat.vn/chi-so-chung-khoan-lech-voi-nen-kinh-te-thuc-chuyen-khong-can-thac-mac-37934.html"
+      },
+      {
+        "title": "CafeF: Tròn 4 năm từ khi chứng khoán Việt Nam xuống đáy Covid",
+        "url": "https://cafef.vn/tron-4-nam-tu-khi-chung-khoan-viet-nam-xuong-day-covid-vn-index-da-tang-gan-gap-doi-nhung-van-con-xa-dinh-lich-su-188240330175212589.chn"
       }
     ],
-    "verified": false
+    "verified": true,
+    "verifiedNote": "Confirmed via multiple sources: VN-Index bottomed at 659 points on 24 Mar 2020, down 33.5% in two months; rebounded 67% to 1,100+ by end-2020."
+  },
+  {
+    "id": "vn-crypto-boom-vietnam",
+    "country": "vn",
+    "date": "2021-01-01",
+    "category": "crypto",
+    "title": {
+      "vi": "Axie Infinity và cơn sốt Play-to-Earn “Made in Vietnam”",
+      "en": "Axie Infinity and the “Made in Vietnam” Play-to-Earn Boom"
+    },
+    "summary": {
+      "vi": "Sky Mavis (TP.HCM) tạo ra Axie Infinity, đưa Việt Nam lên bản đồ crypto toàn cầu, AXS đạt đỉnh hơn 150 USD.",
+      "en": "HCMC-based Sky Mavis creates Axie Infinity, putting Vietnam on the global crypto map as AXS tops $150."
+    },
+    "description": {
+      "vi": "Game blockchain Axie Infinity của công ty khởi nghiệp Sky Mavis (TP.HCM, ra mắt 2018) bùng nổ toàn cầu năm 2020-2021 với mô hình “play-to-earn”, đạt hơn 2,8 triệu người dùng hằng ngày ở đỉnh cao. Token AXS đạt đỉnh hơn 150 USD vào tháng 10/2021. Hàng trăm nghìn người Việt tham gia chơi game kiếm tiền trong đại dịch, trước khi vụ hack cầu nối Ronin Network tháng 3/2022 gây thiệt hại hơn 620 triệu USD và bong bóng xì hơi.",
+      "en": "The blockchain game Axie Infinity, built by HCMC-based startup Sky Mavis (launched 2018), exploded globally in 2020-2021 with its “play-to-earn” model, reaching over 2.8 million daily active users at its peak. The AXS token peaked above $150 in October 2021. Hundreds of thousands of Vietnamese played the game to earn income during the pandemic, before the March 2022 Ronin Network bridge hack caused over $620 million in losses and burst the bubble."
+    },
+    "opportunity": {
+      "asset": "AXS token (Axie Infinity Shards) hoặc SLP, cổ phần Sky Mavis",
+      "action": {
+        "vi": "Mua token AXS sớm năm 2020 hoặc tham gia chơi play-to-earn kiếm SLP; bán chốt lời trước khi vụ hack Ronin tháng 3/2022 gây sụp đổ.",
+        "en": "Buy AXS tokens early in 2020, or play the game to earn SLP tokens; take profits before the March 2022 Ronin hack triggers the crash."
+      },
+      "buyWhen": {
+        "vi": "Năm 2020 - đầu 2021, trước khi giá bùng nổ.",
+        "en": "2020 - early 2021, before the price exploded."
+      },
+      "estimatedReturn": {
+        "vi": "AXS tăng từ vài USD lên đỉnh hơn 150 USD vào tháng 10/2021 — tăng hàng chục lần trong chưa đầy 2 năm cho người mua sớm.",
+        "en": "AXS rose from a few dollars to a peak above $150 in October 2021 — tens of times gains in under two years for early buyers."
+      },
+      "risk": "high",
+      "capital": "low",
+      "sellWhen": {
+        "vi": "Trước tháng 3/2022, khi vụ hack Ronin Network làm sập giá.",
+        "en": "Before March 2022, when the Ronin Network hack crashed the price."
+      },
+      "returnMultiple": 30,
+      "priceCurrency": "USD",
+      "exitDate": "2021-10"
+    },
+    "insiderTip": {
+      "vi": "Biết trước đội ngũ Việt Nam Sky Mavis sẽ tạo ra hiện tượng game blockchain lớn nhất thế giới năm 2021 (2,8 triệu người dùng/ngày) giúp mua AXS/tham gia chơi từ rất sớm năm 2020, đồng thời biết trước vụ hack Ronin tháng 3/2022 (thiệt hại 620 triệu USD) để thoát hàng đúng lúc trước khi crash.",
+      "en": "Knowing the Vietnamese team at Sky Mavis would create the world's biggest blockchain-gaming phenomenon in 2021 (2.8M daily users) lets you buy AXS or start playing very early in 2020, while foreknowledge of the March 2022 Ronin hack ($620M stolen) lets you exit right before the crash."
+    },
+    "pitfalls": {
+      "vi": "Thị trường crypto cực kỳ biến động, hoàn toàn không được pháp luật Việt Nam bảo hộ hay công nhận là tài sản hợp pháp; vụ hack Ronin tháng 3/2022 đã xóa sạch phần lớn lợi nhuận của người giữ muộn.",
+      "en": "The crypto market is extremely volatile and entirely unrecognized/unprotected under Vietnamese law as legal property; the March 2022 Ronin hack wiped out most of the gains for latecomers who held on."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Dự án game blockchain “play-to-earn” nổi tiếng nhất thế giới do đội ngũ Việt Nam (Sky Mavis) phát triển có tên gì?",
+        "en": "What is the name of the world's most famous “play-to-earn” blockchain game, developed by a Vietnamese team (Sky Mavis)?"
+      },
+      "choices": [
+        {
+          "vi": "TomoChain",
+          "en": "TomoChain"
+        },
+        {
+          "vi": "Axie Infinity",
+          "en": "Axie Infinity"
+        },
+        {
+          "vi": "Kyber Network",
+          "en": "Kyber Network"
+        },
+        {
+          "vi": "Coin98",
+          "en": "Coin98"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Axie Infinity, phát triển bởi Sky Mavis có trụ sở tại TP.HCM, đạt đỉnh hơn 2,8 triệu người dùng hằng ngày năm 2021 và token AXS vượt 150 USD vào tháng 10/2021.",
+        "en": "Axie Infinity, developed by HCMC-based Sky Mavis, peaked at over 2.8 million daily users in 2021, with the AXS token topping $150 in October 2021."
+      }
+    },
+    "sources": [
+      {
+        "title": "PHS: Những dự án tiền số do người Việt khởi xướng",
+        "url": "https://www.phs.vn/tin-tuc/nhung-du-an-tien-so-do-nguoi-viet-khoi-xuong-gio-ra-sao/6329269"
+      },
+      {
+        "title": "Tiger Research: Vietnam Web3 Market Report 2025",
+        "url": "https://reports.tiger-research.com/p/2025-vietnam-web3-market-report-vnd"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed via PHS and Tiger Research: AXS peaked >$150 Oct 2021, Axie reached 2.8M daily users, Ronin hack March 2022 lost over $620M."
+  },
+  {
+    "id": "vn-vinfast-nasdaq-2023",
+    "country": "vn",
+    "date": "2023-08-15",
+    "category": "stocks",
+    "title": {
+      "vi": "VinFast niêm yết Nasdaq, vốn hóa vượt Ford trong một ngày",
+      "en": "VinFast Lists on Nasdaq, Market Cap Tops Ford in a Day"
+    },
+    "summary": {
+      "vi": "Cổ phiếu VinFast tăng 270% ngày chào sàn Nasdaq qua SPAC, vốn hóa đạt 85 tỷ USD, vượt Ford và GM.",
+      "en": "VinFast stock surges 270% on its Nasdaq debut via SPAC merger, hitting an $85B valuation above Ford and GM."
+    },
+    "description": {
+      "vi": "Ngày 15/8/2023, hãng xe điện VinFast (thuộc Vingroup) niêm yết trên Nasdaq thông qua sáp nhập với công ty séc trắng (SPAC) Black Spade Acquisition, với giá tham chiếu 10 USD/cổ phiếu theo thỏa thuận SPAC (định giá 23 tỷ USD). Cổ phiếu VFS mở cửa ở 22 USD, đóng cửa tại 37,06 USD (+270% so với giá SPAC), đẩy vốn hóa VinFast lên khoảng 85 tỷ USD, vượt qua Ford (48 tỷ USD) và GM. Tuy nhiên cổ phiếu sau đó lao dốc mạnh, giảm xuống dưới giá chào sàn chỉ sau 7 tuần.",
+      "en": "On 15 August 2023, Vietnamese EV maker VinFast (a Vingroup subsidiary) listed on Nasdaq via a merger with blank-check company Black Spade Acquisition, at a SPAC deal reference price of $10/share (valuing VinFast at $23 billion). VFS opened at $22 and closed at $37.06 (+270% vs. the SPAC price), pushing VinFast's market cap to roughly $85 billion — above Ford ($48 billion) and GM. The stock then crashed hard, falling below the listing price within just seven weeks."
+    },
+    "opportunity": {
+      "asset": "VinFast (VFS) cổ phiếu Nasdaq",
+      "action": {
+        "vi": "Mua cổ phiếu VFS/Black Spade trước ngày chào sàn hoặc ngay đầu phiên 15/8/2023, bán ngay trong ngày hoặc vài ngày sau khi giá đạt đỉnh.",
+        "en": "Buy VFS/Black Spade shares before listing or right at the open on 15 Aug 2023, then sell the same day or within days as the price peaks."
+      },
+      "buyWhen": {
+        "vi": "Trước hoặc ngay đầu phiên giao dịch 15/8/2023.",
+        "en": "Before or right at the open on 15 Aug 2023."
+      },
+      "estimatedReturn": {
+        "vi": "Mua ở giá SPAC 10 USD và bán ở đỉnh phiên đầu 37,06 USD có thể lãi 270% chỉ trong một ngày; nhưng ai mua đuổi ở đỉnh sau đó lỗ tới 90% trong vài tuần.",
+        "en": "Buying at the SPAC price of $10 and selling at the day-one peak of $37.06 could net a 270% gain in a single day; but anyone who chased the peak afterward lost as much as 90% within weeks."
+      },
+      "risk": "high",
+      "capital": "low",
+      "sellWhen": {
+        "vi": "Trong vòng 1-2 tuần sau khi chào sàn, trước khi giá sụp đổ.",
+        "en": "Within 1-2 weeks of listing, before the price collapsed."
+      },
+      "returnMultiple": 3.7,
+      "entryPrice": 10,
+      "exitPrice": 37.06,
+      "priceCurrency": "USD"
+    },
+    "insiderTip": {
+      "vi": "Biết trước đợt tăng giá là hiện tượng thanh khoản mỏng, đầu cơ ngắn hạn (chỉ 99% cổ phần vẫn do ông Phạm Nhật Vượng nắm giữ, free-float cực thấp) và sẽ sụp đổ nhanh trong vài tuần giúp bán chốt lời ngay lập tức thay vì tin vào định giá 85 tỷ USD là bền vững.",
+      "en": "Knowing the rally was a thin-liquidity, short-lived speculative spike (99% of shares still held by Pham Nhat Vuong, extremely low free float) that would crash within weeks lets you sell immediately for profit instead of believing the $85 billion valuation was sustainable."
+    },
+    "pitfalls": {
+      "vi": "Thanh khoản cực thấp (chỉ khoảng 99% cổ phần do nội bộ nắm giữ) khiến biến động giá cực đoan; cổ phiếu giảm hơn 90% từ đỉnh chỉ trong vài tuần, khiến ai mua đuổi theo đà tăng dễ lỗ nặng.",
+      "en": "Extremely thin liquidity (about 99% of shares held by insiders) caused extreme price swings; the stock fell over 90% from its peak within weeks, so anyone chasing the rally risked heavy losses."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Cổ phiếu VinFast (VFS) tăng bao nhiêu % trong ngày chào sàn Nasdaq 15/8/2023 so với giá thỏa thuận SPAC 10 USD?",
+        "en": "By what percentage did VinFast (VFS) stock rise on its 15 Aug 2023 Nasdaq debut versus the $10 SPAC deal price?"
+      },
+      "choices": [
+        {
+          "vi": "+50%",
+          "en": "+50%"
+        },
+        {
+          "vi": "+150%",
+          "en": "+150%"
+        },
+        {
+          "vi": "+270%, đóng cửa ở 37,06 USD",
+          "en": "+270%, closing at $37.06"
+        },
+        {
+          "vi": "+500%",
+          "en": "+500%"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "VFS đóng cửa phiên đầu ở 37,06 USD, tăng 270% so với giá thỏa thuận SPAC 10 USD, đưa vốn hóa VinFast lên khoảng 85 tỷ USD, theo CNN và CNBC.",
+        "en": "VFS closed its first session at $37.06, up 270% from the $10 SPAC deal price, pushing VinFast's market cap to about $85 billion, per CNN and CNBC."
+      }
+    },
+    "sources": [
+      {
+        "title": "CNN: VinFast stock skyrockets 270% on Nasdaq",
+        "url": "https://www.cnn.com/2023/08/16/investing/vietnam-vinfast-stock-nasdaq-listing-intl-hnk/index.html"
+      },
+      {
+        "title": "CNBC: VinFast worth more than Ford and GM after Nasdaq debut",
+        "url": "https://www.cnbc.com/2023/08/16/ev-maker-vinfast-is-now-worth-more-than-the-likes-of-ford-and-gm.html?doc=107287311"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed via CNN, CNBC and Reuters: VinFast listed 15 Aug 2023, SPAC price $10, closed day one $37.06 (+270%), market cap ~$85B; fell below listing price within 7 weeks (MarketWatch)."
+  },
+  {
+    "id": "vn-gold-surge-2024",
+    "country": "vn",
+    "date": "2024-05-01",
+    "category": "commodities",
+    "title": {
+      "vi": "Vàng SJC lập đỉnh lịch sử 92 triệu đồng/lượng",
+      "en": "SJC Gold Hits Historic Peak of VND 92 Million/Tael"
+    },
+    "summary": {
+      "vi": "Giá vàng miếng SJC vọt lên đỉnh 92 triệu đồng/lượng tháng 5/2024, chênh lệch với thế giới tới 18-20 triệu đồng.",
+      "en": "SJC gold bar prices hit a VND 92 million/tael peak in May 2024, with an 18-20M premium over world prices."
+    },
+    "description": {
+      "vi": "Năm 2024, giá vàng thế giới liên tục lập đỉnh (gần 2.790 USD/oz cuối tháng 10), kéo giá vàng miếng SJC trong nước tăng vọt lên mức kỷ lục mọi thời đại hơn 92 triệu đồng/lượng vào tháng 5/2024, trong khi vàng nhẫn trơn đạt gần 90 triệu đồng/lượng vào tháng 10/2024. Chênh lệch giữa giá vàng SJC và thế giới có lúc lên tới 18-20 triệu đồng/lượng, buộc Ngân hàng Nhà nước phải tổ chức đấu thầu vàng và sau đó bán trực tiếp qua 4 ngân hàng quốc doanh và SJC để hạ nhiệt.",
+      "en": "In 2024, world gold prices repeatedly hit record highs (nearly $2,790/oz by late October), driving domestic SJC gold bars to an all-time peak above VND 92 million/tael in May 2024, while gold rings reached nearly VND 90 million/tael by October 2024. The gap between SJC gold and world prices hit VND 18-20 million/tael at times, forcing the State Bank of Vietnam to run gold auctions and later sell directly through four state banks and SJC to cool the market."
+    },
+    "opportunity": {
+      "asset": "Vàng miếng SJC / vàng nhẫn trơn",
+      "action": {
+        "vi": "Mua vàng SJC hoặc vàng nhẫn đầu năm 2024 khi giá còn quanh 80 triệu đồng, bán ra khi đạt đỉnh tháng 5 và tháng 10/2024.",
+        "en": "Buy SJC gold bars or gold rings early in 2024 when prices were around VND 80 million, then sell at the May and October 2024 peaks."
+      },
+      "buyWhen": {
+        "vi": "Đầu 2024, trước đợt tăng mạnh từ tháng 3.",
+        "en": "Early 2024, before the sharp rally from March."
+      },
+      "estimatedReturn": {
+        "vi": "So với cuối 2023, vàng nhẫn tăng khoảng 34% và vàng miếng SJC tăng khoảng 14-15% trong năm 2024.",
+        "en": "Compared with end-2023, gold rings rose about 34% and SJC gold bars about 14-15% during 2024."
+      },
+      "risk": "medium",
+      "capital": "medium",
+      "sellWhen": {
+        "vi": "Tháng 5/2024 (đỉnh vàng miếng 92 triệu) hoặc tháng 10/2024 (đỉnh vàng nhẫn gần 90 triệu).",
+        "en": "May 2024 (gold-bar peak of VND 92 million) or October 2024 (gold-ring peak near VND 90 million)."
+      },
+      "entryPrice": 80000000,
+      "exitPrice": 92000000,
+      "priceCurrency": "VND",
+      "exitDate": "2024-05"
+    },
+    "insiderTip": {
+      "vi": "Biết trước Ngân hàng Nhà nước sẽ can thiệp mạnh tay từ cuối tháng 5/2024 (dừng đấu thầu, bán trực tiếp qua 4 ngân hàng quốc doanh) để kéo giá xuống giúp chốt lời đúng đỉnh tháng 5 thay vì giữ vàng chờ giá tiếp tục tăng.",
+      "en": "Knowing the State Bank would intervene aggressively from late May 2024 (halting auctions, selling directly through 4 state banks) to force prices down lets you take profits right at the May peak instead of holding for further gains."
+    },
+    "pitfalls": {
+      "vi": "Chênh lệch giá vàng trong nước và thế giới cực lớn (18-20 triệu đồng/lượng) tạo rủi ro chính sách cao; Nhà nước can thiệp hành chính bất cứ lúc nào có thể khiến giá đảo chiều đột ngột.",
+      "en": "The huge gap between domestic and world gold prices (VND 18-20 million/tael) created high policy risk; state administrative intervention could reverse prices abruptly at any time."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Giá vàng miếng SJC đạt đỉnh cao nhất mọi thời đại vào khoảng thời gian nào trong năm 2024, ở mức bao nhiêu?",
+        "en": "Around when in 2024 did SJC gold bars hit their all-time peak, and at what price?"
+      },
+      "choices": [
+        {
+          "vi": "Tháng 5/2024, hơn 92 triệu đồng/lượng",
+          "en": "May 2024, above VND 92 million/tael"
+        },
+        {
+          "vi": "Tháng 1/2024, 60 triệu đồng/lượng",
+          "en": "January 2024, VND 60 million/tael"
+        },
+        {
+          "vi": "Tháng 12/2024, 150 triệu đồng/lượng",
+          "en": "December 2024, VND 150 million/tael"
+        },
+        {
+          "vi": "Tháng 5/2024, 49 triệu đồng/lượng",
+          "en": "May 2024, VND 49 million/tael"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "Giá vàng miếng SJC chạm đỉnh lịch sử hơn 92 triệu đồng/lượng vào tháng 5/2024, theo Vietcap, VOV và CafeF.",
+        "en": "SJC gold bars hit a historic peak above VND 92 million/tael in May 2024, per Vietcap, VOV and CafeF."
+      }
+    },
+    "sources": [
+      {
+        "title": "Vietcap: Nhìn lại một năm đầy biến động của giá vàng",
+        "url": "https://trading.vietcap.com.vn/ai-news/post-detail/nhin-lai-mot-nam-day-bien-dong-cua-gia-vang-pha-dinh-nhanh-cham-day-cung-nhanh"
+      },
+      {
+        "title": "CafeF: 2024 - Năm của vàng",
+        "url": "https://cafef.vn/2024-nam-cua-vang-va-nhung-dien-bien-chua-tung-co-188241225214300433.chn"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed via Vietcap, VOV and CafeF: SJC gold peaked above VND 92M/tael in May 2024; gold rings near VND 90M by Oct 2024; SJC up ~14-15%, gold rings up ~34% for the year."
   }
 ]

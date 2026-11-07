@@ -99,28 +99,28 @@ export default async function MilestonePage({ params }: PageProps<"/[lang]/[coun
             <p className="mt-2 text-lg">{t(o.action, lang)}</p>
             <dl className="mt-5 space-y-3 text-sm">
               <div className="flex justify-between gap-4 border-t border-line pt-3">
-                <dt className="text-faint">{tl.buyWhen}</dt>
+                <dt className="shrink-0 whitespace-nowrap text-faint">{tl.buyWhen}</dt>
                 <dd className="text-right">{t(o.buyWhen, lang)}</dd>
               </div>
               {o.sellWhen && (
                 <div className="flex justify-between gap-4 border-t border-line pt-3">
-                  <dt className="text-faint">{tl.sellWhen}</dt>
+                  <dt className="shrink-0 whitespace-nowrap text-faint">{tl.sellWhen}</dt>
                   <dd className="text-right">{t(o.sellWhen, lang)}</dd>
                 </div>
               )}
               <div className="flex justify-between gap-4 border-t border-line pt-3">
-                <dt className="text-faint">{tl.estimatedReturn}</dt>
+                <dt className="shrink-0 whitespace-nowrap text-faint">{tl.estimatedReturn}</dt>
                 <dd className="text-right font-semibold text-gain">{t(o.estimatedReturn, lang)}</dd>
               </div>
               {o.entryPrice != null && (
                 <div className="flex justify-between gap-4 border-t border-line pt-3 font-mono tabular">
-                  <dt className="font-sans text-faint">{d.entry}</dt>
+                  <dt className="shrink-0 whitespace-nowrap font-sans text-faint">{d.entry}</dt>
                   <dd>{price(o.entryPrice)}</dd>
                 </div>
               )}
               {o.exitPrice != null && (
                 <div className="flex justify-between gap-4 border-t border-line pt-3 font-mono tabular">
-                  <dt className="font-sans text-faint">
+                  <dt className="shrink-0 whitespace-nowrap font-sans text-faint">
                     {d.exit} {o.exitDate && <span className="text-xs">({o.exitDate})</span>}
                   </dt>
                   <dd>{price(o.exitPrice)}</dd>

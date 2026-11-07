@@ -32,6 +32,12 @@ src/
   lib/data.ts              # danh sách quốc gia + đọc dữ liệu
 ```
 
+## Kiểm tra dữ liệu
+
+```bash
+npm run validate   # kiểm schema mọi file trong src/data/milestones
+```
+
 ## Thêm một mốc lịch sử
 
 Thêm object vào `src/data/milestones/<country>.json`:
@@ -69,10 +75,10 @@ Thêm object vào `src/data/milestones/<country>.json`:
 ## Roadmap
 
 - [x] MVP: timeline VN + Mỹ, lọc danh mục, tìm kiếm, song ngữ
-- [ ] Kiểm chứng toàn bộ dữ liệu mẫu (đang `verified: false`) và mở rộng lên 50+ mốc/quốc gia
-- [ ] Trang chi tiết từng mốc + SEO (metadata, OG image) + sắp xếp theo lợi nhuận
-- [ ] Mini game trắc nghiệm: sinh câu hỏi từ dữ liệu mốc ("Năm nào Apple IPO?", "Mua gì lời nhất năm 2009?")
-- [ ] Nút đổi ngôn ngữ giữ nguyên trang hiện tại
+- [x] v0.2: DESIGN.md, chọn năm trọng sinh, checklist cá nhân, trang chi tiết, bảng xếp hạng, quiz, 53 mốc (51 đã kiểm chứng) — xem `docs/REVIEW.md`
+- [ ] Mở rộng lên 50+ mốc/quốc gia, thêm quốc gia mới
+- [ ] SEO: OG image cho từng mốc, sitemap
+- [ ] Chia sẻ điểm quiz / checklist lên mạng xã hội
 - [ ] Deploy Vercel
 - [ ] (Khi cần) Database: chỉ khi có tài khoản, bảng xếp hạng mini game, hoặc cho người dùng đóng góp dữ liệu
 

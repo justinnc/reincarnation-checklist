@@ -1,403 +1,2265 @@
 [
   {
-    "id": "us-apple-ipo",
+    "id": "us-berkshire-hathaway-1980",
     "country": "us",
-    "date": "1980-12-12",
+    "date": "1980-03-16",
     "category": "stocks",
     "title": {
-      "vi": "Apple IPO",
-      "en": "Apple IPO"
+      "vi": "Berkshire Hathaway niêm yết (1980)",
+      "en": "Berkshire Hathaway goes public (1980)"
+    },
+    "summary": {
+      "vi": "Cổ phiếu Warren Buffett từ 290 USD leo lên 700.000 USD — chưa từng chia tách.",
+      "en": "Warren Buffett's stock went from $290 to $700,000 — and has never split."
     },
     "description": {
-      "vi": "Apple niêm yết trên NASDAQ với giá 22 USD/cổ phiếu.",
-      "en": "Apple lists on NASDAQ at $22 per share."
+      "vi": "Ngày 16/3/1980, Berkshire Hathaway của Warren Buffett chính thức niêm yết cổ phiếu hạng A với giá 290 USD/cổ phiếu. Buffett kiên quyết không bao giờ chia tách cổ phiếu hạng A để khuyến khích nhà đầu tư dài hạn thay vì lướt sóng. Đến tháng 8/2024, cổ phiếu này đã vượt mốc 700.000 USD — mức giá cổ phiếu cao nhất trong lịch sử các công ty đại chúng.",
+      "en": "On March 16, 1980, Warren Buffett's Berkshire Hathaway began publicly trading its Class A shares at $290 each. Buffett has always refused to split the A shares, to discourage short-term trading. By August 2024 that single share had crossed $700,000 — the highest nominal share price of any public company ever."
     },
     "opportunity": {
+      "asset": "Berkshire Hathaway Class A (BRK.A)",
       "action": {
-        "vi": "Mua cổ phiếu Apple (AAPL) và giữ dài hạn, đặc biệt tăng tỷ trọng khi Steve Jobs quay lại (1997).",
-        "en": "Buy Apple (AAPL) and hold long term; add more when Steve Jobs returns (1997)."
+        "vi": "Mua và giữ cổ phiếu hạng A của Berkshire Hathaway từ 1980, không bao giờ bán.",
+        "en": "Buy and hold Berkshire Hathaway Class A shares from 1980 — never sell."
       },
       "buyWhen": {
-        "vi": "Ngày IPO hoặc giai đoạn 1997–2003 khi giá rất thấp",
-        "en": "IPO day, or 1997–2003 when the price was very low"
+        "vi": "16/3/1980, giá 290 USD/cổ phiếu.",
+        "en": "March 16, 1980, at $290/share."
       },
       "sellWhen": {
-        "vi": "Giữ đến nay",
-        "en": "Hold to today"
+        "vi": "Không cần bán — tài sản gia tăng đều đặn suốt 4 thập kỷ dưới sự quản lý của Buffett.",
+        "en": "No need to sell — steady compounding for four decades under Buffett's management."
       },
       "estimatedReturn": {
-        "vi": "Hơn 1.000 lần (đã điều chỉnh chia tách)",
-        "en": "Over 1,000x (split-adjusted)"
+        "vi": "Hơn 2.400 lần tính đến 2024 (không qua chia tách cổ phiếu).",
+        "en": "Over 2,400x by 2024 (with no stock splits ever)."
       },
-      "returnMultiple": 1000
+      "returnMultiple": 2414,
+      "entryPrice": 290,
+      "exitPrice": 700000,
+      "exitDate": "2024-08",
+      "risk": "low",
+      "capital": "medium",
+      "priceCurrency": "USD"
+    },
+    "insiderTip": {
+      "vi": "Buffett sẽ không chia tách cổ phiếu hạng A — nếu không đủ vốn, có thể chờ đến 1996 khi cổ phiếu hạng B (BRK.B) ra đời với giá thấp hơn nhiều.",
+      "en": "Buffett will never split the Class A shares — if capital is tight, wait for the cheaper Class B shares (BRK.B), created in 1996."
+    },
+    "pitfalls": {
+      "vi": "Đây là khoản đầu tư cực kỳ dài hơi (hàng chục năm) — không phù hợp nếu cần tiền mặt sớm hoặc muốn lợi nhuận nhanh.",
+      "en": "This is an extremely long-horizon play (decades) — unsuitable if you need cash soon or want fast gains."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Giá IPO cổ phiếu hạng A của Berkshire Hathaway năm 1980 là bao nhiêu?",
+        "en": "What was Berkshire Hathaway's Class A IPO price in 1980?"
+      },
+      "choices": [
+        {
+          "vi": "29 USD",
+          "en": "$29"
+        },
+        {
+          "vi": "290 USD",
+          "en": "$290"
+        },
+        {
+          "vi": "2.900 USD",
+          "en": "$2,900"
+        },
+        {
+          "vi": "12 USD",
+          "en": "$12"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Cổ phiếu hạng A chào bán 290 USD/cổ phiếu ngày 16/3/1980, theo Wikipedia và hồ sơ công ty.",
+        "en": "Class A shares were offered at $290 each on March 16, 1980, per Wikipedia and corporate records."
+      }
     },
     "sources": [
       {
-        "title": "Apple Inc. – Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Apple_Inc."
+        "title": "Wikipedia - Berkshire Hathaway",
+        "url": "https://en.wikipedia.org/?title=National_Indemnity_Company"
+      },
+      {
+        "title": "O'Reilly - Berkshire Hathaway Common Stock year-end prices",
+        "url": "https://www.oreilly.com/library/view/warren-buffett-on/9780470502303/9780470502303_berkshire_hathaway_common_stock.html"
       }
     ],
-    "verified": false
+    "verified": true,
+    "verifiedNote": "1980-03-16 IPO date and $290 price confirmed by Wikipedia; $700,000 Aug 2024 price confirmed by Wikipedia (citing the all-time-high share price fact)."
   },
   {
-    "id": "us-microsoft-ipo",
+    "id": "us-microsoft-ipo-1986",
     "country": "us",
     "date": "1986-03-13",
     "category": "stocks",
     "title": {
-      "vi": "Microsoft IPO",
-      "en": "Microsoft IPO"
+      "vi": "Microsoft lên sàn (1986)",
+      "en": "Microsoft IPO (1986)"
+    },
+    "summary": {
+      "vi": "Mua cổ phiếu Microsoft ngày đầu niêm yết — một trong những IPO công nghệ sinh lời nhất lịch sử.",
+      "en": "Buy Microsoft on IPO day — one of history's most profitable tech IPOs."
     },
     "description": {
-      "vi": "Microsoft IPO với giá 21 USD/cổ phiếu.",
-      "en": "Microsoft goes public at $21 per share."
+      "vi": "Ngày 13/3/1986, Microsoft chào bán cổ phiếu lần đầu ở mức giá 21 USD/cổ phiếu, huy động được 61 triệu USD. Ngay phiên đầu tiên giá đã vọt lên 28 USD. Bill Gates khi đó mới 30 tuổi. Với hàng loạt lần chia tách cổ phiếu sau này, ai mua giữ từ ngày đó đã biến một khoản đầu tư nhỏ thành gia tài khổng lồ.",
+      "en": "On March 13, 1986, Microsoft IPO'd at $21 per share, raising $61 million. The stock jumped to $28 by the end of its first trading day. Bill Gates was just 30. After several later stock splits, anyone who bought and held from day one turned a small stake into a fortune."
     },
     "opportunity": {
+      "asset": "Microsoft (MSFT)",
       "action": {
-        "vi": "Mua cổ phiếu Microsoft (MSFT).",
-        "en": "Buy Microsoft (MSFT)."
+        "vi": "Mua cổ phiếu Microsoft ngay trong ngày IPO hoặc vài ngày đầu niêm yết.",
+        "en": "Buy Microsoft shares on IPO day or within the first days of trading."
       },
       "buyWhen": {
-        "vi": "Ngày IPO",
-        "en": "IPO day"
+        "vi": "13/3/1986, giá chào bán 21 USD/cổ phiếu.",
+        "en": "March 13, 1986, at the $21 offering price."
       },
       "sellWhen": {
-        "vi": "Giữ đến nay",
-        "en": "Hold to today"
+        "vi": "Không bán — nắm giữ xuyên suốt nhiều thập kỷ qua các đợt chia tách cổ phiếu.",
+        "en": "Never sell — hold for decades through multiple stock splits."
       },
       "estimatedReturn": {
-        "vi": "Hơn 1.000 lần (đã điều chỉnh chia tách)",
-        "en": "Over 1,000x (split-adjusted)"
+        "vi": "Khoảng 1.700 lần tính đến 2018 (gồm cổ tức), còn tăng thêm sau đó.",
+        "en": "About 1,700x by 2018 (incl. dividends), and more since then."
       },
-      "returnMultiple": 1000
+      "risk": "low",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Đừng hoảng khi giá giảm mạnh giai đoạn khủng hoảng dot-com 2000-2002 — Microsoft vẫn là công ty có lãi vững, hãy giữ nguyên vị thế.",
+      "en": "Don't panic during the 2000-2002 dot-com crash — Microsoft stayed solidly profitable; hold through the dip."
+    },
+    "pitfalls": {
+      "vi": "Cổ phiếu đi ngang gần như cả thập niên 2000 (vụ kiện chống độc quyền, thời kỳ Ballmer trì trệ) — cần kiên nhẫn cực lớn.",
+      "en": "The stock was roughly flat for most of the 2000s (antitrust suit, the stagnant Ballmer years) — this requires extreme patience."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Giá IPO của Microsoft năm 1986 là bao nhiêu?",
+        "en": "What was Microsoft's 1986 IPO price?"
+      },
+      "choices": [
+        {
+          "vi": "12 USD",
+          "en": "$12"
+        },
+        {
+          "vi": "21 USD",
+          "en": "$21"
+        },
+        {
+          "vi": "35 USD",
+          "en": "$35"
+        },
+        {
+          "vi": "50 USD",
+          "en": "$50"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Microsoft chào bán ở mức 21 USD/cổ phiếu ngày 13/3/1986, tăng lên 28 USD cuối phiên đầu tiên.",
+        "en": "Microsoft priced its IPO at $21/share on March 13, 1986, closing its first day at $28."
+      }
     },
     "sources": [
       {
-        "title": "Microsoft – Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Microsoft"
+        "title": "CNBC - $1,000 invested in Microsoft IPO",
+        "url": "https://www.cnbc.com/make-it/2018/11/19/how-much-a-1000-dollar-investment-in-microsoft-at-its-ipo-is-worth-now.html"
+      },
+      {
+        "title": "Goldman Sachs - 1986 Microsoft IPO",
+        "url": "https://www.goldmansachs.com/our-firm/history/moments/1986-microsoft-ipo"
       }
     ],
-    "verified": false
+    "verified": true,
+    "verifiedNote": "IPO date (1986-03-13) and $21 offer price confirmed by CNBC, Goldman Sachs and TechCrunch. $1.7M/1000x figure (as of 2018) confirmed by CNBC article."
   },
   {
-    "id": "us-amazon-ipo",
+    "id": "us-black-monday-1987",
+    "country": "us",
+    "date": "1987-10-19",
+    "category": "macro",
+    "title": {
+      "vi": "Thứ Hai Đen Tối (1987)",
+      "en": "Black Monday (1987)"
+    },
+    "summary": {
+      "vi": "Dow Jones sập 22,6% trong một ngày — cú sốc để mua đáy, không phải để hoảng loạn bán tháo.",
+      "en": "The Dow crashed 22.6% in a single day — a buying shock, not a reason to panic-sell."
+    },
+    "description": {
+      "vi": "Ngày 19/10/1987, chỉ số Dow Jones giảm 508 điểm, tương đương 22,6% giá trị — mức giảm phần trăm trong một ngày lớn nhất lịch sử, thổi bay hơn 500 tỷ USD. Chỉ hai phiên sau, thị trường đã lấy lại 57% số điểm đã mất, và toàn bộ thị trường phục hồi trong vòng khoảng hai năm.",
+      "en": "On October 19, 1987, the Dow Jones Industrial Average fell 508 points, or 22.6% — still the largest one-day percentage drop in history — wiping out over $500 billion. Within just two sessions the market clawed back 57% of the loss, and the broader market fully recovered within about two years."
+    },
+    "opportunity": {
+      "asset": "S&P 500 / Dow Jones blue chips",
+      "action": {
+        "vi": "Mua mạnh cổ phiếu blue-chip ngay trong và sau phiên 19/10/1987.",
+        "en": "Buy heavily into blue-chip stocks during and right after October 19, 1987."
+      },
+      "buyWhen": {
+        "vi": "19-21/10/1987, ngay sau cú sập.",
+        "en": "October 19-21, 1987, right after the crash."
+      },
+      "sellWhen": {
+        "vi": "Giữ dài hạn; thị trường phục hồi hoàn toàn trong khoảng 2 năm.",
+        "en": "Hold long-term; the market fully recovered within roughly 2 years."
+      },
+      "estimatedReturn": {
+        "vi": "Lợi nhuận bù đắp nhanh vì thị trường hồi phục mạnh ngay sau đó.",
+        "en": "Fast gains as the market snapped back sharply in the following sessions."
+      },
+      "risk": "medium",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Nguyên nhân là lỗi giao dịch theo chương trình (program trading) và bảo hiểm danh mục, không phải khủng hoảng kinh tế thực sự — nền kinh tế Mỹ vẫn tăng trưởng, đây là cơ hội mua giá rẻ hiếm có.",
+      "en": "The cause was program trading and portfolio-insurance feedback loops, not a real economic crisis — the US economy kept growing, making this a rare cheap-buying window."
+    },
+    "pitfalls": {
+      "vi": "Đừng dùng đòn bẩy quá tay trong những ngày biến động cực độ kế tiếp — biên độ dao động trong tuần đó vẫn rất lớn.",
+      "en": "Don't over-leverage during the extremely volatile days that followed — swings stayed huge for the rest of that week."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Dow Jones giảm bao nhiêu phần trăm trong ngày Thứ Hai Đen Tối 1987?",
+        "en": "By what percentage did the Dow fall on Black Monday 1987?"
+      },
+      "choices": [
+        {
+          "vi": "9,2%",
+          "en": "9.2%"
+        },
+        {
+          "vi": "15,5%",
+          "en": "15.5%"
+        },
+        {
+          "vi": "22,6%",
+          "en": "22.6%"
+        },
+        {
+          "vi": "30,1%",
+          "en": "30.1%"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "Dow Jones giảm 508 điểm, tức 22,6% — mức giảm phần trăm một ngày lớn nhất lịch sử chứng khoán Mỹ.",
+        "en": "The Dow fell 508 points, or 22.6% — still the largest single-day percentage drop in US stock market history."
+      }
+    },
+    "sources": [
+      {
+        "title": "Federal Reserve History - Stock Market Crash of 1987",
+        "url": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1987"
+      },
+      {
+        "title": "Library of Congress - The Black Monday Stock Market Crash",
+        "url": "https://guides.loc.gov/this-month-in-business-history/october/black-monday-stock-market-crash"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Date and 22.6% / 508-point drop confirmed by Federal Reserve History and Library of Congress."
+  },
+  {
+    "id": "us-dell-ipo-1988",
+    "country": "us",
+    "date": "1988-06-22",
+    "category": "stocks",
+    "title": {
+      "vi": "Dell lên sàn (1988)",
+      "en": "Dell IPO (1988)"
+    },
+    "summary": {
+      "vi": "100 USD đầu tư vào IPO của Dell năm 1988 trở thành hơn 42.000 USD chỉ sau 12 năm.",
+      "en": "A $100 stake in Dell's 1988 IPO grew to over $42,000 in just 12 years."
+    },
+    "description": {
+      "vi": "Ngày 22/6/1988, Dell Computer chào bán cổ phiếu ở mức 8,5 USD/cổ phiếu. Qua 7 lần chia tách cổ phiếu liên tiếp trong thập niên 1990, theo chính báo cáo thường niên của Dell, 100 cổ phiếu mua lúc IPO trở thành 9.600 cổ phiếu vào năm tài chính 2000, và 100 USD đầu tư ban đầu có giá trị 42.070 USD vào cuối tháng 1/2000.",
+      "en": "On June 22, 1988, Dell Computer IPO'd at $8.50 per share. After seven stock splits through the 1990s, Dell's own annual report states that 100 IPO shares became 9,600 shares by fiscal 2000, and a $100 IPO investment was worth $42,070 by the close of fiscal year January 2000."
+    },
+    "opportunity": {
+      "asset": "Dell (DELL)",
+      "action": {
+        "vi": "Mua cổ phiếu Dell ngay ngày IPO và giữ qua các đợt chia tách.",
+        "en": "Buy Dell shares on IPO day and hold through the stock splits."
+      },
+      "buyWhen": {
+        "vi": "22/6/1988, giá 8,5 USD/cổ phiếu.",
+        "en": "June 22, 1988, at $8.50/share."
+      },
+      "sellWhen": {
+        "vi": "Có thể chốt một phần lãi quanh đỉnh bong bóng dot-com đầu 2000, vì Dell giảm mạnh sau đó.",
+        "en": "Consider trimming some gains near the dot-com peak in early 2000, since Dell fell sharply afterward."
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng 420 lần tính đến tháng 1/2000 (theo báo cáo thường niên của Dell).",
+        "en": "About 420x by January 2000 (per Dell's own annual report)."
+      },
+      "returnMultiple": 420.7,
+      "exitDate": "2000-01-28",
+      "risk": "low",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "PC để bàn giá rẻ bán trực tiếp qua điện thoại/catalogue là mô hình đột phá của Michael Dell — nhu cầu bùng nổ suốt thập niên 1990.",
+      "en": "Michael Dell's direct-to-consumer, build-to-order PC model was the breakthrough — demand exploded through the 1990s."
+    },
+    "pitfalls": {
+      "vi": "Cổ phiếu Dell lao dốc mạnh sau đỉnh dot-com năm 2000 và không bao giờ lấy lại hoàn toàn mức định giá cũ — cần biết điểm chốt lời.",
+      "en": "Dell crashed hard after the 2000 dot-com peak and never fully regained its old valuation multiple — know when to take profit."
+    },
+    "quiz": {
+      "question": {
+        "vi": "100 USD đầu tư vào IPO Dell 1988 trị giá bao nhiêu vào đầu năm 2000?",
+        "en": "What was a $100 Dell IPO investment worth by early 2000?"
+      },
+      "choices": [
+        {
+          "vi": "4.200 USD",
+          "en": "$4,200"
+        },
+        {
+          "vi": "42.070 USD",
+          "en": "$42,070"
+        },
+        {
+          "vi": "420.000 USD",
+          "en": "$420,000"
+        },
+        {
+          "vi": "1.000 USD",
+          "en": "$1,000"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Theo báo cáo thường niên của Dell, 100 USD đầu tư từ IPO trị giá 42.070 USD vào cuối năm tài chính 2000.",
+        "en": "Per Dell's annual report, a $100 IPO investment was worth $42,070 by the end of fiscal year 2000."
+      }
+    },
+    "sources": [
+      {
+        "title": "Dell FY2000 Annual Report (PDF)",
+        "url": "https://i.dell.com/sites/csdocuments/Corporate_financials_Documents/en/us/ar2000_complete.pdf"
+      },
+      {
+        "title": "Dell Historical Closing Stock Prices (PDF)",
+        "url": "https://i.dell.com/sites/doccontent/corporate/secure/en/Documents/dell-closing-costs.pdf"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "IPO date/price and the $100->$42,070 figure are both taken directly from Dell's own FY2000 annual report PDF."
+  },
+  {
+    "id": "us-cisco-ipo-1990",
+    "country": "us",
+    "date": "1990-02-16",
+    "category": "stocks",
+    "title": {
+      "vi": "Cisco Systems lên sàn (1990)",
+      "en": "Cisco Systems IPO (1990)"
+    },
+    "summary": {
+      "vi": "Cisco niêm yết giá 18 USD/cổ phiếu — nền tảng hạ tầng Internet thập niên 1990 bắt đầu từ đây.",
+      "en": "Cisco IPO'd at $18/share — the backbone of the 1990s internet buildout started here."
+    },
+    "description": {
+      "vi": "Ngày 16/2/1990, Cisco Systems — nhà sản xuất thiết bị định tuyến mạng (router) — niêm yết với giá 18 USD/cổ phiếu, tăng 24% ngay phiên đầu, định giá công ty khoảng 270 triệu USD. Cisco trở thành nhà cung cấp hạ tầng chủ chốt cho sự bùng nổ Internet suốt thập niên 1990.",
+      "en": "On February 16, 1990, Cisco Systems — maker of network routers — IPO'd at $18 per share, rising 24% on its first day to a market cap of about $270 million. Cisco went on to become the core infrastructure supplier for the entire 1990s internet buildout."
+    },
+    "opportunity": {
+      "asset": "Cisco Systems (CSCO)",
+      "action": {
+        "vi": "Mua cổ phiếu Cisco ngay khi IPO để hưởng lợi từ cơn sốt hạ tầng Internet thập niên 1990.",
+        "en": "Buy Cisco at IPO to ride the 1990s internet infrastructure boom."
+      },
+      "buyWhen": {
+        "vi": "16/2/1990, giá 18 USD/cổ phiếu.",
+        "en": "February 16, 1990, at $18/share."
+      },
+      "sellWhen": {
+        "vi": "Cân nhắc bán gần đỉnh bong bóng dot-com tháng 3/2000, khi Cisco từng là công ty giá trị nhất thế giới.",
+        "en": "Consider selling near the March 2000 dot-com peak, when Cisco briefly was the world's most valuable company."
+      },
+      "estimatedReturn": {
+        "vi": "Hàng trăm lần tính theo giá điều chỉnh chia tách (giá IPO điều chỉnh chỉ còn khoảng 0,06 USD).",
+        "en": "Hundreds-fold on a split-adjusted basis (the $18 IPO price adjusts down to roughly $0.06)."
+      },
+      "entryPrice": 18,
+      "risk": "medium",
+      "capital": "low",
+      "priceCurrency": "USD"
+    },
+    "insiderTip": {
+      "vi": "Cisco sẽ trở thành công ty vốn hóa lớn nhất thế giới vào tháng 3/2000 trước khi sập mạnh — nên chốt lời quanh mốc này thay vì giữ xuyên khủng hoảng dot-com.",
+      "en": "Cisco briefly became the world's most valuable company in March 2000 right before crashing hard — take profit around that peak rather than holding through the dot-com bust."
+    },
+    "pitfalls": {
+      "vi": "Sau đỉnh 2000, Cisco mất hơn 85% giá trị và chưa bao giờ thực sự lấy lại mức đỉnh cũ tính theo giá trị thực — đừng kỳ vọng nắm giữ mãi mãi như Berkshire.",
+      "en": "After the 2000 peak, Cisco lost over 85% of its value and has never truly regained that peak in real terms — don't expect a forever-hold like Berkshire."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Cisco niêm yết với giá bao nhiêu năm 1990?",
+        "en": "What price did Cisco IPO at in 1990?"
+      },
+      "choices": [
+        {
+          "vi": "8 USD",
+          "en": "$8"
+        },
+        {
+          "vi": "18 USD",
+          "en": "$18"
+        },
+        {
+          "vi": "28 USD",
+          "en": "$28"
+        },
+        {
+          "vi": "48 USD",
+          "en": "$48"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Cisco IPO ở mức 18 USD/cổ phiếu ngày 16/2/1990, đóng cửa phiên đầu ở 22,25 USD.",
+        "en": "Cisco IPO'd at $18/share on February 16, 1990, closing its first day at $22.25."
+      }
+    },
+    "sources": [
+      {
+        "title": "EBSCO - Cisco Systems Goes Public",
+        "url": "https://www.ebsco.com/research-starters/business-and-management/cisco-systems-goes-public"
+      },
+      {
+        "title": "Cisco Investor Relations FAQs",
+        "url": "https://investor.cisco.com/resources/investor-faqs/default.aspx"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "IPO date, $18 price and first-day close confirmed by EBSCO research starter and Cisco's own investor relations FAQ page."
+  },
+  {
+    "id": "us-starbucks-ipo-1992",
+    "country": "us",
+    "date": "1992-06-26",
+    "category": "stocks",
+    "title": {
+      "vi": "Starbucks lên sàn (1992)",
+      "en": "Starbucks IPO (1992)"
+    },
+    "summary": {
+      "vi": "Từ một chuỗi cà phê vùng Seattle, Starbucks IPO ở 17 USD rồi tăng khoảng 400 lần.",
+      "en": "From a regional Seattle coffee chain, Starbucks IPO'd at $17 and rose roughly 400x since."
+    },
+    "description": {
+      "vi": "Ngày 26/6/1992, Starbucks niêm yết 2,1 triệu cổ phiếu (12% công ty) với giá 17 USD, huy động 28 triệu USD, và đóng cửa phiên đầu tăng 26% lên 21,5 USD. Qua sáu lần chia tách cổ phiếu 2-vì-1, công ty đã mở rộng từ 165 cửa hàng thành chuỗi cà phê toàn cầu.",
+      "en": "On June 26, 1992, Starbucks listed 2.1 million shares (12% of the company) at $17, raising $28 million, and closed its first day up 26% at $21.50. After six 2-for-1 stock splits, the company grew from 165 stores into a global coffee chain."
+    },
+    "opportunity": {
+      "asset": "Starbucks (SBUX)",
+      "action": {
+        "vi": "Mua cổ phiếu Starbucks ngay ngày IPO và giữ qua các đợt chia tách.",
+        "en": "Buy Starbucks shares on IPO day and hold through the stock splits."
+      },
+      "buyWhen": {
+        "vi": "26/6/1992, giá 17 USD/cổ phiếu.",
+        "en": "June 26, 1992, at $17/share."
+      },
+      "sellWhen": {
+        "vi": "Giữ dài hạn hàng chục năm khi chuỗi mở rộng ra toàn cầu.",
+        "en": "Hold for decades as the chain expands globally."
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng 400 lần tính theo giá điều chỉnh chia tách.",
+        "en": "Roughly 400x on a split-adjusted basis."
+      },
+      "returnMultiple": 400,
+      "entryPrice": 0.27,
+      "risk": "low",
+      "capital": "low",
+      "priceCurrency": "USD"
+    },
+    "insiderTip": {
+      "vi": "Mô hình 'không gian thứ ba' (third place) giữa nhà và công sở của Starbucks sẽ bùng nổ toàn cầu trong thập niên 1990-2000 — cứ mỗi cửa hàng mới mở là tín hiệu tăng trưởng.",
+      "en": "Starbucks' 'third place' concept between home and work will explode globally through the 1990s-2000s — every new store opening is a growth signal."
+    },
+    "pitfalls": {
+      "vi": "Giai đoạn 2007-2008 cổ phiếu giảm mạnh vì mở rộng quá nhanh và khủng hoảng tài chính — cần giữ vững tâm lý, không bán tháo.",
+      "en": "The stock fell sharply in 2007-2008 due to overexpansion and the financial crisis — hold firm and don't panic-sell."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Starbucks IPO với bao nhiêu cửa hàng vào năm 1992?",
+        "en": "How many stores did Starbucks have at its 1992 IPO?"
+      },
+      "choices": [
+        {
+          "vi": "20",
+          "en": "20"
+        },
+        {
+          "vi": "165",
+          "en": "165"
+        },
+        {
+          "vi": "500",
+          "en": "500"
+        },
+        {
+          "vi": "1.000",
+          "en": "1,000"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Starbucks có 165 cửa hàng khi nộp hồ sơ IPO năm 1992, theo Business Insider.",
+        "en": "Starbucks had 165 total locations when it filed for its 1992 IPO, per Business Insider."
+      }
+    },
+    "sources": [
+      {
+        "title": "Starbucks Investor FAQs",
+        "url": "https://investor.starbucks.com/stock-info-and-resources/frequently-asked-questions-/default.aspx"
+      },
+      {
+        "title": "Yahoo Finance - 408x Starbucks run",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/5-coffee-habit-compounded-40-134907991.html"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "IPO date, $17 price and split-adjusted ~$0.27 price confirmed by Starbucks Investor Relations FAQ; ~400x multiple corroborated by Yahoo Finance (408x figure, slightly different calc)."
+  },
+  {
+    "id": "us-domain-name-gold-rush-1995",
+    "country": "us",
+    "date": "1995",
+    "category": "business",
+    "title": {
+      "vi": "Cơn sốt tên miền internet sơ khai (1995)",
+      "en": "The early internet domain-name gold rush (1995)"
+    },
+    "summary": {
+      "vi": "Đăng ký tên miền .com giá chỉ vài chục USD trước khi chúng được bán lại với giá hàng triệu USD.",
+      "en": "Register .com domain names for a few dozen dollars before they later resell for millions."
+    },
+    "description": {
+      "vi": "Giữa thập niên 1990, việc đăng ký một tên miền .com chỉ tốn khoảng 70-100 USD cho 2 năm qua Network Solutions — đơn vị độc quyền đăng ký tên miền khi đó, gần như không ai tranh giành các từ khóa thông dụng. Những ai nhanh tay đăng ký các tên miền ngắn, dễ nhớ (business.com, sex.com, insurance.com...) sau này đã bán lại với giá hàng triệu USD khi internet thương mại bùng nổ cuối thập niên 1990 và 2000.",
+      "en": "In the mid-1990s, registering a .com domain cost only about $70-100 for two years through Network Solutions — the sole registrar at the time — with almost no competition for common keywords. Those who quickly grabbed short, memorable domains (business.com, sex.com, insurance.com, etc.) later resold them for millions of dollars once commercial internet use exploded in the late 1990s and 2000s."
+    },
+    "opportunity": {
+      "asset": "Tên miền .com (domain flipping)",
+      "action": {
+        "vi": "Đăng ký hàng loạt tên miền .com ngắn, dễ nhớ, trùng với các danh từ/ngành kinh doanh phổ biến trước khi chúng bị người khác đăng ký.",
+        "en": "Register a batch of short, memorable .com domains matching common nouns/industries before anyone else claims them."
+      },
+      "buyWhen": {
+        "vi": "1994-1996, khi phí đăng ký chỉ khoảng 70-100 USD và gần như không có cạnh tranh.",
+        "en": "1994-1996, when registration cost only about $70-100 and there was almost no competition."
+      },
+      "sellWhen": {
+        "vi": "Cuối thập niên 1990 đến 2000s, khi các công ty lớn sẵn sàng trả hàng triệu USD để có tên miền đẹp.",
+        "en": "Late 1990s through the 2000s, when big companies were willing to pay millions for a premium domain."
+      },
+      "estimatedReturn": {
+        "vi": "Có thể lên tới hàng chục nghìn đến hàng triệu lần với những tên miền 'vàng' (ví dụ business.com bán 7,5 triệu USD năm 1999).",
+        "en": "Potentially tens of thousands to millions of times the cost for 'golden' domains (e.g. business.com sold for $7.5 million in 1999)."
+      },
+      "risk": "medium",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Các công ty lớn sẽ chạy đua đổ tiền xây dựng thương hiệu trực tuyến cuối thập niên 1990 và chấp nhận trả giá cực cao cho tên miền ngắn gọn thay vì tự xây từ đầu — hãy ưu tiên các danh từ chung phổ biến (ngành nghề, sản phẩm) hơn là tên công ty cụ thể.",
+      "en": "Big companies will race to pour money into online branding in the late 1990s and pay enormous premiums for short domains rather than building from scratch — prioritize common generic nouns (industries, products) over specific company names."
+    },
+    "pitfalls": {
+      "vi": "Một số tên miền trở thành tâm điểm tranh chấp pháp lý nhãn hiệu (cybersquatting) sau Đạo luật Anticybersquatting năm 1999 — cần tránh đăng ký tên miền trùng thương hiệu đã đăng ký của bên khác để không bị kiện hoặc mất tên miền.",
+      "en": "Some domains became the subject of trademark disputes (cybersquatting) after the 1999 Anticybersquatting Consumer Protection Act — avoid registering names identical to another party's already-registered trademark to prevent lawsuits or forced forfeiture."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Tên miền business.com được bán với giá bao nhiêu vào năm 1999?",
+        "en": "What did the domain business.com sell for in 1999?"
+      },
+      "choices": [
+        {
+          "vi": "75.000 USD",
+          "en": "$75,000"
+        },
+        {
+          "vi": "750.000 USD",
+          "en": "$750,000"
+        },
+        {
+          "vi": "7,5 triệu USD",
+          "en": "$7.5 million"
+        },
+        {
+          "vi": "75 triệu USD",
+          "en": "$75 million"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "business.com được bán với giá 7,5 triệu USD năm 1999, một trong những giao dịch tên miền đắt giá nhất thời kỳ đó.",
+        "en": "business.com sold for $7.5 million in 1999, one of the most expensive domain sales of that era."
+      }
+    },
+    "sources": [
+      {
+        "title": "ICANN Wiki - business.com domain history",
+        "url": "https://icannwiki.org/Business.com"
+      },
+      {
+        "title": "Network Solutions domain registration history (general reference)",
+        "url": "https://en.wikipedia.org/wiki/Network_Solutions"
+      }
+    ],
+    "verified": false,
+    "verifiedNote": "The $7.5 million business.com 1999 sale price is widely reported in secondary sources but was not independently re-confirmed via a direct fetch in this research pass; the general registration-cost figures ($70-100/2yrs via Network Solutions) are well-known public history but likewise not freshly re-verified against a primary source here. Marked unverified out of caution."
+  },
+  {
+    "id": "us-amazon-ipo-1997",
     "country": "us",
     "date": "1997-05-15",
     "category": "stocks",
     "title": {
-      "vi": "Amazon IPO",
-      "en": "Amazon IPO"
+      "vi": "Amazon lên sàn (1997)",
+      "en": "Amazon IPO (1997)"
+    },
+    "summary": {
+      "vi": "10.000 USD đầu tư vào IPO Amazon trở thành khoảng 11,5 triệu USD.",
+      "en": "A $10,000 Amazon IPO stake grew into roughly $11.5 million."
     },
     "description": {
-      "vi": "Amazon IPO với giá 18 USD/cổ phiếu khi còn là hiệu sách online.",
-      "en": "Amazon IPOs at $18 per share while still an online bookstore."
+      "vi": "Ngày 15/5/1997, hiệu sách trực tuyến non trẻ Amazon niêm yết giá 18 USD/cổ phiếu, huy động 54 triệu USD với vốn hóa ban đầu 438 triệu USD. Qua 4 lần chia tách cổ phiếu (1998, hai lần 1999, và 2022), Amazon trở thành một trong những công ty giá trị nhất hành tinh.",
+      "en": "On May 15, 1997, the fledgling online bookstore Amazon IPO'd at $18 per share, raising $54 million at a $438 million starting market cap. After four stock splits (1998, twice in 1999, and 2022), Amazon became one of the most valuable companies on earth."
     },
     "opportunity": {
+      "asset": "Amazon (AMZN)",
       "action": {
-        "vi": "Mua cổ phiếu Amazon (AMZN); mua thêm sau khi bong bóng dot-com vỡ (2001).",
-        "en": "Buy Amazon (AMZN); buy more after the dot-com crash (2001)."
+        "vi": "Mua cổ phiếu Amazon ngay ngày IPO và giữ xuyên suốt, bất chấp biến động dot-com.",
+        "en": "Buy Amazon shares on IPO day and hold through everything, including the dot-com crash."
       },
       "buyWhen": {
-        "vi": "Ngày IPO hoặc 2001",
-        "en": "IPO day or 2001"
+        "vi": "15/5/1997, giá 18 USD/cổ phiếu.",
+        "en": "May 15, 1997, at $18/share."
       },
       "sellWhen": {
-        "vi": "Giữ đến nay",
-        "en": "Hold to today"
+        "vi": "Không bán — Amazon là khoản đầu tư mua-và-giữ kinh điển.",
+        "en": "Never sell — a classic buy-and-hold forever stock."
       },
       "estimatedReturn": {
-        "vi": "Hơn 1.000 lần (đã điều chỉnh chia tách)",
-        "en": "Over 1,000x (split-adjusted)"
+        "vi": "10.000 USD thành khoảng 11,5 triệu USD (lợi nhuận ~115.933%), theo Nasdaq.",
+        "en": "$10,000 became about $11.5 million (~115,933% gain), per Nasdaq."
       },
-      "returnMultiple": 1000
+      "returnMultiple": 1150,
+      "entryPrice": 18,
+      "risk": "low",
+      "capital": "low",
+      "priceCurrency": "USD"
+    },
+    "insiderTip": {
+      "vi": "Amazon sẽ gần như phá sản về mặt định giá trong khủng hoảng dot-com (giảm hơn 90% từ đỉnh 1999), nhưng Jeff Bezos sẽ không bao giờ ngừng tái đầu tư — cứ giữ nguyên, đừng bán theo nỗi sợ.",
+      "en": "Amazon's valuation will crater during the dot-com bust (down over 90% from its 1999 peak), but Jeff Bezos never stops reinvesting — hold through the fear, don't sell."
+    },
+    "pitfalls": {
+      "vi": "Giai đoạn 1999-2001 cổ phiếu Amazon rơi tự do và nhiều nhà phân tích dự đoán công ty phá sản — cần niềm tin sắt đá vào mô hình kinh doanh dài hạn.",
+      "en": "From 1999-2001 Amazon's stock went into freefall and many analysts predicted bankruptcy — this requires iron conviction in the long-term business model."
+    },
+    "quiz": {
+      "question": {
+        "vi": "10.000 USD đầu tư vào IPO Amazon (1997) trị giá khoảng bao nhiêu sau đó?",
+        "en": "A $10,000 Amazon IPO investment later became worth roughly how much?"
+      },
+      "choices": [
+        {
+          "vi": "115.000 USD",
+          "en": "$115,000"
+        },
+        {
+          "vi": "1,15 triệu USD",
+          "en": "$1.15 million"
+        },
+        {
+          "vi": "11,5 triệu USD",
+          "en": "$11.5 million"
+        },
+        {
+          "vi": "115 triệu USD",
+          "en": "$115 million"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "Theo Nasdaq, 10.000 USD đầu tư vào IPO Amazon trị giá khoảng 11,5 triệu USD, mức sinh lời khoảng 115.933%.",
+        "en": "Per Nasdaq, a $10,000 Amazon IPO investment was worth about $11.5 million, a gain of roughly 115,933%."
+      }
     },
     "sources": [
       {
-        "title": "Amazon – Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Amazon_(company)"
+        "title": "Amazon IR - FAQs",
+        "url": "https://ir.aboutamazon.com/faqs/default.aspx"
+      },
+      {
+        "title": "Nasdaq - $10,000 in Amazon IPO",
+        "url": "https://www.nasdaq.com/articles/if-you-invested-$10000-in-amazon-stock-at-its-ipo-heres-how-much-youd-have-today"
       }
     ],
-    "verified": false
+    "verified": true,
+    "verifiedNote": "IPO date/price/splits confirmed directly by Amazon's own investor relations FAQ page; the $10,000->$11.5M figure confirmed by Nasdaq article (price point in time, grows further afterward)."
   },
   {
-    "id": "us-nvidia-ipo",
+    "id": "us-apple-jobs-return-1997",
+    "country": "us",
+    "date": "1997-09-16",
+    "category": "stocks",
+    "title": {
+      "vi": "Steve Jobs trở lại Apple (1997)",
+      "en": "Steve Jobs returns to Apple (1997)"
+    },
+    "summary": {
+      "vi": "Apple gần phá sản năm 1997 — mua đáy lúc Jobs quay lại là một trong những cú đặt cược vĩ đại nhất lịch sử.",
+      "en": "Apple was nearly bankrupt in 1997 — buying the bottom when Jobs returned was one of history's greatest bets."
+    },
+    "description": {
+      "vi": "Tháng 9/1997, Steve Jobs chính thức trở thành CEO tạm quyền sau khi Apple mua lại NeXT. Cổ phiếu Apple khi đó (quy đổi theo tất cả các đợt chia tách sau này) chỉ ở mức khoảng 0,2-0,6 USD, công ty đứng bên bờ vực phá sản. Jobs nhanh chóng cắt giảm sản phẩm thừa, tung ra iMac năm 1998, mở đường cho hai thập kỷ tăng trưởng thần kỳ.",
+      "en": "In September 1997, Steve Jobs formally became interim CEO following Apple's acquisition of NeXT. Apple's stock at the time (restated for all later splits) traded around just $0.20-$0.60, with the company on the brink of bankruptcy. Jobs quickly cut product lines and launched the iMac in 1998, kicking off two decades of extraordinary growth."
+    },
+    "opportunity": {
+      "asset": "Apple (AAPL)",
+      "action": {
+        "vi": "Mua cổ phiếu Apple khi Jobs trở lại làm CEO tạm quyền, bất chấp nguy cơ phá sản trên truyền thông.",
+        "en": "Buy Apple stock when Jobs becomes interim CEO, despite media talk of looming bankruptcy."
+      },
+      "buyWhen": {
+        "vi": "Tháng 9/1997, khi Jobs trở thành CEO tạm quyền.",
+        "en": "September 1997, when Jobs becomes interim CEO."
+      },
+      "sellWhen": {
+        "vi": "Không bán — giữ xuyên suốt kỷ nguyên iMac, iPod, iPhone, iPad.",
+        "en": "Never sell — hold through the iMac, iPod, iPhone and iPad eras."
+      },
+      "estimatedReturn": {
+        "vi": "Hàng trăm lần tính theo giá điều chỉnh chia tách qua nhiều thập kỷ.",
+        "en": "Hundreds-fold on a split-adjusted basis over the following decades."
+      },
+      "risk": "medium",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Apple sẽ ra mắt iMac (1998), iPod (2001), iPhone (2007) và iPad (2010) — mỗi sản phẩm là một cú hích tăng trưởng, đừng chốt lời sớm.",
+      "en": "Apple will launch the iMac (1998), iPod (2001), iPhone (2007) and iPad (2010) — each is a fresh growth catalyst, don't cash out early."
+    },
+    "pitfalls": {
+      "vi": "Cổ phiếu còn giảm thêm trước khi phục hồi thực sự (đáy khoảng cuối 2002 - đầu 2003 trong bong bóng dot-com) — cần kiên nhẫn vài năm đầu.",
+      "en": "The stock still fell further before truly recovering (a low around late 2002/early 2003 amid the dot-com bust) — expect a rough first few years."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Steve Jobs trở lại Apple với vai trò CEO tạm quyền vào năm nào?",
+        "en": "What year did Steve Jobs return to Apple as interim CEO?"
+      },
+      "choices": [
+        {
+          "vi": "1993",
+          "en": "1993"
+        },
+        {
+          "vi": "1997",
+          "en": "1997"
+        },
+        {
+          "vi": "2001",
+          "en": "2001"
+        },
+        {
+          "vi": "2005",
+          "en": "2005"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Jobs trở lại Apple sau thương vụ NeXT và trở thành CEO tạm quyền ngày 16/9/1997.",
+        "en": "Jobs returned following the NeXT acquisition and became interim CEO on September 16, 1997."
+      }
+    },
+    "sources": [
+      {
+        "title": "Crossing Wall Street - 18 Years Ago, Steve Jobs Returns",
+        "url": "https://www.crossingwallstreet.com/archives/2015/09/18-years-ago-today-steve-jobs-returns.html"
+      },
+      {
+        "title": "Bybit Wiki - Apple Stock Price History",
+        "url": "https://www.bybit.com/en/wiki/article/apple-aapl-stock-price-history-drivers/"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Date of Jobs' interim CEO appointment (Sept 16, 1997) confirmed by Crossing Wall Street. Split-adjusted price range ($0.20-$0.60) is an approximation reconciling two sources that disagree on exact cents due to differing split-adjustment cutoffs; no single current AAPL exit price was independently verified, so no exact return multiple is given."
+  },
+  {
+    "id": "us-nvidia-ipo-1999",
     "country": "us",
     "date": "1999-01-22",
     "category": "stocks",
     "title": {
-      "vi": "Nvidia IPO",
-      "en": "Nvidia IPO"
+      "vi": "Nvidia lên sàn (1999)",
+      "en": "Nvidia IPO (1999)"
+    },
+    "summary": {
+      "vi": "1.000 USD vào IPO Nvidia năm 1999 trở thành hơn 9 triệu USD nhờ cơn sốt AI.",
+      "en": "$1,000 into Nvidia's 1999 IPO grew into over $9 million thanks to the AI boom."
     },
     "description": {
-      "vi": "Nvidia IPO với giá 12 USD/cổ phiếu.",
-      "en": "Nvidia IPOs at $12 per share."
+      "vi": "Ngày 22/1/1999, Nvidia — khi đó chỉ là một hãng chip đồ họa máy tính nhỏ định giá chưa tới 650 triệu USD — niêm yết với giá 12 USD/cổ phiếu. Qua 6 lần chia tách cổ phiếu (gần nhất là 10-vì-1 năm 2024), Nvidia trở thành công ty dẫn đầu kỷ nguyên chip AI và từng là công ty giá trị nhất thế giới.",
+      "en": "On January 22, 1999, Nvidia — then just a small graphics-chip maker valued under $650 million — IPO'd at $12 per share. After six stock splits (most recently 10-for-1 in 2024), Nvidia became the leading AI chipmaker and, at times, the world's most valuable company."
     },
     "opportunity": {
+      "asset": "Nvidia (NVDA)",
       "action": {
-        "vi": "Mua Nvidia (NVDA) — hưởng lợi từ GPU, crypto mining rồi AI.",
-        "en": "Buy Nvidia (NVDA) — rides GPUs, crypto mining, then AI."
+        "vi": "Mua cổ phiếu Nvidia ngay ngày IPO và giữ xuyên suốt mọi chu kỳ (game, crypto-mining, AI).",
+        "en": "Buy Nvidia shares on IPO day and hold through every cycle (gaming, crypto mining, AI)."
       },
       "buyWhen": {
-        "vi": "Ngày IPO, hoặc bất kỳ lúc nào trước 2016",
-        "en": "IPO day, or any time before 2016"
+        "vi": "22/1/1999, giá 12 USD/cổ phiếu.",
+        "en": "January 22, 1999, at $12/share."
       },
       "sellWhen": {
-        "vi": "Giữ đến nay",
-        "en": "Hold to today"
+        "vi": "Không bán — mỗi làn sóng công nghệ mới (GPU chơi game, đào tiền số, AI tạo sinh) lại đẩy giá lên mức kỷ lục mới.",
+        "en": "Never sell — each new tech wave (gaming GPUs, crypto mining, generative AI) pushes the stock to fresh records."
       },
       "estimatedReturn": {
-        "vi": "Hơn 1.000 lần (đã điều chỉnh chia tách)",
-        "en": "Over 1,000x (split-adjusted)"
+        "vi": "Khoảng 9.196 lần (1.000 USD thành khoảng 9,2 triệu USD), theo Yahoo Finance.",
+        "en": "About 9,196x ($1,000 became roughly $9.2 million), per Yahoo Finance."
       },
-      "returnMultiple": 1000
+      "returnMultiple": 9196,
+      "entryPrice": 12,
+      "risk": "medium",
+      "capital": "low",
+      "priceCurrency": "USD"
+    },
+    "insiderTip": {
+      "vi": "GPU của Nvidia ban đầu chỉ để chơi game, nhưng sẽ trở thành phần cứng cốt lõi cho đào Bitcoin (2017) rồi huấn luyện AI (2023+) — đừng đánh giá thấp một công ty chip 'chỉ làm đồ họa'.",
+      "en": "Nvidia's GPUs start out just for gaming, but will become the core hardware for Bitcoin mining (2017) and then AI training (2023+) — don't underestimate a chipmaker that looks like 'just graphics'."
+    },
+    "pitfalls": {
+      "vi": "Cổ phiếu trải qua nhiều đợt sập hơn 50% (dot-com 2000-2002, khủng hoảng 2008, 2022) — cần chịu được biến động cực lớn.",
+      "en": "The stock has suffered multiple 50%+ crashes (dot-com 2000-2002, 2008 crisis, 2022) — requires tolerance for extreme volatility."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Nvidia IPO với giá bao nhiêu năm 1999?",
+        "en": "What price did Nvidia IPO at in 1999?"
+      },
+      "choices": [
+        {
+          "vi": "6 USD",
+          "en": "$6"
+        },
+        {
+          "vi": "12 USD",
+          "en": "$12"
+        },
+        {
+          "vi": "24 USD",
+          "en": "$24"
+        },
+        {
+          "vi": "40 USD",
+          "en": "$40"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Nvidia niêm yết ngày 22/1/1999 với giá 12 USD/cổ phiếu, theo chính trang quan hệ nhà đầu tư của công ty.",
+        "en": "Nvidia IPO'd on January 22, 1999 at $12/share, per the company's own investor relations page."
+      }
     },
     "sources": [
       {
-        "title": "Nvidia – Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Nvidia"
+        "title": "Nvidia Investor FAQs",
+        "url": "https://investor.nvidia.com/investor-resources/faqs/default.aspx"
+      },
+      {
+        "title": "Yahoo Finance - $1,000 in Nvidia IPO",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/invested-1-000-nvidia-stock-233108798.html?.tsrc=rss"
       }
     ],
-    "verified": false
+    "verified": true,
+    "verifiedNote": "IPO date and $12 price confirmed directly by Nvidia Investor Relations FAQ. $1,000->$9.19M / 9,196x figure confirmed by Yahoo Finance article (figure tied to a specific recent date, will keep changing)."
   },
   {
-    "id": "us-google-ipo",
+    "id": "us-dotcom-peak-2000",
+    "country": "us",
+    "date": "2000-03-10",
+    "category": "macro",
+    "title": {
+      "vi": "Đỉnh bong bóng dot-com (3/2000)",
+      "en": "Dot-com bubble peak (March 2000)"
+    },
+    "summary": {
+      "vi": "Nasdaq lập đỉnh 5.048,62 điểm rồi mất gần 78% giá trị trong 30 tháng kế tiếp.",
+      "en": "The Nasdaq peaked at 5,048.62 then lost nearly 78% over the next 30 months."
+    },
+    "description": {
+      "vi": "Ngày 10/3/2000, chỉ số Nasdaq Composite đóng cửa ở mức kỷ lục 5.048,62 điểm sau khi tăng gấp 5 lần chỉ trong 5 năm nhờ cơn sốt cổ phiếu internet. Từ đỉnh đó, chỉ số lao dốc gần 78% xuống đáy 1.114,11 điểm vào tháng 10/2002, và phải mất tới 15 năm mới lấy lại được mức đỉnh cũ (năm 2015).",
+      "en": "On March 10, 2000, the Nasdaq Composite closed at a record 5,048.62 after quintupling in just five years on the internet-stock mania. From that peak, the index crashed nearly 78% to a low of 1,114.11 by October 2002, and took 15 years to reclaim its old high, not until 2015."
+    },
+    "opportunity": {
+      "asset": "Cổ phiếu công nghệ Nasdaq (short) / tiền mặt",
+      "action": {
+        "vi": "Bán hết hoặc bán khống các cổ phiếu dot-com không có lợi nhuận quanh đỉnh tháng 3/2000, giữ tiền mặt chờ đáy.",
+        "en": "Sell or short unprofitable dot-com stocks around the March 2000 peak, then hold cash and wait for the bottom."
+      },
+      "buyWhen": {
+        "vi": "Mua lại cổ phiếu chất lượng (Amazon, Cisco không kể bán khống...) quanh đáy tháng 10/2002.",
+        "en": "Buy back quality names around the October 2002 bottom."
+      },
+      "sellWhen": {
+        "vi": "Bán/khống hóa quanh đỉnh 10/3/2000.",
+        "en": "Sell/short around the March 10, 2000 peak."
+      },
+      "estimatedReturn": {
+        "vi": "Tránh được khoản lỗ gần 78% nếu thoát đúng lúc; lãi lớn nếu bán khống đúng thời điểm.",
+        "en": "Avoids a near-78% loss if timed correctly; large gains if shorting at the right moment."
+      },
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Hầu hết công ty '.com' không có doanh thu thực chất sẽ phá sản trong 2 năm tới (Pets.com, Webvan...) — chỉ nên giữ các công ty có dòng tiền thực như Amazon, Microsoft, Cisco (dù Cisco cũng giảm rất sâu).",
+      "en": "Most revenue-less '.com' companies will go bankrupt within two years (Pets.com, Webvan...) — only hold firms with real cash flow like Amazon, Microsoft, Cisco (though even Cisco falls hard)."
+    },
+    "pitfalls": {
+      "vi": "Xác định đỉnh chính xác gần như bất khả thi theo thời gian thực — ngay cả chuyên gia hàng đầu khi đó vẫn dự báo Nasdaq sẽ vượt 6.000 điểm.",
+      "en": "Pinpointing the exact top in real time is nearly impossible — even top analysts at the time predicted the Nasdaq would top 6,000."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Nasdaq Composite đóng cửa ở mức kỷ lục nào ngày 10/3/2000?",
+        "en": "What record level did the Nasdaq Composite close at on March 10, 2000?"
+      },
+      "choices": [
+        {
+          "vi": "3.048,62",
+          "en": "3,048.62"
+        },
+        {
+          "vi": "5.048,62",
+          "en": "5,048.62"
+        },
+        {
+          "vi": "7.048,62",
+          "en": "7,048.62"
+        },
+        {
+          "vi": "10.048,62",
+          "en": "10,048.62"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Nasdaq đóng cửa ở 5.048,62 điểm ngày 10/3/2000, mức đỉnh không được lập lại cho tới năm 2015.",
+        "en": "The Nasdaq closed at 5,048.62 on March 10, 2000, a peak not reclaimed until 2015."
+      }
+    },
+    "sources": [
+      {
+        "title": "Sherwood News - Nasdaq peak retrospective",
+        "url": "https://sherwood.news/markets/nasdaq-composite-index-correction-now-down-10-from-its-peak/"
+      },
+      {
+        "title": "TED Ideas - A look at the dot-com bubble",
+        "url": "https://ideas.ted.com/an-eye-opening-look-at-the-dot-com-bubble-of-2000-and-how-it-shapes-our-lives-today/"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Peak date/level (5,048.62 on 2000-03-10), ~78% decline and the October 2002 trough (1,114.11) confirmed by Sherwood News and TED Ideas (citing Dow Jones Market Data)."
+  },
+  {
+    "id": "us-gold-bull-2001-2011",
+    "country": "us",
+    "date": "2001-01",
+    "category": "commodities",
+    "title": {
+      "vi": "Vàng tăng giá 2001-2011",
+      "en": "The gold bull market (2001-2011)"
+    },
+    "summary": {
+      "vi": "Vàng từ 271 USD/ounce vọt lên gần 1.900 USD/ounce trong một thập kỷ — tăng khoảng 7 lần.",
+      "en": "Gold rose from $271/oz to nearly $1,900/oz over a decade — about a 7x gain."
+    },
+    "description": {
+      "vi": "Sau 20 năm thị trường giá xuống, vàng chạm đáy trung bình 271 USD/ounce năm 2001. Loạt sự kiện: vụ 11/9, Fed hạ lãi suất, ra mắt quỹ ETF vàng GLD (2004), khủng hoảng tài chính 2008 và các gói nới lỏng định lượng đã đẩy giá vàng lên đỉnh kỷ lục gần 1.900-1.921 USD/ounce vào tháng 9/2011.",
+      "en": "After a 20-year bear market, gold bottomed at a $271/oz average in 2001. A chain of events — the 9/11 attacks, Fed rate cuts, the launch of the GLD gold ETF (2004), the 2008 financial crisis and subsequent quantitative easing — drove gold to a record near $1,900-1,921/oz by September 2011."
+    },
+    "opportunity": {
+      "asset": "Vàng vật chất / quỹ ETF vàng (sau 2004: GLD)",
+      "action": {
+        "vi": "Mua vàng vật chất hoặc (từ 2004) chứng chỉ quỹ ETF vàng GLD, giữ xuyên suốt thập kỷ.",
+        "en": "Buy physical gold, or (from 2004) the GLD gold ETF, and hold through the decade."
+      },
+      "buyWhen": {
+        "vi": "Năm 2001, khi giá trung bình khoảng 271 USD/ounce.",
+        "en": "In 2001, when the average price was around $271/oz."
+      },
+      "sellWhen": {
+        "vi": "Tháng 9/2011, quanh đỉnh kỷ lục gần 1.900 USD/ounce.",
+        "en": "September 2011, near the record peak around $1,900/oz."
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng 7 lần trong 10 năm (609% lợi nhuận danh nghĩa).",
+        "en": "About 7x over 10 years (a 609% nominal gain)."
+      },
+      "returnMultiple": 7,
+      "entryPrice": 271,
+      "exitPrice": 1900,
+      "exitDate": "2011-09",
+      "risk": "low",
+      "capital": "medium",
+      "priceCurrency": "USD"
+    },
+    "insiderTip": {
+      "vi": "Quỹ ETF vàng SPDR Gold Shares (GLD) ra mắt tháng 11/2004 giúp nhà đầu tư nhỏ lẻ mua vàng dễ như mua cổ phiếu — không cần tích trữ vàng vật chất.",
+      "en": "The SPDR Gold Shares ETF (GLD) launches in November 2004, letting small investors buy gold as easily as a stock — no need to store physical bullion."
+    },
+    "pitfalls": {
+      "vi": "Sau đỉnh 2011, vàng giảm khoảng 45% trong 4 năm tiếp theo (xuống khoảng 1.049 USD năm 2015) — cần chốt lời đúng lúc, không giữ mãi.",
+      "en": "After the 2011 peak, gold fell about 45% over the next four years (to roughly $1,049 by 2015) — timing the exit matters; don't hold forever."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Giá vàng trung bình năm 2001 là bao nhiêu mỗi ounce?",
+        "en": "What was gold's average price per ounce in 2001?"
+      },
+      "choices": [
+        {
+          "vi": "271 USD",
+          "en": "$271"
+        },
+        {
+          "vi": "571 USD",
+          "en": "$571"
+        },
+        {
+          "vi": "871 USD",
+          "en": "$871"
+        },
+        {
+          "vi": "1.071 USD",
+          "en": "$1,071"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "Vàng trung bình 271,04 USD/ounce năm 2001, đáy của chu kỳ giá xuống 20 năm trước đó.",
+        "en": "Gold averaged $271.04/oz in 2001, the bottom of the preceding 20-year bear market."
+      }
+    },
+    "sources": [
+      {
+        "title": "XAUUSD Global - Gold Price History",
+        "url": "https://www.xauusdglobal.com/gold-price-history/"
+      },
+      {
+        "title": "Minted Metal - Gold Price History",
+        "url": "https://mintedmetal.com/gold/price-history/"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "2001 average price ($271.04) and Sept 2011 peak (~$1,895-1,921) cross-confirmed by xauusdglobal.com and mintedmetal.com (sources differ by a few dollars on the exact peak)."
+  },
+  {
+    "id": "us-netflix-ipo-2002",
+    "country": "us",
+    "date": "2002-05-23",
+    "category": "stocks",
+    "title": {
+      "vi": "Netflix lên sàn (2002)",
+      "en": "Netflix IPO (2002)"
+    },
+    "summary": {
+      "vi": "Từ dịch vụ thuê DVD qua bưu điện, Netflix IPO ở 15 USD rồi trở thành đế chế streaming toàn cầu.",
+      "en": "From a mail-order DVD rental service, Netflix IPO'd at $15 and became a global streaming empire."
+    },
+    "description": {
+      "vi": "Ngày 23/5/2002, Netflix — khi đó là dịch vụ cho thuê đĩa DVD qua đường bưu điện — niêm yết 5,5 triệu cổ phiếu giá 15 USD, huy động 82,5 triệu USD, đóng cửa phiên đầu ở 16,75 USD (+12%). Công ty sau đó chuyển mình sang streaming (2007) và sản xuất nội dung gốc, trở thành gã khổng lồ giải trí toàn cầu.",
+      "en": "On May 23, 2002, Netflix — then a mail-order DVD rental service — listed 5.5 million shares at $15, raising $82.5 million, and closed its first day at $16.75 (+12%). The company later pivoted to streaming (2007) and original content production, becoming a global entertainment giant."
+    },
+    "opportunity": {
+      "asset": "Netflix (NFLX)",
+      "action": {
+        "vi": "Mua cổ phiếu Netflix ngay ngày IPO và giữ qua cú chuyển mình sang streaming năm 2007.",
+        "en": "Buy Netflix shares on IPO day and hold through the 2007 pivot to streaming."
+      },
+      "buyWhen": {
+        "vi": "23/5/2002, giá 15 USD/cổ phiếu.",
+        "en": "May 23, 2002, at $15/share."
+      },
+      "sellWhen": {
+        "vi": "Có thể chốt lời một phần gần đỉnh cuối 2021 trước khi cổ phiếu giảm mạnh năm 2022.",
+        "en": "Consider trimming some near the late-2021 peak before the stock's sharp 2022 decline."
+      },
+      "estimatedReturn": {
+        "vi": "1.000 USD IPO trở thành khoảng 654.000 USD tính đến cuối 2025 (sau 3 lần chia tách cổ phiếu).",
+        "en": "A $1,000 IPO stake grew to about $654,000 by late 2025 (after three stock splits)."
+      },
+      "returnMultiple": 654,
+      "entryPrice": 15,
+      "risk": "medium",
+      "capital": "low",
+      "priceCurrency": "USD"
+    },
+    "insiderTip": {
+      "vi": "Trong vòng 5 tháng đầu, cổ phiếu Netflix sẽ giảm khoảng 65% — đừng hoảng, công ty sẽ chuyển hướng sang streaming năm 2007 và bùng nổ sau đó.",
+      "en": "Within the first five months, Netflix stock will drop about 65% — don't panic; the company pivots to streaming in 2007 and takes off from there."
+    },
+    "pitfalls": {
+      "vi": "Cổ phiếu gần như đi ngang từ cuối 2021 đến 2025 sau khi tăng trưởng thuê bao chững lại — mô hình tăng trưởng 'mua và quên' không áp dụng cho giai đoạn gần đây.",
+      "en": "The stock has been roughly flat from late 2021 through 2025 as subscriber growth slowed — the 'buy and forget' pattern doesn't hold for the more recent period."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Netflix IPO với giá bao nhiêu năm 2002?",
+        "en": "What price did Netflix IPO at in 2002?"
+      },
+      "choices": [
+        {
+          "vi": "5 USD",
+          "en": "$5"
+        },
+        {
+          "vi": "15 USD",
+          "en": "$15"
+        },
+        {
+          "vi": "25 USD",
+          "en": "$25"
+        },
+        {
+          "vi": "50 USD",
+          "en": "$50"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Netflix niêm yết ngày 23/5/2002 với giá 15 USD/cổ phiếu, theo thông cáo báo chí chính thức của công ty.",
+        "en": "Netflix IPO'd on May 23, 2002 at $15/share, per the company's own press release."
+      }
+    },
+    "sources": [
+      {
+        "title": "Netflix IR - IPO press release",
+        "url": "https://ir.netflix.net/investor-news-and-events/financial-releases/press-release-details/2002/Netflix-Announces-Initial-Public-Offering/default.aspx"
+      },
+      {
+        "title": "Yahoo Finance - Netflix $1,000 since IPO",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/netflix-stock-turned-1-000-211301942.html"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "IPO date/price confirmed by Netflix's own investor relations press release. The $1,000->$654,000 and three-split figures confirmed by a Yahoo Finance article tied to a specific (later) date."
+  },
+  {
+    "id": "us-google-ipo-2004",
     "country": "us",
     "date": "2004-08-19",
     "category": "stocks",
     "title": {
-      "vi": "Google IPO",
-      "en": "Google IPO"
+      "vi": "Google lên sàn (2004)",
+      "en": "Google IPO (2004)"
+    },
+    "summary": {
+      "vi": "Google IPO theo hình thức đấu giá Hà Lan khác thường, giá 85 USD, tăng 18% ngay phiên đầu.",
+      "en": "Google IPO'd via an unusual Dutch auction at $85, popping 18% on day one."
     },
     "description": {
-      "vi": "Google IPO với giá 85 USD/cổ phiếu.",
-      "en": "Google IPOs at $85 per share."
+      "vi": "Ngày 19/8/2004, Google niêm yết 19,6 triệu cổ phiếu với giá 85 USD (giảm từ khoảng dự kiến 108-135 USD do nhu cầu thị trường), huy động 1,67 tỷ USD. Cổ phiếu đóng cửa phiên đầu ở 100,34 USD, tăng 18%. Đây là một trong những IPO công nghệ thành công nhất lịch sử, trước khi Google trở thành Alphabet.",
+      "en": "On August 19, 2004, Google listed 19.6 million shares at $85 (cut down from an earlier $108-135 range due to market conditions), raising $1.67 billion. The stock closed its first day at $100.34, up 18%. It became one of the most successful tech IPOs in history, well before Google became Alphabet."
     },
     "opportunity": {
+      "asset": "Google / Alphabet (GOOGL)",
       "action": {
-        "vi": "Mua cổ phiếu Google (nay là Alphabet – GOOGL).",
-        "en": "Buy Google (now Alphabet – GOOGL)."
+        "vi": "Mua cổ phiếu Google ngay ngày IPO và giữ xuyên suốt sự thống trị tìm kiếm, YouTube, Android, quảng cáo trực tuyến.",
+        "en": "Buy Google shares on IPO day and hold through its dominance of search, YouTube, Android and online advertising."
       },
       "buyWhen": {
-        "vi": "Ngày IPO",
-        "en": "IPO day"
+        "vi": "19/8/2004, giá 85 USD/cổ phiếu.",
+        "en": "August 19, 2004, at $85/share."
       },
       "sellWhen": {
-        "vi": "Giữ đến nay",
-        "en": "Hold to today"
+        "vi": "Không bán — Google trở thành một trong những công ty giá trị nhất thế giới.",
+        "en": "Never sell — Google becomes one of the most valuable companies in the world."
       },
       "estimatedReturn": {
-        "vi": "Hàng chục lần",
-        "en": "Dozens of times"
+        "vi": "Hàng chục lần qua nhiều đợt chia tách cổ phiếu (2014, 2022) trong hai thập kỷ tiếp theo.",
+        "en": "Tens-fold over the following two decades, through multiple stock splits (2014, 2022)."
+      },
+      "entryPrice": 85,
+      "risk": "low",
+      "capital": "low",
+      "priceCurrency": "USD"
+    },
+    "insiderTip": {
+      "vi": "Google sẽ mua lại YouTube (2006) và phát triển Android, biến công cụ tìm kiếm thành hệ sinh thái quảng cáo và di động thống trị toàn cầu.",
+      "en": "Google will acquire YouTube (2006) and build out Android, turning a search engine into a dominant global advertising and mobile ecosystem."
+    },
+    "pitfalls": {
+      "vi": "IPO dùng hình thức đấu giá Hà Lan khác thường khiến nhà đầu tư cá nhân khó tiếp cận giá tốt nhất — không phải ai cũng mua được đúng giá 85 USD.",
+      "en": "The unusual Dutch-auction IPO process made it hard for retail investors to access the best price — not everyone got in at exactly $85."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Google IPO với giá bao nhiêu năm 2004?",
+        "en": "What price did Google IPO at in 2004?"
+      },
+      "choices": [
+        {
+          "vi": "45 USD",
+          "en": "$45"
+        },
+        {
+          "vi": "65 USD",
+          "en": "$65"
+        },
+        {
+          "vi": "85 USD",
+          "en": "$85"
+        },
+        {
+          "vi": "105 USD",
+          "en": "$105"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "Google niêm yết ngày 19/8/2004 với giá 85 USD/cổ phiếu, đóng cửa phiên đầu ở 100,34 USD.",
+        "en": "Google IPO'd on August 19, 2004 at $85/share, closing its first day at $100.34."
       }
     },
     "sources": [
       {
-        "title": "Google – Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Google"
+        "title": "CNN - Google IPO priced at $85 a share",
+        "url": "https://edition.cnn.com/2004/BUSINESS/08/19/google.ipo.close/"
+      },
+      {
+        "title": "Yahoo Finance - History of Alphabet",
+        "url": "https://finance.yahoo.com/technology/articles/history-alphabet-company-timeline-milestones-223457960.html"
       }
     ],
-    "verified": false
+    "verified": true,
+    "verifiedNote": "IPO date, $85 price, and $100.34 first-day close confirmed by CNN and Yahoo Finance."
   },
   {
-    "id": "us-lehman-2008",
+    "id": "us-housing-crash-2007-2009",
     "country": "us",
-    "date": "2008-09-15",
+    "date": "2007-01",
+    "category": "real-estate",
+    "title": {
+      "vi": "Bong bóng bất động sản sụp đổ (2007-2009)",
+      "en": "The housing bubble bursts (2007-2009)"
+    },
+    "summary": {
+      "vi": "Giá nhà Mỹ giảm gần 30% đỉnh-đáy — cơ hội bán khống trái phiếu dưới chuẩn như trong 'The Big Short'.",
+      "en": "US home prices fell nearly 30% peak-to-trough — the setup for shorting subprime bonds, as in 'The Big Short'."
+    },
+    "description": {
+      "vi": "Từ đầu 2007, chỉ số giá nhà toàn quốc Case-Shiller bắt đầu chuỗi giảm liên tục kéo dài 3 năm, với mức giảm theo năm kỷ lục -19% vào đầu 2009, tổng cộng giá nhà giảm gần 30% từ đỉnh giữa 2006. Những nhà đầu tư như Michael Burry đã bán khống trái phiếu thế chấp dưới chuẩn (CDS) trước khi khủng hoảng nổ ra, thu lợi khổng lồ — câu chuyện trong phim 'The Big Short'.",
+      "en": "Starting in early 2007, the Case-Shiller national home price index began a three-year continuous decline, hitting a record year-over-year drop of about -19% in early 2009, with home prices falling roughly 30% from their mid-2006 peak overall. Investors like Michael Burry shorted subprime mortgage bonds (via credit default swaps) before the crash, profiting enormously — the story told in 'The Big Short'."
+    },
+    "opportunity": {
+      "asset": "Hợp đồng hoán đổi rủi ro tín dụng (CDS) trên trái phiếu thế chấp dưới chuẩn / bán khống cổ phiếu ngân hàng, nhà xây dựng",
+      "action": {
+        "vi": "Mua hợp đồng CDS đặt cược vào sự sụp đổ của trái phiếu thế chấp dưới chuẩn, hoặc bán khống cổ phiếu ngân hàng và nhà xây dựng.",
+        "en": "Buy credit default swaps betting against subprime mortgage bonds, or short bank and homebuilder stocks."
+      },
+      "buyWhen": {
+        "vi": "Cuối 2005 đến 2006, trước khi bong bóng vỡ.",
+        "en": "Late 2005 through 2006, before the bubble bursts."
+      },
+      "sellWhen": {
+        "vi": "Chốt lời khi khủng hoảng đạt đỉnh điểm cuối 2008 - đầu 2009.",
+        "en": "Close out positions at the height of the crisis in late 2008/early 2009."
+      },
+      "estimatedReturn": {
+        "vi": "Một số quỹ phòng hộ lãi hàng trăm phần trăm tới hàng nghìn phần trăm nhờ đặt cược đúng thời điểm (như Michael Burry, John Paulson).",
+        "en": "Some hedge funds made hundreds to thousands of percent by timing this correctly (e.g. Michael Burry, John Paulson)."
+      },
+      "risk": "high",
+      "capital": "high"
+    },
+    "insiderTip": {
+      "vi": "Các khoản vay thế chấp dưới chuẩn được đóng gói thành chứng khoán 'AAA' sẽ vỡ nợ hàng loạt — tránh xa cổ phiếu ngân hàng đầu tư (Lehman Brothers sẽ phá sản tháng 9/2008) và bất động sản đòn bẩy cao.",
+      "en": "Subprime loans packaged into 'AAA' securities will default en masse — avoid investment-bank stocks (Lehman Brothers goes bankrupt in Sept 2008) and highly-leveraged real estate."
+    },
+    "pitfalls": {
+      "vi": "Chiến lược bán khống đòi hỏi vốn lớn, kiến thức sản phẩm phái sinh phức tạp (CDS) và khả năng chịu đựng thua lỗ tạm thời kéo dài trước khi thị trường 'chịu thua' — rất khó cho nhà đầu tư cá nhân thông thường.",
+      "en": "The short strategy requires large capital, deep knowledge of complex derivatives (CDS), and the ability to endure prolonged temporary losses before the market 'breaks' — very hard for an ordinary retail investor."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Giá nhà toàn quốc Mỹ giảm khoảng bao nhiêu phần trăm từ đỉnh 2006 đến đáy?",
+        "en": "Roughly how much did US national home prices fall from their 2006 peak to the bottom?"
+      },
+      "choices": [
+        {
+          "vi": "5%",
+          "en": "5%"
+        },
+        {
+          "vi": "15%",
+          "en": "15%"
+        },
+        {
+          "vi": "30%",
+          "en": "30%"
+        },
+        {
+          "vi": "60%",
+          "en": "60%"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "Theo Lincoln Institute và S&P Case-Shiller, giá nhà toàn quốc giảm gần 30% từ đỉnh giữa 2006.",
+        "en": "Per the Lincoln Institute and S&P Case-Shiller data, national home prices fell nearly 30% from their mid-2006 peak."
+      }
+    },
+    "sources": [
+      {
+        "title": "Lincoln Institute - Housing, Land, and the Economic Crisis",
+        "url": "https://www.lincolninst.edu/publications/articles/housing-land-economic-crisis/"
+      },
+      {
+        "title": "CME Group - S&P/Case-Shiller 2009 Year in Review (PDF)",
+        "url": "https://www.cmegroup.com/trading/real-estate/files/SP-CSI-2009-Year-in-Review.pdf"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Timeline and ~30% peak-to-trough decline, plus the record -19% year-over-year drop in early 2009, confirmed by Lincoln Institute and CME Group/S&P Case-Shiller data. Specific CDS trade profits (Burry/Paulson) are well-documented public history but not individually re-verified here."
+  },
+  {
+    "id": "us-iphone-launch-2007",
+    "country": "us",
+    "date": "2007-06-29",
+    "category": "technology",
+    "title": {
+      "vi": "iPhone ra mắt (2007)",
+      "en": "iPhone launches (2007)"
+    },
+    "summary": {
+      "vi": "499 USD mua iPhone đời đầu, hay đầu tư vào Apple — một khoản đó đã tăng hơn 57 lần.",
+      "en": "$499 for the first iPhone, or invested in Apple instead — the latter grew over 57-fold."
+    },
+    "description": {
+      "vi": "Ngày 29/6/2007, Apple bán ra chiếc iPhone đầu tiên với giá 499 USD (bản 4GB) và 599 USD (bản 8GB), kèm hợp đồng AT&T 2 năm. Nếu dùng chính số tiền đó mua cổ phiếu Apple (khi đó khoảng 4,36 USD/cổ phiếu tính theo giá điều chỉnh chia tách) thay vì mua điện thoại, khoản đầu tư sẽ tăng hơn 57 lần.",
+      "en": "On June 29, 2007, Apple released the first iPhone at $499 (4GB model) and $599 (8GB model), with a 2-year AT&T contract. If that same money had been put into Apple stock instead (around a split-adjusted $4.36/share at the time), the investment would have grown over 57-fold."
+    },
+    "opportunity": {
+      "asset": "Apple (AAPL)",
+      "action": {
+        "vi": "Thay vì mua iPhone, dùng số tiền đó mua cổ phiếu Apple.",
+        "en": "Instead of buying the iPhone, put that money into Apple stock."
+      },
+      "buyWhen": {
+        "vi": "29/6/2007, ngày iPhone ra mắt.",
+        "en": "June 29, 2007, iPhone launch day."
+      },
+      "sellWhen": {
+        "vi": "Giữ dài hạn qua các thế hệ iPhone tiếp theo.",
+        "en": "Hold long-term through subsequent iPhone generations."
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng 57,5 lần (theo giá cổ phiếu Apple hiện tại khoảng 211 USD).",
+        "en": "About 57.5x (based on a recent Apple share price around $211)."
+      },
+      "returnMultiple": 57.5,
+      "entryPrice": 4.36,
+      "exitPrice": 251,
+      "risk": "low",
+      "capital": "low",
+      "priceCurrency": "USD"
+    },
+    "insiderTip": {
+      "vi": "iPhone sẽ định nghĩa lại cả ngành công nghiệp di động, buộc Nokia và BlackBerry suy tàn — doanh thu iPhone sẽ trở thành trụ cột tài chính của Apple suốt nhiều năm.",
+      "en": "The iPhone will redefine the entire mobile industry, driving Nokia and BlackBerry into decline — iPhone revenue becomes Apple's financial backbone for years."
+    },
+    "pitfalls": {
+      "vi": "Chiếc iPhone đời đầu có nhiều hạn chế (không có App Store cho tới 2008, mạng 2G chậm) — về mặt công nghệ không hoàn hảo nhưng về mặt đầu tư lại cực kỳ sinh lời.",
+      "en": "The original iPhone had real limitations (no App Store until 2008, slow 2G network) — imperfect as a gadget, but the investment case was still extremely profitable."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Giá bán lẻ của iPhone bản 4GB đời đầu năm 2007 là bao nhiêu?",
+        "en": "What was the US retail price of the original 4GB iPhone in 2007?"
+      },
+      "choices": [
+        {
+          "vi": "299 USD",
+          "en": "$299"
+        },
+        {
+          "vi": "399 USD",
+          "en": "$399"
+        },
+        {
+          "vi": "499 USD",
+          "en": "$499"
+        },
+        {
+          "vi": "699 USD",
+          "en": "$699"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "iPhone 4GB ra mắt với giá 499 USD (bản 8GB giá 599 USD), kèm hợp đồng 2 năm với AT&T.",
+        "en": "The 4GB iPhone launched at $499 (the 8GB model was $599), bundled with a 2-year AT&T contract."
+      }
+    },
+    "sources": [
+      {
+        "title": "Wikipedia - iPhone (1st generation)",
+        "url": "https://en.wikipedia.org/wiki/IPhone_(1st_generation)"
+      },
+      {
+        "title": "Good Money Guide - Apple stock vs iPhone",
+        "url": "https://goodmoneyguide.com/investing/if-youd-bought-apple-stock-instead-of-an-iphone-heres-how-much-youd-have-now/"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Launch date and $499/$599 prices confirmed by Wikipedia. The $4.36 split-adjusted entry price and 57.5x multiple confirmed by Good Money Guide's comparison article (exit price tied to the date that article was written)."
+  },
+  {
+    "id": "us-march-2009-bottom",
+    "country": "us",
+    "date": "2009-03-09",
     "category": "macro",
     "title": {
-      "vi": "Lehman Brothers phá sản",
-      "en": "Lehman Brothers collapses"
+      "vi": "Đáy khủng hoảng tài chính (3/2009)",
+      "en": "The financial crisis bottom (March 2009)"
+    },
+    "summary": {
+      "vi": "S&P 500 chạm đáy 666,79 điểm — mua vào lúc này rồi thị trường tăng gần 300% trong 9 năm.",
+      "en": "The S&P 500 bottomed at 666.79 — buying here led to nearly 300% gains over the next 9 years."
     },
     "description": {
-      "vi": "Lehman Brothers nộp đơn phá sản, khủng hoảng tài chính toàn cầu bùng nổ.",
-      "en": "Lehman Brothers files for bankruptcy, triggering the global financial crisis."
+      "vi": "Sau khi giảm 56,8% từ đỉnh tháng 10/2007, chỉ số S&P 500 chạm đáy nội phiên 666,79 điểm ngày 6/3/2009 và đóng cửa đáy 676,53 điểm ngày 9/3/2009. Đây là khởi đầu của thị trường tăng giá (bull market) dài nhất lịch sử nước Mỹ, với S&P 500 tăng gần 300% chỉ trong 9 năm sau đó.",
+      "en": "After falling 56.8% from its October 2007 peak, the S&P 500 hit an intraday low of 666.79 on March 6, 2009, and a closing low of 676.53 on March 9, 2009. This marked the start of the longest bull market in US history, with the S&P 500 up nearly 300% over the following nine years."
     },
     "opportunity": {
+      "asset": "S&P 500 index fund",
       "action": {
-        "vi": "Bán cổ phiếu trước khủng hoảng; mua quỹ chỉ số S&P 500 tại đáy.",
-        "en": "Sell stocks before the crisis; buy an S&P 500 index fund at the bottom."
+        "vi": "Mua mạnh quỹ chỉ số S&P 500 (hoặc cổ phiếu blue-chip) đúng vào đáy khủng hoảng.",
+        "en": "Buy heavily into an S&P 500 index fund (or blue-chip stocks) right at the crisis bottom."
       },
       "buyWhen": {
-        "vi": "Đáy thị trường tháng 3/2009 (S&P 500 ~666 điểm)",
-        "en": "Market bottom March 2009 (S&P 500 ~666)"
+        "vi": "6-9/3/2009, khi S&P 500 chạm đáy 666-677 điểm.",
+        "en": "March 6-9, 2009, when the S&P 500 bottomed around 666-677."
       },
       "sellWhen": {
-        "vi": "Giữ dài hạn",
-        "en": "Hold long term"
+        "vi": "Giữ dài hạn qua thị trường tăng giá kéo dài hơn một thập kỷ.",
+        "en": "Hold long-term through the decade-plus bull market that follows."
       },
       "estimatedReturn": {
-        "vi": "Khoảng 7–8 lần (chưa tính cổ tức)",
-        "en": "Roughly 7–8x (excluding dividends)"
+        "vi": "Gần 300% chỉ trong 9 năm đầu (tính đến 2018), còn tăng mạnh hơn nữa sau đó.",
+        "en": "Nearly 300% in the first 9 years alone (by 2018), with much more gained since."
       },
-      "returnMultiple": 7
+      "returnMultiple": 3.98,
+      "entryPrice": 676.53,
+      "risk": "medium",
+      "capital": "low",
+      "priceCurrency": "USD"
+    },
+    "insiderTip": {
+      "vi": "Ngày 10/3/2009, một bức thư nội bộ rò rỉ cho biết Citigroup có lãi đã giúp thị trường tăng vọt 6,4% — đây chính xác là thời điểm 'đáy đã qua', nên mua càng sớm càng tốt quanh mốc 666 điểm.",
+      "en": "On March 10, 2009, a leaked internal memo saying Citigroup was profitable sent the market up 6.4% — this is precisely the moment the bottom is in, so buy as early as possible near the 666 level."
+    },
+    "pitfalls": {
+      "vi": "Rất khó xác định chính xác đáy theo thời gian thực — thị trường vẫn còn cực kỳ biến động và tin tức tiêu cực (Lehman, AIG) tiếp tục xuất hiện ngay cả sau đáy.",
+      "en": "Pinpointing the exact bottom in real time is extremely hard — the market remained highly volatile and bad news (Lehman, AIG) kept surfacing even after the low."
+    },
+    "quiz": {
+      "question": {
+        "vi": "S&P 500 chạm đáy đóng cửa vào ngày nào trong khủng hoảng tài chính?",
+        "en": "On what date did the S&P 500 hit its financial-crisis closing low?"
+      },
+      "choices": [
+        {
+          "vi": "15/9/2008",
+          "en": "September 15, 2008"
+        },
+        {
+          "vi": "9/3/2009",
+          "en": "March 9, 2009"
+        },
+        {
+          "vi": "1/1/2010",
+          "en": "January 1, 2010"
+        },
+        {
+          "vi": "23/3/2020",
+          "en": "March 23, 2020"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "S&P 500 đóng cửa đáy 676,53 điểm ngày 9/3/2009 (đáy nội phiên 666,79 điểm ngày 6/3), theo dữ liệu của Reuters và Dow Jones Market Data.",
+        "en": "The S&P 500 closed at its low of 676.53 on March 9, 2009 (intraday low 666.79 on March 6), per Reuters and Dow Jones Market Data."
+      }
     },
     "sources": [
       {
-        "title": "Bankruptcy of Lehman Brothers – Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Bankruptcy_of_Lehman_Brothers"
+        "title": "Reuters - Wall Street's oldest-ever bull market turns 10",
+        "url": "https://www.reuters.com/article/usa-stocks-bull-idUSL1N20V1RK"
       },
       {
-        "title": "2008 financial crisis – Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/2008_financial_crisis"
+        "title": "Wikipedia - Closing milestones of the S&P 500",
+        "url": "https://en.wikipedia.org/wiki/Closing_milestones_of_the_S&P_500"
       }
     ],
-    "verified": false
+    "verified": true,
+    "verifiedNote": "666.79 intraday low (March 6) and 676.53 closing low (March 9, 2009) confirmed by Reuters and Wikipedia. The ~300%/9-year gain figure confirmed by Reuters and Business Insider articles marking the anniversary."
   },
   {
-    "id": "us-bitcoin-pizza",
+    "id": "us-bitcoin-pizza-day-2010",
     "country": "us",
     "date": "2010-05-22",
     "category": "crypto",
     "title": {
-      "vi": "Bitcoin Pizza Day",
-      "en": "Bitcoin Pizza Day"
+      "vi": "Ngày Bánh Pizza Bitcoin (2010)",
+      "en": "Bitcoin Pizza Day (2010)"
+    },
+    "summary": {
+      "vi": "10.000 BTC đổi lấy 2 chiếc pizza trị giá 41 USD — số Bitcoin đó sau này trị giá hơn 1 tỷ USD.",
+      "en": "10,000 BTC for two pizzas worth $41 — those coins later became worth over $1 billion."
     },
     "description": {
-      "vi": "Laszlo Hanyecz trả 10.000 BTC cho hai chiếc pizza — giao dịch thực tế đầu tiên bằng Bitcoin.",
-      "en": "Laszlo Hanyecz pays 10,000 BTC for two pizzas — the first real-world Bitcoin purchase."
+      "vi": "Ngày 22/5/2010, lập trình viên Laszlo Hanyecz ở Florida trả 10.000 Bitcoin để đổi lấy hai chiếc pizza lớn của Papa John's, giao dịch hàng hóa thực tế đầu tiên bằng Bitcoin được ghi nhận. Khi đó 10.000 BTC chỉ trị giá khoảng 41 USD. Đến kỷ niệm 15 năm (2025), số Bitcoin đó trị giá khoảng 1,1 tỷ USD.",
+      "en": "On May 22, 2010, Florida-based programmer Laszlo Hanyecz paid 10,000 Bitcoin for two large Papa John's pizzas — the first documented real-world commercial Bitcoin transaction. At the time, those 10,000 BTC were worth only about $41. By the 15th anniversary (2025), that same amount of Bitcoin was worth roughly $1.1 billion."
     },
     "opportunity": {
+      "asset": "Bitcoin (BTC)",
       "action": {
-        "vi": "Mua và tự lưu trữ Bitcoin (giữ private key an toàn!).",
-        "en": "Buy and self-custody Bitcoin (keep your private keys safe!)."
+        "vi": "Mua và giữ Bitcoin với giá gần như không đáng kể vào năm 2010, lưu trữ ví an toàn trong nhiều năm.",
+        "en": "Buy and hold Bitcoin at its near-negligible 2010 price, storing the wallet safely for years."
       },
       "buyWhen": {
-        "vi": "2010–2012, khi giá dưới vài USD",
-        "en": "2010–2012, while under a few dollars"
+        "vi": "Tháng 5/2010, khi 10.000 BTC chỉ đáng giá khoảng 41 USD.",
+        "en": "May 2010, when 10,000 BTC was worth only about $41."
       },
       "sellWhen": {
-        "vi": "Đỉnh chu kỳ hoặc giữ đến nay",
-        "en": "Cycle tops or hold to today"
+        "vi": "Không cần bán hết — có thể bán dần khi Bitcoin lập các đỉnh giá mới (2017, 2021, 2024-2025).",
+        "en": "No need to sell everything — sell gradually as Bitcoin hits new highs (2017, 2021, 2024-2025)."
       },
       "estimatedReturn": {
-        "vi": "Hàng chục nghìn lần trở lên",
-        "en": "Tens of thousands of times or more"
+        "vi": "Khoảng 27 triệu lần (từ 41 USD lên khoảng 1,1 tỷ USD) tính đến 2025.",
+        "en": "Roughly 27 million times (from $41 to about $1.1 billion) by 2025."
       },
-      "returnMultiple": 10000
+      "returnMultiple": 26829268,
+      "entryPrice": 0.0041,
+      "exitDate": "2025-05",
+      "risk": "high",
+      "capital": "low",
+      "priceCurrency": "USD"
+    },
+    "insiderTip": {
+      "vi": "Tránh các sàn giao dịch sẽ sụp đổ hoặc bị hack sau này (Mt. Gox sập năm 2014) — tự lưu trữ khóa riêng (private key) ở nơi an toàn thay vì để trên sàn.",
+      "en": "Avoid exchanges that later collapse or get hacked (Mt. Gox fails in 2014) — self-custody your private keys somewhere safe instead of leaving coins on an exchange."
+    },
+    "pitfalls": {
+      "vi": "Nguy cơ mất ví, quên mật khẩu hoặc vứt bỏ ổ cứng chứa khóa riêng là có thật — nhiều người đã mất hàng chục nghìn Bitcoin vì những lỗi đơn giản này.",
+      "en": "The risk of losing a wallet, forgetting a password, or throwing away a hard drive with the private key is very real — many people have lost tens of thousands of Bitcoin to exactly these simple mistakes."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Laszlo Hanyecz trả bao nhiêu Bitcoin để mua 2 chiếc pizza năm 2010?",
+        "en": "How many Bitcoin did Laszlo Hanyecz pay for two pizzas in 2010?"
+      },
+      "choices": [
+        {
+          "vi": "100 BTC",
+          "en": "100 BTC"
+        },
+        {
+          "vi": "1.000 BTC",
+          "en": "1,000 BTC"
+        },
+        {
+          "vi": "10.000 BTC",
+          "en": "10,000 BTC"
+        },
+        {
+          "vi": "100.000 BTC",
+          "en": "100,000 BTC"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "Hanyecz trả 10.000 BTC (trị giá khoảng 41 USD khi đó) cho hai chiếc pizza Papa John's ngày 22/5/2010.",
+        "en": "Hanyecz paid 10,000 BTC (worth about $41 at the time) for two Papa John's pizzas on May 22, 2010."
+      }
     },
     "sources": [
       {
-        "title": "Bitcoin – Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Bitcoin"
+        "title": "Fortune - 15 years ago, two pizzas for 10,000 bitcoin",
+        "url": "https://fortune.com/article/pizza-bitcoin-day-story-laszlo-hanyecz-papa-johns-pizzas-value/"
+      },
+      {
+        "title": "Business Standard - Bitcoin Pizza Day explainer",
+        "url": "https://www.business-standard.com/markets/cryptocurrency/bitcoin-pizza-day-from-2-pizzas-worth-10k-btc-to-trillion-dollar-ecosystem-126052200099_1.html"
       }
     ],
-    "verified": false
+    "verified": true,
+    "verifiedNote": "Date, 10,000 BTC amount, ~$41 value at the time, and ~$1.1 billion value as of the 15th anniversary (2025) all confirmed by Fortune and Business Standard."
   },
   {
-    "id": "us-facebook-ipo",
+    "id": "us-tesla-ipo-2010",
+    "country": "us",
+    "date": "2010-06-29",
+    "category": "stocks",
+    "title": {
+      "vi": "Tesla lên sàn (2010)",
+      "en": "Tesla IPO (2010)"
+    },
+    "summary": {
+      "vi": "Hãng xe Mỹ đầu tiên IPO từ sau Ford năm 1956 — giá 17 USD, tăng hơn 40% ngay phiên đầu.",
+      "en": "The first US automaker IPO since Ford in 1956 — priced at $17, up over 40% on day one."
+    },
+    "description": {
+      "vi": "Ngày 29/6/2010, Tesla Motors — khi đó chỉ được biết đến với mẫu Roadster giá 109.000 USD — niêm yết ở mức giá 17 USD/cổ phiếu (cao hơn khoảng dự kiến 14-16 USD), huy động 226 triệu USD. Đây là IPO đầu tiên của một hãng xe hơi Mỹ kể từ Ford năm 1956. Cổ phiếu tăng vọt hơn 40% ngay phiên giao dịch đầu tiên.",
+      "en": "On June 29, 2010, Tesla Motors — then known only for its $109,000 Roadster — IPO'd at $17 per share (above the expected $14-16 range), raising $226 million. It was the first US car-company IPO since Ford in 1956. The stock jumped over 40% on its very first trading day."
+    },
+    "opportunity": {
+      "asset": "Tesla (TSLA)",
+      "action": {
+        "vi": "Mua cổ phiếu Tesla ngay ngày IPO và giữ qua nhiều năm sản xuất khó khăn trước khi công ty có lãi ổn định.",
+        "en": "Buy Tesla shares on IPO day and hold through years of production struggles before the company becomes reliably profitable."
+      },
+      "buyWhen": {
+        "vi": "29/6/2010, giá 17 USD/cổ phiếu.",
+        "en": "June 29, 2010, at $17/share."
+      },
+      "sellWhen": {
+        "vi": "Giữ lâu dài qua cú bùng nổ định giá 2020-2021.",
+        "en": "Hold long-term through the 2020-2021 valuation surge."
+      },
+      "estimatedReturn": {
+        "vi": "1.000 USD thành khoảng 241.852 USD (241,85 lần) tính theo giá đóng cửa phiên đầu điều chỉnh chia tách đến cuối 2025.",
+        "en": "$1,000 grew to about $241,852 (241.85x), from the split-adjusted first-day close to late 2025."
+      },
+      "returnMultiple": 241.85,
+      "entryPrice": 1.59,
+      "exitPrice": 385.19,
+      "exitDate": "2025-11-04",
+      "risk": "high",
+      "capital": "low",
+      "priceCurrency": "USD"
+    },
+    "insiderTip": {
+      "vi": "Tesla sẽ trải qua nhiều năm 'địa ngục sản xuất' (production hell) với Model 3 (2017-2018) và nhiều lần suýt phá sản — nhưng Elon Musk sẽ không bao giờ bỏ cuộc; đừng bán khi báo chí đưa tin công ty sắp phá sản.",
+      "en": "Tesla will go through years of 'production hell' with the Model 3 (2017-2018) and multiple near-bankruptcy scares — but Elon Musk never gives up; don't sell when headlines predict the company's collapse."
+    },
+    "pitfalls": {
+      "vi": "Cổ phiếu cực kỳ biến động — từng giảm hơn 60% trong năm 2022-2023 và luôn chịu rủi ro liên quan đến phát ngôn, pháp lý của Musk.",
+      "en": "The stock is extremely volatile — it fell over 60% in 2022-2023 and carries ongoing risk tied to Musk's public statements and legal matters."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Tesla IPO với giá bao nhiêu năm 2010?",
+        "en": "What price did Tesla IPO at in 2010?"
+      },
+      "choices": [
+        {
+          "vi": "7 USD",
+          "en": "$7"
+        },
+        {
+          "vi": "17 USD",
+          "en": "$17"
+        },
+        {
+          "vi": "27 USD",
+          "en": "$27"
+        },
+        {
+          "vi": "57 USD",
+          "en": "$57"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Tesla niêm yết ngày 29/6/2010 với giá 17 USD/cổ phiếu, là IPO hãng xe Mỹ đầu tiên kể từ Ford năm 1956.",
+        "en": "Tesla IPO'd on June 29, 2010 at $17/share, the first US automaker IPO since Ford in 1956."
+      }
+    },
+    "sources": [
+      {
+        "title": "Reuters - Tesla prices at $17 in upsized IPO",
+        "url": "https://www.reuters.com/article/markets/us/tesla-prices-at-17-in-upsized-ipo-source-idUSN27243875/"
+      },
+      {
+        "title": "Yahoo Finance - $1,000 in Tesla's 2010 IPO",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/invested-1-000-tesla-2010-191742455.html"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "IPO date/price confirmed by Reuters and LA Times. The $1.59 split-adjusted first-day close, $385.19 (Nov 4, 2025) exit price and 241.85x/$241,852 figures confirmed by a Yahoo Finance article tied to those specific dates."
+  },
+  {
+    "id": "us-facebook-ipo-2012",
     "country": "us",
     "date": "2012-05-18",
     "category": "stocks",
     "title": {
-      "vi": "Facebook IPO",
-      "en": "Facebook IPO"
+      "vi": "Facebook lên sàn (2012)",
+      "en": "Facebook IPO (2012)"
+    },
+    "summary": {
+      "vi": "IPO 38 USD từng là thảm họa — cổ phiếu giảm hơn 50% trong năm đầu trước khi trở thành Meta trị giá nghìn tỷ.",
+      "en": "The $38 IPO was initially a disaster — the stock fell over 50% in its first year before becoming the trillion-dollar Meta."
     },
     "description": {
-      "vi": "Facebook IPO với giá 38 USD, rồi giảm mạnh xuống dưới 20 USD trong vài tháng sau.",
-      "en": "Facebook IPOs at $38, then falls below $20 within months."
+      "vi": "Ngày 18/5/2012, Facebook niêm yết với giá 38 USD/cổ phiếu, huy động khoảng 16 tỷ USD, định giá công ty 104 tỷ USD — một trong những IPO lớn nhất lịch sử Mỹ. Tuy nhiên cổ phiếu giảm hơn một nửa, xuống còn 17,73 USD vào tháng 9/2012, trước khi phục hồi và tăng trưởng vượt bậc trong thập kỷ tiếp theo nhờ quảng cáo di động, Instagram và WhatsApp.",
+      "en": "On May 18, 2012, Facebook IPO'd at $38 per share, raising about $16 billion at a $104 billion valuation — one of the largest IPOs in US history. The stock, however, fell by more than half to $17.73 by September 2012, before recovering and growing dramatically over the following decade on mobile ads, Instagram and WhatsApp."
     },
     "opportunity": {
+      "asset": "Facebook / Meta Platforms (META)",
       "action": {
-        "vi": "Mua Facebook (nay là Meta – META) khi giá giảm sau IPO.",
-        "en": "Buy Facebook (now Meta – META) during the post-IPO slump."
+        "vi": "Bỏ qua sự hoảng loạn ban đầu, mua thêm cổ phiếu Facebook khi giá giảm sâu dưới mức IPO vào cuối 2012.",
+        "en": "Ignore the initial panic and buy more Facebook stock as it falls well below the IPO price in late 2012."
       },
       "buyWhen": {
-        "vi": "Cuối 2012",
-        "en": "Late 2012"
+        "vi": "Tháng 9/2012, khi giá giảm còn khoảng 17,73 USD.",
+        "en": "September 2012, when the price fell to about $17.73."
       },
       "sellWhen": {
-        "vi": "Giữ dài hạn",
-        "en": "Hold long term"
+        "vi": "Giữ dài hạn qua sự chuyển dịch sang quảng cáo di động và các vụ mua lại Instagram, WhatsApp.",
+        "en": "Hold long-term through the pivot to mobile advertising and the Instagram/WhatsApp acquisitions."
       },
       "estimatedReturn": {
-        "vi": "Hàng chục lần",
-        "en": "Dozens of times"
+        "vi": "Hàng chục lần tính từ đáy 17,73 USD năm 2012 đến đỉnh gần 790 USD năm 2025.",
+        "en": "Tens-fold from the 2012 low of $17.73 to a near-$790 peak in 2025."
+      },
+      "entryPrice": 17.73,
+      "exitPrice": 790,
+      "exitDate": "2025-08-12",
+      "risk": "medium",
+      "capital": "low",
+      "returnMultiple": 44.6,
+      "priceCurrency": "USD"
+    },
+    "insiderTip": {
+      "vi": "Facebook sẽ mua Instagram chỉ vài ngày sau IPO (tháng 4/2012 thực ra đã ký trước) với giá 1 tỷ USD — một thương vụ sau này trị giá hàng trăm tỷ USD; đừng hoảng khi giá giảm vì mảng di động, công ty sẽ xoay chuyển rất nhanh.",
+      "en": "Facebook buys Instagram for $1 billion around its IPO (deal signed just before, closed after) — a deal later worth hundreds of billions; don't panic about the stock's early mobile-ad stumbles, the pivot comes fast."
+    },
+    "pitfalls": {
+      "vi": "Nhà đầu tư mua đúng giá IPO 38 USD và giữ nguyên không bán thêm có thể phải chờ hơn một năm chỉ để hòa vốn — cần vốn và tâm lý vững để mua thêm lúc giá giảm.",
+      "en": "Investors who bought exactly at the $38 IPO price and didn't add more could wait over a year just to break even — this requires capital and conviction to buy the dip."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Giá cổ phiếu Facebook giảm xuống mức nào vào tháng 9/2012, sau IPO 38 USD?",
+        "en": "What price did Facebook stock fall to by September 2012, after its $38 IPO?"
+      },
+      "choices": [
+        {
+          "vi": "35 USD",
+          "en": "$35"
+        },
+        {
+          "vi": "25 USD",
+          "en": "$25"
+        },
+        {
+          "vi": "17,73 USD",
+          "en": "$17.73"
+        },
+        {
+          "vi": "5 USD",
+          "en": "$5"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "Cổ phiếu Facebook giảm xuống 17,73 USD vào ngày 4/9/2012, chưa bằng một nửa giá IPO 38 USD.",
+        "en": "Facebook stock fell to $17.73 by September 4, 2012, less than half the $38 IPO price."
       }
     },
     "sources": [
       {
-        "title": "Meta Platforms – Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Meta_Platforms"
+        "title": "Meta - Facebook Announces Pricing of IPO",
+        "url": "https://about.fb.com/news/2012/05/facebook-announces-pricing-of-initial-public-offering/"
+      },
+      {
+        "title": "Blofin - Meta Stock Price History and Cycles",
+        "url": "https://blofin.com/academy/education/metax/meta-stock-price-history-and-cycles"
       }
     ],
-    "verified": false
+    "verified": true,
+    "verifiedNote": "IPO date/price confirmed by Meta's own press release. The Sept 2012 $17.73 low and August 2025 ~$790/$796.25 all-time high confirmed by Blofin's price-history analysis (citing Yahoo Finance data)."
   },
   {
-    "id": "us-covid-crash",
+    "id": "us-ethereum-launch-2015",
+    "country": "us",
+    "date": "2015-07-30",
+    "category": "crypto",
+    "title": {
+      "vi": "Ethereum ra mắt (2015)",
+      "en": "Ethereum launches (2015)"
+    },
+    "summary": {
+      "vi": "Mua Ethereum từ đợt bán trước giá 0,31 USD — lợi nhuận hơn 1 triệu phần trăm cho người kiên nhẫn.",
+      "en": "Buying Ethereum in the presale at $0.31 — a gain of over 1,000,000% for the patient."
+    },
+    "description": {
+      "vi": "Từ 22/7 đến 2/9/2014, dự án Ethereum của Vitalik Buterin gọi vốn cộng đồng (ICO), bán ETH với giá khoảng 0,31 USD, huy động hơn 18 triệu USD. Ngày 30/7/2015, mạng lưới Ethereum chính thức khởi chạy (khối Genesis), mở ra kỷ nguyên hợp đồng thông minh (smart contract) và sau này là DeFi, NFT.",
+      "en": "From July 22 to September 2, 2014, Vitalik Buterin's Ethereum project held a crowd-sale (ICO), selling ETH at about $0.31, raising over $18 million. On July 30, 2015, the Ethereum network officially launched (the Genesis block), ushering in the smart-contract era and later DeFi and NFTs."
+    },
+    "opportunity": {
+      "asset": "Ethereum (ETH)",
+      "action": {
+        "vi": "Tham gia đợt bán trước (ICO) của Ethereum năm 2014 hoặc mua ETH ngay khi mạng lưới khởi chạy năm 2015.",
+        "en": "Join Ethereum's 2014 ICO presale, or buy ETH right when the network launches in 2015."
+      },
+      "buyWhen": {
+        "vi": "Tháng 7-9/2014 (giá ICO) hoặc 30/7/2015 (ngày ra mắt mạng chính).",
+        "en": "July-September 2014 (ICO price) or July 30, 2015 (mainnet launch)."
+      },
+      "sellWhen": {
+        "vi": "Có thể bán dần khi ETH lập đỉnh mới (2017-2018, 2021, các chu kỳ sau).",
+        "en": "Sell gradually at new ETH highs (2017-2018, 2021, subsequent cycles)."
+      },
+      "estimatedReturn": {
+        "vi": "Hơn 1.000.000% nếu giữ từ giá ICO 0,31 USD đến vùng giá hàng nghìn USD sau này.",
+        "en": "Over 1,000,000% if held from the $0.31 ICO price to later thousand-dollar-plus levels."
+      },
+      "returnMultiple": 10570,
+      "entryPrice": 0.31,
+      "exitPrice": 3275,
+      "risk": "high",
+      "capital": "low",
+      "priceCurrency": "USD"
+    },
+    "insiderTip": {
+      "vi": "Ethereum sẽ trở thành nền tảng cho hầu hết hợp đồng thông minh, DeFi và NFT sau này — khác biệt căn bản so với Bitcoin ở khả năng lập trình, nên đừng chỉ tập trung vào Bitcoin.",
+      "en": "Ethereum becomes the foundation for most smart contracts, DeFi and NFTs later on — fundamentally different from Bitcoin in its programmability, so don't focus on Bitcoin alone."
+    },
+    "pitfalls": {
+      "vi": "ETH đã trải qua nhiều đợt giảm hơn 80% (2018, 2022) và vụ hack DAO năm 2016 từng gây chia tách mạng lưới (Ethereum/Ethereum Classic) — cần hiểu rủi ro kỹ thuật và biến động cực lớn.",
+      "en": "ETH has suffered multiple 80%+ crashes (2018, 2022), and the 2016 DAO hack caused a network split (Ethereum/Ethereum Classic) — understand the technical risk and extreme volatility involved."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Giá ETH trong đợt ICO năm 2014 là bao nhiêu?",
+        "en": "What was ETH's price during the 2014 ICO?"
+      },
+      "choices": [
+        {
+          "vi": "0,031 USD",
+          "en": "$0.031"
+        },
+        {
+          "vi": "0,31 USD",
+          "en": "$0.31"
+        },
+        {
+          "vi": "3,1 USD",
+          "en": "$3.10"
+        },
+        {
+          "vi": "31 USD",
+          "en": "$31"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "ETH được bán trong đợt ICO 2014 với giá khoảng 0,31 USD, huy động hơn 18 triệu USD.",
+        "en": "ETH sold in the 2014 ICO at about $0.31, raising over $18 million."
+      }
+    },
+    "sources": [
+      {
+        "title": "Cointelegraph - 11 critical moments in Ethereum's history",
+        "url": "https://cointelegraph.com/magazine/11-critical-moments-ethereum-history-that-made-eth-no2-blockchain"
+      },
+      {
+        "title": "MyEtherWallet - 10 Years of Ethereum in 10 Chapters",
+        "url": "https://www.myetherwallet.com/blog/10-years-of-ethereum-in-10-chapters/"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "ICO dates/price ($0.31) and mainnet launch date (2015-07-30) confirmed by Cointelegraph and MyEtherWallet. The ~1,057,000% / $3,275 figure is from Cointelegraph tied to the date that article was written; exact current multiple will vary."
+  },
+  {
+    "id": "us-covid-crash-bottom-2020",
     "country": "us",
     "date": "2020-03-23",
     "category": "macro",
     "title": {
-      "vi": "Đáy thị trường do COVID-19",
-      "en": "COVID-19 market bottom"
+      "vi": "Đáy thị trường mùa COVID (3/2020)",
+      "en": "The COVID market bottom (March 2020)"
+    },
+    "summary": {
+      "vi": "S&P 500 giảm 34% chỉ trong 33 ngày rồi lập đỉnh kỷ lục mới chỉ 5 tháng sau.",
+      "en": "The S&P 500 fell 34% in just 33 days, then hit a new record high only 5 months later."
     },
     "description": {
-      "vi": "Thị trường chứng khoán Mỹ lao dốc mạnh vì COVID-19 rồi hồi phục nhanh kỷ lục.",
-      "en": "US stocks crash on COVID-19 fears, then stage a record-fast recovery."
+      "vi": "Từ đỉnh 3.386,15 điểm ngày 19/2/2020, S&P 500 lao dốc 33,9% chỉ trong 33 ngày xuống đáy 2.237,40 điểm ngày 23/3/2020 khi đại dịch COVID-19 khiến cả nền kinh tế đóng cửa — đây là thị trường gấu nhanh nhất lịch sử. Nhờ các gói kích thích chưa từng có của Fed và chính phủ, S&P 500 đã lập đỉnh kỷ lục mới vào 18/8/2020, chưa đầy 6 tháng sau đáy.",
+      "en": "From a peak of 3,386.15 on February 19, 2020, the S&P 500 plunged 33.9% in just 33 days to a low of 2,237.40 on March 23, 2020, as COVID-19 shut down the economy — the fastest bear market in history. Thanks to unprecedented Fed and government stimulus, the S&P 500 hit a new record high on August 18, 2020, less than six months after the bottom."
     },
     "opportunity": {
+      "asset": "S&P 500 index fund / cổ phiếu công nghệ lớn",
       "action": {
-        "vi": "Mua quỹ chỉ số S&P 500 / NASDAQ và cổ phiếu công nghệ, thương mại điện tử.",
-        "en": "Buy S&P 500 / NASDAQ index funds and tech, e-commerce stocks."
+        "vi": "Mua mạnh quỹ chỉ số S&P 500 hoặc cổ phiếu công nghệ lớn (Amazon, Zoom, Netflix) đúng lúc thị trường hoảng loạn nhất.",
+        "en": "Buy heavily into an S&P 500 index fund or big tech stocks (Amazon, Zoom, Netflix) at the moment of peak panic."
       },
       "buyWhen": {
-        "vi": "Cuối tháng 3/2020",
-        "en": "Late March 2020"
+        "vi": "23/3/2020, khi S&P 500 đóng cửa ở 2.237,40 điểm.",
+        "en": "March 23, 2020, when the S&P 500 closed at 2,237.40."
       },
       "sellWhen": {
-        "vi": "Giữ dài hạn",
-        "en": "Hold long term"
+        "vi": "Giữ qua đợt phục hồi hình chữ V trong vòng vài tháng.",
+        "en": "Hold through the V-shaped recovery over the following months."
       },
       "estimatedReturn": {
-        "vi": "S&P 500 lập đỉnh mới chỉ sau ~5 tháng",
-        "en": "S&P 500 hit new highs within ~5 months"
+        "vi": "Khoảng 76% chỉ trong 3 năm đầu (tính đến 2023), phục hồi về đỉnh cũ trong chưa đầy 6 tháng.",
+        "en": "About 76% in the first 3 years alone (by 2023), with the old peak reclaimed in under 6 months."
       },
-      "returnMultiple": 2
+      "returnMultiple": 1.76,
+      "entryPrice": 2237.4,
+      "risk": "medium",
+      "capital": "low",
+      "priceCurrency": "USD"
+    },
+    "insiderTip": {
+      "vi": "Thị trường sẽ phục hồi cực nhanh (chưa đầy 6 tháng để lập đỉnh mới) nhờ các gói kích thích khổng lồ của Fed — các công ty hưởng lợi từ xu hướng 'ở nhà' (Zoom, Amazon, Netflix, Peloton) sẽ tăng đặc biệt mạnh.",
+      "en": "The market will recover extremely fast (under 6 months to a new high) thanks to massive Fed stimulus — companies benefiting from the 'stay at home' trend (Zoom, Amazon, Netflix, Peloton) will surge especially hard."
+    },
+    "pitfalls": {
+      "vi": "Nhiều cổ phiếu 'ở nhà' tăng vọt năm 2020 sau đó giảm hơn 70-90% năm 2022 khi lãi suất tăng — cần biết chốt lời, không giữ mãi những cổ phiếu tăng nóng bất thường.",
+      "en": "Many 'stay at home' stocks that surged in 2020 later fell 70-90%+ in 2022 as rates rose — know when to take profit, don't hold forever on names that spiked abnormally."
+    },
+    "quiz": {
+      "question": {
+        "vi": "S&P 500 đóng cửa ở mức nào vào đáy 23/3/2020?",
+        "en": "Where did the S&P 500 close on its March 23, 2020 bottom?"
+      },
+      "choices": [
+        {
+          "vi": "1.237,40",
+          "en": "1,237.40"
+        },
+        {
+          "vi": "2.237,40",
+          "en": "2,237.40"
+        },
+        {
+          "vi": "3.237,40",
+          "en": "3,237.40"
+        },
+        {
+          "vi": "4.237,40",
+          "en": "4,237.40"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "S&P 500 đóng cửa ở 2.237,40 điểm ngày 23/3/2020, giảm 33,9% chỉ trong 33 ngày từ đỉnh.",
+        "en": "The S&P 500 closed at 2,237.40 on March 23, 2020, down 33.9% in just 33 days from its peak."
+      }
     },
     "sources": [
       {
-        "title": "2020 stock market crash – Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/2020_stock_market_crash"
+        "title": "MarketWatch - Pandemic bottom 3 years later",
+        "url": "https://www.marketwatch.com/story/the-stock-market-hit-a-pandemic-bottom-3-years-ago-heres-how-it-has-performed-since-then-e08d360?eafs_enabled=false"
+      },
+      {
+        "title": "Finabase - The COVID crash of 2020",
+        "url": "https://finabase.io/learn/articles/covid-crash-2020"
       }
     ],
-    "verified": false
+    "verified": true,
+    "verifiedNote": "Peak (3,386.15 on Feb 19), bottom (2,237.40 on Mar 23), 33.9% decline over 33 days, and the Aug 18, 2020 new-record-high date all confirmed by MarketWatch and Finabase (Dow Jones Market Data)."
   },
   {
-    "id": "us-chatgpt",
+    "id": "us-gamestop-squeeze-2021",
+    "country": "us",
+    "date": "2021-01-28",
+    "category": "stocks",
+    "title": {
+      "vi": "Cơn sốt GameStop (1/2021)",
+      "en": "The GameStop short squeeze (January 2021)"
+    },
+    "summary": {
+      "vi": "GameStop tăng từ 17,25 USD lên 483 USD trong chưa đầy một tháng nhờ cộng đồng Reddit WallStreetBets.",
+      "en": "GameStop rocketed from $17.25 to $483 in under a month, driven by Reddit's WallStreetBets."
+    },
+    "description": {
+      "vi": "Đầu năm 2021, cổ phiếu GameStop (chuỗi bán lẻ game đang gặp khó khăn) đóng cửa phiên đầu năm ở 17,25 USD. Cộng đồng nhà đầu tư cá nhân trên diễn đàn Reddit r/WallStreetBets phối hợp mua vào, gây ra cú ép bán khống (short squeeze) lịch sử nhắm vào các quỹ phòng hộ đã bán khống cổ phiếu này. Giá đạt đỉnh nội phiên 483 USD ngày 28/1/2021 — tăng hơn 2.500% chỉ trong chưa đầy một tháng.",
+      "en": "In early 2021, shares of struggling game retailer GameStop closed the first trading day of the year at $17.25. A coordinated wave of retail investors on the Reddit forum r/WallStreetBets triggered a historic short squeeze against hedge funds that had shorted the stock. The price peaked at an intraday high of $483 on January 28, 2021 — up over 2,500% in under a month."
+    },
+    "opportunity": {
+      "asset": "GameStop (GME)",
+      "action": {
+        "vi": "Mua cổ phiếu GameStop đầu tháng 1/2021 khi câu chuyện ép bán khống lan truyền trên Reddit, rồi bán chốt lời trước khi giá sập.",
+        "en": "Buy GameStop stock in early January 2021 as the short-squeeze story spreads on Reddit, then sell before the price collapses."
+      },
+      "buyWhen": {
+        "vi": "Đầu-giữa tháng 1/2021, khi giá còn quanh 17-40 USD.",
+        "en": "Early-to-mid January 2021, while the price was still around $17-40."
+      },
+      "sellWhen": {
+        "vi": "Gần đỉnh 483 USD ngày 28/1/2021 — giá sập mạnh ngay sau đó.",
+        "en": "Near the $483 peak on January 28, 2021 — the price collapses sharply right after."
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng 28 lần nếu mua đầu năm ở 17,25 USD và bán đúng đỉnh 483 USD.",
+        "en": "About 28x if bought at the year's open ($17.25) and sold right at the $483 peak."
+      },
+      "returnMultiple": 28,
+      "entryPrice": 17.25,
+      "exitPrice": 483,
+      "exitDate": "2021-01-28",
+      "risk": "high",
+      "capital": "low",
+      "priceCurrency": "USD"
+    },
+    "insiderTip": {
+      "vi": "Đây là cổ phiếu 'meme' kinh điển — biến động hoàn toàn do tâm lý đám đông trên mạng xã hội chứ không phải nền tảng kinh doanh, nên cần bán chốt lời rất kỷ luật, tuyệt đối không giữ lâu dài.",
+      "en": "This is the archetypal 'meme stock' — the move is driven entirely by social-media crowd psychology, not business fundamentals, so exits must be highly disciplined; never hold this for the long term."
+    },
+    "pitfalls": {
+      "vi": "Giá sập hơn 80% chỉ trong vài tuần sau đỉnh — nhiều nhà đầu tư vào muộn ở vùng 300-480 USD đã mất phần lớn vốn; nhiều sàn giao dịch (Robinhood) còn tạm ngừng cho mua cổ phiếu này giữa cơn sốt.",
+      "en": "The price crashed over 80% within weeks of the peak — many investors who bought late in the $300-480 range lost most of their capital; some brokers (Robinhood) even temporarily halted buying the stock mid-frenzy."
+    },
+    "quiz": {
+      "question": {
+        "vi": "GameStop đạt giá đỉnh nội phiên bao nhiêu vào ngày 28/1/2021?",
+        "en": "What intraday peak price did GameStop reach on January 28, 2021?"
+      },
+      "choices": [
+        {
+          "vi": "83 USD",
+          "en": "$83"
+        },
+        {
+          "vi": "183 USD",
+          "en": "$183"
+        },
+        {
+          "vi": "483 USD",
+          "en": "$483"
+        },
+        {
+          "vi": "883 USD",
+          "en": "$883"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "GameStop đạt đỉnh nội phiên 483 USD ngày 28/1/2021, tăng từ 17,25 USD đầu năm.",
+        "en": "GameStop hit an intraday peak of $483 on January 28, 2021, up from $17.25 at the start of the year."
+      }
+    },
+    "sources": [
+      {
+        "title": "LA Times - Remember the GameStop stock craze?",
+        "url": "https://www.latimes.com/business/story/2022-01-25/column-gamestop-meme-stocks"
+      },
+      {
+        "title": "PMC/NIH - Social informedness in the GameStop short squeeze",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10203679/"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Year-open price ($17.25), January 28 2021 intraday peak ($483) and the subsequent crash confirmed by both the LA Times and an NIH/PMC peer-reviewed study."
+  },
+  {
+    "id": "us-chatgpt-nvidia-ai-2022",
     "country": "us",
     "date": "2022-11-30",
     "category": "technology",
     "title": {
-      "vi": "OpenAI ra mắt ChatGPT",
-      "en": "OpenAI launches ChatGPT"
+      "vi": "ChatGPT ra mắt, châm ngòi cơn sốt AI (2022)",
+      "en": "ChatGPT launches, igniting the AI boom (2022)"
+    },
+    "summary": {
+      "vi": "OpenAI tung ChatGPT miễn phí ngày 30/11/2022 — châm ngòi cho đợt tăng giá cổ phiếu Nvidia hàng nghìn phần trăm.",
+      "en": "OpenAI released ChatGPT for free on Nov 30, 2022 — igniting a multi-thousand-percent Nvidia stock rally."
     },
     "description": {
-      "vi": "ChatGPT ra mắt, mở đầu cơn sốt AI tạo sinh.",
-      "en": "ChatGPT launches, kicking off the generative-AI boom."
+      "vi": "Ngày 30/11/2022, OpenAI phát hành miễn phí ChatGPT, chatbot AI tạo sinh đạt 1 triệu người dùng chỉ trong 5 ngày. Sự kiện này khơi mào làn sóng đầu tư khổng lồ vào hạ tầng AI, mà Nvidia — nhà cung cấp chip GPU huấn luyện AI hàng đầu — là người hưởng lợi lớn nhất. Cổ phiếu Nvidia (điều chỉnh chia tách) đóng cửa quanh 1,69-16,91 USD ngày hôm đó tùy theo cách tính, rồi tăng hàng nghìn phần trăm trong các năm sau.",
+      "en": "On November 30, 2022, OpenAI released ChatGPT for free; the generative-AI chatbot hit 1 million users in just 5 days. The event sparked a massive wave of investment in AI infrastructure, with Nvidia — the leading supplier of AI-training GPUs — the biggest beneficiary. Nvidia's (split-adjusted) stock closed somewhere in the $1.69-$16.91 range that day depending on the adjustment used, then rallied thousands of percent in the years that followed."
     },
     "opportunity": {
+      "asset": "Nvidia (NVDA)",
       "action": {
-        "vi": "Mua cổ phiếu hưởng lợi từ AI, đặc biệt Nvidia (NVDA).",
-        "en": "Buy AI beneficiaries, especially Nvidia (NVDA)."
+        "vi": "Mua cổ phiếu Nvidia ngay khi ChatGPT ra mắt, nhận diện đây là chất xúc tác cho nhu cầu chip AI bùng nổ.",
+        "en": "Buy Nvidia stock right as ChatGPT launches, recognizing it as the catalyst for an explosion in AI chip demand."
       },
       "buyWhen": {
-        "vi": "Cuối 2022",
-        "en": "Late 2022"
+        "vi": "30/11/2022, ngày ChatGPT ra mắt.",
+        "en": "November 30, 2022, the day ChatGPT launches."
       },
       "sellWhen": {
-        "vi": "Giữ dài hạn",
-        "en": "Hold long term"
+        "vi": "Giữ dài hạn qua các năm bùng nổ hạ tầng AI 2023-2025.",
+        "en": "Hold long-term through the 2023-2025 AI infrastructure boom."
       },
       "estimatedReturn": {
-        "vi": "Nvidia tăng nhiều lần trong 2023–2024",
-        "en": "Nvidia rose several-fold in 2023–2024"
+        "vi": "Hàng nghìn phần trăm trong các năm tiếp theo (các nguồn ghi nhận mức tăng từ khoảng 330% đến hơn 11.000% tùy mốc thời gian và cách tính giá tham chiếu).",
+        "en": "Thousands of percent in the following years (sources show gains from roughly 330% to over 11,000% depending on the end date and reference price used)."
+      },
+      "risk": "high",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Nvidia không chỉ là công ty 'đồ họa game' — GPU của hãng là phần cứng thiết yếu để huấn luyện mọi mô hình AI lớn (GPT, Gemini, Llama...), nên nhu cầu sẽ bùng nổ cùng mọi đợt đầu tư AI mới.",
+      "en": "Nvidia isn't just a 'gaming graphics' company — its GPUs are the essential hardware for training every major AI model (GPT, Gemini, Llama...), so demand explodes with every new wave of AI investment."
+    },
+    "pitfalls": {
+      "vi": "Các nguồn khác nhau đưa ra giá cổ phiếu Nvidia ngày 30/11/2022 rất khác nhau (1,69 USD, 16,91 USD, 122,45 USD, 169,15 USD) tùy vào cách điều chỉnh các đợt chia tách — cần kiểm tra kỹ nguồn dữ liệu giá trước khi tính lợi nhuận cụ thể; đồng thời cổ phiếu AI có thể biến động rất mạnh nếu kỳ vọng tăng trưởng không được đáp ứng.",
+      "en": "Different sources give very different Nvidia closing prices for Nov 30, 2022 ($1.69, $16.91, $122.45, $169.15) depending on which stock splits are/aren't adjusted for — check the data source carefully before computing an exact return; also, AI stocks can swing hard if growth expectations aren't met."
+    },
+    "quiz": {
+      "question": {
+        "vi": "ChatGPT đạt 1 triệu người dùng trong bao lâu sau khi ra mắt?",
+        "en": "How long did it take ChatGPT to reach 1 million users after launch?"
+      },
+      "choices": [
+        {
+          "vi": "5 ngày",
+          "en": "5 days"
+        },
+        {
+          "vi": "1 tháng",
+          "en": "1 month"
+        },
+        {
+          "vi": "6 tháng",
+          "en": "6 months"
+        },
+        {
+          "vi": "1 năm",
+          "en": "1 year"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "ChatGPT ra mắt ngày 30/11/2022 và đạt 1 triệu người dùng chỉ trong 5 ngày, một tốc độ tăng trưởng người dùng chưa từng có.",
+        "en": "ChatGPT launched on November 30, 2022 and reached 1 million users in just 5 days, an unprecedented user-growth rate."
       }
     },
     "sources": [
       {
-        "title": "ChatGPT – Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/ChatGPT"
+        "title": "FomoDejavu - Nvidia at ChatGPT launch, $1,000 what-if",
+        "url": "https://www.fomodejavu.com/blog/what-if-you-invested-1000-in-nvidia-when-chatgpt-launched/"
+      },
+      {
+        "title": "The Globe and Mail - Nvidia cheaper than before ChatGPT",
+        "url": "https://www.theglobeandmail.com/investing/markets/stocks/INTC/pressreleases/202702/nvidia-shares-are-actually-cheaper-than-they-were-before-chatgpt-heres-why/"
       }
     ],
-    "verified": false
+    "verified": true,
+    "verifiedNote": "ChatGPT launch date (Nov 30, 2022) is well-documented public history. Nvidia's exact closing price that day is NOT consistently verifiable across sources (found $1.69, $16.91, $122.45 and $169.15 in different articles, reflecting different split-adjustment conventions) — flagged explicitly in the pitfalls text rather than asserting one precise entry price/return multiple."
+  },
+  {
+    "id": "us-bitcoin-spot-etf-2024",
+    "country": "us",
+    "date": "2024-01-10",
+    "category": "crypto",
+    "title": {
+      "vi": "SEC duyệt quỹ ETF Bitcoin giao ngay (2024)",
+      "en": "SEC approves spot Bitcoin ETFs (2024)"
+    },
+    "summary": {
+      "vi": "Sau một thập kỷ bị từ chối, SEC Mỹ duyệt 11 quỹ ETF Bitcoin giao ngay cùng lúc — mở cửa cho dòng vốn tổ chức.",
+      "en": "After a decade of rejections, the SEC approved 11 spot Bitcoin ETFs at once — opening the door to institutional money."
+    },
+    "description": {
+      "vi": "Ngày 10/1/2024, Ủy ban Chứng khoán Mỹ (SEC) phê duyệt cùng lúc 11 quỹ ETF Bitcoin giao ngay, bao gồm iShares Bitcoin Trust (IBIT) của BlackRock và các quỹ của Fidelity, ARK, Invesco... kết thúc hơn một thập kỷ các đơn xin bị từ chối. Bitcoin giao dịch quanh mức 46.000-47.000 USD vào ngày phê duyệt. Việc này mở ra kênh đầu tư Bitcoin dễ dàng, được quản lý cho cả nhà đầu tư tổ chức lẫn cá nhân.",
+      "en": "On January 10, 2024, the US Securities and Exchange Commission (SEC) approved 11 spot Bitcoin ETFs simultaneously, including BlackRock's iShares Bitcoin Trust (IBIT) and funds from Fidelity, ARK, Invesco and others — ending more than a decade of rejected applications. Bitcoin traded around $46,000-$47,000 on approval day. The move opened an easy, regulated path for both institutional and retail investors to gain Bitcoin exposure."
+    },
+    "opportunity": {
+      "asset": "Bitcoin (BTC) / quỹ ETF Bitcoin giao ngay (IBIT, FBTC...)",
+      "action": {
+        "vi": "Mua Bitcoin trực tiếp hoặc chứng chỉ quỹ ETF Bitcoin giao ngay ngay khi được SEC phê duyệt.",
+        "en": "Buy Bitcoin directly, or shares of a spot Bitcoin ETF, right when the SEC approves them."
+      },
+      "buyWhen": {
+        "vi": "10-11/1/2024, khi Bitcoin giao dịch quanh 46.000 USD.",
+        "en": "January 10-11, 2024, with Bitcoin trading around $46,000."
+      },
+      "sellWhen": {
+        "vi": "Có thể bán dần khi Bitcoin lập đỉnh kỷ lục mới trong các năm tiếp theo.",
+        "en": "Sell gradually at new record Bitcoin highs in the following years."
+      },
+      "estimatedReturn": {
+        "vi": "Dòng vốn hàng tỷ USD đổ vào ngay những tuần đầu — Bitcoin lập hàng loạt đỉnh kỷ lục mới sau đó.",
+        "en": "Billions of dollars flowed in within the first weeks — Bitcoin went on to set multiple new record highs afterward."
+      },
+      "entryPrice": 46000,
+      "risk": "high",
+      "capital": "low",
+      "priceCurrency": "USD"
+    },
+    "insiderTip": {
+      "vi": "BlackRock và Fidelity tham gia thị trường Bitcoin là tín hiệu Bitcoin đã được giới tài chính truyền thống chính thức chấp nhận — một bước ngoặt tâm lý lớn hơn cả tác động giá tức thời.",
+      "en": "BlackRock and Fidelity entering the Bitcoin market signals that Bitcoin has been formally accepted by mainstream finance — a psychological turning point even bigger than the immediate price impact."
+    },
+    "pitfalls": {
+      "vi": "Phản ứng giá ban đầu khá yên ắng (Bitcoin gần như đi ngang ngày phê duyệt) vì thị trường đã dự đoán trước sự kiện này từ nhiều tháng — đừng kỳ vọng lãi ngay lập tức.",
+      "en": "The immediate price reaction was muted (Bitcoin was roughly flat on approval day) since the market had already priced in the event for months — don't expect instant gains."
+    },
+    "quiz": {
+      "question": {
+        "vi": "SEC phê duyệt bao nhiêu quỹ ETF Bitcoin giao ngay cùng lúc ngày 10/1/2024?",
+        "en": "How many spot Bitcoin ETFs did the SEC approve at once on January 10, 2024?"
+      },
+      "choices": [
+        {
+          "vi": "1",
+          "en": "1"
+        },
+        {
+          "vi": "5",
+          "en": "5"
+        },
+        {
+          "vi": "11",
+          "en": "11"
+        },
+        {
+          "vi": "20",
+          "en": "20"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "SEC phê duyệt 11 đơn xin niêm yết ETF Bitcoin giao ngay cùng lúc, bao gồm của BlackRock, Fidelity, ARK, VanEck...",
+        "en": "The SEC approved 11 spot Bitcoin ETF listing applications at once, including those from BlackRock, Fidelity, ARK, VanEck and others."
+      }
+    },
+    "sources": [
+      {
+        "title": "SEC - Statement on the Approval of Spot Bitcoin ETPs",
+        "url": "https://www.sec.gov/newsroom/speeches-statements/gensler-statement-spot-bitcoin-011023"
+      },
+      {
+        "title": "Reuters - The decade-long journey to a US spot bitcoin ETF",
+        "url": "https://www.reuters.com/technology/decade-long-journey-us-spot-bitcoin-etf-2024-01-10/"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Approval date, the 11 approved ETPs, and ~$46,000-47,000 BTC price on approval day confirmed directly by the SEC's own statement and Reuters/Bloomberg coverage."
   }
 ]
