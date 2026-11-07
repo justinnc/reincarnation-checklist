@@ -16,7 +16,7 @@ npm run dev    # http://localhost:3000
 
 - Next.js 16 (App Router, Cache Components) + TypeScript + Tailwind CSS 4
 - Dữ liệu: file JSON trong repo — **chưa cần database**
-- i18n: route `/[lang]/...` (`vi`, `en`), tự redirect theo `Accept-Language` trong `src/proxy.ts`
+- i18n: route `/[lang]/...` (`en`, `vi`); mặc định tiếng Anh — `/` luôn redirect sang `/en` (`src/proxy.ts`)
 
 ## Cấu trúc
 
