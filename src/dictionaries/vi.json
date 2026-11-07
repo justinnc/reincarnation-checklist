@@ -1,40 +1,94 @@
 {
   "site": {
     "name": "The Reincarnation Checklist",
-    "tagline": "Chuyển sinh về quá khứ với toàn bộ ký ức — đây là danh sách những gì cần làm để giàu.",
-    "disclaimer": "Nội dung mang tính giải trí/giáo dục, không phải lời khuyên đầu tư. Lợi nhuận ước tính là xấp xỉ."
+    "tagline": "Trọng sinh về quá khứ với toàn bộ ký ức. Đây là những gì bạn nên làm.",
+    "disclaimer": "Nội dung mang tính giải trí và giáo dục, không phải lời khuyên đầu tư. Lợi nhuận là số liệu lịch sử, mang tính xấp xỉ."
   },
-  "nav": {
-    "quiz": "Mini game"
-  },
+  "nav": { "timeline": "Dòng thời gian", "quiz": "Đố vui", "checklist": "Checklist của tôi" },
   "home": {
-    "heading": "Nếu được sống lại, bạn sẽ làm gì?",
-    "intro": "Tổng hợp các mốc lịch sử theo từng quốc gia mà người “chuyển sinh” có thể tận dụng để kiếm tiền — mua gì, khi nào mua, khi nào bán.",
-    "chooseCountry": "Chọn quốc gia",
-    "milestones": "mốc lịch sử"
+    "kicker": "Trọng sinh · Reborn",
+    "wakeUp": "Bạn tỉnh dậy vào năm",
+    "heading": "Bạn nhớ hết mọi chuyện sắp xảy ra.",
+    "intro": "Danh sách có nguồn kiểm chứng về những thời điểm mà người trọng sinh có thể biến thành gia tài — mua gì, mua khi nào, bán khi nào, và điều gì có thể sai.",
+    "ahead": "cơ hội vẫn đang chờ bạn phía trước",
+    "topAhead": "Những nước đi tốt nhất từ năm này",
+    "seeAll": "Xem toàn bộ dòng thời gian",
+    "biggest": "Những thương vụ lời nhất",
+    "biggestNote": "Xếp hạng theo số lần tăng giá đã kiểm chứng.",
+    "countries": "Chọn quốc gia",
+    "milestones": "mốc",
+    "verified": "đã kiểm chứng",
+    "how": "Cách dùng checklist",
+    "steps": [
+      "Chọn năm bạn trọng sinh.",
+      "Mở một mốc: đọc cách kiếm tiền, mẹo “người tương lai” và các cái bẫy.",
+      "Tích chọn để thêm vào checklist của riêng bạn.",
+      "Chơi đố vui để chứng minh bạn sống sót được ở quá khứ."
+    ],
+    "playQuiz": "Chơi đố vui"
   },
   "timeline": {
-    "search": "Tìm kiếm...",
+    "search": "Tìm sự kiện, tài sản…",
     "all": "Tất cả",
-    "empty": "Không có mốc nào phù hợp.",
-    "opportunity": "Cơ hội",
+    "sort": "Sắp xếp",
+    "sortDate": "Theo thời gian",
+    "sortReturn": "Lời nhiều nhất",
+    "risk": "Rủi ro",
+    "empty": "Không có mốc phù hợp. Hãy bỏ bớt bộ lọc.",
+    "clear": "Xoá bộ lọc",
+    "progress": "trong checklist của bạn",
+    "range": "Giai đoạn",
+    "best": "Tăng mạnh nhất",
+    "count": "Số mốc",
+    "opportunity": "Cách kiếm tiền",
+    "asset": "Tài sản",
     "buyWhen": "Thời điểm vào",
     "sellWhen": "Thời điểm ra",
     "estimatedReturn": "Lợi nhuận ước tính",
+    "whatIf": "bỏ vào khi đó",
+    "becomes": "thành",
     "sources": "Nguồn",
     "unverified": "Chưa kiểm chứng",
+    "verified": "Đã kiểm chứng",
+    "readMore": "Chi tiết",
+    "add": "Thêm vào checklist",
+    "added": "Đã thêm",
+    "levels": { "low": "Thấp", "medium": "Vừa", "high": "Cao" },
+    "capital": "Vốn cần",
     "categories": {
-      "stocks": "Chứng khoán",
-      "crypto": "Crypto",
-      "real-estate": "Bất động sản",
-      "technology": "Công nghệ",
-      "business": "Kinh doanh",
-      "macro": "Vĩ mô",
-      "commodities": "Hàng hoá"
+      "stocks": "Chứng khoán", "crypto": "Crypto", "real-estate": "Bất động sản", "technology": "Công nghệ",
+      "business": "Kinh doanh", "macro": "Vĩ mô", "commodities": "Hàng hoá"
     }
   },
+  "detail": {
+    "back": "Quay lại dòng thời gian",
+    "story": "Chuyện gì đã xảy ra",
+    "insider": "Điều chỉ bạn biết",
+    "pitfalls": "Cái bẫy cần tránh",
+    "numbers": "Các con số",
+    "entry": "Giá vào",
+    "exit": "Giá ra",
+    "multiple": "Số lần tăng",
+    "test": "Thử trí nhớ",
+    "prev": "Trước đó",
+    "next": "Sau đó",
+    "note": "Ghi chú kiểm chứng"
+  },
   "quiz": {
-    "heading": "Mini game: Bạn có sẵn sàng chuyển sinh?",
-    "comingSoon": "Sắp ra mắt — trả lời câu hỏi trắc nghiệm để kiểm tra kiến thức lịch sử kiếm tiền của bạn."
+    "heading": "Bạn có sống sót được ở quá khứ?",
+    "intro": "Câu hỏi được lấy từ các mốc lịch sử. Trả lời đúng hết là bạn đã sẵn sàng trọng sinh.",
+    "choose": "Chọn dòng thời gian",
+    "allCountries": "Tất cả quốc gia",
+    "start": "Bắt đầu",
+    "question": "Câu",
+    "of": "/",
+    "correct": "Chính xác!",
+    "wrong": "Chưa đúng.",
+    "next": "Câu tiếp theo",
+    "finish": "Xem kết quả",
+    "score": "Điểm của bạn",
+    "again": "Chơi lại",
+    "learn": "Đọc mốc này",
+    "ranks": ["Lạc lối thời gian", "Khách du lịch may mắn", "Người trọng sinh lão luyện", "Nhà tiên tri thị trường"]
   }
 }

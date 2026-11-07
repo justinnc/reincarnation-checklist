@@ -1,112 +1,143 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo, useState, type ReactNode } from "react";
 import { t, type Locale } from "@/lib/i18n";
-import { categories, type Category, type Milestone } from "@/lib/types";
+import { categories, type Category, type Level, type Milestone } from "@/lib/types";
 import type { Dictionary } from "@/lib/dictionaries";
 
 type Props = {
   milestones: Milestone[];
   lang: Locale;
   dict: Dictionary["timeline"];
+  /** Pre-rendered server cards keyed by id */
+  cards: Record<string, ReactNode>;
 };
 
-export default function Timeline({ milestones, lang, dict }: Props) {
+const decadeOf = (m: Milestone) => Math.floor(Number(m.date.slice(0, 4)) / 10) * 10;
+
+function Chip({ active, onClick, children }: { active: boolean; onClick: () => void; children: ReactNode }) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      aria-pressed={active}
+      className={`whitespace-nowrap rounded-full px-3 py-1.5 text-sm transition-colors ${
+        active ? "bg-gold font-medium text-on-gold" : "bg-raised text-muted hover:text-ink"
+      }`}
+    >
+      {children}
+    </button>
+  );
+}
+
+export default function Timeline({ milestones, lang, dict, cards }: Props) {
   const [category, setCategory] = useState<Category | "all">("all");
+  const [risk, setRisk] = useState<Level | "all">("all");
+  const [sort, setSort] = useState<"date" | "return">("date");
   const [query, setQuery] = useState("");
 
   const visible = useMemo(() => {
     const q = query.trim().toLowerCase();
-    return milestones.filter((m) => {
+    const list = milestones.filter((m) => {
       if (category !== "all" && m.category !== category) return false;
+      if (risk !== "all" && m.opportunity.risk !== risk) return false;
       if (!q) return true;
-      return [t(m.title, lang), t(m.description, lang), t(m.opportunity.action, lang), m.date]
+      return [t(m.title, lang), t(m.summary, lang), t(m.description, lang), m.opportunity.asset ?? "", m.date]
         .join(" ")
         .toLowerCase()
         .includes(q);
     });
-  }, [milestones, category, query, lang]);
+    if (sort === "return")
+      return [...list].sort((a, b) => (b.opportunity.returnMultiple ?? 0) - (a.opportunity.returnMultiple ?? 0));
+    return list;
+  }, [milestones, category, risk, sort, query, lang]);
 
-  const used = categories.filter((c) => milestones.some((m) => m.category === c));
+  const usedCats = categories.filter((c) => milestones.some((m) => m.category === c));
+  const decades = [...new Set(visible.map(decadeOf))];
+
+
+  const groups: { key: string; label: string | null; items: Milestone[] }[] =
+    sort === "date"
+      ? decades.map((d) => ({ key: String(d), label: `${d}s`, items: visible.filter((m) => decadeOf(m) === d) }))
+      : [{ key: "all", label: null, items: visible }];
 
   return (
-    <div className="space-y-6">
-      <div className="flex flex-wrap items-center gap-2">
-        <input
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-          placeholder={dict.search}
-          className="mr-2 w-full rounded-lg border border-white/15 bg-white/5 px-3 py-2 text-sm outline-none focus:border-amber-400 sm:w-64"
-        />
-        {(["all", ...used] as const).map((c) => (
-          <button
-            key={c}
-            onClick={() => setCategory(c)}
-            className={`rounded-full px-3 py-1 text-sm ${
-              category === c ? "bg-amber-400 text-black" : "bg-white/5 opacity-70 hover:opacity-100"
-            }`}
-          >
-            {c === "all" ? dict.all : dict.categories[c]}
-          </button>
-        ))}
+    <div className="space-y-8">
+      <div className="z-10 -mx-4 space-y-3 md:sticky md:top-0 border-b border-line bg-bg/95 px-4 py-4 backdrop-blur">
+        <div className="flex flex-wrap items-center gap-3">
+          <label className="relative w-full sm:w-72">
+            <span className="sr-only">{dict.search}</span>
+            <input
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              placeholder={dict.search}
+              className="w-full rounded-full border border-line bg-surface px-4 py-2 text-sm text-ink placeholder:text-faint focus:border-gold focus:outline-none"
+            />
+          </label>
+          <div className="flex items-center gap-2 text-sm">
+            <span className="text-faint">{dict.sort}</span>
+            <Chip active={sort === "date"} onClick={() => setSort("date")}>{dict.sortDate}</Chip>
+            <Chip active={sort === "return"} onClick={() => setSort("return")}>{dict.sortReturn}</Chip>
+          </div>
+        </div>
+        <div className="flex gap-2 overflow-x-auto pb-1">
+          <Chip active={category === "all"} onClick={() => setCategory("all")}>{dict.all}</Chip>
+          {usedCats.map((c) => (
+            <Chip key={c} active={category === c} onClick={() => setCategory(c)}>
+              {dict.categories[c]}
+            </Chip>
+          ))}
+          <span className="mx-1 w-px shrink-0 bg-line" />
+          {(["low", "medium", "high"] as const).map((r) => (
+            <Chip key={r} active={risk === r} onClick={() => setRisk(risk === r ? "all" : r)}>
+              {dict.risk}: {dict.levels[r]}
+            </Chip>
+          ))}
+        </div>
+        {sort === "date" && decades.length > 1 && (
+          <nav className="flex gap-4 font-mono text-sm tabular">
+            {decades.map((d) => (
+              <a key={d} href={`#d${d}`} className="text-faint hover:text-gold">
+                {d}s
+              </a>
+            ))}
+          </nav>
+        )}
       </div>
 
-      {visible.length === 0 && <p className="opacity-60">{dict.empty}</p>}
+      {visible.length === 0 && (
+        <div className="rounded-2xl border border-dashed border-line p-10 text-center text-muted">
+          <p>{dict.empty}</p>
+          <button
+            type="button"
+            onClick={() => {
+              setCategory("all");
+              setRisk("all");
+              setQuery("");
+            }}
+            className="mt-4 rounded-full bg-gold px-4 py-2 text-sm font-medium text-on-gold"
+          >
+            {dict.clear}
+          </button>
+        </div>
+      )}
 
-      <ol className="relative space-y-6 border-l border-white/15 pl-6">
-        {visible.map((m) => (
-          <li key={m.id} className="relative">
-            <span className="absolute -left-[31px] top-2 h-3 w-3 rounded-full bg-amber-400" />
-            <article className="rounded-xl border border-white/10 bg-white/5 p-5">
-              <div className="flex flex-wrap items-center gap-2 text-xs">
-                <time className="font-mono text-amber-300">{m.date}</time>
-                <span className="rounded bg-white/10 px-2 py-0.5">{dict.categories[m.category]}</span>
-                {!m.verified && (
-                  <span className="rounded bg-red-500/20 px-2 py-0.5 text-red-300">{dict.unverified}</span>
-                )}
+      {groups.map((g) => (
+        <section key={g.key} id={`d${g.key}`} className="scroll-mt-48 md:grid md:grid-cols-[160px_1fr] md:gap-8">
+          {g.label && (
+            <div className="mb-4 md:mb-0">
+              <div className="font-display text-5xl font-extrabold tracking-tight text-gold md:sticky md:top-56 md:text-6xl">
+                {g.label}
               </div>
-              <h3 className="mt-2 text-lg font-semibold">{t(m.title, lang)}</h3>
-              <p className="mt-1 text-sm opacity-80">{t(m.description, lang)}</p>
-
-              <dl className="mt-4 grid gap-2 rounded-lg bg-emerald-500/10 p-4 text-sm sm:grid-cols-2">
-                <div className="sm:col-span-2">
-                  <dt className="text-xs uppercase opacity-60">💰 {dict.opportunity}</dt>
-                  <dd>{t(m.opportunity.action, lang)}</dd>
-                </div>
-                <div>
-                  <dt className="text-xs uppercase opacity-60">{dict.buyWhen}</dt>
-                  <dd>{t(m.opportunity.buyWhen, lang)}</dd>
-                </div>
-                {m.opportunity.sellWhen && (
-                  <div>
-                    <dt className="text-xs uppercase opacity-60">{dict.sellWhen}</dt>
-                    <dd>{t(m.opportunity.sellWhen, lang)}</dd>
-                  </div>
-                )}
-                <div className="sm:col-span-2">
-                  <dt className="text-xs uppercase opacity-60">{dict.estimatedReturn}</dt>
-                  <dd className="font-semibold text-emerald-300">{t(m.opportunity.estimatedReturn, lang)}</dd>
-                </div>
-              </dl>
-
-              {m.sources.length > 0 && (
-                <div className="mt-3 text-xs opacity-70">
-                  {dict.sources}:{" "}
-                  {m.sources.map((s, i) => (
-                    <span key={s.url}>
-                      {i > 0 && " · "}
-                      <a href={s.url} target="_blank" rel="noreferrer" className="underline hover:text-amber-300">
-                        {s.title}
-                      </a>
-                    </span>
-                  ))}
-                </div>
-              )}
-            </article>
-          </li>
-        ))}
-      </ol>
+            </div>
+          )}
+          <div className={`space-y-4 ${g.label ? "" : "md:col-span-2"}`}>
+            {g.items.map((m) => (
+              <div key={m.id}>{cards[m.id]}</div>
+            ))}
+          </div>
+        </section>
+      ))}
     </div>
   );
 }
-

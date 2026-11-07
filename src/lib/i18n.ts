@@ -8,7 +8,9 @@ export const hasLocale = (value: string): value is Locale =>
 /** Text that can be translated. Missing languages fall back to English, then Vietnamese. */
 export type LocalizedText = Partial<Record<Locale, string>> & { en: string };
 
-export function t(text: LocalizedText, locale: Locale): string {
+export function t(text: LocalizedText | undefined, locale: Locale): string {
+  if (!text) return "";
   return text[locale] ?? text.en ?? text.vi ?? "";
 }
 
+export const intlLocale = (l: Locale) => (l === "vi" ? "vi-VN" : "en-US");

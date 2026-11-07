@@ -1,19 +1,46 @@
 @import "tailwindcss";
 
-:root {
-  --background: #0b0b10;
-  --foreground: #ededed;
+@theme {
+  --color-bg: #0a0b0f;
+  --color-surface: #111319;
+  --color-raised: #181b23;
+  --color-line: #252a35;
+  --color-line-strong: #343b4a;
+  --color-ink: #eceef3;
+  --color-muted: #9aa3b5;
+  --color-faint: #7a8396;
+  --color-gold: #f4b740;
+  --color-on-gold: #1a1300;
+  --color-gain: #3dd68c;
+  --color-on-gain: #04170d;
+  --color-danger: #f26d6d;
+  --color-warning: #e9a23b;
+  --color-ring: #8ab4ff;
+  --font-sans: var(--nf-text), system-ui, sans-serif;
+  --font-display: var(--nf-display), var(--nf-text), sans-serif;
+  --font-mono: var(--nf-mono), ui-monospace, monospace;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-main);
+html {
+  background: var(--color-bg);
+  color: var(--color-ink);
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: var(--font-main), system-ui, sans-serif;
+  font-family: var(--font-sans);
 }
 
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-ring);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { transition: none !important; animation: none !important; }
+}

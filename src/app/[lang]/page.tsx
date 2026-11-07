@@ -2,41 +2,127 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { hasLocale, t } from "@/lib/i18n";
 import { getDictionary } from "@/lib/dictionaries";
-import { countries, countMilestones } from "@/lib/data";
+import { allMilestones, countries, countryStats, getCountry, yearOf } from "@/lib/data";
+import { formatMoney, formatMultiple } from "@/lib/format";
+import RebirthPicker from "@/components/RebirthPicker";
+import ChecklistProgress from "@/components/ChecklistProgress";
 
 export default async function Home({ params }: PageProps<"/[lang]">) {
   const { lang } = await params;
   if (!hasLocale(lang)) notFound();
   const dict = await getDictionary(lang);
+  const years = allMilestones.map(yearOf);
+  const biggest = allMilestones
+    .filter((m) => m.opportunity.returnMultiple && m.verified)
+    .sort((a, b) => b.opportunity.returnMultiple! - a.opportunity.returnMultiple!)
+    .slice(0, 8);
 
   return (
-    <div className="space-y-10">
-      <section className="space-y-3">
-        <h1 className="text-4xl font-bold tracking-tight">{dict.home.heading}</h1>
-        <p className="max-w-2xl text-lg opacity-75">{dict.home.intro}</p>
+    <div className="space-y-20">
+      <section className="space-y-8">
+        <div className="max-w-3xl space-y-4">
+          <div className="font-mono text-sm uppercase tracking-widest text-gold">{dict.home.kicker}</div>
+          <h1 className="font-display text-5xl font-extrabold leading-[0.95] tracking-tight sm:text-7xl">{dict.home.heading}</h1>
+          <p className="text-lg leading-relaxed text-muted">{dict.home.intro}</p>
+        </div>
+        <RebirthPicker
+          milestones={allMilestones}
+          countries={countries}
+          lang={lang}
+          dict={dict.home}
+          minYear={Math.min(...years)}
+          maxYear={Math.max(...years)}
+        />
       </section>
 
+      {biggest.length > 0 && (
+        <section>
+          <div className="flex items-end justify-between gap-4">
+            <h2 className="font-display text-3xl font-bold sm:text-4xl">{dict.home.biggest}</h2>
+            <p className="hidden text-sm text-faint sm:block">{dict.home.biggestNote}</p>
+          </div>
+          <div className="mt-6 overflow-hidden rounded-2xl border border-line">
+            <table className="w-full text-left text-sm">
+              <tbody>
+                {biggest.map((m, i) => {
+                  const c = getCountry(m.country)!;
+                  return (
+                    <tr key={m.id} className="border-b border-line bg-surface last:border-0 hover:bg-raised">
+                      <td className="w-12 py-4 pl-5 font-display text-xl font-extrabold text-faint">{i + 1}</td>
+                      <td className="py-4 font-mono tabular text-gold">{m.date.slice(0, 4)}</td>
+                      <td className="py-4 pr-4">
+                        <Link href={`/${lang}/${m.country}/${m.id}`} className="font-medium hover:text-gold">
+                          {c.flag} {t(m.title, lang)}
+                        </Link>
+                        <div className="text-xs text-faint">{m.opportunity.asset}</div>
+                      </td>
+                      <td className="hidden py-4 pr-4 text-right font-mono text-xs tabular text-muted md:table-cell">
+                        {formatMoney(c.stake.amount, c.stake.currency, lang)} →{" "}
+                        <span className="text-gain">{formatMoney(c.stake.amount * m.opportunity.returnMultiple!, c.stake.currency, lang)}</span>
+                      </td>
+                      <td className="py-4 pr-5 text-right">
+                        <span className="rounded-md bg-gain px-2 py-0.5 font-mono font-semibold tabular text-on-gain">
+                          {formatMultiple(m.opportunity.returnMultiple!, lang)}
+                        </span>
+                      </td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+        </section>
+      )}
+
       <section>
-        <h2 className="mb-4 text-sm font-semibold uppercase tracking-wider opacity-60">
-          {dict.home.chooseCountry}
-        </h2>
-        <div className="grid gap-4 sm:grid-cols-2">
-          {countries.map((c) => (
-            <Link
-              key={c.code}
-              href={`/${lang}/${c.code}`}
-              className="rounded-xl border border-white/10 bg-white/5 p-6 transition hover:border-amber-400/60 hover:bg-white/10"
-            >
-              <div className="text-4xl">{c.flag}</div>
-              <div className="mt-3 text-xl font-semibold">{t(c.name, lang)}</div>
-              <div className="text-sm opacity-60">
-                {countMilestones(c.code)} {dict.home.milestones}
-              </div>
-            </Link>
-          ))}
+        <h2 className="font-display text-3xl font-bold sm:text-4xl">{dict.home.countries}</h2>
+        <div className="mt-6 grid gap-4 md:grid-cols-2">
+          {countries.map((c) => {
+            const s = countryStats(c.code);
+            return (
+              <Link
+                key={c.code}
+                href={`/${lang}/${c.code}`}
+                className="group rounded-2xl border border-line bg-surface p-6 transition-colors hover:border-gold"
+              >
+                <div className="flex items-start justify-between">
+                  <span className="text-5xl">{c.flag}</span>
+                  <span className="font-mono text-sm tabular text-gold">
+                    {s.from}–{s.to}
+                  </span>
+                </div>
+                <div className="mt-6 font-display text-3xl font-bold group-hover:text-gold">{t(c.name, lang)}</div>
+                <div className="mt-1 text-sm text-muted">
+                  <span className="font-mono tabular text-ink">{s.count}</span> {dict.home.milestones} ·{" "}
+                  <span className="font-mono tabular text-ink">{s.verified}</span> {dict.home.verified}
+                </div>
+                <div className="mt-5">
+                  <ChecklistProgress ids={allMilestones.filter((m) => m.country === c.code).map((m) => m.id)} label={dict.timeline.progress} />
+                </div>
+              </Link>
+            );
+          })}
         </div>
+      </section>
+
+      <section className="grid gap-10 rounded-3xl border border-line bg-surface p-8 md:grid-cols-[1fr_1.4fr] md:p-12">
+        <div>
+          <h2 className="font-display text-3xl font-bold">{dict.home.how}</h2>
+          <Link href={`/${lang}/quiz`} className="mt-6 inline-block rounded-full bg-gold px-5 py-2.5 font-semibold text-on-gold hover:brightness-110">
+            {dict.home.playQuiz} →
+          </Link>
+        </div>
+        <ol className="space-y-4">
+          {dict.home.steps.map((s, i) => (
+            <li key={i} className="flex gap-4">
+              <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-md border border-gold font-mono text-xs text-gold">
+                {i + 1}
+              </span>
+              <span className="text-lg">{s}</span>
+            </li>
+          ))}
+        </ol>
       </section>
     </div>
   );
 }
-

@@ -10,6 +10,7 @@ export const categories = [
   "commodities",
 ] as const;
 export type Category = (typeof categories)[number];
+export type Level = "low" | "medium" | "high";
 
 export interface Source {
   title: string;
@@ -17,36 +18,49 @@ export interface Source {
 }
 
 export interface Opportunity {
-  /** What to do: buy what, invest in what, start which business */
+  asset?: string;
   action: LocalizedText;
-  /** When to enter */
   buyWhen: LocalizedText;
-  /** When to exit (optional) */
   sellWhen?: LocalizedText;
-  /** Human-readable estimated return, e.g. ">1,000x" */
   estimatedReturn: LocalizedText;
-  /** Rough return multiple used for sorting (e.g. 1000 = 1,000x). Optional. */
   returnMultiple?: number;
+  entryPrice?: number;
+  exitPrice?: number;
+  priceCurrency?: string;
+  exitDate?: string;
+  risk?: Level;
+  capital?: Level;
+}
+
+export interface Quiz {
+  question: LocalizedText;
+  choices: LocalizedText[];
+  answer: number;
+  explanation?: LocalizedText;
 }
 
 export interface Milestone {
   id: string;
-  country: string; // ISO 3166-1 alpha-2, lowercase: "us", "vn"
-  /** ISO date: YYYY, YYYY-MM or YYYY-MM-DD */
+  country: string;
+  /** YYYY, YYYY-MM or YYYY-MM-DD */
   date: string;
   category: Category;
   title: LocalizedText;
+  summary?: LocalizedText;
   description: LocalizedText;
   opportunity: Opportunity;
+  insiderTip?: LocalizedText;
+  pitfalls?: LocalizedText;
+  quiz?: Quiz;
   sources: Source[];
-  /** false = draft data, needs fact-checking */
   verified: boolean;
-  tags?: string[];
+  verifiedNote?: string;
 }
 
 export interface Country {
   code: string;
   name: LocalizedText;
   flag: string;
+  /** Hypothetical stake for the "what if" calculator */
+  stake: { amount: number; currency: string };
 }
-

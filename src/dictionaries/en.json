@@ -1,40 +1,94 @@
 {
   "site": {
     "name": "The Reincarnation Checklist",
-    "tagline": "Reborn in the past with all your memories — here is the checklist to get rich.",
-    "disclaimer": "For entertainment/educational purposes only, not investment advice. Estimated returns are approximate."
+    "tagline": "Reborn in the past with every memory intact. Here is what to do with it.",
+    "disclaimer": "For entertainment and education only. Not investment advice. Past returns are historical and approximate."
   },
-  "nav": {
-    "quiz": "Mini game"
-  },
+  "nav": { "timeline": "Timelines", "quiz": "Quiz", "checklist": "My checklist" },
   "home": {
-    "heading": "If you were reborn, what would you do?",
-    "intro": "Historical milestones by country that a time-traveller could exploit to make money — what to buy, when to buy, when to sell.",
-    "chooseCountry": "Choose a country",
-    "milestones": "milestones"
+    "kicker": "Trọng sinh · Reborn",
+    "wakeUp": "You wake up in",
+    "heading": "You remember everything that happens next.",
+    "intro": "A curated, sourced list of the moments a time traveller could turn into a fortune — what to buy, when to buy, when to sell, and what would go wrong.",
+    "ahead": "opportunities still ahead of you",
+    "topAhead": "Your best plays from here",
+    "seeAll": "See the full timeline",
+    "biggest": "Biggest wins on record",
+    "biggestNote": "Ranked by verified price multiple.",
+    "countries": "Choose your country",
+    "milestones": "milestones",
+    "verified": "verified",
+    "how": "How to use the checklist",
+    "steps": [
+      "Pick the year you are reborn in.",
+      "Open a milestone: read the play, the insider tip and the traps.",
+      "Tick it to add it to your personal checklist.",
+      "Prove you would survive the past in the quiz."
+    ],
+    "playQuiz": "Play the quiz"
   },
   "timeline": {
-    "search": "Search...",
+    "search": "Search events, assets…",
     "all": "All",
-    "empty": "No matching milestones.",
-    "opportunity": "Opportunity",
+    "sort": "Sort",
+    "sortDate": "Chronological",
+    "sortReturn": "Biggest return",
+    "risk": "Risk",
+    "empty": "Nothing matches. Clear a filter.",
+    "clear": "Clear filters",
+    "progress": "on your checklist",
+    "range": "Covers",
+    "best": "Best multiple",
+    "count": "Milestones",
+    "opportunity": "The play",
+    "asset": "Asset",
     "buyWhen": "Enter",
     "sellWhen": "Exit",
     "estimatedReturn": "Estimated return",
+    "whatIf": "invested then",
+    "becomes": "becomes",
     "sources": "Sources",
     "unverified": "Unverified",
+    "verified": "Verified",
+    "readMore": "Details",
+    "add": "Add to checklist",
+    "added": "On checklist",
+    "levels": { "low": "Low", "medium": "Medium", "high": "High" },
+    "capital": "Capital needed",
     "categories": {
-      "stocks": "Stocks",
-      "crypto": "Crypto",
-      "real-estate": "Real estate",
-      "technology": "Technology",
-      "business": "Business",
-      "macro": "Macro",
-      "commodities": "Commodities"
+      "stocks": "Stocks", "crypto": "Crypto", "real-estate": "Real estate", "technology": "Technology",
+      "business": "Business", "macro": "Macro", "commodities": "Commodities"
     }
   },
+  "detail": {
+    "back": "Back to timeline",
+    "story": "What happened",
+    "insider": "What only you know",
+    "pitfalls": "Traps to avoid",
+    "numbers": "The numbers",
+    "entry": "Entry price",
+    "exit": "Exit price",
+    "multiple": "Multiple",
+    "test": "Test yourself",
+    "prev": "Earlier",
+    "next": "Later",
+    "note": "Fact-check note"
+  },
   "quiz": {
-    "heading": "Mini game: Are you ready to be reborn?",
-    "comingSoon": "Coming soon — answer multiple-choice questions to test your money-making history knowledge."
+    "heading": "Would you survive the past?",
+    "intro": "Questions are drawn from the milestones. Get them right and you are ready to be reborn.",
+    "choose": "Pick a timeline",
+    "allCountries": "All countries",
+    "start": "Start",
+    "question": "Question",
+    "of": "of",
+    "correct": "Correct!",
+    "wrong": "Not quite.",
+    "next": "Next question",
+    "finish": "See result",
+    "score": "Your score",
+    "again": "Play again",
+    "learn": "Read the milestone",
+    "ranks": ["Lost in time", "Lucky tourist", "Seasoned time traveller", "Prophet of the markets"]
   }
 }
