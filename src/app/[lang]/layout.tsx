@@ -36,13 +36,13 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[la
               <span className="flex h-7 w-7 items-center justify-center rounded-md bg-gold text-on-gold">✓</span>
               <span className="hidden sm:inline">{dict.site.name}</span>
             </Link>
-            <div className="flex items-center gap-4 text-sm text-muted sm:gap-5">
-              <Link href={`/${lang}#countries`} className="hover:text-ink">{dict.nav.timeline}</Link>
-              <Link href={`/${lang}/almanac`} className="hover:text-ink">{dict.nav.almanac}</Link>
-              <Link href={`/${lang}/simulator`} className="hover:text-ink">{dict.nav.simulator}</Link>
-              <Link href={`/${lang}/quiz`} className="hover:text-ink">{dict.nav.quiz}</Link>
+            <div className="no-scrollbar flex min-w-0 flex-1 items-center gap-4 overflow-x-auto whitespace-nowrap text-sm text-muted sm:gap-5">
+              <Link href={`/${lang}#countries`} className="shrink-0 hover:text-ink">{dict.nav.timeline}</Link>
+              <Link href={`/${lang}/almanac`} className="shrink-0 hover:text-ink">{dict.nav.almanac}</Link>
+              <Link href={`/${lang}/simulator`} className="shrink-0 hover:text-ink">{dict.nav.simulator}</Link>
+              <Link href={`/${lang}/quiz`} className="shrink-0 hover:text-ink">{dict.nav.quiz}</Link>
             </div>
-            <div className="ml-auto">
+            <div className="shrink-0">
               <LangSwitch lang={lang} />
             </div>
           </nav>
