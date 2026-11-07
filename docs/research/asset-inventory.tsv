@@ -1,0 +1,253 @@
+id	date	asset	entryPrice	exitPrice	currency	exitDate	returnMultiple	verified
+br-plano-cruzado-1986	1986-02-28	Durable goods / real estate / USD cash (hedge), avoid cruzado time deposits						True
+br-collor-plan-confisco-1990	1990-03-16	Physical assets / foreign currency outside the banking system, avoid BRL bank deposits						True
+br-plano-real-1994	1994-07-01	Ibovespa index / Brazilian blue-chip stocks (Telebras, banks)						True
+br-vale-privatizacao-1997	1997-05-06	Vale (VALE3/RIO on NYSE)			USD			True
+br-telebras-privatizacao-1998	1998-07-29	Baby Telebras shares (Embratel, Telesp, Tele Centro Sul, etc.)						True
+br-crise-cambial-1999	1999-01-15	USD cash / Brazilian exporters (Ibovespa), short BRL	1.21	2.16	BRL	1999-03	1.79	True
+br-weg-compounder-longo-han	2000	WEG S.A. (WEGE3)	0.1	24.27	BRL	2020	242.7	True
+br-lula-2002-pavor-thi-truong	2002-10-27	Ibovespa index	8863.18	65790.81	points	2007-12	7.42	True
+br-ibovespa-tang-truong-2003-2008	2002-12	Ibovespa index	11268.47	73516.81	points	2008-05-20	6.52	True
+br-sieu-chu-ky-hang-hoa-2003-2011	2003	Vale (iron ore), agribusiness/soy exporters, Brazilian real	30	180	USD	2011	6	True
+br-ambev-interbrew-inbev-2004	2004-08-27	AmBev (ABEV3) / InBev / AB InBev shares						True
+br-petrobras-pre-sal-2007	2007-11-08	Petrobras (PETR3/PETR4/PBR)						True
+br-itau-unibanco-sap-nhap-2008	2008-11-03	Itaú Unibanco Holding (ITUB4)						True
+br-bat-dong-san-rio-world-cup-olympics	2009	Rio de Janeiro residential property (Zona Sul: Copacabana, Ipanema, Leblon)						True
+br-petrobras-phat-hanh-khong-lo-2010	2010-09-23	Petrobras (PETR3/PETR4) — short or avoid	29.65		BRL			True
+br-lava-jato-petrobras-sup-do-2014	2014-10-27	Petrobras (PETR3/PETR4/PBR) — short or avoid						True
+br-magazine-luiza-tang-vot-sup-do	2015-12	Magazine Luiza (MGLU3)	0.03	27.42	BRL	2020-11	914	True
+br-luan-toi-dilma-phuc-hoi-2016	2016-01-26	Ibovespa index / Brazilian real						True
+br-bolsonaro-bau-cu-2018-ky-luc	2018-10-28	Ibovespa index		88419	points	2018-11-01		True
+br-pix-ra-mat-2020	2020-11-16	Fintech stocks (Nubank, StoneCo, PagSeguro) / digital banks						True
+br-etf-crypto-hash11-2021	2021-04-26	HASH11 / QBTC11 (B3-listed crypto ETFs)						True
+br-nubank-ipo-2021	2021-12-09	Nu Holdings (NU)	9	10.33	USD	2021-12-09	1.148	True
+ca-couche-tard-long-term-compounder	1986-08-22	Alimentation Couche-Tard Inc. (TSX: ATD)			CAD			True
+ca-tsx-black-monday-1987	1987-10-19	Chỉ số Toronto Stock Exchange (TSE 300)						True
+ca-bre-x-gold-fraud-1997	1997-05	Bre-X Minerals Ltd. (TSX: BXM)		286.5	CAD	1996-05		True
+ca-toronto-housing-boom-2000-2022	2000	Nhà ở trung bình khu vực Greater Toronto Area (GTA)	243255	1334544	CAD	2022-02	5.49	True
+ca-nortel-dot-com-bubble-2000	2000-07-26	Nortel Networks Corp. (TSX/NYSE: NT)		124.5	CAD	2000-07-26		True
+ca-oil-sands-boom-2000s	2003	Suncor Energy / Canadian Natural Resources / WTI Crude		147.27	USD	2008-07-03		True
+ca-air-canada-bankruptcy-2003	2003-04-01	Air Canada (TSX: AC)		2.1	CAD	2003-04-01		True
+ca-constellation-software-ipo-2006	2006-05	Constellation Software Inc. (TSX: CSU)	17		CAD	2006-05		True
+ca-lululemon-ipo-2007	2007-07-27	Lululemon Athletica Inc. (Nasdaq: LULU)	18	28.12	USD	2007-07-27	1.56	True
+ca-dollar-parity-2007	2007-09-20	Đô la Canada (CAD/USD)	0.6179	1.0003	USD	2007-09-20	1.62	True
+ca-rim-blackberry-peak-2008	2008-06-19	Research In Motion / BlackBerry (NYSE/TSX: RIM/BB)		147.55	USD	2008-06-19		True
+ca-tsx-financial-crisis-low-2009	2009-03-09	Chỉ số S&P/TSX Composite	7566.94		points	2015-03		True
+ca-potash-bhp-bid-blocked-2010	2010-08-17	Potash Corp of Saskatchewan (TSX/NYSE: POT)			USD			True
+ca-bitcoin-atm-vancouver-2013	2013-10-29	Bitcoin (BTC)	200		USD	2013-10-29		True
+ca-oil-price-crash-2014-2016	2014-06	Cổ phiếu năng lượng Canada / WTI Crude	105.79	26.19	USD	2016-02-11	0.25	True
+ca-shopify-ipo-2015	2015-05-21	Shopify Inc. (NYSE/TSX: SHOP)	17		USD	2015-05-21		True
+ca-valeant-pharmaceuticals-collapse-2015	2015-08	Valeant Pharmaceuticals International Inc. (NYSE/TSX: VRX)		262.5	USD	2015-08		True
+ca-loonie-oil-crash-2016	2016-01-19	Đô la Canada (CAD/USD)	0.6869	0.7837	USD	2016-04	1.14	True
+ca-vancouver-foreign-buyer-tax-2016	2016-08-02	Bất động sản dân cư khu vực Metro Vancouver						True
+ca-cannabis-legalization-bubble-2018	2018-10-17	Canopy Growth Corp. (TSX: WEED)	627.5	737.5	CAD	2018-10-15	1.18	True
+ca-tsx-covid-crash-2020	2020-03-23	Chỉ số S&P/TSX Composite	11228.49		points	2020-08		True
+ca-shopify-pandemic-peak-2021	2021-11-19	Shopify Inc. (NYSE/TSX: SHOP)		169.06	USD	2021-11-19		True
+cn-reform-opening-1978	1978-12-18	Any pre-1978 Chinese land-use rights / early joint-venture equity						True
+cn-shenzhen-sez-1980	1980-08-26	Shenzhen land-use rights / early factory & housing property						True
+cn-shanghai-stock-exchange-1990	1990-12-19	SSE Composite Index	100	6124.04	points	2007-10-16	61.24	True
+cn-shenzhen-stock-exchange-1991	1991-07-03	SZSE Component Index						True
+cn-moutai-ipo-2001	2001-08-27	Kweichow Moutai (600519.SH)	31.39	1453.0	CNY	2026-11-06	46.3	True
+cn-wto-accession-2001	2001-12-11	Chinese export manufacturers / Shanghai & Hong Kong-listed industrials, shipping, ports						True
+cn-commodity-supercycle-2003	2003	Iron ore, copper, and mining equities (e.g. BHP, Rio Tinto, Vale, Jiangxi Copper)						False
+cn-tencent-ipo-2004	2004-06-16	Tencent Holdings (0700.HK)	3.7	159.6	HKD	2007	43.1	True
+cn-baidu-ipo-2005	2005-08-05	Baidu (NASDAQ: BIDU)	27	122.54	USD	2005-08-05	4.54	True
+cn-shanghai-composite-peak-2007	2007-10-16	SSE Composite Index	6124.04	1820.81	points	2008-12-31	0.297	True
+cn-beijing-olympics-2008	2008-08-08	Chinese construction, media/advertising, and consumer-brand equities pre-2008						True
+cn-byd-buffett-2008	2008-09-27	BYD Company (1211.HK)	8		HKD		38	True
+cn-stimulus-2008	2008-11-09	Chinese infrastructure, steel, cement, and construction-machinery equities (e.g. China Railway, Anhui Conch Cement)						True
+cn-property-boom-2009	2009	Residential property in Tier-1 Chinese cities (Beijing, Shanghai, Shenzhen)						False
+cn-alibaba-ipo-2014	2014-09-19	Alibaba Group (NYSE: BABA)	68	93.89	USD	2014-09-19	1.38	True
+cn-shanghai-hk-connect-2014	2014-11-17	Shanghai A-shares accessible via Stock Connect (e.g. large-cap banks, consumer staples)						True
+cn-a-share-bubble-2015	2015-06-12	SSE Composite Index / margin-financed A-shares	5166.35	2927.0	points	2015-08-26	0.567	True
+cn-catl-ipo-2018	2018-06-11	CATL / Contemporary Amperex Technology (300750.SZ)	25.14	39.82	CNY	2018-06-12	1.58	True
+cn-xiaomi-ipo-2018	2018-07-09	Xiaomi Corporation (1810.HK)	17	16.8	HKD	2018-07-09	0.988	True
+cn-luckin-coffee-fraud-2020	2020-04-02	Luckin Coffee (formerly NASDAQ: LK)						True
+cn-didi-ipo-delisting-2021	2021-06-30	Didi Global (formerly NYSE: DIDI)	14		USD			True
+cn-bitcoin-mining-ban-2021	2021-09-24	Bitcoin (BTC) / Chinese crypto-mining operations						True
+cn-evergrande-crisis-2021	2021-09-24	China Evergrande Group (3333.HK) and other highly-leveraged Chinese developers						True
+de-sap-ipo-long-hold-1988	1988-11-04	SAP SE (SAP)						True
+de-reunification-dax-1990	1990-10-03	DAX Index	1398.23	8136.16	points	2000-03	5.82	True
+de-deutsche-telekom-ipo-1996	1996-11-18	Deutsche Telekom (DTE)	14.57	104.9	EUR	2000-03-06	7.2	True
+de-neuer-markt-bubble-2000	2000-03-10	Nemax 50 Index	9666	318	points	2002-10-09	0.033	True
+de-infineon-spinoff-ipo-2000	2000-03-13	Infineon Technologies (IFX)	35	0.44	EUR	2009	0.0126	True
+de-euro-cash-launch-2002	2002-01-01	DEM/EUR fixed conversion						True
+de-dax-low-2003	2003-03-12	DAX Index	2202.96	8151.57	points	2007-07-13	3.7	True
+de-puma-kering-spinoff	2007-04-10	Puma SE (PUM) vs Adidas (ADS)						True
+de-porsche-vw-short-squeeze-2008	2008-10-28	Volkswagen ordinary shares (VOW)		1000	EUR	2008-10-28		True
+de-berlin-real-estate-boom	2009-01	Berlin development land / residential property	200	1328	EUR	2019	6.64	True
+de-commerzbank-bailout-2008	2009-01-08	Commerzbank (CBK)		4.79	EUR	2009-01-08		True
+de-dax-low-2009	2009-03-06	DAX Index	3666.41	5957.43	points	2009-12-30	1.625	True
+de-zalando-ipo-2014	2014-10-01	Zalando SE (ZAL)	21.5		EUR			True
+de-vw-dieselgate-2015	2015-09-18	Volkswagen preferred shares (VOW3)		130.2	EUR	2015-09-21	0.81	True
+de-deutsche-bank-crisis-2016	2016-09-30	Deutsche Bank (DBK)	22.53	9.9	EUR	2016-09-30	0.439	True
+de-dax-low-2020-covid	2020-03-18	DAX Index	8441.71	13719	points	2020-12-30	1.625	True
+de-wirecard-fraud-2020	2020-06-18	Wirecard AG (WDI)	104.5	1.28	EUR	2020-06-26	0.0122	True
+de-biontech-covid-vaccine-rally-2020	2020-11-09	BioNTech SE ADS (BNTX)	34	420	USD	2021-08	12.3529	True
+de-bitcoin-tax-free-holding-rule	2021-01	Bitcoin (BTC) held by a German tax resident						True
+de-rheinmetall-rally-2022	2022-02-24	Rheinmetall AG (RHM)	96.8	968	EUR	2025-02	10.0	True
+de-europe-gas-crisis-2022	2022-08-26	Dutch TTF natural gas futures		314	EUR	2022-08-26		True
+fr-privatization-saint-gobain-1986	1986-11-17	Saint-Gobain (SGO.PA)	310	369	EUR	1986-12-24	1.19	True
+fr-lvmh-formation-1987	1987-06	LVMH (MC.PA)						True
+fr-black-monday-1987	1987-10-19	Saint-Gobain, Paribas, CGE (French blue-chips)						True
+fr-eurotunnel-ipo-1987	1987-11	Eurotunnel (Groupe Eurotunnel)	35	25.55	EUR	1987-12-10		True
+fr-cac40-launch-1987	1987-12-31	CAC 40 index	1000	6922.33	points	2000-09-04	6.92	True
+fr-paris-real-estate-boom	1991	Paris residential property (per m²)	3463	10760	EUR	2020	3.11	True
+fr-credit-lyonnais-crisis-1993	1993	Crédit Lyonnais						True
+fr-hermes-ipo-1993	1993-06	Hermès International (RMS.PA)	300	600	EUR	1995	2.0	True
+fr-dassault-systemes-ipo-1996	1996-06-28	Dassault Systèmes (DSY.PA)	118	229	EUR	1996-12	1.94	True
+fr-france-telecom-ipo-1997	1997-10-20	France Télécom (now Orange, ORA.PA)	27.75	219	EUR	2000-03-02	7.89	True
+fr-euro-introduction-1999	1999-01-01	EUR/FRF	6.55957		EUR			True
+fr-ppr-gucci-1999	1999-03	PPR / Kering (KER.PA)						True
+fr-cac40-dotcom-peak-2000	2000-09-04	CAC 40 index	6922.33	2403.04	points	2003-03-12		True
+fr-vivendi-universal-collapse-2002	2002-07-02	Vivendi Universal						True
+fr-france-telecom-short-2002	2002-09-30	France Télécom (ORA.PA)	219	6.94	EUR	2002-09-30	0.0317	True
+fr-cac40-2003-low	2003-03-12	CAC 40 index	2403.04	3557.9	points	2003-12-31	1.48	True
+fr-societe-generale-kerviel-2008	2008-01-24	Société Générale (GLE.PA)						True
+fr-cac40-2009-low	2009-03-09	CAC 40 index	2519.29	4157.14	points	2011-02-18	1.65	True
+fr-euro-debt-crisis-banks-2011	2011-09	Société Générale (GLE.PA), Crédit Agricole	52	15.57	EUR	2011-09-12		True
+fr-pacte-law-crypto-2019	2019-05-22	Bitcoin (BTC)	8000	69000	USD	2021-11	8.6	True
+fr-lvmh-luxury-rebound-2020-2021	2020-03	LVMH (MC.PA)	278.7	727.0	EUR	2021-12-31	2.61	True
+fr-cac40-2020-covid-low	2020-03-18	CAC 40 index	3754.84	5551.41	points	2020-12-31	1.478	True
+gb-right-to-buy-1980	1980-10-03	UK council housing (residential property)			GBP		5.36	True
+gb-bt-privatisation-1984	1984-11-28	British Telecom (BT.L)	1.3	1.73	GBP	1984-12-03	1.33	True
+gb-big-bang-1986	1986-10-27	UK merchant banks / stockbroking firms (e.g. Mercury Asset Management, Phillips & Drew)						True
+gb-tell-sid-british-gas-1986	1986-12-08	British Gas plc	0.5	0.625	GBP	1986-12-08	1.25	True
+gb-black-monday-1987	1987-10-19	FTSE 100 index / UK blue-chip equities	2301.9	2052.3	points	1987-10-19		True
+gb-black-wednesday-1992	1992-09-16	GBP/DEM (British pound vs Deutschmark)			USD	1992-09-16	1.1	True
+gb-london-property-boom-1995-2007	1995	UK residential property (especially London)			GBP		3.2	True
+gb-arm-ipo-1998	1998-04-17	ARM Holdings (ARM.L / ARMH)	5.75	10.1	GBP	2000-02	1.76	True
+gb-browns-bottom-gold-1999	1999-05-07	Gold (XAU/USD)	252.8	4000	USD	2025-10	15.8	True
+gb-dotcom-peak-ftse-2000	1999-12-30	FTSE 100 index	6930.2		points	1999-12-30		True
+gb-ftse-dotcom-trough-2003	2003-03-12	FTSE 100 index	3287	4622	points	2004-03	1.41	True
+gb-northern-rock-run-2007	2007-09-14	Northern Rock plc shares / UK bank stocks						True
+gb-rbs-lloyds-bailout-2008	2008-10-13	Royal Bank of Scotland (RBS.L) / Lloyds Banking Group (LLOY.L)			GBP			True
+gb-woolworths-collapse-2008	2008-11-26	Woolworths Group plc shares						True
+gb-ftse-low-2009	2009-03-03	FTSE 100 index	3512	5763	points	2010-03	1.641	True
+gb-brexit-referendum-2016	2016-06-23	GBP/USD	1.5	1.3229	USD	2016-06-24		True
+gb-arm-softbank-buyout-2016	2016-07-18	ARM Holdings (ARM.L)	11.89	17.0	GBP	2016-09	1.43	True
+gb-rolls-royce-covid-crash-2020	2020-10-02	Rolls-Royce Holdings (RR.L)	0.39	0.9	GBP	2023-01	2.3	True
+gb-fca-crypto-derivatives-ban-2020	2020-10-06	Bitcoin (BTC) / crypto CFDs and ETNs available to UK retail			USD	2021-11	5.5	True
+gb-astrazeneca-oxford-vaccine-2020	2020-11-23	AstraZeneca plc (AZN.L)			GBP			True
+gb-liz-truss-mini-budget-2022	2022-09-23	GBP/USD, UK 30-year gilts	1.13	1.03	USD	2022-09-26		True
+gb-rolls-royce-turnaround-2023-2025	2023-01	Rolls-Royce Holdings (RR.L)	0.93	7.42	GBP	2025-02	7.98	True
+in-wipro-bonus-compounding-1980-2021	1980	Wipro Ltd (NSE: WIPRO)						True
+in-liberalization-1991	1991-07-24	Sensex (BSE SENSEX) / newly-liberalized Indian private sector equities						True
+in-harshad-mehta-scam-1992	1992-04-28	Sensex / Mehta-favored stocks (ACC, Reliance, Apollo Tyres)	4467		points			True
+in-infosys-ipo-1993	1993-02	Infosys Ltd (NSE: INFY)	95	145	INR	1993-06	1.526	True
+in-nse-launch-1994	1994-11-03	Brokerage & exchange-infrastructure businesses; blue-chip stocks newly tradable on NSE						True
+in-hdfc-bank-ipo-1995	1995-05	HDFC Bank Ltd (NSE: HDFCBANK)	10	39.95	INR	1995-05	3.995	True
+in-titan-multibagger-2002-2022	2002-08	Titan Company Ltd (NSE: TITAN)	3	2535	INR	2022-08	845	True
+in-real-estate-boom-2003-2008	2003	Bất động sản dân cư cao cấp Nam Mumbai (giá/foot vuông)	4000	28000	INR	2008-04	7.0	True
+in-gold-bull-run-2003-2012	2003	Vàng tiêu chuẩn (giá/10 gram, Mumbai)	5719	31673	INR	2012-09	5.539	True
+in-global-financial-crisis-2008	2008-01	Sensex (BSE SENSEX) index / large-cap Indian equities	8160		points	2009-03-09		True
+in-satyam-scandal-2009	2009-01-07	Satyam Computer Services Ltd	544	6.3	INR	2009-01-09	0.0116	True
+in-election-rally-2009	2009-05-18	Sensex (BSE SENSEX) index	12173	14284	points	2009-05-18	1.173	True
+in-bajaj-finance-decade-2014-2024	2014	Bajaj Finance Ltd (NSE: BAJFINANCE)					29.76	True
+in-modi-election-rally-2014	2014-05-16	Sensex (BSE SENSEX) index / infrastructure & PSU stocks	23906	24122	points	2014-05-16	1.009	True
+in-upi-launch-2016	2016-04-11	Cổ phiếu công ty công nghệ tài chính/thanh toán hưởng lợi từ UPI (ví dụ: One97/Paytm sau niêm yết, các ngân hàng số hóa sớm)						True
+in-jio-launch-2016	2016-09-05	Reliance Industries Ltd (NSE: RELIANCE)	1053.9		INR	2016-09-05		True
+in-demonetisation-2016	2016-11-08	Tiền mặt rupee mệnh giá lớn / cổ phiếu ngân hàng & fintech kỹ thuật số						True
+in-crypto-rbi-ban-sc-verdict-2018-2020	2018-04-06	Bitcoin / tiền mã hóa giao dịch qua sàn Ấn Độ (WazirX, CoinDCX, Zebpay...)						True
+in-yes-bank-crisis-2020	2020-03-06	Yes Bank Ltd (NSE: YESBANK)	404	5.65	INR	2020-03-06	0.014	True
+in-covid-crash-2020	2020-03-23	Sensex (BSE SENSEX) index / large-cap Indian equities	25981	46960	points	2020-12-18	1.808	True
+in-zomato-ipo-2021	2021-07-23	Zomato Ltd / Eternal (NSE: ETERNAL, formerly ZOMATO)	76	125.3	INR	2021-07-23	1.649	True
+in-paytm-ipo-2021	2021-11-18	One97 Communications / Paytm (NSE: PAYTM)	2150	1564.15	INR	2021-11-18	0.728	True
+in-adani-hindenburg-2023	2023-01-24	Adani Enterprises & other listed Adani Group companies					0.364	True
+it-luxottica-growth	1990-01	Luxottica Group (NYSE: LUX / BIT: LUX)				2017	50	True
+it-lira-erm-exit-1992	1992-09-16	USD/ITL or DEM/ITL (short lira)						True
+it-eni-ipo-1995	1995-11-21	Eni S.p.A. (ENI.MI)	5.42	11.8	EUR	1998	2.18	True
+it-euro-conversion-1999	1999-01-01	Italian BTP government bonds (10-year)			EUR			True
+it-enel-ipo-1999	1999-11-02	Enel S.p.A. (ENEL.MI)	4.3		EUR	2011		True
+it-telecom-italia-bubble-2000	2000-03-06	Telecom Italia (TIT.MI)	20.35	193.789	EUR	2000-03-06		True
+it-campari-growth	2001-07	Davide Campari-Milano (CPR.MI)			EUR	2021-11	15	True
+it-parmalat-fraud-2003	2003-12-19	Parmalat Finanziaria S.p.A.		0.4	USD	2003-12-19		True
+it-prada-ipo-2011	2011-06-24	Prada S.p.A. (1913.HK)	39.5		USD			True
+it-btp-yield-crisis-2011	2011-11-09	Italian 10-year BTP government bonds	7.5	4.5	points	2012-12		True
+it-real-estate-crash-2008-2013	2012	Residential real estate, Milan / major Italian cities						True
+it-brunello-cucinelli-ipo-2012	2012-04-27	Brunello Cucinelli S.p.A. (BC.MI)	7.75	11.6	EUR	2012-04-27		True
+it-draghi-whatever-it-takes-2012	2012-07-26	Italian & Spanish government bonds / FTSE MIB index						True
+it-moncler-ipo-2013	2013-12-16	Moncler S.p.A. (MONC.MI)	10.2	69.28	EUR	2021	6.79	True
+it-fiat-chrysler-merger-2014	2014-10-12	Fiat Chrysler Automobiles N.V. (NYSE: FCAU)	9.0		USD	2021-01		True
+it-milan-real-estate-boom-2015-2025	2015	Milan residential real estate (Porta Nuova / CityLife districts)						True
+it-ferrari-ipo-2015	2015-10-21	Ferrari N.V. (NYSE: RACE)	52.0	60.0	USD	2015-10-21		True
+it-mps-bailout-2017	2017-07-28	Banca Monte dei Paschi di Siena (BMPS.MI)			EUR	2017-07		True
+it-stm-chip-boom-2020-2024	2020-03	STMicroelectronics N.V. (NYSE: STM)	15.06	52.13	USD	2021-11-18	3.46	True
+it-bitcoin-retail-boom-2020-2021	2020-03-16	Bitcoin (BTC)	5000	67549	USD	2021-11-08	13.5	True
+it-unicredit-covid-rally-2020-2024	2020-05-14	UniCredit S.p.A. (UCG.MI)	6.01	33.39	EUR	2025-06-16	5.56	True
+it-natural-gas-crisis-2022	2022-03-07	Eni S.p.A. (ENI.MI) / natural gas futures (TTF)	20	213.895	EUR	2022-03-07		True
+jp-plaza-accord-1985	1985-09-22	USD/JPY	240	150	JPY	1987-12		True
+jp-keyence-automation-growth	1987	Keyence Corp (6861.T)			JPY		5.3	True
+jp-nikkei-bubble-peak-1989	1989-12-29	Nikkei 225	38915.87	7054.98	points	2009-03-10	None	True
+jp-tokyo-real-estate-bubble-1991	1991	Tokyo commercial land			JPY		None	True
+jp-fast-retailing-uniqlo-listing-1994	1994-07	Fast Retailing (9983.T)			JPY			True
+jp-sony-playstation-1994	1994-12-03	Sony Corp (6758.T)			JPY			True
+jp-softbank-alibaba-stake-2000	2000-01	Alibaba Group (via SoftBank stake)				2014-09	3000	True
+jp-softbank-dotcom-crash-2000	2000-02-18	SoftBank Group (9984.T)	10111.1		JPY	2000-02-18	None	True
+jp-nikkei-lost-decade-bottom-2003	2003-04-28	Nikkei 225	7607.88	18261	points	2007-07	2.4	True
+jp-gfc-nikkei-bottom-2009	2009-03-10	Nikkei 225	7054.98	39098.68	points	2024-02-22	5.54	True
+jp-toyota-recall-crisis-2010	2010-01-21	Toyota Motor (7203.T)			JPY			True
+jp-olympus-accounting-scandal-2011	2011-10-14	Olympus Corp (7733.T)			JPY		10	True
+jp-abenomics-kuroda-qqe-2013	2012-11-16	Nikkei 225 / USD-JPY			points	2013-05	1.8	True
+jp-tokyo-electron-semiconductor-boom	2012-12	Tokyo Electron ADR (TOELY)	4.97	132.54	USD	2024-03-06	26.67	True
+jp-mtgox-bitcoin-collapse-2014	2014-02-28	Bitcoin (BTC) / Mt. Gox exposure			USD		None	True
+jp-nintendo-pokemon-go-spike-2016	2016-07-06	Nintendo Co. (7974.T)	14380	32000	JPY	2016-07-19	2.23	True
+jp-sharp-foxconn-rescue-2016	2016-08-12	Sharp Corp (6753.T)	88	124	JPY	2016-08-15	1.41	True
+jp-takata-airbag-bankruptcy-2017	2017-06-26	Takata Corp (7312.T)			JPY		None	True
+jp-buffett-trading-houses-2020	2020-08-31	Itochu, Marubeni, Mitsubishi, Mitsui, Sumitomo (Japanese sogo shosha)			JPY			True
+jp-nikkei-new-record-high-2024	2024-02-22	Nikkei 225		39098.68	points	2024-02-22		True
+jp-reiwa-rice-shortage-2024	2024-08	Japanese table rice (per 5kg retail bag)	2000	4300	JPY	2025-01	2.15	True
+jp-yen-carry-trade-unwind-2024	2024-08-05	Nikkei 225 / USD-JPY carry trade	31458.42		points	2024-08		True
+us-berkshire-hathaway-1980	1980-03-16	Berkshire Hathaway Class A (BRK.A)	290	700000	USD	2024-08	2414	True
+us-microsoft-ipo-1986	1986-03-13	Microsoft (MSFT)						True
+us-black-monday-1987	1987-10-19	S&P 500 / Dow Jones blue chips						True
+us-dell-ipo-1988	1988-06-22	Dell (DELL)				2000-01-28	420.7	True
+us-cisco-ipo-1990	1990-02-16	Cisco Systems (CSCO)	18		USD			True
+us-starbucks-ipo-1992	1992-06-26	Starbucks (SBUX)	0.27		USD		400	True
+us-domain-name-gold-rush-1995	1995	Tên miền .com (domain flipping)						False
+us-amazon-ipo-1997	1997-05-15	Amazon (AMZN)	18		USD		1150	True
+us-apple-jobs-return-1997	1997-09-16	Apple (AAPL)						True
+us-nvidia-ipo-1999	1999-01-22	Nvidia (NVDA)	12		USD		9196	True
+us-dotcom-peak-2000	2000-03-10	Cổ phiếu công nghệ Nasdaq (short) / tiền mặt						True
+us-gold-bull-2001-2011	2001-01	Vàng vật chất / quỹ ETF vàng (sau 2004: GLD)	271	1900	USD	2011-09	7	True
+us-netflix-ipo-2002	2002-05-23	Netflix (NFLX)	15		USD		654	True
+us-google-ipo-2004	2004-08-19	Google / Alphabet (GOOGL)	85		USD			True
+us-housing-crash-2007-2009	2007-01	Hợp đồng hoán đổi rủi ro tín dụng (CDS) trên trái phiếu thế chấp dưới chuẩn / bán khống cổ phiếu ngân hàng, nhà xây dựng						True
+us-iphone-launch-2007	2007-06-29	Apple (AAPL)	4.36	251	USD		57.5	True
+us-march-2009-bottom	2009-03-09	S&P 500 index fund	676.53		USD		3.98	True
+us-bitcoin-pizza-day-2010	2010-05-22	Bitcoin (BTC)	0.0041		USD	2025-05	26829268	True
+us-tesla-ipo-2010	2010-06-29	Tesla (TSLA)	1.59	385.19	USD	2025-11-04	241.85	True
+us-facebook-ipo-2012	2012-05-18	Facebook / Meta Platforms (META)	17.73	790	USD	2025-08-12	44.6	True
+us-ethereum-launch-2015	2015-07-30	Ethereum (ETH)	0.31	3275	USD		10570	True
+us-covid-crash-bottom-2020	2020-03-23	S&P 500 index fund / cổ phiếu công nghệ lớn	2237.4		USD		1.76	True
+us-gamestop-squeeze-2021	2021-01-28	GameStop (GME)	17.25	483	USD	2021-01-28	28	True
+us-chatgpt-nvidia-ai-2022	2022-11-30	Nvidia (NVDA)						True
+us-bitcoin-spot-etf-2024	2024-01-10	Bitcoin (BTC) / quỹ ETF Bitcoin giao ngay (IBIT, FBTC...)	46000		USD			True
+vn-doi-moi-1986	1986-12-18	Private business licenses / small trading						True
+vn-phu-my-hung-land	1993-01-01	Đất nền/căn hộ khu Phú Mỹ Hưng, Quận 7, TP.HCM						True
+vn-us-embargo-lift-1994	1994-02-03	Cổ phần hoặc tài sản của công ty hướng ngoại, hàng tiêu dùng nhập khẩu						True
+vn-us-normalization-1995	1995-07-11	Bất động sản khu trung tâm, cổ phần doanh nghiệp xuất khẩu						True
+vn-coffee-chain-boom	1996-06-16	Nhượng quyền/cổ phần chuỗi cà phê Trung Nguyên hoặc Highlands Coffee						True
+vn-mobile-phone-boom	2000-01-01	Kinh doanh phân phối/bán lẻ điện thoại di động						False
+vn-hose-first-session-2000	2000-07-28	REE, SAM (cổ phiếu sàn HOSE giai đoạn 2000-2001)						True
+vn-bta-2001	2001-12-10	Doanh nghiệp dệt may, thủy sản xuất khẩu sang Mỹ						True
+vn-hnx-launch-2005	2005-03-08	Cổ phiếu niêm yết sớm trên HASTC/HNX						True
+vn-vinamilk-listing-2006	2006-01-19	Vinamilk (VNM)	53000		VND			True
+vn-fpt-listing-2006	2006-12-13	FPT Corporation (FPT)	160000	400000	VND		2.5	True
+vn-wto-accession-2007	2007-01-11	Cổ phiếu ngân hàng và doanh nghiệp nhà nước cổ phần hóa (Vietcombank, Bảo Việt)						True
+vn-vnindex-peak-2007	2007-03-12	Cổ phiếu niêm yết trên HOSE nói chung (VN-Index)	300	1170.67	points	2007-03-12	3.6	True
+vn-vingroup-listing-2007	2007-09-19	Vincom/Vingroup (VIC)	125000		VND			True
+vn-hoa-phat-listing-2007	2007-11-15	Hòa Phát (HPG)	110000		VND			True
+vn-inflation-crisis-2008	2008-01-01	Tiền mặt/vàng để tránh mất giá, cổ phiếu phòng thủ chọn lọc ở vùng đáy cuối năm						True
+vn-gold-surge-2008-2011	2008-01-01	Vàng miếng SJC	17500000	49000000	VND	2011-12	2.8	True
+vn-vnindex-bottom-2009	2009-02-24	Cổ phiếu blue-chip trên HOSE (VNM, FPT, HPG, VIC...)	235.5		points	2009-02-24		True
+vn-ecommerce-boom	2010-03-01	Cổ phần/vốn góp sớm vào các sàn TMĐT (Tiki, Sendo) hoặc mở gian hàng bán lẻ online sớm trên các sàn này						True
+vn-real-estate-slump-2011-2013	2011-01-01	Căn hộ/đất nền TP.HCM, Hà Nội trong giai đoạn đóng băng						True
+vn-ridehailing-grab-2014	2014-02-27	Tài xế đối tác/nhà đầu tư sớm vào nền tảng gọi xe công nghệ						True
+vn-mwg-listing-2014	2014-07-14	Thế Giới Di Động (MWG)	68000	81500	VND			True
+vn-long-thanh-airport-2015	2015-06-25	Đất nền khu vực Long Thành, Nhơn Trạch, Đồng Nai						True
+vn-vjc-listing-2017	2017-02-28	Vietjet Air (VJC)	90000	108000	VND			True
+vn-covid-bottom-2020	2020-03-24	Cổ phiếu blue-chip và ngân hàng trên HOSE	659		points	2020-03-24		True
+vn-crypto-boom-vietnam	2021-01-01	AXS token (Axie Infinity Shards) hoặc SLP, cổ phần Sky Mavis			USD	2021-10	30	True
+vn-vinfast-nasdaq-2023	2023-08-15	VinFast (VFS) cổ phiếu Nasdaq	10	37.06	USD		3.7	True
+vn-gold-surge-2024	2024-05-01	Vàng miếng SJC / vàng nhẫn trơn	80000000	92000000	VND	2024-05		True

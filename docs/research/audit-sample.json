@@ -1,0 +1,227 @@
+[
+  {
+    "id": "cn-xiaomi-ipo-2018",
+    "field": "exitPrice",
+    "stored": 16.8,
+    "found": 16.78,
+    "status": "OK",
+    "sourceUrl": "https://www.bbc.com/news/business-44761650",
+    "note": "IPO HK$17, close ngày đầu HK$16.78-16.80 tùy nguồn (CNBC/AP nói 16.80, TechCrunch/BBC nói 16.78); sai số làm tròn không đáng kể."
+  },
+  {
+    "id": "br-magazine-luiza-tang-vot-sup-do",
+    "field": "entryPrice/exitPrice",
+    "stored": "0.03 -> 27.42 BRL",
+    "found": "không xác định được do nhiều lần chia tách cổ phiếu (1-for-8 năm 2015, 8:1 năm 2017, 8:1 năm 2019, 4:1 năm 2020)",
+    "status": "minor issue",
+    "sourceUrl": "https://ph.investing.com/equities/magaz-luiza-on-nm-historical-data-splits",
+    "note": "Không có trường priceBasis/split-adjusted để biết giá đã điều chỉnh theo đợt chia tách nào; không thể tái lập độc lập return 914x bằng nguồn công khai trong thời gian audit."
+  },
+  {
+    "id": "gb-ftse-low-2009",
+    "field": "entryPrice",
+    "stored": 3512,
+    "found": 3512.09,
+    "status": "OK",
+    "sourceUrl": "https://countryeconomy.com/stock-exchange/uk?dr=2009-03",
+    "note": "Khớp chính xác mức đóng cửa FTSE 100 ngày 3/3/2009."
+  },
+  {
+    "id": "gb-tell-sid-british-gas-1986",
+    "field": "entryPrice",
+    "stored": 0.5,
+    "found": 1.35,
+    "status": "minor issue",
+    "sourceUrl": "https://www.thisismoney.co.uk/money/markets/article-2305884/Margaret-Thatchers-mixed-legacy-investors.html",
+    "note": "Giá phát hành đầy đủ British Gas là 135p (£1.35), không phải 50p. 50p nhiều khả năng là đợt đóng tiền từng phần (partly-paid) đầu tiên theo thông lệ IPO tư nhân hóa Anh thập niên 1980 — nếu đúng thì số liệu có thể hợp lý nhưng thiếu chú thích rõ ràng khiến dễ hiểu lầm là giá IPO đầy đủ."
+  },
+  {
+    "id": "fr-pacte-law-crypto-2019",
+    "field": "entryPrice/exitPrice",
+    "stored": "8000 -> 69000 USD",
+    "found": "~7,800-8,000 (5/2019) -> ~69,000 (11/2021, đỉnh lịch sử)",
+    "status": "OK",
+    "sourceUrl": "https://en.wikipedia.org/wiki/History_of_bitcoin",
+    "note": "Khớp với biên độ giá BTC được ghi nhận rộng rãi."
+  },
+  {
+    "id": "de-berlin-real-estate-boom",
+    "field": "entryPrice/exitPrice",
+    "stored": "200 -> 1328 EUR/m2",
+    "found": "200 (2009) -> 1,328 (2019)",
+    "status": "OK",
+    "sourceUrl": "https://accentro.de/en/real-estate-guide/land-prices-in-berlin-accentro",
+    "note": "Khớp chính xác với bảng giá đất xây dựng của Destatis/Accentro."
+  },
+  {
+    "id": "cn-a-share-bubble-2015",
+    "field": "entryPrice/exitPrice",
+    "stored": "5166.35 -> 2927.0",
+    "found": "5166.35 (12/6/2015) -> 2927.29 (26/8/2015)",
+    "status": "OK",
+    "sourceUrl": "https://www.rieti.go.jp/en/china/15071701.html",
+    "note": "Khớp gần như tuyệt đối (sai số làm tròn 0.29 điểm)."
+  },
+  {
+    "id": "us-facebook-ipo-2012",
+    "field": "entryPrice",
+    "stored": 17.73,
+    "found": 17.73,
+    "status": "OK",
+    "sourceUrl": "https://about.fb.com/news/2012/05/facebook-announces-pricing-of-initial-public-offering/",
+    "note": "Mốc mua vào đúng là đáy tháng 9/2012 (không phải giá IPO 38 USD) — milestone đã mô tả đúng ngữ cảnh này, không phải lỗi."
+  },
+  {
+    "id": "cn-baidu-ipo-2005",
+    "field": "entryPrice/exitPrice",
+    "stored": "27 -> 122.54 USD",
+    "found": "27 -> 122.54 USD",
+    "status": "OK",
+    "sourceUrl": "https://www.nbcnews.com/id/wbna8840916",
+    "note": "Khớp chính xác tuyệt đối."
+  },
+  {
+    "id": "it-natural-gas-crisis-2022",
+    "field": "entryPrice/exitPrice",
+    "stored": "20 -> 213.895 EUR cùng ngày 7/3/2022",
+    "found": "không xác định được một công cụ tài chính duy nhất khớp với cặp số này",
+    "status": "wrong",
+    "sourceUrl": "https://www.eni.com/content/dam/enicom/documents/eng/reports/2022/Annual-Report-2022.pdf",
+    "note": "Asset field gộp hai công cụ khác nhau (cổ phiếu Eni và hợp đồng tương lai khí đốt TTF) nhưng chỉ có một cặp entry/exit cùng ngày — giá cổ phiếu Eni đầu tháng 3/2022 thực tế ở mức ~12-13 EUR, còn giá TTF thời điểm đó tính bằng EUR/MWh chứ không rõ 213.895 tương ứng mốc nào. Cặp số không tái lập được từ nguồn công khai."
+  },
+  {
+    "id": "ca-toronto-housing-boom-2000-2022",
+    "field": "entryPrice",
+    "stored": 243255,
+    "found": 244653,
+    "status": "minor issue",
+    "sourceUrl": "https://trreb.ca/wp-content/files/market-stats/market-watch/historic.pdf",
+    "note": "TRREB ghi nhận giá trung bình năm 2000 là 244,653 CAD, lệch ~0.6% so với số liệu lưu trữ 243,255 CAD; exitPrice (1,334,544 CAD, 2/2022) khớp chính xác với Market Watch TRREB."
+  },
+  {
+    "id": "br-nubank-ipo-2021",
+    "field": "exitPrice",
+    "stored": 10.33,
+    "found": 11.91,
+    "status": "wrong",
+    "sourceUrl": "http://www.marketwatch.com/story/nu-holdings-stock-opens-25-above-ipo-price-valuing-company-at-nearly-52-billion-2021-12-09",
+    "note": "Giá đóng cửa phiên đầu tiên theo MarketWatch là 11.91 USD (+32.4%), không phải 10.33 USD; returnMultiple đúng phải ~1.32x chứ không phải 1.148x."
+  },
+  {
+    "id": "cn-shanghai-composite-peak-2007",
+    "field": "entryPrice/exitPrice",
+    "stored": "6124.04 -> 1820.81",
+    "found": "6124.04 (đỉnh nội phiên 16/10/2007) -> 1820.81 (đóng cửa 31/12/2008)",
+    "status": "OK",
+    "sourceUrl": "https://github.com/akitaonrails/worldreports/blob/main/countries/china/data/markets/sse_index.csv",
+    "note": "Khớp chính xác."
+  },
+  {
+    "id": "fr-cac40-2009-low",
+    "field": "entryPrice/exitPrice",
+    "stored": "2519.29 -> 4157.14",
+    "found": "mức đáy tháng 3/2009 ở vùng ~2,519 được nhiều nguồn xác nhận gián tiếp; chưa tìm được nguồn xác nhận trực tiếp 4157.14 ngày 18/2/2011",
+    "status": "OK",
+    "sourceUrl": "https://en.wikipedia.org/wiki/CAC_40",
+    "note": "Quỹ đạo hợp lý (2010 đóng cửa 3804.78, nên mức 4157 giữa tháng 2/2011 khả thi) nhưng độ tin cậy ở mức trung bình do thiếu xác nhận điểm dữ liệu chính xác."
+  },
+  {
+    "id": "fr-cac40-2020-covid-low",
+    "field": "exitPrice",
+    "stored": 5551.41,
+    "found": "~5551 (suy ra từ CAC 40 đóng cửa 2019 ở 5978.06 và năm 2020 giảm ~7.1%)",
+    "status": "OK",
+    "sourceUrl": "https://en.wikipedia.org/wiki/CAC_40",
+    "note": "Khớp khi tính ngược từ % thay đổi năm 2020 được công bố."
+  },
+  {
+    "id": "us-starbucks-ipo-1992",
+    "field": "exitPrice/exitDate/currency",
+    "stored": "trống",
+    "found": "N/A",
+    "status": "minor issue",
+    "sourceUrl": "https://investor.starbucks.com/stock-info-and-resources/frequently-asked-questions-/default.aspx",
+    "note": "entryPrice 0.27 USD (giá IPO điều chỉnh chia tách) khớp chính xác với công bố chính thức của Starbucks, nhưng exitPrice/exitDate/currency bị bỏ trống dù đã có returnMultiple=400 — thiếu dữ liệu hỗ trợ cho con số 400x."
+  },
+  {
+    "id": "vn-vinfast-nasdaq-2023",
+    "field": "exitPrice",
+    "stored": 37.06,
+    "found": 37,
+    "status": "OK",
+    "sourceUrl": "https://electrek.co/2023/08/15/ev-maker-vinfast-surpasses-ford-gm-value-market-debut/",
+    "note": "entryPrice 10 USD và exitPrice ~37 USD (giá đóng cửa phiên đầu) khớp với nhiều nguồn; exitDate bị bỏ trống trong bảng kiểm kê — nên bổ sung 2023-08-15."
+  },
+  {
+    "id": "fr-france-telecom-ipo-1997",
+    "field": "entryPrice/exitPrice",
+    "stored": "27.75 -> 219 EUR",
+    "found": "27.75 EUR (IPO 10/1997) -> 219 EUR (đỉnh 2/3/2000)",
+    "status": "OK",
+    "sourceUrl": "https://www.ifo.de/DocDL/cesifo1_wp1195.pdf",
+    "note": "Khớp chính xác tuyệt đối với nghiên cứu học thuật về tư nhân hóa Pháp."
+  },
+  {
+    "id": "it-unicredit-covid-rally-2020-2024",
+    "field": "entryPrice/exitPrice",
+    "stored": "6.01 -> 33.39 EUR",
+    "found": "vùng giá hợp lý (UniCredit chạm đáy ~6 EUR giữa 2020, phục hồi mạnh dưới thời CEO Orcel)",
+    "status": "OK",
+    "sourceUrl": "https://finance.yahoo.com/quote/UCG.MI/history/",
+    "note": "Không tìm được dữ liệu lịch sử chính xác cho đúng hai ngày nêu trong audit (giới hạn công cụ tra cứu), nhưng xu hướng và biên độ giá phù hợp với diễn biến cổ phiếu đã biết."
+  },
+  {
+    "id": "fr-euro-debt-crisis-banks-2011",
+    "field": "entryPrice/exitPrice",
+    "stored": "52 -> 15.57 EUR",
+    "found": "~52 EUR (2/2011) -> 15.57 EUR (12/9/2011)",
+    "status": "OK",
+    "sourceUrl": "https://www.nytimes.com/2011/09/13/business/global/turmoil-ensnares-big-french-banks.html",
+    "note": "Khớp chính xác với NYT (\"closed at 15.57 euros on Monday ... trading above 52 euros as recently as February\")."
+  },
+  {
+    "id": "jp-softbank-dotcom-crash-2000",
+    "field": "entryPrice",
+    "stored": 10111.1,
+    "found": 10111.1,
+    "status": "OK",
+    "sourceUrl": "https://www.cnbc.com/2024/07/04/softbank-shares-hit-record-high-after-24-years-on-arm-and-ai-boost.html",
+    "note": "Khớp chính xác tuyệt đối với giá đóng cửa kỷ lục 18/2/2000."
+  },
+  {
+    "id": "gb-brexit-referendum-2016",
+    "field": "entryPrice/exitPrice",
+    "stored": "1.5 -> 1.3229 (GBP/USD)",
+    "found": "~1.50 -> 1.324 (theo JPMorgan Chase Institute)",
+    "status": "OK",
+    "sourceUrl": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/institute/pdf/institute-fx-markets-move-on-surprise-news.pdf",
+    "note": "Khớp sát; đơn vị 'currency: USD' hơi gây nhầm vì đây là tỷ giá GBP/USD chứ không phải giá bằng USD."
+  },
+  {
+    "id": "br-weg-compounder-longo-han",
+    "field": "entryPrice/exitPrice",
+    "stored": "0.1 -> 24.27 BRL",
+    "found": "không tái lập được chính xác do nhiều đợt chia tách (1.3:1 năm 2014, 2:1 năm 2015, 1.3:1 năm 2018)",
+    "status": "minor issue",
+    "sourceUrl": "https://uk.investing.com/equities/weg-on-ej-nm-historical-data-splits",
+    "note": "Độ lớn hợp lý (WEG là một trong các compounder tốt nhất của Brazil, CAGR ngụ ý ~30%/năm trong 20 năm là khả thi) nhưng không thể xác minh độc lập hai mốc giá chính xác trong phạm vi audit."
+  },
+  {
+    "id": "de-dax-low-2020-covid",
+    "field": "entryPrice/exitPrice",
+    "stored": "8441.71 -> 13719",
+    "found": "8441.71 (18/3/2020) -> 13,718.78 (30/12/2020)",
+    "status": "OK",
+    "sourceUrl": "https://convextrade.com/metrics/dax40/history/2020",
+    "note": "Khớp gần như tuyệt đối (13719 vs 13718.78)."
+  },
+  {
+    "id": "vn-vingroup-listing-2007",
+    "field": "entryPrice",
+    "stored": 125000,
+    "found": 125000,
+    "status": "OK",
+    "sourceUrl": "https://finance.vietstock.vn/vic/profile.htm?languageid=2",
+    "note": "Khớp chính xác với 'Listing reference price' chính thức trên Vietstock."
+  }
+]
