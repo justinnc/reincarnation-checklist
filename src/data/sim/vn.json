@@ -497,9 +497,9 @@
     }
   ],
   "dataQuality": {
-    "vn_savings": "official-with-gaps",
+    "vn_savings": "official",
     "vn_usd": "official",
-    "vn_gold": "proxy-pre-2009",
+    "vn_gold": "proxy",
     "vn_index": "secondary",
     "btc": "secondary"
   }

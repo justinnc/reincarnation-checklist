@@ -7,16 +7,16 @@ export const metadata: Metadata = { title: "Rebirth Simulator" };
 
 const COPY = {
   vi: {
-    kicker: "Thử nghiệm — dữ liệu đang được hoàn thiện",
+    kicker: "Thử nghiệm — đang cân bằng game",
     heading: "Sổ trọng sinh",
     intro: "Chọn năm trọng sinh, phân bổ vốn, và xem bạn giàu đến đâu khi biết trước tương lai.",
-    disclaimer: "Trò chơi giải trí/giáo dục dựa trên dữ liệu lịch sử đơn giản hoá — không phải khuyến nghị đầu tư. Một số số liệu giá hiện là DỮ LIỆU TẠM, sẽ sớm được thay bằng số liệu có nguồn kiểm chứng.",
+    disclaimer: "Trò chơi giải trí/giáo dục dựa trên dữ liệu lịch sử đơn giản hoá (CPI, tỷ giá, vàng SJC, VN-Index, Bitcoin — có nguồn, xem docs/research/simulator.md) — không phải khuyến nghị đầu tư. Giá vàng trước 2000 và lãi tiết kiệm một số năm là số liệu ước tính/thiếu, xem ghi chú nguồn.",
   },
   en: {
-    kicker: "Preview — data still being finalized",
+    kicker: "Preview — game balance still in progress",
     heading: "The Rebirth Ledger",
     intro: "Pick your rebirth year, allocate capital, and see how rich hindsight makes you.",
-    disclaimer: "An entertainment/educational game using simplified historical data — not investment advice. Some figures are currently PLACEHOLDER DATA, to be replaced with sourced figures soon.",
+    disclaimer: "An entertainment/educational game using simplified historical data (CPI, FX, SJC gold, VN-Index, Bitcoin — sourced, see docs/research/simulator.md) — not investment advice. Pre-2000 gold prices and some savings-rate years are estimated/missing; see source notes.",
   },
 };
 
