@@ -31,3 +31,12 @@ export function cardsForYear(cards: OpportunityCard[], year: number, count: numb
   }
   return chosen;
 }
+
+import { mulberry32, hashSeed } from "./rng";
+import type { GameState } from "./types";
+
+/** Deterministic per-(seed,year) card draw, independent of the core engine RNG stream. */
+export function pickCardsForState(state: GameState, allCards: OpportunityCard[], count: number): OpportunityCard[] {
+  const rng = mulberry32(hashSeed(`${state.seed}:${state.year}:cards`) ^ state.seed);
+  return cardsForYear(allCards, state.year, count, () => rng());
+}

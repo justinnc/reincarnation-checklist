@@ -1,0 +1,34 @@
+{
+  "id": "vn-gia-xang-ron92",
+  "country": "vn",
+  "name": { "vi": "Giá xăng RON92/A92", "en": "RON92/A92 petrol price" },
+  "unit": { "vi": "đồng/lít", "en": "VND/litre" },
+  "quality": "B",
+  "note": {
+    "vi": "Giá vùng 1 do Petrolimex / Liên Bộ Công Thương-Tài chính công bố mỗi lần điều chỉnh (10-25 lần/năm). Mỗi năm: min/max là các mốc giá thực tế có nguồn; một số giá cuối năm (2009, 2011, 2012, 2013) được suy ra gián tiếp từ chênh lệch nêu trong báo chí năm sau, không lấy trực tiếp từ thông cáo ngày 31/12. RON92 ngừng kinh doanh toàn quốc từ 00h00 01/01/2018 (Thông báo 255/TB-VPCP, 06/06/2017), thay bằng xăng sinh học E5 RON92 và RON95 — vì vậy chuỗi dừng ở 2017 một cách có chủ đích, không phải do thiếu dữ liệu.",
+    "en": "Zone-1 retail prices as published by Petrolimex / the Ministry of Industry & Trade - Ministry of Finance at each price-adjustment (roughly 10-25 times a year). Min/max per year are sourced real price points; some year-end figures (2009, 2011, 2012, 2013) are inferred from a reported year-over-year difference rather than a direct 31 Dec press release. RON92 was discontinued nationwide from 00:00 on 1 Jan 2018 (Government Office Notice 255/TB-VPCP, 6 Jun 2017), replaced by bio-ethanol E5 RON92 and RON95 — the series intentionally ends in 2017, not due to missing data."
+  },
+  "kind": "range",
+  "series": [
+    { "year": 2009, "min": 12500, "max": 16300, "note": "Giá đầu năm thấp hơn có thể tồn tại (khủng hoảng tài chính 2008-09) nhưng không xác thực được; giá cuối năm ~15.950đ (01/01/2010, nguồn thứ cấp) thấp hơn mốc 20/11 (16.300đ), chưa rõ nguyên nhân." },
+    { "year": 2010, "min": 15950, "max": 16990, "note": "Giá cuối năm 16.400đ (= giá mở đầu 2011). Bộ Tài chính xác nhận RON92 năm 2010 tăng 26,71% so với 2009." },
+    { "year": 2011, "min": 16400, "max": 23000, "note": "Giá cuối năm ước tính ~20.800đ (suy ra từ giá mở đầu 2012). Tăng mạnh 24/2 và 29/3, đỉnh 13/8, giảm dần cuối năm." },
+    { "year": 2012, "min": 20800, "max": 23800, "note": "Đỉnh 23.800đ lập ngày 20/4/2012. Giá cuối năm ước tính ~23.150đ (suy ra từ công văn Bộ Tài chính đầu 2013)." },
+    { "year": 2013, "min": 23150, "max": 24580, "note": "Đỉnh 24.580đ (28/3/2013) là kỷ lục mọi thời đại tại thời điểm đó (Petrolimex bán thực tế 24.550đ). Giá cuối năm ước tính ~24.210đ (suy ra từ so sánh trong báo chí cuối 2014)." },
+    { "year": 2014, "min": 17880, "max": 25640, "note": "Đỉnh 25.640đ (7/7/2014) là mức giá xăng cao nhất lịch sử Việt Nam tính đến thời điểm đó. Giảm liên tục cuối năm (24 lần điều chỉnh cả năm), giá cuối năm 17.880đ (22/12/2014)." },
+    { "year": 2015, "min": 15442, "max": 20430, "note": "Đáy 15.442đ (19/1/2015, thấp nhất kể từ 2009 tại thời điểm đó). Đỉnh 20.430đ (20/5/2015). Giá cuối năm xác nhận gần nhất: 16.405đ (18/12/2015)." },
+    { "year": 2016, "min": 13750, "max": 17594, "note": "Đáy 13.750đ (khoảng 18/2 hoặc 21/3/2016, nguồn không khớp ngày nhưng khớp giá trị) — thấp nhất kể từ tháng 7/2009. Đỉnh và giá cuối năm trùng nhau: 17.594đ (20/12/2016)." },
+    { "year": 2017, "min": 16500, "max": 18580, "note": "Đáy ~16.500đ (khoảng tháng 7/2017, theo bảng so sánh giá khu vực của Petrolimex 3/7/2017). Giá cuối cùng trước khi RON92 bị khai tử: 18.580đ/lít (giữ nguyên từ 5/12 đến 20/12/2017, áp dụng tới hết 31/12/2017)." }
+  ],
+  "sources": [
+    { "title": "Petrolimex - Thông cáo điều chỉnh giá 20/11/2009", "url": "https://www.petrolimex.com.vn/ndi/thong-cao-bao-chi/petrolimex_dieu_chinh_gia_cac_mat_hang_xang_dau_tu_xx_gio_00_ngay_20_thang_11_nam_2009.html" },
+    { "title": "Petrolimex - Thông cáo điều chỉnh giá 21/02/2010", "url": "https://www.petrolimex.com.vn/ndi/thong-cao-bao-chi/tong_cong_ty_xang_dau_viet_nam_dieu_chinh_gia_mat_hang_xang_o_to_tu_12_gio_00_ngay_21_thang_02_nam_2010.html" },
+    { "title": "VnEconomy - Tăng 1.430 đồng/lít, giá xăng lên cao nhất trong lịch sử (28/3/2013)", "url": "https://vneconomy.vn/tang-1430-donglit-gia-xang-len-cao-nhat-trong-lich-su.htm" },
+    { "title": "Znews - Năm 2014: Giá xăng dầu điều chỉnh kỷ lục 24 lần", "url": "https://znews.vn/nam-2014-gia-xang-dau-dieu-chinh-ky-luc-24-lan-post496957.html" },
+    { "title": "VietNamNet - Lao dốc từ đỉnh cao, giá xăng đà xuống 15 ngàn đồng/lít (đỉnh 7/7/2014)", "url": "https://vietnamnet.vn/lao-doc-tu-dinh-cao-gia-xang-da-xuong-15-ngan-donglit-623015.html" },
+    { "title": "Báo Chính phủ - Giá xăng xuống thấp nhất trong 5 năm (19/1/2015)", "url": "https://baochinhphu.vn/gia-xang-xuong-thap-nhat-trong-5-nam-102197238.htm" },
+    { "title": "Công an TP.HCM - Giá xăng RON 92 tăng kỷ lục trong năm 2016", "url": "https://congan.com.vn/doi-song/gia-xang-ron-92-tang-ky-luc-trong-nam-2016_31135.html" },
+    { "title": "Vietstock - Giá xăng giữ nguyên ở mức 18.580 đồng/lít (20/12/2017)", "url": "https://vietstock.vn/2017/12/gia-xang-giu-nguyen-o-muc-18580-donglit-34-572809.htm" },
+    { "title": "Tiền Phong - Bộ Công Thương nói gì về giá xăng RON95 tăng cao? (xác nhận mốc khai tử RON92 1/1/2018, dẫn Thông báo 255/TB-VPCP)", "url": "https://tienphong.vn/bo-cong-thuong-noi-gi-ve-gia-xang-ron95-tang-cao-post1002446.tpo" }
+  ]
+}

@@ -80,7 +80,9 @@ Thêm object vào `src/data/milestones/<country>.json`:
 - [ ] Thêm quốc gia mới (spec nghiên cứu mẫu: `docs/research-specs/`)
 - [x] v0.4: trang `/almanac` (Bảng giá theo năm, Việt Nam) + trang `/disclaimer` dùng chung — xem `docs/research/`
 - [x] v0.5: engine "Sổ trọng sinh" chạy được tại `/simulator` (beta) — pure TS engine (seeded RNG, vitest 24 test), trang chơi thử; DỮ LIỆU GIÁ ĐANG LÀ PLACEHOLDER chờ agent nghiên cứu thay bằng số liệu có nguồn (xem `docs/research/simulator.md`)
-- [ ] Thay `src/data/sim/vn.json` bằng dữ liệu thật đã kiểm chứng; mở rộng thẻ cơ hội, cân bằng game, thẻ kết quả PNG, bảng xếp hạng
+- [x] v0.6: ghép dữ liệu giá thật vào Sổ trọng sinh (CPI/FX/vàng/VN-Index/BTC có nguồn); nối cơ chế "thẻ cơ hội" vào gameplay (trước đó code có sẵn nhưng chưa dùng — nguyên nhân chính khiến game bị nhạt); hiện sự kiện nổi bật mỗi năm; nhật ký hành trình ở màn kết quả
+- [x] Bảng giá theo năm: thay chuỗi xăng RON92 4 điểm rời rạc bằng chuỗi 9 năm (2009-2017) có min/max/nguồn
+- [ ] Cân bằng lại độ khó, mở rộng thư viện sự kiện, thẻ kết quả dạng ảnh, bảng xếp hạng "Đề của ngày"
 - [ ] Mở rộng almanac + milestone theo `docs/research/content-expansion.md` (cơ hội vốn nhỏ, kỹ năng nên học sớm, bỏ lỡ kinh điển)
 - [ ] Quy trình làm mới giá tự động theo `docs/research/data-quality.md`
 - [ ] SEO: OG image cho từng mốc, sitemap
