@@ -1931,10 +1931,10 @@
         "en": "About a 15% first-day gain versus the IPO price"
       },
       "entryPrice": 9,
-      "exitPrice": 10.33,
+      "exitPrice": 11.91,
       "priceCurrency": "USD",
       "exitDate": "2021-12-09",
-      "returnMultiple": 1.148,
+      "returnMultiple": 1.323,
       "risk": "high",
       "capital": "medium"
     },
@@ -1986,6 +1986,6 @@
       }
     ],
     "verified": true,
-    "verifiedNote": "Confirmed IPO date (Dec 9 2021), IPO price ($9), opening ($11.25) and closing ($10.33) first-day prices, and ~$48-52bn market cap via CNBC, Reuters and Bloomberg reporting."
+    "verifiedNote": "Confirmed IPO date (Dec 9 2021), IPO price ($9), opening ($11.25) and closing ($10.33) first-day prices, and ~$48-52bn market cap via CNBC, Reuters and Bloomberg reporting. | Corrected: first-day close was $11.91 (not $10.33) per NYSE data, audited 2026-11-07."
   }
 ]

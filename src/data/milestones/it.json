@@ -1925,7 +1925,7 @@
       "en": "After Russia's invasion of Ukraine (24 February 2022), the benchmark European natural gas price at the Dutch TTF hub spiked to a record intraday high of EUR 213.895/MWh on 7 March 2022 (briefly touching around EUR 335/MWh) - more than 10 times the historical average - on fears of disrupted Russian gas supply (which had accounted for about 40% of EU imports pre-war). Italy's Eni benefited enormously: nine-month 2022 adjusted operating profit rose 139% year-on-year to EUR 13.52 billion, driven by a 43% rise in realized gas prices."
     },
     "opportunity": {
-      "asset": "Eni S.p.A. (ENI.MI) / natural gas futures (TTF)",
+      "asset": "Dutch TTF natural gas futures",
       "action": {
         "vi": "Mua cổ phiếu Eni hoặc hợp đồng tương lai khí đốt TTF ngay trước/khi cuộc xâm lược Ukraine bắt đầu",
         "en": "Buy Eni shares or TTF gas futures right before/as the invasion of Ukraine began"
@@ -1939,12 +1939,9 @@
         "en": "Aug-Dec 2022, as gas prices began cooling once the EU built sufficient storage and demand eased"
       },
       "estimatedReturn": {
-        "vi": "Giá khí đốt tăng hơn 10 lần so với mức trung bình lịch sử; lợi nhuận Eni tăng 139% trong 9 tháng 2022",
-        "en": "Gas prices rose over 10x historical averages; Eni's profit rose 139% in the first nine months of 2022"
+        "vi": "Giá khí đốt TTF tăng hơn 10 lần so với trung bình lịch sử trong vài tuần",
+        "en": "TTF gas price rose more than 10x historical average within weeks"
       },
-      "entryPrice": 20,
-      "exitPrice": 213.895,
-      "priceCurrency": "EUR",
       "exitDate": "2022-03-07",
       "risk": "high",
       "capital": "medium"
@@ -1997,6 +1994,6 @@
       }
     ],
     "verified": true,
-    "verifiedNote": "TTF record price (EUR 213.895/MWh, 7 Mar 2022) confirmed via EnergyScan/Engie; Eni's 139% profit rise in 9M 2022 confirmed via Eni's own official results PDF."
+    "verifiedNote": "TTF record price (EUR 213.895/MWh, 7 Mar 2022) confirmed via EnergyScan/Engie; Eni's 139% profit rise in 9M 2022 confirmed via Eni's own official results PDF. | Removed entry/exit price fields: the EUR 20 entry was an unsourced round number and mixed a gas-futures price with an equity ticker (Eni). Kept the verified TTF peak as a qualitative return. Audited 2026-11-07."
   }
 ]
