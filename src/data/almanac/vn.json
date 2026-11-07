@@ -1,0 +1,255 @@
+[
+  {
+    "id": "vn-luong-toi-thieu-vung1",
+    "country": "vn",
+    "name": {
+      "vi": "Lương tối thiểu vùng I",
+      "en": "Region-I minimum wage"
+    },
+    "unit": {
+      "vi": "đồng/tháng",
+      "en": "VND/month"
+    },
+    "quality": "A",
+    "note": {
+      "vi": "Áp dụng cho doanh nghiệp tại Vùng I (nội thành Hà Nội, TP.HCM...). Số liệu chính xác theo Nghị định của Chính phủ. Trước 2009 là lương tối thiểu chung/khu vực FDI riêng, không hoàn toàn so sánh được 1:1.",
+      "en": "Applies to businesses in Region I (inner Hanoi, HCMC...). Exact figures per government decrees. Before 2009 there were separate general/FDI minimum wages, not directly comparable."
+    },
+    "kind": "point",
+    "series": [
+      {
+        "year": 2009,
+        "value": 800000,
+        "note": "Nghị định 110/2008/NĐ-CP"
+      },
+      {
+        "year": 2010,
+        "value": 980000,
+        "note": "Nghị định 97/2009/NĐ-CP"
+      },
+      {
+        "year": 2011,
+        "value": 1350000,
+        "note": "Nghị định 108/2010/NĐ-CP"
+      },
+      {
+        "year": 2012,
+        "value": 2000000,
+        "note": "Nghị định 70/2011/NĐ-CP"
+      },
+      {
+        "year": 2013,
+        "value": 2350000,
+        "note": "Nghị định 103/2012/NĐ-CP"
+      },
+      {
+        "year": 2014,
+        "value": 2700000,
+        "note": "Nghị định 182/2013/NĐ-CP"
+      },
+      {
+        "year": 2015,
+        "value": 3100000,
+        "note": "Nghị định 103/2014/NĐ-CP"
+      },
+      {
+        "year": 2016,
+        "value": 3500000,
+        "note": "Nghị định 122/2015/NĐ-CP"
+      },
+      {
+        "year": 2017,
+        "value": 3750000,
+        "note": "Nghị định 153/2016/NĐ-CP"
+      },
+      {
+        "year": 2018,
+        "value": 3980000,
+        "note": "Nghị định 141/2017/NĐ-CP (số NĐ cần đối chiếu lại)"
+      },
+      {
+        "year": 2019,
+        "value": 4180000,
+        "note": "Nghị định 157/2018/NĐ-CP"
+      },
+      {
+        "year": 2020,
+        "value": 4420000,
+        "note": "Nghị định 90/2019/NĐ-CP"
+      },
+      {
+        "year": 2022,
+        "value": 4680000,
+        "note": "Nghị định 38/2022/NĐ-CP (từ 1/7/2022)"
+      },
+      {
+        "year": 2024,
+        "value": 4960000,
+        "note": "Nghị định 74/2024/NĐ-CP (từ 1/7/2024)"
+      },
+      {
+        "year": 2026,
+        "value": 5310000,
+        "note": "Nghị định 293/2025/NĐ-CP (từ 1/1/2026)"
+      }
+    ],
+    "sources": [
+      {
+        "title": "LuatVietnam - Tổng hợp mức lương tối thiểu vùng qua các năm",
+        "url": "https://luatvietnam.vn/tin-phap-luat/tong-hop-muc-luong-toi-thieu-vung-qua-cac-nam-230-17768-article.html"
+      },
+      {
+        "title": "ThuVienPhapLuat - Tổng hợp lương tối thiểu vùng qua các năm",
+        "url": "https://thuvienphapluat.vn/phap-luat-doanh-nghiep/bai-viet/tong-hop-luong-toi-thieu-vung-qua-cac-nam-quy-dinh-moi-nhat-ve-tang-luong-toi-thieu-vung-2025-11147.html"
+      }
+    ]
+  },
+  {
+    "id": "vn-gia-vang-sjc",
+    "country": "vn",
+    "name": {
+      "vi": "Giá vàng SJC",
+      "en": "SJC gold price"
+    },
+    "unit": {
+      "vi": "triệu đồng/lượng",
+      "en": "million VND / lượng (37.5g)"
+    },
+    "quality": "B",
+    "note": {
+      "vi": "Giá dao động mạnh trong năm nên hiển thị dạng khoảng (thấp nhất–cao nhất), không phải một số cố định. Trước 2009 là ước tính tổng hợp, từ 7/2009 có dữ liệu theo ngày. Năm 2011 chỉ có ghi chú đỉnh giá, chưa xác định khoảng thấp-cao cả năm.",
+      "en": "Price swings heavily within a year, shown as a low–high range. Pre-2009 figures are aggregated estimates; day-by-day data exists from July 2009. 2011 only has a peak note, not a confirmed yearly low-high range."
+    },
+    "kind": "range",
+    "series": [
+      {
+        "year": 2000,
+        "min": 3.5,
+        "max": 4.9
+      },
+      {
+        "year": 2005,
+        "min": 8.5,
+        "max": 10.2
+      },
+      {
+        "year": 2008,
+        "min": 17.5,
+        "max": 19.5
+      },
+      {
+        "year": 2010,
+        "min": 26.5,
+        "max": 36.0
+      },
+      {
+        "year": 2011,
+        "note": "Lập đỉnh ~49 triệu đồng/lượng cuối 2011 - đầu 2012 khi vàng thế giới vượt 1900 USD/oz (9/2011)"
+      },
+      {
+        "year": 2014,
+        "min": 35,
+        "max": 37,
+        "note": "Đi ngang 2014-2019"
+      },
+      {
+        "year": 2020,
+        "min": 42.75,
+        "max": 62.45,
+        "note": "Chốt năm 56.10 triệu/lượng (31/12/2020)"
+      },
+      {
+        "year": 2022,
+        "min": 61.0,
+        "max": 74.4
+      },
+      {
+        "year": 2023,
+        "min": 66.0,
+        "max": 80.3
+      },
+      {
+        "year": 2024,
+        "min": 78.0,
+        "max": 92.0
+      },
+      {
+        "year": 2025,
+        "min": 95.0,
+        "max": 155.0
+      }
+    ],
+    "sources": [
+      {
+        "title": "Finhay - Phân tích chi tiết lịch sử giá vàng qua các năm",
+        "url": "https://www.finhay.com.vn/gia-vang-qua-cac-nam"
+      },
+      {
+        "title": "Finhay - Giá vàng năm 2020, nhìn lại bối cảnh COVID-19",
+        "url": "https://www.finhay.com.vn/gia-vang-nam-2020"
+      },
+      {
+        "title": "Dân Việt - Giá vàng miếng SJC biến động ra sao trong 15 năm qua",
+        "url": "https://danviet.vn/lich-su-gia-vang-mieng-sjc-trong-15-nam-qua-tu-ky-nguyen-ngu-dong-den-giai-doan-but-pha-d1415795.html"
+      }
+    ]
+  },
+  {
+    "id": "vn-gia-xang-a92",
+    "country": "vn",
+    "name": {
+      "vi": "Giá xăng RON92/A92",
+      "en": "RON92/A92 petrol price"
+    },
+    "unit": {
+      "vi": "đồng/lít",
+      "en": "VND/litre"
+    },
+    "quality": "C",
+    "note": {
+      "vi": "Petrolimex không có bảng “giá theo năm” tổng hợp sẵn — đây là vài mốc điều chỉnh giá rời rạc trong 2009-2010 ghép từ thông cáo báo chí, không phải chuỗi liên tục theo năm.",
+      "en": "Petrolimex has no ready-made yearly price table — these are discrete price-adjustment dates from 2009-2010 assembled from press releases, not a continuous year series."
+    },
+    "kind": "event",
+    "series": [
+      {
+        "date": "2009-10-24",
+        "value": 15500,
+        "note": "RON92 không chì, vùng 1"
+      },
+      {
+        "date": "2009-11-20",
+        "value": 16300,
+        "note": "RON92 không chì, vùng 1"
+      },
+      {
+        "date": "2010-01-14",
+        "value": 16400,
+        "note": "RON92 không chì, vùng 1"
+      },
+      {
+        "date": "2010-02-21",
+        "value": 16990,
+        "note": "RON92 không chì, vùng 1"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Petrolimex - Thông cáo điều chỉnh giá 24/10/2009",
+        "url": "https://petrolimex.com.vn/ndi/thong-cao-bao-chi/ong_cong_ty_xang_dau_viet_nam_dieu_chinh_gia_cac_mat_hang_xang_dau_tu_00_gio_00_ngay_24_thang_10_nam_2009.html"
+      },
+      {
+        "title": "Petrolimex - Thông cáo điều chỉnh giá 20/11/2009",
+        "url": "https://www.petrolimex.com.vn/ndi/thong-cao-bao-chi/petrolimex_dieu_chinh_gia_cac_mat_hang_xang_dau_tu_xx_gio_00_ngay_20_thang_11_nam_2009.html"
+      },
+      {
+        "title": "Petrolimex - Thông cáo điều chỉnh giá 14/01/2010",
+        "url": "https://www.petrolimex.com.vn/ndi/thong-cao-bao-chi/tong_cong_ty_xang_dau_viet_nam_dieu_chinh_gia_cac_mat_hang_xang_dau_tu_18_gio_00_ngay_14_thang_01_nam_2010_va_ap_dung_chuong_trinh_gia_uu_dai_dot_3_ch.html"
+      },
+      {
+        "title": "Petrolimex - Thông cáo điều chỉnh giá 21/02/2010",
+        "url": "https://www.petrolimex.com.vn/ndi/thong-cao-bao-chi/tong_cong_ty_xang_dau_viet_nam_dieu_chinh_gia_mat_hang_xang_o_to_tu_12_gio_00_ngay_21_thang_02_nam_2010.html"
+      }
+    ]
+  }
+]

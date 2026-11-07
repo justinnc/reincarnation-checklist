@@ -7,7 +7,9 @@
   "nav": {
     "timeline": "Timelines",
     "quiz": "Quiz",
-    "checklist": "My checklist"
+    "checklist": "My checklist",
+    "almanac": "Price Almanac",
+    "disclaimer": "Full disclaimer"
   },
   "home": {
     "kicker": "Trọng sinh · Reborn",

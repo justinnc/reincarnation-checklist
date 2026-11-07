@@ -38,6 +38,7 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[la
             </Link>
             <div className="flex items-center gap-4 text-sm text-muted sm:gap-5">
               <Link href={`/${lang}#countries`} className="hover:text-ink">{dict.nav.timeline}</Link>
+              <Link href={`/${lang}/almanac`} className="hover:text-ink">{dict.nav.almanac}</Link>
               <Link href={`/${lang}/quiz`} className="hover:text-ink">{dict.nav.quiz}</Link>
             </div>
             <div className="ml-auto">
@@ -52,7 +53,12 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[la
               <div className="font-display text-2xl font-extrabold">{dict.site.name}</div>
               <p className="mt-1 max-w-md text-sm text-muted">{dict.site.tagline}</p>
             </div>
-            <p className="max-w-sm text-xs text-faint">{dict.site.disclaimer}</p>
+            <div className="max-w-sm space-y-1 text-xs text-faint">
+              <p>{dict.site.disclaimer}</p>
+              <Link href={`/${lang}/disclaimer`} className="inline-block underline decoration-line-strong underline-offset-4 hover:text-gold">
+                {dict.nav.disclaimer}
+              </Link>
+            </div>
           </div>
         </footer>
       </body>
