@@ -65,7 +65,7 @@ export default function Timeline({ milestones, lang, dict, cards }: Props) {
     <div className="space-y-8">
       <div className="z-10 -mx-4 space-y-3 md:sticky md:top-0 border-b border-line bg-bg/95 px-4 py-4 backdrop-blur">
         <div className="flex flex-wrap items-center gap-3">
-          <label className="relative w-full sm:w-72">
+          <label className="relative w-full md:w-64">
             <span className="sr-only">{dict.search}</span>
             <input
               value={query}
@@ -74,28 +74,29 @@ export default function Timeline({ milestones, lang, dict, cards }: Props) {
               className="w-full rounded-full border border-line bg-surface px-4 py-2 text-sm text-ink placeholder:text-faint focus:border-gold focus:outline-none"
             />
           </label>
-          <div className="flex items-center gap-2 text-sm">
-            <span className="text-faint">{dict.sort}</span>
+          <div className="no-scrollbar -mx-4 flex items-center gap-2 overflow-x-auto px-4 text-sm md:mx-0 md:px-0">
+            <span className="shrink-0 text-faint">{dict.sort}</span>
             <Chip active={sort === "date"} onClick={() => setSort("date")}>{dict.sortDate}</Chip>
             <Chip active={sort === "return"} onClick={() => setSort("return")}>{dict.sortReturn}</Chip>
+            <span className="mx-1 w-px shrink-0 self-stretch bg-line" />
+            <span className="shrink-0 text-faint">{dict.risk}</span>
+            {(["low", "medium", "high"] as const).map((r) => (
+              <Chip key={r} active={risk === r} onClick={() => setRisk(risk === r ? "all" : r)}>
+                {dict.levels[r]}
+              </Chip>
+            ))}
           </div>
         </div>
-        <div className="no-scrollbar flex gap-2 overflow-x-auto pb-1">
+        <div className="no-scrollbar -mx-4 flex gap-2 overflow-x-auto px-4 pb-1 md:mx-0 md:flex-wrap md:overflow-visible md:px-0">
           <Chip active={category === "all"} onClick={() => setCategory("all")}>{dict.all}</Chip>
           {usedCats.map((c) => (
             <Chip key={c} active={category === c} onClick={() => setCategory(c)}>
               {dict.categories[c]}
             </Chip>
           ))}
-          <span className="mx-1 w-px shrink-0 bg-line" />
-          {(["low", "medium", "high"] as const).map((r) => (
-            <Chip key={r} active={risk === r} onClick={() => setRisk(risk === r ? "all" : r)}>
-              {dict.risk}: {dict.levels[r]}
-            </Chip>
-          ))}
         </div>
         {sort === "date" && decades.length > 1 && (
-          <nav className="flex gap-4 font-mono text-sm tabular">
+          <nav className="no-scrollbar flex gap-4 overflow-x-auto font-mono text-sm tabular">
             {decades.map((d) => (
               <a key={d} href={`#d${d}`} className="text-faint hover:text-gold">
                 {d}s
@@ -126,7 +127,7 @@ export default function Timeline({ milestones, lang, dict, cards }: Props) {
         <section key={g.key} id={`d${g.key}`} className="scroll-mt-48 md:grid md:grid-cols-[160px_1fr] md:gap-8">
           {g.label && (
             <div className="mb-4 md:mb-0">
-              <div className="font-display text-5xl font-extrabold tracking-tight text-gold md:sticky md:top-56 md:text-6xl">
+              <div className="font-display text-4xl font-extrabold tracking-tight text-gold md:sticky md:top-56 md:text-6xl">
                 {g.label}
               </div>
             </div>

@@ -34,15 +34,15 @@ export default async function CountryPage({ params }: PageProps<"/[lang]/[countr
       <header className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
         <div>
           <div className="text-6xl">{c.flag}</div>
-          <h1 className="mt-3 font-display text-5xl font-extrabold tracking-tight sm:text-6xl">{t(c.name, lang)}</h1>
+          <h1 className="mt-3 font-display text-5xl font-extrabold leading-[1.1] tracking-tight sm:text-6xl">{t(c.name, lang)}</h1>
           <div className="mt-4">
             <ChecklistProgress ids={list.map((m) => m.id)} label={dict.timeline.progress} />
           </div>
         </div>
-        <dl className="grid grid-cols-3 gap-6 rounded-2xl border border-line bg-surface p-5 font-mono tabular">
+        <dl className="grid grid-cols-3 gap-4 rounded-2xl border border-line bg-surface p-4 font-mono tabular sm:gap-6 sm:p-5">
           <div>
             <dt className="font-sans text-xs text-faint">{dict.timeline.count}</dt>
-            <dd className="mt-1 text-2xl font-semibold">{s.count}</dd>
+            <dd className="mt-1 text-xl font-semibold sm:text-2xl">{s.count}</dd>
           </div>
           <div>
             <dt className="font-sans text-xs text-faint">{dict.timeline.range}</dt>
@@ -52,7 +52,7 @@ export default async function CountryPage({ params }: PageProps<"/[lang]/[countr
           </div>
           <div>
             <dt className="font-sans text-xs text-faint">{dict.timeline.best}</dt>
-            <dd className="mt-1 text-2xl font-semibold text-gain">
+            <dd className="mt-1 text-xl font-semibold text-gain sm:text-2xl">
               {s.best?.opportunity.returnMultiple ? formatMultiple(s.best.opportunity.returnMultiple, lang) : "—"}
             </dd>
           </div>

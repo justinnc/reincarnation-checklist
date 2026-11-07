@@ -31,12 +31,12 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[la
     <html lang={lang} className={`${text.variable} ${display.variable} ${mono.variable} h-full antialiased`}>
       <body className="flex min-h-full flex-col">
         <header className="border-b border-line">
-          <nav className="mx-auto flex max-w-[1120px] items-center gap-6 px-4 py-4">
+          <nav className="mx-auto flex max-w-[1120px] items-center gap-4 px-4 py-3 sm:gap-6 sm:py-4">
             <Link href={`/${lang}`} className="flex items-center gap-2 font-display text-lg font-extrabold tracking-tight">
               <span className="flex h-7 w-7 items-center justify-center rounded-md bg-gold text-on-gold">✓</span>
               <span className="hidden sm:inline">{dict.site.name}</span>
             </Link>
-            <div className="flex items-center gap-5 text-sm text-muted">
+            <div className="flex items-center gap-4 text-sm text-muted sm:gap-5">
               <Link href={`/${lang}#countries`} className="hover:text-ink">{dict.nav.timeline}</Link>
               <Link href={`/${lang}/quiz`} className="hover:text-ink">{dict.nav.quiz}</Link>
             </div>
@@ -45,7 +45,7 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[la
             </div>
           </nav>
         </header>
-        <main className="mx-auto w-full max-w-[1120px] flex-1 px-4 py-10">{children}</main>
+        <main className="mx-auto w-full max-w-[1120px] flex-1 px-4 py-6 sm:py-10">{children}</main>
         <footer className="border-t border-line">
           <div className="mx-auto flex max-w-[1120px] flex-col gap-3 px-4 py-10 sm:flex-row sm:items-end sm:justify-between">
             <div>

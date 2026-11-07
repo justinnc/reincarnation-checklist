@@ -18,11 +18,11 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
     .slice(0, 10);
 
   return (
-    <div className="space-y-20">
+    <div className="space-y-14 sm:space-y-20">
       <section className="space-y-8">
         <div className="max-w-3xl space-y-4">
           <div className="font-mono text-sm uppercase tracking-widest text-gold">{dict.home.kicker}</div>
-          <h1 className="font-display text-5xl font-extrabold leading-[0.95] tracking-tight sm:text-7xl">{dict.home.heading}</h1>
+          <h1 className="text-balance font-display text-[2.6rem] font-extrabold leading-[1.1] tracking-tight sm:text-7xl sm:leading-[1.05]">{dict.home.heading}</h1>
           <p className="text-lg leading-relaxed text-muted">{dict.home.intro}</p>
         </div>
         <RebirthPicker
@@ -48,19 +48,22 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
                   const c = getCountry(m.country)!;
                   return (
                     <tr key={m.id} className="border-b border-line bg-surface last:border-0 hover:bg-raised">
-                      <td className="w-12 py-4 pl-5 font-display text-xl font-extrabold text-faint">{i + 1}</td>
-                      <td className="py-4 font-mono tabular text-gold">{m.date.slice(0, 4)}</td>
-                      <td className="py-4 pr-4">
+                      <td className="w-10 py-4 pl-4 align-top font-display text-xl font-extrabold text-faint sm:w-12 sm:pl-5 sm:align-middle">{i + 1}</td>
+                      <td className="hidden w-16 py-4 font-mono tabular text-gold sm:table-cell">{m.date.slice(0, 4)}</td>
+                      <td className="py-4 pr-3 sm:pr-4">
                         <Link href={`/${lang}/${m.country}/${m.id}`} className="font-medium hover:text-gold">
                           {c.flag} {t(m.title, lang)}
                         </Link>
-                        <div className="text-xs text-faint">{m.opportunity.asset}</div>
+                        <div className="mt-0.5 text-xs text-faint">
+                          <span className="font-mono text-gold sm:hidden">{m.date.slice(0, 4)} · </span>
+                          {m.opportunity.asset}
+                        </div>
                       </td>
                       <td className="hidden py-4 pr-4 text-right font-mono text-xs tabular text-muted md:table-cell">
                         {formatMoney(c.stake.amount, c.stake.currency, lang)} →{" "}
                         <span className="text-gain">{formatMoney(c.stake.amount * m.opportunity.returnMultiple!, c.stake.currency, lang)}</span>
                       </td>
-                      <td className="py-4 pr-5 text-right">
+                      <td className="py-4 pr-4 text-right align-top sm:pr-5 sm:align-middle">
                         <span className="rounded-md bg-gain px-2 py-0.5 font-mono font-semibold tabular text-on-gain">
                           {formatMultiple(m.opportunity.returnMultiple!, lang)}
                         </span>
@@ -105,7 +108,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
         </div>
       </section>
 
-      <section className="grid gap-10 rounded-3xl border border-line bg-surface p-8 md:grid-cols-[1fr_1.4fr] md:p-12">
+      <section className="grid gap-8 rounded-3xl border border-line bg-surface p-6 md:grid-cols-[1fr_1.4fr] md:gap-10 md:p-12">
         <div>
           <h2 className="font-display text-3xl font-bold">{dict.home.how}</h2>
           <Link href={`/${lang}/quiz`} className="mt-6 inline-block rounded-full bg-gold px-5 py-2.5 font-semibold text-on-gold hover:brightness-110">
@@ -118,7 +121,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
               <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-md border border-gold font-mono text-xs text-gold">
                 {i + 1}
               </span>
-              <span className="text-lg">{s}</span>
+              <span className="text-base sm:text-lg">{s}</span>
             </li>
           ))}
         </ol>

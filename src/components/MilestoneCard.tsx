@@ -12,7 +12,7 @@ export default function MilestoneCard({ m, lang, dict, country }: Props) {
   const o = m.opportunity;
   const href = `/${lang}/${m.country}/${m.id}`;
   return (
-    <article className="group rounded-2xl border border-line bg-surface p-5 transition-colors hover:border-line-strong sm:p-6">
+    <article className="group rounded-2xl border border-line bg-surface p-4 transition-colors hover:border-line-strong sm:p-6">
       <div className="flex items-start gap-4">
         <div className="min-w-0 flex-1">
           <div className="flex flex-wrap items-center gap-2 text-xs">
@@ -31,39 +31,47 @@ export default function MilestoneCard({ m, lang, dict, country }: Props) {
         <CheckButton id={m.id} label={dict.add} labelOn={dict.added} compact />
       </div>
 
-      <div className="mt-5 grid gap-4 rounded-xl bg-raised p-4 sm:grid-cols-[minmax(0,1fr)_minmax(0,14rem)] sm:items-center">
-        <div className="space-y-1 text-sm">
-          {o.asset && <div className="font-mono text-xs uppercase tracking-wide text-faint">{o.asset}</div>}
-          <div className="text-ink">{t(o.action, lang)}</div>
-          <div className="text-muted">
-            {dict.buyWhen}: <span className="text-ink">{t(o.buyWhen, lang)}</span>
-            {o.sellWhen && (
-              <>
-                {" "}→ {dict.sellWhen}: <span className="text-ink">{t(o.sellWhen, lang)}</span>
-              </>
+      <div className="mt-5 rounded-xl bg-raised p-4">
+        <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+          <div className="min-w-0 space-y-1.5 text-sm">
+            {o.asset && <div className="font-mono text-xs text-gold">{o.asset}</div>}
+            <div className="text-ink">{t(o.action, lang)}</div>
+            <div className="text-muted">
+              {dict.buyWhen}: <span className="text-ink">{t(o.buyWhen, lang)}</span>
+            </div>
+            {t(o.sellWhen, lang) && (
+              <div className="text-muted">
+                {dict.sellWhen}: <span className="text-ink">{t(o.sellWhen, lang)}</span>
+              </div>
             )}
           </div>
+          {o.returnMultiple ? (
+            <div className="shrink-0 sm:text-right">
+              {o.returnMultiple < 1 ? (
+                <>
+                  <DropBadge text={formatDrop(o.returnMultiple, lang)} label={dict.drop} />
+                  <div className="mt-1 max-w-[14rem] text-xs text-danger">{dict.drop}</div>
+                </>
+              ) : (
+                <>
+                  <MultipleBadge text={formatMultiple(o.returnMultiple, lang)} />
+                  <div className="mt-1 whitespace-nowrap font-mono text-xs tabular text-muted">
+                    {formatMoney(country.stake.amount, country.stake.currency, lang)} →{" "}
+                    <span className="text-gain">
+                      {formatMoney(country.stake.amount * o.returnMultiple, country.stake.currency, lang)}
+                    </span>
+                  </div>
+                </>
+              )}
+            </div>
+          ) : null}
         </div>
-        <div className="sm:text-right">
-          {o.returnMultiple && o.returnMultiple < 1 ? (
-            <>
-              <DropBadge text={formatDrop(o.returnMultiple, lang)} label={dict.drop} />
-              <div className="mt-1 text-xs text-danger">{dict.drop}</div>
-            </>
-          ) : o.returnMultiple ? (
-            <>
-              <MultipleBadge text={formatMultiple(o.returnMultiple, lang)} />
-              <div className="mt-1 font-mono text-xs tabular text-muted">
-                {formatMoney(country.stake.amount, country.stake.currency, lang)} →{" "}
-                <span className="text-gain">
-                  {formatMoney(country.stake.amount * o.returnMultiple, country.stake.currency, lang)}
-                </span>
-              </div>
-            </>
-          ) : (
-            <div className="text-sm font-semibold leading-snug text-gain">{t(o.estimatedReturn, lang)}</div>
-          )}
-        </div>
+        {!o.returnMultiple && (
+          <div className="mt-3 border-t border-line pt-3 text-sm">
+            <span className="text-muted">{dict.estimatedReturn}: </span>
+            <span className="font-medium text-gain">{t(o.estimatedReturn, lang)}</span>
+          </div>
+        )}
       </div>
 
       <div className="mt-4 flex flex-wrap items-center gap-2">

@@ -32,34 +32,36 @@ export default function RebirthPicker({ milestones, countries, lang, dict, minYe
   );
 
   return (
-    <div className="relative overflow-hidden rounded-3xl border border-line bg-surface p-6 sm:p-10">
+    <div className="relative overflow-hidden rounded-3xl border border-line bg-surface p-5 sm:p-10">
       <div
         aria-hidden
         className="pointer-events-none absolute -top-40 right-0 h-96 w-96 rounded-full bg-gold/10 blur-3xl"
       />
-      <div className="relative grid gap-10 lg:grid-cols-[1.1fr_1fr]">
-        <div>
-          <div className="flex flex-wrap gap-2">
-            {countries.map((c) => (
-              <button
-                key={c.code}
-                type="button"
-                aria-pressed={country === c.code}
-                onClick={() => setCountry(c.code)}
-                className={`rounded-full px-3 py-1.5 text-sm transition-colors ${
-                  country === c.code ? "bg-ink font-medium text-bg" : "bg-raised text-muted hover:text-ink"
-                }`}
-              >
-                {c.flag} {t(c.name, lang)}
-              </button>
-            ))}
-          </div>
+      <div className="relative grid grid-cols-1 gap-10 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,1fr)]">
+        <div className="min-w-0">
+          <label className="relative inline-flex items-center">
+            <span className="sr-only">Country</span>
+            <select
+              value={country}
+              onChange={(e) => setCountry(e.target.value)}
+              className="appearance-none rounded-full border border-line-strong bg-raised py-2 pl-4 pr-10 text-base font-medium text-ink hover:border-gold focus:border-gold focus:outline-none"
+            >
+              {countries.map((c) => (
+                <option key={c.code} value={c.code}>
+                  {c.flag} {t(c.name, lang)}
+                </option>
+              ))}
+            </select>
+            <svg aria-hidden viewBox="0 0 16 16" className="pointer-events-none absolute right-4 h-4 w-4 text-muted">
+              <path d="M4 6l4 4 4-4" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+          </label>
           <label htmlFor="year" className="mt-8 block text-lg text-muted">
             {dict.wakeUp}
           </label>
           <output
             htmlFor="year"
-            className="block font-display text-8xl font-extrabold leading-none tracking-tighter text-gold tabular sm:text-9xl"
+            className="block font-display text-[5.5rem] font-extrabold leading-none tracking-tighter text-gold tabular sm:text-9xl"
           >
             {year}
           </output>
@@ -76,28 +78,28 @@ export default function RebirthPicker({ milestones, countries, lang, dict, minYe
             <span>{minYear}</span>
             <span>{maxYear}</span>
           </div>
-          <p className="mt-6 text-lg">
+          <p className="mt-6 text-base sm:text-lg">
             <span className="font-mono text-3xl font-semibold tabular text-ink">{ahead.length}</span>{" "}
             <span className="text-muted">{dict.ahead}</span>
           </p>
         </div>
 
-        <div>
+        <div className="min-w-0">
           <h2 className="text-sm font-medium uppercase tracking-wider text-faint">{dict.topAhead}</h2>
           <ol className="mt-4 space-y-3">
             {top.map((m, i) => (
               <li key={m.id}>
                 <Link
                   href={`/${lang}/${m.country}/${m.id}`}
-                  className="flex items-center gap-4 rounded-xl border border-line bg-raised p-4 transition-colors hover:border-gold"
+                  className="flex items-center gap-3 rounded-xl border border-line bg-raised p-3 transition-colors hover:border-gold sm:gap-4 sm:p-4"
                 >
-                  <span className="font-display text-3xl font-extrabold text-faint">{i + 1}</span>
+                  <span className="w-6 shrink-0 text-center font-display text-2xl font-extrabold text-faint sm:text-3xl">{i + 1}</span>
                   <span className="min-w-0 flex-1">
                     <span className="block font-mono text-xs tabular text-gold">{m.date.slice(0, 4)}</span>
-                    <span className="block truncate font-medium">{t(m.title, lang)}</span>
+                    <span className="line-clamp-2 block font-medium leading-snug">{t(m.title, lang)}</span>
                   </span>
                   {(m.opportunity.returnMultiple ?? 0) > 1 ? (
-                    <span className="rounded-md bg-gain px-2 py-0.5 font-mono text-sm font-semibold tabular text-on-gain">
+                    <span className="shrink-0 rounded-md bg-gain px-2 py-0.5 font-mono text-sm font-semibold tabular text-on-gain">
                       {formatMultiple(m.opportunity.returnMultiple!, lang)}
                     </span>
                   ) : null}

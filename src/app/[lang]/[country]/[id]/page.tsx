@@ -23,9 +23,9 @@ function Block({ title, children, tone = "default" }: { title: string; children:
   const border = tone === "gold" ? "border-gold/50" : tone === "danger" ? "border-danger/40" : "border-line";
   const head = tone === "gold" ? "text-gold" : tone === "danger" ? "text-danger" : "text-faint";
   return (
-    <section className={`rounded-2xl border ${border} bg-surface p-6`}>
+    <section className={`rounded-2xl border ${border} bg-surface p-5 sm:p-6`}>
       <h2 className={`text-xs font-semibold uppercase tracking-wider ${head}`}>{title}</h2>
-      <div className="mt-3 text-[17px] leading-relaxed">{children}</div>
+      <div className="mt-3 text-base leading-relaxed sm:text-[17px]">{children}</div>
     </section>
   );
 }
@@ -54,7 +54,7 @@ export default async function MilestonePage({ params }: PageProps<"/[lang]/[coun
         ← {d.back}
       </Link>
 
-      <header className="grid gap-8 lg:grid-cols-[1fr_auto] lg:items-end">
+      <header className="space-y-6">
         <div>
           <div className="flex flex-wrap items-center gap-3 text-sm">
             <span>{c.flag}</span>
@@ -66,12 +66,12 @@ export default async function MilestonePage({ params }: PageProps<"/[lang]/[coun
               <UnverifiedBadge label={tl.unverified} />
             )}
           </div>
-          <h1 className="mt-3 max-w-3xl font-display text-4xl font-extrabold leading-[1.05] tracking-tight sm:text-6xl">
+          <h1 className="mt-3 max-w-3xl text-balance font-display text-[2.1rem] font-extrabold leading-[1.15] tracking-tight sm:text-6xl sm:leading-[1.1]">
             {t(m.title, lang)}
           </h1>
-          {m.summary && <p className="mt-4 max-w-2xl text-xl text-muted">{t(m.summary, lang)}</p>}
+          {m.summary && <p className="mt-4 max-w-2xl text-lg text-muted sm:text-xl">{t(m.summary, lang)}</p>}
         </div>
-        <div className="flex flex-col items-start gap-3 lg:items-end">
+        <div className="flex flex-wrap items-center gap-3">
           {o.returnMultiple && o.returnMultiple < 1 ? (
             <DropBadge text={formatDrop(o.returnMultiple, lang)} label={tl.drop} large />
           ) : o.returnMultiple ? (
@@ -102,28 +102,28 @@ export default async function MilestonePage({ params }: PageProps<"/[lang]/[coun
             {o.asset && <div className="mt-3 font-mono text-sm text-gold">{o.asset}</div>}
             <p className="mt-2 text-lg">{t(o.action, lang)}</p>
             <dl className="mt-5 space-y-3 text-sm">
-              <div className="flex justify-between gap-4 border-t border-line pt-3">
+              <div className="flex flex-col gap-1 border-t border-line pt-3 sm:flex-row sm:justify-between sm:gap-4">
                 <dt className="shrink-0 whitespace-nowrap text-faint">{tl.buyWhen}</dt>
-                <dd className="text-right">{t(o.buyWhen, lang)}</dd>
+                <dd className="sm:text-right">{t(o.buyWhen, lang)}</dd>
               </div>
-              {o.sellWhen && (
-                <div className="flex justify-between gap-4 border-t border-line pt-3">
+              {t(o.sellWhen, lang) && (
+                <div className="flex flex-col gap-1 border-t border-line pt-3 sm:flex-row sm:justify-between sm:gap-4">
                   <dt className="shrink-0 whitespace-nowrap text-faint">{tl.sellWhen}</dt>
-                  <dd className="text-right">{t(o.sellWhen, lang)}</dd>
+                  <dd className="sm:text-right">{t(o.sellWhen, lang)}</dd>
                 </div>
               )}
-              <div className="flex justify-between gap-4 border-t border-line pt-3">
+              <div className="flex flex-col gap-1 border-t border-line pt-3 sm:flex-row sm:justify-between sm:gap-4">
                 <dt className="shrink-0 whitespace-nowrap text-faint">{tl.estimatedReturn}</dt>
-                <dd className="text-right font-semibold text-gain">{t(o.estimatedReturn, lang)}</dd>
+                <dd className="font-semibold text-gain sm:text-right">{t(o.estimatedReturn, lang)}</dd>
               </div>
               {o.entryPrice != null && (
-                <div className="flex justify-between gap-4 border-t border-line pt-3 font-mono tabular">
+                <div className="flex flex-col gap-1 border-t border-line pt-3 sm:flex-row sm:justify-between sm:gap-4 font-mono tabular">
                   <dt className="shrink-0 whitespace-nowrap font-sans text-faint">{d.entry}</dt>
                   <dd>{price(o.entryPrice)}</dd>
                 </div>
               )}
               {o.exitPrice != null && (
-                <div className="flex justify-between gap-4 border-t border-line pt-3 font-mono tabular">
+                <div className="flex flex-col gap-1 border-t border-line pt-3 sm:flex-row sm:justify-between sm:gap-4 font-mono tabular">
                   <dt className="shrink-0 whitespace-nowrap font-sans text-faint">
                     {d.exit} {o.exitDate && <span className="text-xs">({o.exitDate})</span>}
                   </dt>
