@@ -79,7 +79,8 @@ Thêm object vào `src/data/milestones/<country>.json`:
 - [x] v0.3: thêm 9 nước top 10 GDP (Trung Quốc, Đức, Nhật, Ấn Độ, Anh, Pháp, Ý, Canada, Brazil) — tổng 252 mốc; mốc "bán khống/tránh xa" hiển thị % giảm
 - [ ] Thêm quốc gia mới (spec nghiên cứu mẫu: `docs/research-specs/`)
 - [x] v0.4: trang `/almanac` (Bảng giá theo năm, Việt Nam) + trang `/disclaimer` dùng chung — xem `docs/research/`
-- [ ] Giả lập trọng sinh (xem thiết kế trong `docs/research/simulator.md`, cần quyết định 10 câu hỏi mở trước khi code)
+- [x] v0.5: engine "Sổ trọng sinh" chạy được tại `/simulator` (beta) — pure TS engine (seeded RNG, vitest 24 test), trang chơi thử; DỮ LIỆU GIÁ ĐANG LÀ PLACEHOLDER chờ agent nghiên cứu thay bằng số liệu có nguồn (xem `docs/research/simulator.md`)
+- [ ] Thay `src/data/sim/vn.json` bằng dữ liệu thật đã kiểm chứng; mở rộng thẻ cơ hội, cân bằng game, thẻ kết quả PNG, bảng xếp hạng
 - [ ] Mở rộng almanac + milestone theo `docs/research/content-expansion.md` (cơ hội vốn nhỏ, kỹ năng nên học sớm, bỏ lỡ kinh điển)
 - [ ] Quy trình làm mới giá tự động theo `docs/research/data-quality.md`
 - [ ] SEO: OG image cho từng mốc, sitemap

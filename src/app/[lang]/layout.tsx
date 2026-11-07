@@ -39,6 +39,7 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[la
             <div className="flex items-center gap-4 text-sm text-muted sm:gap-5">
               <Link href={`/${lang}#countries`} className="hover:text-ink">{dict.nav.timeline}</Link>
               <Link href={`/${lang}/almanac`} className="hover:text-ink">{dict.nav.almanac}</Link>
+              <Link href={`/${lang}/simulator`} className="hover:text-ink">{dict.nav.simulator}</Link>
               <Link href={`/${lang}/quiz`} className="hover:text-ink">{dict.nav.quiz}</Link>
             </div>
             <div className="ml-auto">
