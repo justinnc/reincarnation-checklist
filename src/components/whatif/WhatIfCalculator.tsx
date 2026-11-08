@@ -141,12 +141,12 @@ export default function WhatIfCalculator({ lang }: { lang: Locale }) {
     <div className="space-y-6">
       <div className="rounded-3xl border border-line bg-surface p-6">
         <p className="text-sm font-semibold uppercase tracking-wider text-faint">{copy.countryLabel}</p>
-        <div className="no-scrollbar mt-3 flex gap-2 overflow-x-auto">
+        <div className="mt-3 flex flex-wrap gap-2">
           {countries.map((c) => (
             <button
               key={c.code}
               onClick={() => pickCountry(c.code)}
-              className={`shrink-0 rounded-full border px-3 py-1.5 text-sm ${
+              className={`rounded-full border px-3 py-1.5 text-sm ${
                 country === c.code ? "border-gold bg-gold/10 font-semibold" : "border-line text-muted hover:border-line-strong"
               }`}
             >
