@@ -39,6 +39,7 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[la
             <div className="no-scrollbar flex min-w-0 flex-1 items-center gap-4 overflow-x-auto whitespace-nowrap text-sm text-muted sm:gap-5">
               <Link href={`/${lang}#countries`} className="shrink-0 hover:text-ink">{dict.nav.timeline}</Link>
               <Link href={`/${lang}/almanac`} className="shrink-0 hover:text-ink">{dict.nav.almanac}</Link>
+              <Link href={`/${lang}/whatif`} className="shrink-0 font-semibold text-gold hover:brightness-110">{dict.nav.whatif}</Link>
               <Link href={`/${lang}/simulator`} className="shrink-0 hover:text-ink">{dict.nav.simulator}</Link>
               <Link href={`/${lang}/quiz`} className="shrink-0 hover:text-ink">{dict.nav.quiz}</Link>
             </div>

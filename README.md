@@ -83,7 +83,8 @@ Thêm object vào `src/data/milestones/<country>.json`:
 - [x] v0.6: ghép dữ liệu giá thật vào Sổ trọng sinh (CPI/FX/vàng/VN-Index/BTC có nguồn); nối cơ chế "thẻ cơ hội" vào gameplay (trước đó code có sẵn nhưng chưa dùng — nguyên nhân chính khiến game bị nhạt); hiện sự kiện nổi bật mỗi năm; nhật ký hành trình ở màn kết quả
 - [x] Bảng giá theo năm: thay chuỗi xăng RON92 4 điểm rời rạc bằng chuỗi 9 năm (2009-2017) có min/max/nguồn
 - [x] v0.7: Thiết kế lại hoàn toàn "Sổ trọng sinh" thành CARD GAME (chỉ Việt Nam), thay bản dashboard phân bổ vốn cũ. Xem docs/research/simulator-cardgame-redesign.md: nghiên cứu Reigns/High Society/Ai là triệu phú/bài cào để rút ra 6 quy tắc thiết kế, 20 lượt/ván (~2-4 phút), 37 lá (25 ký ức/tin đồn + 6 bẫy + 6 biến cố), cơ chế 💡 Nhớ lại, mô phỏng Monte Carlo xác nhận "biết lịch sử" (~7,5 tỷ) thắng "nhận hết" (~2,3 tỷ) thắng "ngẫu nhiên" (~0,28 tỷ). Xoá hoàn toàn engine v1 (src/lib/sim), viết mới src/lib/cardgame + src/components/cardgame
-- [ ] Cân bằng lại độ khó, mở rộng thư viện sự kiện, thẻ kết quả dạng ảnh, bảng xếp hạng "Đề của ngày"
+- [x] v0.8: THÊM trang /whatif ("Nếu bạn đã đầu tư") — công cụ what-if investment calculator, không phải game. Chọn tài sản (tiền mặt/tiết kiệm/USD/vàng SJC/VN-Index/Bitcoin) + năm bắt đầu + số tiền -> giá trị hôm nay, dùng lại dữ liệu giá thật đã nghiên cứu (src/data/whatif/vn.json, khôi phục từ git history). Trạng thái lưu trong URL query -> link chia sẻ tái tạo đúng kết quả. Nghiên cứu xác nhận thể loại này (FomoDejavu, WhatIfInvest.com) đã có traffic thật mà không cần gamify.
+- [ ] Cân bằng lại độ khó game bài, mở rộng thư viện sự kiện, thẻ kết quả dạng ảnh cho /simulator
 - [ ] Mở rộng almanac + milestone theo `docs/research/content-expansion.md` (cơ hội vốn nhỏ, kỹ năng nên học sớm, bỏ lỡ kinh điển)
 - [ ] Quy trình làm mới giá tự động theo `docs/research/data-quality.md`
 - [ ] SEO: OG image cho từng mốc, sitemap
