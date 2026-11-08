@@ -1,5 +1,7 @@
 export function fmtVnd(n: number): string {
-  return new Intl.NumberFormat("vi-VN").format(Math.round(n)) + " ₫";
+  const abs = Math.abs(n);
+  if (abs < 1_000_000) return new Intl.NumberFormat("vi-VN").format(Math.round(n)) + " \u20ab";
+  return new Intl.NumberFormat("vi-VN", { notation: "compact", compactDisplay: "long" }).format(n) + " \u20ab";
 }
 
 export function stakeLabel(stake: "quarter" | "half" | "all"): string {
