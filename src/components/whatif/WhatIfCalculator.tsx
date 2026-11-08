@@ -4,15 +4,19 @@ import { useMemo, useState } from "react";
 import { useRouter, useSearchParams, usePathname } from "next/navigation";
 import type { Locale } from "@/lib/i18n";
 import { formatMoney, formatMultiple } from "@/lib/format";
-import { ASSETS, assetMaxYear, computeWhatIf } from "@/lib/whatif/engine";
-import type { AssetId } from "@/lib/whatif/types";
+import { countries } from "@/lib/data";
+import { assetMaxYear, assetsForCountry, cashBaseline, computeWhatIf } from "@/lib/whatif/engine";
 
-const PRESET_AMOUNTS = [1_000_000, 10_000_000, 50_000_000, 100_000_000];
+const PRESET_AMOUNTS_VND = [1_000_000, 10_000_000, 50_000_000, 100_000_000];
+const PRESET_AMOUNTS_USD = [100, 1_000, 10_000, 100_000];
 
 const COPY = {
   vi: {
-    title: "Nếu bạn đã đầu tư...",
+    countryLabel: "Quốc gia",
     assetLabel: "Chọn một thứ để \"đầu tư\"",
+    universalHeading: "Đầu tư xuyên quốc gia (tính bằng USD)",
+    localHeading: "Thị trường trong nước",
+    noLocalNote: "Quốc gia này chưa có dữ liệu thị trường nội địa (lãi suất, chứng khoán riêng) — hiện chỉ có các tài sản đầu tư xuyên quốc gia dưới đây.",
     yearLabel: "Bắt đầu từ năm",
     amountLabel: "Số tiền bỏ ra",
     customAmount: "Số khác",
@@ -25,8 +29,11 @@ const COPY = {
     baseline: "So với để không (lạm phát ăn mòn)",
   },
   en: {
-    title: "If you had invested...",
+    countryLabel: "Country",
     assetLabel: "Pick something to \"invest\" in",
+    universalHeading: "Cross-border investments (in USD)",
+    localHeading: "Domestic market",
+    noLocalNote: "This country has no local-market dataset yet (savings rate, local stock index) — only the cross-border assets below are available.",
     yearLabel: "Starting year",
     amountLabel: "Amount",
     customAmount: "Custom",
@@ -46,39 +53,74 @@ export default function WhatIfCalculator({ lang }: { lang: Locale }) {
   const pathname = usePathname();
   const params = useSearchParams();
 
-  const [asset, setAsset] = useState<AssetId>((params.get("asset") as AssetId) || "vn_gold");
+  const [country, setCountry] = useState(params.get("country") || "vn");
+  const assets = useMemo(() => assetsForCountry(country), [country]);
+  const [assetId, setAssetId] = useState(params.get("asset") || assets[0]?.id || "vn_gold");
   const [year, setYear] = useState<number>(Number(params.get("year")) || 2010);
   const [amount, setAmount] = useState<number>(Number(params.get("amount")) || 10_000_000);
   const [customAmount, setCustomAmount] = useState("");
   const [copied, setCopied] = useState(false);
 
-  const def = ASSETS.find((a) => a.id === asset)!;
+  const asset = assets.find((a) => a.id === assetId) ?? assets[0];
   const maxYear = assetMaxYear(asset);
-  const minYear = Math.max(def.minYear, 1980);
+  const minYear = Math.max(asset.minYear, 1980);
+  const presets = asset.currency === "USD" ? PRESET_AMOUNTS_USD : PRESET_AMOUNTS_VND;
 
   const result = useMemo(() => {
     const y = Math.min(Math.max(year, minYear), maxYear);
     return computeWhatIf(asset, y, amount);
   }, [asset, year, amount, minYear, maxYear]);
 
-  const baseline = useMemo(() => computeWhatIf("cash", Math.min(Math.max(year, minYear), maxYear), amount), [year, amount, minYear, maxYear]);
+  const baseline = useMemo(() => {
+    const y = Math.min(Math.max(year, minYear), maxYear);
+    return cashBaseline(country, y, amount);
+  }, [country, year, amount, minYear, maxYear]);
 
-  const syncUrl = (next: { asset?: AssetId; year?: number; amount?: number }) => {
-    const a = next.asset ?? asset;
-    const y = next.year ?? year;
-    const amt = next.amount ?? amount;
-    const sp = new URLSearchParams({ asset: a, year: String(y), amount: String(amt) });
+  const syncUrl = (next: { country?: string; asset?: string; year?: number; amount?: number }) => {
+    const sp = new URLSearchParams({
+      country: next.country ?? country,
+      asset: next.asset ?? assetId,
+      year: String(next.year ?? year),
+      amount: String(next.amount ?? amount),
+    });
     router.replace(`${pathname}?${sp.toString()}`, { scroll: false });
   };
 
-  const pickAsset = (id: AssetId) => {
-    const newMax = assetMaxYear(id);
-    const newDef = ASSETS.find((a) => a.id === id)!;
-    const newMin = Math.max(newDef.minYear, 1980);
+  const DEFAULT_AMOUNT_VND = 10_000_000;
+  const DEFAULT_AMOUNT_USD = 1_000;
+
+  const pickCountry = (code: string) => {
+    const newAssets = assetsForCountry(code);
+    const newAsset = newAssets[0];
+    const newMax = assetMaxYear(newAsset);
+    const newMin = Math.max(newAsset.minYear, 1980);
     const y = Math.min(Math.max(year, newMin), newMax);
-    setAsset(id);
+    const currencyChanged = newAsset.currency !== asset.currency;
+    const newAmount = currencyChanged ? (newAsset.currency === "USD" ? DEFAULT_AMOUNT_USD : DEFAULT_AMOUNT_VND) : amount;
+    setCountry(code);
+    setAssetId(newAsset.id);
     setYear(y);
-    syncUrl({ asset: id, year: y });
+    if (currencyChanged) {
+      setAmount(newAmount);
+      setCustomAmount("");
+    }
+    syncUrl({ country: code, asset: newAsset.id, year: y, amount: newAmount });
+  };
+
+  const pickAsset = (id: string) => {
+    const newAsset = assets.find((a) => a.id === id)!;
+    const newMax = assetMaxYear(newAsset);
+    const newMin = Math.max(newAsset.minYear, 1980);
+    const y = Math.min(Math.max(year, newMin), newMax);
+    const currencyChanged = newAsset.currency !== asset.currency;
+    const newAmount = currencyChanged ? (newAsset.currency === "USD" ? DEFAULT_AMOUNT_USD : DEFAULT_AMOUNT_VND) : amount;
+    setAssetId(id);
+    setYear(y);
+    if (currencyChanged) {
+      setAmount(newAmount);
+      setCustomAmount("");
+    }
+    syncUrl({ asset: id, year: y, amount: newAmount });
   };
 
   const copyLink = async () => {
@@ -92,17 +134,57 @@ export default function WhatIfCalculator({ lang }: { lang: Locale }) {
     }
   };
 
+  const localAssets = assets.filter((a) => a.scope === "local");
+  const universalAssets = assets.filter((a) => a.scope === "universal");
+
   return (
     <div className="space-y-6">
       <div className="rounded-3xl border border-line bg-surface p-6">
-        <p className="text-sm font-semibold uppercase tracking-wider text-faint">{copy.assetLabel}</p>
-        <div className="mt-3 grid grid-cols-2 gap-2 sm:grid-cols-3">
-          {ASSETS.map((a) => (
+        <p className="text-sm font-semibold uppercase tracking-wider text-faint">{copy.countryLabel}</p>
+        <div className="no-scrollbar mt-3 flex gap-2 overflow-x-auto">
+          {countries.map((c) => (
+            <button
+              key={c.code}
+              onClick={() => pickCountry(c.code)}
+              className={`shrink-0 rounded-full border px-3 py-1.5 text-sm ${
+                country === c.code ? "border-gold bg-gold/10 font-semibold" : "border-line text-muted hover:border-line-strong"
+              }`}
+            >
+              {c.flag} {c.name[lang]}
+            </button>
+          ))}
+        </div>
+
+        {localAssets.length === 0 && <p className="mt-3 text-xs text-faint">{copy.noLocalNote}</p>}
+
+        <p className="mt-5 text-sm font-semibold uppercase tracking-wider text-faint">{copy.assetLabel}</p>
+        {localAssets.length > 0 && (
+          <>
+            <p className="mt-2 text-xs text-faint">{copy.localHeading}</p>
+            <div className="mt-1.5 grid grid-cols-2 gap-2 sm:grid-cols-3">
+              {localAssets.map((a) => (
+                <button
+                  key={a.id}
+                  onClick={() => pickAsset(a.id)}
+                  className={`rounded-xl border px-3 py-2.5 text-left text-sm transition ${
+                    assetId === a.id ? "border-gold bg-gold/10 font-semibold" : "border-line text-muted hover:border-line-strong"
+                  }`}
+                >
+                  <span className="mr-1.5">{a.icon}</span>
+                  {a.label[lang]}
+                </button>
+              ))}
+            </div>
+          </>
+        )}
+        <p className="mt-3 text-xs text-faint">{copy.universalHeading}</p>
+        <div className="mt-1.5 grid grid-cols-2 gap-2 sm:grid-cols-3">
+          {universalAssets.map((a) => (
             <button
               key={a.id}
               onClick={() => pickAsset(a.id)}
               className={`rounded-xl border px-3 py-2.5 text-left text-sm transition ${
-                asset === a.id ? "border-gold bg-gold/10 font-semibold" : "border-line text-muted hover:border-line-strong"
+                assetId === a.id ? "border-gold bg-gold/10 font-semibold" : "border-line text-muted hover:border-line-strong"
               }`}
             >
               <span className="mr-1.5">{a.icon}</span>
@@ -135,9 +217,11 @@ export default function WhatIfCalculator({ lang }: { lang: Locale }) {
         </div>
 
         <div className="mt-5">
-          <p className="text-sm font-semibold uppercase tracking-wider text-faint">{copy.amountLabel}</p>
+          <p className="text-sm font-semibold uppercase tracking-wider text-faint">
+            {copy.amountLabel} ({asset.currency})
+          </p>
           <div className="mt-2 flex flex-wrap gap-2">
-            {PRESET_AMOUNTS.map((p) => (
+            {presets.map((p) => (
               <button
                 key={p}
                 onClick={() => {
@@ -149,7 +233,7 @@ export default function WhatIfCalculator({ lang }: { lang: Locale }) {
                   amount === p && !customAmount ? "border-gold bg-gold/10 font-semibold" : "border-line text-muted"
                 }`}
               >
-                {formatMoney(p, "VND", lang)}
+                {formatMoney(p, asset.currency, lang)}
               </button>
             ))}
             <input
@@ -172,20 +256,20 @@ export default function WhatIfCalculator({ lang }: { lang: Locale }) {
 
       <div className="rounded-3xl border border-gold/40 bg-gradient-to-br from-gold/10 to-transparent p-8 text-center">
         <p className="text-sm text-muted">
-          {def.icon} {def.label[lang]} · {year} → {result.endYear}
+          {asset.icon} {asset.label[lang]} · {year} → {result.endYear}
         </p>
         <p className="mt-3 font-display text-4xl font-extrabold text-gold sm:text-5xl">
-          {formatMoney(result.finalValue, "VND", lang)}
+          {formatMoney(result.finalValue, result.currency, lang)}
         </p>
         <p className="mt-1 text-muted">
-          {copy.multiplePrefix} {formatMultiple(result.multiple, lang)} {copy.resultPrefix.replace(copy.multiplePrefix, "")}
+          {copy.multiplePrefix} {formatMultiple(result.multiple, lang)} {copy.resultPrefix}
         </p>
-        {asset !== "cash" && (
+        {baseline && asset.id !== `${country}_cash` && (
           <p className="mt-3 text-xs text-faint">
-            {copy.baseline}: {formatMoney(baseline.finalValue, "VND", lang)} ({formatMultiple(baseline.multiple, lang)})
+            {copy.baseline}: {formatMoney(baseline.finalValue, baseline.currency, lang)} ({formatMultiple(baseline.multiple, lang)})
           </p>
         )}
-        {def.caveat && <p className="mx-auto mt-4 max-w-md text-xs text-faint">⚠️ {copy.caveatLabel}: {def.caveat[lang]}</p>}
+        {asset.caveat && <p className="mx-auto mt-4 max-w-md text-xs text-faint">⚠️ {copy.caveatLabel}: {asset.caveat[lang]}</p>}
         <p className="mt-5 text-xs text-faint">{copy.screenshotHint}</p>
         <button
           onClick={copyLink}
