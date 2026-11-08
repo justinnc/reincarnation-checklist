@@ -1,105 +1,143 @@
 import { mulberry32, hashSeed } from "./rng";
-import { buildDeck } from "./deck";
-import { STARTING_CAPITAL, STARTING_RECALLS, TIERS } from "./types";
+import { buildBoard } from "./board";
+import {
+  STARTING_CAPITAL, STARTING_RECALLS, HEART_MAX, HEART_START, HEART_EXHAUSTED,
+  BIG_LOSS_HEART, REST_HEART, HOSPITAL_MULT, BROKE_BELOW, TIERS,
+} from "./types";
 import type { CardStat, Choice, GameState } from "./types";
 
 export function initGame(seed: number): GameState {
   return {
-    v: 2,
+    v: 3,
     seed,
-    turns: buildDeck(seed),
-    turnIndex: 0,
+    nodes: buildBoard(seed),
+    index: 0,
     wallet: STARTING_CAPITAL,
+    heart: HEART_START,
     recallsLeft: STARTING_RECALLS,
-    revealedTrapIds: new Set(),
+    revealedIds: new Set(),
     history: [],
     finished: false,
+    endedBy: null,
   };
 }
 
-function stakeAmount(wallet: number, stake: CardStat["stake"]): number {
-  if (stake === "quarter") return Math.round(wallet * 0.25);
-  if (stake === "half") return Math.round(wallet * 0.5);
-  return wallet;
+const STAKE_FRAC: Record<CardStat["stake"], number> = { quarter: 0.25, half: 0.5, all: 1 };
+
+function stakeAmount(wallet: number, stake: CardStat["stake"], size: "big" | "small"): number {
+  const frac = STAKE_FRAC[stake] * (size === "small" ? 0.5 : 1);
+  return Math.round(wallet * frac);
 }
 
-/** Deterministic per-(seed,turn) coin flip, independent across turns/replays. */
-function turnRng(seed: number, turnIndex: number, salt = ""): () => number {
-  return mulberry32(hashSeed(`${seed}:${turnIndex}:${salt}`) ^ seed);
+function turnRng(seed: number, index: number, salt = ""): () => number {
+  return mulberry32(hashSeed(`${seed}:${index}:${salt}`) ^ seed);
 }
 
-export function recall(state: GameState): GameState {
-  const turn = state.turns[state.turnIndex];
-  if (state.recallsLeft <= 0 || state.finished) return state;
-  const trapId =
-    turn.kind === "fork"
-      ? [turn.left, turn.right].find((c) => c.kind === "trap" && !state.revealedTrapIds.has(c.id))?.id
-      : turn.kind === "single" && turn.card.kind === "trap" && !state.revealedTrapIds.has(turn.card.id)
-        ? turn.card.id
-        : undefined;
-  if (!trapId) return state;
-  const revealed = new Set(state.revealedTrapIds);
-  revealed.add(trapId);
-  return { ...state, recallsLeft: state.recallsLeft - 1, revealedTrapIds: revealed };
-}
-
+/** Traps always resolve against their REAL hidden odds. 💡 only lets the player SEE
+ * the real numbers first; it never changes what actually happens when played. */
 function effectiveOdds(card: CardStat): { winIn10: number; winMult: number; loseMult: number; loseWhy: string } {
-  // Traps always resolve against their REAL hidden odds — the printed numbers are
-  // just what the card claims. 💡 only lets the player SEE the real numbers first;
-  // it never changes what actually happens when the card is played.
   if (card.kind === "trap" && card.real) return card.real;
   return card;
 }
 
+export function recall(state: GameState): GameState {
+  const node = state.nodes[state.index];
+  if (state.recallsLeft <= 0 || state.finished) return state;
+  const candidate =
+    node.kind === "fork"
+      ? [node.left, node.right].find((c) => c.kind !== "memory" && !state.revealedIds.has(c.id))
+      : node.kind === "single" && node.card.kind !== "memory" && !state.revealedIds.has(node.card.id)
+        ? node.card
+        : undefined;
+  if (!candidate) return state;
+  const revealed = new Set(state.revealedIds);
+  revealed.add(candidate.id);
+  return { ...state, recallsLeft: state.recallsLeft - 1, revealedIds: revealed };
+}
+
+function playCard(seed: number, index: number, wallet: number, heart: number, card: CardStat, size: "big" | "small") {
+  const odds = effectiveOdds(card);
+  const rng = turnRng(seed, index, "resolve");
+  const win = rng() < odds.winIn10 / 10;
+  const stake = stakeAmount(wallet, card.stake, size);
+  const after = Math.round(wallet - stake + stake * (win ? odds.winMult : odds.loseMult));
+  const heartAfter = !win && size === "big" ? Math.max(0, heart + BIG_LOSS_HEART) : heart;
+  const outcome: "win" | "lose" | "trapHit" = card.kind === "trap" ? "trapHit" : win ? "win" : "lose";
+  const label = `${card.verb}${win ? " — thành công" : ` — ${odds.loseWhy}`}`;
+  return { after, heartAfter, outcome, label };
+}
+
 export function resolveChoice(state: GameState, choice: Choice): GameState {
   if (state.finished) return state;
-  const turn = state.turns[state.turnIndex];
-  const idx = state.turnIndex;
+  const node = state.nodes[state.index];
+  const idx = state.index;
   const before = state.wallet;
+  const heartBefore = state.heart;
   let after = before;
-  let outcome: "win" | "lose" | "skip" | "event" | "trapAvoided" | "trapHit" = "skip";
+  let heartAfter = heartBefore;
+  let outcome: import("./types").Outcome = "rest";
   let label = "";
 
-  const playCard = (card: CardStat, salt: string) => {
-    const odds = effectiveOdds(card);
-    const rng = turnRng(state.seed, idx, salt);
-    const win = rng() < odds.winIn10 / 10;
-    const stake = stakeAmount(before, card.stake);
-    after = Math.round(before - stake + stake * (win ? odds.winMult : odds.loseMult));
-    outcome = card.kind === "trap" ? "trapHit" : win ? "win" : "lose";
-    label = `${card.verb}${win ? " — thành công" : ` — ${odds.loseWhy}`}`;
-  };
+  const exhausted = heartBefore <= HEART_EXHAUSTED;
 
-  if (turn.kind === "event") {
-    const w = turn.event.delta;
-    after = Math.round(Math.abs(w) < 1 ? before + before * w : before + w);
-    after = Math.max(0, after);
+  if (node.kind === "event") {
+    const opt = node.event.options[choice.t === "event" ? { a: 0, b: 1, c: 2 }[choice.option] : 1];
+    after = Math.abs(opt.money) < 1 ? Math.round(before * (1 + opt.money)) : Math.max(0, Math.round(before + opt.money));
+    heartAfter = Math.min(HEART_MAX, Math.max(0, heartBefore + opt.heart));
     outcome = "event";
-    label = turn.event.title;
-  } else if (turn.kind === "single") {
-    if (choice.t === "accept") {
-      playCard(turn.card, "resolve");
+    label = `${node.event.title} — ${opt.label}`;
+  } else if (node.kind === "single") {
+    if (choice.t === "rest") {
+      heartAfter = Math.min(HEART_MAX, heartBefore + REST_HEART);
+      outcome = "rest";
+      label = `${node.card.verb} — nghỉ ngơi`;
     } else {
-      outcome = turn.card.kind === "trap" ? "trapAvoided" : "skip";
-      label = `${turn.card.verb} — bỏ qua`;
+      const size = choice.t === "big" && !exhausted ? "big" : "small";
+      const r = playCard(state.seed, idx, before, heartBefore, node.card, size);
+      after = r.after;
+      heartAfter = r.heartAfter;
+      outcome = r.outcome;
+      label = r.label;
     }
-  } else if (turn.kind === "fork") {
-    if (choice.t === "pickLeft" || choice.t === "pickRight") {
-      const card = choice.t === "pickLeft" ? turn.left : turn.right;
-      playCard(card, "resolve");
+  } else if (node.kind === "fork") {
+    if (choice.t === "lane") {
+      const card = choice.side === "left" ? node.left : node.right;
+      const size = exhausted ? "small" : "big";
+      const r = playCard(state.seed, idx, before, heartBefore, card, size);
+      after = r.after;
+      heartAfter = r.heartAfter;
+      outcome = r.outcome;
+      label = r.label;
     } else {
-      outcome = "skip";
-      label = "Bỏ cả hai lá";
+      heartAfter = Math.min(HEART_MAX, heartBefore + REST_HEART);
+      outcome = "rest";
+      label = "Nghỉ cả hai làn";
     }
   }
 
-  const history = [...state.history, { turnIndex: idx, outcome, usedRecall: false, before, after, label }];
   const nextIndex = idx + 1;
+  let endedBy: GameState["endedBy"] = null;
+  if (heartAfter <= 0) {
+    after = Math.round(after * HOSPITAL_MULT);
+    endedBy = "hospital";
+  } else if (after < BROKE_BELOW) {
+    endedBy = "broke";
+  } else if (nextIndex >= state.nodes.length) {
+    endedBy = "finish";
+  }
+
+  const history = [
+    ...state.history,
+    { index: idx, choice, outcome, usedRecall: false, before, after, heartBefore, heartAfter, label },
+  ];
+
   return {
     ...state,
     wallet: after,
-    turnIndex: nextIndex,
-    finished: nextIndex >= state.turns.length,
+    heart: heartAfter,
+    index: nextIndex,
+    finished: endedBy !== null,
+    endedBy,
     history,
   };
 }
@@ -113,4 +151,11 @@ export function tierOf(wallet: number): (typeof TIERS)[number] {
 export function nextTier(wallet: number) {
   const idx = TIERS.findIndex((t) => t.id === tierOf(wallet).id);
   return idx + 1 < TIERS.length ? TIERS[idx + 1] : null;
+}
+
+export function heartTitle(heart: number): { vi: string; icon: string } {
+  if (heart >= 7) return { vi: "an nhàn", icon: "🌿" };
+  if (heart >= 4) return { vi: "vất vả", icon: "😮‍💨" };
+  if (heart >= 1) return { vi: "kiệt sức", icon: "🥵" };
+  return { vi: "nhập viện", icon: "🏥" };
 }

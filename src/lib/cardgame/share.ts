@@ -5,8 +5,8 @@ export function todaySeedString(d = new Date()): string {
   return `${y}${m}${day}`;
 }
 
-export function encodeShare(seed: number, result: { wallet: number; tier: string }): string {
-  const payload = JSON.stringify({ v: 2, seed, w: result.wallet, t: result.tier });
+export function encodeShare(seed: number, result: { wallet: number; heart: number; tier: string }): string {
+  const payload = JSON.stringify({ v: 3, seed, w: result.wallet, h: result.heart, t: result.tier });
   if (typeof window === "undefined") return Buffer.from(payload).toString("base64url");
   return btoa(unescape(encodeURIComponent(payload))).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
 }

@@ -38,12 +38,54 @@ export const TRAP_CARDS: CardStat[] = [
 ];
 
 export const EVENTS: EventStat[] = [
-  { id: "e-wedding", icon: "💍", title: "Đám cưới", story: "Bạn tổ chức đám cưới — tốn một khoản nhưng cũng nhận tiền mừng.", delta: -0.03 },
-  { id: "e-childbirth", icon: "👶", title: "Con chào đời", story: "Thêm một thành viên gia đình — chi phí nuôi con tăng dần.", delta: -0.02 },
-  { id: "e-parent-illness", icon: "🏥", title: "Cha mẹ ốm", story: "Bạn lo viện phí cho cha mẹ.", delta: -30000000 },
-  { id: "e-bonus", icon: "🧧", title: "Thưởng Tết đậm", story: "Công việc thuận lợi, bạn nhận thưởng lớn.", delta: 0.05 },
-  { id: "e-scam", icon: "😓", title: "Bị lừa góp vốn", story: "Một người quen rủ góp vốn làm ăn — hoá ra là lừa đảo.", delta: -0.08 },
-  { id: "e-crisis", icon: "💥", title: "Khủng hoảng ập đến", story: "Thị trường chung hoảng loạn, tài sản bốc hơi một phần.", delta: -0.1 },
+  {
+    id: "e-wedding", icon: "💍", title: "Đám cưới", story: "Bạn tổ chức đám cưới — tốn một khoản nhưng cũng nhận tiền mừng.",
+    options: [
+      { id: "a", icon: "🎉", label: "Cưới lớn", money: -0.06, heart: 2 },
+      { id: "b", icon: "🥂", label: "Cưới vừa", money: -0.03, heart: 1 },
+      { id: "c", icon: "📝", label: "Đăng ký, mời cơm thân", money: 0, heart: 0 },
+    ],
+  },
+  {
+    id: "e-childbirth", icon: "👶", title: "Con chào đời", story: "Thêm một thành viên gia đình — chi phí nuôi con tăng dần.",
+    options: [
+      { id: "a", icon: "🧑‍🍼", label: "Thuê người giúp", money: -0.04, heart: 0 },
+      { id: "b", icon: "👵", label: "Nhờ ông bà phụ", money: -0.02, heart: -1 },
+      { id: "c", icon: "😮‍💨", label: "Tự xoay xở", money: 0, heart: -2 },
+    ],
+  },
+  {
+    id: "e-parent-illness", icon: "🏥", title: "Cha mẹ ốm", story: "Bạn lo viện phí cho cha mẹ.",
+    options: [
+      { id: "a", icon: "🏨", label: "Chuyển viện tuyến trên", money: -30_000_000, heart: 0 },
+      { id: "b", icon: "🩺", label: "Viện tỉnh, tự thức đêm chăm", money: -10_000_000, heart: -2 },
+      { id: "c", icon: "🙏", label: "Nhờ anh chị em lo", money: 0, heart: -3 },
+    ],
+  },
+  {
+    id: "e-bonus", icon: "🧧", title: "Thưởng Tết đậm", story: "Công việc thuận lợi, bạn nhận thưởng lớn.",
+    options: [
+      { id: "a", icon: "💼", label: "Giữ cả, đi làm từ mùng 4", money: 0.05, heart: 0 },
+      { id: "b", icon: "🧧", label: "Biếu bố mẹ, về quê ăn Tết", money: 0.02, heart: 1 },
+      { id: "c", icon: "✈️", label: "Cả nhà đi du lịch", money: 0, heart: 2 },
+    ],
+  },
+  {
+    id: "e-scam", icon: "😓", title: "Bị lừa góp vốn", story: "Một người quen rủ góp vốn làm ăn — hoá ra là lừa đảo.",
+    options: [
+      { id: "a", icon: "⚖️", label: "Theo kiện tới cùng", money: -0.04, heart: -3 },
+      { id: "b", icon: "📘", label: "Coi như học phí", money: -0.08, heart: -1 },
+      { id: "c", icon: "🛌", label: "Nghỉ một tháng cho nguôi", money: -0.1, heart: 0 },
+    ],
+  },
+  {
+    id: "e-crisis", icon: "💥", title: "Khủng hoảng ập đến", story: "Thị trường chung hoảng loạn, tài sản bốc hơi một phần.",
+    options: [
+      { id: "a", icon: "💪", label: "Làm thêm bù lỗ", money: -0.05, heart: -3 },
+      { id: "b", icon: "⏳", label: "Gồng chờ hồi", money: -0.1, heart: -2 },
+      { id: "c", icon: "✂️", label: "Cắt lỗ cho nhẹ đầu", money: -0.15, heart: 0 },
+    ],
+  },
 ];
 
 export const ALL_CARDS: CardStat[] = [...MEMORY_CARDS, ...TRAP_CARDS];

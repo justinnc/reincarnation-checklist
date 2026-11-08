@@ -3,24 +3,27 @@ export type CardKind = "memory" | "rumor" | "trap";
 
 export interface CardStat {
   id: string;
-  /** Links to src/data/milestones/vn.json for title/summary/insiderTip/pitfalls/sources. */
   milestoneId: string;
   kind: CardKind;
   year: number;
   icon: string;
-  /** Short verb-first action line, e.g. "Mua đất đầm lầy Nam Sài Gòn". */
   verb: string;
-  /** One-line flavor/story, ≤1 sentence. */
   story: string;
   stake: Stake;
-  /** Odds out of 10 of the GOOD outcome, as printed on the card face. */
   winIn10: number;
   winMult: number;
   loseMult: number;
-  /** Short reason for the bad outcome, e.g. "kẹt vốn, phải bán lỗ". */
   loseWhy: string;
-  /** For trap cards only: the REAL odds/outcome, revealed by 💡 or after choosing. */
   real?: { winIn10: number; winMult: number; loseMult: number; loseWhy: string; explain: string };
+}
+
+export interface EventOption {
+  id: "a" | "b" | "c";
+  icon: string;
+  label: string;
+  /** |money| < 1 => fraction of current wallet; otherwise a fixed VND delta. */
+  money: number;
+  heart: number;
 }
 
 export interface EventStat {
@@ -28,47 +31,60 @@ export interface EventStat {
   icon: string;
   title: string;
   story: string;
-  /** Fixed nominal VND delta (can be negative). */
-  delta: number;
+  options: [EventOption, EventOption, EventOption];
 }
 
-export type Turn =
-  | { kind: "single"; card: CardStat }
-  | { kind: "fork"; left: CardStat; right: CardStat }
-  | { kind: "event"; event: EventStat };
+export type BoardNode =
+  | { kind: "single"; year: number; card: CardStat }
+  | { kind: "fork"; year: number; left: CardStat; right: CardStat }
+  | { kind: "event"; year: number; approx: true; event: EventStat };
 
 export type Choice =
-  | { t: "accept" }
-  | { t: "skip" }
-  | { t: "pickLeft" }
-  | { t: "pickRight" }
-  | { t: "skipBoth" }
-  | { t: "ack" };
+  | { t: "big" }
+  | { t: "small" }
+  | { t: "rest" }
+  | { t: "lane"; side: "left" | "right" }
+  | { t: "event"; option: "a" | "b" | "c" };
 
-export interface TurnRecord {
-  turnIndex: number;
-  outcome: "win" | "lose" | "skip" | "event" | "trapAvoided" | "trapHit";
+export type Outcome = "win" | "lose" | "rest" | "event" | "trapAvoided" | "trapHit";
+
+export interface NodeRecord {
+  index: number;
+  choice: Choice;
+  outcome: Outcome;
   usedRecall: boolean;
   before: number;
   after: number;
+  heartBefore: number;
+  heartAfter: number;
   label: string;
 }
 
 export interface GameState {
-  v: 2;
+  v: 3;
   seed: number;
-  turns: Turn[];
-  turnIndex: number;
+  nodes: BoardNode[];
+  index: number;
   wallet: number;
+  heart: number;
   recallsLeft: number;
-  revealedTrapIds: Set<string>;
-  history: TurnRecord[];
+  revealedIds: Set<string>;
+  history: NodeRecord[];
   finished: boolean;
+  endedBy: null | "finish" | "hospital" | "broke";
 }
 
 export const STARTING_CAPITAL = 50_000_000;
-export const TOTAL_TURNS = 20;
+export const TOTAL_NODES = 20;
 export const STARTING_RECALLS = 3;
+
+export const HEART_MAX = 10;
+export const HEART_START = 10;
+export const HEART_EXHAUSTED = 3; // heart <= this locks "big" and fork-lanes downgrade to "small"
+export const BIG_LOSS_HEART = -2;
+export const REST_HEART = 1;
+export const HOSPITAL_MULT = 0.5;
+export const BROKE_BELOW = 1_000_000;
 
 export const TIERS = [
   { id: "pham_nhan", label: "Phàm nhân", min: 0 },
