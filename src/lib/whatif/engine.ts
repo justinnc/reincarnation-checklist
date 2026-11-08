@@ -210,3 +210,39 @@ export function cashBaseline(countryCode: string, startYear: number, amount: num
   const asset = localAssetsFor(countryCode).find((a) => a.id === cashId);
   return asset ? computeWhatIf(asset, startYear, amount, endYear) : null;
 }
+
+/** For countries whose local series only start after a currency changeover, the single
+ * best-documented real historical opportunity is usually the window BEFORE that boundary
+ * (e.g. the 1995-1998 Euro-convergence bond trade, or betting on Brazil's hyperinflation
+ * ending) — which this calculator can't model with a simple "hold currency X" asset.
+ * Point people at the detailed milestone entry instead of letting them think data is missing. */
+export const PRE_BOUNDARY_NOTE: Record<string, { milestoneId: string; text: { vi: string; en: string } }> = {
+  de: {
+    milestoneId: "de-euro-cash-launch-2002",
+    text: {
+      vi: "Cơ hội lớn nhất ở Đức thực ra nằm ở giai đoạn trước 1999 — biết trước tỷ giá Mark/Euro cố định giúp định giá chính xác tài sản DM.",
+      en: "Germany's biggest documented opportunity is actually the pre-1999 window — knowing the fixed DM/Euro rate in advance let you value DM assets with certainty.",
+    },
+  },
+  fr: {
+    milestoneId: "fr-euro-introduction-1999",
+    text: {
+      vi: "Cơ hội lớn nhất ở Pháp nằm ở giai đoạn 1995-1998: mua trái phiếu franc lãi suất cao, ăn chênh lệch khi lợi suất hội tụ về mức Đức trước khi vào khối Euro.",
+      en: "France's biggest documented opportunity is 1995-1998: buying high-yield franc bonds and profiting as yields converged toward Germany's ahead of the Euro.",
+    },
+  },
+  it: {
+    milestoneId: "it-euro-conversion-1999",
+    text: {
+      vi: "Cơ hội lớn nhất ở Ý nằm ở giai đoạn 1995-1998: mua trái phiếu BTP lira lãi suất cao, ăn chênh lệch gần như không rủi ro khi lợi suất hội tụ về mức Đức.",
+      en: "Italy's biggest documented opportunity is 1995-1998: buying high-yield lira BTP bonds and capturing a near-riskless gain as yields converged toward Germany's.",
+    },
+  },
+  br: {
+    milestoneId: "br-plano-real-1994",
+    text: {
+      vi: "Cơ hội lớn nhất ở Brazil nằm ở chính giai đoạn siêu lạm phát 1986-1994 — biết trước ngày Plano Real thành công giúp giữ tài sản đúng lúc, tránh các lần đổi tiền thất bại trước đó.",
+      en: "Brazil's biggest documented opportunity is the 1986-1994 hyperinflation era itself — knowing in advance that Plano Real would succeed let you hold assets through it, unlike the earlier failed currency plans.",
+    },
+  },
+};

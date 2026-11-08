@@ -5,7 +5,8 @@ import { useRouter, useSearchParams, usePathname } from "next/navigation";
 import type { Locale } from "@/lib/i18n";
 import { formatMoney, formatMultiple } from "@/lib/format";
 import { countries } from "@/lib/data";
-import { assetMaxYear, assetsForCountry, cashBaseline, computeWhatIf } from "@/lib/whatif/engine";
+import Link from "next/link";
+import { assetMaxYear, assetsForCountry, cashBaseline, computeWhatIf, PRE_BOUNDARY_NOTE } from "@/lib/whatif/engine";
 
 const PRESET_AMOUNTS_VND = [1_000_000, 10_000_000, 50_000_000, 100_000_000];
 const PRESET_AMOUNTS_USD = [100, 1_000, 10_000, 100_000];
@@ -156,6 +157,15 @@ export default function WhatIfCalculator({ lang }: { lang: Locale }) {
         </div>
 
         {localAssets.length === 0 && <p className="mt-3 text-xs text-faint">{copy.noLocalNote}</p>}
+
+        {PRE_BOUNDARY_NOTE[country] && (
+          <p className="mt-3 rounded-lg bg-gold/10 p-3 text-xs text-muted">
+            💡 {PRE_BOUNDARY_NOTE[country].text[lang]}{" "}
+            <Link href={`/${lang}/${country}/${PRE_BOUNDARY_NOTE[country].milestoneId}`} className="font-semibold text-gold underline">
+              {lang === "vi" ? "Xem mốc lịch sử →" : "See the milestone →"}
+            </Link>
+          </p>
+        )}
 
         <p className="mt-5 text-sm font-semibold uppercase tracking-wider text-faint">{copy.assetLabel}</p>
         {localAssets.length > 0 && (
