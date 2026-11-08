@@ -6,7 +6,6 @@ import { getDictionary } from "@/lib/dictionaries";
 import { allMilestones, getCountry, getMilestone, getMilestones } from "@/lib/data";
 import { formatDate, formatDrop, formatMoney, formatMultiple } from "@/lib/format";
 import { DropBadge, MultipleBadge, RiskBadge, UnverifiedBadge } from "@/components/Badges";
-import CheckButton from "@/components/CheckButton";
 
 export async function generateStaticParams() {
   return locales.flatMap((lang) => allMilestones.map((m) => ({ lang, country: m.country, id: m.id })));
@@ -77,7 +76,6 @@ export default async function MilestonePage({ params }: PageProps<"/[lang]/[coun
           ) : o.returnMultiple ? (
             <MultipleBadge text={formatMultiple(o.returnMultiple, lang)} large />
           ) : null}
-          <CheckButton id={m.id} label={tl.add} labelOn={tl.added} />
         </div>
       </header>
 

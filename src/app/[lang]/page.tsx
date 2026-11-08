@@ -5,7 +5,6 @@ import { getDictionary } from "@/lib/dictionaries";
 import { allMilestones, countries, countryStats, getCountry, yearOf } from "@/lib/data";
 import { formatMoney, formatMultiple } from "@/lib/format";
 import RebirthPicker from "@/components/RebirthPicker";
-import ChecklistProgress from "@/components/ChecklistProgress";
 
 export default async function Home({ params }: PageProps<"/[lang]">) {
   const { lang } = await params;
@@ -98,9 +97,6 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
                 <div className="mt-1 text-sm text-muted">
                   <span className="font-mono tabular text-ink">{s.count}</span> {dict.home.milestones} ·{" "}
                   <span className="font-mono tabular text-ink">{s.verified}</span> {dict.home.verified}
-                </div>
-                <div className="mt-5">
-                  <ChecklistProgress ids={allMilestones.filter((m) => m.country === c.code).map((m) => m.id)} label={dict.timeline.progress} />
                 </div>
               </Link>
             );

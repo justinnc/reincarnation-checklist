@@ -4,7 +4,6 @@ import type { Country, Milestone } from "@/lib/types";
 import type { Dictionary } from "@/lib/dictionaries";
 import { formatDate, formatDrop, formatMoney, formatMultiple } from "@/lib/format";
 import { DropBadge, MultipleBadge, RiskBadge, UnverifiedBadge } from "./Badges";
-import CheckButton from "./CheckButton";
 
 type Props = { m: Milestone; lang: Locale; dict: Dictionary["timeline"]; country: Country };
 
@@ -13,23 +12,18 @@ export default function MilestoneCard({ m, lang, dict, country }: Props) {
   const href = `/${lang}/${m.country}/${m.id}`;
   return (
     <article className="group rounded-2xl border border-line bg-surface p-4 transition-colors hover:border-line-strong sm:p-6">
-      <div className="flex items-start gap-4">
-        <div className="min-w-0 flex-1">
-          <div className="flex flex-wrap items-center gap-2 text-xs">
-            <time className="font-mono tabular text-gold">{formatDate(m.date, lang)}</time>
-            <span className="text-faint">·</span>
-            <span className="text-muted">{dict.categories[m.category]}</span>
-            {!m.verified && <UnverifiedBadge label={dict.unverified} />}
-          </div>
-          <h3 className="mt-2 font-display text-xl font-bold leading-snug sm:text-2xl">
-            <Link href={href} className="hover:text-gold">
-              {t(m.title, lang)}
-            </Link>
-          </h3>
-          <p className="mt-2 text-[15px] leading-relaxed text-muted">{t(m.summary ?? m.description, lang)}</p>
-        </div>
-        <CheckButton id={m.id} label={dict.add} labelOn={dict.added} compact />
+      <div className="flex flex-wrap items-center gap-2 text-xs">
+        <time className="font-mono tabular text-gold">{formatDate(m.date, lang)}</time>
+        <span className="text-faint">·</span>
+        <span className="text-muted">{dict.categories[m.category]}</span>
+        {!m.verified && <UnverifiedBadge label={dict.unverified} />}
       </div>
+      <h3 className="mt-2 font-display text-xl font-bold leading-snug sm:text-2xl">
+        <Link href={href} className="hover:text-gold">
+          {t(m.title, lang)}
+        </Link>
+      </h3>
+      <p className="mt-2 text-[15px] leading-relaxed text-muted">{t(m.summary ?? m.description, lang)}</p>
 
       <div className="mt-5 rounded-xl bg-raised p-4">
         <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">

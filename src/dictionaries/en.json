@@ -7,7 +7,6 @@
   "nav": {
     "timeline": "Timelines",
     "quiz": "Quiz",
-    "checklist": "My checklist",
     "almanac": "Price Almanac",
     "disclaimer": "Full disclaimer",
     "simulator": "Simulator",
@@ -44,7 +43,6 @@
     "risk": "Risk",
     "empty": "Nothing matches. Clear a filter.",
     "clear": "Clear filters",
-    "progress": "on your checklist",
     "range": "Covers",
     "best": "Best multiple",
     "count": "Milestones",
@@ -59,8 +57,6 @@
     "unverified": "Unverified",
     "verified": "Verified",
     "readMore": "Details",
-    "add": "Add to checklist",
-    "added": "On checklist",
     "levels": {
       "low": "Low",
       "medium": "Medium",

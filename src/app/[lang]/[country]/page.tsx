@@ -6,7 +6,6 @@ import { countries, countryStats, getCountry, getMilestones } from "@/lib/data";
 import { formatMultiple } from "@/lib/format";
 import Timeline from "@/components/Timeline";
 import MilestoneCard from "@/components/MilestoneCard";
-import ChecklistProgress from "@/components/ChecklistProgress";
 
 export async function generateStaticParams() {
   return locales.flatMap((lang) => countries.map((c) => ({ lang, country: c.code })));
@@ -35,9 +34,6 @@ export default async function CountryPage({ params }: PageProps<"/[lang]/[countr
         <div>
           <div className="text-6xl">{c.flag}</div>
           <h1 className="mt-3 font-display text-5xl font-extrabold leading-[1.1] tracking-tight sm:text-6xl">{t(c.name, lang)}</h1>
-          <div className="mt-4">
-            <ChecklistProgress ids={list.map((m) => m.id)} label={dict.timeline.progress} />
-          </div>
         </div>
         <dl className="grid grid-cols-3 gap-4 rounded-2xl border border-line bg-surface p-4 font-mono tabular sm:gap-6 sm:p-5">
           <div>
