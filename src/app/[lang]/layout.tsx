@@ -4,6 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { hasLocale, locales } from "@/lib/i18n";
 import { getDictionary } from "@/lib/dictionaries";
+import { SITE_URL, localeAlternates } from "@/lib/seo";
 import LangSwitch from "@/components/LangSwitch";
 import "../globals.css";
 
@@ -19,7 +20,21 @@ export async function generateMetadata({ params }: LayoutProps<"/[lang]">): Prom
   const { lang } = await params;
   if (!hasLocale(lang)) return {};
   const dict = await getDictionary(lang);
-  return { title: { default: dict.site.name, template: `%s · ${dict.site.name}` }, description: dict.site.tagline };
+  return {
+    metadataBase: new URL(SITE_URL),
+    title: { default: dict.site.name, template: `%s · ${dict.site.name}` },
+    description: dict.site.tagline,
+    alternates: { canonical: `${SITE_URL}/${lang}`, languages: localeAlternates("") },
+    openGraph: { images: ["/opengraph-image"],
+      type: "website",
+      siteName: dict.site.name,
+      title: dict.site.name,
+      description: dict.site.tagline,
+      locale: lang === "vi" ? "vi_VN" : "en_US",
+      url: `${SITE_URL}/${lang}`,
+    },
+    twitter: { card: "summary_large_image", title: dict.site.name, description: dict.site.tagline },
+  };
 }
 
 export default async function RootLayout({ children, params }: LayoutProps<"/[lang]">) {

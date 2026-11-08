@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { hasLocale } from "@/lib/i18n";
+import { localeAlternates, SITE_URL } from "@/lib/seo";
 import CardGameApp from "@/components/cardgame/CardGameApp";
-
-export const metadata: Metadata = { title: "Sổ trọng sinh — Bản đồ 1986-2024" };
 
 const COPY = {
   vi: {
@@ -22,6 +21,18 @@ const COPY = {
       "A card game based on real Vietnam historical milestones. Numbers and odds on each card are rounded for gameplay, not precise financial data, and not investment advice.",
   },
 };
+
+export async function generateMetadata({ params }: PageProps<"/[lang]/simulator">): Promise<Metadata> {
+  const { lang } = await params;
+  if (!hasLocale(lang)) return {};
+  const copy = COPY[lang];
+  return {
+    title: copy.heading,
+    description: copy.intro,
+    alternates: { canonical: `${SITE_URL}/${lang}/simulator`, languages: localeAlternates("/simulator") },
+    openGraph: { images: ["/opengraph-image"], title: copy.heading, description: copy.intro, url: `/${lang}/simulator` },
+  };
+}
 
 export default async function SimulatorPage({ params }: PageProps<"/[lang]/simulator">) {
   const { lang } = await params;

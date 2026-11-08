@@ -2,9 +2,8 @@ import type { Metadata } from "next";
 import { Suspense } from "react";
 import { notFound } from "next/navigation";
 import { hasLocale } from "@/lib/i18n";
+import { localeAlternates, SITE_URL } from "@/lib/seo";
 import WhatIfCalculator from "@/components/whatif/WhatIfCalculator";
-
-export const metadata: Metadata = { title: "Nếu bạn đã đầu tư..." };
 
 const COPY = {
   vi: {
@@ -22,6 +21,18 @@ const COPY = {
       "Based on researched historical data (CPI, FX, SJC gold, VN-Index, Bitcoin). Does not account for taxes, fees, or dividends. Some years are estimated/proxy data, flagged under each option. Not investment advice.",
   },
 };
+
+export async function generateMetadata({ params }: PageProps<"/[lang]/whatif">): Promise<Metadata> {
+  const { lang } = await params;
+  if (!hasLocale(lang)) return {};
+  const copy = COPY[lang];
+  return {
+    title: copy.heading,
+    description: copy.intro,
+    alternates: { canonical: `${SITE_URL}/${lang}/whatif`, languages: localeAlternates("/whatif") },
+    openGraph: { images: ["/opengraph-image"], title: copy.heading, description: copy.intro, url: `/${lang}/whatif` },
+  };
+}
 
 export default async function WhatIfPage({ params }: PageProps<"/[lang]/whatif">) {
   const { lang } = await params;

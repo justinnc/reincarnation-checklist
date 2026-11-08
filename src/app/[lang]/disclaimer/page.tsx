@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { hasLocale } from "@/lib/i18n";
-
-export const metadata: Metadata = { title: "Disclaimer" };
+import { localeAlternates, SITE_URL } from "@/lib/seo";
 
 const COPY = {
   vi: {
@@ -66,6 +65,19 @@ const COPY = {
     ],
   },
 };
+
+export async function generateMetadata({ params }: PageProps<"/[lang]/disclaimer">): Promise<Metadata> {
+  const { lang } = await params;
+  if (!hasLocale(lang)) return {};
+  const copy = COPY[lang];
+  const description = copy.sections[0]?.p.slice(0, 160);
+  return {
+    title: copy.heading,
+    description,
+    alternates: { canonical: `${SITE_URL}/${lang}/disclaimer`, languages: localeAlternates("/disclaimer") },
+    openGraph: { images: ["/opengraph-image"], title: copy.heading, description, url: `/${lang}/disclaimer` },
+  };
+}
 
 export default async function DisclaimerPage({ params }: PageProps<"/[lang]/disclaimer">) {
   const { lang } = await params;

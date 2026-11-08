@@ -3,9 +3,20 @@ import { notFound } from "next/navigation";
 import { hasLocale } from "@/lib/i18n";
 import { getDictionary } from "@/lib/dictionaries";
 import { allMilestones, countries } from "@/lib/data";
+import { localeAlternates, SITE_URL } from "@/lib/seo";
 import Quiz from "@/components/Quiz";
 
-export const metadata: Metadata = { title: "Quiz" };
+export async function generateMetadata({ params }: PageProps<"/[lang]/quiz">): Promise<Metadata> {
+  const { lang } = await params;
+  if (!hasLocale(lang)) return {};
+  const dict = await getDictionary(lang);
+  return {
+    title: dict.quiz.heading,
+    description: dict.quiz.intro,
+    alternates: { canonical: `${SITE_URL}/${lang}/quiz`, languages: localeAlternates("/quiz") },
+    openGraph: { images: ["/opengraph-image"], title: dict.quiz.heading, description: dict.quiz.intro, url: `/${lang}/quiz` },
+  };
+}
 
 export default async function QuizPage({ params }: PageProps<"/[lang]/quiz">) {
   const { lang } = await params;

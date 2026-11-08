@@ -4,6 +4,7 @@ import { hasLocale, locales, t } from "@/lib/i18n";
 import { getDictionary } from "@/lib/dictionaries";
 import { countries, countryStats, getCountry, getMilestones } from "@/lib/data";
 import { formatMultiple } from "@/lib/format";
+import { localeAlternates, SITE_URL } from "@/lib/seo";
 import Timeline from "@/components/Timeline";
 import MilestoneCard from "@/components/MilestoneCard";
 
@@ -15,7 +16,18 @@ export async function generateMetadata({ params }: PageProps<"/[lang]/[country]"
   const { lang, country } = await params;
   const c = getCountry(country);
   if (!hasLocale(lang) || !c) return {};
-  return { title: t(c.name, lang) };
+  const s = countryStats(country);
+  const name = t(c.name, lang);
+  const description =
+    lang === "vi"
+      ? `${s.count} mốc lịch sử tài chính của ${name} từ ${s.from} đến ${s.to} — cơ hội làm giàu nếu bạn trọng sinh và biết trước.`
+      : `${s.count} real financial milestones in ${name} from ${s.from} to ${s.to} — opportunities you'd know about if reincarnated.`;
+  return {
+    title: name,
+    description,
+    alternates: { canonical: `${SITE_URL}/${lang}/${country}`, languages: localeAlternates(`/${country}`) },
+    openGraph: { images: ["/opengraph-image"], title: name, description, url: `/${lang}/${country}` },
+  };
 }
 
 export default async function CountryPage({ params }: PageProps<"/[lang]/[country]">) {

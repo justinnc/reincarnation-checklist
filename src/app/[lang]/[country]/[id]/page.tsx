@@ -5,6 +5,7 @@ import { hasLocale, locales, t } from "@/lib/i18n";
 import { getDictionary } from "@/lib/dictionaries";
 import { allMilestones, getCountry, getMilestone, getMilestones } from "@/lib/data";
 import { formatDate, formatDrop, formatMoney, formatMultiple } from "@/lib/format";
+import { localeAlternates, SITE_URL } from "@/lib/seo";
 import { DropBadge, MultipleBadge, RiskBadge, UnverifiedBadge } from "@/components/Badges";
 
 export async function generateStaticParams() {
@@ -15,7 +16,15 @@ export async function generateMetadata({ params }: PageProps<"/[lang]/[country]/
   const { lang, country, id } = await params;
   const m = getMilestone(country, id);
   if (!hasLocale(lang) || !m) return {};
-  return { title: t(m.title, lang), description: t(m.summary ?? m.description, lang) };
+  const title = t(m.title, lang);
+  const description = t(m.summary ?? m.description, lang);
+  const path = `/${country}/${id}`;
+  return {
+    title,
+    description,
+    alternates: { canonical: `${SITE_URL}/${lang}${path}`, languages: localeAlternates(path) },
+    openGraph: { images: ["/opengraph-image"], title, description, url: `/${lang}${path}`, type: "article" },
+  };
 }
 
 function Block({ title, children, tone = "default" }: { title: string; children: React.ReactNode; tone?: "default" | "gold" | "danger" }) {

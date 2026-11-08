@@ -2,9 +2,8 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { hasLocale } from "@/lib/i18n";
 import { getAlmanacItems } from "@/lib/almanac";
+import { localeAlternates, SITE_URL } from "@/lib/seo";
 import AlmanacExplorer from "@/components/AlmanacExplorer";
-
-export const metadata: Metadata = { title: "Almanac" };
 
 const COPY = {
   vi: {
@@ -30,6 +29,18 @@ const COPY = {
       "Data compiled from public sources (see Sources on each item). Some series (quality C) only have a few scattered data points, not a continuous year-by-year series — treat them as reference, not official statistics.",
   },
 };
+
+export async function generateMetadata({ params }: PageProps<"/[lang]/almanac">): Promise<Metadata> {
+  const { lang } = await params;
+  if (!hasLocale(lang)) return {};
+  const copy = COPY[lang];
+  return {
+    title: copy.heading,
+    description: copy.intro,
+    alternates: { canonical: `${SITE_URL}/${lang}/almanac`, languages: localeAlternates("/almanac") },
+    openGraph: { images: ["/opengraph-image"], title: copy.heading, description: copy.intro, url: `/${lang}/almanac` },
+  };
+}
 
 export default async function AlmanacPage({ params }: PageProps<"/[lang]/almanac">) {
   const { lang } = await params;

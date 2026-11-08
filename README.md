@@ -92,7 +92,8 @@ Thêm object vào `src/data/milestones/<country>.json`:
 - [ ] Cân bằng lại độ khó game bài, mở rộng thư viện sự kiện, thẻ kết quả dạng ảnh cho /simulator
 - [ ] Mở rộng almanac + milestone theo `docs/research/content-expansion.md` (cơ hội vốn nhỏ, kỹ năng nên học sớm, bỏ lỡ kinh điển)
 - [ ] Quy trình làm mới giá tự động theo `docs/research/data-quality.md`
-- [ ] SEO: OG image cho từng mốc, sitemap
+- [x] v1.4: SEO cơ bản — `src/app/sitemap.ts` (538 URL, 2 ngôn ngữ × mốc+quốc gia+trang tĩnh), `src/app/robots.ts`, ảnh OG thương hiệu dùng chung (`opengraph-image.tsx`), `metadataBase` + `canonical`/`hreflang` (vi/en/x-default) cho mọi trang, OpenGraph/Twitter card đầy đủ. Sửa `proxy.ts` để không redirect nhầm `/sitemap.xml`, `/robots.txt`, `/opengraph-image`. Các trang tĩnh (almanac/quiz/disclaimer/whatif/simulator) chuyển từ tiêu đề tiếng Anh cứng sang `generateMetadata` theo đúng ngôn ngữ.
+
 - [ ] Chia sẻ điểm quiz / checklist lên mạng xã hội
 - [ ] Deploy Vercel
 - [ ] (Khi cần) Database: chỉ khi có tài khoản, bảng xếp hạng mini game, hoặc cho người dùng đóng góp dữ liệu
