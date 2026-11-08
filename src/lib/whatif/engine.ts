@@ -1,11 +1,29 @@
 import vnData from "@/data/whatif/vn.json";
 import usData from "@/data/whatif/us.json";
+import cnData from "@/data/whatif/cn.json";
+import jpData from "@/data/whatif/jp.json";
+import deData from "@/data/whatif/de.json";
+import inData from "@/data/whatif/in.json";
+import gbData from "@/data/whatif/gb.json";
+import frData from "@/data/whatif/fr.json";
+import itData from "@/data/whatif/it.json";
+import caData from "@/data/whatif/ca.json";
+import brData from "@/data/whatif/br.json";
 import universalData from "@/data/whatif/universal.json";
 import type { AssetDef, LocalCountryData, UniversalData, WhatIfResult } from "./types";
 
 const LOCAL: Record<string, LocalCountryData> = {
   vn: vnData as unknown as LocalCountryData,
   us: usData as unknown as LocalCountryData,
+  cn: cnData as unknown as LocalCountryData,
+  jp: jpData as unknown as LocalCountryData,
+  de: deData as unknown as LocalCountryData,
+  in: inData as unknown as LocalCountryData,
+  gb: gbData as unknown as LocalCountryData,
+  fr: frData as unknown as LocalCountryData,
+  it: itData as unknown as LocalCountryData,
+  ca: caData as unknown as LocalCountryData,
+  br: brData as unknown as LocalCountryData,
 };
 const UNIVERSAL = universalData as unknown as UniversalData;
 
@@ -61,6 +79,32 @@ const UNIVERSAL_ASSETS: AssetDef[] = [
   },
 ];
 
+const EUR_CAVEAT = {
+  vi: "Khu vực đồng Euro — máy tính chỉ cho chọn từ năm 1999 (năm Euro trở thành tiền tệ chính thức), tránh lẫn với tiền tệ cũ (Mark Đức/Franc Pháp/Lira Ý).",
+  en: "Eurozone — selectable only from 1999 (when the Euro became the official currency), to avoid mixing with the old national currency.",
+};
+
+const SIMPLE_COUNTRY_CONFIG: Record<
+  string,
+  { currency: string; minYear: number; stockLabel: { vi: string; en: string }; caveat?: { vi: string; en: string } }
+> = {
+  cn: { currency: "CNY", minYear: 1980, stockLabel: { vi: "Cổ phiếu Trung Quốc (SSE Composite)", en: "China stocks (SSE Composite)" } },
+  jp: {
+    currency: "JPY", minYear: 1980, stockLabel: { vi: "Cổ phiếu Nhật Bản (Nikkei 225)", en: "Japan stocks (Nikkei 225)" },
+    caveat: { vi: "Lãi suất tiết kiệm dùng lãi suất chính sách của Ngân hàng Trung ương Nhật, từng ở mức âm (2016-2024).", en: "Savings rate uses the Bank of Japan's policy rate, which went negative from 2016-2024." },
+  },
+  de: { currency: "EUR", minYear: 1999, stockLabel: { vi: "Cổ phiếu Đức (DAX)", en: "Germany stocks (DAX)" }, caveat: EUR_CAVEAT },
+  in: { currency: "INR", minYear: 1980, stockLabel: { vi: "Cổ phiếu Ấn Độ (BSE SENSEX)", en: "India stocks (BSE SENSEX)" } },
+  gb: { currency: "GBP", minYear: 1980, stockLabel: { vi: "Cổ phiếu Anh (FTSE 100)", en: "UK stocks (FTSE 100)" } },
+  fr: { currency: "EUR", minYear: 1999, stockLabel: { vi: "Cổ phiếu Pháp (CAC 40)", en: "France stocks (CAC 40)" }, caveat: EUR_CAVEAT },
+  it: { currency: "EUR", minYear: 1999, stockLabel: { vi: "Cổ phiếu Ý (FTSE MIB)", en: "Italy stocks (FTSE MIB)" }, caveat: EUR_CAVEAT },
+  ca: { currency: "CAD", minYear: 1980, stockLabel: { vi: "Cổ phiếu Canada (S&P/TSX)", en: "Canada stocks (S&P/TSX)" } },
+  br: {
+    currency: "BRL", minYear: 1994, stockLabel: { vi: "Cổ phiếu Brazil (Ibovespa)", en: "Brazil stocks (Ibovespa)" },
+    caveat: { vi: "Brazil đổi tiền tệ nhiều lần do siêu lạm phát; máy tính chỉ cho chọn từ 1994 (năm ra đời đồng Real hiện tại).", en: "Brazil changed currency several times due to hyperinflation; selectable only from 1994 (when the current Real was introduced)." },
+  },
+};
+
 function localAssetsFor(countryCode: string): AssetDef[] {
   if (countryCode === "vn") {
     return [
@@ -82,6 +126,21 @@ function localAssetsFor(countryCode: string): AssetDef[] {
     return [
       { id: "us_cash", scope: "local", countryCode: "us", currency: "USD", icon: "💵", label: { vi: "Giữ tiền mặt (không làm gì)", en: "Hold cash (do nothing)" }, minYear: 1980 },
       { id: "us_savings", scope: "local", countryCode: "us", currency: "USD", icon: "🏦", label: { vi: "Gửi tiết kiệm USD (tín phiếu kho bạc 1 năm)", en: "USD savings (1-year T-bill)" }, minYear: 1980 },
+    ];
+  }
+
+  const simple = SIMPLE_COUNTRY_CONFIG[countryCode];
+  if (simple) {
+    const data = LOCAL[countryCode];
+    const stockMinYear = data.closes[`${countryCode}_stock`] ? seriesYearRange(data.closes[`${countryCode}_stock`])[0] : simple.minYear;
+    return [
+      { id: `${countryCode}_cash`, scope: "local", countryCode, currency: simple.currency, icon: "💵", label: { vi: "Giữ tiền mặt (không làm gì)", en: "Hold cash (do nothing)" }, minYear: simple.minYear },
+      {
+        id: `${countryCode}_savings`, scope: "local", countryCode, currency: simple.currency, icon: "🏦",
+        label: { vi: `Gửi tiết kiệm ${simple.currency}`, en: `${simple.currency} savings deposit` }, minYear: simple.minYear,
+        caveat: simple.caveat,
+      },
+      { id: `${countryCode}_stock`, scope: "local", countryCode, currency: simple.currency, icon: "📈", label: simple.stockLabel, minYear: stockMinYear },
     ];
   }
   return [];
