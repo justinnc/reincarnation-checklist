@@ -18,7 +18,7 @@ export interface Source {
 }
 
 export interface Opportunity {
-  asset?: string;
+  asset?: LocalizedText;
   action: LocalizedText;
   buyWhen: LocalizedText;
   sellWhen?: LocalizedText;

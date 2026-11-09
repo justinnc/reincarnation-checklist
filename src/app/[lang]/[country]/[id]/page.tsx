@@ -108,7 +108,7 @@ export default async function MilestonePage({ params }: PageProps<"/[lang]/[coun
         <aside className="space-y-6">
           <section className="rounded-2xl border border-line bg-surface p-6">
             <h2 className="text-xs font-semibold uppercase tracking-wider text-faint">{tl.opportunity}</h2>
-            {o.asset && <div className="mt-3 font-mono text-sm text-gold">{o.asset}</div>}
+            {o.asset && <div className="mt-3 font-mono text-sm text-gold">{t(o.asset, lang)}</div>}
             <p className="mt-2 text-lg">{t(o.action, lang)}</p>
             <dl className="mt-5 space-y-3 text-sm">
               <div className="flex flex-col gap-1 border-t border-line pt-3 sm:flex-row sm:justify-between sm:gap-4">

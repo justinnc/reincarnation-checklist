@@ -17,7 +17,10 @@
       "en": "From 15-18 December 1986, the 6th National Congress of the Communist Party of Vietnam in Hanoi adopted “Đổi Mới” (Renovation), ending central planning, legalizing private enterprise and a multi-sector economy, and opening the door to foreign trade. It is the starting gun for three decades of Vietnamese growth."
     },
     "opportunity": {
-      "asset": "Private business licenses / small trading",
+      "asset": {
+        "vi": "Private business licenses / small trading",
+        "en": "Private business licenses / small trading"
+      },
       "action": {
         "vi": "Mở cửa hàng tư nhân, tích trữ hàng hóa khan hiếm, bắt đầu buôn bán tự do ngay khi luật cho phép.",
         "en": "Register a private shop or trading business the moment the law allows it, stockpile scarce goods."
@@ -101,7 +104,10 @@
       "en": "In 1993, Phu My Hung Corp was licensed to develop a new urban district on swampy, saline land in Nha Be district (now District 7), where land was then nearly worthless, under VND 1 million/m². Thanks to the Nguyen Van Linh Boulevard and master planning, Phu My Hung became one of HCMC's most prestigious residential areas, with land prices up hundreds of times and apartments now priced above VND 100 million/m²."
     },
     "opportunity": {
-      "asset": "Đất nền/căn hộ khu Phú Mỹ Hưng, Quận 7, TP.HCM",
+      "asset": {
+        "vi": "Đất nền/căn hộ khu Phú Mỹ Hưng, Quận 7, TP.HCM",
+        "en": "Land/apartments in Phu My Hung, District 7, Ho Chi Minh City"
+      },
       "action": {
         "vi": "Mua đất hoặc căn hộ sớm tại khu vực Phú Mỹ Hưng/Quận 7 ngay từ đầu/giữa thập niên 1990 trước khi hạ tầng hoàn thiện.",
         "en": "Buy land or apartments early in the Phu My Hung/District 7 area in the early-to-mid 1990s before infrastructure was completed."
@@ -194,7 +200,10 @@
       "en": "On 3 February 1994, President Bill Clinton lifted the trade embargo imposed on Vietnam since 1975. It was the first concrete step toward normalization, letting US companies trade and invest and setting the stage for a wave of FDI and imported consumer goods."
     },
     "opportunity": {
-      "asset": "Cổ phần hoặc tài sản của công ty hướng ngoại, hàng tiêu dùng nhập khẩu",
+      "asset": {
+        "vi": "Cổ phần hoặc tài sản của công ty hướng ngoại, hàng tiêu dùng nhập khẩu",
+        "en": "Shares or assets of export-oriented companies, imported consumer goods"
+      },
       "action": {
         "vi": "Nhập hàng tiêu dùng, linh kiện, đồ điện tử Mỹ để bán tại Việt Nam; chuẩn bị đón vốn FDI.",
         "en": "Stock up on US consumer goods, electronics and parts to sell in Vietnam; position for the coming FDI wave."
@@ -278,7 +287,10 @@
       "en": "On 11 July 1995, President Clinton announced normalization of diplomatic relations with Vietnam, opening embassies and enabling full economic and diplomatic cooperation — the legal foundation for multinational corporations and foreign funds to enter Vietnam."
     },
     "opportunity": {
-      "asset": "Bất động sản khu trung tâm, cổ phần doanh nghiệp xuất khẩu",
+      "asset": {
+        "vi": "Bất động sản khu trung tâm, cổ phần doanh nghiệp xuất khẩu",
+        "en": "Central-area real estate, shares of export businesses"
+      },
       "action": {
         "vi": "Mua bất động sản thương mại tại TP.HCM/Hà Nội đón làn sóng văn phòng đại diện nước ngoài; tham gia doanh nghiệp xuất khẩu.",
         "en": "Buy commercial real estate in HCMC/Hanoi ahead of the wave of foreign representative offices; invest in export-oriented businesses."
@@ -362,7 +374,10 @@
       "en": "On 16 June 1996, Đặng Lê Nguyên Vũ founded Trung Nguyên in Buon Ma Thuot, opened its first HCMC shop in 1998, and franchised nationally and internationally (Japan 2001, Singapore 2002). Around the same time, David Thái founded Viet Thai International in 2002, building the Highlands Coffee brand and pioneering the modern coffee-chain model in Vietnam."
     },
     "opportunity": {
-      "asset": "Nhượng quyền/cổ phần chuỗi cà phê Trung Nguyên hoặc Highlands Coffee",
+      "asset": {
+        "vi": "Nhượng quyền/cổ phần chuỗi cà phê Trung Nguyên hoặc Highlands Coffee",
+        "en": "Franchise/equity stake in Trung Nguyen or Highlands Coffee"
+      },
       "action": {
         "vi": "Mua nhượng quyền quán cà phê Trung Nguyên hoặc đầu tư sớm vào chuỗi Highlands Coffee khi thương hiệu còn mới.",
         "en": "Buy a Trung Nguyên coffee franchise or invest early in the Highlands Coffee chain while the brand was still young."
@@ -446,7 +461,10 @@
       "en": "From the late 1990s to the mid-2000s, mobile subscriptions in Vietnam exploded as carriers Vinaphone, MobiFone and Viettel competed on price. Phone distribution chains (Nokia, Samsung, and later Thế Giới Di Động and FPT Shop) reaped huge rewards from tens of millions of Vietnamese getting their first phone."
     },
     "opportunity": {
-      "asset": "Kinh doanh phân phối/bán lẻ điện thoại di động",
+      "asset": {
+        "vi": "Kinh doanh phân phối/bán lẻ điện thoại di động",
+        "en": "Mobile phone distribution/retail business"
+      },
       "action": {
         "vi": "Mở cửa hàng hoặc đại lý phân phối điện thoại di động Nokia/Samsung tại các thành phố lớn khi thị trường còn sơ khai.",
         "en": "Open a mobile phone retail or distribution business for Nokia/Samsung in major cities while the market was still nascent."
@@ -526,7 +544,10 @@
       "en": "On the morning of 28 July 2000, the HCMC Securities Trading Center (HOSE's predecessor) held its first trading session with just two stocks, REE (refrigeration/electrical engineering) and SAM (cable & telecom materials). Only 6,000 shares changed hands worth VND 70.4 million, and the VN-Index closed at 101.55 points — the starting line for an index that would later top 1,500."
     },
     "opportunity": {
-      "asset": "REE, SAM (cổ phiếu sàn HOSE giai đoạn 2000-2001)",
+      "asset": {
+        "vi": "REE, SAM (cổ phiếu sàn HOSE giai đoạn 2000-2001)",
+        "en": "REE, SAM (stocks on HOSE, 2000-2001 period)"
+      },
       "action": {
         "vi": "Mua REE và SAM ngay từ phiên khai trương khi thị trường còn sơ khai và nguồn cung cổ phiếu cực hiếm.",
         "en": "Buy REE and SAM right at the opening session, when the market was brand new and share supply was extremely scarce."
@@ -614,7 +635,10 @@
       "en": "After five years of talks and signature on 13 July 2000, the US-Vietnam Bilateral Trade Agreement (BTA) took effect on 10 December 2001. Average US tariffs on Vietnamese goods fell from roughly 40% to about 3%, unleashing a boom in textile, footwear and seafood exports and attracting export-oriented FDI."
     },
     "opportunity": {
-      "asset": "Doanh nghiệp dệt may, thủy sản xuất khẩu sang Mỹ",
+      "asset": {
+        "vi": "Doanh nghiệp dệt may, thủy sản xuất khẩu sang Mỹ",
+        "en": "Textile and seafood exporters to the US"
+      },
       "action": {
         "vi": "Đầu tư/mở xưởng dệt may, chế biến thủy sản hướng xuất khẩu sang thị trường Mỹ ngay khi BTA có hiệu lực.",
         "en": "Invest in or set up textile/seafood-processing factories geared toward US exports right when the BTA takes effect."
@@ -698,7 +722,10 @@
       "en": "On 8 March 2005, the Hanoi Securities Trading Center (HASTC), predecessor of today's Hanoi Stock Exchange (HNX), opened with charter capital of VND 1,000 billion, initially focused on SOE equitization auctions. On 14 July 2005 its listed-stock trading market went live, creating a second exchange alongside HOSE."
     },
     "opportunity": {
-      "asset": "Cổ phiếu niêm yết sớm trên HASTC/HNX",
+      "asset": {
+        "vi": "Cổ phiếu niêm yết sớm trên HASTC/HNX",
+        "en": "Early-listed stocks on HASTC/HNX"
+      },
       "action": {
         "vi": "Tham gia đấu giá cổ phần hóa DNNN qua HASTC và mua cổ phiếu niêm yết sớm trên sàn mới.",
         "en": "Bid in SOE equitization auctions via HASTC and buy early-listed stocks on the new exchange."
@@ -782,7 +809,10 @@
       "en": "On 19 January 2006, Vietnam Dairy Products JSC (Vinamilk) began trading on the HCMC Stock Exchange under ticker VNM, listed at VND 53,000/share with an initial listing of 159 million shares. VNM quickly became one of the largest and most stable blue-chip stocks on the Vietnamese market."
     },
     "opportunity": {
-      "asset": "Vinamilk (VNM)",
+      "asset": {
+        "vi": "Vinamilk (VNM)",
+        "en": "Vinamilk (VNM)"
+      },
       "action": {
         "vi": "Mua cổ phiếu VNM ngay ngày chào sàn hoặc trong năm đầu niêm yết, nắm giữ dài hạn qua các đợt chia tách, trả cổ tức.",
         "en": "Buy VNM shares on or shortly after the IPO listing date and hold long-term through stock splits and dividends."
@@ -874,7 +904,10 @@
       "en": "On 13 December 2006, FPT Corporation listed on HOSE at a reference price of VND 160,000/share but hit the daily limit on its very first session, jumping to VND 400,000 (+150%) — a symbol of the 2006-2007 tech/telecom stock mania. By year-end 2006 it had climbed to VND 460,000."
     },
     "opportunity": {
-      "asset": "FPT Corporation (FPT)",
+      "asset": {
+        "vi": "FPT Corporation (FPT)",
+        "en": "FPT Corporation (FPT)"
+      },
       "action": {
         "vi": "Mua cổ phiếu OTC FPT trước ngày niêm yết (quanh 22.000-40.000đ) rồi bán ngay sau khi lên sàn.",
         "en": "Buy FPT shares on the OTC market before listing (around VND 22,000-40,000) and sell shortly after it lists."
@@ -967,7 +1000,10 @@
       "en": "On 11 January 2007, Vietnam officially became the WTO's 150th member after years of negotiations. The event triggered a wave of IPOs by major state-owned enterprises (Bao Viet, Vietcombank, etc.) and a flood of foreign capital inflows, pushing the VN-Index to an all-time high just two months later."
     },
     "opportunity": {
-      "asset": "Cổ phiếu ngân hàng và doanh nghiệp nhà nước cổ phần hóa (Vietcombank, Bảo Việt)",
+      "asset": {
+        "vi": "Cổ phiếu ngân hàng và doanh nghiệp nhà nước cổ phần hóa (Vietcombank, Bảo Việt)",
+        "en": "Bank stocks and equitized state-owned enterprises (Vietcombank, Bao Viet)"
+      },
       "action": {
         "vi": "Mua cổ phiếu/IPO các ngân hàng, doanh nghiệp nhà nước lớn trước và ngay sau khi gia nhập WTO.",
         "en": "Buy shares/IPO allocations in major banks and state-owned enterprises before and right after WTO accession."
@@ -1055,7 +1091,10 @@
       "en": "On 12 March 2007, the VN-Index set its first historic peak at 1,170.67 points, 3.6 times its level at the start of 2006, driven by WTO euphoria, credit growth above 50%, and a wave of SOE IPOs. Market valuation hit a P/E of 34-50x — extreme speculative territory right before the bubble burst."
     },
     "opportunity": {
-      "asset": "Cổ phiếu niêm yết trên HOSE nói chung (VN-Index)",
+      "asset": {
+        "vi": "Cổ phiếu niêm yết trên HOSE nói chung (VN-Index)",
+        "en": "HOSE-listed stocks in general (VN-Index)"
+      },
       "action": {
         "vi": "Bán toàn bộ danh mục cổ phiếu đúng thời điểm đỉnh để chốt lời trước khi thị trường sụp đổ.",
         "en": "Sell your entire stock portfolio right at the peak to lock in gains before the crash."
@@ -1148,7 +1187,10 @@
       "en": "On 19 September 2007, Vincom JSC (today's Vingroup) listed on HOSE under ticker VIC, at a reference price of VND 125,000/share with 80 million shares listed and an initial market cap of about VND 800 billion. Vincom and Vinpearl later merged in 2011-2012 to form Vingroup, expanding into real estate, retail, resorts and eventually EV maker VinFast."
     },
     "opportunity": {
-      "asset": "Vincom/Vingroup (VIC)",
+      "asset": {
+        "vi": "Vincom/Vingroup (VIC)",
+        "en": "Vincom/Vingroup (VIC)"
+      },
       "action": {
         "vi": "Mua cổ phiếu VIC ngay khi chào sàn 2007, giữ xuyên suốt hành trình mở rộng đa ngành của Phạm Nhật Vượng.",
         "en": "Buy VIC shares at its 2007 listing and hold through Pham Nhat Vuong's multi-decade diversification journey."
@@ -1236,7 +1278,10 @@
       "en": "On 15 November 2007, Hoa Phat Group JSC listed on HOSE under ticker HPG, with a reference price of VND 110,000/share on its first session and an initial listing of 132 million shares. From a construction-equipment trading company, Hoa Phat grew into Vietnam's leading steel producer."
     },
     "opportunity": {
-      "asset": "Hòa Phát (HPG)",
+      "asset": {
+        "vi": "Hòa Phát (HPG)",
+        "en": "Hoa Phat Group (HPG)"
+      },
       "action": {
         "vi": "Mua cổ phiếu HPG ngay khi chào sàn hoặc trong giai đoạn giá rẻ sau khủng hoảng 2008-2009, giữ dài hạn qua chu kỳ xây dựng/hạ tầng bùng nổ.",
         "en": "Buy HPG shares at listing or during the cheap post-2008 crash period and hold long-term through Vietnam's construction/infrastructure boom."
@@ -1324,7 +1369,10 @@
       "en": "In 2008, Vietnam's inflation hit a record 22.97% (peaking at 28.3% year-on-year in August), driven by a global oil price spike and the global financial crisis. The State Bank of Vietnam repeatedly hiked the refinancing rate to 13%/year, tightening credit, as the VN-Index fell nearly 70% from its peak and real estate stalled."
     },
     "opportunity": {
-      "asset": "Tiền mặt/vàng để tránh mất giá, cổ phiếu phòng thủ chọn lọc ở vùng đáy cuối năm",
+      "asset": {
+        "vi": "Tiền mặt/vàng để tránh mất giá, cổ phiếu phòng thủ chọn lọc ở vùng đáy cuối năm",
+        "en": "Cash/gold to hedge devaluation, selective defensive stocks near year-end lows"
+      },
       "action": {
         "vi": "Giữ vàng/USD để bảo toàn giá trị trong năm lạm phát phi mã; gom cổ phiếu/đất giá rẻ cuối năm 2008-đầu 2009 khi hoảng loạn lên đỉnh điểm.",
         "en": "Hold gold/USD to preserve value during the hyperinflation year; accumulate cheap stocks/land in late 2008-early 2009 at peak panic."
@@ -1408,7 +1456,10 @@
       "en": "After the 2008 Lehman Brothers collapse, world gold prices entered a super-cycle, topping $1,000/oz in 2009 and peaking at $1,920/oz in September 2011. In Vietnam, SJC gold bars rose from roughly VND 17.5-19.5 million/tael in 2008 to a record VND 47-49 million/tael by late 2011-early 2012, as the public rushed to buy gold amid runaway inflation."
     },
     "opportunity": {
-      "asset": "Vàng miếng SJC",
+      "asset": {
+        "vi": "Vàng miếng SJC",
+        "en": "SJC gold bars"
+      },
       "action": {
         "vi": "Mua vàng miếng SJC ở vùng đáy khủng hoảng 2008 và bán ra khi giá lập đỉnh cuối 2011.",
         "en": "Buy SJC gold bars near the 2008 crisis bottom and sell when prices peaked in late 2011."
@@ -1501,7 +1552,10 @@
       "en": "On 24 February 2009, the VN-Index bottomed at 235.5 points, down more than 79% from its historic 1,170.67 peak (March 2007), the combined result of the global financial crisis and the bursting of Vietnam's own stock bubble. It is widely regarded as the cheapest buying opportunity in the history of the Vietnamese stock market."
     },
     "opportunity": {
-      "asset": "Cổ phiếu blue-chip trên HOSE (VNM, FPT, HPG, VIC...)",
+      "asset": {
+        "vi": "Cổ phiếu blue-chip trên HOSE (VNM, FPT, HPG, VIC...)",
+        "en": "HOSE blue-chip stocks (VNM, FPT, HPG, VIC...)"
+      },
       "action": {
         "vi": "Mua mạnh các cổ phiếu blue-chip ở vùng đáy 235 điểm khi tâm lý thị trường hoảng loạn cùng cực.",
         "en": "Aggressively buy blue-chip stocks at the 235-point bottom when market sentiment was at its most panicked."
@@ -1594,7 +1648,10 @@
       "en": "Tiki.vn launched in March 2010 in Vietnam as an online bookstore; Lazada entered the Vietnamese market in 2012 backed by heavy foreign investment; Shopee (founded 2015 in Singapore) entered Vietnam in 2016 and quickly rose to lead e-commerce market share, holding roughly 63% versus Lazada's ~23% and Tiki's dwindling ~6%."
     },
     "opportunity": {
-      "asset": "Cổ phần/vốn góp sớm vào các sàn TMĐT (Tiki, Sendo) hoặc mở gian hàng bán lẻ online sớm trên các sàn này",
+      "asset": {
+        "vi": "Cổ phần/vốn góp sớm vào các sàn TMĐT (Tiki, Sendo) hoặc mở gian hàng bán lẻ online sớm trên các sàn này",
+        "en": "Early equity stakes in e-commerce platforms (Tiki, Sendo) or early online retail storefronts on them"
+      },
       "action": {
         "vi": "Đầu tư vốn mạo hiểm sớm vào Tiki hoặc Sendo, hoặc mở shop bán hàng sớm trên Tiki/Lazada/Shopee trước khi cạnh tranh gay gắt.",
         "en": "Invest early venture capital into Tiki or Sendo, or open an early seller shop on Tiki/Lazada/Shopee before competition intensified."
@@ -1678,7 +1735,10 @@
       "en": "Under Resolution 11/2011 tightening non-production credit, real-estate loan rates spiked to 18-25%/year, freezing the market in 2011-2013. Land plots and high-end apartments fell 20-50% depending on area; for example, Hoang Anh Gia Lai slashed its Hoang Anh Thanh Binh project to VND 12-15 million/m² from VND 25-30 million/m² in 2007."
     },
     "opportunity": {
-      "asset": "Căn hộ/đất nền TP.HCM, Hà Nội trong giai đoạn đóng băng",
+      "asset": {
+        "vi": "Căn hộ/đất nền TP.HCM, Hà Nội trong giai đoạn đóng băng",
+        "en": "Apartments/land in HCMC, Hanoi during the market freeze"
+      },
       "action": {
         "vi": "Mua căn hộ hoặc đất nền bị bán tháo giá rẻ trong giai đoạn 2011-2013 khi doanh nghiệp cạn vốn phải xả hàng.",
         "en": "Buy apartments or land plots fire-sold cheaply during 2011-2013 when cash-strapped developers were forced to dump inventory."
@@ -1771,7 +1831,10 @@
       "en": "On 27 February 2014, the GrabTaxi app officially launched in Vietnam, later expanding with GrabBike (October 2014) and GrabCar. Uber also entered the market in July 2014. The market-share battle between Grab and Uber (Grab acquired Uber's Southeast Asia operations in 2018) completely transformed urban passenger transport in Vietnam."
     },
     "opportunity": {
-      "asset": "Tài xế đối tác/nhà đầu tư sớm vào nền tảng gọi xe công nghệ",
+      "asset": {
+        "vi": "Tài xế đối tác/nhà đầu tư sớm vào nền tảng gọi xe công nghệ",
+        "en": "Driver-partners / early investors in ride-hailing platforms"
+      },
       "action": {
         "vi": "Trở thành tài xế đối tác sớm hoặc đầu tư vào các công ty công nghệ vận tải/giao đồ ăn liên quan đến hệ sinh thái gọi xe ngay từ 2014-2015.",
         "en": "Become an early partner driver or invest in ride-hailing/food-delivery tech companies tied to the ecosystem starting 2014-2015."
@@ -1855,7 +1918,10 @@
       "en": "On 14 July 2014, Mobile World Investment Corporation listed on HOSE under ticker MWG at a reference price of VND 68,000/share, hitting the daily ceiling on day one at VND 81,500 (+19.9%). MWG later expanded from phones into electronics (Điện Máy Xanh) and groceries (Bách Hóa Xanh), becoming one of Vietnam's largest retail chains."
     },
     "opportunity": {
-      "asset": "Thế Giới Di Động (MWG)",
+      "asset": {
+        "vi": "Thế Giới Di Động (MWG)",
+        "en": "Mobile World Group (MWG)"
+      },
       "action": {
         "vi": "Mua cổ phiếu MWG ngay khi chào sàn 2014 và giữ dài hạn qua các giai đoạn mở rộng chuỗi Điện Máy Xanh, Bách Hóa Xanh.",
         "en": "Buy MWG shares at its 2014 listing and hold long-term through its Điện Máy Xanh and Bách Hóa Xanh expansion phases."
@@ -1944,7 +2010,10 @@
       "en": "On 25 June 2015, Vietnam's 13th National Assembly passed Resolution 94/2015/QH13 approving the investment policy for Long Thanh International Airport, designed for 100 million passengers a year. The news immediately ignited repeated land-price surges around Long Thanh and Nhon Trach districts in Dong Nai province in the years that followed."
     },
     "opportunity": {
-      "asset": "Đất nền khu vực Long Thành, Nhơn Trạch, Đồng Nai",
+      "asset": {
+        "vi": "Đất nền khu vực Long Thành, Nhơn Trạch, Đồng Nai",
+        "en": "Land in Long Thanh, Nhon Trach, Dong Nai area"
+      },
       "action": {
         "vi": "Mua đất nền quanh khu vực quy hoạch sân bay Long Thành ngay sau khi Quốc hội thông qua chủ trương đầu tư.",
         "en": "Buy land near the planned Long Thanh airport site right after National Assembly approval."
@@ -2028,7 +2097,10 @@
       "en": "On 28 February 2017, Vietjet Aviation JSC listed on HOSE under ticker VJC at a reference price of VND 90,000/share. On its very first session, the stock hit the ceiling at VND 108,000, pushing Vietjet's market cap to about VND 27 trillion ($1.2 billion) and placing it straight into the VN30 index. It was the first airline to list on HOSE."
     },
     "opportunity": {
-      "asset": "Vietjet Air (VJC)",
+      "asset": {
+        "vi": "Vietjet Air (VJC)",
+        "en": "Vietjet Air (VJC)"
+      },
       "action": {
         "vi": "Mua cổ phiếu VJC ngay khi chào sàn 2017, hưởng lợi từ tăng trưởng hàng không giá rẻ bùng nổ tại Việt Nam.",
         "en": "Buy VJC shares at its 2017 listing to ride Vietnam's budget-airline boom."
@@ -2121,7 +2193,10 @@
       "en": "In early 2020, the VN-Index fell 33.5% over two months, bottoming at 659 points on 24 March 2020 as COVID-19 broke out and social distancing was imposed. But thanks to loose monetary policy and a wave of new retail (“F0”) investors, the index rebounded 67% in nine months, surpassing 1,100 points by the end of 2020."
     },
     "opportunity": {
-      "asset": "Cổ phiếu blue-chip và ngân hàng trên HOSE",
+      "asset": {
+        "vi": "Cổ phiếu blue-chip và ngân hàng trên HOSE",
+        "en": "HOSE blue-chip and bank stocks"
+      },
       "action": {
         "vi": "Mua mạnh cổ phiếu ngân hàng, bất động sản, tiêu dùng ở vùng đáy hoảng loạn COVID tháng 3/2020.",
         "en": "Aggressively buy bank, real-estate and consumer stocks at the panicked COVID bottom in March 2020."
@@ -2214,7 +2289,10 @@
       "en": "The blockchain game Axie Infinity, built by HCMC-based startup Sky Mavis (launched 2018), exploded globally in 2020-2021 with its “play-to-earn” model, reaching over 2.8 million daily active users at its peak. The AXS token peaked above $150 in October 2021. Hundreds of thousands of Vietnamese played the game to earn income during the pandemic, before the March 2022 Ronin Network bridge hack caused over $620 million in losses and burst the bubble."
     },
     "opportunity": {
-      "asset": "AXS token (Axie Infinity Shards) hoặc SLP, cổ phần Sky Mavis",
+      "asset": {
+        "vi": "AXS token (Axie Infinity Shards) hoặc SLP, cổ phần Sky Mavis",
+        "en": "AXS token (Axie Infinity Shards) or SLP, Sky Mavis equity"
+      },
       "action": {
         "vi": "Mua token AXS sớm năm 2020 hoặc tham gia chơi play-to-earn kiếm SLP; bán chốt lời trước khi vụ hack Ronin tháng 3/2022 gây sụp đổ.",
         "en": "Buy AXS tokens early in 2020, or play the game to earn SLP tokens; take profits before the March 2022 Ronin hack triggers the crash."
@@ -2305,7 +2383,10 @@
       "en": "On 15 August 2023, Vietnamese EV maker VinFast (a Vingroup subsidiary) listed on Nasdaq via a merger with blank-check company Black Spade Acquisition, at a SPAC deal reference price of $10/share (valuing VinFast at $23 billion). VFS opened at $22 and closed at $37.06 (+270% vs. the SPAC price), pushing VinFast's market cap to roughly $85 billion — above Ford ($48 billion) and GM. The stock then crashed hard, falling below the listing price within just seven weeks."
     },
     "opportunity": {
-      "asset": "VinFast (VFS) cổ phiếu Nasdaq",
+      "asset": {
+        "vi": "VinFast (VFS) cổ phiếu Nasdaq",
+        "en": "VinFast (VFS) stock on Nasdaq"
+      },
       "action": {
         "vi": "Mua cổ phiếu VFS/Black Spade trước ngày chào sàn hoặc ngay đầu phiên 15/8/2023, bán ngay trong ngày hoặc vài ngày sau khi giá đạt đỉnh.",
         "en": "Buy VFS/Black Spade shares before listing or right at the open on 15 Aug 2023, then sell the same day or within days as the price peaks."
@@ -2398,7 +2479,10 @@
       "en": "In 2024, world gold prices repeatedly hit record highs (nearly $2,790/oz by late October), driving domestic SJC gold bars to an all-time peak above VND 92 million/tael in May 2024, while gold rings reached nearly VND 90 million/tael by October 2024. The gap between SJC gold and world prices hit VND 18-20 million/tael at times, forcing the State Bank of Vietnam to run gold auctions and later sell directly through four state banks and SJC to cool the market."
     },
     "opportunity": {
-      "asset": "Vàng miếng SJC / vàng nhẫn trơn",
+      "asset": {
+        "vi": "Vàng miếng SJC / vàng nhẫn trơn",
+        "en": "SJC gold bars / plain gold rings"
+      },
       "action": {
         "vi": "Mua vàng SJC hoặc vàng nhẫn đầu năm 2024 khi giá còn quanh 80 triệu đồng, bán ra khi đạt đỉnh tháng 5 và tháng 10/2024.",
         "en": "Buy SJC gold bars or gold rings early in 2024 when prices were around VND 80 million, then sell at the May and October 2024 peaks."
@@ -2491,7 +2575,10 @@
       "en": "After FLC was pushed from VND 14,650 (1 Dec 2021) to a peak of VND 22,550-24,100 in early January 2022, chairman Trinh Van Quyet sold 74.8 million FLC shares on 10 January 2022 without the required prior disclosure; HoSE cancelled the trade on the evening of 11 January and the State Securities Commission fined him VND 1.5 billion on 18 January. On 29 March 2022 the Ministry of Public Security charged and detained Quyet for stock-market manipulation and concealing securities information. FLC was suspended from trading on 8 September 2022 at VND 3,570 and forcibly delisted on 14 February 2023, trapping more than 64,700 shareholders."
     },
     "opportunity": {
-      "asset": "FLC Group (FLC)",
+      "asset": {
+        "vi": "FLC Group (FLC)",
+        "en": "FLC Group (FLC)"
+      },
       "action": {
         "vi": "Bán khống hoặc thoát toàn bộ vị thế FLC trước phiên 10/1/2022",
         "en": "Short, or fully exit, FLC before the 10 January 2022 session"
@@ -2592,7 +2679,10 @@
       "en": "From early 2024 SJC gold bars rose far faster than world gold; the State Bank of Vietnam (SBV) resumed bullion auctions in late April for the first time in 11 years, yet prices kept climbing to a record VND 92.4 million/tael on 10 May 2024, nearly VND 20 million above the converted world price. The SBV halted the auctions and from 3 June 2024 sold gold directly through Agribank, BIDV, Vietcombank, VietinBank and SJC at VND 78.98 million, cutting the price by VND 1 million a day. By 6 June, SJC was selling at VND 76.98 million/tael and the gap to world gold had narrowed to about VND 6 million."
     },
     "opportunity": {
-      "asset": "Vàng miếng SJC / SJC gold bars",
+      "asset": {
+        "vi": "Vàng miếng SJC / SJC gold bars",
+        "en": "SJC gold bars / SJC gold bars"
+      },
       "action": {
         "vi": "Bán toàn bộ vàng miếng SJC ở vùng đỉnh, hoặc chuyển sang vàng nhẫn/vàng thế giới vốn không mang phần chênh lệch",
         "en": "Sell all SJC gold bars near the peak, or switch to gold rings/world gold that didn't carry the premium"
@@ -2693,7 +2783,10 @@
       "en": "On the evening of 20 August 2012, Nguyen Duc Kien ('Bau Kien'), a founder and former vice chairman of Asia Commercial Bank (ACB), was arrested by the Ministry of Public Security over violations at three companies he chaired. Investors dumped shares on the morning of 21 August: the VN-Index lost 20.44 points (-4.67%), the HNX-Index fell 5.24% and ACB hit its limit-down price of VND 24,100. After three straight limit-down sessions from 21 to 23 August, ACB stood at VND 21,000 (-19% from VND 25,900 on 20 August), the VN-Index had lost 10.2% and about USD 3.85 billion of market value had evaporated. A month later ACB was near VND 15,000; full-year 2012 profit shrank to VND 784 billion from VND 3,208 billion in 2011."
     },
     "opportunity": {
-      "asset": "Asia Commercial Bank (ACB)",
+      "asset": {
+        "vi": "Asia Commercial Bank (ACB)",
+        "en": "Asia Commercial Bank (ACB)"
+      },
       "action": {
         "vi": "Thoát toàn bộ cổ phiếu ACB và cổ phiếu ngân hàng trong phiên 20/8/2012",
         "en": "Exit all ACB and other bank shares in the 20 August 2012 session"
@@ -2794,7 +2887,10 @@
       "en": "On the morning of 9 August 2017, social media and stock forums spread a rumor that Tran Bac Ha, former chairman of BIDV (retired since September 2016), had been arrested. The same day Ha told reporters he was 'fine', and a senior police official denied any arrest. Even so, BID hit its limit-down price with no buyers, losing VND 1,500 to close at VND 20,400 on three times the previous session's volume. The VN-Index fell 17.91 points (-2.26%) to 773.66 — its worst day in nearly two years — wiping out about VND 45.8 trillion (USD 2 billion). Ha was actually arrested only more than a year later, on 29 November 2018, in a banking-violations case."
     },
     "opportunity": {
-      "asset": "BIDV (BID)",
+      "asset": {
+        "vi": "BIDV (BID)",
+        "en": "BIDV (BID)"
+      },
       "action": {
         "vi": "Bán BID trước phiên 9/8/2017, hoặc bình tĩnh không bán tháo khi tin đồn bị bác bỏ ngay trong ngày",
         "en": "Sell BID before the 9 August 2017 session, or stay calm and avoid panic-selling once the rumor is denied the same day"
@@ -2895,7 +2991,10 @@
       "en": "On 4 April 2022 the VN-Index closed at 1,524.70, about four points from its all-time high. That evening the State Securities Commission announced it had cancelled nine private bond offerings worth VND 10,030 billion (July 2021-March 2022) by three Tan Hoang Minh Group companies for false and concealed disclosures. On 5 April 2022 the Ministry of Public Security opened a fraud case and arrested chairman Do Anh Dung. Together with the FLC case (29 March) and the Louis Holdings arrests (20 April), the confidence shock froze the property-bond market and triggered a stock sell-off: by 13 May 2022 the VN-Index was at 1,182.77, down about 22% in six weeks."
     },
     "opportunity": {
-      "asset": "VN-Index",
+      "asset": {
+        "vi": "VN-Index",
+        "en": "VN-Index"
+      },
       "action": {
         "vi": "Chốt lời toàn bộ danh mục cổ phiếu, nhất là bất động sản, trong phiên 4/4/2022",
         "en": "Take profit on the whole stock portfolio, especially property names, in the 4 April 2022 session"
@@ -2996,7 +3095,10 @@
       "en": "From February to June 2021, the group of Do Thanh Nhan (chairman of Louis Holdings) accumulated more than 10 million shares of TGG, Truong Giang Construction (later renamed Louis Capital), at around VND 1,800 each, funded mainly by loans from Tri Viet Asset Management. Helped by Do Duc Nam (CEO of Tri Viet Securities), the group used accounts held in the names of relatives and staff to trade internally, cross-match orders and set ATC closing prices, driving TGG through repeated limit-up sessions to a peak of VND 74,800 on 22 September 2021 (BII also peaked at VND 33,800 on 18 September 2021). By 6 October 2021 the group had sold out, making over VND 153 billion. On 20 April 2022 the Ministry of Public Security charged and arrested Nhan and Nam for stock-market manipulation; TGG later hit a low of VND 2,300 in mid-November 2022."
     },
     "opportunity": {
-      "asset": "Louis Capital (TGG)",
+      "asset": {
+        "vi": "Louis Capital (TGG)",
+        "en": "Louis Capital (TGG)"
+      },
       "action": {
         "vi": "Mua TGG từ đầu năm 2021 và bán hết quanh đỉnh 22/9/2021, tuyệt đối không giữ qua tháng 10/2021",
         "en": "Buy TGG in early 2021 and sell everything around the 22 September 2021 peak; never hold past October 2021"
@@ -3097,7 +3199,10 @@
       "en": "On 4 June 1996 the Prime Minister signed Decision 367/TTg approving the plan for the Thu Thiem New Urban Area (about 930 ha) across the Saigon River from District 1. In 2002, document 190/CP-NN endorsed land recovery, starting a long clearance process with many complaints. For over a decade Thu Thiem was mostly empty land. From 2015 the first projects such as Sala (Dai Quang Minh) and Empire City launched: apartments offered at USD 2,000-3,500/m² in 2015 reached USD 4,600-7,500/m² by 2020; Sala shophouses rose from VND 30-40 billion to VND 70-80 billion each. On 10 December 2021 HCMC auctioned four lots totalling over 30,000 m² for VND 37.35 trillion, 7.09 times the starting price. Lot 3-12 (10,060 m²) was won by Ngoi Sao Viet, a Tan Hoang Minh Group subsidiary, at VND 24.5 trillion (about VND 2.43 billion/m²), 8.3 times its VND 2.942 trillion starting price. On 11 January 2022 Tan Hoang Minh asked to unilaterally terminate the contract and accepted losing its roughly VND 588.5 billion deposit (20% of the starting price)."
     },
     "opportunity": {
-      "asset": "Shophouse/căn hộ dự án Sala, Khu đô thị mới Thủ Thiêm",
+      "asset": {
+        "vi": "Shophouse/căn hộ dự án Sala, Khu đô thị mới Thủ Thiêm",
+        "en": "Shophouses/apartments in the Sala project, Thu Thiem New Urban Area"
+      },
       "action": {
         "vi": "Mua shophouse hoặc căn hộ ở các dự án mở bán đầu tiên tại Thủ Thiêm năm 2015 và chốt lời trong giai đoạn 2020-2021, trước cơn sốt đấu giá và cú bỏ cọc.",
         "en": "Buy a shophouse or apartment in the first Thu Thiem launches in 2015 and take profit in 2020-2021, before the auction frenzy and the deposit-forfeiture shock."
@@ -3198,7 +3303,10 @@
       "en": "Phu Quoc was designated a tourism hub in 2004, but the real catalyst came when the new Phu Quoc International Airport received its first flight on 2 December 2012, followed by the national power grid and big developers (Vinpearl from late 2014, Sun Group from 2016). According to the Vietnam Association of Realtors, land-plot prices rose about tenfold in three years. When word spread from late 2017 that Phu Quoc would become a special administrative-economic zone, the fever peaked: one resident said a 1,000 m² plot sold for VND 4 billion in November 2017 changed hands at VND 6, 10, 15 and then 20 billion by April 2018; plots sometimes flipped several times a day. In May 2018 Kien Giang ordered a halt to island land transactions. On 9 June 2018 the Government asked for a delay, and on 11 June 2018 the National Assembly (85.63% in favour) postponed the Special Administrative-Economic Units law to a later session; the bill was never passed. The bubble deflated from late 2018 and many investors had to sell at 20-30% losses."
     },
     "opportunity": {
-      "asset": "Đất vườn/đất nền khu Dương Đông, Phú Quốc",
+      "asset": {
+        "vi": "Đất vườn/đất nền khu Dương Đông, Phú Quốc",
+        "en": "Garden/residential land in the Duong Dong area, Phu Quoc"
+      },
       "action": {
         "vi": "Mua đất có sổ ở Dương Đông/An Thới sau khi sân bay quốc tế mở (2013-2016) và bán hết trong cơn sốt đầu 2018, trước khi tỉnh cấm giao dịch tháng 5/2018.",
         "en": "Buy titled land in Duong Dong/An Thoi after the international airport opened (2013-2016) and sell everything during the early-2018 frenzy, before the province froze transactions in May 2018."
@@ -3299,7 +3407,10 @@
       "en": "About two years after ADSL internet reached Vietnam, VinaGame (now VNG) launched Vo Lam Truyen Ky in 2005 — a 2D martial-arts MMORPG by Kingsoft. By December 2005 it had about 4.7 million activated accounts when the whole country had only 10.7 million internet subscribers; in 2006 it reached 10.2 million accounts (nearly 70% of subscribers) and 16.7 million in 2008. Most players had no home PC, so net cafés charging VND 2,000-3,000 an hour sprang up on every street, with some groups renting whole rows of 40 machines and farming in shifts around the clock. Alongside came a black market for virtual goods: newspapers of the time reported a full 'Golden' gear set changing hands for VND 30 million, a Golden necklace bought for VND 3.5 million and resold for 5.5 million, and a Beggar Sect Golden staff sold for VND 7 million; characters and weapons were advertised at VND 7-10 million each. Some net-café owners doubled as traders of characters and virtual items."
     },
     "opportunity": {
-      "asset": "Tiệm Internet công cộng (quán net) & tài sản ảo Võ Lâm Truyền Kỳ",
+      "asset": {
+        "vi": "Tiệm Internet công cộng (quán net) & tài sản ảo Võ Lâm Truyền Kỳ",
+        "en": "Public internet cafes & in-game assets from Vo Lam Truyen Ky"
+      },
       "action": {
         "vi": "Mở quán net vài chục máy gần trường học/khu dân cư ngay khi Võ Lâm ra mắt 2005, đồng thời 'cày' và buôn đồ Hoàng Kim, nhân vật cấp cao trong 2005-2008; rút khỏi mảng quán net trước khi Internet gia đình và smartphone phổ cập.",
         "en": "Open a net café with a few dozen PCs near schools or residential areas as soon as Vo Lam launched in 2005, while farming and trading 'Golden' gear and high-level characters in 2005-2008; exit the net-café business before home broadband and smartphones went mainstream."
@@ -3395,7 +3506,10 @@
       "en": "Bubble tea reached Vietnam in the early 2000s but was mostly carts and small shops near school gates, and it cooled sharply in late 2009 after quality scares. In October 2013 a young couple who had studied in Canada brought the Taiwanese brand Ding Tea to Hanoi, reigniting the craze in chain format; Gong Cha opened its first store on Ho Tung Mau (District 1) in 2014, KOI Thé arrived in 2015, alongside Vietnamese brands such as TocoToco. Euromonitor put the market at USD 282 million in 2016, growing about 20% a year; Lozi counted over 1,500 stores across roughly 100 brands. Ding Tea's franchise fee was about USD 20,000 and TocoToco's VND 160-300 million per store for three years; opening a large store like Gong Cha cost VND 4-6 billion. 2017 was the 'golden year' with long queues; rents on bubble-tea-heavy streets in District 1 rose 25-71% in a year. From 2018-2019 the market saturated: The Coffee House closed 23 Ten Ren stores and many franchised shops shut within a year."
     },
     "opportunity": {
-      "asset": "Cửa hàng nhượng quyền trà sữa thương hiệu Đài Loan (Ding Tea, Gong Cha, KOI Thé...)",
+      "asset": {
+        "vi": "Cửa hàng nhượng quyền trà sữa thương hiệu Đài Loan (Ding Tea, Gong Cha, KOI Thé...)",
+        "en": "Franchise stores of Taiwanese bubble-tea brands (Ding Tea, Gong Cha, KOI Thé...)"
+      },
       "action": {
         "vi": "Nhận quyền một thương hiệu trà sữa Đài Loan tại mặt bằng đẹp gần trường học/trung tâm ngay giai đoạn 2013-2015, khai thác 'năm hoàng kim' 2017 rồi sang nhượng cửa hàng trước 2019.",
         "en": "Take a Taiwanese bubble-tea franchise in a prime spot near schools or downtown in 2013-2015, ride the 2017 'golden year', then sell the store before 2019."
@@ -3491,7 +3605,10 @@
       "en": "In mid-2018 orchid circles buzzed when a mutant orchid in Thua Thien-Hue sold for VND 700 million. 'Billion-dong' deals followed, the most sensational on 10 June 2020 in Binh Phuoc: three pots sold for nearly VND 32 billion (two white five-petal Bao Duy plants at VND 12 billion and 9.9 billion, and a Da Vang at 10 billion). In February 2021 the Pho Hien Orchid Association (Hung Yen) confirmed a Ngoc Son Cuoc plant sold for VND 40 billion; a man in Quang Ninh reportedly paid VND 250 billion for 5,000 seedlings. Many people mortgaged homes and borrowed to join in — a Dak Lak seller bought four kies for VND 50 million in mid-2020, sold them for VND 300 million at the end of 2020, then mortgaged his house for over VND 5 billion to buy more. Yet many deals were inflated or fake: Ha Nam police found a VND 19 billion transaction was false news. By August 2021 growers in Phu Tho, Ha Nam, Ninh Binh and Binh Phuoc confirmed prices had fallen 7-8x; five-petal Bach Tuyet, once VND 1.2 billion per kie, dropped to VND 5 million and then around VND 1 million and still found no buyers."
     },
     "opportunity": {
-      "asset": "Kie (mầm) lan đột biến 5 cánh trắng",
+      "asset": {
+        "vi": "Kie (mầm) lan đột biến 5 cánh trắng",
+        "en": "Kie (shoots) of 5-petal white mutant orchid"
+      },
       "action": {
         "vi": "Nếu đã có sẵn kie lan đột biến, bán hết trong cơn sốt cuối 2020 - đầu 2021; tuyệt đối không vay nợ hay thế chấp nhà để mua thêm.",
         "en": "If you already held mutant-orchid kies, sell everything during the late-2020 to early-2021 fever; never borrow or mortgage a house to buy more."

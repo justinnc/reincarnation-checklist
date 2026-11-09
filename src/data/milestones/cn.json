@@ -17,7 +17,10 @@
       "en": "From December 18-22, 1978, the Third Plenum of the 11th CPC Central Committee met in Beijing and officially shifted the party's focus from class struggle to economic construction. This is the moment Deng Xiaoping became China's de facto paramount leader, paving the way for rural decollectivization, foreign investment and the Special Economic Zones that followed."
     },
     "opportunity": {
-      "asset": "Any pre-1978 Chinese land-use rights / early joint-venture equity",
+      "asset": {
+        "vi": "Any pre-1978 Chinese land-use rights / early joint-venture equity",
+        "en": "Any pre-1978 Chinese land-use rights / early joint-venture equity"
+      },
       "action": {
         "vi": "Chuẩn bị vốn và quan hệ để tham gia làn sóng tư nhân hóa, đất đai và liên doanh sắp tới.",
         "en": "Position capital and connections ahead of the coming wave of land-use rights, private farming and joint ventures."
@@ -105,7 +108,10 @@
       "en": "On August 26, 1980, the National People's Congress Standing Committee approved the Guangdong SEZ regulations, formally making Shenzhen China's first Special Economic Zone (alongside Zhuhai, Shantou and Xiamen). From a town of 30,000 people, Shenzhen averaged 27% annual GDP growth from 1980-2005 and became one of China's richest cities."
     },
     "opportunity": {
-      "asset": "Shenzhen land-use rights / early factory & housing property",
+      "asset": {
+        "vi": "Shenzhen land-use rights / early factory & housing property",
+        "en": "Shenzhen land-use rights / early factory & housing property"
+      },
       "action": {
         "vi": "Mua quyền sử dụng đất hoặc bất động sản sớm tại Thâm Quyến trước làn sóng di dân và đầu tư nước ngoài.",
         "en": "Acquire land-use rights or early property in Shenzhen before the wave of migration and foreign investment."
@@ -193,7 +199,10 @@
       "en": "The Shanghai Stock Exchange (SSE) was re-established on November 26, 1990 and began formal operations on December 19, 1990 in the old Pujiang Hotel, with the SSE Composite Index set at a base of 100. It was the first legal national stock exchange in China since 1949."
     },
     "opportunity": {
-      "asset": "SSE Composite Index",
+      "asset": {
+        "vi": "SSE Composite Index",
+        "en": "SSE Composite Index"
+      },
       "action": {
         "vi": "Mua cổ phiếu niêm yết sớm trên sàn Thượng Hải ngay từ ngày khai trương.",
         "en": "Buy early listed A-shares on the Shanghai exchange from opening day."
@@ -290,7 +299,10 @@
       "en": "The Shenzhen Stock Exchange (SZSE) was founded on December 1, 1990 and officially began trading on July 3, 1991. In 2004 SZSE launched its SME Board, and in October 2009 it launched the ChiNext board — where CATL would later list in 2018."
     },
     "opportunity": {
-      "asset": "SZSE Component Index",
+      "asset": {
+        "vi": "SZSE Component Index",
+        "en": "SZSE Component Index"
+      },
       "action": {
         "vi": "Mở tài khoản và mua cổ phiếu A niêm yết sớm trên sàn Thâm Quyến.",
         "en": "Open an account and buy early A-share listings on the Shenzhen exchange."
@@ -378,7 +390,10 @@
       "en": "On August 27, 2001, Kweichow Moutai (600519.SH) listed on the Shanghai Stock Exchange at an issue price of 31.39 yuan per share, raising about 2.25 billion yuan; it closed its first day at 35.55 yuan. Two decades later it became one of China's largest and priciest blue chips, though it has pulled back from its February 2021 peak of 2,627.88 yuan."
     },
     "opportunity": {
-      "asset": "Kweichow Moutai (600519.SH)",
+      "asset": {
+        "vi": "Kweichow Moutai (600519.SH)",
+        "en": "Kweichow Moutai (600519.SH)"
+      },
       "action": {
         "vi": "Mua cổ phiếu ngay phiên IPO và giữ dài hạn qua nhiều chu kỳ.",
         "en": "Buy at IPO and hold through multiple cycles."
@@ -471,7 +486,10 @@
       "en": "On December 11, 2001, China officially became the WTO's 143rd member after 15 years of negotiations. Average tariffs fell from 15.3% (2001) to 9.8% (2010), opening the floodgates to foreign direct investment and manufacturing exports that turned China into the 'world's factory'."
     },
     "opportunity": {
-      "asset": "Chinese export manufacturers / Shanghai & Hong Kong-listed industrials, shipping, ports",
+      "asset": {
+        "vi": "Chinese export manufacturers / Shanghai & Hong Kong-listed industrials, shipping, ports",
+        "en": "Chinese export manufacturers / Shanghai & Hong Kong-listed industrials, shipping, ports"
+      },
       "action": {
         "vi": "Mua cổ phiếu các công ty sản xuất, logistics, cảng biển Trung Quốc hưởng lợi từ xuất khẩu.",
         "en": "Buy export manufacturers, logistics and port operators positioned to benefit from trade liberalization."
@@ -559,7 +577,10 @@
       "en": "From around 2003, China's breakneck urbanization and infrastructure build-out (consuming more than 30% of global industrial metals) kicked off a 'commodity supercycle' that lasted until mid-2008, driving iron ore, copper, coal and many base metals to record highs before the global financial crisis crashed prices in late 2008."
     },
     "opportunity": {
-      "asset": "Iron ore, copper, and mining equities (e.g. BHP, Rio Tinto, Vale, Jiangxi Copper)",
+      "asset": {
+        "vi": "Iron ore, copper, and mining equities (e.g. BHP, Rio Tinto, Vale, Jiangxi Copper)",
+        "en": "Iron ore, copper, and mining equities (e.g. BHP, Rio Tinto, Vale, Jiangxi Copper)"
+      },
       "action": {
         "vi": "Mua cổ phiếu khai khoáng/kim loại toàn cầu và hợp đồng hàng hóa trước khi nhu cầu Trung Quốc bùng nổ.",
         "en": "Buy global mining/metals equities and commodity exposure ahead of the China demand boom."
@@ -647,7 +668,10 @@
       "en": "On June 16, 2004, Tencent Holdings (0700.HK) listed on the Hong Kong Stock Exchange at an offer price of HK$3.70 per share, raising about HK$1.55 billion. The company was then known mainly for its QQ messaging software; two decades later it became one of the world's most valuable internet companies via WeChat and gaming."
     },
     "opportunity": {
-      "asset": "Tencent Holdings (0700.HK)",
+      "asset": {
+        "vi": "Tencent Holdings (0700.HK)",
+        "en": "Tencent Holdings (0700.HK)"
+      },
       "action": {
         "vi": "Mua cổ phiếu ngay IPO và giữ xuyên suốt sự bùng nổ game/mạng xã hội Trung Quốc.",
         "en": "Buy at IPO and hold through China's gaming and social-media boom."
@@ -744,7 +768,10 @@
       "en": "On August 5, 2005, 'China's Google' Baidu.com (BIDU) listed on the Nasdaq at an IPO price of $27 per ADS. The stock opened around $66 and closed its first day at $122.54, up more than 350% — one of the most dramatic tech IPO debuts since the 1999-2000 dot-com bubble."
     },
     "opportunity": {
-      "asset": "Baidu (NASDAQ: BIDU)",
+      "asset": {
+        "vi": "Baidu (NASDAQ: BIDU)",
+        "en": "Baidu (NASDAQ: BIDU)"
+      },
       "action": {
         "vi": "Tham gia IPO hoặc mua ngay phiên đầu nếu không có suất IPO, giữ qua thập kỷ thống trị tìm kiếm tại Trung Quốc.",
         "en": "Get into the IPO, or buy on debut day if shut out of allocation, and hold through Baidu's decade of search dominance in China."
@@ -837,7 +864,10 @@
       "en": "On October 16, 2007, the SSE Composite Index hit an all-time high of 6,124.04 points, up from a trough of 998.22 (June 6, 2005) — roughly a 6x rise in just over two years driven by speculative frenzy. The index then crashed to about 1,820 points by end-2008 as the global financial crisis hit, down more than 70% from the peak."
     },
     "opportunity": {
-      "asset": "SSE Composite Index",
+      "asset": {
+        "vi": "SSE Composite Index",
+        "en": "SSE Composite Index"
+      },
       "action": {
         "vi": "Bán hoặc short trước đỉnh tháng 10/2007; đứng ngoài thị trường A-share Trung Quốc suốt năm 2008.",
         "en": "Sell or short ahead of the October 2007 peak; stay out of China A-shares through 2008."
@@ -930,7 +960,10 @@
       "en": "The Summer Olympics opened on August 8, 2008 in Beijing (the date chosen because 8 is considered lucky). China spent tens of billions of dollars on infrastructure, stadiums (the Bird's Nest, Water Cube) and urban transit, giving a short-term boost to construction, media and advertising — but it coincided with the onset of the global financial crisis, so the stock market fell sharply that same year."
     },
     "opportunity": {
-      "asset": "Chinese construction, media/advertising, and consumer-brand equities pre-2008",
+      "asset": {
+        "vi": "Chinese construction, media/advertising, and consumer-brand equities pre-2008",
+        "en": "Chinese construction, media/advertising, and consumer-brand equities pre-2008"
+      },
       "action": {
         "vi": "Đầu tư vào các công ty xây dựng hạ tầng, truyền thông, quảng cáo trước 2008 rồi thoát sớm trước khi khủng hoảng tài chính lan tới.",
         "en": "Invest in infrastructure, media and advertising companies ahead of 2008, then exit early before the financial crisis arrives."
@@ -1014,7 +1047,10 @@
       "en": "On September 27, 2008, MidAmerican Energy Holdings (a Berkshire Hathaway subsidiary) announced it would buy 225 million newly issued BYD H-shares at HK$8 per share, a HK$1.8 billion (~$230 million) deal for close to a 10% stake. BYD was then a battery and handset-component maker just entering electric vehicles. Berkshire held the stake for 14 years and completed its exit by 2022-2025 with roughly a 38x return."
     },
     "opportunity": {
-      "asset": "BYD Company (1211.HK)",
+      "asset": {
+        "vi": "BYD Company (1211.HK)",
+        "en": "BYD Company (1211.HK)"
+      },
       "action": {
         "vi": "Mua cổ phiếu BYD cùng thời điểm Berkshire Hathaway công bố khoản đầu tư.",
         "en": "Buy BYD shares alongside Berkshire Hathaway's announced investment."
@@ -1106,7 +1142,10 @@
       "en": "On November 9, 2008, China's State Council announced a 4-trillion-yuan (about $586 billion, later clarified as $570 billion) stimulus package to be spent over two years on low-income housing, rural infrastructure, railways, power, environment and Sichuan earthquake reconstruction. The stimulus helped China keep GDP growth around 9% in 2008 while developed economies slid into recession, but also planted the seeds of the later property bubble and local-government debt problems."
     },
     "opportunity": {
-      "asset": "Chinese infrastructure, steel, cement, and construction-machinery equities (e.g. China Railway, Anhui Conch Cement)",
+      "asset": {
+        "vi": "Chinese infrastructure, steel, cement, and construction-machinery equities (e.g. China Railway, Anhui Conch Cement)",
+        "en": "Chinese infrastructure, steel, cement, and construction-machinery equities (e.g. China Railway, Anhui Conch Cement)"
+      },
       "action": {
         "vi": "Mua cổ phiếu xây dựng, thép, xi măng, máy móc công trình ngay khi tin kích thích được công bố.",
         "en": "Buy construction, steel, cement and construction-machinery equities right as the stimulus news breaks."
@@ -1194,7 +1233,10 @@
       "en": "After the 2008 stimulus, abundant bank credit and a 'housing only goes up' mentality sent home prices in Beijing, Shanghai and Shenzhen soaring from 2009. Real estate became the primary store of wealth for China's middle class, with urban homeownership exceeding 90% — among the highest in the world — but it also built an extreme price-to-income bubble in tier-1 cities."
     },
     "opportunity": {
-      "asset": "Residential property in Tier-1 Chinese cities (Beijing, Shanghai, Shenzhen)",
+      "asset": {
+        "vi": "Residential property in Tier-1 Chinese cities (Beijing, Shanghai, Shenzhen)",
+        "en": "Residential property in Tier-1 Chinese cities (Beijing, Shanghai, Shenzhen)"
+      },
       "action": {
         "vi": "Mua căn hộ tại các thành phố loại 1 ngay sau gói kích thích 2009, tận dụng đòn bẩy vay ngân hàng lãi suất thấp.",
         "en": "Buy apartments in Tier-1 cities right after the 2009 stimulus, leveraging cheap bank mortgages."
@@ -1278,7 +1320,10 @@
       "en": "On September 19, 2014, Alibaba Group (BABA) listed on the New York Stock Exchange at an IPO price of $68 per share, raising $21.8 billion — the largest IPO in US history at the time. The stock opened at $92.70 and closed its first day at $93.89, up 38% from the offer price, pushing the company's market cap above $231 billion."
     },
     "opportunity": {
-      "asset": "Alibaba Group (NYSE: BABA)",
+      "asset": {
+        "vi": "Alibaba Group (NYSE: BABA)",
+        "en": "Alibaba Group (NYSE: BABA)"
+      },
       "action": {
         "vi": "Tham gia mua cổ phần IPO hoặc mua ngay phiên đầu giao dịch.",
         "en": "Get IPO allocation or buy on the first day of trading."
@@ -1371,7 +1416,10 @@
       "en": "On November 17, 2014, the Shanghai-Hong Kong Stock Connect officially launched, letting international investors trade Shanghai-listed A-shares directly through Hong Kong (and mainland investors buy Hong Kong shares), breaking down a capital barrier that had stood for over two decades. It was a critical stepping stone toward MSCI later including China A-shares in its emerging-market indices."
     },
     "opportunity": {
-      "asset": "Shanghai A-shares accessible via Stock Connect (e.g. large-cap banks, consumer staples)",
+      "asset": {
+        "vi": "Shanghai A-shares accessible via Stock Connect (e.g. large-cap banks, consumer staples)",
+        "en": "Shanghai A-shares accessible via Stock Connect (e.g. large-cap banks, consumer staples)"
+      },
       "action": {
         "vi": "Mở tài khoản Hồng Kông để tiếp cận cổ phiếu A-share Thượng Hải ngay khi Connect khai trương, trước làn sóng dòng vốn ngoại đổ vào.",
         "en": "Open a Hong Kong brokerage account to access Shanghai A-shares right at Connect's launch, ahead of the coming foreign inflows."
@@ -1459,7 +1507,10 @@
       "en": "From around 2,000 points in mid-2014, the SSE Composite surged over 150% to a peak of 5,166.35 on June 12, 2015, fueled by an explosion in margin trading — outstanding margin debt hit 2.2 trillion yuan ($350 billion) at the top. The index then went into freefall to 3,507 points in under a month (down 32%), including two 'Black Monday' sessions (July 27 and August 24) that each fell 7.6-8.5% in a single day, with the selloff ending around 2,927-3,083 points by late August."
     },
     "opportunity": {
-      "asset": "SSE Composite Index / margin-financed A-shares",
+      "asset": {
+        "vi": "SSE Composite Index / margin-financed A-shares",
+        "en": "SSE Composite Index / margin-financed A-shares"
+      },
       "action": {
         "vi": "Bán hoặc tránh mua cổ phiếu Trung Quốc bằng đòn bẩy margin trước đỉnh tháng 6/2015.",
         "en": "Sell or avoid buying China equities on margin ahead of the June 2015 peak."
@@ -1552,7 +1603,10 @@
       "en": "On June 11, 2018, Contemporary Amperex Technology (CATL, 300750.SZ) listed on Shenzhen's ChiNext board at an issue price of 25.14 yuan per share, selling 217 million new shares (10% of enlarged capital) to raise about $850 million. The stock hit the 44% daily trading limit on debut, then rose another 10% limit the next day to 39.82 yuan, making it the biggest company on ChiNext with a $12.3 billion market cap."
     },
     "opportunity": {
-      "asset": "CATL / Contemporary Amperex Technology (300750.SZ)",
+      "asset": {
+        "vi": "CATL / Contemporary Amperex Technology (300750.SZ)",
+        "en": "CATL / Contemporary Amperex Technology (300750.SZ)"
+      },
       "action": {
         "vi": "Mua cổ phiếu ngay từ IPO và giữ xuyên suốt bùng nổ xe điện toàn cầu 2018-2022.",
         "en": "Buy at IPO and hold through the 2018-2022 global EV boom."
@@ -1645,7 +1699,10 @@
       "en": "On July 9, 2018, Xiaomi Corporation listed on the Hong Kong Stock Exchange at an IPO price of HK$17 per share (the bottom of its HK$17-22 range), raising about $4.72 billion. The stock opened at HK$16.60, dipped to HK$16, then recovered to close its first day at HK$16.80 — about 1.2% below the IPO price, a disappointing debut for the biggest tech IPO in four years."
     },
     "opportunity": {
-      "asset": "Xiaomi Corporation (1810.HK)",
+      "asset": {
+        "vi": "Xiaomi Corporation (1810.HK)",
+        "en": "Xiaomi Corporation (1810.HK)"
+      },
       "action": {
         "vi": "Tránh mua theo hiệu ứng truyền thông quanh IPO; chờ giá điều chỉnh sau khi thị trường định giá lại mô hình kinh doanh phần cứng biên lợi nhuận thấp.",
         "en": "Avoid buying into the IPO hype; wait for the market to re-rate the low-margin hardware business model."
@@ -1738,7 +1795,10 @@
       "en": "On April 2, 2020, 'China's Starbucks rival' Luckin Coffee (Nasdaq-listed in 2019) disclosed an internal investigation finding its chief operating officer and subordinates had fabricated about 2.2 billion yuan ($310 million) in 2019 sales. The stock fell more than 80% that day, was halted, and was delisted from Nasdaq on June 29, 2020 after erasing over $11 billion in market value. The company later paid a $180 million fine to the SEC."
     },
     "opportunity": {
-      "asset": "Luckin Coffee (formerly NASDAQ: LK)",
+      "asset": {
+        "vi": "Luckin Coffee (formerly NASDAQ: LK)",
+        "en": "Luckin Coffee (formerly NASDAQ: LK)"
+      },
       "action": {
         "vi": "Bán hoặc short cổ phiếu ngay khi tin tức gian lận rò rỉ; tránh hoàn toàn các công ty Trung Quốc niêm yết Mỹ thiếu minh bạch kiểm toán tương tự.",
         "en": "Sell or short immediately when the fraud news breaks; avoid similarly opaque US-listed Chinese companies altogether."
@@ -1826,7 +1886,10 @@
       "en": "On June 30, 2021, ride-hailing giant Didi Global listed on the NYSE at an IPO price of $14 per ADS, raising $4.4 billion and valuing the company at $67.5 billion — the largest US listing by a Chinese company since Alibaba (2014). Just two days later, the Cyberspace Administration of China (CAC) launched a cybersecurity investigation and ordered Didi's app pulled from app stores, citing data-security concerns. The stock fell over 25% in a single session after the news, and by December 3, 2021 the company announced it would delist from the NYSE and move to Hong Kong."
     },
     "opportunity": {
-      "asset": "Didi Global (formerly NYSE: DIDI)",
+      "asset": {
+        "vi": "Didi Global (formerly NYSE: DIDI)",
+        "en": "Didi Global (formerly NYSE: DIDI)"
+      },
       "action": {
         "vi": "Tránh mua IPO hoặc bán ngay sau khi tin điều tra an ninh mạng xuất hiện ngày 2/7/2021.",
         "en": "Avoid the IPO, or sell immediately once the cybersecurity-probe news breaks on July 2, 2021."
@@ -1916,7 +1979,10 @@
       "en": "For years, China (especially Xinjiang, Inner Mongolia and Sichuan) hosted the majority of the world's Bitcoin mining capacity thanks to cheap coal and hydro power. In May 2021 provincial governments began cracking down on crypto mining; by September 24, 2021, the People's Bank of China (PBOC) and nine other agencies declared all cryptocurrency transactions — including via offshore exchanges — illegal, while the National Development and Reform Commission (NDRC) ordered domestic mining phased out."
     },
     "opportunity": {
-      "asset": "Bitcoin (BTC) / Chinese crypto-mining operations",
+      "asset": {
+        "vi": "Bitcoin (BTC) / Chinese crypto-mining operations",
+        "en": "Bitcoin (BTC) / Chinese crypto-mining operations"
+      },
       "action": {
         "vi": "Rút vốn khỏi sàn giao dịch và hoạt động đào coin đặt tại Trung Quốc trước lệnh cấm; hoặc short Bitcoin ngắn hạn quanh ngày công bố.",
         "en": "Pull capital out of China-based exchanges and mining operations ahead of the ban; or short Bitcoin short-term around the announcement."
@@ -2004,7 +2070,10 @@
       "en": "After the 2020 'Three Red Lines' policy tightened developer debt ratios, China Evergrande Group — once China's top-selling developer, carrying over $300 billion in liabilities — entered a public liquidity crisis from mid-2021. On September 24, 2021, Evergrande missed an $83.5 million offshore bond coupon payment (within a 30-day grace period), and went on to miss further payments in subsequent months, leading to halted construction on projects nationwide and eventual delisting from the Hong Kong Stock Exchange in 2025 after a court-ordered liquidation."
     },
     "opportunity": {
-      "asset": "China Evergrande Group (3333.HK) and other highly-leveraged Chinese developers",
+      "asset": {
+        "vi": "China Evergrande Group (3333.HK) and other highly-leveraged Chinese developers",
+        "en": "China Evergrande Group (3333.HK) and other highly-leveraged Chinese developers"
+      },
       "action": {
         "vi": "Bán hoặc short cổ phiếu/trái phiếu Evergrande và các nhà phát triển có đòn bẩy cao trước khi khủng hoảng công khai bùng nổ.",
         "en": "Sell or short Evergrande stock/bonds and other highly-leveraged developers before the crisis goes public."
@@ -2092,7 +2161,10 @@
       "en": "On the evening of 29 April 2019, traditional-Chinese-medicine maker Kangmei (600518.SH), once a blue-chip pharma stock worth over 100 billion yuan, restated its 2017 accounts and blamed an 'accounting error' for overstating cash by 29.944 billion yuan. The China Securities Regulatory Commission (CSRC) had opened a formal probe into the company on 28 December 2018. On 30 April the stock opened locked limit-down at 9.54 yuan with 2.1 million lots queued to sell, and it hit the daily limit seven times between 30 April and 13 May. On 17 May the CSRC said Kangmei had used fake bank documents to inflate deposits, forged business records to fake revenue, and moved funds to related parties to trade its own shares. The company admitted that 8.88 billion yuan had gone through affiliates to buy Kangmei stock. On 21 May the shares were tagged 'ST', limiting daily moves to 5%, and closed limit-down at 6.31 yuan."
     },
     "opportunity": {
-      "asset": "Kangmei Pharmaceutical (600518.SH)",
+      "asset": {
+        "vi": "Kangmei Pharmaceutical (600518.SH)",
+        "en": "Kangmei Pharmaceutical (600518.SH)"
+      },
       "action": {
         "vi": "Thoát toàn bộ cổ phiếu Kangmei trước tối 29/4/2019; tránh xa đến khi CSRC công bố kết luận",
         "en": "Exit all Kangmei shares before the evening of 29 April 2019, and stay away until the CSRC publishes its findings"
@@ -2193,7 +2265,10 @@
       "en": "Hanergy Thin Film Power (0566.HK), a thin-film solar maker controlled by billionaire Li Hejun, was at one point worth more than HK$300 billion, bigger than Sony. Most of its revenue came from sales to its own parent, Hanergy Holding. On the morning of 20 May 2015, the day of an AGM that Li skipped, the stock collapsed from HK$7.37 to HK$3.91 (down nearly 47%) in the first 70 minutes of trading and was suspended at 10:40 a.m. It never traded again. In 2017 Hong Kong's Securities and Futures Commission (SFC) obtained a court order disqualifying Li as a director for eight years for serious breaches of duty: he had put the parent's interests ahead of the listed company's, including an undisclosed RMB900 million loan. Hanergy was formally delisted in Hong Kong on 11 June 2019."
     },
     "opportunity": {
-      "asset": "Hanergy Thin Film Power Group (0566.HK)",
+      "asset": {
+        "vi": "Hanergy Thin Film Power Group (0566.HK)",
+        "en": "Hanergy Thin Film Power Group (0566.HK)"
+      },
       "action": {
         "vi": "Thoát toàn bộ Hanergy trước phiên 20/5/2015; vị thế còn lại sau 10h40 hôm đó bị đóng băng vĩnh viễn",
         "en": "Exit all Hanergy shares before the 20 May 2015 session; any position still open after 10:40 a.m. that day was frozen for good"

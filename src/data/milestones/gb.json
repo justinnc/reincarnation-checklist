@@ -17,7 +17,10 @@
       "en": "The Housing Act 1980, in force from 3 October 1980, gave council tenants in England the right to buy their rented home at a 33-50% discount (later raised to a maximum of 60-70% depending on tenancy length). It was an emblematic Thatcher policy to build a 'property-owning democracy'. To date, over 2 million council homes have been sold under the scheme at an average 44% discount to market value; the combined current market value of those homes is estimated at £430bn."
     },
     "opportunity": {
-      "asset": "UK council housing (residential property)",
+      "asset": {
+        "vi": "UK council housing (residential property)",
+        "en": "UK council housing (residential property)"
+      },
       "action": {
         "vi": "Mua nhà hội đồng đang thuê với chiết khấu lớn ngay khi chương trình có hiệu lực",
         "en": "Buy a rented council home at the large discount as soon as the scheme took effect"
@@ -108,7 +111,10 @@
       "en": "Thatcher's government sold 50.2% of British Telecom at an offer price of 130p per share in November 1984, raising £3.9bn. Over 2 million members of the public bought shares for the first time, and by the close of first-day dealing (3 Dec 1984) the price had risen about 33% to roughly 173p. It was the first mega-privatisation and kicked off the 1980s wave of state share sales."
     },
     "opportunity": {
-      "asset": "British Telecom (BT.L)",
+      "asset": {
+        "vi": "British Telecom (BT.L)",
+        "en": "British Telecom (BT.L)"
+      },
       "action": {
         "vi": "Mua cổ phiếu BT trong đợt chào bán công chúng",
         "en": "Buy BT shares in the public offer"
@@ -201,7 +207,10 @@
       "en": "The 'Big Bang' was the 27 October 1986 deregulation of the London Stock Exchange: it scrapped fixed brokerage commissions, enabled electronic trading, and let foreign banks and firms buy up British brokerages. It triggered a decade-long boom in London's financial services industry, turning the City into a true rival to New York."
     },
     "opportunity": {
-      "asset": "UK merchant banks / stockbroking firms (e.g. Mercury Asset Management, Phillips & Drew)",
+      "asset": {
+        "vi": "UK merchant banks / stockbroking firms (e.g. Mercury Asset Management, Phillips & Drew)",
+        "en": "UK merchant banks / stockbroking firms (e.g. Mercury Asset Management, Phillips & Drew)"
+      },
       "action": {
         "vi": "Mua cổ phần các công ty môi giới/ngân hàng thương mại Anh trước khi bị thâu tóm bởi ngân hàng nước ngoài",
         "en": "Buy stakes in UK stockbroking/merchant banking firms before foreign banks snapped them up"
@@ -289,7 +298,10 @@
       "en": "British Gas was privatised in December 1986 at an offer price of 135p per share (paid in two instalments, 50p upfront), raising £5.6bn — then the world's biggest ever IPO. The 'If you see Sid, tell him' ad campaign drew 4.5 million applications. In the first 90 minutes of trading on 8 Dec 1986, over 800 million shares changed hands; the partly-paid 50p stock closed at 62.5p, a roughly 25% first-day gain."
     },
     "opportunity": {
-      "asset": "British Gas plc",
+      "asset": {
+        "vi": "British Gas plc",
+        "en": "British Gas plc"
+      },
       "action": {
         "vi": "Mua cổ phiếu trong đợt IPO 'Tell Sid'",
         "en": "Buy shares in the 'Tell Sid' public offer"
@@ -382,7 +394,10 @@
       "en": "Black Monday was a global stock market crash on 19 October 1987. In London, the FTSE 100 fell from about 2301.9 to 2052.3 (-10.8%) in a single session, then dropped a further ~12% the next day. London's early close on 16 October due to a major storm meant the market missed an early correction, compounding the shock when it reopened on Black Monday itself."
     },
     "opportunity": {
-      "asset": "FTSE 100 index / UK blue-chip equities",
+      "asset": {
+        "vi": "FTSE 100 index / UK blue-chip equities",
+        "en": "FTSE 100 index / UK blue-chip equities"
+      },
       "action": {
         "vi": "Bán khống hoặc thoát vị thế cổ phiếu trước ngày 19/10, sau đó mua lại đáy",
         "en": "Short or exit equities before 19 Oct, then buy back near the bottom"
@@ -474,7 +489,10 @@
       "en": "Black Wednesday (16 Sept 1992) was the day the UK was forced to withdraw sterling from the European Exchange Rate Mechanism (ERM) after failing to defend its currency floor, even after the Bank of England briefly hiked interest rates to 15% in a single day and spent billions intervening. George Soros, through his Quantum Fund, built a roughly $10bn short position against the pound and reportedly made close to $1bn in profit, earning him the nickname 'the man who broke the Bank of England'."
     },
     "opportunity": {
-      "asset": "GBP/DEM (British pound vs Deutschmark)",
+      "asset": {
+        "vi": "GBP/DEM (British pound vs Deutschmark)",
+        "en": "GBP/DEM (British pound vs Deutschmark)"
+      },
       "action": {
         "vi": "Bán khống đồng Bảng Anh trước ngày 16/9/1992",
         "en": "Short the British pound ahead of 16 Sept 1992"
@@ -569,7 +587,10 @@
       "en": "From 1995 to 2007, the UK experienced its biggest-ever house-price cycle: average prices rose 220% (more than tripling) on the Halifax index, driven by cheap credit, constrained supply and a buy-to-let investing boom. London saw the strongest gains. Total UK housing wealth grew by roughly £3 trillion over the period. The boom ended abruptly when the 2007-2008 credit crunch hit, with prices falling 16.4% in 2008 alone."
     },
     "opportunity": {
-      "asset": "UK residential property (especially London)",
+      "asset": {
+        "vi": "UK residential property (especially London)",
+        "en": "UK residential property (especially London)"
+      },
       "action": {
         "vi": "Mua bất động sản London/Đông Nam Anh bằng vay thế chấp đòn bẩy cao đầu/giữa thập niên 1990",
         "en": "Buy London/South East property with high-leverage mortgages in the early/mid-1990s"
@@ -660,7 +681,10 @@
       "en": "ARM Holdings, a chip-design spin-off from Acorn Computers, listed simultaneously on the London Stock Exchange and Nasdaq on 17 April 1998 at an IPO price of 575p per share (initial market cap £264m). Demand was so strong the underwriters raised the price three times; the stock closed day one at 825p, up 250p (~43%). By February 2000 shares peaked at 1010p before the dot-com bubble burst."
     },
     "opportunity": {
-      "asset": "ARM Holdings (ARM.L / ARMH)",
+      "asset": {
+        "vi": "ARM Holdings (ARM.L / ARMH)",
+        "en": "ARM Holdings (ARM.L / ARMH)"
+      },
       "action": {
         "vi": "Mua cổ phiếu ARM trong đợt IPO tháng 4/1998",
         "en": "Buy ARM shares in the April 1998 IPO"
@@ -753,7 +777,10 @@
       "en": "On 7 May 1999, Chancellor Gordon Brown announced plans to sell nearly half the UK's gold reserves to diversify into foreign currencies, right when gold stood at $282.40/oz — near a 20-year low. Pre-announcing the sale pushed the price down a further 10%, to a low of $252.80 on 20 July 1999. From 1999-2002 the UK sold 395 tonnes across 17 auctions, raising $3.5bn at an average of just $275/oz — far below gold's 1980 peak of $850 and its 2025 record above $4,000."
     },
     "opportunity": {
-      "asset": "Gold (XAU/USD)",
+      "asset": {
+        "vi": "Gold (XAU/USD)",
+        "en": "Gold (XAU/USD)"
+      },
       "action": {
         "vi": "Mua vàng ngay khi Chính phủ Anh công bố bán",
         "en": "Buy gold the moment the UK government announced its sale"
@@ -846,7 +873,10 @@
       "en": "Fuelled by the tech and internet stock mania, the FTSE 100 closed at a record 6930.2 on 30 December 1999. From end-March 1995 to end-March 2000, the index more than doubled (+108%). That peak was not surpassed again until February 2015 — 15 years later — because the dot-com bubble burst shortly after."
     },
     "opportunity": {
-      "asset": "FTSE 100 index",
+      "asset": {
+        "vi": "FTSE 100 index",
+        "en": "FTSE 100 index"
+      },
       "action": {
         "vi": "Bán toàn bộ cổ phiếu công nghệ/internet UK trước khi bong bóng vỡ",
         "en": "Sell out of UK tech/internet names before the bubble popped"
@@ -937,7 +967,10 @@
       "en": "After the dot-com bubble burst, the Iraq War began, and investor confidence collapsed post-9/11, the FTSE 100 bottomed at 3287 on 12 March 2003 — a 52.6% fall from its December 1999 peak of 6930.2, the index's largest-ever peak-to-trough drawdown. BT Group shares fell over 85% from their peak. After bottoming, the FTSE 100 rose 40.6% over the following 12 months."
     },
     "opportunity": {
-      "asset": "FTSE 100 index",
+      "asset": {
+        "vi": "FTSE 100 index",
+        "en": "FTSE 100 index"
+      },
       "action": {
         "vi": "Mua mạnh chỉ số FTSE 100 hoặc cổ phiếu blue-chip đã giảm giá",
         "en": "Buy aggressively into the FTSE 100 or beaten-down blue chips"
@@ -1030,7 +1063,10 @@
       "en": "On 13 Sept 2007, news leaked that Northern Rock needed emergency Bank of England support, triggering the first run on a UK bank in 150 years. On 14 Sept, customers queued outside its 76 branches to withdraw savings, and shares fell 30% that day. Chancellor Alistair Darling had to guarantee all deposits on 17 Sept to stop the panic. Northern Rock was nationalised in February 2008 — one of the earliest signals of the 2007-2009 global financial crisis."
     },
     "opportunity": {
-      "asset": "Northern Rock plc shares / UK bank stocks",
+      "asset": {
+        "vi": "Northern Rock plc shares / UK bank stocks",
+        "en": "Northern Rock plc shares / UK bank stocks"
+      },
       "action": {
         "vi": "Bán khống cổ phiếu Northern Rock và các ngân hàng Anh phụ thuộc vốn vay liên ngân hàng",
         "en": "Short Northern Rock and UK banks dependent on wholesale funding"
@@ -1118,7 +1154,10 @@
       "en": "On 7 Oct 2008, RBS shares fell 35% in a single morning while CEO Fred Goodwin was mid-presentation; the bank nearly ran out of cash that same afternoon. On 13 Oct 2008, the UK government announced a £37bn package to recapitalise RBS (£20bn initially, later rising to £45.5bn for an 84% stake) and Lloyds TSB/HBOS (which merged, receiving £17bn). RBS shares lost 87% of their value over 2008 — one of the largest bank nationalisation events in British history."
     },
     "opportunity": {
-      "asset": "Royal Bank of Scotland (RBS.L) / Lloyds Banking Group (LLOY.L)",
+      "asset": {
+        "vi": "Royal Bank of Scotland (RBS.L) / Lloyds Banking Group (LLOY.L)",
+        "en": "Royal Bank of Scotland (RBS.L) / Lloyds Banking Group (LLOY.L)"
+      },
       "action": {
         "vi": "Bán khống cổ phiếu RBS/HBOS trước tháng 10/2008; sau đó mua lại cổ phần giá rẻ của Lloyds sau giải cứu",
         "en": "Short RBS/HBOS before October 2008, then buy discounted Lloyds shares post-bailout"
@@ -1207,7 +1246,10 @@
       "en": "On 26 Nov 2008, Woolworths Group's shares were suspended and the company entered administration with £385m of debt, after lenders refused to refinance it amid the credit crunch. All 807 stores closed in stages from 27 Dec 2008 to 6 Jan 2009, costing 27,000 jobs. It is widely seen as 'the first domino' of the UK high-street retail collapse during and after the financial crisis."
     },
     "opportunity": {
-      "asset": "Woolworths Group plc shares",
+      "asset": {
+        "vi": "Woolworths Group plc shares",
+        "en": "Woolworths Group plc shares"
+      },
       "action": {
         "vi": "Bán khống/tránh cổ phiếu Woolworths và các chuỗi bán lẻ phố cao nợ nhiều",
         "en": "Short or avoid Woolworths and other heavily indebted high-street retailers"
@@ -1295,7 +1337,10 @@
       "en": "From its October 2007 peak of 6731, the FTSE 100 slid throughout the global financial crisis, bottoming at 3512 in early March 2009 (sources cite both 3 and 9 March, within the same ~3500-3512 trading range), down about 49.3% from its peak. The US Dow Jones also bottomed around the same time (9 Mar 2009). After bottoming, the FTSE 100 rallied 64.1% over the following 12 months, fuelled by the Bank of England's quantitative easing programme."
     },
     "opportunity": {
-      "asset": "FTSE 100 index",
+      "asset": {
+        "vi": "FTSE 100 index",
+        "en": "FTSE 100 index"
+      },
       "action": {
         "vi": "Mua mạnh chỉ số FTSE 100 và cổ phiếu ngân hàng bị bán tháo quá mức",
         "en": "Buy aggressively into the FTSE 100 and oversold bank stocks"
@@ -1388,7 +1433,10 @@
       "en": "On 23 June 2016, British voters chose to leave the European Union by 51.9% to 48.1%. The pound, which had spiked to $1.50 as polls closed (on expectations of a 'Remain' win), collapsed over 10% within hours as results showed 'Leave' pulling ahead, bottoming below $1.32 — a 31-year low and sterling's largest-ever one-day fall. The FTSE 100 fell from 6338 to 5806 in the first 10 minutes of trading on 24 June before partially recovering."
     },
     "opportunity": {
-      "asset": "GBP/USD",
+      "asset": {
+        "vi": "GBP/USD",
+        "en": "GBP/USD"
+      },
       "action": {
         "vi": "Bán khống đồng Bảng Anh ngay khi kết quả kiểm phiếu bắt đầu nghiêng về 'Leave'",
         "en": "Short the British pound as soon as vote counts began tilting toward 'Leave'"
@@ -1480,7 +1528,10 @@
       "en": "On 18 July 2016, Japan's SoftBank announced an all-cash deal to acquire ARM Holdings — the Cambridge chip-design firm whose architecture powers most of the world's smartphones — for 1700 pence per share, valuing it at roughly £24.3bn ($32bn). The price was a 43% premium to the 1189p closing price on 15 July 2016 and a 41.1% premium to the all-time-high closing price of 1205p (16 March 2015). It was then the largest-ever acquisition of a European technology company."
     },
     "opportunity": {
-      "asset": "ARM Holdings (ARM.L)",
+      "asset": {
+        "vi": "ARM Holdings (ARM.L)",
+        "en": "ARM Holdings (ARM.L)"
+      },
       "action": {
         "vi": "Mua cổ phiếu ARM trước khi tin thâu tóm được công bố",
         "en": "Buy ARM shares before the takeover announcement"
@@ -1573,7 +1624,10 @@
       "en": "Rolls-Royce earns most of its revenue servicing jet engines by flying hours. The Covid-19 pandemic brought global aviation to a near-standstill, driving the stock from a peak of 375p (Aug 2018) down to just 38.98p on 2 Oct 2020 — a fall of over 195p, or more than 80%. The company lost almost £4bn in 2020, cut 7,000 jobs, and in October 2020 issued 6.4 billion new shares (10 new shares at 32p for every 3 held) to raise £2bn, heavily diluting existing shareholders."
     },
     "opportunity": {
-      "asset": "Rolls-Royce Holdings (RR.L)",
+      "asset": {
+        "vi": "Rolls-Royce Holdings (RR.L)",
+        "en": "Rolls-Royce Holdings (RR.L)"
+      },
       "action": {
         "vi": "Mua cổ phiếu Rolls-Royce ở vùng đáy đại dịch",
         "en": "Buy Rolls-Royce shares at the pandemic-era bottom"
@@ -1666,7 +1720,10 @@
       "en": "On 6 Oct 2020, the UK Financial Conduct Authority (FCA) published final rules banning the sale, distribution and marketing of derivatives (CFDs, options, futures) and exchange-traded notes (ETNs) referencing unregulated cryptoassets to UK retail clients, citing extreme volatility and the inherent difficulty of reliably valuing them. The ban took effect 6 Jan 2021 — right before Bitcoin entered a record rally toward almost $69,000 in late 2021."
     },
     "opportunity": {
-      "asset": "Bitcoin (BTC) / crypto CFDs and ETNs available to UK retail",
+      "asset": {
+        "vi": "Bitcoin (BTC) / crypto CFDs and ETNs available to UK retail",
+        "en": "Bitcoin (BTC) / crypto CFDs and ETNs available to UK retail"
+      },
       "action": {
         "vi": "Mua Bitcoin trực tiếp (không qua CFD/ETN) trước khi lệnh cấm có hiệu lực, hoặc chuyển sang nắm giữ tài sản thực thay vì phái sinh",
         "en": "Buy Bitcoin directly (not via CFD/ETN) ahead of the ban, or shift from derivatives to holding the real asset"
@@ -1757,7 +1814,10 @@
       "en": "On 23 Nov 2020, AstraZeneca and the University of Oxford announced Phase III trial results showing their AZD1222 vaccine (later 'Covid-19 Vaccine AstraZeneca') had an overall 70.4% efficacy against symptomatic Covid-19, with a half-dose-then-full-dose regimen reaching 90% efficacy. On 30 Dec 2020, the UK's MHRA granted emergency authorisation — the first country in the world to approve the Oxford/AstraZeneca vaccine. The first jab was administered on 4 Jan 2021. The vaccine was supplied on a not-for-profit basis during the pandemic."
     },
     "opportunity": {
-      "asset": "AstraZeneca plc (AZN.L)",
+      "asset": {
+        "vi": "AstraZeneca plc (AZN.L)",
+        "en": "AstraZeneca plc (AZN.L)"
+      },
       "action": {
         "vi": "Mua cổ phiếu AstraZeneca trước khi kết quả thử nghiệm tích cực được công bố",
         "en": "Buy AstraZeneca shares ahead of the positive trial results"
@@ -1846,7 +1906,10 @@
       "en": "On 23 Sept 2022, new PM Liz Truss and Chancellor Kwasi Kwarteng unveiled a 'mini-budget' with roughly £45bn of unfunded tax cuts — the biggest in 50 years. Markets reacted violently: the pound fell to an all-time record low of $1.03 on 26 Sept; 30-year gilt yields spiked to a 20-year high. The Bank of England was forced to intervene emergency on 28 Sept, buying £19.3bn of long-dated gilts to stop a liquidity crisis among pension funds using LDI strategies. Truss resigned just 49 days after taking office."
     },
     "opportunity": {
-      "asset": "GBP/USD, UK 30-year gilts",
+      "asset": {
+        "vi": "GBP/USD, UK 30-year gilts",
+        "en": "GBP/USD, UK 30-year gilts"
+      },
       "action": {
         "vi": "Bán khống đồng Bảng và trái phiếu chính phủ Anh (gilt) trước ngày công bố mini-budget",
         "en": "Short the pound and UK government bonds (gilts) ahead of the mini-budget announcement"
@@ -1938,7 +2001,10 @@
       "en": "Tufan Erginbilgic took over as Rolls-Royce CEO in January 2023, calling the company a 'burning platform' needing urgent reform, with shares trading around 90-100p. Through cost cuts, commercial optimisation and a strong aviation recovery, underlying profit rose from £652m (2022) to £1.6bn (2023) to £2.46bn (2024). The stock rose over 200% in Erginbilgic's first year alone, hitting an all-time high of 742p in February 2025 after 2024 results beat expectations and the company reinstated dividends after a five-year pause — nearly an 8x gain from the start of his tenure."
     },
     "opportunity": {
-      "asset": "Rolls-Royce Holdings (RR.L)",
+      "asset": {
+        "vi": "Rolls-Royce Holdings (RR.L)",
+        "en": "Rolls-Royce Holdings (RR.L)"
+      },
       "action": {
         "vi": "Mua cổ phiếu Rolls-Royce ngay khi Tufan Erginbilgic nhậm chức CEO",
         "en": "Buy Rolls-Royce shares right as Tufan Erginbilgic took over as CEO"
@@ -2031,7 +2097,10 @@
       "en": "On 27 June 2012 the UK Financial Services Authority fined Barclays GBP 59.5m, its largest fine ever at the time, and the US CFTC added a USD 200m penalty for attempted manipulation and false reporting of Libor and Euribor; the total came to about GBP 290m. The findings showed derivatives traders asking rate submitters to nudge Libor in favour of their positions, and the bank lowballing its Libor submissions during the 2007-2009 crisis to look healthier. On 28 June 2012 Barclays shares fell 15.53%, from about 196p to 165.6p, wiping out more than GBP 3.2bn in one session. Chairman Marcus Agius and CEO Bob Diamond both resigned in early July."
     },
     "opportunity": {
-      "asset": "Barclays plc (BARC.L)",
+      "asset": {
+        "vi": "Barclays plc (BARC.L)",
+        "en": "Barclays plc (BARC.L)"
+      },
       "action": {
         "vi": "Thoát vị thế Barclays (hoặc mua quyền chọn bán) trước khi án phạt Libor được công bố",
         "en": "Exit Barclays (or buy puts) before the Libor settlement is announced"
@@ -2132,7 +2201,10 @@
       "en": "On 29 August 2014 Tesco guided to first-half trading profit of about GBP 1.1bn. Before the market opened on 22 September 2014, new CEO Dave Lewis admitted that figure was overstated by more than GBP 250m because supplier income had been booked early and costs accrued late. Four executives were suspended and the shares closed 11.6% lower at 203p, the lowest since 2003, wiping almost GBP 2.2bn off the company. In 2017 Tesco Stores agreed a deferred prosecution agreement with the Serious Fraud Office and paid a GBP 129m fine, and the FCA found Tesco had committed market abuse through the 29 August update, ordering compensation for investors who bought between 29 August and 19 September 2014. Three former executives were tried and none was convicted."
     },
     "opportunity": {
-      "asset": "Tesco plc (TSCO.L)",
+      "asset": {
+        "vi": "Tesco plc (TSCO.L)",
+        "en": "Tesco plc (TSCO.L)"
+      },
       "action": {
         "vi": "Không mua Tesco sau bản cập nhật 29/8/2014; thoát hết trước ngày 22/9/2014",
         "en": "Don't buy Tesco after the 29 Aug 2014 update; exit fully before 22 Sep 2014"

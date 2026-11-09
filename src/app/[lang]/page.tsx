@@ -55,7 +55,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
                         </Link>
                         <div className="mt-0.5 text-xs text-faint">
                           <span className="font-mono text-gold sm:hidden">{m.date.slice(0, 4)} · </span>
-                          {m.opportunity.asset}
+                          {t(m.opportunity.asset, lang)}
                         </div>
                       </td>
                       <td className="hidden py-4 pr-4 text-right font-mono text-xs tabular text-muted md:table-cell">

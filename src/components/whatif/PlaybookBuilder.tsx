@@ -412,7 +412,7 @@ export default function PlaybookBuilder({ lang, countries, milestones }: Props) 
                         {c.periodLabel}
                       </span>
                       {c.milestone.opportunity.asset && (
-                        <span className="font-mono text-faint">· {c.milestone.opportunity.asset}</span>
+                        <span className="font-mono text-faint">· {t(c.milestone.opportunity.asset, lang)}</span>
                       )}
                       {c.speculative && (
                         <span className="rounded border border-warning/40 px-1.5 py-0.2 text-[10px] text-warning">

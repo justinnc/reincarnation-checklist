@@ -17,7 +17,10 @@
       "en": "On Sept. 22, 1985 at New York's Plaza Hotel, finance ministers of the US, Japan, West Germany, France and the UK agreed to coordinated intervention to weaken the dollar. USD/JPY fell from about 240 (Sept 1985) to roughly 150 by end-1987, a ~40% yen appreciation. The BOJ then eased aggressively to offset the shock, fueling the 1986-1990 asset bubble."
     },
     "opportunity": {
-      "asset": "USD/JPY",
+      "asset": {
+        "vi": "USD/JPY",
+        "en": "USD/JPY"
+      },
       "action": {
         "vi": "Bán khống đô la Mỹ / mua Yên trước và ngay sau thỏa thuận.",
         "en": "Short the US dollar / go long yen right before and after the accord."
@@ -109,7 +112,10 @@
       "en": "Takemitsu Takizaki took Keyence — a maker of industrial sensors and automation equipment — public on the Osaka Stock Exchange in 1987, later listing on Tokyo's second section in 1989. Thanks to extremely high margins and a unique direct-sales model, Keyence shares rose roughly 96% in 2020 alone, pushing the company's market value to about $167 billion — Japan's second-largest by that measure, behind only Toyota — and making Takizaki Japan's richest person in 2021, surpassing Uniqlo's Tadashi Yanai."
     },
     "opportunity": {
-      "asset": "Keyence Corp (6861.T)",
+      "asset": {
+        "vi": "Keyence Corp (6861.T)",
+        "en": "Keyence Corp (6861.T)"
+      },
       "action": {
         "vi": "Mua và giữ dài hạn cổ phiếu Keyence từ sau IPO 1987, đặc biệt gia tăng tỷ trọng quanh 2020 khi tự động hóa nhà máy bùng nổ.",
         "en": "Buy and hold Keyence stock from its 1987 IPO, adding especially around 2020 as factory automation boomed."
@@ -200,7 +206,10 @@
       "en": "On the last trading day of the 1980s, Dec 29, 1989, the Nikkei 225 closed at a record 38,915.87 (intraday high 38,957.44), having grown sixfold during the decade. This marked the peak of the Japanese asset price bubble; the index then collapsed nearly 82% over the next 19 years, bottoming at 7,054.98 in March 2009."
     },
     "opportunity": {
-      "asset": "Nikkei 225",
+      "asset": {
+        "vi": "Nikkei 225",
+        "en": "Nikkei 225"
+      },
       "action": {
         "vi": "Bán toàn bộ cổ phiếu Nhật / mở vị thế bán khống chỉ số trước năm mới 1990.",
         "en": "Sell all Japanese equities / short the index ahead of 1990."
@@ -293,7 +302,10 @@
       "en": "Tokyo commercial land prices peaked at ¥7.75 million per square meter in 1991 (residential land peaked at ¥951,300/sqm in 1988); in the five central wards, land values rose roughly tenfold in a single decade. After the government tightened real-estate lending and raised rates in the late 1980s, land prices fell continuously through the 1990s and 2000s, only recovering meaningfully from the mid-2010s."
     },
     "opportunity": {
-      "asset": "Tokyo commercial land",
+      "asset": {
+        "vi": "Tokyo commercial land",
+        "en": "Tokyo commercial land"
+      },
       "action": {
         "vi": "Bán bất động sản thương mại Tokyo (hoặc tránh mua) trước 1991; mua lại giá rẻ từ giữa những năm 2000.",
         "en": "Sell Tokyo commercial real estate (or avoid buying) before 1991; rebuy cheaply from the mid-2000s."
@@ -383,7 +395,10 @@
       "en": "Fast Retailing (renamed from Ogori Shoji in 1991) listed its shares on the Hiroshima Stock Exchange in July 1994, when the Uniqlo chain had grown to over 100 stores. The company later moved to the Tokyo Stock Exchange's Second Section in 1997 and its First Section in 1999. The stock has split seven times to date and made founder Tadashi Yanai one of Japan's richest people."
     },
     "opportunity": {
-      "asset": "Fast Retailing (9983.T)",
+      "asset": {
+        "vi": "Fast Retailing (9983.T)",
+        "en": "Fast Retailing (9983.T)"
+      },
       "action": {
         "vi": "Mua cổ phiếu Fast Retailing ngay từ đợt niêm yết năm 1994 và giữ dài hạn qua quá trình bành trướng Uniqlo toàn cầu.",
         "en": "Buy Fast Retailing stock at its 1994 listing and hold through Uniqlo's global expansion."
@@ -472,7 +487,10 @@
       "en": "Sony released the PlayStation console in Japan on Dec 3, 1994 at ¥39,800, one week after rival Sega Saturn's launch. The first 100,000 units sold out immediately, and one million units sold within half a year. This was the turning point that took Sony from a consumer-electronics maker to a dominant global gaming force for the next three decades."
     },
     "opportunity": {
-      "asset": "Sony Corp (6758.T)",
+      "asset": {
+        "vi": "Sony Corp (6758.T)",
+        "en": "Sony Corp (6758.T)"
+      },
       "action": {
         "vi": "Mua cổ phiếu Sony trước khi PlayStation ra mắt và thống trị thị trường game 32-bit.",
         "en": "Buy Sony stock ahead of the PlayStation launch and its dominance of the 32-bit console war."
@@ -561,7 +579,10 @@
       "en": "In early 2000, at the height of the dot-com bubble, SoftBank's Masayoshi Son decided to invest $20 million in Alibaba — then a fledgling B2B e-commerce company run by Jack Ma. When Alibaba IPO'd in New York in September 2014, SoftBank's 34.4% stake was valued at roughly $50-60 billion, one of the most profitable investments in tech history."
     },
     "opportunity": {
-      "asset": "Alibaba Group (via SoftBank stake)",
+      "asset": {
+        "vi": "Alibaba Group (via SoftBank stake)",
+        "en": "Alibaba Group (via SoftBank stake)"
+      },
       "action": {
         "vi": "Đầu tư tư nhân vào Alibaba giai đoạn hạt giống năm 2000.",
         "en": "Make a private seed-stage investment in Alibaba in 2000."
@@ -651,7 +672,10 @@
       "en": "Amid the internet stock mania, SoftBank hit a closing peak of ¥10,111.1 on Feb 18, 2000 (an intraday high of ¥11,000 three days earlier), with SoftBank alone accounting for nearly a quarter of the day's total trading value on the Tokyo exchange. When the dot-com bubble burst, the stock fell more than 90% from its peak and took almost 21 years, until February 2021, to surpass that old high."
     },
     "opportunity": {
-      "asset": "SoftBank Group (9984.T)",
+      "asset": {
+        "vi": "SoftBank Group (9984.T)",
+        "en": "SoftBank Group (9984.T)"
+      },
       "action": {
         "vi": "Bán khống hoặc chốt lời cổ phiếu SoftBank quanh đỉnh dot-com tháng 2/2000.",
         "en": "Short or take profits on SoftBank stock around its Feb 2000 dot-com peak."
@@ -743,7 +767,10 @@
       "en": "After a banking crisis, prolonged deflation, and worries over SARS and the Iraq war, the Nikkei 225 fell to a closing low of 7,607.88 on April 28, 2003 — its lowest since November 1982. From this bottom the index began a multi-year rally that carried it to around 18,000 by mid-2007."
     },
     "opportunity": {
-      "asset": "Nikkei 225",
+      "asset": {
+        "vi": "Nikkei 225",
+        "en": "Nikkei 225"
+      },
       "action": {
         "vi": "Mua chỉ số Nikkei hoặc các blue-chip ngân hàng/công nghệ gần đáy.",
         "en": "Buy the Nikkei index or bank/tech blue chips near the bottom."
@@ -836,7 +863,10 @@
       "en": "The global financial crisis following Lehman Brothers' September 2008 collapse pushed the Nikkei 225 to a closing bottom of 7,054.98 on March 10, 2009, the lowest since 1982 and 81.9% below its 1989 record peak. From this bottom, global and Japanese equity markets began a strong multi-year recovery."
     },
     "opportunity": {
-      "asset": "Nikkei 225",
+      "asset": {
+        "vi": "Nikkei 225",
+        "en": "Nikkei 225"
+      },
       "action": {
         "vi": "Mua chỉ số Nikkei hoặc các cổ phiếu xuất khẩu lớn tại đáy khủng hoảng.",
         "en": "Buy the Nikkei index or major exporter stocks at the crisis bottom."
@@ -929,7 +959,10 @@
       "en": "From late 2009 into early 2010, Toyota faced a massive recall wave (over 7.5 million vehicles) over sticky accelerator pedals/floor mats linked to unintended acceleration, tied to dozens of deaths. After CEO Akio Toyoda testified before the US Congress, Toyota shares fell about 20% in just over a month, equivalent to roughly $35 billion in market value wiped out. Toyota's US sales fell 16% year-over-year in January 2010."
     },
     "opportunity": {
-      "asset": "Toyota Motor (7203.T)",
+      "asset": {
+        "vi": "Toyota Motor (7203.T)",
+        "en": "Toyota Motor (7203.T)"
+      },
       "action": {
         "vi": "Mua cổ phiếu Toyota khi hoảng loạn đạt đỉnh trong đợt điều trần Quốc hội Mỹ.",
         "en": "Buy Toyota stock as panic peaked during the US congressional hearings."
@@ -1018,7 +1051,10 @@
       "en": "On Oct 14, 2011, British CEO Michael Woodford was fired by Olympus's board after questioning $687 million in advisory fees tied to its 2008 Gyrus acquisition. Woodford went public, leading Olympus to admit it had hidden roughly $1.7 billion in investment losses over about 20 years. Between mid-October and early November 2011, Olympus shares fell more than 80%."
     },
     "opportunity": {
-      "asset": "Olympus Corp (7733.T)",
+      "asset": {
+        "vi": "Olympus Corp (7733.T)",
+        "en": "Olympus Corp (7733.T)"
+      },
       "action": {
         "vi": "Bán/tránh cổ phiếu Olympus ngay khi tin Woodford bị sa thải xuất hiện; mua lại sau khi giá giảm sâu để bắt đáy phục hồi.",
         "en": "Sell/avoid Olympus stock right when news of Woodford's firing broke; rebuy after the deep decline to catch the recovery."
@@ -1109,7 +1145,10 @@
       "en": "When Japan's Lower House was dissolved on Nov 16, 2012 and Shinzo Abe promised 'bold monetary easing,' the Nikkei (around 8,500-9,000) began to accelerate. On April 4, 2013, new BOJ Governor Haruhiko Kuroda unveiled an 'unlimited' Quantitative and Qualitative Easing (QQE) package, pledging to double the monetary base in two years. Between mid-November 2012 and mid-May 2013, the Nikkei rose about 80% while the yen depreciated roughly 25% against the dollar."
     },
     "opportunity": {
-      "asset": "Nikkei 225 / USD-JPY",
+      "asset": {
+        "vi": "Nikkei 225 / USD-JPY",
+        "en": "Nikkei 225 / USD-JPY"
+      },
       "action": {
         "vi": "Mua cổ phiếu Nhật (đặc biệt các nhà xuất khẩu) và bán khống Yên.",
         "en": "Buy Japanese equities (especially exporters) and short the yen."
@@ -1200,7 +1239,10 @@
       "en": "Tokyo Electron is one of the world's largest semiconductor equipment makers, benefiting directly from the global chip investment wave across the 2010s-2020s, especially the AI boom from 2023. Per Macrotrends data, the US ADR (TOELY) closed around $4.97 at end-2012; by March 6, 2024, its closing price hit an all-time high of $132.54 — more than a 26x gain over 11 years."
     },
     "opportunity": {
-      "asset": "Tokyo Electron ADR (TOELY)",
+      "asset": {
+        "vi": "Tokyo Electron ADR (TOELY)",
+        "en": "Tokyo Electron ADR (TOELY)"
+      },
       "action": {
         "vi": "Mua và giữ dài hạn cổ phiếu Tokyo Electron qua siêu chu kỳ bán dẫn.",
         "en": "Buy and hold Tokyo Electron stock through the semiconductor supercycle."
@@ -1289,7 +1331,10 @@
       "en": "Mt. Gox, a Tokyo-based bitcoin exchange, handled as much as 70% of global bitcoin trading volume in 2013. On Feb 28, 2014, it filed for bankruptcy in Japan after disclosing the loss of roughly 850,000 BTC (750,000 belonging to customers, 100,000 to the company itself) due to a years-long security hole — worth about $460 million at the time. Bitcoin's price fell from around $800 to under $500 during the crisis days."
     },
     "opportunity": {
-      "asset": "Bitcoin (BTC) / Mt. Gox exposure",
+      "asset": {
+        "vi": "Bitcoin (BTC) / Mt. Gox exposure",
+        "en": "Bitcoin (BTC) / Mt. Gox exposure"
+      },
       "action": {
         "vi": "Tránh hoàn toàn việc giữ Bitcoin trên Mt. Gox từ cuối 2013; nếu đang có tài khoản, rút hết tiền và coin trước tháng 2/2014.",
         "en": "Avoid holding bitcoin on Mt. Gox from late 2013 entirely; if already holding funds there, withdraw everything before February 2014."
@@ -1379,7 +1424,10 @@
       "en": "After the mobile game Pokémon Go launched on July 6, 2016 in the US, Australia and New Zealand, Nintendo stock more than doubled from about ¥14,380 to over ¥32,000, briefly surpassing Sony's market cap — even though Nintendo didn't directly develop the game (it owned only about a third of The Pokémon Company and a small stake in Niantic). On July 25, 2016, Nintendo announced the game's profit impact would be 'limited,' sending shares down as much as 17-18% in a single session, the steepest drop since 1990, though still up 60% from pre-launch levels."
     },
     "opportunity": {
-      "asset": "Nintendo Co. (7974.T)",
+      "asset": {
+        "vi": "Nintendo Co. (7974.T)",
+        "en": "Nintendo Co. (7974.T)"
+      },
       "action": {
         "vi": "Mua nhanh ngay khi Pokémon Go ra mắt để bắt sóng đầu cơ, nhưng bán chốt lời trước khi Nintendo công bố báo cáo thu nhập làm rõ mức độ hưởng lợi thực tế.",
         "en": "Buy quickly at Pokémon Go's launch to ride the speculative wave, but sell before Nintendo's earnings clarification exposes the real limited benefit."
@@ -1472,7 +1520,10 @@
       "en": "After years of heavy losses amid LCD display competition, Sharp agreed to sell a 66.07% stake to Taiwan's Foxconn (Hon Hai) for ¥388.8 billion (about $3.84 billion), with the deal completing on Aug 12, 2016 after clearing Chinese antitrust review. The purchase price was ¥88 per share; in the first session after completion, Sharp shares jumped more than 10%, briefly touching ¥124."
     },
     "opportunity": {
-      "asset": "Sharp Corp (6753.T)",
+      "asset": {
+        "vi": "Sharp Corp (6753.T)",
+        "en": "Sharp Corp (6753.T)"
+      },
       "action": {
         "vi": "Mua cổ phiếu Sharp khi giá gần mức thỏa thuận 88 Yên/cổ phiếu, trước khi thương vụ hoàn tất.",
         "en": "Buy Sharp stock near the ¥88/share deal price, ahead of deal completion."
@@ -1565,7 +1616,10 @@
       "en": "Airbag maker Takata faced the auto industry's largest-ever recall due to inflators using ammonium nitrate propellant that could degrade and explode, spraying metal shrapnel, linked to at least 17 deaths worldwide. On June 26, 2017, Takata filed for bankruptcy protection in Japan and the US, selling most of its assets to US-based Key Safety Systems for $1.588 billion. The Tokyo Stock Exchange halted trading and delisted Takata shares shortly after."
     },
     "opportunity": {
-      "asset": "Takata Corp (7312.T)",
+      "asset": {
+        "vi": "Takata Corp (7312.T)",
+        "en": "Takata Corp (7312.T)"
+      },
       "action": {
         "vi": "Bán khống hoặc tránh hoàn toàn cổ phiếu Takata ngay khi các vụ triệu hồi lớn leo thang từ 2014-2015.",
         "en": "Short or completely avoid Takata stock as major recalls escalated from 2014-2015."
@@ -1655,7 +1709,10 @@
       "en": "On Aug 31, 2020 (Warren Buffett's 90th birthday), Berkshire Hathaway disclosed it had quietly accumulated over 5% stakes in each of Japan's five largest trading houses — Itochu, Marubeni, Mitsubishi, Mitsui and Sumitomo — via Tokyo exchange purchases over roughly 12 months, worth over $6 billion in total. On the very next trading session, Marubeni and Sumitomo shares jumped more than 9%, Mitsubishi and Mitsui more than 7%."
     },
     "opportunity": {
-      "asset": "Itochu, Marubeni, Mitsubishi, Mitsui, Sumitomo (Japanese sogo shosha)",
+      "asset": {
+        "vi": "Itochu, Marubeni, Mitsubishi, Mitsui, Sumitomo (Japanese sogo shosha)",
+        "en": "Itochu, Marubeni, Mitsubishi, Mitsui, Sumitomo (Japanese sogo shosha)"
+      },
       "action": {
         "vi": "Mua cổ phiếu 5 tập đoàn thương mại này trước khi tin Berkshire mua vào được công bố, hoặc ngay sau công bố để hưởng hiệu ứng 'con dấu Buffett'.",
         "en": "Buy these five trading house stocks before Berkshire's purchase news broke, or right after for the 'Buffett stamp of approval' effect."
@@ -1744,7 +1801,10 @@
       "en": "On Feb 22, 2024, the Nikkei 225 rose 2.2% to a record close of 39,098.68, officially surpassing its old peak of 38,915.87 set on Dec 29, 1989, after 34 years and 2 months. The rally was driven by corporate governance reforms, strong corporate earnings, a weak yen supporting exporters, and a spillover from Nvidia's blockbuster earnings report into Japanese semiconductor stocks."
     },
     "opportunity": {
-      "asset": "Nikkei 225",
+      "asset": {
+        "vi": "Nikkei 225",
+        "en": "Nikkei 225"
+      },
       "action": {
         "vi": "Giữ hoặc mua thêm cổ phiếu Nhật trong đợt tái định giá 2023-2024 trước khi đạt đỉnh lịch sử.",
         "en": "Hold or add to Japanese equities during the 2023-2024 re-rating, ahead of the historic new high."
@@ -1835,7 +1895,10 @@
       "en": "In summer 2024, Japan faced its worst rice shortage in over 20 years due to a poor-quality 2023 harvest (extreme heat), surging tourist demand, and panic-buying after an August 2024 major earthquake warning. The price of a 5kg bag of rice rose from about ¥2,000 in early 2024 to a peak of roughly ¥4,300-4,400 in early 2025 — a year-over-year increase of more than 98% by May 2025, the largest in over half a century. The government released emergency reserves for the first time starting February 2025."
     },
     "opportunity": {
-      "asset": "Japanese table rice (per 5kg retail bag)",
+      "asset": {
+        "vi": "Japanese table rice (per 5kg retail bag)",
+        "en": "Japanese table rice (per 5kg retail bag)"
+      },
       "action": {
         "vi": "Mua tích trữ gạo hoặc đầu tư vào cổ phiếu các công ty phân phối/nhập khẩu gạo trước khi giá tăng gấp đôi; bán/thoát vị thế khi chính phủ bắt đầu xả kho dự trữ.",
         "en": "Stockpile rice or invest in rice distribution/import-related stocks before prices double; sell/exit once the government begins releasing reserves."
@@ -1928,7 +1991,10 @@
       "en": "After the BOJ raised rates to 0.25% in late July 2024, the yen strengthened sharply (to a seven-month high), forcing mass unwinding by investors who had borrowed cheap yen to buy other assets (mainly US tech stocks). On Aug 5, 2024, the Nikkei 225 fell 12.4% (losing 4,451.28 points, its largest-ever point drop), closing at 31,458.42 — down 27% from its July 11, 2024 peak of 42,426.77, officially entering a bear market."
     },
     "opportunity": {
-      "asset": "Nikkei 225 / USD-JPY carry trade",
+      "asset": {
+        "vi": "Nikkei 225 / USD-JPY carry trade",
+        "en": "Nikkei 225 / USD-JPY carry trade"
+      },
       "action": {
         "vi": "Đóng vị thế carry trade vay Yên và chốt lời cổ phiếu Nhật trước cuộc họp BOJ cuối tháng 7/2024; mua lại Nikkei sau cú sập ngày 5/8.",
         "en": "Close yen-funded carry trades and take profits on Japanese equities ahead of the late-July 2024 BOJ meeting; rebuy the Nikkei after the Aug 5 crash."
@@ -2019,7 +2085,10 @@
       "en": "Livedoor, an Internet company on the Tokyo Stock Exchange's Mothers market founded by Takafumi Horie ('Horiemon'), was a symbol of a 'new Japan' thanks to its string of acquisitions and its 2005 battle for Nippon Broadcasting. On the evening of 16 January 2006, Tokyo prosecutors raided Livedoor's headquarters on suspicion of violating the Securities and Exchange Law (spreading false information and window-dressing its accounts). Just before the raid the stock stood at 696 yen, for a market value of about 730 billion yen. A flood of sell orders sent it limit-down day after day, overloaded the TSE's systems and forced the exchange to shorten trading hours. Horie was arrested on 23 January. By 13 February, the day he was indicted, the stock closed at 61 yen. Livedoor was delisted on 14 April 2006."
     },
     "opportunity": {
-      "asset": "Livedoor Co. (TSE Mothers: 4753)",
+      "asset": {
+        "vi": "Livedoor Co. (TSE Mothers: 4753)",
+        "en": "Livedoor Co. (TSE Mothers: 4753)"
+      },
       "action": {
         "vi": "Bán toàn bộ Livedoor trước tối 16/1/2006; tránh 'bắt đáy' trong suốt tháng sau đó",
         "en": "Sell all Livedoor shares before the evening of 16 January 2006, and don't try to buy the dip in the month that follows"
@@ -2120,7 +2189,10 @@
       "en": "On 8 November 2004, at a meeting with Livedoor, activist investor Yoshiaki Murakami was told that Livedoor intended to buy a large block of Nippon Broadcasting System (NBS), the radio broadcaster that held a big stake in Fuji TV. According to the court judgment, between 9 November 2004 and 26 January 2005 his fund, MAC Asset Management, bought another 1,933,100 NBS shares for a total of 9.95 billion yen. On 17 January 2005 Fuji TV launched a tender offer for NBS at 5,950 yen. On the morning of 8 February 2005, Livedoor bought 29.6% of NBS in off-hours trading, taking its stake to 35% and starting the takeover battle. On 24 February, NBS closed at 6,280 yen, above Fuji's offer price. Murakami made a profit of about 3 billion yen. He was arrested on 5 June 2006, and in 2007 the Tokyo District Court sentenced him to two years in prison and ordered the forfeiture of about 1.2 billion yen. In 2009 the Tokyo High Court upheld the conviction but suspended the prison term for three years, and the Supreme Court upheld that ruling in 2011."
     },
     "opportunity": {
-      "asset": "Nippon Broadcasting System (NBS, TSE 2nd section)",
+      "asset": {
+        "vi": "Nippon Broadcasting System (NBS, TSE 2nd section)",
+        "en": "Nippon Broadcasting System (NBS, TSE 2nd section)"
+      },
       "action": {
         "vi": "Mua NBS một cách hợp pháp, dựa trên thông tin công khai về cuộc chào mua của Fuji TV, rồi chốt lời khi cuộc chiến Livedoor–Fuji đẩy giá vượt mức chào mua",
         "en": "Buy NBS legally, on the public information about Fuji TV's tender offer, then take profit as the Livedoor–Fuji battle pushes the price above the offer"

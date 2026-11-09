@@ -17,7 +17,10 @@
       "en": "Financial deregulation in 1983–1985 fuelled a debt-financed takeover boom led by 'corporate cowboys' such as Alan Bond (Bond Corporation), Christopher Skase (Qintex) and Robert Holmes à Court, pushing Australian share valuations to their most expensive level on record. When trading resumed on Tuesday 20 October 1987, after Wall Street's roughly 20% overnight fall, the All Ordinaries dropped 516 points, or 25% — the largest one-day fall in its history. Within 19 trading days the index had lost about 50%, sinking to 1,151 points by 11 November 1987. The Australian market took more than six years to regain its September 1987 high, and several leveraged empires collapsed in the following years; Alan Bond later went bankrupt and was convicted over siphoning more than A$1.2 billion from Bell Resources."
     },
     "opportunity": {
-      "asset": "S&P/ASX All Ordinaries (XAO) / Australian blue chips",
+      "asset": {
+        "vi": "S&P/ASX All Ordinaries (XAO) / Australian blue chips",
+        "en": "S&P/ASX All Ordinaries (XAO) / Australian blue chips"
+      },
       "action": {
         "vi": "Bán hoặc giảm đòn bẩy trước tháng 10/1987, tránh xa các tập đoàn thâu tóm bằng nợ; chỉ mua lại blue-chip ít nợ sau khi thị trường đã giảm khoảng 50%",
         "en": "Sell or de-leverage before October 1987 and avoid debt-funded takeover conglomerates; buy back only low-debt blue chips after the market had fallen about 50%"
@@ -114,7 +117,10 @@
       "en": "The government-owned Commonwealth Bank of Australia (CBA) became a public company on 17 April 1991 and was privatised in three stages. In the first, 230 million shares (30% of voting shares) were issued at A$5.40 and listed on the ASX on 12 September 1991, raising A$1.3 billion; the first-day close was A$6.46. The second offer (November 1993) was priced at A$9.35 for retail investors, and CBA was fully privatised in July 1996. On 11 November 2024 CBA shares broke A$150 for the first time (intraday high A$150.34), on top of more than three decades of franked dividends."
     },
     "opportunity": {
-      "asset": "Commonwealth Bank of Australia (ASX: CBA)",
+      "asset": {
+        "vi": "Commonwealth Bank of Australia (ASX: CBA)",
+        "en": "Commonwealth Bank of Australia (ASX: CBA)"
+      },
       "action": {
         "vi": "Đăng ký mua cổ phiếu trong đợt IPO tư nhân hóa 1991 và tái đầu tư cổ tức franked",
         "en": "Subscribe to the 1991 privatisation IPO and reinvest the franked dividends"
@@ -215,7 +221,10 @@
       "en": "Commonwealth Serum Laboratories was the Commonwealth's first 100% share sale; its ASX flotation was completed on 30 May 1994. The government raised A$299 million selling 130 million shares at A$2.30 (about A$0.77 after the 2007 3-for-1 split); market value at listing was only about A$300 million and local investors largely shunned the float. Under CEO Brian McNamee, CSL bought ZLB Bioplasma in 2000 for A$930 million — a deal that doubled its size — and became one of the world's largest plasma-therapies companies. By February 2020 the shares reached about A$340 and the company was worth A$145 billion, briefly overtaking CBA and BHP as the ASX's most valuable company; in 2024 the stock still traded above A$300."
     },
     "opportunity": {
-      "asset": "CSL Limited (ASX: CSL)",
+      "asset": {
+        "vi": "CSL Limited (ASX: CSL)",
+        "en": "CSL Limited (ASX: CSL)"
+      },
       "action": {
         "vi": "Mua trong đợt IPO tư nhân hóa bị thị trường thờ ơ năm 1994 và nắm giữ suốt chuỗi thâu tóm toàn cầu",
         "en": "Buy the unloved 1994 privatisation float and hold through its global acquisition run"
@@ -316,7 +325,10 @@
       "en": "HIH Insurance, built by Ray Williams from 1968, was once Australia's second-largest insurer. Its acquisition of FAI Insurance (whose CEO Rodney Adler joined the HIH board in 1999) and chronic under-reserving for claims hollowed the company out. On 15 March 2001 the board appointed a provisional liquidator; liquidators estimated the deficiency at between A$3.6 billion and A$5.3 billion. The Royal Commission found mismanagement and a failure to set aside enough money for claims were the main causes. Rodney Adler was sentenced to 4½ years' jail (14 April 2005) and Ray Williams to 4 years 6 months (15 April 2005). The collapse triggered a major overhaul of APRA's insurance supervision."
     },
     "opportunity": {
-      "asset": "HIH Insurance (ASX: HIH) — avoid",
+      "asset": {
+        "vi": "HIH Insurance (ASX: HIH) — avoid",
+        "en": "HIH Insurance (ASX: HIH) — avoid"
+      },
       "action": {
         "vi": "Bán toàn bộ cổ phiếu HIH và tránh hợp đồng bảo hiểm của HIH trước năm 2001",
         "en": "Dump all HIH shares and avoid HIH insurance policies before 2001"
@@ -413,7 +425,10 @@
       "en": "In July 2003 Andrew 'Twiggy' Forrest — fresh from the Anaconda Nickel debacle — took control of mining minnow Allied Mining and Processing and renamed it Fortescue Metals Group, pivoting to Pilbara iron ore. When it first traded on the ASX as Fortescue, the stock was about 2 cents (split-adjusted), and only months earlier it had been a 'one-cent company'. China's booming steel demand turned the plan into reality: in May 2008 FMG shipped its first ore from the Cloudbreak mine. After a 10-for-1 split in December 2007, the shares hit an all-time high of A$13.15 in June 2008 and Forrest became Australia's richest man."
     },
     "opportunity": {
-      "asset": "Fortescue Metals Group (ASX: FMG)",
+      "asset": {
+        "vi": "Fortescue Metals Group (ASX: FMG)",
+        "en": "Fortescue Metals Group (ASX: FMG)"
+      },
       "action": {
         "vi": "Mua cổ phiếu xu Fortescue khi Forrest tiếp quản năm 2003 và nắm giữ qua giai đoạn xây dựng mỏ Cloudbreak",
         "en": "Buy Fortescue as a penny stock when Forrest took over in 2003 and hold through the Cloudbreak build-out"
@@ -514,7 +529,10 @@
       "en": "Storm Financial, a Townsville (Queensland) advisory firm founded by Emmanuel and Julie Cassimatis in 1994, sold a one-size-fits-all model: clients borrowed against their homes and then took margin loans on top to buy index funds — 'double gearing'. Most clients were retired or near retirement, with little income and few assets. As the ASX 200 fell from 6,851.5 (November 2007) to 3,120.8 (March 2009), margin loans were sold out en masse. Commonwealth Bank called in its facilities and Storm went into administration on 9 January 2009. More than 3,000 clients were left destitute, with losses above A$800 million; in 2016 and 2020 the Federal Court confirmed the founders had breached their directors' duties."
     },
     "opportunity": {
-      "asset": "S&P/ASX 200 index funds — without leverage",
+      "asset": {
+        "vi": "S&P/ASX 200 index funds — without leverage",
+        "en": "S&P/ASX 200 index funds — without leverage"
+      },
       "action": {
         "vi": "Không bao giờ thế chấp nhà để vay ký quỹ; giữ tiền mặt và mua quỹ chỉ số không đòn bẩy khi GFC chạm đáy",
         "en": "Never mortgage the family home to fund margin loans; hold cash and buy unleveraged index funds at the GFC bottom"
@@ -611,7 +629,10 @@
       "en": "In 2012 Sydney's median house price was A$645,000 after the market had stayed flat from 2004 to 2012. The Reserve Bank of Australia began an aggressive run of rate cuts, partly to offset the mining downturn, making debt cheaper and letting buyers bid up prices. Investors piled in using negative gearing (deducting rental losses from taxable income) and the 50% capital-gains discount; the personal income tax they saved via negative gearing grew from A$600 million in 2001/02 to A$13.2 billion in 2010/11. By 2016 the median topped A$1 million; in 2021 alone it rose about A$1,100 a day, and by early 2022 the median house price was just over A$1.6 million."
     },
     "opportunity": {
-      "asset": "Sydney detached houses",
+      "asset": {
+        "vi": "Sydney detached houses",
+        "en": "Sydney detached houses"
+      },
       "action": {
         "vi": "Mua nhà ở Sydney năm 2012 khi giá đi ngang và lãi suất bắt đầu giảm",
         "en": "Buy a Sydney house in 2012 while prices were flat and rates were starting to fall"
@@ -712,7 +733,10 @@
       "en": "Pilbara Minerals (ASX: PLS) mines lithium-bearing spodumene at Pilgangoora in Western Australia. In the COVID crash its shares fell as low as 13 cents (March 2020). Booming electric-vehicle sales in China and globally created a lithium shortage; Pilbara sold cargoes through its BMX auction platform and in November 2022 achieved a record of about US$8,575/dmt (SC6.0). In FY2022 it booked record revenue of A$1.2 billion and its maiden net profit. The shares hit an all-time high of A$5.66 in late 2022. Lithium prices then fell more than 50% within 12 months; Pilbara's FY2023-24 profit plunged 89% and it paid no dividend."
     },
     "opportunity": {
-      "asset": "Pilbara Minerals Ltd (ASX: PLS)",
+      "asset": {
+        "vi": "Pilbara Minerals Ltd (ASX: PLS)",
+        "en": "Pilbara Minerals Ltd (ASX: PLS)"
+      },
       "action": {
         "vi": "Mua PLS trong cú sập COVID và bán khi giá spodumene lập kỷ lục cuối 2022",
         "en": "Buy PLS in the COVID crash and sell when spodumene prices hit records in late 2022"
@@ -813,7 +837,10 @@
       "en": "Afterpay (ASX: APT), founded by Nick Molnar and Anthony Eisen in 2014, was the poster child of buy-now-pay-later (BNPL). The stock closed at a then-record A$40.50 on 19 February 2020, then collapsed to A$8.90 on 23 March 2020 (A$8.01 intraday) as COVID-19 panic swept markets. The pandemic online-shopping boom and Tencent's 5% stake flipped sentiment: by February 2021 the shares hit a record A$160.05 — roughly 18x in under a year. On 2 August 2021 Jack Dorsey's Square (now Block) announced an all-stock A$39 billion takeover, offering 0.375 Square shares per Afterpay share, implying A$126.21 a share."
     },
     "opportunity": {
-      "asset": "Afterpay Ltd (ASX: APT)",
+      "asset": {
+        "vi": "Afterpay Ltd (ASX: APT)",
+        "en": "Afterpay Ltd (ASX: APT)"
+      },
       "action": {
         "vi": "Mua Afterpay trong cơn hoảng loạn COVID tháng 3/2020 và chốt lời trong cơn sốt BNPL đầu 2021",
         "en": "Buy Afterpay in the March 2020 COVID panic and take profits in the early-2021 BNPL frenzy"
@@ -914,7 +941,10 @@
       "en": "After the US approved spot bitcoin ETFs in January 2024, the ASX admitted its first spot bitcoin ETF — the VanEck Bitcoin ETF (ASX: VBTC) — which listed on 20 June 2024. On day one VBTC opened at A$13.24 and closed at A$13.34, with 96,476 units traded (about A$1.3 million). For the first time Australian investors — including self-managed super funds (SMSFs) — could hold bitcoin through an ordinary brokerage account on the main exchange. Bitcoin's AUD price closed around A$97,326 on 20 June 2024 and around A$150,984 on 31 December 2024, after bitcoin topped US$100,000 for the first time in December 2024."
     },
     "opportunity": {
-      "asset": "Bitcoin via VanEck Bitcoin ETF (ASX: VBTC)",
+      "asset": {
+        "vi": "Bitcoin via VanEck Bitcoin ETF (ASX: VBTC)",
+        "en": "Bitcoin via VanEck Bitcoin ETF (ASX: VBTC)"
+      },
       "action": {
         "vi": "Mua Bitcoin (hoặc VBTC) khi ETF ra mắt trên ASX tháng 6/2024",
         "en": "Buy bitcoin (or VBTC) when the ETF launched on the ASX in June 2024"

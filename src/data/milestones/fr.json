@@ -17,7 +17,10 @@
       "en": "On 17 Nov 1986 Saint-Gobain became the first company privatized by Jacques Chirac's government, offered at FF310/share. It first traded on 24 Dec 1986 at FF369 (+19%) and topped FF600 by end-1988. 1.5 million French citizens became shareholders, paving the way for Paribas, TF1, Société Générale and CGE/Alcatel privatizations in 1987."
     },
     "opportunity": {
-      "asset": "Saint-Gobain (SGO.PA)",
+      "asset": {
+        "vi": "Saint-Gobain (SGO.PA)",
+        "en": "Saint-Gobain (SGO.PA)"
+      },
       "action": {
         "vi": "Mua cổ phiếu trong đợt IPO tư nhân hóa",
         "en": "Buy shares in the privatization IPO"
@@ -110,7 +113,10 @@
       "en": "In 1987 Louis Vuitton merged with Moët Hennessy (itself formed from the 1971 Moët & Chandon/Hennessy merger) to create LVMH, then with 10 Maisons, 12,000 employees and €3bn in sales. In 1989 Bernard Arnault seized control via a hostile takeover and became Chairman/CEO, turning LVMH into the world's most valuable luxury conglomerate over the following three decades."
     },
     "opportunity": {
-      "asset": "LVMH (MC.PA)",
+      "asset": {
+        "vi": "LVMH (MC.PA)",
+        "en": "LVMH (MC.PA)"
+      },
       "action": {
         "vi": "Mua và nắm giữ cổ phiếu LVMH ngay từ khi niêm yết, đặc biệt sau khi Arnault lên nắm quyền 1989",
         "en": "Buy and hold LVMH stock from listing, especially after Arnault takes control in 1989"
@@ -198,7 +204,10 @@
       "en": "On 19 Oct 1987 the Dow fell 22.6% in a single session. The shock reached Paris: the index fell 5.5% on 15 Oct, 7.72% on 26 Oct, and nearly 8% more on 27 Oct as the dollar slid. Recently privatized stocks (Saint-Gobain, Paribas) were hit hard in the selloff. From its spring 1987 peak, the French market had lost about 35%."
     },
     "opportunity": {
-      "asset": "Saint-Gobain, Paribas, CGE (French blue-chips)",
+      "asset": {
+        "vi": "Saint-Gobain, Paribas, CGE (French blue-chips)",
+        "en": "Saint-Gobain, Paribas, CGE (French blue-chips)"
+      },
       "action": {
         "vi": "Bán trước hoặc tránh mua đuổi giữa tháng 10/1987, rồi mua lại đáy cuối năm",
         "en": "Sell before or avoid chasing mid-Oct 1987, then buy the year-end bottom"
@@ -286,7 +295,10 @@
       "en": "Eurotunnel's second share offering launched right after the October 1987 Black Monday crash, but still drew over 100,000 shareholders and raised roughly $1.5bn. On its 10 Dec 1987 debut, shares fell 27% in Paris (from a FF35 offer to FF25.55) and 29% in London. Millions of French retail investors — many using retirement savings — lost most of their capital over the following two decades as the project ran over budget and posted heavy losses."
     },
     "opportunity": {
-      "asset": "Eurotunnel (Groupe Eurotunnel)",
+      "asset": {
+        "vi": "Eurotunnel (Groupe Eurotunnel)",
+        "en": "Eurotunnel (Groupe Eurotunnel)"
+      },
       "action": {
         "vi": "TRÁNH MUA hoặc bán khống nếu có thể — đây là bẫy đầu tư, không phải cơ hội",
         "en": "AVOID buying, or short if possible — this is a trap, not an opportunity"
@@ -378,7 +390,10 @@
       "en": "The CAC 40 was set to a 1,000-point base on 31 Dec 1987, equal to FF370.4bn market cap for Paris's top 40 companies; it officially launched electronic trading 15 June 1988. Because the base was fixed right after the October 1987 crash, buying French blue-chips at year-end 1987 caught the bottom of a decade-plus bull run."
     },
     "opportunity": {
-      "asset": "CAC 40 index",
+      "asset": {
+        "vi": "CAC 40 index",
+        "en": "CAC 40 index"
+      },
       "action": {
         "vi": "Mua rổ cổ phiếu CAC 40 hoặc quỹ chỉ số tương đương",
         "en": "Buy a CAC 40 basket or equivalent index tracker"
@@ -471,7 +486,10 @@
       "en": "Per French notary data (Notaires de France/Chambre des Notaires de Paris), the average price of existing Paris apartments rose from about €3,463/m² in 1991 to a 2020 peak of €10,760/m² — more than 3.1x (~3.6%/year real, double the inflation rate). Prices actually fell from 1991-1996 amid an early-1990s downturn before entering a near-continuous 25-year uptrend driven by low interest rates and international demand."
     },
     "opportunity": {
-      "asset": "Paris residential property (per m²)",
+      "asset": {
+        "vi": "Paris residential property (per m²)",
+        "en": "Paris residential property (per m²)"
+      },
       "action": {
         "vi": "Mua căn hộ Paris sau khủng hoảng đầu 1990, giữ dài hạn qua nhiều thập kỷ",
         "en": "Buy a Paris apartment after the early-1990s downturn, hold for decades"
@@ -564,7 +582,10 @@
       "en": "After an aggressive late-1980s expansion into real estate and Hollywood (buying MGM), Crédit Lyonnais lost FF1.8bn in 1992 and FF6.9bn in 1993 — the largest loss in French public-bank history. The state injected FF4.9bn of capital in 1994 and guaranteed up to FF135bn of bad assets in 1995, with total bailout costs to French taxpayers estimated at FF45-50bn."
     },
     "opportunity": {
-      "asset": "Crédit Lyonnais",
+      "asset": {
+        "vi": "Crédit Lyonnais",
+        "en": "Crédit Lyonnais"
+      },
       "action": {
         "vi": "TRÁNH hoặc bán khống cổ phiếu/trái phiếu liên quan trước khi khủng hoảng công bố",
         "en": "AVOID or short related equity/debt before the crisis was disclosed"
@@ -652,7 +673,10 @@
       "en": "In June 1993 Hermès floated 425,000 shares (about 4% of capital) at FF300 (~$55) each, oversubscribed 34 times, with the family retaining roughly 96%. By 1995 the shares had risen to FF600. Hermès went on to become one of the world's best-performing luxury stocks, notably after fending off LVMH's stealth takeover attempt in 2010-2014."
     },
     "opportunity": {
-      "asset": "Hermès International (RMS.PA)",
+      "asset": {
+        "vi": "Hermès International (RMS.PA)",
+        "en": "Hermès International (RMS.PA)"
+      },
       "action": {
         "vi": "Mua tại IPO và nắm giữ hàng chục năm",
         "en": "Buy at IPO and hold for decades"
@@ -745,7 +769,10 @@
       "en": "On 28 June 1996 Dassault Systèmes (the software arm of Dassault Aviation) dual-listed on the Paris Bourse and Nasdaq (ticker DASTY) at FF118/share in Paris ($23/ADS). The 17.5%-of-capital offering was 35x oversubscribed; shares jumped over 35% on debut and reached FF229 within six months. It remains one of France's most successful tech IPOs, funding the 1997 acquisition of SolidWorks."
     },
     "opportunity": {
-      "asset": "Dassault Systèmes (DSY.PA)",
+      "asset": {
+        "vi": "Dassault Systèmes (DSY.PA)",
+        "en": "Dassault Systèmes (DSY.PA)"
+      },
       "action": {
         "vi": "Mua tại IPO, nắm giữ dài hạn qua các thương vụ thâu tóm SolidWorks, Enovia...",
         "en": "Buy at IPO, hold long-term through acquisitions like SolidWorks, Enovia..."
@@ -838,7 +865,10 @@
       "en": "The French state sold 23.2% of France Télécom via IPO on 20 Oct 1997, priced at FF182 for retail investors and FF187 for institutions (equivalent to €27.75). It closed its first day at FF206.5 (+13.5%). It was Europe's largest IPO at the time, drawing 4 million retail shareholders and raising FF42bn for the state budget."
     },
     "opportunity": {
-      "asset": "France Télécom (now Orange, ORA.PA)",
+      "asset": {
+        "vi": "France Télécom (now Orange, ORA.PA)",
+        "en": "France Télécom (now Orange, ORA.PA)"
+      },
       "action": {
         "vi": "Mua tại IPO, nhưng PHẢI BÁN trước đỉnh dot-com",
         "en": "Buy at IPO, but MUST SELL before the dot-com peak"
@@ -931,7 +961,10 @@
       "en": "On 1 Jan 1999 the EU Council fixed the irrevocable conversion rate: 1 euro = 6.55957 French francs. The euro became the official unit of account from that date, while euro notes and coins only entered physical circulation on 1 Jan 2002. Knowing this exact rate allows perfect valuation of franc-denominated assets, debts and contracts through the 1999-2002 transition period."
     },
     "opportunity": {
-      "asset": "EUR/FRF",
+      "asset": {
+        "vi": "EUR/FRF",
+        "en": "EUR/FRF"
+      },
       "action": {
         "vi": "Chốt mọi hợp đồng, khoản vay, tài sản bằng franc theo đúng tỷ giá trước khi công bố chính thức",
         "en": "Lock in any franc-denominated contracts, loans or assets at the exact rate before the official announcement"
@@ -1021,7 +1054,10 @@
       "en": "In March 1999, Pinault-Printemps-Redoute (PPR, later renamed Kering) bought a 42% Gucci stake for $3bn ($75/share) to help Gucci fend off a takeover attempt by LVMH, triggering a 2.5-year legal battle between Pinault and Bernard Arnault. PPR raised its stake to 67.6% in 2003 and 99.4% in 2004, turning Gucci into the cornerstone of the world's second-largest luxury group."
     },
     "opportunity": {
-      "asset": "PPR / Kering (KER.PA)",
+      "asset": {
+        "vi": "PPR / Kering (KER.PA)",
+        "en": "PPR / Kering (KER.PA)"
+      },
       "action": {
         "vi": "Mua cổ phiếu PPR khi công bố thương vụ Gucci; giữ qua quá trình chuyển đổi thành Kering",
         "en": "Buy PPR stock on the Gucci deal announcement; hold through the transformation into Kering"
@@ -1109,7 +1145,10 @@
       "en": "On 4 Sept 2000 the CAC 40 hit its all-time record of 6,922.33 points amid the tech/telecom mania (Vivendi, France Télécom, Alcatel). The index then fell relentlessly, bottoming at 2,403.04 on 12 March 2003 — a 65.3% drop from the peak. A textbook case for selling or shorting before the bubble burst, especially overvalued tech-telecom names."
     },
     "opportunity": {
-      "asset": "CAC 40 index",
+      "asset": {
+        "vi": "CAC 40 index",
+        "en": "CAC 40 index"
+      },
       "action": {
         "vi": "Bán toàn bộ cổ phiếu công nghệ/viễn thông hoặc bán khống chỉ số",
         "en": "Sell all tech/telecom holdings or short the index"
@@ -1201,7 +1240,10 @@
       "en": "Over 18 months, CEO Jean-Marie Messier spent roughly $100bn on acquisitions (Seagram/Universal, Canal Plus...) turning a 149-year-old water utility into the world's second-largest media company. Vivendi reported a record €11.8bn loss for 2001 (the largest in French corporate history) followed by a $23.3bn loss for 2002. Shares fell over 60% during 2002, forcing Messier's resignation on 1 July 2002."
     },
     "opportunity": {
-      "asset": "Vivendi Universal",
+      "asset": {
+        "vi": "Vivendi Universal",
+        "en": "Vivendi Universal"
+      },
       "action": {
         "vi": "Bán hoặc bán khống trước khi công bố lỗ; tránh hoàn toàn cổ phiếu trong giai đoạn thâu tóm điên cuồng",
         "en": "Sell or short before the loss disclosures; avoid the stock entirely during the acquisition spree"
@@ -1289,7 +1331,10 @@
       "en": "After spending €39.7bn to buy Orange from Vodafone in 2000 and taking on over €70bn of debt, France Télécom posted a record $23bn net loss for 2002 — the largest corporate loss in the world at the time. Shares fell from a €219 peak (2 March 2000) to a €6.94 low (30 Sept 2002), a 97% collapse, before rebounding sharply once new CEO Thierry Breton unveiled the 'TOP' restructuring plan in December 2002."
     },
     "opportunity": {
-      "asset": "France Télécom (ORA.PA)",
+      "asset": {
+        "vi": "France Télécom (ORA.PA)",
+        "en": "France Télécom (ORA.PA)"
+      },
       "action": {
         "vi": "Bán khống từ đỉnh 2000, đóng vị thế khi giá chạm đáy cuối 9/2002",
         "en": "Short from the 2000 peak, cover when price bottoms in late Sept 2002"
@@ -1382,7 +1427,10 @@
       "en": "On 12 March 2003 the CAC 40 bottomed at 2,403.04 points — its lowest level since April 1997 — after three years of dot-com deflation and pre-Iraq-war jitters. The index rallied almost 20% within weeks and kept climbing into 2007, closing out 2003 at 3,557.9 (+16.12% for the year)."
     },
     "opportunity": {
-      "asset": "CAC 40 index",
+      "asset": {
+        "vi": "CAC 40 index",
+        "en": "CAC 40 index"
+      },
       "action": {
         "vi": "Mua rổ cổ phiếu CAC 40 tại đáy",
         "en": "Buy a CAC 40 basket at the bottom"
@@ -1475,7 +1523,10 @@
       "en": "On 24 Jan 2008 Société Générale disclosed it had uncovered fraud by trader Jérôme Kerviel, who had built nearly €50bn of fictitious positions in European index futures. The bank unwound the positions over three days during a market slump, incurring a €4.9bn loss — nearly its entire 2006 net profit. SocGen shares fell over 20% between 17-25 Jan 2008 before stabilizing after an emergency capital raise."
     },
     "opportunity": {
-      "asset": "Société Générale (GLE.PA)",
+      "asset": {
+        "vi": "Société Générale (GLE.PA)",
+        "en": "Société Générale (GLE.PA)"
+      },
       "action": {
         "vi": "Bán khống ngắn hạn quanh tin tức, sau đó mua lại khi giá quá bán phục hồi",
         "en": "Short the headline shock, then buy the oversold rebound"
@@ -1563,7 +1614,10 @@
       "en": "After the Lehman Brothers collapse (Sept 2008) and the Madoff scandal, the CAC 40 fell relentlessly, breaking below 3,000 on 20 Nov 2008 then bottoming at 2,519.29 on 9 March 2009 — down 59.2% from 1 June 2007. This date also marked the global equity market bottom (the S&P 500 bottomed the same day). From this low, the CAC 40 rose 65% in the next 23 months, closing out 2009 at 3,936.33 (+22.32%)."
     },
     "opportunity": {
-      "asset": "CAC 40 index",
+      "asset": {
+        "vi": "CAC 40 index",
+        "en": "CAC 40 index"
+      },
       "action": {
         "vi": "Mua rổ cổ phiếu CAC 40 tại đáy khủng hoảng",
         "en": "Buy a CAC 40 basket at the crisis bottom"
@@ -1656,7 +1710,10 @@
       "en": "In mid-2011, fears of a Greek default triggered a selloff of French bank stocks: Société Générale fell from a ~€52 peak in late February to €15.57 by mid-September (down ~70%), Crédit Agricole fell 60%, and BNP Paribas fell 53% over the same period. Moody's downgraded Société Générale and Crédit Agricole on 14 Sept 2011. Although actual Greek debt exposure was relatively small (Société Générale only ~€6.6bn), markets feared a broader dollar-funding liquidity crisis."
     },
     "opportunity": {
-      "asset": "Société Générale (GLE.PA), Crédit Agricole",
+      "asset": {
+        "vi": "Société Générale (GLE.PA), Crédit Agricole",
+        "en": "Société Générale (GLE.PA), Crédit Agricole"
+      },
       "action": {
         "vi": "Bán/tránh trước đợt bán tháo, sau đó mua vào khi hoảng loạn đạt đỉnh",
         "en": "Sell/avoid ahead of the rout, then buy at peak panic"
@@ -1748,7 +1805,10 @@
       "en": "The PACTE law (Loi relative à la croissance et la transformation des entreprises), enacted 22 May 2019, created the 'Digital Asset Service Provider' (PSAN/DASP) status regulated by the AMF, legalizing crypto exchanges in France for the first time and enabling an optional ICO licensing label. It took effect just before Bitcoin rallied from roughly $8,000 (May 2019) to a near-$69,000 peak (Nov 2021) — a gain of over 8.6x."
     },
     "opportunity": {
-      "asset": "Bitcoin (BTC)",
+      "asset": {
+        "vi": "Bitcoin (BTC)",
+        "en": "Bitcoin (BTC)"
+      },
       "action": {
         "vi": "Mua Bitcoin qua sàn được quản lý ngay khi luật PACTE có hiệu lực",
         "en": "Buy Bitcoin through a newly regulated exchange as PACTE took effect"
@@ -1841,7 +1901,10 @@
       "en": "Per LVMH's own shareholder report, the stock bottomed at a mid-session €278.70 in 2020 (during the COVID selloff) before surging to a mid-session high of €741.60 by the end of 2021, closing the year at €727 (+42.3% for 2021 alone). A powerful luxury demand rebound (especially from China and the US) alongside the Tiffany & Co. acquisition ($16.2bn, closed Jan 2021) cemented LVMH's global dominance."
     },
     "opportunity": {
-      "asset": "LVMH (MC.PA)",
+      "asset": {
+        "vi": "LVMH (MC.PA)",
+        "en": "LVMH (MC.PA)"
+      },
       "action": {
         "vi": "Mua tại đáy COVID 2020, giữ qua đợt phục hồi xa xỉ hậu đại dịch",
         "en": "Buy at the 2020 COVID dip, hold through the post-pandemic luxury rebound"
@@ -1934,7 +1997,10 @@
       "en": "From a January peak of around 6,100, the CAC 40 collapsed as COVID-19 spread across Europe, falling 12.28% in a single session on 12 March 2020 ('Black Thursday') and hitting an intraday low of 3,754.84 on 18 March 2020. Massive ECB and French government monetary-fiscal stimulus fueled a strong recovery, with the index closing out 2020 at 5,551.41."
     },
     "opportunity": {
-      "asset": "CAC 40 index",
+      "asset": {
+        "vi": "CAC 40 index",
+        "en": "CAC 40 index"
+      },
       "action": {
         "vi": "Mua rổ cổ phiếu CAC 40 (hoặc LVMH, L'Oréal, Airbus riêng lẻ) tại đáy COVID",
         "en": "Buy a CAC 40 basket (or individual names like LVMH, L'Oréal, Airbus) at the COVID bottom"
@@ -2027,7 +2093,10 @@
       "en": "On 24 January 2022 Le Monde published excerpts from 'Les Fossoyeurs' ('The Gravediggers') by journalist Victor Castanet, alleging that Orpea, Europe's largest care-home operator, rationed care, medicine and even meals to boost profits. The shares crashed from late morning, falling 16.11% to EUR 69.28 before trading was suspended at the company's request. When trading resumed the slide continued, reaching EUR 46.94 on the afternoon of 26 January, about 43% lower on the week. CEO Yves Le Masne was dismissed on 30 January. Criminal investigations, a debt crisis and a restructuring followed, and by early 2023 the stock was around EUR 7."
     },
     "opportunity": {
-      "asset": "Orpea SA (ORP.PA, now Emeis)",
+      "asset": {
+        "vi": "Orpea SA (ORP.PA, now Emeis)",
+        "en": "Orpea SA (ORP.PA, now Emeis)"
+      },
       "action": {
         "vi": "Thoát Orpea hoặc bán khống trước khi Le Monde đăng trích đoạn sách",
         "en": "Exit or short Orpea before Le Monde publishes the book excerpts"
@@ -2128,7 +2197,10 @@
       "en": "On 6 July 2005 Challenges magazine reported that PepsiCo had built a stake of about 3% in Danone and was preparing a bid. More than 4 million Danone shares changed hands in the first hour on 7 July, and French politicians up to President Jacques Chirac rallied to defend the 'national champion'. From EUR 72.45 on 5 July, the stock surged to close at EUR 87.60 on 19 July (+10.19% that day) despite repeated PepsiCo denials. On 24 July PepsiCo told the AMF it was 'not currently' preparing an offer. Danone fell 7.52% to EUR 81.80 on 25 July, the AMF opened an inquiry into the trading, and the deal never happened."
     },
     "opportunity": {
-      "asset": "Groupe Danone (BN.PA)",
+      "asset": {
+        "vi": "Groupe Danone (BN.PA)",
+        "en": "Groupe Danone (BN.PA)"
+      },
       "action": {
         "vi": "Mua Danone trước khi tin đồn bùng lên, bán vào đỉnh sóng trước khi PepsiCo cải chính",
         "en": "Buy Danone before the rumour breaks and sell into the spike before PepsiCo's denial"

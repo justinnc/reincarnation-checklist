@@ -82,7 +82,7 @@ export default function Timeline({ milestones, lang, dict, cards }: Props) {
       if (outcome !== "all" && outcomeOf(m) !== outcome) return false;
       if (risk !== "all" && m.opportunity.risk !== risk) return false;
       if (!q) return true;
-      return [t(m.title, lang), t(m.summary, lang), t(m.description, lang), m.opportunity.asset ?? "", m.date]
+      return [t(m.title, lang), t(m.summary, lang), t(m.description, lang), t(m.opportunity.asset, lang) ?? "", m.date]
         .join(" ")
         .toLowerCase()
         .includes(q);

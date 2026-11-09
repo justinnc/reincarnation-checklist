@@ -17,7 +17,10 @@
       "en": "On March 16, 1980, Warren Buffett's Berkshire Hathaway began publicly trading its Class A shares at $290 each. Buffett has always refused to split the A shares, to discourage short-term trading. By August 2024 that single share had crossed $700,000 — the highest nominal share price of any public company ever."
     },
     "opportunity": {
-      "asset": "Berkshire Hathaway Class A (BRK.A)",
+      "asset": {
+        "vi": "Berkshire Hathaway Class A (BRK.A)",
+        "en": "Berkshire Hathaway Class A (BRK.A)"
+      },
       "action": {
         "vi": "Mua và giữ cổ phiếu hạng A của Berkshire Hathaway từ 1980, không bao giờ bán.",
         "en": "Buy and hold Berkshire Hathaway Class A shares from 1980 — never sell."
@@ -110,7 +113,10 @@
       "en": "On March 13, 1986, Microsoft IPO'd at $21 per share, raising $61 million. The stock jumped to $28 by the end of its first trading day. Bill Gates was just 30. After several later stock splits, anyone who bought and held from day one turned a small stake into a fortune."
     },
     "opportunity": {
-      "asset": "Microsoft (MSFT)",
+      "asset": {
+        "vi": "Microsoft (MSFT)",
+        "en": "Microsoft (MSFT)"
+      },
       "action": {
         "vi": "Mua cổ phiếu Microsoft ngay trong ngày IPO hoặc vài ngày đầu niêm yết.",
         "en": "Buy Microsoft shares on IPO day or within the first days of trading."
@@ -198,7 +204,10 @@
       "en": "On October 19, 1987, the Dow Jones Industrial Average fell 508 points, or 22.6% — still the largest one-day percentage drop in history — wiping out over $500 billion. Within just two sessions the market clawed back 57% of the loss, and the broader market fully recovered within about two years."
     },
     "opportunity": {
-      "asset": "S&P 500 / Dow Jones blue chips",
+      "asset": {
+        "vi": "S&P 500 / Dow Jones blue chips",
+        "en": "S&P 500 / Dow Jones blue chips"
+      },
       "action": {
         "vi": "Mua mạnh cổ phiếu blue-chip ngay trong và sau phiên 19/10/1987.",
         "en": "Buy heavily into blue-chip stocks during and right after October 19, 1987."
@@ -286,7 +295,10 @@
       "en": "On June 22, 1988, Dell Computer IPO'd at $8.50 per share. After seven stock splits through the 1990s, Dell's own annual report states that 100 IPO shares became 9,600 shares by fiscal 2000, and a $100 IPO investment was worth $42,070 by the close of fiscal year January 2000."
     },
     "opportunity": {
-      "asset": "Dell (DELL)",
+      "asset": {
+        "vi": "Dell (DELL)",
+        "en": "Dell (DELL)"
+      },
       "action": {
         "vi": "Mua cổ phiếu Dell ngay ngày IPO và giữ qua các đợt chia tách.",
         "en": "Buy Dell shares on IPO day and hold through the stock splits."
@@ -376,7 +388,10 @@
       "en": "On February 16, 1990, Cisco Systems — maker of network routers — IPO'd at $18 per share, rising 24% on its first day to a market cap of about $270 million. Cisco went on to become the core infrastructure supplier for the entire 1990s internet buildout."
     },
     "opportunity": {
-      "asset": "Cisco Systems (CSCO)",
+      "asset": {
+        "vi": "Cisco Systems (CSCO)",
+        "en": "Cisco Systems (CSCO)"
+      },
       "action": {
         "vi": "Mua cổ phiếu Cisco ngay khi IPO để hưởng lợi từ cơn sốt hạ tầng Internet thập niên 1990.",
         "en": "Buy Cisco at IPO to ride the 1990s internet infrastructure boom."
@@ -466,7 +481,10 @@
       "en": "On June 26, 1992, Starbucks listed 2.1 million shares (12% of the company) at $17, raising $28 million, and closed its first day up 26% at $21.50. After six 2-for-1 stock splits, the company grew from 165 stores into a global coffee chain."
     },
     "opportunity": {
-      "asset": "Starbucks (SBUX)",
+      "asset": {
+        "vi": "Starbucks (SBUX)",
+        "en": "Starbucks (SBUX)"
+      },
       "action": {
         "vi": "Mua cổ phiếu Starbucks ngay ngày IPO và giữ qua các đợt chia tách.",
         "en": "Buy Starbucks shares on IPO day and hold through the stock splits."
@@ -558,7 +576,10 @@
       "en": "In the mid-1990s, registering a .com domain cost only about $70-100 for two years through Network Solutions — the sole registrar at the time — with almost no competition for common keywords. Those who quickly grabbed short, memorable domains (business.com, sex.com, insurance.com, etc.) later resold them for millions of dollars once commercial internet use exploded in the late 1990s and 2000s."
     },
     "opportunity": {
-      "asset": "Tên miền .com (domain flipping)",
+      "asset": {
+        "vi": "Tên miền .com (domain flipping)",
+        "en": ".com domain names (domain flipping)"
+      },
       "action": {
         "vi": "Đăng ký hàng loạt tên miền .com ngắn, dễ nhớ, trùng với các danh từ/ngành kinh doanh phổ biến trước khi chúng bị người khác đăng ký.",
         "en": "Register a batch of short, memorable .com domains matching common nouns/industries before anyone else claims them."
@@ -646,7 +667,10 @@
       "en": "On May 15, 1997, the fledgling online bookstore Amazon IPO'd at $18 per share, raising $54 million at a $438 million starting market cap. After four stock splits (1998, twice in 1999, and 2022), Amazon became one of the most valuable companies on earth."
     },
     "opportunity": {
-      "asset": "Amazon (AMZN)",
+      "asset": {
+        "vi": "Amazon (AMZN)",
+        "en": "Amazon (AMZN)"
+      },
       "action": {
         "vi": "Mua cổ phiếu Amazon ngay ngày IPO và giữ xuyên suốt, bất chấp biến động dot-com.",
         "en": "Buy Amazon shares on IPO day and hold through everything, including the dot-com crash."
@@ -738,7 +762,10 @@
       "en": "In September 1997, Steve Jobs formally became interim CEO following Apple's acquisition of NeXT. Apple's stock at the time (restated for all later splits) traded around just $0.20-$0.60, with the company on the brink of bankruptcy. Jobs quickly cut product lines and launched the iMac in 1998, kicking off two decades of extraordinary growth."
     },
     "opportunity": {
-      "asset": "Apple (AAPL)",
+      "asset": {
+        "vi": "Apple (AAPL)",
+        "en": "Apple (AAPL)"
+      },
       "action": {
         "vi": "Mua cổ phiếu Apple khi Jobs trở lại làm CEO tạm quyền, bất chấp nguy cơ phá sản trên truyền thông.",
         "en": "Buy Apple stock when Jobs becomes interim CEO, despite media talk of looming bankruptcy."
@@ -826,7 +853,10 @@
       "en": "On January 22, 1999, Nvidia — then just a small graphics-chip maker valued under $650 million — IPO'd at $12 per share. After six stock splits (most recently 10-for-1 in 2024), Nvidia became the leading AI chipmaker and, at times, the world's most valuable company."
     },
     "opportunity": {
-      "asset": "Nvidia (NVDA)",
+      "asset": {
+        "vi": "Nvidia (NVDA)",
+        "en": "Nvidia (NVDA)"
+      },
       "action": {
         "vi": "Mua cổ phiếu Nvidia ngay ngày IPO và giữ xuyên suốt mọi chu kỳ (game, crypto-mining, AI).",
         "en": "Buy Nvidia shares on IPO day and hold through every cycle (gaming, crypto mining, AI)."
@@ -918,7 +948,10 @@
       "en": "On March 10, 2000, the Nasdaq Composite closed at a record 5,048.62 after quintupling in just five years on the internet-stock mania. From that peak, the index crashed nearly 78% to a low of 1,114.11 by October 2002, and took 15 years to reclaim its old high, not until 2015."
     },
     "opportunity": {
-      "asset": "Cổ phiếu công nghệ Nasdaq (short) / tiền mặt",
+      "asset": {
+        "vi": "Cổ phiếu công nghệ Nasdaq (short) / tiền mặt",
+        "en": "Nasdaq tech stocks (short) / cash"
+      },
       "action": {
         "vi": "Bán hết hoặc bán khống các cổ phiếu dot-com không có lợi nhuận quanh đỉnh tháng 3/2000, giữ tiền mặt chờ đáy.",
         "en": "Sell or short unprofitable dot-com stocks around the March 2000 peak, then hold cash and wait for the bottom."
@@ -1006,7 +1039,10 @@
       "en": "After a 20-year bear market, gold bottomed at a $271/oz average in 2001. A chain of events — the 9/11 attacks, Fed rate cuts, the launch of the GLD gold ETF (2004), the 2008 financial crisis and subsequent quantitative easing — drove gold to a record near $1,900-1,921/oz by September 2011."
     },
     "opportunity": {
-      "asset": "Vàng vật chất / quỹ ETF vàng (sau 2004: GLD)",
+      "asset": {
+        "vi": "Vàng vật chất / quỹ ETF vàng (sau 2004: GLD)",
+        "en": "Physical gold / gold ETF (from 2004: GLD)"
+      },
       "action": {
         "vi": "Mua vàng vật chất hoặc (từ 2004) chứng chỉ quỹ ETF vàng GLD, giữ xuyên suốt thập kỷ.",
         "en": "Buy physical gold, or (from 2004) the GLD gold ETF, and hold through the decade."
@@ -1099,7 +1135,10 @@
       "en": "On May 23, 2002, Netflix — then a mail-order DVD rental service — listed 5.5 million shares at $15, raising $82.5 million, and closed its first day at $16.75 (+12%). The company later pivoted to streaming (2007) and original content production, becoming a global entertainment giant."
     },
     "opportunity": {
-      "asset": "Netflix (NFLX)",
+      "asset": {
+        "vi": "Netflix (NFLX)",
+        "en": "Netflix (NFLX)"
+      },
       "action": {
         "vi": "Mua cổ phiếu Netflix ngay ngày IPO và giữ qua cú chuyển mình sang streaming năm 2007.",
         "en": "Buy Netflix shares on IPO day and hold through the 2007 pivot to streaming."
@@ -1191,7 +1230,10 @@
       "en": "On August 19, 2004, Google listed 19.6 million shares at $85 (cut down from an earlier $108-135 range due to market conditions), raising $1.67 billion. The stock closed its first day at $100.34, up 18%. It became one of the most successful tech IPOs in history, well before Google became Alphabet."
     },
     "opportunity": {
-      "asset": "Google / Alphabet (GOOGL)",
+      "asset": {
+        "vi": "Google / Alphabet (GOOGL)",
+        "en": "Google / Alphabet (GOOGL)"
+      },
       "action": {
         "vi": "Mua cổ phiếu Google ngay ngày IPO và giữ xuyên suốt sự thống trị tìm kiếm, YouTube, Android, quảng cáo trực tuyến.",
         "en": "Buy Google shares on IPO day and hold through its dominance of search, YouTube, Android and online advertising."
@@ -1281,7 +1323,10 @@
       "en": "Starting in early 2007, the Case-Shiller national home price index began a three-year continuous decline, hitting a record year-over-year drop of about -19% in early 2009, with home prices falling roughly 30% from their mid-2006 peak overall. Investors like Michael Burry shorted subprime mortgage bonds (via credit default swaps) before the crash, profiting enormously — the story told in 'The Big Short'."
     },
     "opportunity": {
-      "asset": "Hợp đồng hoán đổi rủi ro tín dụng (CDS) trên trái phiếu thế chấp dưới chuẩn / bán khống cổ phiếu ngân hàng, nhà xây dựng",
+      "asset": {
+        "vi": "Hợp đồng hoán đổi rủi ro tín dụng (CDS) trên trái phiếu thế chấp dưới chuẩn / bán khống cổ phiếu ngân hàng, nhà xây dựng",
+        "en": "Credit default swaps (CDS) on subprime mortgage bonds / short bank and homebuilder stocks"
+      },
       "action": {
         "vi": "Mua hợp đồng CDS đặt cược vào sự sụp đổ của trái phiếu thế chấp dưới chuẩn, hoặc bán khống cổ phiếu ngân hàng và nhà xây dựng.",
         "en": "Buy credit default swaps betting against subprime mortgage bonds, or short bank and homebuilder stocks."
@@ -1369,7 +1414,10 @@
       "en": "On June 29, 2007, Apple released the first iPhone at $499 (4GB model) and $599 (8GB model), with a 2-year AT&T contract. If that same money had been put into Apple stock instead (around a split-adjusted $4.36/share at the time), the investment would have grown over 57-fold."
     },
     "opportunity": {
-      "asset": "Apple (AAPL)",
+      "asset": {
+        "vi": "Apple (AAPL)",
+        "en": "Apple (AAPL)"
+      },
       "action": {
         "vi": "Thay vì mua iPhone, dùng số tiền đó mua cổ phiếu Apple.",
         "en": "Instead of buying the iPhone, put that money into Apple stock."
@@ -1462,7 +1510,10 @@
       "en": "After falling 56.8% from its October 2007 peak, the S&P 500 hit an intraday low of 666.79 on March 6, 2009, and a closing low of 676.53 on March 9, 2009. This marked the start of the longest bull market in US history, with the S&P 500 up nearly 300% over the following nine years."
     },
     "opportunity": {
-      "asset": "S&P 500 index fund",
+      "asset": {
+        "vi": "S&P 500 index fund",
+        "en": "S&P 500 index fund"
+      },
       "action": {
         "vi": "Mua mạnh quỹ chỉ số S&P 500 (hoặc cổ phiếu blue-chip) đúng vào đáy khủng hoảng.",
         "en": "Buy heavily into an S&P 500 index fund (or blue-chip stocks) right at the crisis bottom."
@@ -1554,7 +1605,10 @@
       "en": "On May 22, 2010, Florida-based programmer Laszlo Hanyecz paid 10,000 Bitcoin for two large Papa John's pizzas — the first documented real-world commercial Bitcoin transaction. At the time, those 10,000 BTC were worth only about $41. By the 15th anniversary (2025), that same amount of Bitcoin was worth roughly $1.1 billion."
     },
     "opportunity": {
-      "asset": "Bitcoin (BTC)",
+      "asset": {
+        "vi": "Bitcoin (BTC)",
+        "en": "Bitcoin (BTC)"
+      },
       "action": {
         "vi": "Mua và giữ Bitcoin với giá gần như không đáng kể vào năm 2010, lưu trữ ví an toàn trong nhiều năm.",
         "en": "Buy and hold Bitcoin at its near-negligible 2010 price, storing the wallet safely for years."
@@ -1646,7 +1700,10 @@
       "en": "On June 29, 2010, Tesla Motors — then known only for its $109,000 Roadster — IPO'd at $17 per share (above the expected $14-16 range), raising $226 million. It was the first US car-company IPO since Ford in 1956. The stock jumped over 40% on its very first trading day."
     },
     "opportunity": {
-      "asset": "Tesla (TSLA)",
+      "asset": {
+        "vi": "Tesla (TSLA)",
+        "en": "Tesla (TSLA)"
+      },
       "action": {
         "vi": "Mua cổ phiếu Tesla ngay ngày IPO và giữ qua nhiều năm sản xuất khó khăn trước khi công ty có lãi ổn định.",
         "en": "Buy Tesla shares on IPO day and hold through years of production struggles before the company becomes reliably profitable."
@@ -1739,7 +1796,10 @@
       "en": "On May 18, 2012, Facebook IPO'd at $38 per share, raising about $16 billion at a $104 billion valuation — one of the largest IPOs in US history. The stock, however, fell by more than half to $17.73 by September 2012, before recovering and growing dramatically over the following decade on mobile ads, Instagram and WhatsApp."
     },
     "opportunity": {
-      "asset": "Facebook / Meta Platforms (META)",
+      "asset": {
+        "vi": "Facebook / Meta Platforms (META)",
+        "en": "Facebook / Meta Platforms (META)"
+      },
       "action": {
         "vi": "Bỏ qua sự hoảng loạn ban đầu, mua thêm cổ phiếu Facebook khi giá giảm sâu dưới mức IPO vào cuối 2012.",
         "en": "Ignore the initial panic and buy more Facebook stock as it falls well below the IPO price in late 2012."
@@ -1832,7 +1892,10 @@
       "en": "From July 22 to September 2, 2014, Vitalik Buterin's Ethereum project held a crowd-sale (ICO), selling ETH at about $0.31, raising over $18 million. On July 30, 2015, the Ethereum network officially launched (the Genesis block), ushering in the smart-contract era and later DeFi and NFTs."
     },
     "opportunity": {
-      "asset": "Ethereum (ETH)",
+      "asset": {
+        "vi": "Ethereum (ETH)",
+        "en": "Ethereum (ETH)"
+      },
       "action": {
         "vi": "Tham gia đợt bán trước (ICO) của Ethereum năm 2014 hoặc mua ETH ngay khi mạng lưới khởi chạy năm 2015.",
         "en": "Join Ethereum's 2014 ICO presale, or buy ETH right when the network launches in 2015."
@@ -1925,7 +1988,10 @@
       "en": "From a peak of 3,386.15 on February 19, 2020, the S&P 500 plunged 33.9% in just 33 days to a low of 2,237.40 on March 23, 2020, as COVID-19 shut down the economy — the fastest bear market in history. Thanks to unprecedented Fed and government stimulus, the S&P 500 hit a new record high on August 18, 2020, less than six months after the bottom."
     },
     "opportunity": {
-      "asset": "S&P 500 index fund / cổ phiếu công nghệ lớn",
+      "asset": {
+        "vi": "S&P 500 index fund / cổ phiếu công nghệ lớn",
+        "en": "S&P 500 index fund / large-cap tech stocks"
+      },
       "action": {
         "vi": "Mua mạnh quỹ chỉ số S&P 500 hoặc cổ phiếu công nghệ lớn (Amazon, Zoom, Netflix) đúng lúc thị trường hoảng loạn nhất.",
         "en": "Buy heavily into an S&P 500 index fund or big tech stocks (Amazon, Zoom, Netflix) at the moment of peak panic."
@@ -2017,7 +2083,10 @@
       "en": "In early 2021, shares of struggling game retailer GameStop closed the first trading day of the year at $17.25. A coordinated wave of retail investors on the Reddit forum r/WallStreetBets triggered a historic short squeeze against hedge funds that had shorted the stock. The price peaked at an intraday high of $483 on January 28, 2021 — up over 2,500% in under a month."
     },
     "opportunity": {
-      "asset": "GameStop (GME)",
+      "asset": {
+        "vi": "GameStop (GME)",
+        "en": "GameStop (GME)"
+      },
       "action": {
         "vi": "Mua cổ phiếu GameStop đầu tháng 1/2021 khi câu chuyện ép bán khống lan truyền trên Reddit, rồi bán chốt lời trước khi giá sập.",
         "en": "Buy GameStop stock in early January 2021 as the short-squeeze story spreads on Reddit, then sell before the price collapses."
@@ -2110,7 +2179,10 @@
       "en": "On November 30, 2022, OpenAI released ChatGPT for free; the generative-AI chatbot hit 1 million users in just 5 days. The event sparked a massive wave of investment in AI infrastructure, with Nvidia — the leading supplier of AI-training GPUs — the biggest beneficiary. Nvidia's (split-adjusted) stock closed somewhere in the $1.69-$16.91 range that day depending on the adjustment used, then rallied thousands of percent in the years that followed."
     },
     "opportunity": {
-      "asset": "Nvidia (NVDA)",
+      "asset": {
+        "vi": "Nvidia (NVDA)",
+        "en": "Nvidia (NVDA)"
+      },
       "action": {
         "vi": "Mua cổ phiếu Nvidia ngay khi ChatGPT ra mắt, nhận diện đây là chất xúc tác cho nhu cầu chip AI bùng nổ.",
         "en": "Buy Nvidia stock right as ChatGPT launches, recognizing it as the catalyst for an explosion in AI chip demand."
@@ -2198,7 +2270,10 @@
       "en": "On January 10, 2024, the US Securities and Exchange Commission (SEC) approved 11 spot Bitcoin ETFs simultaneously, including BlackRock's iShares Bitcoin Trust (IBIT) and funds from Fidelity, ARK, Invesco and others — ending more than a decade of rejected applications. Bitcoin traded around $46,000-$47,000 on approval day. The move opened an easy, regulated path for both institutional and retail investors to gain Bitcoin exposure."
     },
     "opportunity": {
-      "asset": "Bitcoin (BTC) / quỹ ETF Bitcoin giao ngay (IBIT, FBTC...)",
+      "asset": {
+        "vi": "Bitcoin (BTC) / quỹ ETF Bitcoin giao ngay (IBIT, FBTC...)",
+        "en": "Bitcoin (BTC) / spot Bitcoin ETFs (IBIT, FBTC...)"
+      },
       "action": {
         "vi": "Mua Bitcoin trực tiếp hoặc chứng chỉ quỹ ETF Bitcoin giao ngay ngay khi được SEC phê duyệt.",
         "en": "Buy Bitcoin directly, or shares of a spot Bitcoin ETF, right when the SEC approves them."
@@ -2288,7 +2363,10 @@
       "en": "Enron, the Houston energy giant Fortune had named 'America's Most Innovative Company', used mark-to-market accounting and a web of off-balance-sheet special purpose entities (SPEs) to hide debt and inflate profits, with Arthur Andersen as its auditor. ENE stock hit an intraday high of $90.75 on 23 August 2000, but after the company reported a third-quarter loss and restated prior years' earnings in October-November 2001, the price collapsed. On 28 November 2001 Dynegy walked away from a merger, Enron was cut to junk and the shares fell below $1; on 2 December 2001 Enron filed for Chapter 11 — then the largest corporate bankruptcy in US history."
     },
     "opportunity": {
-      "asset": "Enron Corporation (ENE)",
+      "asset": {
+        "vi": "Enron Corporation (ENE)",
+        "en": "Enron Corporation (ENE)"
+      },
       "action": {
         "vi": "Bán khống hoặc thoát toàn bộ cổ phiếu Enron trước khi các khoản nợ ẩn bị phơi bày",
         "en": "Short, or fully exit, Enron before its hidden debts come to light"
@@ -2385,7 +2463,10 @@
       "en": "On 2 November 2022, CoinDesk published a leaked balance sheet of Alameda Research, FTX's sister trading firm, showing about $5.8 billion of its $14.6 billion in assets was FTT, the token FTX itself issued. On 6 November, Binance CEO Changpeng Zhao said he would sell all his remaining FTT, sparking roughly $6 billion of withdrawals from FTX in 72 hours; FTX halted withdrawals on 8 November, Binance abandoned its rescue deal on 9 November, and on 11 November 2022 FTX, Alameda and about 130 affiliates filed for Chapter 11. On 2 November 2023, a Manhattan jury convicted Sam Bankman-Fried on all seven fraud and conspiracy counts for taking about $8 billion of customer money."
     },
     "opportunity": {
-      "asset": "FTX Token (FTT)",
+      "asset": {
+        "vi": "FTX Token (FTT)",
+        "en": "FTX Token (FTT)"
+      },
       "action": {
         "vi": "Bán FTT và rút toàn bộ tài sản khỏi sàn FTX trước khi sàn khóa rút tiền",
         "en": "Sell FTT and withdraw every asset from FTX before withdrawals are frozen"
@@ -2486,7 +2567,10 @@
       "en": "On the evening of 26 December 2001, Samuel Waksal — co-founder and CEO of ImClone Systems — privately learned that the FDA was about to refuse to file the application for Erbitux, the company's flagship cancer drug. On the morning of 27 December, Waksal and his daughter placed orders at Merrill Lynch to sell all their shares. Merrill broker Peter Bacanovic's office passed that fact to his client Martha Stewart; according to the SEC, she immediately sold all 3,928 of her ImClone shares at an average $58.43. On the afternoon of 28 December the FDA faxed its refusal; ImClone announced it after the close, and by the end of trading on 31 December the stock had fallen 16%, from $55.25 to $46. The SEC calculated Stewart avoided losses of $45,673. On 5 March 2004 a jury convicted Stewart and Bacanovic of obstruction of justice, conspiracy and making false statements to investigators; on 16 July 2004 Stewart was sentenced to five months in prison and fined $30,000. In 2006 she settled the SEC's civil insider-trading case for about $195,000."
     },
     "opportunity": {
-      "asset": "ImClone Systems (IMCL)",
+      "asset": {
+        "vi": "ImClone Systems (IMCL)",
+        "en": "ImClone Systems (IMCL)"
+      },
       "action": {
         "vi": "Thoát khỏi cổ phiếu ImClone trước khi FDA từ chối hồ sơ Erbitux — dựa trên lịch sử công khai, không phải tin mật",
         "en": "Get out of ImClone before the FDA rejects the Erbitux filing — based on public history, not a secret tip"
@@ -2587,7 +2671,10 @@
       "en": "At about 12:48 p.m. New York time on 7 August 2018, mid-session, Elon Musk tweeted to his more than 22 million followers: 'Am considering taking Tesla private at $420. Funding secured.' Just before the tweet Tesla traded around $356.67; after a trading halt, the stock closed at $379.57, up 10.98% on the day. According to the SEC, Musk had never discussed a $420 price with any funding source, and the figure came from a 20% premium rounded up. By 13 August, as details emerged, the price had slipped back to around pre-tweet levels. Late on 24 August Tesla said it was abandoning the plan, and on 27 August the stock closed at $319.27, more than 15% below its close on the day of the tweet. On 27 September 2018 the SEC sued Musk for securities fraud; two days later Musk and Tesla settled, each paying a $20 million penalty, and Musk had to step down as board chairman. (Prices are before Tesla's 2020 and 2022 stock splits.)"
     },
     "opportunity": {
-      "asset": "Tesla (TSLA)",
+      "asset": {
+        "vi": "Tesla (TSLA)",
+        "en": "Tesla (TSLA)"
+      },
       "action": {
         "vi": "Đón sóng tăng trong ngày của tweet rồi chốt lời ngay, không ôm cổ phiếu chờ mức 420 USD",
         "en": "Ride the intraday spike from the tweet and take profit immediately — never hold out for $420"
@@ -2688,7 +2775,10 @@
       "en": "On 8 March 2023 Silicon Valley Bank — the startup world's bank, with $209 billion of assets at end-2022 — announced a $1.8 billion loss on selling securities and a plan to raise about $2 billion of capital. The news spread fast through the venture-capital community; Peter Thiel's Founders Fund and other funds advised their portfolio companies to pull their money from SVB. On 9 March SVB Financial shares fell 60.4%, from $267.83 to $106.04, and by that evening $42 billion of deposits had left, with about $100 billion more queued for the next day. Early on 10 March 2023 Nasdaq halted the stock at $106.04, and the same day the California regulator closed the bank and appointed the FDIC as receiver."
     },
     "opportunity": {
-      "asset": "SVB Financial Group (SIVB)",
+      "asset": {
+        "vi": "SVB Financial Group (SIVB)",
+        "en": "SVB Financial Group (SIVB)"
+      },
       "action": {
         "vi": "Bán cổ phiếu SVB và rút tiền gửi vượt hạn mức bảo hiểm ngay khi thông báo huy động vốn xuất hiện",
         "en": "Sell SVB stock and move uninsured deposits out the moment the capital-raise announcement lands"
@@ -2789,7 +2879,10 @@
       "en": "On 8 September 2020 General Motors announced a $2 billion partnership with electric and hydrogen truck maker Nikola, taking an 11% stake — Nikola's stock jumped about 50% that day. Before the open on 10 September 2020, Hindenburg Research published 'Nikola: How to Parlay An Ocean of Lies Into a Partnership With the Largest Auto OEM in America', calling the company 'an intricate fraud' built on dozens of lies by founder Trevor Milton. From a $42.37 close on 9 September, the stock fell 24% in two sessions to $32.13 on 11 September. The SEC and the Justice Department opened probes and Milton resigned on 21 September 2020. In December 2021 Nikola paid $125 million to settle with the SEC; in October 2022 a jury convicted Milton of securities fraud and wire fraud, and in December 2023 he was sentenced to four years in prison. In March 2025 President Donald Trump pardoned Milton."
     },
     "opportunity": {
-      "asset": "Nikola Corporation (NKLA)",
+      "asset": {
+        "vi": "Nikola Corporation (NKLA)",
+        "en": "Nikola Corporation (NKLA)"
+      },
       "action": {
         "vi": "Chốt lời Nikola sau cú tăng nhờ GM và thoát ra trước báo cáo của Hindenburg",
         "en": "Take profit on Nikola after the GM pop and get out before Hindenburg's report"
@@ -2890,7 +2983,10 @@
       "en": "On 1 April 1976 Steve Jobs, Steve Wozniak and Ronald Wayne — a 41-year-old engineer who had worked with Jobs at Atari — signed a partnership agreement founding Apple Computer Company. Jobs and Wozniak each held 45% and Wayne 10%, as a tie-breaker; he also drafted the partnership agreement, drew the first logo and wrote the Apple I manual. But Apple was a partnership, not a corporation, so its debts could fall on Wayne's personal assets — and Jobs had just borrowed money to fill an order from the Byte Shop, a retailer with a reputation for paying late. On 12 April 1976 Wayne had his name taken off the contract and sold his entire interest back for $800; when Apple incorporated, he accepted another $1,500 to give up any future claims. On 12 December 1980 Apple floated 4.6 million shares at $22, closed its first day at $29 and was valued at $1.778 billion — the biggest IPO since Ford in 1956. Wayne has repeatedly said he has no regrets, having made the best decision on the information he had."
     },
     "opportunity": {
-      "asset": "Apple Computer partnership stake (later AAPL)",
+      "asset": {
+        "vi": "Apple Computer partnership stake (later AAPL)",
+        "en": "Apple Computer partnership stake (later AAPL)"
+      },
       "action": {
         "vi": "Giữ 10% phần hùn sáng lập Apple thay vì bán lại với giá 800 USD",
         "en": "Keep a 10% founding stake in Apple instead of selling it back for $800"
@@ -2989,7 +3085,10 @@
       "en": "Roy Raymond, a Stanford MBA, felt embarrassed buying lingerie for his wife in department stores. In 1977 he and his wife Gaye borrowed $80,000 from a bank and relatives to open the first Victoria's Secret at Stanford Shopping Center in Palo Alto; it took in about $500,000 in its first year, then added stores and a mail-order catalogue. By 1982, though, the company was short of cash and reportedly near bankruptcy. Raymond sold Victoria's Secret — five stores and a 42-page catalogue grossing about $6 million a year — to Leslie Wexner's The Limited for about $1 million according to the New York Times, the LA Times and Fox Business (other sources, such as a 1986 NYT article, give a 'reported $4 million'). Wexner quickly expanded it to about 100 stores by 1986 and within about ten years had built a billion-dollar brand. Raymond put $850,000 into a children's store chain, My Child's Destiny, which went bankrupt in 1986; he died in 1993."
     },
     "opportunity": {
-      "asset": "Victoria's Secret (acquired by The Limited, later L Brands)",
+      "asset": {
+        "vi": "Victoria's Secret (acquired by The Limited, later L Brands)",
+        "en": "Victoria's Secret (acquired by The Limited, later L Brands)"
+      },
       "action": {
         "vi": "Không bán rẻ một thương hiệu đang tăng trưởng chỉ vì thiếu vốn lưu động — tìm vốn hoặc bán một phần thay vì bán đứt",
         "en": "Don't sell a growing brand cheaply just because of a cash squeeze — raise capital or sell a minority stake instead of the whole company"
@@ -3087,7 +3186,10 @@
       "en": "Rodney Sacks and Hilton Schlosberg bought Hansen Natural in 1992 for $14.5 million, when it was an obscure natural juice and soda maker. In April 2002 it launched Monster Energy — a 16-ounce can, twice the size of a Red Bull for the same price — which quickly became the leading 16-ounce energy drink in the US. Revenue passed $2 billion in 2012 (more than 20 times a decade earlier), the year the company renamed itself Monster Beverage. On 14 August 2014 Coca-Cola announced it would buy a 16.7% stake in Monster for $2.15 billion in cash and swap its energy brands for Monster's non-energy business; the deal closed on 12 June 2015. According to StatMuse, MNST returned about 204,900% from 2000 to 2026, second only to Nvidia in the S&P 500; according to Yahoo Finance, $1,000 invested in 2004 grew to about $1.04 million (roughly 37% a year), versus about $8,748 in the S&P 500."
     },
     "opportunity": {
-      "asset": "Hansen Natural / Monster Beverage (MNST)",
+      "asset": {
+        "vi": "Hansen Natural / Monster Beverage (MNST)",
+        "en": "Hansen Natural / Monster Beverage (MNST)"
+      },
       "action": {
         "vi": "Mua cổ phiếu Hansen Natural sau khi Monster Energy ra mắt và giữ qua nhiều thập kỷ",
         "en": "Buy Hansen Natural stock after Monster Energy's launch and hold for decades"
@@ -3186,7 +3288,10 @@
       "en": "In summer 2004 Sean Parker, then Facebook's president, went looking for investors and was pointed to PayPal co-founder Peter Thiel. After meeting Mark Zuckerberg in August 2004, Thiel led the seed round with a $500,000 angel investment (structured as a convertible loan) for 10.2% of the company and a board seat, valuing Facebook at about $4.9 million. On 18 May 2012 Facebook listed at $38 a share, a valuation of about $104 billion; Thiel and his funds held more than 44 million shares and sold 16.8 million in the IPO for about $640 million. The stock then slumped; when the lock-up expired on 16 August 2012 it fell below $20, and over 16-17 August Thiel sold about 20 million more shares at $19.27-$20.69 for $395.8 million — taking his total cash-out above $1 billion. The sale plan had been set on IPO day, regardless of price. Facebook/Meta stock later climbed to nearly $790 in 2025."
     },
     "opportunity": {
-      "asset": "Facebook seed round (later META)",
+      "asset": {
+        "vi": "Facebook seed round (later META)",
+        "en": "Facebook seed round (later META)"
+      },
       "action": {
         "vi": "Đầu tư vào vòng hạt giống của Facebook năm 2004 và giữ đến IPO năm 2012",
         "en": "Invest in Facebook's 2004 seed round and hold to the 2012 IPO"

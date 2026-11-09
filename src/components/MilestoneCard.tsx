@@ -29,7 +29,7 @@ export default function MilestoneCard({ m, lang, dict, country }: Props) {
       <div className="mt-5 rounded-xl bg-raised p-4">
         <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
           <div className="min-w-0 space-y-1.5 text-sm">
-            {o.asset && <div className="font-mono text-xs text-gold">{o.asset}</div>}
+            {t(o.asset, lang) && <div className="font-mono text-xs text-gold">{t(o.asset, lang)}</div>}
             <div className="text-ink">{t(o.action, lang)}</div>
             <div className="text-muted">
               {dict.buyWhen}: <span className="text-ink">{t(o.buyWhen, lang)}</span>

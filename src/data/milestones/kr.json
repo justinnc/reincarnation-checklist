@@ -17,7 +17,10 @@
       "en": "In late 1997 a wave of chaebol bankruptcies and short-term foreign debt drained Korea's FX reserves. In December 1997 the IMF approved an international package of about $58 billion — the largest ever at the time. The won fell from roughly 900/USD in October to about 1,965/USD on Christmas Eve 1997. In January 1998 more than 3.5 million citizens donated household gold to help repay the debt. KOSPI bottomed around 277–280 in mid-June 1998, then gained 49.9% in 1998 and 82.8% in 1999, closing 1999 at 1,028."
     },
     "opportunity": {
-      "asset": "KOSPI index",
+      "asset": {
+        "vi": "KOSPI index",
+        "en": "KOSPI index"
+      },
       "action": {
         "vi": "Mua rổ cổ phiếu KOSPI (hoặc blue-chip xuất khẩu) khi thị trường hoảng loạn nhất giữa năm 1998.",
         "en": "Buy a KOSPI basket (or export blue chips) at peak panic in mid-1998."
@@ -118,7 +121,10 @@
       "en": "Kim Woo-choong's Daewoo kept expanding on borrowed money (autos, shipbuilding, global trading) even after the 1997 crisis. By 1999 it could not service debts estimated at $50–80 billion, was put into a creditor-led workout from August 1999 and then dismantled. Prosecutors charged over 40 executives; auditors had concealed the true debt. Kim fled abroad (including to Vietnam), returned in June 2005 and was arrested, charged with masterminding a 41 trillion won (~$43.4B) accounting fraud. On May 30, 2006 he was sentenced to 10 years, then pardoned at the end of 2007."
     },
     "opportunity": {
-      "asset": "Daewoo affiliates (Daewoo Corp, Daewoo Motor, etc.)",
+      "asset": {
+        "vi": "Daewoo affiliates (Daewoo Corp, Daewoo Motor, etc.)",
+        "en": "Daewoo affiliates (Daewoo Corp, Daewoo Motor, etc.)"
+      },
       "action": {
         "vi": "Bán toàn bộ cổ phiếu/trái phiếu Daewoo trước 1999; nhà đầu tư chuyên nghiệp có thể bán khống hoặc chờ mua tài sản tái cơ cấu giá rẻ.",
         "en": "Exit all Daewoo stocks/bonds before 1999; professionals could short them or wait to buy restructured assets cheaply."
@@ -214,7 +220,10 @@
       "en": "After the IMF crisis Samsung Electronics restructured hard and became the leader in DRAM, NAND, displays and then Galaxy phones. The stock (005930) fell 40.6% in 2000 as the dot-com bubble burst; its lowest close that year was 2,730 won (adjusted for the 50:1 split of May 16, 2018 — 136,500 won pre-split). On Jan 11, 2021 it closed at a then-record 91,000 won. Before the split a single share cost 2,650,000 won (Apr 27, 2018), putting it out of reach of many retail investors."
     },
     "opportunity": {
-      "asset": "Samsung Electronics (005930.KS)",
+      "asset": {
+        "vi": "Samsung Electronics (005930.KS)",
+        "en": "Samsung Electronics (005930.KS)"
+      },
       "action": {
         "vi": "Tích lũy cổ phiếu Samsung Electronics trong giai đoạn suy thoái chip 2000 và giữ dài hạn.",
         "en": "Accumulate Samsung Electronics during the 2000 chip downturn and hold long term."
@@ -315,7 +324,10 @@
       "en": "Apgujeong Hyundai — a complex built 1976–1987 on the south bank of the Han River — is Gangnam's symbol of wealth. A 30-pyeong unit sold for 8.65 million won at launch in 1976. In 2006 Seoul apartment prices rose 23.46%, the fastest in decades. A 196.21㎡ Apgujeong Hyundai unit was worth roughly 700 million–1 billion won in 2000, traded at 5.39B won (Jan 2021), 8.3B won (Aug 2024) and 9.3B won (Apr 2025) on redevelopment hopes. Korea's unique jeonse system — tenants post a large lump-sum deposit (roughly 50–80% of the home's value) instead of monthly rent — lets landlords use interest-free deposits to buy more homes ('gap investment')."
     },
     "opportunity": {
-      "asset": "Apgujeong Hyundai apartment (196㎡), Gangnam, Seoul",
+      "asset": {
+        "vi": "Apgujeong Hyundai apartment (196㎡), Gangnam, Seoul",
+        "en": "Apgujeong Hyundai apartment (196㎡), Gangnam, Seoul"
+      },
       "action": {
         "vi": "Mua căn hộ tái thiết ở Apgujeong/Banpo đầu những năm 2000, dùng tiền cọc jeonse để giảm vốn tự có, và giữ qua nhiều chu kỳ.",
         "en": "Buy a redevelopment-candidate apartment in Apgujeong/Banpo in the early 2000s, use a jeonse deposit to cut equity needed, and hold through cycles."
@@ -416,7 +428,10 @@
       "en": "After Lehman Brothers collapsed, foreign investors fled Korea. On Oct 24, 2008 KOSPI lost 110.96 points (−10.57%) to 938.75 — its worst week since the index began, beating even the 1997–98 crisis record; the won slid to about 1,420/USD and Samsung Electronics plunged 13.8%. The weak won then helped exporters like Samsung and Hyundai Motor gain global share. KOSPI closed back above 2,000 on Dec 14, 2010 for the first time in 37 months and hit a record close of 2,228.96 on May 2, 2011."
     },
     "opportunity": {
-      "asset": "KOSPI index / Korean exporters",
+      "asset": {
+        "vi": "KOSPI index / Korean exporters",
+        "en": "KOSPI index / Korean exporters"
+      },
       "action": {
         "vi": "Mua chỉ số KOSPI hoặc các nhà xuất khẩu lớn (Samsung, Hyundai) khi thị trường hoảng loạn cuối tháng 10/2008.",
         "en": "Buy the KOSPI or big exporters (Samsung, Hyundai) at the late-October 2008 panic."
@@ -517,7 +532,10 @@
       "en": "Celltrion, an Incheon-based biosimilar maker, was the largest stock on KOSDAQ. On Aug 21, 2017 it called an extraordinary meeting to move to the main KOSPI board; by approval on Sept 29 its adjusted price rose 28.5% from 86,837 to 111,593 won, reaching 230,828 won (adjusted) on the transfer day, Feb 9, 2018. On its first KOSPI day it closed at 288,000 won (nominal), a 35.32 trillion won market cap — Korea's third-largest, ahead of Hyundai Motor. It peaked at 373,500 won nominal in March 2018, then fell nearly 30% by Apr 20, 2018 as doubts about bio valuations spread."
     },
     "opportunity": {
-      "asset": "Celltrion (068270.KS)",
+      "asset": {
+        "vi": "Celltrion (068270.KS)",
+        "en": "Celltrion (068270.KS)"
+      },
       "action": {
         "vi": "Mua Celltrion khi công bố kế hoạch chuyển sàn KOSPI (kỳ vọng dòng tiền quỹ chỉ số) và bán quanh ngày chuyển sàn.",
         "en": "Buy Celltrion on the KOSPI-transfer announcement (anticipating index-fund inflows) and sell around the transfer date."
@@ -618,7 +636,10 @@
       "en": "In late 2017 – early 2018 a crypto mania made Korea almost 25% of global trading. Bitcoin on Bithumb, Upbit, Coinone and Korbit at times traded about 50% above international prices — a 41.3% gap on Jan 7, 2018. Korean bitcoin peaked at 26 million won on Jan 6, 2018. CoinMarketCap excluded Korean exchanges from its price index from Jan 9 because of the divergence. As the government threatened exchange shutdowns and cracked down on anonymous accounts, the premium shrank to ~20% (Jan 17) and turned into a 9% discount on Feb 2, 2018, with prices below 7.7 million won."
     },
     "opportunity": {
-      "asset": "Bitcoin (BTC/KRW vs BTC/USD)",
+      "asset": {
+        "vi": "Bitcoin (BTC/KRW vs BTC/USD)",
+        "en": "Bitcoin (BTC/KRW vs BTC/USD)"
+      },
       "action": {
         "vi": "Kinh doanh chênh lệch: mua bitcoin ở sàn quốc tế, chuyển vào sàn Hàn Quốc và bán lấy won — hoặc đơn giản là KHÔNG mua bitcoin bằng won ở mức giá cao hơn thế giới 50%.",
         "en": "Arbitrage: buy bitcoin abroad, transfer it to a Korean exchange and sell for won — or simply DON'T buy bitcoin in won at a 50% premium."
@@ -710,7 +731,10 @@
       "en": "Do Kwon's (Kwon Do-hyung) Terraform Labs created UST — an algorithmic stablecoin pegged to $1 via swaps with the LUNA token, with no real collateral. The Anchor protocol paid ~20% a year on UST, drawing tens of billions of dollars. LUNA's market cap grew from $2.5B (June 2021) to over $40B (April 2022); the price peaked near $119 on Apr 5, 2022. From May 7 large sell orders broke UST's peg; over May 9–11 minting LUNA to defend UST triggered a death spiral. The Terra chain was halted on May 13; by May 16 LUNA was worth $0.00022."
     },
     "opportunity": {
-      "asset": "LUNA / UST (Terra)",
+      "asset": {
+        "vi": "LUNA / UST (Terra)",
+        "en": "LUNA / UST (Terra)"
+      },
       "action": {
         "vi": "Rút toàn bộ UST khỏi Anchor và bán LUNA khi UST lần đầu mất neo ngày 7/5/2022 — hoặc tốt hơn, không bao giờ gửi tiền vào lãi suất 20% 'không rủi ro'.",
         "en": "Pull all UST out of Anchor and sell LUNA when UST first wobbled on May 7, 2022 — or better, never chase a 'risk-free' 20% yield."
@@ -810,7 +834,10 @@
       "en": "SK Hynix (000660.KS) invested early in HBM and began supplying HBM3 for Nvidia's H100 GPU in 2022. As ChatGPT ignited the AI boom in 2023, the stock rose 65% in the first seven months (Bloomberg, July 27, 2023) despite a weak legacy-DRAM market. On May 23, 2024, after Nvidia's blowout earnings, it topped 200,000 won for the first time; SK Hynix was then the sole supplier of HBM3 and HBM3E for Nvidia GPUs. In 2024 it posted record revenue of 66.2 trillion won and operating profit of 23.5 trillion won."
     },
     "opportunity": {
-      "asset": "SK Hynix (000660.KS)",
+      "asset": {
+        "vi": "SK Hynix (000660.KS)",
+        "en": "SK Hynix (000660.KS)"
+      },
       "action": {
         "vi": "Mua SK Hynix khi chu kỳ chip nhớ chạm đáy cuối 2022, trước khi thị trường nhận ra vai trò HBM trong AI.",
         "en": "Buy SK Hynix at the memory-cycle trough in late 2022, before the market priced in HBM's role in AI."
@@ -911,7 +938,10 @@
       "en": "EcoPro (086520.KQ), parent of cathode maker EcoPro BM, became Korea's meme stock of 2023. Retail investors bought a net 1.72 trillion won while foreigners and institutions sold; several short-selling funds were forced to cover at a loss. On July 10, 2023 it crossed 1 million won (+848% year to date), and on July 26 it hit 1.54 million won intraday — nearly 14x its start-of-year price. By Sept 14, 2023 it was at 904,000 won (−41.3%) as EV demand cooled and lithium prices fell. EcoPro split its shares 5-for-1 in April 2024, so current prices must be multiplied by 5 to compare."
     },
     "opportunity": {
-      "asset": "EcoPro (086520.KQ)",
+      "asset": {
+        "vi": "EcoPro (086520.KQ)",
+        "en": "EcoPro (086520.KQ)"
+      },
       "action": {
         "vi": "Mua EcoPro đầu năm 2023 trước làn sóng mua của nhà đầu tư cá nhân, chốt lời khi cổ phiếu vượt 1 triệu won.",
         "en": "Buy EcoPro in early 2023 before the retail wave and take profits once it crossed 1 million won."

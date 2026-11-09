@@ -17,7 +17,10 @@
       "en": "After years of cheap dollar borrowing and a property bubble, the Bank of Thailand drained its reserves defending a peg of roughly 25 THB/USD. On 2 July 1997 the government was forced to float the baht. By 24 October 1997 the baht had depreciated about 60% against the dollar (per the San Francisco Fed), and USD/THB hit an all-time high of 56.50 in January 1998. Thai stocks fell 75%, Finance One — the largest finance company — collapsed, and the IMF unveiled a rescue package of more than $17 billion in August 1997. The crisis quickly spread to Indonesia, South Korea, Malaysia and the Philippines."
     },
     "opportunity": {
-      "asset": "USD/THB (giữ USD thay vì baht)",
+      "asset": {
+        "vi": "USD/THB (giữ USD thay vì baht)",
+        "en": "USD/THB (holding USD instead of baht)"
+      },
       "action": {
         "vi": "Đổi tiết kiệm baht sang USD trước ngày 2/7/1997, rồi đổi ngược lại khi baht chạm đáy đầu năm 1998.",
         "en": "Convert baht savings into US dollars before 2 July 1997, then convert back near the baht's trough in early 1998."
@@ -118,7 +121,10 @@
       "en": "The SET Index set a closing high of 1,753.73 on 4 January 1994 (intraday high 1,789.16 on 5 January 1994). After the 1997 crisis it sank to a low of 204.59 on 4 September 1998 — a loss of about 88%. From that bottom the SET closed 1999 at 481.92 (+35.44% for the year), roughly 2.36x the low. The 1994 record was only surpassed in January 2018, when the SET closed at 1,778.53 — almost 24 years later."
     },
     "opportunity": {
-      "asset": "SET Index (chỉ số / quỹ cổ phiếu blue-chip Thái)",
+      "asset": {
+        "vi": "SET Index (chỉ số / quỹ cổ phiếu blue-chip Thái)",
+        "en": "SET Index (Thai blue-chip index/funds)"
+      },
       "action": {
         "vi": "Mua rổ cổ phiếu blue-chip Thái quanh đáy tháng 9/1998 và chốt lời vào cuối năm 1999.",
         "en": "Buy a basket of Thai blue chips around the September 1998 bottom and take profits at the end of 1999."
@@ -219,7 +225,10 @@
       "en": "On 1 October 2001 the Petroleum Authority of Thailand became the public company PTT. On 21 November 2001 PTT priced its IPO at 35 baht per share (par 10 baht); selling about a third of the company raised roughly 32.2 billion baht (~$725m) amid strong local and foreign demand. Shares listed on 6 December 2001. In April 2018 PTT split its par value from 10 baht to 1 baht (10-for-1), making the split-adjusted IPO price 3.5 baht. PTT was for years among Thailand's most valuable listed companies until Delta Electronics overtook it in early 2023."
     },
     "opportunity": {
-      "asset": "PTT Public Company Limited (SET: PTT)",
+      "asset": {
+        "vi": "PTT Public Company Limited (SET: PTT)",
+        "en": "PTT Public Company Limited (SET: PTT)"
+      },
       "action": {
         "vi": "Đăng ký mua IPO PTT ở 35 baht, giữ dài hạn và tái đầu tư cổ tức.",
         "en": "Subscribe to the PTT IPO at 35 baht, hold long term and reinvest the dividends."
@@ -320,7 +329,10 @@
       "en": "On the evening of 18 December 2006, trying to curb baht strength, the Bank of Thailand required 30% of incoming foreign currency to be held unremunerated for a year, effective 19 December. Foreigners dumped Thai stocks: on 19 December 2006 the SET fell as much as 19.5%, trading was halted for the first time in the exchange's history, and the index closed at 622.14 (−14.84%, from about 730.55) — its lowest since October 2004. That evening the government exempted inflows for listed-equity investment from the rule. On 20 December 2006 the SET rebounded about 11%."
     },
     "opportunity": {
-      "asset": "SET Index / blue-chip Thái",
+      "asset": {
+        "vi": "SET Index / blue-chip Thái",
+        "en": "SET Index / Thai blue chips"
+      },
       "action": {
         "vi": "Mua mạnh cổ phiếu blue-chip Thái vào cuối phiên 19/12/2006 và bán ra khi thị trường bật lại ngày 20/12.",
         "en": "Buy Thai blue chips aggressively into the close of 19 December 2006 and sell into the 20 December rebound."
@@ -420,7 +432,10 @@
       "en": "CP All, part of the Charoen Pokphand group, runs 7-Eleven in Thailand. At 31 December 2007 it had 4,279 stores; by 2018 the Bangkok Post expected it to top 11,000, putting a store on almost every Thai street corner. Consolidated net profit reached 20,930 million baht in 2018. According to annual price-performance data, CPALL rose 120.7% (2009), 87.5% (2010), 24.7% (2011), 83.2% (2012) and so on, compounding to roughly 16.5x over 2009-2017 before dividends. In 2013 CP All bought Siam Makro in a debt-funded deal worth about 188.9 billion baht, sending the stock down to 38.50 baht."
     },
     "opportunity": {
-      "asset": "CP All PCL (SET: CPALL)",
+      "asset": {
+        "vi": "CP All PCL (SET: CPALL)",
+        "en": "CP All PCL (SET: CPALL)"
+      },
       "action": {
         "vi": "Mua CPALL trong giai đoạn khủng hoảng tài chính 2008 và giữ đến hết 2017 khi mạng lưới cửa hàng tăng gần gấp ba.",
         "en": "Buy CPALL during the 2008 financial crisis and hold through 2017 as the store network nearly triples."
@@ -518,7 +533,10 @@
       "en": "The 2011 monsoon caused prolonged flooding along the Chao Phraya, killing more than 800 people and causing about 1.425 trillion baht (~$45.7bn) in damage and losses. Seven industrial estates — Saha Rattana Nakorn, Rojana, Hi-Tech, Bang Pa-in, Factory Land, Nava Nakorn and Bangkadi — were inundated in October. Honda suspended production at its Rojana plant from 4 October 2011. Thailand was the world's No. 2 hard-disk-drive (HDD) producer; a single Western Digital plant at Bang Pa-In made a quarter of the world's 'sliders'. The floods knocked out about a quarter of global HDD capacity; in the UK a 1TB drive went from £45 to £100 or more in two weeks."
     },
     "opportunity": {
-      "asset": "Ổ cứng HDD / nhà sản xuất ổ cứng không bị ngập (như Seagate)",
+      "asset": {
+        "vi": "Ổ cứng HDD / nhà sản xuất ổ cứng không bị ngập (như Seagate)",
+        "en": "HDD drives / hard-disk makers unaffected by the floods (e.g. Seagate)"
+      },
       "action": {
         "vi": "Trữ ổ cứng trước khi lũ lan tới các khu công nghiệp, và ưu tiên cổ phiếu nhà sản xuất HDD có nhà máy không bị ngập.",
         "en": "Stock up on hard drives before the water reaches the industrial estates, and favour HDD makers whose plants stayed dry."
@@ -619,7 +637,10 @@
       "en": "Delta Electronics (Thailand), a unit of Taiwan's Delta Electronics, makes power supplies, server/cloud hardware and EV chargers. On 22 April 2020 the stock traded around 40 baht (per DBS). Revenue grew from 63.2 billion baht (2021) to 84.3 billion baht (2022). On 3 January 2023 DELTA jumped 12% to a record 930 baht, lifting its market value to 1.16 trillion baht (~$33.8bn) and overtaking Airports of Thailand and PTT as Thailand's largest listed company. In April 2023 it split its shares 10-for-1 (par value 1 baht to 0.1 baht)."
     },
     "opportunity": {
-      "asset": "Delta Electronics (Thailand) PCL (SET: DELTA)",
+      "asset": {
+        "vi": "Delta Electronics (Thailand) PCL (SET: DELTA)",
+        "en": "Delta Electronics (Thailand) PCL (SET: DELTA)"
+      },
       "action": {
         "vi": "Mua DELTA trong đợt bán tháo do COVID năm 2020 và giữ qua làn sóng máy chủ, đám mây và sạc xe điện.",
         "en": "Buy DELTA in the 2020 COVID sell-off and hold through the server, cloud and EV-charging boom."
@@ -720,7 +741,10 @@
       "en": "On 9 June 2022 a Public Health Ministry rule took effect removing the cannabis plant from the narcotics list (except extracts above 0.2% THC), making Thailand the first Asian country to let people grow it at home. On 8 June 2022 related stocks jumped: DOD +13.85%, GUNKUL +2.54%, RBF +3.21%. By January 2023 regulators had issued nearly 3,000 licences and more than 6,000 shops had registered. But no regulating law passed (in September 2022 the House voted down the cannabis bill, pushing GUNKUL, DOD and RBF lower), and oversupply cut retail prices by about a third. In May 2024 PM Srettha vowed to relist cannabis as a narcotic, and GUNKUL suspended its cannabis investments. In June 2025 the government restricted sales to prescriptions only."
     },
     "opportunity": {
-      "asset": "Cổ phiếu liên quan cần sa/hemp trên SET (DOD, GUNKUL, RBF)",
+      "asset": {
+        "vi": "Cổ phiếu liên quan cần sa/hemp trên SET (DOD, GUNKUL, RBF)",
+        "en": "Cannabis/hemp-related stocks on the SET (DOD, GUNKUL, RBF)"
+      },
       "action": {
         "vi": "Chốt lời cổ phiếu cần sa ngay trong cơn sốt quanh ngày 9/6/2022 thay vì mở cửa hàng hay mua đuổi.",
         "en": "Sell cannabis-themed stocks into the hype around 9 June 2022 instead of opening a dispensary or chasing them."
@@ -816,7 +840,10 @@
       "en": "More Return (MORE), listed on the mai board, closed at 2.78 baht on 9 November 2022. On the morning of 10 November it opened at 2.90 baht (+4.3%) with an at-the-open buy order for 1.5 billion shares and turnover of 7.14 billion baht (versus a 30-day average of about 360 million). Within 20 minutes it collapsed to the 1.95-baht floor, then fell to 1.37 baht the next day. The SET suspended trading on 14-18 November; when trading resumed on 21 November the stock fell another 29.9% to 0.96 baht. The buyer used margin accounts at 11 brokerages and failed to settle. Thailand's SEC filed criminal complaints against 18 people (February 2023), and the Civil Court later ordered 4.5 billion baht returned to the 11 brokerages."
     },
     "opportunity": {
-      "asset": "More Return PCL (mai: MORE)",
+      "asset": {
+        "vi": "More Return PCL (mai: MORE)",
+        "en": "More Return PCL (mai: MORE)"
+      },
       "action": {
         "vi": "Bán toàn bộ MORE ngay khi thấy lệnh mua bất thường 1,5 tỷ cổ phiếu lúc mở cửa — hoặc tránh xa cổ phiếu vốn hóa nhỏ có thanh khoản bất thường.",
         "en": "Sell all MORE the moment the abnormal 1.5-billion-share opening bid appears — or avoid small caps with suspicious liquidity altogether."
@@ -917,7 +944,10 @@
       "en": "Stark Corporation, a wire-and-cable maker backed by Vonnarat Tangkaravakoon (son of TOA Paint's founder), once had a peak market value above $1.7bn. In December 2022 it backed out of buying Leoni's German EV-cable business despite raising 5.58 billion baht for it. On 1 June 2023 the stock resumed trading after a suspension of more than two months and fell from 2.38 to 0.25 baht at the open (−92% on the day). Statements released on 16 June showed a 2022 net loss of 6.61 billion baht and a restated 2021 loss of 5.97 billion baht (previously reported as a 2.78-billion-baht profit); a PwC special audit found 202 unusual sale transactions worth 8 billion baht. The company had about 39 billion baht of liabilities and negative equity of 4.4 billion baht. The stock ended June 2023 at 0.02 baht; 30 June 2023 was its last trading day before a long suspension pending delisting."
     },
     "opportunity": {
-      "asset": "Stark Corporation PCL (SET: STARK)",
+      "asset": {
+        "vi": "Stark Corporation PCL (SET: STARK)",
+        "en": "Stark Corporation PCL (SET: STARK)"
+      },
       "action": {
         "vi": "Bán sạch STARK khi công ty rút khỏi thương vụ Leoni (12/2022) và liên tục trì hoãn nộp báo cáo tài chính.",
         "en": "Dump STARK when it abandoned the Leoni deal (December 2022) and kept delaying its financial statements."

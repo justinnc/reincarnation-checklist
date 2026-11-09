@@ -17,7 +17,10 @@
       "en": "SAP AG first listed on 4 November 1988 on the German stock exchange at a reference price of 753.06 DM (385.03 EUR). After multiple stock splits it became a long-standing DAX member, and by the end of 2024 reached a market cap of nearly EUR 270 billion, accounting for about 40% of the DAX's entire gain that year — cementing its place as Europe's most valuable tech company."
     },
     "opportunity": {
-      "asset": "SAP SE (SAP)",
+      "asset": {
+        "vi": "SAP SE (SAP)",
+        "en": "SAP SE (SAP)"
+      },
       "action": {
         "vi": "Mua cổ phiếu từ ngày IPO và giữ xuyên nhiều thập kỷ, bỏ qua các đợt điều chỉnh ngắn hạn",
         "en": "Buy at IPO and hold for decades, riding out short-term corrections"
@@ -105,7 +108,10 @@
       "en": "When East and West Germany merged on 3 October 1990, Bundesbank rate hikes and reunification costs dragged the DAX down 21.9% that year to a close of 1,398.23 points. But from that base the index rose nearly six-fold to a peak of 8,136.16 points in March 2000, fuelled by privatizations, EU integration and the tech boom."
     },
     "opportunity": {
-      "asset": "DAX Index",
+      "asset": {
+        "vi": "DAX Index",
+        "en": "DAX Index"
+      },
       "action": {
         "vi": "Mua và nắm giữ rổ cổ phiếu DAX ngay sau khi giá giảm cuối 1990",
         "en": "Buy and hold a DAX basket right after the 1990 dip"
@@ -202,7 +208,10 @@
       "en": "On 18 November 1996 Deutsche Telekom IPO'd at 28.50 DM (14.57 EUR) per share in a massive ad campaign starring actor Manfred Krug, marketed as the 'people's share' (Volksaktie). Riding the dot-com mania it peaked at 104.90 EUR on 6 March 2000 before crashing, wiping out millions of first-time German retail investors."
     },
     "opportunity": {
-      "asset": "Deutsche Telekom (DTE)",
+      "asset": {
+        "vi": "Deutsche Telekom (DTE)",
+        "en": "Deutsche Telekom (DTE)"
+      },
       "action": {
         "vi": "Mua ở đợt IPO, bán toàn bộ gần đỉnh 2000",
         "en": "Buy the IPO allocation, fully exit near the 2000 peak"
@@ -299,7 +308,10 @@
       "en": "The Neuer Markt segment (launched 1997, modeled on Nasdaq) and its Nemax 50 benchmark hit an all-time high of 9,666 points on 10 March 2000, valuing roughly 229-300 listed tech firms at over EUR 230 billion. After the dot-com bust and the 9/11 attacks, the index collapsed to just 318 points by 9 October 2002 — a loss of more than 96% — forcing Deutsche Börse to shut the segment entirely on 5 June 2003."
     },
     "opportunity": {
-      "asset": "Nemax 50 Index",
+      "asset": {
+        "vi": "Nemax 50 Index",
+        "en": "Nemax 50 Index"
+      },
       "action": {
         "vi": "Tránh mua hoặc bán khống các cổ phiếu Neuer Markt quanh đỉnh",
         "en": "Avoid buying, or short Neuer Markt stocks, near the peak"
@@ -392,7 +404,10 @@
       "en": "On 13 March 2000, Infineon Technologies — the semiconductor unit spun off from Siemens — IPO'd simultaneously in Frankfurt and New York at EUR 35 per share, oversubscribed 33 times. The stock doubled on its first day to about EUR 70. But after the dot-com bubble burst and the chip industry hit a cyclical crisis, the stock collapsed, falling to as low as EUR 0.44 in 2009 amid the global financial crisis — a loss of over 98% from the IPO price."
     },
     "opportunity": {
-      "asset": "Infineon Technologies (IFX)",
+      "asset": {
+        "vi": "Infineon Technologies (IFX)",
+        "en": "Infineon Technologies (IFX)"
+      },
       "action": {
         "vi": "Mua cổ phiếu IPO rồi bán ngay trong ngày đầu tiên khi giá tăng gấp đôi; tuyệt đối tránh giữ dài hạn qua 2001-2009",
         "en": "Flip the IPO allocation on day one when the price doubles; absolutely avoid holding long-term through 2001-2009"
@@ -485,7 +500,10 @@
       "en": "On 1 January 2002, euro banknotes and coins officially replaced the Deutsche Mark in Germany at the fixed rate set back in 1999: 1 EUR = 1.95583 DM. Germans can still exchange old DM for euros free of charge at the Bundesbank indefinitely, but many businesses used the rounding of prices to quietly raise them, a phenomenon nicknamed 'Teuro' (expensive-euro)."
     },
     "opportunity": {
-      "asset": "DEM/EUR fixed conversion",
+      "asset": {
+        "vi": "DEM/EUR fixed conversion",
+        "en": "DEM/EUR fixed conversion"
+      },
       "action": {
         "vi": "Chuyển đổi tiền mặt/tài sản định giá DM sang EUR đúng tỷ giá trước khi tâm lý 'Teuro' đẩy giá hàng hoá lên",
         "en": "Convert DM-denominated cash/assets at the exact fixed rate before 'Teuro' price-rounding pushes up the cost of goods"
@@ -573,7 +591,10 @@
       "en": "After the dot-com bubble burst, the DAX fell 73% from its March 2000 peak of 8,136.16 points to a low of 2,202.96 points on 12 March 2003 — a multi-year low amid Iraq War fears and German recession. From that bottom, the index rebounded sharply, rising 37% in 2003 alone and climbing to a new high of 8,151.57 points on 13 July 2007 — about 3.7x the low."
     },
     "opportunity": {
-      "asset": "DAX Index",
+      "asset": {
+        "vi": "DAX Index",
+        "en": "DAX Index"
+      },
       "action": {
         "vi": "Mua rổ cổ phiếu DAX (hoặc hợp đồng tương lai/ETF) đúng đáy tháng 3/2003",
         "en": "Buy a DAX basket (or futures/ETF) right at the March 2003 bottom"
@@ -666,7 +687,10 @@
       "en": "On 10 April 2007, French luxury group PPR (later renamed Kering) announced it had bought a 27% stake in Puma and would make a full takeover offer at EUR 330 per share, valuing Puma at EUR 5.3 billion; by July 2007 PPR owned over 60%. Yet throughout Kering's ownership, Puma underperformed badly: the stock returned just 5.7% including dividends through early 2018, versus 89% for the DAX, 360% for Adidas and 454% for Nike over the same period. In January 2018, Kering announced it would spin Puma off, and Puma shares fell 16% that same session on fears of selling pressure from Kering shareholders receiving the distribution."
     },
     "opportunity": {
-      "asset": "Puma SE (PUM) vs Adidas (ADS)",
+      "asset": {
+        "vi": "Puma SE (PUM) vs Adidas (ADS)",
+        "en": "Puma SE (PUM) vs Adidas (ADS)"
+      },
       "action": {
         "vi": "Tránh mua Puma theo giá thâu tóm 330 EUR của PPR; thay vào đó nên nắm giữ đối thủ Adidas hoặc Nike trong cùng giai đoạn",
         "en": "Avoid buying Puma at PPR's EUR 330 takeover price; hold rival Adidas or Nike over the same period instead"
@@ -754,7 +778,10 @@
       "en": "On 26 October 2008, Porsche revealed it controlled 74.1% of VW via shares and options, leaving less than 6% of VW's stock freely tradable. Hedge funds that had piled into short positions were forced to scramble to cover, sending VW shares briefly above EUR 1,000 per share intraday on 28 October 2008 — momentarily making VW the world's most valuable company by market cap, ahead of Exxon Mobil — before Porsche eased its hedges and the price nearly halved the very next day."
     },
     "opportunity": {
-      "asset": "Volkswagen ordinary shares (VOW)",
+      "asset": {
+        "vi": "Volkswagen ordinary shares (VOW)",
+        "en": "Volkswagen ordinary shares (VOW)"
+      },
       "action": {
         "vi": "Tránh bán khống VW quanh thời điểm này, hoặc mua trước thông báo của Porsche rồi bán ngay khi giá chạm đỉnh trong phiên",
         "en": "Avoid shorting VW around this event, or buy ahead of Porsche's announcement and sell into the intraday spike"
@@ -849,7 +876,10 @@
       "en": "After the 2008-09 financial crisis, Berlin — then still Europe's 'poor but sexy' capital with some of the cheapest housing among major European capitals — began a decade of unprecedented real-estate appreciation. Per Germany's Federal Statistical Office, Berlin's price for development-ready land rose from EUR 200/sqm in 2009 to a peak of EUR 1,328/sqm in 2019 (before easing slightly to EUR 932/sqm in 2020) — a more than 6.6x gain in a decade, driven by international capital inflows, near-zero interest rates and a severe housing shortage."
     },
     "opportunity": {
-      "asset": "Berlin development land / residential property",
+      "asset": {
+        "vi": "Berlin development land / residential property",
+        "en": "Berlin development land / residential property"
+      },
       "action": {
         "vi": "Mua đất hoặc căn hộ tại Berlin ngay sau khủng hoảng tài chính khi giá còn rất rẻ",
         "en": "Buy land or apartments in Berlin right after the financial crisis while prices are still very cheap"
@@ -942,7 +972,10 @@
       "en": "After merging with Dresdner Bank amid the financial crisis, Commerzbank — Germany's second-largest bank — needed a government rescue: EUR 8.2bn cash plus EUR 15bn in guarantees in November 2008, followed by a further EUR 10bn package on 8 January 2009 in exchange for a 25% state stake priced at just EUR 6 per new share. News of the partial nationalization sent the stock down 21.3% to a then-record intraday low of EUR 4.79."
     },
     "opportunity": {
-      "asset": "Commerzbank (CBK)",
+      "asset": {
+        "vi": "Commerzbank (CBK)",
+        "en": "Commerzbank (CBK)"
+      },
       "action": {
         "vi": "Tránh nắm giữ cổ phiếu Commerzbank qua giai đoạn cứu trợ/pha loãng 2008-2009, hoặc bán khống trước tin quốc hữu hoá",
         "en": "Avoid holding Commerzbank through the 2008-09 bailout/dilution, or short ahead of the nationalization news"
@@ -1037,7 +1070,10 @@
       "en": "During the global financial crisis, the DAX lost 54.8% of its value from its 16 July 2007 peak of 8,105.69 points to a low of 3,666.41 points on 6 March 2009 — its lowest level since August 2004, right after the Lehman Brothers collapse and amid emergency global central-bank rate cuts. The index rebounded quickly that same year, closing 2009 at 5,957.43 points, up 62% from the March low."
     },
     "opportunity": {
-      "asset": "DAX Index",
+      "asset": {
+        "vi": "DAX Index",
+        "en": "DAX Index"
+      },
       "action": {
         "vi": "Mua rổ cổ phiếu DAX (hoặc ETF) đúng đáy khủng hoảng tháng 3/2009",
         "en": "Buy a DAX basket (or ETF) right at the March 2009 crisis bottom"
@@ -1134,7 +1170,10 @@
       "en": "On 1 October 2014, Berlin-based online fashion startup Zalando listed on the Frankfurt Stock Exchange at an IPO price of EUR 21.50 per share, valuing the company at about EUR 5.3 billion — Germany's biggest tech IPO since Deutsche Telekom in 2000. Shares opened up 12% at EUR 24.10 but gave back the gains, closing the first day flat at the EUR 21.50 IPO price."
     },
     "opportunity": {
-      "asset": "Zalando SE (ZAL)",
+      "asset": {
+        "vi": "Zalando SE (ZAL)",
+        "en": "Zalando SE (ZAL)"
+      },
       "action": {
         "vi": "Mua ở giá IPO và giữ trung hạn khi Zalando mở rộng thành nền tảng thời trang số 1 châu Âu",
         "en": "Buy at the IPO price and hold medium-term as Zalando grows into Europe's #1 online fashion platform"
@@ -1224,7 +1263,10 @@
       "en": "On 18 September 2015, the US EPA revealed VW had installed 'defeat devices' on roughly 500,000 diesel cars to cheat emissions tests. VW shares fell 19.4% on 21 September 2015 to a near three-year low of 130.20 EUR, wiping out about EUR 15 billion in market value in a single day and ultimately forcing CEO Martin Winterkorn to resign."
     },
     "opportunity": {
-      "asset": "Volkswagen preferred shares (VOW3)",
+      "asset": {
+        "vi": "Volkswagen preferred shares (VOW3)",
+        "en": "Volkswagen preferred shares (VOW3)"
+      },
       "action": {
         "vi": "Bán khống hoặc thoát vị thế VW ngay khi tin tức EPA được công bố",
         "en": "Short or exit VW positions the moment the EPA news breaks"
@@ -1316,7 +1358,10 @@
       "en": "In 2016, Deutsche Bank faced a confidence crisis after the US DOJ initially demanded a $14 billion fine over toxic pre-2008 mortgage-backed securities. Reports that hedge funds were pulling cash from the bank sent shares to a record intraday low of EUR 9.90 on 30 September 2016 — the first time ever below EUR 10 — before recovering once a $5.4 billion settlement with the US was reached in December."
     },
     "opportunity": {
-      "asset": "Deutsche Bank (DBK)",
+      "asset": {
+        "vi": "Deutsche Bank (DBK)",
+        "en": "Deutsche Bank (DBK)"
+      },
       "action": {
         "vi": "Tránh nắm giữ hoặc bán khống Deutsche Bank trong năm 2016, mua lại sau khi đạt thoả thuận với DOJ",
         "en": "Avoid holding, or short, Deutsche Bank through 2016, then buy back after the DOJ settlement"
@@ -1413,7 +1458,10 @@
       "en": "The COVID-19 pandemic caused the fastest crash in DAX history: the index fell from a peak of 13,789.00 points (19 Feb 2020) to a low of 8,441.71 points on 18 March 2020 — a 38.8% drop in just 28 days. Thanks to massive monetary and fiscal stimulus, the DAX staged a dramatic recovery, closing 2020 at 13,719 points — almost back to its pre-crash peak in under ten months."
     },
     "opportunity": {
-      "asset": "DAX Index",
+      "asset": {
+        "vi": "DAX Index",
+        "en": "DAX Index"
+      },
       "action": {
         "vi": "Mua rổ cổ phiếu DAX (hoặc ETF) đúng đáy dịch COVID-19",
         "en": "Buy a DAX basket (or ETF) right at the COVID-19 crash bottom"
@@ -1506,7 +1554,10 @@
       "en": "On 18 June 2020, auditor EY announced it could not confirm the existence of EUR 1.9 billion in cash on payments company Wirecard's balance sheet — money later confirmed to not exist at all. CEO Markus Braun was arrested, the company filed for insolvency on 25 June 2020, and the stock free-fell from 104.50 EUR (17 June) to 1.28 EUR (26 June) — a loss of over 98% in under two weeks, Germany's largest post-war corporate fraud."
     },
     "opportunity": {
-      "asset": "Wirecard AG (WDI)",
+      "asset": {
+        "vi": "Wirecard AG (WDI)",
+        "en": "Wirecard AG (WDI)"
+      },
       "action": {
         "vi": "Bán khống hoặc thoát toàn bộ vị thế Wirecard ngay khi tin kiểm toán xuất hiện",
         "en": "Short, or fully exit, Wirecard the moment the audit news breaks"
@@ -1603,7 +1654,10 @@
       "en": "German biotech BioNTech (Mainz) listed on Nasdaq in late 2019 and traded around $34 in early 2020. On 9 November 2020, BioNTech and partner Pfizer announced their mRNA COVID-19 vaccine was over 90% effective in Phase 3 trials, sending shares surging to around $115. After the US granted emergency authorization in December 2020 and the vaccine rolled out globally, the stock kept climbing, peaking around $420 by mid-August 2021 — roughly 12x its early-2020 level."
     },
     "opportunity": {
-      "asset": "BioNTech SE ADS (BNTX)",
+      "asset": {
+        "vi": "BioNTech SE ADS (BNTX)",
+        "en": "BioNTech SE ADS (BNTX)"
+      },
       "action": {
         "vi": "Mua cổ phiếu BioNTech đầu năm 2020, trước khi tin tức hiệu quả vắc-xin được công bố, bán gần đỉnh giữa 2021",
         "en": "Buy BioNTech shares in early 2020, before vaccine-efficacy news breaks, sell near the mid-2021 peak"
@@ -1696,7 +1750,10 @@
       "en": "Under Section 23 of Germany's Income Tax Act (EStG), gains from selling private assets like Bitcoin or Ether are entirely income-tax-free once the holding period exceeds one year — with no cap on the amount of gain, unlike most countries that tax crypto gains indefinitely. Sell within a year and the gain is taxed at the personal income tax rate (up to 45%), though gains under EUR 1,000 per year are exempt. Germany's Federal Fiscal Court (BFH) confirmed this rule in a 2023 ruling, though a proposal to abolish it has been under discussion since late 2025."
     },
     "opportunity": {
-      "asset": "Bitcoin (BTC) held by a German tax resident",
+      "asset": {
+        "vi": "Bitcoin (BTC) held by a German tax resident",
+        "en": "Bitcoin (BTC) held by a German tax resident"
+      },
       "action": {
         "vi": "Mua Bitcoin và giữ hơn đúng 1 năm trước khi bán để được miễn hoàn toàn thuế lãi vốn tại Đức",
         "en": "Buy Bitcoin and hold for just over one year before selling to fully avoid German capital-gains tax"
@@ -1788,7 +1845,10 @@
       "en": "When Russia invaded Ukraine on 24 February 2022, German defense firm Rheinmetall's shares jumped 5.4% to EUR 101.20 the next day and topped EUR 200 just a month later (28 March 2022). Driven by NATO members ramping up defense spending and Rheinmetall's addition to the DAX in March 2023, the stock kept climbing, reaching about EUR 968 in early 2025 — roughly a tenfold gain from the EUR 96.8 level on 23 February 2022, the day before the invasion."
     },
     "opportunity": {
-      "asset": "Rheinmetall AG (RHM)",
+      "asset": {
+        "vi": "Rheinmetall AG (RHM)",
+        "en": "Rheinmetall AG (RHM)"
+      },
       "action": {
         "vi": "Mua cổ phiếu quốc phòng Đức ngay trước/trong ngày Nga xâm lược Ukraine và giữ dài hạn",
         "en": "Buy German defense stocks right before/on the day Russia invades Ukraine and hold long-term"
@@ -1881,7 +1941,10 @@
       "en": "Following Russia's invasion of Ukraine and its repeated throttling of Nord Stream gas flows (down to just 20% of capacity by late August 2022, before a full halt), Europe's benchmark natural gas price (the front-month TTF futures contract) spiked to almost EUR 314/MWh on 26 August 2022 — tens of times the historical average, plunging Germany, heavily dependent on Russian gas, into an energy crisis and double-digit inflation."
     },
     "opportunity": {
-      "asset": "Dutch TTF natural gas futures",
+      "asset": {
+        "vi": "Dutch TTF natural gas futures",
+        "en": "Dutch TTF natural gas futures"
+      },
       "action": {
         "vi": "Mua hợp đồng tương lai khí đốt TTF hoặc cổ phiếu năng lượng/LNG trước mùa hè 2022 khi Nga bắt đầu siết nguồn cung",
         "en": "Buy TTF gas futures or energy/LNG stocks ahead of summer 2022 as Russia begins throttling supply"
@@ -1972,7 +2035,10 @@
       "en": "On 15 September 2020, less than three months after Wirecard, Fraser Perring's Viceroy Research published a 64-page report accusing Baden-Baden leasing firm Grenke (an MDax member) of accounting fraud and money laundering, and claiming that much of the EUR 1.078bn of cash in its half-year report did not exist. The shares fell as much as 29% on day one, kept sliding the next day, and hit a 2020 low of 23.92 EUR on 17 September, against a 61.55 EUR close at the end of August. Grenke denied everything and showed EUR 849m held at the Bundesbank. BaFin opened a review, and KPMG and Mazars were brought in for special audits. It was no second Wirecard: the stock recovered to 38.82 EUR by the end of 2020, but never got back to its pre-attack level."
     },
     "opportunity": {
-      "asset": "GRENKE AG (GLJ)",
+      "asset": {
+        "vi": "GRENKE AG (GLJ)",
+        "en": "GRENKE AG (GLJ)"
+      },
       "action": {
         "vi": "Thoát vị thế Grenke trước báo cáo, rồi cân nhắc mua lại ở vùng đáy hoảng loạn",
         "en": "Exit Grenke before the report, then consider buying back at the panic low"

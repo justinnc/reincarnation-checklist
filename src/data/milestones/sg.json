@@ -17,7 +17,10 @@
       "en": "Singtel's IPO opened on 12 Oct 1993 as a S$4.3bn float — Singapore's largest at the time. Central Provident Fund (CPF) members could use their CPF savings to buy Special Discounted Shares (SDS): Group A at S$1.90 and Group B at S$2.00, versus an institutional bookbuild clearing price of S$3.60. Group A holders also received 10 loyalty shares per 100 held after years 1, 2, 4 and 6. More than 1.4 million Singaporeans became shareholders. On debut day, 1 Nov 1993, the exchange extended trading to 12 hours, 116m shares changed hands and the stock closed at S$4.14, giving Singtel a S$63bn market value — more than half the whole exchange."
     },
     "opportunity": {
-      "asset": "Singtel (Z74.SI) — Group A Special Discounted Shares",
+      "asset": {
+        "vi": "Singtel (Z74.SI) — Group A Special Discounted Shares",
+        "en": "Singtel (Z74.SI) — Group A Special Discounted Shares"
+      },
       "action": {
         "vi": "Dùng tiền CPF đăng ký tối đa suất cổ phiếu nhóm A giá S$1,90",
         "en": "Use CPF savings to apply for the maximum Group A allocation at S$1.90"
@@ -118,7 +121,10 @@
       "en": "The crisis began when Thailand floated the baht in July 1997 and spread across the region. The Straits Times Industrials Index (STII) — Singapore's benchmark at the time — plunged almost 60%, from a high of 2,007 on 8 July 1997 to a low of 805 on 4 September 1998. The crash pushed the Monetary Authority of Singapore (MAS) into a wave of capital-market reform and liberalisation. As the region recovered the market reversed hard: the Straits Times Index gained 78.04% in 1999 to close at 2,479.58, setting fresh highs through December 1999."
     },
     "opportunity": {
-      "asset": "Straits Times Index (Singapore blue chips / index funds)",
+      "asset": {
+        "vi": "Straits Times Index (Singapore blue chips / index funds)",
+        "en": "Straits Times Index (Singapore blue chips / index funds)"
+      },
       "action": {
         "vi": "Mua mạnh cổ phiếu blue-chip Singapore (ngân hàng, viễn thông, bất động sản) khi thị trường hoảng loạn nhất",
         "en": "Buy Singapore blue chips (banks, telecoms, property) hard at the height of the panic"
@@ -218,7 +224,10 @@
       "en": "China Aviation Oil (Singapore) — SGX-listed since 2001 and importer of over 90% of China's jet fuel — speculated in oil derivatives beyond its risk limits. When crude topped US$55 a barrel it could not meet margin calls. On 30 Nov 2004 CAO halted trading, sought protection from creditors and disclosed US$550m of losses — Singapore's biggest financial scandal since Barings collapsed in 1995. BP, Temasek and the parent company rescued it via a restructuring. On 21 Mar 2006 a Singapore court jailed CEO Chen Jiulin for 4 years 3 months and fined him S$335,000 for hiding the losses, false financial statements and insider trading."
     },
     "opportunity": {
-      "asset": "China Aviation Oil (Singapore) (G92.SI)",
+      "asset": {
+        "vi": "China Aviation Oil (Singapore) (G92.SI)",
+        "en": "China Aviation Oil (Singapore) (G92.SI)"
+      },
       "action": {
         "vi": "Bán sạch hoặc bán khống cổ phiếu CAO trước khi công ty dừng giao dịch",
         "en": "Sell out of, or short, CAO shares before trading was halted"
@@ -314,7 +323,10 @@
       "en": "After URA's private home price index fell 24.9% from its Q2 2008 peak to a 95.3 trough in Q2 2009, buyers flooded back: 2009 volume jumped 2.5x to over 33,000 units and the index recovered 38% in four quarters. Resorts World Sentosa opened in January 2010 and Marina Bay Sands in April 2010, cementing Singapore's image as a tourism and finance hub. The government rolled out round after round of cooling: scrapping the interest absorption scheme (Sep 2009), reintroducing Seller's Stamp Duty (Feb 2010), the Additional Buyer's Stamp Duty (Dec 2011) and the TDSR debt-servicing framework (Jun 2013). The index still peaked at 154.6 in Q3 2013, then slid 11.6% to Q2 2017."
     },
     "opportunity": {
-      "asset": "Singapore private condominiums (URA Private Residential Price Index)",
+      "asset": {
+        "vi": "Singapore private condominiums (URA Private Residential Price Index)",
+        "en": "Singapore private condominiums (URA Private Residential Price Index)"
+      },
       "action": {
         "vi": "Mua căn hộ tư nhân ở đáy giữa năm 2009 khi người mua còn sợ hãi sau khủng hoảng tài chính toàn cầu",
         "en": "Buy a private condo at the mid-2009 trough while buyers were still shell-shocked by the GFC"
@@ -414,7 +426,10 @@
       "en": "From Aug 2012 to Oct 2013, Malaysian businessman John Soh Chee Wen and his girlfriend Quah Su-Ling used 187 trading accounts to pump Blumont Group, Asiasons Capital and LionGold Corp (\"BAL\"); those accounts made up about 60% of Blumont, 88% of Asiasons and 90% of LionGold trades. They pledged the shares to borrow over S$170m from banks. Blumont soared over 1,000% in the first nine months of 2013 to a S$2.45 closing high on 30 Sep. On 4 Oct 2013 all three collapsed; SGX halted them and declared them 'designated securities', and about S$8bn of market value vanished. In Dec 2022 the High Court jailed Soh for 36 years and Quah for 20 years."
     },
     "opportunity": {
-      "asset": "Blumont Group (A33.SI)",
+      "asset": {
+        "vi": "Blumont Group (A33.SI)",
+        "en": "Blumont Group (A33.SI)"
+      },
       "action": {
         "vi": "Tuyệt đối tránh, hoặc bán sạch cổ phiếu Blumont/Asiasons/LionGold trước khi bong bóng vỡ",
         "en": "Stay out of, or dump, Blumont/Asiasons/LionGold before the bubble burst"
@@ -515,7 +530,10 @@
       "en": "Noble Group, founded by Richard Elman in 1986, was once Asia's largest commodity trader and listed in Singapore. On 15 Feb 2015 anonymous Iceberg Research accused it of 'exploiting the accounting treatment of its associates to avoid large impairments and fabricate profit' — e.g. carrying Yancoal at US$614m versus an US$11m market value — and set a 10-cent target. On 16 Feb the stock lost 9.5 cents to S$1.11. Noble denied it, but over three years it sold assets, took huge writedowns, did a 10-for-1 share consolidation (May 2017) and in Jan 2018 proposed a US$3.5bn debt restructuring giving creditors 70% and existing shareholders just 10%."
     },
     "opportunity": {
-      "asset": "Noble Group (N21.SI)",
+      "asset": {
+        "vi": "Noble Group (N21.SI)",
+        "en": "Noble Group (N21.SI)"
+      },
       "action": {
         "vi": "Bán khống hoặc thoát hết Noble ngay khi báo cáo Iceberg xuất hiện, thay vì tin lời phủ nhận",
         "en": "Short or fully exit Noble as soon as the Iceberg report landed, instead of trusting the denial"
@@ -616,7 +634,10 @@
       "en": "Sea Limited — Forrest Li's Singapore company behind Garena (games), Shopee (e-commerce) and SeaMoney (fintech) — IPO'd on the NYSE on 20 Oct 2017 at US$15 a share, valued around US$4.9bn. Garena was then the cash engine while Shopee burned money. COVID-19 supercharged online shopping and gaming (notably Free Fire), lifting SE to an all-time high of US$372.70 in Oct 2021 and a market value above US$230bn — Southeast Asia's most valuable listed company. Then Tencent trimmed its stake, India banned Free Fire (Feb 2022), rates rose and losses mounted; the stock hit a 52-week low of US$40.67 on 9 Nov 2022 — down almost 90% from the peak."
     },
     "opportunity": {
-      "asset": "Sea Limited (NYSE: SE)",
+      "asset": {
+        "vi": "Sea Limited (NYSE: SE)",
+        "en": "Sea Limited (NYSE: SE)"
+      },
       "action": {
         "vi": "Mua SE ở giá IPO và giữ qua giai đoạn đại dịch, chốt lời gần đỉnh cuối 2021",
         "en": "Buy SE at the IPO price, hold through the pandemic and take profit near the late-2021 peak"
@@ -717,7 +738,10 @@
       "en": "The Feb-Mar 2020 COVID-19 selloff dragged DBS (D05) to a year low of S$15.35 (adjusted for the 2024 one-for-10 bonus issue; roughly S$16.9 in nominal terms at the time). As global rates surged from 2022, bank margins ballooned: in 2024 DBS posted record net profit of S$11.4bn and an 18% ROE. In May 2024 DBS became the first Singapore-listed company to cross S$100bn in market value, reaching S$124bn by year-end; 2024 total shareholder return was 51% (44% price, 7% dividends). The stock closed 2024 at S$43.72."
     },
     "opportunity": {
-      "asset": "DBS Group Holdings (D05.SI)",
+      "asset": {
+        "vi": "DBS Group Holdings (D05.SI)",
+        "en": "DBS Group Holdings (D05.SI)"
+      },
       "action": {
         "vi": "Mua DBS mạnh tay trong cơn hoảng loạn COVID tháng 3/2020 và giữ qua chu kỳ tăng lãi suất",
         "en": "Buy DBS aggressively in the March 2020 COVID panic and hold through the rate-hike cycle"
@@ -818,7 +842,10 @@
       "en": "Hin Leong Trading, founded by Lim Oon Kuin (O.K. Lim) in 1963 with a single delivery truck, grew into one of Singapore's largest independent oil traders with about US$20bn in annual revenue. When COVID-19 and the price war crushed oil in early 2020, it could no longer hide its losses. On 17 Apr 2020 Hin Leong and subsidiary Ocean Tankers asked the High Court for a moratorium on US$3.85bn owed to 23 banks; in his affidavit Lim admitted the firm had 'suffered about US$800 million in futures losses over the years' that were kept off the accounts on his instructions, despite a reported US$78.2m profit. On 18 Nov 2024 Lim was sentenced to 17.5 years for cheating HSBC into disbursing US$111.7m against fabricated oil-sale contracts."
     },
     "opportunity": {
-      "asset": "Exposure to Singapore oil-trade financing",
+      "asset": {
+        "vi": "Exposure to Singapore oil-trade financing",
+        "en": "Exposure to Singapore oil-trade financing"
+      },
       "action": {
         "vi": "Không có cổ phiếu để giao dịch (Hin Leong là công ty tư nhân) — bài học là cắt rủi ro tín dụng với các nhà buôn hàng hóa đòn bẩy cao trước khi giá dầu sụp",
         "en": "No tradable stock (Hin Leong was private) — the lesson is to cut credit exposure to highly leveraged commodity traders before oil crashed"
@@ -910,7 +937,10 @@
       "en": "Three Arrows Capital (3AC), founded in 2012 by Su Zhu and Kyle Davies, moved from FX trading into crypto and became one of the world's largest crypto funds, headquartered in Singapore and once claiming US$18bn in net assets. It borrowed uncollateralised from many lenders, held almost 39m Grayscale Bitcoin Trust (GBTC) units at end-2020 and put about US$200m into LUNA in Feb 2022. When LUNA collapsed to near zero in May 2022 and GBTC traded at a 34% discount to NAV (17 Jun 2022), 3AC could not meet margin calls — Voyager declared default on a 15,250 BTC loan. On 27 Jun 2022 a BVI court ordered liquidation; on 30 Jun MAS reprimanded 3AC for false information and breaching AUM thresholds. In Sep 2023 MAS banned both founders for nine years, and Su Zhu was arrested at Changi Airport and jailed for four months for failing to cooperate with liquidators."
     },
     "opportunity": {
-      "asset": "Crypto lending platforms & LUNA/GBTC exposure",
+      "asset": {
+        "vi": "Crypto lending platforms & LUNA/GBTC exposure",
+        "en": "Crypto lending platforms & LUNA/GBTC exposure"
+      },
       "action": {
         "vi": "Rút toàn bộ tài sản khỏi các nền tảng cho vay crypto có quan hệ với 3AC (Voyager, Celsius, BlockFi…) và bán LUNA, GBTC",
         "en": "Withdraw everything from crypto lenders exposed to 3AC (Voyager, Celsius, BlockFi…) and dump LUNA and GBTC"

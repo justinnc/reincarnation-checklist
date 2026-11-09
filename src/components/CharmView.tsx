@@ -185,7 +185,7 @@ export default function CharmView({ lang, milestones, countries }: Props) {
                       <span>{c?.flag}</span>
                       <span className="font-mono font-semibold text-gold">{formatDate(m.date, lang)}</span>
                       {o.exitDate && <span className="font-mono text-faint">→ {o.exitDate}</span>}
-                      {o.asset && <span className="font-mono text-muted">· {o.asset}</span>}
+                      {t(o.asset, lang) && <span className="font-mono text-muted">· {t(o.asset, lang)}</span>}
                     </div>
                     <Link href={`/${lang}/${m.country}/${m.id}`} className="font-display text-lg font-bold hover:text-gold block">
                       {t(m.title, lang)}
@@ -241,7 +241,7 @@ export default function CharmView({ lang, milestones, countries }: Props) {
                     <div className="flex flex-wrap items-center gap-2 text-xs">
                       <span>{c?.flag}</span>
                       <span className="font-mono font-semibold text-danger">{formatDate(m.date, lang)}</span>
-                      {o.asset && <span className="font-mono text-muted">· {o.asset}</span>}
+                      {t(o.asset, lang) && <span className="font-mono text-muted">· {t(o.asset, lang)}</span>}
                     </div>
                     <Link href={`/${lang}/${m.country}/${m.id}`} className="font-display text-lg font-bold hover:text-gold block">
                       {t(m.title, lang)}
