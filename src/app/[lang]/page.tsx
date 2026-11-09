@@ -5,6 +5,7 @@ import { getDictionary } from "@/lib/dictionaries";
 import { allMilestones, countries, countryStats, getCountry, yearOf } from "@/lib/data";
 import { formatMoney, formatMultiple } from "@/lib/format";
 import RebirthPicker from "@/components/RebirthPicker";
+import { Reveal } from "@/components/Reveal";
 
 export default async function Home({ params }: PageProps<"/[lang]">) {
   const { lang } = await params;
@@ -20,18 +21,20 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
     <div className="space-y-14 sm:space-y-20">
       <section className="space-y-8">
         <div className="max-w-3xl space-y-4">
-          <div className="font-mono text-sm uppercase tracking-widest text-gold">{dict.home.kicker}</div>
-          <h1 className="text-balance font-display text-[2.6rem] font-extrabold leading-[1.1] tracking-tight sm:text-7xl sm:leading-[1.05]">{dict.home.heading}</h1>
-          <p className="text-lg leading-relaxed text-muted">{dict.home.intro}</p>
+          <div className="animate-fade-up animate-fade-up-1 font-mono text-sm uppercase tracking-widest text-gold">{dict.home.kicker}</div>
+          <h1 className="animate-fade-up animate-fade-up-2 text-balance font-display text-[2.6rem] font-extrabold leading-[1.1] tracking-tight sm:text-7xl sm:leading-[1.05]">{dict.home.heading}</h1>
+          <p className="animate-fade-up animate-fade-up-3 text-lg leading-relaxed text-muted">{dict.home.intro}</p>
         </div>
-        <RebirthPicker
-          milestones={allMilestones}
-          countries={countries}
-          lang={lang}
-          dict={dict.home}
-          minYear={Math.min(...years)}
-          maxYear={Math.max(...years)}
-        />
+        <div className="animate-fade-up animate-fade-up-3">
+          <RebirthPicker
+            milestones={allMilestones}
+            countries={countries}
+            lang={lang}
+            dict={dict.home}
+            minYear={Math.min(...years)}
+            maxYear={Math.max(...years)}
+          />
+        </div>
       </section>
 
       {biggest.length > 0 && (
@@ -46,7 +49,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
                 {biggest.map((m, i) => {
                   const c = getCountry(m.country)!;
                   return (
-                    <tr key={m.id} className="border-b border-line bg-surface last:border-0 hover:bg-raised">
+                    <Reveal key={m.id} as="tr" index={i} className="border-b border-line bg-surface last:border-0 hover:bg-raised">
                       <td className="w-10 py-4 pl-4 align-top font-display text-xl font-extrabold text-faint sm:w-12 sm:pl-5 sm:align-middle">{i + 1}</td>
                       <td className="hidden w-16 py-4 font-mono tabular text-gold sm:table-cell">{m.date.slice(0, 4)}</td>
                       <td className="py-4 pr-3 sm:pr-4">
@@ -67,7 +70,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
                           {formatMultiple(m.opportunity.returnMultiple!, lang)}
                         </span>
                       </td>
-                    </tr>
+                    </Reveal>
                   );
                 })}
               </tbody>
@@ -79,26 +82,27 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
       <section id="countries" className="scroll-mt-8">
         <h2 className="font-display text-3xl font-bold sm:text-4xl">{dict.home.countries}</h2>
         <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {countries.map((c) => {
+          {countries.map((c, i) => {
             const s = countryStats(c.code);
             return (
-              <Link
-                key={c.code}
-                href={`/${lang}/${c.code}`}
-                className="group rounded-2xl border border-line bg-surface p-6 transition-colors hover:border-gold"
-              >
-                <div className="flex items-start justify-between">
-                  <span className="text-4xl">{c.flag}</span>
-                  <span className="font-mono text-sm tabular text-gold">
-                    {s.from}–{s.to}
-                  </span>
-                </div>
-                <div className="mt-4 font-display text-2xl font-bold group-hover:text-gold">{t(c.name, lang)}</div>
-                <div className="mt-1 text-sm text-muted">
-                  <span className="font-mono tabular text-ink">{s.count}</span> {dict.home.milestones} ·{" "}
-                  <span className="font-mono tabular text-ink">{s.verified}</span> {dict.home.verified}
-                </div>
-              </Link>
+              <Reveal key={c.code} index={i}>
+                <Link
+                  href={`/${lang}/${c.code}`}
+                  className="group block rounded-2xl border border-line bg-surface p-6 transition-all duration-200 hover:-translate-y-1 hover:border-gold hover:shadow-[0_8px_30px_-12px_rgba(244,183,64,0.35)]"
+                >
+                  <div className="flex items-start justify-between">
+                    <span className="text-4xl transition-transform duration-200 group-hover:scale-110">{c.flag}</span>
+                    <span className="font-mono text-sm tabular text-gold">
+                      {s.from}–{s.to}
+                    </span>
+                  </div>
+                  <div className="mt-4 font-display text-2xl font-bold group-hover:text-gold">{t(c.name, lang)}</div>
+                  <div className="mt-1 text-sm text-muted">
+                    <span className="font-mono tabular text-ink">{s.count}</span> {dict.home.milestones} ·{" "}
+                    <span className="font-mono tabular text-ink">{s.verified}</span> {dict.home.verified}
+                  </div>
+                </Link>
+              </Reveal>
             );
           })}
         </div>

@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useMemo, useState } from "react";
+import { AnimatePresence, motion, useReducedMotion } from "motion/react";
 import { t, type Locale } from "@/lib/i18n";
 import type { Country, Milestone } from "@/lib/types";
 import { formatDrop, formatMultiple } from "@/lib/format";
@@ -23,6 +24,7 @@ export default function RebirthPicker({ milestones, countries, lang, dict, minYe
   const [country, setCountry] = useState(() => (lang === "en" ? "us" : countries[0].code));
   const [tab, setTab] = useState<"gain" | "trap">("gain");
   const [savedToast, setSavedToast] = useState(false);
+  const reduceMotion = useReducedMotion();
 
   const countByCountry = useMemo(() => {
     const m = new Map<string, number>();
@@ -170,10 +172,12 @@ export default function RebirthPicker({ milestones, countries, lang, dict, minYe
               </button>
             </div>
             {activeList.length > 0 && (
-              <button
+              <motion.button
                 type="button"
                 onClick={handleSaveTop3}
                 className="text-xs font-medium text-gold underline hover:brightness-110"
+                animate={savedToast && !reduceMotion ? { scale: [1, 1.08, 1] } : undefined}
+                transition={{ duration: 0.3 }}
               >
                 {savedToast
                   ? lang === "vi"
@@ -182,34 +186,45 @@ export default function RebirthPicker({ milestones, countries, lang, dict, minYe
                   : lang === "vi"
                     ? "🧿 Lưu 3 mốc này vào Bùa"
                     : "🧿 Save top 3 to Cheat Sheet"}
-              </button>
+              </motion.button>
             )}
           </div>
 
           <ol className="mt-4 space-y-3">
-            {activeList.map((m, i) => (
-              <li key={m.id}>
-                <Link
-                  href={`/${lang}/${m.country}/${m.id}`}
-                  className="flex items-center gap-3 rounded-xl border border-line bg-raised p-3 transition-colors hover:border-gold sm:gap-4 sm:p-4"
-                >
-                  <span className="w-6 shrink-0 text-center font-display text-2xl font-extrabold text-faint sm:text-3xl">{i + 1}</span>
-                  <span className="min-w-0 flex-1">
-                    <span className="block font-mono text-xs tabular text-gold">{m.date.slice(0, 4)}</span>
-                    <span className="line-clamp-2 block font-medium leading-snug">{t(m.title, lang)}</span>
-                  </span>
-                  {(m.opportunity.returnMultiple ?? 0) > 1 ? (
-                    <span className="shrink-0 rounded-md bg-gain px-2 py-0.5 font-mono text-sm font-semibold tabular text-on-gain">
-                      {formatMultiple(m.opportunity.returnMultiple!, lang)}
-                    </span>
-                  ) : (m.opportunity.returnMultiple ?? 1) < 1 ? (
-                    <span className="shrink-0 rounded-md bg-danger px-2 py-0.5 font-mono text-sm font-semibold tabular text-[#2a0606]">
-                      ↓ {formatDrop(m.opportunity.returnMultiple!, lang)}
-                    </span>
-                  ) : null}
-                </Link>
-              </li>
-            ))}
+            <AnimatePresence mode="wait" initial={false}>
+              <motion.div
+                key={`${tab}-${country}`}
+                initial={reduceMotion ? false : { opacity: 0, y: 6 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={reduceMotion ? undefined : { opacity: 0, y: -6 }}
+                transition={{ duration: 0.18, ease: "easeOut" }}
+                className="space-y-3"
+              >
+                {activeList.map((m, i) => (
+                  <li key={m.id} className="list-none">
+                    <Link
+                      href={`/${lang}/${m.country}/${m.id}`}
+                      className="flex items-center gap-3 rounded-xl border border-line bg-raised p-3 transition-colors hover:border-gold sm:gap-4 sm:p-4"
+                    >
+                      <span className="w-6 shrink-0 text-center font-display text-2xl font-extrabold text-faint sm:text-3xl">{i + 1}</span>
+                      <span className="min-w-0 flex-1">
+                        <span className="block font-mono text-xs tabular text-gold">{m.date.slice(0, 4)}</span>
+                        <span className="line-clamp-2 block font-medium leading-snug">{t(m.title, lang)}</span>
+                      </span>
+                      {(m.opportunity.returnMultiple ?? 0) > 1 ? (
+                        <span className="shrink-0 rounded-md bg-gain px-2 py-0.5 font-mono text-sm font-semibold tabular text-on-gain">
+                          {formatMultiple(m.opportunity.returnMultiple!, lang)}
+                        </span>
+                      ) : (m.opportunity.returnMultiple ?? 1) < 1 ? (
+                        <span className="shrink-0 rounded-md bg-danger px-2 py-0.5 font-mono text-sm font-semibold tabular text-[#2a0606]">
+                          ↓ {formatDrop(m.opportunity.returnMultiple!, lang)}
+                        </span>
+                      ) : null}
+                    </Link>
+                  </li>
+                ))}
+              </motion.div>
+            </AnimatePresence>
           </ol>
           <Link href={`/${lang}/${country}`} className="mt-5 inline-block text-sm font-medium text-gold hover:underline">
             {dict.seeAll} →
