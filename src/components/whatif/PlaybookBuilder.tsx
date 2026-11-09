@@ -200,7 +200,7 @@ export default function PlaybookBuilder({ lang, countries, milestones }: Props) 
                   key={c.code}
                   type="button"
                   onClick={() => switchCountry(c.code)}
-                  className={`rounded-xl border px-3 py-1.5 text-sm font-medium transition-colors ${
+                  className={`rounded-full border px-3 py-1.5 text-sm font-medium transition-colors ${
                     active
                       ? "border-gold bg-gold text-on-gold"
                       : "border-line bg-raised text-ink hover:border-gold"
@@ -222,7 +222,7 @@ export default function PlaybookBuilder({ lang, countries, milestones }: Props) 
                 key={p}
                 type="button"
                 onClick={() => setCapital(p)}
-                className={`rounded-lg border px-3 py-1.5 font-mono text-xs transition-colors ${
+                className={`rounded-full border px-3 py-1.5 font-mono text-xs transition-colors ${
                   capital === p
                     ? "border-gold bg-gold font-semibold text-on-gold"
                     : "border-line bg-raised text-muted hover:border-gold"
@@ -245,7 +245,7 @@ export default function PlaybookBuilder({ lang, countries, milestones }: Props) 
             <button
               type="button"
               onClick={() => toggleRealistic(true)}
-              className={`rounded-xl border px-3 py-1.5 text-xs font-semibold transition-colors ${
+              className={`rounded-full border px-3 py-1.5 text-xs font-semibold transition-colors ${
                 realistic
                   ? "border-gain bg-gain/15 text-gain"
                   : "border-line bg-raised text-muted hover:text-ink"
@@ -256,7 +256,7 @@ export default function PlaybookBuilder({ lang, countries, milestones }: Props) 
             <button
               type="button"
               onClick={() => toggleRealistic(false)}
-              className={`rounded-xl border px-3 py-1.5 text-xs font-semibold transition-colors ${
+              className={`rounded-full border px-3 py-1.5 text-xs font-semibold transition-colors ${
                 !realistic
                   ? "border-warning bg-warning/15 text-warning"
                   : "border-line bg-raised text-muted hover:text-ink"

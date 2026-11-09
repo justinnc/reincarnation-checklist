@@ -177,12 +177,12 @@ export default function AlmanacExplorer({
               onClick={() => selectCountry(c.code)}
               aria-pressed={c.code === country.code}
               className={`shrink-0 rounded-full border px-3 py-1.5 text-sm font-medium transition-colors ${
-                c.code === country.code ? "border-gold bg-raised text-gold" : "border-line text-muted hover:border-gold/50 hover:text-ink"
+                c.code === country.code ? "border-gold bg-gold text-on-gold" : "border-line text-muted hover:border-gold/50 hover:text-ink"
               }`}
             >
               <span className="mr-1.5">{c.flag}</span>
               {t(c.name, lang)}
-              <span className="ml-1.5 text-xs text-faint">({milestoneCountByCountry.get(c.code) ?? 0})</span>
+              <span className="ml-1.5 text-xs opacity-70">({milestoneCountByCountry.get(c.code) ?? 0})</span>
             </button>
           ))}
         </div>

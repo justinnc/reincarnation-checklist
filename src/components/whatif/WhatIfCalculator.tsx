@@ -148,7 +148,7 @@ export default function WhatIfCalculator({ lang }: { lang: Locale }) {
               key={c.code}
               onClick={() => pickCountry(c.code)}
               className={`rounded-full border px-3 py-1.5 text-sm ${
-                country === c.code ? "border-gold bg-gold/10 font-semibold" : "border-line text-muted hover:border-line-strong"
+                country === c.code ? "border-gold bg-gold font-semibold text-on-gold" : "border-line text-muted hover:border-line-strong"
               }`}
             >
               {c.flag} {c.name[lang]}
@@ -177,7 +177,7 @@ export default function WhatIfCalculator({ lang }: { lang: Locale }) {
                   key={a.id}
                   onClick={() => pickAsset(a.id)}
                   className={`rounded-xl border px-3 py-2.5 text-left text-sm transition ${
-                    assetId === a.id ? "border-gold bg-gold/10 font-semibold" : "border-line text-muted hover:border-line-strong"
+                    assetId === a.id ? "border-gold bg-gold font-semibold text-on-gold" : "border-line text-muted hover:border-line-strong"
                   }`}
                 >
                   <span className="mr-1.5">{a.icon}</span>
@@ -194,7 +194,7 @@ export default function WhatIfCalculator({ lang }: { lang: Locale }) {
               key={a.id}
               onClick={() => pickAsset(a.id)}
               className={`rounded-xl border px-3 py-2.5 text-left text-sm transition ${
-                assetId === a.id ? "border-gold bg-gold/10 font-semibold" : "border-line text-muted hover:border-line-strong"
+                assetId === a.id ? "border-gold bg-gold font-semibold text-on-gold" : "border-line text-muted hover:border-line-strong"
               }`}
             >
               <span className="mr-1.5">{a.icon}</span>
@@ -240,7 +240,7 @@ export default function WhatIfCalculator({ lang }: { lang: Locale }) {
                   syncUrl({ amount: p });
                 }}
                 className={`rounded-full border px-3 py-1.5 text-sm ${
-                  amount === p && !customAmount ? "border-gold bg-gold/10 font-semibold" : "border-line text-muted"
+                  amount === p && !customAmount ? "border-gold bg-gold font-semibold text-on-gold" : "border-line text-muted"
                 }`}
               >
                 {formatMoney(p, asset.currency, lang)}
