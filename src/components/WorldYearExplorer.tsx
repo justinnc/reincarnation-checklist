@@ -1,8 +1,9 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useDeferredValue, useMemo, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
+import { AnimatePresence, motion } from "motion/react";
 import { t, type Locale } from "@/lib/i18n";
 import type { Country, Milestone } from "@/lib/types";
 import { formatDate, formatDrop, formatMultiple } from "@/lib/format";
@@ -46,7 +47,13 @@ export default function WorldYearExplorer({
     return Number.isFinite(q) && q >= MIN_YEAR && q <= MAX_YEAR ? q : 2008;
   }, [search]);
 
+  // The slider fires on every pixel of drag; deferring the heavy filter/group
+  // work to a lower-priority render (instead of recomputing synchronously on
+  // each tick) is what actually stops the grid from flickering/janking while
+  // dragging. The displayed year number itself stays immediate so the digit
+  // tracks the thumb with no lag.
   const [year, setYear] = useState(initialYear);
+  const deferredYear = useDeferredValue(year);
   const [tolerance, setTolerance] = useState<0 | 1 | 2>(0);
   const copy = COPY[lang];
 
@@ -58,8 +65,8 @@ export default function WorldYearExplorer({
   };
 
   const inRange = useMemo(
-    () => milestones.filter((m) => Math.abs(Number(m.date.slice(0, 4)) - year) <= tolerance),
-    [milestones, year, tolerance],
+    () => milestones.filter((m) => Math.abs(Number(m.date.slice(0, 4)) - deferredYear) <= tolerance),
+    [milestones, deferredYear, tolerance],
   );
 
   const byCountry = useMemo(() => {
@@ -116,47 +123,76 @@ export default function WorldYearExplorer({
           </div>
         </div>
 
-        <p className="text-sm font-semibold text-faint">{copy.milestonesIn(inRange.length)}</p>
+        <p className="text-sm font-semibold text-faint">
+          <motion.span
+            key={inRange.length}
+            initial={{ opacity: 0, y: -4 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.15 }}
+            className="inline-block"
+          >
+            {copy.milestonesIn(inRange.length)}
+          </motion.span>
+        </p>
       </section>
 
       {byCountry.length === 0 ? (
         <p className="text-muted">{copy.empty}</p>
       ) : (
-        <div className="grid gap-6 sm:grid-cols-2">
-          {byCountry.map(({ country, items }) => (
-            <div key={country.code} className="rounded-2xl border border-line bg-surface p-4 sm:p-5">
-              <div className="flex items-center gap-2">
-                <span className="text-2xl">{country.flag}</span>
-                <span className="font-display text-lg font-bold">{t(country.name, lang)}</span>
-                <span className="ml-auto font-mono text-xs text-faint">{items.length}</span>
-              </div>
-              <ul className="mt-3 space-y-2">
-                {items.map((m) => (
-                  <li key={m.id}>
-                    <Link
-                      href={`/${lang}/${m.country}/${m.id}`}
-                      className="flex items-center justify-between gap-3 rounded-xl border border-line bg-raised p-3 hover:border-gold transition-colors"
-                    >
-                      <div className="min-w-0">
-                        <div className="font-mono text-xs text-gold">{formatDate(m.date, lang)}</div>
-                        <div className="truncate text-sm font-medium">{t(m.title, lang)}</div>
-                      </div>
-                      {(m.opportunity.returnMultiple ?? 0) > 1 ? (
-                        <span className="shrink-0 rounded bg-gain px-2 py-0.5 font-mono text-xs font-bold text-on-gain">
-                          {formatMultiple(m.opportunity.returnMultiple!, lang)}
-                        </span>
-                      ) : (m.opportunity.returnMultiple ?? 1) < 1 ? (
-                        <span className="shrink-0 rounded bg-danger px-2 py-0.5 font-mono text-xs font-bold text-[#2a0606]">
-                          ↓ {formatDrop(m.opportunity.returnMultiple!, lang)}
-                        </span>
-                      ) : null}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
-        </div>
+        <motion.div layout className="grid gap-6 sm:grid-cols-2">
+          <AnimatePresence initial={false}>
+            {byCountry.map(({ country, items }) => (
+              <motion.div
+                key={country.code}
+                layout
+                initial={{ opacity: 0, scale: 0.97 }}
+                animate={{ opacity: 1, scale: 1 }}
+                exit={{ opacity: 0, scale: 0.97 }}
+                transition={{ duration: 0.18, ease: "easeOut" }}
+                className="rounded-2xl border border-line bg-surface p-4 sm:p-5"
+              >
+                <div className="flex items-center gap-2">
+                  <span className="text-2xl">{country.flag}</span>
+                  <span className="font-display text-lg font-bold">{t(country.name, lang)}</span>
+                  <span className="ml-auto font-mono text-xs text-faint">{items.length}</span>
+                </div>
+                <ul className="mt-3 space-y-2">
+                  <AnimatePresence initial={false}>
+                    {items.map((m) => (
+                      <motion.li
+                        key={m.id}
+                        layout
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        exit={{ opacity: 0 }}
+                        transition={{ duration: 0.15 }}
+                      >
+                        <Link
+                          href={`/${lang}/${m.country}/${m.id}`}
+                          className="flex items-center justify-between gap-3 rounded-xl border border-line bg-raised p-3 hover:border-gold transition-colors"
+                        >
+                          <div className="min-w-0">
+                            <div className="font-mono text-xs text-gold">{formatDate(m.date, lang)}</div>
+                            <div className="truncate text-sm font-medium">{t(m.title, lang)}</div>
+                          </div>
+                          {(m.opportunity.returnMultiple ?? 0) > 1 ? (
+                            <span className="shrink-0 rounded bg-gain px-2 py-0.5 font-mono text-xs font-bold text-on-gain">
+                              {formatMultiple(m.opportunity.returnMultiple!, lang)}
+                            </span>
+                          ) : (m.opportunity.returnMultiple ?? 1) < 1 ? (
+                            <span className="shrink-0 rounded bg-danger px-2 py-0.5 font-mono text-xs font-bold text-[#2a0606]">
+                              ↓ {formatDrop(m.opportunity.returnMultiple!, lang)}
+                            </span>
+                          ) : null}
+                        </Link>
+                      </motion.li>
+                    ))}
+                  </AnimatePresence>
+                </ul>
+              </motion.div>
+            ))}
+          </AnimatePresence>
+        </motion.div>
       )}
     </div>
   );
