@@ -45,13 +45,7 @@ export default function WhatIfTabs({ lang, countries, milestones }: Props) {
         </button>
       </div>
 
-      {mode === "single" ? (
-        <div className="max-w-xl">
-          <WhatIfCalculator lang={lang} />
-        </div>
-      ) : (
-        <PlaybookBuilder lang={lang} countries={countries} milestones={milestones} />
-      )}
+      {mode === "single" ? <WhatIfCalculator lang={lang} /> : <PlaybookBuilder lang={lang} countries={countries} milestones={milestones} />}
     </div>
   );
 }
