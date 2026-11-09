@@ -146,6 +146,12 @@ export default async function MilestonePage({ params }: PageProps<"/[lang]/[coun
                 <div className="mt-1 font-mono text-2xl font-semibold tabular text-gain">
                   {formatMoney(c.stake.amount * o.returnMultiple, c.stake.currency, lang)}
                 </div>
+                <Link
+                  href={`/${lang}/whatif?mode=playbook&country=${country}&chain=${m.id}`}
+                  className="mt-3 inline-block text-xs font-semibold text-gold underline decoration-gold/50 underline-offset-4 hover:brightness-110"
+                >
+                  {lang === "vi" ? "⚡ Ghép mốc này vào Chuỗi Trọng Sinh Liên Hoàn →" : "⚡ Chain in Compounding Playbook →"}
+                </Link>
               </div>
             ) : null}
             <div className="mt-5 flex flex-wrap gap-2">

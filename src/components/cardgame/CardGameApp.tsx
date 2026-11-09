@@ -2,9 +2,10 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 import { hashSeed } from "@/lib/cardgame/rng";
 import { initGame, recall, resolveChoice, tierOf, nextTier, heartTitle } from "@/lib/cardgame/engine";
-import { todaySeedString, encodeShare } from "@/lib/cardgame/share";
+import { todaySeedString, encodeShare, decodeShare } from "@/lib/cardgame/share";
 import { STARTING_CAPITAL, TOTAL_NODES, HEART_EXHAUSTED } from "@/lib/cardgame/types";
 import type { CardStat, GameState } from "@/lib/cardgame/types";
 import { fmtVnd, stakeLabel } from "./format";
@@ -14,6 +15,15 @@ import { BoardStrip } from "./BoardStrip";
 
 type Flash = { label: string; before: number; after: number; heartBefore: number; heartAfter: number } | null;
 
+type BestRun = {
+  wallet: number;
+  heart: number;
+  tier: string;
+  seed: number;
+  date: string;
+};
+
+const STORAGE_KEY = "rc_simulator_best_v1";
 const STAKE_FRAC: Record<CardStat["stake"], number> = { quarter: 0.25, half: 0.5, all: 1 };
 
 function preview(wallet: number, card: CardStat, size: "big" | "small") {
@@ -27,8 +37,48 @@ function preview(wallet: number, card: CardStat, size: "big" | "small") {
 }
 
 export default function CardGameApp() {
+  const search = useSearchParams();
+  const challenge = useMemo(() => {
+    const s = search.get("s");
+    return s ? decodeShare(s) : null;
+  }, [search]);
+
   const [state, setState] = useState<GameState | null>(null);
   const [flash, setFlash] = useState<Flash>(null);
+  const [copied, setCopied] = useState(false);
+  const [bestRuns, setBestRuns] = useState<BestRun[]>(() => {
+    if (typeof window === "undefined") return [];
+    try {
+      const raw = localStorage.getItem(STORAGE_KEY);
+      if (raw) {
+        const parsed = JSON.parse(raw);
+        if (Array.isArray(parsed)) return parsed.slice(0, 5);
+      }
+    } catch {
+      // ignore storage errors
+    }
+    return [];
+  });
+
+  const recordRun = (nextState: GameState) => {
+    try {
+      const t = tierOf(nextState.wallet);
+      const entry: BestRun = {
+        wallet: nextState.wallet,
+        heart: nextState.heart,
+        tier: t.label,
+        seed: nextState.seed,
+        date: new Date().toISOString().slice(0, 10),
+      };
+      const updated = [...bestRuns, entry]
+        .sort((a, b) => b.wallet - a.wallet)
+        .slice(0, 5);
+      setBestRuns(updated);
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(updated));
+    } catch {
+      // ignore
+    }
+  };
 
   const tier = state ? tierOf(state.wallet) : null;
   const nTier = state ? nextTier(state.wallet) : null;
@@ -40,9 +90,15 @@ export default function CardGameApp() {
     return span > 0 ? Math.min(100, ((state.wallet - tier.min) / span) * 100) : 100;
   }, [state, tier, nTier]);
 
-  const start = (daily: boolean) => {
-    const seed = daily ? hashSeed(todaySeedString()) : Math.floor(Math.random() * 2 ** 31);
+  const start = (mode: "random" | "daily" | number) => {
+    const seed =
+      typeof mode === "number"
+        ? mode
+        : mode === "daily"
+          ? hashSeed(todaySeedString())
+          : Math.floor(Math.random() * 2 ** 31);
     setFlash(null);
+    setCopied(false);
     setState(initGame(seed));
   };
 
@@ -54,29 +110,74 @@ export default function CardGameApp() {
     const rec = next.history[next.history.length - 1];
     setFlash({ label: rec.label, before, after: next.wallet, heartBefore, heartAfter: next.heart });
     setState(next);
+    if (next.finished) recordRun(next);
   };
 
   const onRecall = () => setState((s) => (s ? recall(s) : s));
 
   if (!state) {
     return (
-      <div className="rounded-3xl border border-line bg-surface p-8 text-center">
-        <div className="mx-auto max-w-sm">
-          <div className="font-display text-2xl font-bold">1986</div>
-          <p className="mt-2 text-muted">Bạn vừa trọng sinh. Trong túi: 💰 {fmtVnd(STARTING_CAPITAL)}, trong người: ❤️ 10/10.</p>
-          <p className="text-muted">Đi dọc 20 trạm từ 1986 đến 2024 — đừng để hết tiền, đừng để kiệt sức.</p>
-        </div>
-        <button
-          onClick={() => start(false)}
-          className="mt-6 rounded-full bg-gold px-8 py-3 font-semibold text-on-gold hover:brightness-110"
-        >
-          Bước vào trạm đầu tiên →
-        </button>
-        <div>
-          <button onClick={() => start(true)} className="mt-3 text-sm text-muted underline">
-            Đề hôm nay
+      <div className="space-y-5">
+        {challenge && (
+          <div className="rounded-2xl border border-gold/60 bg-surface p-5 text-center space-y-2">
+            <div className="text-xs font-semibold uppercase tracking-wider text-gold">⚔️ Lời thách đấu Sổ Trọng Sinh</div>
+            <div className="font-display text-2xl font-extrabold text-gold">{fmtVnd(challenge.w)}</div>
+            <div className="text-sm font-medium">
+              🏅 {challenge.t} · ❤️ {challenge.h}/10
+            </div>
+            {challenge.s && <div className="font-mono text-sm tracking-wider">{challenge.s}</div>}
+            <button
+              onClick={() => start(challenge.seed)}
+              className="mt-2 rounded-full bg-gold px-6 py-2 text-sm font-semibold text-on-gold hover:brightness-110"
+            >
+              Chơi đúng đề này (Cùng Seed) →
+            </button>
+          </div>
+        )}
+
+        <div className="rounded-3xl border border-line bg-surface p-8 text-center">
+          <div className="mx-auto max-w-sm">
+            <div className="font-display text-2xl font-bold">1986</div>
+            <p className="mt-2 text-muted">Bạn vừa trọng sinh. Trong túi: 💰 {fmtVnd(STARTING_CAPITAL)}, trong người: ❤️ 10/10.</p>
+            <p className="text-muted">Đi dọc 20 trạm từ 1986 đến 2024 — đừng để hết tiền, đừng để kiệt sức.</p>
+          </div>
+          <button
+            onClick={() => start("random")}
+            className="mt-6 rounded-full bg-gold px-8 py-3 font-semibold text-on-gold hover:brightness-110"
+          >
+            Bước vào trạm đầu tiên →
           </button>
+          <div>
+            <button onClick={() => start("daily")} className="mt-3 text-sm text-muted underline hover:text-gold">
+              Đề hôm nay
+            </button>
+          </div>
         </div>
+
+        {bestRuns.length > 0 && (
+          <div className="rounded-2xl border border-line bg-surface p-5">
+            <div className="text-xs font-semibold uppercase tracking-wider text-faint">🏆 Kỷ lục của bạn trên máy này</div>
+            <ol className="mt-3 space-y-2 text-sm">
+              {bestRuns.map((r, i) => (
+                <li key={i} className="flex items-center justify-between gap-2">
+                  <span className="text-muted">
+                    #{i + 1} · <span className="text-ink font-medium">{r.tier}</span> · ❤️{r.heart}
+                  </span>
+                  <div className="flex items-center gap-2">
+                    <span className="font-mono font-semibold text-gold">{fmtVnd(r.wallet)}</span>
+                    <button
+                      type="button"
+                      onClick={() => start(r.seed)}
+                      className="text-xs text-faint underline hover:text-gold"
+                    >
+                      Chơi lại đề
+                    </button>
+                  </div>
+                </li>
+              ))}
+            </ol>
+          </div>
+        )}
       </div>
     );
   }
@@ -92,8 +193,17 @@ export default function CardGameApp() {
       state.endedBy === "hospital" ? "🏥 Bạn kiệt sức giữa chừng, phải nhập viện — tiền còn lại bị trừ một nửa."
       : state.endedBy === "broke" ? "💸 Bạn hết sạch tiền giữa chừng."
       : "🎉 Bạn đi trọn 20 trạm tới năm 2024.";
-    const shareCode = encodeShare(state.seed, { wallet: state.wallet, heart: state.heart, tier: finalTier.label });
-    const shareText = `Sổ trọng sinh · 🏅 ${finalTier.label} ${title.icon} ${title.vi} · ${fmtVnd(state.wallet)}\n${strip}`;
+    const shareCode = encodeShare(state.seed, { wallet: state.wallet, heart: state.heart, tier: finalTier.label, strip });
+    const shareText = `Sổ trọng sinh · 🏅 ${finalTier.label} ${title.icon} ${title.vi} · ${fmtVnd(state.wallet)}
+${strip}`;
+
+    const handleShare = () => {
+      const origin = typeof window !== "undefined" ? window.location.origin : "https://reincarnation-checklist.vn";
+      navigator.clipboard?.writeText(`${shareText}
+${origin}/vi/simulator?s=${shareCode}`);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2500);
+    };
 
     return (
       <div className="space-y-6">
@@ -105,19 +215,25 @@ export default function CardGameApp() {
             🏅 {finalTier.label} · {title.icon} {title.vi}
           </div>
           {next && <p className="mt-1 text-sm text-muted">Thiếu {fmtVnd(next.min - state.wallet)} nữa là {next.label}</p>}
+          {challenge && (
+            <p className="mt-2 text-xs text-gold">
+              So với lời thách đấu ({fmtVnd(challenge.w)}):{" "}
+              {state.wallet >= challenge.w ? "🏆 Bạn thắng!" : "Chưa vượt qua — thử lại!"}
+            </p>
+          )}
           <div className="mt-4 font-mono text-lg tracking-wider">{strip}</div>
           <p className="mt-1 text-xs text-faint">🟩 thắng · 🟥 thua · 🛌 nghỉ · ⚡ biến cố</p>
           <div className="mt-6 flex flex-wrap justify-center gap-3">
             <button
-              onClick={() => navigator.clipboard?.writeText(shareText + `\nhttps://reincarnation-checklist.vn/vi/simulator?s=${shareCode}`)}
-              className="rounded-full border border-line-strong px-5 py-2 text-sm font-semibold text-muted hover:text-ink"
+              onClick={handleShare}
+              className="rounded-full border border-gold/60 px-5 py-2 text-sm font-semibold text-gold hover:bg-gold hover:text-on-gold transition-colors"
             >
-              Chia sẻ
+              {copied ? "✓ Đã chép link thách đấu" : "🔗 Chia sẻ & Thách đấu"}
             </button>
-            <button onClick={() => start(false)} className="rounded-full bg-gold px-5 py-2 text-sm font-semibold text-on-gold hover:brightness-110">
+            <button onClick={() => start("random")} className="rounded-full bg-gold px-5 py-2 text-sm font-semibold text-on-gold hover:brightness-110">
               Chơi lại
             </button>
-            <button onClick={() => start(true)} className="rounded-full border border-line-strong px-5 py-2 text-sm font-semibold text-muted hover:text-ink">
+            <button onClick={() => start("daily")} className="rounded-full border border-line-strong px-5 py-2 text-sm font-semibold text-muted hover:text-ink">
               Đề hôm nay
             </button>
           </div>

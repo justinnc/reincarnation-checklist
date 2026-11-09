@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import { notFound } from "next/navigation";
 import { hasLocale } from "@/lib/i18n";
 import { localeAlternates, SITE_URL } from "@/lib/seo";
@@ -47,7 +48,9 @@ export default async function SimulatorPage({ params }: PageProps<"/[lang]/simul
         <p className="text-lg text-muted">{copy.intro}</p>
       </header>
       <div className="mx-auto max-w-md">
-        <CardGameApp />
+        <Suspense>
+          <CardGameApp />
+        </Suspense>
       </div>
       <p className="mx-auto max-w-md text-xs text-faint">{copy.disclaimer}</p>
     </div>
