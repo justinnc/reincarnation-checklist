@@ -2445,5 +2445,207 @@
     ],
     "verified": true,
     "verifiedNote": "Confirmed via Vietcap, VOV and CafeF: SJC gold peaked above VND 92M/tael in May 2024; gold rings near VND 90M by Oct 2024; SJC up ~14-15%, gold rings up ~34% for the year."
+  },
+  {
+    "id": "vn-flc-trinh-van-quyet-manipulation-2022",
+    "country": "vn",
+    "date": "2022-01-10",
+    "category": "stocks",
+    "title": {
+      "vi": "Vụ Trịnh Văn Quyết bán chui 74,8 triệu cổ phiếu FLC",
+      "en": "Trinh Van Quyet's Undisclosed Sale of 74.8 Million FLC Shares"
+    },
+    "summary": {
+      "vi": "Cổ phiếu FLC rơi từ 24.100 đồng xuống 3.570 đồng sau khi Chủ tịch bán chui cổ phiếu và bị bắt vì thao túng thị trường.",
+      "en": "FLC shares fell from VND 24,100 to VND 3,570 after its chairman's undisclosed share dump and arrest for market manipulation."
+    },
+    "description": {
+      "vi": "Sau khi FLC được đẩy từ 14.650 đồng (1/12/2021) lên đỉnh 22.550-24.100 đồng đầu tháng 1/2022, ngày 10/1/2022 Chủ tịch Trịnh Văn Quyết bán 74,8 triệu cổ phiếu FLC mà không công bố thông tin trước; HoSE hủy giao dịch này vào tối 11/1 và UBCKNN phạt ông 1,5 tỷ đồng ngày 18/1. Ngày 29/3/2022, Bộ Công an khởi tố, bắt tạm giam ông Quyết về tội thao túng thị trường chứng khoán và che giấu thông tin. FLC bị đình chỉ giao dịch ngày 8/9/2022 ở mức 3.570 đồng và bị hủy niêm yết bắt buộc ngày 14/2/2023, khiến hơn 64.700 cổ đông mắc kẹt.",
+      "en": "After FLC was pushed from VND 14,650 (1 Dec 2021) to a peak of VND 22,550-24,100 in early January 2022, chairman Trinh Van Quyet sold 74.8 million FLC shares on 10 January 2022 without the required prior disclosure; HoSE cancelled the trade on the evening of 11 January and the State Securities Commission fined him VND 1.5 billion on 18 January. On 29 March 2022 the Ministry of Public Security charged and detained Quyet for stock-market manipulation and concealing securities information. FLC was suspended from trading on 8 September 2022 at VND 3,570 and forcibly delisted on 14 February 2023, trapping more than 64,700 shareholders."
+    },
+    "opportunity": {
+      "asset": "FLC Group (FLC)",
+      "action": {
+        "vi": "Bán khống hoặc thoát toàn bộ vị thế FLC trước phiên 10/1/2022",
+        "en": "Short, or fully exit, FLC before the 10 January 2022 session"
+      },
+      "buyWhen": {
+        "vi": "Không mua — thoát hàng ở vùng đỉnh 22.550-24.100 đồng đầu tháng 1/2022",
+        "en": "Don't buy — exit near the VND 22,550-24,100 peak in early January 2022"
+      },
+      "sellWhen": {
+        "vi": "Sáng 10/1/2022, trước khi lệnh bán chui 74,8 triệu cổ phiếu khớp",
+        "en": "The morning of 10 January 2022, before the 74.8 million-share undisclosed sale hit the market"
+      },
+      "estimatedReturn": {
+        "vi": "Mất khoảng 85% giá trị đến khi bị đình chỉ giao dịch (8/9/2022); lãi lớn nếu bán khống",
+        "en": "Lost about 85% of value by the trading suspension (8 Sep 2022); large gains if shorted"
+      },
+      "returnMultiple": 0.1481,
+      "entryPrice": 24100,
+      "exitPrice": 3570,
+      "priceCurrency": "VND",
+      "exitDate": "2022-09-08",
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Người du hành thời gian biết FLC tăng 64% trong 6 tuần là do nhóm của ông Quyết dùng nhiều tài khoản 'thổi giá' để xả hàng — họ sẽ chốt lời trong sáng 10/1/2022, trước khi 74,8 triệu cổ phiếu bị bán chui, và tuyệt đối không quay lại khi tin bắt giữ ngày 29/3/2022 xuất hiện.",
+      "en": "A time traveler knows FLC's 64% run in six weeks was engineered by Quyet's circle trading across many accounts to set up a dump — they take profit on the morning of 10 January 2022, before the 74.8 million-share undisclosed sale, and never return when the 29 March 2022 arrest news breaks."
+    },
+    "pitfalls": {
+      "vi": "Việc HoSE hủy giao dịch không cứu được giá: nhiều nhà đầu tư nhỏ lẻ 'bắt đáy' ở 12.000-19.000 đồng rồi mắc kẹt khi cổ phiếu bị đình chỉ và hủy niêm yết. Bán khống cổ phiếu gần như không khả thi trên thị trường Việt Nam, nên với người thường, 'cơ hội' thực tế chỉ là thoát hàng đúng lúc.",
+      "en": "HoSE cancelling the trade did not rescue the price: many retail investors who 'bought the dip' at VND 12,000-19,000 were trapped when the stock was suspended and delisted. Short-selling individual stocks is practically unavailable in Vietnam, so for ordinary investors the real 'opportunity' was simply getting out in time."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Ngày 10/1/2022, ông Trịnh Văn Quyết đã bán chui bao nhiêu cổ phiếu FLC?",
+        "en": "How many FLC shares did Trinh Van Quyet sell without disclosure on 10 January 2022?"
+      },
+      "choices": [
+        {
+          "vi": "7,48 triệu cổ phiếu",
+          "en": "7.48 million shares"
+        },
+        {
+          "vi": "57 triệu cổ phiếu",
+          "en": "57 million shares"
+        },
+        {
+          "vi": "74,8 triệu cổ phiếu",
+          "en": "74.8 million shares"
+        },
+        {
+          "vi": "215,4 triệu cổ phiếu",
+          "en": "215.4 million shares"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "Bộ Công an, Reuters và Tuổi Trẻ đều xác nhận con số 74,8 triệu cổ phiếu; 57 triệu là lần bán chui trước đó năm 2017, còn 215,4 triệu là tổng số cổ phiếu ông nắm giữ trước giao dịch.",
+        "en": "The Ministry of Public Security, Reuters and Tuoi Tre all cite 74.8 million shares; 57 million was his earlier undisclosed sale in 2017, and 215.4 million was his total holding before the trade."
+      }
+    },
+    "sources": [
+      {
+        "title": "Vietnam arrests chairman of FLC, Bamboo Airways over alleged market manipulation - Reuters",
+        "url": "https://www.reuters.com/world/asia-pacific/vietnam-arrests-chairman-flc-bamboo-airways-over-market-manipulation-2022-03-29/"
+      },
+      {
+        "title": "Vietnamese property tycoon arrested for stock market manipulation - Tuoi Tre News",
+        "url": "https://news.tuoitre.vn/vietnamese-property-tycoon-arrested-for-stock-market-manipulation-10366400.htm"
+      },
+      {
+        "title": "Hàng trăm nghìn nhà đầu tư mắc kẹt với siêu cổ phiếu 'vang bóng một thời' - Tiền Phong",
+        "url": "https://tienphong.vn/hang-tram-nghin-nha-dau-tu-mac-ket-voi-sieu-co-phieu-vang-bong-mot-thoi-post1512012.tpo"
+      },
+      {
+        "title": "Tổng Giám đốc HoSE Lê Hải Trà và phiên giao dịch \"để đời\" của ông Trịnh Văn Quyết - Dân Việt",
+        "url": "https://danviet.vn/tong-giam-doc-hose-le-hai-tra-va-phien-giao-dich-de-doi-cua-ong-trinh-van-quyet-20220401140116809.htm"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "74.8M-share sale on 10 Jan 2022, 29 Mar 2022 arrest, VND 1.5bn fine and VND 24,100 pre-sale price confirmed by Reuters and Tuoi Tre; VND 14,650->24,050 run-up from Dan Viet; 8 Sep 2022 suspension at VND 3,570 and 14 Feb 2023 delisting from Tien Phong. Exit price is the last traded price at suspension; the stock later moved to UPCoM."
+  },
+  {
+    "id": "vn-sjc-gold-premium-collapse-2024",
+    "country": "vn",
+    "date": "2024-05-10",
+    "category": "commodities",
+    "title": {
+      "vi": "Vàng SJC đội giá gần 20 triệu so với thế giới rồi sập khi NHNN bán vàng",
+      "en": "SJC Gold's ~VND 20M Premium Over World Price Collapses Under SBV Sales"
+    },
+    "summary": {
+      "vi": "Vàng miếng SJC rơi từ đỉnh 92,4 triệu xuống 76,98 triệu đồng/lượng trong chưa đầy 4 tuần khi NHNN trực tiếp bán vàng ra thị trường.",
+      "en": "SJC gold bars fell from a record VND 92.4M to VND 76.98M per tael in under four weeks once the central bank began selling bullion directly."
+    },
+    "description": {
+      "vi": "Từ đầu năm 2024, vàng miếng SJC tăng nhanh hơn nhiều so với thế giới; NHNN phải tổ chức lại đấu thầu vàng miếng từ cuối tháng 4 (lần đầu sau 11 năm) nhưng giá vẫn leo, lập đỉnh 92,4 triệu đồng/lượng ngày 10/5/2024, cao hơn giá thế giới quy đổi gần 20 triệu đồng/lượng. NHNN dừng đấu thầu và từ ngày 3/6/2024 bán vàng trực tiếp qua Agribank, BIDV, Vietcombank, VietinBank và SJC ở giá 78,98 triệu, sau đó giảm mỗi ngày 1 triệu đồng/lượng. Đến 6/6, giá SJC còn 76,98 triệu đồng/lượng (bán ra) và chênh lệch với thế giới thu hẹp xuống khoảng 6 triệu đồng/lượng.",
+      "en": "From early 2024 SJC gold bars rose far faster than world gold; the State Bank of Vietnam (SBV) resumed bullion auctions in late April for the first time in 11 years, yet prices kept climbing to a record VND 92.4 million/tael on 10 May 2024, nearly VND 20 million above the converted world price. The SBV halted the auctions and from 3 June 2024 sold gold directly through Agribank, BIDV, Vietcombank, VietinBank and SJC at VND 78.98 million, cutting the price by VND 1 million a day. By 6 June, SJC was selling at VND 76.98 million/tael and the gap to world gold had narrowed to about VND 6 million."
+    },
+    "opportunity": {
+      "asset": "Vàng miếng SJC / SJC gold bars",
+      "action": {
+        "vi": "Bán toàn bộ vàng miếng SJC ở vùng đỉnh, hoặc chuyển sang vàng nhẫn/vàng thế giới vốn không mang phần chênh lệch",
+        "en": "Sell all SJC gold bars near the peak, or switch to gold rings/world gold that didn't carry the premium"
+      },
+      "buyWhen": {
+        "vi": "Không mua vàng miếng SJC khi giá cao hơn thế giới 15-20 triệu đồng/lượng (tháng 4-5/2024)",
+        "en": "Don't buy SJC bars while they trade VND 15-20M/tael above world gold (April-May 2024)"
+      },
+      "sellWhen": {
+        "vi": "Ngày 10/5/2024, khi SJC lập đỉnh 92,4 triệu đồng/lượng",
+        "en": "10 May 2024, when SJC hit its VND 92.4M/tael record"
+      },
+      "estimatedReturn": {
+        "vi": "Giá bán ra giảm khoảng 17% (hơn 15 triệu đồng/lượng) trong chưa đầy 4 tuần dù giá vàng thế giới gần như đi ngang",
+        "en": "Selling price fell about 17% (over VND 15M/tael) in under four weeks even as world gold was roughly flat"
+      },
+      "returnMultiple": 0.8331,
+      "entryPrice": 92400000,
+      "exitPrice": 76980000,
+      "priceCurrency": "VND",
+      "exitDate": "2024-06-06",
+      "risk": "medium",
+      "capital": "high"
+    },
+    "insiderTip": {
+      "vi": "Người du hành thời gian biết phần 'đội giá' gần 20 triệu đồng/lượng của vàng SJC là do NHNN độc quyền nguồn cung — và NHNN sẽ xả cung từ 3/6/2024. Họ bán vàng miếng ngày 10/5/2024 và chỉ mua lại sau khi chênh lệch đã thu hẹp về khoảng 6 triệu đồng/lượng.",
+      "en": "A time traveler knows SJC's nearly VND 20M/tael premium exists only because the SBV monopolises bar supply — and that the SBV will flood the market from 3 June 2024. They sell bars on 10 May 2024 and only buy back once the premium has shrunk to about VND 6M/tael."
+    },
+    "pitfalls": {
+      "vi": "Đây là sập 'phần chênh', không phải sập giá vàng: người mua vàng nhẫn hay vàng thế giới cùng kỳ gần như không lỗ. Người 'đu đỉnh' 92 triệu thực tế còn lỗ nặng hơn vì phải bán ở giá mua vào (74,98 triệu ngày 6/6, chênh mua-bán 2 triệu). Vàng miếng không thể bán khống, và từ cuối 2024 giá thế giới tăng mạnh trở lại.",
+      "en": "This was a collapse of the premium, not of gold itself: buyers of gold rings or world gold over the same weeks barely lost anything. Those who bought the VND 92M top lost even more in practice, since they had to sell at the buy-back price (VND 74.98M on 6 June, a VND 2M spread). Gold bars can't be shorted, and world gold rallied hard again from late 2024."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Từ ngày 3/6/2024, NHNN đã dùng biện pháp nào để kéo giảm giá vàng miếng SJC?",
+        "en": "What did the State Bank of Vietnam do from 3 June 2024 to bring down SJC gold bar prices?"
+      },
+      "choices": [
+        {
+          "vi": "Tăng thuế nhập khẩu vàng",
+          "en": "Raised gold import tariffs"
+        },
+        {
+          "vi": "Cấm giao dịch vàng miếng",
+          "en": "Banned gold bar trading"
+        },
+        {
+          "vi": "Tiếp tục đấu thầu vàng miếng",
+          "en": "Continued bullion auctions"
+        },
+        {
+          "vi": "Bán vàng trực tiếp qua 4 ngân hàng nhà nước và Công ty SJC",
+          "en": "Sold gold directly through four state-owned banks and SJC"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "vi": "Sau các phiên đấu thầu không hiệu quả, NHNN chuyển sang bán vàng cho Agribank, BIDV, Vietcombank, VietinBank và SJC để bán lẻ cho người dân, khởi điểm 78,98 triệu đồng/lượng.",
+        "en": "After the auctions failed to cool prices, the SBV switched to selling gold to Agribank, BIDV, Vietcombank, VietinBank and SJC for retail sale to the public, starting at VND 78.98M/tael."
+      }
+    },
+    "sources": [
+      {
+        "title": "Kéo giá vàng hạ nhiệt: Cần giải pháp mạnh - Tuổi Trẻ",
+        "url": "https://tuoitre.vn/keo-gia-vang-ha-nhiet-can-giai-phap-manh-20240512082725505.htm"
+      },
+      {
+        "title": "Thành công bước đầu trong mục tiêu thu hẹp chênh lệch giá vàng thế giới và trong nước - Tạp chí Ngân hàng (NHNN)",
+        "url": "https://tapchinganhang.gov.vn/thanh-cong-buoc-dau-trong-muc-tieu-thu-hep-chenh-lech-gia-vang-the-gioi-va-trong-nuoc-6653.html"
+      },
+      {
+        "title": "Nửa tháng giá vàng giảm hơn 8 triệu đồng/lượng, dân 'đu đỉnh' sốt ruột - VietNamNet",
+        "url": "https://vietnamnet.vn/gia-vang-giam-hon-8-trieu-dong-luong-tu-dau-thang-6-2291933.html"
+      },
+      {
+        "title": "2024: Năm của vàng và những diễn biến chưa từng có - CafeF",
+        "url": "https://cafef.vn/2024-nam-cua-vang-va-nhung-dien-bien-chua-tung-co-188241225214300433.chn"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "VND 92.4M peak on 10 May 2024 and ~VND 17-20M gap to world price from Tuoi Tre; 3 June 2024 direct sales via 4 state banks + SJC at 78.98M, falling to 76.98M by 5-6 June with gap ~VND 6M from the SBV's Tap chi Ngan hang; 74.98/76.98M flat mid-June from VietNamNet; late-April auction restart from CafeF. Prices are SJC selling quotes."
   }
 ]

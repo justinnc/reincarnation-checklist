@@ -2261,5 +2261,203 @@
     ],
     "verified": true,
     "verifiedNote": "Approval date, the 11 approved ETPs, and ~$46,000-47,000 BTC price on approval day confirmed directly by the SEC's own statement and Reuters/Bloomberg coverage."
+  },
+  {
+    "id": "us-enron-collapse-2001",
+    "country": "us",
+    "date": "2001-12-02",
+    "category": "stocks",
+    "title": {
+      "vi": "Enron sụp đổ vì gian lận kế toán",
+      "en": "Enron's Accounting-Fraud Collapse"
+    },
+    "summary": {
+      "vi": "Cổ phiếu Enron rơi từ đỉnh 90,75 USD xuống chỉ còn 0,26 USD trước khi công ty nộp đơn phá sản ngày 2/12/2001.",
+      "en": "Enron stock fell from a $90.75 peak to just $0.26 before the company filed for bankruptcy on 2 December 2001."
+    },
+    "description": {
+      "vi": "Enron — tập đoàn năng lượng Houston từng được Fortune bình chọn là 'công ty sáng tạo nhất nước Mỹ' — dùng kế toán theo giá thị trường (mark-to-market) và hàng loạt pháp nhân đặc biệt (SPE) ngoài bảng cân đối để giấu nợ và thổi phồng lợi nhuận, với Arthur Andersen là kiểm toán viên. Cổ phiếu ENE đạt đỉnh 90,75 USD trong phiên ngày 23/8/2000, nhưng sau khi công ty báo lỗ quý III và điều chỉnh giảm lợi nhuận các năm trước vào tháng 10–11/2001, giá sụp đổ. Ngày 28/11/2001 Dynegy rút khỏi thương vụ sáp nhập, Enron bị hạ xuống mức 'rác' và cổ phiếu rơi xuống dưới 1 USD; ngày 2/12/2001 Enron nộp đơn phá sản theo Chương 11 — vụ phá sản doanh nghiệp lớn nhất lịch sử Mỹ khi đó.",
+      "en": "Enron, the Houston energy giant Fortune had named 'America's Most Innovative Company', used mark-to-market accounting and a web of off-balance-sheet special purpose entities (SPEs) to hide debt and inflate profits, with Arthur Andersen as its auditor. ENE stock hit an intraday high of $90.75 on 23 August 2000, but after the company reported a third-quarter loss and restated prior years' earnings in October-November 2001, the price collapsed. On 28 November 2001 Dynegy walked away from a merger, Enron was cut to junk and the shares fell below $1; on 2 December 2001 Enron filed for Chapter 11 — then the largest corporate bankruptcy in US history."
+    },
+    "opportunity": {
+      "asset": "Enron Corporation (ENE)",
+      "action": {
+        "vi": "Bán khống hoặc thoát toàn bộ cổ phiếu Enron trước khi các khoản nợ ẩn bị phơi bày",
+        "en": "Short, or fully exit, Enron before its hidden debts come to light"
+      },
+      "buyWhen": {
+        "vi": "Không mua — mở vị thế bán khống quanh đỉnh 90,75 USD tháng 8/2000",
+        "en": "Don't buy — open a short near the $90.75 peak in August 2000"
+      },
+      "sellWhen": {
+        "vi": "Muộn nhất là 16/10/2001, khi Enron công bố khoản lỗ quý III; giá về 0,26 USD vào 30/11/2001",
+        "en": "No later than 16 October 2001, when Enron reported its Q3 loss; the price hit $0.26 by 30 November 2001"
+      },
+      "estimatedReturn": {
+        "vi": "Mất khoảng 99,7% giá trị từ đỉnh; lãi rất lớn nếu bán khống",
+        "en": "Lost about 99.7% from the peak; huge gains if shorted"
+      },
+      "returnMultiple": 0.0029,
+      "entryPrice": 90.75,
+      "exitPrice": 0.26,
+      "priceCurrency": "USD",
+      "exitDate": "2001-11-30",
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Người du hành thời gian biết rằng 'lợi nhuận' của Enron được dựng lên nhờ các pháp nhân ngoài bảng cân đối, và chính các pháp nhân này được bảo đảm bằng cổ phiếu Enron — giá càng giảm thì lỗ càng dội ngược về công ty mẹ. Biết trước điều đó, bạn sẽ bán khống quanh đỉnh 90,75 USD tháng 8/2000, hoặc ít nhất thoát hết khi CEO Jeffrey Skilling đột ngột từ chức tháng 8/2001 — rất lâu trước ngày phá sản 2/12/2001.",
+      "en": "A time traveler knows Enron's 'profits' were propped up by off-balance-sheet entities that were themselves backed by Enron stock — so every drop in the share price pushed losses back onto the parent. Knowing that, you would short near the $90.75 peak of August 2000, or at the very least get out when CEO Jeffrey Skilling abruptly resigned in August 2001, long before the 2 December 2001 bankruptcy."
+    },
+    "pitfalls": {
+      "vi": "Bán khống quá sớm rất nguy hiểm: cuối năm 2000 cổ phiếu vẫn ở quanh 83 USD và giới phân tích gần như đồng loạt khuyến nghị mua. Hàng nghìn nhân viên Enron dồn tiền hưu trí vào cổ phiếu công ty và mất gần như tất cả — đừng bao giờ đặt toàn bộ tài sản vào một mã, và đừng 'bắt đáy' một công ty đang bị nghi gian lận.",
+      "en": "Shorting too early was dangerous: at the end of 2000 the stock was still around $83 and analysts almost uniformly rated it a buy. Thousands of Enron employees had their retirement savings in company stock and lost nearly everything — never put your whole net worth in one stock, and never 'buy the dip' in a company under suspicion of fraud."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Công ty kiểm toán nào gắn liền với vụ bê bối Enron và sau đó sụp đổ theo?",
+        "en": "Which audit firm was tied to the Enron scandal and collapsed along with it?"
+      },
+      "choices": [
+        {
+          "vi": "Deloitte",
+          "en": "Deloitte"
+        },
+        {
+          "vi": "Arthur Andersen",
+          "en": "Arthur Andersen"
+        },
+        {
+          "vi": "KPMG",
+          "en": "KPMG"
+        },
+        {
+          "vi": "PwC",
+          "en": "PwC"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Arthur Andersen là kiểm toán viên của Enron; việc hủy tài liệu liên quan đến Enron khiến hãng này bị truy tố và tan rã năm 2002.",
+        "en": "Arthur Andersen was Enron's auditor; shredding Enron-related documents led to its prosecution and break-up in 2002."
+      }
+    },
+    "sources": [
+      {
+        "title": "Enron Scandal Explained: Fraud, Collapse, and Key Players - Investopedia",
+        "url": "https://www.investopedia.com/terms/e/enron.asp"
+      },
+      {
+        "title": "Enron Scandal and Accounting Fraud: What Happened? - Investopedia",
+        "url": "https://www.investopedia.com/updates/enron-scandal-summary/"
+      },
+      {
+        "title": "Enron scandal - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Enron_scandal"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "$90.75 intraday peak (23 Aug 2000), sub-$1 price after Dynegy exit on 28 Nov 2001, $0.26 close at bankruptcy, and the 2 Dec 2001 Chapter 11 filing cross-checked across both Investopedia articles and Wikipedia."
+  },
+  {
+    "id": "us-ftx-collapse-2022",
+    "country": "us",
+    "date": "2022-11-11",
+    "category": "crypto",
+    "title": {
+      "vi": "FTX sụp đổ và vụ gian lận của Sam Bankman-Fried",
+      "en": "FTX's Collapse and Sam Bankman-Fried's Fraud"
+    },
+    "summary": {
+      "vi": "Token FTT của FTX lao từ khoảng 22 USD xuống còn 1,65 USD chỉ trong hai tuần, khi sàn giao dịch tiền mã hóa lớn thứ hai thế giới nộp đơn phá sản.",
+      "en": "FTX's FTT token crashed from about $22 to $1.65 in two weeks as one of the world's largest crypto exchanges went bankrupt."
+    },
+    "description": {
+      "vi": "Ngày 2/11/2022, CoinDesk công bố bảng cân đối bị rò rỉ của Alameda Research — quỹ giao dịch chị em với FTX — cho thấy khoảng 5,8 tỷ USD trong 14,6 tỷ USD tài sản là token FTT do chính FTX phát hành. Ngày 6/11, CEO Binance Changpeng Zhao tuyên bố bán toàn bộ FTT còn nắm giữ, gây ra làn sóng rút khoảng 6 tỷ USD khỏi FTX trong 72 giờ; FTX ngừng cho rút tiền ngày 8/11, Binance từ bỏ thương vụ giải cứu ngày 9/11, và ngày 11/11/2022 FTX, Alameda cùng khoảng 130 công ty liên quan nộp đơn phá sản theo Chương 11. Ngày 2/11/2023, bồi thẩm đoàn ở Manhattan kết luận Sam Bankman-Fried phạm cả bảy tội danh gian lận và âm mưu, vì đã chiếm đoạt khoảng 8 tỷ USD tiền của khách hàng.",
+      "en": "On 2 November 2022, CoinDesk published a leaked balance sheet of Alameda Research, FTX's sister trading firm, showing about $5.8 billion of its $14.6 billion in assets was FTT, the token FTX itself issued. On 6 November, Binance CEO Changpeng Zhao said he would sell all his remaining FTT, sparking roughly $6 billion of withdrawals from FTX in 72 hours; FTX halted withdrawals on 8 November, Binance abandoned its rescue deal on 9 November, and on 11 November 2022 FTX, Alameda and about 130 affiliates filed for Chapter 11. On 2 November 2023, a Manhattan jury convicted Sam Bankman-Fried on all seven fraud and conspiracy counts for taking about $8 billion of customer money."
+    },
+    "opportunity": {
+      "asset": "FTX Token (FTT)",
+      "action": {
+        "vi": "Bán FTT và rút toàn bộ tài sản khỏi sàn FTX trước khi sàn khóa rút tiền",
+        "en": "Sell FTT and withdraw every asset from FTX before withdrawals are frozen"
+      },
+      "buyWhen": {
+        "vi": "Không mua — bán hết FTT quanh mức 22 USD trước ngày 6/11/2022",
+        "en": "Don't buy — dump FTT around $22 before 6 November 2022"
+      },
+      "sellWhen": {
+        "vi": "Ngay ngày 2/11/2022 khi bài của CoinDesk xuất hiện; muộn nhất trước khi FTX ngừng rút tiền ngày 8/11/2022",
+        "en": "On 2 November 2022 when the CoinDesk story ran; at the latest before FTX halted withdrawals on 8 November 2022"
+      },
+      "estimatedReturn": {
+        "vi": "FTT mất khoảng 92,5% (22 USD xuống 1,65 USD); tiền gửi trên sàn bị đóng băng trong thủ tục phá sản",
+        "en": "FTT lost about 92.5% ($22 to $1.65); customer deposits were frozen in bankruptcy"
+      },
+      "returnMultiple": 0.075,
+      "entryPrice": 22,
+      "exitPrice": 1.65,
+      "priceCurrency": "USD",
+      "exitDate": "2022-11-17",
+      "risk": "high",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Người du hành thời gian biết rằng 'tài sản' của Alameda phần lớn là FTT — một token do chính FTX in ra — và tiền của khách hàng FTX đã bị chuyển sang Alameda. Biết trước điều đó, bạn sẽ bán sạch FTT và rút hết tiền khỏi FTX ngay ngày 2/11/2022, khi bài báo của CoinDesk vừa đăng và giá FTT vẫn quanh 22 USD, thay vì chờ đến ngày 8/11 khi sàn đã khóa cửa rút tiền.",
+      "en": "A time traveler knows Alameda's 'assets' were mostly FTT — a token FTX printed itself — and that FTX customer money had been funnelled to Alameda. Knowing that, you would sell all your FTT and pull every dollar off FTX on 2 November 2022, the day the CoinDesk story ran and FTT still traded around $22, rather than waiting until 8 November when withdrawals were already frozen."
+    },
+    "pitfalls": {
+      "vi": "Với tiền mã hóa, rủi ro lớn nhất không chỉ là giá giảm mà là mất quyền tiếp cận tài sản: khi sàn khóa rút tiền, bạn không thể bán dù biết giá sẽ về 0. Nhiều người 'bắt đáy' FTT sau cú sập đầu tiên và tiếp tục mất thêm hơn 90% — hãy tự giữ ví của mình và đừng tin một token mà chính sàn phát hành làm tài sản bảo đảm.",
+      "en": "In crypto the biggest risk isn't just a falling price but losing access to your assets: once an exchange freezes withdrawals, you can't sell even if you know the price is going to zero. Many people 'bought the dip' in FTT after the first drop and lost another 90%+ — self-custody your coins, and never trust an exchange's own token as collateral."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Bài báo nào đã khởi đầu chuỗi sự kiện dẫn đến sự sụp đổ của FTX vào tháng 11/2022?",
+        "en": "What report kicked off the chain of events that brought down FTX in November 2022?"
+      },
+      "choices": [
+        {
+          "vi": "Báo cáo điều tra của SEC về Binance",
+          "en": "An SEC investigation into Binance"
+        },
+        {
+          "vi": "Bài của CoinDesk tiết lộ bảng cân đối của Alameda chứa đầy FTT",
+          "en": "A CoinDesk story revealing Alameda's balance sheet was stuffed with FTT"
+        },
+        {
+          "vi": "Báo cáo bán khống của Hindenburg Research",
+          "en": "A Hindenburg Research short report"
+        },
+        {
+          "vi": "Kết quả kiểm toán của Deloitte",
+          "en": "A Deloitte audit result"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Ngày 2/11/2022, CoinDesk công bố bảng cân đối rò rỉ của Alameda cho thấy phần lớn tài sản là FTT; bốn ngày sau Binance tuyên bố bán FTT và cuộc tháo chạy khỏi FTX bắt đầu.",
+        "en": "On 2 November 2022 CoinDesk published Alameda's leaked balance sheet showing it was mostly FTT; four days later Binance said it would sell its FTT and the run on FTX began."
+      }
+    },
+    "sources": [
+      {
+        "title": "The Epic Collapse of Sam Bankman-Fried's FTX Exchange: A Crypto Markets Timeline - CoinDesk",
+        "url": "https://www.coindesk.com/markets/2022/11/12/the-epic-collapse-of-sam-bankman-frieds-ftx-exchange-a-crypto-markets-timeline"
+      },
+      {
+        "title": "Crypto exchange FTX files for bankruptcy as wunderkind CEO exits - Reuters",
+        "url": "https://www.reuters.com/business/ftx-start-us-bankruptcy-proceedings-ceo-exit-2022-11-11/"
+      },
+      {
+        "title": "What Happened at FTX and What Does It Mean for Crypto? - Congressional Research Service",
+        "url": "http://www.congress.gov/crs_external_products/IN/PDF/IN12047/IN12047.1.pdf"
+      },
+      {
+        "title": "Sam Bankman-Fried convicted of multi-billion dollar FTX fraud - Reuters",
+        "url": "https://www.reuters.com/legal/ftx-founder-sam-bankman-fried-thought-rules-did-not-apply-him-prosecutor-says-2023-11-02/"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Timeline (2 Nov CoinDesk report, 6 Nov Binance sale, 11 Nov Chapter 11) from CoinDesk and Reuters; FTT ~$22 before the run and $1.65 on 17 Nov 2022 from the CRS report; $5.8bn of FTT on Alameda's books from CoinDesk; 2 Nov 2023 conviction on all seven counts from Reuters."
   }
 ]
