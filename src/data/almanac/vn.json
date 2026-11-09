@@ -305,5 +305,509 @@
         "url": "https://tienphong.vn/bo-cong-thuong-noi-gi-ve-gia-xang-ron95-tang-cao-post1002446.tpo"
       }
     ]
+  },
+  {
+    "id": "vn-ty-gia-usd-vnd",
+    "country": "vn",
+    "name": {
+      "vi": "Tỷ giá USD/VND chính thức",
+      "en": "Official USD/VND exchange rate"
+    },
+    "unit": {
+      "vi": "đồng/USD",
+      "en": "VND per USD"
+    },
+    "quality": "A",
+    "note": {
+      "vi": "1986-2024 là tỷ giá chính thức bình quân năm theo Ngân hàng Thế giới (IMF IFS); 2025 là tỷ giá trung tâm NHNN cuối năm. Trước 1989 tỷ giá chính thức thấp hơn rất xa giá chợ đen nên con số 1986-1988 không phản ánh giá đổi thực tế của người dân.",
+      "en": "1986-2024 are official annual-average rates from the World Bank (IMF IFS); 2025 is the State Bank's central rate at year-end. Before 1989 the official rate was far below the black-market rate, so 1986-1988 figures do not reflect what people actually paid."
+    },
+    "kind": "point",
+    "series": [
+      {
+        "year": 1986,
+        "value": 22.94,
+        "note": "Tỷ giá chính thức sau đổi tiền 1985; giá chợ đen cao gấp nhiều lần"
+      },
+      {
+        "year": 1987,
+        "value": 78.95
+      },
+      {
+        "year": 1988,
+        "value": 612
+      },
+      {
+        "year": 1989,
+        "value": 4502,
+        "note": "Năm hợp nhất tỷ giá chính thức với tỷ giá thị trường"
+      },
+      {
+        "year": 1990,
+        "value": 6538
+      },
+      {
+        "year": 1991,
+        "value": 10122
+      },
+      {
+        "year": 1992,
+        "value": 11202
+      },
+      {
+        "year": 1993,
+        "value": 10641
+      },
+      {
+        "year": 1994,
+        "value": 10966
+      },
+      {
+        "year": 1995,
+        "value": 11038
+      },
+      {
+        "year": 1996,
+        "value": 11033
+      },
+      {
+        "year": 1997,
+        "value": 11683
+      },
+      {
+        "year": 1998,
+        "value": 13268
+      },
+      {
+        "year": 1999,
+        "value": 13943
+      },
+      {
+        "year": 2000,
+        "value": 14168
+      },
+      {
+        "year": 2001,
+        "value": 14725
+      },
+      {
+        "year": 2002,
+        "value": 15280
+      },
+      {
+        "year": 2003,
+        "value": 15510
+      },
+      {
+        "year": 2004,
+        "value": 15746
+      },
+      {
+        "year": 2005,
+        "value": 15859
+      },
+      {
+        "year": 2006,
+        "value": 15994
+      },
+      {
+        "year": 2007,
+        "value": 16105
+      },
+      {
+        "year": 2008,
+        "value": 16302
+      },
+      {
+        "year": 2009,
+        "value": 17065
+      },
+      {
+        "year": 2010,
+        "value": 18613,
+        "note": "NHNN phá giá nhiều lần trong 2010-2011"
+      },
+      {
+        "year": 2011,
+        "value": 20510
+      },
+      {
+        "year": 2012,
+        "value": 20828
+      },
+      {
+        "year": 2013,
+        "value": 20933
+      },
+      {
+        "year": 2014,
+        "value": 21148
+      },
+      {
+        "year": 2015,
+        "value": 21698
+      },
+      {
+        "year": 2016,
+        "value": 21935
+      },
+      {
+        "year": 2017,
+        "value": 22370
+      },
+      {
+        "year": 2018,
+        "value": 22602
+      },
+      {
+        "year": 2019,
+        "value": 23050
+      },
+      {
+        "year": 2020,
+        "value": 23208
+      },
+      {
+        "year": 2021,
+        "value": 23160
+      },
+      {
+        "year": 2022,
+        "value": 23271
+      },
+      {
+        "year": 2023,
+        "value": 23787
+      },
+      {
+        "year": 2024,
+        "value": 24165
+      },
+      {
+        "year": 2025,
+        "value": 25121,
+        "note": "Tỷ giá trung tâm NHNN ngày 31/12/2025 (cuối kỳ, không phải bình quân năm)"
+      }
+    ],
+    "sources": [
+      {
+        "title": "World Bank - Official exchange rate (LCU per US$, period average), Vietnam (PA.NUS.FCRF)",
+        "url": "https://data.worldbank.org/indicator/PA.NUS.FCRF?locations=VN"
+      },
+      {
+        "title": "Wikipedia tiếng Việt - Đồng (đơn vị tiền tệ): Hối suất chính thức USD - Đồng",
+        "url": "https://vi.wikipedia.org/wiki/%C4%90%E1%BB%93ng_(%C4%91%C6%A1n_v%E1%BB%8B_ti%E1%BB%81n_t%E1%BB%87)"
+      },
+      {
+        "title": "Ngày 31/12: Tỷ giá trung tâm giảm 3 đồng - Thị trường Tài chính Tiền tệ",
+        "url": "https://thitruongtaichinhtiente.vn/ngay-31-12-ty-gia-trung-tam-giam-3-dong-75828.html"
+      },
+      {
+        "title": "Tỷ giá USD hôm nay 31/12: Tỷ giá trung tâm giảm còn 25.121 đồng/USD - VOV",
+        "url": "https://vov.vn/thi-truong/ty-gia/ty-gia-usd-hom-nay-3112-ty-gia-trung-tam-giam-con-25121-dongusd-post1257760.vov"
+      }
+    ]
+  },
+  {
+    "id": "vn-gia-can-ho-chung-cu",
+    "country": "vn",
+    "name": {
+      "vi": "Giá căn hộ chung cư (Hà Nội & TP.HCM)",
+      "en": "Apartment prices (Hanoi & HCMC)"
+    },
+    "unit": {
+      "vi": "triệu đồng/m²",
+      "en": "million VND/m²"
+    },
+    "quality": "B",
+    "note": {
+      "vi": "Khoảng giá tham khảo cho căn hộ phổ thông-trung cấp, ghép từ nhiều nguồn có phương pháp khác nhau (giá rao từng khu, khảo sát VARS, giá sơ cấp bình quân CBRE). Mốc 2000 là ước tính của trang môi giới, chưa kiểm chứng. Từ 2020 dùng giá sơ cấp bình quân CBRE (mọi phân khúc), nên cao hơn giá trung cấp thuần.",
+      "en": "Indicative range for mass-to-mid-market apartments, stitched from sources with different methods (area asking prices, VARS surveys, CBRE primary averages). The 2000 point is a broker-site estimate, unverified. From 2020 the CBRE primary average (all segments) is used, which runs above pure mid-market prices."
+    },
+    "kind": "range",
+    "series": [
+      {
+        "year": 2000,
+        "min": 5,
+        "max": 8,
+        "note": "Ước tính trang môi giới (chodat.com.vn), chưa kiểm chứng"
+      },
+      {
+        "year": 2005,
+        "min": 8,
+        "max": 12,
+        "note": "Mỹ Đình, Hà Nội"
+      },
+      {
+        "year": 2007,
+        "min": 12,
+        "max": 18,
+        "note": "Mỹ Đình, Hà Nội"
+      },
+      {
+        "year": 2008,
+        "min": 17.5,
+        "max": 20,
+        "note": "Mỹ Đình 1 ~17,5; Mỹ Đình 2 ~19-20"
+      },
+      {
+        "year": 2011,
+        "min": 20,
+        "max": 30,
+        "note": "Hà Nội đầu 2011, chung cư giá trung bình (Báo Chính phủ)"
+      },
+      {
+        "year": 2015,
+        "min": 18,
+        "max": 25,
+        "note": "Hà Nội sơ cấp 18-25 (VARS, 2014-2015); trung cấp HN ~22, TP.HCM ~25"
+      },
+      {
+        "year": 2020,
+        "min": 32.6,
+        "max": 49.6,
+        "note": "CBRE Q4/2020: HN 1.412 USD/m², TP.HCM 2.150 USD/m²"
+      },
+      {
+        "year": 2025,
+        "min": 79,
+        "max": 82,
+        "note": "CBRE Q2/2025 sơ cấp bình quân: HN 79, TP.HCM 82 (thông thủy)"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Chung cư từng có giá 8 - 12 triệu đồng/m2, nay rao bán tới 90 triệu - VietnamFinance",
+        "url": "https://vietnamfinance.vn/chung-cu-tung-co-gia-8--12-trieu-dong-m2-nay-rao-ban-toi-90-trieu-d151906.html"
+      },
+      {
+        "title": "Chung cư Hà Nội tăng giá, coi chừng dính bẫy - Báo Chính phủ",
+        "url": "https://baochinhphu.vn/chung-cu-ha-noi-tang-gia-coi-chung-dinh-bay-10267609.htm"
+      },
+      {
+        "title": "Một thập kỷ giá chung cư tăng phi mã - The Leader",
+        "url": "https://theleader.vn/mot-thap-ky-gia-chung-cu-tang-chua-tung-co-d42208.html"
+      },
+      {
+        "title": "Giá nhà đắt hơn, học phí mắc hơn, vì đâu TP.HCM phải nhường vị trí... - VietNamNet",
+        "url": "https://vietnamnet.vn/gia-nha-dat-hon-hoc-phi-mac-hon-vi-dau-tphcm-phai-nhuong-vi-tri-quan-quan-thanh-pho-dat-do-nhat-viet-nam-cho-ha-noi-725058.html"
+      },
+      {
+        "title": "Chung cư vượt 100 triệu/m2, có bao giờ giá căn hộ giảm? - VietnamFinance (VARS)",
+        "url": "https://vietnamfinance.vn/chung-cu-vuot-100-trieu-m2-co-bao-gio-gia-can-ho-giam-d132918.html"
+      },
+      {
+        "title": "Giá Nhà Đất Việt Nam 2000–2025 - chodat.com.vn (ước tính môi giới)",
+        "url": "https://chodat.com.vn/tu-van/gia-nha-dat-viet-nam-2000-2025-phan-tich-vi-mo-va-du-bao-trien-vong-den-nam-2045"
+      }
+    ]
+  },
+  {
+    "id": "vn-hoc-phi-dai-hoc-cong-lap",
+    "country": "vn",
+    "name": {
+      "vi": "Trần học phí đại học công lập",
+      "en": "Public university tuition cap"
+    },
+    "unit": {
+      "vi": "đồng/tháng",
+      "en": "VND/month"
+    },
+    "quality": "A",
+    "note": {
+      "vi": "Mức trần cho trường công lập chưa tự chủ, chương trình đại trà, theo năm học bắt đầu (vd 2010 = năm học 2010-2011). 1998-2009 là mức tối đa của khung 50.000-180.000 đồng. 2010-2022 lấy nhóm Khoa học xã hội, kinh tế, luật; từ 2023 lấy Khối ngành III (Kinh doanh và quản lý, pháp luật). Trường tự chủ được thu tới 2-2,5 lần mức trần.",
+      "en": "Cap for non-autonomous public institutions, mass programmes, by starting academic year (e.g. 2010 = 2010-2011). 1998-2009 is the top of the VND 50,000-180,000 band. 2010-2022 uses the social science/economics/law group; from 2023, Group III (business, management and law). Autonomous schools may charge up to 2-2.5x the cap."
+    },
+    "kind": "point",
+    "series": [
+      {
+        "year": 1998,
+        "value": 180000,
+        "note": "QĐ 70/1998/QĐ-TTg (khung 50.000-180.000)"
+      },
+      {
+        "year": 2009,
+        "value": 180000,
+        "note": "Vẫn theo QĐ 70/1998 (tối đa 1,8 triệu/năm)"
+      },
+      {
+        "year": 2010,
+        "value": 290000,
+        "note": "NĐ 49/2010/NĐ-CP"
+      },
+      {
+        "year": 2011,
+        "value": 355000,
+        "note": "NĐ 49/2010/NĐ-CP"
+      },
+      {
+        "year": 2012,
+        "value": 420000,
+        "note": "NĐ 49/2010/NĐ-CP"
+      },
+      {
+        "year": 2013,
+        "value": 485000,
+        "note": "NĐ 49/2010/NĐ-CP"
+      },
+      {
+        "year": 2014,
+        "value": 550000,
+        "note": "NĐ 49/2010/NĐ-CP"
+      },
+      {
+        "year": 2015,
+        "value": 610000,
+        "note": "NĐ 86/2015/NĐ-CP"
+      },
+      {
+        "year": 2016,
+        "value": 670000,
+        "note": "NĐ 86/2015/NĐ-CP"
+      },
+      {
+        "year": 2017,
+        "value": 740000,
+        "note": "NĐ 86/2015/NĐ-CP"
+      },
+      {
+        "year": 2018,
+        "value": 810000,
+        "note": "NĐ 86/2015/NĐ-CP"
+      },
+      {
+        "year": 2019,
+        "value": 890000,
+        "note": "NĐ 86/2015/NĐ-CP"
+      },
+      {
+        "year": 2020,
+        "value": 980000,
+        "note": "NĐ 86/2015/NĐ-CP"
+      },
+      {
+        "year": 2021,
+        "value": 980000,
+        "note": "Giữ nguyên theo NĐ 97/2023 (sửa NĐ 81/2021)"
+      },
+      {
+        "year": 2022,
+        "value": 980000,
+        "note": "Giữ nguyên theo NĐ 97/2023 (sửa NĐ 81/2021)"
+      },
+      {
+        "year": 2023,
+        "value": 1250000,
+        "note": "NĐ 97/2023/NĐ-CP, Khối III"
+      },
+      {
+        "year": 2024,
+        "value": 1410000,
+        "note": "NĐ 97/2023/NĐ-CP, Khối III"
+      },
+      {
+        "year": 2025,
+        "value": 1590000,
+        "note": "NĐ 238/2025/NĐ-CP, Kinh doanh và quản lý, pháp luật"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Chính sách tài chính đối với sinh viên đại học tại Việt Nam - Tạp chí Kinh tế Tài chính",
+        "url": "https://tapchikinhtetaichinh.vn/chinh-sach-tai-chinh-doi-voi-sinh-vien-dai-hoc-tai-viet-nam.html"
+      },
+      {
+        "title": "Lộ trình tăng học phí bắt đầu từ năm học 2010-2011 (NĐ 49/2010)",
+        "url": "https://cuuchienbinh.vn/lo-trinh-tang-hoc-phi-bat-dau-tu-nam-hoc-2010-2011-va-nhung-doi-tuong-duoc-mien-giam-15-05-2010-d11448.html"
+      },
+      {
+        "title": "Decree 86/2015/ND-CP on tuition fees - LuatVietnam",
+        "url": "https://english.luatvietnam.vn/decree-no-86-2015-nd-cp-dated-october-2-2015-of-the-government-on-mechanism-for-collection-and-management-of-tuition-fees-applicable-to-educational-98779-doc1.html"
+      },
+      {
+        "title": "Mức học phí các cấp từ năm học 2023 - 2024 (NĐ 97/2023) - LuatVietnam",
+        "url": "https://luatvietnam.vn/linh-vuc-khac/muc-hoc-phi-cac-cap-tu-nam-hoc-2023-2024-883-96578-article.html"
+      },
+      {
+        "title": "Mức trần học phí đối với cơ sở giáo dục đại học công lập năm học 2025 - 2026 (NĐ 238/2025) - LuatVietnam",
+        "url": "https://luatvietnam.vn/tin-van-ban-moi/muc-tran-hoc-phi-doi-voi-co-so-giao-duc-dai-hoc-cong-lap-nam-hoc-2025-2026-186-103868-article.html"
+      }
+    ]
+  },
+  {
+    "id": "vn-gia-to-pho",
+    "country": "vn",
+    "name": {
+      "vi": "Giá một tô phở (Hà Nội/TP.HCM)",
+      "en": "Price of a bowl of phở (Hanoi/HCMC)"
+    },
+    "unit": {
+      "vi": "đồng/tô",
+      "en": "VND/bowl"
+    },
+    "quality": "B",
+    "note": {
+      "vi": "Không có thống kê chính thức về giá phở. Các mốc ghép từ giá niêm yết của Phở Bát Đàn (Hà Nội, quán nổi tiếng nên thường cao hơn mặt bằng) và khảo sát báo chí về phở bình dân. Dùng làm giá tham khảo, không phải chỉ số giá.",
+      "en": "There is no official phở price statistic. Points combine Pho Bat Dan's menu prices (a famous Hanoi shop, usually above average) with press surveys of ordinary phở. Use as reference prices, not an index."
+    },
+    "kind": "range",
+    "series": [
+      {
+        "year": 1993,
+        "min": 3000,
+        "max": 3000,
+        "note": "Phở bình dân Hà Nội 1991-1993 (chogia.vn)"
+      },
+      {
+        "year": 1994,
+        "min": 5000,
+        "max": 5000,
+        "note": "Phở Bát Đàn"
+      },
+      {
+        "year": 2004,
+        "min": 7000,
+        "max": 10000,
+        "note": "Phở Bát Đàn: chín 7.000, tái 8.000, tái nạm 10.000"
+      },
+      {
+        "year": 2010,
+        "min": 20000,
+        "max": 30000,
+        "note": "Phở Bát Đàn"
+      },
+      {
+        "year": 2018,
+        "min": 40000,
+        "max": 50000,
+        "note": "Phở Bát Đàn, giữ giá đến 2021"
+      },
+      {
+        "year": 2022,
+        "min": 35000,
+        "max": 45000,
+        "note": "Bình quân HN 35-40k, TP.HCM ~45k (VnExpress)"
+      },
+      {
+        "year": 2025,
+        "min": 35000,
+        "max": 40000,
+        "note": "Phở bình dân Hà Nội 8/2025, +15-20% so với năm trước"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Giá một bát phở qua 30 năm: Tỷ giá Việt Nam đồng đã mất giá bao nhiêu %? - Chợ Giá",
+        "url": "https://chogia.vn/gia-mot-bat-pho-qua-30-nam-ty-gia-viet-nam-dong-mat-gia-bao-nhieu-76524/"
+      },
+      {
+        "title": "Cuộc đời sau ống kính: Gần 30 năm ăn phở Bát Đàn - Thể thao & Văn hóa",
+        "url": "https://thethaovanhoa.vn/cuoc-doi-sau-ong-kinh-gan-30-nam-an-pho-bat-dan-20221014214512708.htm"
+      },
+      {
+        "title": "Giá xăng giảm, hàng hóa đứng yên - VnExpress",
+        "url": "https://vnexpress.net/hang-hoa-dung-yen-nhin-gia-xang-giam-4497843.html"
+      }
+    ]
   }
 ]

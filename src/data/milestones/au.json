@@ -1,0 +1,1000 @@
+[
+  {
+    "id": "au-black-monday-crash-1987",
+    "country": "au",
+    "date": "1987-10-20",
+    "category": "stocks",
+    "title": {
+      "vi": "\"Black Tuesday\" 1987 — All Ordinaries mất 25% trong một ngày",
+      "en": "Black Tuesday 1987 — the All Ordinaries Loses 25% in a Day"
+    },
+    "summary": {
+      "vi": "Sau cú sập Phố Wall đêm trước, chỉ số All Ordinaries giảm 516 điểm (25%) ngày 20/10/1987 — mức giảm một ngày tồi tệ nhất lịch sử Úc.",
+      "en": "After Wall Street's overnight crash, the All Ordinaries fell 516 points (25%) on 20 October 1987 — Australia's worst one-day fall ever."
+    },
+    "description": {
+      "vi": "Sau khi bãi bỏ quy chế tài chính giai đoạn 1983–1985, một làn sóng thâu tóm bằng nợ vay do các \"corporate cowboy\" như Alan Bond (Bond Corporation), Christopher Skase (Qintex) và Robert Holmes à Court dẫn dắt đã đẩy định giá cổ phiếu Úc lên mức đắt nhất lịch sử. Khi giao dịch mở lại ngày thứ Ba 20/10/1987, sau khi Phố Wall giảm khoảng 20% đêm trước, chỉ số All Ordinaries rơi 516 điểm, tương đương 25% — mức giảm một ngày lớn nhất từng có. Chỉ trong 19 phiên, chỉ số mất khoảng 50% và đến 11/11/1987 chỉ còn 1.151 điểm. Thị trường Úc mất hơn sáu năm mới lấy lại đỉnh tháng 9/1987, và nhiều đế chế vay nợ sụp đổ trong những năm sau; Alan Bond sau này phá sản và bị kết án vì rút hơn 1,2 tỷ AUD từ Bell Resources.",
+      "en": "Financial deregulation in 1983–1985 fuelled a debt-financed takeover boom led by 'corporate cowboys' such as Alan Bond (Bond Corporation), Christopher Skase (Qintex) and Robert Holmes à Court, pushing Australian share valuations to their most expensive level on record. When trading resumed on Tuesday 20 October 1987, after Wall Street's roughly 20% overnight fall, the All Ordinaries dropped 516 points, or 25% — the largest one-day fall in its history. Within 19 trading days the index had lost about 50%, sinking to 1,151 points by 11 November 1987. The Australian market took more than six years to regain its September 1987 high, and several leveraged empires collapsed in the following years; Alan Bond later went bankrupt and was convicted over siphoning more than A$1.2 billion from Bell Resources."
+    },
+    "opportunity": {
+      "asset": "S&P/ASX All Ordinaries (XAO) / Australian blue chips",
+      "action": {
+        "vi": "Bán hoặc giảm đòn bẩy trước tháng 10/1987, tránh xa các tập đoàn thâu tóm bằng nợ; chỉ mua lại blue-chip ít nợ sau khi thị trường đã giảm khoảng 50%",
+        "en": "Sell or de-leverage before October 1987 and avoid debt-funded takeover conglomerates; buy back only low-debt blue chips after the market had fallen about 50%"
+      },
+      "buyWhen": {
+        "vi": "Mua dần các doanh nghiệp ít nợ quanh tháng 11/1987, khi All Ordinaries về khoảng 1.151 điểm",
+        "en": "Accumulate low-debt businesses around November 1987, when the All Ordinaries had sunk to about 1,151 points"
+      },
+      "sellWhen": {
+        "vi": "Kiên nhẫn nắm giữ nhiều năm — chỉ số chỉ vượt đỉnh tháng 9/1987 vào cuối năm 1993",
+        "en": "Hold patiently for years — the index only surpassed its September 1987 peak in late 1993"
+      },
+      "estimatedReturn": {
+        "vi": "Tránh được mức sụt giảm khoảng 50% trong chưa đầy một tháng; người mua đáy cuối 1987 về lại mức đỉnh cũ (gần gấp đôi) vào cuối năm 1993",
+        "en": "Avoid a roughly 50% drawdown in under a month; buyers at the late-1987 low were back at the old peak (roughly doubling) by late 1993"
+      },
+      "priceCurrency": "AUD",
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết trước thị trường Úc năm 1987 được định giá đắt nhất lịch sử nhờ nợ vay thâu tóm giúp bạn hiểu vì sao Úc giảm sâu gấp đôi Mỹ — và vì sao nên tránh cổ phiếu của các 'corporate cowboy' ngay cả sau cú sập.",
+      "en": "Knowing the 1987 Australian market was the most expensive in its history thanks to debt-fuelled takeovers explains why Australia fell twice as hard as the US — and why the 'corporate cowboy' stocks were worth avoiding even after the crash."
+    },
+    "pitfalls": {
+      "vi": "Bắt đáy ngay sau ngày 20/10 là quá sớm: thị trường tiếp tục giảm thêm nhiều tuần và mất hơn sáu năm mới hồi phục. Nhiều cổ phiếu đòn bẩy như Bond Corp, Qintex không bao giờ hồi phục.",
+      "en": "Buying the dip right after 20 October was too early: the market kept falling for weeks and took more than six years to recover. Many leveraged stocks such as Bond Corp and Qintex never recovered at all."
+    },
+    "quiz": {
+      "question": {
+        "vi": "All Ordinaries giảm bao nhiêu trong ngày 20/10/1987?",
+        "en": "How much did the All Ordinaries fall on 20 October 1987?"
+      },
+      "choices": [
+        {
+          "vi": "Khoảng 5%",
+          "en": "About 5%"
+        },
+        {
+          "vi": "Khoảng 11%",
+          "en": "About 11%"
+        },
+        {
+          "vi": "Khoảng 25% (516 điểm)",
+          "en": "About 25% (516 points)"
+        },
+        {
+          "vi": "Khoảng 50%",
+          "en": "About 50%"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "Chỉ số giảm 516 điểm (25%) trong một ngày — tệ hơn mức giảm khoảng 20% của Phố Wall. Mức giảm 50% là tổng thiệt hại trong 19 phiên.",
+        "en": "The index fell 516 points (25%) in one day — worse than Wall Street's roughly 20% fall. The 50% figure was the total loss over 19 trading days."
+      }
+    },
+    "sources": [
+      {
+        "title": "Owen Analytics — 'Price/Earnings' ratios are meaningless – Exhibit A: the 1987 crash",
+        "url": "https://www.owenanalytics.com.au/2025-10-27-1987-pe"
+      },
+      {
+        "title": "Forgotten Fortunes — From the Poseidon Nickel Bubble to the 1987 Crash of Australia's Corporate Cowboys",
+        "url": "https://forgottenfortunes.net/poseidon-nickel-bubble-1987-crash/"
+      },
+      {
+        "title": "Zippia — ASX history timeline (All Ordinaries fell 516 points, 25%, on 20 October 1987)",
+        "url": "https://www.zippia.com/asx-careers-942563/history/"
+      },
+      {
+        "title": "RBA Annual Conference 2003 — Three Australian Asset-price Bubbles (John Simon)",
+        "url": "https://www.rba.gov.au/publications/confs/2003/simon.html"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "25% (516-point) one-day fall on 20 Oct 1987 confirmed by Owen Analytics, Forgotten Fortunes and Zippia's ASX timeline; ~50% fall in 19 trading days from Owen Analytics; 1,151 level on 11 Nov 1987, late-1993 recovery and Bond's A$1.2bn Bell Resources conviction from Forgotten Fortunes. The exact pre-crash/close index levels (~2,068 / ~1,549) were not confirmed by a fetched source and are therefore omitted."
+  },
+  {
+    "id": "au-commonwealth-bank-privatisation-1991",
+    "country": "au",
+    "date": "1991-09-12",
+    "category": "stocks",
+    "title": {
+      "vi": "Commonwealth Bank tư nhân hóa — IPO 5,40 AUD",
+      "en": "Commonwealth Bank Privatisation — the A$5.40 IPO"
+    },
+    "summary": {
+      "vi": "Đợt tư nhân hóa lớn đầu tiên của Úc: 30% cổ phần CBA được bán với giá 5,40 AUD; đến tháng 11/2024 cổ phiếu chạm 150 AUD.",
+      "en": "Australia's first big privatisation: 30% of CBA sold at A$5.40 a share; by November 2024 the stock touched A$150."
+    },
+    "description": {
+      "vi": "Ngân hàng Commonwealth Bank of Australia (CBA) do Chính phủ sở hữu được chuyển thành công ty đại chúng ngày 17/4/1991 và tư nhân hóa qua ba đợt. Đợt đầu tiên, 230 triệu cổ phiếu (30% cổ phần có quyền biểu quyết) được phát hành với giá 5,40 AUD và niêm yết trên ASX ngày 12/9/1991, huy động 1,3 tỷ AUD; giá đóng cửa ngày đầu là 6,46 AUD. Đợt hai (11/1993) có giá 9,35 AUD cho nhà đầu tư cá nhân, và CBA được tư nhân hóa hoàn toàn vào tháng 7/1996. Ngày 11/11/2024, cổ phiếu CBA lần đầu vượt mốc 150 AUD (đỉnh trong phiên 150,34 AUD), chưa kể hơn ba thập kỷ cổ tức được khấu trừ thuế (franked).",
+      "en": "The government-owned Commonwealth Bank of Australia (CBA) became a public company on 17 April 1991 and was privatised in three stages. In the first, 230 million shares (30% of voting shares) were issued at A$5.40 and listed on the ASX on 12 September 1991, raising A$1.3 billion; the first-day close was A$6.46. The second offer (November 1993) was priced at A$9.35 for retail investors, and CBA was fully privatised in July 1996. On 11 November 2024 CBA shares broke A$150 for the first time (intraday high A$150.34), on top of more than three decades of franked dividends."
+    },
+    "opportunity": {
+      "asset": "Commonwealth Bank of Australia (ASX: CBA)",
+      "action": {
+        "vi": "Đăng ký mua cổ phiếu trong đợt IPO tư nhân hóa 1991 và tái đầu tư cổ tức franked",
+        "en": "Subscribe to the 1991 privatisation IPO and reinvest the franked dividends"
+      },
+      "buyWhen": {
+        "vi": "Mua ở giá phát hành 5,40 AUD tháng 9/1991 (hoặc 9,35 AUD ở đợt hai năm 1993)",
+        "en": "Buy at the A$5.40 issue price in September 1991 (or A$9.35 in the 1993 second tranche)"
+      },
+      "sellWhen": {
+        "vi": "Không cần bán — cổ phiếu chạm 150 AUD tháng 11/2024 trong khi cổ tức chảy về đều đặn",
+        "en": "No need to sell — the stock touched A$150 in November 2024 while dividends kept flowing"
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng 28 lần chỉ tính riêng giá (5,40 → 150,34 AUD), chưa gồm cổ tức franked tái đầu tư",
+        "en": "About 28x on price alone (A$5.40 → A$150.34), excluding reinvested franked dividends"
+      },
+      "returnMultiple": 27.8,
+      "entryPrice": 5.4,
+      "exitPrice": 150.34,
+      "priceCurrency": "AUD",
+      "exitDate": "2024-11-11",
+      "risk": "low",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Biết trước CBA sẽ trở thành ngân hàng bán lẻ thống trị Úc giúp bạn mua cả ba đợt chào bán của Chính phủ và giữ qua suy thoái 1991, GFC 2008 và COVID thay vì chốt lời sớm.",
+      "en": "Knowing CBA would become Australia's dominant retail bank lets you buy all three government offers and hold through the early-1990s recession, the 2008 GFC and COVID instead of taking profits early."
+    },
+    "pitfalls": {
+      "vi": "Định giá CBA năm 2024 bị nhiều nhà phân tích coi là đắt nhất thế giới trong nhóm ngân hàng; phần lớn lợi nhuận đến từ cổ tức nên chỉ nhìn giá sẽ đánh giá sai tổng lợi suất.",
+      "en": "By 2024 many analysts considered CBA one of the world's most expensive banks; much of the long-run return came from dividends, so looking at price alone misstates the total return."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Giá phát hành cổ phiếu CBA trong đợt IPO tháng 9/1991 là bao nhiêu?",
+        "en": "What was CBA's share issue price in the September 1991 IPO?"
+      },
+      "choices": [
+        {
+          "vi": "1,00 AUD",
+          "en": "A$1.00"
+        },
+        {
+          "vi": "5,40 AUD",
+          "en": "A$5.40"
+        },
+        {
+          "vi": "9,35 AUD",
+          "en": "A$9.35"
+        },
+        {
+          "vi": "20,00 AUD",
+          "en": "A$20.00"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "230 triệu cổ phiếu được phát hành ở giá 5,40 AUD ngày 12/9/1991; 9,35 AUD là giá đợt hai năm 1993 dành cho nhà đầu tư cá nhân.",
+        "en": "230 million shares were issued at A$5.40 on 12 September 1991; A$9.35 was the retail price of the 1993 second offer."
+      }
+    },
+    "sources": [
+      {
+        "title": "CommBank — Shareholder FAQs (privatisation stages and issue prices)",
+        "url": "https://www.commbank.com.au/about-us/investors/managing-your-shares-faqs.html"
+      },
+      {
+        "title": "CommBank — 25 years as a public company",
+        "url": "https://www.commbank.com.au/content/dam/commbank/about-us/shareholders/pdfs/25-years-as-a-public-company.pdf"
+      },
+      {
+        "title": "The Motley Fool Australia — $150 a pop: Would I still buy CBA shares as they hit all-time highs?",
+        "url": "https://www.fool.com.au/2024/11/12/150-a-pop-would-i-still-buy-cba-shares-as-they-hit-all-time-highs/"
+      },
+      {
+        "title": "Sydney Morning Herald — CBA shareholders in the money 25 years after float",
+        "url": "https://www.smh.com.au/business/banking-and-finance/cba-shareholders-in-the-money-25-years-after-float-20160912-gre7i9.html"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "A$5.40 issue price, 230m shares/30%, 12 Sep 1991 listing, A$1.3bn raised and A$6.46 first-day close confirmed by CommBank's own FAQ and 25-year PDF; A$150.34 intraday high on 11 Nov 2024 from Motley Fool. Multiple is price-only; no share splits since listing were found, but dividend-inclusive total return was not computed."
+  },
+  {
+    "id": "au-csl-privatisation-compounder-1994",
+    "country": "au",
+    "date": "1994-05-30",
+    "category": "stocks",
+    "title": {
+      "vi": "CSL — từ phòng thí nghiệm huyết thanh nhà nước thành gã khổng lồ huyết tương",
+      "en": "CSL — From State Serum Lab to Global Plasma Giant"
+    },
+    "summary": {
+      "vi": "Chính phủ Keating bán 100% CSL với giá 2,30 AUD/cổ phiếu (0,77 AUD sau chia tách); đến tháng 2/2020 cổ phiếu đạt khoảng 340 AUD.",
+      "en": "The Keating Government sold 100% of CSL at A$2.30 a share (A$0.77 split-adjusted); by February 2020 the stock reached about A$340."
+    },
+    "description": {
+      "vi": "Commonwealth Serum Laboratories là đợt bán 100% cổ phần đầu tiên của Chính phủ Úc; việc niêm yết trên ASX hoàn tất ngày 30/5/1994. Chính phủ thu 299 triệu AUD khi bán 130 triệu cổ phiếu giá 2,30 AUD (khoảng 0,77 AUD sau đợt chia tách 3:1 năm 2007); vốn hóa lúc niêm yết chỉ khoảng 300 triệu AUD và nhà đầu tư trong nước phần lớn thờ ơ. Dưới sự dẫn dắt của CEO Brian McNamee, CSL thâu tóm ZLB Bioplasma (2000) với giá 930 triệu AUD — thương vụ nhân đôi quy mô công ty — và trở thành một trong những hãng huyết tương lớn nhất thế giới. Đến tháng 2/2020, cổ phiếu đạt khoảng 340 AUD và vốn hóa 145 tỷ AUD, có lúc vượt CBA và BHP thành công ty lớn nhất ASX; năm 2024 cổ phiếu vẫn giao dịch trên 300 AUD.",
+      "en": "Commonwealth Serum Laboratories was the Commonwealth's first 100% share sale; its ASX flotation was completed on 30 May 1994. The government raised A$299 million selling 130 million shares at A$2.30 (about A$0.77 after the 2007 3-for-1 split); market value at listing was only about A$300 million and local investors largely shunned the float. Under CEO Brian McNamee, CSL bought ZLB Bioplasma in 2000 for A$930 million — a deal that doubled its size — and became one of the world's largest plasma-therapies companies. By February 2020 the shares reached about A$340 and the company was worth A$145 billion, briefly overtaking CBA and BHP as the ASX's most valuable company; in 2024 the stock still traded above A$300."
+    },
+    "opportunity": {
+      "asset": "CSL Limited (ASX: CSL)",
+      "action": {
+        "vi": "Mua trong đợt IPO tư nhân hóa bị thị trường thờ ơ năm 1994 và nắm giữ suốt chuỗi thâu tóm toàn cầu",
+        "en": "Buy the unloved 1994 privatisation float and hold through its global acquisition run"
+      },
+      "buyWhen": {
+        "vi": "Mua ở giá IPO 2,30 AUD (0,77 AUD sau chia tách) tháng 5–6/1994",
+        "en": "Buy at the A$2.30 float price (A$0.77 split-adjusted) in May–June 1994"
+      },
+      "sellWhen": {
+        "vi": "Cân nhắc chốt lời quanh đỉnh khoảng 340 AUD tháng 2/2020 hoặc khi cổ phiếu còn trên 300 AUD năm 2024",
+        "en": "Consider taking profits near the ~A$340 peak in February 2020 or while the stock was still above A$300 in 2024"
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng 400–440 lần chỉ tính giá (0,77 → khoảng 340 AUD), chưa gồm cổ tức",
+        "en": "Roughly 400–440x on price alone (A$0.77 → ~A$340), excluding dividends"
+      },
+      "returnMultiple": 441,
+      "entryPrice": 0.77,
+      "exitPrice": 340,
+      "priceCurrency": "AUD",
+      "exitDate": "2020-02",
+      "risk": "medium",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Biết trước thương vụ ZLB Bioplasma năm 2000 sẽ nhân đôi quy mô CSL và mở đường thống trị ngành huyết tương giúp bạn mua một IPO mà quỹ trong nước bỏ qua — và giữ chặt khi người khác chờ 'giảm dưới 300 AUD'.",
+      "en": "Knowing the 2000 ZLB Bioplasma deal would double CSL's size and launch its plasma dominance lets you buy a float that local funds ignored — and hold while others waited for it to 'dip below A$300'."
+    },
+    "pitfalls": {
+      "vi": "Cổ phiếu không đi lên mãi: sau đỉnh 2020, CSL đi ngang quanh 300 AUD rồi giảm mạnh — năm 2026 có lúc về mức thấp nhất 9 năm quanh 90 AUD. Người mua ở đỉnh chịu lỗ lớn.",
+      "en": "The stock did not rise forever: after its 2020 peak CSL drifted around A$300 and then fell hard — in 2026 it hit a nine-year low around A$90. Buyers at the top suffered big losses."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Giá IPO của CSL năm 1994 (trước điều chỉnh chia tách) là bao nhiêu?",
+        "en": "What was CSL's 1994 float price (before split adjustment)?"
+      },
+      "choices": [
+        {
+          "vi": "0,20 AUD",
+          "en": "A$0.20"
+        },
+        {
+          "vi": "2,30 AUD",
+          "en": "A$2.30"
+        },
+        {
+          "vi": "5,40 AUD",
+          "en": "A$5.40"
+        },
+        {
+          "vi": "23,00 AUD",
+          "en": "A$23.00"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Chính phủ bán 130 triệu cổ phiếu giá 2,30 AUD, thu 299 triệu AUD; sau chia tách 3:1 năm 2007 tương đương khoảng 0,77 AUD.",
+        "en": "The government sold 130 million shares at A$2.30, raising A$299 million; after the 2007 3-for-1 split that equals about A$0.77."
+      }
+    },
+    "sources": [
+      {
+        "title": "Owen Analytics — Case study: CSL – growth superstar at a rare bargain?",
+        "url": "https://www.owenanalytics.com.au/csl-growth-superstar"
+      },
+      {
+        "title": "ANAO Report 1995-96 No. 14 — CSL Share Offer",
+        "url": "https://www.anao.gov.au/sites/default/files/ANAO_Report_1995-96_14.pdf"
+      },
+      {
+        "title": "The Motley Fool Australia — Can the CSL share price push back above $300? (Oct 2024)",
+        "url": "https://www.fool.com.au/tickers/asx-csl/page/92/"
+      },
+      {
+        "title": "AAP — Aussie investors hungry for US tech (CSL nine-year low around $90 after trading above $300 in 2024)",
+        "url": "https://aapnews.aap.com.au/news/aussie-investors-hungry-for-us-tech-ahead-of-anthropic"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "A$2.30 float price, A$0.77 split-adjusted (3:1 split 2007), A$299m raised, ~A$300m float value, ~A$340 in Feb 2020 and A$145bn value from Owen Analytics; 30 May 1994 flotation completion from ANAO report (search snippet); trading above A$300 until 9 Sep 2024 from Motley Fool; 2026 low near A$90 from AAP. Owen Analytics rounds the gain to '400-fold'; 441x is our own 340/0.77 calculation."
+  },
+  {
+    "id": "au-hih-insurance-collapse-2001",
+    "country": "au",
+    "date": "2001-03-15",
+    "category": "business",
+    "title": {
+      "vi": "HIH Insurance sụp đổ — vụ phá sản doanh nghiệp lớn nhất nước Úc",
+      "en": "HIH Insurance Collapses — Australia's Biggest Corporate Failure"
+    },
+    "summary": {
+      "vi": "Hãng bảo hiểm lớn thứ hai nước Úc rơi vào thanh lý tạm thời ngày 15/3/2001 với thâm hụt tới 5,3 tỷ AUD.",
+      "en": "Australia's second-largest insurer went into provisional liquidation on 15 March 2001 with a deficiency of up to A$5.3 billion."
+    },
+    "description": {
+      "vi": "HIH Insurance, do Ray Williams gây dựng từ năm 1968, từng là hãng bảo hiểm lớn thứ hai nước Úc. Việc mua lại FAI Insurance (CEO Rodney Adler sau đó vào hội đồng quản trị HIH năm 1999) và tình trạng không trích lập đủ dự phòng bồi thường đã khiến công ty mục ruỗng từ bên trong. Ngày 15/3/2001, hội đồng quản trị chỉ định người thanh lý tạm thời; nhà thanh lý ước tính thâm hụt từ 3,6 đến 5,3 tỷ AUD. Ủy ban Hoàng gia kết luận nguyên nhân chính là quản trị yếu kém và không dự phòng đủ cho bồi thường. Rodney Adler bị tuyên 4 năm rưỡi tù (14/4/2005) và Ray Williams cũng nhận 4 năm 6 tháng tù (15/4/2005). Vụ việc dẫn tới cải tổ lớn về giám sát bảo hiểm của APRA.",
+      "en": "HIH Insurance, built by Ray Williams from 1968, was once Australia's second-largest insurer. Its acquisition of FAI Insurance (whose CEO Rodney Adler joined the HIH board in 1999) and chronic under-reserving for claims hollowed the company out. On 15 March 2001 the board appointed a provisional liquidator; liquidators estimated the deficiency at between A$3.6 billion and A$5.3 billion. The Royal Commission found mismanagement and a failure to set aside enough money for claims were the main causes. Rodney Adler was sentenced to 4½ years' jail (14 April 2005) and Ray Williams to 4 years 6 months (15 April 2005). The collapse triggered a major overhaul of APRA's insurance supervision."
+    },
+    "opportunity": {
+      "asset": "HIH Insurance (ASX: HIH) — avoid",
+      "action": {
+        "vi": "Bán toàn bộ cổ phiếu HIH và tránh hợp đồng bảo hiểm của HIH trước năm 2001",
+        "en": "Dump all HIH shares and avoid HIH insurance policies before 2001"
+      },
+      "buyWhen": {
+        "vi": "Không mua — dấu hiệu cảnh báo là thâu tóm FAI giá cao năm 1998–1999 và dự phòng bồi thường mỏng",
+        "en": "Do not buy — the warning signs were the expensive 1998–1999 FAI takeover and thin claims reserves"
+      },
+      "sellWhen": {
+        "vi": "Thoát ra trước khi công ty bị thanh lý tạm thời ngày 15/3/2001",
+        "en": "Get out before provisional liquidation on 15 March 2001"
+      },
+      "estimatedReturn": {
+        "vi": "Tránh mất 100% vốn cổ phần; cổ đông HIH gần như mất trắng",
+        "en": "Avoid a 100% equity loss; HIH shareholders were essentially wiped out"
+      },
+      "priceCurrency": "AUD",
+      "risk": "high",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Với công ty bảo hiểm, lợi nhuận kế toán phụ thuộc vào ước tính dự phòng bồi thường. Biết trước HIH đang dự phòng thiếu giúp bạn nhận ra lợi nhuận báo cáo là ảo.",
+      "en": "An insurer's reported profit depends on its claims-reserve estimates. Knowing HIH was under-reserving tells you its reported earnings were an illusion."
+    },
+    "pitfalls": {
+      "vi": "Bán khống một công ty đang được kiểm toán 'sạch' rất rủi ro và khó vay cổ phiếu; bài học thực tế hơn là tránh xa, không phải đặt cược ngược.",
+      "en": "Shorting a company with clean audit opinions is risky and borrowing stock is hard; the practical lesson is to stay away, not to bet against it."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Thâm hụt ước tính tối đa của HIH khi sụp đổ năm 2001 là bao nhiêu?",
+        "en": "What was the estimated maximum deficiency when HIH collapsed in 2001?"
+      },
+      "choices": [
+        {
+          "vi": "530 triệu AUD",
+          "en": "A$530 million"
+        },
+        {
+          "vi": "1,2 tỷ AUD",
+          "en": "A$1.2 billion"
+        },
+        {
+          "vi": "5,3 tỷ AUD",
+          "en": "A$5.3 billion"
+        },
+        {
+          "vi": "53 tỷ AUD",
+          "en": "A$53 billion"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "Nhà thanh lý ước tính thâm hụt từ 3,6 đến 5,3 tỷ AUD — vụ sụp đổ doanh nghiệp lớn nhất lịch sử Úc.",
+        "en": "Liquidators estimated the deficiency at A$3.6–5.3 billion — the largest corporate collapse in Australian history."
+      }
+    },
+    "sources": [
+      {
+        "title": "Wikipedia — HIH Insurance",
+        "url": "https://en.wikipedia.org/wiki/HIH_Insurance"
+      },
+      {
+        "title": "Australian Financial Review — Why this was Australia's most significant corporate collapse",
+        "url": "https://www.afr.com/policy/economy/why-this-was-australia-s-most-significant-corporate-collapse-20220322-p5a6qz"
+      },
+      {
+        "title": "Sydney Morning Herald — 56 possible charges over HIH",
+        "url": "https://www.smh.com.au/national/56-possible-charges-over-hih-20030416-gdgm6l.html"
+      },
+      {
+        "title": "Wikipedia — Ray Williams (businessman)",
+        "url": "https://en.wikipedia.org/wiki/Ray_Williams_(businessman)"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "15 Mar 2001 provisional liquidation, A$3.6–5.3bn deficiency, Adler's 4½-year sentence (14 Apr 2005) and Williams' 4y6m sentence (15 Apr 2005) confirmed via Wikipedia pages; A$5.3bn and Royal Commission findings corroborated by AFR and SMH search snippets."
+  },
+  {
+    "id": "au-fortescue-iron-ore-boom-2003",
+    "country": "au",
+    "date": "2003-07",
+    "category": "commodities",
+    "title": {
+      "vi": "Fortescue — cổ phiếu xu của 'Twiggy' Forrest cưỡi sóng quặng sắt Trung Quốc",
+      "en": "Fortescue — Twiggy Forrest's Penny Stock Rides China's Iron-Ore Boom"
+    },
+    "summary": {
+      "vi": "Từ khoảng 2 cent (đã điều chỉnh chia tách) năm 2003 lên đỉnh 13,15 AUD tháng 6/2008 — hơn 600 lần trong năm năm.",
+      "en": "From about 2 cents (split-adjusted) in 2003 to an A$13.15 peak in June 2008 — more than 600x in five years."
+    },
+    "description": {
+      "vi": "Tháng 7/2003, Andrew 'Twiggy' Forrest — vừa trải qua thất bại của Anaconda Nickel — nắm quyền kiểm soát công ty khai khoáng nhỏ Allied Mining and Processing và đổi tên thành Fortescue Metals Group, chuyển hướng sang quặng sắt vùng Pilbara. Khi xuất hiện trên ASX với tên Fortescue, cổ phiếu chỉ khoảng 2 cent (đã điều chỉnh), vài tháng trước đó còn là công ty '1 cent'. Nhu cầu thép bùng nổ của Trung Quốc đã biến dự án thành hiện thực: tháng 5/2008 FMG xuất chuyến quặng đầu tiên từ mỏ Cloudbreak. Sau đợt chia tách 10:1 tháng 12/2007, cổ phiếu lập đỉnh 13,15 AUD vào tháng 6/2008 và Forrest trở thành người giàu nhất nước Úc.",
+      "en": "In July 2003 Andrew 'Twiggy' Forrest — fresh from the Anaconda Nickel debacle — took control of mining minnow Allied Mining and Processing and renamed it Fortescue Metals Group, pivoting to Pilbara iron ore. When it first traded on the ASX as Fortescue, the stock was about 2 cents (split-adjusted), and only months earlier it had been a 'one-cent company'. China's booming steel demand turned the plan into reality: in May 2008 FMG shipped its first ore from the Cloudbreak mine. After a 10-for-1 split in December 2007, the shares hit an all-time high of A$13.15 in June 2008 and Forrest became Australia's richest man."
+    },
+    "opportunity": {
+      "asset": "Fortescue Metals Group (ASX: FMG)",
+      "action": {
+        "vi": "Mua cổ phiếu xu Fortescue khi Forrest tiếp quản năm 2003 và nắm giữ qua giai đoạn xây dựng mỏ Cloudbreak",
+        "en": "Buy Fortescue as a penny stock when Forrest took over in 2003 and hold through the Cloudbreak build-out"
+      },
+      "buyWhen": {
+        "vi": "Mua khoảng 1–2 cent (đã điều chỉnh) trong năm 2003",
+        "en": "Buy at about 1–2 cents (split-adjusted) during 2003"
+      },
+      "sellWhen": {
+        "vi": "Chốt lời quanh đỉnh 13,15 AUD tháng 6/2008, ngay sau chuyến quặng đầu tiên và trước GFC",
+        "en": "Take profits near the A$13.15 peak in June 2008, just after first ore shipment and before the GFC"
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng 650 lần (0,02 → 13,15 AUD) nếu bán gần đỉnh 2008",
+        "en": "About 650x (A$0.02 → A$13.15) if sold near the 2008 peak"
+      },
+      "returnMultiple": 657,
+      "entryPrice": 0.02,
+      "exitPrice": 13.15,
+      "priceCurrency": "AUD",
+      "exitDate": "2008-06",
+      "risk": "high",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Biết trước Trung Quốc sẽ hút quặng sắt với giá kỷ lục giúp bạn tin vào một kẻ mới không có mỏ, không có đường sắt và không có cảng — khi BHP và Rio Tinto đang thống trị vùng Pilbara.",
+      "en": "Knowing China would absorb iron ore at record prices lets you back a newcomer with no mine, railway or port — while BHP and Rio Tinto dominated the Pilbara."
+    },
+    "pitfalls": {
+      "vi": "Sau đỉnh 6/2008, GFC kéo cổ phiếu sụp mạnh; người mua đuổi ở 8–10 AUD chịu lỗ nặng và FMG mất gần 12 năm mới vượt lại đỉnh cũ (đầu năm 2020). Giá 2 cent năm 2003 là giá đã điều chỉnh, thanh khoản rất thấp.",
+      "en": "After the June 2008 peak the GFC crushed the shares; momentum buyers at A$8–10 suffered heavy losses and FMG took almost 12 years (until early 2020) to challenge its old high. The 2003 two-cent price is split-adjusted and liquidity was very thin."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Đỉnh giá cổ phiếu Fortescue năm 2008 (sau chia tách 10:1) là bao nhiêu?",
+        "en": "What was Fortescue's 2008 share-price peak (after the 10-for-1 split)?"
+      },
+      "choices": [
+        {
+          "vi": "1,32 AUD",
+          "en": "A$1.32"
+        },
+        {
+          "vi": "4,39 AUD",
+          "en": "A$4.39"
+        },
+        {
+          "vi": "13,15 AUD",
+          "en": "A$13.15"
+        },
+        {
+          "vi": "43,00 AUD",
+          "en": "A$43.00"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "FMG lập đỉnh 13,15 AUD vào tháng 6/2008 — mức kỷ lục chỉ bị thử thách lại vào tháng 1/2020.",
+        "en": "FMG hit A$13.15 in June 2008 — a record it only challenged again in January 2020."
+      }
+    },
+    "sources": [
+      {
+        "title": "The Motley Fool Australia — How much were Fortescue shares when they first listed on the ASX?",
+        "url": "https://www.fool.com.au/2022/04/22/how-much-were-fortescue-shares-when-they-first-listed-on-the-asx/"
+      },
+      {
+        "title": "Equity.Guru — Looking back at 2008: Fortescue Metals Group 10 years on",
+        "url": "https://equity.guru/2018/07/02/looking-back-at-2008-fortescue-metals-group-fmg-asx-10-years-on/"
+      },
+      {
+        "title": "Proactive Investors — Fortescue Metals shares gunning for all-time highs ($13.15 in June 2008)",
+        "url": "https://www.proactiveinvestors.com.au/companies/fortescue-ltd/"
+      },
+      {
+        "title": "Sydney Morning Herald — Don't chase the next Fortescue",
+        "url": "https://www.smh.com.au/business/markets/dont-chase-the-next-fortescue-20120529-1zgq9.html"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "July 2003 takeover/rename and '2 cents' first price as Fortescue from Motley Fool; April 2003 A$0.10 pre-split (= A$0.01 after the 2007 10-for-1 split) and May 2008 first shipment from Equity.Guru; A$13.15 June 2008 all-time high from Proactive; 'over $12 in 2008' corroborated by SMH. Sources do not state explicitly that Fool's 2-cent figure is split-adjusted, though it is consistent with Equity.Guru's 1 cent split-adjusted; treat the multiple as approximate."
+  },
+  {
+    "id": "au-storm-financial-margin-collapse-2008",
+    "country": "au",
+    "date": "2009-01-09",
+    "category": "business",
+    "title": {
+      "vi": "Storm Financial — 'đòn bẩy kép' xóa sổ tiền hưu của hàng nghìn người",
+      "en": "Storm Financial — 'Double Gearing' Wipes Out Thousands of Retirees"
+    },
+    "summary": {
+      "vi": "Mô hình vay thế chấp nhà cộng vay ký quỹ để mua quỹ chỉ số sụp đổ khi ASX 200 mất 54,5% trong GFC; Storm vào quản lý tài sản ngày 9/1/2009.",
+      "en": "A model of home-equity loans plus margin loans into index funds imploded as the ASX 200 fell 54.5% in the GFC; Storm entered administration on 9 January 2009."
+    },
+    "description": {
+      "vi": "Storm Financial, công ty tư vấn tài chính tại Townsville (Queensland) do vợ chồng Emmanuel và Julie Cassimatis sáng lập năm 1994, áp dụng một mô hình 'một cỡ cho tất cả': khách hàng thế chấp nhà để vay, rồi vay ký quỹ thêm để mua quỹ chỉ số — gọi là 'double gearing'. Phần lớn khách hàng đã nghỉ hưu hoặc sắp nghỉ hưu, thu nhập thấp và ít tài sản. Khi ASX 200 rơi từ đỉnh 6.851,5 điểm (11/2007) xuống 3.120,8 điểm (3/2009), các khoản vay ký quỹ bị bán giải chấp hàng loạt. Commonwealth Bank rút hạn mức tín dụng và Storm vào quản lý tài sản ngày 9/1/2009. Hơn 3.000 khách hàng mất trắng, tổng thiệt hại trên 800 triệu AUD; năm 2016 và 2020 tòa án Liên bang xác nhận hai nhà sáng lập vi phạm nghĩa vụ giám đốc.",
+      "en": "Storm Financial, a Townsville (Queensland) advisory firm founded by Emmanuel and Julie Cassimatis in 1994, sold a one-size-fits-all model: clients borrowed against their homes and then took margin loans on top to buy index funds — 'double gearing'. Most clients were retired or near retirement, with little income and few assets. As the ASX 200 fell from 6,851.5 (November 2007) to 3,120.8 (March 2009), margin loans were sold out en masse. Commonwealth Bank called in its facilities and Storm went into administration on 9 January 2009. More than 3,000 clients were left destitute, with losses above A$800 million; in 2016 and 2020 the Federal Court confirmed the founders had breached their directors' duties."
+    },
+    "opportunity": {
+      "asset": "S&P/ASX 200 index funds — without leverage",
+      "action": {
+        "vi": "Không bao giờ thế chấp nhà để vay ký quỹ; giữ tiền mặt và mua quỹ chỉ số không đòn bẩy khi GFC chạm đáy",
+        "en": "Never mortgage the family home to fund margin loans; hold cash and buy unleveraged index funds at the GFC bottom"
+      },
+      "buyWhen": {
+        "vi": "Mua ASX 200 không vay nợ quanh đáy tháng 3/2009 (khoảng 3.120 điểm)",
+        "en": "Buy the ASX 200 without debt near the March 2009 low (about 3,120 points)"
+      },
+      "sellWhen": {
+        "vi": "Giữ dài hạn; chỉ số phải đến tháng 7/2019 mới vượt đỉnh trước GFC",
+        "en": "Hold long-term; the index only surpassed its pre-GFC peak in July 2019"
+      },
+      "estimatedReturn": {
+        "vi": "Tránh được việc mất nhà và toàn bộ tiền hưu; nhà đầu tư không vay nợ mua ở đáy 2009 có thể gấp đôi tài sản khi chỉ số hồi về đỉnh cũ",
+        "en": "Avoid losing your home and retirement savings; an unleveraged buyer at the 2009 low roughly doubled by the time the index regained its old peak"
+      },
+      "priceCurrency": "AUD",
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Đòn bẩy kép biến một đợt giảm 50% của chỉ số thành khoản lỗ trên 100% vốn chủ: bạn vừa mất danh mục, vừa còn nợ ngân hàng bằng chính căn nhà của mình.",
+      "en": "Double gearing turns a 50% index fall into a loss of more than 100% of your equity: you lose the portfolio and still owe the bank against your own home."
+    },
+    "pitfalls": {
+      "vi": "Mua đáy GFC bằng tiền vay cũng nguy hiểm — không ai biết đáy ở đâu khi đang rơi. Hãy chỉ dùng vốn tự có mà bạn có thể để yên nhiều năm.",
+      "en": "Buying the GFC bottom with borrowed money is also dangerous — no one knows where the bottom is while prices are falling. Use only spare capital you can leave untouched for years."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Mô hình 'double gearing' của Storm Financial là gì?",
+        "en": "What was Storm Financial's 'double gearing' model?"
+      },
+      "choices": [
+        {
+          "vi": "Mua hai quỹ chỉ số khác nhau",
+          "en": "Buying two different index funds"
+        },
+        {
+          "vi": "Vay thế chấp nhà rồi vay ký quỹ thêm để mua quỹ chỉ số",
+          "en": "A home-equity loan plus a margin loan to buy index funds"
+        },
+        {
+          "vi": "Đầu tư vào vàng và trái phiếu",
+          "en": "Investing in gold and bonds"
+        },
+        {
+          "vi": "Bán khống ngân hàng",
+          "en": "Short-selling banks"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Theo ASIC, mô hình Storm yêu cầu khách hàng vay cả khoản vay mua nhà lẫn khoản vay ký quỹ để mua chứng chỉ quỹ chỉ số.",
+        "en": "According to ASIC, the Storm model involved taking out both a home loan and a margin loan to buy units in index funds."
+      }
+    },
+    "sources": [
+      {
+        "title": "ASIC 20-074MR — Federal Court confirms Storm Financial directors breached duties",
+        "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2020-releases/20-074mr-federal-court-confirms-storm-financial-directors-breached-duties"
+      },
+      {
+        "title": "ABC News — Storm Financial clients slam $140k fine after 3,000 investors left destitute",
+        "url": "https://www.abc.net.au/news/2018-03-22/storm-financial-founders-fined-140k-over-800m-company-collapse/9576418"
+      },
+      {
+        "title": "Wikipedia — Storm Financial",
+        "url": "https://en.wikipedia.org/wiki/Storm_Financial"
+      },
+      {
+        "title": "The Motley Fool Australia — How did the ASX 200 perform in the GFC?",
+        "url": "https://www.fool.com.au/2020/03/13/how-did-the-asx-200-perform-in-the-gfc/"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Double-gearing model, 1994 start and retiree client base from ASIC; 3,000+ clients and A$800m+ losses from ABC; 9 Jan 2009 administration and CBA's role from Wikipedia and SMH; ASX 200 peak 6,851.5 (Nov 2007) to 3,120.8 (Mar 2009), -54.5%, and July 2019 recovery from Motley Fool. Milestone dated to the Jan 2009 administration rather than Nov 2008."
+  },
+  {
+    "id": "au-sydney-housing-boom-2012",
+    "country": "au",
+    "date": "2012",
+    "category": "real-estate",
+    "title": {
+      "vi": "Bùng nổ nhà đất Sydney — từ 645.000 lên 1,6 triệu AUD",
+      "en": "Sydney's Housing Boom — From A$645,000 to A$1.6 Million"
+    },
+    "summary": {
+      "vi": "Lãi suất RBA giảm liên tục, ưu đãi thuế negative gearing và giảm thuế lãi vốn đẩy giá nhà trung vị Sydney tăng khoảng 2,5 lần trong một thập kỷ.",
+      "en": "Successive RBA rate cuts, negative-gearing tax breaks and the capital-gains discount pushed Sydney's median house price up about 2.5x in a decade."
+    },
+    "description": {
+      "vi": "Năm 2012, giá nhà trung vị tại Sydney là 645.000 AUD sau gần tám năm đi ngang (2004–2012). Ngân hàng Dự trữ Úc (RBA) bắt đầu một chuỗi cắt giảm lãi suất mạnh tay để bù cho sự suy giảm của ngành khai khoáng, khiến vay nợ rẻ hơn và người mua đẩy giá lên. Nhà đầu tư dùng negative gearing (khấu trừ lỗ cho thuê vào thu nhập chịu thuế) cùng ưu đãi giảm 50% thuế lãi vốn tràn vào thị trường; khoản thuế thu nhập mà họ được giảm nhờ negative gearing tăng từ 600 triệu AUD (2001/02) lên 13,2 tỷ AUD (2010/11). Đến năm 2016, giá trung vị vượt 1 triệu AUD; riêng năm 2021, giá tăng khoảng 1.100 AUD mỗi ngày, và đầu năm 2022 giá trung vị đã vượt 1,6 triệu AUD.",
+      "en": "In 2012 Sydney's median house price was A$645,000 after the market had stayed flat from 2004 to 2012. The Reserve Bank of Australia began an aggressive run of rate cuts, partly to offset the mining downturn, making debt cheaper and letting buyers bid up prices. Investors piled in using negative gearing (deducting rental losses from taxable income) and the 50% capital-gains discount; the personal income tax they saved via negative gearing grew from A$600 million in 2001/02 to A$13.2 billion in 2010/11. By 2016 the median topped A$1 million; in 2021 alone it rose about A$1,100 a day, and by early 2022 the median house price was just over A$1.6 million."
+    },
+    "opportunity": {
+      "asset": "Sydney detached houses",
+      "action": {
+        "vi": "Mua nhà ở Sydney năm 2012 khi giá đi ngang và lãi suất bắt đầu giảm",
+        "en": "Buy a Sydney house in 2012 while prices were flat and rates were starting to fall"
+      },
+      "buyWhen": {
+        "vi": "Mua năm 2012 khi giá trung vị khoảng 645.000 AUD",
+        "en": "Buy in 2012 when the median was about A$645,000"
+      },
+      "sellWhen": {
+        "vi": "Có thể chốt hoặc tái cấu trúc nợ quanh đầu năm 2022, khi giá trung vị vượt 1,6 triệu AUD và RBA sắp tăng lãi suất",
+        "en": "Consider selling or refinancing around early 2022, when the median topped A$1.6 million and the RBA was about to hike"
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng 2,5 lần giá trung vị (645.000 → khoảng 1,6 triệu AUD), lợi nhuận trên vốn tự có cao hơn nhiều nhờ đòn bẩy vay mua nhà",
+        "en": "About 2.5x on the median price (A$645,000 → ~A$1.6 million), with much higher returns on equity thanks to mortgage leverage"
+      },
+      "returnMultiple": 2.5,
+      "entryPrice": 645000,
+      "exitPrice": 1600000,
+      "priceCurrency": "AUD",
+      "exitDate": "2022-01",
+      "risk": "medium",
+      "capital": "high"
+    },
+    "insiderTip": {
+      "vi": "Biết trước RBA sẽ hạ lãi suất xuống mức thấp kỷ lục trong cả thập kỷ giúp bạn hiểu rằng 'giá đi ngang' năm 2012 thực chất là điểm mua — chi phí vay giảm sẽ được vốn hóa thẳng vào giá nhà.",
+      "en": "Knowing the RBA would cut rates to record lows over the decade tells you the 'flat market' of 2012 was really a buy signal — cheaper debt would be capitalised straight into house prices."
+    },
+    "pitfalls": {
+      "vi": "Số liệu giá trung vị khác nhau giữa Domain và CoreLogic; giá giảm trong 2017–2019 và 2022 khi lãi suất tăng. Chi phí giao dịch (thuế trước bạ NSW), lãi vay và chi phí bảo trì làm giảm lợi nhuận thực.",
+      "en": "Median figures differ between Domain and CoreLogic; prices fell in 2017–2019 and 2022 when rates rose. Transaction costs (NSW stamp duty), interest and maintenance eat into real returns."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Theo Domain, giá nhà trung vị Sydney năm 2012 là bao nhiêu?",
+        "en": "According to Domain, what was Sydney's median house price in 2012?"
+      },
+      "choices": [
+        {
+          "vi": "345.000 AUD",
+          "en": "A$345,000"
+        },
+        {
+          "vi": "645.000 AUD",
+          "en": "A$645,000"
+        },
+        {
+          "vi": "1 triệu AUD",
+          "en": "A$1 million"
+        },
+        {
+          "vi": "1,6 triệu AUD",
+          "en": "A$1.6 million"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Năm 2012 giá trung vị là 645.000 AUD; đến 2016 vượt 1 triệu và đầu năm 2022 vượt 1,6 triệu AUD.",
+        "en": "The 2012 median was A$645,000; it passed A$1 million by 2016 and A$1.6 million by early 2022."
+      }
+    },
+    "sources": [
+      {
+        "title": "Domain — Housing affordability in Sydney was actually improving three years ago, then the boom hit",
+        "url": "https://www.domain.com.au/news/housing-affordability-in-sydney-was-actually-improving-three-years-ago-then-the-boom-hit-20160816-gqthdx/"
+      },
+      {
+        "title": "ABC News — Sydney's median house price now just over $1.6m, but massive growth expected to slow",
+        "url": "https://www.abc.net.au/news/2022-01-27/sydney-median-house-price-increases-but-growth-expected-to-slow/100785706"
+      },
+      {
+        "title": "Domain — 'Unattainable': Sydney's median house price hits record high of $1.6 million",
+        "url": "https://www.domain.com.au/news/unattainable-sydneys-median-house-price-hits-record-high-of-1-6-million-2-1280380/"
+      },
+      {
+        "title": "Sydney Morning Herald — Sydney house prices fall for the first year since 2012",
+        "url": "https://www.smh.com.au/business/the-economy/sydney-house-prices-fall-for-the-first-year-since-2012-20180301-p4z294.html"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "A$645,000 2012 median, >A$1m by 2016, rate cuts and negative-gearing figures (A$600m → A$13.2bn) from Domain (2016); 'just over A$1.6m' and ~A$1,100/day growth in 2021 from ABC (Jan 2022). Entry and exit medians come from different reports, so the 2.5x multiple is approximate and excludes costs/rental income."
+  },
+  {
+    "id": "au-pilbara-minerals-lithium-boom-2020",
+    "country": "au",
+    "date": "2020-03",
+    "category": "commodities",
+    "title": {
+      "vi": "Pilbara Minerals — cơn sốt lithium thời xe điện",
+      "en": "Pilbara Minerals — the EV Lithium Boom"
+    },
+    "summary": {
+      "vi": "Từ mức thấp 13 cent tháng 3/2020, cổ phiếu PLS lên đỉnh 5,66 AUD cuối năm 2022 khi giá quặng spodumene lập kỷ lục, rồi lao dốc khi giá lithium sụp đổ.",
+      "en": "From a 13-cent low in March 2020, PLS shares hit A$5.66 in late 2022 as spodumene prices set records, then slumped when lithium prices collapsed."
+    },
+    "description": {
+      "vi": "Pilbara Minerals (ASX: PLS) khai thác quặng spodumene chứa lithium tại mỏ Pilgangoora, Tây Úc. Trong cú sập COVID, cổ phiếu có lúc chỉ còn 13 cent (3/2020). Doanh số xe điện bùng nổ tại Trung Quốc và thế giới khiến nguồn cung lithium thiếu hụt; Pilbara bán quặng qua nền tảng đấu giá BMX và tháng 11/2022 đạt giá kỷ lục khoảng 8.575 USD/tấn khô (SC6.0). Năm tài chính 2022, công ty ghi doanh thu kỷ lục 1,2 tỷ AUD và lãi ròng lần đầu. Cổ phiếu lập đỉnh mọi thời đại 5,66 AUD cuối năm 2022. Sau đó giá lithium giảm hơn 50% chỉ trong 12 tháng; lợi nhuận năm tài chính 2023–24 của Pilbara giảm 89% và công ty không trả cổ tức.",
+      "en": "Pilbara Minerals (ASX: PLS) mines lithium-bearing spodumene at Pilgangoora in Western Australia. In the COVID crash its shares fell as low as 13 cents (March 2020). Booming electric-vehicle sales in China and globally created a lithium shortage; Pilbara sold cargoes through its BMX auction platform and in November 2022 achieved a record of about US$8,575/dmt (SC6.0). In FY2022 it booked record revenue of A$1.2 billion and its maiden net profit. The shares hit an all-time high of A$5.66 in late 2022. Lithium prices then fell more than 50% within 12 months; Pilbara's FY2023-24 profit plunged 89% and it paid no dividend."
+    },
+    "opportunity": {
+      "asset": "Pilbara Minerals Ltd (ASX: PLS)",
+      "action": {
+        "vi": "Mua PLS trong cú sập COVID và bán khi giá spodumene lập kỷ lục cuối 2022",
+        "en": "Buy PLS in the COVID crash and sell when spodumene prices hit records in late 2022"
+      },
+      "buyWhen": {
+        "vi": "Mua quanh 13 cent tháng 3/2020 (hoặc khoảng 29 cent tháng 6/2020)",
+        "en": "Buy around 13 cents in March 2020 (or about 29 cents in June 2020)"
+      },
+      "sellWhen": {
+        "vi": "Bán gần đỉnh 5,66 AUD cuối năm 2022, khi đấu giá BMX đạt khoảng 8.575 USD/tấn",
+        "en": "Sell near the A$5.66 high in late 2022, when BMX auctions reached about US$8,575/t"
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng 43 lần từ đáy 13 cent; khoảng 19 lần nếu mua ở 29 cent tháng 6/2020",
+        "en": "About 43x from the 13-cent low; about 19x if bought at 29 cents in June 2020"
+      },
+      "returnMultiple": 43,
+      "entryPrice": 0.13,
+      "exitPrice": 5.66,
+      "priceCurrency": "AUD",
+      "exitDate": "2022",
+      "risk": "high",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Hàng hóa có chu kỳ: biết trước giá spodumene sẽ đạt đỉnh cuối 2022 giúp bạn chốt lời khi đồng thuận đang nói về 'siêu chu kỳ lithium' thay vì giữ qua đợt giảm hơn 50%.",
+      "en": "Commodities are cyclical: knowing spodumene would peak in late 2022 lets you sell while the consensus talked about a 'lithium supercycle', instead of holding through a 50%+ price collapse."
+    },
+    "pitfalls": {
+      "vi": "Nhà đầu tư mua đuổi năm 2022–2023 thua lỗ nặng khi giá lithium sụp đổ. Cổ phiếu khai khoáng nhỏ có thể pha loãng mạnh qua phát hành thêm, và giá 13 cent chỉ là đáy trong một thời gian ngắn.",
+      "en": "Investors who chased in 2022–2023 lost heavily when lithium prices collapsed. Small miners can dilute heavily via capital raisings, and 13 cents was only a brief low."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Pilbara Minerals khai thác loại quặng lithium nào?",
+        "en": "Which lithium mineral does Pilbara Minerals mine?"
+      },
+      "choices": [
+        {
+          "vi": "Nước muối lithium (brine)",
+          "en": "Lithium brine"
+        },
+        {
+          "vi": "Spodumene",
+          "en": "Spodumene"
+        },
+        {
+          "vi": "Bauxite",
+          "en": "Bauxite"
+        },
+        {
+          "vi": "Quặng sắt hematite",
+          "en": "Hematite iron ore"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Pilbara sản xuất tinh quặng spodumene tại mỏ Pilgangoora và bán qua đấu giá BMX.",
+        "en": "Pilbara produces spodumene concentrate at Pilgangoora and sells cargoes through BMX auctions."
+      }
+    },
+    "sources": [
+      {
+        "title": "Australian Resources & Investment — Pilbara Minerals takes the plunge (13 cents in March 2020)",
+        "url": "https://www.australianresourcesandinvestment.com.au/pilbara-minerals-takes-the-plunge/"
+      },
+      {
+        "title": "The Motley Fool Australia — $10k invested in Pilbara Minerals shares 5 years ago is now worth… ($5.66 all-time high)",
+        "url": "https://www.fool.com.au/2025/06/13/10k-invested-in-pilbara-minerals-shares-5-years-ago-is-worth/"
+      },
+      {
+        "title": "Seeking Alpha — Lithium Miners News For The Month Of November 2022",
+        "url": "https://seekingalpha.com/article/4560374-lithium-miners-news-for-november-2022"
+      },
+      {
+        "title": "ABC News — Lithium prices have crashed this year, squeezing margins at Australian miners",
+        "url": "https://www.abc.net.au/news/2024-09-03/lithium-price-crashes-and-australian-miners-in-damage-control/104262228"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "13-cent March 2020 low from Australian Resources & Investment; A$5.66 'late 2022' all-time high and 29 cents in June 2020 from Motley Fool; ~US$8,575/dmt BMX record from Seeking Alpha (Nov 2022 summary); A$1.2bn FY22 revenue from PLS annual report; 50%+ price fall and 89% FY24 profit drop from ABC and SMH. Exact day of the A$5.66 high not confirmed, so exitDate is given as 2022. Multiple (~43x) differs from the ~35x brief because the sourced low was 13c, not 15c."
+  },
+  {
+    "id": "au-afterpay-bnpl-frenzy-2020",
+    "country": "au",
+    "date": "2020-03-23",
+    "category": "technology",
+    "title": {
+      "vi": "Afterpay — từ 8,90 AUD lúc COVID hoảng loạn đến thương vụ 39 tỷ AUD",
+      "en": "Afterpay — From A$8.90 in the COVID Panic to a A$39 Billion Buyout"
+    },
+    "summary": {
+      "vi": "Cổ phiếu 'mua trước trả sau' rơi xuống 8,90 AUD ngày 23/3/2020, rồi lập đỉnh 160,05 AUD tháng 2/2021 trước khi Square mua lại với giá 39 tỷ AUD.",
+      "en": "The buy-now-pay-later stock crashed to A$8.90 on 23 March 2020, hit A$160.05 in February 2021, then Square agreed a A$39 billion takeover."
+    },
+    "description": {
+      "vi": "Afterpay (ASX: APT), do Nick Molnar và Anthony Eisen sáng lập năm 2014, là biểu tượng của làn sóng 'mua trước trả sau' (BNPL). Cổ phiếu đóng cửa ở đỉnh 40,50 AUD ngày 19/2/2020, rồi sụp xuống 8,90 AUD ngày 23/3/2020 (có lúc 8,01 AUD trong phiên) khi COVID-19 khiến thị trường hoảng loạn. Mua sắm trực tuyến bùng nổ trong đại dịch và Tencent mua 5% cổ phần đã đảo chiều tâm lý: tháng 2/2021, cổ phiếu lập kỷ lục 160,05 AUD — gấp khoảng 18 lần trong chưa đầy một năm. Ngày 2/8/2021, Square (nay là Block) của Jack Dorsey công bố mua lại Afterpay bằng cổ phiếu trị giá 39 tỷ AUD, với tỷ lệ 0,375 cổ phiếu Square cho mỗi cổ phiếu Afterpay, tương đương 126,21 AUD/cổ phiếu.",
+      "en": "Afterpay (ASX: APT), founded by Nick Molnar and Anthony Eisen in 2014, was the poster child of buy-now-pay-later (BNPL). The stock closed at a then-record A$40.50 on 19 February 2020, then collapsed to A$8.90 on 23 March 2020 (A$8.01 intraday) as COVID-19 panic swept markets. The pandemic online-shopping boom and Tencent's 5% stake flipped sentiment: by February 2021 the shares hit a record A$160.05 — roughly 18x in under a year. On 2 August 2021 Jack Dorsey's Square (now Block) announced an all-stock A$39 billion takeover, offering 0.375 Square shares per Afterpay share, implying A$126.21 a share."
+    },
+    "opportunity": {
+      "asset": "Afterpay Ltd (ASX: APT)",
+      "action": {
+        "vi": "Mua Afterpay trong cơn hoảng loạn COVID tháng 3/2020 và chốt lời trong cơn sốt BNPL đầu 2021",
+        "en": "Buy Afterpay in the March 2020 COVID panic and take profits in the early-2021 BNPL frenzy"
+      },
+      "buyWhen": {
+        "vi": "Mua quanh 8,90 AUD ngày 23/3/2020",
+        "en": "Buy around A$8.90 on 23 March 2020"
+      },
+      "sellWhen": {
+        "vi": "Bán gần đỉnh 160,05 AUD tháng 2/2021, hoặc nhận cổ phiếu Square theo giá ngụ ý 126,21 AUD tháng 8/2021",
+        "en": "Sell near the A$160.05 peak in February 2021, or accept Square stock at the implied A$126.21 in August 2021"
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng 18 lần (8,90 → 160,05 AUD) trong chưa đầy 11 tháng; khoảng 14 lần nếu chờ đến giá chào mua của Square",
+        "en": "About 18x (A$8.90 → A$160.05) in under 11 months; about 14x if you waited for Square's offer price"
+      },
+      "returnMultiple": 18,
+      "entryPrice": 8.9,
+      "exitPrice": 160.05,
+      "priceCurrency": "AUD",
+      "exitDate": "2021-02",
+      "risk": "high",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Biết trước đại dịch sẽ đẩy mua sắm trực tuyến lên đỉnh và lãi suất gần 0% sẽ thổi phồng cổ phiếu công nghệ giúp bạn mua khi người khác sợ rằng nợ xấu BNPL sẽ bùng nổ.",
+      "en": "Knowing the pandemic would supercharge online shopping and near-zero rates would inflate tech valuations lets you buy while everyone else feared a BNPL bad-debt blow-up."
+    },
+    "pitfalls": {
+      "vi": "Cổ phiếu cực kỳ biến động: chỉ một tháng sau đỉnh, APT đã giảm về quanh 100 AUD. Cổ đông nhận cổ phiếu Block sau đó chịu thêm cú giảm mạnh của cổ phiếu công nghệ Mỹ năm 2022.",
+      "en": "The stock was wildly volatile: within about a month of the peak APT was back near A$100. Holders who took Block shares then suffered the 2022 US tech sell-off."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Square đề nghị mua Afterpay với tổng giá trị khoảng bao nhiêu?",
+        "en": "Roughly how much was Square's offer for Afterpay worth?"
+      },
+      "choices": [
+        {
+          "vi": "3,9 tỷ AUD",
+          "en": "A$3.9 billion"
+        },
+        {
+          "vi": "17,7 tỷ AUD",
+          "en": "A$17.7 billion"
+        },
+        {
+          "vi": "39 tỷ AUD",
+          "en": "A$39 billion"
+        },
+        {
+          "vi": "160 tỷ AUD",
+          "en": "A$160 billion"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "Thương vụ toàn cổ phiếu định giá Afterpay khoảng 39 tỷ AUD (khoảng 29 tỷ USD) — vụ mua lại lớn nhất lịch sử doanh nghiệp Úc khi công bố.",
+        "en": "The all-stock deal valued Afterpay at about A$39 billion (about US$29 billion) — the biggest buyout in Australian corporate history when announced."
+      }
+    },
+    "sources": [
+      {
+        "title": "AFR — David Hancock's $115 million Afterpay sell-down ($8.90 on 23 March 2020)",
+        "url": "https://www.afr.com/rear-window/david-hancock-s-115-million-afterpay-sell-down-20200331-p54fnt"
+      },
+      {
+        "title": "The Motley Fool Australia — If you invested $1,000 in Afterpay shares 4 years ago ($160.05 all-time high)",
+        "url": "https://www.fool.com.au/2021/08/09/if-you-invested-1000-in-afterpay-asxapt-shares-4-years-ago-heres-what-it-would-be-worth-now/"
+      },
+      {
+        "title": "ABC News — US payments giant Square to acquire Afterpay in $39 billion deal",
+        "url": "https://www.abc.net.au/news/2021-08-02/square-to-buy-afterpay-in-39-billion-deal-buy-now-pay-later/100341852"
+      },
+      {
+        "title": "Reuters via Yahoo Finance — Square to buy Australia's Afterpay in $29 bln all-stock deal",
+        "url": "https://finance.yahoo.com/news/1-square-buy-australias-afterpay-215103559.html"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "A$8.90 on 23 Mar 2020 and A$40.50 19 Feb 2020 close from AFR; A$8.01 intraday low and A$160.05 Feb 2021 high from Motley Fool; A$39bn deal from ABC; 0.375 ratio and A$126.21 implied price from Reuters. 18x uses the A$8.90 close (≈20x from the A$8.01 intraday low)."
+  },
+  {
+    "id": "au-asx-spot-bitcoin-etf-2024",
+    "country": "au",
+    "date": "2024-06-20",
+    "category": "crypto",
+    "title": {
+      "vi": "ASX niêm yết quỹ ETF Bitcoin giao ngay đầu tiên (VBTC)",
+      "en": "ASX Lists Its First Spot Bitcoin ETF (VBTC)"
+    },
+    "summary": {
+      "vi": "Ngày 20/6/2024, VanEck Bitcoin ETF (VBTC) lên sàn ASX; giá Bitcoin tính theo AUD tăng khoảng 55% đến cuối năm.",
+      "en": "On 20 June 2024 the VanEck Bitcoin ETF (VBTC) debuted on the ASX; Bitcoin's AUD price rose about 55% by year-end."
+    },
+    "description": {
+      "vi": "Sau khi Mỹ chấp thuận các quỹ ETF Bitcoin giao ngay vào tháng 1/2024, ASX công bố chấp thuận quỹ ETF Bitcoin giao ngay đầu tiên — VanEck Bitcoin ETF (ASX: VBTC) — niêm yết ngày 20/6/2024. Phiên đầu tiên, VBTC mở cửa ở 13,24 AUD và đóng cửa 13,34 AUD, với 96.476 chứng chỉ được giao dịch (khoảng 1,3 triệu AUD). Lần đầu tiên, nhà đầu tư Úc — kể cả quỹ hưu trí tự quản (SMSF) — có thể nắm Bitcoin qua tài khoản chứng khoán thông thường trên sàn chính. Giá Bitcoin tính theo AUD đóng cửa khoảng 97.326 AUD ngày 20/6/2024 và khoảng 150.984 AUD ngày 31/12/2024, sau khi Bitcoin vượt 100.000 USD lần đầu vào tháng 12/2024.",
+      "en": "After the US approved spot bitcoin ETFs in January 2024, the ASX admitted its first spot bitcoin ETF — the VanEck Bitcoin ETF (ASX: VBTC) — which listed on 20 June 2024. On day one VBTC opened at A$13.24 and closed at A$13.34, with 96,476 units traded (about A$1.3 million). For the first time Australian investors — including self-managed super funds (SMSFs) — could hold bitcoin through an ordinary brokerage account on the main exchange. Bitcoin's AUD price closed around A$97,326 on 20 June 2024 and around A$150,984 on 31 December 2024, after bitcoin topped US$100,000 for the first time in December 2024."
+    },
+    "opportunity": {
+      "asset": "Bitcoin via VanEck Bitcoin ETF (ASX: VBTC)",
+      "action": {
+        "vi": "Mua Bitcoin (hoặc VBTC) khi ETF ra mắt trên ASX tháng 6/2024",
+        "en": "Buy bitcoin (or VBTC) when the ETF launched on the ASX in June 2024"
+      },
+      "buyWhen": {
+        "vi": "Mua ngày 20/6/2024, khi Bitcoin khoảng 97.300 AUD và VBTC khoảng 13,3 AUD",
+        "en": "Buy on 20 June 2024, with bitcoin around A$97,300 and VBTC around A$13.3"
+      },
+      "sellWhen": {
+        "vi": "Cân nhắc chốt lời cuối tháng 12/2024 khi Bitcoin quanh 150.000 AUD",
+        "en": "Consider taking profits in late December 2024 with bitcoin around A$150,000"
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng 1,55 lần (97.326 → 150.984 AUD) trong khoảng sáu tháng, trước phí quỹ",
+        "en": "About 1.55x (A$97,326 → A$150,984) in about six months, before fund fees"
+      },
+      "returnMultiple": 1.55,
+      "entryPrice": 97325.71,
+      "exitPrice": 150984.49,
+      "priceCurrency": "AUD",
+      "exitDate": "2024-12-31",
+      "risk": "high",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Ngày ra mắt ETF trên sàn chính thường bị coi là 'sự kiện bán tin', nhưng biết trước dòng tiền ETF toàn cầu và cuộc bầu cử Mỹ tháng 11/2024 sẽ đẩy Bitcoin lên kỷ lục giúp bạn giữ thay vì bán.",
+      "en": "Main-board ETF launches are often treated as 'sell the news', but knowing global ETF inflows and the November 2024 US election would push bitcoin to records lets you hold instead of selling."
+    },
+    "pitfalls": {
+      "vi": "Bitcoin rất biến động: VBTC có những giai đoạn giảm hơn 35% trong 12 tháng. Phí quản lý và chênh lệch tỷ giá USD/AUD ảnh hưởng tới lợi nhuận; tiền điện tử không phù hợp với phần lớn tiền hưu trí.",
+      "en": "Bitcoin is extremely volatile: VBTC has had 12-month periods down more than 35%. Management fees and USD/AUD moves affect returns; crypto is unsuitable for most retirement savings."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Quỹ ETF Bitcoin giao ngay đầu tiên trên ASX là quỹ nào?",
+        "en": "What was the first spot bitcoin ETF on the ASX?"
+      },
+      "choices": [
+        {
+          "vi": "Global X 21Shares Bitcoin ETF",
+          "en": "Global X 21Shares Bitcoin ETF"
+        },
+        {
+          "vi": "Monochrome Bitcoin ETF",
+          "en": "Monochrome Bitcoin ETF"
+        },
+        {
+          "vi": "VanEck Bitcoin ETF (VBTC)",
+          "en": "VanEck Bitcoin ETF (VBTC)"
+        },
+        {
+          "vi": "BlackRock iShares Bitcoin Trust",
+          "en": "BlackRock iShares Bitcoin Trust"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "VBTC niêm yết trên ASX ngày 20/6/2024. Global X 21Shares (2022) và Monochrome niêm yết trên sàn Cboe Australia, không phải ASX.",
+        "en": "VBTC listed on the ASX on 20 June 2024. Global X 21Shares (2022) and Monochrome traded on Cboe Australia, not the ASX."
+      }
+    },
+    "sources": [
+      {
+        "title": "ASX Media Release — ASX admits first Bitcoin ETF (20 June 2024)",
+        "url": "https://www.asx.com.au/content/dam/asx/about/media-releases/2024/20-jun-asx-admits-first-bitcoin-etf.pdf"
+      },
+      {
+        "title": "VanEck — Bitcoin ETF to launch this week on ASX",
+        "url": "https://www.vaneck.com.au/news-and-media/news/media-release/bitcoin-etf-to-launch-this-week-on-asx/"
+      },
+      {
+        "title": "Cointelegraph — ASX's first Bitcoin ETF taps $1.3M volume on first trading day",
+        "url": "https://cointelegraph.com/news/australia-securities-exchange-asx-vaneck-bitcoin-etf-debut-trading"
+      },
+      {
+        "title": "StatMuse Money — Price of Bitcoin in AUD, 2024",
+        "url": "https://www.statmuse.com/money/ask/price-of-bitcoin-in-2024-aud"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "20 Jun 2024 listing confirmed by ASX media release and VanEck; A$13.24 open / A$13.34 close and 96,476 units from Cointelegraph citing ASX data; BTC/AUD closes of A$97,325.71 (20 Jun 2024) and A$150,984.49 (31 Dec 2024) from StatMuse. Multiple is based on spot bitcoin, not VBTC NAV; VBTC -35.44% 1-year figure from VanEck factsheet (later period)."
+  }
+]

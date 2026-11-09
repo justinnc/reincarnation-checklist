@@ -1,0 +1,991 @@
+[
+  {
+    "id": "sg-singtel-ipo-privatisation-1993",
+    "country": "sg",
+    "date": "1993-11-01",
+    "category": "stocks",
+    "title": {
+      "vi": "IPO Singtel 1993 — cổ phiếu chiết khấu mua bằng tiền CPF",
+      "en": "Singtel's 1993 IPO — discounted shares bought with CPF savings"
+    },
+    "summary": {
+      "vi": "Hơn 1,4 triệu người Singapore mua cổ phiếu Singtel giá ưu đãi S$1,90 bằng tiền CPF; ngày chào sàn 1/11/1993 cổ phiếu đóng cửa ở S$4,14.",
+      "en": "Over 1.4 million Singaporeans bought Singtel at a discounted S$1.90 using CPF savings; on its 1 Nov 1993 debut the stock closed at S$4.14."
+    },
+    "description": {
+      "vi": "Singtel chào bán cổ phần lần đầu từ 12/10/1993 trong thương vụ IPO trị giá S$4,3 tỷ — lớn nhất Singapore khi đó. Người tham gia Quỹ Tiết kiệm Trung ương (CPF) được dùng tiền CPF mua cổ phiếu chiết khấu đặc biệt (SDS): nhóm A giá S$1,90, nhóm B giá S$2,00, trong khi giá chốt sổ cho nhà đầu tư tổ chức là S$3,60. Nhóm A còn được thưởng 10 cổ phiếu trung thành cho mỗi 100 cổ phiếu nếu giữ sau năm thứ 1, 2, 4 và 6. Hơn 1,4 triệu người Singapore trở thành cổ đông. Ngày giao dịch đầu tiên 1/11/1993, sàn kéo dài phiên lên 12 tiếng, 116 triệu cổ phiếu được khớp và giá đóng cửa ở S$4,14, đưa vốn hóa Singtel lên S$63 tỷ — hơn nửa vốn hóa toàn sàn.",
+      "en": "Singtel's IPO opened on 12 Oct 1993 as a S$4.3bn float — Singapore's largest at the time. Central Provident Fund (CPF) members could use their CPF savings to buy Special Discounted Shares (SDS): Group A at S$1.90 and Group B at S$2.00, versus an institutional bookbuild clearing price of S$3.60. Group A holders also received 10 loyalty shares per 100 held after years 1, 2, 4 and 6. More than 1.4 million Singaporeans became shareholders. On debut day, 1 Nov 1993, the exchange extended trading to 12 hours, 116m shares changed hands and the stock closed at S$4.14, giving Singtel a S$63bn market value — more than half the whole exchange."
+    },
+    "opportunity": {
+      "asset": "Singtel (Z74.SI) — Group A Special Discounted Shares",
+      "action": {
+        "vi": "Dùng tiền CPF đăng ký tối đa suất cổ phiếu nhóm A giá S$1,90",
+        "en": "Use CPF savings to apply for the maximum Group A allocation at S$1.90"
+      },
+      "buyWhen": {
+        "vi": "Trong đợt chào bán tháng 10/1993",
+        "en": "During the October 1993 offer period"
+      },
+      "sellWhen": {
+        "vi": "Chốt lời ngay phiên chào sàn 1/11/1993, hoặc giữ đủ 6 năm để nhận cổ phiếu thưởng trung thành",
+        "en": "Take profit at the 1 Nov 1993 debut, or hold six years to collect the loyalty bonus shares"
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng 2,18 lần (S$1,90 → S$4,14) chỉ sau phiên giao dịch đầu tiên",
+        "en": "About 2.18x (S$1.90 → S$4.14) by the close of the first trading day"
+      },
+      "returnMultiple": 2.18,
+      "entryPrice": 1.9,
+      "exitPrice": 4.14,
+      "priceCurrency": "SGD",
+      "exitDate": "1993-11-01",
+      "risk": "low",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Biết trước giá chào bán cho tổ chức là S$3,60 và giá chào sàn S$4,14, nhóm A ở S$1,90 gần như là 'tiền chùa' — hãy đăng ký đủ suất cho mọi thành viên gia đình có tài khoản CPF. Nếu giữ dài hạn, cổ tức tích lũy của người nắm giữ trung vị (khoảng S$5.000) đã đủ bù vốn CPF bỏ ra.",
+      "en": "Knowing institutions paid S$3.60 and the stock would close at S$4.14 on debut, Group A at S$1.90 was close to free money — apply for every family member with a CPF account. Long-term, the median holder's cumulative dividends (about S$5,000) alone more than covered the CPF money used."
+    },
+    "pitfalls": {
+      "vi": "Cơn sốt không kéo dài: đến tháng 3/1994 giá đã rơi về S$3,38, thấp hơn giá IPO cho tổ chức. Tiền bán SDS nằm lại trong tài khoản CPF, không rút ra ngay được; suất mua bị giới hạn nên không thể 'all-in'.",
+      "en": "The euphoria faded: by March 1994 the price had slid to S$3.38, below the institutional IPO price. SDS sale proceeds stayed inside CPF accounts and couldn't be withdrawn freely, and allocations were capped so you couldn't go all-in."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Người tham gia CPF mua cổ phiếu Singtel nhóm A năm 1993 với giá bao nhiêu?",
+        "en": "What price did CPF members pay for Group A Singtel shares in 1993?"
+      },
+      "choices": [
+        {
+          "vi": "S$3,60",
+          "en": "S$3.60"
+        },
+        {
+          "vi": "S$1,90",
+          "en": "S$1.90"
+        },
+        {
+          "vi": "S$4,14",
+          "en": "S$4.14"
+        },
+        {
+          "vi": "S$2,50",
+          "en": "S$2.50"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Nhóm A trả S$1,90 (nhóm B S$2,00), thấp hơn nhiều so với giá S$3,60 của nhà đầu tư tổ chức; cổ phiếu đóng cửa phiên đầu ở S$4,14.",
+        "en": "Group A paid S$1.90 (Group B S$2.00), far below the S$3.60 institutional price; the stock closed its first day at S$4.14."
+      }
+    },
+    "sources": [
+      {
+        "title": "IFR: End of special retail shares brings back memories of landmark Singtel IPO",
+        "url": "https://www.ifre.com/region/2408758/end-of-special-retail-shares-brings-back-memories-of-landmark-singtel-ipo"
+      },
+      {
+        "title": "The Straits Times: Over 600,000 holders of Singtel discounted shares to get direct ownership",
+        "url": "https://www.straitstimes.com/singapore/politics/over-600000-holders-of-singtel-discounted-shares-to-get-direct-ownership-to-sell-for-cash"
+      },
+      {
+        "title": "NLB Infopedia: Singapore Telecom goes public",
+        "url": "https://www.nlb.gov.sg/main/article-detail?cmsuuid=bad4f49b-de48-4f5c-8f12-70dd31addfd7"
+      },
+      {
+        "title": "SGX: Singtel corporate information",
+        "url": "https://links.sgx.com/1.0.0/corporate-information/2032"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "IFR confirms S$4.3bn IPO, Group A S$1.90 / Group B S$2.00 vs S$3.60 institutional price, 1.4m+ shareholders, 1 Nov 1993 debut close S$4.14, S$63bn market cap and March 1994 dip to S$3.38; NLB confirms 12 Oct 1993 offer; ST confirms ~S$5,000 median cumulative dividends."
+  },
+  {
+    "id": "sg-asian-crisis-sti-bottom-1998",
+    "country": "sg",
+    "date": "1998-09-04",
+    "category": "stocks",
+    "title": {
+      "vi": "Khủng hoảng tài chính châu Á — chỉ số Straits Times chạm đáy 805 điểm",
+      "en": "Asian Financial Crisis — the Straits Times index bottoms at 805"
+    },
+    "summary": {
+      "vi": "Chỉ số STII mất gần 60%, từ 2.007 điểm (7/1997) xuống 805 điểm ngày 4/9/1998, rồi STI tăng 78% riêng năm 1999 để đóng cửa ở 2.479,58.",
+      "en": "The STII lost almost 60%, from 2,007 (Jul 1997) to 805 on 4 Sep 1998; the STI then gained 78% in 1999 alone to close at 2,479.58."
+    },
+    "description": {
+      "vi": "Cuộc khủng hoảng bắt đầu khi Thái Lan thả nổi đồng baht tháng 7/1997 rồi lan khắp khu vực. Chỉ số Straits Times Industrials (STII) — thước đo chuẩn của thị trường Singapore lúc đó — lao dốc gần 60%, từ đỉnh 2.007 điểm ngày 8/7/1997 xuống đáy 805 điểm ngày 4/9/1998. Khủng hoảng thúc đẩy Cơ quan Tiền tệ Singapore (MAS) tiến hành hàng loạt cải cách, tự do hóa thị trường vốn. Khi khu vực hồi phục, thị trường đảo chiều mạnh: Straits Times Index tăng 78,04% trong năm 1999, đóng cửa ở 2.479,58 điểm — liên tục lập đỉnh mới vào tháng 12/1999.",
+      "en": "The crisis began when Thailand floated the baht in July 1997 and spread across the region. The Straits Times Industrials Index (STII) — Singapore's benchmark at the time — plunged almost 60%, from a high of 2,007 on 8 July 1997 to a low of 805 on 4 September 1998. The crash pushed the Monetary Authority of Singapore (MAS) into a wave of capital-market reform and liberalisation. As the region recovered the market reversed hard: the Straits Times Index gained 78.04% in 1999 to close at 2,479.58, setting fresh highs through December 1999."
+    },
+    "opportunity": {
+      "asset": "Straits Times Index (Singapore blue chips / index funds)",
+      "action": {
+        "vi": "Mua mạnh cổ phiếu blue-chip Singapore (ngân hàng, viễn thông, bất động sản) khi thị trường hoảng loạn nhất",
+        "en": "Buy Singapore blue chips (banks, telecoms, property) hard at the height of the panic"
+      },
+      "buyWhen": {
+        "vi": "Quanh đáy 805 điểm đầu tháng 9/1998",
+        "en": "Around the 805 bottom in early September 1998"
+      },
+      "sellWhen": {
+        "vi": "Chốt lời vào cuối năm 1999 khi chỉ số vượt 2.400 điểm, trước khi bong bóng dot-com vỡ năm 2000",
+        "en": "Take profit at end-1999 above 2,400, before the 2000 dot-com bust"
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng 3,08 lần theo chỉ số (805 → 2.479,58) trong khoảng 16 tháng",
+        "en": "About 3.08x on the index (805 → 2,479.58) in roughly 16 months"
+      },
+      "returnMultiple": 3.08,
+      "entryPrice": 805,
+      "exitPrice": 2479.58,
+      "exitDate": "1999-12-31",
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Biết đáy là 805 điểm ngày 4/9/1998, hãy giữ tiền mặt suốt năm 1997-1998 rồi giải ngân vào nhóm ngân hàng — năm 1999 chính đợt định giá lại ngành ngân hàng kéo chỉ số lên đỉnh mới. Bán trước khi năm 2000 bắt đầu: STI mất 22% trong năm 2000.",
+      "en": "Knowing the floor was 805 on 4 Sep 1998, sit in cash through 1997-98 then deploy into the banks — a sector-wide bank re-rating drove the index to new highs in 1999. Sell before 2000 began: the STI fell 22% that year."
+    },
+    "pitfalls": {
+      "vi": "Không ai biết trước đáy: chỉ số đã thủng mốc 1.000 điểm từ tháng 8/1998 và nhiều người 'bắt dao rơi' quá sớm. STII cũ và STI hiện nay là hai chuỗi chỉ số khác nhau (STI được tái lập năm 2008), nên phép so sánh chỉ mang tính tham khảo.",
+      "en": "Nobody could see the bottom: the index broke below 1,000 in August 1998 and many caught the falling knife too early. The old STII and today's STI are different series (the STI was relaunched in 2008), so the comparison is indicative only."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Chỉ số STII của Singapore chạm đáy bao nhiêu điểm trong khủng hoảng tài chính châu Á?",
+        "en": "What low did Singapore's STII hit during the Asian Financial Crisis?"
+      },
+      "choices": [
+        {
+          "vi": "1.500 điểm",
+          "en": "1,500 points"
+        },
+        {
+          "vi": "1.200 điểm",
+          "en": "1,200 points"
+        },
+        {
+          "vi": "805 điểm",
+          "en": "805 points"
+        },
+        {
+          "vi": "400 điểm",
+          "en": "400 points"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "STII rơi từ 2.007 điểm (8/7/1997) xuống 805 điểm ngày 4/9/1998 — giảm gần 60%.",
+        "en": "The STII fell from 2,007 (8 Jul 1997) to 805 on 4 Sep 1998 — down almost 60%."
+      }
+    },
+    "sources": [
+      {
+        "title": "Kung & Wong, Journal of Economic Integration (2009): Technical Analysis in the Singapore Stock Market before and after the Asian Financial Crisis",
+        "url": "https://www.e-jei.org/upload/7005956J7X376050.pdf"
+      },
+      {
+        "title": "Wikipedia: Straits Times Index — annual returns",
+        "url": "https://en.wikipedia.org/wiki/Straits_Times_Index"
+      },
+      {
+        "title": "NLB NewspaperSG: The New Paper, 8 December 1999",
+        "url": "https://eresources.nlb.gov.sg/newspapers/digitised/issue/newpaper19991208-1"
+      },
+      {
+        "title": "NLB NewspaperSG: The Straits Times, 12 August 1998 (STII falls below 1,000)",
+        "url": "https://eresources.nlb.gov.sg/newspapers/digitised/issue/straitstimes19980812-1"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Academic paper confirms STII 2,007 (8 Jul 1997) → 805 (4 Sep 1998); Wikipedia annual table gives 1999 close 2,479.58 (+78.04%) and 2000 -22.29%. Multiple mixes the old STII low with the STI year-end close, so it is indicative."
+  },
+  {
+    "id": "sg-china-aviation-oil-scandal-2004",
+    "country": "sg",
+    "date": "2004-11-30",
+    "category": "commodities",
+    "title": {
+      "vi": "Bê bối China Aviation Oil — lỗ phái sinh dầu 550 triệu USD",
+      "en": "China Aviation Oil scandal — US$550 million oil-derivatives loss"
+    },
+    "summary": {
+      "vi": "Ngày 30/11/2004, CAO (Singapore) công bố khoản lỗ 550 triệu USD từ quyền chọn dầu, xin bảo hộ trước chủ nợ; CEO Trần Cửu Lâm lĩnh 4 năm 3 tháng tù.",
+      "en": "On 30 Nov 2004 CAO (Singapore) disclosed US$550m of oil-options losses and sought creditor protection; CEO Chen Jiulin got 4 years 3 months in jail."
+    },
+    "description": {
+      "vi": "China Aviation Oil (Singapore) — công ty niêm yết trên SGX từ 2001, nhập khẩu hơn 90% nhiên liệu bay của Trung Quốc — đã đầu cơ phái sinh dầu vượt hạn mức rủi ro. Khi giá dầu vượt 55 USD/thùng, công ty không đủ tiền đáp ứng các lệnh gọi ký quỹ. Ngày 30/11/2004, CAO tạm dừng giao dịch cổ phiếu, xin bảo hộ trước chủ nợ và công bố khoản lỗ 550 triệu USD — vụ bê bối tài chính lớn nhất Singapore kể từ sự sụp đổ của Barings năm 1995. Công ty được BP, Temasek và công ty mẹ cứu bằng tái cấu trúc. Ngày 21/3/2006, CEO Trần Cửu Lâm bị tòa Singapore tuyên 4 năm 3 tháng tù và phạt S$335.000 vì che giấu thua lỗ, lập báo cáo tài chính sai và giao dịch nội gián.",
+      "en": "China Aviation Oil (Singapore) — SGX-listed since 2001 and importer of over 90% of China's jet fuel — speculated in oil derivatives beyond its risk limits. When crude topped US$55 a barrel it could not meet margin calls. On 30 Nov 2004 CAO halted trading, sought protection from creditors and disclosed US$550m of losses — Singapore's biggest financial scandal since Barings collapsed in 1995. BP, Temasek and the parent company rescued it via a restructuring. On 21 Mar 2006 a Singapore court jailed CEO Chen Jiulin for 4 years 3 months and fined him S$335,000 for hiding the losses, false financial statements and insider trading."
+    },
+    "opportunity": {
+      "asset": "China Aviation Oil (Singapore) (G92.SI)",
+      "action": {
+        "vi": "Bán sạch hoặc bán khống cổ phiếu CAO trước khi công ty dừng giao dịch",
+        "en": "Sell out of, or short, CAO shares before trading was halted"
+      },
+      "buyWhen": {
+        "vi": "Thoát vị thế trong tháng 10-11/2004 khi giá dầu leo thang và có tin công ty mẹ bán bớt cổ phần",
+        "en": "Exit in Oct-Nov 2004 as oil prices spiked and the parent quietly sold down its stake"
+      },
+      "sellWhen": {
+        "vi": "Trước ngày 30/11/2004",
+        "en": "Before 30 November 2004"
+      },
+      "estimatedReturn": {
+        "vi": "Tránh cảnh vốn bị 'đóng băng' do cổ phiếu ngừng giao dịch từ 11/2004 và phải chờ tái cấu trúc nợ (chủ nợ duyệt tháng 6/2005)",
+        "en": "Avoids having capital frozen by the trading halt from Nov 2004 through the debt restructuring (approved by creditors in Jun 2005)"
+      },
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Dấu hiệu cảnh báo: công ty nhập khẩu nhiên liệu bỗng 'kiếm tiền' từ quyền chọn dầu, và công ty mẹ bán bớt cổ phần qua Deutsche Bank năm 2004 trong khi giấu khoản lỗ — Chen sau đó nhận tội giao dịch nội gián vì chính thương vụ này.",
+      "en": "Red flags: a fuel importer suddenly 'profiting' from oil options, and the parent selling a stake through Deutsche Bank in 2004 while losses were hidden — Chen later pleaded guilty to insider trading over that very sale."
+    },
+    "pitfalls": {
+      "vi": "Nhà đầu tư nhỏ lẻ hầu như không thể bán khống cổ phiếu Singapore thời đó; cổ đông còn lại bị kẹt suốt thời gian tạm ngừng giao dịch và chịu pha loãng khi tái cấu trúc.",
+      "en": "Retail investors could barely short Singapore stocks back then; remaining shareholders were stuck through the suspension and diluted in the restructuring."
+    },
+    "quiz": {
+      "question": {
+        "vi": "China Aviation Oil (Singapore) công bố khoản lỗ phái sinh bao nhiêu vào cuối năm 2004?",
+        "en": "How large were the derivatives losses China Aviation Oil (Singapore) disclosed in late 2004?"
+      },
+      "choices": [
+        {
+          "vi": "US$55 triệu",
+          "en": "US$55 million"
+        },
+        {
+          "vi": "US$1,3 tỷ",
+          "en": "US$1.3 billion"
+        },
+        {
+          "vi": "US$130 triệu",
+          "en": "US$130 million"
+        },
+        {
+          "vi": "US$550 triệu",
+          "en": "US$550 million"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "vi": "CAO công bố lỗ 550 triệu USD ngày 30/11/2004 — bê bối lớn nhất Singapore kể từ Barings 1995.",
+        "en": "CAO disclosed US$550m of losses on 30 Nov 2004 — Singapore's biggest scandal since Barings in 1995."
+      }
+    },
+    "sources": [
+      {
+        "title": "Wikipedia: China Aviation Oil",
+        "url": "https://en.wikipedia.org/wiki/China_Aviation_Oil"
+      },
+      {
+        "title": "MAS: China Aviation Oil (Singapore) — media release, 16 Dec 2004",
+        "url": "https://www.mas.gov.sg/news/media-releases/2004/china-aviation-oil-singapore"
+      },
+      {
+        "title": "The New York Times: Prison for fuel trader's ex-chief (21 Mar 2006)",
+        "url": "https://www.nytimes.com/2006/03/21/business/worldbusiness/prison-for-fuel-traders-exchief.html"
+      },
+      {
+        "title": "Energy Intelligence: Former CAO Head Jailed",
+        "url": "https://www.energyintel.com/0000017b-a7ab-de4c-a17b-e7eb080d0000"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "MAS release confirms 30 Nov 2004 announcement; Wikipedia confirms US$550m loss, >US$55/bbl margin calls, Barings comparison, BP/Temasek rescue; NYT/Energy Intelligence confirm 4y3m sentence and S$335,000 fine (21 Mar 2006). No share-price multiple given because shares were suspended."
+  },
+  {
+    "id": "sg-integrated-resorts-property-boom-2009",
+    "country": "sg",
+    "date": "2009-06",
+    "category": "real-estate",
+    "title": {
+      "vi": "Bùng nổ bất động sản Singapore 2009-2013 — thời kỳ hai khu nghỉ dưỡng tích hợp",
+      "en": "Singapore property boom 2009-2013 — the Integrated Resorts era"
+    },
+    "summary": {
+      "vi": "Chỉ số giá nhà tư nhân URA tăng từ 95,3 (quý 2/2009) lên đỉnh 154,6 (quý 3/2013) — khoảng +62% — trước khi ABSD và TDSR hãm phanh thị trường.",
+      "en": "URA's private home price index rose from 95.3 (Q2 2009) to a 154.6 peak (Q3 2013) — about +62% — before ABSD and TDSR slammed on the brakes."
+    },
+    "description": {
+      "vi": "Sau khi chỉ số giá nhà tư nhân URA giảm 24,9% từ đỉnh quý 2/2008 xuống đáy 95,3 điểm quý 2/2009, người mua quay lại ồ ạt: giao dịch năm 2009 tăng 2,5 lần lên hơn 33.000 căn và chỉ số hồi phục 38% chỉ trong bốn quý. Tháng 1/2010 Resorts World Sentosa khai trương, tháng 4/2010 Marina Bay Sands mở cửa, củng cố hình ảnh Singapore như trung tâm du lịch - tài chính. Chính phủ tung nhiều đợt hạ nhiệt: bỏ chương trình hỗ trợ lãi suất (9/2009), tái áp thuế bán nhà sớm SSD (2/2010), áp thuế trước bạ bổ sung ABSD (12/2011) và khung tỷ lệ trả nợ TDSR (6/2013). Chỉ số vẫn lên đỉnh 154,6 điểm quý 3/2013 rồi giảm 11,6% đến quý 2/2017.",
+      "en": "After URA's private home price index fell 24.9% from its Q2 2008 peak to a 95.3 trough in Q2 2009, buyers flooded back: 2009 volume jumped 2.5x to over 33,000 units and the index recovered 38% in four quarters. Resorts World Sentosa opened in January 2010 and Marina Bay Sands in April 2010, cementing Singapore's image as a tourism and finance hub. The government rolled out round after round of cooling: scrapping the interest absorption scheme (Sep 2009), reintroducing Seller's Stamp Duty (Feb 2010), the Additional Buyer's Stamp Duty (Dec 2011) and the TDSR debt-servicing framework (Jun 2013). The index still peaked at 154.6 in Q3 2013, then slid 11.6% to Q2 2017."
+    },
+    "opportunity": {
+      "asset": "Singapore private condominiums (URA Private Residential Price Index)",
+      "action": {
+        "vi": "Mua căn hộ tư nhân ở đáy giữa năm 2009 khi người mua còn sợ hãi sau khủng hoảng tài chính toàn cầu",
+        "en": "Buy a private condo at the mid-2009 trough while buyers were still shell-shocked by the GFC"
+      },
+      "buyWhen": {
+        "vi": "Quý 2/2009, khi chỉ số URA ở 95,3 điểm và trước các đợt hạ nhiệt",
+        "en": "Q2 2009, with the URA index at 95.3 and before the cooling rounds"
+      },
+      "sellWhen": {
+        "vi": "Bán quanh quý 3/2013 (đỉnh 154,6), sau khi hết thời hạn chịu thuế SSD",
+        "en": "Sell around Q3 2013 (154.6 peak), once outside the SSD holding period"
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng +62% theo chỉ số giá (95,3 → 154,6), chưa tính đòn bẩy vay thế chấp",
+        "en": "About +62% on the price index (95.3 → 154.6), before mortgage leverage"
+      },
+      "returnMultiple": 1.62,
+      "entryPrice": 95.3,
+      "exitPrice": 154.6,
+      "exitDate": "2013-09",
+      "risk": "medium",
+      "capital": "high"
+    },
+    "insiderTip": {
+      "vi": "Mua trước tháng 2/2010 để vay được tới 90% giá trị (sau đó LTV bị siết còn 80%, rồi 70%) và trước khi ABSD 12/2011 đánh vào người mua căn thứ hai, người nước ngoài; các dự án vùng ngoại ô (OCR) tăng mạnh nhất giai đoạn cuối chu kỳ.",
+      "en": "Buy before Feb 2010 to borrow up to 90% (LTV was later cut to 80%, then 70%) and before the Dec 2011 ABSD hit second-home and foreign buyers; Outside Central Region projects rose fastest late in the cycle."
+    },
+    "pitfalls": {
+      "vi": "Thuế bán nhà sớm SSD lên tới 16% nếu bán trong 4 năm (từ 1/2011); ai mua ở đỉnh 2013 phải chờ đến quý 4/2020 chỉ số mới vượt lại đỉnh cũ.",
+      "en": "Seller's Stamp Duty reached up to 16% for sales within 4 years (from Jan 2011); anyone who bought at the 2013 peak waited until Q4 2020 for the index to regain it."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Thuế trước bạ bổ sung (ABSD) của Singapore lần đầu được áp dụng khi nào?",
+        "en": "When did Singapore first introduce the Additional Buyer's Stamp Duty (ABSD)?"
+      },
+      "choices": [
+        {
+          "vi": "Tháng 12/2011",
+          "en": "December 2011"
+        },
+        {
+          "vi": "Tháng 5/1996",
+          "en": "May 1996"
+        },
+        {
+          "vi": "Tháng 4/2023",
+          "en": "April 2023"
+        },
+        {
+          "vi": "Tháng 9/2009",
+          "en": "September 2009"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "ABSD ra đời tháng 12/2011, ban đầu 10% với người nước ngoài và 3% với công dân mua căn thứ ba trở lên.",
+        "en": "ABSD launched in December 2011 at 10% for foreigners and 3% for citizens buying a third or subsequent home."
+      }
+    },
+    "sources": [
+      {
+        "title": "The Business Times: SG60 — a timeline of Singapore's property market cooling measures, 1995 to 2025",
+        "url": "https://www.businesstimes.com.sg/property/bt-sg60/sg60-surge-stability-timeline-singapores-property-market-cooling-measures-1995-2025"
+      },
+      {
+        "title": "Propwise: What transaction volumes tell us about investing in the property market",
+        "url": "https://www.propwise.sg/what-transaction-volumes-tell-us-about-investing-in-the-property-market/"
+      },
+      {
+        "title": "Propwise: The Permanent Portfolio and Property Investing (URA index 154.6 peak, -11.6% to Q2 2017)",
+        "url": "https://www.propwise.sg/the-permanent-portfolio-and-property-investing/"
+      },
+      {
+        "title": "MTI: Opening of the Integrated Resorts",
+        "url": "https://www.meti.gov.sg/resources/economic-survey-of-singapore/economic-survey-of-singapore-and-feature-articles/opening-of-the-integrated-resorts/"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Propwise (from URA/data.gov.sg) gives index 95.3 in Q2 2009 and 154.6 peak in Q3 2013, -11.6% to Q2 2017, regained in Q4 2020; BT timeline confirms 2009 volume/38% rebound and Sep 2009, Feb/Aug 2010, Jan/Dec 2011 measures; MTI confirms RWS (Jan 2010) and MBS (Apr 2010) openings."
+  },
+  {
+    "id": "sg-penny-stock-crash-blumont-2013",
+    "country": "sg",
+    "date": "2013-10-04",
+    "category": "stocks",
+    "title": {
+      "vi": "Sụp đổ cổ phiếu penny tháng 10/2013 — Blumont, Asiasons, LionGold",
+      "en": "October 2013 penny-stock crash — Blumont, Asiasons, LionGold"
+    },
+    "summary": {
+      "vi": "Ba cổ phiếu bị thao túng sụp đổ ngày 4/10/2013, xóa sổ khoảng S$8 tỷ vốn hóa; chủ mưu John Soh lĩnh 36 năm tù — mức án thao túng nặng nhất lịch sử Singapore.",
+      "en": "Three manipulated stocks collapsed on 4 Oct 2013, wiping out about S$8bn; mastermind John Soh got 36 years — Singapore's longest market-manipulation sentence."
+    },
+    "description": {
+      "vi": "Từ 8/2012 đến 10/2013, doanh nhân Malaysia John Soh Chee Wen và bạn gái Quah Su-Ling dùng 187 tài khoản giao dịch để thổi giá Blumont Group, Asiasons Capital và LionGold Corp (gọi chung là BAL); các tài khoản này chiếm khoảng 60% giao dịch Blumont, 88% Asiasons và 90% LionGold. Họ cầm cố chính số cổ phiếu này để vay hơn S$170 triệu từ nhiều ngân hàng. Blumont tăng hơn 1.000% trong 9 tháng đầu 2013, đạt đỉnh S$2,45 ngày 30/9. Ngày 4/10/2013 cả ba sụp đổ, SGX tạm dừng giao dịch rồi đưa vào diện 'chứng khoán chỉ định'; khoảng S$8 tỷ vốn hóa bốc hơi. Tháng 12/2022 Tòa Thượng thẩm tuyên Soh 36 năm tù, Quah 20 năm tù.",
+      "en": "From Aug 2012 to Oct 2013, Malaysian businessman John Soh Chee Wen and his girlfriend Quah Su-Ling used 187 trading accounts to pump Blumont Group, Asiasons Capital and LionGold Corp (\"BAL\"); those accounts made up about 60% of Blumont, 88% of Asiasons and 90% of LionGold trades. They pledged the shares to borrow over S$170m from banks. Blumont soared over 1,000% in the first nine months of 2013 to a S$2.45 closing high on 30 Sep. On 4 Oct 2013 all three collapsed; SGX halted them and declared them 'designated securities', and about S$8bn of market value vanished. In Dec 2022 the High Court jailed Soh for 36 years and Quah for 20 years."
+    },
+    "opportunity": {
+      "asset": "Blumont Group (A33.SI)",
+      "action": {
+        "vi": "Tuyệt đối tránh, hoặc bán sạch cổ phiếu Blumont/Asiasons/LionGold trước khi bong bóng vỡ",
+        "en": "Stay out of, or dump, Blumont/Asiasons/LionGold before the bubble burst"
+      },
+      "buyWhen": {
+        "vi": "Thoát khỏi vị thế cuối tháng 9/2013 khi giá tăng thẳng đứng không có nền tảng",
+        "en": "Exit in late Sep 2013 while prices were going vertical with no fundamentals"
+      },
+      "sellWhen": {
+        "vi": "Trước ngày 4/10/2013",
+        "en": "Before 4 October 2013"
+      },
+      "estimatedReturn": {
+        "vi": "Tránh mất khoảng 95,6%: Blumont từ S$2,45 (30/9/2013) còn 10,9 cent (2/12/2013)",
+        "en": "Avoids a ~95.6% loss: Blumont went from S$2.45 (30 Sep 2013) to 10.9 cents (2 Dec 2013)"
+      },
+      "returnMultiple": 0.0445,
+      "entryPrice": 2.45,
+      "exitPrice": 0.109,
+      "priceCurrency": "SGD",
+      "exitDate": "2013-12-02",
+      "risk": "high",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Một cổ phiếu penny tăng hơn 1.000% trong 9 tháng, thanh khoản tập trung vào vài nhóm tài khoản và được ngân hàng nhận cầm cố — đó là dấu hiệu thao túng kinh điển. Người bán sớm nhất ngày 3/10/2013 là người duy nhất thoát hàng.",
+      "en": "A penny stock up 1,000%+ in nine months, with volume concentrated in a few account clusters and accepted as bank collateral, is textbook manipulation. Only those who sold by 3 Oct 2013 got out."
+    },
+    "pitfalls": {
+      "vi": "Khi sụp đổ, cổ phiếu bị đình chỉ và chuyển sang diện chỉ định — bán khống bị cấm, người mua phải trả tiền mặt — nên gần như không ai kịp thoát. Các công ty môi giới cho vay ký quỹ (Interactive Brokers, AmFraser) chịu lỗ tiềm năng hơn 105 triệu USD.",
+      "en": "Once the crash hit, trading was suspended and the stocks designated — short-selling banned, cash-only buying — so almost nobody could get out. Margin lenders Interactive Brokers and AmFraser faced over US$105m of potential losses."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Kẻ chủ mưu vụ sụp đổ cổ phiếu penny năm 2013, John Soh Chee Wen, bị tuyên bao nhiêu năm tù?",
+        "en": "How many years in prison did John Soh Chee Wen, mastermind of the 2013 penny-stock crash, receive?"
+      },
+      "choices": [
+        {
+          "vi": "10 năm",
+          "en": "10 years"
+        },
+        {
+          "vi": "36 năm",
+          "en": "36 years"
+        },
+        {
+          "vi": "20 năm",
+          "en": "20 years"
+        },
+        {
+          "vi": "17,5 năm",
+          "en": "17.5 years"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Soh nhận 36 năm tù và Quah Su-Ling 20 năm (12/2022) — mức án thao túng thị trường dài nhất lịch sử Singapore.",
+        "en": "Soh got 36 years and Quah Su-Ling 20 years (Dec 2022) — the longest market-manipulation sentences in Singapore's history."
+      }
+    },
+    "sources": [
+      {
+        "title": "The Straits Times: Scheme behind 2013 penny stock crash was elaborate, complex and highly exploitative",
+        "url": "https://www.straitstimes.com/business/scheme-behind-2013-penny-stock-crash-was-elaborate-complex-and-highly-exploitative-high-court"
+      },
+      {
+        "title": "ABC News: Pair sentenced to collective 56 years prison for Singapore share trading scam",
+        "url": "https://www.abc.net.au/news/2022-12-29/singapore-share-trade-scammers-sentenced-to-prison/101813712"
+      },
+      {
+        "title": "Malay Mail (Bloomberg): SGX equity trading plummets on penny-stock curbs",
+        "url": "https://www.malaymail.com/news/money/2013/12/02/sgx-equity-trading-plummets-on-penny-stock-curbs/573671"
+      },
+      {
+        "title": "The Business Times: Timeline — John Soh and Quah Su-Ling's marathon trial",
+        "url": "https://www.businesstimes.com.sg/singapore/timeline-john-soh-and-quah-su-lings-marathon-trial-comes-close"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "ST/ABC confirm Aug 2012-Oct 2013 scheme, 187 accounts, S$170m+ bank credit, ~S$8bn wiped out on 4 Oct 2013, 36- and 20-year sentences (Dec 2022); Malay Mail/Bloomberg confirms Blumont S$2.45 close on 30 Sep 2013 and 10.9 cents on 2 Dec 2013, designation on 6 Oct, US$105.8m broker exposure."
+  },
+  {
+    "id": "sg-noble-group-collapse-2015",
+    "country": "sg",
+    "date": "2015-02-15",
+    "category": "commodities",
+    "title": {
+      "vi": "Iceberg Research tấn công Noble Group — tượng đài hàng hóa sụp đổ",
+      "en": "Iceberg Research takes on Noble Group — a commodities giant unravels"
+    },
+    "summary": {
+      "vi": "Báo cáo của Iceberg ngày 15/2/2015 nghi vấn kế toán của Noble; từ vốn hóa gần 6 tỷ USD, đến 1/2018 công ty chỉ còn 263 triệu USD và cổ đông cũ bị pha loãng còn 10%.",
+      "en": "Iceberg's 15 Feb 2015 report questioned Noble's accounting; from a near-US$6bn market value, by Jan 2018 it was worth US$263m and old shareholders were cut to 10%."
+    },
+    "description": {
+      "vi": "Noble Group, do Richard Elman sáng lập năm 1986, từng là nhà buôn hàng hóa lớn nhất châu Á và niêm yết tại Singapore. Ngày 15/2/2015, nhóm nghiên cứu ẩn danh Iceberg Research công bố báo cáo cáo buộc Noble 'lợi dụng cách hạch toán công ty liên kết để tránh trích lập và thổi phồng lợi nhuận' — ví dụ khoản đầu tư Yancoal được ghi sổ 614 triệu USD dù giá thị trường chỉ 11 triệu USD — và đặt giá mục tiêu 10 cent. Ngày 16/2 cổ phiếu mất 9,5 cent xuống S$1,11. Noble bác bỏ, nhưng ba năm sau đó công ty liên tục bán tài sản, ghi giảm lớn, gộp cổ phiếu 10:1 (5/2017) và đến 1/2018 đề xuất tái cấu trúc nợ 3,5 tỷ USD, chủ nợ nắm 70%, cổ đông hiện hữu chỉ còn 10%.",
+      "en": "Noble Group, founded by Richard Elman in 1986, was once Asia's largest commodity trader and listed in Singapore. On 15 Feb 2015 anonymous Iceberg Research accused it of 'exploiting the accounting treatment of its associates to avoid large impairments and fabricate profit' — e.g. carrying Yancoal at US$614m versus an US$11m market value — and set a 10-cent target. On 16 Feb the stock lost 9.5 cents to S$1.11. Noble denied it, but over three years it sold assets, took huge writedowns, did a 10-for-1 share consolidation (May 2017) and in Jan 2018 proposed a US$3.5bn debt restructuring giving creditors 70% and existing shareholders just 10%."
+    },
+    "opportunity": {
+      "asset": "Noble Group (N21.SI)",
+      "action": {
+        "vi": "Bán khống hoặc thoát hết Noble ngay khi báo cáo Iceberg xuất hiện, thay vì tin lời phủ nhận",
+        "en": "Short or fully exit Noble as soon as the Iceberg report landed, instead of trusting the denial"
+      },
+      "buyWhen": {
+        "vi": "Bán ở khoảng S$1,20 trước phiên 16/2/2015",
+        "en": "Sell around S$1.20 before the 16 Feb 2015 session"
+      },
+      "sellWhen": {
+        "vi": "Đóng vị thế bán khống quanh tháng 1/2018 khi kế hoạch tái cấu trúc xóa gần hết vốn cổ đông",
+        "en": "Cover any short around Jan 2018 when the restructuring all but wiped out equity"
+      },
+      "estimatedReturn": {
+        "vi": "Người giữ cổ phiếu mất khoảng 98%: S$1,205 (13/2/2015) → S$0,23 sau gộp 10:1 (30/1/2018), tương đương S$0,023 trước gộp",
+        "en": "Holders lost about 98%: S$1.205 (13 Feb 2015) → S$0.23 post 10-for-1 consolidation (30 Jan 2018), i.e. S$0.023 pre-consolidation"
+      },
+      "returnMultiple": 0.0191,
+      "entryPrice": 1.205,
+      "exitPrice": 0.023,
+      "priceCurrency": "SGD",
+      "exitDate": "2018-01-30",
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Giới phân tích nói những vấn đề kế toán Iceberg nêu 'đã biết từ vài năm' — chính vì thế thị trường xem nhẹ. Khi một nhà buôn hàng hóa đòn bẩy cao phụ thuộc vào xếp hạng tín nhiệm, nghi ngờ về sổ sách sẽ làm chi phí vốn tăng vọt và tự nó gây ra khủng hoảng thanh khoản.",
+      "en": "Analysts said Iceberg's accounting issues had been 'known for years' — which is exactly why the market shrugged. For a leveraged trader that lives on credit ratings, doubts about the books push up funding costs and become a self-fulfilling liquidity crisis."
+    },
+    "pitfalls": {
+      "vi": "Noble kiện ngược và phủ nhận mạnh mẽ; thậm chí giới bán khống ban đầu còn giảm vị thế. Người bắt đáy năm 2015-2016 tiếp tục mất tiền qua đợt phát hành quyền mua, gộp cổ phiếu và pha loãng khi tái cấu trúc.",
+      "en": "Noble fought back with denials and legal threats, and short interest even fell at first. Bottom-fishers in 2015-16 kept losing through the rights issue, share consolidation and restructuring dilution."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Nhóm bán khống nào công bố báo cáo nghi vấn kế toán của Noble Group tháng 2/2015?",
+        "en": "Which short-seller published the February 2015 report questioning Noble Group's accounting?"
+      },
+      "choices": [
+        {
+          "vi": "Muddy Waters",
+          "en": "Muddy Waters"
+        },
+        {
+          "vi": "Hindenburg Research",
+          "en": "Hindenburg Research"
+        },
+        {
+          "vi": "Iceberg Research",
+          "en": "Iceberg Research"
+        },
+        {
+          "vi": "Citron Research",
+          "en": "Citron Research"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "Iceberg Research công bố báo cáo đầu tiên ngày 15/2/2015, đặt giá mục tiêu chỉ 10 cent.",
+        "en": "Iceberg Research published its first report on 15 Feb 2015 with a 10-cent target price."
+      }
+    },
+    "sources": [
+      {
+        "title": "The Business Times: Short-selling firm takes aim at Noble (16 Feb 2015)",
+        "url": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/short-selling-firm-takes-aim-noble"
+      },
+      {
+        "title": "Business Standard (Reuters): Noble's creditors in driver's seat as group seeks to slash debt",
+        "url": "https://www.business-standard.com/article/reuters/noble-s-creditors-in-driver-s-seat-as-group-seeks-to-slash-debt-118013000757_1.html"
+      },
+      {
+        "title": "The Business Times: Noble shares up 6.3% after trading on consolidated basis",
+        "url": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/hot-stock-noble-shares-63-after-trading-consolidated"
+      },
+      {
+        "title": "CNBC: Noble Group shareholders approve $3.5 billion debt restructuring",
+        "url": "https://www.cnbc.com/2018/08/27/noble-group-shareholders-approve-3point5-billion-debt-restructuring.html"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "BT confirms 15 Feb 2015 report, Yancoal US$614m vs US$11m, 10-cent target, close S$1.11 down 9.5 cents (so prior close S$1.205). Reuters confirms 30 Jan 2018 close S$0.23, US$263m vs ~US$6bn in Feb 2015, 70/20/10 split. BT confirms 10-for-1 consolidation (May 2017); 0.023 is consolidation-adjusted and ignores the 2015 rights issue."
+  },
+  {
+    "id": "sg-sea-limited-shopee-boom-2017",
+    "country": "sg",
+    "date": "2017-10-20",
+    "category": "technology",
+    "title": {
+      "vi": "Sea Limited (Garena, Shopee) — từ IPO 15 USD đến đỉnh 372,70 USD",
+      "en": "Sea Limited (Garena, Shopee) — from a US$15 IPO to a US$372.70 peak"
+    },
+    "summary": {
+      "vi": "Sea niêm yết trên NYSE ngày 20/10/2017 với giá 15 USD; đại dịch đẩy cổ phiếu lên đỉnh 372,70 USD tháng 10/2021 (~24,8 lần) trước khi rơi về 40,67 USD tháng 11/2022.",
+      "en": "Sea listed on the NYSE on 20 Oct 2017 at US$15; the pandemic sent it to a US$372.70 high in Oct 2021 (~24.8x) before it sank to US$40.67 in Nov 2022."
+    },
+    "description": {
+      "vi": "Sea Limited — công ty Singapore của Forrest Li, sở hữu Garena (game), Shopee (thương mại điện tử) và SeaMoney (tài chính số) — IPO trên sàn NYSE ngày 20/10/2017 ở giá 15 USD/cổ phiếu, định giá khoảng 4,9 tỷ USD. Lúc đó Garena là nguồn thu chính, Shopee còn đang đốt tiền. Đại dịch COVID-19 bùng nổ nhu cầu mua sắm trực tuyến và game (đặc biệt Free Fire), đưa cổ phiếu SE lên đỉnh mọi thời đại 372,70 USD tháng 10/2021, vốn hóa hơn 230 tỷ USD — công ty niêm yết giá trị nhất Đông Nam Á. Rồi Tencent bán bớt cổ phần, Ấn Độ cấm Free Fire (2/2022), lãi suất tăng và lỗ lớn khiến cổ phiếu chạm đáy 52 tuần 40,67 USD ngày 9/11/2022 — giảm gần 90% từ đỉnh.",
+      "en": "Sea Limited — Forrest Li's Singapore company behind Garena (games), Shopee (e-commerce) and SeaMoney (fintech) — IPO'd on the NYSE on 20 Oct 2017 at US$15 a share, valued around US$4.9bn. Garena was then the cash engine while Shopee burned money. COVID-19 supercharged online shopping and gaming (notably Free Fire), lifting SE to an all-time high of US$372.70 in Oct 2021 and a market value above US$230bn — Southeast Asia's most valuable listed company. Then Tencent trimmed its stake, India banned Free Fire (Feb 2022), rates rose and losses mounted; the stock hit a 52-week low of US$40.67 on 9 Nov 2022 — down almost 90% from the peak."
+    },
+    "opportunity": {
+      "asset": "Sea Limited (NYSE: SE)",
+      "action": {
+        "vi": "Mua SE ở giá IPO và giữ qua giai đoạn đại dịch, chốt lời gần đỉnh cuối 2021",
+        "en": "Buy SE at the IPO price, hold through the pandemic and take profit near the late-2021 peak"
+      },
+      "buyWhen": {
+        "vi": "Ngày IPO 20/10/2017 ở 15 USD (cổ phiếu còn từng xuống ~10 USD giữa năm 2018)",
+        "en": "At the 20 Oct 2017 IPO at US$15 (it even dipped to ~US$10 in mid-2018)"
+      },
+      "sellWhen": {
+        "vi": "Tháng 10/2021, quanh đỉnh 372,70 USD — trước khi Tencent giảm tỷ lệ sở hữu và Ấn Độ cấm Free Fire",
+        "en": "October 2021, around the US$372.70 high — before Tencent's stake cut and India's Free Fire ban"
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng 24,8 lần (15 USD → 372,70 USD) trong 4 năm",
+        "en": "About 24.8x (US$15 → US$372.70) in four years"
+      },
+      "returnMultiple": 24.85,
+      "entryPrice": 15,
+      "exitPrice": 372.7,
+      "priceCurrency": "USD",
+      "exitDate": "2021-10",
+      "risk": "high",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Giá trị thật nằm ở Shopee — mảng thua lỗ mà thị trường năm 2017 còn nghi ngờ. Giữ qua 2020-2021, nhưng bán khi tăng trưởng game chững lại; ai mua lại ở đáy 40,67 USD (11/2022) khi Sea chuyển hướng sang lợi nhuận cũng có lãi lớn sau đó.",
+      "en": "The real value was Shopee — the loss-making unit the market doubted in 2017. Hold through 2020-21, but sell when gaming growth stalls; buying back near the US$40.67 low (Nov 2022) as Sea pivoted to profitability also paid off later."
+    },
+    "pitfalls": {
+      "vi": "Người mua ở đỉnh 2021 mất gần 90% trong 13 tháng. Sea liên tục lỗ, phát hành thêm cổ phiếu và trái phiếu chuyển đổi, và phụ thuộc lớn vào một trò chơi (Free Fire) có thể bị cấm bất cứ lúc nào.",
+      "en": "Buyers at the 2021 top lost almost 90% within 13 months. Sea ran persistent losses, issued new shares and convertibles, and leaned heavily on a single game (Free Fire) that could be banned overnight."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Sea Limited IPO trên sàn NYSE vào tháng 10/2017 với giá bao nhiêu?",
+        "en": "At what price did Sea Limited IPO on the NYSE in October 2017?"
+      },
+      "choices": [
+        {
+          "vi": "US$15",
+          "en": "US$15"
+        },
+        {
+          "vi": "US$40",
+          "en": "US$40"
+        },
+        {
+          "vi": "US$100",
+          "en": "US$100"
+        },
+        {
+          "vi": "US$5",
+          "en": "US$5"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "Sea IPO ở 15 USD ngày 20/10/2017, định giá khoảng 4,9 tỷ USD.",
+        "en": "Sea priced its IPO at US$15 on 20 Oct 2017, valuing it at about US$4.9bn."
+      }
+    },
+    "sources": [
+      {
+        "title": "The Smart Investor: If you invested $10,000 into Sea Limited at its IPO",
+        "url": "https://thesmartinvestor.com.sg/if-you-invested-10000-into-sea-limited-at-its-ipo-heres-what-its-worth-now/"
+      },
+      {
+        "title": "Large Cap Deep Dives: Deep dive on Sea Limited ($SE)",
+        "url": "https://largecapdeepdives.substack.com/p/sea-part1"
+      },
+      {
+        "title": "CNBC: Sea Limited stock jumps as much as 41% as company renews focus on profitability",
+        "url": "https://www.cnbc.com/2022/11/16/sea-ltd-stock-jumped-41percent-following-renewed-focus-on-profitability.html"
+      },
+      {
+        "title": "Gabriel's Growth: Sea Limited deep dive",
+        "url": "https://gabgrowth.com/p/sea-limited-deep-dive"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Smart Investor confirms 20 Oct 2017 IPO at US$15, ~US$4.9bn valuation and US$372.70 high in Oct 2021; Large Cap Deep Dives gives the US$40.67 low on 9 Nov 2022; Gabriel's Growth covers Tencent stake cut and India Free Fire ban. Peak date cited as 18 or 19 Oct 2021 by different sources."
+  },
+  {
+    "id": "sg-dbs-bank-100b-rally-2020",
+    "country": "sg",
+    "date": "2020-03",
+    "category": "stocks",
+    "title": {
+      "vi": "DBS — từ đáy COVID đến công ty Singapore đầu tiên vượt S$100 tỷ vốn hóa",
+      "en": "DBS — from the COVID low to Singapore's first S$100bn company"
+    },
+    "summary": {
+      "vi": "Cổ phiếu DBS chạm đáy S$15,35 (đã điều chỉnh cổ phiếu thưởng) năm 2020, rồi tháng 5/2024 trở thành công ty niêm yết Singapore đầu tiên vượt S$100 tỷ vốn hóa, đóng cửa 2024 ở S$43,72.",
+      "en": "DBS bottomed at S$15.35 (bonus-adjusted) in 2020, then in May 2024 became the first Singapore-listed company above S$100bn market value, closing 2024 at S$43.72."
+    },
+    "description": {
+      "vi": "Đợt bán tháo COVID-19 tháng 2-3/2020 kéo cổ phiếu DBS (D05) xuống mức thấp nhất năm S$15,35 (đã điều chỉnh theo đợt thưởng 1:10 năm 2024, tương đương khoảng S$16,9 theo giá danh nghĩa lúc đó). Khi lãi suất toàn cầu tăng mạnh từ 2022, biên lãi ròng của ngân hàng phình to: năm 2024 DBS đạt lợi nhuận kỷ lục S$11,4 tỷ, ROE 18%. Tháng 5/2024 DBS trở thành công ty niêm yết Singapore đầu tiên vượt S$100 tỷ vốn hóa, đến cuối năm lên S$124 tỷ; tổng lợi nhuận cổ đông năm 2024 đạt 51% (giá +44%, cổ tức 7%). Cổ phiếu đóng cửa năm 2024 ở S$43,72.",
+      "en": "The Feb-Mar 2020 COVID-19 selloff dragged DBS (D05) to a year low of S$15.35 (adjusted for the 2024 one-for-10 bonus issue; roughly S$16.9 in nominal terms at the time). As global rates surged from 2022, bank margins ballooned: in 2024 DBS posted record net profit of S$11.4bn and an 18% ROE. In May 2024 DBS became the first Singapore-listed company to cross S$100bn in market value, reaching S$124bn by year-end; 2024 total shareholder return was 51% (44% price, 7% dividends). The stock closed 2024 at S$43.72."
+    },
+    "opportunity": {
+      "asset": "DBS Group Holdings (D05.SI)",
+      "action": {
+        "vi": "Mua DBS mạnh tay trong cơn hoảng loạn COVID tháng 3/2020 và giữ qua chu kỳ tăng lãi suất",
+        "en": "Buy DBS aggressively in the March 2020 COVID panic and hold through the rate-hike cycle"
+      },
+      "buyWhen": {
+        "vi": "Tháng 3/2020, quanh vùng S$15-16 (giá đã điều chỉnh)",
+        "en": "March 2020, around S$15-16 (adjusted)"
+      },
+      "sellWhen": {
+        "vi": "Giữ đến cuối 2024 (S$43,72) hoặc lâu hơn, nhận cổ tức đều đặn",
+        "en": "Hold to end-2024 (S$43.72) or beyond, collecting steady dividends"
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng 2,85 lần giá (S$15,35 → S$43,72) trong gần 5 năm, chưa tính cổ tức",
+        "en": "About 2.85x in price (S$15.35 → S$43.72) in under five years, before dividends"
+      },
+      "returnMultiple": 2.85,
+      "entryPrice": 15.35,
+      "exitPrice": 43.72,
+      "priceCurrency": "SGD",
+      "exitDate": "2024-12-31",
+      "risk": "medium",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Ngân hàng vốn mạnh nhất Đông Nam Á bị bán tháo như thể sắp phá sản — nhưng nó được mệnh danh 'Ngân hàng an toàn nhất châu Á' 16 năm liền. Biết trước Fed sẽ tăng lãi suất mạnh năm 2022-2023, ngân hàng thu lãi ròng là nơi hưởng lợi trực tiếp.",
+      "en": "Southeast Asia's best-capitalised bank was dumped as if it were going bust — yet it has been named 'Safest Bank in Asia' 16 years running. Knowing the Fed would hike hard in 2022-23, a net-interest-earning bank was the direct winner."
+    },
+    "pitfalls": {
+      "vi": "MAS yêu cầu ngân hàng giới hạn cổ tức năm 2020; năm 2023 DBS gặp nhiều sự cố gián đoạn dịch vụ số và bị MAS phạt. Lợi nhuận ngân hàng sẽ co lại khi chu kỳ cắt giảm lãi suất bắt đầu.",
+      "en": "MAS asked banks to cap 2020 dividends; in 2023 DBS suffered repeated digital outages and MAS sanctions. Bank earnings shrink once a rate-cutting cycle begins."
+    },
+    "quiz": {
+      "question": {
+        "vi": "DBS trở thành công ty niêm yết Singapore đầu tiên vượt mốc vốn hóa nào vào tháng 5/2024?",
+        "en": "What market-value milestone did DBS become the first Singapore-listed company to cross in May 2024?"
+      },
+      "choices": [
+        {
+          "vi": "S$50 tỷ",
+          "en": "S$50 billion"
+        },
+        {
+          "vi": "S$200 tỷ",
+          "en": "S$200 billion"
+        },
+        {
+          "vi": "US$100 tỷ",
+          "en": "US$100 billion"
+        },
+        {
+          "vi": "S$100 tỷ",
+          "en": "S$100 billion"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "vi": "Tháng 5/2024 DBS vượt S$100 tỷ vốn hóa và kết thúc năm ở S$124 tỷ.",
+        "en": "In May 2024 DBS crossed S$100bn in market value and ended the year at S$124bn."
+      }
+    },
+    "sources": [
+      {
+        "title": "DBS Annual Report 2024: Letter from Chairman & CEO",
+        "url": "https://www.dbs.com/annualreports/2024/letter-from-chairman-ceo.html"
+      },
+      {
+        "title": "DBS Annual Report 2024: Share price table",
+        "url": "https://www.dbs.com/annualreports/2024/i/pdf/dbs-annual-report-2024-share-price.pdf"
+      },
+      {
+        "title": "DBS: Delivering impactful growth for shareholders",
+        "url": "https://www.dbs.com/annualreports/2024/delivering-impactful-growth-for-shareholders.html"
+      },
+      {
+        "title": "The Straits Times: Singapore stocks fall on last trading day of year, but STI up 16.9% in 2024",
+        "url": "https://www.straitstimes.com/business/companies-markets/singapore-stocks-lower-on-last-trading-day-of-the-year-sti-up-16-9-in-2024"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "DBS AR2024 share-price table (adjusted for the Feb 2024 one-for-10 bonus) gives 2020 low S$15.35 and 2024 close S$43.72 (ST confirms S$43.72 on 31 Dec 2024); DBS confirms May 2024 S$100bn milestone, S$124bn year-end, 51% TSR, S$11.4bn profit. ~S$16.9 nominal is derived (15.35 x 1.1), not separately sourced."
+  },
+  {
+    "id": "sg-hin-leong-oil-fraud-2020",
+    "country": "sg",
+    "date": "2020-04-17",
+    "category": "business",
+    "title": {
+      "vi": "Sụp đổ Hin Leong — vua dầu O.K. Lim giấu 800 triệu USD thua lỗ",
+      "en": "Hin Leong collapses — oil tycoon O.K. Lim hid US$800m of losses"
+    },
+    "summary": {
+      "vi": "Tháng 4/2020, Hin Leong xin hoãn nợ 3,85 tỷ USD với 23 ngân hàng; nhà sáng lập Lim Oon Kuin thừa nhận giấu 800 triệu USD lỗ hợp đồng tương lai và năm 2024 lĩnh 17,5 năm tù.",
+      "en": "In April 2020 Hin Leong sought a moratorium on US$3.85bn owed to 23 banks; founder Lim Oon Kuin admitted hiding US$800m of futures losses and in 2024 got 17.5 years."
+    },
+    "description": {
+      "vi": "Hin Leong Trading, do Lim Oon Kuin (O.K. Lim) lập năm 1963 từ một chiếc xe tải giao dầu, đã trở thành một trong những nhà buôn dầu độc lập lớn nhất Singapore với doanh thu khoảng 20 tỷ USD/năm. Khi COVID-19 và cuộc chiến giá dầu làm giá dầu sụp đổ đầu năm 2020, công ty không còn che được lỗ. Ngày 17/4/2020, Hin Leong và công ty con Ocean Tankers nộp đơn ra Tòa án Tối cao xin hoãn trả 3,85 tỷ USD nợ cho 23 ngân hàng; trong bản khai, Lim thừa nhận công ty 'chịu khoảng 800 triệu USD lỗ hợp đồng tương lai qua nhiều năm nhưng không phản ánh trên báo cáo tài chính' theo chỉ đạo của ông, dù vừa báo lãi 78,2 triệu USD. Ngày 18/11/2024, Lim bị tuyên 17,5 năm tù vì lừa đảo HSBC giải ngân 111,7 triệu USD bằng các hợp đồng bán dầu giả mạo.",
+      "en": "Hin Leong Trading, founded by Lim Oon Kuin (O.K. Lim) in 1963 with a single delivery truck, grew into one of Singapore's largest independent oil traders with about US$20bn in annual revenue. When COVID-19 and the price war crushed oil in early 2020, it could no longer hide its losses. On 17 Apr 2020 Hin Leong and subsidiary Ocean Tankers asked the High Court for a moratorium on US$3.85bn owed to 23 banks; in his affidavit Lim admitted the firm had 'suffered about US$800 million in futures losses over the years' that were kept off the accounts on his instructions, despite a reported US$78.2m profit. On 18 Nov 2024 Lim was sentenced to 17.5 years for cheating HSBC into disbursing US$111.7m against fabricated oil-sale contracts."
+    },
+    "opportunity": {
+      "asset": "Exposure to Singapore oil-trade financing",
+      "action": {
+        "vi": "Không có cổ phiếu để giao dịch (Hin Leong là công ty tư nhân) — bài học là cắt rủi ro tín dụng với các nhà buôn hàng hóa đòn bẩy cao trước khi giá dầu sụp",
+        "en": "No tradable stock (Hin Leong was private) — the lesson is to cut credit exposure to highly leveraged commodity traders before oil crashed"
+      },
+      "buyWhen": {
+        "vi": "Giảm tín dụng thương mại cho Hin Leong trước tháng 3-4/2020, khi giá dầu lao dốc",
+        "en": "Pull trade credit from Hin Leong before Mar-Apr 2020 as oil prices collapsed"
+      },
+      "estimatedReturn": {
+        "vi": "Tránh tổn thất: 23 ngân hàng chủ nợ chịu rủi ro 3,85 tỷ USD; riêng DBS, OCBC, UOB có hơn 600 triệu USD dư nợ",
+        "en": "Loss avoidance: 23 lender banks were exposed to US$3.85bn; DBS, OCBC and UOB alone had over US$600m outstanding"
+      },
+      "risk": "high",
+      "capital": "high"
+    },
+    "insiderTip": {
+      "vi": "Một nhà buôn dầu báo lãi đều đặn suốt nhiều năm trong ngành biên lợi nhuận mỏng, sổ sách do gia đình kiểm soát và vay tài trợ thương mại từ hàng chục ngân hàng cùng lúc — đó là mô hình dễ 'vay chồng vay' trên cùng một lô hàng.",
+      "en": "An oil trader posting steady profits for years in a thin-margin business, with family-controlled books and trade finance from dozens of banks at once, is the classic setup for double-financing the same cargo."
+    },
+    "pitfalls": {
+      "vi": "Các ngân hàng thường chỉ kiểm chứng giấy tờ, không kiểm hàng thật; khi giá dầu âm tháng 4/2020, hàng tồn kho thế chấp mất giá đúng lúc cần nhất. Năm 2024 gia đình Lim chấp nhận trả 3,5 tỷ USD cho bên thanh lý và tuyên bố phá sản cá nhân — chủ nợ khó thu hồi thực tế.",
+      "en": "Banks often checked documents, not physical oil; when oil went negative in Apr 2020 the pledged inventory lost value exactly when needed. In 2024 the Lim family accepted a US$3.5bn judgment to liquidators and filed for personal bankruptcy — real recoveries are slim."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Nhà sáng lập Hin Leong, O.K. Lim, thừa nhận đã che giấu bao nhiêu tiền lỗ hợp đồng tương lai?",
+        "en": "How much in futures losses did Hin Leong founder O.K. Lim admit hiding?"
+      },
+      "choices": [
+        {
+          "vi": "US$80 triệu",
+          "en": "US$80 million"
+        },
+        {
+          "vi": "US$800 triệu",
+          "en": "US$800 million"
+        },
+        {
+          "vi": "US$3,85 tỷ",
+          "en": "US$3.85 billion"
+        },
+        {
+          "vi": "US$111 triệu",
+          "en": "US$111 million"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Trong bản khai tháng 4/2020, Lim thừa nhận khoảng 800 triệu USD lỗ hợp đồng tương lai không được ghi nhận trong báo cáo tài chính.",
+        "en": "In his April 2020 affidavit, Lim admitted about US$800m of futures losses had been kept out of the financial statements."
+      }
+    },
+    "sources": [
+      {
+        "title": "Reuters via Yahoo Finance: Head of oil trader Hin Leong didn't disclose $800 million losses — court filing",
+        "url": "https://sg.finance.yahoo.com/news/exclusive-head-oil-trader-hin-110336283.html"
+      },
+      {
+        "title": "Singapore Police Force: Founder of Hin Leong Trading sentenced and jailed (18 Nov 2024)",
+        "url": "https://www.police.gov.sg/media-hub/news/2024/20241118_founder_of_hin_leong_trading_sentenced_and_jailed_for_cheating_and_instigating_forgery"
+      },
+      {
+        "title": "Wikipedia: Hin Leong",
+        "url": "https://en.wikipedia.org/wiki/Hin_Leong"
+      },
+      {
+        "title": "AsiaOne: O.K. Lim and children agree to pay $4.5b to Hin Leong liquidators",
+        "url": "https://www.asiaone.com/singapore/ok-lim-and-children-agree-pay-45b-hin-leong-liquidators-will-file-bankruptcy"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Reuters confirms affidavit, US$800m hidden futures losses, US$3.85bn owed to 23 banks, US$78.2m reported profit; Wikipedia confirms 17 Apr 2020 filing and 1963 founding; SPF confirms 17.5-year sentence on 18 Nov 2024 for cheating HSBC of US$111.7m; AsiaOne confirms US$3.5bn agreed judgment. 'Over US$600m' DBS/OCBC/UOB exposure is from a BT headline cited by Wikipedia."
+  },
+  {
+    "id": "sg-three-arrows-capital-collapse-2022",
+    "country": "sg",
+    "date": "2022-06-27",
+    "category": "crypto",
+    "title": {
+      "vi": "Three Arrows Capital sụp đổ — quỹ crypto Singapore bị thanh lý",
+      "en": "Three Arrows Capital collapses — Singapore crypto fund forced into liquidation"
+    },
+    "summary": {
+      "vi": "Quỹ phòng hộ crypto 3AC của Su Zhu và Kyle Davies bị tòa BVI ra lệnh thanh lý ngày 27/6/2022 sau thảm họa Terra/Luna, với khoảng 3,5 tỷ USD yêu cầu bồi hoàn từ chủ nợ.",
+      "en": "Su Zhu and Kyle Davies' crypto hedge fund 3AC was ordered into liquidation by a BVI court on 27 Jun 2022 after the Terra/Luna wipeout, facing about US$3.5bn of creditor claims."
+    },
+    "description": {
+      "vi": "Three Arrows Capital (3AC), lập năm 2012 bởi Su Zhu và Kyle Davies, chuyển từ giao dịch ngoại hối sang crypto và trở thành một trong những quỹ crypto lớn nhất thế giới, đặt trụ sở tại Singapore và từng tuyên bố tài sản ròng 18 tỷ USD. Quỹ vay không tài sản đảm bảo từ nhiều nền tảng cho vay, nắm gần 39 triệu chứng chỉ Grayscale Bitcoin Trust (GBTC) cuối 2020 và rót khoảng 200 triệu USD vào LUNA tháng 2/2022. Khi LUNA sụp về gần 0 tháng 5/2022 và GBTC giao dịch thấp hơn 34% so với giá trị tài sản ròng (17/6/2022), 3AC không đáp ứng được lệnh gọi ký quỹ — Voyager tuyên bố vỡ nợ khoản vay 15.250 BTC. Ngày 27/6/2022 tòa án BVI ra lệnh thanh lý; ngày 30/6 MAS khiển trách 3AC vì cung cấp thông tin sai và vượt ngưỡng tài sản quản lý. Tháng 9/2023 MAS cấm hai nhà sáng lập 9 năm, và Su Zhu bị bắt tại sân bay Changi, chịu 4 tháng tù vì không hợp tác với bên thanh lý.",
+      "en": "Three Arrows Capital (3AC), founded in 2012 by Su Zhu and Kyle Davies, moved from FX trading into crypto and became one of the world's largest crypto funds, headquartered in Singapore and once claiming US$18bn in net assets. It borrowed uncollateralised from many lenders, held almost 39m Grayscale Bitcoin Trust (GBTC) units at end-2020 and put about US$200m into LUNA in Feb 2022. When LUNA collapsed to near zero in May 2022 and GBTC traded at a 34% discount to NAV (17 Jun 2022), 3AC could not meet margin calls — Voyager declared default on a 15,250 BTC loan. On 27 Jun 2022 a BVI court ordered liquidation; on 30 Jun MAS reprimanded 3AC for false information and breaching AUM thresholds. In Sep 2023 MAS banned both founders for nine years, and Su Zhu was arrested at Changi Airport and jailed for four months for failing to cooperate with liquidators."
+    },
+    "opportunity": {
+      "asset": "Crypto lending platforms & LUNA/GBTC exposure",
+      "action": {
+        "vi": "Rút toàn bộ tài sản khỏi các nền tảng cho vay crypto có quan hệ với 3AC (Voyager, Celsius, BlockFi…) và bán LUNA, GBTC",
+        "en": "Withdraw everything from crypto lenders exposed to 3AC (Voyager, Celsius, BlockFi…) and dump LUNA and GBTC"
+      },
+      "buyWhen": {
+        "vi": "Trước khi LUNA sụp đổ tháng 5/2022",
+        "en": "Before LUNA's collapse in May 2022"
+      },
+      "sellWhen": {
+        "vi": "Muộn nhất là giữa tháng 6/2022, trước khi 3AC vỡ nợ và các nền tảng cho vay đóng băng rút tiền",
+        "en": "At the latest by mid-June 2022, before 3AC defaulted and lenders froze withdrawals"
+      },
+      "estimatedReturn": {
+        "vi": "Tránh mất gần toàn bộ tiền gửi bị đóng băng tại các nền tảng cho vay phá sản và khoản lỗ gần 100% của LUNA",
+        "en": "Avoids near-total losses on deposits frozen at bankrupt lenders and LUNA's near-100% wipeout"
+      },
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Dấu hiệu sớm: tháng 4/2022 3AC đòi chuyển trụ sở sang Dubai nhưng cơ quan quản lý Dubai xác nhận quỹ chưa đăng ký; quỹ vay không tài sản đảm bảo từ hàng loạt bên — khi một quỹ lớn sập, chuỗi lây nhiễm sẽ kéo theo các nền tảng cho vay.",
+      "en": "Early tells: in April 2022 3AC talked of moving to Dubai, yet Dubai's regulator said it wasn't registered; it borrowed uncollateralised from everyone — when a giant fund falls, contagion drags its lenders down with it."
+    },
+    "pitfalls": {
+      "vi": "3AC là quỹ tư nhân, nhà đầu tư nhỏ không thể bán khống trực tiếp; người mua GBTC vì 'chiết khấu hấp dẫn' bị kẹt khi chiết khấu tiếp tục nới rộng. Các chủ nợ phải theo đuổi thủ tục tại BVI, Singapore và Mỹ nhiều năm.",
+      "en": "3AC was private, so retail couldn't short it directly; GBTC buyers chasing the 'cheap discount' got trapped as it widened further. Creditors faced years of proceedings in the BVI, Singapore and the US."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Ai là hai nhà sáng lập Three Arrows Capital?",
+        "en": "Who were the two co-founders of Three Arrows Capital?"
+      },
+      "choices": [
+        {
+          "vi": "Do Kwon và Daniel Shin",
+          "en": "Do Kwon and Daniel Shin"
+        },
+        {
+          "vi": "Sam Bankman-Fried và Gary Wang",
+          "en": "Sam Bankman-Fried and Gary Wang"
+        },
+        {
+          "vi": "Su Zhu và Kyle Davies",
+          "en": "Su Zhu and Kyle Davies"
+        },
+        {
+          "vi": "Alex Mashinsky và Daniel Leon",
+          "en": "Alex Mashinsky and Daniel Leon"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "3AC được Su Zhu và Kyle Davies — bạn học từ Phillips Academy — thành lập năm 2012.",
+        "en": "3AC was founded in 2012 by Su Zhu and Kyle Davies, schoolmates from Phillips Academy."
+      }
+    },
+    "sources": [
+      {
+        "title": "Wikipedia: Three Arrows Capital",
+        "url": "https://en.wikipedia.org/wiki/Three_Arrows_Capital"
+      },
+      {
+        "title": "MAS: Prohibition Orders against Three Arrows Capital's Zhu Su and Kyle Livingston Davies (14 Sep 2023)",
+        "url": "https://www.mas.gov.sg/regulation/enforcement/enforcement-actions/2023/mas-issues-prohibition-orders-against-three-arrows-capital-zhu-su-and-kyle-livingston-davies"
+      },
+      {
+        "title": "The Business Times: Three Arrows co-founder Zhu Su arrested at Changi Airport, sentenced to 4 months' prison",
+        "url": "https://www.businesstimes.com.sg/startups-tech/three-arrows-co-founder-zhu-su-arrested-changi-airport-sentenced-4-months-prison"
+      },
+      {
+        "title": "Singapore High Court: [2024] SGHC 21 (recognition of 3AC BVI liquidation)",
+        "url": "https://www.elitigation.sg/gdviewer/SUPCT/gd/2024_SGHC_21"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Wikipedia confirms 27 Jun 2022 BVI liquidation, US$3.5bn claims, ~39m GBTC units, ~US$200m LUNA, 34% GBTC discount on 17 Jun 2022, Dubai registration issue; Morgan Lewis/Wikipedia note Voyager 15,250 BTC default; BT and MAS confirm 9-year bans (Sep 2023), MAS reprimand and Zhu's 4-month committal after Changi arrest (29 Sep 2023). No price multiple given (private fund)."
+  }
+]

@@ -3,6 +3,7 @@ import { intlLocale, type Locale } from "./i18n";
 const SYMBOLS: Record<string, [string, string]> = {
   USD: ["$", ""], VND: ["", " ₫"], EUR: ["€", ""], GBP: ["£", ""], JPY: ["¥", ""], CNY: ["¥", ""],
   INR: ["₹", ""], CAD: ["C$", ""], BRL: ["R$", ""], HKD: ["HK$", ""],
+  KRW: ["₩", ""], AUD: ["A$", ""], SGD: ["S$", ""], THB: ["฿", ""],
 };
 
 export function formatMoney(value: number, currency: string, lang: Locale) {

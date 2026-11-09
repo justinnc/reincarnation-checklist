@@ -10,8 +10,12 @@ import fr from "@/data/milestones/fr.json";
 import it from "@/data/milestones/it.json";
 import ca from "@/data/milestones/ca.json";
 import br from "@/data/milestones/br.json";
+import kr from "@/data/milestones/kr.json";
+import sg from "@/data/milestones/sg.json";
+import th from "@/data/milestones/th.json";
+import au from "@/data/milestones/au.json";
 
-const raw = [vn, us, cn, jp, de, inData, gb, fr, it, ca, br] as unknown as Milestone[][];
+const raw = [vn, us, cn, jp, de, inData, gb, fr, it, ca, br, kr, au, sg, th] as unknown as Milestone[][];
 
 export const allMilestones: Milestone[] = raw.flat().sort((a, b) => a.date.localeCompare(b.date));
 
@@ -28,6 +32,10 @@ const allCountries: Country[] = [
   { code: "it", name: { vi: "Ý", en: "Italy" }, flag: "🇮🇹", stake: { amount: 1_000, currency: "EUR" } },
   { code: "ca", name: { vi: "Canada", en: "Canada" }, flag: "🇨🇦", stake: { amount: 1_000, currency: "CAD" } },
   { code: "br", name: { vi: "Brazil", en: "Brazil" }, flag: "🇧🇷", stake: { amount: 5_000, currency: "BRL" } },
+  { code: "kr", name: { vi: "Hàn Quốc", en: "South Korea" }, flag: "🇰🇷", stake: { amount: 1_000_000, currency: "KRW" } },
+  { code: "au", name: { vi: "Úc", en: "Australia" }, flag: "🇦🇺", stake: { amount: 1_000, currency: "AUD" } },
+  { code: "sg", name: { vi: "Singapore", en: "Singapore" }, flag: "🇸🇬", stake: { amount: 1_000, currency: "SGD" } },
+  { code: "th", name: { vi: "Thái Lan", en: "Thailand" }, flag: "🇹🇭", stake: { amount: 30_000, currency: "THB" } },
 ];
 
 /** Only countries that have data are shown. */

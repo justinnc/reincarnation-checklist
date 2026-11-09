@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "th-baht-float-tom-yum-goong-1997",
+    "country": "th",
+    "date": "1997-07-02",
+    "category": "macro",
+    "title": {
+      "vi": "Thả nổi baht — khủng hoảng “Tom Yum Goong” 1997",
+      "en": "The Baht Float — the 1997 'Tom Yum Goong' Crisis"
+    },
+    "summary": {
+      "vi": "Ngày 2/7/1997 Thái Lan bỏ neo ~25 baht/USD; baht mất hơn một nửa giá trị và châm ngòi Khủng hoảng tài chính châu Á.",
+      "en": "On 2 July 1997 Thailand abandoned its ~25 THB/USD peg; the baht lost more than half its value and ignited the Asian Financial Crisis."
+    },
+    "description": {
+      "vi": "Sau nhiều năm vay nợ USD giá rẻ và bong bóng bất động sản, Ngân hàng Trung ương Thái Lan cạn dự trữ ngoại hối khi bảo vệ tỷ giá neo khoảng 25 baht/USD. Ngày 2/7/1997, chính phủ buộc phải thả nổi baht. Đến 24/10/1997 baht đã mất khoảng 60% so với USD (theo Fed San Francisco), và USD/THB đạt đỉnh lịch sử 56,50 vào tháng 1/1998. Thị trường chứng khoán Thái giảm 75%, Finance One — công ty tài chính lớn nhất — sụp đổ, và IMF phải tung gói cứu trợ hơn 17 tỷ USD vào tháng 8/1997. Khủng hoảng nhanh chóng lan sang Indonesia, Hàn Quốc, Malaysia và Philippines.",
+      "en": "After years of cheap dollar borrowing and a property bubble, the Bank of Thailand drained its reserves defending a peg of roughly 25 THB/USD. On 2 July 1997 the government was forced to float the baht. By 24 October 1997 the baht had depreciated about 60% against the dollar (per the San Francisco Fed), and USD/THB hit an all-time high of 56.50 in January 1998. Thai stocks fell 75%, Finance One — the largest finance company — collapsed, and the IMF unveiled a rescue package of more than $17 billion in August 1997. The crisis quickly spread to Indonesia, South Korea, Malaysia and the Philippines."
+    },
+    "opportunity": {
+      "asset": "USD/THB (giữ USD thay vì baht)",
+      "action": {
+        "vi": "Đổi tiết kiệm baht sang USD trước ngày 2/7/1997, rồi đổi ngược lại khi baht chạm đáy đầu năm 1998.",
+        "en": "Convert baht savings into US dollars before 2 July 1997, then convert back near the baht's trough in early 1998."
+      },
+      "buyWhen": {
+        "vi": "Nửa đầu năm 1997, khi baht còn neo quanh 25/USD",
+        "en": "First half of 1997, while the baht is still pegged near 25/USD"
+      },
+      "sellWhen": {
+        "vi": "Tháng 1/1998, khi USD/THB lên khoảng 56",
+        "en": "January 1998, when USD/THB reaches around 56"
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng 2,26 lần tính bằng baht (25 → 56,50 baht/USD)",
+        "en": "About 2.26x in baht terms (25 → 56.50 THB per USD)"
+      },
+      "returnMultiple": 2.26,
+      "entryPrice": 25,
+      "exitPrice": 56.5,
+      "priceCurrency": "THB per USD",
+      "exitDate": "1998-01",
+      "risk": "medium",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Chính phủ sẽ phủ nhận việc phá giá đến tận phút chót — đừng tin. Dự trữ ngoại hối ròng thực tế gần cạn vì các hợp đồng kỳ hạn bảo vệ tỷ giá.",
+      "en": "The government will deny any devaluation until the last minute — don't believe it. Net reserves are nearly exhausted by forward contracts used to defend the peg."
+    },
+    "pitfalls": {
+      "vi": "Gửi USD tại các công ty tài chính Thái yếu kém vẫn có thể mất trắng: hàng chục công ty tài chính bị đóng cửa sau khủng hoảng. Ngoài ra, baht hồi phục về khoảng 41/USD vào giữa năm 1998, nên ai đổi muộn sẽ mất một phần lợi nhuận.",
+      "en": "Holding dollars at weak Thai finance companies could still wipe you out, since dozens of them were shut after the crisis. The baht also recovered to around 41/USD by mid-1998, so late converters gave back part of the gain."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Người Thái gọi khủng hoảng năm 1997 bằng tên món ăn nào?",
+        "en": "Which dish gave its name to Thailand's 1997 crisis?"
+      },
+      "choices": [
+        {
+          "vi": "Tom Yum Goong (Tom Yum Kung)",
+          "en": "Tom Yum Goong (Tom Yum Kung)"
+        },
+        {
+          "vi": "Pad Thai",
+          "en": "Pad Thai"
+        },
+        {
+          "vi": "Som Tam",
+          "en": "Som Tam"
+        },
+        {
+          "vi": "Massaman",
+          "en": "Massaman"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "Khủng hoảng được gọi là “Tom Yum Kung crisis” (วิกฤตต้มยำกุ้ง) vì khởi phát từ Thái Lan.",
+        "en": "It was called the 'Tom Yum Kung crisis' (วิกฤตต้มยำกุ้ง) because it originated in Thailand."
+      }
+    },
+    "sources": [
+      {
+        "title": "1997 Asian financial crisis - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/1997_Asian_financial_crisis"
+      },
+      {
+        "title": "Lessons from Thailand - Federal Reserve Bank of San Francisco",
+        "url": "https://www.frbsf.org/research-and-insights/publications/economic-letter/1997/11/lessons-from-thailand/"
+      },
+      {
+        "title": "Thai Baht historical data - Trading Economics",
+        "url": "https://tradingeconomics.com/thailand/currency"
+      },
+      {
+        "title": "Thailand: 1998 Country Report on Economic Policy and Trade Practices - US State Dept",
+        "url": "https://1997-2001.state.gov/issues/economic/trade_reports/eastasia98/thailand98.html"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Float date (2 July 1997), Tom Yum Kung name, 75% stock drop, Finance One collapse and $17bn IMF package confirmed via Wikipedia (fetched); ~60% depreciation by 24 Oct 1997 via SF Fed; USD/THB all-time high 56.50 in Jan 1998 via Trading Economics snippet. Mid-1998 ~41/USD from Wikipedia currency table (24.5 → 41, June 1997 → July 1998). 'Dozens of finance companies shut' kept qualitative."
+  },
+  {
+    "id": "th-set-index-crisis-bottom-1998",
+    "country": "th",
+    "date": "1998-09-04",
+    "category": "stocks",
+    "title": {
+      "vi": "SET Index chạm đáy 1998 — giảm 88% từ đỉnh",
+      "en": "SET Index Bottoms in 1998 — Down 88% from Its Peak"
+    },
+    "summary": {
+      "vi": "Chỉ số SET rơi từ đỉnh đóng cửa 1.753,73 (4/1/1994) xuống 204,59 ngày 4/9/1998, rồi tăng gấp hơn 2 lần chỉ trong hơn một năm.",
+      "en": "The SET Index fell from a closing peak of 1,753.73 (4 Jan 1994) to 204.59 on 4 Sep 1998, then more than doubled within about a year."
+    },
+    "description": {
+      "vi": "Chỉ số SET đạt đỉnh đóng cửa 1.753,73 điểm ngày 4/1/1994 (đỉnh trong phiên 1.789,16 ngày 5/1/1994). Sau khủng hoảng 1997, chỉ số rơi xuống mức thấp 204,59 điểm ngày 4/9/1998 — mất khoảng 88% giá trị. Từ đáy đó, SET đóng cửa năm 1999 ở 481,92 điểm (+35,44% trong năm 1999), gấp khoảng 2,36 lần mức đáy. Mức đỉnh 1994 chỉ bị vượt vào ngày 3/1/2018, khi SET đóng cửa 1.778,53 điểm — gần 24 năm sau.",
+      "en": "The SET Index set a closing high of 1,753.73 on 4 January 1994 (intraday high 1,789.16 on 5 January 1994). After the 1997 crisis it sank to a low of 204.59 on 4 September 1998 — a loss of about 88%. From that bottom the SET closed 1999 at 481.92 (+35.44% for the year), roughly 2.36x the low. The 1994 record was only surpassed in January 2018, when the SET closed at 1,778.53 — almost 24 years later."
+    },
+    "opportunity": {
+      "asset": "SET Index (chỉ số / quỹ cổ phiếu blue-chip Thái)",
+      "action": {
+        "vi": "Mua rổ cổ phiếu blue-chip Thái quanh đáy tháng 9/1998 và chốt lời vào cuối năm 1999.",
+        "en": "Buy a basket of Thai blue chips around the September 1998 bottom and take profits at the end of 1999."
+      },
+      "buyWhen": {
+        "vi": "Tháng 9/1998, khi SET quanh 200-210 điểm",
+        "en": "September 1998, with the SET around 200-210"
+      },
+      "sellWhen": {
+        "vi": "Cuối năm 1999 (SET 481,92) — trước khi bong bóng dot-com vỡ khiến SET giảm 44% năm 2000",
+        "en": "End of 1999 (SET 481.92) — before the dot-com bust knocked the SET down 44% in 2000"
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng 2,36 lần (204,59 → 481,92 điểm), chưa tính cổ tức",
+        "en": "About 2.36x (204.59 → 481.92 points), excluding dividends"
+      },
+      "returnMultiple": 2.36,
+      "entryPrice": 204.59,
+      "exitPrice": 481.92,
+      "priceCurrency": "points",
+      "exitDate": "1999-12",
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Đáy chỉ số đến hơn một năm sau khi baht bị thả nổi — chờ IMF tái cấu trúc ngân hàng và lãi suất hạ nhiệt thay vì bắt đáy năm 1997.",
+      "en": "The index bottom came more than a year after the baht float — wait for IMF-led bank restructuring and falling rates rather than bottom-fishing in 1997."
+    },
+    "pitfalls": {
+      "vi": "Nhiều ngân hàng và công ty tài chính niêm yết bị pha loãng hoặc xóa sổ khi tái cấp vốn; mua chỉ số khác hẳn mua từng mã đang phá sản. Năm 2000 SET lại giảm 44%, nên giữ quá lâu sẽ trả lại phần lớn lợi nhuận.",
+      "en": "Many listed banks and finance companies were diluted or wiped out in recapitalisations — buying the index is very different from buying individual zombies. The SET then fell 44% in 2000, so holding too long gave back much of the gain."
+    },
+    "quiz": {
+      "question": {
+        "vi": "SET Index chạm đáy khủng hoảng châu Á vào ngày nào?",
+        "en": "On what date did the SET Index hit its Asian-crisis low?"
+      },
+      "choices": [
+        {
+          "vi": "4/9/1998",
+          "en": "4 September 1998"
+        },
+        {
+          "vi": "2/7/1997",
+          "en": "2 July 1997"
+        },
+        {
+          "vi": "11/9/2001",
+          "en": "11 September 2001"
+        },
+        {
+          "vi": "4/1/1994",
+          "en": "4 January 1994"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "SET chạm mức 204,59 điểm ngày 4/9/1998; ngày 4/1/1994 là đỉnh đóng cửa 1.753,73.",
+        "en": "The SET hit 204.59 on 4 September 1998; 4 January 1994 was the 1,753.73 closing peak."
+      }
+    },
+    "sources": [
+      {
+        "title": "Stock Exchange of Thailand - Wikipedia (lows of SET Index)",
+        "url": "https://en.wikipedia.org/wiki/Stock_Exchange_of_Thailand"
+      },
+      {
+        "title": "SET Index - Wikipedia (annual returns)",
+        "url": "https://en.wikipedia.org/wiki/SET_Index"
+      },
+      {
+        "title": "SET index kicks off new year with a bang - Bangkok Post",
+        "url": "https://www.bangkokpost.com/business/general/1389802/set-index-kicks-off-new-year-with-a-bang"
+      },
+      {
+        "title": "A Decade of the SEC (timeline) - SEC Thailand",
+        "url": "https://www.sec.or.th/EN/Template3/Publications/Publications3/decade8_e.pdf"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Low of 204.59 on 4 Sep 1998 from Wikipedia 'Lows of SET Index' table (fetched); the brief's 207.31 figure was not found in sources, so the sourced 204.59 is used. 1,753.73 closing peak (4 Jan 1994), 1,789.16 intraday (5 Jan 1994) and 1,778.53 close in Jan 2018 via Bangkok Post/SEC Thailand snippets. 1999 close 481.92 and 2000 −44.14% via Wikipedia SET Index/MarketScreener snippets. Multiple computed: 481.92/204.59 = 2.36."
+  },
+  {
+    "id": "th-ptt-privatisation-ipo-2001",
+    "country": "th",
+    "date": "2001-11-21",
+    "category": "stocks",
+    "title": {
+      "vi": "IPO PTT 2001 — cổ phần hóa “ông lớn” dầu khí Thái",
+      "en": "PTT's 2001 IPO — Privatising Thailand's Oil & Gas Champion"
+    },
+    "summary": {
+      "vi": "Tập đoàn dầu khí quốc gia PTT bán khoảng 1/3 cổ phần với giá 35 baht/cổ phiếu, niêm yết ngày 6/12/2001 và trở thành một trong những công ty lớn nhất sàn SET.",
+      "en": "State oil & gas group PTT sold roughly a third of its shares at 35 baht each, listed on 6 December 2001 and became one of the SET's largest companies."
+    },
+    "description": {
+      "vi": "Ngày 1/10/2001, Tổng cục Dầu khí Thái Lan (Petroleum Authority of Thailand) chuyển thành công ty đại chúng PTT. Ngày 21/11/2001, PTT định giá IPO 35 baht/cổ phiếu (mệnh giá 10 baht); đợt bán khoảng 1/3 cổ phần thu về khoảng 32,2 tỷ baht (~725 triệu USD) với nhu cầu mạnh từ nhà đầu tư trong và ngoài nước. Cổ phiếu niêm yết ngày 6/12/2001. Tháng 4/2018 PTT chia mệnh giá từ 10 baht xuống 1 baht (1 thành 10), nên giá IPO điều chỉnh tương đương 3,5 baht. PTT nhiều năm là doanh nghiệp vốn hóa lớn nhất Thái Lan cho đến khi Delta Electronics vượt qua đầu năm 2023.",
+      "en": "On 1 October 2001 the Petroleum Authority of Thailand became the public company PTT. On 21 November 2001 PTT priced its IPO at 35 baht per share (par 10 baht); selling about a third of the company raised roughly 32.2 billion baht (~$725m) amid strong local and foreign demand. Shares listed on 6 December 2001. In April 2018 PTT split its par value from 10 baht to 1 baht (10-for-1), making the split-adjusted IPO price 3.5 baht. PTT was for years among Thailand's most valuable listed companies until Delta Electronics overtook it in early 2023."
+    },
+    "opportunity": {
+      "asset": "PTT Public Company Limited (SET: PTT)",
+      "action": {
+        "vi": "Đăng ký mua IPO PTT ở 35 baht, giữ dài hạn và tái đầu tư cổ tức.",
+        "en": "Subscribe to the PTT IPO at 35 baht, hold long term and reinvest the dividends."
+      },
+      "buyWhen": {
+        "vi": "Tháng 11/2001 tại IPO (35 baht, tương đương 3,5 baht sau chia tách 2018)",
+        "en": "November 2001 at the IPO (35 baht; 3.5 baht split-adjusted after 2018)"
+      },
+      "sellWhen": {
+        "vi": "Nắm giữ dài hạn; xem xét chốt lời trong các chu kỳ giá dầu cao",
+        "en": "Hold long term; consider trimming during oil-price peaks"
+      },
+      "estimatedReturn": {
+        "vi": "Với giá khoảng 38 baht trên factsheet SET (lúc truy cập năm 2026), tương đương khoảng 11 lần giá IPO điều chỉnh, chưa kể cổ tức nhiều năm",
+        "en": "At about 38 baht on the SET factsheet (accessed 2026), roughly 11x the split-adjusted IPO price, before decades of dividends"
+      },
+      "returnMultiple": 10.93,
+      "entryPrice": 3.5,
+      "exitPrice": 38.25,
+      "priceCurrency": "THB",
+      "risk": "low",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Chính phủ cần IPO thành công sau khủng hoảng nên định giá hấp dẫn; PTT nắm độc quyền đường ống khí và cổ phần các công ty con như PTTEP — mua càng nhiều suất phân bổ càng tốt.",
+      "en": "The government needed a post-crisis success and priced the deal attractively; PTT controls the gas-pipeline monopoly and stakes in subsidiaries like PTTEP — get as large an allocation as you can."
+    },
+    "pitfalls": {
+      "vi": "Giá cổ phiếu PTT gắn chặt với giá dầu và chính sách trợ giá nhiên liệu của nhà nước; năm 2006 còn có vụ kiện đòi hủy cổ phần hóa PTT. Lợi nhuận phần lớn đến từ cổ tức, không phải tăng giá liên tục.",
+      "en": "PTT's share price is tightly linked to oil prices and state fuel-subsidy policy, and in 2006 there was a lawsuit seeking to reverse its privatisation. Much of the return came from dividends rather than steady price gains."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Giá IPO năm 2001 của PTT là bao nhiêu baht/cổ phiếu (trước chia tách)?",
+        "en": "What was PTT's 2001 IPO price per share (pre-split)?"
+      },
+      "choices": [
+        {
+          "vi": "35 baht",
+          "en": "35 baht"
+        },
+        {
+          "vi": "10 baht",
+          "en": "10 baht"
+        },
+        {
+          "vi": "25 baht",
+          "en": "25 baht"
+        },
+        {
+          "vi": "100 baht",
+          "en": "100 baht"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "PTT định giá IPO 35 baht/cổ phiếu ngày 21/11/2001; 10 baht là mệnh giá lúc đó.",
+        "en": "PTT priced its IPO at 35 baht per share on 21 November 2001; 10 baht was the par value at the time."
+      }
+    },
+    "sources": [
+      {
+        "title": "PTT partial privatization attracts local and international interest - Offshore Magazine",
+        "url": "https://www.offshore-mag.com/home/article/16773946/ptt-partial-privatization-attracts-local-and-international-interest"
+      },
+      {
+        "title": "Thai Oil Stock Offering Is Much in Demand - The New York Times",
+        "url": "https://www.nytimes.com/2001/11/23/business/international-business-thai-oil-stock-offering-is-much-in-demand.html"
+      },
+      {
+        "title": "PTT Investor Update (split par 10 → 1 baht, 24 Apr 2018)",
+        "url": "https://ptt.listedcompany.com/misc/presentations/20241101-ptt-investor-update-202411.pdf"
+      },
+      {
+        "title": "PTT factsheet - Stock Exchange of Thailand",
+        "url": "https://www.set.or.th/en/market/product/stock/quote/ptt%20/factsheet"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "35 baht IPO price (set 21 Nov 2001), ~32.2bn baht raised, 6 Dec 2001 listing and 1 Oct 2001 corporatisation confirmed via Offshore Mag/NYT/PTT search snippets (NYT returned 403 on full fetch). Par split 10→1 baht effective 24 Apr 2018 from PTT investor-update PDFs. Exit price 38.25 is the SET factsheet price at fetch time (Nov 2026); the multiple is price-only. The 2006 privatisation lawsuit is general knowledge and was not separately source-checked."
+  },
+  {
+    "id": "th-capital-controls-black-tuesday-2006",
+    "country": "th",
+    "date": "2006-12-19",
+    "category": "macro",
+    "title": {
+      "vi": "“Thứ Ba Đen” 2006 — kiểm soát vốn làm SET sập 14,8%",
+      "en": "'Black Tuesday' 2006 — Capital Controls Crash the SET 14.8%"
+    },
+    "summary": {
+      "vi": "Quy định dự trữ bắt buộc 30% với vốn ngoại khiến SET mất 14,84% trong một ngày; chính phủ miễn trừ cho cổ phiếu ngay tối đó và thị trường bật 11% hôm sau.",
+      "en": "A 30% reserve requirement on foreign inflows knocked 14.84% off the SET in a day; the government exempted stocks that evening and the market bounced 11% the next day."
+    },
+    "description": {
+      "vi": "Tối 18/12/2006, để hãm đà tăng của baht, Ngân hàng Trung ương Thái Lan (BOT) yêu cầu giữ lại 30% ngoại tệ chuyển vào (không hưởng lãi) trong một năm, áp dụng từ 19/12. Nhà đầu tư nước ngoài bán tháo: ngày 19/12/2006 chỉ số SET có lúc giảm 19,5% và sàn phải tạm dừng giao dịch lần đầu trong lịch sử, rồi đóng cửa ở 622,14 điểm (−14,84%, từ khoảng 730,55) — thấp nhất kể từ tháng 10/2004. Ngay tối hôm đó, chính phủ miễn trừ dòng vốn đầu tư cổ phiếu niêm yết khỏi quy định. Ngày 20/12/2006 SET tăng khoảng 11%.",
+      "en": "On the evening of 18 December 2006, trying to curb baht strength, the Bank of Thailand required 30% of incoming foreign currency to be held unremunerated for a year, effective 19 December. Foreigners dumped Thai stocks: on 19 December 2006 the SET fell as much as 19.5%, trading was halted for the first time in the exchange's history, and the index closed at 622.14 (−14.84%, from about 730.55) — its lowest since October 2004. That evening the government exempted inflows for listed-equity investment from the rule. On 20 December 2006 the SET rebounded about 11%."
+    },
+    "opportunity": {
+      "asset": "SET Index / blue-chip Thái",
+      "action": {
+        "vi": "Mua mạnh cổ phiếu blue-chip Thái vào cuối phiên 19/12/2006 và bán ra khi thị trường bật lại ngày 20/12.",
+        "en": "Buy Thai blue chips aggressively into the close of 19 December 2006 and sell into the 20 December rebound."
+      },
+      "buyWhen": {
+        "vi": "Cuối phiên 19/12/2006 (SET 622,14)",
+        "en": "Close of 19 December 2006 (SET 622.14)"
+      },
+      "sellWhen": {
+        "vi": "Ngày 20/12/2006, sau khi chính phủ miễn trừ cổ phiếu",
+        "en": "20 December 2006, after the equity exemption"
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng +11% chỉ sau một phiên (theo VOA)",
+        "en": "About +11% in a single session (per VOA)"
+      },
+      "returnMultiple": 1.11,
+      "entryPrice": 622.14,
+      "priceCurrency": "points",
+      "exitDate": "2006-12-20",
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Chính phủ quân sự sẽ không chịu nổi áp lực và quay xe trong vòng chưa đầy 24 giờ — cú sập là do chính sách, không phải doanh nghiệp xấu đi.",
+      "en": "The military-installed government won't withstand the pressure and will reverse within 24 hours — the crash is policy-driven, not a deterioration in companies."
+    },
+    "pitfalls": {
+      "vi": "Quy định 30% vẫn áp dụng cho trái phiếu và nhiều dòng vốn khác đến tận năm 2008, nên nhà đầu tư trái phiếu ngoại vẫn chịu thiệt. Bắt dao rơi trong ngày có thể sai nếu chính phủ không đảo ngược.",
+      "en": "The 30% rule still applied to bonds and other inflows until 2008, so foreign bond investors kept losing. Catching an intraday falling knife fails if the government doesn't back down."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Ngày 19/12/2006 chỉ số SET đóng cửa giảm khoảng bao nhiêu?",
+        "en": "Roughly how much did the SET Index fall at the close on 19 December 2006?"
+      },
+      "choices": [
+        {
+          "vi": "14,8%",
+          "en": "14.8%"
+        },
+        {
+          "vi": "5%",
+          "en": "5%"
+        },
+        {
+          "vi": "25%",
+          "en": "25%"
+        },
+        {
+          "vi": "2,5%",
+          "en": "2.5%"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "SET đóng cửa ở 622,14 điểm, giảm 14,8% — mức giảm mạnh nhất kể từ 1997 theo Al Jazeera.",
+        "en": "The SET closed at 622.14, down 14.8% — its biggest drop since 1997 per Al Jazeera."
+      }
+    },
+    "sources": [
+      {
+        "title": "Thailand lifts curbs after stocks plunge - Press Democrat (AP)",
+        "url": "https://www.pressdemocrat.com/2006/12/20/thailand-lifts-curbs-after-stocks-plunge/"
+      },
+      {
+        "title": "Asia jitters as Thai stocks plunge - Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2006/12/19/asia-jitters-as-thai-stocks-plunge"
+      },
+      {
+        "title": "Summary of the Reserve Requirement on Short-Term Capital Inflows - Bank of Thailand",
+        "url": "https://www.bot.or.th/content/dam/bot/documents/en/news-and-media/news-pdf/2006/n5249e.pdf"
+      },
+      {
+        "title": "Thailand's stock market rebounds - VOA (20 Dec 2006)",
+        "url": "https://www.voakorea.com/a/a-35-2006-12-20-voa8-91210189/1297704.html"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "18 Dec 2006 announcement, 30% URR and the equity exemption confirmed via BOT notice and SSRN/KBank snippets. 622.14 close, −14.8%, intraday −19.5% and lowest-since-Oct-2004 via AP (Press Democrat, fetched); first-ever trading halt via Al Jazeera; +11% rebound on 20 Dec via VOA snippet. Prior close 730.55 is back-computed from 622.14 and −14.84%, not read directly. The URR being lifted for remaining flows in 2008 is general knowledge, not source-checked here."
+  },
+  {
+    "id": "th-cp-all-7eleven-compounder-2008",
+    "country": "th",
+    "date": "2008",
+    "category": "stocks",
+    "title": {
+      "vi": "CP All — cỗ máy 7-Eleven nhân 16 lần (2009-2017)",
+      "en": "CP All — the 7-Eleven Compounder (~16x, 2009-2017)"
+    },
+    "summary": {
+      "vi": "Chuỗi 7-Eleven của CP All tăng từ 4.279 cửa hàng (cuối 2007) lên hơn 11.000 (2018); giá cổ phiếu tăng khoảng 16 lần trong 2009-2017.",
+      "en": "CP All's 7-Eleven network grew from 4,279 stores (end-2007) to over 11,000 (2018); the share price rose about 16x over 2009-2017."
+    },
+    "description": {
+      "vi": "CP All, thuộc tập đoàn Charoen Pokphand, vận hành 7-Eleven tại Thái Lan. Tại ngày 31/12/2007, chuỗi có 4.279 cửa hàng; đến năm 2018, Bangkok Post dự báo vượt 11.000 cửa hàng — gần như mọi góc phố Thái Lan đều có một cửa hàng. Lợi nhuận ròng hợp nhất đạt 20.930 triệu baht năm 2018. Theo dữ liệu hiệu suất giá hằng năm, cổ phiếu CPALL tăng 120,7% (2009), 87,5% (2010), 24,7% (2011), 83,2% (2012)…, cộng dồn khoảng 16,5 lần trong 2009-2017 (chưa tính cổ tức). Năm 2013, CP All mua Siam Makro với giá trị khoảng 188,9 tỷ baht bằng vốn vay, làm cổ phiếu rơi xuống 38,50 baht.",
+      "en": "CP All, part of the Charoen Pokphand group, runs 7-Eleven in Thailand. At 31 December 2007 it had 4,279 stores; by 2018 the Bangkok Post expected it to top 11,000, putting a store on almost every Thai street corner. Consolidated net profit reached 20,930 million baht in 2018. According to annual price-performance data, CPALL rose 120.7% (2009), 87.5% (2010), 24.7% (2011), 83.2% (2012) and so on, compounding to roughly 16.5x over 2009-2017 before dividends. In 2013 CP All bought Siam Makro in a debt-funded deal worth about 188.9 billion baht, sending the stock down to 38.50 baht."
+    },
+    "opportunity": {
+      "asset": "CP All PCL (SET: CPALL)",
+      "action": {
+        "vi": "Mua CPALL trong giai đoạn khủng hoảng tài chính 2008 và giữ đến hết 2017 khi mạng lưới cửa hàng tăng gần gấp ba.",
+        "en": "Buy CPALL during the 2008 financial crisis and hold through 2017 as the store network nearly triples."
+      },
+      "buyWhen": {
+        "vi": "Cuối năm 2008, khi thị trường Thái hoảng loạn vì khủng hoảng toàn cầu",
+        "en": "Late 2008, amid the global-crisis panic in Thai stocks"
+      },
+      "sellWhen": {
+        "vi": "Cuối năm 2017 (năm 2018 CPALL giảm 11,6%)",
+        "en": "End of 2017 (CPALL fell 11.6% in 2018)"
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng 16 lần giá (2009-2017, theo hiệu suất năm cộng dồn), chưa kể cổ tức",
+        "en": "About 16x in price (2009-2017, compounded annual performance), excluding dividends"
+      },
+      "returnMultiple": 16.47,
+      "exitDate": "2017-12",
+      "risk": "low",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Người Thái ghé 7-Eleven nhiều lần mỗi ngày để mua đồ ăn, trả hóa đơn, nạp tiền — đây là mô hình dòng tiền mặt mạnh, không nợ (trước thương vụ Makro) với dư địa mở rộng rất lớn.",
+      "en": "Thais visit 7-Eleven several times a day for food, bill payment and top-ups — a cash-generative, debt-free business (before Makro) with huge expansion runway."
+    },
+    "pitfalls": {
+      "vi": "Thương vụ Makro 2013 đẩy tỷ lệ nợ/vốn lên khoảng 6 lần và làm cổ phiếu lao dốc; cổ phiếu tiêu dùng định giá cao (P/E cao) dễ giảm mạnh khi tăng trưởng chậm lại, như các năm 2013, 2015 và 2018.",
+      "en": "The 2013 Makro deal pushed debt-to-equity to about 6x and hammered the stock; richly valued consumer names fall hard when growth slows, as in 2013, 2015 and 2018."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Cuối năm 2007, CP All có bao nhiêu cửa hàng 7-Eleven tại Thái Lan?",
+        "en": "How many 7-Eleven stores did CP All have in Thailand at the end of 2007?"
+      },
+      "choices": [
+        {
+          "vi": "4.279",
+          "en": "4,279"
+        },
+        {
+          "vi": "1.000",
+          "en": "1,000"
+        },
+        {
+          "vi": "11.000",
+          "en": "11,000"
+        },
+        {
+          "vi": "20.000",
+          "en": "20,000"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "Báo cáo tài chính quý 1/2008 ghi nhận 4.279 cửa hàng tại 31/12/2007 và 4.402 tại 31/3/2008.",
+        "en": "The Q1 2008 interim statements report 4,279 stores at 31 Dec 2007 and 4,402 at 31 Mar 2008."
+      }
+    },
+    "sources": [
+      {
+        "title": "CP All (CPALL.BK) stock price history - CompaniesMarketCap",
+        "url": "https://companiesmarketcap.com/cp-all/stock-price-history/"
+      },
+      {
+        "title": "CP All interim financial statements Q1 2008 - SEC Thailand",
+        "url": "http://capital.sec.or.th/webapp/corp_fin/datafile/FS/2008/030120080721E03.doc"
+      },
+      {
+        "title": "CP All Annual Report 2018",
+        "url": "https://www.cpall.co.th/wp-content/uploads/2019/04/CPALL-AR2018_EN_Final_190419-1.pdf"
+      },
+      {
+        "title": "CP All shares hit by high Makro price - Bangkok Post",
+        "url": "https://www.bangkokpost.com/business/general/346887/cp-all-shares-hit-by-high-makro-price"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Annual price performance 2009-2017 (fetched from CompaniesMarketCap) compounds to 16.47x (computed); this is price-only and the site's split-adjusted absolute prices look unreliable, so no entry/exit prices are given. Store counts: 4,279 (31 Dec 2007) from SEC Thailand filing snippet; '>11,000 in 2018' from Bangkok Post (cited on Wikipedia). 2018 net profit 20,930m baht from AR2018 snippet. Makro deal (188.88bn baht), 38.50 low and ~6x D/E from Bangkok Post (fetched). The brief's '10x+' claim holds."
+  },
+  {
+    "id": "th-great-floods-industrial-shock-2011",
+    "country": "th",
+    "date": "2011-10",
+    "category": "technology",
+    "title": {
+      "vi": "Đại hồng thủy 2011 — 7 khu công nghiệp chìm, ổ cứng toàn cầu khan hiếm",
+      "en": "The 2011 Great Floods — 7 Industrial Estates Submerged, Global HDD Shortage"
+    },
+    "summary": {
+      "vi": "Lũ lụt tháng 10/2011 nhấn chìm 7 khu công nghiệp ở Ayutthaya và Pathum Thani, làm tê liệt chuỗi cung ứng ô tô và khiến giá ổ cứng tăng gấp đôi.",
+      "en": "October 2011 floods swamped 7 industrial estates in Ayutthaya and Pathum Thani, crippling auto supply chains and doubling hard-drive prices."
+    },
+    "description": {
+      "vi": "Mùa mưa 2011 khiến sông Chao Phraya ngập kéo dài, làm hơn 800 người chết và gây thiệt hại khoảng 1,425 nghìn tỷ baht (~45,7 tỷ USD). 7 khu công nghiệp — Saha Rattana Nakorn, Rojana, Hi-Tech, Bang Pa-in, Factory Land, Nava Nakorn và Bangkadi — bị ngập trong tháng 10. Honda dừng sản xuất tại nhà máy Rojana từ 4/10/2011. Thái Lan là nơi sản xuất ổ cứng (HDD) lớn thứ hai thế giới; một nhà máy Western Digital ở Bang Pa-In làm ra 1/4 số đầu đọc (slider) toàn cầu. Lũ làm mất khoảng 1/4 năng lực sản xuất HDD thế giới; giá ổ 1TB tại Anh tăng từ 45 bảng lên hơn 100 bảng chỉ trong hai tuần.",
+      "en": "The 2011 monsoon caused prolonged flooding along the Chao Phraya, killing more than 800 people and causing about 1.425 trillion baht (~$45.7bn) in damage and losses. Seven industrial estates — Saha Rattana Nakorn, Rojana, Hi-Tech, Bang Pa-in, Factory Land, Nava Nakorn and Bangkadi — were inundated in October. Honda suspended production at its Rojana plant from 4 October 2011. Thailand was the world's No. 2 hard-disk-drive (HDD) producer; a single Western Digital plant at Bang Pa-In made a quarter of the world's 'sliders'. The floods knocked out about a quarter of global HDD capacity; in the UK a 1TB drive went from £45 to £100 or more in two weeks."
+    },
+    "opportunity": {
+      "asset": "Ổ cứng HDD / nhà sản xuất ổ cứng không bị ngập (như Seagate)",
+      "action": {
+        "vi": "Trữ ổ cứng trước khi lũ lan tới các khu công nghiệp, và ưu tiên cổ phiếu nhà sản xuất HDD có nhà máy không bị ngập.",
+        "en": "Stock up on hard drives before the water reaches the industrial estates, and favour HDD makers whose plants stayed dry."
+      },
+      "buyWhen": {
+        "vi": "Đầu tháng 10/2011, trước khi các khu công nghiệp Ayutthaya bị ngập",
+        "en": "Early October 2011, before the Ayutthaya estates flood"
+      },
+      "sellWhen": {
+        "vi": "Tháng 11/2011 - đầu 2012, khi giá HDD đạt đỉnh",
+        "en": "November 2011 to early 2012, at peak HDD prices"
+      },
+      "estimatedReturn": {
+        "vi": "Giá ổ 1TB tăng hơn gấp đôi (45 → 100+ bảng) trong khoảng hai tuần",
+        "en": "1TB drive prices more than doubled (£45 → £100+) within about two weeks"
+      },
+      "returnMultiple": 2.2,
+      "entryPrice": 45,
+      "exitPrice": 100,
+      "priceCurrency": "GBP",
+      "exitDate": "2011-11",
+      "risk": "medium",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Nhà máy Seagate nằm trên cao nguyên ở phía đông bắc Thái Lan và không bị ngập — đối thủ mất năng lực sản xuất thì Seagate hưởng lợi nhờ giá và biên lợi nhuận tăng.",
+      "en": "Seagate's Thai plant sits on a plateau in the northeast and stayed dry — while rivals lost capacity, it gained from higher prices and margins."
+    },
+    "pitfalls": {
+      "vi": "Đầu cơ hàng hóa vật lý cần vốn lưu kho và kênh bán; nguồn cung HDD hồi phục về mức trước lũ vào khoảng tháng 5/2012, nên ai ôm hàng quá lâu sẽ lỗ. Cổ phiếu khu công nghiệp và bảo hiểm Thái thì giảm mạnh.",
+      "en": "Speculating in physical goods needs inventory capital and a sales channel; HDD supply was back to pre-flood levels by around May 2012, so late sellers lost. Thai industrial-estate and insurance stocks were hit hard."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Bao nhiêu khu công nghiệp lớn bị ngập trong lũ lụt Thái Lan năm 2011?",
+        "en": "How many major industrial estates were inundated in Thailand's 2011 floods?"
+      },
+      "choices": [
+        {
+          "vi": "7",
+          "en": "7"
+        },
+        {
+          "vi": "2",
+          "en": "2"
+        },
+        {
+          "vi": "15",
+          "en": "15"
+        },
+        {
+          "vi": "30",
+          "en": "30"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "7 khu công nghiệp (Saha Rattana Nakorn, Rojana, Hi-Tech, Bang Pa-in, Factory Land, Nava Nakorn, Bangkadi) bị ngập.",
+        "en": "Seven estates (Saha Rattana Nakorn, Rojana, Hi-Tech, Bang Pa-in, Factory Land, Nava Nakorn, Bangkadi) were flooded."
+      }
+    },
+    "sources": [
+      {
+        "title": "2011 Thailand flood case study - PWRI / ICHARM",
+        "url": "https://www.pwri.go.jp/icharm/publication/pdf/2015/4322_eng.pdf"
+      },
+      {
+        "title": "Thailand Flooding Cripples Hard-Drive Suppliers - CNBC",
+        "url": "https://www.cnbc.com/2011/11/06/thailand-flooding-cripples-harddrive-suppliers.html"
+      },
+      {
+        "title": "Disk prices double after flood - The Register",
+        "url": "https://www.theregister.com/off-prem/2011/11/03/disk-prices-double-after-flood-and-could-double-again/395838"
+      },
+      {
+        "title": "About the Impact of Flooding in Thailand on Honda Operations - Honda",
+        "url": "https://global.honda/en/newsroom/news/2011/c111025eng.html"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "7 named industrial estates, >800 deaths and 1.425tn baht damage from the PWRI/ICHARM PDF (fetched); WD Bang Pa-In = 1/4 of global sliders and Seagate's dry plateau plant from CNBC (fetched); £45 → £100+ 1TB price from The Register (fetched); Honda suspension from 4 Oct 2011 from Honda newsroom snippet. ~1/4 global HDD capacity lost and supply recovery by May 2012 from Ars Technica snippet. 2.2x multiple is computed from the GBP retail prices; the Seagate stock gain is not quantified."
+  },
+  {
+    "id": "th-delta-electronics-ev-rally-2020",
+    "country": "th",
+    "date": "2020-04",
+    "category": "technology",
+    "title": {
+      "vi": "Delta Electronics Thái Lan — từ 4 baht lên ngôi vương sàn SET",
+      "en": "Delta Electronics Thailand — From 4 Baht to the SET's Most Valuable Stock"
+    },
+    "summary": {
+      "vi": "Từ khoảng 40 baht (4 baht sau chia tách) tháng 4/2020, DELTA tăng lên kỷ lục 930 baht (93 baht sau chia tách) đầu 2023, vượt PTT và AOT thành công ty lớn nhất Thái Lan.",
+      "en": "From about 40 baht (4 baht split-adjusted) in April 2020, DELTA hit a record 930 baht (93 split-adjusted) in early 2023, overtaking PTT and AOT as Thailand's largest company."
+    },
+    "description": {
+      "vi": "Delta Electronics (Thailand), công ty con của Delta Electronics Đài Loan, sản xuất bộ nguồn, thiết bị cho máy chủ/đám mây và bộ sạc xe điện. Ngày 22/4/2020, cổ phiếu giao dịch quanh 40 baht (theo DBS). Doanh thu tăng từ 63,2 tỷ baht (2021) lên 84,3 tỷ baht (2022). Ngày 3/1/2023, DELTA tăng 12% lên kỷ lục 930 baht, nâng vốn hóa lên 1,16 nghìn tỷ baht (~33,8 tỷ USD), vượt Airports of Thailand và PTT để thành công ty niêm yết lớn nhất Thái Lan. Tháng 4/2023, công ty chia cổ phiếu 1 thành 10 (mệnh giá 1 baht xuống 0,1 baht).",
+      "en": "Delta Electronics (Thailand), a unit of Taiwan's Delta Electronics, makes power supplies, server/cloud hardware and EV chargers. On 22 April 2020 the stock traded around 40 baht (per DBS). Revenue grew from 63.2 billion baht (2021) to 84.3 billion baht (2022). On 3 January 2023 DELTA jumped 12% to a record 930 baht, lifting its market value to 1.16 trillion baht (~$33.8bn) and overtaking Airports of Thailand and PTT as Thailand's largest listed company. In April 2023 it split its shares 10-for-1 (par value 1 baht to 0.1 baht)."
+    },
+    "opportunity": {
+      "asset": "Delta Electronics (Thailand) PCL (SET: DELTA)",
+      "action": {
+        "vi": "Mua DELTA trong đợt bán tháo do COVID năm 2020 và giữ qua làn sóng máy chủ, đám mây và sạc xe điện.",
+        "en": "Buy DELTA in the 2020 COVID sell-off and hold through the server, cloud and EV-charging boom."
+      },
+      "buyWhen": {
+        "vi": "Tháng 4/2020, quanh 40 baht (4 baht sau chia tách)",
+        "en": "April 2020, around 40 baht (4 baht split-adjusted)"
+      },
+      "sellWhen": {
+        "vi": "Đầu tháng 1/2023 ở 930 baht (93 baht sau chia tách), hoặc chốt từng phần khi sàn áp biện pháp hạn chế giao dịch giữa năm 2023",
+        "en": "Early January 2023 at 930 baht (93 split-adjusted), or trim when the exchange imposed trading curbs in mid-2023"
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng 23 lần (4 → 93 baht sau chia tách) trong chưa đầy 3 năm",
+        "en": "About 23x (4 → 93 baht split-adjusted) in under three years"
+      },
+      "returnMultiple": 23.25,
+      "entryPrice": 4.0,
+      "exitPrice": 93.0,
+      "priceCurrency": "THB",
+      "exitDate": "2023-01-03",
+      "risk": "high",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Free float của DELTA rất thấp vì công ty mẹ Đài Loan nắm phần lớn cổ phần; khi MSCI đưa DELTA vào chỉ số và dòng tiền xe điện đổ về, giá có thể tăng phi mã.",
+      "en": "DELTA's free float is tiny because the Taiwanese parent owns most of the shares; once MSCI index inclusion and EV money arrive, the price can go parabolic."
+    },
+    "pitfalls": {
+      "vi": "Định giá P/E cực cao và free float thấp khiến cổ phiếu biến động dữ dội; tháng 6/2023 sàn SET áp yêu cầu mua bằng tiền mặt (cash balance), gây đợt bán tháo xóa khoảng 9 tỷ USD vốn hóa.",
+      "en": "An extreme P/E and low free float make the stock wildly volatile; in June 2023 the SET imposed cash-balance trading curbs, triggering a rout that erased about $9bn of market value."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Đầu năm 2023, Delta Electronics Thái Lan vượt qua những công ty nào để trở thành công ty lớn nhất sàn SET?",
+        "en": "In early 2023, which companies did Delta Electronics Thailand overtake to become the SET's largest?"
+      },
+      "choices": [
+        {
+          "vi": "Airports of Thailand và PTT",
+          "en": "Airports of Thailand and PTT"
+        },
+        {
+          "vi": "CP All và SCB",
+          "en": "CP All and SCB"
+        },
+        {
+          "vi": "Kasikornbank và Advanced Info",
+          "en": "Kasikornbank and Advanced Info"
+        },
+        {
+          "vi": "Thai Airways và Bangkok Bank",
+          "en": "Thai Airways and Bangkok Bank"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "Theo Bloomberg, ngày 3/1/2023 DELTA vượt Airports of Thailand và PTT với vốn hóa 1,16 nghìn tỷ baht.",
+        "en": "Per Bloomberg, on 3 Jan 2023 DELTA overtook Airports of Thailand and PTT with a 1.16tn-baht market value."
+      }
+    },
+    "sources": [
+      {
+        "title": "Delta passes world's No. 1 airport stock to become largest Thai firm - Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2023-01-04/delta-passes-world-s-no-1-airport-stock-to-become-largest-thai-firm"
+      },
+      {
+        "title": "DBS Vickers research on DELTA (last traded price 22 Apr 2020: Bt40)",
+        "url": "https://researchwise.dbsvresearch.com/ResearchManager/DownloadResearch.aspx?E=fddjdk-c"
+      },
+      {
+        "title": "Delta Electronics (Thailand) stock split history - roic.ai",
+        "url": "https://www.roic.ai/quote/DELTA.BK/stock-splits"
+      },
+      {
+        "title": "Exchange trading curbs spark US$9 billion rout in top Thai stock - The Business Times",
+        "url": "https://www.businesstimes.com.sg/international/asean/exchange-trading-curbs-spark-us9-billion-rout-top-thai-stock"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "930-baht record, +12%, 1.16tn baht market value and overtaking AOT/PTT from Bloomberg (fetched). 40-baht entry is the DBS 'last traded price 22 Apr 2020' from the search snippet (full PDF fetch timed out); the exact March 2020 low was not confirmed. 10:1 split on 28 Apr 2023 from roic.ai snippet and the par-0.1-baht DELTA filings; revenue 63,208m/84,318m baht from Delta's 2021 One Report snippet. The brief's '>110 THB by 2023' was not confirmed, so the sourced 93 (split-adjusted) is used. US$9bn rout headline from Business Times (June 2023)."
+  },
+  {
+    "id": "th-cannabis-decriminalisation-boom-bust-2022",
+    "country": "th",
+    "date": "2022-06-09",
+    "category": "business",
+    "title": {
+      "vi": "Cần sa Thái Lan 2022 — bùng nổ rồi đổ vỡ",
+      "en": "Thai Cannabis 2022 — Boom, Then Bust"
+    },
+    "summary": {
+      "vi": "Ngày 9/6/2022 Thái Lan đưa cần sa ra khỏi danh mục ma túy; hàng nghìn cửa hàng mọc lên rồi bị cung vượt cầu và chính sách quay đầu năm 2024-2025 nhấn chìm.",
+      "en": "On 9 June 2022 Thailand removed cannabis from its narcotics list; thousands of shops sprang up before oversupply and a 2024-2025 policy U-turn crushed them."
+    },
+    "description": {
+      "vi": "Ngày 9/6/2022, quy định của Bộ Y tế Thái Lan có hiệu lực, đưa cây cần sa ra khỏi danh mục ma túy (trừ chiết xuất có hơn 0,2% THC) — Thái Lan thành nước châu Á đầu tiên cho phép người dân tự trồng. Ngày 8/6/2022, các cổ phiếu liên quan tăng mạnh: DOD +13,85%, GUNKUL +2,54%, RBF +3,21%. Đến tháng 1/2023, cơ quan quản lý đã cấp gần 3.000 giấy phép và hơn 6.000 cửa hàng đã đăng ký. Nhưng luật quản lý không được thông qua (tháng 9/2022 Quốc hội bác dự luật, kéo GUNKUL, DOD, RBF giảm), cung vượt cầu khiến giá bán lẻ giảm khoảng 1/3. Tháng 5/2024 Thủ tướng Srettha tuyên bố đưa cần sa trở lại danh mục ma túy; GUNKUL đình chỉ đầu tư cần sa. Tháng 6/2025 chính phủ chỉ cho phép bán cần sa theo đơn thuốc.",
+      "en": "On 9 June 2022 a Public Health Ministry rule took effect removing the cannabis plant from the narcotics list (except extracts above 0.2% THC), making Thailand the first Asian country to let people grow it at home. On 8 June 2022 related stocks jumped: DOD +13.85%, GUNKUL +2.54%, RBF +3.21%. By January 2023 regulators had issued nearly 3,000 licences and more than 6,000 shops had registered. But no regulating law passed (in September 2022 the House voted down the cannabis bill, pushing GUNKUL, DOD and RBF lower), and oversupply cut retail prices by about a third. In May 2024 PM Srettha vowed to relist cannabis as a narcotic, and GUNKUL suspended its cannabis investments. In June 2025 the government restricted sales to prescriptions only."
+    },
+    "opportunity": {
+      "asset": "Cổ phiếu liên quan cần sa/hemp trên SET (DOD, GUNKUL, RBF)",
+      "action": {
+        "vi": "Chốt lời cổ phiếu cần sa ngay trong cơn sốt quanh ngày 9/6/2022 thay vì mở cửa hàng hay mua đuổi.",
+        "en": "Sell cannabis-themed stocks into the hype around 9 June 2022 instead of opening a dispensary or chasing them."
+      },
+      "buyWhen": {
+        "vi": "Đầu năm 2022, khi quy định được công bố trên Công báo (9/2/2022) nhưng chưa có hiệu lực",
+        "en": "Early 2022, after the rule was gazetted (9 February 2022) but before it took effect"
+      },
+      "sellWhen": {
+        "vi": "Ngày 8-9/6/2022, khi các cổ phiếu tăng mạnh trước ngày hiệu lực",
+        "en": "8-9 June 2022, as the stocks spiked ahead of the effective date"
+      },
+      "estimatedReturn": {
+        "vi": "Lợi nhuận ngắn hạn từ “mua tin đồn, bán sự thật” (ví dụ DOD +13,85% chỉ trong phiên 8/6/2022); giữ lâu hơn thì thua lỗ khi chính sách quay đầu",
+        "en": "Short-term 'buy the rumour, sell the news' gains (e.g. DOD +13.85% on 8 June 2022 alone); holding longer meant losses as policy reversed"
+      },
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Chính sách cần sa gắn với đảng Bhumjaithai — khi liên minh cầm quyền thay đổi năm 2023-2024, quy định sẽ bị siết. Không có luật quản lý đi kèm là dấu hiệu bong bóng.",
+      "en": "Cannabis policy is tied to the Bhumjaithai party — when the ruling coalition shifts in 2023-2024, rules will tighten. The lack of a regulating law is the bubble warning."
+    },
+    "pitfalls": {
+      "vi": "Hàng nghìn cửa hàng cạnh tranh trên thị trường du lịch theo mùa; giá giảm, hàng nhập lậu tràn vào. Cần sa không được hợp pháp hóa cho mục đích giải trí; quy định đổi liên tục có thể biến giấy phép kinh doanh thành vô giá trị.",
+      "en": "Thousands of shops competed for seasonal tourist demand while prices fell and smuggled product poured in. Recreational use was never formally legalised, and shifting rules could make a business licence worthless."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Thái Lan đưa cây cần sa ra khỏi danh mục ma túy vào ngày nào?",
+        "en": "On what date did Thailand remove the cannabis plant from its narcotics list?"
+      },
+      "choices": [
+        {
+          "vi": "9/6/2022",
+          "en": "9 June 2022"
+        },
+        {
+          "vi": "1/1/2020",
+          "en": "1 January 2020"
+        },
+        {
+          "vi": "25/6/2025",
+          "en": "25 June 2025"
+        },
+        {
+          "vi": "9/2/2022",
+          "en": "9 February 2022"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "Quy định đăng Công báo ngày 9/2/2022 và có hiệu lực ngày 9/6/2022.",
+        "en": "The rule was gazetted on 9 February 2022 and took effect on 9 June 2022."
+      }
+    },
+    "sources": [
+      {
+        "title": "Market Roundup 8 June 2022 (marijuana stocks rise) - Kaohoon International",
+        "url": "https://www.kaohooninternational.com/markets/512884"
+      },
+      {
+        "title": "Cannabis in Thailand - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Cannabis_in_Thailand"
+      },
+      {
+        "title": "Thailand's weed industry says it's ready for 'serious money' - The Straits Times",
+        "url": "https://www.straitstimes.com/asia/se-asia/thailand-s-weed-industry-says-it-s-ready-for-serious-money"
+      },
+      {
+        "title": "GUNKUL update: cannabis from euphoria to failure - Globlex Securities",
+        "url": "https://www.globlex.co.th/research/research_30991_1_20251006%20GUNKUL_U_EN.pdf"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "9 June 2022 effective date, 0.2% THC limit, 9 Feb gazette and DOD/GUNKUL/RBF moves on 8 Jun 2022 from Kaohoon (fetched); ~3,000 licences and >6,000 shops (Jan 2023) from a Statista snippet; ~1/3 retail price drop from Straits Times (fetched); GUNKUL suspending cannabis in May 2024 and the June 2025 prescription-only rule from Globlex (fetched) and a Wiley Addiction snippet; Srettha's May 2024 relisting vow from SCMP; Sept 2022 House vote-down from Kaohoon headline. No exact stock-price peak/trough multiple was sourced, so returnMultiple is omitted."
+  },
+  {
+    "id": "th-more-return-manipulation-2022",
+    "country": "th",
+    "date": "2022-11-10",
+    "category": "stocks",
+    "title": {
+      "vi": "Vụ thao túng MORE 2022 — lệnh mua 1,5 tỷ cổ phiếu “ma”",
+      "en": "The 2022 MORE Manipulation — a Phantom 1.5-Billion-Share Order"
+    },
+    "summary": {
+      "vi": "Ngày 10/11/2022, lệnh mua 1,5 tỷ cổ phiếu More Return ở 2,90 baht bị vỡ nợ thanh toán, để lại cho 11 công ty chứng khoán khoản nợ khoảng 4,5 tỷ baht.",
+      "en": "On 10 November 2022 an order for 1.5 billion More Return shares at 2.90 baht went unpaid, leaving 11 brokerages with about 4.5 billion baht of exposure."
+    },
+    "description": {
+      "vi": "More Return (MORE) niêm yết trên sàn mai, đóng cửa 2,78 baht ngày 9/11/2022. Sáng 10/11, cổ phiếu mở cửa ở 2,90 baht (+4,3%) với lệnh mua at-the-open 1,5 tỷ cổ phiếu, giá trị giao dịch 7,14 tỷ baht (bình quân 30 ngày trước chỉ khoảng 360 triệu baht). Trong 20 phút cổ phiếu rơi xuống giá sàn 1,95 baht, rồi xuống 1,37 baht ngày hôm sau. Sàn SET tạm dừng giao dịch 14-18/11; khi mở lại ngày 21/11, cổ phiếu tiếp tục giảm 29,9% xuống 0,96 baht. Người mua dùng tài khoản ký quỹ tại 11 công ty chứng khoán rồi không thanh toán. SEC Thái Lan khởi kiện hình sự 18 người (2/2023), và Tòa Dân sự sau đó ra lệnh trả lại 4,5 tỷ baht cho 11 công ty chứng khoán.",
+      "en": "More Return (MORE), listed on the mai board, closed at 2.78 baht on 9 November 2022. On the morning of 10 November it opened at 2.90 baht (+4.3%) with an at-the-open buy order for 1.5 billion shares and turnover of 7.14 billion baht (versus a 30-day average of about 360 million). Within 20 minutes it collapsed to the 1.95-baht floor, then fell to 1.37 baht the next day. The SET suspended trading on 14-18 November; when trading resumed on 21 November the stock fell another 29.9% to 0.96 baht. The buyer used margin accounts at 11 brokerages and failed to settle. Thailand's SEC filed criminal complaints against 18 people (February 2023), and the Civil Court later ordered 4.5 billion baht returned to the 11 brokerages."
+    },
+    "opportunity": {
+      "asset": "More Return PCL (mai: MORE)",
+      "action": {
+        "vi": "Bán toàn bộ MORE ngay khi thấy lệnh mua bất thường 1,5 tỷ cổ phiếu lúc mở cửa — hoặc tránh xa cổ phiếu vốn hóa nhỏ có thanh khoản bất thường.",
+        "en": "Sell all MORE the moment the abnormal 1.5-billion-share opening bid appears — or avoid small caps with suspicious liquidity altogether."
+      },
+      "buyWhen": {
+        "vi": "Không mua — chỉ bán ở 2,90 baht vào phiên mở cửa 10/11/2022",
+        "en": "Don't buy — only sell into the 2.90-baht open on 10 November 2022"
+      },
+      "sellWhen": {
+        "vi": "Phiên mở cửa ngày 10/11/2022",
+        "en": "The opening auction of 10 November 2022"
+      },
+      "estimatedReturn": {
+        "vi": "Bán ở 2,90 baht tránh được mức giảm khoảng 67% (xuống 0,96 baht ngày 21/11/2022)",
+        "en": "Selling at 2.90 baht avoided a ~67% loss (to 0.96 baht on 21 November 2022)"
+      },
+      "returnMultiple": 0.345,
+      "entryPrice": 2.78,
+      "exitPrice": 0.96,
+      "priceCurrency": "THB",
+      "exitDate": "2022-11-21",
+      "risk": "high",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Lệnh mua khổng lồ vượt xa thanh khoản bình thường xuất phát từ nhóm thao túng — người bán lại chính là cổ đông lớn. Khi thấy giá trị giao dịch gấp 20 lần bình quân, hãy rút ngay.",
+      "en": "The giant bid far beyond normal liquidity came from the manipulators while a major shareholder was the seller. When turnover hits 20x its average, get out."
+    },
+    "pitfalls": {
+      "vi": "Cổ phiếu bị đình chỉ không thể bán; nhà đầu tư nhỏ kẹt lại khi giá tiếp tục trượt về vài satang trong các năm sau. Đừng cố bắt đáy cổ phiếu dính điều tra thao túng.",
+      "en": "Suspended shares can't be sold; small investors were trapped as the price kept sliding to a few satang in later years. Don't bottom-fish stocks under manipulation investigation."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Lệnh mua bất thường đối với cổ phiếu MORE ngày 10/11/2022 có khối lượng bao nhiêu?",
+        "en": "How large was the abnormal buy order for MORE on 10 November 2022?"
+      },
+      "choices": [
+        {
+          "vi": "1,5 tỷ cổ phiếu",
+          "en": "1.5 billion shares"
+        },
+        {
+          "vi": "15 triệu cổ phiếu",
+          "en": "15 million shares"
+        },
+        {
+          "vi": "150 triệu cổ phiếu",
+          "en": "150 million shares"
+        },
+        {
+          "vi": "15 tỷ cổ phiếu",
+          "en": "15 billion shares"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "Lệnh mua 1,5 tỷ cổ phiếu ở 2,90 baht (khoảng 4,5 tỷ baht) được đặt qua 11 công ty chứng khoán.",
+        "en": "The order was for 1.5 billion shares at 2.90 baht (about 4.5 billion baht), placed through 11 brokerages."
+      }
+    },
+    "sources": [
+      {
+        "title": "MORE shares nosedive in return to trade - Bangkok Post",
+        "url": "https://www.bangkokpost.com/business/general/2443074/more-shares-nosedive-in-return-to-trade"
+      },
+      {
+        "title": "SET news: unusual trading in MORE - Stock Exchange of Thailand",
+        "url": "https://www.set.or.th/en/market/news-and-alert/newsdetails?id=2022135262&symbol=mai"
+      },
+      {
+        "title": "Unusual bid for 1,500 million MORE shares - Kaohoon International",
+        "url": "https://www.kaohooninternational.com/markets/518738"
+      },
+      {
+        "title": "Civil Court orders return of ฿4.5bn to 11 brokers - The Nation",
+        "url": "https://www.nationthailand.com/business/trading-investment/40052782"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "2.78 prior close and 1.5bn-share bid at 2.90 from Kaohoon; open +4.3%, floor 1.95, 7.14bn-baht turnover from SET notice/Bangkok Post; 1.37 → 0.96 (−29.9%) on 21 Nov 2022 resumption from Bangkok Post (fetched); 4.5bn baht/11 brokers from The Nation (fetched). SEC complaint against 18 people (10 Feb 2023) from SEC Thailand snippet. Date note: SET and Bangkok Post put the order on 10 Nov 2022, while The Nation's court article says 11 Nov; 10 Nov is used. The brief's '~0.30 THB' low was not confirmed; 0.96 (first post-suspension close) is used. 'A few satang later' is backed by Yahoo history showing ~0.04 baht in 2025."
+  },
+  {
+    "id": "th-stark-corporation-accounting-fraud-2023",
+    "country": "th",
+    "date": "2023-06-01",
+    "category": "stocks",
+    "title": {
+      "vi": "Bê bối kế toán Stark 2023 — mất 99% trong một tháng",
+      "en": "The 2023 Stark Accounting Fraud — 99% Gone in a Month"
+    },
+    "summary": {
+      "vi": "Nhà sản xuất cáp điện Stark lộ doanh thu khống; cổ phiếu rơi từ 2,38 baht xuống 0,02 baht trong tháng 6/2023, nợ khoảng 39 tỷ baht và vốn chủ sở hữu âm.",
+      "en": "Cable maker Stark was exposed for fake sales; its stock fell from 2.38 baht to 0.02 baht in June 2023 with about 39 billion baht of liabilities and negative equity."
+    },
+    "description": {
+      "vi": "Stark Corporation, nhà sản xuất dây và cáp điện được cổ đông lớn Vonnarat Tangkaravakoon (con trai nhà sáng lập TOA Paint) hậu thuẫn, từng có vốn hóa đỉnh hơn 1,7 tỷ USD. Tháng 12/2022, công ty rút khỏi thương vụ mua mảng cáp sạc xe điện của Leoni (Đức) dù đã huy động 5,58 tỷ baht. Ngày 1/6/2023, cổ phiếu giao dịch trở lại sau hơn 2 tháng đình chỉ và lao từ 2,38 xuống 0,25 baht ngay khi mở cửa (−92% trong ngày). Báo cáo ngày 16/6 cho thấy lỗ ròng 6,61 tỷ baht năm 2022 và lỗ 5,97 tỷ baht năm 2021 (trước đó báo lãi 2,78 tỷ baht); kiểm toán đặc biệt của PwC phát hiện 202 giao dịch bán hàng bất thường trị giá 8 tỷ baht. Công ty có khoảng 39 tỷ baht nợ phải trả và vốn chủ sở hữu âm 4,4 tỷ baht. Cổ phiếu kết thúc tháng 6/2023 ở 0,02 baht; ngày 30/6/2023 là phiên giao dịch cuối trước khi bị đình chỉ dài hạn trong quy trình hủy niêm yết.",
+      "en": "Stark Corporation, a wire-and-cable maker backed by Vonnarat Tangkaravakoon (son of TOA Paint's founder), once had a peak market value above $1.7bn. In December 2022 it backed out of buying Leoni's German EV-cable business despite raising 5.58 billion baht for it. On 1 June 2023 the stock resumed trading after a suspension of more than two months and fell from 2.38 to 0.25 baht at the open (−92% on the day). Statements released on 16 June showed a 2022 net loss of 6.61 billion baht and a restated 2021 loss of 5.97 billion baht (previously reported as a 2.78-billion-baht profit); a PwC special audit found 202 unusual sale transactions worth 8 billion baht. The company had about 39 billion baht of liabilities and negative equity of 4.4 billion baht. The stock ended June 2023 at 0.02 baht; 30 June 2023 was its last trading day before a long suspension pending delisting."
+    },
+    "opportunity": {
+      "asset": "Stark Corporation PCL (SET: STARK)",
+      "action": {
+        "vi": "Bán sạch STARK khi công ty rút khỏi thương vụ Leoni (12/2022) và liên tục trì hoãn nộp báo cáo tài chính.",
+        "en": "Dump STARK when it abandoned the Leoni deal (December 2022) and kept delaying its financial statements."
+      },
+      "buyWhen": {
+        "vi": "Không mua — đây là bài học tránh lỗ",
+        "en": "Don't buy — this is a loss-avoidance lesson"
+      },
+      "sellWhen": {
+        "vi": "Tháng 12/2022 - tháng 3/2023, trước khi cổ phiếu bị đình chỉ",
+        "en": "December 2022 to March 2023, before the trading suspension"
+      },
+      "estimatedReturn": {
+        "vi": "Bán sớm tránh được mức giảm hơn 99% (2,38 → 0,02 baht)",
+        "en": "Selling early avoided a 99%+ loss (2.38 → 0.02 baht)"
+      },
+      "returnMultiple": 0.0084,
+      "entryPrice": 2.38,
+      "exitPrice": 0.02,
+      "priceCurrency": "THB",
+      "exitDate": "2023-06-30",
+      "risk": "high",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Hủy thương vụ M&A nhưng giữ tiền huy động cho “mục đích khác” không rõ ràng, cộng với trì hoãn báo cáo tài chính, là hai tín hiệu đỏ kinh điển của gian lận kế toán.",
+      "en": "Cancelling an M&A deal while keeping the raised cash for vague 'other purposes', plus delayed financial statements, are two classic accounting-fraud red flags."
+    },
+    "pitfalls": {
+      "vi": "Trái phiếu doanh nghiệp của Stark (khoảng 9,2 tỷ baht) cũng vỡ nợ — trái chủ không an toàn hơn cổ đông. Cổ phiếu bị đình chỉ thì không thể cắt lỗ.",
+      "en": "Stark's corporate bonds (about 9.2 billion baht) defaulted too — bondholders were not safe either. Once a stock is suspended you can't cut your losses."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Kiểm toán đặc biệt của PwC phát hiện bao nhiêu giao dịch bán hàng bất thường tại Stark năm 2022?",
+        "en": "How many unusual sale transactions did PwC's special audit find at Stark in 2022?"
+      },
+      "choices": [
+        {
+          "vi": "202",
+          "en": "202"
+        },
+        {
+          "vi": "12",
+          "en": "12"
+        },
+        {
+          "vi": "2.000",
+          "en": "2,000"
+        },
+        {
+          "vi": "50",
+          "en": "50"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "PwC phát hiện 202 giao dịch bán bất thường trị giá 8 tỷ baht năm 2022 và 3,59 tỷ baht năm 2021.",
+        "en": "PwC found 202 unusual sale transactions worth 8 billion baht in 2022 and 3.59 billion baht in 2021."
+      }
+    },
+    "sources": [
+      {
+        "title": "A 99% stock crash and shock default raise alarm in Thailand - The Business Times (Bloomberg)",
+        "url": "https://www.businesstimes.com.sg/international/asean/99-stock-crash-and-shock-default-raise-alarm-thailand"
+      },
+      {
+        "title": "In Thailand, Stark fiasco damages investor confidence - The Asset",
+        "url": "https://www.asiaasset.com/regulation-compliance/in-thailand-stark-fiasco-damages-investor-confidence-regulators-criticised/"
+      },
+      {
+        "title": "Thai stock market suffers as Stark Corporation defaults - Thaiger",
+        "url": "https://thethaiger.com/news/business/thai-stock-market-suffers-as-stark-corporation-defaults"
+      },
+      {
+        "title": "Thailand: don't let a good scandal go to waste - ACGA",
+        "url": "https://www.acga-asia.org/blog-detail.php?id=72"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "2.38 → 0.25 baht on 1 Jun 2023 from Thaiger (citing Bangkok Post); 0.02-baht June-end close from The Asset; −92% on 1 Jun, 6.61bn/5.97bn losses, 2.78bn originally reported profit, 202 transactions/8bn baht, ~39bn liabilities, −4.4bn equity, 5.58bn Leoni raise and $1.7bn peak from Business Times/Bloomberg (fetched); negative equity 4,404m baht also in the SEC Thailand filing; 30 Jun 2023 last trading day from ACGA (fetched). The ~9.2bn baht bond default figure is from Thaiger. 'Last trading day' means a long suspension; final formal delisting was not separately confirmed."
+  }
+]

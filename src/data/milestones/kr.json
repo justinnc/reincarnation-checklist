@@ -1,0 +1,997 @@
+[
+  {
+    "id": "kr-imf-crisis-kospi-bottom-1997",
+    "country": "kr",
+    "date": "1997-12",
+    "category": "macro",
+    "title": {
+      "vi": "Khủng hoảng IMF 1997 và đáy KOSPI tháng 6/1998",
+      "en": "The 1997 IMF Crisis and the June 1998 KOSPI Bottom"
+    },
+    "summary": {
+      "vi": "Hàn Quốc nhận gói cứu trợ 58 tỷ USD, won mất hơn nửa giá trị; KOSPI rơi về ~277 điểm rồi vượt 1.000 điểm cuối 1999.",
+      "en": "Korea took a $58B rescue, the won lost over half its value; KOSPI sank to ~277 then closed above 1,000 at end-1999."
+    },
+    "description": {
+      "vi": "Cuối 1997, làn sóng phá sản chaebol và nợ ngắn hạn nước ngoài khiến Hàn Quốc cạn dự trữ ngoại hối. Tháng 12/1997 IMF phê duyệt gói hỗ trợ quốc tế khoảng 58 tỷ USD — lớn nhất lịch sử lúc đó. Đồng won rơi từ khoảng 900 won/USD (tháng 10) xuống gần 1.965 won/USD đêm Giáng sinh 1997. Tháng 1/1998, hơn 3,5 triệu người dân xếp hàng quyên góp vàng gia đình để giúp trả nợ. KOSPI chạm đáy khoảng 277–280 điểm giữa tháng 6/1998, rồi tăng 49,9% năm 1998 và 82,8% năm 1999, đóng cửa 1999 ở 1.028 điểm.",
+      "en": "In late 1997 a wave of chaebol bankruptcies and short-term foreign debt drained Korea's FX reserves. In December 1997 the IMF approved an international package of about $58 billion — the largest ever at the time. The won fell from roughly 900/USD in October to about 1,965/USD on Christmas Eve 1997. In January 1998 more than 3.5 million citizens donated household gold to help repay the debt. KOSPI bottomed around 277–280 in mid-June 1998, then gained 49.9% in 1998 and 82.8% in 1999, closing 1999 at 1,028."
+    },
+    "opportunity": {
+      "asset": "KOSPI index",
+      "action": {
+        "vi": "Mua rổ cổ phiếu KOSPI (hoặc blue-chip xuất khẩu) khi thị trường hoảng loạn nhất giữa năm 1998.",
+        "en": "Buy a KOSPI basket (or export blue chips) at peak panic in mid-1998."
+      },
+      "buyWhen": {
+        "vi": "Tháng 6/1998, khi KOSPI quanh 280 điểm.",
+        "en": "June 1998, with KOSPI near 280."
+      },
+      "sellWhen": {
+        "vi": "Cuối 1999 – đầu 2000, khi KOSPI trở lại trên 1.000 điểm giữa cơn sốt dot-com.",
+        "en": "Late 1999 – early 2000, when KOSPI was back above 1,000 amid the dot-com boom."
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng 3,7 lần (277 → 1.028 điểm) trong khoảng 18 tháng, chưa tính cổ tức.",
+        "en": "About 3.7x (277 → 1,028) in roughly 18 months, before dividends."
+      },
+      "returnMultiple": 3.7,
+      "entryPrice": 277.37,
+      "exitPrice": 1028.07,
+      "priceCurrency": "points",
+      "exitDate": "1999-12",
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Won mất giá một nửa khiến tài sản Hàn Quốc rẻ gấp đôi với nhà đầu tư cầm USD; ai mua bằng đô la ở đáy hưởng thêm lợi nhuận khi won phục hồi về quanh 1.140–1.200 won/USD năm 1999.",
+      "en": "With the won halved, Korean assets were twice as cheap for dollar holders; buying in USD at the bottom added FX gains as the won recovered toward ~1,140–1,200/USD in 1999."
+    },
+    "pitfalls": {
+      "vi": "Nhiều chaebol (Hanbo, Kia, sau đó Daewoo) phá sản hẳn — mua cổ phiếu riêng lẻ có thể mất trắng; KOSPI cũng giảm 50,9% năm 2000 khi bong bóng dot-com vỡ.",
+      "en": "Several chaebol (Hanbo, Kia, later Daewoo) went bust outright — single stocks could go to zero; KOSPI also fell 50.9% in 2000 when the dot-com bubble burst."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Người dân Hàn Quốc đã làm gì để giúp đất nước trả nợ IMF năm 1998?",
+        "en": "What did ordinary Koreans do in 1998 to help repay the IMF?"
+      },
+      "choices": [
+        {
+          "vi": "Quyên góp vàng gia đình trong chiến dịch toàn quốc",
+          "en": "Donated household gold in a nationwide campaign"
+        },
+        {
+          "vi": "Mua trái phiếu chính phủ bằng USD",
+          "en": "Bought government bonds in US dollars"
+        },
+        {
+          "vi": "Tẩy chay hàng nhập khẩu Nhật Bản",
+          "en": "Boycotted Japanese imports"
+        },
+        {
+          "vi": "Gửi tiết kiệm bắt buộc vào ngân hàng nhà nước",
+          "en": "Made compulsory deposits in state banks"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "Chiến dịch quyên góp vàng bắt đầu ngày 5/1/1998, thu hút hơn 3,5 triệu người tham gia.",
+        "en": "The gold-collecting campaign launched on Jan 5, 1998 and drew more than 3.5 million participants."
+      }
+    },
+    "sources": [
+      {
+        "title": "Mining.com: How gold came to South Korea's rescue",
+        "url": "https://www.mining.com/web/how-gold-came-to-south-koreas-rescue/"
+      },
+      {
+        "title": "IMF eLibrary: Korea chapter (won from 901 to 1,965 per dollar)",
+        "url": "https://www.elibrary.imf.org/downloadpdf/book/9781589062177/ch017.pdf"
+      },
+      {
+        "title": "Korea Herald: Ups and downs of Kospi since 1998",
+        "url": "https://www.koreaherald.com/article/1508461"
+      },
+      {
+        "title": "TopForeignStocks: KOSPI index returns by year",
+        "url": "https://topforeignstocks.com/indices/the-kospi-index-returns-by-year/"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed $58B IMF package and Jan 5, 1998 gold drive (Mining.com), won at ~1,965/USD on Dec 24, 1997 (IMF eLibrary), KOSPI ~280 on June 16, 1998 (Korea Herald; The Investor cites 277.37 low), and 1999 close of 1,028.07 (TopForeignStocks). The 1999 won range in insiderTip is approximate."
+  },
+  {
+    "id": "kr-daewoo-group-collapse-1999",
+    "country": "kr",
+    "date": "1999-08",
+    "category": "business",
+    "title": {
+      "vi": "Tập đoàn Daewoo sụp đổ — vụ phá sản lớn nhất lịch sử Hàn Quốc",
+      "en": "Daewoo Group Collapses — Korea's Biggest Corporate Failure"
+    },
+    "summary": {
+      "vi": "Chaebol lớn thứ hai Hàn Quốc vỡ nợ năm 1999 với khoảng 50–80 tỷ USD nợ; nhà sáng lập Kim Woo-choong bị buộc tội gian lận kế toán 41 nghìn tỷ won.",
+      "en": "Korea's No. 2 chaebol failed in 1999 with roughly $50–80B of debt; founder Kim Woo-choong was charged over a 41 trillion won accounting fraud."
+    },
+    "description": {
+      "vi": "Daewoo của Kim Woo-choong mở rộng ồ ạt bằng nợ vay (nhà máy ô tô, đóng tàu, thương mại toàn cầu) ngay cả sau khủng hoảng 1997. Đến năm 1999, tập đoàn không trả nổi nợ — ước tính 50–80 tỷ USD — và bị chủ nợ đưa vào chương trình tái cơ cấu (workout) từ tháng 8/1999, rồi bị giải thể. Công tố viên truy tố hơn 40 lãnh đạo; kiểm toán viên đã che giấu quy mô nợ thật. Kim bỏ trốn ra nước ngoài (trong đó có Việt Nam), về nước tháng 6/2005 và bị bắt, bị cáo buộc chủ mưu gian lận kế toán 41 nghìn tỷ won (~43,4 tỷ USD). Ngày 30/5/2006 ông lĩnh án 10 năm tù, rồi được ân xá cuối năm 2007.",
+      "en": "Kim Woo-choong's Daewoo kept expanding on borrowed money (autos, shipbuilding, global trading) even after the 1997 crisis. By 1999 it could not service debts estimated at $50–80 billion, was put into a creditor-led workout from August 1999 and then dismantled. Prosecutors charged over 40 executives; auditors had concealed the true debt. Kim fled abroad (including to Vietnam), returned in June 2005 and was arrested, charged with masterminding a 41 trillion won (~$43.4B) accounting fraud. On May 30, 2006 he was sentenced to 10 years, then pardoned at the end of 2007."
+    },
+    "opportunity": {
+      "asset": "Daewoo affiliates (Daewoo Corp, Daewoo Motor, etc.)",
+      "action": {
+        "vi": "Bán toàn bộ cổ phiếu/trái phiếu Daewoo trước 1999; nhà đầu tư chuyên nghiệp có thể bán khống hoặc chờ mua tài sản tái cơ cấu giá rẻ.",
+        "en": "Exit all Daewoo stocks/bonds before 1999; professionals could short them or wait to buy restructured assets cheaply."
+      },
+      "buyWhen": {
+        "vi": "Tránh hoàn toàn trong 1998–1999 khi đòn bẩy của Daewoo vẫn tăng trong lúc các chaebol khác thu hẹp.",
+        "en": "Stay out entirely in 1998–1999, when Daewoo's leverage kept rising while other chaebol were shrinking."
+      },
+      "sellWhen": {
+        "vi": "Trước tháng 8/1999, khi chủ nợ đưa tập đoàn vào workout.",
+        "en": "Before August 1999, when creditors placed the group into a workout."
+      },
+      "estimatedReturn": {
+        "vi": "Lợi nhuận đến từ việc tránh lỗ: cổ đông và nhiều chủ nợ của các công ty Daewoo chịu tổn thất rất nặng.",
+        "en": "The gain is loss avoided: shareholders and many creditors of Daewoo companies suffered very heavy losses."
+      },
+      "risk": "high",
+      "capital": "high"
+    },
+    "insiderTip": {
+      "vi": "Dấu hiệu sớm: Daewoo tiếp tục vay để mua lại và xây nhà máy mới trong khi chính phủ yêu cầu chaebol giảm tỷ lệ nợ/vốn — đi ngược chính sách là cờ đỏ lớn.",
+      "en": "Early warning: Daewoo kept borrowing to acquire and build plants while the government was ordering chaebol to cut debt-to-equity ratios — defying policy was a giant red flag."
+    },
+    "pitfalls": {
+      "vi": "Bán khống cổ phiếu Hàn Quốc năm 1999 rất khó và tốn kém; nhiều mảng của Daewoo (ví dụ Daewoo Motor, sau thành GM Korea) vẫn sống sót dưới chủ mới, nên 'đặt cược sụp đổ' không đồng nghĩa mọi tài sản về 0.",
+      "en": "Shorting Korean stocks in 1999 was hard and costly; several Daewoo units (e.g., Daewoo Motor, later GM Korea) survived under new owners, so betting on collapse didn't mean every asset went to zero."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Kim Woo-choong bị cáo buộc chủ mưu gian lận kế toán với quy mô bao nhiêu?",
+        "en": "How large was the accounting fraud Kim Woo-choong was charged with masterminding?"
+      },
+      "choices": [
+        {
+          "vi": "4,1 nghìn tỷ won",
+          "en": "4.1 trillion won"
+        },
+        {
+          "vi": "15 nghìn tỷ won",
+          "en": "15 trillion won"
+        },
+        {
+          "vi": "41 nghìn tỷ won",
+          "en": "41 trillion won"
+        },
+        {
+          "vi": "100 nghìn tỷ won",
+          "en": "100 trillion won"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "Ông bị cáo buộc gian lận kế toán 41 nghìn tỷ won (~43,4 tỷ USD) và lĩnh án 10 năm tù năm 2006.",
+        "en": "He was charged with a 41 trillion won (~$43.4B) accounting fraud and sentenced to 10 years in 2006."
+      }
+    },
+    "sources": [
+      {
+        "title": "Wikipedia: Daewoo dissolution and corruption scandal",
+        "url": "https://en.wikipedia.org/wiki/Daewoo_dissolution_and_corruption_scandal"
+      },
+      {
+        "title": "Mail & Guardian: Daewoo founder sentenced to 10-year jail term",
+        "url": "https://mg.co.za/business/2006-05-30-daewoo-founder-sentenced-to-10-year-jail-term/"
+      },
+      {
+        "title": "Korea Herald: Biz circle mourns Daewoo founder's death",
+        "url": "https://www.koreaherald.com/article/2177430"
+      },
+      {
+        "title": "Seoulz: Korean chaebol history",
+        "url": "https://www.seoulz.com/korean-chaebol-history/amp/"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Confirmed $50–80B debt, 40+ executives charged, 41 trillion won fraud charge, June 2005 arrest, May 30, 2006 10-year sentence and Dec 2007 pardon via Wikipedia (citing The Economist, BBC, CNN); sentence corroborated by Mail & Guardian. The task brief's '$80B' is the upper end of the cited range. Workout month (Aug 1999) aligns with The Economist's 'The death of Daewoo' (19 Aug 1999) cited on Wikipedia."
+  },
+  {
+    "id": "kr-samsung-electronics-semiconductor-rise-2000",
+    "country": "kr",
+    "date": "2000",
+    "category": "stocks",
+    "title": {
+      "vi": "Samsung Electronics: Mua đáy sau dot-com, nắm giữ thành gã khổng lồ chip",
+      "en": "Samsung Electronics: Buy the Post-Dot-Com Trough, Hold a Chip Giant"
+    },
+    "summary": {
+      "vi": "Giá điều chỉnh chia tách thấp nhất năm 2000 là 2.730 won; đến tháng 1/2021 đạt 91.000 won — khoảng 33 lần.",
+      "en": "Split-adjusted low close in 2000 was 2,730 won; by January 2021 it reached 91,000 won — about 33x."
+    },
+    "description": {
+      "vi": "Sau khủng hoảng IMF, Samsung Electronics tái cấu trúc mạnh và vươn lên dẫn đầu DRAM, NAND, màn hình rồi điện thoại Galaxy. Cổ phiếu (005930) giảm 40,6% trong năm 2000 khi bong bóng dot-com vỡ, giá đóng cửa thấp nhất năm là 2.730 won (đã điều chỉnh theo đợt chia tách 50:1 ngày 16/5/2018 — tương đương 136.500 won trước chia tách). Ngày 11/1/2021 cổ phiếu đóng cửa kỷ lục 91.000 won. Trước khi chia tách, mỗi cổ phiếu từng có giá 2.650.000 won (27/4/2018), khiến nhà đầu tư nhỏ lẻ khó tiếp cận.",
+      "en": "After the IMF crisis Samsung Electronics restructured hard and became the leader in DRAM, NAND, displays and then Galaxy phones. The stock (005930) fell 40.6% in 2000 as the dot-com bubble burst; its lowest close that year was 2,730 won (adjusted for the 50:1 split of May 16, 2018 — 136,500 won pre-split). On Jan 11, 2021 it closed at a then-record 91,000 won. Before the split a single share cost 2,650,000 won (Apr 27, 2018), putting it out of reach of many retail investors."
+    },
+    "opportunity": {
+      "asset": "Samsung Electronics (005930.KS)",
+      "action": {
+        "vi": "Tích lũy cổ phiếu Samsung Electronics trong giai đoạn suy thoái chip 2000 và giữ dài hạn.",
+        "en": "Accumulate Samsung Electronics during the 2000 chip downturn and hold long term."
+      },
+      "buyWhen": {
+        "vi": "Năm 2000, khi giá điều chỉnh quanh 2.730–3.000 won sau cú sập dot-com.",
+        "en": "In 2000, near 2,730–3,000 won split-adjusted after the dot-com crash."
+      },
+      "sellWhen": {
+        "vi": "Tháng 1/2021, khi cổ phiếu đạt đỉnh 91.000 won trong cơn sốt nhà đầu tư cá nhân thời đại dịch.",
+        "en": "January 2021, when the stock peaked at 91,000 won during the pandemic retail frenzy."
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng 33 lần giá (2.730 → 91.000 won), chưa tính cổ tức.",
+        "en": "About 33x in price (2,730 → 91,000 won), before dividends."
+      },
+      "returnMultiple": 33.3,
+      "entryPrice": 2730,
+      "exitPrice": 91000,
+      "priceCurrency": "KRW",
+      "exitDate": "2021-01",
+      "risk": "medium",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Samsung đầu tư ngược chu kỳ: tăng chi tiêu xây fab khi giá chip lao dốc. Những lần cổ phiếu giảm ≥30% (2000, 2004, 2008, 2018) đều là điểm mua tốt nếu bạn chịu giữ vài năm.",
+      "en": "Samsung invests counter-cyclically, ramping fab spending when chip prices crash. Its ≥30% drawdowns (2000, 2004, 2008, 2018) were all good entries for multi-year holders."
+    },
+    "pitfalls": {
+      "vi": "Cổ phiếu có thể đi ngang rất lâu: đóng cửa 2024 ở 53.200 won, gần bằng mức 50.960 won cuối 2017. Lưu ý tránh nhầm giá trước/sau chia tách 50:1 khi đọc dữ liệu cũ.",
+      "en": "The stock can stall for years: it closed 2024 at 53,200 won, barely above its 50,960 won close of 2017. Don't mix pre- and post-50:1-split prices when reading old data."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Samsung Electronics chia tách cổ phiếu theo tỷ lệ nào vào tháng 5/2018?",
+        "en": "What stock split did Samsung Electronics carry out in May 2018?"
+      },
+      "choices": [
+        {
+          "vi": "2:1",
+          "en": "2-for-1"
+        },
+        {
+          "vi": "10:1",
+          "en": "10-for-1"
+        },
+        {
+          "vi": "25:1",
+          "en": "25-for-1"
+        },
+        {
+          "vi": "50:1",
+          "en": "50-for-1"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "vi": "HĐQT công bố chia tách 50:1 ngày 31/1/2018; cổ phiếu mới giao dịch từ ngày 16/5/2018.",
+        "en": "The board announced a 50:1 split on Jan 31, 2018; post-split shares began trading May 16, 2018."
+      }
+    },
+    "sources": [
+      {
+        "title": "SimianX: Samsung Electronics stock price history (split-adjusted)",
+        "url": "https://www.simianx.ai/stories/samsung-electronics-stock-price-history-and-earnings"
+      },
+      {
+        "title": "Samsung Newsroom: Stock split and shareholder return",
+        "url": "https://news.samsung.com/global/samsung-electronics-announces-stock-split-and-shareholder-return"
+      },
+      {
+        "title": "Alpha Spread: 005930 stock splits",
+        "url": "https://www.alphaspread.com/security/krx/005930/investor-returns/i/stock-splits"
+      },
+      {
+        "title": "Korea Times: Samsung Electronics announces 50:1 stock split",
+        "url": "https://www.koreatimes.co.kr/business/tech-science/20180131/samsung-electronics-announces-501-stock-split-1"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Split-adjusted 2000 lowest close (2,730), Jan 11, 2021 close (91,000), 2017/2024 closes and the 2,650,000 won pre-split close of Apr 27, 2018 taken from the SimianX table; 50:1 split (May 16, 2018) confirmed by Samsung Newsroom and Alpha Spread. Exact date of the 2000 low not stated in the source."
+  },
+  {
+    "id": "kr-gangnam-apgujeong-apartment-boom-2006",
+    "country": "kr",
+    "date": "2006",
+    "category": "real-estate",
+    "title": {
+      "vi": "Cơn sốt căn hộ Gangnam (Apgujeong) và đòn bẩy jeonse",
+      "en": "The Gangnam (Apgujeong) Apartment Boom and Jeonse Leverage"
+    },
+    "summary": {
+      "vi": "Giá căn hộ Seoul tăng 23,46% năm 2006; căn 196㎡ ở Apgujeong Hyundai từ 0,7–1 tỷ won (2000) lên 9,3 tỷ won (4/2025).",
+      "en": "Seoul apartment prices rose 23.46% in 2006; a 196㎡ Apgujeong Hyundai unit went from 0.7–1B won (2000) to 9.3B won (Apr 2025)."
+    },
+    "description": {
+      "vi": "Apgujeong Hyundai — khu căn hộ xây 1976–1987 bên bờ nam sông Hán — là biểu tượng giàu có của Gangnam. Căn 30-pyeong mở bán năm 1976 giá 8,65 triệu won. Năm 2006, giá căn hộ Seoul tăng 23,46%, mức cao nhất trong nhiều thập kỷ. Một căn 196,21㎡ ở Apgujeong Hyundai trị giá khoảng 700 triệu – 1 tỷ won năm 2000, giao dịch 5,39 tỷ won (1/2021), 8,3 tỷ won (8/2024) và 9,3 tỷ won (4/2025) nhờ kỳ vọng tái thiết. Cơ chế jeonse đặc thù Hàn Quốc — người thuê đặt cọc một khoản lớn (khoảng 50–80% giá nhà) thay cho tiền thuê tháng — cho phép chủ nhà dùng tiền cọc không lãi để mua thêm nhà ('gap investment').",
+      "en": "Apgujeong Hyundai — a complex built 1976–1987 on the south bank of the Han River — is Gangnam's symbol of wealth. A 30-pyeong unit sold for 8.65 million won at launch in 1976. In 2006 Seoul apartment prices rose 23.46%, the fastest in decades. A 196.21㎡ Apgujeong Hyundai unit was worth roughly 700 million–1 billion won in 2000, traded at 5.39B won (Jan 2021), 8.3B won (Aug 2024) and 9.3B won (Apr 2025) on redevelopment hopes. Korea's unique jeonse system — tenants post a large lump-sum deposit (roughly 50–80% of the home's value) instead of monthly rent — lets landlords use interest-free deposits to buy more homes ('gap investment')."
+    },
+    "opportunity": {
+      "asset": "Apgujeong Hyundai apartment (196㎡), Gangnam, Seoul",
+      "action": {
+        "vi": "Mua căn hộ tái thiết ở Apgujeong/Banpo đầu những năm 2000, dùng tiền cọc jeonse để giảm vốn tự có, và giữ qua nhiều chu kỳ.",
+        "en": "Buy a redevelopment-candidate apartment in Apgujeong/Banpo in the early 2000s, use a jeonse deposit to cut equity needed, and hold through cycles."
+      },
+      "buyWhen": {
+        "vi": "Đầu những năm 2000, trước cơn sốt 2006, khi căn 196㎡ còn khoảng 0,7–1 tỷ won.",
+        "en": "Early 2000s, before the 2006 frenzy, when a 196㎡ unit cost about 0.7–1B won."
+      },
+      "sellWhen": {
+        "vi": "Không bắt buộc; giai đoạn 2024–2025 giá lập kỷ lục nhờ kỳ vọng tái thiết.",
+        "en": "Not required; prices set records in 2024–2025 on redevelopment hopes."
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng 9–13 lần giá trong 25 năm (0,7–1 tỷ → 9,3 tỷ won), lợi nhuận trên vốn tự có cao hơn nhiều nhờ đòn bẩy jeonse.",
+        "en": "About 9–13x in price over 25 years (0.7–1B → 9.3B won); far more on equity thanks to jeonse leverage."
+      },
+      "returnMultiple": 9.3,
+      "entryPrice": 1000000000,
+      "exitPrice": 9300000000,
+      "priceCurrency": "KRW",
+      "exitDate": "2025-04",
+      "risk": "medium",
+      "capital": "high"
+    },
+    "insiderTip": {
+      "vi": "Giá Apgujeong bị chi phối bởi tiến độ tái thiết: mỗi lần Seoul công bố quy hoạch (như hệ số sử dụng đất 300%, 35 tầng năm 2016) giá nhảy vọt chỉ trong vài tháng.",
+      "en": "Apgujeong prices track redevelopment milestones: each Seoul plan announcement (e.g., 300% floor-area ratio, 35 floors in 2016) re-rated prices within months."
+    },
+    "pitfalls": {
+      "vi": "Jeonse là đòn bẩy hai chiều: khi giá giảm hoặc tiền cọc giảm, chủ nhà phải hoàn cọc mà không có tiền — gây ra làn sóng lừa đảo jeonse và 'nhà trống cọc' năm 2022–2023. Chính phủ cũng nhiều lần siết thuế và cho vay ở Gangnam.",
+      "en": "Jeonse leverage cuts both ways: when prices or deposits fall, landlords must refund deposits they don't have — fueling the 2022–2023 jeonse-fraud wave. The government has also repeatedly tightened taxes and lending in Gangnam."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Trong hệ thống jeonse, người thuê nhà trả gì cho chủ nhà?",
+        "en": "Under Korea's jeonse system, what does the tenant pay the landlord?"
+      },
+      "choices": [
+        {
+          "vi": "Tiền thuê hàng tháng cao gấp đôi",
+          "en": "Double monthly rent"
+        },
+        {
+          "vi": "Một khoản đặt cọc lớn được hoàn lại khi hết hợp đồng, thay cho tiền thuê tháng",
+          "en": "A large refundable lump-sum deposit instead of monthly rent"
+        },
+        {
+          "vi": "Một phần cổ phần căn nhà",
+          "en": "An equity share in the home"
+        },
+        {
+          "vi": "Không trả gì, nhà nước trợ cấp",
+          "en": "Nothing; the state subsidizes it"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Người thuê đặt cọc lớn (thường hàng chục phần trăm giá nhà), được hoàn lại khi hết hạn; chủ nhà hưởng lợi từ việc sử dụng số tiền này.",
+        "en": "The tenant posts a large deposit (often a big share of the home's value), refunded at lease end; the landlord profits from using the money."
+      }
+    },
+    "sources": [
+      {
+        "title": "MK: Apgujeong Hyundai 196㎡ — 0.7–1B won in 2000, 9.3B won in April",
+        "url": "https://www.mk.co.kr/en/realestate/11388982"
+      },
+      {
+        "title": "MK: Apgujeong Hyundai 196㎡ traded at 8.3B won; previous high 5.39B (2021)",
+        "url": "https://www.mk.co.kr/en/realestate/11215292"
+      },
+      {
+        "title": "ChosunBiz: Gangnam rebuilds drive apartment prices to new highs",
+        "url": "https://biz.chosun.com/en/en-realestate/2026/02/17/REXQ4YEREJDVPFQYGPEWPAMOXY/"
+      },
+      {
+        "title": "Seoul Economic Daily: Seoul apartment prices highest gain since 23.46% in 2006",
+        "url": "https://en.sedaily.com/finance/2025/12/27/seoul-apartment-prices-post-highest-annual-gain-in-19-years"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Unit prices (0.7–1B won in Aug 2000; 5.39B Jan 2021; 8.3B Aug 2024; 9.3B Apr 2025) from MK articles; 1976 launch price from ChosunBiz; 2006 +23.46% from Seoul Economic Daily. Entry uses the upper 1B won estimate (conservative). Jeonse deposit share (50–80%) synthesized from Straits Times (60–80%) and a KCI paper (50–70%) found in search, not cited separately. 2016 floor-area plan from Korea JoongAng Daily (July 22, 2016)."
+  },
+  {
+    "id": "kr-gfc-kospi-bottom-2008",
+    "country": "kr",
+    "date": "2008-10-24",
+    "category": "stocks",
+    "title": {
+      "vi": "KOSPI sập về 938 điểm trong khủng hoảng tài chính 2008",
+      "en": "KOSPI Crashes to 938 in the 2008 Financial Crisis"
+    },
+    "summary": {
+      "vi": "Ngày 24/10/2008 KOSPI giảm 10,57% còn 938,75 điểm; đến 2/5/2011 đóng cửa kỷ lục 2.228,96.",
+      "en": "On Oct 24, 2008 KOSPI fell 10.57% to 938.75; by May 2, 2011 it closed at a record 2,228.96."
+    },
+    "description": {
+      "vi": "Sau sự sụp đổ của Lehman Brothers, nhà đầu tư ngoại tháo chạy khỏi Hàn Quốc. Ngày 24/10/2008 KOSPI mất 110,96 điểm (−10,57%) xuống 938,75 — tuần giảm mạnh nhất kể từ khi chỉ số ra đời, vượt cả kỷ lục thời khủng hoảng 1997–98; won mất giá xuống khoảng 1.420 won/USD, Samsung Electronics lao 13,8%. Won yếu lại giúp các nhà xuất khẩu như Samsung, Hyundai Motor giành thị phần toàn cầu. KOSPI vượt lại 2.000 điểm ngày 14/12/2010 lần đầu sau 37 tháng và lập kỷ lục đóng cửa 2.228,96 ngày 2/5/2011.",
+      "en": "After Lehman Brothers collapsed, foreign investors fled Korea. On Oct 24, 2008 KOSPI lost 110.96 points (−10.57%) to 938.75 — its worst week since the index began, beating even the 1997–98 crisis record; the won slid to about 1,420/USD and Samsung Electronics plunged 13.8%. The weak won then helped exporters like Samsung and Hyundai Motor gain global share. KOSPI closed back above 2,000 on Dec 14, 2010 for the first time in 37 months and hit a record close of 2,228.96 on May 2, 2011."
+    },
+    "opportunity": {
+      "asset": "KOSPI index / Korean exporters",
+      "action": {
+        "vi": "Mua chỉ số KOSPI hoặc các nhà xuất khẩu lớn (Samsung, Hyundai) khi thị trường hoảng loạn cuối tháng 10/2008.",
+        "en": "Buy the KOSPI or big exporters (Samsung, Hyundai) at the late-October 2008 panic."
+      },
+      "buyWhen": {
+        "vi": "Quanh 24/10/2008, khi KOSPI dưới 1.000 điểm.",
+        "en": "Around Oct 24, 2008, with KOSPI below 1,000."
+      },
+      "sellWhen": {
+        "vi": "Đầu tháng 5/2011, khi KOSPI lập kỷ lục 2.228,96.",
+        "en": "Early May 2011, when KOSPI set its 2,228.96 record."
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng 2,4 lần (938,75 → 2.228,96 điểm) trong 2,5 năm.",
+        "en": "About 2.4x (938.75 → 2,228.96) in two and a half years."
+      },
+      "returnMultiple": 2.37,
+      "entryPrice": 938.75,
+      "exitPrice": 2228.96,
+      "priceCurrency": "points",
+      "exitDate": "2011-05-02",
+      "risk": "medium",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Won rơi về ~1.420/USD đồng nghĩa lợi nhuận xuất khẩu tính bằng won tăng vọt — các nhà xuất khẩu (ô tô, chip) phục hồi trước và mạnh hơn chỉ số.",
+      "en": "A won near 1,420/USD meant soaring won-denominated export profits — autos and chips recovered earlier and harder than the index."
+    },
+    "pitfalls": {
+      "vi": "938,75 chưa phải đáy trong phiên: thị trường còn dao động mạnh đến đầu 2009. Sau kỷ lục 2011, KOSPI đi ngang gần 6 năm (đến 2017 mới vượt đỉnh).",
+      "en": "938.75 wasn't the intraday low; markets stayed volatile into early 2009. After the 2011 record, KOSPI went sideways for nearly six years until 2017."
+    },
+    "quiz": {
+      "question": {
+        "vi": "KOSPI đóng cửa ở mức nào ngày 24/10/2008?",
+        "en": "Where did KOSPI close on Oct 24, 2008?"
+      },
+      "choices": [
+        {
+          "vi": "1.250",
+          "en": "1,250"
+        },
+        {
+          "vi": "938,75",
+          "en": "938.75"
+        },
+        {
+          "vi": "612,30",
+          "en": "612.30"
+        },
+        {
+          "vi": "1.500",
+          "en": "1,500"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "KOSPI giảm 110,96 điểm (−10,57%) xuống 938,75 — mức thấp nhất kể từ tháng 5/2005.",
+        "en": "KOSPI fell 110.96 points (−10.57%) to 938.75 — its lowest close since May 2005."
+      }
+    },
+    "sources": [
+      {
+        "title": "CNBC: Tokyo, Seoul head Asian market train wreck (Oct 24, 2008)",
+        "url": "https://www.cnbc.com/2008/10/24/tokyo-seoul-head-asian-market-train-wreck.html"
+      },
+      {
+        "title": "Korea Times: KOSPI dives to 938; won falls to 1,420",
+        "url": "https://www.koreatimes.co.kr/business/companies/20081024/kospi-dives-to-938-won-falls-to-1420"
+      },
+      {
+        "title": "KBS World: KOSPI tops 2000 mark for 1st time in 3 years",
+        "url": "https://world.kbs.co.kr/service/archive_view.htm?lang=e&id=sub_index&board_seq=404"
+      },
+      {
+        "title": "Korea JoongAng Daily: record close of 2,228.96 on May 2, 2011",
+        "url": "https://www.koreajoongangdaily.com/korea/rally-for-samsung-may-lift-kospi-as-a-whole/11883502"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Oct 24, 2008 close 938.75 (−110.96, −10.57%), record weekly loss and Samsung −13.8% confirmed via CNBC; won ~1,420 via Korea Times headline; Dec 14, 2010 return above 2,000 via KBS World; May 2, 2011 record close 2,228.96 via Korea JoongAng Daily."
+  },
+  {
+    "id": "kr-celltrion-biosimilar-boom-2017",
+    "country": "kr",
+    "date": "2017-08-21",
+    "category": "stocks",
+    "title": {
+      "vi": "Celltrion: Cơn sốt biosimilar và cú chuyển sàn KOSDAQ → KOSPI",
+      "en": "Celltrion: The Biosimilar Boom and the KOSDAQ-to-KOSPI Move"
+    },
+    "summary": {
+      "vi": "Từ ngày triệu tập ĐHCĐ chuyển sàn (21/8/2017) đến ngày lên KOSPI (9/2/2018), giá điều chỉnh của Celltrion tăng khoảng 2,7 lần.",
+      "en": "From the transfer-meeting notice (Aug 21, 2017) to its KOSPI debut (Feb 9, 2018), Celltrion's adjusted price rose about 2.7x."
+    },
+    "description": {
+      "vi": "Celltrion, nhà sản xuất thuốc sinh học tương tự (biosimilar) ở Incheon, từng là cổ phiếu lớn nhất KOSDAQ. Ngày 21/8/2017 công ty triệu tập ĐHCĐ bất thường để chuyển sang sàn chính KOSPI; đến khi được thông qua (29/9) giá điều chỉnh tăng 28,5% từ 86.837 lên 111.593 won, và lên tới 230.828 won (điều chỉnh) vào ngày chuyển sàn 9/2/2018. Phiên đầu trên KOSPI cổ phiếu đóng cửa 288.000 won (giá danh nghĩa), vốn hóa 35,32 nghìn tỷ won — lớn thứ ba Hàn Quốc, vượt Hyundai Motor. Tháng 3/2018 cổ phiếu đạt đỉnh danh nghĩa 373.500 won, rồi giảm gần 30% đến 20/4/2018 khi nghi ngại về định giá ngành sinh học bùng lên.",
+      "en": "Celltrion, an Incheon-based biosimilar maker, was the largest stock on KOSDAQ. On Aug 21, 2017 it called an extraordinary meeting to move to the main KOSPI board; by approval on Sept 29 its adjusted price rose 28.5% from 86,837 to 111,593 won, reaching 230,828 won (adjusted) on the transfer day, Feb 9, 2018. On its first KOSPI day it closed at 288,000 won (nominal), a 35.32 trillion won market cap — Korea's third-largest, ahead of Hyundai Motor. It peaked at 373,500 won nominal in March 2018, then fell nearly 30% by Apr 20, 2018 as doubts about bio valuations spread."
+    },
+    "opportunity": {
+      "asset": "Celltrion (068270.KS)",
+      "action": {
+        "vi": "Mua Celltrion khi công bố kế hoạch chuyển sàn KOSPI (kỳ vọng dòng tiền quỹ chỉ số) và bán quanh ngày chuyển sàn.",
+        "en": "Buy Celltrion on the KOSPI-transfer announcement (anticipating index-fund inflows) and sell around the transfer date."
+      },
+      "buyWhen": {
+        "vi": "Ngày 21/8/2017, khi triệu tập ĐHCĐ bất thường về chuyển sàn.",
+        "en": "Aug 21, 2017, when the extraordinary shareholders' meeting on the transfer was called."
+      },
+      "sellWhen": {
+        "vi": "Ngày chuyển sàn 9/2/2018, hoặc muộn nhất là tháng 3/2018 quanh đỉnh 373.500 won.",
+        "en": "On the Feb 9, 2018 transfer day, or at the latest in March 2018 near the 373,500 won peak."
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng 2,7 lần (giá điều chỉnh 86.837 → 230.828 won) trong chưa đầy 6 tháng.",
+        "en": "About 2.7x (adjusted 86,837 → 230,828 won) in under six months."
+      },
+      "returnMultiple": 2.66,
+      "entryPrice": 86837,
+      "exitPrice": 230828,
+      "priceCurrency": "KRW",
+      "exitDate": "2018-02-09",
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Theo thống kê 2015–2024, cổ phiếu chuyển từ KOSDAQ sang KOSPI thường tăng trước ngày chuyển sàn rồi giảm dần: 12/16 mã thấp hơn sau 3 tháng. Hãy bán vào sự kiện.",
+      "en": "In 2015–2024, KOSDAQ-to-KOSPI transfers tended to rally before the move and fade after: 12 of 16 were lower three months later. Sell the event."
+    },
+    "pitfalls": {
+      "vi": "Lưu ý giá điều chỉnh (do phát hành cổ phiếu thưởng) khác giá danh nghĩa. Cổ phiếu sinh học rất nhạy với tranh cãi kế toán — Celltrion Healthcare từng bị nghi vấn về doanh thu bán cho công ty liên quan.",
+      "en": "Adjusted prices (for bonus issues) differ from nominal ones. Bio stocks are very sensitive to accounting disputes — Celltrion Healthcare faced questions over related-party sales."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Celltrion chuyển từ KOSDAQ sang KOSPI vào ngày nào?",
+        "en": "When did Celltrion move from KOSDAQ to KOSPI?"
+      },
+      "choices": [
+        {
+          "vi": "9/2/2018",
+          "en": "Feb 9, 2018"
+        },
+        {
+          "vi": "21/8/2017",
+          "en": "Aug 21, 2017"
+        },
+        {
+          "vi": "2/1/2020",
+          "en": "Jan 2, 2020"
+        },
+        {
+          "vi": "15/6/2016",
+          "en": "June 15, 2016"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "Celltrion bắt đầu giao dịch trên KOSPI ngày 9/2/2018 và tăng 6,08% trong phiên đầu tiên.",
+        "en": "Celltrion began trading on KOSPI on Feb 9, 2018, rising 6.08% on day one."
+      }
+    },
+    "sources": [
+      {
+        "title": "ChosunBiz: Alteogen seeks KOSPI transfer; past moves (Celltrion adjusted prices)",
+        "url": "https://biz.chosun.com/en/en-finance/2025/11/10/JTKQQUAHT5DHHNMGUBB453NLVM/"
+      },
+      {
+        "title": "Korea Times: Foreigners, institutions back Celltrion",
+        "url": "https://www.koreatimes.co.kr/economy/20180211/foreigners-institutions-back-celltrion"
+      },
+      {
+        "title": "Korea Times: Bio stocks plunging on controversy over fundamentals",
+        "url": "https://www.koreatimes.co.kr/economy/20180420/bio-stocks-plunging-on-controversy-over-fundamentals"
+      },
+      {
+        "title": "Korea Herald: Celltrion to transfer to Kospi on Friday",
+        "url": "https://www.koreaherald.com/article/1583415"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Adjusted prices 86,837 (Aug 21, 2017) → 111,593 (Sept 29) → 230,828 (Feb 9, 2018) and the 16-transfer statistics from ChosunBiz; first-day close 288,000 won, +6.08% and 35.32T won market cap from Korea Times (Feb 11, 2018); 373,500 won peak and ~30% drop from Korea Times (Apr 20, 2018). Adjusted and nominal series are not directly comparable; the return uses adjusted prices only."
+  },
+  {
+    "id": "kr-bitcoin-kimchi-premium-2017",
+    "country": "kr",
+    "date": "2018-01",
+    "category": "crypto",
+    "title": {
+      "vi": "'Kimchi Premium': Bitcoin tại Hàn Quốc đắt hơn thế giới gần 50%",
+      "en": "The 'Kimchi Premium': Korean Bitcoin Trades Nearly 50% Above Global"
+    },
+    "summary": {
+      "vi": "Bitcoin trên Bithumb đạt đỉnh 26 triệu won ngày 6/1/2018, cao hơn giá toàn cầu tới ~50%; một tháng sau rơi dưới 8 triệu won.",
+      "en": "Bitcoin on Bithumb peaked at 26M won on Jan 6, 2018, up to ~50% above global prices; a month later it fell below 8M won."
+    },
+    "description": {
+      "vi": "Cuối 2017 – đầu 2018, cơn sốt tiền mã hóa khiến Hàn Quốc chiếm gần 25% giao dịch toàn cầu. Bitcoin trên Bithumb, Upbit, Coinone, Korbit có lúc đắt hơn giá quốc tế khoảng 50% — chênh lệch 41,3% ngày 7/1/2018. Giá bitcoin tại Hàn Quốc đạt đỉnh 26 triệu won ngày 6/1/2018. CoinMarketCap đã loại các sàn Hàn Quốc khỏi giá tham chiếu từ 9/1 vì chênh lệch quá lớn. Khi chính phủ dọa đóng cửa sàn và siết tài khoản ẩn danh, premium thu hẹp còn ~20% (17/1) và chuyển thành chiết khấu (−9%) ngày 2/2/2018, khi giá rơi dưới 7,7 triệu won.",
+      "en": "In late 2017 – early 2018 a crypto mania made Korea almost 25% of global trading. Bitcoin on Bithumb, Upbit, Coinone and Korbit at times traded about 50% above international prices — a 41.3% gap on Jan 7, 2018. Korean bitcoin peaked at 26 million won on Jan 6, 2018. CoinMarketCap excluded Korean exchanges from its price index from Jan 9 because of the divergence. As the government threatened exchange shutdowns and cracked down on anonymous accounts, the premium shrank to ~20% (Jan 17) and turned into a 9% discount on Feb 2, 2018, with prices below 7.7 million won."
+    },
+    "opportunity": {
+      "asset": "Bitcoin (BTC/KRW vs BTC/USD)",
+      "action": {
+        "vi": "Kinh doanh chênh lệch: mua bitcoin ở sàn quốc tế, chuyển vào sàn Hàn Quốc và bán lấy won — hoặc đơn giản là KHÔNG mua bitcoin bằng won ở mức giá cao hơn thế giới 50%.",
+        "en": "Arbitrage: buy bitcoin abroad, transfer it to a Korean exchange and sell for won — or simply DON'T buy bitcoin in won at a 50% premium."
+      },
+      "buyWhen": {
+        "vi": "Tháng 12/2017 – đầu tháng 1/2018, khi premium trên 30–40%.",
+        "en": "December 2017 – early January 2018, while the premium exceeded 30–40%."
+      },
+      "sellWhen": {
+        "vi": "Bán ngay trên sàn Hàn Quốc, trước giữa tháng 1/2018 khi premium co lại.",
+        "en": "Sell immediately on the Korean exchange, before mid-January 2018 when the premium collapsed."
+      },
+      "estimatedReturn": {
+        "vi": "Lý thuyết 20–50% mỗi vòng, nhưng lợi nhuận thực bị giới hạn bởi kiểm soát vốn — won rất khó chuyển ra nước ngoài để quay vòng.",
+        "en": "Theoretically 20–50% per round trip, but real gains were capped by capital controls — won was very hard to move offshore to repeat the trade."
+      },
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Nút thắt không nằm ở bitcoin mà ở đồng won: cá nhân bị giới hạn chuyển tiền ra nước ngoài (khoảng vài chục nghìn USD/năm không cần giải trình), nên chỉ ai có sẵn tài khoản và luồng vốn hợp pháp ở cả hai đầu mới quay vòng được.",
+      "en": "The bottleneck wasn't bitcoin but the won: individuals faced strict limits on sending money abroad, so only those with legal capital channels on both ends could repeat the arbitrage."
+    },
+    "pitfalls": {
+      "vi": "Người mua bitcoin bằng won ở đỉnh 26 triệu won mất hơn 65% chỉ trong 4 tuần — gồm cả phần premium biến mất. Chuyển tiền trái phép để kinh doanh chênh lệch có thể bị truy tố vi phạm luật ngoại hối.",
+      "en": "Those buying in won at the 26M peak lost over 65% in four weeks — including the vanished premium. Illegally moving funds for arbitrage could be prosecuted under FX laws."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Ngày 9/1/2018, CoinMarketCap đã làm gì với các sàn Hàn Quốc?",
+        "en": "What did CoinMarketCap do with Korean exchanges on Jan 9, 2018?"
+      },
+      "choices": [
+        {
+          "vi": "Mua lại sàn Bithumb",
+          "en": "Acquired Bithumb"
+        },
+        {
+          "vi": "Loại khỏi giá tham chiếu vì chênh lệch quá lớn",
+          "en": "Excluded them from its price index due to extreme divergence"
+        },
+        {
+          "vi": "Hợp tác ra mắt cặp BTC/KRW",
+          "en": "Launched a BTC/KRW partnership"
+        },
+        {
+          "vi": "Cảnh báo bị hack",
+          "en": "Warned of a hack"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "CoinMarketCap loại các sàn Hàn Quốc từ 9/1/2018 do 'chênh lệch giá cực lớn so với phần còn lại của thế giới'.",
+        "en": "CoinMarketCap excluded Korean exchanges from Jan 9, 2018, citing 'extreme divergence in prices from the rest of the world'."
+      }
+    },
+    "sources": [
+      {
+        "title": "The Investor: 'Kimchi Premium' narrows as cryptocurrency prices plunge",
+        "url": "https://www.theinvestor.co.kr/article/1563695"
+      },
+      {
+        "title": "The Nation: End to 'Kimchi premium'? Bitcoin nosedives below W8m",
+        "url": "https://www.nationthailand.com/business/30337854"
+      },
+      {
+        "title": "Investopedia: Understanding Kimchi Premium",
+        "url": "https://www.investopedia.com/terms/k/kimchi-premium.asp"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "26M won peak on Jan 6, 2018, ~50% premium, Jan 9 CoinMarketCap exclusion and Feb 2 discount confirmed via The Nation (Korea Herald syndication); 41.3% (Jan 7) to 20% (Jan 17) and ~25% of global trading via The Investor; Investopedia (search snippet only, page fetch blocked) cites nearly 55% in Jan 2018. The task brief's '~25M+ KRW' matches. Capital-control details are general and not quantified from a source."
+  },
+  {
+    "id": "kr-terra-luna-collapse-2022",
+    "country": "kr",
+    "date": "2022-05",
+    "category": "crypto",
+    "title": {
+      "vi": "Terra/LUNA sụp đổ: 40 tỷ USD bốc hơi trong một tuần",
+      "en": "Terra/LUNA Collapse: $40B Vanishes in a Week"
+    },
+    "summary": {
+      "vi": "LUNA từ đỉnh ~119 USD (5/4/2022) và 86 USD (5/5) rơi còn 0,00022 USD (16/5) khi stablecoin UST mất neo.",
+      "en": "LUNA fell from a ~$119 peak (Apr 5, 2022) and $86 (May 5) to $0.00022 (May 16) as the UST stablecoin lost its peg."
+    },
+    "description": {
+      "vi": "Terraform Labs của Do Kwon (Kwon Do-hyung) tạo ra UST — stablecoin thuật toán neo 1 USD bằng cơ chế đổi qua lại với token LUNA, không có tài sản đảm bảo thực. Giao thức Anchor trả lãi ~20%/năm cho UST thu hút hàng chục tỷ USD. Vốn hóa LUNA tăng từ 2,5 tỷ USD (6/2021) lên hơn 40 tỷ USD (4/2022); giá đạt đỉnh ~119 USD ngày 5/4/2022. Từ 7/5, các lệnh bán lớn làm UST mất neo; trong 9–11/5 cơ chế đúc LUNA để cứu UST tạo vòng xoáy tử thần. Ngày 13/5 blockchain Terra bị dừng; đến 16/5 LUNA chỉ còn 0,00022 USD.",
+      "en": "Do Kwon's (Kwon Do-hyung) Terraform Labs created UST — an algorithmic stablecoin pegged to $1 via swaps with the LUNA token, with no real collateral. The Anchor protocol paid ~20% a year on UST, drawing tens of billions of dollars. LUNA's market cap grew from $2.5B (June 2021) to over $40B (April 2022); the price peaked near $119 on Apr 5, 2022. From May 7 large sell orders broke UST's peg; over May 9–11 minting LUNA to defend UST triggered a death spiral. The Terra chain was halted on May 13; by May 16 LUNA was worth $0.00022."
+    },
+    "opportunity": {
+      "asset": "LUNA / UST (Terra)",
+      "action": {
+        "vi": "Rút toàn bộ UST khỏi Anchor và bán LUNA khi UST lần đầu mất neo ngày 7/5/2022 — hoặc tốt hơn, không bao giờ gửi tiền vào lãi suất 20% 'không rủi ro'.",
+        "en": "Pull all UST out of Anchor and sell LUNA when UST first wobbled on May 7, 2022 — or better, never chase a 'risk-free' 20% yield."
+      },
+      "buyWhen": {
+        "vi": "Không mua. Nếu đang nắm giữ, thoát quanh đỉnh tháng 4/2022 hoặc ngay khi UST lệch neo.",
+        "en": "Don't buy. If holding, exit near the April 2022 peak or the moment UST de-pegged."
+      },
+      "sellWhen": {
+        "vi": "Ngày 7–8/5/2022, khi UST lần đầu rơi khỏi mức 1 USD.",
+        "en": "May 7–8, 2022, when UST first slipped below $1."
+      },
+      "estimatedReturn": {
+        "vi": "Tránh mất ~99,99%: LUNA từ 86 USD (5/5) còn 0,00022 USD (16/5).",
+        "en": "Avoid a ~99.99% loss: LUNA went from $86 (May 5) to $0.00022 (May 16)."
+      },
+      "entryPrice": 86,
+      "exitPrice": 0.00022,
+      "priceCurrency": "USD",
+      "exitDate": "2022-05-16",
+      "risk": "high",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Lãi suất 20% cố định trên một 'đô la số' là dấu hiệu nguồn lợi nhuận không bền vững. Stablecoin thuật toán không có tài sản đảm bảo chỉ cần một đợt rút tiền lớn là sụp.",
+      "en": "A fixed 20% yield on a 'digital dollar' signals an unsustainable payout. An algorithmic stablecoin without collateral needs only one big run to collapse."
+    },
+    "pitfalls": {
+      "vi": "Nhiều người 'bắt đáy' LUNA khi giá giảm 90% — rồi mất thêm 99,9% vì nguồn cung LUNA bị đúc ra hàng nghìn tỷ token. Giá rẻ không đồng nghĩa với đáy.",
+      "en": "Many 'bought the dip' after a 90% drop — then lost another 99.9% as trillions of new LUNA were minted. Cheap is not the same as a bottom."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Vì sao UST sụp đổ kéo theo LUNA?",
+        "en": "Why did UST's collapse drag LUNA down with it?"
+      },
+      "choices": [
+        {
+          "vi": "UST được bảo đảm bằng vàng bị mất cắp",
+          "en": "UST was backed by stolen gold"
+        },
+        {
+          "vi": "Sàn Upbit đóng cửa",
+          "en": "The Upbit exchange shut down"
+        },
+        {
+          "vi": "Cơ chế thuật toán đúc thêm LUNA để giữ neo UST, làm nguồn cung LUNA bùng nổ",
+          "en": "The algorithm minted more LUNA to defend UST's peg, exploding LUNA's supply"
+        },
+        {
+          "vi": "Chính phủ Hàn Quốc cấm tiền mã hóa",
+          "en": "Korea banned crypto"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "UST không có tài sản đảm bảo; để giữ neo, người dùng đổi UST lấy LUNA mới đúc — khi bán tháo, nguồn cung LUNA tăng vọt và giá sụp về gần 0.",
+        "en": "UST had no collateral; holders redeemed UST for newly minted LUNA — in a run, LUNA supply exploded and its price fell to near zero."
+      }
+    },
+    "sources": [
+      {
+        "title": "ACS Information Age: Death of a cryptocurrency",
+        "url": "https://ia.acs.org.au/article/2022/death-of-a-cryptocurrency.html"
+      },
+      {
+        "title": "TheStreet: The collateral consequences of Terra Luna's collapse",
+        "url": "https://www.thestreet.com/crypto/newsroom/collateral-consequences-terra-luna-collapse"
+      },
+      {
+        "title": "Investing.com/CoinEdition: LUNA hit all-time high of $119 on April 5",
+        "url": "https://www.investing.com/news/cryptocurrency-news/luna-misfires-due-to-market-volatility-hits-new-alltime-low-2814122"
+      },
+      {
+        "title": "TradingView/Crypto Briefing: 2022 in review — top 10 crypto moments",
+        "url": "https://www.tradingview.com/news/cryptobriefing:93105c63d094b:0-2022-in-review-the-top-10-crypto-moments-of-the-year/"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "$86 on May 5, ~$120 peak, $2.5B→$40B+ market cap, May 9–11 collapse, May 13 chain halt and $0.00022 on May 16 confirmed via ACS Information Age; $119 ATH on Apr 5 via Investing.com/CoinEdition search snippet (page fetch blocked); ~$40B LUNA + $18B UST losses via TheStreet; May 7 de-peg via Crypto Briefing. Anchor ~20% yield is widely reported but not directly fetched here."
+  },
+  {
+    "id": "kr-sk-hynix-hbm-ai-boom-2023",
+    "country": "kr",
+    "date": "2023",
+    "category": "technology",
+    "title": {
+      "vi": "SK Hynix: Nhà cung cấp HBM độc quyền cho Nvidia trong cơn sốt AI",
+      "en": "SK Hynix: Nvidia's Key HBM Supplier in the AI Boom"
+    },
+    "summary": {
+      "vi": "Cổ phiếu SK Hynix tăng từ 75.000 won (cuối 2022) lên 236.500 won (cuối tháng 6/2024) nhờ chip nhớ băng thông cao (HBM) cho GPU AI.",
+      "en": "SK Hynix rose from 75,000 won (end-2022) to 236,500 won (end-June 2024) on high-bandwidth memory (HBM) for AI GPUs."
+    },
+    "description": {
+      "vi": "SK Hynix (000660.KS) nghiên cứu HBM từ sớm và bắt đầu cung cấp HBM3 cho GPU H100 của Nvidia năm 2022. Khi ChatGPT kích hoạt cơn sốt AI năm 2023, cổ phiếu tăng 65% chỉ trong 7 tháng đầu năm (Bloomberg, 27/7/2023) dù thị trường DRAM truyền thống còn ảm đạm. Ngày 23/5/2024, sau báo cáo lợi nhuận vượt kỳ vọng của Nvidia, cổ phiếu lần đầu vượt 200.000 won; SK Hynix là nhà cung cấp duy nhất HBM3 và HBM3E cho GPU Nvidia lúc đó. Năm 2024 công ty đạt doanh thu kỷ lục 66,2 nghìn tỷ won và lợi nhuận hoạt động 23,5 nghìn tỷ won.",
+      "en": "SK Hynix (000660.KS) invested early in HBM and began supplying HBM3 for Nvidia's H100 GPU in 2022. As ChatGPT ignited the AI boom in 2023, the stock rose 65% in the first seven months (Bloomberg, July 27, 2023) despite a weak legacy-DRAM market. On May 23, 2024, after Nvidia's blowout earnings, it topped 200,000 won for the first time; SK Hynix was then the sole supplier of HBM3 and HBM3E for Nvidia GPUs. In 2024 it posted record revenue of 66.2 trillion won and operating profit of 23.5 trillion won."
+    },
+    "opportunity": {
+      "asset": "SK Hynix (000660.KS)",
+      "action": {
+        "vi": "Mua SK Hynix khi chu kỳ chip nhớ chạm đáy cuối 2022, trước khi thị trường nhận ra vai trò HBM trong AI.",
+        "en": "Buy SK Hynix at the memory-cycle trough in late 2022, before the market priced in HBM's role in AI."
+      },
+      "buyWhen": {
+        "vi": "Cuối tháng 12/2022 – đầu 2023, khi giá quanh 75.000 won và công ty đang lỗ.",
+        "en": "Late December 2022 – early 2023, near 75,000 won while the company was loss-making."
+      },
+      "sellWhen": {
+        "vi": "Giữa năm 2024 (230.000–236.500 won), trước khi cổ phiếu điều chỉnh vì lo ngại cung HBM và DRAM thường.",
+        "en": "Mid-2024 (230,000–236,500 won), before a correction on HBM-supply and legacy-DRAM worries."
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng 3,2 lần (75.000 → 236.500 won) trong 18 tháng.",
+        "en": "About 3.2x (75,000 → 236,500 won) in 18 months."
+      },
+      "returnMultiple": 3.15,
+      "entryPrice": 75000,
+      "exitPrice": 236500,
+      "priceCurrency": "KRW",
+      "exitDate": "2024-06",
+      "risk": "medium",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Điểm mua tốt nhất của cổ phiếu chip nhớ thường là khi công ty còn báo lỗ (SK Hynix lỗ hoạt động 1,9 nghìn tỷ won quý 4/2022) — thị trường định giá trước chu kỳ phục hồi 6–12 tháng.",
+      "en": "The best time to buy memory stocks is often while they're still losing money (SK Hynix lost 1.9T won operating in Q4 2022) — markets price the recovery 6–12 months ahead."
+    },
+    "pitfalls": {
+      "vi": "Ngay sau báo cáo quý 2/2024 kỷ lục, cổ phiếu giảm 8,9% trong một phiên và mất 16,6% từ 230.000 won (15/7) chỉ trong 2 tuần — tin tốt không ngăn được điều chỉnh khi kỳ vọng quá cao.",
+      "en": "Right after record Q2 2024 results the stock fell 8.9% in a day and lost 16.6% from 230,000 won (July 15) in two weeks — good news can't stop a correction when expectations are sky-high."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Loại chip nào giúp SK Hynix trở thành nhà cung cấp then chốt cho Nvidia?",
+        "en": "Which chip type made SK Hynix a key Nvidia supplier?"
+      },
+      "choices": [
+        {
+          "vi": "CPU di động",
+          "en": "Mobile CPUs"
+        },
+        {
+          "vi": "Bộ nhớ băng thông cao (HBM)",
+          "en": "High-bandwidth memory (HBM)"
+        },
+        {
+          "vi": "Chip cảm biến hình ảnh",
+          "en": "Image sensors"
+        },
+        {
+          "vi": "Pin lithium",
+          "en": "Lithium batteries"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "SK Hynix là nhà cung cấp duy nhất HBM3 và HBM3E cho GPU của Nvidia tính đến tháng 5/2024.",
+        "en": "SK Hynix was the sole supplier of HBM3 and HBM3E for Nvidia's GPUs as of May 2024."
+      }
+    },
+    "sources": [
+      {
+        "title": "Korea JoongAng Daily: SK hynix shares hit record high of 200,000 won",
+        "url": "https://www.koreajoongangdaily.com/business/sk-hynix-shares-hit-record-high-of-200000-won-on-nvidias-earnings-report/12107536"
+      },
+      {
+        "title": "Bloomberg via Yahoo Finance: AI hopes propel SK Hynix",
+        "url": "https://finance.yahoo.com/news/ai-hopes-propel-sk-hynix-045538036.html"
+      },
+      {
+        "title": "Digrin: SK hynix (000660.KS) monthly price history",
+        "url": "https://www.digrin.com/stocks/detail/000660.KS/price"
+      },
+      {
+        "title": "Yonhap: SK hynix swings to Q4 operating profit (vs 1.91T won loss a year earlier)",
+        "url": "https://en.yna.co.kr/view/AEN20240125001553320"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Month-end closes 75,000 (Dec 2022) and 236,500 (Jun 2024) from Digrin; 200,000 won first crossed May 23, 2024 and sole HBM3/3E supplier from Korea JoongAng Daily; +65% YTD by July 27, 2023 from Bloomberg/Yahoo; Q4 2022 operating loss of 1.91T won from Yonhap; 2024 revenue/OP from SK hynix newsroom search snippet; July 2024 drop (230,000 on July 15, −16.6%) from Korea Times; −8.9% post-Q2 from Korea JoongAng Daily. Peak 2024 intraday high not independently confirmed."
+  },
+  {
+    "id": "kr-ecopro-ev-battery-frenzy-2023",
+    "country": "kr",
+    "date": "2023-07-26",
+    "category": "stocks",
+    "title": {
+      "vi": "EcoPro: 'Hoàng đế cổ phiếu' pin xe điện tăng gần 14 lần",
+      "en": "EcoPro: The EV-Battery 'Emperor Stock' Rises Nearly 14x"
+    },
+    "summary": {
+      "vi": "Được nhà đầu tư cá nhân ('kiến') đẩy giá, EcoPro đạt 1,54 triệu won trong phiên 26/7/2023 — gần 14 lần đầu năm — rồi giảm 41% chỉ sau 7 tuần.",
+      "en": "Pushed by retail 'ants', EcoPro hit 1.54M won intraday on July 26, 2023 — nearly 14x its start-of-year price — then fell 41% in seven weeks."
+    },
+    "description": {
+      "vi": "EcoPro (086520.KQ), công ty mẹ của nhà sản xuất vật liệu cathode EcoPro BM, trở thành cổ phiếu 'meme' của Hàn Quốc năm 2023. Nhà đầu tư cá nhân mua ròng 1,72 nghìn tỷ won trong khi khối ngoại và tổ chức bán ra; nhiều quỹ bán khống phải đóng vị thế thua lỗ. Ngày 10/7/2023 cổ phiếu vượt 1 triệu won (tăng 848% từ đầu năm), ngày 26/7 đạt đỉnh 1,54 triệu won trong phiên — gần 14 lần giá đầu năm. Đến 14/9/2023 cổ phiếu còn 904.000 won (−41,3%) khi nhu cầu xe điện chững lại và giá lithium giảm. Tháng 4/2024 EcoPro chia tách cổ phiếu 5:1, nên giá hiện tại phải nhân 5 để so sánh.",
+      "en": "EcoPro (086520.KQ), parent of cathode maker EcoPro BM, became Korea's meme stock of 2023. Retail investors bought a net 1.72 trillion won while foreigners and institutions sold; several short-selling funds were forced to cover at a loss. On July 10, 2023 it crossed 1 million won (+848% year to date), and on July 26 it hit 1.54 million won intraday — nearly 14x its start-of-year price. By Sept 14, 2023 it was at 904,000 won (−41.3%) as EV demand cooled and lithium prices fell. EcoPro split its shares 5-for-1 in April 2024, so current prices must be multiplied by 5 to compare."
+    },
+    "opportunity": {
+      "asset": "EcoPro (086520.KQ)",
+      "action": {
+        "vi": "Mua EcoPro đầu năm 2023 trước làn sóng mua của nhà đầu tư cá nhân, chốt lời khi cổ phiếu vượt 1 triệu won.",
+        "en": "Buy EcoPro in early 2023 before the retail wave and take profits once it crossed 1 million won."
+      },
+      "buyWhen": {
+        "vi": "Đầu tháng 1/2023, khi giá quanh 110.000 won (trước chia tách).",
+        "en": "Early January 2023, at roughly 110,000 won (pre-split)."
+      },
+      "sellWhen": {
+        "vi": "Cuối tháng 7/2023, quanh đỉnh 1,54 triệu won ngày 26/7.",
+        "en": "Late July 2023, near the July 26 peak of 1.54 million won."
+      },
+      "estimatedReturn": {
+        "vi": "Gần 14 lần (≈110.000 → 1.540.000 won) trong khoảng 7 tháng.",
+        "en": "Nearly 14x (≈110,000 → 1,540,000 won) in about seven months."
+      },
+      "returnMultiple": 14,
+      "entryPrice": 110000,
+      "exitPrice": 1540000,
+      "priceCurrency": "KRW",
+      "exitDate": "2023-07-26",
+      "risk": "high",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Khi một cổ phiếu được gọi là 'hoàng đế' và các KOL trên YouTube công kích chuyên gia phân tích, đó là tín hiệu đỉnh tâm lý — EcoPro đảo chiều chỉ 8 ngày sau khi vượt 1 triệu won lần thứ hai (18/7).",
+      "en": "When a stock is crowned 'emperor' and YouTube personalities attack analysts, sentiment is peaking — EcoPro reversed just eight days after re-crossing 1 million won (July 18)."
+    },
+    "pitfalls": {
+      "vi": "Ai mua sau tháng 7/2023 đối mặt với cú giảm sâu kéo dài khi giá lithium sụp và EV chậm lại. Nhầm giá trước/sau chia tách 5:1 (2024) dễ dẫn đến tính sai lợi nhuận.",
+      "en": "Buyers after July 2023 faced a long, deep decline as lithium crashed and EV demand slowed. Mixing pre- and post-5:1-split (2024) prices easily distorts return math."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Nhà đầu tư cá nhân Hàn Quốc thường được gọi là gì?",
+        "en": "What are Korean retail investors commonly called?"
+      },
+      "choices": [
+        {
+          "vi": "Kiến (ants)",
+          "en": "Ants"
+        },
+        {
+          "vi": "Hổ (tigers)",
+          "en": "Tigers"
+        },
+        {
+          "vi": "Ong (bees)",
+          "en": "Bees"
+        },
+        {
+          "vi": "Gấu (bears)",
+          "en": "Bears"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "Nhà đầu tư cá nhân Hàn Quốc được gọi là 'kiến' (gaemi) vì quy mô vốn nhỏ so với các quỹ lớn.",
+        "en": "Korean retail investors are called 'ants' (gaemi) for their small size relative to big funds."
+      }
+    },
+    "sources": [
+      {
+        "title": "KED Global: Retail investors test EcoPro's upside as Korea's GameStop",
+        "url": "https://www.kedglobal.com//newsView/ked202307110020"
+      },
+      {
+        "title": "Korea JoongAng Daily: Battery stocks chilled by frosty EV demand",
+        "url": "https://www.koreajoongangdaily.com/business/battery-stocks-chilled-by-frosty-ev-demand-falling-lithium-prices/12129106"
+      },
+      {
+        "title": "Korea JoongAng Daily: EcoPro announces 5-for-1 stock split",
+        "url": "https://www.koreajoongangdaily.com/business/ecopro-announces-5-for-1-stock-split-as-profit-halves/12118139"
+      },
+      {
+        "title": "Fortune: World's best-performing stock of 2023 is Ecopro",
+        "url": "https://fortune.com/2023/12/21/best-performing-stock-2023-ecopro-south-korea/"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "1.54M won intraday peak on July 26, 2023 ('nearly 14 times' the start-of-year price), 'emperor stock' above 1M on July 18 and 904,000 won (−41.3%) on Sept 14 from Korea JoongAng Daily; +848% YTD, 1.02M high on July 10 and retail net buying of 1.72T won from KED Global; 5:1 split from JoongAng/stockevents. Entry price ~110,000 won is derived (1.54M ÷ ~14), not an exact quote; the brief's ~103,000 is in the same range."
+  }
+]

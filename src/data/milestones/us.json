@@ -2863,5 +2863,402 @@
     ],
     "verified": true,
     "verifiedNote": "11 Sep 2020 close of $32.13 confirmed by Forbes and by Scott+Scott / Grabar Law shareholder notices (24% two-day drop); 9 Sep 2020 close of $42.37 from the Grabar Law notice and consistent with the 24% figure; GM 11% stake and ~50% jump from Business Insider and Forbes; $125m SEC order from the SEC; Oct 2022 conviction, Dec 2023 four-year sentence and Mar 2025 pardon from Reuters and CNBC."
+  },
+  {
+    "id": "us-apple-ronald-wayne-stake-1980",
+    "country": "us",
+    "date": "1980-12-12",
+    "category": "technology",
+    "title": {
+      "vi": "Ronald Wayne — người đồng sáng lập thứ ba bán 10% Apple lấy 800 USD",
+      "en": "Ronald Wayne — the Third Apple Co-Founder Who Sold 10% for $800"
+    },
+    "summary": {
+      "vi": "Ngày 12/4/1976, chỉ 12 ngày sau khi lập Apple, Ronald Wayne bán lại 10% cổ phần cho Jobs và Wozniak lấy 800 USD (thêm 1.500 USD sau đó) vì sợ trách nhiệm nợ cá nhân. Ngày 12/12/1980, Apple IPO ở giá 22 USD và đóng cửa với định giá 1,778 tỷ USD.",
+      "en": "On 12 April 1976, just 12 days after founding Apple, Ronald Wayne sold his 10% back to Jobs and Wozniak for $800 (plus $1,500 later) because he feared personal liability. On 12 December 1980 Apple listed at $22 a share and closed its first day valued at $1.778 billion."
+    },
+    "description": {
+      "vi": "Ngày 1/4/1976, Steve Jobs, Steve Wozniak và Ronald Wayne — một kỹ sư 41 tuổi từng làm cùng Jobs ở Atari — ký hợp đồng hợp danh lập Apple Computer Company. Jobs và Wozniak mỗi người giữ 45%, Wayne giữ 10% để làm người phân xử khi hai người bất đồng; ông cũng soạn thỏa thuận hợp danh, vẽ logo đầu tiên và viết sách hướng dẫn Apple I. Nhưng Apple là công ty hợp danh, không phải công ty cổ phần, nên mọi khoản nợ có thể đổ lên tài sản cá nhân của Wayne — trong khi Jobs vừa vay tiền để thực hiện đơn hàng của cửa hàng Byte Shop vốn mang tiếng chậm trả. Ngày 12/4/1976, Wayne rút tên khỏi hợp đồng và bán lại toàn bộ phần của mình với giá 800 USD; khi Apple chuyển thành công ty cổ phần, ông nhận thêm 1.500 USD để từ bỏ mọi quyền đòi hỏi về sau. Ngày 12/12/1980, Apple IPO 4,6 triệu cổ phiếu ở giá 22 USD, đóng cửa ngày đầu ở 29 USD với tổng định giá 1,778 tỷ USD — đợt IPO lớn nhất kể từ Ford năm 1956. Wayne nhiều lần nói ông không hối tiếc vì đã quyết định đúng với thông tin lúc đó.",
+      "en": "On 1 April 1976 Steve Jobs, Steve Wozniak and Ronald Wayne — a 41-year-old engineer who had worked with Jobs at Atari — signed a partnership agreement founding Apple Computer Company. Jobs and Wozniak each held 45% and Wayne 10%, as a tie-breaker; he also drafted the partnership agreement, drew the first logo and wrote the Apple I manual. But Apple was a partnership, not a corporation, so its debts could fall on Wayne's personal assets — and Jobs had just borrowed money to fill an order from the Byte Shop, a retailer with a reputation for paying late. On 12 April 1976 Wayne had his name taken off the contract and sold his entire interest back for $800; when Apple incorporated, he accepted another $1,500 to give up any future claims. On 12 December 1980 Apple floated 4.6 million shares at $22, closed its first day at $29 and was valued at $1.778 billion — the biggest IPO since Ford in 1956. Wayne has repeatedly said he has no regrets, having made the best decision on the information he had."
+    },
+    "opportunity": {
+      "asset": "Apple Computer partnership stake (later AAPL)",
+      "action": {
+        "vi": "Giữ 10% phần hùn sáng lập Apple thay vì bán lại với giá 800 USD",
+        "en": "Keep a 10% founding stake in Apple instead of selling it back for $800"
+      },
+      "buyWhen": {
+        "vi": "Tháng 4/1976 — đơn giản là không ký giấy rút lui ngày 12/4/1976",
+        "en": "April 1976 — simply don't sign the withdrawal on 12 April 1976"
+      },
+      "sellWhen": {
+        "vi": "Ít nhất giữ đến IPO ngày 12/12/1980 (giá 22 USD, định giá đóng cửa 1,778 tỷ USD)",
+        "en": "At least until the IPO on 12 December 1980 ($22 a share, $1.778 billion closing valuation)"
+      },
+      "estimatedReturn": {
+        "vi": "Trên lý thuyết, 10% của 1,778 tỷ USD là khoảng 178 triệu USD lúc IPO, so với 800 USD đã nhận — nhưng con số thực sẽ thấp hơn nhiều vì phần hùn bị pha loãng khi Apple gọi vốn trước IPO",
+        "en": "In theory 10% of $1.778 billion is about $178 million at the IPO versus the $800 he received — but the real figure would have been far lower because the stake would have been diluted by pre-IPO fundraising"
+      },
+      "entryPrice": 800,
+      "priceCurrency": "USD",
+      "exitDate": "1980-12-12",
+      "risk": "high",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Người tái sinh biết Apple sẽ sống sót, nên nỗi sợ trách nhiệm cá nhân của Wayne không còn là rủi ro thật. Cách khôn ngoan không phải là liều mạng ký bảo lãnh nợ, mà là đề nghị chuyển Apple thành công ty cổ phần sớm hơn để tách nợ khỏi tài sản riêng — đúng điều Apple làm năm 1977 — rồi giữ nguyên phần hùn. Bài học chung: rủi ro của cấu trúc pháp lý (hợp danh, bảo lãnh cá nhân) thường có thể sửa được, còn cơ hội sở hữu nhà sáng lập thì không quay lại.",
+      "en": "A reincarnated investor knows Apple will survive, so Wayne's fear of personal liability is no longer a real risk. The smart move isn't to recklessly guarantee debts but to push for incorporating early so debts are separated from personal assets — exactly what Apple did in 1977 — and keep the stake. The general lesson: legal-structure risk (partnerships, personal guarantees) can usually be fixed; a founder's equity rarely comes back."
+    },
+    "pitfalls": {
+      "vi": "Các con số 'đáng giá hàng trăm tỷ USD' trên báo chí đều giả định 10% không bao giờ bị pha loãng, điều không thực tế: sau khi Apple thành công ty cổ phần năm 1977 và Mike Markkula rót vốn, phần của mọi nhà sáng lập đều giảm — chính Jobs, cổ đông lớn nhất, chỉ có khoảng 217 triệu USD sau ngày IPO. Phần hùn khởi nghiệp hoàn toàn không có thanh khoản suốt gần 5 năm, và đây là câu chuyện của người sống sót: hàng nghìn công ty hợp danh thời đó đã phá sản và kéo theo nợ cá nhân của các thành viên. Wayne cũng từng chứng kiến một công ty riêng của mình thất bại, nên nỗi lo của ông là có cơ sở.",
+      "en": "Headlines saying the stake would be 'worth hundreds of billions' assume the 10% was never diluted, which is unrealistic: after Apple incorporated in 1977 and Mike Markkula invested, every founder's share shrank — Jobs himself, the biggest holder, was worth about $217 million after IPO day. A startup partnership stake had zero liquidity for nearly five years, and this is a survivor story: thousands of partnerships of that era failed and dragged their partners' personal assets down with them. Wayne had already seen a venture of his own fail, so his fear was reasonable."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Ronald Wayne nhận bao nhiêu tiền khi bán lại 10% Apple ngày 12/4/1976?",
+        "en": "How much did Ronald Wayne receive when he sold his 10% of Apple back on 12 April 1976?"
+      },
+      "choices": [
+        {
+          "vi": "800 USD",
+          "en": "$800"
+        },
+        {
+          "vi": "22 USD",
+          "en": "$22"
+        },
+        {
+          "vi": "1,59 triệu USD",
+          "en": "$1.59 million"
+        },
+        {
+          "vi": "80.000 USD",
+          "en": "$80,000"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "Wayne nhận 800 USD, rồi thêm 1.500 USD khi Apple thành công ty cổ phần. 22 USD là giá IPO năm 1980, còn 1,59 triệu USD là giá bản hợp đồng thành lập Apple được bán đấu giá năm 2011.",
+        "en": "Wayne got $800, plus $1,500 more when Apple incorporated. $22 was the 1980 IPO price, and $1.59 million is what Apple's founding contract fetched at auction in 2011."
+      }
+    },
+    "sources": [
+      {
+        "title": "Third Apple Co-Founder Sold Share Now Worth Billions for $800 - Snopes",
+        "url": "https://www.snopes.com/fact-check/third-apple-cofounder/"
+      },
+      {
+        "title": "Apple just hit a $1 trillion market cap—here's why its little-known third co-founder sold his 10% stake for $800 - CNBC",
+        "url": "https://www.cnbc.com/2018/08/02/why-ronald-wayne-sold-his-10-percent-stake-in-apple-for-800-dollars.html"
+      },
+      {
+        "title": "Apple founded; Wayne withdraws on April 12, 1976 - History of Information",
+        "url": "https://historyofinformation.com/detail.php?id=925"
+      },
+      {
+        "title": "Today in Apple history: Apple IPO mints instant millionaires - Cult of Mac",
+        "url": "https://www.cultofmac.com/apple-history/apple-ipo-goes-public"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "$800 buyout of the 10% stake confirmed by Snopes, CNBC and Wikipedia; withdrawal date of 12 Apr 1976 from History of Information and CNBC ('12 days'); extra $1,500 on incorporation from Snopes and Wikipedia. IPO on 12 Dec 1980 at $22, 4.6m shares, $29 close and $1.778bn valuation from Cult of Mac (and NYT archive). The ~$178m figure is our own naive calculation (10% x $1.778bn) and ignores dilution from incorporation and pre-IPO investment, so no return multiple or exit price is given; Fortune/Yahoo's 'up to $400bn today' figure is likewise undiluted and hypothetical."
+  },
+  {
+    "id": "us-victorias-secret-roy-raymond-sale-1982",
+    "country": "us",
+    "date": "1982",
+    "category": "business",
+    "title": {
+      "vi": "Roy Raymond bán Victoria's Secret cho Les Wexner với giá khoảng 1 triệu USD",
+      "en": "Roy Raymond Sells Victoria's Secret to Les Wexner for About $1 Million"
+    },
+    "summary": {
+      "vi": "Năm 1982, nhà sáng lập Roy Raymond bán Victoria's Secret — 5 cửa hàng và một catalogue, doanh thu khoảng 6 triệu USD/năm — cho The Limited của Les Wexner với giá khoảng 1 triệu USD. Trong khoảng 10 năm, Wexner biến nó thành thương hiệu tỷ USD, còn công ty tiếp theo của Raymond phá sản năm 1986.",
+      "en": "In 1982 founder Roy Raymond sold Victoria's Secret — five stores and a catalogue grossing about $6 million a year — to Les Wexner's The Limited for about $1 million. Within roughly a decade Wexner turned it into a billion-dollar brand, while Raymond's next company went bankrupt in 1986."
+    },
+    "description": {
+      "vi": "Roy Raymond, một thạc sĩ quản trị kinh doanh Stanford, thấy ngại khi mua đồ lót cho vợ ở cửa hàng bách hóa. Năm 1977, ông cùng vợ Gaye vay 80.000 USD từ ngân hàng và người thân để mở cửa hàng Victoria's Secret đầu tiên ở Stanford Shopping Center, Palo Alto; năm đầu đạt doanh thu khoảng 500.000 USD, rồi mở thêm cửa hàng và làm catalogue đặt hàng qua thư. Nhưng đến năm 1982 công ty thiếu tiền và được cho là gần phá sản. Raymond bán Victoria's Secret — 5 cửa hàng cùng catalogue 42 trang, doanh thu khoảng 6 triệu USD/năm — cho The Limited của Leslie Wexner với giá khoảng 1 triệu USD theo New York Times, LA Times và Fox Business (một số nguồn khác như bài NYT năm 1986 ghi 'khoảng 4 triệu USD'). Wexner nhanh chóng mở rộng lên khoảng 100 cửa hàng vào năm 1986 và trong khoảng 10 năm biến Victoria's Secret thành thương hiệu tỷ USD. Raymond bỏ 850.000 USD vào chuỗi đồ trẻ em My Child's Destiny, nhưng công ty này phá sản năm 1986; ông qua đời năm 1993.",
+      "en": "Roy Raymond, a Stanford MBA, felt embarrassed buying lingerie for his wife in department stores. In 1977 he and his wife Gaye borrowed $80,000 from a bank and relatives to open the first Victoria's Secret at Stanford Shopping Center in Palo Alto; it took in about $500,000 in its first year, then added stores and a mail-order catalogue. By 1982, though, the company was short of cash and reportedly near bankruptcy. Raymond sold Victoria's Secret — five stores and a 42-page catalogue grossing about $6 million a year — to Leslie Wexner's The Limited for about $1 million according to the New York Times, the LA Times and Fox Business (other sources, such as a 1986 NYT article, give a 'reported $4 million'). Wexner quickly expanded it to about 100 stores by 1986 and within about ten years had built a billion-dollar brand. Raymond put $850,000 into a children's store chain, My Child's Destiny, which went bankrupt in 1986; he died in 1993."
+    },
+    "opportunity": {
+      "asset": "Victoria's Secret (acquired by The Limited, later L Brands)",
+      "action": {
+        "vi": "Không bán rẻ một thương hiệu đang tăng trưởng chỉ vì thiếu vốn lưu động — tìm vốn hoặc bán một phần thay vì bán đứt",
+        "en": "Don't sell a growing brand cheaply just because of a cash squeeze — raise capital or sell a minority stake instead of the whole company"
+      },
+      "buyWhen": {
+        "vi": "Năm 1982, khi Victoria's Secret có 5 cửa hàng, catalogue và doanh thu khoảng 6 triệu USD/năm",
+        "en": "1982, when Victoria's Secret had five stores, a catalogue and about $6 million in annual sales"
+      },
+      "sellWhen": {
+        "vi": "Giữ qua giai đoạn mở rộng toàn quốc đến đầu thập niên 1990, khi thương hiệu đạt quy mô tỷ USD",
+        "en": "Hold through the national roll-out into the early 1990s, when the brand reached billion-dollar scale"
+      },
+      "estimatedReturn": {
+        "vi": "Từ giá bán khoảng 1 triệu USD đến một thương hiệu tỷ USD trong khoảng 10 năm — hàng trăm lần về giá trị, dù không có giá cổ phiếu riêng để đo chính xác",
+        "en": "From a sale price of about $1 million to a billion-dollar brand in about ten years — hundreds-fold in value, though there is no separate share price to measure it precisely"
+      },
+      "entryPrice": 1000000,
+      "priceCurrency": "USD",
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Người tái sinh biết vấn đề của Victoria's Secret năm 1982 không phải ý tưởng mà là cách tiếp thị (nhắm vào đàn ông thay vì phụ nữ mua cho chính mình) và thiếu vốn. Thay vì bán đứt lấy 1 triệu USD, người sáng lập có thể đổi công ty lấy cổ phiếu The Limited, hoặc nhà đầu tư thường có thể mua cổ phiếu The Limited (đã niêm yết NYSE năm 1982) để hưởng phần tăng trưởng mà Wexner tạo ra. Bài học: khi một người mua giỏi vận hành tha thiết muốn mua, đó là tín hiệu tài sản đang bị định giá thấp.",
+      "en": "A reincarnated investor knows Victoria's Secret's 1982 problem was not the idea but its marketing (aimed at men rather than women buying for themselves) and a lack of capital. Instead of selling outright for $1 million, the founder could have taken stock in The Limited, and an ordinary investor could have bought The Limited's shares (listed on the NYSE in 1982) to share in the growth Wexner created. The lesson: when a skilled operator is eager to buy, it often means the asset is underpriced."
+    },
+    "pitfalls": {
+      "vi": "Nhìn lại thì dễ, nhưng năm 1982 công ty thực sự gần phá sản — nếu không bán, Raymond có thể mất trắng. Thành công về sau phần lớn đến từ năng lực vận hành và vốn của Wexner, không tự đến từ thương hiệu. Một doanh nghiệp tư nhân nhỏ không có thanh khoản: không thể bán dần từng phần như cổ phiếu. Và đây là câu chuyện của người sống sót: hầu hết chuỗi bán lẻ nhỏ được bán rẻ không bao giờ trở thành đế chế. Số tiền bán (1 triệu hay 4 triệu USD) cũng không thống nhất giữa các nguồn.",
+      "en": "Hindsight is easy, but in 1982 the company really was near bankruptcy — without a sale Raymond might have lost everything. The later success came largely from Wexner's operating skill and capital, not from the brand on its own. A small private business has no liquidity: you can't sell it off bit by bit like shares. And this is survivor bias: most small retail chains sold cheaply never become empires. Sources also disagree on the price ($1 million vs $4 million)."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Năm 1982, Victoria's Secret có quy mô thế nào khi được bán cho The Limited?",
+        "en": "What did Victoria's Secret consist of when it was sold to The Limited in 1982?"
+      },
+      "choices": [
+        {
+          "vi": "5 cửa hàng và một catalogue, doanh thu khoảng 6 triệu USD/năm",
+          "en": "Five stores and a catalogue, grossing about $6 million a year"
+        },
+        {
+          "vi": "100 cửa hàng trên toàn nước Mỹ",
+          "en": "100 stores across the US"
+        },
+        {
+          "vi": "Chỉ một cửa hàng ở Palo Alto",
+          "en": "A single store in Palo Alto"
+        },
+        {
+          "vi": "Một chuỗi đồ trẻ em",
+          "en": "A children's store chain"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "Theo New York Times (qua Fox Business và Wikipedia), Raymond bán 5 cửa hàng và catalogue 42 trang, doanh thu khoảng 6 triệu USD/năm. Con số 100 cửa hàng là quy mô Wexner đạt được vào năm 1986; chuỗi đồ trẻ em là My Child's Destiny, công ty sau này của Raymond.",
+        "en": "According to the New York Times (via Fox Business and Wikipedia), Raymond sold five stores and a 42-page catalogue grossing about $6 million a year. The 100 stores was the size Wexner reached by 1986; the children's chain was My Child's Destiny, Raymond's later venture."
+      }
+    },
+    "sources": [
+      {
+        "title": "How did Victoria's Secret start? - Fox Business",
+        "url": "https://www.foxbusiness.com/lifestyle/who-started-victorias-secret"
+      },
+      {
+        "title": "Retailing: Victoria's Secret Founder an Apparent Suicide - Los Angeles Times",
+        "url": "https://www.latimes.com/archives/la-xpm-1993-09-02-fi-30900-story.html"
+      },
+      {
+        "title": "An Elegant Kids' Store Fails - The New York Times",
+        "url": "https://www.nytimes.com/1986/12/27/business/an-elegant-kids-store-fails.html"
+      },
+      {
+        "title": "The Story Behind the New Victoria's Secret Hulu Doc and Les Wexner's Business Tactics - Entrepreneur",
+        "url": "https://www.entrepreneur.com/business-news/victorias-secret-hulu-doc-reveals-les-wexners-business/431911"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "~$1 million sale price confirmed by the LA Times 1993 obituary report, Fox Business (citing the NYT 1993 obituary), Entrepreneur, Business Insider and Wikipedia; a 1986 NYT article and the Evening Standard say a 'reported $4 million', so $1m is used as the better-corroborated figure. Five stores, 42-page catalogue and ~$6m annual sales from Fox Business/NYT and Wikipedia (Business Insider says six stores). 'Billion-dollar brand within ten years' from Entrepreneur; ~100 stores by 1986 from Wikipedia citing the NYT. My Child's Destiny bankruptcy in 1986 from the NYT and Fox Business. Exact month of the 1982 deal is unclear (Business Insider implies July), so the date is given as the year only; no exit price exists because Victoria's Secret was not separately traded."
+  },
+  {
+    "id": "us-monster-beverage-hansen-compounding-2002",
+    "country": "us",
+    "date": "2002-04",
+    "category": "stocks",
+    "title": {
+      "vi": "Hansen Natural tung Monster Energy — cổ phiếu tăng hơn 1.000 lần",
+      "en": "Hansen Natural Launches Monster Energy — a 1,000x Stock"
+    },
+    "summary": {
+      "vi": "Tháng 4/2002, công ty nước trái cây và soda nhỏ Hansen Natural tung nước tăng lực Monster Energy. Cổ phiếu (nay là Monster Beverage, MNST) trở thành một trong hai cổ phiếu S&P 500 tăng mạnh nhất thế kỷ 21: 1.000 USD đầu tư năm 2004 thành khoảng 1,04 triệu USD vào năm 2026.",
+      "en": "In April 2002 small juice and soda maker Hansen Natural launched Monster Energy. The stock (now Monster Beverage, MNST) became one of the two best-performing S&P 500 stocks of the 21st century: $1,000 invested in 2004 grew to about $1.04 million by 2026."
+    },
+    "description": {
+      "vi": "Rodney Sacks và Hilton Schlosberg mua Hansen Natural năm 1992 với giá 14,5 triệu USD, khi đó là một hãng nước trái cây và soda tự nhiên ít tên tuổi. Tháng 4/2002, công ty tung Monster Energy — lon 16 ounce to gấp đôi Red Bull với cùng mức giá — và nhanh chóng dẫn đầu phân khúc nước tăng lực lon 16 ounce ở Mỹ. Doanh thu vượt 2 tỷ USD năm 2012 (gấp hơn 20 lần một thập kỷ trước), cùng năm công ty đổi tên thành Monster Beverage. Ngày 14/8/2014, Coca-Cola công bố mua 16,7% cổ phần Monster với 2,15 tỷ USD tiền mặt và đổi các thương hiệu nước tăng lực của mình lấy mảng nước không tăng lực của Monster; thương vụ hoàn tất ngày 12/6/2015. Theo StatMuse, MNST tăng khoảng 204.900% từ năm 2000 đến 2026, chỉ sau Nvidia trong S&P 500; theo Yahoo Finance, 1.000 USD đầu tư từ năm 2004 đã thành khoảng 1,04 triệu USD (khoảng 37%/năm), so với khoảng 8.748 USD nếu đầu tư vào S&P 500.",
+      "en": "Rodney Sacks and Hilton Schlosberg bought Hansen Natural in 1992 for $14.5 million, when it was an obscure natural juice and soda maker. In April 2002 it launched Monster Energy — a 16-ounce can, twice the size of a Red Bull for the same price — which quickly became the leading 16-ounce energy drink in the US. Revenue passed $2 billion in 2012 (more than 20 times a decade earlier), the year the company renamed itself Monster Beverage. On 14 August 2014 Coca-Cola announced it would buy a 16.7% stake in Monster for $2.15 billion in cash and swap its energy brands for Monster's non-energy business; the deal closed on 12 June 2015. According to StatMuse, MNST returned about 204,900% from 2000 to 2026, second only to Nvidia in the S&P 500; according to Yahoo Finance, $1,000 invested in 2004 grew to about $1.04 million (roughly 37% a year), versus about $8,748 in the S&P 500."
+    },
+    "opportunity": {
+      "asset": "Hansen Natural / Monster Beverage (MNST)",
+      "action": {
+        "vi": "Mua cổ phiếu Hansen Natural sau khi Monster Energy ra mắt và giữ qua nhiều thập kỷ",
+        "en": "Buy Hansen Natural stock after Monster Energy's launch and hold for decades"
+      },
+      "buyWhen": {
+        "vi": "Từ tháng 4/2002 đến 2004, khi Hansen còn là một cổ phiếu vốn hóa nhỏ ít người biết",
+        "en": "Between April 2002 and 2004, while Hansen was still an obscure small-cap"
+      },
+      "sellWhen": {
+        "vi": "Không bán — giữ qua cú sụt khoảng 70% năm 2007-2008 và thương vụ Coca-Cola 2014",
+        "en": "Don't sell — hold through the ~70% drop of 2007-2008 and the 2014 Coca-Cola deal"
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng 1.040 lần: 1.000 USD đầu tư năm 2004 thành khoảng 1,04 triệu USD năm 2026 (Yahoo Finance)",
+        "en": "About 1,040x: $1,000 invested in 2004 became about $1.04 million by 2026 (Yahoo Finance)"
+      },
+      "returnMultiple": 1040,
+      "priceCurrency": "USD",
+      "exitDate": "2026-08",
+      "risk": "high",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Người tái sinh biết lon 16 ounce giá ngang Red Bull sẽ biến một hãng soda vô danh thành đối thủ ngang hàng Red Bull. Tín hiệu có thể quan sát được lúc đó là doanh số tăng vọt và các nhà phân phối bia như Anheuser-Busch tranh nhau phân phối Monster. Mấu chốt không phải là mua đúng đáy mà là đủ kiên nhẫn để không bán khi cổ phiếu đã tăng 50 lần rồi giảm 70% năm 2008.",
+      "en": "A reincarnated investor knows a 16-ounce can priced like a Red Bull will turn an unknown soda maker into Red Bull's equal. The observable signals at the time were exploding sales and beer distributors such as Anheuser-Busch competing to carry Monster. The key is not buying the exact bottom but having the patience not to sell after a 50x run followed by a 70% drop in 2008."
+    },
+    "pitfalls": {
+      "vi": "Đây là ví dụ kinh điển của thiên kiến người sống sót: cùng thời có hàng chục thương hiệu nước tăng lực và đồ uống 'tự nhiên' biến mất. Năm 2002 Hansen là cổ phiếu vốn hóa rất nhỏ, thanh khoản thấp và biến động mạnh; theo Investor's Business Daily, cổ phiếu tăng 4.929% từ giữa 2003 đến cuối 2007 rồi rơi khoảng 70% trong khủng hoảng 2008 — hầu hết mọi người sẽ bán ở đâu đó giữa đường. Các con số lợi nhuận được điều chỉnh theo nhiều lần chia tách cổ phiếu (gần nhất là 2-đổi-1 năm 2026) và mốc thời gian khác nhau, nên mỗi nguồn cho một con số khác nhau.",
+      "en": "This is a classic case of survivor bias: dozens of energy and 'natural' drink brands from the same era disappeared. In 2002 Hansen was a tiny, illiquid and volatile stock; per Investor's Business Daily it rose 4,929% from mid-2003 to late 2007 and then fell about 70% in the 2008 crash — most people would have sold somewhere along the way. Return figures are adjusted for several stock splits (most recently a 2-for-1 in 2026) and use different start dates, so each source gives a different number."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Năm 2014, Coca-Cola trả bao nhiêu để mua 16,7% cổ phần Monster Beverage?",
+        "en": "In 2014, how much did Coca-Cola pay for a 16.7% stake in Monster Beverage?"
+      },
+      "choices": [
+        {
+          "vi": "14,5 triệu USD",
+          "en": "$14.5 million"
+        },
+        {
+          "vi": "2,15 tỷ USD",
+          "en": "$2.15 billion"
+        },
+        {
+          "vi": "21,5 tỷ USD",
+          "en": "$21.5 billion"
+        },
+        {
+          "vi": "215 triệu USD",
+          "en": "$215 million"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Coca-Cola công bố khoản đầu tư 2,15 tỷ USD tiền mặt ngày 14/8/2014 và hoàn tất ngày 12/6/2015. 14,5 triệu USD là giá Sacks và Schlosberg mua Hansen Natural năm 1992.",
+        "en": "Coca-Cola announced the $2.15 billion cash investment on 14 August 2014 and closed it on 12 June 2015. $14.5 million is what Sacks and Schlosberg paid for Hansen Natural in 1992."
+      }
+    },
+    "sources": [
+      {
+        "title": "Hansen Natural Corporation and Anheuser-Busch announce distribution (Monster launched April 2002) - Monster Beverage IR",
+        "url": "https://investors.monsterbevcorp.com/news-releases/news-release-details/hansen-natural-corporation-and-anheuser-busch-announce"
+      },
+      {
+        "title": "The Coca-Cola Company and Monster Beverage Corporation Close on Previously Announced Strategic Partnership - Coca-Cola",
+        "url": "https://investors.coca-colacompany.com/news-events/press-releases/detail/766/the-coca-cola-company-and-monster-beverage-corporation-close-on-previously-announced-strategic-partnership"
+      },
+      {
+        "title": "Best performing stocks in S&P 500 from 2000 to 2026 - StatMuse",
+        "url": "https://www.statmuse.com/money/ask/best-performing-stocks-in-sandp-500-from-2000-to-2026"
+      },
+      {
+        "title": "Monster Run: This Consumer Stock Turned $1,000 Into $1M Over 22 Years - Yahoo Finance",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/monster-run-consumer-stock-turned-095436408.html"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "April 2002 launch from Monster Beverage's own investor-relations release and Wikipedia. Coca-Cola's 16.7% stake for ~$2.15bn from Coca-Cola's closing release (12 Jun 2015) plus BBC, CBC, CNBC and WSJ (announced 14 Aug 2014). Return magnitude confirmed independently: StatMuse ~204,900% total return 2000-2026 (second to NVDA; earlier versions ranked MNST first), Yahoo Finance $1,000 -> ~$1.04m since 2004, Motley Fool/Nasdaq 65,610% over 20 years, IBD 4,929% from Jul 2003 to Oct 2007. returnMultiple of 1,040 uses the Yahoo Finance 2004-2026 figure; no per-share entry/exit prices are given because split adjustments (incl. the 2026 2-for-1 split) make quoted cents inconsistent across sources. $14.5m 1992 purchase price from TSOH Investment Research."
+  },
+  {
+    "id": "us-peter-thiel-facebook-seed-2004",
+    "country": "us",
+    "date": "2004-08",
+    "category": "technology",
+    "title": {
+      "vi": "Peter Thiel đầu tư 500.000 USD vào Facebook và rút về hơn 1 tỷ USD",
+      "en": "Peter Thiel's $500,000 Facebook Bet Returns Over $1 Billion"
+    },
+    "summary": {
+      "vi": "Tháng 8/2004, Peter Thiel trở thành nhà đầu tư bên ngoài đầu tiên của Facebook: 500.000 USD cho 10,2% cổ phần, tương ứng định giá khoảng 4,9 triệu USD. Năm 2012, ông bán ở IPO và sau khi hết hạn khóa cổ phiếu, thu về hơn 1 tỷ USD — khoảng 2.000 lần vốn.",
+      "en": "In August 2004 Peter Thiel became Facebook's first outside investor: $500,000 for 10.2%, valuing the company at about $4.9 million. In 2012 he sold at the IPO and after the lock-up ended, cashing out over $1 billion — about 2,000 times his money."
+    },
+    "description": {
+      "vi": "Mùa hè 2004, Sean Parker — khi đó là chủ tịch Facebook — đi tìm nhà đầu tư và được giới thiệu đến Peter Thiel, đồng sáng lập PayPal. Sau buổi gặp Mark Zuckerberg vào tháng 8/2004, Thiel dẫn đầu vòng hạt giống với khoản đầu tư thiên thần 500.000 USD (dưới dạng khoản vay chuyển đổi) để lấy 10,2% cổ phần và một ghế trong hội đồng quản trị, tương ứng định giá khoảng 4,9 triệu USD. Ngày 18/5/2012, Facebook IPO ở giá 38 USD/cổ phiếu, định giá khoảng 104 tỷ USD; Thiel và các quỹ của ông nắm hơn 44 triệu cổ phiếu và bán 16,8 triệu cổ phiếu trong đợt IPO, thu khoảng 640 triệu USD. Cổ phiếu sau đó lao dốc; ngày 16/8/2012 thời hạn khóa cổ phiếu hết, giá xuống dưới 20 USD, và trong hai ngày 16-17/8 Thiel bán thêm khoảng 20 triệu cổ phiếu ở giá 19,27-20,69 USD, thu 395,8 triệu USD — nâng tổng số tiền rút về lên hơn 1 tỷ USD. Kế hoạch bán này đã được lập từ ngày IPO, bất kể giá. Sau đó cổ phiếu Facebook/Meta tăng lên gần 790 USD vào năm 2025.",
+      "en": "In summer 2004 Sean Parker, then Facebook's president, went looking for investors and was pointed to PayPal co-founder Peter Thiel. After meeting Mark Zuckerberg in August 2004, Thiel led the seed round with a $500,000 angel investment (structured as a convertible loan) for 10.2% of the company and a board seat, valuing Facebook at about $4.9 million. On 18 May 2012 Facebook listed at $38 a share, a valuation of about $104 billion; Thiel and his funds held more than 44 million shares and sold 16.8 million in the IPO for about $640 million. The stock then slumped; when the lock-up expired on 16 August 2012 it fell below $20, and over 16-17 August Thiel sold about 20 million more shares at $19.27-$20.69 for $395.8 million — taking his total cash-out above $1 billion. The sale plan had been set on IPO day, regardless of price. Facebook/Meta stock later climbed to nearly $790 in 2025."
+    },
+    "opportunity": {
+      "asset": "Facebook seed round (later META)",
+      "action": {
+        "vi": "Đầu tư vào vòng hạt giống của Facebook năm 2004 và giữ đến IPO năm 2012",
+        "en": "Invest in Facebook's 2004 seed round and hold to the 2012 IPO"
+      },
+      "buyWhen": {
+        "vi": "Tháng 8/2004, khi Facebook mới hoạt động ở vài chục trường đại học và được định giá khoảng 4,9 triệu USD",
+        "en": "August 2004, when Facebook was live at a few dozen colleges and valued at about $4.9 million"
+      },
+      "sellWhen": {
+        "vi": "Ở IPO tháng 5/2012 và khi hết hạn khóa cổ phiếu tháng 8/2012 — hoặc, với hiểu biết của người tái sinh, giữ phần còn lại thay vì bán ở 20 USD",
+        "en": "At the May 2012 IPO and the August 2012 lock-up expiry — or, with a reincarnated investor's hindsight, keep the remaining shares instead of selling at $20"
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng 2.070 lần: 500.000 USD thành khoảng 1,036 tỷ USD (640 triệu + 395,8 triệu USD) trong 8 năm",
+        "en": "About 2,070x: $500,000 became about $1.036 billion ($640 million + $395.8 million) in eight years"
+      },
+      "returnMultiple": 2071.6,
+      "entryPrice": 500000,
+      "exitPrice": 1035800000,
+      "priceCurrency": "USD",
+      "exitDate": "2012-08-17",
+      "risk": "high",
+      "capital": "high"
+    },
+    "insiderTip": {
+      "vi": "Người tái sinh biết Facebook sẽ vượt qua cú sụt một nửa sau IPO. Bài học của người trong cuộc: ngay cả Thiel — nhà đầu tư đầu tiên và thành viên hội đồng quản trị — cũng bán phần lớn cổ phiếu quanh 20 USD vào tháng 8/2012 theo kế hoạch lập sẵn, ngay trước khi cổ phiếu tăng thêm hàng chục lần lên gần 790 USD năm 2025. Người bán sớm không nhất thiết sai — họ cần đa dạng hóa và trả tiền cho nhà đầu tư trong quỹ — nhưng 'người trong cuộc bán' không có nghĩa là công ty đã hết thời.",
+      "en": "A reincarnated investor knows Facebook will recover from halving after its IPO. The insider lesson: even Thiel — the first investor and a board member — sold most of his stock at around $20 in August 2012 under a pre-set plan, just before the shares rose tens-fold more to nearly $790 in 2025. Early sellers aren't necessarily wrong — they need to diversify and return money to fund investors — but 'insiders are selling' doesn't mean the company is finished."
+    },
+    "pitfalls": {
+      "vi": "Vòng hạt giống năm 2004 chỉ mở cho người quen và nhà đầu tư được công nhận (accredited investor) theo luật Mỹ — người thường không thể tham gia. Khoản đầu tư hoàn toàn không có thanh khoản trong 8 năm, và tỷ lệ 10,2% bị pha loãng qua nhiều vòng gọi vốn sau đó. Một phần tiền thu về thuộc về các nhà đầu tư trong quỹ của Thiel chứ không phải của riêng ông. Và đây là thiên kiến người sống sót: phần lớn khoản đầu tư thiên thần mất trắng, kể cả của chính những nhà đầu tư giỏi nhất.",
+      "en": "The 2004 seed round was open only to insiders' contacts and accredited investors under US rules — ordinary people could not take part. The investment was completely illiquid for eight years, and the 10.2% stake was diluted by many later funding rounds. Part of the proceeds belonged to investors in Thiel's funds, not to him personally. And this is survivor bias: most angel investments go to zero, even those made by the best investors."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Peter Thiel nhận được bao nhiêu phần trăm Facebook với 500.000 USD năm 2004?",
+        "en": "What share of Facebook did Peter Thiel get for $500,000 in 2004?"
+      },
+      "choices": [
+        {
+          "vi": "1,02%",
+          "en": "1.02%"
+        },
+        {
+          "vi": "10,2%",
+          "en": "10.2%"
+        },
+        {
+          "vi": "25%",
+          "en": "25%"
+        },
+        {
+          "vi": "44%",
+          "en": "44%"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Thiel nhận 10,2% cổ phần, tương ứng định giá khoảng 4,9 triệu USD. 44 là số triệu cổ phiếu mà ông và các quỹ nắm khi Facebook IPO năm 2012.",
+        "en": "Thiel got 10.2%, implying a valuation of about $4.9 million. 44 refers to the 44 million-plus shares he and his funds held at the 2012 IPO."
+      }
+    },
+    "sources": [
+      {
+        "title": "Facebook's first big investor, Peter Thiel, cashes out - CNNMoney via WTVR",
+        "url": "https://www.wtvr.com/2012/08/21/facebooks-first-big-investor-peter-thiel-cashes-out"
+      },
+      {
+        "title": "Early Facebook investor Peter Thiel sells majority of shares - Los Angeles Times",
+        "url": "https://www.latimes.com/business/la-xpm-2012-aug-20-la-fi-tn-early-facebook-investor-peter-thiel-sells-off-majority-of-shares-20120820-story.html"
+      },
+      {
+        "title": "Peter Thiel sells majority of his Facebook shares - Newstalk ZB / NZ Herald",
+        "url": "https://www.newstalkzb.co.nz/news/business/peter-thiel-sells-majority-of-his-facebook-shares/"
+      },
+      {
+        "title": "In IPO, Facebook sells 421 million shares priced at $38 - Boston.com",
+        "url": "https://www.boston.com/news/technology/2012/05/18/in-ipo-facebook-sells-421-million-shares-priced-at-38/"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "$500,000 for 10.2% in Aug 2004 confirmed by Wikipedia, the LA Times, IT History Society and Newstalk ZB/NZ Herald; ~$4.9m implied valuation from Newstalk ZB/NZ Herald (consistent with $0.5m / 10.2%). 16.8m shares sold in the IPO for ~$640m and ~20m shares sold 16-17 Aug 2012 at $19.27-$20.69 for $395.8m (total 'just over $1 billion', sale plan set on IPO day) from CNNMoney and the LA Times; BBC and Reuters also report the $395.8m. $38 IPO price and ~$104bn valuation from Boston.com and Reuters. Exit total of $1.0358bn and returnMultiple 2,071.6 are our sum of the two reported sales; proceeds were fund-level, not all Thiel's personally. The 'convertible note' structure is per Thiel's own accounts and Wikipedia. Later ~$790 2025 peak per the existing us-facebook-ipo-2012 entry's source."
   }
 ]
