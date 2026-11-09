@@ -21,7 +21,7 @@ const COPY = {
       "Dữ liệu tổng hợp từ các nguồn công khai (xem mục Nguồn ở mỗi mục). Một số chuỗi (xếp hạng C) chỉ có vài mốc rời rạc, chưa phải số liệu liên tục theo năm — dùng để tham khảo, không phải số liệu thống kê chính thức. Năm không có số liệu được nội suy (đánh dấu ~).",
   },
   en: {
-    kicker: "For trọng sinh (reborn-in-the-past) novel writers",
+    kicker: "For reborn-in-the-past (\u201ctrọng sinh\u201d) novel writers",
     heading: "Price Almanac",
     intro:
       "Prices year by year across many countries, with sources — so your reborn character spends the right amount of money for the year and country they land in. A/B/C quality ratings show how reliable each series is.",
