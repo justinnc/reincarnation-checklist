@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
-import { motion } from "motion/react";
+import { motion, useReducedMotion } from "motion/react";
 import { t, type Locale } from "@/lib/i18n";
 import type { Country, Milestone } from "@/lib/types";
 import { formatDate, formatDrop, formatMultiple } from "@/lib/format";
@@ -56,6 +56,7 @@ export default function WorldYearExplorer({
   const [committedYear, setCommittedYear] = useState(initialYear);
   const [tolerance, setTolerance] = useState<0 | 1 | 2>(0);
   const copy = COPY[lang];
+  const reduceMotion = useReducedMotion();
 
   const rafRef = useRef<number | null>(null);
   const pendingYearRef = useRef(initialYear);
@@ -105,8 +106,20 @@ export default function WorldYearExplorer({
       <section className="rounded-3xl border border-gold/50 bg-surface p-5 sm:p-8 space-y-6">
         <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
           <p className="max-w-md text-sm text-muted">{copy.sliderSub}</p>
-          <div className="font-display text-5xl font-extrabold tracking-tight text-gold tabular sm:text-6xl">
-            {year}
+          <div className="overflow-hidden font-display text-5xl font-extrabold tracking-tight text-gold tabular sm:text-6xl">
+            {reduceMotion ? (
+              year
+            ) : (
+              <motion.span
+                key={year}
+                initial={{ opacity: 0.4, y: -8 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.18, ease: "easeOut" }}
+                className="inline-block"
+              >
+                {year}
+              </motion.span>
+            )}
           </div>
         </div>
 

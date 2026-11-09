@@ -101,9 +101,21 @@ export default function RebirthPicker({ milestones, countries, lang, dict, minYe
           </label>
           <output
             htmlFor="year"
-            className="block font-display text-[5.5rem] font-extrabold leading-none tracking-tighter text-gold tabular sm:text-9xl"
+            className="block overflow-hidden font-display text-[5.5rem] font-extrabold leading-none tracking-tighter text-gold tabular sm:text-9xl"
           >
-            {year}
+            {reduceMotion ? (
+              year
+            ) : (
+              <motion.span
+                key={year}
+                initial={{ opacity: 0.4, y: -10 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.18, ease: "easeOut" }}
+                className="inline-block"
+              >
+                {year}
+              </motion.span>
+            )}
           </output>
           <input
             id="year"
