@@ -15,7 +15,7 @@ type Props = {
 
 export default function WhatIfTabs({ lang, countries, milestones }: Props) {
   const search = useSearchParams();
-  const initialMode = search.get("mode") === "playbook" || search.get("chain") ? "playbook" : "single";
+  const initialMode = search.get("mode") === "playbook" || search.get("chain") || search.get("pin") || search.get("from") ? "playbook" : "single";
   const [mode, setMode] = useState<"single" | "playbook">(initialMode);
 
   const tabSingle = lang === "vi" ? "Một tài sản (Việt Nam)" : "Single Asset (Vietnam)";

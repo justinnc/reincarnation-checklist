@@ -1,0 +1,639 @@
+[
+  {
+    "id": "in-ty-gia-usd-inr",
+    "country": "in",
+    "name": {
+      "vi": "Tỷ giá USD/INR chính thức",
+      "en": "Official USD/INR exchange rate"
+    },
+    "unit": {
+      "vi": "rupee/USD",
+      "en": "INR per USD"
+    },
+    "quality": "A",
+    "note": {
+      "vi": "Tỷ giá chính thức bình quân năm theo Ngân hàng Thế giới (nguồn IMF IFS), chỉ số PA.NUS.FCRF. Ấn Độ không đổi tiền hay phá giá đột ngột trong giai đoạn này (có phá giá lớn 1991 do khủng hoảng cán cân thanh toán).",
+      "en": "Official annual-average exchange rate from the World Bank (source: IMF IFS), indicator PA.NUS.FCRF. India had no currency redenomination in this period, but a sharp 1991 devaluation during the balance-of-payments crisis."
+    },
+    "kind": "point",
+    "currency": "INR",
+    "valueMultiplier": 1,
+    "purchasable": false,
+    "series": [
+      {
+        "year": 1986,
+        "value": 12.61
+      },
+      {
+        "year": 1987,
+        "value": 12.96
+      },
+      {
+        "year": 1988,
+        "value": 13.92
+      },
+      {
+        "year": 1989,
+        "value": 16.23
+      },
+      {
+        "year": 1990,
+        "value": 17.5
+      },
+      {
+        "year": 1991,
+        "value": 22.74
+      },
+      {
+        "year": 1992,
+        "value": 25.92
+      },
+      {
+        "year": 1993,
+        "value": 30.49
+      },
+      {
+        "year": 1994,
+        "value": 31.37
+      },
+      {
+        "year": 1995,
+        "value": 32.43
+      },
+      {
+        "year": 1996,
+        "value": 35.43
+      },
+      {
+        "year": 1997,
+        "value": 36.31
+      },
+      {
+        "year": 1998,
+        "value": 41.26
+      },
+      {
+        "year": 1999,
+        "value": 43.06
+      },
+      {
+        "year": 2000,
+        "value": 44.94
+      },
+      {
+        "year": 2001,
+        "value": 47.19
+      },
+      {
+        "year": 2002,
+        "value": 48.61
+      },
+      {
+        "year": 2003,
+        "value": 46.58
+      },
+      {
+        "year": 2004,
+        "value": 45.32
+      },
+      {
+        "year": 2005,
+        "value": 44.1
+      },
+      {
+        "year": 2006,
+        "value": 45.31
+      },
+      {
+        "year": 2007,
+        "value": 41.35
+      },
+      {
+        "year": 2008,
+        "value": 43.51
+      },
+      {
+        "year": 2009,
+        "value": 48.41
+      },
+      {
+        "year": 2010,
+        "value": 45.73
+      },
+      {
+        "year": 2011,
+        "value": 46.67
+      },
+      {
+        "year": 2012,
+        "value": 53.44
+      },
+      {
+        "year": 2013,
+        "value": 58.6
+      },
+      {
+        "year": 2014,
+        "value": 61.03
+      },
+      {
+        "year": 2015,
+        "value": 64.15
+      },
+      {
+        "year": 2016,
+        "value": 67.2
+      },
+      {
+        "year": 2017,
+        "value": 65.12
+      },
+      {
+        "year": 2018,
+        "value": 68.39
+      },
+      {
+        "year": 2019,
+        "value": 70.42
+      },
+      {
+        "year": 2020,
+        "value": 74.1
+      },
+      {
+        "year": 2021,
+        "value": 73.92
+      },
+      {
+        "year": 2022,
+        "value": 78.6
+      },
+      {
+        "year": 2023,
+        "value": 82.6
+      },
+      {
+        "year": 2024,
+        "value": 83.67
+      },
+      {
+        "year": 2025,
+        "value": 87.16
+      }
+    ],
+    "sources": [
+      {
+        "title": "World Bank - Official exchange rate (LCU per US$, period average), India (PA.NUS.FCRF)",
+        "url": "https://data.worldbank.org/indicator/PA.NUS.FCRF?locations=IN"
+      },
+      {
+        "title": "World Bank API - PA.NUS.FCRF, India, 1986-2025 (raw data)",
+        "url": "https://api.worldbank.org/v2/country/IN/indicator/PA.NUS.FCRF?format=json&date=1986:2025"
+      }
+    ]
+  },
+  {
+    "id": "in-luong-toi-thieu-san-quoc-gia",
+    "country": "in",
+    "name": {
+      "vi": "Mức lương tối thiểu sàn quốc gia (NFLMW)",
+      "en": "National Floor Level Minimum Wage (NFLMW)"
+    },
+    "unit": {
+      "vi": "rupee/ngày",
+      "en": "INR/day"
+    },
+    "quality": "B",
+    "note": {
+      "vi": "Ấn Độ không có lương tối thiểu thống nhất toàn quốc theo luật; mỗi bang tự ấn định. NFLMW chỉ là mức sàn khuyến nghị phi pháp lý (non-statutory) do Bộ Lao động trung ương công bố để các bang tham chiếu, không bắt buộc. Mức này giữ nguyên 176 Rs/ngày từ 1/6/2017 đến ít nhất 2025 (chưa được điều chỉnh dù có Bộ luật Tiền lương 2019 cho phép ấn định sàn lương có tính pháp lý, nhưng tới cuối 2025 Chính phủ vẫn chưa công bố mức sàn thống kê mới).",
+      "en": "India has no legally uniform national minimum wage; each state sets its own. The NFLMW is only a non-statutory floor recommended by the central Ministry of Labour for states to reference. It has stayed at Rs 176/day since 1 June 2017 through at least 2025 (the 2019 Code on Wages allows a statutory floor wage, but as of a 2024 parliamentary answer no new figure had been notified)."
+    },
+    "kind": "point",
+    "currency": "INR",
+    "valueMultiplier": 1,
+    "purchasable": false,
+    "series": [
+      {
+        "year": 1991,
+        "value": 20,
+        "note": "NCRL recommendation (1990 prices)"
+      },
+      {
+        "year": 1996,
+        "value": 35,
+        "note": "Central Government adopted the concept"
+      },
+      {
+        "year": 1998,
+        "value": 40
+      },
+      {
+        "year": 1999,
+        "value": 45
+      },
+      {
+        "year": 2002,
+        "value": 50
+      },
+      {
+        "year": 2004,
+        "value": 66
+      },
+      {
+        "year": 2007,
+        "value": 80
+      },
+      {
+        "year": 2009,
+        "value": 100
+      },
+      {
+        "year": 2011,
+        "value": 115
+      },
+      {
+        "year": 2013,
+        "value": 137
+      },
+      {
+        "year": 2015,
+        "value": 160
+      },
+      {
+        "year": 2017,
+        "value": 176,
+        "note": "Hiệu lực từ 1/6/2017, giữ nguyên tới ít nhất 2025 / effective 1 June 2017, unchanged through at least 2025"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Ministry of Labour & Employment (India) - Minimum Wages Act 1948 report, NFLMW table",
+        "url": "https://www.labour.gov.in/static/uploads/2025/06/e5419a690d59b0f1d13b16b290351987.pdf"
+      },
+      {
+        "title": "Indian Economic Service (Arthapedia) - National Floor Level Minimum Wage",
+        "url": "https://ies.gov.in/arthapedia/concept/national-floor-level-minimum-wage"
+      },
+      {
+        "title": "wagetable.com - India minimum wage, citing Rajya Sabha Unstarred Question No. 735 (08.02.2024)",
+        "url": "https://wagetable.com/minimum-wage/india/"
+      }
+    ]
+  },
+  {
+    "id": "in-gia-vang-24k",
+    "country": "in",
+    "name": {
+      "vi": "Giá vàng 24K Ấn Độ",
+      "en": "India 24-karat gold price"
+    },
+    "unit": {
+      "vi": "rupee/10 gram",
+      "en": "INR per 10 grams"
+    },
+    "quality": "B",
+    "note": {
+      "vi": "Giá bình quân năm cho vàng 24 karat/10 gram, tổng hợp từ các trang tài chính tiêu dùng (BankBazaar, Aditya Birla Capital) dựa trên dữ liệu thị trường vàng Ấn Độ (MCX/IBJA); các nguồn có chênh lệch nhỏ (vài %) do phương pháp lấy mẫu khác nhau, nên xếp chất lượng B.",
+      "en": "Annual-average price for 24K gold per 10 grams, compiled from consumer-finance sites (BankBazaar, Aditya Birla Capital) using Indian bullion-market data (MCX/IBJA); sources differ by a few percent due to differing sampling methods, hence quality B."
+    },
+    "kind": "point",
+    "currency": "INR",
+    "valueMultiplier": 1,
+    "purchasable": true,
+    "series": [
+      {
+        "year": 1990,
+        "value": 3200
+      },
+      {
+        "year": 1995,
+        "value": 4680
+      },
+      {
+        "year": 2000,
+        "value": 4400
+      },
+      {
+        "year": 2005,
+        "value": 7000
+      },
+      {
+        "year": 2010,
+        "value": 18500
+      },
+      {
+        "year": 2011,
+        "value": 26400
+      },
+      {
+        "year": 2012,
+        "value": 31050
+      },
+      {
+        "year": 2013,
+        "value": 28848
+      },
+      {
+        "year": 2014,
+        "value": 27708
+      },
+      {
+        "year": 2015,
+        "value": 26671
+      },
+      {
+        "year": 2016,
+        "value": 30128
+      },
+      {
+        "year": 2017,
+        "value": 29174
+      },
+      {
+        "year": 2018,
+        "value": 30692
+      },
+      {
+        "year": 2019,
+        "value": 35154
+      },
+      {
+        "year": 2020,
+        "value": 47562
+      },
+      {
+        "year": 2021,
+        "value": 48720
+      },
+      {
+        "year": 2022,
+        "value": 52670
+      },
+      {
+        "year": 2023,
+        "value": 58836
+      },
+      {
+        "year": 2024,
+        "value": 77000
+      },
+      {
+        "year": 2025,
+        "value": 103870
+      }
+    ],
+    "sources": [
+      {
+        "title": "BankBazaar - Historical Gold Rate/Trend in India",
+        "url": "https://www.bankbazaar.com/gold-rate/gold-rate-trend-in-india.html"
+      },
+      {
+        "title": "Aditya Birla Capital - Gold Price History in India: Year-Wise Gold Rates & Returns",
+        "url": "https://www.adityabirlacapital.com/abc-of-money/gold-price-history-in-india"
+      }
+    ]
+  },
+  {
+    "id": "in-gia-xang-delhi",
+    "country": "in",
+    "name": {
+      "vi": "Giá xăng bán lẻ tại Delhi",
+      "en": "Delhi retail petrol price"
+    },
+    "unit": {
+      "vi": "rupee/lít",
+      "en": "INR/litre"
+    },
+    "quality": "B",
+    "note": {
+      "vi": "Giá xăng (petrol) bán lẻ tại Delhi, mốc giá tại ngày điều chỉnh cụ thể (1990-2010, theo Reuters) hoặc bình quân năm tài chính (2017-2021, theo trả lời chất vấn Quốc hội/PIB). Giá được nhà nước kiểm soát tới 26/6/2010, sau đó thả nổi theo thị trường. Từ 2022 giá gần như đứng yên do cắt giảm thuế tiêu thụ đặc biệt (thg 11/2021, thg 5/2022) và OMC giữ giá ổn định.",
+      "en": "Delhi retail petrol price, either a specific price-revision date (1990-2010, per Reuters) or a fiscal-year average (2017-2021, per a parliamentary/PIB reply). Prices were government-controlled until 26 June 2010, then market-determined. From 2022 prices have been nearly frozen after excise-duty cuts (Nov 2021, May 2022) and OMCs holding the retail price steady."
+    },
+    "kind": "point",
+    "currency": "INR",
+    "valueMultiplier": 1,
+    "purchasable": true,
+    "series": [
+      {
+        "year": 1990,
+        "value": 9.84,
+        "note": "Mar 1990 revision (Reuters)"
+      },
+      {
+        "year": 1991,
+        "value": 14.62,
+        "note": "Jul 1991 revision (Reuters)"
+      },
+      {
+        "year": 1996,
+        "value": 21.13,
+        "note": "Jul 1996 revision (Reuters)"
+      },
+      {
+        "year": 1998,
+        "value": 23.94,
+        "note": "Jun 1998 revision (Reuters)"
+      },
+      {
+        "year": 2000,
+        "value": 26.07,
+        "note": "Apr 2000 revision (Reuters)"
+      },
+      {
+        "year": 2003,
+        "value": 32.1,
+        "note": "Mar 2003 revision (Reuters)"
+      },
+      {
+        "year": 2005,
+        "value": 40.49,
+        "note": "Jun 2005 revision (Reuters)"
+      },
+      {
+        "year": 2008,
+        "value": 50.62,
+        "note": "Jul 2008 revision (Reuters), pre-2010 world oil price spike"
+      },
+      {
+        "year": 2010,
+        "value": 51.43,
+        "note": "Jun 2010 revision (Reuters); petrol pricing freed from govt control 26/6/2010"
+      },
+      {
+        "year": 2017,
+        "value": 69.2,
+        "note": "FY2017-18 average (PIB/Lok Sabha reply)"
+      },
+      {
+        "year": 2019,
+        "value": 72.69,
+        "note": "FY2019-20 average (PIB/Lok Sabha reply)"
+      },
+      {
+        "year": 2021,
+        "value": 80.84,
+        "note": "FY2020-21 average (PIB/Lok Sabha reply)"
+      },
+      {
+        "year": 2024,
+        "value": 94.77,
+        "note": "IOCL Delhi retail price, stable through 2024-2025 after Nov 2021/May 2022 excise cuts"
+      },
+      {
+        "year": 2025,
+        "value": 94.77,
+        "note": "IOCL Delhi retail price as of 31 Dec 2025 (PPAC)"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Reuters - Fuel prices in India's capital since 1989",
+        "url": "https://www.reuters.com/article/world/us/fuel-prices-in-indias-capital-since-1989-idUSSGE66F08P/"
+      },
+      {
+        "title": "PIB - Average Cost of Petroleum Products (Lok Sabha reply, Delhi FY averages 2016-17 to 2021-22)",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1797260"
+      },
+      {
+        "title": "PPAC - Important News archive (RSP of Petrol in Delhi, 31 Dec 2025)",
+        "url": "https://ppac.gov.in/archives/impnews"
+      }
+    ]
+  },
+  {
+    "id": "in-maharaja-mac",
+    "country": "in",
+    "name": {
+      "vi": "Giá bánh Maharaja Mac (thay thế Big Mac)",
+      "en": "Maharaja Mac price (Big Mac substitute)"
+    },
+    "unit": {
+      "vi": "rupee/cái",
+      "en": "INR each"
+    },
+    "quality": "B",
+    "note": {
+      "vi": "McDonald's Ấn Độ không bán Big Mac (thịt bò) vì lý do tôn giáo/văn hoá; The Economist dùng Chicken Maharaja Mac làm vật thay thế gần nhất trong Big Mac Index từ 2011. Vì không cùng loại nguyên liệu (gà thay vì bò) nên so sánh xuyên quốc gia kém chính xác hơn các nước khác trong chỉ số.",
+      "en": "McDonald's India does not sell the beef Big Mac for religious/cultural reasons; The Economist has used the Chicken Maharaja Mac as the closest substitute in the Big Mac Index since 2011. Because the patty is chicken rather than beef, cross-country comparisons for India are less exact than for other countries in the index."
+    },
+    "kind": "point",
+    "currency": "INR",
+    "valueMultiplier": 1,
+    "purchasable": true,
+    "series": [
+      {
+        "year": 2011,
+        "value": 84,
+        "note": "first year India (Maharaja Mac) entered the index, July 2011"
+      },
+      {
+        "year": 2013,
+        "value": 89
+      },
+      {
+        "year": 2015,
+        "value": 116.25
+      },
+      {
+        "year": 2017,
+        "value": 178
+      },
+      {
+        "year": 2019,
+        "value": 178
+      },
+      {
+        "year": 2021,
+        "value": 190
+      },
+      {
+        "year": 2023,
+        "value": 207
+      },
+      {
+        "year": 2025,
+        "value": 226
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Economist - big-mac-data (GitHub repository, raw & full index CSV)",
+        "url": "https://github.com/TheEconomist/big-mac-data"
+      },
+      {
+        "title": "Wikipedia - Big Mac Index (notes India uses Chicken Maharaja Mac as substitute)",
+        "url": "https://en.wikipedia.org/wiki/Big_Mac_Index"
+      }
+    ]
+  },
+  {
+    "id": "in-gia-nha-7-thanh-pho",
+    "country": "in",
+    "name": {
+      "vi": "Giá nhà ở bình quân 7 thành phố lớn",
+      "en": "Average home price, top 7 cities"
+    },
+    "unit": {
+      "vi": "rupee/sq.ft",
+      "en": "INR/sq.ft"
+    },
+    "quality": "B",
+    "note": {
+      "vi": "Giá bán bình quân căn hộ tại 7 thành phố lớn Ấn Độ (Mumbai/MMR, Delhi-NCR, Bengaluru, Pune, Hyderabad, Chennai, Kolkata) theo nghiên cứu của công ty bất động sản ANAROCK, trích dẫn qua báo chí (Economic Times, The Week, IANS). Giá là bình quân toàn bộ phân khúc tại thời điểm cuối năm.",
+      "en": "Average selling price of residential units across India's top 7 cities (Mumbai/MMR, Delhi-NCR, Bengaluru, Pune, Hyderabad, Chennai, Kolkata) per ANAROCK Research, reported via press (Economic Times, The Week, IANS). Prices are the all-segment average at year-end."
+    },
+    "kind": "point",
+    "currency": "INR",
+    "valueMultiplier": 1,
+    "purchasable": true,
+    "series": [
+      {
+        "year": 2000,
+        "value": 2490
+      },
+      {
+        "year": 2009,
+        "value": 3784
+      },
+      {
+        "year": 2010,
+        "value": 4063
+      },
+      {
+        "year": 2019,
+        "value": 5600
+      },
+      {
+        "year": 2020,
+        "value": 5599,
+        "note": "Q1 2020"
+      },
+      {
+        "year": 2023,
+        "value": 7080
+      },
+      {
+        "year": 2024,
+        "value": 8590
+      },
+      {
+        "year": 2025,
+        "value": 9260
+      }
+    ],
+    "sources": [
+      {
+        "title": "Economic Times - Average housing prices up 38 per cent in last decade (Anarock data, 2000/2009/2010/Q1-2020)",
+        "url": "https://economictimes.com/wealth/real-estate/average-housing-prices-up-38-per-cent-in-last-decade/articleshow/76339156.cms"
+      },
+      {
+        "title": "ANAROCK Research - Indian Residential Market Annual Update 2024",
+        "url": "https://websitemedia.anarock.com/media/ANAROCK_Research_Indian_Residential_Market_Annual_Update_2024_3b5aa5b04d.pdf"
+      },
+      {
+        "title": "IANS - Housing sales value in Indian cities jump 6 pc in 2025 (Anarock, 2025 year-end avg.)",
+        "url": "https://ianslive.in/housing-sales-value-in-indian-cities-jump-6-pc-in-2025-report--20251226113519"
+      }
+    ]
+  }
+]

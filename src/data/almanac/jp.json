@@ -1,0 +1,759 @@
+[
+  {
+    "id": "jp-ty-gia-usd-jpy",
+    "country": "jp",
+    "name": {
+      "vi": "Tỷ giá USD/JPY chính thức",
+      "en": "Official USD/JPY exchange rate"
+    },
+    "unit": {
+      "vi": "yên/USD",
+      "en": "JPY per USD"
+    },
+    "quality": "A",
+    "note": {
+      "vi": "Tỷ giá chính thức bình quân năm theo Ngân hàng Thế giới (nguồn gốc IMF IFS), chỉ số PA.NUS.FCRF. Phản ánh rõ các giai đoạn đồng yên tăng giá mạnh (đỉnh 1995: ~94 yên/USD) và mất giá mạnh gần đây (2022-2024, do BOJ duy trì lãi suất âm/siêu thấp).",
+      "en": "Official annual-average rate from the World Bank (sourced from IMF IFS), indicator PA.NUS.FCRF. Clearly shows the strong-yen period (1995 trough ~94 JPY/USD) and the sharp recent depreciation (2022-2024, driven by the BOJ's ultra-low/negative rate policy)."
+    },
+    "kind": "point",
+    "currency": "JPY",
+    "valueMultiplier": 1,
+    "purchasable": false,
+    "series": [
+      {
+        "year": 1986,
+        "value": 168.52
+      },
+      {
+        "year": 1987,
+        "value": 144.64
+      },
+      {
+        "year": 1988,
+        "value": 128.15
+      },
+      {
+        "year": 1989,
+        "value": 137.96
+      },
+      {
+        "year": 1990,
+        "value": 144.79
+      },
+      {
+        "year": 1991,
+        "value": 134.71
+      },
+      {
+        "year": 1992,
+        "value": 126.65
+      },
+      {
+        "year": 1993,
+        "value": 111.2
+      },
+      {
+        "year": 1994,
+        "value": 102.21
+      },
+      {
+        "year": 1995,
+        "value": 94.06
+      },
+      {
+        "year": 1996,
+        "value": 108.78
+      },
+      {
+        "year": 1997,
+        "value": 120.99
+      },
+      {
+        "year": 1998,
+        "value": 130.91
+      },
+      {
+        "year": 1999,
+        "value": 113.91
+      },
+      {
+        "year": 2000,
+        "value": 107.77
+      },
+      {
+        "year": 2001,
+        "value": 121.53
+      },
+      {
+        "year": 2002,
+        "value": 125.39
+      },
+      {
+        "year": 2003,
+        "value": 115.93
+      },
+      {
+        "year": 2004,
+        "value": 108.19
+      },
+      {
+        "year": 2005,
+        "value": 110.22
+      },
+      {
+        "year": 2006,
+        "value": 116.3
+      },
+      {
+        "year": 2007,
+        "value": 117.75
+      },
+      {
+        "year": 2008,
+        "value": 103.36
+      },
+      {
+        "year": 2009,
+        "value": 93.57
+      },
+      {
+        "year": 2010,
+        "value": 87.78
+      },
+      {
+        "year": 2011,
+        "value": 79.81
+      },
+      {
+        "year": 2012,
+        "value": 79.79
+      },
+      {
+        "year": 2013,
+        "value": 97.6
+      },
+      {
+        "year": 2014,
+        "value": 105.94
+      },
+      {
+        "year": 2015,
+        "value": 121.04
+      },
+      {
+        "year": 2016,
+        "value": 108.79
+      },
+      {
+        "year": 2017,
+        "value": 112.17
+      },
+      {
+        "year": 2018,
+        "value": 110.42
+      },
+      {
+        "year": 2019,
+        "value": 109.01
+      },
+      {
+        "year": 2020,
+        "value": 106.77
+      },
+      {
+        "year": 2021,
+        "value": 109.75
+      },
+      {
+        "year": 2022,
+        "value": 131.5
+      },
+      {
+        "year": 2023,
+        "value": 140.49
+      },
+      {
+        "year": 2024,
+        "value": 151.37
+      },
+      {
+        "year": 2025,
+        "value": 149.66
+      }
+    ],
+    "sources": [
+      {
+        "title": "World Bank - Official exchange rate (LCU per US$, period average), Japan (PA.NUS.FCRF)",
+        "url": "https://data.worldbank.org/indicator/PA.NUS.FCRF?locations=JP"
+      },
+      {
+        "title": "World Bank API - PA.NUS.FCRF raw data (CHN;JPN, 1986-2025)",
+        "url": "https://api.worldbank.org/v2/country/CHN;JPN/indicator/PA.NUS.FCRF?format=json&per_page=200&date=1986:2025"
+      }
+    ]
+  },
+  {
+    "id": "jp-luong-toi-thieu-binh-quan",
+    "country": "jp",
+    "name": {
+      "vi": "Lương tối thiểu theo vùng, bình quân gia quyền toàn quốc",
+      "en": "Regional minimum wage, nationwide weighted average"
+    },
+    "unit": {
+      "vi": "yên/ngày (1986-2001); yên/giờ (từ 2002)",
+      "en": "JPY/day (1986-2001); JPY/hour (from 2002)"
+    },
+    "quality": "A",
+    "note": {
+      "vi": "Nhật Bản quy định lương tối thiểu theo từng vùng (todōfuken), chỉ số này là bình quân gia quyền theo số lao động áp dụng trên toàn quốc (地域別最低賃金 全国加重平均額), do Bộ Y tế, Lao động và Phúc lợi (MHLW) công bố qua Hội đồng thẩm định lương tối thiểu trung ương. Đơn vị đổi từ yên/ngày sang yên/giờ kể từ năm tài khóa 2002.",
+      "en": "Japan sets minimum wages per region (todōfuken); this is the nationwide weighted average by number of covered workers (chiiki-betsu saitei chingin, national weighted average), published by MHLW via the Central Minimum Wages Council. The unit switched from yen/day to yen/hour starting fiscal year 2002."
+    },
+    "kind": "point",
+    "currency": "JPY",
+    "valueMultiplier": 1,
+    "purchasable": false,
+    "series": [
+      {
+        "year": 1986,
+        "value": 3587,
+        "note": "Đơn vị: yên/ngày (bắt đầu chuỗi dữ liệu JILPT)"
+      },
+      {
+        "year": 1987,
+        "value": 3666,
+        "note": "Đơn vị: yên/ngày"
+      },
+      {
+        "year": 1988,
+        "value": 3776,
+        "note": "Đơn vị: yên/ngày"
+      },
+      {
+        "year": 1989,
+        "value": 3928,
+        "note": "Đơn vị: yên/ngày"
+      },
+      {
+        "year": 1990,
+        "value": 4117,
+        "note": "Đơn vị: yên/ngày"
+      },
+      {
+        "year": 1991,
+        "value": 4321,
+        "note": "Đơn vị: yên/ngày"
+      },
+      {
+        "year": 1992,
+        "value": 4504,
+        "note": "Đơn vị: yên/ngày"
+      },
+      {
+        "year": 1993,
+        "value": 4644,
+        "note": "Đơn vị: yên/ngày"
+      },
+      {
+        "year": 1994,
+        "value": 4757,
+        "note": "Đơn vị: yên/ngày"
+      },
+      {
+        "year": 1995,
+        "value": 4866,
+        "note": "Đơn vị: yên/ngày"
+      },
+      {
+        "year": 1996,
+        "value": 4965,
+        "note": "Đơn vị: yên/ngày"
+      },
+      {
+        "year": 1997,
+        "value": 5075,
+        "note": "Đơn vị: yên/ngày"
+      },
+      {
+        "year": 1998,
+        "value": 5167,
+        "note": "Đơn vị: yên/ngày"
+      },
+      {
+        "year": 1999,
+        "value": 5213,
+        "note": "Đơn vị: yên/ngày"
+      },
+      {
+        "year": 2000,
+        "value": 5256,
+        "note": "Đơn vị: yên/ngày"
+      },
+      {
+        "year": 2001,
+        "value": 5288,
+        "note": "Đơn vị: yên/ngày; đây là năm cuối cùng công bố theo đơn vị ngày"
+      },
+      {
+        "year": 2002,
+        "value": 663,
+        "note": "Đơn vị: yên/giờ (từ 2002 chuyển hẳn sang công bố theo giờ)"
+      },
+      {
+        "year": 2003,
+        "value": 664
+      },
+      {
+        "year": 2004,
+        "value": 665
+      },
+      {
+        "year": 2005,
+        "value": 668
+      },
+      {
+        "year": 2006,
+        "value": 673
+      },
+      {
+        "year": 2007,
+        "value": 687
+      },
+      {
+        "year": 2008,
+        "value": 703
+      },
+      {
+        "year": 2009,
+        "value": 713
+      },
+      {
+        "year": 2010,
+        "value": 730
+      },
+      {
+        "year": 2011,
+        "value": 737
+      },
+      {
+        "year": 2012,
+        "value": 749
+      },
+      {
+        "year": 2013,
+        "value": 764
+      },
+      {
+        "year": 2014,
+        "value": 780
+      },
+      {
+        "year": 2015,
+        "value": 798
+      },
+      {
+        "year": 2016,
+        "value": 823
+      },
+      {
+        "year": 2017,
+        "value": 848
+      },
+      {
+        "year": 2018,
+        "value": 874
+      },
+      {
+        "year": 2019,
+        "value": 901
+      },
+      {
+        "year": 2020,
+        "value": 902
+      },
+      {
+        "year": 2021,
+        "value": 930
+      },
+      {
+        "year": 2022,
+        "value": 961
+      },
+      {
+        "year": 2023,
+        "value": 1004
+      },
+      {
+        "year": 2024,
+        "value": 1055
+      }
+    ],
+    "sources": [
+      {
+        "title": "独立行政法人労働政策研究・研修機構(JILPT) - 図3 最低賃金（地域別最低賃金 全国加重平均額）1975年度〜2026年度",
+        "url": "https://www.jil.go.jp/kokunai/statistics/timeseries/html/g0403.html"
+      },
+      {
+        "title": "JILPT - g0403.xlsx (地域別最低賃金 全国加重平均額, 日額・時間額データ)",
+        "url": "https://www.jil.go.jp/kokunai/statistics/timeseries/xls/g0403.xlsx"
+      },
+      {
+        "title": "厚生労働省 - 地域別最低賃金の全国加重平均額と引上げ率の推移 (2000-2009年度)",
+        "url": "https://www.mhlw.go.jp/content/11302000/h2207.pdf"
+      }
+    ]
+  },
+  {
+    "id": "jp-gia-vang",
+    "country": "jp",
+    "name": {
+      "vi": "Giá vàng tham khảo (Tanaka Kikinzoku)",
+      "en": "Reference gold price (Tanaka Kikinzoku)"
+    },
+    "unit": {
+      "vi": "yên/gram",
+      "en": "JPY/gram"
+    },
+    "quality": "A",
+    "note": {
+      "vi": "Giá bán lẻ tham khảo (chưa gồm thuế tiêu dùng) bình quân năm do Tanaka Kikinzoku - nhà kinh doanh kim loại quý lớn nhất Nhật Bản - công bố, tính từ giá vàng thế giới (USD/oz) quy đổi theo tỷ giá TTS bình quân năm.",
+      "en": "Annual-average reference retail price (before consumption tax) published by Tanaka Kikinzoku, Japan's largest precious-metals dealer, derived from the world gold price (USD/oz) converted at the year's average TTS exchange rate."
+    },
+    "kind": "point",
+    "currency": "JPY",
+    "valueMultiplier": 1,
+    "purchasable": true,
+    "series": [
+      {
+        "year": 1986,
+        "value": 2044
+      },
+      {
+        "year": 1990,
+        "value": 1826
+      },
+      {
+        "year": 1995,
+        "value": 1209
+      },
+      {
+        "year": 2000,
+        "value": 1014
+      },
+      {
+        "year": 2005,
+        "value": 1619
+      },
+      {
+        "year": 2008,
+        "value": 2937
+      },
+      {
+        "year": 2010,
+        "value": 3477
+      },
+      {
+        "year": 2013,
+        "value": 4453
+      },
+      {
+        "year": 2016,
+        "value": 4396
+      },
+      {
+        "year": 2019,
+        "value": 4918
+      },
+      {
+        "year": 2021,
+        "value": 6402
+      },
+      {
+        "year": 2023,
+        "value": 8834
+      },
+      {
+        "year": 2024,
+        "value": 11718
+      },
+      {
+        "year": 2025,
+        "value": 17302
+      }
+    ],
+    "sources": [
+      {
+        "title": "田中貴金属工業株式会社 - 年次金価格推移 期間：1973年〜2025年",
+        "url": "https://gold.tanaka.co.jp/commodity/souba/y-gold.php/1000"
+      }
+    ]
+  },
+  {
+    "id": "jp-gia-xang-thuong",
+    "country": "jp",
+    "name": {
+      "vi": "Giá xăng thường (レギュラー), bình quân toàn quốc",
+      "en": "Regular petrol price, national average"
+    },
+    "unit": {
+      "vi": "yên/lít",
+      "en": "JPY/litre"
+    },
+    "quality": "B",
+    "note": {
+      "vi": "Bình quân năm do trang kashikapedia.com tự tính (trung bình giản đơn các mức khảo sát hàng tuần) dựa trên dữ liệu gốc của Cục Tài nguyên và Năng lượng Nhật Bản (資源エネルギー庁 - khảo sát giá bán lẻ tại trạm xăng, hàng tuần từ 27/8/1990). Giá trước tháng 4/2004 CHƯA gồm thuế tiêu dùng, từ tháng 4/2004 trở đi ĐÃ gồm thuế tiêu dùng - hai giai đoạn không so sánh trực tiếp 1:1 được.",
+      "en": "Annual averages computed by kashikapedia.com (simple average of weekly readings) from primary data of Japan's Agency for Natural Resources and Energy (ANRE weekly retail station survey, since 27 Aug 1990). Prices before April 2004 EXCLUDE consumption tax; from April 2004 onward they INCLUDE it - the two periods are not directly 1:1 comparable."
+    },
+    "kind": "point",
+    "currency": "JPY",
+    "valueMultiplier": 1,
+    "purchasable": true,
+    "series": [
+      {
+        "year": 1991,
+        "value": 126.6,
+        "note": "Giá chưa gồm thuế tiêu dùng"
+      },
+      {
+        "year": 1995,
+        "value": 115.3,
+        "note": "Giá chưa gồm thuế tiêu dùng"
+      },
+      {
+        "year": 2000,
+        "value": 101.2,
+        "note": "Giá chưa gồm thuế tiêu dùng"
+      },
+      {
+        "year": 2003,
+        "value": 101.6,
+        "note": "Giá chưa gồm thuế tiêu dùng"
+      },
+      {
+        "year": 2004,
+        "value": 111.0,
+        "note": "Giá đã gồm thuế tiêu dùng (từ 4/2004)"
+      },
+      {
+        "year": 2008,
+        "value": 156.4,
+        "note": "Giá đã gồm thuế tiêu dùng (từ 4/2004)"
+      },
+      {
+        "year": 2010,
+        "value": 133.1,
+        "note": "Giá đã gồm thuế tiêu dùng (từ 4/2004)"
+      },
+      {
+        "year": 2015,
+        "value": 137.8,
+        "note": "Giá đã gồm thuế tiêu dùng (từ 4/2004)"
+      },
+      {
+        "year": 2020,
+        "value": 136.4,
+        "note": "Giá đã gồm thuế tiêu dùng (từ 4/2004)"
+      },
+      {
+        "year": 2022,
+        "value": 170.4,
+        "note": "Giá đã gồm thuế tiêu dùng (từ 4/2004)"
+      },
+      {
+        "year": 2024,
+        "value": 175.0,
+        "note": "Giá đã gồm thuế tiêu dùng (từ 4/2004)"
+      },
+      {
+        "year": 2025,
+        "value": 176.8,
+        "note": "Giá đã gồm thuế tiêu dùng (từ 4/2004)"
+      }
+    ],
+    "sources": [
+      {
+        "title": "ガソリン価格、50年の推移と税金の内訳を図解 - kashikapedia.com (dữ liệu gốc: 資源エネルギー庁 石油製品価格調査)",
+        "url": "https://kashikapedia.com/gasoline-price-trend/"
+      }
+    ]
+  },
+  {
+    "id": "jp-big-mac",
+    "country": "jp",
+    "name": {
+      "vi": "Giá bánh Big Mac (McDonald's)",
+      "en": "Big Mac price (McDonald's)"
+    },
+    "unit": {
+      "vi": "yên/cái",
+      "en": "JPY/burger"
+    },
+    "quality": "A",
+    "note": {
+      "vi": "Lấy từ bộ dữ liệu gốc 'Big Mac Index' của tạp chí The Economist (local_price, mỗi điểm là một đợt khảo sát giá, thường vào tháng 1 và/hoặc tháng 7 hàng năm), không phải giá bình quân năm. Giá Big Mac tại Nhật gần như đứng yên 2008-2022 (280-390 yên) trước khi tăng mạnh 2023-2026 theo lạm phát và đồng yên yếu.",
+      "en": "Taken from The Economist's original Big Mac Index dataset (local_price field); each point is a single survey date (usually January and/or July each year), not an annual average. Japan's Big Mac price was nearly flat from 2008-2022 (280-390 yen) before rising sharply in 2023-2026 amid inflation and yen weakness."
+    },
+    "kind": "point",
+    "currency": "JPY",
+    "valueMultiplier": 1,
+    "purchasable": true,
+    "series": [
+      {
+        "year": 2000,
+        "value": 294.0,
+        "note": "Ngày khảo sát: 2000-04-01"
+      },
+      {
+        "year": 2002,
+        "value": 262.0,
+        "note": "Ngày khảo sát: 2002-04-01"
+      },
+      {
+        "year": 2004,
+        "value": 262.0,
+        "note": "Ngày khảo sát: 2004-05-01"
+      },
+      {
+        "year": 2006,
+        "value": 250.0,
+        "note": "Ngày khảo sát: 2006-01-01"
+      },
+      {
+        "year": 2008,
+        "value": 280.0,
+        "note": "Ngày khảo sát: 2008-06-01"
+      },
+      {
+        "year": 2010,
+        "value": 320.0,
+        "note": "Ngày khảo sát: 2010-01-01"
+      },
+      {
+        "year": 2012,
+        "value": 320.0,
+        "note": "Ngày khảo sát: 2012-01-01"
+      },
+      {
+        "year": 2014,
+        "value": 310.0,
+        "note": "Ngày khảo sát: 2014-01-01"
+      },
+      {
+        "year": 2016,
+        "value": 370.0,
+        "note": "Ngày khảo sát: 2016-01-01"
+      },
+      {
+        "year": 2018,
+        "value": 380.0,
+        "note": "Ngày khảo sát: 2018-01-01"
+      },
+      {
+        "year": 2020,
+        "value": 390.0,
+        "note": "Ngày khảo sát: 2020-01-14"
+      },
+      {
+        "year": 2022,
+        "value": 390.0,
+        "note": "Ngày khảo sát: 2022-01-01"
+      },
+      {
+        "year": 2024,
+        "value": 450.0,
+        "note": "Ngày khảo sát: 2024-01-01"
+      },
+      {
+        "year": 2025,
+        "value": 480.0,
+        "note": "Ngày khảo sát: 2025-07-01"
+      },
+      {
+        "year": 2026,
+        "value": 500.0,
+        "note": "Ngày khảo sát: 2026-07-01"
+      }
+    ],
+    "sources": [
+      {
+        "title": "TheEconomist/big-mac-data - big-mac-raw-index.csv (GitHub, cột local_price, iso_a3=JPN)",
+        "url": "https://raw.githubusercontent.com/TheEconomist/big-mac-data/master/output-data/big-mac-raw-index.csv"
+      },
+      {
+        "title": "GitHub - TheEconomist/big-mac-data: Data and methodology for the Big Mac index",
+        "url": "https://github.com/TheEconomist/big-mac-data"
+      }
+    ]
+  },
+  {
+    "id": "jp-gia-gao-koshihikari",
+    "country": "jp",
+    "name": {
+      "vi": "Giá gạo Koshihikari, túi 5kg (Tokyo, bình quân năm)",
+      "en": "Koshihikari rice price, 5kg bag (Tokyo, annual average)"
+    },
+    "unit": {
+      "vi": "yên/túi 5kg",
+      "en": "JPY/5kg bag"
+    },
+    "quality": "B",
+    "note": {
+      "vi": "Giá bán lẻ túi gạo Koshihikari xay xát 5kg tại 23 quận nội thành Tokyo, theo Khảo sát giá bán lẻ (小売物価統計調査) của Tổng cục Thống kê Nhật Bản, Bộ Nông Lâm Ngư nghiệp (MAFF) tổng hợp lại. Đây là CHỈ SỐ MANG TÍNH ĐẠI DIỆN cho khu vực Tokyo, không phải giá bình quân toàn quốc, và chỉ có dữ liệu đáng tin cậy từ 2018 trở đi trong phạm vi nghiên cứu này. Năm 2024-2025 ghi nhận cú sốc giá gạo lịch sử tại Nhật (giá gần như gấp đôi trong 2 năm) do nguồn cung thắt chặt và tâm lý tích trữ.",
+      "en": "Retail price of a 5kg bag of milled Koshihikari rice in Tokyo's 23 wards, per Japan's Retail Price Survey (Statistics Bureau), compiled by MAFF. This is REPRESENTATIVE of the Tokyo area, not a national average, and reliable figures within this research were only found from 2018 onward. 2024-2025 saw an unprecedented rice-price shock in Japan (price nearly doubled in two years) driven by supply tightness and stockpiling behaviour."
+    },
+    "kind": "point",
+    "currency": "JPY",
+    "valueMultiplier": 1,
+    "purchasable": true,
+    "series": [
+      {
+        "year": 2018,
+        "value": 2451,
+        "note": "平成30年 (Heisei 30)"
+      },
+      {
+        "year": 2019,
+        "value": 2457,
+        "note": "令和元年 (Reiwa 1)"
+      },
+      {
+        "year": 2020,
+        "value": 2426,
+        "note": "令和2年"
+      },
+      {
+        "year": 2021,
+        "value": 2344,
+        "note": "令和3年"
+      },
+      {
+        "year": 2022,
+        "value": 2288,
+        "note": "令和4年; giá thấp nhất trong tháng của cả giai đoạn 2002-2023 là 2.227 yên (7/2022)"
+      },
+      {
+        "year": 2023,
+        "value": 2323
+      },
+      {
+        "year": 2024,
+        "value": 2951,
+        "note": "Bắt đầu 'cú sốc giá gạo' toàn quốc do thiếu hụt nguồn cung và nhu cầu tích trữ tăng đột biến"
+      },
+      {
+        "year": 2025,
+        "value": 4928,
+        "note": "Đỉnh điểm khủng hoảng giá gạo; có tháng vượt 4.000-5.000 yên/túi 5kg"
+      }
+    ],
+    "sources": [
+      {
+        "title": "農林水産省 (MAFF) - 米の価格情報 (令和4年の年平均を含む資料)",
+        "url": "https://www.maff.go.jp/j/press/nousan/kikaku/attach/pdf/231114-3.pdf"
+      },
+      {
+        "title": "米の価格はどこまで上がり、どこまで下がったか？75年の推移を図解 - kashikapedia.com (dữ liệu gốc: 総務省統計局 小売物価統計調査)",
+        "url": "https://kashikapedia.com/rice-price-trend/"
+      }
+    ]
+  }
+]

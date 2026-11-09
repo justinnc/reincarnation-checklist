@@ -1,0 +1,489 @@
+[
+  {
+    "id": "us-cpi-u",
+    "country": "us",
+    "name": {
+      "vi": "Chỉ số giá tiêu dùng CPI-U (Mỹ)",
+      "en": "Consumer Price Index (CPI-U), annual average"
+    },
+    "unit": {
+      "vi": "chỉ số (1982-84=100)",
+      "en": "index (1982-84=100)"
+    },
+    "quality": "A",
+    "note": {
+      "vi": "USD là đồng tiền gốc nên không có 'tỷ giá' so với chính nó; dùng CPI-U bình quân năm của Cục Thống kê Lao động (BLS) để đo sức mua đồng USD qua thời gian, thay cho hạng mục tỷ giá hối đoái.",
+      "en": "Since USD is the base currency, there is no exchange rate vs itself; BLS CPI-U annual average is used instead to track USD purchasing power over time."
+    },
+    "kind": "point",
+    "currency": "USD",
+    "valueMultiplier": 1,
+    "purchasable": false,
+    "series": [
+      {
+        "year": 1986,
+        "value": 109.6
+      },
+      {
+        "year": 1990,
+        "value": 130.7
+      },
+      {
+        "year": 1995,
+        "value": 152.4
+      },
+      {
+        "year": 2000,
+        "value": 172.2
+      },
+      {
+        "year": 2005,
+        "value": 195.3
+      },
+      {
+        "year": 2010,
+        "value": 218.1
+      },
+      {
+        "year": 2015,
+        "value": 237.0
+      },
+      {
+        "year": 2020,
+        "value": 258.8
+      },
+      {
+        "year": 2022,
+        "value": 292.7
+      },
+      {
+        "year": 2023,
+        "value": 304.7
+      },
+      {
+        "year": 2024,
+        "value": 313.7
+      },
+      {
+        "year": 2025,
+        "value": 321.9,
+        "note": "Bình quân 10 tháng (thiếu tháng 10/2025 do chính phủ đóng cửa)"
+      }
+    ],
+    "sources": [
+      {
+        "title": "BLS - Historical CPI-U (monthly, by year)",
+        "url": "https://www.bls.gov/cpi/tables/supplemental-files/historical-cpi-u-202511.xlsx"
+      },
+      {
+        "title": "US Inflation Calculator - Average Annual Inflation Rates (CPI annual average table)",
+        "url": "https://www.usinflationcalculator.com/inflation/annual-averages-for-rate-of-inflation/"
+      },
+      {
+        "title": "US Inflation Calculator - CPI Data from 1913 to 2026",
+        "url": "https://www.usinflationcalculator.com/inflation/consumer-price-index-and-annual-percent-changes-from-1913-to-2008/"
+      }
+    ]
+  },
+  {
+    "id": "us-minimum-wage-federal",
+    "country": "us",
+    "name": {
+      "vi": "Lương tối thiểu liên bang Mỹ",
+      "en": "US federal minimum wage"
+    },
+    "unit": {
+      "vi": "USD/giờ",
+      "en": "USD/hour"
+    },
+    "quality": "A",
+    "note": {
+      "vi": "Theo Đạo luật Tiêu chuẩn Lao động Công bằng (FLSA), Bộ Lao động Mỹ. Nhiều bang có mức cao hơn (vd California, Washington), đây là sàn liên bang tối thiểu.",
+      "en": "Under the Fair Labor Standards Act (FLSA), US Department of Labor. Many states set higher minimums (e.g. California, Washington); this is the federal floor."
+    },
+    "kind": "point",
+    "currency": "USD",
+    "valueMultiplier": 1,
+    "purchasable": false,
+    "series": [
+      {
+        "year": 1986,
+        "value": 3.35
+      },
+      {
+        "year": 1990,
+        "value": 3.8,
+        "note": "Hiệu lực từ 1/4/1990"
+      },
+      {
+        "year": 1991,
+        "value": 4.25,
+        "note": "Hiệu lực từ 1/4/1991"
+      },
+      {
+        "year": 1996,
+        "value": 4.75,
+        "note": "Hiệu lực từ 1/10/1996"
+      },
+      {
+        "year": 1997,
+        "value": 5.15,
+        "note": "Hiệu lực từ 1/9/1997"
+      },
+      {
+        "year": 2007,
+        "value": 5.85,
+        "note": "Hiệu lực từ 24/7/2007"
+      },
+      {
+        "year": 2008,
+        "value": 6.55,
+        "note": "Hiệu lực từ 24/7/2008"
+      },
+      {
+        "year": 2009,
+        "value": 7.25,
+        "note": "Hiệu lực từ 24/7/2009, giữ nguyên đến nay"
+      },
+      {
+        "year": 2025,
+        "value": 7.25,
+        "note": "Không đổi từ 2009"
+      }
+    ],
+    "sources": [
+      {
+        "title": "US DOL - History of Federal Minimum Wage Rates",
+        "url": "https://www.dol.gov/agencies/whd/minimum-wage/history/chart"
+      },
+      {
+        "title": "US DOL - Changes in Basic Minimum Wages (state history table)",
+        "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/history"
+      },
+      {
+        "title": "SSA Annual Statistical Supplement 2024 - Table 3.B3",
+        "url": "https://www.ssa.gov/policy/docs/statcomps/supplement/2024/3b.html"
+      }
+    ]
+  },
+  {
+    "id": "us-gold-price",
+    "country": "us",
+    "name": {
+      "vi": "Giá vàng (thế giới, quy theo USD)",
+      "en": "Gold price (world, USD)"
+    },
+    "unit": {
+      "vi": "USD/troy ounce",
+      "en": "USD/troy ounce"
+    },
+    "quality": "B",
+    "note": {
+      "vi": "Giá đóng cửa bình quân năm theo dữ liệu tổng hợp Macrotrends/LBMA. 1 troy ounce = 31,1035 g.",
+      "en": "Annual average closing price from aggregated Macrotrends/LBMA data. 1 troy ounce = 31.1035 g."
+    },
+    "kind": "point",
+    "currency": "USD",
+    "valueMultiplier": 1,
+    "purchasable": true,
+    "series": [
+      {
+        "year": 1986,
+        "value": 368.2
+      },
+      {
+        "year": 1990,
+        "value": 383.73
+      },
+      {
+        "year": 1995,
+        "value": 384.07
+      },
+      {
+        "year": 2000,
+        "value": 279.29
+      },
+      {
+        "year": 2005,
+        "value": 444.99
+      },
+      {
+        "year": 2010,
+        "value": 1226.66
+      },
+      {
+        "year": 2015,
+        "value": 1160.6
+      },
+      {
+        "year": 2020,
+        "value": 1769.64
+      },
+      {
+        "year": 2022,
+        "value": 1801.87
+      },
+      {
+        "year": 2023,
+        "value": 1943.0
+      },
+      {
+        "year": 2024,
+        "value": 2388.98
+      },
+      {
+        "year": 2025,
+        "value": 3442.92
+      }
+    ],
+    "sources": [
+      {
+        "title": "SWCS - Gold Prices per Ounce - Historical Annual Data (Macrotrends-based)",
+        "url": "https://www.swcs.net.au/goldprices.htm"
+      },
+      {
+        "title": "National Mining Association - Historical Gold Prices 1833-present (2023 update)",
+        "url": "https://stage.nma.org/wp-content/uploads/2023/02/his_gold_prices_1833_pres_2023.pdf"
+      },
+      {
+        "title": "MoneyMetals - Gold Price History Every Year",
+        "url": "https://www.moneymetals.com/gold-price-history"
+      }
+    ]
+  },
+  {
+    "id": "us-petrol-price",
+    "country": "us",
+    "name": {
+      "vi": "Giá xăng bán lẻ (tất cả loại)",
+      "en": "Retail gasoline price (all grades)"
+    },
+    "unit": {
+      "vi": "USD/gallon (3,785 lít)",
+      "en": "USD/gallon (3.785 litres)"
+    },
+    "quality": "A",
+    "note": {
+      "vi": "Giá bình quân năm theo Cơ quan Thông tin Năng lượng Mỹ (EIA), đã bao gồm thuế. Mỹ dùng đơn vị gallon thay vì lít.",
+      "en": "Annual average, tax-included, from the US Energy Information Administration (EIA). The US uses gallons rather than litres."
+    },
+    "kind": "point",
+    "currency": "USD",
+    "valueMultiplier": 1,
+    "purchasable": true,
+    "series": [
+      {
+        "year": 1986,
+        "value": 0.89
+      },
+      {
+        "year": 1990,
+        "value": 1.13
+      },
+      {
+        "year": 1995,
+        "value": 1.11
+      },
+      {
+        "year": 2000,
+        "value": 1.49
+      },
+      {
+        "year": 2005,
+        "value": 2.27
+      },
+      {
+        "year": 2008,
+        "value": 3.26
+      },
+      {
+        "year": 2010,
+        "value": 2.73
+      },
+      {
+        "year": 2015,
+        "value": 2.4
+      },
+      {
+        "year": 2020,
+        "value": 2.17
+      },
+      {
+        "year": 2022,
+        "value": 3.95
+      },
+      {
+        "year": 2023,
+        "value": 3.52
+      },
+      {
+        "year": 2024,
+        "value": 3.31
+      },
+      {
+        "year": 2025,
+        "value": 3.1
+      }
+    ],
+    "sources": [
+      {
+        "title": "EIA - Annual average regular-grade gasoline prices (energyexplained CSV)",
+        "url": "https://www.eia.gov/energyexplained//gasoline/charts/annual-regular-grade-gasoline-prices.csv"
+      },
+      {
+        "title": "EIA - Gasoline explained: Factors affecting gasoline prices",
+        "url": "https://www.eia.gov/energyexplained/gasoline/factors-affecting-gasoline-prices.php"
+      },
+      {
+        "title": "AFDC (DOE) - Average Annual Retail Fuel Price of Gasoline",
+        "url": "https://afdc.energy.gov/data/widgets/10641"
+      }
+    ]
+  },
+  {
+    "id": "us-big-mac",
+    "country": "us",
+    "name": {
+      "vi": "Giá Big Mac (Mỹ)",
+      "en": "Big Mac price (USA)"
+    },
+    "unit": {
+      "vi": "USD/chiếc",
+      "en": "USD/burger"
+    },
+    "quality": "A",
+    "note": {
+      "vi": "Từ chỉ số Big Mac của The Economist, thường khảo sát tháng 1 và tháng 7 mỗi năm; từ 2022 dùng giá McDonald's Mỹ công bố (trước đó là giá bình quân 4 thành phố lớn).",
+      "en": "From The Economist's Big Mac index, usually surveyed in January and July; since 2022 uses McDonald's-reported US price (previously averaged across 4 major cities)."
+    },
+    "kind": "point",
+    "currency": "USD",
+    "valueMultiplier": 1,
+    "purchasable": true,
+    "series": [
+      {
+        "year": 2000,
+        "value": 2.24
+      },
+      {
+        "year": 2005,
+        "value": 2.58
+      },
+      {
+        "year": 2010,
+        "value": 3.43
+      },
+      {
+        "year": 2015,
+        "value": 4.29
+      },
+      {
+        "year": 2020,
+        "value": 4.82
+      },
+      {
+        "year": 2022,
+        "value": 5.15
+      },
+      {
+        "year": 2023,
+        "value": 5.58
+      },
+      {
+        "year": 2024,
+        "value": 5.69
+      },
+      {
+        "year": 2025,
+        "value": 6.01
+      }
+    ],
+    "sources": [
+      {
+        "title": "TheEconomist/big-mac-data (GitHub) - big-mac-raw-index.csv",
+        "url": "https://github.com/TheEconomist/big-mac-data/blob/master/output-data/big-mac-raw-index.csv"
+      },
+      {
+        "title": "Big Mac Index App - Big Mac Price 1986 vs 2026 Inflation & Wages",
+        "url": "https://bigmacindex.app/blog/big-mac-price-1986-vs-2026-inflation-wages/"
+      }
+    ]
+  },
+  {
+    "id": "us-median-new-home-price",
+    "country": "us",
+    "name": {
+      "vi": "Giá trung vị nhà mới xây (Mỹ)",
+      "en": "Median sales price of new houses sold (US)"
+    },
+    "unit": {
+      "vi": "USD/căn",
+      "en": "USD/house"
+    },
+    "quality": "A",
+    "note": {
+      "vi": "Chuỗi MSPUS của Cục Thống kê Dân số Mỹ (phối hợp với Bộ Gia cư HUD), quý 1 mỗi năm được lấy làm đại diện cho năm đó.",
+      "en": "US Census Bureau MSPUS series (with HUD); Q1 of each year used as the yearly representative figure."
+    },
+    "kind": "point",
+    "currency": "USD",
+    "valueMultiplier": 1,
+    "purchasable": true,
+    "series": [
+      {
+        "year": 1986,
+        "value": 88000
+      },
+      {
+        "year": 1990,
+        "value": 123900
+      },
+      {
+        "year": 1996,
+        "value": 137000
+      },
+      {
+        "year": 2004,
+        "value": 217600
+      },
+      {
+        "year": 2006,
+        "value": 247700
+      },
+      {
+        "year": 2013,
+        "value": 273600
+      },
+      {
+        "year": 2020,
+        "value": 329000
+      },
+      {
+        "year": 2022,
+        "value": 413500
+      },
+      {
+        "year": 2023,
+        "value": 429000
+      },
+      {
+        "year": 2024,
+        "value": 426800
+      },
+      {
+        "year": 2025,
+        "value": 423100
+      }
+    ],
+    "sources": [
+      {
+        "title": "FRED - Median Sales Price of New Houses Sold for the United States (MSPUS)",
+        "url": "https://fred.stlouisfed.org/series/MSPUS"
+      },
+      {
+        "title": "FRED - Table Data MSPUS",
+        "url": "https://fred.stlouisfed.org/data/MSPUS"
+      }
+    ]
+  }
+]

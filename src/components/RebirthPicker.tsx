@@ -4,7 +4,8 @@ import Link from "next/link";
 import { useMemo, useState } from "react";
 import { t, type Locale } from "@/lib/i18n";
 import type { Country, Milestone } from "@/lib/types";
-import { formatMultiple } from "@/lib/format";
+import { formatDrop, formatMultiple } from "@/lib/format";
+import { addCharmIds } from "@/lib/charm";
 
 type Props = {
   milestones: Milestone[];
@@ -16,20 +17,40 @@ type Props = {
 };
 
 export default function RebirthPicker({ milestones, countries, lang, dict, minYear, maxYear }: Props) {
-  const [year, setYear] = useState(Math.max(minYear, 1990));
-  const [country, setCountry] = useState(countries[0].code);
+  const [year, setYear] = useState(Math.max(minYear, 1995));
+  const [country, setCountry] = useState(() => (lang === "en" ? "us" : countries[0].code));
+  const [tab, setTab] = useState<"gain" | "trap">("gain");
+  const [savedToast, setSavedToast] = useState(false);
 
   const ahead = useMemo(
     () => milestones.filter((m) => m.country === country && Number(m.date.slice(0, 4)) >= year),
     [milestones, country, year],
   );
-  const top = useMemo(
+
+  const gainsAhead = useMemo(
     () =>
-      [...ahead]
-        .sort((a, b) => (b.opportunity.returnMultiple ?? 0) - (a.opportunity.returnMultiple ?? 0))
-        .slice(0, 3),
+      ahead
+        .filter((m) => (m.opportunity.returnMultiple ?? 0) > 1)
+        .sort((a, b) => (b.opportunity.returnMultiple ?? 0) - (a.opportunity.returnMultiple ?? 0)),
     [ahead],
   );
+
+  const trapsAhead = useMemo(
+    () =>
+      ahead
+        .filter((m) => (m.opportunity.returnMultiple ?? 1) < 1)
+        .sort((a, b) => (a.opportunity.returnMultiple ?? 1) - (b.opportunity.returnMultiple ?? 1)),
+    [ahead],
+  );
+
+  const activeList = (tab === "gain" ? gainsAhead : trapsAhead).slice(0, 3);
+
+  const handleSaveTop3 = () => {
+    if (activeList.length === 0) return;
+    addCharmIds(activeList.map((m) => m.id));
+    setSavedToast(true);
+    setTimeout(() => setSavedToast(false), 2000);
+  };
 
   return (
     <div className="relative overflow-hidden rounded-3xl border border-line bg-surface p-5 sm:p-10">
@@ -78,16 +99,72 @@ export default function RebirthPicker({ milestones, countries, lang, dict, minYe
             <span>{minYear}</span>
             <span>{maxYear}</span>
           </div>
-          <p className="mt-6 text-base sm:text-lg">
+          <p className="mt-5 text-base sm:text-lg">
             <span className="font-mono text-3xl font-semibold tabular text-ink">{ahead.length}</span>{" "}
-            <span className="text-muted">{dict.ahead}</span>
+            <span className="text-muted">{dict.ahead}</span>{" "}
+            <span className="text-xs text-faint">
+              ({gainsAhead.length} {lang === "vi" ? "cơ hội" : "gains"} · {trapsAhead.length} {lang === "vi" ? "cạm bẫy" : "traps"})
+            </span>
           </p>
+          <div className="mt-4 flex flex-wrap gap-2.5">
+            <Link
+              href={`/${lang}/whatif?mode=playbook&country=${country}&from=${year}`}
+              className="rounded-full bg-gold px-4 py-2 text-xs font-semibold text-on-gold hover:brightness-110"
+            >
+              {lang === "vi" ? `⚡ Lập chuỗi lãi kép từ ${year} →` : `⚡ Build compounding chain from ${year} →`}
+            </Link>
+            {(
+              <Link
+                href={`/${lang}/almanac?country=${country}&year=${year}`}
+                className="rounded-full border border-line-strong bg-raised px-4 py-2 text-xs font-semibold text-ink hover:border-gold"
+              >
+                {lang === "vi" ? `🍜 Vật giá VN năm ${year} →` : `🍜 VN Prices in ${year} →`}
+              </Link>
+            )}
+          </div>
         </div>
 
         <div className="min-w-0">
-          <h2 className="text-sm font-medium uppercase tracking-wider text-faint">{dict.topAhead}</h2>
+          <div className="flex flex-wrap items-center justify-between gap-2">
+            <div className="inline-flex rounded-full border border-line bg-raised p-0.5 text-xs">
+              <button
+                type="button"
+                onClick={() => setTab("gain")}
+                className={`rounded-full px-3 py-1 font-semibold transition-colors ${
+                  tab === "gain" ? "bg-gold text-on-gold" : "text-muted hover:text-ink"
+                }`}
+              >
+                💰 {lang === "vi" ? "Top Cơ hội" : "Top Multipliers"} ({gainsAhead.length})
+              </button>
+              <button
+                type="button"
+                onClick={() => setTab("trap")}
+                className={`rounded-full px-3 py-1 font-semibold transition-colors ${
+                  tab === "trap" ? "bg-danger text-[#2a0606]" : "text-muted hover:text-ink"
+                }`}
+              >
+                🚫 {lang === "vi" ? "Cạm bẫy cần né" : "Traps to Avoid"} ({trapsAhead.length})
+              </button>
+            </div>
+            {activeList.length > 0 && (
+              <button
+                type="button"
+                onClick={handleSaveTop3}
+                className="text-xs font-medium text-gold underline hover:brightness-110"
+              >
+                {savedToast
+                  ? lang === "vi"
+                    ? "✓ Đã lưu vào Bùa"
+                    : "✓ Saved to Cheat Sheet"
+                  : lang === "vi"
+                    ? "🧿 Lưu 3 mốc này vào Bùa"
+                    : "🧿 Save top 3 to Cheat Sheet"}
+              </button>
+            )}
+          </div>
+
           <ol className="mt-4 space-y-3">
-            {top.map((m, i) => (
+            {activeList.map((m, i) => (
               <li key={m.id}>
                 <Link
                   href={`/${lang}/${m.country}/${m.id}`}
@@ -101,6 +178,10 @@ export default function RebirthPicker({ milestones, countries, lang, dict, minYe
                   {(m.opportunity.returnMultiple ?? 0) > 1 ? (
                     <span className="shrink-0 rounded-md bg-gain px-2 py-0.5 font-mono text-sm font-semibold tabular text-on-gain">
                       {formatMultiple(m.opportunity.returnMultiple!, lang)}
+                    </span>
+                  ) : (m.opportunity.returnMultiple ?? 1) < 1 ? (
+                    <span className="shrink-0 rounded-md bg-danger px-2 py-0.5 font-mono text-sm font-semibold tabular text-[#2a0606]">
+                      ↓ {formatDrop(m.opportunity.returnMultiple!, lang)}
                     </span>
                   ) : null}
                 </Link>

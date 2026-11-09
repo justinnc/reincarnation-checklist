@@ -13,7 +13,31 @@ type Props = {
   cards: Record<string, ReactNode>;
 };
 
+type OutcomeFilter = "all" | "gain" | "trap" | "macro";
+
+const OUTCOME_LABELS = {
+  vi: {
+    all: "Mọi loại",
+    gain: "💰 Cơ hội nhân vốn",
+    trap: "🚫 Cạm bẫy & Phốt",
+    macro: "📜 Bối cảnh / Khác",
+  },
+  en: {
+    all: "All types",
+    gain: "💰 Multipliers",
+    trap: "🚫 Traps & Scandals",
+    macro: "📜 Macro / Other",
+  },
+};
+
 const decadeOf = (m: Milestone) => Math.floor(Number(m.date.slice(0, 4)) / 10) * 10;
+
+function outcomeOf(m: Milestone): "gain" | "trap" | "macro" {
+  const mult = m.opportunity.returnMultiple;
+  if (mult !== undefined && mult < 1) return "trap";
+  if (mult !== undefined && mult > 1) return "gain";
+  return "macro";
+}
 
 function Chip({ active, onClick, children }: { active: boolean; onClick: () => void; children: ReactNode }) {
   return (
@@ -32,14 +56,30 @@ function Chip({ active, onClick, children }: { active: boolean; onClick: () => v
 
 export default function Timeline({ milestones, lang, dict, cards }: Props) {
   const [category, setCategory] = useState<Category | "all">("all");
+  const [outcome, setOutcome] = useState<OutcomeFilter>(()=>"all");
   const [risk, setRisk] = useState<Level | "all">("all");
   const [sort, setSort] = useState<"date" | "return">("date");
   const [query, setQuery] = useState("");
+  const OL = OUTCOME_LABELS[lang];
+
+  const counts = useMemo(() => {
+    let gain = 0;
+    let trap = 0;
+    let macro = 0;
+    for (const m of milestones) {
+      const o = outcomeOf(m);
+      if (o === "gain") gain++;
+      else if (o === "trap") trap++;
+      else macro++;
+    }
+    return { gain, trap, macro };
+  }, [milestones]);
 
   const visible = useMemo(() => {
     const q = query.trim().toLowerCase();
     const list = milestones.filter((m) => {
       if (category !== "all" && m.category !== category) return false;
+      if (outcome !== "all" && outcomeOf(m) !== outcome) return false;
       if (risk !== "all" && m.opportunity.risk !== risk) return false;
       if (!q) return true;
       return [t(m.title, lang), t(m.summary, lang), t(m.description, lang), m.opportunity.asset ?? "", m.date]
@@ -50,11 +90,10 @@ export default function Timeline({ milestones, lang, dict, cards }: Props) {
     if (sort === "return")
       return [...list].sort((a, b) => (b.opportunity.returnMultiple ?? 0) - (a.opportunity.returnMultiple ?? 0));
     return list;
-  }, [milestones, category, risk, sort, query, lang]);
+  }, [milestones, category, outcome, risk, sort, query, lang]);
 
   const usedCats = categories.filter((c) => milestones.some((m) => m.category === c));
   const decades = [...new Set(visible.map(decadeOf))];
-
 
   const groups: { key: string; label: string | null; items: Milestone[] }[] =
     sort === "date"
@@ -75,6 +114,21 @@ export default function Timeline({ milestones, lang, dict, cards }: Props) {
             />
           </label>
           <div className="no-scrollbar -mx-4 flex items-center gap-2 overflow-x-auto px-4 text-sm md:mx-0 md:px-0">
+            <Chip active={outcome === "all"} onClick={() => setOutcome("all")}>{OL.all}</Chip>
+            <Chip active={outcome === "gain"} onClick={() => setOutcome(outcome === "gain" ? "all" : "gain")}>
+              {OL.gain} ({counts.gain})
+            </Chip>
+            {counts.trap > 0 && (
+              <Chip active={outcome === "trap"} onClick={() => setOutcome(outcome === "trap" ? "all" : "trap")}>
+                {OL.trap} ({counts.trap})
+              </Chip>
+            )}
+            {counts.macro > 0 && (
+              <Chip active={outcome === "macro"} onClick={() => setOutcome(outcome === "macro" ? "all" : "macro")}>
+                {OL.macro} ({counts.macro})
+              </Chip>
+            )}
+            <span className="mx-1 w-px shrink-0 self-stretch bg-line" />
             <span className="shrink-0 text-faint">{dict.sort}</span>
             <Chip active={sort === "date"} onClick={() => setSort("date")}>{dict.sortDate}</Chip>
             <Chip active={sort === "return"} onClick={() => setSort("return")}>{dict.sortReturn}</Chip>
@@ -113,6 +167,7 @@ export default function Timeline({ milestones, lang, dict, cards }: Props) {
             type="button"
             onClick={() => {
               setCategory("all");
+              setOutcome("all");
               setRisk("all");
               setQuery("");
             }}

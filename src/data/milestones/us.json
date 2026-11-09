@@ -487,7 +487,8 @@
       "entryPrice": 0.27,
       "risk": "low",
       "capital": "low",
-      "priceCurrency": "USD"
+      "priceCurrency": "USD",
+      "exitDate": "2024"
     },
     "insiderTip": {
       "vi": "Mô hình 'không gian thứ ba' (third place) giữa nhà và công sở của Starbucks sẽ bùng nổ toàn cầu trong thập niên 1990-2000 — cứ mỗi cửa hàng mới mở là tín hiệu tăng trưởng.",
@@ -666,7 +667,8 @@
       "entryPrice": 18,
       "risk": "low",
       "capital": "low",
-      "priceCurrency": "USD"
+      "priceCurrency": "USD",
+      "exitDate": "2024"
     },
     "insiderTip": {
       "vi": "Amazon sẽ gần như phá sản về mặt định giá trong khủng hoảng dot-com (giảm hơn 90% từ đỉnh 1999), nhưng Jeff Bezos sẽ không bao giờ ngừng tái đầu tư — cứ giữ nguyên, đừng bán theo nỗi sợ.",
@@ -845,7 +847,8 @@
       "entryPrice": 12,
       "risk": "medium",
       "capital": "low",
-      "priceCurrency": "USD"
+      "priceCurrency": "USD",
+      "exitDate": "2024"
     },
     "insiderTip": {
       "vi": "GPU của Nvidia ban đầu chỉ để chơi game, nhưng sẽ trở thành phần cứng cốt lõi cho đào Bitcoin (2017) rồi huấn luyện AI (2023+) — đừng đánh giá thấp một công ty chip 'chỉ làm đồ họa'.",
@@ -1117,7 +1120,8 @@
       "entryPrice": 15,
       "risk": "medium",
       "capital": "low",
-      "priceCurrency": "USD"
+      "priceCurrency": "USD",
+      "exitDate": "2021-11"
     },
     "insiderTip": {
       "vi": "Trong vòng 5 tháng đầu, cổ phiếu Netflix sẽ giảm khoảng 65% — đừng hoảng, công ty sẽ chuyển hướng sang streaming năm 2007 và bùng nổ sau đó.",
@@ -1387,7 +1391,8 @@
       "exitPrice": 251,
       "risk": "low",
       "capital": "low",
-      "priceCurrency": "USD"
+      "priceCurrency": "USD",
+      "exitDate": "2024"
     },
     "insiderTip": {
       "vi": "iPhone sẽ định nghĩa lại cả ngành công nghiệp di động, buộc Nokia và BlackBerry suy tàn — doanh thu iPhone sẽ trở thành trụ cột tài chính của Apple suốt nhiều năm.",
@@ -1478,7 +1483,8 @@
       "entryPrice": 676.53,
       "risk": "medium",
       "capital": "low",
-      "priceCurrency": "USD"
+      "priceCurrency": "USD",
+      "exitDate": "2021-12"
     },
     "insiderTip": {
       "vi": "Ngày 10/3/2009, một bức thư nội bộ rò rỉ cho biết Citigroup có lãi đã giúp thị trường tăng vọt 6,4% — đây chính xác là thời điểm 'đáy đã qua', nên mua càng sớm càng tốt quanh mốc 666 điểm.",
@@ -1848,7 +1854,8 @@
       "exitPrice": 3275,
       "risk": "high",
       "capital": "low",
-      "priceCurrency": "USD"
+      "priceCurrency": "USD",
+      "exitDate": "2024"
     },
     "insiderTip": {
       "vi": "Ethereum sẽ trở thành nền tảng cho hầu hết hợp đồng thông minh, DeFi và NFT sau này — khác biệt căn bản so với Bitcoin ở khả năng lập trình, nên đừng chỉ tập trung vào Bitcoin.",
@@ -1939,7 +1946,8 @@
       "entryPrice": 2237.4,
       "risk": "medium",
       "capital": "low",
-      "priceCurrency": "USD"
+      "priceCurrency": "USD",
+      "exitDate": "2021-12"
     },
     "insiderTip": {
       "vi": "Thị trường sẽ phục hồi cực nhanh (chưa đầy 6 tháng để lập đỉnh mới) nhờ các gói kích thích khổng lồ của Fed — các công ty hưởng lợi từ xu hướng 'ở nhà' (Zoom, Amazon, Netflix, Peloton) sẽ tăng đặc biệt mạnh.",

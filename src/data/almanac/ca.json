@@ -1,0 +1,508 @@
+[
+  {
+    "id": "ca-ty-gia-usd-cad",
+    "country": "ca",
+    "name": {
+      "vi": "Tỷ giá USD/CAD chính thức",
+      "en": "Official USD/CAD exchange rate"
+    },
+    "unit": {
+      "vi": "CAD/USD",
+      "en": "CAD per USD"
+    },
+    "quality": "A",
+    "note": {
+      "vi": "Tỷ giá chính thức bình quân năm theo Ngân hàng Thế giới (nguồn IMF IFS).",
+      "en": "Official annual-average rate from the World Bank (source: IMF IFS)."
+    },
+    "kind": "point",
+    "currency": "CAD",
+    "valueMultiplier": 1,
+    "purchasable": false,
+    "series": [
+      {
+        "year": 1986,
+        "value": 1.3895
+      },
+      {
+        "year": 1990,
+        "value": 1.1668
+      },
+      {
+        "year": 1995,
+        "value": 1.3724
+      },
+      {
+        "year": 2000,
+        "value": 1.4854
+      },
+      {
+        "year": 2005,
+        "value": 1.2114
+      },
+      {
+        "year": 2010,
+        "value": 1.0301
+      },
+      {
+        "year": 2015,
+        "value": 1.2788
+      },
+      {
+        "year": 2020,
+        "value": 1.3412
+      },
+      {
+        "year": 2022,
+        "value": 1.3016
+      },
+      {
+        "year": 2023,
+        "value": 1.3499
+      },
+      {
+        "year": 2024,
+        "value": 1.3694
+      }
+    ],
+    "sources": [
+      {
+        "title": "World Bank - Official exchange rate (PA.NUS.FCRF), Canada (via economic.money mirror)",
+        "url": "https://economic.money/countries/canada/indicators/official-exchange-rate"
+      },
+      {
+        "title": "World Bank API - PA.NUS.FCRF Excel download",
+        "url": "https://api.worldbank.org/v2/en/indicator/PA.NUS.FCRF?downloadformat=excel"
+      }
+    ]
+  },
+  {
+    "id": "ca-minimum-wage-ontario",
+    "country": "ca",
+    "name": {
+      "vi": "Lương tối thiểu Ontario",
+      "en": "Ontario minimum wage"
+    },
+    "unit": {
+      "vi": "CAD/giờ",
+      "en": "CAD/hour"
+    },
+    "quality": "A",
+    "note": {
+      "vi": "Canada không có lương tối thiểu liên bang áp dụng chung từ 1996 (trước đó có mức liên bang riêng cho một số ngành); mỗi tỉnh bang tự quy định. Lấy Ontario (tỉnh đông dân nhất) làm đại diện. Mức lương bị đóng băng 1995-2003 ở 6,85 CAD/giờ.",
+      "en": "Canada has had no economy-wide federal minimum wage since 1996 (earlier there was a separate federal rate for some sectors); each province sets its own. Ontario (most populous province) used as representative. The rate was frozen 1995-2003 at CAD 6.85/hour."
+    },
+    "kind": "point",
+    "currency": "CAD",
+    "valueMultiplier": 1,
+    "purchasable": false,
+    "series": [
+      {
+        "year": 1986,
+        "value": 4.35
+      },
+      {
+        "year": 1990,
+        "value": 5.0
+      },
+      {
+        "year": 1995,
+        "value": 6.85,
+        "note": "Đóng băng đến 2003"
+      },
+      {
+        "year": 2003,
+        "value": 6.85
+      },
+      {
+        "year": 2004,
+        "value": 7.15
+      },
+      {
+        "year": 2007,
+        "value": 8.0
+      },
+      {
+        "year": 2010,
+        "value": 10.25
+      },
+      {
+        "year": 2015,
+        "value": 11.25
+      },
+      {
+        "year": 2018,
+        "value": 14.0
+      },
+      {
+        "year": 2020,
+        "value": 14.25
+      },
+      {
+        "year": 2022,
+        "value": 15.5,
+        "note": "Từ 1/10/2022"
+      },
+      {
+        "year": 2024,
+        "value": 17.2,
+        "note": "Từ 1/10/2024"
+      },
+      {
+        "year": 2025,
+        "value": 17.6,
+        "note": "Từ 1/10/2025"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Maytree - Minimum Wage Rates in Canada: 1965-2015",
+        "url": "https://maytree.com/wp-content/uploads/1083ENG.pdf"
+      },
+      {
+        "title": "Ontario 2014 Minimum Wage Advisory Panel Report - historical rate table 1965-2010",
+        "url": "https://www.msdsb.net/images/ADMIN/correspondence/2014/MOL%20Minimum%20Wage%20Advisory%20Panel%20Report%20en.pdf"
+      },
+      {
+        "title": "Government of Ontario - Minimum wage rates (current table)",
+        "url": "https://www.ontario.ca/document/your-guide-employment-standards-act-0/minimum-wage"
+      },
+      {
+        "title": "City of Toronto - Minimum wage historical timeline chart (to 2007)",
+        "url": "https://www.toronto.ca/legdocs/mmis/2007/cc/bgrd/cd2.5a.pdf"
+      }
+    ]
+  },
+  {
+    "id": "ca-gold-price",
+    "country": "ca",
+    "name": {
+      "vi": "Giá vàng tại Canada",
+      "en": "Gold price in Canada"
+    },
+    "unit": {
+      "vi": "CAD/gram",
+      "en": "CAD/gram"
+    },
+    "quality": "B",
+    "note": {
+      "vi": "Bình quân năm quy đổi CAD, tổng hợp từ bảng giá vàng theo năm (1 troy ounce = 31,1035 g). Trước 2000 suy ra từ giá USD/oz bình quân năm nhân tỷ giá USD/CAD bình quân năm cùng kỳ (đánh dấu để minh bạch).",
+      "en": "Annual average in CAD, from a by-year gold price table (1 troy ounce = 31.1035 g). Pre-2000 values are derived by multiplying the USD/oz annual average by the same year's USD/CAD annual average rate (flagged for transparency)."
+    },
+    "kind": "point",
+    "currency": "CAD",
+    "valueMultiplier": 1,
+    "purchasable": true,
+    "series": [
+      {
+        "year": 1986,
+        "value": 16.44,
+        "note": "Suy ra: 368,20 USD/oz x 1,3895 CAD/USD / 31,1035 g = 16,44 CAD/g"
+      },
+      {
+        "year": 1990,
+        "value": 14.4,
+        "note": "Suy ra: 383,73 USD/oz x 1,1668 / 31,1035"
+      },
+      {
+        "year": 1995,
+        "value": 16.94,
+        "note": "Suy ra: 384,07 USD/oz x 1,3724 / 31,1035"
+      },
+      {
+        "year": 2000,
+        "value": 13.32
+      },
+      {
+        "year": 2005,
+        "value": 17.3
+      },
+      {
+        "year": 2010,
+        "value": 40.53
+      },
+      {
+        "year": 2015,
+        "value": 47.65
+      },
+      {
+        "year": 2020,
+        "value": 76.27
+      },
+      {
+        "year": 2022,
+        "value": 75.28
+      },
+      {
+        "year": 2023,
+        "value": 84.27
+      },
+      {
+        "year": 2024,
+        "value": 105.27
+      },
+      {
+        "year": 2025,
+        "value": 154.46
+      }
+    ],
+    "sources": [
+      {
+        "title": "settlecanada.ca - Gold Price History in Canada (CAD, Since 2000)",
+        "url": "https://www.settlecanada.ca/gold/price/history/"
+      },
+      {
+        "title": "SWCS - Gold Prices per Ounce Historical Annual Data USD (for pre-2000 derivation)",
+        "url": "https://www.swcs.net.au/goldprices.htm"
+      },
+      {
+        "title": "World Bank - Official exchange rate Canada (for pre-2000 derivation)",
+        "url": "https://economic.money/countries/canada/indicators/official-exchange-rate"
+      }
+    ]
+  },
+  {
+    "id": "ca-petrol-price",
+    "country": "ca",
+    "name": {
+      "vi": "Giá xăng bán lẻ trung bình Canada",
+      "en": "Canada average retail gasoline price"
+    },
+    "unit": {
+      "vi": "cent CAD/lít",
+      "en": "CAD cents/litre"
+    },
+    "quality": "B",
+    "note": {
+      "vi": "Giá xăng không chì thường (regular), đã gồm thuế, bình quân các thành phố lớn theo Statistics Canada / Transport Canada / Natural Resources Canada. 2025 là ước tính dựa trên báo cáo Fuel Price Update quý 2/2025 của NJC-CNM, không phải bình quân cả năm chính thức.",
+      "en": "Regular unleaded gasoline, tax-included, averaged across major cities per Statistics Canada / Transport Canada / Natural Resources Canada. 2025 is estimated from the NJC-CNM Fuel Price Update report (Q2 2025), not an official full-year average."
+    },
+    "kind": "point",
+    "currency": "CAD",
+    "valueMultiplier": 0.01,
+    "purchasable": true,
+    "series": [
+      {
+        "year": 1990,
+        "value": 60.1,
+        "note": "Trung bình nhiều thành phố, bảng StatCan 57-601-X"
+      },
+      {
+        "year": 1995,
+        "value": 58.3
+      },
+      {
+        "year": 2000,
+        "value": 74.7
+      },
+      {
+        "year": 2005,
+        "value": 92.0,
+        "note": "Ước tính từ xu hướng StatCan (xem nguồn)"
+      },
+      {
+        "year": 2009,
+        "value": 95.0,
+        "note": "NRCan: giá bình quân 2009 ~95 cent/lít"
+      },
+      {
+        "year": 2010,
+        "value": 104.0,
+        "note": "NRCan: giá bình quân 2010 ~1,04 CAD/lít"
+      },
+      {
+        "year": 2015,
+        "value": 108.8
+      },
+      {
+        "year": 2018,
+        "value": 128.8
+      },
+      {
+        "year": 2020,
+        "value": 103.1
+      },
+      {
+        "year": 2022,
+        "value": 172.9
+      },
+      {
+        "year": 2023,
+        "value": 160.3
+      },
+      {
+        "year": 2024,
+        "value": 159.8
+      },
+      {
+        "year": 2025,
+        "value": 150.4,
+        "note": "Ước tính từ báo cáo quý 1/2025 NJC-CNM (~1,504 CAD/lít thời điểm 3/2025)"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Transport Canada - Table EC19: Retail Price of Regular Road Gasoline and Diesel, 2015-2024",
+        "url": "https://tdih-cdit.tc.canada.ca/en/addendum-tables/2024/table-ec19-retail-price-regular-road-gasoline-and-diesel-selected-cities-0"
+      },
+      {
+        "title": "StatCan 57-601-X - Table 10.1 Regular unleaded gasoline average retail price by city",
+        "url": "https://www150.statcan.gc.ca/n1/pub/57-601-x/10202/t/4172788-eng.htm"
+      },
+      {
+        "title": "NRCan - Petroleum Products: Review of 2009 & Outlook to 2030 (2009/2010 annual averages)",
+        "url": "https://natural-resources.canada.ca/sites/www.nrcan.gc.ca/files/energy/pdf/eneene/sources/crubru/revrev/pdf/revrev-09-eng.pdf"
+      },
+      {
+        "title": "National Joint Council (NJC-CNM) - Fuel Price Update, May 2025",
+        "url": "https://www.njc-cnm.gc.ca/s3/d928/en"
+      }
+    ]
+  },
+  {
+    "id": "ca-big-mac",
+    "country": "ca",
+    "name": {
+      "vi": "Giá Big Mac (Canada)",
+      "en": "Big Mac price (Canada)"
+    },
+    "unit": {
+      "vi": "CAD/chiếc",
+      "en": "CAD/burger"
+    },
+    "quality": "A",
+    "note": {
+      "vi": "Từ chỉ số Big Mac của The Economist, khảo sát tháng 1 hoặc tháng 7 mỗi năm tại các thành phố lớn Canada.",
+      "en": "From The Economist's Big Mac index, surveyed in January or July each year in major Canadian cities."
+    },
+    "kind": "point",
+    "currency": "CAD",
+    "valueMultiplier": 1,
+    "purchasable": true,
+    "series": [
+      {
+        "year": 2000,
+        "value": 2.85
+      },
+      {
+        "year": 2005,
+        "value": 3.28
+      },
+      {
+        "year": 2010,
+        "value": 4.12
+      },
+      {
+        "year": 2015,
+        "value": 5.7
+      },
+      {
+        "year": 2020,
+        "value": 6.77
+      },
+      {
+        "year": 2022,
+        "value": 6.77
+      },
+      {
+        "year": 2023,
+        "value": 6.11
+      },
+      {
+        "year": 2024,
+        "value": 7.47
+      },
+      {
+        "year": 2025,
+        "value": 7.81
+      }
+    ],
+    "sources": [
+      {
+        "title": "TheEconomist/big-mac-data (GitHub) - big-mac-raw-index.csv",
+        "url": "https://github.com/TheEconomist/big-mac-data/blob/master/output-data/big-mac-raw-index.csv"
+      }
+    ]
+  },
+  {
+    "id": "ca-gia-nha-trung-binh",
+    "country": "ca",
+    "name": {
+      "vi": "Giá nhà bán lại trung bình toàn Canada (CREA)",
+      "en": "Canada average resale home price (CREA)"
+    },
+    "unit": {
+      "vi": "CAD/căn",
+      "en": "CAD/house"
+    },
+    "quality": "A",
+    "note": {
+      "vi": "Giá bán trung bình toàn quốc theo Hiệp hội Bất động sản Canada (CREA), dựa trên dữ liệu hệ thống MLS. CREA lưu ý giá trung bình chỉ phản ánh xu hướng, không đại diện giá cụ thể từng khu vực.",
+      "en": "National average resale price per the Canadian Real Estate Association (CREA), based on MLS system data. CREA cautions this average is useful for trend comparison only, not any specific local price."
+    },
+    "kind": "point",
+    "currency": "CAD",
+    "valueMultiplier": 1,
+    "purchasable": true,
+    "series": [
+      {
+        "year": 1986,
+        "value": 94113
+      },
+      {
+        "year": 1990,
+        "value": 142750
+      },
+      {
+        "year": 1995,
+        "value": 151556
+      },
+      {
+        "year": 2000,
+        "value": 165220
+      },
+      {
+        "year": 2005,
+        "value": 250183
+      },
+      {
+        "year": 2010,
+        "value": 339909
+      },
+      {
+        "year": 2015,
+        "value": 442734
+      },
+      {
+        "year": 2020,
+        "value": 569294
+      },
+      {
+        "year": 2022,
+        "value": 706466
+      },
+      {
+        "year": 2023,
+        "value": 680539
+      },
+      {
+        "year": 2024,
+        "value": 687341
+      },
+      {
+        "year": 2025,
+        "value": 679543
+      }
+    ],
+    "sources": [
+      {
+        "title": "CREA - Forecast data (January 2026), Chart sheet: annual sales & average price 1980-2027",
+        "url": "https://www.crea.ca/files/mls-hpi-data/Forecast_data_January_2026.xlsx"
+      },
+      {
+        "title": "CREA Statistics - National Statistics (current monthly release)",
+        "url": "https://stats.crea.ca/en-ca/"
+      }
+    ]
+  }
+]

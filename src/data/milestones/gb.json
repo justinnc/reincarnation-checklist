@@ -37,7 +37,8 @@
       "returnMultiple": 5.36,
       "priceCurrency": "GBP",
       "risk": "low",
-      "capital": "medium"
+      "capital": "medium",
+      "exitDate": "2024"
     },
     "insiderTip": {
       "vi": "Biết trước giá nhà Anh sẽ tăng hơn 500% trong 24 năm tới (1983-2007), mua nhà hội đồng với chiết khấu tối đa (lên tới 70%) ngay khi đủ điều kiện và giữ càng lâu càng tốt, đặc biệt ở London nơi giá tăng gấp đôi sau mỗi thập kỷ.",
@@ -588,7 +589,8 @@
       "returnMultiple": 3.2,
       "priceCurrency": "GBP",
       "risk": "medium",
-      "capital": "high"
+      "capital": "high",
+      "exitDate": "2007-10"
     },
     "insiderTip": {
       "vi": "Biết trước Anh sắp bước vào chu kỳ tăng giá nhà dài và mạnh nhất lịch sử, vay thế chấp tối đa để mua càng nhiều bất động sản London càng tốt năm 1995-1996, và quan trọng hơn — bán sạch trước cuối 2007 để tránh sụp đổ 2008.",

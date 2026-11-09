@@ -1,0 +1,662 @@
+[
+  {
+    "id": "de-ty-gia-usd-eur",
+    "country": "de",
+    "name": {
+      "vi": "Tỷ giá EUR/USD chính thức (quy đổi DM trước 1999)",
+      "en": "Official EUR/USD exchange rate (DM converted pre-1999)"
+    },
+    "unit": {
+      "vi": "EUR/USD",
+      "en": "EUR per USD"
+    },
+    "quality": "A",
+    "note": {
+      "vi": "1999-2025: tỷ giá EUR/USD bình quân năm chính thức (World Bank, IMF IFS, mã PA.NUS.FCRF). 1986-1998: Đức dùng Deutsche Mark (DM); số liệu DM/USD gốc được quy đổi sang EUR theo tỷ giá chuyển đổi vĩnh viễn chính thức 1 EUR = 1,95583 DM (có hiệu lực từ 1/1/1999) để có một chuỗi liên tục, không phải tỷ giá thị trường thực tế thời đó.",
+      "en": "1999-2025: official annual-average EUR/USD rate (World Bank, IMF IFS, code PA.NUS.FCRF). 1986-1998: Germany used the Deutsche Mark (DM); the original DM/USD figures are converted to EUR at the official irrevocable conversion rate of 1 EUR = 1.95583 DM (effective 1 Jan 1999) to give one continuous series - not the actual market rate of the time."
+    },
+    "kind": "point",
+    "currency": "EUR",
+    "valueMultiplier": 1,
+    "purchasable": false,
+    "series": [
+      {
+        "year": 1986,
+        "value": 1.11026,
+        "note": "Quy đổi từ DM/USD (World Bank PA.NUS.FCRF) sang EUR theo tỷ giá chuyển đổi vĩnh viễn 1 EUR = 1,95583 DM (do euro chưa tồn tại năm này)"
+      },
+      {
+        "year": 1987,
+        "value": 0.91899,
+        "note": "Quy đổi từ DM/USD (World Bank PA.NUS.FCRF) sang EUR theo tỷ giá chuyển đổi vĩnh viễn 1 EUR = 1,95583 DM (do euro chưa tồn tại năm này)"
+      },
+      {
+        "year": 1988,
+        "value": 0.89794,
+        "note": "Quy đổi từ DM/USD (World Bank PA.NUS.FCRF) sang EUR theo tỷ giá chuyển đổi vĩnh viễn 1 EUR = 1,95583 DM (do euro chưa tồn tại năm này)"
+      },
+      {
+        "year": 1989,
+        "value": 0.96125,
+        "note": "Quy đổi từ DM/USD (World Bank PA.NUS.FCRF) sang EUR theo tỷ giá chuyển đổi vĩnh viễn 1 EUR = 1,95583 DM (do euro chưa tồn tại năm này)"
+      },
+      {
+        "year": 1990,
+        "value": 0.82611,
+        "note": "Quy đổi từ DM/USD (World Bank PA.NUS.FCRF) sang EUR theo tỷ giá chuyển đổi vĩnh viễn 1 EUR = 1,95583 DM (do euro chưa tồn tại năm này)"
+      },
+      {
+        "year": 1991,
+        "value": 0.84851,
+        "note": "Quy đổi từ DM/USD (World Bank PA.NUS.FCRF) sang EUR theo tỷ giá chuyển đổi vĩnh viễn 1 EUR = 1,95583 DM (do euro chưa tồn tại năm này)"
+      },
+      {
+        "year": 1992,
+        "value": 0.79846,
+        "note": "Quy đổi từ DM/USD (World Bank PA.NUS.FCRF) sang EUR theo tỷ giá chuyển đổi vĩnh viễn 1 EUR = 1,95583 DM (do euro chưa tồn tại năm này)"
+      },
+      {
+        "year": 1993,
+        "value": 0.84533,
+        "note": "Quy đổi từ DM/USD (World Bank PA.NUS.FCRF) sang EUR theo tỷ giá chuyển đổi vĩnh viễn 1 EUR = 1,95583 DM (do euro chưa tồn tại năm này)"
+      },
+      {
+        "year": 1994,
+        "value": 0.82972,
+        "note": "Quy đổi từ DM/USD (World Bank PA.NUS.FCRF) sang EUR theo tỷ giá chuyển đổi vĩnh viễn 1 EUR = 1,95583 DM (do euro chưa tồn tại năm này)"
+      },
+      {
+        "year": 1995,
+        "value": 0.73275,
+        "note": "Quy đổi từ DM/USD (World Bank PA.NUS.FCRF) sang EUR theo tỷ giá chuyển đổi vĩnh viễn 1 EUR = 1,95583 DM (do euro chưa tồn tại năm này)"
+      },
+      {
+        "year": 1996,
+        "value": 0.76938,
+        "note": "Quy đổi từ DM/USD (World Bank PA.NUS.FCRF) sang EUR theo tỷ giá chuyển đổi vĩnh viễn 1 EUR = 1,95583 DM (do euro chưa tồn tại năm này)"
+      },
+      {
+        "year": 1997,
+        "value": 0.88661,
+        "note": "Quy đổi từ DM/USD (World Bank PA.NUS.FCRF) sang EUR theo tỷ giá chuyển đổi vĩnh viễn 1 EUR = 1,95583 DM (do euro chưa tồn tại năm này)"
+      },
+      {
+        "year": 1998,
+        "value": 0.8997,
+        "note": "Quy đổi từ DM/USD (World Bank PA.NUS.FCRF) sang EUR theo tỷ giá chuyển đổi vĩnh viễn 1 EUR = 1,95583 DM (do euro chưa tồn tại năm này)"
+      },
+      {
+        "year": 1999,
+        "value": 0.93828
+      },
+      {
+        "year": 2000,
+        "value": 1.08271
+      },
+      {
+        "year": 2001,
+        "value": 1.11653
+      },
+      {
+        "year": 2002,
+        "value": 1.05756
+      },
+      {
+        "year": 2003,
+        "value": 0.88405
+      },
+      {
+        "year": 2004,
+        "value": 0.80392
+      },
+      {
+        "year": 2005,
+        "value": 0.8038
+      },
+      {
+        "year": 2006,
+        "value": 0.79643
+      },
+      {
+        "year": 2007,
+        "value": 0.72967
+      },
+      {
+        "year": 2008,
+        "value": 0.67992
+      },
+      {
+        "year": 2009,
+        "value": 0.71696
+      },
+      {
+        "year": 2010,
+        "value": 0.75431
+      },
+      {
+        "year": 2011,
+        "value": 0.71841
+      },
+      {
+        "year": 2012,
+        "value": 0.77834
+      },
+      {
+        "year": 2013,
+        "value": 0.75295
+      },
+      {
+        "year": 2014,
+        "value": 0.75273
+      },
+      {
+        "year": 2015,
+        "value": 0.9013
+      },
+      {
+        "year": 2016,
+        "value": 0.90342
+      },
+      {
+        "year": 2017,
+        "value": 0.88521
+      },
+      {
+        "year": 2018,
+        "value": 0.84677
+      },
+      {
+        "year": 2019,
+        "value": 0.89328
+      },
+      {
+        "year": 2020,
+        "value": 0.87551
+      },
+      {
+        "year": 2021,
+        "value": 0.84549
+      },
+      {
+        "year": 2022,
+        "value": 0.94962
+      },
+      {
+        "year": 2023,
+        "value": 0.92484
+      },
+      {
+        "year": 2024,
+        "value": 0.92389
+      },
+      {
+        "year": 2025,
+        "value": 0.88497
+      }
+    ],
+    "sources": [
+      {
+        "title": "World Bank - Official exchange rate (LCU per US$, period average), Germany (PA.NUS.FCRF)",
+        "url": "https://data.worldbank.org/indicator/PA.NUS.FCRF?locations=DE"
+      },
+      {
+        "title": "European Central Bank / European Commission - irrevocable euro conversion rates (1 EUR = 1.95583 DEM)",
+        "url": "https://ec.europa.eu/economy_finance/euro/adoption/conversion-rates/index_en.htm"
+      }
+    ]
+  },
+  {
+    "id": "de-mindestlohn",
+    "country": "de",
+    "name": {
+      "vi": "Lương tối thiểu theo luật định",
+      "en": "Statutory minimum wage"
+    },
+    "unit": {
+      "vi": "EUR/giờ",
+      "en": "EUR/hour"
+    },
+    "quality": "A",
+    "note": {
+      "vi": "Trước 1/1/2015, Đức KHÔNG có mức lương tối thiểu chung toàn quốc theo luật - chỉ có mức tối thiểu theo từng ngành qua thỏa ước lao động tập thể (Tarifverträge), nên không có một con số quốc gia duy nhất để đưa vào chuỗi 1986-2014. Mức 2021-2022 lấy giá trị có hiệu lực cuối năm (sau các đợt điều chỉnh giữa năm).",
+      "en": "Before 1 Jan 2015, Germany had NO statutory national minimum wage - only sector-specific minimums set via collective bargaining agreements (Tarifverträge), so there is no single national figure to show for 1986-2014. The 2021 and 2022 figures use the rate in force at year-end (after mid-year adjustments)."
+    },
+    "kind": "point",
+    "currency": "EUR",
+    "valueMultiplier": 1,
+    "purchasable": false,
+    "series": [
+      {
+        "year": 2015,
+        "value": 8.5,
+        "note": "Mindestlohngesetz có hiệu lực 1/1/2015 - lần đầu tiên Đức có mức lương tối thiểu chung toàn quốc"
+      },
+      {
+        "year": 2016,
+        "value": 8.5
+      },
+      {
+        "year": 2017,
+        "value": 8.84
+      },
+      {
+        "year": 2018,
+        "value": 8.84
+      },
+      {
+        "year": 2019,
+        "value": 9.19
+      },
+      {
+        "year": 2020,
+        "value": 9.35
+      },
+      {
+        "year": 2021,
+        "value": 9.6,
+        "note": "Tăng 3 lần trong năm (9,50 từ 1/1, 9,60 từ 1/7); lấy mức cuối năm"
+      },
+      {
+        "year": 2022,
+        "value": 12.0,
+        "note": "Tăng 3 lần trong năm (9,82 -> 10,45 -> 12,00 từ 1/10); lấy mức cuối năm, do Quốc hội quyết định trực tiếp (không qua Ủy ban Mindestlohn)"
+      },
+      {
+        "year": 2023,
+        "value": 12.0
+      },
+      {
+        "year": 2024,
+        "value": 12.41
+      },
+      {
+        "year": 2025,
+        "value": 12.82
+      }
+    ],
+    "sources": [
+      {
+        "title": "Mindestlohnkommission - Entwicklung des Mindestlohns",
+        "url": "https://www.mindestlohn-kommission.de/de/Gesetzlicher-Mindestlohn/Entwicklung-des-Mindestlohn/entwicklung-des-mindestlohn_node"
+      },
+      {
+        "title": "BMAS - Einführung und Anpassungen des Mindestlohns",
+        "url": "https://bmas.bund.de/DE/Arbeit/Arbeitsrecht/Mindestlohn/Einfuehrung-und-Anpassungen-Mindestlohn/einfuehrung-und-anpassung-mindestlohn.html"
+      }
+    ]
+  },
+  {
+    "id": "de-gia-vang",
+    "country": "de",
+    "name": {
+      "vi": "Giá vàng (bình quân năm)",
+      "en": "Gold price (annual average)"
+    },
+    "unit": {
+      "vi": "EUR/troy ounce",
+      "en": "EUR per troy ounce"
+    },
+    "quality": "B",
+    "note": {
+      "vi": "Không dùng số liệu Deutsche Mark trước 1999 do không tìm được một chuỗi giá vàng DM bình quân năm đáng tin cậy, liên tục để quy đổi; giá trị 1999 là giá cuối năm (không phải bình quân năm) nên không hoàn toàn so sánh được với các năm sau.",
+      "en": "Pre-1999 Deutsche Mark figures are not used because no reliable, continuous DM annual-average gold series could be found to convert; the 1999 figure is a year-end price (not an annual average), so it is not fully comparable to later years."
+    },
+    "kind": "point",
+    "currency": "EUR",
+    "valueMultiplier": 1,
+    "purchasable": true,
+    "series": [
+      {
+        "year": 1999,
+        "value": 289.55,
+        "note": "Giá cuối năm (không phải bình quân năm) - 1999 là năm đầu tiên EUR được dùng làm đơn vị kế toán"
+      },
+      {
+        "year": 2005,
+        "value": 359
+      },
+      {
+        "year": 2008,
+        "value": 593
+      },
+      {
+        "year": 2009,
+        "value": 698
+      },
+      {
+        "year": 2010,
+        "value": 925
+      },
+      {
+        "year": 2015,
+        "value": 1046
+      },
+      {
+        "year": 2020,
+        "value": 1550
+      },
+      {
+        "year": 2025,
+        "value": 3038
+      }
+    ],
+    "sources": [
+      {
+        "title": "Finanzfacts - Goldpreis-Entwicklung seit 1999 und Prognose (Goldpreis in Euro je Feinunze, Jahresdurchschnitt)",
+        "url": "https://finanzfacts.de/daten/goldpreis/"
+      },
+      {
+        "title": "Finalarm - Goldpreisentwicklung: Ursachen und Ausblick (Feinunze in Euro, Jahresende)",
+        "url": "https://www.finalarm.de/geldanlagen/rohstoffe/goldpreisentwicklung-faktoren-trends-ausblick/"
+      }
+    ]
+  },
+  {
+    "id": "de-gia-xang",
+    "country": "de",
+    "name": {
+      "vi": "Giá xăng Super/Super E10 (bình quân năm)",
+      "en": "Super/Super E10 petrol price (annual average)"
+    },
+    "unit": {
+      "vi": "Cent/lít",
+      "en": "Cent/litre"
+    },
+    "quality": "B",
+    "note": {
+      "vi": "Nguồn chính ADAC (hiệp hội ô tô Đức). Từ 1/3/2011 giá Super E10 thay cho Super thường. Các năm 1986, 1990, 1999, 2000, 2001 gốc là Pfennig (DM), được tự quy đổi sang Cent (EUR) theo tỷ giá chuyển đổi vĩnh viễn 1 EUR = 1,95583 DM; ADAC tự quy đổi DM->EUR cho 2000-2001 để so sánh nhưng không công bố quy đổi cho các năm DM trước đó.",
+      "en": "Main source ADAC (the German automobile association). From 1 March 2011, Super E10 replaced regular Super in the headline figure. The 1986, 1990, 1999, 2000 and 2001 figures were originally in Pfennig (DM) and are converted here to Cent (EUR) at the official irrevocable rate of 1 EUR = 1.95583 DM; ADAC itself converts 2000-2001 DM figures to EUR for comparability but does not publish conversions for the earlier DM years."
+    },
+    "kind": "point",
+    "currency": "EUR",
+    "valueMultiplier": 0.01,
+    "purchasable": true,
+    "series": [
+      {
+        "year": 1986,
+        "value": 53.99,
+        "note": "Quy đổi từ Pfennig Super (xăng không chì) DM sang Cent EUR theo tỷ giá 1 EUR = 1,95583 DM"
+      },
+      {
+        "year": 1990,
+        "value": 60.69,
+        "note": "Quy đổi từ Pfennig Super (xăng không chì) DM sang Cent EUR theo tỷ giá 1 EUR = 1,95583 DM"
+      },
+      {
+        "year": 1999,
+        "value": 86.31,
+        "note": "Quy đổi từ Pfennig Super (xăng không chì) DM sang Cent EUR theo tỷ giá 1 EUR = 1,95583 DM"
+      },
+      {
+        "year": 2000,
+        "value": 101.64,
+        "note": "Quy đổi từ Pfennig Super (xăng không chì) DM sang Cent EUR theo tỷ giá 1 EUR = 1,95583 DM"
+      },
+      {
+        "year": 2001,
+        "value": 102.26,
+        "note": "Quy đổi từ Pfennig Super (xăng không chì) DM sang Cent EUR theo tỷ giá 1 EUR = 1,95583 DM"
+      },
+      {
+        "year": 2005,
+        "value": 122
+      },
+      {
+        "year": 2008,
+        "value": 139
+      },
+      {
+        "year": 2012,
+        "value": 164
+      },
+      {
+        "year": 2016,
+        "value": 128.1
+      },
+      {
+        "year": 2020,
+        "value": 125.5
+      },
+      {
+        "year": 2022,
+        "value": 186.0
+      },
+      {
+        "year": 2025,
+        "value": 168.8
+      }
+    ],
+    "sources": [
+      {
+        "title": "ADAC - Spritpreis-Entwicklung: Benzin- und Dieselpreise seit 1950",
+        "url": "https://www.adac.de/verkehr/tanken-kraftstoff-antrieb/deutschland/kraftstoffpreisentwicklung/"
+      },
+      {
+        "title": "carwow - Spritpreisentwicklung: Aktuelle und historische Benzin- und Dieselpreise",
+        "url": "https://www.carwow.de/automagazin/auto-besitzen-und-fahren/tanken/spritpreisentwicklung-benzin-diesel"
+      }
+    ]
+  },
+  {
+    "id": "de-gia-big-mac",
+    "country": "de",
+    "name": {
+      "vi": "Giá bánh Big Mac (McDonald's)",
+      "en": "Big Mac price (McDonald's)"
+    },
+    "unit": {
+      "vi": "EUR/chiếc",
+      "en": "EUR per burger"
+    },
+    "quality": "A",
+    "note": {
+      "vi": "Trích từ bộ dữ liệu gốc 'Big Mac Index' của The Economist. Đức chỉ được khảo sát/tách riêng (thay vì gộp vào 'Euro area') từ giữa năm 2011 trở đi, nên chuỗi bắt đầu từ 2011 chứ không phải 1986 hay 2000.",
+      "en": "From The Economist's Big Mac Index raw source data. Germany was only surveyed/broken out separately (rather than lumped into a 'Euro area' average) from mid-2011 onward, so the series starts in 2011, not 1986 or 2000."
+    },
+    "kind": "point",
+    "currency": "EUR",
+    "valueMultiplier": 1,
+    "purchasable": true,
+    "series": [
+      {
+        "year": 2011,
+        "value": 3.4,
+        "note": "Mốc khảo sát 2011-07-01"
+      },
+      {
+        "year": 2012,
+        "value": 3.53,
+        "note": "Mốc khảo sát 2012-01-01"
+      },
+      {
+        "year": 2013,
+        "value": 3.64,
+        "note": "Mốc khảo sát 2013-01-01"
+      },
+      {
+        "year": 2014,
+        "value": 3.67,
+        "note": "Mốc khảo sát 2014-01-01"
+      },
+      {
+        "year": 2015,
+        "value": 3.67,
+        "note": "Mốc khảo sát 2015-01-01"
+      },
+      {
+        "year": 2016,
+        "value": 3.59,
+        "note": "Mốc khảo sát 2016-01-01"
+      },
+      {
+        "year": 2017,
+        "value": 3.79,
+        "note": "Mốc khảo sát 2017-01-01"
+      },
+      {
+        "year": 2018,
+        "value": 3.9,
+        "note": "Mốc khảo sát 2018-01-01"
+      },
+      {
+        "year": 2019,
+        "value": 4.12,
+        "note": "Mốc khảo sát 2019-01-01"
+      },
+      {
+        "year": 2020,
+        "value": 4.14,
+        "note": "Mốc khảo sát 2020-01-14"
+      },
+      {
+        "year": 2021,
+        "value": 4.46,
+        "note": "Mốc khảo sát 2021-01-01"
+      },
+      {
+        "year": 2022,
+        "value": 4.46,
+        "note": "Mốc khảo sát 2022-01-01"
+      },
+      {
+        "year": 2023,
+        "value": 4.76,
+        "note": "Mốc khảo sát 2023-01-01"
+      },
+      {
+        "year": 2024,
+        "value": 5.49,
+        "note": "Mốc khảo sát 2024-01-01"
+      },
+      {
+        "year": 2025,
+        "value": 6.09,
+        "note": "Mốc khảo sát 2025-01-01"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Economist - big-mac-data, source-data/big-mac-source-data-v2.csv (GitHub)",
+        "url": "https://github.com/TheEconomist/big-mac-data"
+      }
+    ]
+  },
+  {
+    "id": "de-gia-bia-oktoberfest",
+    "country": "de",
+    "name": {
+      "vi": "Giá một Maß bia (1 lít) tại lễ hội Oktoberfest, Munich",
+      "en": "Price of a Maß (1-litre) of beer at Oktoberfest, Munich"
+    },
+    "unit": {
+      "vi": "EUR/Maß (1 lít)",
+      "en": "EUR per Maß (1 litre)"
+    },
+    "quality": "B",
+    "note": {
+      "vi": "Khoảng giá thấp nhất-cao nhất trong số các lều bia lớn tại Oktoberfest Munich mỗi năm (không phải giá bia bán lẻ phổ thông, vốn rẻ hơn nhiều). Không tổ chức năm 2020-2021 vì COVID-19. Các năm trước 2002 gốc bằng Deutsche Mark, tự quy đổi sang EUR theo tỷ giá chuyển đổi vĩnh viễn 1 EUR = 1,95583 DM.",
+      "en": "Lowest-highest price range across the big beer tents at Munich's Oktoberfest each year (not everyday retail beer, which is far cheaper). Not held in 2020-2021 due to COVID-19. Years before 2002 were originally in Deutsche Mark, converted here to EUR at the official irrevocable rate of 1 EUR = 1.95583 DM."
+    },
+    "kind": "range",
+    "currency": "EUR",
+    "valueMultiplier": 1,
+    "purchasable": true,
+    "series": [
+      {
+        "year": 1986,
+        "min": 3.12,
+        "max": 3.32,
+        "note": "Giá gốc bằng DM, tự quy đổi sang EUR theo tỷ giá 1 EUR = 1,95583 DM"
+      },
+      {
+        "year": 1990,
+        "min": 3.55,
+        "max": 3.86,
+        "note": "Giá gốc bằng DM, tự quy đổi sang EUR theo tỷ giá 1 EUR = 1,95583 DM"
+      },
+      {
+        "year": 1995,
+        "min": 4.86,
+        "max": 5.32,
+        "note": "Giá gốc bằng DM, tự quy đổi sang EUR theo tỷ giá 1 EUR = 1,95583 DM"
+      },
+      {
+        "year": 1999,
+        "min": 5.47,
+        "max": 6.03,
+        "note": "Giá gốc bằng DM, tự quy đổi sang EUR theo tỷ giá 1 EUR = 1,95583 DM"
+      },
+      {
+        "year": 2000,
+        "min": 5.73,
+        "max": 6.44,
+        "note": "Giá gốc bằng DM, tự quy đổi sang EUR theo tỷ giá 1 EUR = 1,95583 DM"
+      },
+      {
+        "year": 2001,
+        "min": 5.98,
+        "max": 6.54,
+        "note": "Giá gốc bằng DM, tự quy đổi sang EUR theo tỷ giá 1 EUR = 1,95583 DM"
+      },
+      {
+        "year": 2005,
+        "min": 6.8,
+        "max": 7.25
+      },
+      {
+        "year": 2010,
+        "min": 8.3,
+        "max": 8.9
+      },
+      {
+        "year": 2015,
+        "min": 10.0,
+        "max": 10.4
+      },
+      {
+        "year": 2018,
+        "min": 10.7,
+        "max": 11.5
+      },
+      {
+        "year": 2019,
+        "min": 10.8,
+        "max": 11.8
+      },
+      {
+        "year": 2020,
+        "note": "Lễ hội Oktoberfest bị hủy do đại dịch COVID-19 (2020 và 2021), không có giá bán"
+      },
+      {
+        "year": 2022,
+        "min": 12.6,
+        "max": 13.8
+      },
+      {
+        "year": 2023,
+        "min": 12.6,
+        "max": 14.9
+      },
+      {
+        "year": 2024,
+        "min": 13.6,
+        "max": 15.3
+      },
+      {
+        "year": 2025,
+        "min": 14.5,
+        "max": 15.8
+      }
+    ],
+    "sources": [
+      {
+        "title": "tz.de - 15 Pfennig für eine Mass Wiesn-Bier? So sind die Preise auf dem Oktoberfest in München gestiegen",
+        "url": "https://www.tz.de/muenchen/wiesn/wiesn-bier-wird-teurer-so-sind-die-preise-in-muenchen-gestiegen-93938104.html"
+      },
+      {
+        "title": "Historisches Lexikon Bayerns - Oktoberfest (Bierpreise)",
+        "url": "https://www.historisches-lexikon-bayerns.de/Lexikon/EN:Oktoberfest"
+      }
+    ]
+  }
+]

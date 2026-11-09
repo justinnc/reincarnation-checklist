@@ -129,7 +129,8 @@
       "returnMultiple": 5.3,
       "priceCurrency": "JPY",
       "risk": "low",
-      "capital": "medium"
+      "capital": "medium",
+      "exitDate": "2024"
     },
     "insiderTip": {
       "vi": "Keyence giữ bí mật sản xuất, không tự sản xuất mà chỉ thiết kế và bán trực tiếp với biên lợi nhuận gộp hơn 80% — hiểu rõ mô hình kinh doanh độc đáo này từ sớm giúp tự tin nắm giữ qua các chu kỳ suy thoái công nghiệp ngắn hạn.",
@@ -1037,7 +1038,8 @@
       "returnMultiple": 10,
       "priceCurrency": "JPY",
       "risk": "high",
-      "capital": "medium"
+      "capital": "medium",
+      "exitDate": "2015-12"
     },
     "insiderTip": {
       "vi": "Mầm mống của vụ lừa đảo bắt nguồn từ các khoản đầu cơ tài chính nhằm bù đắp thiệt hại do Yên tăng giá sau Hiệp định Plaza 1985 — biết trước cấu trúc che giấu lỗ qua các công ty vỏ bọc giúp dự đoán được quy mô thiệt hại thực sự khi sự việc vỡ lở.",

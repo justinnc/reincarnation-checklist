@@ -1035,7 +1035,8 @@
       "priceCurrency": "HKD",
       "returnMultiple": 38,
       "risk": "high",
-      "capital": "medium"
+      "capital": "medium",
+      "exitDate": "2022-08"
     },
     "insiderTip": {
       "vi": "BYD sẽ vượt Tesla để trở thành hãng xe điện bán chạy nhất thế giới theo doanh số vào năm 2023-2024 — kiên nhẫn giữ cổ phiếu qua nhiều năm công ty chỉ được biết đến như nhà sản xuất pin.",

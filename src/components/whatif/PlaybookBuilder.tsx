@@ -7,6 +7,7 @@ import { t, type Locale } from "@/lib/i18n";
 import type { Country, Milestone } from "@/lib/types";
 import { formatMoney, formatMultiple } from "@/lib/format";
 import {
+  findOptimalChainIncluding,
   findOptimalNonOverlappingChain,
   getPlaybookCandidates,
   simulatePlaybook,
@@ -21,28 +22,37 @@ type Props = {
 const LABELS = {
   vi: {
     country: "1. Chọn quốc gia trọng sinh",
-    capital: "2. Vốn khởi đầu",
+    capital: "2. Vốn khởi đầu & Chế độ thanh khoản",
+    realisticOn: "🛡️ Thực tế (Chỉ tài sản đại chúng, có trần thanh khoản)",
+    realisticOff: "🚀 Tối đa lý thuyết (Mọi kèo, không trần thanh khoản)",
     pickTitle: "3. Chọn các cột mốc nối tiếp nhau",
     pickSub: "Tích chọn nhiều mốc để lãi kép nối tiếp từ thương vụ này sang thương vụ khác.",
-    autoOptimal: "⚡ Tự chọn chuỗi tối ưu (không trùng năm)",
+    autoOptimal: "⚡ Tự chọn chuỗi tối ưu (không trùng tháng)",
     clearAll: "Bỏ chọn hết",
     ledgerTitle: "Lộ trình Lãi Kép Trọng Sinh",
-    emptyLedger: "Hãy tích chọn ít nhất 1 cột mốc bên dưới (hoặc bấm nút Gợi ý chuỗi tối ưu).",
+    emptyLedger: "Hãy tích chọn ít nhất 1 cột mốc bên dưới (hoặc bấm nút Tự chọn chuỗi tối ưu).",
     overlapWarn:
-      "⚠️ Có cột mốc trùng khoảng thời gian nắm giữ với bước trước. Trong thực tế bạn phải thoát sớm hoặc chia nhỏ vốn.",
-    overlapStep: "⚠️ Trùng năm với bước trước",
+      "⚠️ Có cột mốc trùng khoảng thời gian nắm giữ (theo tháng) với bước trước. Trong thực tế bạn phải thoát sớm hoặc chia nhỏ vốn.",
+    capWarn:
+      "🛡️ Một số bước đã được áp trần thanh khoản (phần vốn vượt trần giữ nguyên tiền mặt) để tránh con số ảo vượt quy mô thị trường.",
+    overlapStep: "⚠️ Trùng thời gian với bước trước",
+    cappedStep: "🛡️ Chạm trần thanh khoản",
+    speculativeBadge: "Đầu cơ / Angel hẹp",
     initial: "Vốn ban đầu",
     final: "Tổng tài sản cuối",
     totalMult: "Hệ số nhân gộp",
-    stepsCount: "Số thương vụ",
     copyLink: "🔗 Sao chép link chuỗi này",
     copied: "✓ Đã sao chép link!",
     unverified: "Chưa kiểm chứng đủ 2 nguồn",
     viewDetail: "Chi tiết",
+    fromYearNote: "Đang lọc từ năm",
+    resetFromYear: "Xem mọi năm",
   },
   en: {
     country: "1. Choose reincarnation country",
-    capital: "2. Starting capital",
+    capital: "2. Starting capital & Liquidity mode",
+    realisticOn: "🛡️ Realistic (Public liquid assets + liquidity caps)",
+    realisticOff: "🚀 Theoretical Max (All trades, uncapped)",
     pickTitle: "3. Chain your milestones",
     pickSub: "Check multiple milestones to roll and compound your capital from one trade into the next.",
     autoOptimal: "⚡ Auto-pick optimal non-overlapping chain",
@@ -50,16 +60,21 @@ const LABELS = {
     ledgerTitle: "Compounding Playbook Ledger",
     emptyLedger: "Select at least 1 milestone below (or click Auto-pick optimal chain).",
     overlapWarn:
-      "⚠️ Some selected milestones overlap in holding years. In reality you would need to exit early or split capital.",
+      "⚠️ Some selected milestones overlap in holding months. In reality you would need to exit early or split capital.",
+    capWarn:
+      "🛡️ Liquidity caps were applied on one or more steps (excess capital held in cash) to prevent fantasy numbers exceeding market depth.",
     overlapStep: "⚠️ Overlaps previous holding period",
+    cappedStep: "🛡️ Liquidity capped",
+    speculativeBadge: "Speculative / Private Angel",
     initial: "Starting capital",
     final: "Final net worth",
     totalMult: "Cumulative multiple",
-    stepsCount: "Trades chained",
     copyLink: "🔗 Copy shareable playbook link",
     copied: "✓ Link copied!",
     unverified: "Single-source / unverified",
     viewDetail: "Details",
+    fromYearNote: "Filtering from year",
+    resetFromYear: "Show all years",
   },
 };
 
@@ -75,14 +90,28 @@ export default function PlaybookBuilder({ lang, countries, milestones }: Props) 
   }, [search, countries, lang]);
 
   const [countryCode, setCountryCode] = useState<string>(initialCountryCode);
+  const [realistic, setRealistic] = useState<boolean>(() => search.get("real") !== "0");
+  const [fromYear, setFromYear] = useState<number | undefined>(() => {
+    const fy = Number(search.get("from"));
+    return Number.isFinite(fy) && fy >= 1900 ? fy : undefined;
+  });
+
   const country = useMemo(
     () => countries.find((c) => c.code === countryCode) ?? countries[0],
     [countries, countryCode],
   );
 
-  const candidates = useMemo(
+  const allCountryCandidates = useMemo(
     () => getPlaybookCandidates(milestones.filter((m) => m.country === country.code)),
     [milestones, country.code],
+  );
+
+  const candidates = useMemo(
+    () =>
+      fromYear !== undefined
+        ? allCountryCandidates.filter((c) => c.startYear >= fromYear)
+        : allCountryCandidates,
+    [allCountryCandidates, fromYear],
   );
 
   const [capital, setCapital] = useState<number>(() => {
@@ -91,13 +120,17 @@ export default function PlaybookBuilder({ lang, countries, milestones }: Props) 
   });
 
   const [selectedIds, setSelectedIds] = useState<string[]>(() => {
+    const valid = new Set(allCountryCandidates.map((c) => c.milestone.id));
+    const pinQ = search.get("pin");
+    if (pinQ && valid.has(pinQ)) {
+      return findOptimalChainIncluding(allCountryCandidates, pinQ, 5, { realisticOnly: true });
+    }
     const chainQ = search.get("chain");
     if (chainQ) {
-      const valid = new Set(candidates.map((c) => c.milestone.id));
       const ids = chainQ.split(",").filter((id) => valid.has(id));
       if (ids.length > 0) return ids;
     }
-    return findOptimalNonOverlappingChain(candidates, 5);
+    return findOptimalNonOverlappingChain(candidates, 5, { realisticOnly: true, fromYear });
   });
 
   const [copied, setCopied] = useState(false);
@@ -108,7 +141,12 @@ export default function PlaybookBuilder({ lang, countries, milestones }: Props) 
     setCountryCode(newCode);
     setCapital(nextCountry.stake.amount);
     const nextCandidates = getPlaybookCandidates(milestones.filter((m) => m.country === newCode));
-    setSelectedIds(findOptimalNonOverlappingChain(nextCandidates, 5));
+    setSelectedIds(findOptimalNonOverlappingChain(nextCandidates, 5, { realisticOnly: realistic, fromYear }));
+  };
+
+  const toggleRealistic = (nextVal: boolean) => {
+    setRealistic(nextVal);
+    setSelectedIds(findOptimalNonOverlappingChain(candidates, 5, { realisticOnly: nextVal, fromYear }));
   };
 
   const toggleId = (id: string) => {
@@ -116,8 +154,12 @@ export default function PlaybookBuilder({ lang, countries, milestones }: Props) 
   };
 
   const result = useMemo(
-    () => simulatePlaybook(candidates, selectedIds, capital),
-    [candidates, selectedIds, capital],
+    () =>
+      simulatePlaybook(allCountryCandidates, selectedIds, capital, {
+        realistic,
+        stakeUnit: country.stake.amount,
+      }),
+    [allCountryCandidates, selectedIds, capital, realistic, country.stake.amount],
   );
 
   const copyShareUrl = () => {
@@ -125,6 +167,8 @@ export default function PlaybookBuilder({ lang, countries, milestones }: Props) 
     params.set("mode", "playbook");
     params.set("country", country.code);
     params.set("cap", String(capital));
+    params.set("real", realistic ? "1" : "0");
+    if (fromYear !== undefined) params.set("from", String(fromYear));
     if (selectedIds.length > 0) params.set("chain", selectedIds.join(","));
     const qs = params.toString();
     router.replace(`?${qs}`, { scroll: false });
@@ -163,8 +207,8 @@ export default function PlaybookBuilder({ lang, countries, milestones }: Props) 
           </div>
         </div>
 
-        <div>
-          <div className="mb-2 text-xs font-semibold uppercase tracking-wider text-faint">{L.capital}</div>
+        <div className="space-y-3">
+          <div className="text-xs font-semibold uppercase tracking-wider text-faint">{L.capital}</div>
           <div className="flex flex-wrap items-center gap-2">
             {presets.map((p) => (
               <button
@@ -188,6 +232,31 @@ export default function PlaybookBuilder({ lang, countries, milestones }: Props) 
               className="w-36 rounded-lg border border-line bg-bg px-3 py-1.5 font-mono text-xs text-ink focus:border-gold focus:outline-none"
             />
             <span className="font-mono text-xs text-faint">{country.stake.currency}</span>
+          </div>
+
+          <div className="flex flex-wrap gap-2 pt-1">
+            <button
+              type="button"
+              onClick={() => toggleRealistic(true)}
+              className={`rounded-xl border px-3 py-1.5 text-xs font-semibold transition-colors ${
+                realistic
+                  ? "border-gain bg-gain/15 text-gain"
+                  : "border-line bg-raised text-muted hover:text-ink"
+              }`}
+            >
+              {L.realisticOn}
+            </button>
+            <button
+              type="button"
+              onClick={() => toggleRealistic(false)}
+              className={`rounded-xl border px-3 py-1.5 text-xs font-semibold transition-colors ${
+                !realistic
+                  ? "border-warning bg-warning/15 text-warning"
+                  : "border-line bg-raised text-muted hover:text-ink"
+              }`}
+            >
+              {L.realisticOff}
+            </button>
           </div>
         </div>
       </div>
@@ -235,6 +304,12 @@ export default function PlaybookBuilder({ lang, countries, milestones }: Props) 
               </div>
             )}
 
+            {result.hasLiquidityCap && (
+              <div className="rounded-xl border border-gain/40 bg-gain/10 px-4 py-2.5 text-xs text-gain">
+                {L.capWarn}
+              </div>
+            )}
+
             <ol className="space-y-2.5">
               {result.steps.map((s, idx) => (
                 <li
@@ -244,10 +319,13 @@ export default function PlaybookBuilder({ lang, countries, milestones }: Props) 
                   <div className="min-w-0">
                     <div className="flex flex-wrap items-center gap-2 text-xs">
                       <span className="rounded bg-gold/20 px-1.5 py-0.5 font-mono font-semibold text-gold">
-                        #{idx + 1} · {s.candidate.startYear}→{s.candidate.endYear}
+                        #{idx + 1} · {s.candidate.periodLabel}
                       </span>
                       {s.overlapsPrevious && (
                         <span className="text-warning font-medium">{L.overlapStep}</span>
+                      )}
+                      {s.cappedByLiquidity && (
+                        <span className="text-gain font-medium">{L.cappedStep}</span>
                       )}
                     </div>
                     <Link
@@ -280,11 +358,21 @@ export default function PlaybookBuilder({ lang, countries, milestones }: Props) 
           <div>
             <h3 className="font-display text-lg font-bold">{L.pickTitle}</h3>
             <p className="text-xs text-muted">{L.pickSub}</p>
+            {fromYear !== undefined && (
+              <div className="mt-1 flex items-center gap-2 text-xs text-gold">
+                <span>{L.fromYearNote} {fromYear}</span>
+                <button type="button" onClick={() => setFromYear(undefined)} className="underline">
+                  ({L.resetFromYear})
+                </button>
+              </div>
+            )}
           </div>
           <div className="flex flex-wrap gap-2">
             <button
               type="button"
-              onClick={() => setSelectedIds(findOptimalNonOverlappingChain(candidates, 5))}
+              onClick={() =>
+                setSelectedIds(findOptimalNonOverlappingChain(candidates, 5, { realisticOnly: realistic, fromYear }))
+              }
               className="rounded-full bg-gold px-3.5 py-1.5 text-xs font-semibold text-on-gold hover:brightness-110"
             >
               {L.autoOptimal}
@@ -321,10 +409,15 @@ export default function PlaybookBuilder({ lang, countries, milestones }: Props) 
                   <div className="min-w-0">
                     <div className="flex flex-wrap items-center gap-2 text-xs">
                       <span className="font-mono text-gold">
-                        {c.startYear}→{c.endYear}
+                        {c.periodLabel}
                       </span>
                       {c.milestone.opportunity.asset && (
                         <span className="font-mono text-faint">· {c.milestone.opportunity.asset}</span>
+                      )}
+                      {c.speculative && (
+                        <span className="rounded border border-warning/40 px-1.5 py-0.2 text-[10px] text-warning">
+                          {L.speculativeBadge}
+                        </span>
                       )}
                       {!c.milestone.verified && (
                         <span className="rounded border border-danger/40 px-1.5 py-0.2 text-[10px] text-danger">

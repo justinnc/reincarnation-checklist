@@ -4,6 +4,7 @@ import type { Country, Milestone } from "@/lib/types";
 import type { Dictionary } from "@/lib/dictionaries";
 import { formatDate, formatDrop, formatMoney, formatMultiple } from "@/lib/format";
 import { DropBadge, MultipleBadge, RiskBadge, UnverifiedBadge } from "./Badges";
+import { CharmToggle } from "./CharmToggle";
 
 type Props = { m: Milestone; lang: Locale; dict: Dictionary["timeline"]; country: Country };
 
@@ -71,9 +72,12 @@ export default function MilestoneCard({ m, lang, dict, country }: Props) {
       <div className="mt-4 flex flex-wrap items-center gap-2">
         {o.risk && <RiskBadge level={o.risk} label={dict.risk} levelLabel={dict.levels[o.risk]} />}
         {o.capital && <RiskBadge level={o.capital} label={dict.capital} levelLabel={dict.levels[o.capital]} />}
-        <Link href={href} className="ml-auto text-sm font-medium text-muted hover:text-gold">
-          {dict.readMore} →
-        </Link>
+        <div className="ml-auto flex items-center gap-3">
+          <CharmToggle id={m.id} lang={lang} />
+          <Link href={href} className="text-sm font-medium text-muted hover:text-gold">
+            {dict.readMore} →
+          </Link>
+        </div>
       </div>
     </article>
   );

@@ -6,6 +6,7 @@ import { hasLocale, locales } from "@/lib/i18n";
 import { getDictionary } from "@/lib/dictionaries";
 import { SITE_URL, localeAlternates } from "@/lib/seo";
 import LangSwitch from "@/components/LangSwitch";
+import { CharmNavBadge } from "@/components/CharmToggle";
 import "../globals.css";
 
 const text = Be_Vietnam_Pro({ subsets: ["latin", "vietnamese"], weight: ["400", "500", "600", "700"], variable: "--nf-text" });
@@ -57,6 +58,7 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[la
               <Link href={`/${lang}/whatif`} className="shrink-0 font-semibold text-gold hover:brightness-110">{dict.nav.whatif}</Link>
               <Link href={`/${lang}/simulator`} className="shrink-0 hover:text-ink">{dict.nav.simulator}</Link>
               <Link href={`/${lang}/quiz`} className="shrink-0 hover:text-ink">{dict.nav.quiz}</Link>
+              <CharmNavBadge lang={lang} />
             </div>
             <div className="shrink-0">
               <LangSwitch lang={lang} />

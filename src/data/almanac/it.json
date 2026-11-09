@@ -1,0 +1,877 @@
+[
+  {
+    "id": "it-tasso-cambio-usd-eur",
+    "country": "it",
+    "name": {
+      "vi": "Ty gia USD/EUR (lia Y truoc 1999)",
+      "en": "Official USD/EUR exchange rate (Italian lira before 1999)"
+    },
+    "unit": {
+      "vi": "EUR/USD (lia quy doi sang EUR)",
+      "en": "EUR per USD (lira converted to EUR)"
+    },
+    "quality": "A",
+    "note": {
+      "vi": "Nguon: World Bank, ty gia chinh thuc binh quan nam (PA.NUS.FCRF). Truoc 1999 la lia Y (ITL) tren USD, quy doi sang EUR theo ty gia khong the dao nguoc 1936,27 ITL = 1 EUR (co dinh tu 1/1/1999). Tu 1999 la ty gia EUR/USD thuc te, giong het chuoi cua Phap vi ca hai nuoc chung dong Euro.",
+      "en": "Source: World Bank official exchange rate, period average (PA.NUS.FCRF). Pre-1999 figures are Italian lira (ITL) per USD, converted to EUR at the irrevocable rate of 1936.27 ITL = 1 EUR (fixed 1 Jan 1999). From 1999 onward this is the actual EUR/USD rate, identical to France's series since both share the euro."
+    },
+    "kind": "point",
+    "series": [
+      {
+        "year": 1986,
+        "value": 0.7699,
+        "note": "Chuyen doi tu 1490.81 ITL/USD sang EUR theo ty gia khong the dao nguoc 1936,27 ITL = 1 EUR"
+      },
+      {
+        "year": 1987,
+        "value": 0.6694,
+        "note": "Chuyen doi tu 1296.07 ITL/USD sang EUR theo ty gia khong the dao nguoc 1936,27 ITL = 1 EUR"
+      },
+      {
+        "year": 1988,
+        "value": 0.6722,
+        "note": "Chuyen doi tu 1301.63 ITL/USD sang EUR theo ty gia khong the dao nguoc 1936,27 ITL = 1 EUR"
+      },
+      {
+        "year": 1989,
+        "value": 0.7086,
+        "note": "Chuyen doi tu 1372.09 ITL/USD sang EUR theo ty gia khong the dao nguoc 1936,27 ITL = 1 EUR"
+      },
+      {
+        "year": 1990,
+        "value": 0.6188,
+        "note": "Chuyen doi tu 1198.1 ITL/USD sang EUR theo ty gia khong the dao nguoc 1936,27 ITL = 1 EUR"
+      },
+      {
+        "year": 1991,
+        "value": 0.6407,
+        "note": "Chuyen doi tu 1240.61 ITL/USD sang EUR theo ty gia khong the dao nguoc 1936,27 ITL = 1 EUR"
+      },
+      {
+        "year": 1992,
+        "value": 0.6365,
+        "note": "Chuyen doi tu 1232.41 ITL/USD sang EUR theo ty gia khong the dao nguoc 1936,27 ITL = 1 EUR"
+      },
+      {
+        "year": 1993,
+        "value": 0.8127,
+        "note": "Chuyen doi tu 1573.67 ITL/USD sang EUR theo ty gia khong the dao nguoc 1936,27 ITL = 1 EUR"
+      },
+      {
+        "year": 1994,
+        "value": 0.8328,
+        "note": "Chuyen doi tu 1612.44 ITL/USD sang EUR theo ty gia khong the dao nguoc 1936,27 ITL = 1 EUR"
+      },
+      {
+        "year": 1995,
+        "value": 0.8413,
+        "note": "Chuyen doi tu 1628.93 ITL/USD sang EUR theo ty gia khong the dao nguoc 1936,27 ITL = 1 EUR"
+      },
+      {
+        "year": 1996,
+        "value": 0.7969,
+        "note": "Chuyen doi tu 1542.95 ITL/USD sang EUR theo ty gia khong the dao nguoc 1936,27 ITL = 1 EUR"
+      },
+      {
+        "year": 1997,
+        "value": 0.8796,
+        "note": "Chuyen doi tu 1703.1 ITL/USD sang EUR theo ty gia khong the dao nguoc 1936,27 ITL = 1 EUR"
+      },
+      {
+        "year": 1998,
+        "value": 0.8967,
+        "note": "Chuyen doi tu 1736.21 ITL/USD sang EUR theo ty gia khong the dao nguoc 1936,27 ITL = 1 EUR"
+      },
+      {
+        "year": 1999,
+        "value": 0.94
+      },
+      {
+        "year": 2000,
+        "value": 1.08
+      },
+      {
+        "year": 2001,
+        "value": 1.12
+      },
+      {
+        "year": 2002,
+        "value": 1.06
+      },
+      {
+        "year": 2003,
+        "value": 0.88
+      },
+      {
+        "year": 2004,
+        "value": 0.8
+      },
+      {
+        "year": 2005,
+        "value": 0.8
+      },
+      {
+        "year": 2006,
+        "value": 0.8
+      },
+      {
+        "year": 2007,
+        "value": 0.73
+      },
+      {
+        "year": 2008,
+        "value": 0.68
+      },
+      {
+        "year": 2009,
+        "value": 0.72
+      },
+      {
+        "year": 2010,
+        "value": 0.75
+      },
+      {
+        "year": 2011,
+        "value": 0.72
+      },
+      {
+        "year": 2012,
+        "value": 0.78
+      },
+      {
+        "year": 2013,
+        "value": 0.75
+      },
+      {
+        "year": 2014,
+        "value": 0.75
+      },
+      {
+        "year": 2015,
+        "value": 0.9
+      },
+      {
+        "year": 2016,
+        "value": 0.9
+      },
+      {
+        "year": 2017,
+        "value": 0.89
+      },
+      {
+        "year": 2018,
+        "value": 0.85
+      },
+      {
+        "year": 2019,
+        "value": 0.89
+      },
+      {
+        "year": 2020,
+        "value": 0.88
+      },
+      {
+        "year": 2021,
+        "value": 0.85
+      },
+      {
+        "year": 2022,
+        "value": 0.95
+      },
+      {
+        "year": 2023,
+        "value": 0.92
+      },
+      {
+        "year": 2024,
+        "value": 0.92
+      },
+      {
+        "year": 2025,
+        "value": 0.88
+      }
+    ],
+    "sources": [
+      {
+        "title": "World Bank - Official exchange rate (LCU per US$, period average), PA.NUS.FCRF",
+        "url": "https://data.worldbank.org/indicator/PA.NUS.FCRF?locations=IT"
+      },
+      {
+        "title": "Argos Finance - Official exchange rate annual series by country (World Bank data)",
+        "url": "https://argos-finance.fr/en/macro/finance/taux-de-change-officiel"
+      }
+    ],
+    "currency": "EUR",
+    "valueMultiplier": 1,
+    "purchasable": false
+  },
+  {
+    "id": "it-salario-medio-annuo",
+    "country": "it",
+    "name": {
+      "vi": "Luong trung binh hang nam (vi khong co luong toi thieu quoc gia)",
+      "en": "Average annual wage (Italy has no statutory national minimum wage)"
+    },
+    "unit": {
+      "vi": "EUR/nam",
+      "en": "EUR/year"
+    },
+    "quality": "B",
+    "note": {
+      "vi": "QUAN TRONG: Y la mot trong 5 nuoc EU (cung Dan Mach, Ao, Phan Lan, Thuy Dien) khong co luong toi thieu theo luat dinh; muc san luong duoc thoa uoc lao dong tap the theo nganh (CCNL) quy dinh rieng cho tung nganh, khong co con so quoc gia duy nhat. Do do muc nay dung luong binh quan nam (gia hien hanh, toan bo lao dong lam cong) theo OECD thay the, nhu huong dan khi khong co luong toi thieu chinh thuc. Day la luong GOP (gross), khong phai luong rong.",
+      "en": "IMPORTANT: Italy is one of 5 EU countries (with Denmark, Austria, Finland, Sweden) without a statutory minimum wage; wage floors are set sector-by-sector through collective bargaining agreements (CCNL), so there is no single national figure. This item therefore uses the OECD average annual wage (current prices, all employees) as the substitute, as instructed when no official minimum wage exists. This is gross (pre-tax) pay, not take-home pay."
+    },
+    "kind": "point",
+    "series": [
+      {
+        "year": 1990,
+        "value": 14452.0,
+        "note": "Nam dau tien co trong chuoi OECD (gia hien hanh, chua dieu chinh lam phat)"
+      },
+      {
+        "year": 1991,
+        "value": 15568.0
+      },
+      {
+        "year": 1992,
+        "value": 16356.0
+      },
+      {
+        "year": 1993,
+        "value": 16968.0
+      },
+      {
+        "year": 1994,
+        "value": 17601.0
+      },
+      {
+        "year": 1995,
+        "value": 18262.0
+      },
+      {
+        "year": 1996,
+        "value": 19178.0
+      },
+      {
+        "year": 1997,
+        "value": 20092.0
+      },
+      {
+        "year": 1998,
+        "value": 20541.0
+      },
+      {
+        "year": 1999,
+        "value": 21110.0
+      },
+      {
+        "year": 2000,
+        "value": 21767.0
+      },
+      {
+        "year": 2001,
+        "value": 22479.0
+      },
+      {
+        "year": 2002,
+        "value": 22920.0
+      },
+      {
+        "year": 2003,
+        "value": 23500.0
+      },
+      {
+        "year": 2004,
+        "value": 24573.0
+      },
+      {
+        "year": 2005,
+        "value": 25372.0
+      },
+      {
+        "year": 2006,
+        "value": 26221.0
+      },
+      {
+        "year": 2007,
+        "value": 26780.0
+      },
+      {
+        "year": 2008,
+        "value": 27621.0
+      },
+      {
+        "year": 2009,
+        "value": 27652.0
+      },
+      {
+        "year": 2010,
+        "value": 28328.0
+      },
+      {
+        "year": 2011,
+        "value": 28708.0
+      },
+      {
+        "year": 2012,
+        "value": 28547.0
+      },
+      {
+        "year": 2013,
+        "value": 28945.0
+      },
+      {
+        "year": 2014,
+        "value": 29160.0
+      },
+      {
+        "year": 2015,
+        "value": 29473.0
+      },
+      {
+        "year": 2016,
+        "value": 29744.0
+      },
+      {
+        "year": 2017,
+        "value": 29879.0
+      },
+      {
+        "year": 2018,
+        "value": 30098.0
+      },
+      {
+        "year": 2019,
+        "value": 30444.0
+      },
+      {
+        "year": 2020,
+        "value": 29052.0
+      },
+      {
+        "year": 2021,
+        "value": 30974.0
+      },
+      {
+        "year": 2022,
+        "value": 32110.0
+      },
+      {
+        "year": 2023,
+        "value": 32950.0
+      },
+      {
+        "year": 2024,
+        "value": 33842.0
+      },
+      {
+        "year": 2025,
+        "value": 34733.0
+      }
+    ],
+    "sources": [
+      {
+        "title": "Eurofound - Italy: Minimum wage country profile (no statutory minimum wage)",
+        "url": "https://www.eurofound.europa.eu/en/countries/italy/minimum-wage"
+      },
+      {
+        "title": "OECD Data Explorer - Average annual wages, Italy, EUR current prices",
+        "url": "https://sdmx.oecd.org/public/rest/data/OECD.ELS.SAE,DSD_EARNINGS@AV_AN_WAGE,1.0/ITA..EUR....?startPeriod=1990&format=csvfilewithlabels"
+      },
+      {
+        "title": "OECD - Average annual wages (indicator page)",
+        "url": "https://www.oecd.org/en/data/indicators/average-annual-wages.html"
+      }
+    ],
+    "currency": "EUR",
+    "valueMultiplier": 1,
+    "purchasable": false
+  },
+  {
+    "id": "it-prezzo-oro-grammo",
+    "country": "it",
+    "name": {
+      "vi": "Gia vang (LBMA, cuoi nam) theo gram",
+      "en": "Gold price (LBMA, year-end) per gram"
+    },
+    "unit": {
+      "vi": "EUR/gram vang 24 carat",
+      "en": "EUR per gram, 24-carat fine gold"
+    },
+    "quality": "B",
+    "note": {
+      "vi": "Gia vang giao ngay LBMA (London) cuoi nam. Day la gia toan cau quy sang EUR, giong het chuoi cua Phap va cac nuoc dong Euro khac vi vang duoc dinh gia theo USD/EUR toan cau, khong co gia rieng cho tung nuoc. Truoc 1999 quy doi tu gia lia (hoac mac/franc) sang EUR theo ty gia khong the dao nguoc; gia ban le tai Y co them thue/phi gia cong nen cao hon.",
+      "en": "LBMA London spot gold price at year-end. This is a global price converted to EUR, identical to France's series and other euro-area countries since gold is priced in global USD/EUR, not country by country. Pre-1999 figures use the irrevocable conversion rate; actual Italian retail prices are higher due to dealer premiums and fabrication fees."
+    },
+    "kind": "point",
+    "series": [
+      {
+        "year": 1986,
+        "value": 12.3
+      },
+      {
+        "year": 1987,
+        "value": 12.67
+      },
+      {
+        "year": 1988,
+        "value": 12.18
+      },
+      {
+        "year": 1989,
+        "value": 11.31
+      },
+      {
+        "year": 1990,
+        "value": 9.71
+      },
+      {
+        "year": 1991,
+        "value": 8.97
+      },
+      {
+        "year": 1992,
+        "value": 8.98
+      },
+      {
+        "year": 1993,
+        "value": 11.32
+      },
+      {
+        "year": 1994,
+        "value": 10.04
+      },
+      {
+        "year": 1995,
+        "value": 9.29
+      },
+      {
+        "year": 1996,
+        "value": 9.48
+      },
+      {
+        "year": 1997,
+        "value": 8.52
+      },
+      {
+        "year": 1998,
+        "value": 7.93
+      },
+      {
+        "year": 1999,
+        "value": 9.31
+      },
+      {
+        "year": 2000,
+        "value": 9.53
+      },
+      {
+        "year": 2001,
+        "value": 10.08
+      },
+      {
+        "year": 2002,
+        "value": 10.67
+      },
+      {
+        "year": 2003,
+        "value": 10.69
+      },
+      {
+        "year": 2004,
+        "value": 10.28
+      },
+      {
+        "year": 2005,
+        "value": 13.92
+      },
+      {
+        "year": 2006,
+        "value": 15.44
+      },
+      {
+        "year": 2007,
+        "value": 18.21
+      },
+      {
+        "year": 2008,
+        "value": 19.85
+      },
+      {
+        "year": 2009,
+        "value": 24.42
+      },
+      {
+        "year": 2010,
+        "value": 34.06
+      },
+      {
+        "year": 2011,
+        "value": 38.0
+      },
+      {
+        "year": 2012,
+        "value": 40.31
+      },
+      {
+        "year": 2013,
+        "value": 28.03
+      },
+      {
+        "year": 2014,
+        "value": 31.85
+      },
+      {
+        "year": 2015,
+        "value": 31.23
+      },
+      {
+        "year": 2016,
+        "value": 35.13
+      },
+      {
+        "year": 2017,
+        "value": 34.73
+      },
+      {
+        "year": 2018,
+        "value": 35.93
+      },
+      {
+        "year": 2019,
+        "value": 43.42
+      },
+      {
+        "year": 2020,
+        "value": 49.42
+      },
+      {
+        "year": 2021,
+        "value": 51.3
+      },
+      {
+        "year": 2022,
+        "value": 54.66
+      },
+      {
+        "year": 2023,
+        "value": 60.35
+      },
+      {
+        "year": 2024,
+        "value": 80.77
+      },
+      {
+        "year": 2025,
+        "value": 119.36,
+        "note": "Cuoi nam 30/12/2025 (LBMA Gold Price PM); nam tang manh +47,8% theo EUR"
+      }
+    ],
+    "sources": [
+      {
+        "title": "SimianX - Prix de l'or par annee 1971-2026: once et gramme en euros (LBMA Gold Price PM)",
+        "url": "https://www.simianx.ai/fr/stories/gold-price-by-year-every-year-1971-2026-table"
+      }
+    ],
+    "currency": "EUR",
+    "valueMultiplier": 1,
+    "purchasable": true
+  },
+  {
+    "id": "it-prezzo-benzina-litro",
+    "country": "it",
+    "name": {
+      "vi": "Gia xang (benzina) theo lit",
+      "en": "Petrol price (benzina) per litre"
+    },
+    "unit": {
+      "vi": "EUR/lit (lia quy doi truoc 1999)",
+      "en": "EUR/litre (lira converted before 1999)"
+    },
+    "quality": "B",
+    "note": {
+      "vi": "Gia ban le trung binh, da bao gom thue (IVA + accisa). Diem 1986 la uoc tinh bao chi (Il Giornale); cac diem 1996-2024 lay tu chuoi quy 2 hang nam cua Qds.it (2 nam mot lan). Truoc 1999 la lia, quy doi theo ty gia 1936,27 ITL = 1 EUR.",
+      "en": "Average retail price, tax-included (VAT + excise). The 1986 point is a press estimate (Il Giornale); the 1996-2024 points come from Qds.it's biennial Q2 series. Pre-1999 figures are lira, converted at 1936.27 ITL = 1 EUR."
+    },
+    "kind": "point",
+    "series": [
+      {
+        "year": 1986,
+        "value": 0.6652,
+        "note": "Benzina, 1288 lire/litro, convertito al tasso irrevocabile 1936,27 ITL = 1 EUR"
+      },
+      {
+        "year": 1996,
+        "value": 0.929,
+        "note": "Prezzo medio consumo benzina, secondo trimestre"
+      },
+      {
+        "year": 1998,
+        "value": 0.909,
+        "note": "Prezzo medio consumo benzina, secondo trimestre"
+      },
+      {
+        "year": 2000,
+        "value": 1.083,
+        "note": "Prezzo medio consumo benzina, secondo trimestre"
+      },
+      {
+        "year": 2002,
+        "value": 1.046,
+        "note": "Prezzo medio consumo benzina, secondo trimestre"
+      },
+      {
+        "year": 2004,
+        "value": 1.125,
+        "note": "Prezzo medio consumo benzina, secondo trimestre"
+      },
+      {
+        "year": 2006,
+        "value": 1.286,
+        "note": "Prezzo medio consumo benzina, secondo trimestre"
+      },
+      {
+        "year": 2008,
+        "value": 1.381,
+        "note": "Prezzo medio consumo benzina, secondo trimestre"
+      },
+      {
+        "year": 2010,
+        "value": 1.364,
+        "note": "Prezzo medio consumo benzina, secondo trimestre"
+      },
+      {
+        "year": 2012,
+        "value": 1.787,
+        "note": "Prezzo medio consumo benzina, secondo trimestre"
+      },
+      {
+        "year": 2014,
+        "value": 1.713,
+        "note": "Prezzo medio consumo benzina, secondo trimestre"
+      },
+      {
+        "year": 2016,
+        "value": 1.444,
+        "note": "Prezzo medio consumo benzina, secondo trimestre"
+      },
+      {
+        "year": 2018,
+        "value": 1.599,
+        "note": "Prezzo medio consumo benzina, secondo trimestre"
+      },
+      {
+        "year": 2020,
+        "value": 1.431,
+        "note": "Prezzo medio consumo benzina, secondo trimestre"
+      },
+      {
+        "year": 2022,
+        "value": 1.811,
+        "note": "Prezzo medio consumo benzina, secondo trimestre"
+      },
+      {
+        "year": 2024,
+        "value": 1.821,
+        "note": "Prezzo medio consumo benzina, secondo trimestre"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Il Giornale - Se la benzina costa meno di 40 anni fa (1986: 1288 lire/litro)",
+        "url": "https://www.ilgiornale.it/news/se-benzina-costa-meno-40-anni-fa-2642049.html"
+      },
+      {
+        "title": "QdS.it - Caro carburanti, benzina quasi raddoppiata in 30 anni: dal 1996 al 2026",
+        "url": "https://risorgimentosicilia.qds.it/consumo/caro-carburanti-italia-benzina-1996-2026/"
+      },
+      {
+        "title": "PMI.it - Storico prezzi benzina: dalla Lira all'Euro",
+        "url": "https://www.pmi.it/economia/mercati/news/323208/storico-prezzi-benzina-dalla-lira-alleuro.html"
+      }
+    ],
+    "currency": "EUR",
+    "valueMultiplier": 1,
+    "purchasable": true
+  },
+  {
+    "id": "it-prezzo-big-mac",
+    "country": "it",
+    "name": {
+      "vi": "Gia Big Mac (trung binh khu vuc dong Euro)",
+      "en": "Big Mac price (euro-area average)"
+    },
+    "unit": {
+      "vi": "EUR/chiec",
+      "en": "EUR per burger"
+    },
+    "quality": "B",
+    "note": {
+      "vi": "The Economist chi cong bo mot muc gia Big Mac duy nhat cho ca khu vuc dong Euro (ma 'EUZ'), khong tach rieng cho Y; gia nay dai dien chung cho ca khu vuc, co the chenh lech vai % so voi gia nieu yet thuc te tai cac thanh pho Y. Moi diem lay tu lan khao sat dau nam.",
+      "en": "The Economist only publishes a single Big Mac price for the whole euro area ('EUZ'), not broken out for Italy specifically; this price is a euro-area proxy and can differ by a few percent from actual menu prices in Italian cities. One point per year from the first survey wave of that year."
+    },
+    "kind": "point",
+    "series": [
+      {
+        "year": 2000,
+        "value": 2.56,
+        "note": "Primo anno dell'indice Big Mac pubblicato in continuo (dati semestrali, valore di gennaio/aprile)"
+      },
+      {
+        "year": 2001,
+        "value": 2.57
+      },
+      {
+        "year": 2002,
+        "value": 2.67
+      },
+      {
+        "year": 2003,
+        "value": 2.71
+      },
+      {
+        "year": 2004,
+        "value": 2.74
+      },
+      {
+        "year": 2005,
+        "value": 2.92
+      },
+      {
+        "year": 2006,
+        "value": 2.91
+      },
+      {
+        "year": 2007,
+        "value": 2.94
+      },
+      {
+        "year": 2008,
+        "value": 3.37
+      },
+      {
+        "year": 2009,
+        "value": 3.31
+      },
+      {
+        "year": 2010,
+        "value": 3.36
+      },
+      {
+        "year": 2011,
+        "value": 3.44
+      },
+      {
+        "year": 2012,
+        "value": 3.49
+      },
+      {
+        "year": 2013,
+        "value": 3.59
+      },
+      {
+        "year": 2014,
+        "value": 3.66
+      },
+      {
+        "year": 2015,
+        "value": 3.68
+      },
+      {
+        "year": 2016,
+        "value": 3.72
+      },
+      {
+        "year": 2017,
+        "value": 3.88
+      },
+      {
+        "year": 2018,
+        "value": 3.95
+      },
+      {
+        "year": 2019,
+        "value": 4.05
+      },
+      {
+        "year": 2020,
+        "value": 4.12
+      },
+      {
+        "year": 2021,
+        "value": 4.25
+      },
+      {
+        "year": 2022,
+        "value": 4.42
+      },
+      {
+        "year": 2023,
+        "value": 4.81
+      },
+      {
+        "year": 2024,
+        "value": 5.39
+      },
+      {
+        "year": 2025,
+        "value": 5.67
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Economist / GitHub TheEconomist/big-mac-data - big-mac-full-index.csv",
+        "url": "https://github.com/TheEconomist/big-mac-data/blob/master/output-data/big-mac-full-index.csv"
+      }
+    ],
+    "currency": "EUR",
+    "valueMultiplier": 1,
+    "purchasable": true
+  },
+  {
+    "id": "it-prezzo-immobili-mq",
+    "country": "it",
+    "name": {
+      "vi": "Gia nha o trung binh toan quoc theo m2",
+      "en": "Average national residential property price per sqm"
+    },
+    "unit": {
+      "vi": "EUR/m2",
+      "en": "EUR/sqm"
+    },
+    "quality": "C",
+    "note": {
+      "vi": "Du lieu Nomisma (qua CEIC) chi co tu 2008; khong tim duoc chuoi gia nha binh quan toan quoc dang tin cay cho 1986-2007 trong pham vi nghien cuu nay, nen bo trong doan nay thay vi uoc tinh. Day la gia binh quan toan quoc (ca can ho/nha), khong rieng thanh pho lon (gia tai Milano/Roma cao hon nhieu, vd Milano ~3.337 EUR/m2 nam 2022).",
+      "en": "Nomisma data (via CEIC) only starts in 2008; no reliable national average housing price series for 1986-2007 was found within this research pass, so that span is left blank rather than estimated. This is the nationwide average (all dwelling types), not specific to major cities (Milan/Rome prices are much higher, e.g. Milan ~EUR 3,337/sqm in 2022)."
+    },
+    "kind": "point",
+    "series": [
+      {
+        "year": 2008,
+        "value": 2448.1,
+        "note": "Dinh cao lich su truoc khung hoang tai chinh 2008 (chuoi Nomisma bat dau tu 2008)"
+      },
+      {
+        "year": 2020,
+        "value": 1811.5
+      },
+      {
+        "year": 2021,
+        "value": 1844.9
+      },
+      {
+        "year": 2022,
+        "value": 1895.6
+      }
+    ],
+    "sources": [
+      {
+        "title": "CEIC Data - Italy Residential Property Price: Average (Nomisma)",
+        "url": "https://www.ceicdata.com/en/italy/residential-property-price/residential-property-price-average"
+      }
+    ],
+    "currency": "EUR",
+    "valueMultiplier": 1,
+    "purchasable": true
+  }
+]

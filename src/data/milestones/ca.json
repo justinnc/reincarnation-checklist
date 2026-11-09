@@ -211,11 +211,13 @@
         "vi": "Nhà đầu tư mua ở đỉnh mất gần như toàn bộ vốn trong vài ngày",
         "en": "Investors who bought near the peak lost nearly 100% within days"
       },
-      "exitPrice": 286.5,
+      "exitPrice": 0.09,
       "priceCurrency": "CAD",
-      "exitDate": "1996-05",
+      "exitDate": "1997-05",
       "risk": "high",
-      "capital": "low"
+      "capital": "low",
+      "entryPrice": 286.5,
+      "returnMultiple": 0.0003
     },
     "insiderTip": {
       "vi": "Biết trước rằng mẫu lõi bị “muối hóa” bằng vàng từ nhẫn cưới và vàng vụn mua ở chợ địa phương sẽ giúp bán khống chính xác thời điểm công bố kết quả kiểm tra độc lập của Strathcona (đầu tháng 5/1997).",

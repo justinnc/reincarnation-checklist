@@ -1,0 +1,887 @@
+[
+  {
+    "id": "fr-taux-change-usd-eur",
+    "country": "fr",
+    "name": {
+      "vi": "Tỷ giá USD/EUR (franc Pháp trước 1999)",
+      "en": "Official USD/EUR exchange rate (French franc before 1999)"
+    },
+    "unit": {
+      "vi": "EUR/USD (franc quy đổi sang EUR)",
+      "en": "EUR per USD (franc converted to EUR)"
+    },
+    "quality": "A",
+    "note": {
+      "vi": "Nguồn: World Bank, tỷ giá chính thức bình quân năm (PA.NUS.FCRF). Trước 1999 là franc Pháp (FRF) trên USD, quy đổi sang EUR theo tỷ giá chuyển đổi không thể đảo ngược 6,55957 FRF = 1 EUR (áp dụng từ 1/1/1999). Từ 1999 là tỷ giá EUR/USD thực tế (đồng euro là đơn vị kế toán từ 1999, tiền giấy/xu lưu hành từ 2002).",
+      "en": "Source: World Bank official exchange rate, period average (PA.NUS.FCRF). Pre-1999 figures are French franc (FRF) per USD, converted to EUR at the irrevocable rate of 6.55957 FRF = 1 EUR (fixed 1 Jan 1999). From 1999 onward these are actual EUR/USD rates (the euro was the accounting currency from 1999; notes and coins circulated from 2002)."
+    },
+    "kind": "point",
+    "series": [
+      {
+        "year": 1986,
+        "value": 1.0565,
+        "note": "Converti de FRF/USD (6.93) au taux irrevocable 6,55957 FRF = 1 EUR"
+      },
+      {
+        "year": 1987,
+        "value": 0.9162,
+        "note": "Converti de FRF/USD (6.01) au taux irrevocable 6,55957 FRF = 1 EUR"
+      },
+      {
+        "year": 1988,
+        "value": 0.9086,
+        "note": "Converti de FRF/USD (5.96) au taux irrevocable 6,55957 FRF = 1 EUR"
+      },
+      {
+        "year": 1989,
+        "value": 0.9726,
+        "note": "Converti de FRF/USD (6.38) au taux irrevocable 6,55957 FRF = 1 EUR"
+      },
+      {
+        "year": 1990,
+        "value": 0.8308,
+        "note": "Converti de FRF/USD (5.45) au taux irrevocable 6,55957 FRF = 1 EUR"
+      },
+      {
+        "year": 1991,
+        "value": 0.8598,
+        "note": "Converti de FRF/USD (5.64) au taux irrevocable 6,55957 FRF = 1 EUR"
+      },
+      {
+        "year": 1992,
+        "value": 0.8065,
+        "note": "Converti de FRF/USD (5.29) au taux irrevocable 6,55957 FRF = 1 EUR"
+      },
+      {
+        "year": 1993,
+        "value": 0.8629,
+        "note": "Converti de FRF/USD (5.66) au taux irrevocable 6,55957 FRF = 1 EUR"
+      },
+      {
+        "year": 1994,
+        "value": 0.8461,
+        "note": "Converti de FRF/USD (5.55) au taux irrevocable 6,55957 FRF = 1 EUR"
+      },
+      {
+        "year": 1995,
+        "value": 0.7607,
+        "note": "Converti de FRF/USD (4.99) au taux irrevocable 6,55957 FRF = 1 EUR"
+      },
+      {
+        "year": 1996,
+        "value": 0.7805,
+        "note": "Converti de FRF/USD (5.12) au taux irrevocable 6,55957 FRF = 1 EUR"
+      },
+      {
+        "year": 1997,
+        "value": 0.8903,
+        "note": "Converti de FRF/USD (5.84) au taux irrevocable 6,55957 FRF = 1 EUR"
+      },
+      {
+        "year": 1998,
+        "value": 0.8994,
+        "note": "Converti de FRF/USD (5.9) au taux irrevocable 6,55957 FRF = 1 EUR"
+      },
+      {
+        "year": 1999,
+        "value": 0.94
+      },
+      {
+        "year": 2000,
+        "value": 1.08
+      },
+      {
+        "year": 2001,
+        "value": 1.12
+      },
+      {
+        "year": 2002,
+        "value": 1.06
+      },
+      {
+        "year": 2003,
+        "value": 0.88
+      },
+      {
+        "year": 2004,
+        "value": 0.8
+      },
+      {
+        "year": 2005,
+        "value": 0.8
+      },
+      {
+        "year": 2006,
+        "value": 0.8
+      },
+      {
+        "year": 2007,
+        "value": 0.73
+      },
+      {
+        "year": 2008,
+        "value": 0.68
+      },
+      {
+        "year": 2009,
+        "value": 0.72
+      },
+      {
+        "year": 2010,
+        "value": 0.75
+      },
+      {
+        "year": 2011,
+        "value": 0.72
+      },
+      {
+        "year": 2012,
+        "value": 0.78
+      },
+      {
+        "year": 2013,
+        "value": 0.75
+      },
+      {
+        "year": 2014,
+        "value": 0.75
+      },
+      {
+        "year": 2015,
+        "value": 0.9
+      },
+      {
+        "year": 2016,
+        "value": 0.9
+      },
+      {
+        "year": 2017,
+        "value": 0.89
+      },
+      {
+        "year": 2018,
+        "value": 0.85
+      },
+      {
+        "year": 2019,
+        "value": 0.89
+      },
+      {
+        "year": 2020,
+        "value": 0.88
+      },
+      {
+        "year": 2021,
+        "value": 0.85
+      },
+      {
+        "year": 2022,
+        "value": 0.95
+      },
+      {
+        "year": 2023,
+        "value": 0.92
+      },
+      {
+        "year": 2024,
+        "value": 0.92
+      },
+      {
+        "year": 2025,
+        "value": 0.88
+      }
+    ],
+    "sources": [
+      {
+        "title": "World Bank - Official exchange rate (LCU per US$, period average), PA.NUS.FCRF",
+        "url": "https://data.worldbank.org/indicator/PA.NUS.FCRF?locations=FR"
+      },
+      {
+        "title": "Argos Finance - Official exchange rate annual series by country (World Bank data), France/Italy/etc.",
+        "url": "https://argos-finance.fr/en/macro/finance/taux-de-change-officiel"
+      }
+    ],
+    "currency": "EUR",
+    "valueMultiplier": 1,
+    "purchasable": false
+  },
+  {
+    "id": "fr-smic-horaire",
+    "country": "fr",
+    "name": {
+      "vi": "SMIC (lương tối thiểu liên ngành) theo giờ",
+      "en": "SMIC (national minimum wage) hourly rate"
+    },
+    "unit": {
+      "vi": "EUR/giờ (franc quy đổi trước 1999)",
+      "en": "EUR/hour (franc converted before 1999)"
+    },
+    "quality": "A",
+    "note": {
+      "vi": "SMIC la luong toi thieu lien nganh hop phap duy nhat tai Phap, ap dung cho moi nganh. Gia tri la muc brut gio co hieu luc tai ngay duoc ghi chu (thuong thay doi giua nam truoc 2010, tu 2010 chi dieu chinh 1/1 hang nam, co them dieu chinh dot xuat khi lam phat cao). Truoc 1999 la franc, quy doi theo ty gia khong the dao nguoc 6,55957 FRF = 1 EUR.",
+      "en": "The SMIC is France's single statutory minimum wage covering all sectors. Values are the gross hourly rate in force on the noted date (revaluations happened mid-year before 2010; since 2010 the main revaluation is 1 January, with extra ad-hoc bumps during high inflation). Pre-1999 figures are francs, converted at the irrevocable rate of 6.55957 FRF = 1 EUR."
+    },
+    "kind": "point",
+    "series": [
+      {
+        "year": 1986,
+        "value": 4.1039,
+        "note": "SMIC horaire brut 26.92 FRF, en vigueur a partir du 1/7/1986, converti au taux irrevocable"
+      },
+      {
+        "year": 1990,
+        "value": 4.7686,
+        "note": "SMIC horaire brut 31.28 FRF, en vigueur a partir du 1/7/1990, converti au taux irrevocable"
+      },
+      {
+        "year": 1995,
+        "value": 5.6376,
+        "note": "SMIC horaire brut 36.98 FRF, en vigueur a partir du 1/7/1995, converti au taux irrevocable"
+      },
+      {
+        "year": 1998,
+        "value": 6.1315,
+        "note": "SMIC horaire brut 40.22 FRF, en vigueur a partir du 1/7/1998, converti au taux irrevocable"
+      },
+      {
+        "year": 2000,
+        "value": 6.21,
+        "note": "SMIC horaire brut en vigueur a partir du 1/1/2000, en francs (40,72 F) converti en euro"
+      },
+      {
+        "year": 2005,
+        "value": 8.03,
+        "note": "SMIC horaire brut en vigueur a partir du 1/7/2005"
+      },
+      {
+        "year": 2010,
+        "value": 8.86,
+        "note": "SMIC horaire brut en vigueur a partir du 1/1/2010"
+      },
+      {
+        "year": 2015,
+        "value": 9.61,
+        "note": "SMIC horaire brut en vigueur a partir du 1/1/2015"
+      },
+      {
+        "year": 2020,
+        "value": 10.15,
+        "note": "SMIC horaire brut en vigueur a partir du 1/1/2020"
+      },
+      {
+        "year": 2024,
+        "value": 11.65,
+        "note": "SMIC horaire brut en vigueur a partir du 1/1/2024, puis 11,88 EUR au 1/11/2024"
+      },
+      {
+        "year": 2025,
+        "value": 11.88,
+        "note": "SMIC horaire brut en vigueur a partir du valeur en vigueur depuis le 1/11/2024, inchangee en 2025 (revalorisation suivante au 1/1/2026)"
+      }
+    ],
+    "sources": [
+      {
+        "title": "AOPS Conseil - Tableau de l'historique du SMIC en France (source Insee)",
+        "url": "https://www.aops.fr/indices/economie/historique-smic"
+      },
+      {
+        "title": "Ministere du Travail - Le SMIC (salaire minimum de croissance)",
+        "url": "https://travail-emploi.gouv.fr/le-smic-salaire-minimum-de-croissance"
+      },
+      {
+        "title": "Insee - Salaire minimum interprofessionnel de croissance (Smic)",
+        "url": "https://www.insee.fr/fr/statistiques/1375188"
+      }
+    ],
+    "currency": "EUR",
+    "valueMultiplier": 1,
+    "purchasable": false
+  },
+  {
+    "id": "fr-prix-or-gramme",
+    "country": "fr",
+    "name": {
+      "vi": "Gia vang (LBMA, cuoi nam) theo gram",
+      "en": "Gold price (LBMA, year-end) per gram"
+    },
+    "unit": {
+      "vi": "EUR/gram vang 24 carat",
+      "en": "EUR per gram, 24-carat fine gold"
+    },
+    "quality": "B",
+    "note": {
+      "vi": "Gia vang giao ngay LBMA (London) cuoi nam, quy doi sang EUR theo ty gia cuoi nam cung ngay (truoc 1999 dung franc Phap quy doi theo ty gia khong the dao nguoc 6,55957 FRF = 1 EUR). Day la gia ban buon London, khong phai gia ban le tai Phap (gia ban le co them thue/phi gia cong).",
+      "en": "LBMA London spot gold price at year-end, converted to EUR at the same-day year-end exchange rate (pre-1999 figures use the French franc converted at the irrevocable rate of 6.55957 FRF = 1 EUR). This is the London wholesale price, not the French retail price (retail adds dealer premiums/fabrication fees)."
+    },
+    "kind": "point",
+    "series": [
+      {
+        "year": 1986,
+        "value": 12.3
+      },
+      {
+        "year": 1987,
+        "value": 12.67
+      },
+      {
+        "year": 1988,
+        "value": 12.18
+      },
+      {
+        "year": 1989,
+        "value": 11.31
+      },
+      {
+        "year": 1990,
+        "value": 9.71
+      },
+      {
+        "year": 1991,
+        "value": 8.97
+      },
+      {
+        "year": 1992,
+        "value": 8.98
+      },
+      {
+        "year": 1993,
+        "value": 11.32
+      },
+      {
+        "year": 1994,
+        "value": 10.04
+      },
+      {
+        "year": 1995,
+        "value": 9.29
+      },
+      {
+        "year": 1996,
+        "value": 9.48
+      },
+      {
+        "year": 1997,
+        "value": 8.52
+      },
+      {
+        "year": 1998,
+        "value": 7.93
+      },
+      {
+        "year": 1999,
+        "value": 9.31
+      },
+      {
+        "year": 2000,
+        "value": 9.53
+      },
+      {
+        "year": 2001,
+        "value": 10.08
+      },
+      {
+        "year": 2002,
+        "value": 10.67
+      },
+      {
+        "year": 2003,
+        "value": 10.69
+      },
+      {
+        "year": 2004,
+        "value": 10.28
+      },
+      {
+        "year": 2005,
+        "value": 13.92
+      },
+      {
+        "year": 2006,
+        "value": 15.44
+      },
+      {
+        "year": 2007,
+        "value": 18.21
+      },
+      {
+        "year": 2008,
+        "value": 19.85
+      },
+      {
+        "year": 2009,
+        "value": 24.42
+      },
+      {
+        "year": 2010,
+        "value": 34.06
+      },
+      {
+        "year": 2011,
+        "value": 38.0
+      },
+      {
+        "year": 2012,
+        "value": 40.31
+      },
+      {
+        "year": 2013,
+        "value": 28.03
+      },
+      {
+        "year": 2014,
+        "value": 31.85
+      },
+      {
+        "year": 2015,
+        "value": 31.23
+      },
+      {
+        "year": 2016,
+        "value": 35.13
+      },
+      {
+        "year": 2017,
+        "value": 34.73
+      },
+      {
+        "year": 2018,
+        "value": 35.93
+      },
+      {
+        "year": 2019,
+        "value": 43.42
+      },
+      {
+        "year": 2020,
+        "value": 49.42
+      },
+      {
+        "year": 2021,
+        "value": 51.3
+      },
+      {
+        "year": 2022,
+        "value": 54.66
+      },
+      {
+        "year": 2023,
+        "value": 60.35
+      },
+      {
+        "year": 2024,
+        "value": 80.77
+      },
+      {
+        "year": 2025,
+        "value": 119.36,
+        "note": "Cours de fin d'annee (30/12/2025, LBMA Gold Price PM); annee en forte hausse (+47,8% en EUR)"
+      }
+    ],
+    "sources": [
+      {
+        "title": "SimianX - Prix de l'or par annee 1971-2026: once et gramme en euros (LBMA Gold Price PM)",
+        "url": "https://www.simianx.ai/fr/stories/gold-price-by-year-every-year-1971-2026-table"
+      }
+    ],
+    "currency": "EUR",
+    "valueMultiplier": 1,
+    "purchasable": true
+  },
+  {
+    "id": "fr-prix-essence-litre",
+    "country": "fr",
+    "name": {
+      "vi": "Gia xang (essence/SP95-SP98) theo lit",
+      "en": "Petrol price (essence/SP95-SP98) per litre"
+    },
+    "unit": {
+      "vi": "EUR/lit (franc quy doi truoc 1999)",
+      "en": "EUR/litre (franc converted before 1999)"
+    },
+    "quality": "B",
+    "note": {
+      "vi": "Gia ban le trung binh nam, da bao gom thue (TTC). Loai xang tham chieu thay doi theo thoi ky do thi truong thay doi (essence ordinaire truoc nhung nam 1990, roi SP98, roi SP95/SP95-E10 tro thanh pho bien nhat), nen chuoi khong hoan toan dong nhat 1 loai xang xuyen suot - xem ghi chu tung diem. Truoc 1999 la franc, quy doi theo ty gia 6,55957 FRF = 1 EUR.",
+      "en": "Average annual retail price, tax-included (TTC). The reference petrol grade changes over time as the market evolved (ordinary leaded petrol pre-1990s, then SP98, then SP95/SP95-E10 as the most common grade today), so the series is not a single uniform product throughout - see per-point notes. Pre-1999 figures are francs, converted at 6.55957 FRF = 1 EUR."
+    },
+    "kind": "point",
+    "series": [
+      {
+        "year": 1986,
+        "value": 0.7318,
+        "note": "Essence ordinaire, 4.8 FRF/litre, converti au taux irrevocable"
+      },
+      {
+        "year": 1990,
+        "value": 0.8156,
+        "note": "Essence ordinaire, 5.35 FRF/litre, converti au taux irrevocable"
+      },
+      {
+        "year": 1995,
+        "value": 0.8674,
+        "note": "Essence ordinaire, 5.69 FRF/litre, converti au taux irrevocable"
+      },
+      {
+        "year": 1998,
+        "value": 0.9802,
+        "note": "Essence ordinaire, 6.43 FRF/litre, converti au taux irrevocable"
+      },
+      {
+        "year": 2000,
+        "value": 1.11,
+        "note": "SP98 TTC, moyenne annuelle (Insee serie 000442589)"
+      },
+      {
+        "year": 2005,
+        "value": 1.18,
+        "note": "SP98 TTC, moyenne annuelle (Insee serie 000442589)"
+      },
+      {
+        "year": 2010,
+        "value": 1.361,
+        "note": "SP95 TTC, moyenne annuelle (SDES/carbu.fr)"
+      },
+      {
+        "year": 2015,
+        "value": 1.369,
+        "note": "SP95 TTC, moyenne annuelle (SDES/carbu.fr)"
+      },
+      {
+        "year": 2020,
+        "value": 1.339,
+        "note": "SP95-E10 TTC, moyenne annuelle (SDES)"
+      },
+      {
+        "year": 2022,
+        "value": 1.837,
+        "note": "SP95-E10 TTC, moyenne annuelle (SDES)"
+      },
+      {
+        "year": 2024,
+        "value": 1.784,
+        "note": "SP95-E10 TTC, moyenne annuelle (SDES)"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Jean-Baptiste Noe - Quelle evolution pour le prix de l'essence? (tableau franc courant 1960-2007)",
+        "url": "https://www.jbnoe.fr/IMG/pdf/JB_Noe_-Evolution_du_prix_essence.pdf"
+      },
+      {
+        "title": "eco3min.fr - Evolution du prix des carburants depuis 1992 (serie Insee)",
+        "url": "https://eco3min.fr/evolution-prix-carburants/"
+      },
+      {
+        "title": "carbu.fr - Historique du prix des carburants en France depuis 2007 (SDES)",
+        "url": "https://carbu.fr/historique/"
+      }
+    ],
+    "currency": "EUR",
+    "valueMultiplier": 1,
+    "purchasable": true
+  },
+  {
+    "id": "fr-prix-big-mac",
+    "country": "fr",
+    "name": {
+      "vi": "Gia Big Mac (trung binh khu vuc dong Euro)",
+      "en": "Big Mac price (euro-area average)"
+    },
+    "unit": {
+      "vi": "EUR/chiec",
+      "en": "EUR per burger"
+    },
+    "quality": "B",
+    "note": {
+      "vi": "The Economist cong bo mot muc gia Big Mac duy nhat cho ca khu vuc dong Euro (ma 'EUZ' trong du lieu goc), khong tach rieng tung nuoc; do do gia nay dai dien cho ca Phap va cac nuoc dong Euro khac, khong phai gia nieu yet rieng tai Phap (gia thuc te tai Phap co the chenh lech vai %). Diem moi nam lay tu lan khao sat dau nam (thang 1 hoac 4).",
+      "en": "The Economist publishes a single Big Mac price for the whole euro area ('EUZ' in the raw dataset), not broken out by country; so this price represents the euro area including France, not a France-specific menu price (actual French prices can differ by a few percent). One point per year taken from the first survey wave of that year (January or April)."
+    },
+    "kind": "point",
+    "series": [
+      {
+        "year": 2000,
+        "value": 2.56,
+        "note": "Premiere annee de l'indice Big Mac publie en continu (donnees semestrielles, valeur de janvier/avril retenue)"
+      },
+      {
+        "year": 2001,
+        "value": 2.57
+      },
+      {
+        "year": 2002,
+        "value": 2.67
+      },
+      {
+        "year": 2003,
+        "value": 2.71
+      },
+      {
+        "year": 2004,
+        "value": 2.74
+      },
+      {
+        "year": 2005,
+        "value": 2.92
+      },
+      {
+        "year": 2006,
+        "value": 2.91
+      },
+      {
+        "year": 2007,
+        "value": 2.94
+      },
+      {
+        "year": 2008,
+        "value": 3.37
+      },
+      {
+        "year": 2009,
+        "value": 3.31
+      },
+      {
+        "year": 2010,
+        "value": 3.36
+      },
+      {
+        "year": 2011,
+        "value": 3.44
+      },
+      {
+        "year": 2012,
+        "value": 3.49
+      },
+      {
+        "year": 2013,
+        "value": 3.59
+      },
+      {
+        "year": 2014,
+        "value": 3.66
+      },
+      {
+        "year": 2015,
+        "value": 3.68
+      },
+      {
+        "year": 2016,
+        "value": 3.72
+      },
+      {
+        "year": 2017,
+        "value": 3.88
+      },
+      {
+        "year": 2018,
+        "value": 3.95
+      },
+      {
+        "year": 2019,
+        "value": 4.05
+      },
+      {
+        "year": 2020,
+        "value": 4.12
+      },
+      {
+        "year": 2021,
+        "value": 4.25
+      },
+      {
+        "year": 2022,
+        "value": 4.42
+      },
+      {
+        "year": 2023,
+        "value": 4.81
+      },
+      {
+        "year": 2024,
+        "value": 5.39
+      },
+      {
+        "year": 2025,
+        "value": 5.67
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Economist / GitHub TheEconomist/big-mac-data - big-mac-full-index.csv",
+        "url": "https://github.com/TheEconomist/big-mac-data/blob/master/output-data/big-mac-full-index.csv"
+      }
+    ],
+    "currency": "EUR",
+    "valueMultiplier": 1,
+    "purchasable": true
+  },
+  {
+    "id": "fr-prix-baguette",
+    "country": "fr",
+    "name": {
+      "vi": "Gia banh mi baguette (250g)",
+      "en": "Price of a baguette (250g)"
+    },
+    "unit": {
+      "vi": "EUR/o banh mi",
+      "en": "EUR per baguette"
+    },
+    "quality": "B",
+    "note": {
+      "vi": "Gia ban le trung binh toan quoc tai tiem banh, quy ve 1 baguette 250g. 1986-1991 la uoc tinh/quy doi tu franc (Insee chi co chuoi gia chinh thuc tu 1992); 2023-2024 lay tu khao sat UFC-Que Choisir thay the cho chuoi Insee da ngung.",
+      "en": "Average national bakery retail price, normalised to a 250g baguette. 1986-1991 are franc-based estimates/conversions (Insee's official series only starts in 1992); 2023-2024 come from the UFC-Que Choisir survey that replaced the discontinued Insee series."
+    },
+    "kind": "point",
+    "series": [
+      {
+        "year": 1986,
+        "value": 0.43,
+        "note": "Uoc tinh cua Histoprix.fr tu 2,84 FRF (Insee chi cong bo gia binh quan banh mi tu 1992); quy doi theo ty gia 6,55957 FRF = 1 EUR"
+      },
+      {
+        "year": 1987,
+        "value": 0.45
+      },
+      {
+        "year": 1988,
+        "value": 0.46
+      },
+      {
+        "year": 1989,
+        "value": 0.48
+      },
+      {
+        "year": 1990,
+        "value": 0.48
+      },
+      {
+        "year": 1991,
+        "value": 0.48
+      },
+      {
+        "year": 1992,
+        "value": 0.54
+      },
+      {
+        "year": 1996,
+        "value": 0.6
+      },
+      {
+        "year": 1999,
+        "value": 0.63
+      },
+      {
+        "year": 2000,
+        "value": 0.64
+      },
+      {
+        "year": 2001,
+        "value": 0.66
+      },
+      {
+        "year": 2002,
+        "value": 0.68
+      },
+      {
+        "year": 2003,
+        "value": 0.71
+      },
+      {
+        "year": 2004,
+        "value": 0.74
+      },
+      {
+        "year": 2005,
+        "value": 0.75
+      },
+      {
+        "year": 2006,
+        "value": 0.77
+      },
+      {
+        "year": 2007,
+        "value": 0.8
+      },
+      {
+        "year": 2008,
+        "value": 0.83
+      },
+      {
+        "year": 2009,
+        "value": 0.84
+      },
+      {
+        "year": 2010,
+        "value": 0.84
+      },
+      {
+        "year": 2011,
+        "value": 0.86
+      },
+      {
+        "year": 2012,
+        "value": 0.87
+      },
+      {
+        "year": 2013,
+        "value": 0.87
+      },
+      {
+        "year": 2014,
+        "value": 0.87
+      },
+      {
+        "year": 2015,
+        "value": 0.86
+      },
+      {
+        "year": 2016,
+        "value": 0.87
+      },
+      {
+        "year": 2017,
+        "value": 0.87
+      },
+      {
+        "year": 2018,
+        "value": 0.88
+      },
+      {
+        "year": 2019,
+        "value": 0.88
+      },
+      {
+        "year": 2020,
+        "value": 0.88
+      },
+      {
+        "year": 2021,
+        "value": 0.9
+      },
+      {
+        "year": 2022,
+        "value": 0.93
+      },
+      {
+        "year": 2023,
+        "value": 1.06
+      },
+      {
+        "year": 2024,
+        "value": 1.07,
+        "note": "2023-2024: nguon UFC-Que Choisir (Insee ngung cong bo chuoi rieng cho banh mi baguette sau 2022)"
+      }
+    ],
+    "sources": [
+      {
+        "title": "75secondes.fr - Prix de la baguette de pain de 1900 a aujourd'hui (source Insee / UFC-Que Choisir)",
+        "url": "https://www.75secondes.fr/actualites/prix-de-la-baguette-de-pain-de-1900-a-aujourdhui"
+      },
+      {
+        "title": "Histoprix.fr - Prix de la baguette en 1986: 2,84 F la baguette",
+        "url": "https://histoprix.fr/prix-baguette-1986/"
+      }
+    ],
+    "currency": "EUR",
+    "valueMultiplier": 1,
+    "purchasable": true
+  }
+]

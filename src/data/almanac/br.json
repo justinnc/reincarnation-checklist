@@ -1,0 +1,661 @@
+[
+  {
+    "id": "br-cambio-oficial-usd-brl",
+    "country": "br",
+    "name": {
+      "vi": "Tỷ giá chính thức USD/BRL",
+      "en": "Official USD/BRL exchange rate"
+    },
+    "unit": {
+      "vi": "real/USD (quy đổi)",
+      "en": "BRL per USD (converted)"
+    },
+    "quality": "A",
+    "note": {
+      "vi": "Tỷ giá chính thức bình quân năm theo Ngân hàng Thế giới (IMF IFS), chỉ số PA.NUS.FCRF. QUAN TRỌNG: Brazil đổi tiền nhiều lần trong giai đoạn này (cruzeiro -> cruzado 1986 -> cruzado novo 1989 -> cruzeiro 1990 -> cruzeiro real 1993 -> real 1994, mỗi lần bỏ bớt 3 số 0 hoặc hơn). World Bank quy đổi toàn bộ chuỗi về đơn vị tiền tệ hiện hành (real, BRL) nên các giá trị 1986-1993 cực nhỏ (ví dụ 1986 ~ 0.0000000059) phản ánh siêu lạm phát + nhiều lần đổi tiền, KHÔNG phải lỗi. Không dùng trực tiếp để so sánh sức mua qua các năm nếu không quy đổi lại theo đơn vị tiền tệ gốc tại từng thời điểm.",
+      "en": "Official annual-average exchange rate from the World Bank (IMF IFS), indicator PA.NUS.FCRF. IMPORTANT: Brazil changed its currency unit several times over this span (cruzeiro -> cruzado 1986 -> cruzado novo 1989 -> cruzeiro 1990 -> cruzeiro real 1993 -> real 1994, each dropping 3+ zeros). The World Bank rescales the whole series into the currency unit used as of the latest update (the real, BRL), so the 1986-1993 values are extremely tiny (e.g. ~0.0000000059 in 1986) reflecting hyperinflation plus repeated redenomination, not an error. Do not use these pre-1994 figures for direct year-to-year purchasing-power comparisons without re-expressing them in the currency unit actually in circulation at the time."
+    },
+    "kind": "point",
+    "currency": "BRL",
+    "valueMultiplier": 1,
+    "purchasable": false,
+    "series": [
+      {
+        "year": 1986,
+        "value": 5.9096822674925e-09
+      },
+      {
+        "year": 1987,
+        "value": 1.6976307824584e-08
+      },
+      {
+        "year": 1988,
+        "value": 1.1354767374037e-07
+      },
+      {
+        "year": 1989,
+        "value": 1.22638743473743e-06
+      },
+      {
+        "year": 1990,
+        "value": 2.95572678942699e-05
+      },
+      {
+        "year": 1991,
+        "value": 0.000175961443086023
+      },
+      {
+        "year": 1992,
+        "value": 0.00195302352248811
+      },
+      {
+        "year": 1993,
+        "value": 0.038276610926673
+      },
+      {
+        "year": 1994,
+        "value": 0.664683514070576
+      },
+      {
+        "year": 1995,
+        "value": 0.917666666666666
+      },
+      {
+        "year": 1996,
+        "value": 1.0051
+      },
+      {
+        "year": 1997,
+        "value": 1.07799166666666
+      },
+      {
+        "year": 1998,
+        "value": 1.16051666666666
+      },
+      {
+        "year": 1999,
+        "value": 1.81393284657212
+      },
+      {
+        "year": 2000,
+        "value": 1.82942312207561
+      },
+      {
+        "year": 2001,
+        "value": 2.34963170932244
+      },
+      {
+        "year": 2002,
+        "value": 2.92036301775519
+      },
+      {
+        "year": 2003,
+        "value": 3.07747511847801
+      },
+      {
+        "year": 2004,
+        "value": 2.92511944951586
+      },
+      {
+        "year": 2005,
+        "value": 2.43439003623188
+      },
+      {
+        "year": 2006,
+        "value": 2.17532666666666
+      },
+      {
+        "year": 2007,
+        "value": 1.94705833333333
+      },
+      {
+        "year": 2008,
+        "value": 1.83376666666666
+      },
+      {
+        "year": 2009,
+        "value": 1.99942817314425
+      },
+      {
+        "year": 2010,
+        "value": 1.75922671058717
+      },
+      {
+        "year": 2011,
+        "value": 1.67282875525659
+      },
+      {
+        "year": 2012,
+        "value": 1.95306861112486
+      },
+      {
+        "year": 2013,
+        "value": 2.15608915126311
+      },
+      {
+        "year": 2014,
+        "value": 2.35295196276668
+      },
+      {
+        "year": 2015,
+        "value": 3.32690438276879
+      },
+      {
+        "year": 2016,
+        "value": 3.4913134215727
+      },
+      {
+        "year": 2017,
+        "value": 3.19138944630048
+      },
+      {
+        "year": 2018,
+        "value": 3.65382536145755
+      },
+      {
+        "year": 2019,
+        "value": 3.9444710972507
+      },
+      {
+        "year": 2020,
+        "value": 5.1551787875128
+      },
+      {
+        "year": 2021,
+        "value": 5.39440078962503
+      },
+      {
+        "year": 2022,
+        "value": 5.16397029102111
+      },
+      {
+        "year": 2023,
+        "value": 4.99437976287199
+      },
+      {
+        "year": 2024,
+        "value": 5.38893490570959
+      },
+      {
+        "year": 2025,
+        "value": 5.58728623856661
+      }
+    ],
+    "sources": [
+      {
+        "title": "World Bank - Official exchange rate (LCU per US$, period average), Brazil (PA.NUS.FCRF)",
+        "url": "https://data.worldbank.org/indicator/PA.NUS.FCRF?locations=BR"
+      },
+      {
+        "title": "World Bank API - PA.NUS.FCRF, Brazil, 1986-2025 (raw data)",
+        "url": "https://api.worldbank.org/v2/country/BR/indicator/PA.NUS.FCRF?format=json&date=1986:2025"
+      }
+    ]
+  },
+  {
+    "id": "br-salario-minimo",
+    "country": "br",
+    "name": {
+      "vi": "Lương tối thiểu quốc gia",
+      "en": "National minimum wage (salário mínimo)"
+    },
+    "unit": {
+      "vi": "real/tháng",
+      "en": "BRL/month"
+    },
+    "quality": "A",
+    "note": {
+      "vi": "Lương tối thiểu quốc gia (salário mínimo), mức cao nhất có hiệu lực trong năm (sau các lần điều chỉnh bằng Nghị định/Luật). Đây là mức lương tối thiểu thống nhất toàn quốc theo luật (khác với Ấn Độ không có mức sàn pháp lý thống nhất).",
+      "en": "National minimum wage (salário mínimo), the highest value in force during the year (after any in-year adjustments by decree/law). Unlike India, Brazil has a single legally binding nationwide minimum wage."
+    },
+    "kind": "point",
+    "currency": "BRL",
+    "valueMultiplier": 1,
+    "purchasable": false,
+    "series": [
+      {
+        "year": 1995,
+        "value": 100.0
+      },
+      {
+        "year": 1996,
+        "value": 112.0
+      },
+      {
+        "year": 1997,
+        "value": 120.0
+      },
+      {
+        "year": 1998,
+        "value": 130.0
+      },
+      {
+        "year": 1999,
+        "value": 136.0
+      },
+      {
+        "year": 2000,
+        "value": 151.0
+      },
+      {
+        "year": 2001,
+        "value": 180.0
+      },
+      {
+        "year": 2002,
+        "value": 200.0
+      },
+      {
+        "year": 2003,
+        "value": 240.0
+      },
+      {
+        "year": 2004,
+        "value": 260.0
+      },
+      {
+        "year": 2005,
+        "value": 300.0
+      },
+      {
+        "year": 2006,
+        "value": 350.0
+      },
+      {
+        "year": 2007,
+        "value": 380.0
+      },
+      {
+        "year": 2008,
+        "value": 415.0
+      },
+      {
+        "year": 2009,
+        "value": 465.0
+      },
+      {
+        "year": 2010,
+        "value": 510.0
+      },
+      {
+        "year": 2011,
+        "value": 545.0
+      },
+      {
+        "year": 2012,
+        "value": 622.0
+      },
+      {
+        "year": 2013,
+        "value": 678.0
+      },
+      {
+        "year": 2014,
+        "value": 724.0
+      },
+      {
+        "year": 2015,
+        "value": 788.0
+      },
+      {
+        "year": 2016,
+        "value": 880.0
+      },
+      {
+        "year": 2017,
+        "value": 937.0
+      },
+      {
+        "year": 2018,
+        "value": 954.0
+      },
+      {
+        "year": 2019,
+        "value": 998.0
+      },
+      {
+        "year": 2020,
+        "value": 1039.0
+      },
+      {
+        "year": 2021,
+        "value": 1100.0
+      },
+      {
+        "year": 2022,
+        "value": 1212.0
+      },
+      {
+        "year": 2023,
+        "value": 1320.0
+      },
+      {
+        "year": 2024,
+        "value": 1412.0
+      },
+      {
+        "year": 2025,
+        "value": 1518.0
+      }
+    ],
+    "sources": [
+      {
+        "title": "FDR - Salário mínimo de 1995 a 2025: veja a evolução ano a ano",
+        "url": "https://fdr.com.br/2025/11/30/salario-minimo-de-1995-a-2025-veja-a-evolucao-ano-a-ano-e-o-impacto-no-seu-bolso/"
+      },
+      {
+        "title": "TRT3 - Salário Mínimo (tabela oficial por decreto/lei)",
+        "url": "https://portal.trt3.jus.br/internet/servicos/valores/salario-minimo"
+      },
+      {
+        "title": "IPARDES - Tabela salário mínimo (decretos)",
+        "url": "https://www.ipardes.pr.gov.br/sites/ipardes/arquivos_restritos/files/documento/2025-01/sal%C3%A1rio_m%C3%ADnimo.pdf"
+      }
+    ]
+  },
+  {
+    "id": "br-preco-ouro-grama",
+    "country": "br",
+    "name": {
+      "vi": "Giá vàng (quy đổi giá thế giới sang real)",
+      "en": "Gold price (world price converted to reais)"
+    },
+    "unit": {
+      "vi": "real/gram",
+      "en": "BRL/gram"
+    },
+    "quality": "B",
+    "note": {
+      "vi": "Giá vàng cuối năm (31/12), quy đổi từ giá vàng thế giới (London PM fix/spot) sang real theo tỷ giá PTAX của ngày, trước thuế/phí giao dịch trong nước. Là giá cuối kỳ, không phải bình quân năm, nên dao động mạnh hơn giá bán lẻ thực tế trong nước Brazil.",
+      "en": "Year-end (31 Dec) gold price, converting the world gold price (London PM fix/spot) to reais at that day's PTAX exchange rate, before domestic taxes/dealer fees. These are end-of-year spot prices, not annual averages, so they swing more than realised Brazilian retail prices."
+    },
+    "kind": "point",
+    "currency": "BRL",
+    "valueMultiplier": 1,
+    "purchasable": true,
+    "series": [
+      {
+        "year": 2004,
+        "value": 41.52
+      },
+      {
+        "year": 2005,
+        "value": 49.08
+      },
+      {
+        "year": 2006,
+        "value": 43.52
+      },
+      {
+        "year": 2007,
+        "value": 47.44
+      },
+      {
+        "year": 2008,
+        "value": 66.02
+      },
+      {
+        "year": 2009,
+        "value": 61.37
+      },
+      {
+        "year": 2010,
+        "value": 75.94
+      },
+      {
+        "year": 2011,
+        "value": 93.9
+      },
+      {
+        "year": 2012,
+        "value": 110.12
+      },
+      {
+        "year": 2013,
+        "value": 91.17
+      },
+      {
+        "year": 2014,
+        "value": 101.02
+      },
+      {
+        "year": 2015,
+        "value": 134.88
+      },
+      {
+        "year": 2016,
+        "value": 120.25
+      },
+      {
+        "year": 2017,
+        "value": 139.06
+      },
+      {
+        "year": 2018,
+        "value": 159.22
+      },
+      {
+        "year": 2019,
+        "value": 196.18
+      },
+      {
+        "year": 2020,
+        "value": 316.27
+      },
+      {
+        "year": 2021,
+        "value": 327.48
+      },
+      {
+        "year": 2022,
+        "value": 310.28
+      },
+      {
+        "year": 2023,
+        "value": 323.07
+      },
+      {
+        "year": 2024,
+        "value": 524.57
+      },
+      {
+        "year": 2025,
+        "value": 764.31
+      }
+    ],
+    "sources": [
+      {
+        "title": "Corgano - Gold Price Today in Brazil: per Gram & 18K in Reais (year-end series since 2004)",
+        "url": "https://goldprice.corgano.com/brazil"
+      },
+      {
+        "title": "CCMBR - Cotação Histórica do Ouro (R$/g por ano)",
+        "url": "https://ccmbr.com.br/cotacao_ouro/anos.php"
+      }
+    ]
+  },
+  {
+    "id": "br-preco-gasolina",
+    "country": "br",
+    "name": {
+      "vi": "Giá xăng Gasolina C",
+      "en": "Gasolina C (petrol) price"
+    },
+    "unit": {
+      "vi": "real/lít",
+      "en": "BRL/litre"
+    },
+    "quality": "B",
+    "note": {
+      "vi": "2007-2016: giá bán lẻ bình quân năm toàn quốc theo khảo sát của ANP (Niên giám Thống kê ANP). 2020-2025: giá bình quân phân phối (không phải bán lẻ, không phải bình quân năm mà là một tháng cụ thể, do ANP công bố file mensal/semanal), nên các mốc này mang tính đại diện (snapshot) hơn là trung bình năm đầy đủ.",
+      "en": "2007-2016: nationwide annual-average retail price per the ANP (ANP Statistical Yearbook). 2020-2025: average distribution price (not retail, and a specific month rather than a full annual average, from ANP's monthly/weekly public files), so these points are representative snapshots rather than complete annual averages."
+    },
+    "kind": "point",
+    "currency": "BRL",
+    "valueMultiplier": 1,
+    "purchasable": true,
+    "series": [
+      {
+        "year": 2007,
+        "value": 2.508,
+        "note": "Média nacional anual (ANP/SDR)"
+      },
+      {
+        "year": 2010,
+        "value": 2.566,
+        "note": "Média nacional anual (ANP/SDR)"
+      },
+      {
+        "year": 2013,
+        "value": 2.854,
+        "note": "Média nacional anual (ANP/SDR)"
+      },
+      {
+        "year": 2016,
+        "value": 3.68,
+        "note": "Média nacional anual (ANP/SDR)"
+      },
+      {
+        "year": 2020,
+        "value": 3.834,
+        "note": "Preço médio de distribuição, Set/2020 (ANP, não é média anual)"
+      },
+      {
+        "year": 2022,
+        "value": 5.976,
+        "note": "Preço médio de distribuição, Jan/2022, pico pré-corte de ICMS/PIS-Cofins (ANP, mensal)"
+      },
+      {
+        "year": 2024,
+        "value": 5.323,
+        "note": "Preço médio de distribuição, Dez/2024 (ANP, mensal)"
+      },
+      {
+        "year": 2025,
+        "value": 5.382,
+        "note": "Preço médio de distribuição, Jan/2025 (ANP, mensal)"
+      }
+    ],
+    "sources": [
+      {
+        "title": "ANP - Anuário Estatístico 2017, Tabela 3.20 (Preço médio da gasolina C ao consumidor, 2007-2016)",
+        "url": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/publicacoes/anuario-estatistico/arquivos-anuario-estatistico-2017/tabelas/t3-20.xls"
+      },
+      {
+        "title": "ANP - Preço médio de distribuição de combustíveis líquidos no Brasil (mensal, a partir de set/2020)",
+        "url": "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/pdc/mensal/combustiveis-liquidos-brasil.xlsx"
+      }
+    ]
+  },
+  {
+    "id": "br-indice-big-mac",
+    "country": "br",
+    "name": {
+      "vi": "Giá bánh Big Mac (chỉ số Big Mac)",
+      "en": "Big Mac price (Big Mac Index)"
+    },
+    "unit": {
+      "vi": "real/cái",
+      "en": "BRL each"
+    },
+    "quality": "A",
+    "note": {
+      "vi": "Giá niêm yết Big Mac tại Brazil theo dữ liệu gốc của The Economist (kỳ khảo sát gần nhất của mỗi năm, thường là tháng 1 hoặc tháng 7).",
+      "en": "Listed Big Mac price in Brazil from The Economist's own dataset (the nearest survey round each year, usually January or July)."
+    },
+    "kind": "point",
+    "currency": "BRL",
+    "valueMultiplier": 1,
+    "purchasable": true,
+    "series": [
+      {
+        "year": 2000,
+        "value": 2.95,
+        "note": "Apr 2000"
+      },
+      {
+        "year": 2005,
+        "value": 5.9,
+        "note": "Jun 2005"
+      },
+      {
+        "year": 2010,
+        "value": 8.2,
+        "note": "Jan 2010"
+      },
+      {
+        "year": 2015,
+        "value": 13.5,
+        "note": "Jan 2015"
+      },
+      {
+        "year": 2020,
+        "value": 19.9,
+        "note": "Jan 2020"
+      },
+      {
+        "year": 2025,
+        "value": 23.9,
+        "note": "Jan 2025"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Economist - big-mac-data (GitHub repository, raw & full index CSV)",
+        "url": "https://github.com/TheEconomist/big-mac-data"
+      }
+    ]
+  },
+  {
+    "id": "br-indice-fipezap-m2",
+    "country": "br",
+    "name": {
+      "vi": "Giá bán nhà ở bình quân (Chỉ số FipeZap)",
+      "en": "Average home sale price (FipeZap Index)"
+    },
+    "unit": {
+      "vi": "real/m²",
+      "en": "BRL/m²"
+    },
+    "quality": "B",
+    "note": {
+      "vi": "Chỉ số FipeZap chỉ bắt đầu từ 2008 nên không có dữ liệu trước đó. Giá bình quân căn hộ rao bán tại các thành phố lớn (ban đầu ~16-20 thành phố, nay 56 thành phố, trong đó 22 thủ phủ bang). Số lượng/thành phần thành phố theo dõi thay đổi theo thời gian nên chuỗi không hoàn toàn đồng nhất phương pháp qua các năm.",
+      "en": "The FipeZap index only starts in 2008, so no earlier data exists. It tracks the average asking price of ready apartments for sale in major cities (initially about 16-20 cities, now 56, including 22 state capitals). The set of monitored cities has changed over time, so the series is not fully methodologically consistent year to year."
+    },
+    "kind": "point",
+    "currency": "BRL",
+    "valueMultiplier": 1,
+    "purchasable": true,
+    "series": [
+      {
+        "year": 2015,
+        "value": 7613,
+        "note": "Dez/2015, média de 20 cidades (Informe FipeZap dez/2015)"
+      },
+      {
+        "year": 2020,
+        "value": 7712,
+        "note": "Dez/2020, média ponderada de 50 cidades monitoradas (Informe FipeZap dez/2020)"
+      },
+      {
+        "year": 2025,
+        "value": 9069,
+        "note": "Jan/2025, média de 56 cidades (Informe FipeZap jan/2025)"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Fipe - Índice FipeZap de Venda Residencial, Informe de Dezembro de 2015",
+        "url": "https://downloads.fipe.org.br/indices/fipezap/fipezap-201512.pdf"
+      },
+      {
+        "title": "Fipe - Índice FipeZap de Venda Residencial, Informe de Dezembro de 2020",
+        "url": "https://downloads.fipe.org.br/indices/fipezap/fipezap-202012-residencial-venda.pdf"
+      },
+      {
+        "title": "Fipe - Índice FipeZap de Venda Residencial, Informe de Janeiro de 2025",
+        "url": "https://downloads.fipe.org.br/indices/fipezap/fipezap-202501-residencial-venda.pdf"
+      }
+    ]
+  }
+]

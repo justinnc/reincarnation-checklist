@@ -241,7 +241,8 @@
       "exitPrice": 38.25,
       "priceCurrency": "THB",
       "risk": "low",
-      "capital": "low"
+      "capital": "low",
+      "exitDate": "2025"
     },
     "insiderTip": {
       "vi": "Chính phủ cần IPO thành công sau khủng hoảng nên định giá hấp dẫn; PTT nắm độc quyền đường ống khí và cổ phần các công ty con như PTTEP — mua càng nhiều suất phân bổ càng tốt.",
@@ -339,7 +340,7 @@
       "returnMultiple": 1.11,
       "entryPrice": 622.14,
       "priceCurrency": "points",
-      "exitDate": "2006-12-20",
+      "exitDate": "2007-10",
       "risk": "high",
       "capital": "medium"
     },

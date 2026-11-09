@@ -1,0 +1,306 @@
+[
+  {
+    "id": "au-fx-usd-aud",
+    "country": "au",
+    "name": {
+      "vi": "Tỷ giá USD/AUD chính thức",
+      "en": "Official USD/AUD exchange rate"
+    },
+    "unit": {
+      "vi": "AUD/USD",
+      "en": "AUD per USD"
+    },
+    "quality": "A",
+    "note": {
+      "vi": "Tỷ giá chính thức bình quân năm theo Ngân hàng Thế giới (IMF IFS, mã PA.NUS.FCRF). Đô la Úc được thả nổi hoàn toàn từ tháng 12/1983. Dữ liệu 2025 chưa được World Bank công bố tại thời điểm tổng hợp nên không đưa vào.",
+      "en": "Official annual-average exchange rate from the World Bank (IMF IFS, code PA.NUS.FCRF). The Australian dollar was fully floated in December 1983. 2025 was not yet published by the World Bank at the time of research, so it is omitted."
+    },
+    "kind": "point",
+    "currency": "AUD",
+    "valueMultiplier": 1,
+    "purchasable": false,
+    "series": [
+      { "year": 1986, "value": 1.4960 },
+      { "year": 1987, "value": 1.4282 },
+      { "year": 1988, "value": 1.2799 },
+      { "year": 1989, "value": 1.2646 },
+      { "year": 1990, "value": 1.2811 },
+      { "year": 1991, "value": 1.2838 },
+      { "year": 1992, "value": 1.3616 },
+      { "year": 1993, "value": 1.4706 },
+      { "year": 1994, "value": 1.3678 },
+      { "year": 1995, "value": 1.3490 },
+      { "year": 1996, "value": 1.2779 },
+      { "year": 1997, "value": 1.3474 },
+      { "year": 1998, "value": 1.5918 },
+      { "year": 1999, "value": 1.5500 },
+      { "year": 2000, "value": 1.7248 },
+      { "year": 2001, "value": 1.9334 },
+      { "year": 2002, "value": 1.8406 },
+      { "year": 2003, "value": 1.5419 },
+      { "year": 2004, "value": 1.3598 },
+      { "year": 2005, "value": 1.3095 },
+      { "year": 2006, "value": 1.3280 },
+      { "year": 2007, "value": 1.1951 },
+      { "year": 2008, "value": 1.1922 },
+      { "year": 2009, "value": 1.2822 },
+      { "year": 2010, "value": 1.0902 },
+      { "year": 2011, "value": 0.9695 },
+      { "year": 2012, "value": 0.9658 },
+      { "year": 2013, "value": 1.0358 },
+      { "year": 2014, "value": 1.1094 },
+      { "year": 2015, "value": 1.3311 },
+      { "year": 2016, "value": 1.3452 },
+      { "year": 2017, "value": 1.3048 },
+      { "year": 2018, "value": 1.3384 },
+      { "year": 2019, "value": 1.4385 },
+      { "year": 2020, "value": 1.4531 },
+      { "year": 2021, "value": 1.3312 },
+      { "year": 2022, "value": 1.4417 },
+      { "year": 2023, "value": 1.5052 },
+      { "year": 2024, "value": 1.5154 }
+    ],
+    "sources": [
+      {
+        "title": "World Bank - Official exchange rate (LCU per US$, period average), Australia (PA.NUS.FCRF)",
+        "url": "https://data.worldbank.org/indicator/PA.NUS.FCRF?locations=AU"
+      },
+      {
+        "title": "World.Eco - Official exchange rate (LCU per US$, period average) in Australia",
+        "url": "https://economic.money/countries/australia/indicators/official-exchange-rate"
+      }
+    ]
+  },
+  {
+    "id": "au-minimum-wage",
+    "country": "au",
+    "name": {
+      "vi": "Lương tối thiểu quốc gia (theo tuần, 38 giờ)",
+      "en": "National Minimum Wage (weekly, 38-hour week)"
+    },
+    "unit": {
+      "vi": "AUD/tuần",
+      "en": "AUD/week"
+    },
+    "quality": "A",
+    "note": {
+      "vi": "Mức lương tối thiểu quốc gia (National Minimum Wage) cho lao động không thuộc diện 'award' hay thỏa ước lao động tập thể, áp dụng cho tuần làm việc 38 giờ, do Fair Work Commission (trước đây là Australian Industrial Relations Commission) quyết định hàng năm, thường có hiệu lực từ đầu tháng 7. Thiếu dữ liệu xác thực cho giai đoạn 1983-1993 (không có mức lương tối thiểu liên bang thống nhất trong giai đoạn này).",
+      "en": "The National Minimum Wage for employees not covered by an award or enterprise agreement, for a 38-hour week, set annually by the Fair Work Commission (formerly the Australian Industrial Relations Commission), usually effective from early July. No verified single national rate could be found for 1983-1993 (no unified federal minimum applied nationally in that period)."
+    },
+    "kind": "point",
+    "currency": "AUD",
+    "valueMultiplier": 1,
+    "purchasable": false,
+    "series": [
+      { "year": 1994, "value": 266.45, "note": "Hiệu lực từ tháng 9/1994, $7.01/giờ" },
+      { "year": 1995, "value": 274.45, "note": "Hiệu lực từ tháng 3/1995, $7.22/giờ" },
+      { "year": 1997, "value": 359.40, "note": "Hiệu lực từ tháng 4/1997, $9.45/giờ" },
+      { "year": 2000, "value": 400.40, "note": "Hiệu lực từ tháng 5/2000, $10.53/giờ" },
+      { "year": 2001, "value": 413.40, "note": "Hiệu lực từ tháng 5/2001, $10.87/giờ" },
+      { "year": 2010, "value": 569.90, "note": "Hiệu lực từ 1/7/2010, $15.00/giờ" },
+      { "year": 2020, "value": 753.80, "note": "Hiệu lực từ 1/7/2020, $19.84/giờ" },
+      { "year": 2022, "value": 812.60, "note": "Hiệu lực từ 1/7/2022, $21.38/giờ" },
+      { "year": 2023, "value": 882.80, "note": "Hiệu lực từ 1/7/2023, $23.23/giờ" },
+      { "year": 2024, "value": 915.90, "note": "Hiệu lực từ 1/7/2024, $24.10/giờ" },
+      { "year": 2025, "value": 948.00, "note": "Hiệu lực từ 1/7/2025, $24.95/giờ, tăng 3.5%" },
+      { "year": 2026, "value": 1004.90, "note": "Hiệu lực từ 1/7/2026, $26.44/giờ" }
+    ],
+    "sources": [
+      {
+        "title": "Wikipedia - Minimum wage law (Australia federal minimum wage table)",
+        "url": "https://en.wikipedia.org/wiki/Minimum_wage_law"
+      },
+      {
+        "title": "Fair Work Ombudsman - Minimum wages",
+        "url": "https://www.fairwork.gov.au/pay-and-wages/minimum-wages"
+      },
+      {
+        "title": "Fair Work Ombudsman - 2024-2025 Annual Wage Review",
+        "url": "https://www.fairwork.gov.au/about-us/workplace-laws/annual-wage-review/annual-wage-review-2024-2025"
+      },
+      {
+        "title": "WSI Minimum Wage Database - Australia (boeckler.de)",
+        "url": "https://www.boeckler.de/pdf/ta_australia_mwdb.pdf"
+      }
+    ]
+  },
+  {
+    "id": "au-gold-price",
+    "country": "au",
+    "name": {
+      "vi": "Giá vàng (bình quân năm, quy đổi AUD)",
+      "en": "Gold price (annual average, AUD)"
+    },
+    "unit": {
+      "vi": "AUD/gram (vàng 24k nguyên chất)",
+      "en": "AUD/gram (pure 24k gold)"
+    },
+    "quality": "B",
+    "note": {
+      "vi": "Tính từ giá vàng quốc tế bình quân năm (AUD/troy ounce) chia cho 31.1035 gram/troy ounce. Đây là giá vàng nguyên chất (chưa trừ phí gia công, phí bán lẻ trang sức). Không tìm được chuỗi trước năm 2000.",
+      "en": "Derived from the annual-average international gold price (A$/troy ounce) divided by 31.1035 grams per troy ounce. This is the price of pure gold bullion, before any jewellery making/retail charges. No series was found before 2000."
+    },
+    "kind": "point",
+    "currency": "AUD",
+    "valueMultiplier": 1,
+    "purchasable": true,
+    "series": [
+      { "year": 2000, "value": 15.46, "note": "481 A$/oz ÷ 31.1035" },
+      { "year": 2005, "value": 18.78, "note": "584 A$/oz ÷ 31.1035" },
+      { "year": 2008, "value": 33.28, "note": "1035 A$/oz ÷ 31.1035" },
+      { "year": 2010, "value": 42.79, "note": "1331 A$/oz ÷ 31.1035" },
+      { "year": 2012, "value": 51.79, "note": "1611 A$/oz ÷ 31.1035" },
+      { "year": 2014, "value": 45.08, "note": "1402 A$/oz ÷ 31.1035" },
+      { "year": 2016, "value": 53.95, "note": "1678 A$/oz ÷ 31.1035" },
+      { "year": 2018, "value": 54.52, "note": "1696 A$/oz ÷ 31.1035" },
+      { "year": 2020, "value": 82.50, "note": "2566 A$/oz ÷ 31.1035" },
+      { "year": 2022, "value": 83.33, "note": "2592 A$/oz ÷ 31.1035" },
+      { "year": 2024, "value": 116.33, "note": "3618 A$/oz ÷ 31.1035" },
+      { "year": 2025, "value": 171.33, "note": "5330 A$/oz ÷ 31.1035" }
+    ],
+    "sources": [
+      {
+        "title": "The Gold King - Gold Price History in Australian Dollars, 2000 to Today",
+        "url": "https://thegoldking.com.au/news-education/gold-price-history-australia"
+      }
+    ]
+  },
+  {
+    "id": "au-petrol-price",
+    "country": "au",
+    "name": {
+      "vi": "Giá xăng không chì (bình quân toàn quốc)",
+      "en": "Unleaded petrol price (national average)"
+    },
+    "unit": {
+      "vi": "cent/lít",
+      "en": "cents/litre"
+    },
+    "quality": "B",
+    "note": {
+      "vi": "1970-1999 là ước tính của thư viện bang Victoria (nguồn gốc có thể là Viện Dầu khí Úc), đơn vị cent/lít không pha chì (trước 1986 thực tế là xăng pha chì, quy đổi tương đương). 2002-2022 là bình quân bán lẻ toàn quốc (NSW/VIC/QLD/SA/WA/NT/TAS) theo khảo sát của Savvy.",
+      "en": "1970-1999 figures are State Library of Victoria research-guide estimates (likely sourced from the Australian Institute of Petroleum); unit is cents/litre unleaded (pre-1986 fuel was actually leaded, treated here as an equivalent price point). 2002-2022 is the national retail average across NSW/VIC/QLD/SA/WA/NT/TAS per Savvy's compiled survey."
+    },
+    "kind": "point",
+    "currency": "AUD",
+    "valueMultiplier": 0.01,
+    "purchasable": true,
+    "series": [
+      { "year": 1970, "value": 9 },
+      { "year": 1980, "value": 30 },
+      { "year": 1990, "value": 60 },
+      { "year": 1999, "value": 67 },
+      { "year": 2002, "value": 87.3 },
+      { "year": 2004, "value": 98.2 },
+      { "year": 2006, "value": 125.3 },
+      { "year": 2008, "value": 142.4 },
+      { "year": 2010, "value": 126.3 },
+      { "year": 2012, "value": 144.3 },
+      { "year": 2014, "value": 148.8 },
+      { "year": 2016, "value": 117.8 },
+      { "year": 2018, "value": 144.3 },
+      { "year": 2020, "value": 123.4 },
+      { "year": 2022, "value": 184.2 }
+    ],
+    "sources": [
+      {
+        "title": "State Library Victoria - Research Guides: What it used to cost (petrol prices)",
+        "url": "https://guides.slv.vic.gov.au/c.php?g=245232&p=1633085"
+      },
+      {
+        "title": "Savvy - Petrol Prices Around Australia - 2023 Report (national average 2002-2022)",
+        "url": "https://savvy.com.au/media-releases/petrol-prices-around-australia-2023-report/"
+      }
+    ]
+  },
+  {
+    "id": "au-big-mac",
+    "country": "au",
+    "name": {
+      "vi": "Giá Big Mac (McDonald's)",
+      "en": "Big Mac price (McDonald's)"
+    },
+    "unit": {
+      "vi": "AUD/cái",
+      "en": "AUD/burger"
+    },
+    "quality": "A",
+    "note": {
+      "vi": "Theo chỉ số Big Mac của The Economist, thu thập 1-2 lần/năm (tháng 1 và/hoặc tháng 7). Mỗi điểm lấy mốc tháng 1 khi có, nếu không thì tháng gần nhất trong năm.",
+      "en": "From The Economist's Big Mac Index, collected 1-2 times a year (January and/or July). Each point uses the January reading where available, otherwise the nearest reading that year."
+    },
+    "kind": "point",
+    "currency": "AUD",
+    "valueMultiplier": 1,
+    "purchasable": true,
+    "series": [
+      { "year": 2000, "value": 2.59 },
+      { "year": 2001, "value": 3.00 },
+      { "year": 2002, "value": 3.00 },
+      { "year": 2003, "value": 3.00 },
+      { "year": 2004, "value": 3.25 },
+      { "year": 2005, "value": 3.25 },
+      { "year": 2006, "value": 3.25 },
+      { "year": 2007, "value": 3.45 },
+      { "year": 2008, "value": 3.45 },
+      { "year": 2009, "value": 4.34 },
+      { "year": 2010, "value": 4.35 },
+      { "year": 2011, "value": 4.56 },
+      { "year": 2012, "value": 4.80 },
+      { "year": 2013, "value": 4.70 },
+      { "year": 2014, "value": 5.05 },
+      { "year": 2015, "value": 5.30 },
+      { "year": 2016, "value": 5.30 },
+      { "year": 2017, "value": 5.80 },
+      { "year": 2018, "value": 5.90 },
+      { "year": 2019, "value": 6.10 },
+      { "year": 2020, "value": 6.45 },
+      { "year": 2021, "value": 6.48 },
+      { "year": 2022, "value": 6.40 },
+      { "year": 2023, "value": 7.25 },
+      { "year": 2024, "value": 7.70 },
+      { "year": 2025, "value": 7.75 }
+    ],
+    "sources": [
+      {
+        "title": "GitHub - TheEconomist/big-mac-data (raw index, output-data/big-mac-raw-index.csv)",
+        "url": "https://github.com/TheEconomist/big-mac-data/blob/master/output-data/big-mac-raw-index.csv"
+      }
+    ]
+  },
+  {
+    "id": "au-sydney-house-price",
+    "country": "au",
+    "name": {
+      "vi": "Giá nhà trung vị tại Sydney",
+      "en": "Sydney median house price"
+    },
+    "unit": {
+      "vi": "AUD/căn",
+      "en": "AUD/house"
+    },
+    "quality": "B",
+    "note": {
+      "vi": "Giá nhà (không bao gồm căn hộ) trung vị tại Sydney, dữ liệu gốc từ Viện Bất động sản Úc (REIA), tổng hợp lại trong nghiên cứu học thuật của Đại học Quốc gia Úc (ANU). Dùng làm chỉ báo nhà ở tiêu biểu thay vì một mặt hàng cụ thể, tương tự cách VN item dùng giá căn hộ Hà Nội/TP.HCM.",
+      "en": "Median house price (excluding units/apartments) for Sydney, original data from the Real Estate Institute of Australia (REIA), compiled in an Australian National University (ANU) academic working paper. Used as a representative housing indicator rather than a single consumer good, similar to the Vietnam item's use of Hanoi/HCMC apartment prices."
+    },
+    "kind": "point",
+    "currency": "AUD",
+    "valueMultiplier": 1,
+    "purchasable": true,
+    "series": [
+      { "year": 1980, "value": 68850 },
+      { "year": 1990, "value": 194000 },
+      { "year": 2000, "value": 287000 },
+      { "year": 2005, "value": 494000 },
+      { "year": 2010, "value": 603375 },
+      { "year": 2022, "value": 1291150 }
+    ],
+    "sources": [
+      {
+        "title": "ANU - Housing prices and rents in Australia 1980-2023 (Table 1, Sydney median house prices)",
+        "url": "https://openresearch-repository.anu.edu.au/server/api/core/bitstreams/b5b7b2d1-94cf-43d2-9b67-06b05c52b65a/content"
+      }
+    ]
+  }
+]

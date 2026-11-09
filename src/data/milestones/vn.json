@@ -119,7 +119,12 @@
       "sellWhen": {
         "vi": "Giữ dài hạn qua nhiều thập kỷ, hoặc chốt lời một phần ở các đỉnh giá 2007 và 2018-2019.",
         "en": "Hold long-term across decades, or take partial profits at the 2007 and 2018-2019 price peaks."
-      }
+      },
+      "entryPrice": 1000000,
+      "exitPrice": 100000000,
+      "priceCurrency": "VND",
+      "returnMultiple": 100,
+      "exitDate": "2020-07"
     },
     "insiderTip": {
       "vi": "Biết trước chính quyền TP.HCM sẽ quy hoạch bài bản và xây đại lộ Nguyễn Văn Linh xuyên khu vực, biến đầm lầy vô giá trị thành khu đô thị kiểu mẫu, giúp mua đất giá rẻ mạt từ 1993 mà không cần chờ xem quy hoạch có thành công hay không.",
@@ -797,7 +802,9 @@
         "en": "Hold through the 2006-2017 domestic consumption growth era, taking partial profits around the 2016-2017 valuation peak."
       },
       "entryPrice": 53000,
-      "priceCurrency": "VND"
+      "priceCurrency": "VND",
+      "returnMultiple": 15,
+      "exitDate": "2017-12"
     },
     "insiderTip": {
       "vi": "Biết trước Vinamilk sẽ là một trong vài cổ phiếu blue-chip hiếm hoi duy trì tăng trưởng và trả cổ tức ổn định suốt 2 thập kỷ bất chấp các cuộc khủng hoảng 2008 và 2011, nên tích lũy dài hạn thay vì lướt sóng.",
@@ -889,7 +896,8 @@
       "returnMultiple": 2.5,
       "entryPrice": 160000,
       "exitPrice": 400000,
-      "priceCurrency": "VND"
+      "priceCurrency": "VND",
+      "exitDate": "2007-02"
     },
     "insiderTip": {
       "vi": "Biết trước FPT sẽ là \"cổ phiếu quốc dân\" của cơn sốt 2006-2007 và tăng kịch trần ngay phiên đầu, nên gom cổ phiếu OTC từ nhiều tháng trước khi niêm yết.",
@@ -1156,7 +1164,9 @@
       "risk": "medium",
       "capital": "medium",
       "entryPrice": 125000,
-      "priceCurrency": "VND"
+      "priceCurrency": "VND",
+      "returnMultiple": 35,
+      "exitDate": "2018-04"
     },
     "insiderTip": {
       "vi": "Biết trước ông Phạm Nhật Vượng sẽ xây dựng Vingroup thành tập đoàn tư nhân lớn nhất Việt Nam và sau này tách niêm yết Vinhomes, Vincom Retail, Vinpearl thành các cổ phiếu riêng, giúp nắm giữ VIC xuyên suốt thay vì bán sớm.",
@@ -1242,7 +1252,9 @@
       "risk": "medium",
       "capital": "medium",
       "entryPrice": 110000,
-      "priceCurrency": "VND"
+      "priceCurrency": "VND",
+      "returnMultiple": 20,
+      "exitDate": "2021-06"
     },
     "insiderTip": {
       "vi": "Biết trước ngành thép sẽ hưởng lợi trực tiếp từ các siêu dự án hạ tầng và bất động sản bùng nổ 2009-2021 giúp lựa chọn HPG làm khoản đầu tư \"mua và quên\" ngay từ khi vừa chào sàn giá rẻ.",
@@ -1510,7 +1522,9 @@
       },
       "entryPrice": 235.5,
       "priceCurrency": "points",
-      "exitDate": "2009-02-24"
+      "exitDate": "2009-10-22",
+      "exitPrice": 624.1,
+      "returnMultiple": 2.65
     },
     "insiderTip": {
       "vi": "Biết chính xác ngày đáy 24/2/2009 (235,5 điểm) và việc Chính phủ sắp tung gói kích cầu lớn giúp mua đúng đáy tuyệt đối thay vì bắt dao rơi quá sớm trong năm 2008.",
@@ -1682,7 +1696,12 @@
       "sellWhen": {
         "vi": "Từ 2014-2019 khi thị trường phục hồi mạnh, có nơi tăng 50-300%.",
         "en": "From 2014-2019 as the market staged a strong recovery, up 50-300% in some areas."
-      }
+      },
+      "entryPrice": 13500000,
+      "exitPrice": 27000000,
+      "priceCurrency": "VND",
+      "returnMultiple": 2.0,
+      "exitDate": "2018-12"
     },
     "insiderTip": {
       "vi": "Biết trước đây chỉ là một đợt điều chỉnh chu kỳ do chính sách tín dụng (không phải sụp đổ vĩnh viễn của thị trường) và Chính phủ sẽ tung gói 30.000 tỷ đồng hỗ trợ nhà ở xã hội năm 2013, giúp mạnh dạn mua đáy giữa lúc truyền thông đưa tin bi quan nhất.",
@@ -1853,7 +1872,9 @@
       "capital": "medium",
       "entryPrice": 68000,
       "exitPrice": 81500,
-      "priceCurrency": "VND"
+      "priceCurrency": "VND",
+      "returnMultiple": 12,
+      "exitDate": "2022-04"
     },
     "insiderTip": {
       "vi": "Biết trước MWG sẽ nhân rộng mô hình chuỗi bán lẻ hiện đại ra toàn quốc và mở thêm Điện Máy Xanh, Bách Hóa Xanh thành công vang dội, giúp mua và giữ MWG xuyên suốt thay vì chỉ lướt sóng ngày chào sàn.",
@@ -2027,8 +2048,10 @@
         "en": "Within one year, as VJC's market cap nearly quadrupled to about $4 billion (27 Feb 2018)."
       },
       "entryPrice": 90000,
-      "exitPrice": 108000,
-      "priceCurrency": "VND"
+      "exitPrice": 200000,
+      "priceCurrency": "VND",
+      "returnMultiple": 2.2222,
+      "exitDate": "2018-02-27"
     },
     "insiderTip": {
       "vi": "Biết trước Vietjet sẽ nhanh chóng mở rộng đội bay và thị phần nội địa để trở thành hãng hàng không lớn thứ hai Việt Nam, đẩy vốn hóa gần gấp 4 lần chỉ trong năm đầu niêm yết, giúp mua và giữ ngay từ ngày chào sàn.",
@@ -2119,7 +2142,9 @@
       },
       "entryPrice": 659,
       "priceCurrency": "points",
-      "exitDate": "2020-03-24"
+      "exitDate": "2022-01-06",
+      "exitPrice": 1528,
+      "returnMultiple": 2.3187
     },
     "insiderTip": {
       "vi": "Biết trước Việt Nam sẽ là một trong số ít nền kinh tế tăng trưởng dương năm 2020 (+2,91%) và Cục Dự trữ Liên bang Mỹ sẽ đưa lãi suất về gần 0%, bơm thanh khoản khổng lồ vào thị trường, giúp mua đúng đáy hoảng loạn thay vì bán tháo theo đám đông.",
@@ -2302,7 +2327,8 @@
       "returnMultiple": 3.7,
       "entryPrice": 10,
       "exitPrice": 37.06,
-      "priceCurrency": "USD"
+      "priceCurrency": "USD",
+      "exitDate": "2023-08-28"
     },
     "insiderTip": {
       "vi": "Biết trước đợt tăng giá là hiện tượng thanh khoản mỏng, đầu cơ ngắn hạn (chỉ 99% cổ phần vẫn do ông Phạm Nhật Vượng nắm giữ, free-float cực thấp) và sẽ sụp đổ nhanh trong vài tuần giúp bán chốt lời ngay lập tức thay vì tin vào định giá 85 tỷ USD là bền vững.",
@@ -2394,7 +2420,8 @@
       "entryPrice": 80000000,
       "exitPrice": 92000000,
       "priceCurrency": "VND",
-      "exitDate": "2024-05"
+      "exitDate": "2024-05-10",
+      "returnMultiple": 1.15
     },
     "insiderTip": {
       "vi": "Biết trước Ngân hàng Nhà nước sẽ can thiệp mạnh tay từ cuối tháng 5/2024 (dừng đấu thầu, bán trực tiếp qua 4 ngân hàng quốc doanh) để kéo giá xuống giúp chốt lời đúng đỉnh tháng 5 thay vì giữ vàng chờ giá tiếp tục tăng.",

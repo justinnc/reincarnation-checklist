@@ -1,0 +1,1050 @@
+[
+  {
+    "id": "gb-ty-gia-usd-gbp",
+    "country": "gb",
+    "name": {
+      "vi": "Tỷ giá GBP/USD chính thức",
+      "en": "Official GBP/USD exchange rate"
+    },
+    "unit": {
+      "vi": "bảng Anh/USD",
+      "en": "GBP per USD"
+    },
+    "quality": "A",
+    "note": {
+      "vi": "Tỷ giá chính thức bình quân năm (World Bank, IMF IFS, mã PA.NUS.FCRF). Đây là số bảng Anh cần để đổi 1 USD; số càng thấp nghĩa là bảng Anh càng mạnh.",
+      "en": "Official annual-average rate (World Bank, IMF IFS, code PA.NUS.FCRF). This is GBP needed to buy 1 USD; a lower number means a stronger pound."
+    },
+    "kind": "point",
+    "currency": "GBP",
+    "valueMultiplier": 1,
+    "purchasable": false,
+    "series": [
+      {
+        "year": 1986,
+        "value": 0.6822
+      },
+      {
+        "year": 1987,
+        "value": 0.61193
+      },
+      {
+        "year": 1988,
+        "value": 0.56217
+      },
+      {
+        "year": 1989,
+        "value": 0.61117
+      },
+      {
+        "year": 1990,
+        "value": 0.56318
+      },
+      {
+        "year": 1991,
+        "value": 0.56702
+      },
+      {
+        "year": 1992,
+        "value": 0.56977
+      },
+      {
+        "year": 1993,
+        "value": 0.66676
+      },
+      {
+        "year": 1994,
+        "value": 0.65343
+      },
+      {
+        "year": 1995,
+        "value": 0.63367
+      },
+      {
+        "year": 1996,
+        "value": 0.64096
+      },
+      {
+        "year": 1997,
+        "value": 0.61084
+      },
+      {
+        "year": 1998,
+        "value": 0.60382
+      },
+      {
+        "year": 1999,
+        "value": 0.61806
+      },
+      {
+        "year": 2000,
+        "value": 0.66093
+      },
+      {
+        "year": 2001,
+        "value": 0.69465
+      },
+      {
+        "year": 2002,
+        "value": 0.66722
+      },
+      {
+        "year": 2003,
+        "value": 0.61247
+      },
+      {
+        "year": 2004,
+        "value": 0.54618
+      },
+      {
+        "year": 2005,
+        "value": 0.55
+      },
+      {
+        "year": 2006,
+        "value": 0.54349
+      },
+      {
+        "year": 2007,
+        "value": 0.49977
+      },
+      {
+        "year": 2008,
+        "value": 0.54397
+      },
+      {
+        "year": 2009,
+        "value": 0.64192
+      },
+      {
+        "year": 2010,
+        "value": 0.64718
+      },
+      {
+        "year": 2011,
+        "value": 0.62414
+      },
+      {
+        "year": 2012,
+        "value": 0.63305
+      },
+      {
+        "year": 2013,
+        "value": 0.63966
+      },
+      {
+        "year": 2014,
+        "value": 0.60773
+      },
+      {
+        "year": 2015,
+        "value": 0.65455
+      },
+      {
+        "year": 2016,
+        "value": 0.74063
+      },
+      {
+        "year": 2017,
+        "value": 0.77698
+      },
+      {
+        "year": 2018,
+        "value": 0.74953
+      },
+      {
+        "year": 2019,
+        "value": 0.78345
+      },
+      {
+        "year": 2020,
+        "value": 0.78
+      },
+      {
+        "year": 2021,
+        "value": 0.72706
+      },
+      {
+        "year": 2022,
+        "value": 0.8113
+      },
+      {
+        "year": 2023,
+        "value": 0.80454
+      },
+      {
+        "year": 2024,
+        "value": 0.78241
+      },
+      {
+        "year": 2025,
+        "value": 0.75947
+      }
+    ],
+    "sources": [
+      {
+        "title": "World Bank - Official exchange rate (LCU per US$, period average), United Kingdom (PA.NUS.FCRF)",
+        "url": "https://data.worldbank.org/indicator/PA.NUS.FCRF?locations=GB"
+      }
+    ]
+  },
+  {
+    "id": "gb-luong-toi-thieu",
+    "country": "gb",
+    "name": {
+      "vi": "Lương tối thiểu quốc gia (nhóm tuổi cao nhất)",
+      "en": "National Minimum/Living Wage (top adult band)"
+    },
+    "unit": {
+      "vi": "bảng Anh/giờ",
+      "en": "GBP/hour"
+    },
+    "quality": "A",
+    "note": {
+      "vi": "Mức lương tối thiểu theo giờ cho nhóm tuổi trưởng thành cao nhất tại mỗi thời điểm (không phải lương trung bình). Độ tuổi áp dụng thay đổi qua các năm: 22+ (1999-2009), 21+ (2010-2015), 25+ gọi là 'National Living Wage' (2016-2020), 23+ (2021-2023), 21+ (từ 2024). Mỗi năm lấy mức có hiệu lực từ tháng 4 (hoặc tháng 10 với các năm trước 2017).\",",
+      "en": "Hourly rate for the oldest adult age band in force at each point (not an average wage). The qualifying age shifted over time: 22+ (1999-2009), 21+ (2010-2015), 25+ branded the 'National Living Wage' (2016-2020), 23+ (2021-2023), 21+ again (from 2024). Each year uses the rate effective from April (October for years before 2017)."
+    },
+    "kind": "point",
+    "currency": "GBP",
+    "valueMultiplier": 1,
+    "purchasable": false,
+    "series": [
+      {
+        "year": 1999,
+        "value": 3.6,
+        "note": "NMW ra đời 1/4/1999, mức 22 tuổi trở lên"
+      },
+      {
+        "year": 2000,
+        "value": 3.7,
+        "note": "Từ 10/2000, 22+"
+      },
+      {
+        "year": 2001,
+        "value": 4.1,
+        "note": "Từ 10/2001, 22+"
+      },
+      {
+        "year": 2002,
+        "value": 4.2,
+        "note": "22+"
+      },
+      {
+        "year": 2003,
+        "value": 4.5,
+        "note": "22+"
+      },
+      {
+        "year": 2004,
+        "value": 4.85,
+        "note": "22+"
+      },
+      {
+        "year": 2005,
+        "value": 5.05,
+        "note": "22+"
+      },
+      {
+        "year": 2006,
+        "value": 5.35,
+        "note": "22+"
+      },
+      {
+        "year": 2007,
+        "value": 5.52,
+        "note": "22+"
+      },
+      {
+        "year": 2008,
+        "value": 5.73,
+        "note": "22+"
+      },
+      {
+        "year": 2009,
+        "value": 5.8,
+        "note": "22+"
+      },
+      {
+        "year": 2010,
+        "value": 5.93,
+        "note": "Từ 10/2010 gộp nhóm tuổi thành 21+"
+      },
+      {
+        "year": 2014,
+        "value": 6.5,
+        "note": "21+"
+      },
+      {
+        "year": 2015,
+        "value": 6.7,
+        "note": "21+"
+      },
+      {
+        "year": 2016,
+        "value": 7.2,
+        "note": "Ra đời National Living Wage (NLW) cho 25 tuổi trở lên, từ 4/2016"
+      },
+      {
+        "year": 2017,
+        "value": 7.5,
+        "note": "NLW 25+"
+      },
+      {
+        "year": 2018,
+        "value": 7.83,
+        "note": "NLW 25+"
+      },
+      {
+        "year": 2019,
+        "value": 8.21,
+        "note": "NLW 25+"
+      },
+      {
+        "year": 2021,
+        "value": 8.91,
+        "note": "NLW hạ xuống áp dụng từ 23 tuổi"
+      },
+      {
+        "year": 2022,
+        "value": 9.5,
+        "note": "NLW 23+"
+      },
+      {
+        "year": 2023,
+        "value": 10.42,
+        "note": "NLW 23+"
+      },
+      {
+        "year": 2024,
+        "value": 11.44,
+        "note": "NLW mở rộng cho 21 tuổi trở lên"
+      },
+      {
+        "year": 2025,
+        "value": 12.21,
+        "note": "NLW 21+"
+      }
+    ],
+    "sources": [
+      {
+        "title": "GOV.UK - National Minimum Wage and National Living Wage rates",
+        "url": "https://www.gov.uk/national-minimum-wage-rates"
+      },
+      {
+        "title": "GOV.UK - 20 years of the National Minimum Wage (historical rates data)",
+        "url": "https://assets.publishing.service.gov.uk/media/5c9e3e4e40f0b625e1cbd852/20_years_of_the_National_Minimum_Wage_-_data.xlsx"
+      },
+      {
+        "title": "Legislation.gov.uk - The National Minimum Wage (Amendment) Regulations 2025 impact assessment",
+        "url": "https://www.legislation.gov.uk/ukia/2025/26/pdfs/ukia_20250026_en.pdf"
+      }
+    ]
+  },
+  {
+    "id": "gb-gia-vang",
+    "country": "gb",
+    "name": {
+      "vi": "Giá vàng (bình quân năm)",
+      "en": "Gold price (annual average)"
+    },
+    "unit": {
+      "vi": "bảng Anh/troy ounce",
+      "en": "GBP per troy ounce"
+    },
+    "quality": "B",
+    "note": {
+      "vi": "Tính bằng cách lấy giá vàng USD/oz bình quân năm của World Bank (Pink Sheet) chia cho tỷ giá USD/GBP bình quân năm của Ngân hàng Anh (BoE, chuỗi XUAAUSS) - là cách tính gián tiếp (derived), không phải một chỉ số bảng Anh được yết trực tiếp.",
+      "en": "Computed by dividing the World Bank's annual-average USD/oz gold price (Pink Sheet) by the Bank of England's annual-average USD/GBP rate (series XUAAUSS) - a derived figure, not a directly quoted sterling benchmark."
+    },
+    "kind": "point",
+    "currency": "GBP",
+    "valueMultiplier": 1,
+    "purchasable": true,
+    "series": [
+      {
+        "year": 1986,
+        "value": 250.61
+      },
+      {
+        "year": 1987,
+        "value": 272.37
+      },
+      {
+        "year": 1988,
+        "value": 245.59
+      },
+      {
+        "year": 1989,
+        "value": 232.82
+      },
+      {
+        "year": 1990,
+        "value": 214.66
+      },
+      {
+        "year": 1991,
+        "value": 204.8
+      },
+      {
+        "year": 1992,
+        "value": 194.58
+      },
+      {
+        "year": 1993,
+        "value": 239.61
+      },
+      {
+        "year": 1994,
+        "value": 250.51
+      },
+      {
+        "year": 1995,
+        "value": 243.4
+      },
+      {
+        "year": 1996,
+        "value": 248.24
+      },
+      {
+        "year": 1997,
+        "value": 202.11
+      },
+      {
+        "year": 1998,
+        "value": 177.48
+      },
+      {
+        "year": 1999,
+        "value": 172.29
+      },
+      {
+        "year": 2000,
+        "value": 184.17
+      },
+      {
+        "year": 2001,
+        "value": 188.19
+      },
+      {
+        "year": 2002,
+        "value": 206.17
+      },
+      {
+        "year": 2003,
+        "value": 222.29
+      },
+      {
+        "year": 2004,
+        "value": 223.33
+      },
+      {
+        "year": 2005,
+        "value": 244.57
+      },
+      {
+        "year": 2006,
+        "value": 327.91
+      },
+      {
+        "year": 2007,
+        "value": 347.98
+      },
+      {
+        "year": 2008,
+        "value": 470.48
+      },
+      {
+        "year": 2009,
+        "value": 621.11
+      },
+      {
+        "year": 2010,
+        "value": 792.15
+      },
+      {
+        "year": 2011,
+        "value": 978.92
+      },
+      {
+        "year": 2012,
+        "value": 1053.26
+      },
+      {
+        "year": 2013,
+        "value": 902.24
+      },
+      {
+        "year": 2014,
+        "value": 768.09
+      },
+      {
+        "year": 2015,
+        "value": 759.3
+      },
+      {
+        "year": 2016,
+        "value": 922.31
+      },
+      {
+        "year": 2017,
+        "value": 975.76
+      },
+      {
+        "year": 2018,
+        "value": 950.73
+      },
+      {
+        "year": 2019,
+        "value": 1090.79
+      },
+      {
+        "year": 2020,
+        "value": 1379.02
+      },
+      {
+        "year": 2021,
+        "value": 1308.16
+      },
+      {
+        "year": 2022,
+        "value": 1456.56
+      },
+      {
+        "year": 2023,
+        "value": 1562.38
+      },
+      {
+        "year": 2024,
+        "value": 1867.87
+      },
+      {
+        "year": 2025,
+        "value": 2610.17
+      }
+    ],
+    "sources": [
+      {
+        "title": "GoldVetted - Gold Price History in GBP: Annual Averages 1975 to 2025 (World Bank + Bank of England data)",
+        "url": "https://goldvetted.com/uk/gold-price/history/"
+      }
+    ]
+  },
+  {
+    "id": "gb-gia-xang",
+    "country": "gb",
+    "name": {
+      "vi": "Giá xăng không chì cao cấp (bình quân năm)",
+      "en": "Premium unleaded petrol price (annual average)"
+    },
+    "unit": {
+      "vi": "pence/lít",
+      "en": "pence/litre"
+    },
+    "quality": "A",
+    "note": {
+      "vi": "Giá bán lẻ bình quân năm, nguồn chính phủ Anh (DESNZ/BEIS, qua data.gov.uk). Không có số liệu xăng không chì bình quân năm trước 1989 (xăng không chì mới phổ biến từ cuối thập niên 1980 tại Anh).",
+      "en": "Official UK government annual-average retail price (DESNZ/BEIS via data.gov.uk). No annual unleaded figure exists before 1989 (unleaded petrol only became widespread in the UK in the late 1980s)."
+    },
+    "kind": "point",
+    "currency": "GBP",
+    "valueMultiplier": 0.01,
+    "purchasable": true,
+    "series": [
+      {
+        "year": 1989,
+        "value": 38.29
+      },
+      {
+        "year": 1990,
+        "value": 42.03
+      },
+      {
+        "year": 1991,
+        "value": 45.07
+      },
+      {
+        "year": 1992,
+        "value": 46.07
+      },
+      {
+        "year": 1993,
+        "value": 49.44
+      },
+      {
+        "year": 1994,
+        "value": 51.58
+      },
+      {
+        "year": 1995,
+        "value": 53.77
+      },
+      {
+        "year": 1996,
+        "value": 56.52
+      },
+      {
+        "year": 1997,
+        "value": 61.82
+      },
+      {
+        "year": 1998,
+        "value": 64.8
+      },
+      {
+        "year": 1999,
+        "value": 70.16
+      },
+      {
+        "year": 2000,
+        "value": 79.93
+      },
+      {
+        "year": 2001,
+        "value": 75.72
+      },
+      {
+        "year": 2002,
+        "value": 73.24
+      },
+      {
+        "year": 2003,
+        "value": 76.04
+      },
+      {
+        "year": 2004,
+        "value": 80.22
+      },
+      {
+        "year": 2005,
+        "value": 86.75
+      },
+      {
+        "year": 2006,
+        "value": 91.32
+      },
+      {
+        "year": 2007,
+        "value": 94.24
+      },
+      {
+        "year": 2008,
+        "value": 107.08
+      },
+      {
+        "year": 2009,
+        "value": 99.29
+      },
+      {
+        "year": 2010,
+        "value": 116.9
+      },
+      {
+        "year": 2011,
+        "value": 133.27
+      },
+      {
+        "year": 2012,
+        "value": 135.39
+      },
+      {
+        "year": 2013,
+        "value": 134.15
+      },
+      {
+        "year": 2014,
+        "value": 127.5
+      },
+      {
+        "year": 2015,
+        "value": 111.13
+      },
+      {
+        "year": 2016,
+        "value": 108.85
+      },
+      {
+        "year": 2017,
+        "value": 117.59
+      },
+      {
+        "year": 2018,
+        "value": 125.2
+      },
+      {
+        "year": 2019,
+        "value": 124.88
+      },
+      {
+        "year": 2020,
+        "value": 113.95
+      },
+      {
+        "year": 2021,
+        "value": 131.27
+      },
+      {
+        "year": 2022,
+        "value": 164.73
+      },
+      {
+        "year": 2023,
+        "value": 147.75
+      },
+      {
+        "year": 2024,
+        "value": 141.48
+      },
+      {
+        "year": 2025,
+        "value": 135.07
+      }
+    ],
+    "sources": [
+      {
+        "title": "data.gov.uk - Fuel and oil prices (Motor spirit: Premium unleaded/ULSP, pence per litre)",
+        "url": "https://www.data.gov.uk/collections/business-and-economy/fuel-and-oil-prices/download/"
+      }
+    ]
+  },
+  {
+    "id": "gb-gia-big-mac",
+    "country": "gb",
+    "name": {
+      "vi": "Giá bánh Big Mac (McDonald's)",
+      "en": "Big Mac price (McDonald's)"
+    },
+    "unit": {
+      "vi": "bảng Anh/chiếc",
+      "en": "GBP per burger"
+    },
+    "quality": "A",
+    "note": {
+      "vi": "Trích từ bộ dữ liệu gốc 'Big Mac Index' của tạp chí The Economist, khảo sát 1-2 lần/năm (thường tháng 1 và tháng 7); mỗi năm lấy mốc khảo sát đầu năm gần nhất.",
+      "en": "From The Economist's Big Mac Index raw source data, surveyed 1-2 times a year (usually January and July); the earliest survey date each year is used."
+    },
+    "kind": "point",
+    "currency": "GBP",
+    "valueMultiplier": 1,
+    "purchasable": true,
+    "series": [
+      {
+        "year": 2000,
+        "value": 1.9,
+        "note": "Mốc khảo sát 2000-04-01"
+      },
+      {
+        "year": 2001,
+        "value": 1.99,
+        "note": "Mốc khảo sát 2001-04-01"
+      },
+      {
+        "year": 2002,
+        "value": 1.99,
+        "note": "Mốc khảo sát 2002-04-01"
+      },
+      {
+        "year": 2003,
+        "value": 1.99,
+        "note": "Mốc khảo sát 2003-04-01"
+      },
+      {
+        "year": 2004,
+        "value": 1.88,
+        "note": "Mốc khảo sát 2004-05-01"
+      },
+      {
+        "year": 2005,
+        "value": 1.88,
+        "note": "Mốc khảo sát 2005-06-01"
+      },
+      {
+        "year": 2006,
+        "value": 1.88,
+        "note": "Mốc khảo sát 2006-01-01"
+      },
+      {
+        "year": 2007,
+        "value": 1.94,
+        "note": "Mốc khảo sát 2007-01-01"
+      },
+      {
+        "year": 2008,
+        "value": 2.29,
+        "note": "Mốc khảo sát 2008-06-01"
+      },
+      {
+        "year": 2009,
+        "value": 2.29,
+        "note": "Mốc khảo sát 2009-07-01"
+      },
+      {
+        "year": 2010,
+        "value": 2.29,
+        "note": "Mốc khảo sát 2010-01-01"
+      },
+      {
+        "year": 2011,
+        "value": 2.39,
+        "note": "Mốc khảo sát 2011-07-01"
+      },
+      {
+        "year": 2012,
+        "value": 2.49,
+        "note": "Mốc khảo sát 2012-01-01"
+      },
+      {
+        "year": 2013,
+        "value": 2.69,
+        "note": "Mốc khảo sát 2013-01-01"
+      },
+      {
+        "year": 2014,
+        "value": 2.79,
+        "note": "Mốc khảo sát 2014-01-01"
+      },
+      {
+        "year": 2015,
+        "value": 2.89,
+        "note": "Mốc khảo sát 2015-01-01"
+      },
+      {
+        "year": 2016,
+        "value": 2.89,
+        "note": "Mốc khảo sát 2016-01-01"
+      },
+      {
+        "year": 2017,
+        "value": 3.09,
+        "note": "Mốc khảo sát 2017-01-01"
+      },
+      {
+        "year": 2018,
+        "value": 3.19,
+        "note": "Mốc khảo sát 2018-01-01"
+      },
+      {
+        "year": 2019,
+        "value": 3.19,
+        "note": "Mốc khảo sát 2019-01-01"
+      },
+      {
+        "year": 2020,
+        "value": 3.39,
+        "note": "Mốc khảo sát 2020-01-14"
+      },
+      {
+        "year": 2021,
+        "value": 3.29,
+        "note": "Mốc khảo sát 2021-01-01"
+      },
+      {
+        "year": 2022,
+        "value": 3.59,
+        "note": "Mốc khảo sát 2022-01-01"
+      },
+      {
+        "year": 2023,
+        "value": 3.79,
+        "note": "Mốc khảo sát 2023-01-01"
+      },
+      {
+        "year": 2024,
+        "value": 4.49,
+        "note": "Mốc khảo sát 2024-01-01"
+      },
+      {
+        "year": 2025,
+        "value": 4.59,
+        "note": "Mốc khảo sát 2025-01-01"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Economist - big-mac-data, source-data/big-mac-source-data.csv and source-data-v2.csv (GitHub)",
+        "url": "https://github.com/TheEconomist/big-mac-data"
+      }
+    ]
+  },
+  {
+    "id": "gb-gia-bia-pint",
+    "country": "gb",
+    "name": {
+      "vi": "Giá một pint bia lager tại quán rượu",
+      "en": "Price of a pint of draught lager in a pub"
+    },
+    "unit": {
+      "vi": "pence/pint",
+      "en": "pence/pint"
+    },
+    "quality": "A",
+    "note": {
+      "vi": "2020-2021 không có số liệu do quán rượu đóng cửa phần lớn thời gian vì COVID-19. Số liệu 1987-2024 lấy từ chuỗi RPI chính thức (ONS, mã CZMS); số liệu 2025 lấy từ khảo sát ngành của BBPA (không phải ONS).",
+      "en": "No figure for 2020-2021 because pubs were shut for much of those years under COVID-19 restrictions. 1987-2024 figures are from the official RPI series (ONS, series CZMS); the 2025 figure is from a BBPA industry survey (not ONS)."
+    },
+    "kind": "point",
+    "currency": "GBP",
+    "valueMultiplier": 0.01,
+    "purchasable": true,
+    "series": [
+      {
+        "year": 1987,
+        "value": 93
+      },
+      {
+        "year": 1988,
+        "value": 99
+      },
+      {
+        "year": 1989,
+        "value": 108
+      },
+      {
+        "year": 1990,
+        "value": 122
+      },
+      {
+        "year": 1991,
+        "value": 137
+      },
+      {
+        "year": 1992,
+        "value": 146
+      },
+      {
+        "year": 1993,
+        "value": 153
+      },
+      {
+        "year": 1994,
+        "value": 158
+      },
+      {
+        "year": 1995,
+        "value": 166
+      },
+      {
+        "year": 1996,
+        "value": 173
+      },
+      {
+        "year": 1997,
+        "value": 181
+      },
+      {
+        "year": 1998,
+        "value": 189
+      },
+      {
+        "year": 1999,
+        "value": 194
+      },
+      {
+        "year": 2000,
+        "value": 200
+      },
+      {
+        "year": 2001,
+        "value": 203
+      },
+      {
+        "year": 2002,
+        "value": 209
+      },
+      {
+        "year": 2003,
+        "value": 226
+      },
+      {
+        "year": 2004,
+        "value": 233
+      },
+      {
+        "year": 2005,
+        "value": 241
+      },
+      {
+        "year": 2006,
+        "value": 251
+      },
+      {
+        "year": 2007,
+        "value": 262
+      },
+      {
+        "year": 2008,
+        "value": 274
+      },
+      {
+        "year": 2009,
+        "value": 280
+      },
+      {
+        "year": 2010,
+        "value": 294
+      },
+      {
+        "year": 2011,
+        "value": 308
+      },
+      {
+        "year": 2012,
+        "value": 318
+      },
+      {
+        "year": 2013,
+        "value": 329
+      },
+      {
+        "year": 2014,
+        "value": 337
+      },
+      {
+        "year": 2015,
+        "value": 345
+      },
+      {
+        "year": 2016,
+        "value": 348
+      },
+      {
+        "year": 2017,
+        "value": 358
+      },
+      {
+        "year": 2018,
+        "value": 364
+      },
+      {
+        "year": 2019,
+        "value": 370
+      },
+      {
+        "year": 2022,
+        "value": 410
+      },
+      {
+        "year": 2023,
+        "value": 456
+      },
+      {
+        "year": 2024,
+        "value": 477
+      },
+      {
+        "year": 2025,
+        "value": 501,
+        "note": "Giá bình quân toàn quốc do British Beer and Pub Association (BBPA) công bố, vượt mốc 5 bảng lần đầu (3/2025)"
+      }
+    ],
+    "sources": [
+      {
+        "title": "ONS - RPI: Ave price - Draught lager, per pint (series CZMS)",
+        "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/czms/mm23?position=10"
+      },
+      {
+        "title": "The Drinks Business - The price of a pint is 300% higher than in 1990, research finds",
+        "url": "https://www.thedrinksbusiness.com/2025/04/the-price-of-a-pint-is-300-higher-than-in-1990-research-finds/"
+      }
+    ]
+  }
+]

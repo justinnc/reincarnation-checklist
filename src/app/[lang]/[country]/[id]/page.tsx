@@ -7,6 +7,7 @@ import { allMilestones, getCountry, getMilestone, getMilestones } from "@/lib/da
 import { formatDate, formatDrop, formatMoney, formatMultiple } from "@/lib/format";
 import { localeAlternates, SITE_URL } from "@/lib/seo";
 import { DropBadge, MultipleBadge, RiskBadge, UnverifiedBadge } from "@/components/Badges";
+import { CharmToggle } from "@/components/CharmToggle";
 
 export async function generateStaticParams() {
   return locales.flatMap((lang) => allMilestones.map((m) => ({ lang, country: m.country, id: m.id })));
@@ -73,6 +74,7 @@ export default async function MilestonePage({ params }: PageProps<"/[lang]/[coun
             ) : (
               <UnverifiedBadge label={tl.unverified} />
             )}
+            <CharmToggle id={m.id} lang={lang} />
           </div>
           <h1 className="mt-3 max-w-3xl text-balance font-display text-[2.1rem] font-extrabold leading-[1.15] tracking-tight sm:text-6xl sm:leading-[1.1]">
             {t(m.title, lang)}
@@ -147,7 +149,7 @@ export default async function MilestonePage({ params }: PageProps<"/[lang]/[coun
                   {formatMoney(c.stake.amount * o.returnMultiple, c.stake.currency, lang)}
                 </div>
                 <Link
-                  href={`/${lang}/whatif?mode=playbook&country=${country}&chain=${m.id}`}
+                  href={`/${lang}/whatif?mode=playbook&country=${country}&pin=${m.id}`}
                   className="mt-3 inline-block text-xs font-semibold text-gold underline decoration-gold/50 underline-offset-4 hover:brightness-110"
                 >
                   {lang === "vi" ? "⚡ Ghép mốc này vào Chuỗi Trọng Sinh Liên Hoàn →" : "⚡ Chain in Compounding Playbook →"}

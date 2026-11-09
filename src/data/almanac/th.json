@@ -1,0 +1,315 @@
+[
+  {
+    "id": "th-fx-usd-thb",
+    "country": "th",
+    "name": {
+      "vi": "Tỷ giá USD/THB chính thức",
+      "en": "Official USD/THB exchange rate"
+    },
+    "unit": {
+      "vi": "baht/USD",
+      "en": "THB per USD"
+    },
+    "quality": "A",
+    "note": {
+      "vi": "Tỷ giá chính thức bình quân năm theo Ngân hàng Thế giới (IMF IFS, mã PA.NUS.FCRF). Thái Lan thả nổi đồng baht từ tháng 7/1997 (khủng hoảng tài chính châu Á), nên có bước nhảy lớn giữa 1996 và 1998. Dữ liệu 2025 chưa được World Bank công bố tại thời điểm tổng hợp nên không đưa vào.",
+      "en": "Official annual-average exchange rate from the World Bank (IMF IFS, code PA.NUS.FCRF). Thailand floated the baht in July 1997 (Asian financial crisis), hence the large jump between 1996 and 1998. 2025 was not yet published by the World Bank at the time of research, so it is omitted."
+    },
+    "kind": "point",
+    "currency": "THB",
+    "valueMultiplier": 1,
+    "purchasable": false,
+    "series": [
+      { "year": 1986, "value": 26.30 },
+      { "year": 1987, "value": 25.72 },
+      { "year": 1988, "value": 25.29 },
+      { "year": 1989, "value": 25.70 },
+      { "year": 1990, "value": 25.59 },
+      { "year": 1991, "value": 25.52 },
+      { "year": 1992, "value": 25.40 },
+      { "year": 1993, "value": 25.32 },
+      { "year": 1994, "value": 25.15 },
+      { "year": 1995, "value": 24.92 },
+      { "year": 1996, "value": 25.34 },
+      { "year": 1997, "value": 31.36, "note": "Thả nổi đồng baht từ 2/7/1997, khởi đầu khủng hoảng tài chính châu Á" },
+      { "year": 1998, "value": 41.36 },
+      { "year": 1999, "value": 37.81 },
+      { "year": 2000, "value": 40.11 },
+      { "year": 2001, "value": 44.43 },
+      { "year": 2002, "value": 42.96 },
+      { "year": 2003, "value": 41.48 },
+      { "year": 2004, "value": 40.22 },
+      { "year": 2005, "value": 40.22 },
+      { "year": 2006, "value": 37.88 },
+      { "year": 2007, "value": 34.52 },
+      { "year": 2008, "value": 33.31 },
+      { "year": 2009, "value": 34.29 },
+      { "year": 2010, "value": 31.69 },
+      { "year": 2011, "value": 30.49 },
+      { "year": 2012, "value": 31.08 },
+      { "year": 2013, "value": 30.73 },
+      { "year": 2014, "value": 32.48 },
+      { "year": 2015, "value": 34.25 },
+      { "year": 2016, "value": 35.30 },
+      { "year": 2017, "value": 33.94 },
+      { "year": 2018, "value": 32.31 },
+      { "year": 2019, "value": 31.05 },
+      { "year": 2020, "value": 31.29 },
+      { "year": 2021, "value": 31.98 },
+      { "year": 2022, "value": 35.06 },
+      { "year": 2023, "value": 34.80 },
+      { "year": 2024, "value": 35.29 }
+    ],
+    "sources": [
+      {
+        "title": "World Bank - Official exchange rate (LCU per US$, period average), Thailand (PA.NUS.FCRF)",
+        "url": "https://data.worldbank.org/indicator/PA.NUS.FCRF?locations=TH"
+      },
+      {
+        "title": "World.Eco - Official exchange rate (LCU per US$, period average) in Thailand",
+        "url": "https://economic.money/countries/thailand/indicators/official-exchange-rate"
+      }
+    ]
+  },
+  {
+    "id": "th-luong-toi-thieu",
+    "country": "th",
+    "name": {
+      "vi": "Lương tối thiểu theo ngày (Bangkok)",
+      "en": "Minimum daily wage (Bangkok rate)"
+    },
+    "unit": {
+      "vi": "baht/ngày",
+      "en": "THB/day"
+    },
+    "quality": "A",
+    "note": {
+      "vi": "Mức lương tối thiểu ngày áp dụng cho Bangkok theo quyết định của Ủy ban Tiền lương Quốc gia Thái Lan; các tỉnh khác có thể thấp hơn một chút. Không phải lương tháng vì Thái Lan quy định lương tối thiểu theo ngày. Thiếu dữ liệu xác thực cho giai đoạn 1988-2012 (24 năm) - không suy diễn số liệu cho khoảng trống này.",
+      "en": "Daily minimum wage rate for Bangkok as set by Thailand's National Wage Committee; other provinces may be slightly lower. Expressed per day because Thailand regulates the minimum wage on a daily basis, not monthly. No verified data could be found for 1988-2012 (24 years) - this gap is left unfilled rather than guessed."
+    },
+    "kind": "point",
+    "currency": "THB",
+    "valueMultiplier": 1,
+    "purchasable": false,
+    "series": [
+      { "year": 1973, "value": 12 },
+      { "year": 1974, "value": 20 },
+      { "year": 1975, "value": 25 },
+      { "year": 1976, "value": 25 },
+      { "year": 1977, "value": 28 },
+      { "year": 1978, "value": 35 },
+      { "year": 1979, "value": 45 },
+      { "year": 1980, "value": 54 },
+      { "year": 1981, "value": 61 },
+      { "year": 1982, "value": 64 },
+      { "year": 1983, "value": 66 },
+      { "year": 1984, "value": 66 },
+      { "year": 1985, "value": 70 },
+      { "year": 1986, "value": 70 },
+      { "year": 1987, "value": 73 },
+      { "year": 2013, "value": 300, "note": "Chương trình '300 baht toàn quốc' công bố năm 2011, áp dụng đồng loạt toàn quốc từ 2013 - mức tăng lớn nhất kể từ 1973" },
+      { "year": 2017, "value": 310 },
+      { "year": 2018, "value": 325 },
+      { "year": 2019, "value": 325 },
+      { "year": 2020, "value": 331 },
+      { "year": 2021, "value": 331 },
+      { "year": 2022, "value": 353 },
+      { "year": 2023, "value": 353 },
+      { "year": 2024, "value": 363 },
+      { "year": 2025, "value": 400 },
+      { "year": 2026, "value": 400 }
+    ],
+    "sources": [
+      {
+        "title": "Eulerpool - Minimum Wages of Thailand (history)",
+        "url": "https://eulerpool.com/en/macro/thailand/minimum-wages"
+      },
+      {
+        "title": "Trading Economics - Thailand Minimum Daily Wage",
+        "url": "https://tradingeconomics.com/thailand/minimum-wages"
+      },
+      {
+        "title": "Legal500 - Minimum Wages In Thailand (300-baht programme, 2011-2013)",
+        "url": "https://www.legal500.com/intelligence/thailand/employment-and-hr/minimum-wages-in-thailand"
+      },
+      {
+        "title": "FULCRUM - Thailand's Minimum Wage Conundrum: Populist Promise or Productive Policy?",
+        "url": "https://fulcrum.sg/article/commentaries/thailands-minimum-wage-conundrum-populist-promise-or-productive-policy/"
+      }
+    ]
+  },
+  {
+    "id": "th-gia-vang",
+    "country": "th",
+    "name": {
+      "vi": "Giá vàng (quốc tế quy đổi sang baht)",
+      "en": "Gold price (international price converted to baht)"
+    },
+    "unit": {
+      "vi": "baht/gram",
+      "en": "THB/gram"
+    },
+    "quality": "B",
+    "note": {
+      "vi": "Giá vàng thế giới (999.9) quy đổi sang baht Thái theo tỷ giá hàng ngày, KHÔNG phải giá vàng trang sức/vàng miếng bán lẻ trong nước (vốn có thêm thuế và phí gia công). Low/High là biên độ thấp nhất-cao nhất trong năm. Không tìm được chuỗi per-gram đáng tin cậy trước năm 2012.",
+      "en": "World gold price (999.9 fine) converted to Thai baht at each day's exchange rate, NOT the retail price of jewellery/gold bars sold domestically (which carries extra taxes and making charges). Low/High are the year's low-high range. No reliable per-gram series was found before 2012."
+    },
+    "kind": "range",
+    "currency": "THB",
+    "valueMultiplier": 1,
+    "purchasable": true,
+    "series": [
+      { "year": 2012, "min": 1552, "max": 1772 },
+      { "year": 2013, "min": 1213, "max": 1653 },
+      { "year": 2014, "min": 1205, "max": 1432 },
+      { "year": 2015, "min": 1213, "max": 1362 },
+      { "year": 2016, "min": 1249, "max": 1544 },
+      { "year": 2017, "min": 1298, "max": 1432 },
+      { "year": 2018, "min": 1232, "max": 1382 },
+      { "year": 2019, "min": 1299, "max": 1526 },
+      { "year": 2020, "min": 1473, "max": 2068 },
+      { "year": 2021, "min": 1653, "max": 1972 },
+      { "year": 2022, "min": 1912, "max": 2174 },
+      { "year": 2023, "min": 1988, "max": 2362 },
+      { "year": 2024, "min": 2255, "max": 3036 },
+      { "year": 2025, "min": 2934, "max": 4582 }
+    ],
+    "sources": [
+      {
+        "title": "World Gold - Gold price in Thai baht today / by year",
+        "url": "https://world-gold.org/en/gold-price/thb"
+      }
+    ]
+  },
+  {
+    "id": "th-gia-xang",
+    "country": "th",
+    "name": {
+      "vi": "Giá xăng 95 (ULG95/Benzine 95, Bangkok)",
+      "en": "95-octane petrol price (ULG95/Benzine 95, Bangkok)"
+    },
+    "unit": {
+      "vi": "baht/lít",
+      "en": "THB/litre"
+    },
+    "quality": "C",
+    "note": {
+      "vi": "Giá xăng 95 không pha ethanol (ULG95, gọi là 'เบนซิน 95' hiện nay) tại Bangkok thay đổi liên tục trong năm (nhiều lần/tháng theo EPPO), nên mỗi điểm dưới đây là MỘT MỐC cụ thể (ghi ngày trong note), không phải trung bình năm. Dữ liệu rời rạc do không tiếp cận được chuỗi trung bình năm đầy đủ 1986-2025 của EPPO (dữ liệu chi tiết nằm sau tường trả phí/định dạng Excel động).",
+      "en": "95-octane non-ethanol petrol (ULG95, now called 'Benzine 95') in Bangkok changes price many times a month per EPPO bulletins, so each point below is a SPECIFIC date snapshot (see note), not an annual average. Coverage is sparse because a full 1986-2025 annual-average EPPO series could not be retrieved (detailed data sits behind a paywall/dynamic spreadsheet)."
+    },
+    "kind": "point",
+    "currency": "THB",
+    "valueMultiplier": 1,
+    "purchasable": true,
+    "series": [
+      { "year": 1994, "value": 7.918, "note": "Mức thấp kỷ lục mọi thời đại của ULG95 Bangkok, tháng 1/1994 (CEIC)" },
+      { "year": 2009, "value": 40.44, "note": "Giá bán lẻ ULG95R Bangkok ngày 24/12/2009 (cấu trúc giá EPPO)" },
+      { "year": 2014, "value": 49.236, "note": "Đỉnh cao kỷ lục mọi thời đại của ULG95 Bangkok, tháng 5/2014 (CEIC)" },
+      { "year": 2018, "value": 36.62, "note": "Giá bán lẻ ULG95 Bangkok, tháng 7/2018 (CEIC)" },
+      { "year": 2026, "value": 52.54, "note": "Giá bán lẻ Benzine 95 Bangkok, cấu trúc giá EPPO ngày 8/4/2026" }
+    ],
+    "sources": [
+      {
+        "title": "CEIC - Thailand Petroleum Product Price: Bangkok: Retail Price (RP): Avg: ULG 95 (1991-2018)",
+        "url": "https://www.ceicdata.com/en/thailand/price-of-petroleum-products"
+      },
+      {
+        "title": "EPPO - Petroleum price structure, Bangkok, 24 Dec 2009 (xls)",
+        "url": "https://www.eppo.go.th/wp-content/uploads/2026/03/pt-price-st-2009-12-24.xls"
+      },
+      {
+        "title": "EPPO - Petroleum price structure, Bangkok, 8 Apr 2026 (xls)",
+        "url": "https://www.eppo.go.th/index.php/th/component/k2/item/download/26475_c626df73f62c2ef44800ad88c5d96327"
+      }
+    ]
+  },
+  {
+    "id": "th-big-mac",
+    "country": "th",
+    "name": {
+      "vi": "Giá Big Mac (McDonald's)",
+      "en": "Big Mac price (McDonald's)"
+    },
+    "unit": {
+      "vi": "baht/cái",
+      "en": "THB/burger"
+    },
+    "quality": "A",
+    "note": {
+      "vi": "Theo chỉ số Big Mac của The Economist, thu thập 1-2 lần/năm (tháng 1 và/hoặc tháng 7). Mỗi điểm lấy mốc tháng 1 khi có, nếu không thì tháng gần nhất trong năm.",
+      "en": "From The Economist's Big Mac Index, collected 1-2 times a year (January and/or July). Each point uses the January reading where available, otherwise the nearest reading that year."
+    },
+    "kind": "point",
+    "currency": "THB",
+    "valueMultiplier": 1,
+    "purchasable": true,
+    "series": [
+      { "year": 2000, "value": 55 },
+      { "year": 2001, "value": 55 },
+      { "year": 2002, "value": 55 },
+      { "year": 2003, "value": 59 },
+      { "year": 2004, "value": 59 },
+      { "year": 2005, "value": 60 },
+      { "year": 2006, "value": 60 },
+      { "year": 2007, "value": 62 },
+      { "year": 2008, "value": 62 },
+      { "year": 2009, "value": 64.49 },
+      { "year": 2010, "value": 70 },
+      { "year": 2011, "value": 70 },
+      { "year": 2012, "value": 78 },
+      { "year": 2013, "value": 87 },
+      { "year": 2014, "value": 96 },
+      { "year": 2015, "value": 99 },
+      { "year": 2016, "value": 112 },
+      { "year": 2017, "value": 119 },
+      { "year": 2018, "value": 119 },
+      { "year": 2019, "value": 119 },
+      { "year": 2020, "value": 115 },
+      { "year": 2021, "value": 128 },
+      { "year": 2022, "value": 128 },
+      { "year": 2023, "value": 128 },
+      { "year": 2024, "value": 135 },
+      { "year": 2025, "value": 135 }
+    ],
+    "sources": [
+      {
+        "title": "GitHub - TheEconomist/big-mac-data (raw index, output-data/big-mac-raw-index.csv)",
+        "url": "https://github.com/TheEconomist/big-mac-data/blob/master/output-data/big-mac-raw-index.csv"
+      }
+    ]
+  },
+  {
+    "id": "th-gia-kuaitiao-ruea",
+    "country": "th",
+    "name": {
+      "vi": "Giá một chén 'ก๋วยเตี๋ยวเรือ' (mì nước thuyền)",
+      "en": "Price of a bowl of boat noodles (ก๋วยเตี๋ยวเรือ)"
+    },
+    "unit": {
+      "vi": "baht/chén nhỏ",
+      "en": "THB/small bowl"
+    },
+    "quality": "C",
+    "note": {
+      "vi": "Không có thống kê chính thức. Chuỗi lấy từ MỘT bài viết tổng hợp (OKMD Knowledge Portal) mô tả giá theo từng giai đoạn lịch sử (không ghi năm chính xác từng mốc), nên năm gán cho mỗi điểm là năm bắt đầu/đại diện của giai đoạn được nêu, không phải năm xác thực riêng lẻ. Món này nổi tiếng với chén rất nhỏ (khách thường ăn 4-5 chén/lần).",
+      "en": "No official statistics exist. The series comes from a SINGLE summary article (OKMD Knowledge Portal) describing prices by historical era (no exact year per point), so the year assigned to each point is the start/representative year of the stated era, not an independently verified single year. The dish is famous for very small bowls (diners typically order 4-5 per sitting)."
+    },
+    "kind": "range",
+    "currency": "THB",
+    "valueMultiplier": 1,
+    "purchasable": true,
+    "series": [
+      { "year": 1957, "min": 0.5, "max": 1, "note": "Giai đoạn 2500-2520 theo lịch Phật giáo Thái (~1957-1977)" },
+      { "year": 1987, "min": 3, "max": 5, "note": "Giai đoạn thập niên 2530 Thái (~1987-1996), theo lạm phát" },
+      { "year": 1997, "min": 7, "max": 10, "note": "Giai đoạn khủng hoảng tài chính 'Tom Yum Kung' năm 2540 (1997)" },
+      { "year": 2007, "min": 12, "max": 15, "note": "Giai đoạn 2550-2560 Thái (~2007-2017)" },
+      { "year": 2024, "min": 15, "max": 25, "note": "Giá phổ biến năm 2567 (2024); quán cao cấp/trong trung tâm thương mại có thể 40-50 baht" }
+    ],
+    "sources": [
+      {
+        "title": "OKMD Knowledge Portal - ก๋วยเตี๋ยวเรือประตูน้ำ: ตำนานชามเล็กกับรสชาติที่อยู่เหนือกาลเวลา",
+        "url": "https://knowledgeportal.okmd.or.th/kmap/67c5989e33227"
+      }
+    ]
+  }
+]

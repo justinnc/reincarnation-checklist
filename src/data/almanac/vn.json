@@ -102,7 +102,10 @@
         "title": "ThuVienPhapLuat - Tổng hợp lương tối thiểu vùng qua các năm",
         "url": "https://thuvienphapluat.vn/phap-luat-doanh-nghiep/bai-viet/tong-hop-luong-toi-thieu-vung-qua-cac-nam-quy-dinh-moi-nhat-ve-tang-luong-toi-thieu-vung-2025-11147.html"
       }
-    ]
+    ],
+    "currency": "VND",
+    "valueMultiplier": 1,
+    "purchasable": true
   },
   {
     "id": "vn-gia-vang-sjc",
@@ -192,7 +195,10 @@
         "title": "Dân Việt - Giá vàng miếng SJC biến động ra sao trong 15 năm qua",
         "url": "https://danviet.vn/lich-su-gia-vang-mieng-sjc-trong-15-nam-qua-tu-ky-nguyen-ngu-dong-den-giai-doan-but-pha-d1415795.html"
       }
-    ]
+    ],
+    "currency": "VND",
+    "valueMultiplier": 1000000,
+    "purchasable": true
   },
   {
     "id": "vn-gia-xang-ron92",
@@ -304,7 +310,10 @@
         "title": "Tiền Phong - Bộ Công Thương nói gì về giá xăng RON95 tăng cao? (xác nhận mốc khai tử RON92 1/1/2018, dẫn Thông báo 255/TB-VPCP)",
         "url": "https://tienphong.vn/bo-cong-thuong-noi-gi-ve-gia-xang-ron95-tang-cao-post1002446.tpo"
       }
-    ]
+    ],
+    "currency": "VND",
+    "valueMultiplier": 1,
+    "purchasable": true
   },
   {
     "id": "vn-ty-gia-usd-vnd",
@@ -506,7 +515,10 @@
         "title": "Tỷ giá USD hôm nay 31/12: Tỷ giá trung tâm giảm còn 25.121 đồng/USD - VOV",
         "url": "https://vov.vn/thi-truong/ty-gia/ty-gia-usd-hom-nay-3112-ty-gia-trung-tam-giam-con-25121-dongusd-post1257760.vov"
       }
-    ]
+    ],
+    "currency": "VND",
+    "valueMultiplier": 1,
+    "purchasable": true
   },
   {
     "id": "vn-gia-can-ho-chung-cu",
@@ -600,7 +612,10 @@
         "title": "Giá Nhà Đất Việt Nam 2000–2025 - chodat.com.vn (ước tính môi giới)",
         "url": "https://chodat.com.vn/tu-van/gia-nha-dat-viet-nam-2000-2025-phan-tich-vi-mo-va-du-bao-trien-vong-den-nam-2045"
       }
-    ]
+    ],
+    "currency": "VND",
+    "valueMultiplier": 1000000,
+    "purchasable": true
   },
   {
     "id": "vn-hoc-phi-dai-hoc-cong-lap",
@@ -732,7 +747,10 @@
         "title": "Mức trần học phí đối với cơ sở giáo dục đại học công lập năm học 2025 - 2026 (NĐ 238/2025) - LuatVietnam",
         "url": "https://luatvietnam.vn/tin-van-ban-moi/muc-tran-hoc-phi-doi-voi-co-so-giao-duc-dai-hoc-cong-lap-nam-hoc-2025-2026-186-103868-article.html"
       }
-    ]
+    ],
+    "currency": "VND",
+    "valueMultiplier": 1,
+    "purchasable": true
   },
   {
     "id": "vn-gia-to-pho",
@@ -808,6 +826,9 @@
         "title": "Giá xăng giảm, hàng hóa đứng yên - VnExpress",
         "url": "https://vnexpress.net/hang-hoa-dung-yen-nhin-gia-xang-giam-4497843.html"
       }
-    ]
+    ],
+    "currency": "VND",
+    "valueMultiplier": 1,
+    "purchasable": true
   }
 ]
