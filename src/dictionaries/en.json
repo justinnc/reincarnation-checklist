@@ -6,6 +6,8 @@
   },
   "nav": {
     "timeline": "Timelines",
+    "world": "World by Year",
+    "search": "Search",
     "quiz": "Quiz",
     "almanac": "Price Almanac",
     "disclaimer": "Full disclaimer",

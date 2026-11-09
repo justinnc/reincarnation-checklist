@@ -148,6 +148,11 @@ export default function AlmanacExplorer({
     () => allMilestones.filter((m) => m.country === country?.code),
     [allMilestones, country],
   );
+  const milestoneCountByCountry = useMemo(() => {
+    const m = new Map<string, number>();
+    for (const item of allMilestones) m.set(item.country, (m.get(item.country) ?? 0) + 1);
+    return m;
+  }, [allMilestones]);
   const nearbyMilestones = useMemo(() => {
     const exact = countryMilestones.filter((m) => Number(m.date.slice(0, 4)) === year);
     if (exact.length > 0) return exact;
@@ -177,6 +182,7 @@ export default function AlmanacExplorer({
             >
               <span className="mr-1.5">{c.flag}</span>
               {t(c.name, lang)}
+              <span className="ml-1.5 text-xs text-faint">({milestoneCountByCountry.get(c.code) ?? 0})</span>
             </button>
           ))}
         </div>

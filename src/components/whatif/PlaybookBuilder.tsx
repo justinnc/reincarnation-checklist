@@ -101,6 +101,12 @@ export default function PlaybookBuilder({ lang, countries, milestones }: Props) 
     [countries, countryCode],
   );
 
+  const milestoneCountByCountry = useMemo(() => {
+    const m = new Map<string, number>();
+    for (const item of milestones) m.set(item.country, (m.get(item.country) ?? 0) + 1);
+    return m;
+  }, [milestones]);
+
   const allCountryCandidates = useMemo(
     () => getPlaybookCandidates(milestones.filter((m) => m.country === country.code)),
     [milestones, country.code],
@@ -201,6 +207,7 @@ export default function PlaybookBuilder({ lang, countries, milestones }: Props) 
                   }`}
                 >
                   {c.flag} {t(c.name, lang)}
+                  <span className="ml-1 text-xs opacity-70">({milestoneCountByCountry.get(c.code) ?? 0})</span>
                 </button>
               );
             })}

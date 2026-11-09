@@ -16,11 +16,20 @@ type Props = {
   maxYear: number;
 };
 
+const LOW_DATA_THRESHOLD = 15;
+
 export default function RebirthPicker({ milestones, countries, lang, dict, minYear, maxYear }: Props) {
   const [year, setYear] = useState(Math.max(minYear, 1995));
   const [country, setCountry] = useState(() => (lang === "en" ? "us" : countries[0].code));
   const [tab, setTab] = useState<"gain" | "trap">("gain");
   const [savedToast, setSavedToast] = useState(false);
+
+  const countByCountry = useMemo(() => {
+    const m = new Map<string, number>();
+    for (const item of milestones) m.set(item.country, (m.get(item.country) ?? 0) + 1);
+    return m;
+  }, [milestones]);
+  const activeCountryCount = countByCountry.get(country) ?? 0;
 
   const ahead = useMemo(
     () => milestones.filter((m) => m.country === country && Number(m.date.slice(0, 4)) >= year),
@@ -69,7 +78,7 @@ export default function RebirthPicker({ milestones, countries, lang, dict, minYe
             >
               {countries.map((c) => (
                 <option key={c.code} value={c.code}>
-                  {c.flag} {t(c.name, lang)}
+                  {c.flag} {t(c.name, lang)} ({countByCountry.get(c.code) ?? 0})
                 </option>
               ))}
             </select>
@@ -77,6 +86,14 @@ export default function RebirthPicker({ milestones, countries, lang, dict, minYe
               <path d="M4 6l4 4 4-4" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
           </label>
+          {activeCountryCount < LOW_DATA_THRESHOLD && (
+            <p className="mt-2 text-xs text-faint">
+              ⚠️{" "}
+              {lang === "vi"
+                ? `Quốc gia này mới có ${activeCountryCount} mốc — phù hợp bối cảnh phụ, chưa đủ sâu cho cốt truyện chính.`
+                : `This country only has ${activeCountryCount} milestones so far — fine for a side setting, not deep enough for a main plotline yet.`}
+            </p>
+          )}
           <label htmlFor="year" className="mt-8 block text-lg text-muted">
             {dict.wakeUp}
           </label>
@@ -118,9 +135,15 @@ export default function RebirthPicker({ milestones, countries, lang, dict, minYe
                 href={`/${lang}/almanac?country=${country}&year=${year}`}
                 className="rounded-full border border-line-strong bg-raised px-4 py-2 text-xs font-semibold text-ink hover:border-gold"
               >
-                {lang === "vi" ? `🍜 Vật giá VN năm ${year} →` : `🍜 VN Prices in ${year} →`}
+                {lang === "vi" ? `🍜 Vật giá năm ${year} →` : `🍜 Prices in ${year} →`}
               </Link>
             )}
+            <Link
+              href={`/${lang}/world?year=${year}`}
+              className="rounded-full border border-line-strong bg-raised px-4 py-2 text-xs font-semibold text-ink hover:border-gold"
+            >
+              {lang === "vi" ? `🌍 Mốc toàn cầu năm ${year} →` : `🌍 World milestones in ${year} →`}
+            </Link>
           </div>
         </div>
 
