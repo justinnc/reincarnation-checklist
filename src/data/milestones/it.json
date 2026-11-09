@@ -1995,5 +1995,207 @@
     ],
     "verified": true,
     "verifiedNote": "TTF record price (EUR 213.895/MWh, 7 Mar 2022) confirmed via EnergyScan/Engie; Eni's 139% profit rise in 9M 2022 confirmed via Eni's own official results PDF. | Removed entry/exit price fields: the EUR 20 entry was an unsourced round number and mixed a gas-futures price with an equity ticker (Eni). Kept the verified TTF peak as a qualitative return. Audited 2026-11-07."
+  },
+  {
+    "id": "it-mps-derivatives-cover-up-2013",
+    "country": "it",
+    "date": "2013-01-22",
+    "category": "stocks",
+    "title": {
+      "vi": "Bê bối phái sinh che giấu lỗ của Monte dei Paschi",
+      "en": "Monte dei Paschi's Hidden-Derivatives Scandal"
+    },
+    "summary": {
+      "vi": "Tin MPS dùng hợp đồng phái sinh 'Alexandria' để giấu lỗ khiến cổ phiếu mất hơn 20% trong ba phiên, xuống 0,233 EUR.",
+      "en": "News that MPS had used the 'Alexandria' derivative to hide losses sent its shares down more than 20% in three sessions, to EUR 0.233."
+    },
+    "description": {
+      "vi": "Ngày 22/1/2013, báo Il Fatto Quotidiano tiết lộ rằng năm 2009, dưới thời chủ tịch Giuseppe Mussari, Monte dei Paschi di Siena (MPS) đã ký một thoả thuận bí mật với Nomura. Thoả thuận tái cấu trúc khoản phái sinh 'Alexandria' để giấu lỗ khỏi báo cáo tài chính, tương tự hợp đồng 'Santorini' với Deutsche Bank. Ngay hôm đó Mussari từ chức chủ tịch Hiệp hội Ngân hàng Ý (ABI). Cổ phiếu MPS đóng cửa giảm 5,68% xuống 0,27 EUR, giảm tiếp 8,4% ngày 23/1 và 8% ngày 24/1 xuống 0,2333 EUR. Như vậy cổ phiếu mất hơn 20% trong ba phiên, với khối lượng kỷ lục khoảng 7% vốn mỗi ngày. Ngân hàng Trung ương Ý nói các giao dịch này đã bị 'che giấu' khỏi cơ quan giám sát. Đến tháng 2/2013, MPS xác định khoản lỗ từ ba hợp đồng phái sinh là 730 triệu EUR. Các lãnh đạo cũ bị truy tố. Mussari bị kết án ở sơ thẩm năm 2019, nhưng tháng 5/2022 toà phúc thẩm Milan tuyên trắng án cho cả 13 bị cáo.",
+      "en": "On 22 January 2013 Il Fatto Quotidiano revealed that in 2009, under chairman Giuseppe Mussari, Monte dei Paschi di Siena (MPS) had struck a secret agreement with Nomura to restructure the 'Alexandria' derivative and hide losses from its accounts, alongside the 'Santorini' trade with Deutsche Bank. Mussari resigned as head of the Italian Banking Association (ABI) that day. MPS closed down 5.68% at EUR 0.27, then fell 8.4% on 23 January and 8% on 24 January to EUR 0.2333: more than 20% over three sessions on record volume of about 7% of the share capital a day. The Bank of Italy said the trades had been 'kept hidden' from supervisors. In February 2013 MPS put the losses on three derivative trades at EUR 730m. Former managers were prosecuted; Mussari was convicted at first instance in 2019, but a Milan appeals court acquitted all 13 defendants in May 2022."
+    },
+    "opportunity": {
+      "asset": "Banca Monte dei Paschi di Siena (BMPS.MI)",
+      "action": {
+        "vi": "Thoát MPS hoặc bán khống trước khi Il Fatto Quotidiano đăng bài về hợp đồng 'Alexandria'",
+        "en": "Exit or short MPS before Il Fatto Quotidiano publishes the 'Alexandria' story"
+      },
+      "buyWhen": {
+        "vi": "Không mua — đóng vị thế trước ngày 22/1/2013",
+        "en": "Don't buy — close positions before 22 January 2013"
+      },
+      "sellWhen": {
+        "vi": "Muộn nhất ở giá đóng cửa 0,27 EUR ngày 22/1/2013, trước hai phiên giảm sâu tiếp theo",
+        "en": "At the latest at the EUR 0.27 close on 22 January 2013, before two more steep sessions"
+      },
+      "estimatedReturn": {
+        "vi": "Tránh được thêm khoảng 14% lỗ trong hai phiên sau ngày 22/1, và hơn 20% nếu thoát trước 21/1",
+        "en": "Avoids a further ~14% loss in the two sessions after 22 January, and over 20% if out before 21 January"
+      },
+      "returnMultiple": 0.8641,
+      "entryPrice": 0.27,
+      "exitPrice": 0.2333,
+      "priceCurrency": "EUR",
+      "exitDate": "2013-01-24",
+      "risk": "high",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Người tái sinh biết MPS sẽ cần cứu trợ thêm nhiều lần nữa: năm 2014, năm 2015 và cuộc cứu trợ của nhà nước năm 2017. Vì thế vụ 'Alexandria' không phải cơ hội bắt đáy mà là tín hiệu rời khỏi cổ phiếu này hẳn.",
+      "en": "A reincarnated investor knows MPS will need repeated rescues (2014, 2015 and a state bailout in 2017), so the 'Alexandria' scandal is not a buying opportunity but a signal to leave the stock for good."
+    },
+    "pitfalls": {
+      "vi": "Cổ phiếu bị tạm ngừng giao dịch nhiều lần vì giảm quá biên độ, và Ý từng hạn chế bán khống cổ phiếu ngân hàng trong khủng hoảng, nên vị thế bán có thể không khớp lệnh. Vụ án hình sự kết thúc bằng trắng án ở phúc thẩm, nên không nên gọi các cá nhân là 'đã bị kết tội'. Giá năm 2013 cũng chưa điều chỉnh cho các lần gộp cổ phiếu sau này.",
+      "en": "The stock was repeatedly suspended limit-down, and Italy had restricted short-selling of bank shares during the crisis, so a short might not fill. The criminal case ended in acquittals on appeal, so don't describe the individuals as 'convicted'. 2013 prices are also not adjusted for later reverse splits."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Hợp đồng phái sinh MPS ký với Nomura để giấu lỗ có tên là gì?",
+        "en": "What was the name of the derivative MPS restructured with Nomura to hide losses?"
+      },
+      "choices": [
+        {
+          "vi": "Santorini",
+          "en": "Santorini"
+        },
+        {
+          "vi": "Alexandria",
+          "en": "Alexandria"
+        },
+        {
+          "vi": "Nota Italia",
+          "en": "Nota Italia"
+        },
+        {
+          "vi": "Antonveneta",
+          "en": "Antonveneta"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "'Alexandria' là hợp đồng với Nomura. 'Santorini' là hợp đồng với Deutsche Bank, còn Antonveneta là ngân hàng mà MPS mua với giá quá cao.",
+        "en": "'Alexandria' was the Nomura trade; 'Santorini' was with Deutsche Bank, and Antonveneta was the overpriced bank MPS had bought."
+      }
+    },
+    "sources": [
+      {
+        "title": "Mps, Mussari scaricato dalla banca dopo lo scoop del Fatto si dimette dall'Abi - Il Fatto Quotidiano",
+        "url": "https://www.ilfattoquotidiano.it/2013/01/22/borsa-monte-dei-paschi-di-siena-in-caduta-libera-dopo-scoop-del-fatto/476829/"
+      },
+      {
+        "title": "Scandalo Monte dei Paschi: nuovo crollo del titolo a Piazza Affari - Sky TG24",
+        "url": "https://tg24.sky.it/economia/2013/01/24/monte_dei_paschi_scandalo_derivati_polemica_titolo_in_borsa"
+      },
+      {
+        "title": "Italy's Monti steps into Monte Paschi scandal - Reuters via Free Malaysia Today",
+        "url": "https://www.freemalaysiatoday.com/category/world/2013/01/25/italys-monti-steps-into-monte-paschi-scandal"
+      },
+      {
+        "title": "Decline and near fall of Italy's Monte dei Paschi - Euronews/Reuters",
+        "url": "https://www.euronews.com/2022/05/07/italy-derivatives-monte-pei-paschi"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "22 Jan 2013 close EUR 0.27 (-5.68%) per Il Fatto Quotidiano; 24 Jan close EUR 0.23 (-8.19%, >20% over 3 sessions) per Sky TG24 and EUR 0.2333 (-8%) per Reuters; 23 Jan -8.4% per Bloomberg/Il Fatto. EUR 730m loss and 2022 acquittals per Reuters/Euronews."
+  },
+  {
+    "id": "it-popolare-vicenza-share-collapse-2016",
+    "country": "it",
+    "date": "2015-04-11",
+    "category": "stocks",
+    "title": {
+      "vi": "Cổ phiếu Banca Popolare di Vicenza: từ 62,5 EUR về 0,10 EUR",
+      "en": "Banca Popolare di Vicenza: From EUR 62.50 to EUR 0.10"
+    },
+    "summary": {
+      "vi": "Cổ phiếu chưa niêm yết của BPVi, từng được định giá 62,5 EUR, chỉ còn 0,10 EUR khi Quỹ Atlante giải cứu năm 2016, mất 99,84%.",
+      "en": "BPVi's unlisted shares, once priced at EUR 62.50, were worth EUR 0.10 in the 2016 Atlante rescue, a 99.84% loss."
+    },
+    "description": {
+      "vi": "Banca Popolare di Vicenza (BPVi) là ngân hàng hợp tác xã ở vùng Veneto. Cổ phiếu của ngân hàng không niêm yết, và giá do đại hội cổ đông ấn định theo đề xuất của hội đồng quản trị. Dưới thời chủ tịch Gianni Zonin, giá được giữ ở 62,5 EUR, và khách hàng thường bị ép mua cổ phiếu mới được vay vốn. Ngày 11/4/2015, đại hội cổ đông chấp thuận khoản lỗ 2014 là 758,5 triệu EUR và hạ giá xuống 48 EUR. Tháng 3/2016, giá bị hạ tiếp xuống 6,30 EUR. Ngày 20/4/2016, sau khi UniCredit rút bảo lãnh, Quỹ Atlante cam kết mua phần cổ phiếu mới chưa có người đặt với giá 0,10 EUR. Đợt tăng vốn 1,5 tỷ EUR thất bại, Atlante nắm 99,33% vốn, và vốn hoá rơi từ khoảng 6 tỷ EUR xuống 10 triệu EUR. Tháng 6/2017, BPVi và Veneto Banca bị thanh lý, phần tài sản tốt được bán cho Intesa Sanpaolo với giá 1 EUR. Khoảng 118.000–120.000 cổ đông nhỏ mất trắng. Tháng 3/2021, toà án Vicenza tuyên Zonin 6 năm 6 tháng tù ở sơ thẩm vì thao túng giá (aggiotaggio), cản trở cơ quan giám sát và gian lận bản cáo bạch.",
+      "en": "Banca Popolare di Vicenza (BPVi) was a cooperative bank in the Veneto whose unlisted shares were priced by the shareholders' meeting on the board's proposal. Under chairman Gianni Zonin the price was held at EUR 62.50, and customers were often pushed to buy shares to get loans. On 11 April 2015 the shareholders' meeting approved a 2014 loss of EUR 758.5m and cut the price to EUR 48; in March 2016 it was cut to EUR 6.30. On 20 April 2016, after UniCredit pulled its underwriting, the Atlante fund committed to buy unsubscribed new shares at EUR 0.10. The EUR 1.5bn capital increase failed, Atlante ended up with 99.33%, and market value fell from about EUR 6bn to EUR 10m. In June 2017 BPVi and Veneto Banca were wound up and their good assets sold to Intesa Sanpaolo for EUR 1. Roughly 118,000-120,000 small shareholders were wiped out. In March 2021 a Vicenza court sentenced Zonin at first instance to 6 years 6 months for market manipulation (aggiotaggio), obstructing supervisors and prospectus fraud."
+    },
+    "opportunity": {
+      "asset": "Banca Popolare di Vicenza shares (unlisted)",
+      "action": {
+        "vi": "Không bao giờ mua, hoặc bán lại cho ngân hàng khi giá vẫn còn là 62,5 EUR",
+        "en": "Never buy, or sell back to the bank while the price is still EUR 62.50"
+      },
+      "buyWhen": {
+        "vi": "Không mua — kể cả khi được 'mời' mua để đổi lấy khoản vay",
+        "en": "Don't buy — even when 'invited' to as a condition for a loan"
+      },
+      "sellWhen": {
+        "vi": "Trước đại hội cổ đông ngày 11/4/2015, khi giá còn 62,5 EUR và vẫn có thể yêu cầu ngân hàng mua lại",
+        "en": "Before the 11 April 2015 shareholders' meeting, while the price was still EUR 62.50 and buy-back requests were possible"
+      },
+      "estimatedReturn": {
+        "vi": "Tránh được khoản lỗ 99,84%: 62,5 EUR chỉ còn 0,10 EUR",
+        "en": "Avoids a 99.84% loss: EUR 62.50 became EUR 0.10"
+      },
+      "returnMultiple": 0.0016,
+      "entryPrice": 62.5,
+      "exitPrice": 0.1,
+      "priceCurrency": "EUR",
+      "exitDate": "2016-05",
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Người tái sinh biết mức giá 62,5 EUR chỉ là con số do chính ngân hàng tự đặt, được giữ bằng các khoản vay cho khách mua cổ phiếu. Không có thị trường thật nào đỡ giá. Hãy yêu cầu ngân hàng mua lại trước năm 2015, vì về sau các yêu cầu bán lại bị treo và cổ đông bị kẹt.",
+      "en": "A reincarnated investor knows the EUR 62.50 price is a number the bank set itself, propped up by loans to customers who bought the shares, with no real market behind it. Ask for a buy-back before 2015, because later redemption requests were frozen and shareholders were trapped."
+    },
+    "pitfalls": {
+      "vi": "Đây là cổ phiếu không niêm yết, nên không thể bán khống hay bán ra tuỳ ý. Ngân hàng xử lý yêu cầu bán lại theo thứ tự và có thể từ chối. Nhân viên hay lãnh đạo nào biết tình hình thật mà bán trước cổ đông thường thì có thể bị điều tra. Bản án sơ thẩm của Zonin còn có thể bị thay đổi ở các cấp xét xử sau.",
+      "en": "These were unlisted shares: there was no way to short them or sell at will, and the bank processed redemptions in a queue it could refuse. Staff or executives who knew the real situation and sold ahead of ordinary holders risked investigation. Zonin's first-instance sentence could also be changed on appeal."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Quỹ Atlante mua cổ phiếu mới của BPVi năm 2016 với giá bao nhiêu?",
+        "en": "At what price did the Atlante fund buy new BPVi shares in 2016?"
+      },
+      "choices": [
+        {
+          "vi": "48 EUR",
+          "en": "EUR 48"
+        },
+        {
+          "vi": "6,30 EUR",
+          "en": "EUR 6.30"
+        },
+        {
+          "vi": "0,10 EUR",
+          "en": "EUR 0.10"
+        },
+        {
+          "vi": "1 EUR",
+          "en": "EUR 1"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "Atlante mua ở 0,10 EUR/cổ phiếu, thấp hơn 99,84% so với mức 62,5 EUR mà nhiều khách hàng từng phải trả. Con số 1 EUR là giá Intesa Sanpaolo trả cho phần tài sản tốt năm 2017.",
+        "en": "Atlante paid EUR 0.10 a share, 99.84% below the EUR 62.50 many customers had paid; EUR 1 is what Intesa Sanpaolo paid for the good assets in 2017."
+      }
+    },
+    "sources": [
+      {
+        "title": "Italian court sentences Popolare Vicenza managers to jail over bank's collapse - Reuters",
+        "url": "https://www.reuters.com/article/business/italian-court-sentences-popolare-vicenza-managers-to-jail-over-banks-collapse-idUSL1N2LH1N8/"
+      },
+      {
+        "title": "Banca Popolare di Vicenza, Fondo Atlante compra azioni a 10 cent - VenetoEconomia",
+        "url": "https://www.venetoeconomia.it/2016/04/banca-popolare-di-vicenza-fondo-atlante-10-centesimi/"
+      },
+      {
+        "title": "Consob/Bankitalia: come si distrugge una banca, il caso della Popolare di Vicenza - Adusbef",
+        "url": "https://www.adusbef.it/comunicati-stampa/consob-bankitalia-come-si-distrugge-una-banca-il-caso-della-popolare-di"
+      },
+      {
+        "title": "Crac BpVi: Zonin condannato a sei anni e sei mesi - Il Giornale di Vicenza",
+        "url": "https://www.ilgiornaledivicenza.it/territorio-vicentino/vicenza/crac-bpvi-zonin-condannato-a-sei-anni-e-sei-mesi-1.8544370"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "EUR 62.50 to 48 cut on 11 Apr 2015 confirmed by the Camera dei Deputati record and VicenzaToday; EUR 0.10 Atlante price by VenetoEconomia, Adusbef and it.wikipedia. Zonin's 6y6m first-instance sentence (Mar 2021) by Reuters and Il Giornale di Vicenza. Exit date given to the month (capital increase closed May 2016); shares were unlisted, so these are administered prices, not market quotes."
   }
 ]

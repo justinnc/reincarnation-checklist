@@ -2010,5 +2010,207 @@
     ],
     "verified": true,
     "verifiedNote": "Jan 2023 CEO start at ~93p, Feb 2025 all-time high of 742p confirmed via Yahoo Finance; profit figures (£652m->£1.6bn->£2.46bn) corroborated via businessplus.ie reporting."
+  },
+  {
+    "id": "gb-barclays-libor-rigging-2012",
+    "country": "gb",
+    "date": "2012-06-27",
+    "category": "stocks",
+    "title": {
+      "vi": "Barclays bị phạt vì thao túng lãi suất Libor",
+      "en": "Barclays Fined for Rigging Libor"
+    },
+    "summary": {
+      "vi": "Một ngày sau án phạt Libor, cổ phiếu Barclays rơi 15,5% từ 196p xuống 165,6p, xoá hơn 3 tỷ GBP vốn hoá.",
+      "en": "The day after its Libor penalty, Barclays shares fell 15.5% from 196p to 165.6p, wiping more than GBP 3bn off its value."
+    },
+    "description": {
+      "vi": "Ngày 27/6/2012, Cơ quan Dịch vụ Tài chính Anh (FSA) phạt Barclays 59,5 triệu GBP, mức phạt lớn nhất trong lịch sử FSA lúc đó. Cùng ngày, CFTC của Mỹ phạt thêm 200 triệu USD vì ngân hàng này đã tìm cách thao túng và báo cáo sai lãi suất Libor và Euribor. Tổng cộng Barclays phải trả khoảng 290 triệu GBP. Hồ sơ cho thấy các trader phái sinh đã nhờ bộ phận báo giá chỉnh con số Libor để có lợi cho vị thế của mình. Trong khủng hoảng 2007-2009, ngân hàng còn cố tình báo Libor thấp hơn thực tế để trông khoẻ mạnh hơn. Phiên 28/6/2012, cổ phiếu Barclays mất 15,53%, rơi từ khoảng 196p xuống 165,6p, tức hơn 3,2 tỷ GBP vốn hoá bốc hơi trong một phiên. Chủ tịch Marcus Agius và CEO Bob Diamond lần lượt từ chức vào đầu tháng 7.",
+      "en": "On 27 June 2012 the UK Financial Services Authority fined Barclays GBP 59.5m, its largest fine ever at the time, and the US CFTC added a USD 200m penalty for attempted manipulation and false reporting of Libor and Euribor; the total came to about GBP 290m. The findings showed derivatives traders asking rate submitters to nudge Libor in favour of their positions, and the bank lowballing its Libor submissions during the 2007-2009 crisis to look healthier. On 28 June 2012 Barclays shares fell 15.53%, from about 196p to 165.6p, wiping out more than GBP 3.2bn in one session. Chairman Marcus Agius and CEO Bob Diamond both resigned in early July."
+    },
+    "opportunity": {
+      "asset": "Barclays plc (BARC.L)",
+      "action": {
+        "vi": "Thoát vị thế Barclays (hoặc mua quyền chọn bán) trước khi án phạt Libor được công bố",
+        "en": "Exit Barclays (or buy puts) before the Libor settlement is announced"
+      },
+      "buyWhen": {
+        "vi": "Không mua — bán ra trước ngày 27/6/2012",
+        "en": "Don't buy — sell before 27 June 2012"
+      },
+      "sellWhen": {
+        "vi": "Chậm nhất là trước phiên 28/6/2012, phiên thị trường phản ứng đầy đủ với án phạt",
+        "en": "At the latest before the 28 June 2012 session, when the market fully priced in the penalty"
+      },
+      "estimatedReturn": {
+        "vi": "Tránh được khoản lỗ khoảng 15,5% chỉ trong một phiên",
+        "en": "Avoids a roughly 15.5% loss in a single session"
+      },
+      "returnMultiple": 0.8447,
+      "entryPrice": 196.05,
+      "exitPrice": 165.6,
+      "priceCurrency": "GBp",
+      "exitDate": "2012-06-28",
+      "risk": "medium",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Người tái sinh biết Barclays sẽ là ngân hàng đầu tiên dàn xếp vụ Libor, và sẽ phải công khai những email trader xin 'chỉnh' lãi suất. Biết trước ngày 27/6/2012, bạn chỉ cần giảm tỷ trọng Barclays trong tuần trước đó là tránh được cú rơi 15% và chuỗi từ chức sau đó.",
+      "en": "A reincarnated investor knows Barclays will be the first bank to settle over Libor and that the settlement will publish traders' emails asking for rates to be 'adjusted'. Knowing the 27 June 2012 date, simply trimming Barclays the week before avoids the 15% drop and the resignations that follow."
+    },
+    "pitfalls": {
+      "vi": "Cú rơi chỉ là phản ứng một phiên; cổ phiếu Barclays sau đó hồi phục dần cùng toàn ngành ngân hàng nên lợi nhuận bán khống không kéo dài. Nếu bạn là người trong cuộc biết trước kết quả điều tra mà giao dịch thì đó là giao dịch nội gián, một tội hình sự. Các trader Libor như Tom Hayes đã thực sự lĩnh án tù.",
+      "en": "The drop was largely a one-session reaction; Barclays later recovered with the rest of the sector, so a short would not have kept paying. Trading on advance knowledge of a regulatory settlement, if you were actually an insider, is criminal insider dealing, and Libor traders such as Tom Hayes were in fact jailed."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Cổ phiếu Barclays mất bao nhiêu phần trăm trong phiên 28/6/2012?",
+        "en": "How much did Barclays shares fall on 28 June 2012?"
+      },
+      "choices": [
+        {
+          "vi": "Khoảng 5%",
+          "en": "About 5%"
+        },
+        {
+          "vi": "Khoảng 15,5%",
+          "en": "About 15.5%"
+        },
+        {
+          "vi": "Khoảng 30%",
+          "en": "About 30%"
+        },
+        {
+          "vi": "Khoảng 50%",
+          "en": "About 50%"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Theo The Telegraph, Barclays đóng cửa giảm 15,53% xuống 165,6p, mất khoảng 3,2 tỷ GBP vốn hoá.",
+        "en": "The Telegraph reported Barclays closed down 15.53% at 165.6p, losing about GBP 3.2bn in market value."
+      }
+    },
+    "sources": [
+      {
+        "title": "Barclays Libor scandal: as it happened - June 28, 2012 - The Telegraph",
+        "url": "https://www.telegraph.co.uk/finance/newsbysector/banksandfinance/9361646/Barclays-Libor-scandal-as-it-happened-June-28-2012.html"
+      },
+      {
+        "title": "Barclays fined £59.5 million for significant failings in relation to LIBOR and EURIBOR - FCA",
+        "url": "https://www.fca.org.uk/news/press-releases/barclays-fined-%C2%A3595-million-significant-failings-relation-libor-and-euribor"
+      },
+      {
+        "title": "CFTC Orders Barclays to pay $200 Million Penalty - CFTC",
+        "url": "http://cftc.gov/PressRoom/PressReleases/6289-12"
+      },
+      {
+        "title": "Dissecting Barclays' Libor woes - Euromoney",
+        "url": "https://www.euromoney.com/article/27bjsstsqxhkmh0njjrh2/banking/dissecting-barclays-libor-woes/"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "27 Jun 2012 FSA GBP 59.5m and CFTC USD 200m fines confirmed by FCA and CFTC releases. 28 Jun close 165.6p (-15.53%, -30.45p) per The Telegraph; ~15% fall corroborated by Euromoney. Entry 196.05p is the prior close implied by Telegraph's 165.6p + 30.45p."
+  },
+  {
+    "id": "gb-tesco-profit-overstatement-2014",
+    "country": "gb",
+    "date": "2014-09-22",
+    "category": "stocks",
+    "title": {
+      "vi": "Tesco thổi phồng lợi nhuận 250 triệu GBP",
+      "en": "Tesco's GBP 250m Profit Overstatement"
+    },
+    "summary": {
+      "vi": "Tesco thừa nhận đã thổi phồng dự báo lợi nhuận 250 triệu GBP; cổ phiếu rơi 11,6% xuống 203p, đáy 11 năm.",
+      "en": "Tesco admitted overstating its profit guidance by GBP 250m; the shares fell 11.6% to 203p, an 11-year low."
+    },
+    "description": {
+      "vi": "Ngày 29/8/2014, Tesco công bố dự báo lợi nhuận nửa năm khoảng 1,1 tỷ GBP. Trước giờ mở cửa ngày 22/9/2014, CEO mới Dave Lewis thừa nhận con số này đã bị thổi phồng hơn 250 triệu GBP. Nguyên nhân là thu nhập từ nhà cung cấp được ghi nhận sớm và chi phí bị ghi lùi. Bốn lãnh đạo bị đình chỉ, và cổ phiếu đóng cửa giảm 11,6% xuống 203p, mức thấp nhất từ năm 2003, xoá gần 2,2 tỷ GBP vốn hoá. Năm 2017, Tesco Stores ký thoả thuận hoãn truy tố (DPA) với Văn phòng Chống gian lận nghiêm trọng (SFO) và nộp phạt 129 triệu GBP. Cơ quan FCA cũng kết luận Tesco đã phạm tội lạm dụng thị trường qua bản cập nhật ngày 29/8 và buộc công ty bồi thường cho nhà đầu tư đã mua cổ phiếu từ 29/8 đến 19/9/2014. Ba cựu lãnh đạo bị đưa ra xét xử nhưng không ai bị kết án.",
+      "en": "On 29 August 2014 Tesco guided to first-half trading profit of about GBP 1.1bn. Before the market opened on 22 September 2014, new CEO Dave Lewis admitted that figure was overstated by more than GBP 250m because supplier income had been booked early and costs accrued late. Four executives were suspended and the shares closed 11.6% lower at 203p, the lowest since 2003, wiping almost GBP 2.2bn off the company. In 2017 Tesco Stores agreed a deferred prosecution agreement with the Serious Fraud Office and paid a GBP 129m fine, and the FCA found Tesco had committed market abuse through the 29 August update, ordering compensation for investors who bought between 29 August and 19 September 2014. Three former executives were tried and none was convicted."
+    },
+    "opportunity": {
+      "asset": "Tesco plc (TSCO.L)",
+      "action": {
+        "vi": "Không mua Tesco sau bản cập nhật 29/8/2014; thoát hết trước ngày 22/9/2014",
+        "en": "Don't buy Tesco after the 29 Aug 2014 update; exit fully before 22 Sep 2014"
+      },
+      "buyWhen": {
+        "vi": "Không mua trong giai đoạn 29/8–19/9/2014, khi giá đang phản ánh con số lợi nhuận sai",
+        "en": "Don't buy between 29 Aug and 19 Sep 2014, while the price reflects a false profit number"
+      },
+      "sellWhen": {
+        "vi": "Trước phiên 22/9/2014, ngày Tesco công bố đính chính",
+        "en": "Before the 22 September 2014 session, when Tesco published its correction"
+      },
+      "estimatedReturn": {
+        "vi": "Tránh được khoản lỗ 11,6% trong một phiên; cổ phiếu còn tiếp tục yếu trong nhiều tháng sau",
+        "en": "Avoids an 11.6% one-day loss; the shares kept struggling for months afterwards"
+      },
+      "returnMultiple": 0.884,
+      "entryPrice": 229.6,
+      "exitPrice": 203,
+      "priceCurrency": "GBp",
+      "exitDate": "2014-09-22",
+      "risk": "medium",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Người tái sinh biết con số 1,1 tỷ GBP ngày 29/8/2014 là sai. FCA về sau xác nhận ai mua trong ba tuần đó đều đã trả giá quá cao. Chỉ cần đứng ngoài Tesco đến sau ngày 22/9 là bạn tránh được cú sập.",
+      "en": "A reincarnated investor knows the GBP 1.1bn figure published on 29 August 2014 is false; the FCA later confirmed that anyone buying during those three weeks overpaid. Simply staying out of Tesco until after 22 September dodges the drop."
+    },
+    "pitfalls": {
+      "vi": "Giá trước tin 229,6p là con số suy ra từ mức giảm 11,6%, không phải giá đóng cửa được báo chí công bố trực tiếp. Nhân viên Tesco nào biết sai sót mà bán cổ phiếu trước ngày 22/9 sẽ phạm tội giao dịch nội gián. Nhà đầu tư thường thì được bồi thường qua chương trình của FCA, nên tự 'đánh cược' theo vụ việc không đáng để mạo hiểm.",
+      "en": "The 229.6p pre-news price is derived from the 11.6% fall, not a directly quoted close. Any Tesco employee who knew of the error and sold before 22 September would have committed insider dealing. Ordinary buyers were later compensated through the FCA scheme, so making an aggressive bet on the case was not worth the risk."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Tesco đã thổi phồng dự báo lợi nhuận nửa năm 2014 khoảng bao nhiêu?",
+        "en": "By roughly how much did Tesco overstate its 2014 half-year profit guidance?"
+      },
+      "choices": [
+        {
+          "vi": "25 triệu GBP",
+          "en": "GBP 25m"
+        },
+        {
+          "vi": "250 triệu GBP",
+          "en": "GBP 250m"
+        },
+        {
+          "vi": "1,1 tỷ GBP",
+          "en": "GBP 1.1bn"
+        },
+        {
+          "vi": "2,2 tỷ GBP",
+          "en": "GBP 2.2bn"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Tesco xác nhận khoản thổi phồng khoảng 250 triệu GBP. Con số 1,1 tỷ GBP là dự báo lợi nhuận sai, còn 2,2 tỷ GBP là phần vốn hoá bị xoá.",
+        "en": "Tesco confirmed an overstatement of about GBP 250m; GBP 1.1bn was the false guidance and GBP 2.2bn the market value wiped out."
+      }
+    },
+    "sources": [
+      {
+        "title": "Tesco suspends execs as inquiry launched into profit overstatement - BBC News",
+        "url": "https://www.bbc.com/news/business-29306444"
+      },
+      {
+        "title": "Tesco Suspends Bosses Over £250m Profit Error - Sky News",
+        "url": "https://news.sky.com/story/tesco-suspends-bosses-over-250m-profit-error-10389007"
+      },
+      {
+        "title": "Tesco to pay redress for market abuse - FCA",
+        "url": "https://www.fca.org.uk/news/press-releases/tesco-pay-redress-market-abuse"
+      },
+      {
+        "title": "Recovery: Tesco finally bags City approval - The Telegraph",
+        "url": "https://www.telegraph.co.uk/business/2018/04/11/recovery-tesco-finally-bags-city-approval/"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "22 Sep 2014 close of 203p (-11.6%) confirmed by BBC and The Telegraph; -11.6% also by Sky News and RTE. FCA market-abuse finding confirmed by FCA. Entry 229.6p is derived (203 / 0.884), not a directly quoted close."
   }
 ]

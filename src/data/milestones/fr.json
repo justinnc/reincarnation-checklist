@@ -2008,5 +2008,207 @@
     ],
     "verified": true,
     "verifiedNote": "Confirmed 12.28% single-day drop (12 March 2020, Black Thursday) via Daily Sabah contemporaneous reporting; intraday low 3,754.84 (18 Mar) and 2020 close 5,551.41 via ConvexTrade historical data, cross-checked against Wikipedia's 2020 stock market crash entry."
+  },
+  {
+    "id": "fr-orpea-les-fossoyeurs-2022",
+    "country": "fr",
+    "date": "2022-01-24",
+    "category": "stocks",
+    "title": {
+      "vi": "Orpea sụp đổ sau cuốn sách 'Les Fossoyeurs'",
+      "en": "Orpea Collapses After 'Les Fossoyeurs'"
+    },
+    "summary": {
+      "vi": "Trích đoạn sách điều tra về viện dưỡng lão khiến Orpea mất 43% trong ba phiên, từ khoảng 82,6 EUR xuống 46,94 EUR.",
+      "en": "Excerpts from an investigative book on care homes knocked Orpea down 43% in three sessions, from about EUR 82.6 to EUR 46.94."
+    },
+    "description": {
+      "vi": "Ngày 24/1/2022, báo Le Monde đăng trích đoạn cuốn 'Les Fossoyeurs' ('Những kẻ đào huyệt') của nhà báo Victor Castanet. Cuốn sách cáo buộc Orpea, tập đoàn viện dưỡng lão lớn nhất châu Âu, cắt xén chăm sóc, thuốc men và cả bữa ăn của người già để tăng lợi nhuận. Cổ phiếu lao dốc từ cuối buổi sáng, giảm 16,11% xuống 69,28 EUR rồi bị tạm ngừng giao dịch theo đề nghị của công ty. Khi giao dịch trở lại, giá tiếp tục rơi và chạm 46,94 EUR chiều 26/1, tức mất khoảng 43% chỉ trong một tuần. CEO Yves Le Masne bị cách chức ngày 30/1. Sau đó Orpea bị khởi tố, nợ chồng chất và phải tái cấu trúc. Tới đầu năm 2023, cổ phiếu chỉ còn khoảng 7 EUR.",
+      "en": "On 24 January 2022 Le Monde published excerpts from 'Les Fossoyeurs' ('The Gravediggers') by journalist Victor Castanet, alleging that Orpea, Europe's largest care-home operator, rationed care, medicine and even meals to boost profits. The shares crashed from late morning, falling 16.11% to EUR 69.28 before trading was suspended at the company's request. When trading resumed the slide continued, reaching EUR 46.94 on the afternoon of 26 January, about 43% lower on the week. CEO Yves Le Masne was dismissed on 30 January. Criminal investigations, a debt crisis and a restructuring followed, and by early 2023 the stock was around EUR 7."
+    },
+    "opportunity": {
+      "asset": "Orpea SA (ORP.PA, now Emeis)",
+      "action": {
+        "vi": "Thoát Orpea hoặc bán khống trước khi Le Monde đăng trích đoạn sách",
+        "en": "Exit or short Orpea before Le Monde publishes the book excerpts"
+      },
+      "buyWhen": {
+        "vi": "Không mua — đóng vị thế mua trước ngày 24/1/2022",
+        "en": "Don't buy — close any long before 24 January 2022"
+      },
+      "sellWhen": {
+        "vi": "Phiên 21/1/2022 (thứ Sáu trước ngày đăng báo); nếu bán khống, có thể chốt quanh 26/1/2022",
+        "en": "On 21 January 2022 (the Friday before publication); a short could be covered around 26 January 2022"
+      },
+      "estimatedReturn": {
+        "vi": "Tránh được khoản lỗ khoảng 43% trong ba phiên, và hơn 90% trong một năm",
+        "en": "Avoids a roughly 43% loss in three sessions and more than 90% within a year"
+      },
+      "returnMultiple": 0.5684,
+      "entryPrice": 82.58,
+      "exitPrice": 46.94,
+      "priceCurrency": "EUR",
+      "exitDate": "2022-01-26",
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Người tái sinh biết ngày Le Monde đăng bài, và biết Orpea sẽ không bao giờ quay lại vùng 80 EUR. Bloomberg ghi nhận vị thế bán khống trên Orpea đã ở mức cao nhất kể từ tháng 7 ngay trước ngày đăng báo. Một số quỹ dường như đã ngửi thấy mùi từ trước.",
+      "en": "A reincarnated investor knows the date Le Monde will run the story and that Orpea will never see EUR 80 again. Bloomberg noted short interest in Orpea was already at its highest since July just before publication, so some funds seem to have smelled trouble early."
+    },
+    "pitfalls": {
+      "vi": "Giá vào 82,58 EUR được suy ra từ mức giảm 16,11% về 69,28 EUR, còn 46,94 EUR là giá trong phiên chứ không phải giá đóng cửa. Cổ phiếu bị tạm ngừng giao dịch nhiều lần, nên lệnh bán khống có thể bị kẹt. Ai biết trước nội dung cuốn sách nhờ làm ở nhà xuất bản hay toà soạn mà giao dịch thì phạm tội giao dịch nội gián. Bắt đáy cũng là sai lầm: cổ đông cũ gần như bị xoá sạch trong đợt tái cấu trúc.",
+      "en": "The EUR 82.58 entry is derived from the 16.11% fall to EUR 69.28, and EUR 46.94 is an intraday quote, not a close. Trading was suspended more than once, so shorts could get stuck. Anyone trading on advance knowledge of the book through a publisher or newsroom would be committing insider dealing. Bottom-fishing was also a trap: existing shareholders were almost wiped out in the restructuring."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Tên cuốn sách khiến cổ phiếu Orpea sụp đổ năm 2022 là gì?",
+        "en": "What was the book that sank Orpea's shares in 2022?"
+      },
+      "choices": [
+        {
+          "vi": "Les Misérables",
+          "en": "Les Misérables"
+        },
+        {
+          "vi": "Les Fossoyeurs",
+          "en": "Les Fossoyeurs"
+        },
+        {
+          "vi": "Le Capital au XXIe siècle",
+          "en": "Le Capital au XXIe siècle"
+        },
+        {
+          "vi": "La Chute",
+          "en": "La Chute"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "'Les Fossoyeurs' ('Những kẻ đào huyệt') của Victor Castanet, được Le Monde trích đăng ngày 24/1/2022.",
+        "en": "'Les Fossoyeurs' ('The Gravediggers') by Victor Castanet, excerpted in Le Monde on 24 January 2022."
+      }
+    },
+    "sources": [
+      {
+        "title": "Orpea : plus forte baisse du marché SRD à la clôture du lundi 24 janvier 2022 - Zonebourse",
+        "url": "https://www.zonebourse.com/cours/action/EMEIS-4799/actualite/Orpea-plus-forte-baisse-du-marche-SRD-a-la-cloture-du-lundi-24-janvier-2022-37627061/"
+      },
+      {
+        "title": "French Nursing-Home Operator's Stock Plunges on Allegations of Patient Mistreatment - Bloomberg via NDTV Profit",
+        "url": "https://www.ndtvprofit.com/business/orpea-says-it-didn-t-offer-money-to-halt-publication-of-book-10154691"
+      },
+      {
+        "title": "Care home firm Orpea rejects allegations of resident mistreatment - Reuters",
+        "url": "https://www.reuters.com/world/europe/care-home-firm-orpea-rejects-allegations-resident-mistreatment-2022-01-24/"
+      },
+      {
+        "title": "Où en est Orpea un an après, en cinq points - Les Echos",
+        "url": "https://www.lesechos.fr/industrie-services/pharmacie-sante/ou-en-est-orpea-un-an-apres-en-cinq-points-1901102"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "24 Jan 2022 -16.11% to EUR 69.28 (Zonebourse/AOF, Boursorama) and EUR 46.94 intraday on 26 Jan, -43% on the week (Bloomberg) are mutually consistent. Les Echos confirms the stock went from >EUR 80 to ~EUR 7 in a year. Entry EUR 82.58 is derived (69.28 / 0.8389)."
+  },
+  {
+    "id": "fr-danone-pepsico-takeover-rumour-2005",
+    "country": "fr",
+    "date": "2005-07-06",
+    "category": "stocks",
+    "title": {
+      "vi": "Tin đồn PepsiCo thâu tóm Danone",
+      "en": "The PepsiCo-Danone Takeover Rumour"
+    },
+    "summary": {
+      "vi": "Tin đồn PepsiCo mua Danone đẩy cổ phiếu từ 72,45 EUR lên 87,60 EUR trong hai tuần, rồi sụt 7,5% khi PepsiCo cải chính.",
+      "en": "A rumoured PepsiCo bid lifted Danone from EUR 72.45 to EUR 87.60 in two weeks, before it fell 7.5% when PepsiCo denied it."
+    },
+    "description": {
+      "vi": "Ngày 6/7/2005, tạp chí Challenges đưa tin PepsiCo đã gom khoảng 3% vốn Danone và chuẩn bị chào mua công ty. Ngay trong giờ đầu phiên 7/7 đã có hơn 4 triệu cổ phiếu Danone được sang tay. Giới chính trị Pháp, từ Tổng thống Jacques Chirac trở xuống, lên tiếng bảo vệ 'nhà vô địch quốc gia'. Từ mức 72,45 EUR ngày 5/7, cổ phiếu tăng mạnh và đóng cửa phiên 19/7 ở 87,60 EUR (+10,19% trong ngày), dù PepsiCo liên tục phủ nhận. Ngày 24/7, PepsiCo xác nhận với AMF rằng họ 'hiện không chuẩn bị' thương vụ nào. Phiên 25/7, Danone giảm 7,52% xuống 81,80 EUR, và AMF mở cuộc điều tra về diễn biến giá. Thương vụ không bao giờ xảy ra.",
+      "en": "On 6 July 2005 Challenges magazine reported that PepsiCo had built a stake of about 3% in Danone and was preparing a bid. More than 4 million Danone shares changed hands in the first hour on 7 July, and French politicians up to President Jacques Chirac rallied to defend the 'national champion'. From EUR 72.45 on 5 July, the stock surged to close at EUR 87.60 on 19 July (+10.19% that day) despite repeated PepsiCo denials. On 24 July PepsiCo told the AMF it was 'not currently' preparing an offer. Danone fell 7.52% to EUR 81.80 on 25 July, the AMF opened an inquiry into the trading, and the deal never happened."
+    },
+    "opportunity": {
+      "asset": "Groupe Danone (BN.PA)",
+      "action": {
+        "vi": "Mua Danone trước khi tin đồn bùng lên, bán vào đỉnh sóng trước khi PepsiCo cải chính",
+        "en": "Buy Danone before the rumour breaks and sell into the spike before PepsiCo's denial"
+      },
+      "buyWhen": {
+        "vi": "Ngày 5/7/2005, giá 72,45 EUR, một ngày trước bài báo của Challenges",
+        "en": "5 July 2005 at EUR 72.45, the day before the Challenges report"
+      },
+      "sellWhen": {
+        "vi": "Quanh 19–22/7/2005, trước khi PepsiCo xác nhận với AMF vào cuối tuần 23–24/7",
+        "en": "Around 19-22 July 2005, before PepsiCo's statement to the AMF over the 23-24 July weekend"
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng +21% trong hai tuần nhờ một thương vụ không bao giờ tồn tại",
+        "en": "About +21% in two weeks on a deal that never existed"
+      },
+      "returnMultiple": 1.2091,
+      "entryPrice": 72.45,
+      "exitPrice": 87.6,
+      "priceCurrency": "EUR",
+      "exitDate": "2005-07-19",
+      "risk": "medium",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Người tái sinh biết PepsiCo sẽ không bao giờ ra giá, nên đây là một con sóng tin đồn thuần tuý. Cách chơi là mua trước bài báo của Challenges, bán khi cả nước đang tranh cãi về 'chủ nghĩa yêu nước kinh tế', và tuyệt đối không ôm qua cuối tuần 23–24/7.",
+      "en": "A reincarnated investor knows PepsiCo will never bid, so this is a pure rumour wave: buy before the Challenges story, sell while France is busy debating 'economic patriotism', and never hold over the 23-24 July weekend."
+    },
+    "pitfalls": {
+      "vi": "Tin đồn này hoàn toàn sai, và ai mua ở đỉnh đã lỗ ngay khi PepsiCo cải chính. AMF đã mở điều tra về giao dịch quanh tin đồn. Tự tung tin đồn chào mua giả để kiếm lời là hành vi thao túng thị trường. Hãy chỉ cưỡi sóng, đừng tạo sóng.",
+      "en": "The rumour was false, and anyone who bought near the top lost money as soon as PepsiCo denied it. The AMF opened an inquiry into trading around the rumour, and spreading a fake bid rumour to profit from it is market manipulation. Ride the wave; don't make it."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Tờ báo nào đầu tiên tung tin PepsiCo muốn mua Danone vào tháng 7/2005?",
+        "en": "Which publication first reported in July 2005 that PepsiCo was eyeing Danone?"
+      },
+      "choices": [
+        {
+          "vi": "Le Figaro",
+          "en": "Le Figaro"
+        },
+        {
+          "vi": "Challenges",
+          "en": "Challenges"
+        },
+        {
+          "vi": "Financial Times",
+          "en": "Financial Times"
+        },
+        {
+          "vi": "Les Echos",
+          "en": "Les Echos"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Tạp chí Challenges đưa tin PepsiCo đã nắm khoảng 3% vốn Danone, châm ngòi cho cơn sốt cổ phiếu.",
+        "en": "Challenges magazine reported PepsiCo had taken about 3% of Danone, sparking the frenzy."
+      }
+    },
+    "sources": [
+      {
+        "title": "Danone : le cours de l'action plonge après le démenti de PepsiCo - Les Echos",
+        "url": "https://www.lesechos.fr/2005/07/danone-le-cours-de-laction-plonge-apres-le-dementi-de-pepsico-612861"
+      },
+      {
+        "title": "L'action Danone s'envole sous l'effet des rumeurs d'OPA de PepsiCo - Le Monde",
+        "url": "https://www.lemonde.fr/economie/article/2005/07/19/l-action-danone-s-envole-sous-l-effet-des-rumeurs-d-opa-de-pepsico_673627_3234.html"
+      },
+      {
+        "title": "PepsiCo Says It Won't Try to Buy French Company - The New York Times",
+        "url": "https://www.nytimes.com/2005/07/26/business/pepsico-says-it-wont-try-to-buy-french-company.html"
+      },
+      {
+        "title": "L'AMF ouvre une enquête sur les spéculations sur Danone - Le Nouvel Obs",
+        "url": "https://www.nouvelobs.com/economie/20050726.OBS4379/l-amf-ouvre-une-enquete-sur-les-speculations-sur-danone.html"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Pre-rumour EUR 72.45 (5 Jul) and EUR 81.80 after denial (25 Jul, -7.52%) from Les Echos. EUR 87.60 close on 19 Jul (+10.19%) from Le Monde (search snippet; full page behind a bot check). PepsiCo's denial is confirmed by the NYT and the AMF inquiry by Le Nouvel Obs."
   }
 ]

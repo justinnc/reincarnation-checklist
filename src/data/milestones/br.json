@@ -1987,5 +1987,207 @@
     ],
     "verified": true,
     "verifiedNote": "Confirmed IPO date (Dec 9 2021), IPO price ($9), opening ($11.25) and closing ($10.33) first-day prices, and ~$48-52bn market cap via CNBC, Reuters and Bloomberg reporting. | Corrected: first-day close was $11.91 (not $10.33) per NYSE data, audited 2026-11-07."
+  },
+  {
+    "id": "br-americanas-rombo-contabil-2023",
+    "country": "br",
+    "date": "2023-01-11",
+    "category": "stocks",
+    "title": {
+      "vi": "Lỗ hổng kế toán 20 tỷ real của Americanas",
+      "en": "Americanas' R$20 Billion Accounting Hole"
+    },
+    "summary": {
+      "vi": "CEO mới từ chức sau 9 ngày vì 'bất thường kế toán' 20 tỷ real, khiến cổ phiếu sập 77,33% từ 12,00 xuống 2,72 BRL; cựu lãnh đạo bị cáo buộc đã bán trước 287 triệu real cổ phiếu.",
+      "en": "The new CEO quit after nine days over R$20bn of 'accounting inconsistencies' and the stock crashed 77.33% from R$12.00 to R$2.72; former executives are accused of selling R$287m of shares beforehand."
+    },
+    "description": {
+      "vi": "Tối 11/1/2023, nhà bán lẻ Americanas (được hậu thuẫn bởi nhóm tỷ phú Jorge Paulo Lemann) công bố phát hiện 'bất thường kế toán' ước tính 20 tỷ real. CEO Sergio Rial và giám đốc quan hệ nhà đầu tư André Covre, vừa nhậm chức ngày 2/1/2023, lập tức từ chức. Ngày 12/1, cổ phiếu AMER3 từ mức đóng cửa 12,00 BRL rơi 77,33% xuống 2,72 BRL, và hơn 8 tỷ real vốn hóa bốc hơi trong một phiên. Một tuần sau, công ty được tòa án Rio de Janeiro chấp nhận cho bảo hộ phá sản. Lỗ hổng sau đó được xác định là 25,3 tỷ real. Tháng 6/2024, Chiến dịch Disclosure của Cảnh sát Liên bang cáo buộc cựu CEO Miguel Gutierrez, cựu giám đốc Anna Christina Saicali và các cựu lãnh đạo khác đã bán 287 triệu real cổ phiếu trong sáu tháng trước khi lỗ hổng bị công bố. Họ bị điều tra về tội giao dịch nội gián.",
+      "en": "On the evening of 11 January 2023, retailer Americanas, backed by billionaire Jorge Paulo Lemann's group, disclosed 'accounting inconsistencies' estimated at R$20 billion. CEO Sergio Rial and investor-relations head André Covre, who had taken office on 2 January 2023, resigned immediately. On 12 January, AMER3 fell 77.33% from its R$12.00 close to R$2.72, wiping out more than R$8 billion of market value in one session. A week later a Rio de Janeiro court granted the company bankruptcy protection. The hole was later put at R$25.3 billion. In June 2024, the Federal Police's Operation Disclosure alleged that former CEO Miguel Gutierrez, former director Anna Christina Saicali and other ex-executives had sold R$287 million of shares in the six months before the hole was disclosed. They are under investigation for insider trading."
+    },
+    "opportunity": {
+      "asset": "Americanas SA (AMER3)",
+      "action": {
+        "vi": "Thoát toàn bộ AMER3 trước tối 11/1/2023",
+        "en": "Fully exit AMER3 before the evening of 11 Jan 2023"
+      },
+      "buyWhen": {
+        "vi": "Không mua — bán hết trước khi thông báo được công bố tối 11/1/2023",
+        "en": "Don't buy — sell everything before the announcement on the evening of 11 Jan 2023"
+      },
+      "sellWhen": {
+        "vi": "Trước hoặc trong phiên 11/1/2023, khi giá còn 12,00 BRL",
+        "en": "Before or during the 11 Jan 2023 session, while the price was still R$12.00"
+      },
+      "estimatedReturn": {
+        "vi": "Mất 77,33% chỉ trong một phiên (12,00 → 2,72 BRL); người né được giữ nguyên vốn",
+        "en": "Lost 77.33% in a single session (R$12.00 → R$2.72); anyone who dodged it kept their capital"
+      },
+      "returnMultiple": 0.2267,
+      "entryPrice": 12.0,
+      "exitPrice": 2.72,
+      "priceCurrency": "BRL",
+      "exitDate": "2023-01-12",
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Người trở về quá khứ biết rằng việc tân CEO Rial bất ngờ từ chức sau 9 ngày sẽ là tín hiệu cuối cùng. Theo cáo buộc, chính các cựu lãnh đạo đã 'đi trước' thị trường bằng cách bán cổ phiếu từ giữa năm 2022, cao điểm vào tháng 7 và tháng 10/2022.",
+      "en": "A reincarnated investor knows that new CEO Rial's sudden exit after nine days is the final signal. According to the charges, former executives got ahead of the market by selling shares from mid-2022, with the peak in July and October 2022."
+    },
+    "pitfalls": {
+      "vi": "Giao dịch dựa trên thông tin nội bộ chưa công bố là phạm tội. Đó chính là cáo buộc nhắm vào các cựu lãnh đạo Americanas, có người bị Interpol truy nã. Phiên 12/1 cổ phiếu bị đưa vào đấu giá ngay khi mở cửa, nên không ai kịp bán ở giá cũ. Người 'bắt đáy' sau đó cũng tiếp tục thua lỗ khi công ty vào bảo hộ phá sản.",
+      "en": "Trading on undisclosed inside information is a crime. That is exactly what Americanas' former executives are accused of, and some ended up on Interpol's wanted list. On 12 January the stock went straight into an auction at the open, so nobody could sell at the old price. Bottom-fishers kept losing money as the company went into bankruptcy protection."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Cổ phiếu Americanas mất bao nhiêu phần trăm trong phiên 12/1/2023?",
+        "en": "How much did Americanas stock lose in the 12 Jan 2023 session?"
+      },
+      "choices": [
+        {
+          "vi": "Khoảng 25%",
+          "en": "About 25%"
+        },
+        {
+          "vi": "Khoảng 50%",
+          "en": "About 50%"
+        },
+        {
+          "vi": "77,33%",
+          "en": "77.33%"
+        },
+        {
+          "vi": "99%",
+          "en": "99%"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "CNN Brasil và Valor Investe đều ghi nhận AMER3 giảm 77,33%, đóng cửa ở 2,72 BRL, sau khi đóng cửa phiên trước ở 12,00 BRL.",
+        "en": "CNN Brasil and Valor Investe both report that AMER3 fell 77.33% to close at R$2.72, after a prior close of R$12.00."
+      }
+    },
+    "sources": [
+      {
+        "title": "Ações da Americanas despencam quase 80% após anúncio de rombo de R$ 20 bilhões - CNN Brasil",
+        "url": "https://www.cnnbrasil.com.br/economia/investimentos/acoes-da-americanas-despencam-quase-80-apos-anuncio-de-rombo-de-r-20-bilhoes/"
+      },
+      {
+        "title": "Ações da Americanas despencam mais de 77%; papel cai quase 80% na mínima do dia - Valor Investe",
+        "url": "https://valorinveste.globo.com/mercados/renda-variavel/empresas/noticia/2023/01/12/b3-mantem-acoes-da-americanas-amer3-em-leilao-ate-11h-apos-rombo-de-r-20-bilhoes.ghtml"
+      },
+      {
+        "title": "Brazil's Americanas shares plunge 77% after accounting 'inconsistencies' found - Reuters",
+        "url": "https://www.reuters.com/business/retail-consumer/brazils-americanas-shares-plunge-pre-market-accounting-inconsistencies-2023-01-12/"
+      },
+      {
+        "title": "Americanas: ex-executivos venderam R$ 287 mi em ações antes do anúncio de rombo - Folha de Pernambuco",
+        "url": "https://www.folhape.com.br/economia/americanas-ex-executivos-venderam-r-287-mi-em-acoes-antes-do-anuncio/467442"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "The R$12.00 close on 11 Jan 2023 and the R$2.72 close (-77.33%) on 12 Jan 2023 are confirmed by CNN Brasil, Valor Investe, UOL and O Globo, and the ~77% drop by Reuters. The R$287m of pre-announcement share sales and the insider-trading investigation (Operation Disclosure, June 2024) are allegations reported by Folha de Pernambuco/Estadão and Valor, with no final conviction as of the sources."
+  },
+  {
+    "id": "br-ogx-eike-batista-insider-trading-2013",
+    "country": "br",
+    "date": "2013-07",
+    "category": "stocks",
+    "title": {
+      "vi": "OGX của Eike Batista sụp đổ và vụ giao dịch nội gián",
+      "en": "Eike Batista's OGX Collapse and Insider Trading"
+    },
+    "summary": {
+      "vi": "Cổ phiếu OGX rơi từ đỉnh 23,27 BRL (10/2010) xuống 0,21 BRL (10/2013), trong khi Eike Batista bán cổ phiếu dù đã biết các mỏ dầu không khả thi. CVM sau đó phạt ông 536 triệu real.",
+      "en": "OGX fell from a R$23.27 peak (Oct 2010) to R$0.21 (Oct 2013) while Eike Batista sold shares knowing the oil fields were unviable; the CVM later fined him R$536 million."
+    },
+    "description": {
+      "vi": "OGX, công ty dầu khí của Eike Batista, từng là người giàu nhất Brazil, lên sàn năm 2008 với 6,7 tỷ real huy động được. Tháng 10/2010, cổ phiếu đạt đỉnh 23,27 BRL nhờ hàng loạt thông báo 'phát hiện' dầu. Theo Folha, ban lãnh đạo OGX đã biết từ tháng 7/2012 rằng trữ lượng không như công bố. Thế nhưng Eike vẫn đăng Twitter kêu gọi cổ đông giữ cổ phiếu, và năm 2013 chính ông lại bán ra. Đầu tháng 7/2013, OGX thông báo dừng phát triển các mỏ chủ chốt. Công ty vỡ nợ khoản lãi 45 triệu USD ngày 1/10/2013, khi cổ phiếu chỉ còn 0,21 BRL, rồi nộp đơn xin bảo hộ phá sản ngày 30/10/2013, vụ lớn nhất lịch sử Mỹ Latinh. Tháng 5/2019, CVM phạt Eike 536 triệu real vì giao dịch nội gián và cấm ông điều hành công ty niêm yết trong 7 năm vì thao túng giá.",
+      "en": "OGX, the oil company of Eike Batista, once Brazil's richest man, listed in 2008 and raised about R$6.7 billion. It peaked at R$23.27 in October 2010 on a stream of announced oil 'discoveries'. According to Folha, OGX's managers knew from July 2012 that its reserves did not match what had been disclosed. Yet Eike kept tweeting that shareholders should hold on, and in 2013 he sold shares himself. In early July 2013 OGX said it would stop developing key fields. It missed a USD 45m interest payment on 1 October 2013, when the stock was at just R$0.21, and filed for bankruptcy protection on 30 October 2013, Latin America's largest ever. In May 2019 Brazil's CVM fined Eike R$536 million for insider trading and banned him from running listed companies for seven years for price manipulation."
+    },
+    "opportunity": {
+      "asset": "OGX Petróleo e Gás (OGXP3)",
+      "action": {
+        "vi": "Chốt lời OGX quanh đỉnh 2010 và không bao giờ quay lại",
+        "en": "Take profits on OGX near the 2010 peak and never come back"
+      },
+      "buyWhen": {
+        "vi": "Không mua sau năm 2010 — đặc biệt không tin vào lời kêu gọi 'giữ cổ phiếu' của Eike trên Twitter",
+        "en": "Don't buy after 2010, and especially don't believe Eike's 'hold your shares' tweets"
+      },
+      "sellWhen": {
+        "vi": "Tháng 10/2010, quanh đỉnh 23,27 BRL",
+        "en": "October 2010, around the R$23.27 peak"
+      },
+      "estimatedReturn": {
+        "vi": "Mất khoảng 99% từ đỉnh 23,27 BRL xuống 0,21 BRL; người thoát ở đỉnh giữ nguyên vốn",
+        "en": "About a 99% loss from the R$23.27 peak to R$0.21; anyone who exited at the top kept their capital"
+      },
+      "returnMultiple": 0.009,
+      "entryPrice": 23.27,
+      "exitPrice": 0.21,
+      "priceCurrency": "BRL",
+      "exitDate": "2013-10-01",
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Người trở về quá khứ biết rằng từ tháng 7/2012, nội bộ OGX đã rõ trữ lượng thấp hơn nhiều so với công bố. Mọi dòng tweet lạc quan và cả cam kết bơm 1 tỷ USD của Eike chỉ là tấm màn che, và ông sẽ từ chối thực hiện cam kết đó vào năm 2013.",
+      "en": "A reincarnated investor knows that from July 2012, OGX insiders were aware that reserves were far below what had been disclosed. Every upbeat tweet, and even Eike's USD 1bn share-purchase pledge, was a smokescreen; he refused to honour that pledge in 2013."
+    },
+    "pitfalls": {
+      "vi": "Giao dịch dựa trên thông tin nội bộ là phạm pháp. Đó chính là lý do Eike bị CVM phạt 536 triệu real và bị truy tố hình sự. Cổ phiếu từng bật tăng hơn 100% trong vài ngày của tháng 10/2013 vì tin đồn, khiến người bán khống muộn bị cháy tài khoản. Lời hứa của một tỷ phú nổi tiếng không phải là bảo đảm.",
+      "en": "Trading on inside information is illegal, which is exactly why Eike was fined R$536 million by the CVM and criminally charged. The stock briefly jumped more than 100% in a few days in October 2013 on rumors, burning late short-sellers. A famous billionaire's promise is not a guarantee."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Năm 2019, CVM phạt Eike Batista bao nhiêu vì giao dịch nội gián cổ phiếu OGX?",
+        "en": "In 2019, how much did the CVM fine Eike Batista for insider trading in OGX shares?"
+      },
+      "choices": [
+        {
+          "vi": "53,6 triệu real",
+          "en": "R$53.6 million"
+        },
+        {
+          "vi": "536 triệu real",
+          "en": "R$536 million"
+        },
+        {
+          "vi": "1,5 tỷ real",
+          "en": "R$1.5 billion"
+        },
+        {
+          "vi": "Không bị phạt",
+          "en": "No fine"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Folha và Valor đưa tin ngày 27/5/2019 CVM phạt Eike tổng cộng khoảng 536 triệu real và cấm ông làm quản lý công ty niêm yết 7 năm.",
+        "en": "Folha and Valor reported that on 27 May 2019 the CVM fined Eike about R$536 million in total and banned him from managing listed companies for seven years."
+      }
+    },
+    "sources": [
+      {
+        "title": "Ação de OGX cai ao menor valor da história e é vendida a menos de R$ 1,99 - UOL Economia",
+        "url": "https://economia.uol.com.br/cotacoes/noticias/redacao/2013/04/04/acao-de-ogx-de-eike-cai--e-vale-menos-de-r-199.htm"
+      },
+      {
+        "title": "The Dramatic Fall Of Brazil's Eike Batista: Former Billionaire's OGX In Default - Forbes",
+        "url": "https://www.forbes.com/sites/kenrapoza/2013/10/01/its-ate-a-vista-for-brazilian-billionaire-batista/"
+      },
+      {
+        "title": "CVM condena Eike a pagar multa de R$ 536 mi por informação privilegiada na OGX - Folha de S.Paulo",
+        "url": "https://www1.folha.uol.com.br/mercado/2019/05/cvm-condena-eike-a-pagar-multa-de-r-536-mi-por-informacao-privilegiada-na-ogx.shtml"
+      },
+      {
+        "title": "Fallen Brazilian Mogul Eike Batista Accused of Insider Trading - The New York Times DealBook",
+        "url": "https://archive.nytimes.com/dealbook.nytimes.com/2014/09/14/fallen-brazilian-mogul-accused-of-insider-trading/"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "The R$23.27 peak in October 2010 is confirmed by UOL (two articles) and Forbes (R$23), and the R$0.21 price on 1 Oct 2013 by Forbes, with InfoMoney also reporting R$0.21 in October 2013. The R$536m CVM fine on 27 May 2019 is confirmed by Folha, Valor and G1, and the 2014 criminal insider-trading charges by NYT DealBook. The July 2013 field write-off is dated only to 'early July' by UOL."
   }
 ]

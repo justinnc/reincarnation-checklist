@@ -2459,5 +2459,409 @@
     ],
     "verified": true,
     "verifiedNote": "Timeline (2 Nov CoinDesk report, 6 Nov Binance sale, 11 Nov Chapter 11) from CoinDesk and Reuters; FTT ~$22 before the run and $1.65 on 17 Nov 2022 from the CRS report; $5.8bn of FTT on Alameda's books from CoinDesk; 2 Nov 2023 conviction on all seven counts from Reuters."
+  },
+  {
+    "id": "us-martha-stewart-imclone-insider-trading-2001",
+    "country": "us",
+    "date": "2001-12-27",
+    "category": "stocks",
+    "title": {
+      "vi": "Martha Stewart bán cổ phiếu ImClone một ngày trước tin xấu từ FDA",
+      "en": "Martha Stewart Dumps ImClone Stock a Day Before the FDA Bombshell"
+    },
+    "summary": {
+      "vi": "Ngày 27/12/2001, Martha Stewart bán toàn bộ 3.928 cổ phiếu ImClone ở giá trung bình 58,43 USD sau khi được môi giới mách rằng CEO đang bán; bốn ngày sau cổ phiếu chỉ còn 46 USD.",
+      "en": "On 27 December 2001 Martha Stewart sold all 3,928 of her ImClone shares at an average $58.43 after her broker tipped her that the CEO was selling; four days later the stock was at $46."
+    },
+    "description": {
+      "vi": "Tối 26/12/2001, Samuel Waksal — đồng sáng lập kiêm CEO của ImClone Systems — biết riêng rằng FDA sắp gửi thư từ chối thụ lý hồ sơ cấp phép thuốc ung thư Erbitux, sản phẩm chủ lực của công ty. Sáng 27/12, Waksal và con gái đặt lệnh bán sạch cổ phiếu tại Merrill Lynch. Môi giới Peter Bacanovic của Merrill Lynch biết chuyện và báo cho khách hàng của mình là Martha Stewart; theo SEC, bà bán ngay toàn bộ 3.928 cổ phiếu ImClone ở giá trung bình 58,43 USD. Chiều 28/12, FDA fax thư từ chối; sau giờ đóng cửa ImClone ra thông cáo, và đến hết phiên 31/12 cổ phiếu mất 16%, từ 55,25 USD xuống 46 USD. SEC tính Stewart đã tránh được khoản lỗ 45.673 USD. Ngày 5/3/2004, bồi thẩm đoàn kết luận Stewart và Bacanovic phạm tội cản trở công lý, âm mưu và khai báo gian dối với nhà điều tra; ngày 16/7/2004, Stewart bị tuyên 5 tháng tù và phạt 30.000 USD. Năm 2006, bà dàn xếp vụ kiện giao dịch nội gián dân sự với SEC, trả khoảng 195.000 USD.",
+      "en": "On the evening of 26 December 2001, Samuel Waksal — co-founder and CEO of ImClone Systems — privately learned that the FDA was about to refuse to file the application for Erbitux, the company's flagship cancer drug. On the morning of 27 December, Waksal and his daughter placed orders at Merrill Lynch to sell all their shares. Merrill broker Peter Bacanovic's office passed that fact to his client Martha Stewart; according to the SEC, she immediately sold all 3,928 of her ImClone shares at an average $58.43. On the afternoon of 28 December the FDA faxed its refusal; ImClone announced it after the close, and by the end of trading on 31 December the stock had fallen 16%, from $55.25 to $46. The SEC calculated Stewart avoided losses of $45,673. On 5 March 2004 a jury convicted Stewart and Bacanovic of obstruction of justice, conspiracy and making false statements to investigators; on 16 July 2004 Stewart was sentenced to five months in prison and fined $30,000. In 2006 she settled the SEC's civil insider-trading case for about $195,000."
+    },
+    "opportunity": {
+      "asset": "ImClone Systems (IMCL)",
+      "action": {
+        "vi": "Thoát khỏi cổ phiếu ImClone trước khi FDA từ chối hồ sơ Erbitux — dựa trên lịch sử công khai, không phải tin mật",
+        "en": "Get out of ImClone before the FDA rejects the Erbitux filing — based on public history, not a secret tip"
+      },
+      "buyWhen": {
+        "vi": "Không mua — nếu đang nắm ImClone, bán trước khi thị trường đóng cửa ngày 28/12/2001",
+        "en": "Don't buy — if you hold ImClone, sell before the market closes on 28 December 2001"
+      },
+      "sellWhen": {
+        "vi": "Muộn nhất là phiên 28/12/2001, trước thông cáo sau giờ giao dịch của ImClone",
+        "en": "No later than the 28 December 2001 session, before ImClone's after-hours announcement"
+      },
+      "estimatedReturn": {
+        "vi": "Người giữ cổ phiếu từ mức 58,43 USD (giá Stewart bán) đến 46 USD ngày 31/12/2001 mất khoảng 21%",
+        "en": "A holder from $58.43 (Stewart's sale price) to $46 on 31 December 2001 lost about 21%"
+      },
+      "returnMultiple": 0.787,
+      "entryPrice": 58.43,
+      "exitPrice": 46,
+      "priceCurrency": "USD",
+      "exitDate": "2001-12-31",
+      "risk": "medium",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Người tái sinh biết rằng ngày 28/12/2001 FDA sẽ từ chối thụ lý hồ sơ Erbitux. Bài học thật sự không nằm ở 45.673 USD mà Stewart tránh lỗ, mà ở chỗ: một cổ phiếu công nghệ sinh học đặt cả tương lai vào một quyết định của FDA là canh bạc nhị phân. Biết trước kết quả, bạn chỉ cần đứng ngoài hoặc giảm tỷ trọng ImClone trước Giáng sinh — điều mà một nhà đầu tư thận trọng hoàn toàn có thể làm hợp pháp vì rủi ro quyết định FDA vốn đã được công bố.",
+      "en": "A reincarnated investor knows the FDA will refuse to file Erbitux on 28 December 2001. The real lesson isn't the $45,673 Stewart saved but that a biotech betting its future on a single FDA decision is a binary wager. Knowing the outcome, you would simply stay out of or trim ImClone before Christmas — something a cautious investor could legally do anyway, because the pending FDA decision was public knowledge."
+    },
+    "pitfalls": {
+      "vi": "Bán cổ phiếu vì biết tin mật từ người trong công ty — hoặc biết rằng CEO đang bán — là giao dịch nội gián và là tội phạm. Khoản lỗ tránh được chỉ 45.673 USD, nhưng Stewart phải ngồi tù 5 tháng, trả khoảng 195.000 USD cho SEC và mất ghế điều hành công ty của chính mình. Bà không bị kết án hình sự vì giao dịch nội gián mà vì nói dối điều tra viên: che đậy thường còn tệ hơn hành vi ban đầu.",
+      "en": "Selling because of a non-public tip from inside a company — or because you know the CEO is dumping — is insider trading and a crime. Stewart avoided only $45,673 in losses but served five months in prison, paid about $195,000 to the SEC and lost her executive role at her own company. She was not criminally convicted of insider trading but of lying to investigators: the cover-up is often worse than the trade."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Martha Stewart bị bồi thẩm đoàn kết tội vì điều gì vào tháng 3/2004?",
+        "en": "What was Martha Stewart convicted of by a jury in March 2004?"
+      },
+      "choices": [
+        {
+          "vi": "Giao dịch nội gián hình sự",
+          "en": "Criminal insider trading"
+        },
+        {
+          "vi": "Cản trở công lý, âm mưu và khai báo gian dối với nhà điều tra",
+          "en": "Obstruction of justice, conspiracy and lying to investigators"
+        },
+        {
+          "vi": "Trốn thuế",
+          "en": "Tax evasion"
+        },
+        {
+          "vi": "Thao túng giá cổ phiếu ImClone",
+          "en": "Manipulating ImClone's share price"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Ngày 5/3/2004, Stewart và môi giới Bacanovic bị kết tội cản trở công lý, âm mưu và khai báo gian dối; cáo buộc giao dịch nội gián của SEC là vụ kiện dân sự, được dàn xếp năm 2006.",
+        "en": "On 5 March 2004 Stewart and broker Bacanovic were convicted of obstruction, conspiracy and false statements; the SEC's insider-trading charge was a civil case, settled in 2006."
+      }
+    },
+    "sources": [
+      {
+        "title": "SEC v. Martha Stewart and Peter Bacanovic, Litigation Release No. 18169 - SEC",
+        "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-18169"
+      },
+      {
+        "title": "Complaint: SEC v. Martha Stewart and Peter Bacanovic - SEC",
+        "url": "https://www.sec.gov/files/litigation/complaints/2006/comp19794.pdf"
+      },
+      {
+        "title": "Martha Stewart and Peter Bacanovic Settle SEC's Insider Trading Charges - SEC",
+        "url": "https://www.sec.gov/newsroom/press-releases/2006-134-martha-stewart-peter-bacanovic-settle-secs-insider-trading-charges"
+      },
+      {
+        "title": "Martha Stewart jailed for 5 months - CNN",
+        "url": "https://edition.cnn.com/2004/BUSINESS/07/16/martha.stewart/index.html"
+      }
+    ],
+    "verified": false,
+    "verifiedNote": "Trade details ($58.43 average on 3,928 shares, 27 Dec 2001), the $55.25 to $46 drop by 31 Dec 2001 and the $45,673 avoided loss come only from SEC filings (Stewart and Waksal releases), i.e. a single agency; no independent press source for the share prices was found. Conviction date (5 Mar 2004) and sentence (5 months, $30,000) confirmed by CNN; 2006 settlement (~$195,000) from the SEC."
+  },
+  {
+    "id": "us-tesla-funding-secured-tweet-2018",
+    "country": "us",
+    "date": "2018-08-07",
+    "category": "stocks",
+    "title": {
+      "vi": "Tweet 'Funding secured' của Elon Musk đẩy giá Tesla rồi xì hơi",
+      "en": "Elon Musk's 'Funding Secured' Tweet Pumps Tesla, Then Deflates"
+    },
+    "summary": {
+      "vi": "Một tweet hứa đưa Tesla thành công ty tư nhân với giá 420 USD/cổ phiếu khiến cổ phiếu tăng 11% trong ngày 7/8/2018, rồi rơi về 319,27 USD khi kế hoạch bị hủy; SEC phạt Musk và Tesla tổng cộng 40 triệu USD.",
+      "en": "A tweet promising to take Tesla private at $420 a share sent the stock up 11% on 7 August 2018, before it slid to $319.27 when the plan was dropped; the SEC fined Musk and Tesla $40 million in total."
+    },
+    "description": {
+      "vi": "Khoảng 12 giờ 48 trưa ngày 7/8/2018 (giờ New York), giữa phiên giao dịch, Elon Musk đăng lên Twitter cho hơn 22 triệu người theo dõi: 'Am considering taking Tesla private at $420. Funding secured.' Ngay trước tweet, cổ phiếu Tesla giao dịch quanh 356,67 USD; sau một đợt tạm ngừng giao dịch, cổ phiếu đóng cửa ở 379,57 USD, tăng 10,98% so với hôm trước. Theo SEC, Musk chưa hề bàn mức giá 420 USD với bất kỳ nhà tài trợ nào, và con số này được tính từ mức premium 20% rồi làm tròn lên. Đến 13/8, khi các thông tin chi tiết được công bố, giá đã lùi về gần mức trước tweet. Tối 24/8, Tesla thông báo từ bỏ kế hoạch, và ngày 27/8 cổ phiếu đóng cửa ở 319,27 USD, thấp hơn hơn 15% so với ngày tweet. Ngày 27/9/2018 SEC kiện Musk tội gian lận chứng khoán; hai ngày sau Musk và Tesla dàn xếp, mỗi bên nộp phạt 20 triệu USD và Musk phải rời ghế chủ tịch hội đồng quản trị. (Giá trên là giá trước các đợt chia tách cổ phiếu năm 2020 và 2022.)",
+      "en": "At about 12:48 p.m. New York time on 7 August 2018, mid-session, Elon Musk tweeted to his more than 22 million followers: 'Am considering taking Tesla private at $420. Funding secured.' Just before the tweet Tesla traded around $356.67; after a trading halt, the stock closed at $379.57, up 10.98% on the day. According to the SEC, Musk had never discussed a $420 price with any funding source, and the figure came from a 20% premium rounded up. By 13 August, as details emerged, the price had slipped back to around pre-tweet levels. Late on 24 August Tesla said it was abandoning the plan, and on 27 August the stock closed at $319.27, more than 15% below its close on the day of the tweet. On 27 September 2018 the SEC sued Musk for securities fraud; two days later Musk and Tesla settled, each paying a $20 million penalty, and Musk had to step down as board chairman. (Prices are before Tesla's 2020 and 2022 stock splits.)"
+    },
+    "opportunity": {
+      "asset": "Tesla (TSLA)",
+      "action": {
+        "vi": "Đón sóng tăng trong ngày của tweet rồi chốt lời ngay, không ôm cổ phiếu chờ mức 420 USD",
+        "en": "Ride the intraday spike from the tweet and take profit immediately — never hold out for $420"
+      },
+      "buyWhen": {
+        "vi": "Ngay trước 12 giờ 48 trưa ngày 7/8/2018, quanh 356,67 USD",
+        "en": "Just before 12:48 p.m. on 7 August 2018, around $356.67"
+      },
+      "sellWhen": {
+        "vi": "Lúc đóng cửa ngày 7/8/2018 ở 379,57 USD; tránh xa trước khi kế hoạch bị hủy ngày 24/8/2018",
+        "en": "At the 7 August 2018 close of $379.57; stay away before the plan is dropped on 24 August 2018"
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng +6,4% trong vài giờ (356,67 lên 379,57 USD); ai mua đuổi ở giá đóng cửa và giữ đến 27/8 mất hơn 15%",
+        "en": "About +6.4% in a few hours ($356.67 to $379.57); anyone who chased at the close and held to 27 August lost more than 15%"
+      },
+      "returnMultiple": 1.064,
+      "entryPrice": 356.67,
+      "exitPrice": 379.57,
+      "priceCurrency": "USD",
+      "exitDate": "2018-08-07",
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Người tái sinh biết rằng 'funding secured' là lời nói suông: không có nhà tài trợ nào chốt mức giá 420 USD và kế hoạch sẽ bị khai tử chỉ sau 17 ngày. Vì vậy cơ hội không nằm ở việc chờ được mua lại ở 420 USD, mà ở việc chốt lời ngay trong ngày 7/8 hoặc đơn giản là không mua đuổi. Bài học lớn hơn: khi một CEO tung tin trọng yếu qua mạng xã hội mà không có hồ sơ công bố chính thức đi kèm, hãy chờ văn bản trước khi xuống tiền.",
+      "en": "A reincarnated investor knows 'funding secured' was empty: no backer had agreed to $420, and the plan would be dead within 17 days. So the opportunity is not waiting for a $420 buyout but taking profit on 7 August — or simply not chasing. The bigger lesson: when a CEO drops material news on social media without a formal filing behind it, wait for the paperwork before you commit money."
+    },
+    "pitfalls": {
+      "vi": "Biên độ giá trong ngày cực lớn và giao dịch bị tạm ngừng giữa phiên, nên rất khó khớp lệnh đúng mức giá mong muốn. Bán khống Tesla năm 2018 cũng là trò chơi nguy hiểm: cổ phiếu biến động mạnh và sau này tăng vọt, nhiều người bán khống đã thua lỗ nặng. Và nếu bạn là người trong công ty biết trước tweet sẽ được đăng, giao dịch trên thông tin đó là bất hợp pháp.",
+      "en": "Intraday swings were enormous and trading was halted mid-session, so getting filled at the price you want was far from guaranteed. Shorting Tesla in 2018 was also dangerous: the stock was extremely volatile and later soared, and many short sellers took heavy losses. And if you were an insider who knew the tweet was coming, trading on that knowledge would be illegal."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Theo dàn xếp với SEC tháng 9/2018, Elon Musk phải làm gì?",
+        "en": "Under his September 2018 settlement with the SEC, what did Elon Musk have to do?"
+      },
+      "choices": [
+        {
+          "vi": "Rời ghế CEO Tesla",
+          "en": "Resign as Tesla's CEO"
+        },
+        {
+          "vi": "Mua lại cổ phiếu của nhà đầu tư ở giá 420 USD",
+          "en": "Buy back investors' shares at $420"
+        },
+        {
+          "vi": "Rời ghế chủ tịch hội đồng quản trị và nộp phạt 20 triệu USD",
+          "en": "Step down as board chairman and pay a $20 million penalty"
+        },
+        {
+          "vi": "Bị cấm dùng Twitter vĩnh viễn",
+          "en": "Be banned from Twitter for life"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "Musk vẫn giữ ghế CEO nhưng phải rời ghế chủ tịch; Musk và Tesla mỗi bên nộp phạt 20 triệu USD, tổng cộng 40 triệu USD để bồi thường cho nhà đầu tư bị thiệt hại.",
+        "en": "Musk stayed CEO but gave up the chairmanship; he and Tesla each paid $20 million, $40 million in total, to be distributed to harmed investors."
+      }
+    },
+    "sources": [
+      {
+        "title": "SEC Complaint: Elon Musk (Case 1:18-cv-08865) - SEC",
+        "url": "https://www.sec.gov/divisions/enforce/claims/docs/elon-musk-complaint-09272018.pdf"
+      },
+      {
+        "title": "Elon Musk Settles SEC Fraud Charges; Tesla Charged With and Resolves Securities Law Charge - SEC",
+        "url": "https://www.sec.gov/newsroom/press-releases/2018-226"
+      },
+      {
+        "title": "Elon Musk tweets he may take Tesla private - CBC News (Reuters)",
+        "url": "https://www.cbc.ca/lite/story/1.4776528"
+      },
+      {
+        "title": "Tesla stock falters after Elon Musk announces the company won't go private after all - Los Angeles Times",
+        "url": "https://www.latimes.com/business/la-fi-hy-tesla-elon-musk-20180827-story.html"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "7 Aug 2018 close of $379.57 (+~11%) confirmed by the SEC complaint and CBC/Reuters; 27 Aug 2018 close of $319.27 confirmed by the SEC complaint and the Los Angeles Times; $20m + $20m settlement from the SEC press release. The pre-tweet price of $356.67 comes from the SEC complaint only. All prices are pre-split."
+  },
+  {
+    "id": "us-svb-bank-run-2023",
+    "country": "us",
+    "date": "2023-03-09",
+    "category": "stocks",
+    "title": {
+      "vi": "Cuộc tháo chạy khỏi Silicon Valley Bank lan qua mạng xã hội",
+      "en": "The Social-Media-Fuelled Run on Silicon Valley Bank"
+    },
+    "summary": {
+      "vi": "Cổ phiếu SVB Financial mất 60%, từ 267,83 USD xuống 106,04 USD trong một phiên khi các quỹ đầu tư mạo hiểm khuyên startup rút tiền; 42 tỷ USD rời ngân hàng trong một ngày và hôm sau ngân hàng bị đóng cửa.",
+      "en": "SVB Financial shares lost 60% in one session, from $267.83 to $106.04, as venture funds told startups to pull their cash; $42 billion left the bank in a day and it was shut the next morning."
+    },
+    "description": {
+      "vi": "Ngày 8/3/2023, Silicon Valley Bank — ngân hàng của giới startup với 209 tỷ USD tài sản cuối năm 2022 — công bố khoản lỗ 1,8 tỷ USD khi bán danh mục chứng khoán và kế hoạch huy động thêm khoảng 2 tỷ USD vốn. Tin này lan nhanh trong giới đầu tư mạo hiểm; Founders Fund của Peter Thiel cùng nhiều quỹ khác khuyên các công ty trong danh mục rút tiền khỏi SVB. Ngày 9/3, cổ phiếu SVB Financial lao 60,4%, từ 267,83 USD xuống 106,04 USD, và đến tối hôm đó 42 tỷ USD tiền gửi đã rời ngân hàng, với thêm khoảng 100 tỷ USD xếp hàng chờ rút ngày hôm sau. Sáng 10/3/2023, Nasdaq ngừng giao dịch cổ phiếu ở mức 106,04 USD, và cùng ngày cơ quan quản lý bang California đóng cửa ngân hàng, chỉ định FDIC làm bên tiếp quản.",
+      "en": "On 8 March 2023 Silicon Valley Bank — the startup world's bank, with $209 billion of assets at end-2022 — announced a $1.8 billion loss on selling securities and a plan to raise about $2 billion of capital. The news spread fast through the venture-capital community; Peter Thiel's Founders Fund and other funds advised their portfolio companies to pull their money from SVB. On 9 March SVB Financial shares fell 60.4%, from $267.83 to $106.04, and by that evening $42 billion of deposits had left, with about $100 billion more queued for the next day. Early on 10 March 2023 Nasdaq halted the stock at $106.04, and the same day the California regulator closed the bank and appointed the FDIC as receiver."
+    },
+    "opportunity": {
+      "asset": "SVB Financial Group (SIVB)",
+      "action": {
+        "vi": "Bán cổ phiếu SVB và rút tiền gửi vượt hạn mức bảo hiểm ngay khi thông báo huy động vốn xuất hiện",
+        "en": "Sell SVB stock and move uninsured deposits out the moment the capital-raise announcement lands"
+      },
+      "buyWhen": {
+        "vi": "Không mua — bán hết quanh 267,83 USD trước phiên 9/3/2023",
+        "en": "Don't buy — sell everything around $267.83 before the 9 March 2023 session"
+      },
+      "sellWhen": {
+        "vi": "Ngay sau thông báo tối 8/3/2023; sáng 10/3 Nasdaq đã ngừng giao dịch trước giờ mở cửa",
+        "en": "Right after the 8 March 2023 evening announcement; Nasdaq halted the stock before the open on 10 March"
+      },
+      "estimatedReturn": {
+        "vi": "Người giữ cổ phiếu mất 60% chỉ trong một phiên (267,83 xuống 106,04 USD), rồi bị kẹt khi giao dịch bị ngừng",
+        "en": "A shareholder lost 60% in one session ($267.83 to $106.04), then was trapped when trading was halted"
+      },
+      "returnMultiple": 0.396,
+      "entryPrice": 267.83,
+      "exitPrice": 106.04,
+      "priceCurrency": "USD",
+      "exitDate": "2023-03-09",
+      "risk": "high",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Người tái sinh biết rằng một ngân hàng có tiền gửi tập trung vào một cộng đồng nhỏ, liên lạc chặt chẽ với nhau, có thể bị rút cạn chỉ trong một ngày. Khi SVB thông báo bán lỗ trái phiếu và gọi vốn, bạn không chờ xem — bạn bán cổ phiếu ngay đêm 8/3 và chuyển tiền gửi vượt 250.000 USD sang ngân hàng khác. Tin đồn ở đây không cần sai hay đúng: chỉ cần đủ nhiều người tin là nó tự trở thành sự thật.",
+      "en": "A reincarnated investor knows that a bank whose depositors are a small, tightly networked community can be drained in a single day. When SVB announced its bond loss and capital raise, you wouldn't wait — you'd sell the stock that night and move deposits above $250,000 elsewhere. The rumor didn't need to be true or false: once enough people believed it, it fulfilled itself."
+    },
+    "pitfalls": {
+      "vi": "Bán khống cổ phiếu ngân hàng giữa lúc hoảng loạn rất rủi ro: giao dịch có thể bị ngừng bất cứ lúc nào và cơ quan quản lý có thể can thiệp. Nhiều nhà đầu tư 'bắt đáy' SVB ở 106 USD vì nghĩ ngân hàng sẽ được bán lại, nhưng sáng hôm sau giao dịch bị ngừng và ngân hàng bị đóng cửa ngay trong ngày. Cũng nhớ rằng cùng đợt đó, tin đồn đã đánh sập cả những ngân hàng khu vực khác — nhưng không phải ngân hàng nào bị đồn cũng sụp, nên đặt cược theo tin đồn vẫn là đánh bạc.",
+      "en": "Shorting bank stocks in a panic is dangerous: trading can be halted at any moment and regulators may step in. Many investors 'bought the dip' in SVB at $106 thinking it would be sold to a rescuer, but trading was halted the next morning and the bank was closed that same day. Rumors also hammered other regional banks that week — yet not every bank that was rumored to be in trouble failed, so trading on rumors is still a gamble."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Bao nhiêu tiền gửi đã rời Silicon Valley Bank chỉ trong ngày 9/3/2023?",
+        "en": "How much in deposits left Silicon Valley Bank on 9 March 2023 alone?"
+      },
+      "choices": [
+        {
+          "vi": "4,2 tỷ USD",
+          "en": "$4.2 billion"
+        },
+        {
+          "vi": "42 tỷ USD",
+          "en": "$42 billion"
+        },
+        {
+          "vi": "209 tỷ USD",
+          "en": "$209 billion"
+        },
+        {
+          "vi": "1,8 tỷ USD",
+          "en": "$1.8 billion"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Theo FDIC, 42 tỷ USD tiền gửi rời SVB trong ngày 9/3/2023 và thêm 100 tỷ USD xếp hàng chờ rút hôm sau; 1,8 tỷ USD là khoản lỗ bán chứng khoán, còn 209 tỷ USD là tổng tài sản cuối năm 2022.",
+        "en": "According to the FDIC, $42 billion left SVB on 9 March 2023 with $100 billion more queued for the next day; $1.8 billion was the securities loss and $209 billion was total assets at end-2022."
+      }
+    },
+    "sources": [
+      {
+        "title": "Lessons Learned from the U.S. Regional Bank Failures of 2023 - FDIC",
+        "url": "https://www.fdic.gov/news/speeches/2024/lessons-learned-us-regional-bank-failures-2023"
+      },
+      {
+        "title": "Nasdaq Halts SVB Financial Group - Nasdaq",
+        "url": "https://ir.nasdaq.com/news-releases/news-release-details/nasdaq-halts-svb-financial-group"
+      },
+      {
+        "title": "Bank Stock Selloff Triggered by SVB Financial Liquidity Crunch - Morningstar",
+        "url": "https://www.morningstar.com/markets/bank-stock-selloff-triggered-by-svb-financial-liquidity-crunch"
+      },
+      {
+        "title": "Silicon Valley Bank scrambles to reassure clients after 60% stock wipe-out - Reuters",
+        "url": "https://www.reuters.com/business/finance/silicon-valley-bank-sell-stock-cope-with-cash-burn-2023-03-09/"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "9 Mar 2023 close of $106.04 (-60%) confirmed by Morningstar, Nasdaq's halt notice and an SLCG analysis; 8 Mar close of $267.83 confirmed by SLCG and the San Francisco Standard; $42bn outflow, $1.8bn loss, $209bn assets and the 10 Mar closure from the FDIC; VC advice to withdraw (Founders Fund) reported by Fortune and Bloomberg. Not a prosecuted case — included as a rumor-driven bank run."
+  },
+  {
+    "id": "us-nikola-hindenburg-short-report-2020",
+    "country": "us",
+    "date": "2020-09-10",
+    "category": "stocks",
+    "title": {
+      "vi": "Báo cáo bán khống của Hindenburg vạch trần Nikola",
+      "en": "Hindenburg's Short Report Exposes Nikola"
+    },
+    "summary": {
+      "vi": "Hai ngày sau khi GM mua 11% cổ phần, Hindenburg gọi Nikola là 'một vụ lừa đảo tinh vi'; cổ phiếu mất 24%, từ 42,37 USD xuống 32,13 USD trong hai phiên, và nhà sáng lập Trevor Milton sau đó bị kết tội gian lận.",
+      "en": "Two days after GM took an 11% stake, Hindenburg called Nikola 'an intricate fraud'; the stock lost 24% in two sessions, from $42.37 to $32.13, and founder Trevor Milton was later convicted of fraud."
+    },
+    "description": {
+      "vi": "Ngày 8/9/2020, General Motors công bố hợp tác 2 tỷ USD với hãng xe tải điện và hydro Nikola, nhận 11% cổ phần — cổ phiếu Nikola tăng vọt khoảng 50% trong ngày. Trước giờ mở cửa ngày 10/9/2020, Hindenburg Research công bố báo cáo 'Nikola: How to Parlay An Ocean of Lies Into a Partnership With the Largest Auto OEM in America', gọi công ty là 'một vụ lừa đảo tinh vi' dựa trên hàng chục lời nói dối của nhà sáng lập Trevor Milton. Từ giá đóng cửa 42,37 USD ngày 9/9, cổ phiếu mất 24% trong hai phiên, còn 32,13 USD ngày 11/9. SEC và Bộ Tư pháp vào cuộc, Milton từ chức ngày 21/9/2020. Tháng 12/2021, Nikola nộp phạt 125 triệu USD để dàn xếp với SEC; tháng 10/2022, bồi thẩm đoàn kết luận Milton phạm tội gian lận chứng khoán và gian lận qua phương tiện điện tử, và tháng 12/2023 ông bị tuyên 4 năm tù. Tháng 3/2025, Tổng thống Donald Trump ân xá cho Milton.",
+      "en": "On 8 September 2020 General Motors announced a $2 billion partnership with electric and hydrogen truck maker Nikola, taking an 11% stake — Nikola's stock jumped about 50% that day. Before the open on 10 September 2020, Hindenburg Research published 'Nikola: How to Parlay An Ocean of Lies Into a Partnership With the Largest Auto OEM in America', calling the company 'an intricate fraud' built on dozens of lies by founder Trevor Milton. From a $42.37 close on 9 September, the stock fell 24% in two sessions to $32.13 on 11 September. The SEC and the Justice Department opened probes and Milton resigned on 21 September 2020. In December 2021 Nikola paid $125 million to settle with the SEC; in October 2022 a jury convicted Milton of securities fraud and wire fraud, and in December 2023 he was sentenced to four years in prison. In March 2025 President Donald Trump pardoned Milton."
+    },
+    "opportunity": {
+      "asset": "Nikola Corporation (NKLA)",
+      "action": {
+        "vi": "Chốt lời Nikola sau cú tăng nhờ GM và thoát ra trước báo cáo của Hindenburg",
+        "en": "Take profit on Nikola after the GM pop and get out before Hindenburg's report"
+      },
+      "buyWhen": {
+        "vi": "Không mua đuổi sau tin GM — nếu đang nắm, bán trước khi thị trường đóng cửa ngày 9/9/2020 quanh 42,37 USD",
+        "en": "Don't chase the GM news — if you hold, sell before the close on 9 September 2020, around $42.37"
+      },
+      "sellWhen": {
+        "vi": "Muộn nhất là phiên 9/9/2020, trước khi báo cáo được công bố sáng 10/9/2020",
+        "en": "By the 9 September 2020 session at the latest, before the report appeared on the morning of 10 September 2020"
+      },
+      "estimatedReturn": {
+        "vi": "Người giữ cổ phiếu mất 24% trong hai phiên (42,37 xuống 32,13 USD) và còn mất thêm khi Milton từ chức",
+        "en": "A holder lost 24% in two sessions ($42.37 to $32.13) and more after Milton resigned"
+      },
+      "returnMultiple": 0.758,
+      "entryPrice": 42.37,
+      "exitPrice": 32.13,
+      "priceCurrency": "USD",
+      "exitDate": "2020-09-11",
+      "risk": "high",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Người tái sinh biết rằng cái bắt tay với GM không biến công nghệ của Nikola thành thật và chỉ hai ngày sau Hindenburg sẽ gọi công ty là 'một vụ lừa đảo tinh vi'. Cơ hội là chốt lời ngay sau cú tăng ngày 8/9 thay vì tin rằng 'GM đã kiểm chứng rồi'. Bài học chung cho thời kỳ bùng nổ SPAC năm 2020: một công ty chưa có doanh thu mà vốn hóa hàng chục tỷ USD dựa trên lời hứa của nhà sáng lập là mục tiêu ưa thích của các quỹ bán khống.",
+      "en": "A reincarnated investor knows the GM handshake did not make Nikola's technology real, and that two days later Hindenburg would call the company 'an intricate fraud'. The opportunity is to take profit right after the 8 September pop instead of trusting that 'GM must have checked'. The broader lesson from the 2020 SPAC boom: a pre-revenue company valued at tens of billions on a founder's promises is a favourite target for activist short sellers."
+    },
+    "pitfalls": {
+      "vi": "Bán khống Nikola trước báo cáo nghĩa là đứng cùng phía với Hindenburg — vốn đã công khai giữ vị thế bán khống — nhưng nếu bạn biết trước nội dung báo cáo nhờ tin mật thì đó là giao dịch trên thông tin không công khai. Cổ phiếu bán khống có thể bật tăng mạnh: chỉ hai ngày trước đó Nikola tăng khoảng 50% vì tin GM, và Nikola đã phản bác báo cáo là 'đòn đánh' của người bán khống. Hãy nhớ rằng bản án của Milton sau này còn được ân xá, nên kết cục pháp lý không phải lúc nào cũng như dự đoán.",
+      "en": "Shorting Nikola ahead of the report meant standing on the same side as Hindenburg, which openly disclosed its short position — but knowing the report's contents in advance through a private tip would be trading on non-public information. Shorted stocks can squeeze hard: just two days earlier Nikola had jumped about 50% on the GM news, and Nikola publicly called the report a short seller's 'hit job'. And Milton's conviction was later pardoned, so legal outcomes don't always go as expected."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Sự kiện nào xảy ra chỉ hai ngày trước khi Hindenburg công bố báo cáo về Nikola?",
+        "en": "What happened just two days before Hindenburg published its report on Nikola?"
+      },
+      "choices": [
+        {
+          "vi": "Nikola niêm yết qua SPAC",
+          "en": "Nikola listed via a SPAC"
+        },
+        {
+          "vi": "Trevor Milton từ chức",
+          "en": "Trevor Milton resigned"
+        },
+        {
+          "vi": "General Motors công bố nhận 11% cổ phần Nikola",
+          "en": "General Motors announced an 11% stake in Nikola"
+        },
+        {
+          "vi": "SEC phạt Nikola 125 triệu USD",
+          "en": "The SEC fined Nikola $125 million"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "GM công bố thỏa thuận 2 tỷ USD và 11% cổ phần ngày 8/9/2020; báo cáo của Hindenburg ra ngày 10/9, Milton từ chức ngày 21/9/2020, còn khoản phạt 125 triệu USD đến tháng 12/2021.",
+        "en": "GM announced its $2 billion deal and 11% stake on 8 September 2020; Hindenburg's report came on 10 September, Milton resigned on 21 September 2020, and the $125 million SEC penalty came in December 2021."
+      }
+    },
+    "sources": [
+      {
+        "title": "Nikola Denies Short-Seller's Fraud Claims It Calls 'Hit Job' As Shares Fall Further - Forbes",
+        "url": "https://www.forbes.com/sites/alanohnsman/2020/09/11/nikola-denies-short-sellers-fraud-claims-it-calls-hit-job-as-shares-fall-further"
+      },
+      {
+        "title": "Nikola plummets 13% after short-seller report alleges years of deception - Business Insider",
+        "url": "https://markets.businessinsider.com/news/stocks/nikola-stock-price-short-seller-report-alleges-years-deception-hindenburg-2020-9-1029579021"
+      },
+      {
+        "title": "In the Matter of Nikola Corporation, Admin. Proc. File No. 3-20687 - SEC",
+        "url": "http://www.sec.gov/enforcement-litigation/distributions-harmed-investors/matter-nikola-corporation-admin-proc-file-no-3-20687"
+      },
+      {
+        "title": "Trump pardons Nikola founder Trevor Milton in securities fraud case - CNBC",
+        "url": "https://www.cnbc.com/2025/03/28/trump-pardons-nikola-trevor-milton-ceo-securities-fraud-electric-vehicle.html"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "11 Sep 2020 close of $32.13 confirmed by Forbes and by Scott+Scott / Grabar Law shareholder notices (24% two-day drop); 9 Sep 2020 close of $42.37 from the Grabar Law notice and consistent with the 24% figure; GM 11% stake and ~50% jump from Business Insider and Forbes; $125m SEC order from the SEC; Oct 2022 conviction, Dec 2023 four-year sentence and Mar 2025 pardon from Reuters and CNBC."
   }
 ]

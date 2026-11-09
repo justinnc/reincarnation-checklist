@@ -2072,5 +2072,207 @@
     ],
     "verified": true,
     "verifiedNote": "$83.5M missed coupon on Sept 24, 2021, $300B+ total liabilities, and 2025 HKEX delisting confirmed via Reuters."
+  },
+  {
+    "id": "cn-kangmei-pharma-fraud-2019",
+    "country": "cn",
+    "date": "2019-04-30",
+    "category": "stocks",
+    "title": {
+      "vi": "Kangmei Pharmaceutical 'bốc hơi' 30 tỷ NDT tiền mặt",
+      "en": "Kangmei Pharmaceutical's Vanishing 30 Billion Yuan in Cash"
+    },
+    "summary": {
+      "vi": "Cổ phiếu Kangmei khóa sàn ở 9,54 NDT ngày 30/4/2019 và chỉ còn 6,31 NDT ngày 21/5/2019 sau khi lộ khoản tiền mặt khai khống 29,9 tỷ NDT.",
+      "en": "Kangmei was locked limit-down at 9.54 yuan on 30 April 2019 and sat at 6.31 yuan by 21 May 2019 after a 29.9bn-yuan cash overstatement came to light."
+    },
+    "description": {
+      "vi": "Tối 29/4/2019, hãng dược đông y Kangmei (600518.SH), từng là cổ phiếu 'blue-chip' ngành dược với vốn hóa hơn 100 tỷ NDT, công bố đính chính báo cáo năm 2017: do 'sai sót kế toán', tiền mặt bị ghi thừa 29,944 tỷ NDT. Kangmei đã bị Ủy ban Chứng khoán Trung Quốc (CSRC) lập hồ sơ điều tra từ ngày 28/12/2018. Sáng 30/4, cổ phiếu mở cửa là khóa sàn ngay ở 9,54 NDT với 2,1 triệu lô chờ bán, và bị giảm sàn bảy phiên trong khoảng 30/4 đến 13/5. Ngày 17/5, CSRC xác nhận Kangmei đã dùng chứng từ ngân hàng giả để thổi phồng tiền gửi, làm giả chứng từ doanh thu và chuyển tiền cho bên liên quan để mua chính cổ phiếu của mình. Công ty thừa nhận 8,88 tỷ NDT đã đi qua các công ty liên quan để mua cổ phiếu Kangmei. Ngày 21/5, cổ phiếu bị gắn mác 'ST', giới hạn biên độ còn 5% và đóng cửa khóa sàn ở 6,31 NDT.",
+      "en": "On the evening of 29 April 2019, traditional-Chinese-medicine maker Kangmei (600518.SH), once a blue-chip pharma stock worth over 100 billion yuan, restated its 2017 accounts and blamed an 'accounting error' for overstating cash by 29.944 billion yuan. The China Securities Regulatory Commission (CSRC) had opened a formal probe into the company on 28 December 2018. On 30 April the stock opened locked limit-down at 9.54 yuan with 2.1 million lots queued to sell, and it hit the daily limit seven times between 30 April and 13 May. On 17 May the CSRC said Kangmei had used fake bank documents to inflate deposits, forged business records to fake revenue, and moved funds to related parties to trade its own shares. The company admitted that 8.88 billion yuan had gone through affiliates to buy Kangmei stock. On 21 May the shares were tagged 'ST', limiting daily moves to 5%, and closed limit-down at 6.31 yuan."
+    },
+    "opportunity": {
+      "asset": "Kangmei Pharmaceutical (600518.SH)",
+      "action": {
+        "vi": "Thoát toàn bộ cổ phiếu Kangmei trước tối 29/4/2019; tránh xa đến khi CSRC công bố kết luận",
+        "en": "Exit all Kangmei shares before the evening of 29 April 2019, and stay away until the CSRC publishes its findings"
+      },
+      "buyWhen": {
+        "vi": "Không mua. Bán trước khi công ty đính chính báo cáo 2017 tối 29/4/2019",
+        "en": "Don't buy. Sell before the company restated its 2017 accounts on the evening of 29 April 2019"
+      },
+      "sellWhen": {
+        "vi": "Chậm nhất là phiên 29/4/2019, vì từ 30/4 cổ phiếu khóa sàn liên tục và gần như không thể bán",
+        "en": "29 April 2019 at the latest, because from 30 April the stock was locked limit-down day after day and was nearly impossible to sell"
+      },
+      "estimatedReturn": {
+        "vi": "Mất khoảng 34% từ giá khóa sàn đầu tiên 9,54 NDT (30/4) đến 6,31 NDT (21/5/2019). Người nào kẹt hàng ở giá sàn gần như không có thanh khoản để thoát",
+        "en": "About 34% lost from the first limit-down price of 9.54 yuan (30 April) to 6.31 yuan (21 May 2019). Anyone stuck at the limit price had almost no liquidity to get out"
+      },
+      "returnMultiple": 0.6614,
+      "entryPrice": 9.54,
+      "exitPrice": 6.31,
+      "priceCurrency": "CNY",
+      "exitDate": "2019-05-21",
+      "risk": "high",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Dấu hiệu đã lộ ra từ trước: Kangmei báo cáo 'ôm' hàng chục tỷ NDT tiền mặt nhưng lãi tiền gửi gần như bằng không, trong khi vẫn liên tục phát hành trái phiếu lãi cao. Người biết trước tương lai chỉ cần bán trước tối 29/4/2019. Sau thời điểm đó, cơ chế biên độ sàn của sàn Thượng Hải giam chân người bán.",
+      "en": "The warning signs were visible early: Kangmei reported tens of billions of yuan in cash yet earned almost no interest on it, while it kept issuing high-coupon bonds. A time traveler only had to sell before the evening of 29 April 2019. After that, the Shanghai exchange's daily price limit trapped sellers."
+    },
+    "pitfalls": {
+      "vi": "Với cổ phiếu A, bán khống cá nhân gần như không khả thi, nên cơ hội thực tế chỉ là né lỗ. Biên độ giảm sàn 10%, sau đó là 5% khi bị gắn ST, khiến bạn không thể bán dù muốn. Đừng 'bắt đáy' vì nghĩ một mã đầu ngành không thể sập: từ 'sai sót kế toán' đến kết luận gian lận của CSRC chỉ mất chưa đầy ba tuần.",
+      "en": "Retail short-selling of A-shares is practically unavailable, so the realistic opportunity was only to avoid the loss. The 10% daily limit, cut to 5% once the stock was tagged ST, meant you could not sell even if you wanted to. Don't buy the dip on the belief that a sector leader can't collapse: it took under three weeks to go from an 'accounting error' to the CSRC's fraud findings."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Kangmei đã khai khống bao nhiêu tiền mặt trong báo cáo năm 2017?",
+        "en": "By how much did Kangmei overstate cash in its 2017 accounts?"
+      },
+      "choices": [
+        {
+          "vi": "2,99 tỷ NDT",
+          "en": "2.99 billion yuan"
+        },
+        {
+          "vi": "8,88 tỷ NDT",
+          "en": "8.88 billion yuan"
+        },
+        {
+          "vi": "Khoảng 29,9 tỷ NDT",
+          "en": "About 29.9 billion yuan"
+        },
+        {
+          "vi": "299 tỷ NDT",
+          "en": "299 billion yuan"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "Bản đính chính ngày 29/4/2019 cho thấy tiền mặt bị ghi thừa 29,944 tỷ NDT. Con số 8,88 tỷ NDT là số tiền đi qua các công ty liên quan để mua cổ phiếu Kangmei.",
+        "en": "The 29 April 2019 restatement showed cash overstated by 29.944 billion yuan. The 8.88-billion-yuan figure is the money routed through affiliates to buy Kangmei shares."
+      }
+    },
+    "sources": [
+      {
+        "title": "300亿账面资金一夜蒸发！昔日千亿白马股爆雷 - 每日经济新闻 (30/4/2019)",
+        "url": "http://www.nbd.com.cn/articles/2019-04-30/1327151.html"
+      },
+      {
+        "title": "逾37亿封跌停 康美药业被公募基金猛调估值 - 新浪财经",
+        "url": "https://finance.sina.com.cn/roll/2019-05-07/doc-ihvhiews0240939.shtml"
+      },
+      {
+        "title": "Drugmaker Kangmei Seeks Stock Trading Halt After Regulator Confirms It Faked Financial Data - Caixin Global",
+        "url": "https://www.caixinglobal.com/2019-05-18/drugmaker-kangmei-seeks-stock-trading-halt-after-regulator-confirms-it-faked-financial-data-101417286.html"
+      },
+      {
+        "title": "康美药业主体信用等级被下调至A - 每日经济新闻 (21/5/2019)",
+        "url": "http://www.nbd.com.cn/articles/2019-05-21/1334233.html"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "9.54-yuan limit-down close on 30 Apr 2019 confirmed by NBD and Sina; 6.31-yuan close on 21 May 2019 confirmed by NBD (and Caixin/Eastmoney reports of the same session). 29.944bn-yuan cash overstatement and CSRC 17 May findings confirmed by NBD and Caixin Global. Pre-announcement close on 29 Apr not directly sourced, so the entry uses the first limit-down price."
+  },
+  {
+    "id": "cn-hanergy-thin-film-crash-2015",
+    "country": "cn",
+    "date": "2015-05-20",
+    "category": "stocks",
+    "title": {
+      "vi": "Hanergy Thin Film mất 47% trong 70 phút",
+      "en": "Hanergy Thin Film Loses 47% in 70 Minutes"
+    },
+    "summary": {
+      "vi": "Cổ phiếu Hanergy rơi từ 7,37 HKD xuống 3,91 HKD sáng 20/5/2015, bị đình chỉ giao dịch và không bao giờ giao dịch lại trước khi hủy niêm yết năm 2019.",
+      "en": "Hanergy fell from HK$7.37 to HK$3.91 on the morning of 20 May 2015, was suspended, and never traded again before delisting in 2019."
+    },
+    "description": {
+      "vi": "Hanergy Thin Film Power (0566.HK), công ty pin mặt trời màng mỏng do tỷ phú Lý Hà Quân (Li Hejun) kiểm soát, từng có vốn hóa vượt 300 tỷ HKD, lớn hơn cả Sony. Phần lớn doanh thu của công ty đến từ việc bán hàng cho chính công ty mẹ Hanergy Holding. Sáng 20/5/2015, đúng ngày họp đại hội cổ đông mà ông Lý vắng mặt, cổ phiếu sụp từ 7,37 HKD xuống 3,91 HKD (giảm gần 47%) chỉ trong 70 phút đầu phiên, rồi bị đình chỉ lúc 10h40. Cổ phiếu không bao giờ giao dịch trở lại. Năm 2017, Ủy ban Chứng khoán và Tương lai Hồng Kông (SFC) có được lệnh của tòa án cấm ông Lý làm giám đốc trong tám năm vì vi phạm nghiêm trọng nghĩa vụ giám đốc: ông đặt lợi ích của công ty mẹ lên trên công ty niêm yết, có một khoản vay 900 triệu NDT không công bố. Hanergy chính thức hủy niêm yết tại Hồng Kông ngày 11/6/2019.",
+      "en": "Hanergy Thin Film Power (0566.HK), a thin-film solar maker controlled by billionaire Li Hejun, was at one point worth more than HK$300 billion, bigger than Sony. Most of its revenue came from sales to its own parent, Hanergy Holding. On the morning of 20 May 2015, the day of an AGM that Li skipped, the stock collapsed from HK$7.37 to HK$3.91 (down nearly 47%) in the first 70 minutes of trading and was suspended at 10:40 a.m. It never traded again. In 2017 Hong Kong's Securities and Futures Commission (SFC) obtained a court order disqualifying Li as a director for eight years for serious breaches of duty: he had put the parent's interests ahead of the listed company's, including an undisclosed RMB900 million loan. Hanergy was formally delisted in Hong Kong on 11 June 2019."
+    },
+    "opportunity": {
+      "asset": "Hanergy Thin Film Power Group (0566.HK)",
+      "action": {
+        "vi": "Thoát toàn bộ Hanergy trước phiên 20/5/2015; vị thế còn lại sau 10h40 hôm đó bị đóng băng vĩnh viễn",
+        "en": "Exit all Hanergy shares before the 20 May 2015 session; any position still open after 10:40 a.m. that day was frozen for good"
+      },
+      "buyWhen": {
+        "vi": "Không mua. Bán ở quanh 7,37 HKD trước khi phiên 20/5/2015 mở cửa",
+        "en": "Don't buy. Sell around HK$7.37 before the 20 May 2015 open"
+      },
+      "sellWhen": {
+        "vi": "Trước 9h30 sáng 20/5/2015. Sau 10h40 cổ phiếu bị đình chỉ và không bao giờ giao dịch lại",
+        "en": "Before 9:30 a.m. on 20 May 2015. After 10:40 a.m. the stock was suspended and never traded again"
+      },
+      "estimatedReturn": {
+        "vi": "Mất gần 47% chỉ trong 70 phút, rồi bị đóng băng vốn suốt bốn năm cho đến khi hủy niêm yết",
+        "en": "Nearly 47% lost in 70 minutes, then capital frozen for four years until delisting"
+      },
+      "returnMultiple": 0.5305,
+      "entryPrice": 7.37,
+      "exitPrice": 3.91,
+      "priceCurrency": "HKD",
+      "exitDate": "2015-05-20",
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Người biết trước chỉ cần bán ngay trước ngày đại hội cổ đông 20/5/2015. Mức giá 3,91 HKD là mức cuối cùng từng được giao dịch; với cổ đông còn kẹt lại, khoản tiền đó không thể rút ra trong suốt bốn năm sau.",
+      "en": "A time traveler only needed to sell right before the 20 May 2015 AGM. HK$3.91 was the last price ever traded; for anyone still holding, that money stayed locked up for the next four years."
+    },
+    "pitfalls": {
+      "vi": "Bán khống Hanergy về lý thuyết có thể lãi, nhưng khi cổ phiếu bị đình chỉ vô thời hạn, vị thế bán khống cũng bị kẹt, kèm phí vay cổ phiếu và rủi ro đối tác. Vụ việc được SFC xử lý như vi phạm nghĩa vụ giám đốc; các cáo buộc thao túng giá trên báo chí chưa được tòa án kết luận, nên đừng khẳng định quá mức. Bài học chính: khi doanh thu chủ yếu đến từ công ty mẹ, đó là rủi ro lớn chứ không phải tăng trưởng.",
+      "en": "Shorting Hanergy could in theory have paid off, but once the stock was suspended indefinitely a short was stuck too, with borrow fees and counterparty risk piling up. The SFC handled the case as breaches of directors' duties; press allegations of price manipulation were never ruled on by a court, so don't overstate them. The main lesson: revenue that comes mostly from your own parent is a major risk, not growth."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Cổ phiếu Hanergy Thin Film giảm bao nhiêu trước khi bị đình chỉ sáng 20/5/2015?",
+        "en": "How far did Hanergy Thin Film fall before being suspended on 20 May 2015?"
+      },
+      "choices": [
+        {
+          "vi": "Khoảng 47%",
+          "en": "About 47%"
+        },
+        {
+          "vi": "Khoảng 10%",
+          "en": "About 10%"
+        },
+        {
+          "vi": "Khoảng 25%",
+          "en": "About 25%"
+        },
+        {
+          "vi": "Khoảng 90%",
+          "en": "About 90%"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "Caixin, SCMP và AFR đều ghi nhận cổ phiếu giảm gần 47% xuống 3,91 HKD trước khi bị đình chỉ lúc 10h40.",
+        "en": "Caixin, the SCMP and the AFR all report a drop of nearly 47% to HK$3.91 before the 10:40 a.m. suspension."
+      }
+    },
+    "sources": [
+      {
+        "title": "Solar Panel Maker Suffering HK Share Sell-Off 'Failed to Repay Loans' - Caixin Global",
+        "url": "https://www.caixinglobal.com/2015-05-21/solar-panel-maker-suffering-hk-share-sell-off-failed-to-repay-loans-101012457.html"
+      },
+      {
+        "title": "Hanergy biggest loser in Hong Kong market - South China Morning Post",
+        "url": "https://www.scmp.com/business/companies/article/1804470/hanergy-biggest-loser-hong-kong-market-paladin-preferred-shares"
+      },
+      {
+        "title": "SFC obtains disqualification and court orders against former chairman and current directors of Hanergy (2017)",
+        "url": "https://apps.sfc.hk/edistributionWeb/api/news/list-content?refNo=17PR116&lang=EN"
+      },
+      {
+        "title": "Solar Parts-Maker Accepts Delisting After Four-Year Suspension in Hong Kong - Caixin Global",
+        "url": "https://www.caixinglobal.com/2019-06-11/solar-parts-maker-accepts-delisting-after-four-year-suspension-in-hong-kong-101425654.html"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "HK$3.91 low and 47% plunge on 20 May 2015 confirmed by SCMP, MarketWatch/WSJ, AFR and Caixin; HK$7.37 starting price stated by Caixin and consistent with the 47% drop reported elsewhere. SFC 2017 disqualification order (8 years for Li Hejun) from the SFC release; 11 Jun 2019 delisting from Caixin."
   }
 ]

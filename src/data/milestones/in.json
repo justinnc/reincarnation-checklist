@@ -2060,5 +2060,106 @@
     ],
     "verified": true,
     "verifiedNote": "Report publication date (24 Jan 2023), Adani Enterprises market-cap figures ($48.03bn to $17.46bn, -63.64%) and the $2.5bn FPO cancellation all confirmed via CNBC's own fetched article with its FactSet-sourced table."
+  },
+  {
+    "id": "in-infosys-whistleblower-crash-2019",
+    "country": "in",
+    "date": "2019-10-22",
+    "category": "stocks",
+    "title": {
+      "vi": "Đơn tố giác nặc danh đánh sập cổ phiếu Infosys",
+      "en": "Anonymous Whistleblower Letter Crashes Infosys"
+    },
+    "summary": {
+      "vi": "Một nhóm nặc danh tố CEO làm đẹp lợi nhuận khiến Infosys mất 16,21% trong một phiên, nhưng cuộc điều tra sau đó kết luận không có sai phạm.",
+      "en": "An anonymous group accused the CEO of inflating profits and Infosys fell 16.21% in one session, but the investigation later found no wrongdoing."
+    },
+    "description": {
+      "vi": "Ngày 21/10/2019, Infosys xác nhận đã nhận hai đơn tố giác nặc danh từ nhóm tự xưng 'Ethical Employees'. Đơn cáo buộc CEO Salil Parekh và CFO Nilanjan Roy dùng 'thủ thuật phi đạo đức', như không ghi nhận đầy đủ chi phí visa, để thổi phồng lợi nhuận ngắn hạn. Thị trường Ấn Độ nghỉ ngày 21/10 vì bầu cử Maharashtra, nên phiên 22/10 cổ phiếu chạm sàn 10% ngay khi mở cửa. Sau khi biên độ được nới lên 20%, giá đóng cửa ở 643,30 INR trên BSE, giảm 16,21% so với 767,75 INR, và xóa hơn 50.000 crore rupee vốn hóa. Ngày 10/1/2020, Ủy ban Kiểm toán kết luận các cáo buộc về cơ bản không có cơ sở, không có dấu hiệu sai phạm tài chính và không cần điều chỉnh báo cáo.",
+      "en": "On 21 October 2019, Infosys confirmed it had received two anonymous complaints from a group calling itself 'Ethical Employees'. They accused CEO Salil Parekh and CFO Nilanjan Roy of 'unethical practices', such as not fully recognising visa costs, to inflate short-term profits. Indian markets were shut on 21 October for the Maharashtra election, so on 22 October the stock opened locked at its 10% lower circuit. After the limit was widened to 20%, it closed at INR 643.30 on the BSE, down 16.21% from INR 767.75 and wiping out more than INR 50,000 crore of market value. On 10 January 2020 the Audit Committee concluded the allegations were substantially without merit, found no financial impropriety, and said no restatement was needed."
+    },
+    "opportunity": {
+      "asset": "Infosys Ltd (INFY)",
+      "action": {
+        "vi": "Né cú sập ngày 22/10/2019, rồi cân nhắc mua lại khi giá rơi vì tin đồn chưa kiểm chứng",
+        "en": "Dodge the 22 Oct 2019 crash, then consider buying back while the price is depressed by unverified claims"
+      },
+      "buyWhen": {
+        "vi": "Không giữ hàng qua cuối tuần 18/10/2019; nếu tin vào kết quả điều tra, mua quanh 643 INR",
+        "en": "Hold nothing over the 18 Oct 2019 weekend; if you trust the investigation's outcome, buy around INR 643"
+      },
+      "sellWhen": {
+        "vi": "Trước phiên 22/10/2019, khi tin tố giác được công bố",
+        "en": "Before the 22 Oct 2019 session, when the whistleblower news broke"
+      },
+      "estimatedReturn": {
+        "vi": "Mất 16,21% trong một phiên (767,75 → 643,30 INR); người né được giữ nguyên vốn",
+        "en": "Lost 16.21% in a single session (INR 767.75 → 643.30); anyone who dodged it kept their capital"
+      },
+      "returnMultiple": 0.8379,
+      "entryPrice": 767.75,
+      "exitPrice": 643.3,
+      "priceCurrency": "INR",
+      "exitDate": "2019-10-22",
+      "risk": "medium",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Người trở về quá khứ biết hai điều: cú rơi 16% sẽ đến ngay khi thị trường mở cửa lại ngày 22/10/2019, và ba tháng sau Infosys sẽ được kết luận trong sạch. Cú sập này là phản ứng với tin đồn, không phải với gian lận thật.",
+      "en": "A reincarnated investor knows two things: the 16% drop arrives the moment the market reopens on 22 Oct 2019, and three months later Infosys will be cleared. This crash was a reaction to a rumor, not to actual fraud."
+    },
+    "pitfalls": {
+      "vi": "Vào ngày 22/10/2019 không ai biết các cáo buộc là sai, và nhiều vụ tố giác khác (như Satyam) lại hoàn toàn đúng. Ngày đó cổ phiếu bị khóa sàn ngay lúc mở cửa nên không thể bán ra ở giá cũ. Nhà đầu tư cá nhân ở Ấn Độ không được giữ vị thế bán khống qua đêm trên thị trường cơ sở.",
+      "en": "On 22 Oct 2019 nobody knew the claims were false, and other whistleblower cases (such as Satyam) turned out to be entirely true. The stock was locked at its lower limit at the open that day, so you could not sell at the old price. Retail investors in India cannot hold overnight short positions in the cash market."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Ủy ban Kiểm toán của Infosys kết luận gì về đơn tố giác vào tháng 1/2020?",
+        "en": "What did Infosys's Audit Committee conclude about the whistleblower complaints in January 2020?"
+      },
+      "choices": [
+        {
+          "vi": "CEO phải từ chức ngay",
+          "en": "The CEO had to resign immediately"
+        },
+        {
+          "vi": "Các cáo buộc về cơ bản không có cơ sở, không cần điều chỉnh báo cáo",
+          "en": "The allegations were substantially without merit and no restatement was needed"
+        },
+        {
+          "vi": "Công ty phải điều chỉnh lợi nhuận ba năm",
+          "en": "The company had to restate three years of profits"
+        },
+        {
+          "vi": "Vụ việc được chuyển cho SEC Mỹ xử lý",
+          "en": "The case was handed to the US SEC"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Thông cáo của Infosys ngày 10/1/2020 nêu rõ các cáo buộc 'về cơ bản không có cơ sở' và không cần điều chỉnh báo cáo tài chính đã công bố.",
+        "en": "Infosys's 10 Jan 2020 press release states the allegations were 'substantially without merit' and that no restatement of published financials was warranted."
+      }
+    },
+    "sources": [
+      {
+        "title": "Infosys share crashes 16% on Sensex, Nifty amid allegations of 'unethical' practices - Business Today",
+        "url": "https://www.businesstoday.in/markets/company-stock/story/infosys-share-price-falls-top-loser-on-sensex-nifty-whistleblower-complaints-236460-2019-10-22"
+      },
+      {
+        "title": "Share market highlights: Infosys pulls Sensex, Nifty lower after whistle blower complaints - Financial Express",
+        "url": "https://www.financialexpress.com/market/share-market-today-live-updates-sensex-nifty-rupee-vs-dollar-infosys-bank-strike-jio-22-oct-2019-tuesday/1742546/"
+      },
+      {
+        "title": "Indian tech group Infosys rocked by whistleblower claims against CEO Salil Parekh - CNN Business",
+        "url": "https://www.cnn.com/2019/10/22/tech/infosys-india-investigation-salil-parekh/index.html"
+      },
+      {
+        "title": "Infosys Audit Committee Finds No Evidence of Financial Impropriety or Executive Misconduct - Infosys",
+        "url": "https://www.infosys.com/newsroom/press-releases/2020/audit-committee-finds-no-evidence-financial-impropriety.html"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "The BSE close of INR 643.30 (down 16.21% from INR 767.75) on 22 Oct 2019 is confirmed by Business Today, and the 643.30 close by Financial Express and Moneycontrol. The 16% fall is also in CNN. The 10 Jan 2020 'substantially without merit' finding comes from Infosys's own press release and is corroborated by Reuters and Times of India reporting."
   }
 ]

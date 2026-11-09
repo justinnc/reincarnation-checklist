@@ -1953,5 +1953,102 @@
     ],
     "verified": true,
     "verifiedNote": "TTF month-ahead price peak of ~EUR 295-314/MWh around 22-26 August 2022, and the Nord Stream throttling to 20% capacity, confirmed by S&P Global's contemporaneous market report; the record-closing level of EUR 292.15/MWh on 24 Aug 2022 confirmed by the Brussels Times."
+  },
+  {
+    "id": "de-grenke-viceroy-short-attack-2020",
+    "country": "de",
+    "date": "2020-09-15",
+    "category": "stocks",
+    "title": {
+      "vi": "Viceroy tấn công bán khống Grenke",
+      "en": "Viceroy's Short Attack on Grenke"
+    },
+    "summary": {
+      "vi": "Một báo cáo bán khống 64 trang khiến cổ phiếu Grenke rơi xuống đáy năm 23,92 EUR chỉ hai ngày sau khi công bố.",
+      "en": "A 64-page short-seller report sent Grenke shares to a 2020 low of 23.92 EUR just two days after publication."
+    },
+    "description": {
+      "vi": "Ngày 15/9/2020, chưa đầy ba tháng sau vụ Wirecard, Viceroy Research của Fraser Perring tung báo cáo 64 trang cáo buộc công ty cho thuê tài chính Grenke (Baden-Baden, chỉ số MDax) gian lận kế toán, rửa tiền, và cho rằng phần lớn khoản 1,078 tỷ EUR tiền mặt báo cáo giữa năm không tồn tại. Cổ phiếu có lúc mất 29% ngay trong ngày đầu, tiếp tục rơi mạnh hôm sau và chạm đáy năm 23,92 EUR vào ngày 17/9; cuối tháng 8 giá đóng cửa còn ở 61,55 EUR. Grenke bác bỏ, chứng minh 849 triệu EUR nằm tại Bundesbank, BaFin mở cuộc kiểm tra, còn KPMG và Mazars được giao kiểm toán đặc biệt. Đây không phải một 'Wirecard thứ hai': cổ phiếu hồi lên 38,82 EUR vào cuối năm 2020, nhưng chưa bao giờ trở lại mức trước cú tấn công.",
+      "en": "On 15 September 2020, less than three months after Wirecard, Fraser Perring's Viceroy Research published a 64-page report accusing Baden-Baden leasing firm Grenke (an MDax member) of accounting fraud and money laundering, and claiming that much of the EUR 1.078bn of cash in its half-year report did not exist. The shares fell as much as 29% on day one, kept sliding the next day, and hit a 2020 low of 23.92 EUR on 17 September, against a 61.55 EUR close at the end of August. Grenke denied everything and showed EUR 849m held at the Bundesbank. BaFin opened a review, and KPMG and Mazars were brought in for special audits. It was no second Wirecard: the stock recovered to 38.82 EUR by the end of 2020, but never got back to its pre-attack level."
+    },
+    "opportunity": {
+      "asset": "GRENKE AG (GLJ)",
+      "action": {
+        "vi": "Thoát vị thế Grenke trước báo cáo, rồi cân nhắc mua lại ở vùng đáy hoảng loạn",
+        "en": "Exit Grenke before the report, then consider buying back at the panic low"
+      },
+      "buyWhen": {
+        "vi": "Không giữ hàng trước 15/9/2020; nếu muốn bắt hồi phục, chỉ mua quanh đáy 17/9/2020",
+        "en": "Hold nothing going into 15 Sep 2020; to play the rebound, buy only around the 17 Sep 2020 low"
+      },
+      "sellWhen": {
+        "vi": "Trước ngày 15/9/2020, khi Viceroy công bố báo cáo",
+        "en": "Before 15 Sep 2020, when Viceroy published its report"
+      },
+      "estimatedReturn": {
+        "vi": "Từ 61,55 EUR (31/8) xuống đáy 23,92 EUR (17/9) là mất khoảng 61%; người né được cú rơi giữ nguyên vốn",
+        "en": "From 61.55 EUR (31 Aug) to the 23.92 EUR low (17 Sep) is a loss of about 61%; anyone who dodged it kept their capital"
+      },
+      "returnMultiple": 0.3886,
+      "entryPrice": 61.55,
+      "exitPrice": 23.92,
+      "priceCurrency": "EUR",
+      "exitDate": "2020-09-17",
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Người trở về quá khứ biết rằng sau Wirecard, thị trường Đức sẽ bán tháo mọi mục tiêu của Viceroy trước, rồi mới hỏi sau. Họ không cần biết cáo buộc đúng hay sai, chỉ cần đứng ngoài trước ngày 15/9/2020.",
+      "en": "A reincarnated investor knows that after Wirecard, the German market will dump any Viceroy target first and ask questions later. They don't need to know whether the claims are true, only to be out before 15 Sep 2020."
+    },
+    "pitfalls": {
+      "vi": "Tin đồn và báo cáo bán khống có thể sai một phần: Grenke chứng minh được phần lớn tiền mặt, và cổ phiếu hồi hơn 60% từ đáy trước cuối năm 2020. Bán khống quanh đáy là canh bạc nguy hiểm, vì chỉ hai ngày sau cổ phiếu đã bật mạnh. Bản thân người viết báo cáo nắm vị thế bán khống, nên đừng coi đó là sự thật đã kiểm chứng.",
+      "en": "Rumors and short reports can be partly wrong: Grenke documented most of its cash, and the stock rebounded more than 60% off the low by the end of 2020. Shorting near the bottom was a dangerous bet, since the stock rebounded sharply just two days later. The report's author held a short position, so don't treat it as verified fact."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Công ty nghiên cứu bán khống nào đã tấn công Grenke vào tháng 9/2020?",
+        "en": "Which short-selling research firm attacked Grenke in September 2020?"
+      },
+      "choices": [
+        {
+          "vi": "Muddy Waters",
+          "en": "Muddy Waters"
+        },
+        {
+          "vi": "Hindenburg Research",
+          "en": "Hindenburg Research"
+        },
+        {
+          "vi": "Viceroy Research",
+          "en": "Viceroy Research"
+        },
+        {
+          "vi": "Citron Research",
+          "en": "Citron Research"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "Báo cáo 64 trang do Fraser Perring của Viceroy Research công bố ngày 15/9/2020, theo CNBC và báo cáo thường niên 2020 của Grenke.",
+        "en": "The 64-page report was published by Fraser Perring's Viceroy Research on 15 Sep 2020, according to CNBC and Grenke's 2020 annual report."
+      }
+    },
+    "sources": [
+      {
+        "title": "Grenke shares tank after short seller accuses it of fraud - CNBC",
+        "url": "https://www.cnbc.com/2020/09/16/grenke-shares-tank-after-short-seller-accuses-it-of-fraud-.html"
+      },
+      {
+        "title": "GRENKE Group Annual Report 2020 (share price section)",
+        "url": "https://www.grenke.com/a/original/gallery/12428/files/original/ba6fac9d33a24c12b970ecafbd39fc5c.pdf"
+      },
+      {
+        "title": "Zweites Wirecard? Investor erhebt schwere Vorwürfe gegen deutsche Finanzfirma - t-online (Reuters)",
+        "url": "https://www.t-online.de/finanzen/aktuelles/wirtschaft/id_88578584/grenke-investor-erhebt-schwere-vorwuerfe-gegen-deutsche-finanzfirma-.html"
+      }
+    ],
+    "verified": false,
+    "verifiedNote": "The intraday fall of nearly 30% on 15 Sep 2020 is confirmed by CNBC and t-online/Reuters. The 61.55 EUR (31 Aug 2020 close), 23.92 EUR (17 Sep 2020 low) and 38.82 EUR (year-end) prices come only from Grenke's own 2020 annual report, and the exact close on the day before the report could not be sourced."
   }
 ]

@@ -2647,5 +2647,409 @@
     ],
     "verified": true,
     "verifiedNote": "VND 92.4M peak on 10 May 2024 and ~VND 17-20M gap to world price from Tuoi Tre; 3 June 2024 direct sales via 4 state banks + SJC at 78.98M, falling to 76.98M by 5-6 June with gap ~VND 6M from the SBV's Tap chi Ngan hang; 74.98/76.98M flat mid-June from VietNamNet; late-April auction restart from CafeF. Prices are SJC selling quotes."
+  },
+  {
+    "id": "vn-acb-bau-kien-arrest-2012",
+    "country": "vn",
+    "date": "2012-08-20",
+    "category": "stocks",
+    "title": {
+      "vi": "Bầu Kiên bị bắt, cổ phiếu ACB giảm sàn ba phiên liền",
+      "en": "Bau Kien's Arrest Sends ACB Limit-Down for Three Straight Sessions"
+    },
+    "summary": {
+      "vi": "Cổ phiếu ACB rơi từ 25.900 đồng xuống 21.000 đồng chỉ sau ba phiên kể từ khi ông Nguyễn Đức Kiên bị bắt tối 20/8/2012.",
+      "en": "ACB shares fell from VND 25,900 to VND 21,000 in just three sessions after Nguyen Duc Kien was arrested on the evening of 20 August 2012."
+    },
+    "description": {
+      "vi": "Tối 20/8/2012, ông Nguyễn Đức Kiên (bầu Kiên), một trong những người sáng lập và nguyên Phó Chủ tịch HĐQT Ngân hàng Á Châu (ACB), bị Bộ Công an bắt giữ vì sai phạm tại ba công ty do ông làm chủ tịch. Sáng 21/8, nhà đầu tư bán tháo: VN-Index mất 20,44 điểm (-4,67%), HNX-Index mất 5,24%, ACB giảm sàn về 24.100 đồng. Sau ba phiên giảm sàn liên tiếp 21-23/8, ACB còn 21.000 đồng (-19% so với 25.900 đồng ngày 20/8), VN-Index mất 10,2% và thị trường bốc hơi khoảng 3,85 tỷ USD. Một tháng sau, ACB chỉ còn gần 15.000 đồng; lãi cả năm 2012 của ACB chỉ còn 784 tỷ đồng, so với 3.208 tỷ đồng năm 2011.",
+      "en": "On the evening of 20 August 2012, Nguyen Duc Kien ('Bau Kien'), a founder and former vice chairman of Asia Commercial Bank (ACB), was arrested by the Ministry of Public Security over violations at three companies he chaired. Investors dumped shares on the morning of 21 August: the VN-Index lost 20.44 points (-4.67%), the HNX-Index fell 5.24% and ACB hit its limit-down price of VND 24,100. After three straight limit-down sessions from 21 to 23 August, ACB stood at VND 21,000 (-19% from VND 25,900 on 20 August), the VN-Index had lost 10.2% and about USD 3.85 billion of market value had evaporated. A month later ACB was near VND 15,000; full-year 2012 profit shrank to VND 784 billion from VND 3,208 billion in 2011."
+    },
+    "opportunity": {
+      "asset": "Asia Commercial Bank (ACB)",
+      "action": {
+        "vi": "Thoát toàn bộ cổ phiếu ACB và cổ phiếu ngân hàng trong phiên 20/8/2012",
+        "en": "Exit all ACB and other bank shares in the 20 August 2012 session"
+      },
+      "buyWhen": {
+        "vi": "Không mua — bán ở giá 25.900 đồng trước khi tin bắt giữ lan ra",
+        "en": "Don't buy — sell at VND 25,900 before the arrest news spreads"
+      },
+      "sellWhen": {
+        "vi": "Phiên 20/8/2012, trước khi ACB giảm sàn ba phiên liền 21-23/8",
+        "en": "The 20 August 2012 session, before ACB's three limit-down days on 21-23 August"
+      },
+      "estimatedReturn": {
+        "vi": "Tránh mất 19% trong ba phiên; nếu giữ đến một tháng sau thì mất khoảng 42% (xuống gần 15.000 đồng)",
+        "en": "Avoids a 19% loss in three sessions; holding for another month cost about 42% (down to near VND 15,000)"
+      },
+      "returnMultiple": 0.8108,
+      "entryPrice": 25900,
+      "exitPrice": 21000,
+      "priceCurrency": "VND",
+      "exitDate": "2012-08-23",
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Người 'trọng sinh' biết lệnh bắt được tống đạt tối 20/8/2012, sau giờ giao dịch. Họ bán ACB ngay trong phiên 20/8 ở 25.900 đồng, và đừng vội bắt đáy: một tháng sau ACB còn gần 15.000 đồng, rồi đi ngang 12.000-14.000 đồng suốt hai năm.",
+      "en": "A reincarnated investor knows the arrest warrant was served after market close on 20 August 2012. They sell ACB during that day's session at VND 25,900 and resist bottom-fishing: a month later ACB was near VND 15,000, then drifted at VND 12,000-14,000 for two years."
+    },
+    "pitfalls": {
+      "vi": "Giá sàn ±7% khiến ba phiên đầu gần như 'trắng bên mua' — nếu không bán trước 21/8 thì rất khó thoát hàng. Biết trước tin bắt giữ nhờ quan hệ nội bộ mà giao dịch là phạm pháp; bán khống cổ phiếu gần như không thể ở Việt Nam. Về dài hạn ACB đã phục hồi, nên bán tháo ở đáy cũng là sai lầm.",
+      "en": "The ±7% daily limit meant there were almost no buyers in the first three sessions — if you had not sold before 21 August, getting out was very hard. Trading on advance knowledge of an arrest from inside sources is illegal, and short-selling stocks is practically unavailable in Vietnam. ACB recovered in the long run, so panic-selling at the bottom was also a mistake."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Phiên 21/8/2012, ngay sau khi bầu Kiên bị bắt, VN-Index giảm bao nhiêu?",
+        "en": "How much did the VN-Index fall on 21 August 2012, the session after Bau Kien's arrest?"
+      },
+      "choices": [
+        {
+          "vi": "Khoảng 1,5%",
+          "en": "About 1.5%"
+        },
+        {
+          "vi": "Khoảng 2,3%",
+          "en": "About 2.3%"
+        },
+        {
+          "vi": "Khoảng 4,7%",
+          "en": "About 4.7%"
+        },
+        {
+          "vi": "Khoảng 10,2%",
+          "en": "About 10.2%"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "VN-Index mất 20,44 điểm (-4,67%) trong phiên 21/8/2012; 10,2% là mức giảm cộng dồn sau ba phiên 21-23/8.",
+        "en": "The VN-Index lost 20.44 points (-4.67%) on 21 August 2012; 10.2% was the cumulative drop over the three sessions of 21-23 August."
+      }
+    },
+    "sources": [
+      {
+        "title": "Tròn 5 năm 'bầu' Kiên bị bắt: ACB rũ bùn đứng dậy - Nhà Đầu Tư",
+        "url": "https://nhadautu.vn/tron-5-nam-bau-kien-bi-bat-acb-ru-bun-dung-day-d2539.html"
+      },
+      {
+        "title": "2012: Chứng khoán vỡ mật vì đại gia - VietNamNet",
+        "url": "https://vietnamnet.vn/2012-chung-khoan-vo-mat-vi-dai-gia-102126.html"
+      },
+      {
+        "title": "Nhìn lại những phiên \"bốc hơi\" hàng tỷ USD của chứng khoán Việt Nam - Báo Đầu tư",
+        "url": "https://baodautu.vn/nhin-lai-nhung-phien-boc-hoi-hang-ty-usd-cua-chung-khoan-viet-nam-d76838.html"
+      },
+      {
+        "title": "Vòng tròn bấn loạn của ACB - VietNamNet",
+        "url": "https://vietnamnet.vn/vong-tron-ban-loan-cua-acb-102898.html"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "20 Aug 2012 arrest, 21 Aug VN-Index -20.44 pts (-4.67%) and ACB limit-down to VND 24,100 from Bao Dau Tu (VnExpress) and Nha Dau Tu; VND 25,900 -> 21,000 over 21-23 Aug confirmed by both Nha Dau Tu and VietNamNet; ~VND 15,000 one month later from VietNamNet. Prices are nominal, not dividend/split-adjusted."
+  },
+  {
+    "id": "vn-bidv-tran-bac-ha-rumor-2017",
+    "country": "vn",
+    "date": "2017-08-09",
+    "category": "stocks",
+    "title": {
+      "vi": "Tin đồn bắt ông Trần Bắc Hà khiến cổ phiếu BID giảm sàn",
+      "en": "False Rumor of Tran Bac Ha's Arrest Sends BIDV Shares Limit-Down"
+    },
+    "summary": {
+      "vi": "Một tin đồn sai trên mạng xã hội đẩy BID từ 21.900 đồng xuống giá sàn 20.400 đồng và xóa khoảng 2 tỷ USD vốn hóa trong một phiên.",
+      "en": "A false social-media rumor knocked BID from VND 21,900 to its VND 20,400 floor and wiped about USD 2 billion off the market in one session."
+    },
+    "description": {
+      "vi": "Sáng 9/8/2017, trên mạng xã hội và các diễn đàn lan truyền tin ông Trần Bắc Hà, nguyên Chủ tịch BIDV (nghỉ hưu từ 9/2016), bị bắt. Ngay trong ngày, ông Hà nói với báo chí rằng mình 'vẫn bình thường' và một lãnh đạo Tổng cục Cảnh sát bác bỏ thông tin bắt giữ. Dù vậy, BID vẫn giảm sàn trong tình trạng 'trắng bên mua', mất 1.500 đồng xuống 20.400 đồng với khối lượng gấp ba phiên trước. VN-Index mất 17,91 điểm (-2,26%) còn 773,66 điểm — phiên giảm mạnh nhất gần hai năm — và thị trường bốc hơi khoảng 45.800 tỷ đồng (2 tỷ USD). Ông Hà chỉ thực sự bị bắt hơn một năm sau, ngày 29/11/2018, trong một vụ án vi phạm hoạt động ngân hàng.",
+      "en": "On the morning of 9 August 2017, social media and stock forums spread a rumor that Tran Bac Ha, former chairman of BIDV (retired since September 2016), had been arrested. The same day Ha told reporters he was 'fine', and a senior police official denied any arrest. Even so, BID hit its limit-down price with no buyers, losing VND 1,500 to close at VND 20,400 on three times the previous session's volume. The VN-Index fell 17.91 points (-2.26%) to 773.66 — its worst day in nearly two years — wiping out about VND 45.8 trillion (USD 2 billion). Ha was actually arrested only more than a year later, on 29 November 2018, in a banking-violations case."
+    },
+    "opportunity": {
+      "asset": "BIDV (BID)",
+      "action": {
+        "vi": "Bán BID trước phiên 9/8/2017, hoặc bình tĩnh không bán tháo khi tin đồn bị bác bỏ ngay trong ngày",
+        "en": "Sell BID before the 9 August 2017 session, or stay calm and avoid panic-selling once the rumor is denied the same day"
+      },
+      "buyWhen": {
+        "vi": "Không mua mới trước phiên 9/8/2017; nếu đã nắm giữ thì bán ở 21.900 đồng ngày 8/8",
+        "en": "No new buying before 9 August 2017; existing holders sell at VND 21,900 on 8 August"
+      },
+      "sellWhen": {
+        "vi": "Phiên 8/8/2017, trước khi tin đồn bùng phát sáng 9/8",
+        "en": "The 8 August 2017 session, before the rumor broke on the morning of 9 August"
+      },
+      "estimatedReturn": {
+        "vi": "Tránh mất khoảng 6,8% trong một phiên; cú sốc chỉ là tin đồn, không phải thay đổi cơ bản của ngân hàng",
+        "en": "Avoids a ~6.8% one-day loss; the shock was a rumor, not a change in the bank's fundamentals"
+      },
+      "returnMultiple": 0.9315,
+      "entryPrice": 21900,
+      "exitPrice": 20400,
+      "priceCurrency": "VND",
+      "exitDate": "2017-08-09",
+      "risk": "medium",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Người 'trọng sinh' biết đây là tin đồn thất thiệt và đã từng xảy ra: tháng 2/2013, cùng một tin đồn về ông Hà từng làm VN-Index mất 3,66% rồi hồi phục sau hai phiên. Bài học là đừng bán ở giá sàn chỉ vì đám đông hoảng loạn khi chính người trong cuộc đã lên tiếng phủ nhận.",
+      "en": "A reincarnated investor knows the rumor is false and has happened before: in February 2013 the same rumor about Ha knocked 3.66% off the VN-Index, which recovered within two sessions. The lesson is not to sell at the floor just because the crowd panics after the person involved has already denied it."
+    },
+    "pitfalls": {
+      "vi": "Tin đồn có thể đúng: ông Hà thật sự bị bắt ngày 29/11/2018, nên 'mua khi có tin đồn' không phải lúc nào cũng thắng. Tung tin đồn sai để thao túng giá là vi phạm pháp luật — năm 2013, TP.HCM đã xử phạt ba nhà đầu tư vì phát tán tin đồn tương tự. Bán khống BID gần như không khả thi với nhà đầu tư cá nhân.",
+      "en": "Rumors can turn out to be true: Ha really was arrested on 29 November 2018, so 'buying the rumor' does not always win. Spreading false rumors to move prices is illegal — in 2013 Ho Chi Minh City authorities fined three investors for spreading the same rumor. Shorting BID is practically unavailable to individual investors."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Phiên 9/8/2017, VN-Index đóng cửa ở mức nào sau tin đồn về ông Trần Bắc Hà?",
+        "en": "Where did the VN-Index close on 9 August 2017 after the rumor about Tran Bac Ha?"
+      },
+      "choices": [
+        {
+          "vi": "773,66 điểm",
+          "en": "773.66 points"
+        },
+        {
+          "vi": "791,57 điểm",
+          "en": "791.57 points"
+        },
+        {
+          "vi": "1.182,77 điểm",
+          "en": "1,182.77 points"
+        },
+        {
+          "vi": "520,30 điểm",
+          "en": "520.30 points"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "vi": "VN-Index mất 17,91 điểm (-2,26%) xuống 773,66 điểm — phiên giảm mạnh nhất gần hai năm, dù tin đồn đã bị bác bỏ ngay trong ngày.",
+        "en": "The VN-Index lost 17.91 points (-2.26%) to 773.66 — its worst session in nearly two years, even though the rumor was denied the same day."
+      }
+    },
+    "sources": [
+      {
+        "title": "Cổ phiếu Ngân hàng BIDV giảm sàn, chứng khoán mất gần 18 điểm - Thanh Niên",
+        "url": "https://thanhnien.vn/co-phieu-ngan-hang-bidv-giam-san-chung-khoan-mat-gan-18-diem-185686374.htm"
+      },
+      {
+        "title": "BIDV và chiếc ghế trống của ông Trần Bắc Hà - VietNamNet",
+        "url": "https://vietnamnet.vn/bidv-va-chiec-ghe-trong-cua-ong-tran-bac-ha-389510.html"
+      },
+      {
+        "title": "Rumor of banker's arrest wipes $2bln off Vietnam stock market - VnExpress International",
+        "url": "https://e.vnexpress.net/news/business/markets/rumor-of-banker-s-arrest-wipes-2bln-off-vietnam-stock-market-3625578.html"
+      },
+      {
+        "title": "Trần Bắc Hà và những tin đồn 'đốt cháy' tỷ USD - VietNamNet",
+        "url": "https://vietnamnet.vn/tran-bac-ha-va-nhung-tin-don-dot-chay-ty-usd-389572.html"
+      }
+    ],
+    "verified": false,
+    "verifiedNote": "Rumor, same-day denial, BID limit-down and VN-Index -17.91 pts to 773.66 are confirmed by Thanh Nien, VietNamNet, VnExpress International and Tin Nhanh Chung Khoan. However, the exact BID closes rest on one source each: VND 21,900 on 8 Aug (VietNamNet; consistent with Thanh Nien's '-1,500 to 20,400') and VND 20,400 on 9 Aug (Thanh Nien, which misprints the move as -9.73%; the HOSE limit was 7%). No sourced post-rumor recovery price was found."
+  },
+  {
+    "id": "vn-tan-hoang-minh-bond-crash-2022",
+    "country": "vn",
+    "date": "2022-04-04",
+    "category": "stocks",
+    "title": {
+      "vi": "Hủy 9 lô trái phiếu Tân Hoàng Minh mở đầu cú sập VN-Index 2022",
+      "en": "Tan Hoang Minh Bond Cancellation Kicks Off Vietnam's 2022 Stock Crash"
+    },
+    "summary": {
+      "vi": "VN-Index rơi từ đỉnh 1.524,70 điểm (4/4/2022) xuống 1.182,77 điểm (13/5/2022) sau khi UBCKNN hủy 9 lô trái phiếu của Tân Hoàng Minh và chủ tịch tập đoàn bị bắt.",
+      "en": "The VN-Index fell from a 1,524.70 peak (4 Apr 2022) to 1,182.77 (13 May 2022) after regulators cancelled nine Tan Hoang Minh bond issues and arrested its chairman."
+    },
+    "description": {
+      "vi": "Phiên 4/4/2022, VN-Index đóng cửa ở 1.524,70 điểm, chỉ cách đỉnh lịch sử khoảng 4 điểm. Tối cùng ngày, Ủy ban Chứng khoán Nhà nước công bố hủy 9 đợt chào bán trái phiếu riêng lẻ trị giá 10.030 tỷ đồng (7/2021-3/2022) của ba công ty thuộc Tập đoàn Tân Hoàng Minh do công bố thông tin sai sự thật, che giấu thông tin. Ngày 5/4/2022, Bộ Công an khởi tố vụ án lừa đảo chiếm đoạt tài sản và bắt Chủ tịch Đỗ Anh Dũng. Cùng với vụ FLC (29/3) và vụ Louis Holdings (20/4), cú sốc niềm tin này khiến thị trường trái phiếu bất động sản gần như đóng băng và chứng khoán bán tháo: đến 13/5/2022, VN-Index chỉ còn 1.182,77 điểm, giảm khoảng 22% trong sáu tuần.",
+      "en": "On 4 April 2022 the VN-Index closed at 1,524.70, about four points from its all-time high. That evening the State Securities Commission announced it had cancelled nine private bond offerings worth VND 10,030 billion (July 2021-March 2022) by three Tan Hoang Minh Group companies for false and concealed disclosures. On 5 April 2022 the Ministry of Public Security opened a fraud case and arrested chairman Do Anh Dung. Together with the FLC case (29 March) and the Louis Holdings arrests (20 April), the confidence shock froze the property-bond market and triggered a stock sell-off: by 13 May 2022 the VN-Index was at 1,182.77, down about 22% in six weeks."
+    },
+    "opportunity": {
+      "asset": "VN-Index",
+      "action": {
+        "vi": "Chốt lời toàn bộ danh mục cổ phiếu, nhất là bất động sản, trong phiên 4/4/2022",
+        "en": "Take profit on the whole stock portfolio, especially property names, in the 4 April 2022 session"
+      },
+      "buyWhen": {
+        "vi": "Không mua ở vùng đỉnh 1.520-1.530 điểm đầu tháng 4/2022",
+        "en": "Don't buy at the 1,520-1,530 peak zone in early April 2022"
+      },
+      "sellWhen": {
+        "vi": "Phiên 4/4/2022, trước khi UBCKNN công bố hủy trái phiếu vào buổi tối",
+        "en": "The 4 April 2022 session, before the SSC announced the bond cancellation that evening"
+      },
+      "estimatedReturn": {
+        "vi": "Tránh mất khoảng 22% của chỉ số trong sáu tuần; nhiều cổ phiếu bất động sản, chứng khoán còn giảm sâu hơn",
+        "en": "Avoids a ~22% index drop in six weeks; many property and brokerage stocks fell much further"
+      },
+      "returnMultiple": 0.7757,
+      "entryPrice": 1524.7,
+      "exitPrice": 1182.77,
+      "priceCurrency": "points",
+      "exitDate": "2022-05-13",
+      "risk": "medium",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Người 'trọng sinh' biết đỉnh 1.524,70 điểm ngày 4/4/2022 sẽ là đỉnh của cả năm: sau cú rơi đến 13/5, VN-Index còn xuống dưới 1.000 điểm vào tháng 11/2022. Họ chốt lời trước tối 4/4 và chỉ quay lại khi thị trường đã thanh lọc xong.",
+      "en": "A reincarnated investor knows the 1,524.70 close on 4 April 2022 is the high of the year: after the slide to 13 May, the VN-Index went on to fall below 1,000 in November 2022. They take profit before the evening of 4 April and return only after the market has been flushed out."
+    },
+    "pitfalls": {
+      "vi": "Đợt giảm có nhiều nguyên nhân chồng lên nhau (FLC, Louis, Fed tăng lãi suất), không thể quy hết cho Tân Hoàng Minh. Bán khống chỉ khả thi qua hợp đồng tương lai VN30, đòi hỏi ký quỹ và rủi ro cao. Biết trước quyết định của cơ quan quản lý nhờ nguồn tin nội bộ mà giao dịch là phạm pháp.",
+      "en": "The slide had several overlapping causes (FLC, Louis, Fed rate hikes) and cannot be pinned on Tan Hoang Minh alone. Shorting is only practical through VN30 futures, which require margin and carry high risk. Trading on advance knowledge of a regulator's decision from inside sources is illegal."
+    },
+    "quiz": {
+      "question": {
+        "vi": "UBCKNN đã hủy tổng cộng bao nhiêu đợt chào bán trái phiếu của các công ty thuộc Tân Hoàng Minh?",
+        "en": "How many bond offerings by Tan Hoang Minh companies did the State Securities Commission cancel?"
+      },
+      "choices": [
+        {
+          "vi": "3 đợt",
+          "en": "3 offerings"
+        },
+        {
+          "vi": "5 đợt",
+          "en": "5 offerings"
+        },
+        {
+          "vi": "9 đợt",
+          "en": "9 offerings"
+        },
+        {
+          "vi": "12 đợt",
+          "en": "12 offerings"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "UBCKNN hủy 9 đợt chào bán trái phiếu riêng lẻ trị giá 10.030 tỷ đồng của ba công ty Ngôi Sao Việt, Cung Điện Mùa Đông và Soleil.",
+        "en": "The SSC cancelled nine private bond offerings worth VND 10,030 billion by three companies: Ngoi Sao Viet, Cung Dien Mua Dong (Winter Palace) and Soleil."
+      }
+    },
+    "sources": [
+      {
+        "title": "VN-Index climbs to near new peak - VnExpress International",
+        "url": "https://e.vnexpress.net/news/economy/vn-index-climbs-to-near-new-peak-4442572.html"
+      },
+      {
+        "title": "Hủy 9 đợt phát hành trái phiếu hơn 10.000 tỷ của Tân Hoàng Minh - VietNamNet",
+        "url": "https://vietnamnet.vn/huy-9-dot-phat-hanh-trai-phieu-hon-10000-ty-cua-tan-hoang-minh-827898.html"
+      },
+      {
+        "title": "Lạc quan thận trọng - Nhân Dân",
+        "url": "https://nhandan.vn/lac-quan-than-trong-post697546.html"
+      },
+      {
+        "title": "Khởi tố vụ án Lừa đảo chiếm đoạt tài sản xảy ra tại Tập đoàn Tân Hoàng Minh - Tạp chí Kinh tế Tài chính",
+        "url": "https://tapchikinhtetaichinh.vn/khoi-to-vu-an-lua-dao-chiem-doat-tai-san-xay-ra-tai-tap-doan-tan-hoang-minh-40906.html"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "VN-Index close of 1,524.70 on 4 Apr 2022 confirmed by VnExpress International, Bao Tin Tuc and Thoi bao Tai chinh; 1,182.77 on 13 May 2022 confirmed by Nhan Dan, Dan Viet and PGT Holdings. Bond cancellation (9 offerings, VND 10,030bn) announced evening of 4 Apr per VietNamNet/Bao Dau Tu; arrest on 5 Apr per Tap chi Kinh te Tai chinh and Vietstock. Causation is shared with the FLC and Louis cases."
+  },
+  {
+    "id": "vn-louis-holdings-tgg-manipulation-2021",
+    "country": "vn",
+    "date": "2021-02",
+    "category": "stocks",
+    "title": {
+      "vi": "Vụ Louis Holdings thổi giá TGG từ 1.800 lên 74.800 đồng",
+      "en": "Louis Holdings Pumps TGG from VND 1,800 to VND 74,800"
+    },
+    "summary": {
+      "vi": "Nhóm ông Đỗ Thành Nhân dùng nhiều tài khoản khớp lệnh chéo, đẩy cổ phiếu 'rác' TGG lên gấp hơn 40 lần trong bảy tháng rồi xả hàng, thu lợi bất chính hơn 153 tỷ đồng.",
+      "en": "Do Thanh Nhan's group used many accounts to cross-trade 'junk' stock TGG up more than 40-fold in seven months before dumping it, reaping over VND 153 billion in illegal profit."
+    },
+    "description": {
+      "vi": "Từ tháng 2 đến 6/2021, nhóm ông Đỗ Thành Nhân (Chủ tịch Louis Holdings) gom hơn 10 triệu cổ phiếu TGG của Công ty Xây dựng Trường Giang (sau đổi tên thành Louis Capital) ở khoảng 1.800 đồng/cổ phiếu, với nguồn vốn vay chủ yếu từ Công ty Quản lý tài sản Trí Việt. Với sự giúp sức của ông Đỗ Đức Nam (Tổng giám đốc Chứng khoán Trí Việt), nhóm này dùng các tài khoản đứng tên người thân, nhân viên để mua bán nội bộ, khớp lệnh chéo và tạo giá đóng cửa ATC, khiến TGG tăng trần liên tiếp và lập đỉnh 74.800 đồng ngày 22/9/2021 (BII cũng lập đỉnh 33.800 đồng ngày 18/9/2021). Đến 6/10/2021 nhóm xả hết hàng, thu lợi hơn 153 tỷ đồng. Ngày 20/4/2022, Bộ Công an khởi tố và bắt ông Nhân, ông Nam về tội thao túng thị trường chứng khoán; TGG sau đó rơi xuống đáy 2.300 đồng vào giữa tháng 11/2022.",
+      "en": "From February to June 2021, the group of Do Thanh Nhan (chairman of Louis Holdings) accumulated more than 10 million shares of TGG, Truong Giang Construction (later renamed Louis Capital), at around VND 1,800 each, funded mainly by loans from Tri Viet Asset Management. Helped by Do Duc Nam (CEO of Tri Viet Securities), the group used accounts held in the names of relatives and staff to trade internally, cross-match orders and set ATC closing prices, driving TGG through repeated limit-up sessions to a peak of VND 74,800 on 22 September 2021 (BII also peaked at VND 33,800 on 18 September 2021). By 6 October 2021 the group had sold out, making over VND 153 billion. On 20 April 2022 the Ministry of Public Security charged and arrested Nhan and Nam for stock-market manipulation; TGG later hit a low of VND 2,300 in mid-November 2022."
+    },
+    "opportunity": {
+      "asset": "Louis Capital (TGG)",
+      "action": {
+        "vi": "Mua TGG từ đầu năm 2021 và bán hết quanh đỉnh 22/9/2021, tuyệt đối không giữ qua tháng 10/2021",
+        "en": "Buy TGG in early 2021 and sell everything around the 22 September 2021 peak; never hold past October 2021"
+      },
+      "buyWhen": {
+        "vi": "Tháng 2/2021, khi TGG còn quanh 1.800 đồng/cổ phiếu",
+        "en": "February 2021, while TGG was still around VND 1,800 a share"
+      },
+      "sellWhen": {
+        "vi": "Quanh ngày 22/9/2021 khi TGG lập đỉnh 74.800 đồng, trước khi nhóm thao túng xả hàng xong vào 6/10/2021",
+        "en": "Around 22 September 2021 when TGG peaked at VND 74,800, before the manipulators finished dumping on 6 October 2021"
+      },
+      "estimatedReturn": {
+        "vi": "Lý thuyết khoảng 41 lần nếu mua đúng đáy và bán đúng đỉnh; người mua ở đỉnh mất hơn 95% đến tháng 11/2022",
+        "en": "About 41x in theory if bought at the bottom and sold at the top; buyers at the peak lost over 95% by November 2022"
+      },
+      "returnMultiple": 41.5556,
+      "entryPrice": 1800,
+      "exitPrice": 74800,
+      "priceCurrency": "VND",
+      "exitDate": "2021-09-22",
+      "risk": "high",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Người 'trọng sinh' biết cú tăng của TGG không dựa trên kinh doanh mà do nhóm ông Nhân tự mua tự bán. Họ có thể 'đi nhờ sóng' từ đầu năm nhưng phải thoát hàng quanh 22/9/2021 — chỉ hai tuần sau, nhóm thao túng đã bán sạch, và mọi đợt hồi sau đó đều là bẫy.",
+      "en": "A reincarnated investor knows TGG's rally was not driven by the business but by Nhan's group trading with itself. They could ride the wave from early 2021 but must get out around 22 September 2021 — two weeks later the manipulators had sold everything, and every later bounce was a trap."
+    },
+    "pitfalls": {
+      "vi": "Đây là sóng của cổ phiếu bị thao túng: thanh khoản ảo có thể biến mất trong một phiên, và người mua sau thường là người gánh lỗ. Tham gia giúp sức tạo cung cầu giả (cho mượn tài khoản, khớp lệnh chéo) là phạm tội thao túng theo Điều 211 Bộ luật Hình sự. Bán khống cổ phiếu ở Việt Nam gần như không khả thi, nên cách an toàn nhất là đứng ngoài.",
+      "en": "This was a manipulated-stock rally: fake liquidity can vanish in a single session, and late buyers are usually left holding the losses. Helping create fake supply and demand (lending accounts, cross-matching orders) is the crime of manipulation under Article 211 of the Penal Code. Short-selling stocks is practically unavailable in Vietnam, so the safest choice is to stay out."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Cổ phiếu TGG đã lập đỉnh ở mức giá nào trong đợt bị nhóm Louis Holdings thao túng?",
+        "en": "At what price did TGG peak during the Louis Holdings manipulation?"
+      },
+      "choices": [
+        {
+          "vi": "33.800 đồng",
+          "en": "VND 33,800"
+        },
+        {
+          "vi": "28.000 đồng",
+          "en": "VND 28,000"
+        },
+        {
+          "vi": "74.800 đồng",
+          "en": "VND 74,800"
+        },
+        {
+          "vi": "153.000 đồng",
+          "en": "VND 153,000"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "Theo cáo trạng, TGG lập đỉnh 74.800 đồng ngày 22/9/2021; 33.800 đồng là đỉnh của BII, còn hơn 153 tỷ đồng là số tiền thu lợi bất chính.",
+        "en": "Per the indictment, TGG peaked at VND 74,800 on 22 September 2021; VND 33,800 was BII's peak, and over VND 153 billion was the illegal profit."
+      }
+    },
+    "sources": [
+      {
+        "title": "Khởi tố vụ án \"Thao túng thị trường chứng khoán\" xảy ra tại Công ty CP Chứng khoán Trí Việt và Công ty CP Louis Holdings - Bộ Công an",
+        "url": "https://www.bocongan.gov.vn/bai-viet/khoi-to-vu-an-thao-tung-thi-truong-chung-khoan-xay-ra-tai-cong-ty-co-phan-chung-khoan-tri-viet-va-cong-ty-co-phan-louis-holdings-d22-t31561"
+      },
+      {
+        "title": "Xét xử nhóm bị cáo \"Thao túng thị trường chứng khoán\" - Kiểm sát",
+        "url": "https://kiemsat.vn/print/65528.html"
+      },
+      {
+        "title": "Xét xử cựu Chủ tịch Louis Holdings, nhóm cổ phiếu 'họ' Louis giờ ra sao? - Thanh Niên",
+        "url": "https://thanhnien.vn/xet-xu-cuu-chu-tich-louis-holdings-nhom-co-phieu-ho-louis-gio-ra-sao-185230410111435906.htm"
+      },
+      {
+        "title": "Nhờ đâu mà ông chủ Louis Holdings có thể thổi giá cổ phiếu rác gấp 37 lần? - Lao Động",
+        "url": "https://laodong.vn/phap-luat/nho-dau-ma-ong-chu-louis-holdings-co-the-thoi-gia-co-phieu-rac-gap-37-lan-1096375.ldo"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "Manipulation window (4 Jan-6 Oct 2021) and 20 Apr 2022 arrests from the Ministry of Public Security; VND 74,800 peak on 22 Sep 2021 confirmed by Kiem sat (indictment), Lao Dong, Thanh Nien and VnExpress International; ~VND 1,800 accumulation price confirmed by Thanh Nien, Bao Dau Tu and Bao Hai Phong (VnExpress cites ~VND 1,200 as the pre-rally low, Lao Dong calls the run '37x'). VND 2,300 Nov 2022 low from Thanh Nien only. Entry/exit are the indictment's buy price and peak, not achievable fills."
   }
 ]

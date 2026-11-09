@@ -2002,5 +2002,106 @@
     ],
     "verified": true,
     "verifiedNote": "All-time closing high of $169.06 (split-adjusted) on Nov 19, 2021 and subsequent ~85% decline confirmed via Nasdaq and Investing.com."
+  },
+  {
+    "id": "ca-sino-forest-muddy-waters-2011",
+    "country": "ca",
+    "date": "2011-06-02",
+    "category": "stocks",
+    "title": {
+      "vi": "Muddy Waters vạch trần Sino-Forest",
+      "en": "Muddy Waters Exposes Sino-Forest"
+    },
+    "summary": {
+      "vi": "Một báo cáo bán khống gọi Sino-Forest là 'mô hình Ponzi' đã kéo cổ phiếu từ 18,21 CAD xuống 1,99 CAD trong ba tuần.",
+      "en": "A short report calling Sino-Forest a 'Ponzi scheme' dragged the stock from C$18.21 to C$1.99 in three weeks."
+    },
+    "description": {
+      "vi": "Sino-Forest, công ty lâm nghiệp niêm yết ở Toronto với rừng trồng tại Trung Quốc, từng là công ty lâm nghiệp giá trị nhất sàn TSX và có quỹ của John Paulson là cổ đông lớn nhất. Ngày 2/6/2011, Muddy Waters của Carson Block, khi đang nắm vị thế bán khống, công bố báo cáo gọi Sino-Forest là 'gian lận gần như toàn bộ' và một mô hình Ponzi. Cổ phiếu đóng cửa ở 18,21 CAD ngày 1/6, giảm khoảng 21–24% ngày 2/6, mất thêm khoảng 64% ngày 3/6 và về 1,99 CAD vào ngày 21/6/2011. Paulson bán sạch cổ phần với khoản lỗ lớn. Năm 2017, Ủy ban Chứng khoán Ontario (OSC) kết luận Sino-Forest và các cựu lãnh đạo, gồm cựu CEO Allen Chan, đã gian lận.",
+      "en": "Sino-Forest, a Toronto-listed operator of Chinese timber plantations, had been the most valuable forestry company on the TSX, and John Paulson's hedge fund was its largest shareholder. On 2 June 2011, Carson Block's Muddy Waters, which was short the stock, published a report calling Sino-Forest a 'near total fraud' and a Ponzi scheme. The stock had closed at C$18.21 on 1 June. It fell about 21–24% on 2 June, lost roughly another 64% on 3 June, and was at C$1.99 by 21 June 2011. Paulson dumped his stake at a heavy loss. In 2017 the Ontario Securities Commission (OSC) found that Sino-Forest and former executives, including ex-CEO Allen Chan, had committed fraud."
+    },
+    "opportunity": {
+      "asset": "Sino-Forest Corporation (TSX: TRE)",
+      "action": {
+        "vi": "Thoát toàn bộ Sino-Forest trước ngày 2/6/2011 và tránh 'bắt đáy'",
+        "en": "Fully exit Sino-Forest before 2 June 2011 and don't try to catch the bottom"
+      },
+      "buyWhen": {
+        "vi": "Không mua — bán hết trước ngày 2/6/2011",
+        "en": "Don't buy — sell everything before 2 June 2011"
+      },
+      "sellWhen": {
+        "vi": "Trước ngày 2/6/2011, khi Muddy Waters tung báo cáo",
+        "en": "Before 2 June 2011, when Muddy Waters released its report"
+      },
+      "estimatedReturn": {
+        "vi": "Từ 18,21 CAD xuống 1,99 CAD là mất khoảng 89% trong ba tuần; người né được giữ nguyên vốn",
+        "en": "From C$18.21 to C$1.99 is a loss of about 89% in three weeks; anyone who dodged it kept their capital"
+      },
+      "returnMultiple": 0.1093,
+      "entryPrice": 18.21,
+      "exitPrice": 1.99,
+      "priceCurrency": "CAD",
+      "exitDate": "2011-06-21",
+      "risk": "high",
+      "capital": "medium"
+    },
+    "insiderTip": {
+      "vi": "Người trở về quá khứ biết rằng cáo buộc của Muddy Waters về cơ bản sẽ được cơ quan quản lý xác nhận. Vì vậy cú hồi kỹ thuật nào sau ngày 2/6/2011 cũng chỉ là cơ hội để thoát hàng, không phải để mua thêm.",
+      "en": "A reincarnated investor knows that Muddy Waters' core allegations will be upheld by the regulator, so any bounce after 2 June 2011 is a chance to get out, not to buy more."
+    },
+    "pitfalls": {
+      "vi": "Ngay cả nhà đầu tư nổi tiếng như John Paulson cũng mắc bẫy và bán ra với khoản lỗ lớn. Cổ phiếu Sino-Forest sau đó bị đình chỉ giao dịch, nên người 'bắt đáy' không còn lối thoát. Bán khống cổ phiếu vừa bị tấn công rất đắt đỏ và rủi ro, và không phải báo cáo bán khống nào cũng đúng.",
+      "en": "Even a famous investor like John Paulson fell into the trap and sold at a heavy loss. Sino-Forest's shares were later suspended from trading, leaving bottom-fishers with no way out. Shorting a stock right after an attack is expensive and risky, and not every short report turns out to be right."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Giá đóng cửa của Sino-Forest một ngày trước báo cáo Muddy Waters là bao nhiêu?",
+        "en": "What was Sino-Forest's closing price the day before the Muddy Waters report?"
+      },
+      "choices": [
+        {
+          "vi": "25,30 CAD",
+          "en": "C$25.30"
+        },
+        {
+          "vi": "18,21 CAD",
+          "en": "C$18.21"
+        },
+        {
+          "vi": "5,23 CAD",
+          "en": "C$5.23"
+        },
+        {
+          "vi": "1,99 CAD",
+          "en": "C$1.99"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Theo quyết định của OSC, cổ phiếu đóng cửa ở 18,21 CAD ngày 1/6/2011 và chỉ còn 1,99 CAD vào ngày 21/6/2011.",
+        "en": "According to the OSC decision, the stock closed at C$18.21 on 1 June 2011 and was down to C$1.99 by 21 June 2011."
+      }
+    },
+    "sources": [
+      {
+        "title": "Reasons and Decision: In the Matter of Sino-Forest Corporation et al. (2018) - Ontario Securities Commission",
+        "url": "https://www.osc.ca/sites/default/files/pdfs/proceedings/rad_20180709_sino-forest-2.pdf"
+      },
+      {
+        "title": "Reasons and Decision: In the Matter of Sino-Forest Corporation et al. (2017) - Capital Markets Tribunal",
+        "url": "https://www.capitalmarketstribunal.ca/sites/default/files/pdfs/proceedings/rad_20170713_sino-forest_0.pdf"
+      },
+      {
+        "title": "Sino-Forest Sinks After Denying Short Seller's Accusations - Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2011-06-03/sino-forest-denies-short-seller-s-claims-on-timber-holdings-as-shares-drop"
+      },
+      {
+        "title": "Short seller's report clobbers Sino-Forest - Fox Business (Reuters)",
+        "url": "https://www.foxbusiness.com/markets/short-sellers-report-clobbers-sino-forest"
+      }
+    ],
+    "verified": false,
+    "verifiedNote": "The C$18.21 (1 Jun 2011) close and the C$1.99 (21 Jun 2011) price come only from the OSC/Capital Markets Tribunal decisions, a single regulator. Bloomberg (a 64% fall to C$5.23 on 3 Jun) and Reuters/Fox Business (down 24%, then another 65% to a C$4.81 low) independently confirm the two-day collapse, but not the exact entry or exit prices."
   }
 ]

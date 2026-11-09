@@ -1998,5 +1998,207 @@
     ],
     "verified": true,
     "verifiedNote": "Confirmed Aug 5, 2024 12.4% Nikkei drop, the 4,451.28-point record loss, the 31,458.42 close, and the July 11 peak of 42,426.77 via Reuters/Yomiuri and corroborated by the BIS bulletin on the carry trade unwind."
+  },
+  {
+    "id": "jp-livedoor-horie-raid-2006",
+    "country": "jp",
+    "date": "2006-01-16",
+    "category": "stocks",
+    "title": {
+      "vi": "Cú đột kích Livedoor và cú sập của Takafumi Horie",
+      "en": "The Livedoor Raid and Takafumi Horie's Fall"
+    },
+    "summary": {
+      "vi": "Cổ phiếu Livedoor rơi từ 696 yên ngay trước cuộc khám xét ngày 16/1/2006 xuống 61 yên ngày 13/2/2006, mất hơn 91%.",
+      "en": "Livedoor fell from 696 yen just before prosecutors raided it on 16 January 2006 to 61 yen on 13 February 2006, a loss of over 91%."
+    },
+    "description": {
+      "vi": "Livedoor, công ty Internet niêm yết trên sàn Mothers của Sở Giao dịch Chứng khoán Tokyo do Takafumi Horie ('Horiemon') sáng lập, là biểu tượng của một 'Nhật Bản mới' nhờ hàng loạt thương vụ M&A và cuộc chiến thâu tóm Nippon Broadcasting năm 2005. Tối 16/1/2006, Viện Công tố Tokyo bất ngờ khám xét trụ sở Livedoor vì nghi vi phạm Luật Giao dịch Chứng khoán (công bố thông tin sai và làm đẹp sổ sách). Ngay trước cuộc khám xét, cổ phiếu ở mức 696 yên, vốn hóa khoảng 730 tỷ yên. Lệnh bán ồ ạt khiến cổ phiếu giảm sàn liên tục, hệ thống của Sở Tokyo quá tải và phải rút ngắn giờ giao dịch. Ngày 23/1, Horie bị bắt. Đến ngày 13/2, ngày ông bị truy tố, cổ phiếu đóng cửa ở 61 yên. Livedoor bị hủy niêm yết ngày 14/4/2006.",
+      "en": "Livedoor, an Internet company on the Tokyo Stock Exchange's Mothers market founded by Takafumi Horie ('Horiemon'), was a symbol of a 'new Japan' thanks to its string of acquisitions and its 2005 battle for Nippon Broadcasting. On the evening of 16 January 2006, Tokyo prosecutors raided Livedoor's headquarters on suspicion of violating the Securities and Exchange Law (spreading false information and window-dressing its accounts). Just before the raid the stock stood at 696 yen, for a market value of about 730 billion yen. A flood of sell orders sent it limit-down day after day, overloaded the TSE's systems and forced the exchange to shorten trading hours. Horie was arrested on 23 January. By 13 February, the day he was indicted, the stock closed at 61 yen. Livedoor was delisted on 14 April 2006."
+    },
+    "opportunity": {
+      "asset": "Livedoor Co. (TSE Mothers: 4753)",
+      "action": {
+        "vi": "Bán toàn bộ Livedoor trước tối 16/1/2006; tránh 'bắt đáy' trong suốt tháng sau đó",
+        "en": "Sell all Livedoor shares before the evening of 16 January 2006, and don't try to buy the dip in the month that follows"
+      },
+      "buyWhen": {
+        "vi": "Không mua. Bán ở quanh 696 yên trước khi tin khám xét lan ra",
+        "en": "Don't buy. Sell around 696 yen before news of the raid spreads"
+      },
+      "sellWhen": {
+        "vi": "Phiên 16/1/2006. Từ hôm sau cổ phiếu giảm sàn liên tục và gần như không khớp lệnh bán",
+        "en": "The 16 January 2006 session. From the next day the stock was limit-down repeatedly and sell orders barely filled"
+      },
+      "estimatedReturn": {
+        "vi": "Mất khoảng 91% trong chưa đầy một tháng (696 yên còn 61 yên)",
+        "en": "About 91% lost in under a month (696 yen to 61 yen)"
+      },
+      "returnMultiple": 0.0876,
+      "entryPrice": 696,
+      "exitPrice": 61,
+      "priceCurrency": "JPY",
+      "exitDate": "2006-02-13",
+      "risk": "high",
+      "capital": "low"
+    },
+    "insiderTip": {
+      "vi": "Người biết trước chỉ cần bán trước tối 16/1/2006. Đó cũng là ngày chỉ số Nikkei JASDAQ lập đỉnh, nên đây là tín hiệu thoát khỏi cả nhóm cổ phiếu mới nổi chứ không riêng Livedoor.",
+      "en": "A time traveler only needed to sell before the evening of 16 January 2006. That was also the day the Nikkei JASDAQ index peaked, so it was a signal to leave the whole start-up segment, not just Livedoor."
+    },
+    "pitfalls": {
+      "vi": "Sau cuộc khám xét, cổ phiếu giảm sàn nhiều phiên liền và chỉ một phần nhỏ lệnh bán được khớp, nên 'bán khi có tin' là không thực tế. Bán khống cổ phiếu Mothers cho nhà đầu tư cá nhân rất hạn chế. Nhiều người mua vào khi giá thủng mốc giá trị sổ sách 185 yên và tiếp tục mất tiền khi cổ phiếu bị hủy niêm yết.",
+      "en": "After the raid the stock was limit-down for several sessions and only a small share of sell orders filled, so 'selling on the news' wasn't realistic. Retail short-selling of Mothers stocks was very limited. Many people bought once the price dropped below the 185-yen book value per share and kept losing money as the stock headed for delisting."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Giá cổ phiếu Livedoor ngay trước cuộc khám xét ngày 16/1/2006 là bao nhiêu?",
+        "en": "What was Livedoor's share price just before the 16 January 2006 raid?"
+      },
+      "choices": [
+        {
+          "vi": "185 yên",
+          "en": "185 yen"
+        },
+        {
+          "vi": "696 yên",
+          "en": "696 yen"
+        },
+        {
+          "vi": "5.950 yên",
+          "en": "5,950 yen"
+        },
+        {
+          "vi": "61 yên",
+          "en": "61 yen"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "vi": "Japan Times và Network World đều ghi nhận mức 696 yên ngay trước cuộc khám xét. 61 yên là giá đóng cửa ngày 13/2/2006, ngày Horie bị truy tố.",
+        "en": "The Japan Times and Network World both put the price at 696 yen just before the raid. 61 yen was the close on 13 February 2006, the day Horie was indicted."
+      }
+    },
+    "sources": [
+      {
+        "title": "Livedoor stock keeps falling, hits 85 yen - The Japan Times",
+        "url": "https://www.japantimes.co.jp/news/2006/02/03/business/livedoor-stock-keeps-falling-hits-85-yen/"
+      },
+      {
+        "title": "Livedoor Horie's house begins to fall - Network World",
+        "url": "https://www.networkworld.com/article/844850/software-livedoor-horie-s-house-begins-to-fall.html"
+      },
+      {
+        "title": "Livedoor Shares Sink 33% in Tokyo - Los Angeles Times",
+        "url": "https://www.latimes.com/archives/la-xpm-2006-feb-14-fi-livedoor14-story.html"
+      },
+      {
+        "title": "Livedoor chief says firm could be sold - The Japan Times",
+        "url": "https://www.japantimes.co.jp/news/2006/02/14/business/livedoor-chief-says-firm-could-be-sold/"
+      }
+    ],
+    "verified": true,
+    "verifiedNote": "696-yen pre-raid price confirmed by the Japan Times (3 Feb 2006) and Network World; 61-yen close on 13 Feb 2006 confirmed by the LA Times (Reuters/Bloomberg), the Japan Times (14 Feb 2006) and the NYT. 14 Apr 2006 delisting from Wikipedia/NLI Research; 185-yen book value from the Japan Times (26 Jan 2006)."
+  },
+  {
+    "id": "jp-murakami-nbs-insider-trading-2005",
+    "country": "jp",
+    "date": "2005-02-08",
+    "category": "stocks",
+    "title": {
+      "vi": "Yoshiaki Murakami giao dịch nội gián cổ phiếu Nippon Broadcasting",
+      "en": "Yoshiaki Murakami's Insider Trading in Nippon Broadcasting"
+    },
+    "summary": {
+      "vi": "Quỹ Murakami mua 1.933.100 cổ phiếu NBS (giá vốn bình quân khoảng 5.148 yên) sau khi biết kế hoạch của Livedoor. Ngày 24/2/2005, NBS đóng cửa ở 6.280 yên.",
+      "en": "The Murakami Fund bought 1,933,100 NBS shares (average cost about 5,148 yen) after learning of Livedoor's plan. On 24 February 2005, NBS closed at 6,280 yen."
+    },
+    "description": {
+      "vi": "Ngày 8/11/2004, trong một cuộc họp với Livedoor, nhà đầu tư 'cổ đông hoạt động' Yoshiaki Murakami được cho biết Livedoor định mua một lượng lớn cổ phiếu Nippon Broadcasting System (NBS), đài phát thanh nắm giữ một tỷ lệ lớn cổ phần Fuji TV. Theo bản án, từ 9/11/2004 đến 26/1/2005, quỹ MAC Asset Management của ông mua thêm 1.933.100 cổ phiếu NBS với tổng giá 9,95 tỷ yên. Ngày 17/1/2005, Fuji TV chào mua công khai NBS ở giá 5.950 yên. Sáng 8/2/2005, Livedoor mua 29,6% NBS qua giao dịch ngoài giờ, nâng tỷ lệ sở hữu lên 35%, khởi đầu cuộc chiến thâu tóm. Ngày 24/2, NBS đóng cửa ở 6.280 yên, cao hơn giá chào mua của Fuji. Murakami thu lời khoảng 3 tỷ yên. Ông bị bắt ngày 5/6/2006, và năm 2007 Tòa án Quận Tokyo tuyên phạt hai năm tù cùng truy thu khoảng 1,2 tỷ yên. Năm 2009, Tòa Thượng thẩm Tokyo giữ tội danh nhưng cho hưởng án treo ba năm, và Tòa án Tối cao giữ nguyên phán quyết năm 2011.",
+      "en": "On 8 November 2004, at a meeting with Livedoor, activist investor Yoshiaki Murakami was told that Livedoor intended to buy a large block of Nippon Broadcasting System (NBS), the radio broadcaster that held a big stake in Fuji TV. According to the court judgment, between 9 November 2004 and 26 January 2005 his fund, MAC Asset Management, bought another 1,933,100 NBS shares for a total of 9.95 billion yen. On 17 January 2005 Fuji TV launched a tender offer for NBS at 5,950 yen. On the morning of 8 February 2005, Livedoor bought 29.6% of NBS in off-hours trading, taking its stake to 35% and starting the takeover battle. On 24 February, NBS closed at 6,280 yen, above Fuji's offer price. Murakami made a profit of about 3 billion yen. He was arrested on 5 June 2006, and in 2007 the Tokyo District Court sentenced him to two years in prison and ordered the forfeiture of about 1.2 billion yen. In 2009 the Tokyo High Court upheld the conviction but suspended the prison term for three years, and the Supreme Court upheld that ruling in 2011."
+    },
+    "opportunity": {
+      "asset": "Nippon Broadcasting System (NBS, TSE 2nd section)",
+      "action": {
+        "vi": "Mua NBS một cách hợp pháp, dựa trên thông tin công khai về cuộc chào mua của Fuji TV, rồi chốt lời khi cuộc chiến Livedoor–Fuji đẩy giá vượt mức chào mua",
+        "en": "Buy NBS legally, on the public information about Fuji TV's tender offer, then take profit as the Livedoor–Fuji battle pushes the price above the offer"
+      },
+      "buyWhen": {
+        "vi": "Sau khi Fuji TV công bố chào mua 5.950 yên ngày 17/1/2005 (thông tin công khai). Mức 5.148 yên là giá vốn bình quân của quỹ Murakami, chỉ dùng để tham chiếu",
+        "en": "After Fuji TV announced its 5,950-yen tender offer on 17 January 2005 (public information). 5,148 yen is the Murakami Fund's average cost, shown for reference only"
+      },
+      "sellWhen": {
+        "vi": "Cuối tháng 2/2005, khi NBS giao dịch trên giá chào mua (6.280 yên ngày 24/2/2005)",
+        "en": "Late February 2005, while NBS traded above the offer price (6,280 yen on 24 February 2005)"
+      },
+      "estimatedReturn": {
+        "vi": "Khoảng +22% từ giá vốn bình quân của quỹ Murakami đến 6.280 yên; khoảng +5,5% nếu mua hợp pháp ở giá chào mua 5.950 yên",
+        "en": "About +22% from the Murakami Fund's average cost to 6,280 yen; about +5.5% if bought legally at the 5,950-yen offer price"
+      },
+      "returnMultiple": 1.2199,
+      "entryPrice": 5148,
+      "exitPrice": 6280,
+      "priceCurrency": "JPY",
+      "exitDate": "2005-02-24",
+      "risk": "medium",
+      "capital": "high"
+    },
+    "insiderTip": {
+      "vi": "Người biết trước tương lai biết rằng Livedoor sẽ tấn công NBS ngày 8/2/2005 và sẽ có cuộc chiến giá với Fuji TV. Họ cũng biết người từng giao dịch dựa trên đúng thông tin này đã bị kết án. Lợi thế hợp pháp duy nhất là nhận ra rằng mức chào mua 5.950 yên công khai có thể bị vượt qua.",
+      "en": "A time traveler knows Livedoor will strike at NBS on 8 February 2005 and spark a bidding war with Fuji TV. They also know that the person who traded on exactly this information was convicted. The only legal edge is to recognise that the public 5,950-yen offer could be topped."
+    },
+    "pitfalls": {
+      "vi": "Đây là một bản án giao dịch nội gián: mua cổ phiếu dựa trên kế hoạch mua gom chưa công bố là phạm tội, kể cả khi bạn 'không tin' kế hoạch đó khả thi. Đó chính là lập luận bào chữa mà Murakami đã thua. Giá vốn 5.148 yên là kết quả tính từ bản án (9,95 tỷ yên chia cho 1.933.100 cổ phiếu), không phải một mức giá thị trường. Giá NBS phụ thuộc vào phán quyết của tòa về chứng quyền Fuji và thỏa thuận Livedoor–Fuji tháng 4/2005, nên có thể đảo chiều bất cứ lúc nào.",
+      "en": "This is an insider-trading conviction: buying on an undisclosed accumulation plan is a crime even if you 'didn't believe' the plan was feasible. That is exactly the defence Murakami lost on. The 5,148-yen cost is derived from the judgment (9.95 billion yen divided by 1,933,100 shares), not a market quote. NBS's price hinged on court rulings over Fuji's warrants and on the April 2005 Livedoor–Fuji settlement, so it could reverse at any time."
+    },
+    "quiz": {
+      "question": {
+        "vi": "Murakami biết kế hoạch mua gom cổ phiếu NBS của Livedoor trong cuộc họp ngày nào, theo công tố viên?",
+        "en": "According to prosecutors, at which meeting did Murakami learn of Livedoor's plan to buy NBS shares?"
+      },
+      "choices": [
+        {
+          "vi": "17/1/2005",
+          "en": "17 January 2005"
+        },
+        {
+          "vi": "8/2/2005",
+          "en": "8 February 2005"
+        },
+        {
+          "vi": "8/11/2004",
+          "en": "8 November 2004"
+        },
+        {
+          "vi": "5/6/2006",
+          "en": "5 June 2006"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "vi": "Theo công tố và các bản án, Murakami nghe kế hoạch của Livedoor tại cuộc họp ngày 8/11/2004 và mua thêm cổ phiếu NBS từ 9/11/2004 đến 26/1/2005.",
+        "en": "Per the prosecution and the judgments, Murakami heard Livedoor's plan at the 8 November 2004 meeting and bought more NBS shares from 9 November 2004 to 26 January 2005."
+      }
+    },
+    "sources": [
+      {
+        "title": "Japan Financier Murakami Jailed for Insider Trade - CNBC/Reuters",
+        "url": "https://www.cnbc.com/2007/07/18/japan-financier-murakami-jailed-for-insider-trade.html"
+      },
+      {
+        "title": "Fund manager sentenced to 2 years in jail for insider trading - Japan Press Weekly",
+        "url": "https://www.japan-press.co.jp/modules/news/?id=6038&pc_flag=ON"
+      },
+      {
+        "title": "Murakami Fund case, Tokyo High Court judgment of 3 Feb 2009 (English summary) - University of Tokyo",
+        "url": "https://www.securities.j.u-tokyo.ac.jp/hanrei/hanrei_english_ed/50_H210203_e_ed.pdf"
+      },
+      {
+        "title": "Allies moving to sell stakes in NBS to Fuji TV - The Japan Times",
+        "url": "https://www.japantimes.co.jp/news/2005/02/26/business/allies-moving-to-sell-stakes-in-nbs-to-fuji-tv/"
+      }
+    ],
+    "verified": false,
+    "verifiedNote": "Conviction, 8 Nov 2004 meeting, ~3bn-yen profit and ~1.2bn-yen forfeiture confirmed by CNBC/Reuters, Japan Press and the 2009 High Court judgment (which also records the 1,933,100 shares bought for 9,952,162,084 yen and the suspended sentence). Entry price 5,148 yen is derived from those court figures, not a quoted market price, and the 6,280-yen close on 24 Feb 2005 comes from a single source (Japan Times), so prices are not double-confirmed."
   }
 ]
