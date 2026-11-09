@@ -169,7 +169,7 @@ export default function AlmanacExplorer({
     <div className="space-y-8">
       <div className="space-y-2">
         <div className="text-xs font-semibold uppercase tracking-wider text-faint">{dict.countryLabel}</div>
-        <div className="no-scrollbar -mx-1 flex gap-2 overflow-x-auto px-1 pb-1">
+        <div className="flex flex-wrap gap-2">
           {countries.map((c) => (
             <button
               key={c.code}
