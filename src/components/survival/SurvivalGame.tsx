@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import { motion, AnimatePresence } from "motion/react";
 import { t, type Locale } from "@/lib/i18n";
@@ -20,9 +20,10 @@ import { generateReincarnationPassCard } from "@/lib/passCard";
 
 function AnimatedNumber({ value }: { value: number }) {
   const [display, setDisplay] = useState(value);
+  const startRef = useRef(display);
 
   useEffect(() => {
-    let start = display;
+    const start = startRef.current;
     const end = value;
     if (start === end) return;
     const duration = 650;
@@ -34,6 +35,7 @@ function AnimatedNumber({ value }: { value: number }) {
       const ease = 1 - Math.pow(1 - progress, 4);
       const current = Math.round(start + (end - start) * ease);
       setDisplay(current);
+      startRef.current = current;
       if (progress < 1) {
         requestAnimationFrame(frame);
       }
@@ -216,23 +218,26 @@ export default function SurvivalGame({
   };
 
   const currentRound = run.rounds[currentRoundIdx];
-  const finalRank = useMemo(() => getSurvivalRank(netWorth, run.initialCapital), [netWorth, run.initialCapital]);
+  const finalRank = getSurvivalRank(netWorth, run.initialCapital);
 
   // Generate Card Preview when entering game_over
   useEffect(() => {
-    if (phase === "game_over") {
-      generateReincarnationPassCard({
-        run,
-        results,
-        finalRank,
-        netWorth,
-        lang,
+    if (phase !== "game_over") return;
+    let active = true;
+    generateReincarnationPassCard({
+      run,
+      results,
+      finalRank,
+      netWorth,
+      lang,
+    })
+      .then((url) => {
+        if (active) setCardPreviewUrl(url);
       })
-        .then((url) => setCardPreviewUrl(url))
-        .catch(() => {});
-    } else {
-      setCardPreviewUrl(null);
-    }
+      .catch(() => {});
+    return () => {
+      active = false;
+    };
   }, [phase, run, results, finalRank, netWorth, lang]);
 
   return (
@@ -727,6 +732,7 @@ export default function SurvivalGame({
               <button
                 type="button"
                 onClick={() => {
+                  setCardPreviewUrl(null);
                   handleSpin();
                   setPhase("roulette");
                 }}
@@ -744,6 +750,7 @@ export default function SurvivalGame({
                   {lang === "vi" ? "Xem trước Thẻ Căn Cước Trọng Sinh:" : "Reincarnation Pass Preview:"}
                 </div>
                 <div className="mx-auto max-w-xs overflow-hidden rounded-2xl border-2 border-gold/40 bg-surface shadow-2xl shadow-gold/15 transition-all hover:scale-[1.02] hover:border-gold">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     src={cardPreviewUrl}
                     alt="Thẻ Căn Cước Trọng Sinh"
