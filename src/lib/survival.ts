@@ -64,7 +64,7 @@ export function generateSurvivalRun(
     (m) => m.country.toLowerCase() === country.code.toLowerCase()
   );
 
-  const years = countryMilestones.map((m) => yearOf(m.date)).filter((y) => y > 0);
+  const years = countryMilestones.map((m) => yearOf(m)).filter((y) => y > 0);
   const minCountryYear = years.length ? Math.min(...years) : 1980;
   const maxCountryYear = years.length ? Math.max(...years) : 2024;
 
@@ -72,7 +72,7 @@ export function generateSurvivalRun(
   if (startYear < minCountryYear) startYear = minCountryYear;
   if (startYear > maxCountryYear - 8) startYear = Math.max(minCountryYear, maxCountryYear - 12);
 
-  let pool = countryMilestones.filter((m) => yearOf(m.date) >= startYear);
+  let pool = countryMilestones.filter((m) => yearOf(m) >= startYear);
   if (pool.length < 5) {
     pool = countryMilestones;
     startYear = minCountryYear;
@@ -116,7 +116,7 @@ export function generateSurvivalRun(
       isTrap,
       rawMultiple: mult,
       cappedMultiple,
-      year: yearOf(m.date),
+      year: yearOf(m),
     };
   });
 

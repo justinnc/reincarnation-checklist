@@ -37,6 +37,35 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
         </div>
       </section>
 
+      {/* Minigame Survival Callout */}
+      <section className="rounded-3xl border border-gold/30 bg-gradient-to-r from-surface via-surface to-raised p-6 shadow-xl sm:p-8">
+        <div className="flex flex-col items-start justify-between gap-6 sm:flex-row sm:items-center">
+          <div className="space-y-2">
+            <div className="inline-flex items-center gap-1.5 rounded-full border border-gold/40 bg-gold/10 px-3 py-1 font-mono text-xs uppercase tracking-widest text-gold">
+              <span>🎲</span>
+              <span>{lang === "vi" ? "MINIGAME MỚI" : "NEW MINIGAME"}</span>
+            </div>
+            <h2 className="font-display text-2xl font-bold tracking-tight text-ink sm:text-3xl">
+              {lang === "vi"
+                ? "Thử Thách Sống Sót Kiếp Trọng Sinh"
+                : "Reincarnation Survival Challenge"}
+            </h2>
+            <p className="max-w-xl text-sm text-muted">
+              {lang === "vi"
+                ? "Bốc thăm ngẫu nhiên một kiếp sống với $1.000. Bạn phải vượt qua 5 ngã rẽ lịch sử: đâu là mỏ vàng để tất tay, đâu là cạm bẫy huỷ diệt tài sản?"
+                : "Roll a random life with $1,000. Can you navigate 5 historical turning points — knowing when to go all-in and when to dodge deadly crashes?"}
+            </p>
+          </div>
+          <Link
+            href={`/${lang}/survival`}
+            className="inline-flex shrink-0 items-center gap-2 rounded-full border border-gold bg-gold px-6 py-3.5 text-sm font-bold text-on-gold shadow-lg shadow-gold/20 transition hover:brightness-110"
+          >
+            <span>🎲</span>
+            <span>{lang === "vi" ? "Chơi thử ngay (60s) →" : "Play Run Now (60s) →"}</span>
+          </Link>
+        </div>
+      </section>
+
       {biggest.length > 0 && (
         <section>
           <div className="flex items-end justify-between gap-4">

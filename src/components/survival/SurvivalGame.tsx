@@ -3,7 +3,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
-import confetti from "canvas-confetti";
 import { motion, AnimatePresence } from "motion/react";
 import { t, type Locale } from "@/lib/i18n";
 import type { Country } from "@/lib/types";
@@ -110,15 +109,6 @@ export default function SurvivalGame({
     if (currentRoundIdx + 1 >= run.rounds.length) {
       // Game over!
       setPhase("game_over");
-      try {
-        confetti({
-          particleCount: 100,
-          spread: 70,
-          origin: { y: 0.6 },
-        });
-      } catch {
-        // Ignore if unsupported
-      }
     } else {
       setCurrentRoundIdx((prev) => prev + 1);
       setCurrentRoundResult(null);
