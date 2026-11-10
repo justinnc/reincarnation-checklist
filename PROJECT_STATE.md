@@ -60,19 +60,20 @@ ada7acb feat: Add Web Audio SFX, animated net worth counter, quick capital prese
 
 ## 3. Remaining Reincarnation Checklist
 
-### 🔴 P0 — Broken core loops (next sprint)
+### 🔴 P0 — Core loops (Audit & Verification)
 
-- [ ] **`/en/quiz` has no Start button** — audit found `hasStart: false`; EN users cannot play quiz. VI may work. Fix `src/components/Quiz.tsx` / `src/app/[lang]/quiz/page.tsx`.
-- [ ] **`/vi/simulator` does not load** — blank page (`hasGame: false`). Fix `src/components/cardgame/CardGameApp.tsx` mount/hydration.
-- [ ] **WhatIf Single Asset presets render empty** — `presets: []` in audit. Fix `src/components/whatif/SingleAssetSim.tsx` preset rendering.
+- [x] **`/en/quiz` Start button** — Verified live via headless browser: button renders properly (`Start →`), clicks through to questions seamlessly.
+- [x] **`/vi/simulator` load** — Verified live via headless browser: loads cleanly (`Bước vào trạm trọng sinh →`), round 1 interactive, no hydration issues.
+- [x] **WhatIf Single Asset presets** — Verified live: 4 presets render ($500, $2,000, $10,000, $50,000) and update calculations on click.
 
-### 🟡 Uncommitted work (implemented, awaiting review + commit)
+### 🟡 Recently Committed work
 
-- [ ] **NavLinks hamburger menu + mobile drawer** (`src/components/NavLinks.tsx`) — `md:hidden` hamburger button, fixed overlay drawer with icon+label links, closes on navigate. Tested: 390px drawer opens/closes with 7 links; desktop shows full nav, hamburger `display:none`. **Awaiting user review before commit.**
-- [ ] **Pass Card text overflow clamping** (`src/lib/passCard.ts`) — `measureText` + ellipsis truncation for country name (>580px), net worth (>520px), MRZ strings, timeline chips. Fixes user-reported "text tràn ra khỏi viền".
-- [ ] **Sprint 2 inflation mechanic** (`src/lib/survival.ts`, `survival.test.ts`, `src/components/survival/SurvivalGame.tsx`) — `inflationRate: 0.03` (3%/year game assumption, NOT historical CPI), `yearGap` per round, `inflationLoss` in `DecisionResult`, UI log `data-testid="inflation-log"` + disclaimer `data-testid="inflation-rule"`. Removed +15% dodge bonus and +2% skip bonus. 105/105 tests pass. **Not yet committed.**
+- [x] **NavLinks hamburger menu + mobile drawer** (`src/components/NavLinks.tsx`) — Committed in `e7a078a`.
+- [x] **Pass Card text overflow clamping** (`src/lib/passCard.ts`) — Committed in `e7a078a`.
+- [x] **Sprint 2 inflation mechanic** (`src/lib/survival.ts`, `survival.test.ts`, `src/components/survival/SurvivalGame.tsx`) — Committed in `e7a078a`.
+- [x] **SurvivalGame Lint Cleanups** — Resolved set-state-in-effect and refactor number animation ref in `47afdc5` (0 errors, 0 warnings).
 
-### 🟢 Roadmap (from 5-user review + C-level analysis)
+### 🟢 Roadmap (Next Sprints)
 
 - [ ] **Sprint 2 — Viral features:** Web Share 1-click (native share sheet), embed code (iframe/JS snippet) for pass card, CSV/JSON export for almanac & whatif results.
 - [ ] **Sprint 3 — Retention:** achievement system (5+ badges), localStorage save progress for survival, advanced mode with real historical CPI per country/year.
@@ -89,19 +90,12 @@ ada7acb feat: Add Web Audio SFX, animated net worth counter, quick capital prese
 
 | Severity | Bug | Location | Status |
 |----------|-----|----------|--------|
-| P0 | Quiz EN missing Start button | `src/components/Quiz.tsx` | Open |
-| P0 | Simulator VI blank page | `src/components/cardgame/CardGameApp.tsx` | Open |
-| P0 | WhatIf Single Asset presets empty | `src/components/whatif/SingleAssetSim.tsx` | Open |
 | P1 | Survival rule text `missing` on first load (SSR timing) | `SurvivalGame.tsx` `data-testid="inflation-rule"` | Open |
-| P2 | Pass Card text overflow on long values | `src/lib/passCard.ts` | **Fixed, uncommitted** |
+| P2 | Pass Card text overflow on long values | `src/lib/passCard.ts` | **Fixed & Committed** |
 
 ### Technical debt
 
-- **Lint: 3 errors + 2 warnings** — all pre-existing in `src/components/survival/SurvivalGame.tsx`:
-  - `react-hooks/set-state-in-effect` (×2): `setCardPreviewUrl` called directly in effect body (lines ~228, ~234)
-  - React Compiler memoization skips (×1 error)
-  - `@next/next/no-img-element` warning (×2)
-  - Not introduced by recent work; safe to fix in a dedicated cleanup pass.
+- **Lint:** Clean! 0 errors, 0 warnings across whole codebase (fixed in `47afdc5`).
 - **Node version workaround:** system Node is v22.5.1 (too old for Next 16). `NODE_OPTIONS='--experimental-require-module'` is hardcoded in `package.json` scripts `dev`/`build`/`test`. Do not remove without upgrading Node (nvm default is 22.5.1; `nvm use 24` works but is not default).
 - **Subagent delegation broken:** `delegate_task` fails with `Cannot resolve delegation provider 'anthropic': No Anthropic credentials found.` Available providers listed (openrouter, nous, zai, kimi-coding, minimax) but the tool exposes no provider parameter. **Do not rely on subagents until this is fixed.**
 - **vision_analyze quota blocked** (~158h cooldown observed) — workaround was haiku subagents, now also broken. Analyze screenshots by direct DOM inspection or ask user for text descriptions.
