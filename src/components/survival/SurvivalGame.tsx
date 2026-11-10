@@ -250,6 +250,11 @@ export default function SurvivalGame({
         </button>
       </div>
 
+      <p className="text-xs text-muted" data-testid="inflation-rule">
+        {lang === "vi"
+          ? "Luật arcade: chỉ lựa chọn Né chịu hao hụt sức mua giả định 3%/năm đến mốc tiếp theo. Cùng năm và vòng cuối: không trừ. Số dư là điểm vốn quy đổi của game, không phải số dư ngân hàng hay mô phỏng CPI lịch sử; các lựa chọn khác giữ luật cũ."
+          : "Arcade rule: only Skip incurs assumed 3% annual purchasing-power erosion until the next event. Same-year and final rounds: no deduction. Balance is a game capital score, not a bank balance or historical CPI simulation; other choices retain existing rules."}
+      </p>
       {/* Toast Notification */}
       <AnimatePresence>
         {toastMessage && (
@@ -513,8 +518,8 @@ export default function SurvivalGame({
                     </div>
                     <p className="mt-1 text-xs text-muted group-hover:text-ink">
                       {lang === "vi"
-                        ? "Đứng ngoài. Thưởng +15% nếu là bẫy, bỏ lỡ nếu là kèo thơm."
-                        : "Safe side. +15% if trap, zero gain if wave."}
+                        ? `Giữ tiền ${currentRound.yearGap ?? 0} năm đến mốc tiếp theo. Sức mua giảm theo lạm phát giả định 3%/năm; không có thưởng né bẫy.`
+                        : `Hold cash for ${currentRound.yearGap ?? 0} years until the next event. Purchasing power falls at an assumed 3%/year; no dodge bonus.`}
                     </p>
                   </div>
                   <div className="mt-3 font-mono text-xs font-semibold text-muted">
@@ -551,6 +556,12 @@ export default function SurvivalGame({
 
                 <p className="mt-2 text-sm text-ink">
                   {t(currentRoundResult.feedback, lang)}
+                  {currentRoundResult.decision === "skip" && (
+                    <span className="mt-2 block font-mono text-warning" data-testid="inflation-log">
+                      {currentRound.year} → {currentRound.year + (currentRound.yearGap ?? 0)}
+                      {" · "}{lang === "vi" ? "Giảm sức mua (game)" : "Purchasing-power loss (game)"}: −${currentRoundResult.inflationLoss.toLocaleString()}
+                    </span>
+                  )}
                 </p>
 
                 {/* Insider tip / Pitfalls from history */}
@@ -664,7 +675,8 @@ export default function SurvivalGame({
                       ? "All-in"
                       : res.decision === "cautious"
                       ? "25%"
-                      : "Skip"}
+                      : (lang === "vi" ? "Né" : "Skip")}
+                    {res.decision === "skip" && <span className="block text-warning">−${res.inflationLoss.toLocaleString()} {lang === "vi" ? "sức mua" : "purchasing power"}</span>}
                   </div>
                 </div>
               ))}

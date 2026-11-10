@@ -214,13 +214,16 @@ export async function generateReincarnationPassCard({
   ctx.font = "700 11px ui-monospace, monospace";
   ctx.fillText(lang === "vi" ? "ĐIỂM ĐÁP ĐẦU THAI" : "AWAKENING COORDINATES", profileX, topY + 20);
 
+  const countryName = `${run.country.flag} ${t(run.country.name, lang)}  (${run.country.code})`;
   ctx.fillStyle = "#ffffff";
   ctx.font = "800 24px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif";
-  ctx.fillText(
-    `${run.country.flag} ${t(run.country.name, lang)}  (${run.country.code})`,
-    profileX,
-    topY + 50
-  );
+  // Clamp country name to fit within profile area (max width ~580px from x=160)
+  const maxCountryWidth = 580;
+  const countryMetrics = ctx.measureText(countryName);
+  const displayCountryName = countryMetrics.width > maxCountryWidth
+    ? countryName.slice(0, Math.floor(countryName.length * maxCountryWidth / countryMetrics.width)) + "…"
+    : countryName;
+  ctx.fillText(displayCountryName, profileX, topY + 50);
 
   ctx.fillStyle = "#94a3b8";
   ctx.font = "500 14px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif";
@@ -333,7 +336,14 @@ export async function generateReincarnationPassCard({
 
   ctx.fillStyle = "#ffffff";
   ctx.font = "900 48px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif";
-  ctx.fillText(`$${netWorth.toLocaleString()}`, finBoxX + 28, finY + 95);
+  // Clamp net worth text to fit within financial box (max width ~520px from x=28)
+  const netWorthText = `$${netWorth.toLocaleString()}`;
+  const maxNetWorthWidth = 520;
+  const netWorthMetrics = ctx.measureText(netWorthText);
+  const displayNetWorth = netWorthMetrics.width > maxNetWorthWidth
+    ? netWorthText.slice(0, Math.floor(netWorthText.length * maxNetWorthWidth / netWorthMetrics.width)) + "…"
+    : netWorthText;
+  ctx.fillText(displayNetWorth, finBoxX + 28, finY + 95);
 
   ctx.fillStyle = "#64748b";
   ctx.font = "500 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif";
@@ -422,15 +432,18 @@ export async function generateReincarnationPassCard({
 
     ctx.fillStyle = r.isSuccess ? "#4ade80" : "#f87171";
     ctx.font = "800 15px -apple-system, sans-serif";
-    ctx.fillText(r.isSuccess ? "✓ THẮNG" : "✗ DÍNH", cx + cw / 2, cy + 46);
+    const statusText = r.isSuccess ? "✓ THẮNG" : "✗ DÍNH";
+    const maxStatusWidth = cw - 16;
+    const statusMetrics = ctx.measureText(statusText);
+    const displayStatus = statusMetrics.width > maxStatusWidth
+      ? statusText.slice(0, Math.floor(statusText.length * maxStatusWidth / statusMetrics.width)) + "…"
+      : statusText;
+    ctx.fillText(displayStatus, cx + cw / 2, cy + 46);
 
     ctx.fillStyle = "#94a3b8";
     ctx.font = "600 11px ui-monospace, monospace";
-    ctx.fillText(
-      r.decision === "all_in" ? "100%" : r.decision === "cautious" ? "25%" : "0%",
-      cx + cw / 2,
-      cy + 64
-    );
+    const decisionText = r.decision === "all_in" ? "100%" : r.decision === "cautious" ? "25%" : "0%";
+    ctx.fillText(decisionText, cx + cw / 2, cy + 64);
   });
 
   // ---------------------------------------------------------
@@ -488,21 +501,16 @@ export async function generateReincarnationPassCard({
     currX += lw + gap;
   }
 
-  // Machine readable MRZ string
-  ctx.textAlign = "center";
-  ctx.fillStyle = "#475569";
-  ctx.font = "600 11px ui-monospace, monospace";
-  ctx.letterSpacing = "2px";
-  ctx.fillText(
-    `P<${run.country.code}REINCARNATION<<${run.startYear}<<<<<<<<<<<<<<<<<<<<<<<`,
-    width / 2,
-    footY + 84
-  );
-  ctx.fillText(
-    `${cardSerial}<<<<<<NETWORTH<${netWorth}<<<<ROI<${roi}<<<<`,
-    width / 2,
-    footY + 104
-  );
+  // Machine readable MRZ string - truncate to fit
+  const mrz1 = `P<${run.country.code}REINCARNATION<<${run.startYear}<<<<<<<<<<<<<<<<<<<<<<<`;
+  const mrz2 = `${cardSerial}<<<<<<NETWORTH<${netWorth}<<<<ROI<${roi}<<<<`;
+  const maxMrzWidth = width - 140;
+  const mrz1Metrics = ctx.measureText(mrz1);
+  const mrz2Metrics = ctx.measureText(mrz2);
+  const displayMrz1 = mrz1Metrics.width > maxMrzWidth ? mrz1.slice(0, Math.floor(mrz1.length * maxMrzWidth / mrz1Metrics.width)) + "…" : mrz1;
+  const displayMrz2 = mrz2Metrics.width > maxMrzWidth ? mrz2.slice(0, Math.floor(mrz2.length * maxMrzWidth / mrz2Metrics.width)) + "…" : mrz2;
+  ctx.fillText(displayMrz1, width / 2, footY + 84);
+  ctx.fillText(displayMrz2, width / 2, footY + 104);
 
   // URL branding watermark
   ctx.fillStyle = "#eab308";

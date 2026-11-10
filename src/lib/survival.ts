@@ -9,6 +9,10 @@ export interface SurvivalRound {
   rawMultiple: number;
   cappedMultiple: number;
   year: number;
+  /** Assumed annual game rate, NOT historical CPI. */
+  inflationRate?: number;
+  /** Holding period until the next round; final round = 0. */
+  yearGap?: number;
 }
 
 export interface SurvivalRun {
@@ -31,6 +35,7 @@ export interface DecisionResult {
   headline: { en: string; vi: string };
   feedback: { en: string; vi: string };
   isSuccess: boolean;
+  inflationLoss: number;
 }
 
 export interface SurvivalRank {
@@ -117,6 +122,8 @@ export function generateSurvivalRun(
       rawMultiple: mult,
       cappedMultiple,
       year: yearOf(m),
+      inflationRate: 0.03,
+      yearGap: idx + 1 < pickedMilestones.length ? Math.max(0, yearOf(pickedMilestones[idx + 1]) - yearOf(m)) : 0,
     };
   });
 
@@ -197,34 +204,22 @@ export function calculateDecisionOutcome(
       };
     }
   } else {
-    // 'skip'
-    if (round.isTrap) {
-      // Brilliant dodge! Gains +15% from bottom fishing/cash advantage
-      multiplierEffect = 1.15;
-      newNetWorth = Math.round(prevNetWorth * multiplierEffect);
-      isSuccess = true;
-      headline = {
-        vi: "🛡️ THIÊN TÀI NÉ ĐỈNH! BẢO TOÀN VỐN & THƯỞNG +15%",
-        en: "🛡️ MASTER DODGE! PRESERVED CASH + 15% BONUS",
-      };
-      feedback = {
-        vi: `Khi cả thị trường đẫm máu, bạn đứng ngoài ung dung nhặt lại tài sản thanh lý với giá hời!`,
-        en: `While the crowd lost everything, you stood aside and scooped discounted bargains!`,
-      };
-    } else {
-      // Missed boat: +2% bank interest
-      multiplierEffect = 1.02;
-      newNetWorth = Math.round(prevNetWorth * multiplierEffect);
-      isSuccess = false;
-      headline = {
-        vi: "👀 BỎ LỠ CƠ HỘI ĐỔI ĐỜI!",
-        en: "👀 MISSED THE HISTORIC WAVE!",
-      };
-      feedback = {
-        vi: `Bạn đứng ngoài nhìn con sóng lịch sử trôi qua. Tài sản an toàn nhưng mất cơ hội nhân lớn.`,
-        en: `You watched from the sidelines. Safe capital, but a huge opportunity left on the table.`,
-      };
+    // Arcade rule only: purchasing-power equivalent, not a nominal bank debit.
+    const rate = round.inflationRate ?? 0.03;
+    const years = round.yearGap ?? 0;
+    if (!Number.isFinite(rate) || rate < 0 || !Number.isFinite(years) || years < 0) {
+      throw new RangeError("Invalid inflation assumptions");
     }
+    multiplierEffect = 1 / (1 + rate) ** years;
+    newNetWorth = Math.min(prevNetWorth, Math.max(0, Math.round(prevNetWorth * multiplierEffect)));
+    isSuccess = round.isTrap;
+    headline = round.isTrap
+      ? { vi: "🛡️ NÉ BẪY THÀNH CÔNG", en: "🛡️ TRAP AVOIDED" }
+      : { vi: "👀 BỎ LỠ CƠ HỘI", en: "👀 OPPORTUNITY MISSED" };
+    feedback = {
+      vi: `Giữ tiền ${years} năm; lạm phát giả định ${rate * 100}%/năm. Sức mua quy đổi giảm ${prevNetWorth - newNetWorth}. Đây là luật game, không phải CPI lịch sử hay khoản trừ tiền ngân hàng.`,
+      en: `Cash held for ${years} years; assumed inflation ${rate * 100}%/year. Purchasing-power equivalent falls by ${prevNetWorth - newNetWorth}. This is a game rule, not historical CPI or a bank debit.`,
+    };
   }
 
   return {
@@ -237,6 +232,7 @@ export function calculateDecisionOutcome(
     headline,
     feedback,
     isSuccess,
+    inflationLoss: decision === "skip" ? prevNetWorth - newNetWorth : 0,
   };
 }
 

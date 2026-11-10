@@ -72,7 +72,32 @@ describe("survival minigame mechanics", () => {
 
     const dodgeResult = calculateDecisionOutcome(trapRound, "skip", 1000);
     expect(dodgeResult.isSuccess).toBe(true);
-    expect(dodgeResult.newNetWorth).toBe(1150); // +15% safety premium
+    expect(dodgeResult.newNetWorth).toBe(1000); // No free bonus without elapsed years
+  });
+
+  it("applies assumed compounded erosion to Skip, without bonuses", () => {
+    const base = generateSurvivalRun("vn").rounds[0];
+    for (const isTrap of [true, false]) {
+      const round = { ...base, isTrap, inflationRate: 0.03, yearGap: 5 };
+      const result = calculateDecisionOutcome(round, "skip", 1000);
+      expect(result.newNetWorth).toBe(Math.round(1000 / 1.03 ** 5));
+      expect(result.inflationLoss).toBe(1000 - result.newNetWorth);
+      expect(result.isSuccess).toBe(isTrap);
+    }
+    for (const yearGap of [0, 1000]) {
+      const result = calculateDecisionOutcome({ ...base, yearGap, inflationRate: 0.03 }, "skip", 1000);
+      expect(result.newNetWorth).toBeGreaterThanOrEqual(0);
+      expect(result.newNetWorth).toBeLessThanOrEqual(1000);
+      if (yearGap === 0) expect(result.newNetWorth).toBe(1000);
+    }
+  });
+
+  it("assigns gaps to the next event, with no invented final holding period", () => {
+    const run = generateSurvivalRun("vn");
+    run.rounds.forEach((round, i) => {
+      expect(round.inflationRate).toBe(0.03);
+      expect(round.yearGap).toBe(i + 1 < run.rounds.length ? run.rounds[i + 1].year - round.year : 0);
+    });
   });
 
   it("computes correct ranks across wealth brackets", () => {
