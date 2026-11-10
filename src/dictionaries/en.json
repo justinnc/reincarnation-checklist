@@ -31,7 +31,7 @@
     "steps": [
       "Pick the year you are reborn in.",
       "Open a milestone: read the play, the insider tip and the traps.",
-      "Tick it to add it to your personal checklist.",
+      "Save it to your Cheat Sheet 🧿 — your personal buy/sell schedule.",
       "Prove you would survive the past in the quiz."
     ],
     "playQuiz": "Play the quiz"
@@ -74,7 +74,8 @@
       "macro": "Macro",
       "commodities": "Commodities"
     },
-    "drop": "Price fell — the play is to sell, short or avoid"
+    "drop": "Price fell — the play is to sell, short or avoid",
+    "verifiedMeaning": "At least two independent sources confirm the dates and prices. Returns are nominal and not audited."
   },
   "detail": {
     "back": "Back to timeline",
@@ -110,6 +111,13 @@
       "Lucky tourist",
       "Seasoned time traveller",
       "Prophet of the markets"
-    ]
+    ],
+    "missed": "What you missed",
+    "perfect": "Perfect run — nothing missed.",
+    "share": "Share result",
+    "shared": "Copied!",
+    "shareText": "I scored {score}/{total} on The Reincarnation Checklist quiz — “{rank}”. Would you survive the past?",
+    "saveMissed": "🧿 Save missed milestones to Cheat Sheet",
+    "savedMissed": "✓ Saved to Cheat Sheet"
   }
 }

@@ -8,10 +8,10 @@ import CharmView from "@/components/CharmView";
 
 const COPY = {
   vi: {
-    kicker: "Tờ giấy nhớ mang về quá khứ",
+    kicker: "Bùa bỏ túi mang về quá khứ",
     heading: "🧿 Bùa Trọng Sinh của bạn",
     intro:
-      "Danh sách các cột mốc mua – bán và các phốt sập hầm bạn đã đánh dấu. Xếp theo thứ tự thời gian để in ra 1 trang giấy bỏ túi hoặc chia sẻ.",
+      "Danh sách các mốc mua – bán và các phốt sập hầm bạn đã đánh dấu. Xếp theo thứ tự thời gian để in ra 1 trang giấy bỏ túi hoặc chia sẻ.",
   },
   en: {
     kicker: "Pocket Time-Travel Cheat Sheet",

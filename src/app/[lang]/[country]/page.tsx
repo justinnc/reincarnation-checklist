@@ -47,7 +47,7 @@ export default async function CountryPage({ params }: PageProps<"/[lang]/[countr
           <div className="text-6xl">{c.flag}</div>
           <h1 className="mt-3 font-display text-5xl font-extrabold leading-[1.1] tracking-tight sm:text-6xl">{t(c.name, lang)}</h1>
         </div>
-        <dl className="grid grid-cols-3 gap-4 rounded-2xl border border-line bg-surface p-4 font-mono tabular sm:gap-6 sm:p-5">
+        <dl className="grid min-w-0 grid-cols-3 gap-4 rounded-2xl border border-line bg-surface p-4 font-mono tabular sm:gap-6 sm:p-5">
           <div>
             <dt className="font-sans text-xs text-faint">{dict.timeline.count}</dt>
             <dd className="mt-1 text-xl font-semibold sm:text-2xl">{s.count}</dd>
@@ -60,7 +60,7 @@ export default async function CountryPage({ params }: PageProps<"/[lang]/[countr
           </div>
           <div>
             <dt className="font-sans text-xs text-faint">{dict.timeline.best}</dt>
-            <dd className="mt-1 text-xl font-semibold text-gain sm:text-2xl">
+            <dd className="mt-1 min-w-0 truncate text-xl font-semibold text-gain sm:text-2xl">
               {s.best?.opportunity.returnMultiple ? formatMultiple(s.best.opportunity.returnMultiple, lang) : "—"}
             </dd>
           </div>

@@ -2,19 +2,28 @@
 
 import { useMemo, useState } from "react";
 import { useRouter, useSearchParams, usePathname } from "next/navigation";
-import type { Locale } from "@/lib/i18n";
+import { defaultCountry, type Locale } from "@/lib/i18n";
 import { formatMoney, formatMultiple } from "@/lib/format";
-import { countries } from "@/lib/data";
+import { allCountries } from "@/lib/countries";
 import Link from "next/link";
 import { assetMaxYear, assetsForCountry, cashBaseline, computeWhatIf, PRE_BOUNDARY_NOTE } from "@/lib/whatif/engine";
 
 const PRESET_AMOUNTS_VND = [1_000_000, 10_000_000, 50_000_000, 100_000_000];
 const PRESET_AMOUNTS_USD = [100, 1_000, 10_000, 100_000];
+// Anything above this overflows formatMoney into "∞"; anything ≤ 0 or non-finite is noise from the URL.
+const MAX_AMOUNT = 1e15;
+const DEFAULT_AMOUNT_VND = 10_000_000;
+const DEFAULT_AMOUNT_USD = 1_000;
+const isValidAmount = (n: number) => Number.isFinite(n) && n > 0 && n <= MAX_AMOUNT;
+const parseAmount = (raw: string | null, fallback: number) => {
+  const n = Number(raw);
+  return isValidAmount(n) ? n : fallback;
+};
 
 const COPY = {
   vi: {
     countryLabel: "Quốc gia",
-    assetLabel: "Chọn một thứ để \"đầu tư\"",
+    assetLabel: "Chọn một thứ để “đầu tư”",
     universalHeading: "Đầu tư xuyên quốc gia (tính bằng USD)",
     localHeading: "Thị trường trong nước",
     noLocalNote: "Quốc gia này chưa có dữ liệu thị trường nội địa (lãi suất, chứng khoán riêng) — hiện chỉ có các tài sản đầu tư xuyên quốc gia dưới đây.",
@@ -54,11 +63,13 @@ export default function WhatIfCalculator({ lang }: { lang: Locale }) {
   const pathname = usePathname();
   const params = useSearchParams();
 
-  const [country, setCountry] = useState(params.get("country") || "vn");
+  const [country, setCountry] = useState(params.get("country") || defaultCountry(lang));
   const assets = useMemo(() => assetsForCountry(country), [country]);
   const [assetId, setAssetId] = useState(params.get("asset") || assets[0]?.id || "vn_gold");
-  const [year, setYear] = useState<number>(Number(params.get("year")) || 2010);
-  const [amount, setAmount] = useState<number>(Number(params.get("amount")) || 10_000_000);
+  const [year, setYear] = useState<number>(Math.trunc(Number(params.get("year"))) || 2010);
+  const [amount, setAmount] = useState<number>(() =>
+    parseAmount(params.get("amount"), assets[0]?.currency === "USD" ? DEFAULT_AMOUNT_USD : DEFAULT_AMOUNT_VND),
+  );
   const [customAmount, setCustomAmount] = useState("");
   const [copied, setCopied] = useState(false);
 
@@ -66,16 +77,11 @@ export default function WhatIfCalculator({ lang }: { lang: Locale }) {
   const maxYear = assetMaxYear(asset);
   const minYear = Math.max(asset.minYear, 1980);
   const presets = asset.currency === "USD" ? PRESET_AMOUNTS_USD : PRESET_AMOUNTS_VND;
+  // The URL/state year may be outside this asset's range; everything displayed and computed uses the clamped one.
+  const y = Math.min(Math.max(year, minYear), maxYear);
 
-  const result = useMemo(() => {
-    const y = Math.min(Math.max(year, minYear), maxYear);
-    return computeWhatIf(asset, y, amount);
-  }, [asset, year, amount, minYear, maxYear]);
-
-  const baseline = useMemo(() => {
-    const y = Math.min(Math.max(year, minYear), maxYear);
-    return cashBaseline(country, y, amount);
-  }, [country, year, amount, minYear, maxYear]);
+  const result = useMemo(() => computeWhatIf(asset, y, amount), [asset, y, amount]);
+  const baseline = useMemo(() => cashBaseline(country, y, amount), [country, y, amount]);
 
   const syncUrl = (next: { country?: string; asset?: string; year?: number; amount?: number }) => {
     const sp = new URLSearchParams({
@@ -86,9 +92,6 @@ export default function WhatIfCalculator({ lang }: { lang: Locale }) {
     });
     router.replace(`${pathname}?${sp.toString()}`, { scroll: false });
   };
-
-  const DEFAULT_AMOUNT_VND = 10_000_000;
-  const DEFAULT_AMOUNT_USD = 1_000;
 
   const pickCountry = (code: string) => {
     const newAssets = assetsForCountry(code);
@@ -143,9 +146,11 @@ export default function WhatIfCalculator({ lang }: { lang: Locale }) {
       <div className="rounded-3xl border border-line bg-surface p-6">
         <p className="text-sm font-semibold uppercase tracking-wider text-faint">{copy.countryLabel}</p>
         <div className="mt-3 flex flex-wrap gap-2">
-          {countries.map((c) => (
+          {allCountries.map((c) => (
             <button
               key={c.code}
+              type="button"
+              aria-pressed={country === c.code}
               onClick={() => pickCountry(c.code)}
               className={`rounded-full border px-3 py-1.5 text-sm ${
                 country === c.code ? "border-gold bg-gold font-semibold text-on-gold" : "border-line text-muted hover:border-line-strong"
@@ -175,6 +180,8 @@ export default function WhatIfCalculator({ lang }: { lang: Locale }) {
               {localAssets.map((a) => (
                 <button
                   key={a.id}
+                  type="button"
+                  aria-pressed={assetId === a.id}
                   onClick={() => pickAsset(a.id)}
                   className={`rounded-xl border px-3 py-2.5 text-left text-sm transition ${
                     assetId === a.id ? "border-gold bg-gold font-semibold text-on-gold" : "border-line text-muted hover:border-line-strong"
@@ -192,6 +199,8 @@ export default function WhatIfCalculator({ lang }: { lang: Locale }) {
           {universalAssets.map((a) => (
             <button
               key={a.id}
+              type="button"
+              aria-pressed={assetId === a.id}
               onClick={() => pickAsset(a.id)}
               className={`rounded-xl border px-3 py-2.5 text-left text-sm transition ${
                 assetId === a.id ? "border-gold bg-gold font-semibold text-on-gold" : "border-line text-muted hover:border-line-strong"
@@ -206,13 +215,14 @@ export default function WhatIfCalculator({ lang }: { lang: Locale }) {
         <div className="mt-5">
           <div className="flex items-center justify-between text-sm">
             <span className="font-semibold uppercase tracking-wider text-faint">{copy.yearLabel}</span>
-            <span className="font-mono text-lg font-bold text-gold">{year}</span>
+            <span className="font-mono text-lg font-bold text-gold">{y}</span>
           </div>
           <input
             type="range"
+            aria-label={copy.yearLabel}
             min={minYear}
             max={maxYear}
-            value={Math.min(Math.max(year, minYear), maxYear)}
+            value={y}
             onChange={(e) => {
               const y = Number(e.target.value);
               setYear(y);
@@ -234,6 +244,8 @@ export default function WhatIfCalculator({ lang }: { lang: Locale }) {
             {presets.map((p) => (
               <button
                 key={p}
+                type="button"
+                aria-pressed={amount === p && !customAmount}
                 onClick={() => {
                   setAmount(p);
                   setCustomAmount("");
@@ -248,12 +260,15 @@ export default function WhatIfCalculator({ lang }: { lang: Locale }) {
             ))}
             <input
               type="number"
+              min={1}
+              max={MAX_AMOUNT}
+              aria-label={copy.customAmount}
               placeholder={copy.customAmount}
               value={customAmount}
               onChange={(e) => {
                 setCustomAmount(e.target.value);
                 const v = Number(e.target.value);
-                if (v > 0) {
+                if (isValidAmount(v)) {
                   setAmount(v);
                   syncUrl({ amount: v });
                 }
@@ -266,13 +281,13 @@ export default function WhatIfCalculator({ lang }: { lang: Locale }) {
 
       <div className="rounded-3xl border border-gold/40 bg-gradient-to-br from-gold/10 to-transparent p-8 text-center">
         <p className="text-sm text-muted">
-          {asset.icon} {asset.label[lang]} · {year} → {result.endYear}
+          {asset.icon} {asset.label[lang]} · {y} → {result.endYear}
         </p>
         <p className="mt-3 font-display text-4xl font-extrabold text-gold sm:text-5xl">
           {formatMoney(result.finalValue, result.currency, lang)}
         </p>
         <p className="mt-1 text-muted">
-          {copy.multiplePrefix} {formatMultiple(result.multiple, lang)} {copy.resultPrefix}
+          {lang === "vi" && result.multiple < 1 ? "— còn" : copy.multiplePrefix} {formatMultiple(result.multiple, lang)} {copy.resultPrefix}
         </p>
         {baseline && asset.id !== `${country}_cash` && (
           <p className="mt-3 text-xs text-faint">

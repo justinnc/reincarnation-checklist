@@ -70,7 +70,7 @@ export default async function MilestonePage({ params }: PageProps<"/[lang]/[coun
             <time className="font-mono tabular text-gold">{formatDate(m.date, lang)}</time>
             <span className="text-muted">{tl.categories[m.category]}</span>
             {m.verified ? (
-              <span className="rounded-md border border-gain/40 px-2 py-0.5 text-xs text-gain">{tl.verified}</span>
+              <span title={tl.verifiedMeaning} className="rounded-md border border-gain/40 px-2 py-0.5 text-xs text-gain">{tl.verified}</span>
             ) : (
               <UnverifiedBadge label={tl.unverified} />
             )}
@@ -173,7 +173,8 @@ export default async function MilestonePage({ params }: PageProps<"/[lang]/[coun
                 </li>
               ))}
             </ul>
-            {m.verifiedNote && (
+            {/* verifiedNote is an English-only editorial fact-check note; not shown on VI pages. */}
+            {m.verifiedNote && lang === "en" && (
               <p className="mt-4 border-t border-line pt-3 text-xs text-faint">
                 {d.note}: {m.verifiedNote}
               </p>

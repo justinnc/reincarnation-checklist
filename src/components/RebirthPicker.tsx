@@ -3,13 +3,14 @@
 import Link from "next/link";
 import { useMemo, useState } from "react";
 import { AnimatePresence, motion, useReducedMotion } from "motion/react";
-import { t, type Locale } from "@/lib/i18n";
-import type { Country, Milestone } from "@/lib/types";
-import { formatDrop, formatMultiple } from "@/lib/format";
+import { defaultCountry, t, type Locale } from "@/lib/i18n";
+import type { Country, MilestoneLite } from "@/lib/types";
+import { formatDrop, formatMoney, formatMultiple } from "@/lib/format";
 import { addCharmIds } from "@/lib/charm";
+import { findOptimalNonOverlappingChain, getPlaybookCandidates, simulatePlaybook } from "@/lib/whatif/playbook";
 
 type Props = {
-  milestones: Milestone[];
+  milestones: MilestoneLite[];
   countries: Country[];
   lang: Locale;
   dict: { wakeUp: string; ahead: string; topAhead: string; seeAll: string };
@@ -21,7 +22,7 @@ const LOW_DATA_THRESHOLD = 15;
 
 export default function RebirthPicker({ milestones, countries, lang, dict, minYear, maxYear }: Props) {
   const [year, setYear] = useState(Math.max(minYear, 1995));
-  const [country, setCountry] = useState(() => (lang === "en" ? "us" : countries[0].code));
+  const [country, setCountry] = useState(() => defaultCountry(lang));
   const [tab, setTab] = useState<"gain" | "trap">("gain");
   const [savedToast, setSavedToast] = useState(false);
   const reduceMotion = useReducedMotion();
@@ -56,6 +57,16 @@ export default function RebirthPicker({ milestones, countries, lang, dict, minYe
 
   const activeList = (tab === "gain" ? gainsAhead : trapsAhead).slice(0, 3);
 
+  // Same "Realistic" chain the /whatif playbook opens with, so the headline number and the link agree.
+  const candidates = useMemo(() => getPlaybookCandidates(milestones.filter((m) => m.country === country)), [milestones, country]);
+  const stake = countries.find((c) => c.code === country)?.stake;
+  const chain = useMemo(() => {
+    if (!stake) return null;
+    const ids = findOptimalNonOverlappingChain(candidates, 5, { realisticOnly: true, fromYear: year });
+    const r = simulatePlaybook(candidates, ids, stake.amount, { realistic: true, stakeUnit: stake.amount });
+    return r.steps.length > 0 ? r : null;
+  }, [candidates, stake, year]);
+
   const handleSaveTop3 = () => {
     if (activeList.length === 0) return;
     addCharmIds(activeList.map((m) => m.id));
@@ -72,7 +83,7 @@ export default function RebirthPicker({ milestones, countries, lang, dict, minYe
       <div className="relative grid grid-cols-1 gap-10 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,1fr)]">
         <div className="min-w-0">
           <label className="relative inline-flex items-center">
-            <span className="sr-only">Country</span>
+            <span className="sr-only">{lang === "vi" ? "Quốc gia" : "Country"}</span>
             <select
               value={country}
               onChange={(e) => setCountry(e.target.value)}
@@ -134,9 +145,21 @@ export default function RebirthPicker({ milestones, countries, lang, dict, minYe
             <span className="font-mono text-3xl font-semibold tabular text-ink">{ahead.length}</span>{" "}
             <span className="text-muted">{dict.ahead}</span>{" "}
             <span className="text-xs text-faint">
-              ({gainsAhead.length} {lang === "vi" ? "cơ hội" : "gains"} · {trapsAhead.length} {lang === "vi" ? "cạm bẫy" : "traps"})
+              ({gainsAhead.length} {lang === "vi" ? "cơ hội" : "gains"} · {trapsAhead.length} {lang === "vi" ? "cạm bẫy" : "traps"}
+              {ahead.length - gainsAhead.length - trapsAhead.length > 0 &&
+                ` · ${ahead.length - gainsAhead.length - trapsAhead.length} ${lang === "vi" ? "bối cảnh" : "macro"}`}
+              )
             </span>
           </p>
+          {chain && stake && (
+            <p className="mt-3 text-sm text-muted">
+              {lang === "vi"
+                ? `Với ${formatMoney(stake.amount, stake.currency, lang)} và ${chain.steps.length} kèo thực tế nối nhau, đến ${chain.steps[chain.steps.length - 1].candidate.endYear} bạn có `
+                : `With ${formatMoney(stake.amount, stake.currency, lang)} and ${chain.steps.length} realistic ${chain.steps.length === 1 ? "trade" : "trades"} chained, by ${chain.steps[chain.steps.length - 1].candidate.endYear} you'd hold `}
+              <span className="font-mono text-lg font-semibold tabular text-gain">{formatMoney(chain.finalCapital, stake.currency, lang)}</span>{" "}
+              <span className="font-mono text-xs tabular text-faint">({formatMultiple(chain.totalMultiple, lang)})</span>
+            </p>
+          )}
           <div className="mt-4 flex flex-wrap gap-2.5">
             <Link
               href={`/${lang}/whatif?mode=playbook&country=${country}&from=${year}`}

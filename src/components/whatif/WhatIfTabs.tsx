@@ -3,14 +3,14 @@
 import { useState } from "react";
 import { useSearchParams } from "next/navigation";
 import type { Locale } from "@/lib/i18n";
-import type { Country, Milestone } from "@/lib/types";
+import type { Country, MilestoneLite } from "@/lib/types";
 import WhatIfCalculator from "./WhatIfCalculator";
 import PlaybookBuilder from "./PlaybookBuilder";
 
 type Props = {
   lang: Locale;
   countries: Country[];
-  milestones: Milestone[];
+  milestones: MilestoneLite[];
 };
 
 export default function WhatIfTabs({ lang, countries, milestones }: Props) {
@@ -27,6 +27,7 @@ export default function WhatIfTabs({ lang, countries, milestones }: Props) {
       <div className="inline-flex rounded-full border border-line bg-surface p-1">
         <button
           type="button"
+          aria-pressed={mode === "single"}
           onClick={() => setMode("single")}
           className={`rounded-full px-4 py-2 text-sm font-semibold transition-colors ${
             mode === "single" ? "bg-gold text-on-gold" : "text-muted hover:text-ink"
@@ -36,6 +37,7 @@ export default function WhatIfTabs({ lang, countries, milestones }: Props) {
         </button>
         <button
           type="button"
+          aria-pressed={mode === "playbook"}
           onClick={() => setMode("playbook")}
           className={`rounded-full px-4 py-2 text-sm font-semibold transition-colors ${
             mode === "playbook" ? "bg-gold text-on-gold" : "text-muted hover:text-ink"

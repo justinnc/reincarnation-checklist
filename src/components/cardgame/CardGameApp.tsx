@@ -120,7 +120,7 @@ export default function CardGameApp() {
       <div className="space-y-5">
         {challenge && (
           <div className="rounded-2xl border border-gold/60 bg-surface p-5 text-center space-y-2">
-            <div className="text-xs font-semibold uppercase tracking-wider text-gold">⚔️ Lời thách đấu Sổ Trọng Sinh</div>
+            <div className="text-xs font-semibold uppercase tracking-wider text-gold">⚔️ Lời thách đấu Sổ trọng sinh</div>
             <div className="font-display text-2xl font-extrabold text-gold">{fmtVnd(challenge.w)}</div>
             <div className="text-sm font-medium">
               🏅 {challenge.t} · ❤️ {challenge.h}/10
@@ -130,7 +130,7 @@ export default function CardGameApp() {
               onClick={() => start(challenge.seed)}
               className="mt-2 rounded-full bg-gold px-6 py-2 text-sm font-semibold text-on-gold hover:brightness-110"
             >
-              Chơi đúng đề này (Cùng Seed) →
+              Chơi đúng ván này (Cùng Seed) →
             </button>
           </div>
         )}
@@ -149,7 +149,7 @@ export default function CardGameApp() {
           </button>
           <div>
             <button onClick={() => start("daily")} className="mt-3 text-sm text-muted underline hover:text-gold">
-              Đề hôm nay
+              Ván hôm nay
             </button>
           </div>
         </div>
@@ -234,7 +234,7 @@ ${origin}/vi/simulator?s=${shareCode}`);
               Chơi lại
             </button>
             <button onClick={() => start("daily")} className="rounded-full border border-line-strong px-5 py-2 text-sm font-semibold text-muted hover:text-ink">
-              Đề hôm nay
+              Ván hôm nay
             </button>
           </div>
         </div>
@@ -289,7 +289,7 @@ ${origin}/vi/simulator?s=${shareCode}`);
       {node.kind === "event" && (
         <div className="rounded-2xl border border-line bg-raised p-6 text-center">
           <div className="text-3xl">{node.event.icon}</div>
-          <div className="mt-2 font-display font-semibold">{node.event.title}</div>
+          <div className="mt-2 font-display font-bold">{node.event.title}</div>
           <p className="mt-1 text-sm text-muted">{node.event.story}</p>
           <div className="mt-4 grid gap-2">
             {node.event.options.map((opt) => (

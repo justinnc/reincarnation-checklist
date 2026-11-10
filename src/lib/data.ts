@@ -1,4 +1,5 @@
-import type { Country, Milestone } from "./types";
+import type { Milestone, MilestoneLite } from "./types";
+import { allCountries } from "./countries";
 import us from "@/data/milestones/us.json";
 import vn from "@/data/milestones/vn.json";
 import cn from "@/data/milestones/cn.json";
@@ -19,27 +20,8 @@ const raw = [vn, us, cn, jp, de, inData, gb, fr, it, ca, br, kr, au, sg, th] as 
 
 export const allMilestones: Milestone[] = raw.flat().sort((a, b) => a.date.localeCompare(b.date));
 
-/** Ordered: Vietnam first, then the world's 10 largest economies by nominal GDP (IMF). */
-const allCountries: Country[] = [
-  { code: "vn", name: { vi: "Việt Nam", en: "Vietnam" }, flag: "🇻🇳", stake: { amount: 10_000_000, currency: "VND" } },
-  { code: "us", name: { vi: "Mỹ", en: "United States" }, flag: "🇺🇸", stake: { amount: 1_000, currency: "USD" } },
-  { code: "cn", name: { vi: "Trung Quốc", en: "China" }, flag: "🇨🇳", stake: { amount: 10_000, currency: "CNY" } },
-  { code: "de", name: { vi: "Đức", en: "Germany" }, flag: "🇩🇪", stake: { amount: 1_000, currency: "EUR" } },
-  { code: "jp", name: { vi: "Nhật Bản", en: "Japan" }, flag: "🇯🇵", stake: { amount: 100_000, currency: "JPY" } },
-  { code: "in", name: { vi: "Ấn Độ", en: "India" }, flag: "🇮🇳", stake: { amount: 100_000, currency: "INR" } },
-  { code: "gb", name: { vi: "Anh", en: "United Kingdom" }, flag: "🇬🇧", stake: { amount: 1_000, currency: "GBP" } },
-  { code: "fr", name: { vi: "Pháp", en: "France" }, flag: "🇫🇷", stake: { amount: 1_000, currency: "EUR" } },
-  { code: "it", name: { vi: "Ý", en: "Italy" }, flag: "🇮🇹", stake: { amount: 1_000, currency: "EUR" } },
-  { code: "ca", name: { vi: "Canada", en: "Canada" }, flag: "🇨🇦", stake: { amount: 1_000, currency: "CAD" } },
-  { code: "br", name: { vi: "Brazil", en: "Brazil" }, flag: "🇧🇷", stake: { amount: 5_000, currency: "BRL" } },
-  { code: "kr", name: { vi: "Hàn Quốc", en: "South Korea" }, flag: "🇰🇷", stake: { amount: 1_000_000, currency: "KRW" } },
-  { code: "au", name: { vi: "Úc", en: "Australia" }, flag: "🇦🇺", stake: { amount: 1_000, currency: "AUD" } },
-  { code: "sg", name: { vi: "Singapore", en: "Singapore" }, flag: "🇸🇬", stake: { amount: 1_000, currency: "SGD" } },
-  { code: "th", name: { vi: "Thái Lan", en: "Thailand" }, flag: "🇹🇭", stake: { amount: 30_000, currency: "THB" } },
-];
-
 /** Only countries that have data are shown. */
-export const countries: Country[] = allCountries.filter((c) => allMilestones.some((m) => m.country === c.code));
+export const countries = allCountries.filter((c) => allMilestones.some((m) => m.country === c.code));
 
 export const getCountry = (code: string) => countries.find((c) => c.code === code);
 
@@ -50,6 +32,24 @@ export const getMilestone = (country: string, id: string) =>
   allMilestones.find((m) => m.country === country && m.id === id);
 
 export const yearOf = (m: Milestone) => Number(m.date.slice(0, 4));
+
+/** Strip a milestone down to what client-side explorers need, so pages don't ship 2 MB of prose in the RSC payload. */
+export const toMilestoneLite = (m: Milestone): MilestoneLite => ({
+  id: m.id,
+  country: m.country,
+  date: m.date,
+  title: m.title,
+  verified: m.verified,
+  private: m.private,
+  opportunity: {
+    returnMultiple: m.opportunity.returnMultiple,
+    exitDate: m.opportunity.exitDate,
+    capital: m.opportunity.capital,
+    asset: m.opportunity.asset,
+  },
+});
+
+export const allMilestonesLite: MilestoneLite[] = allMilestones.map(toMilestoneLite);
 
 export function countryStats(country: string) {
   const list = getMilestones(country);

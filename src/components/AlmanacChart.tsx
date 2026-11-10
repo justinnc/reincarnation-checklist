@@ -34,21 +34,21 @@ export default function AlmanacChart({ item, lang }: { item: AlmanacItem; lang: 
               <div key={i} className="group relative flex w-9 shrink-0 flex-col items-center gap-2 sm:w-12">
                 <div className="relative h-32 w-3 overflow-hidden rounded-full bg-line sm:w-4">
                   <div
-                    className="absolute bottom-0 w-full rounded-full bg-gold transition-all group-hover:bg-gain"
+                    className="absolute bottom-0 w-full rounded-full bg-gold transition-colors group-hover:bg-gain"
                     style={{ height: `${barMax}%`, top: "auto" }}
                   />
                   {p.min != null && (
                     <div className="absolute w-full rounded-full bg-gold/40" style={{ bottom: `${barMin}%`, height: `${Math.max(2, barMax - barMin)}%` }} />
                   )}
                 </div>
-                <span className="font-mono text-[10px] tabular text-faint sm:text-xs">{label}</span>
+                <span className="font-mono text-xs tabular text-faint">{label}</span>
                 <div
                   className={`pointer-events-none absolute bottom-full z-10 mb-2 hidden max-w-[200px] rounded-md bg-ink px-2 py-1 text-xs font-medium text-bg group-hover:block ${edge}`}
                 >
                   <div className="whitespace-nowrap">
                     {p.min != null ? `${fmt(p.min, lang)}–${fmt(p.max!, lang)}` : fmt(v, lang)} {t(item.unit, lang)}
                   </div>
-                  {p.note && <div className="mt-0.5 whitespace-normal text-[10px] opacity-80">{p.note}</div>}
+                  {p.note && <div className="mt-0.5 whitespace-normal text-xs">{p.note}</div>}
                 </div>
               </div>
             );

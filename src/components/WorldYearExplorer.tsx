@@ -5,7 +5,7 @@ import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { motion, useReducedMotion } from "motion/react";
 import { t, type Locale } from "@/lib/i18n";
-import type { Country, Milestone } from "@/lib/types";
+import type { Country, MilestoneLite } from "@/lib/types";
 import { formatDate, formatDrop, formatMultiple } from "@/lib/format";
 
 const COPY = {
@@ -37,7 +37,7 @@ export default function WorldYearExplorer({
   countries,
   lang,
 }: {
-  milestones: Milestone[];
+  milestones: MilestoneLite[];
   countries: Country[];
   lang: Locale;
 }) {
@@ -89,7 +89,7 @@ export default function WorldYearExplorer({
   );
 
   const byCountry = useMemo(() => {
-    const groups = new Map<string, Milestone[]>();
+    const groups = new Map<string, MilestoneLite[]>();
     for (const m of inRange) {
       const list = groups.get(m.country) ?? [];
       list.push(m);
@@ -174,7 +174,7 @@ export default function WorldYearExplorer({
           className="grid gap-6 sm:grid-cols-2"
         >
           {byCountry.map(({ country, items }) => (
-            <div key={country.code} className="rounded-2xl border border-line bg-surface p-4 sm:p-5">
+            <div key={country.code} className="min-w-0 rounded-2xl border border-line bg-surface p-4 sm:p-5">
               <div className="flex items-center gap-2">
                 <span className="text-2xl">{country.flag}</span>
                 <span className="font-display text-lg font-bold">{t(country.name, lang)}</span>

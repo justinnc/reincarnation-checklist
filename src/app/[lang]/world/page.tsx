@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Suspense } from "react";
 import { notFound } from "next/navigation";
 import { hasLocale } from "@/lib/i18n";
-import { allMilestones, countries } from "@/lib/data";
+import { countries, allMilestonesLite } from "@/lib/data";
 import { localeAlternates, SITE_URL } from "@/lib/seo";
 import WorldYearExplorer from "@/components/WorldYearExplorer";
 
@@ -46,7 +46,7 @@ export default async function WorldPage({ params }: PageProps<"/[lang]/world">) 
         <p className="text-lg text-muted">{copy.intro}</p>
       </header>
       <Suspense>
-        <WorldYearExplorer milestones={allMilestones} countries={countries} lang={lang} />
+        <WorldYearExplorer milestones={allMilestonesLite} countries={countries} lang={lang} />
       </Suspense>
     </div>
   );

@@ -3,7 +3,7 @@
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
-import { t, type Locale, type LocalizedText } from "@/lib/i18n";
+import { defaultCountry, t, type Locale, type LocalizedText } from "@/lib/i18n";
 import { pointValue, pointYear, type AlmanacItem, type AlmanacPoint } from "@/lib/almanac";
 import { formatDate, formatDrop, formatMoney, formatMultiple } from "@/lib/format";
 import AlmanacChart from "./AlmanacChart";
@@ -33,11 +33,11 @@ const SLIDER_COPY = {
   vi: {
     sliderTitle: (c: string) => `🕰️ Cỗ Máy Thời Gian Vật Giá ${c}`,
     sliderSub: (stake: string, c: string) =>
-      `Kéo thanh trượt để xem sức mua của ${stake} và các cột mốc đầu tư tại ${c} ngay trong năm đó.`,
+      `Kéo thanh trượt để xem sức mua của ${stake} và các mốc đầu tư tại ${c} ngay trong năm đó.`,
     stakePower: (stake: string) => `Với ${stake} trong tay năm`,
     youCouldBuy: "sức mua tương đương:",
     priceInYear: "Giá năm",
-    milestonesInYear: (c: string) => `Cột mốc & Biến cố tại ${c} quanh năm`,
+    milestonesInYear: (c: string) => `Mốc & Biến cố tại ${c} quanh năm`,
     playbookFromYear: "⚡ Lập chuỗi lãi kép từ năm",
     seriesHeading: "Biểu đồ chi tiết từng mặt hàng qua các năm",
     noSnapshot: "Chưa có số liệu mua được cho năm này.",
@@ -106,8 +106,8 @@ export default function AlmanacExplorer({
   }, [search]);
   const initialCountry = useMemo(() => {
     const q = search.get("country");
-    return countries.find((c) => c.code === q)?.code ?? (countries.find((c) => c.code === "vn") ?? countries[0])?.code;
-  }, [search, countries]);
+    return countries.find((c) => c.code === q)?.code ?? (countries.find((c) => c.code === defaultCountry(lang)) ?? countries[0])?.code;
+  }, [search, countries, lang]);
 
   const [year, setYear] = useState<number>(initialYear);
   const [countryCode, setCountryCode] = useState(initialCountry);
@@ -182,7 +182,7 @@ export default function AlmanacExplorer({
             >
               <span className="mr-1.5">{c.flag}</span>
               {t(c.name, lang)}
-              <span className="ml-1.5 text-xs opacity-70">({milestoneCountByCountry.get(c.code) ?? 0})</span>
+              <span className="ml-1.5 text-xs font-normal">({milestoneCountByCountry.get(c.code) ?? 0})</span>
             </button>
           ))}
         </div>
@@ -229,12 +229,9 @@ export default function AlmanacExplorer({
           {snapshots.length === 0 && <p className="text-sm text-muted">{L.noSnapshot}</p>}
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
             {snapshots.map(({ item: it, price, exact, units }) => {
-              const formattedUnits =
-                units >= 100
-                  ? Math.round(units).toLocaleString(numLocale)
-                  : units >= 1
-                    ? units.toFixed(1)
-                    : units.toFixed(2);
+              const formattedUnits = new Intl.NumberFormat(numLocale, {
+                maximumFractionDigits: units >= 100 ? 0 : units >= 1 ? 1 : 2,
+              }).format(units);
               return (
                 <button
                   key={it.id}
@@ -248,11 +245,11 @@ export default function AlmanacExplorer({
                 >
                   <div className="flex items-center justify-between text-xs text-muted">
                     <span className="font-medium">{t(it.name, lang)}</span>
-                    <span className="font-mono text-[11px] text-faint">
+                    <span className="font-mono text-xs text-faint">
                       {exact ? year : `~${year}`}
                     </span>
                   </div>
-                  <div className="mt-1.5 font-mono text-xl font-extrabold text-gold tabular">
+                  <div className="mt-1.5 font-mono text-xl font-bold text-gold tabular">
                     {formattedUnits} <span className="text-xs font-normal text-muted">× {t(it.unit, lang)}</span>
                   </div>
                   <div className="mt-1 font-mono text-xs text-faint tabular">
@@ -282,7 +279,7 @@ export default function AlmanacExplorer({
                 <Link
                   key={m.id}
                   href={`/${lang}/${m.country}/${m.id}`}
-                  className="flex items-center justify-between gap-3 rounded-xl border border-line bg-raised p-3 hover:border-gold transition-colors"
+                  className="flex min-w-0 items-center justify-between gap-3 rounded-xl border border-line bg-raised p-3 hover:border-gold transition-colors"
                 >
                   <div className="min-w-0">
                     <div className="font-mono text-xs text-gold">{formatDate(m.date, lang)}</div>
@@ -306,12 +303,12 @@ export default function AlmanacExplorer({
 
       <div className="space-y-4">
         <h3 className="font-display text-xl font-bold">{L.seriesHeading}</h3>
-        <label className="relative inline-flex items-center">
+        <label className="relative inline-flex w-full max-w-full items-center sm:w-auto">
           <span className="sr-only">{dict.selectLabel}</span>
           <select
             value={item.id}
             onChange={(e) => setId(e.target.value)}
-            className="appearance-none rounded-full border border-line-strong bg-raised py-2.5 pl-4 pr-10 text-base font-medium text-ink hover:border-gold focus:border-gold focus:outline-none"
+            className="w-full appearance-none rounded-full border border-line-strong bg-raised py-2.5 pl-4 pr-10 text-base font-medium text-ink hover:border-gold focus:border-gold focus:outline-none"
           >
             {items.map((i) => (
               <option key={i.id} value={i.id}>

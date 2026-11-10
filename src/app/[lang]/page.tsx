@@ -2,7 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { hasLocale, t } from "@/lib/i18n";
 import { getDictionary } from "@/lib/dictionaries";
-import { allMilestones, countries, countryStats, getCountry, yearOf } from "@/lib/data";
+import { allMilestones, countries, countryStats, getCountry, yearOf, allMilestonesLite } from "@/lib/data";
 import { formatMoney, formatMultiple } from "@/lib/format";
 import RebirthPicker from "@/components/RebirthPicker";
 import { Reveal } from "@/components/Reveal";
@@ -27,7 +27,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
         </div>
         <div className="animate-fade-up animate-fade-up-3">
           <RebirthPicker
-            milestones={allMilestones}
+            milestones={allMilestonesLite}
             countries={countries}
             lang={lang}
             dict={dict.home}
@@ -88,7 +88,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
               <Reveal key={c.code} index={i}>
                 <Link
                   href={`/${lang}/${c.code}`}
-                  className="group block rounded-2xl border border-line bg-surface p-6 transition-all duration-200 hover:-translate-y-1 hover:border-gold hover:shadow-[0_8px_30px_-12px_rgba(244,183,64,0.35)]"
+                  className="group block rounded-2xl border border-line bg-surface p-6 transition-all duration-200 hover:-translate-y-1 hover:border-gold"
                 >
                   <div className="flex items-start justify-between">
                     <span className="text-4xl transition-transform duration-200 group-hover:scale-110">{c.flag}</span>

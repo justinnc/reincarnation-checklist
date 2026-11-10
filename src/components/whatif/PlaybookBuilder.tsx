@@ -3,8 +3,8 @@
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
-import { t, type Locale } from "@/lib/i18n";
-import type { Country, Milestone } from "@/lib/types";
+import { t, type Locale, defaultCountry } from "@/lib/i18n";
+import type { Country, MilestoneLite } from "@/lib/types";
 import { formatMoney, formatMultiple } from "@/lib/format";
 import {
   findOptimalChainIncluding,
@@ -16,7 +16,7 @@ import {
 type Props = {
   lang: Locale;
   countries: Country[];
-  milestones: Milestone[];
+  milestones: MilestoneLite[];
 };
 
 const LABELS = {
@@ -25,14 +25,14 @@ const LABELS = {
     capital: "2. Vốn khởi đầu & Chế độ thanh khoản",
     realisticOn: "🛡️ Thực tế (Chỉ tài sản đại chúng, có trần thanh khoản)",
     realisticOff: "🚀 Tối đa lý thuyết (Mọi kèo, không trần thanh khoản)",
-    pickTitle: "3. Chọn các cột mốc nối tiếp nhau",
+    pickTitle: "3. Chọn các mốc nối tiếp nhau",
     pickSub: "Tích chọn nhiều mốc để lãi kép nối tiếp từ thương vụ này sang thương vụ khác.",
     autoOptimal: "⚡ Tự chọn chuỗi tối ưu (không trùng tháng)",
     clearAll: "Bỏ chọn hết",
     ledgerTitle: "Lộ trình Lãi Kép Trọng Sinh",
-    emptyLedger: "Hãy tích chọn ít nhất 1 cột mốc bên dưới (hoặc bấm nút Tự chọn chuỗi tối ưu).",
+    emptyLedger: "Hãy tích chọn ít nhất 1 mốc bên dưới (hoặc bấm nút Tự chọn chuỗi tối ưu).",
     overlapWarn:
-      "⚠️ Có cột mốc trùng khoảng thời gian nắm giữ (theo tháng) với bước trước. Trong thực tế bạn phải thoát sớm hoặc chia nhỏ vốn.",
+      "⚠️ Có mốc trùng khoảng thời gian nắm giữ (theo tháng) với bước trước. Trong thực tế bạn phải thoát sớm hoặc chia nhỏ vốn.",
     capWarn:
       "🛡️ Một số bước đã được áp trần thanh khoản (phần vốn vượt trần giữ nguyên tiền mặt) để tránh con số ảo vượt quy mô thị trường.",
     overlapStep: "⚠️ Trùng thời gian với bước trước",
@@ -40,7 +40,7 @@ const LABELS = {
     speculativeBadge: "Đầu cơ / Angel hẹp",
     initial: "Vốn ban đầu",
     final: "Tổng tài sản cuối",
-    totalMult: "Hệ số nhân gộp",
+    totalMult: "Số lần nhân vốn",
     copyLink: "🔗 Sao chép link chuỗi này",
     copied: "✓ Đã sao chép link!",
     unverified: "Chưa kiểm chứng đủ 2 nguồn",
@@ -86,7 +86,7 @@ export default function PlaybookBuilder({ lang, countries, milestones }: Props) 
   const initialCountryCode = useMemo(() => {
     const q = search.get("country");
     if (q && countries.some((c) => c.code === q)) return q;
-    return lang === "vi" ? "vn" : "us";
+    return defaultCountry(lang);
   }, [search, countries, lang]);
 
   const [countryCode, setCountryCode] = useState<string>(initialCountryCode);
@@ -199,6 +199,7 @@ export default function PlaybookBuilder({ lang, countries, milestones }: Props) 
                 <button
                   key={c.code}
                   type="button"
+                  aria-pressed={active}
                   onClick={() => switchCountry(c.code)}
                   className={`rounded-full border px-3 py-1.5 text-sm font-medium transition-colors ${
                     active
@@ -207,7 +208,7 @@ export default function PlaybookBuilder({ lang, countries, milestones }: Props) 
                   }`}
                 >
                   {c.flag} {t(c.name, lang)}
-                  <span className="ml-1 text-xs opacity-70">({milestoneCountByCountry.get(c.code) ?? 0})</span>
+                  <span className="ml-1 text-xs font-normal">({milestoneCountByCountry.get(c.code) ?? 0})</span>
                 </button>
               );
             })}
@@ -293,7 +294,7 @@ export default function PlaybookBuilder({ lang, countries, milestones }: Props) 
               </div>
               <div>
                 <div className="text-xs text-faint">{L.final}</div>
-                <div className="mt-0.5 font-mono text-2xl font-extrabold tabular text-gold">
+                <div className="mt-0.5 font-mono text-2xl font-bold tabular text-gold">
                   {formatMoney(result.finalCapital, country.stake.currency, lang)}
                 </div>
               </div>
@@ -422,12 +423,12 @@ export default function PlaybookBuilder({ lang, countries, milestones }: Props) 
                         <span className="font-mono text-faint">· {t(c.milestone.opportunity.asset, lang)}</span>
                       )}
                       {c.speculative && (
-                        <span className="rounded border border-warning/40 px-1.5 py-0.2 text-[10px] text-warning">
+                        <span className="rounded border border-warning/40 px-1.5 py-0.2 text-xs text-warning">
                           {L.speculativeBadge}
                         </span>
                       )}
                       {!c.milestone.verified && (
-                        <span className="rounded border border-danger/40 px-1.5 py-0.2 text-[10px] text-danger">
+                        <span className="rounded border border-danger/40 px-1.5 py-0.2 text-xs text-danger">
                           {L.unverified}
                         </span>
                       )}

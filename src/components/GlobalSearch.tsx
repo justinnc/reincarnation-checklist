@@ -10,11 +10,11 @@ import { formatDate, formatDrop, formatMultiple } from "@/lib/format";
 
 const COPY = {
   vi: {
-    placeholder: "Tìm theo sự kiện, tài sản, từ khoá… (vd: ngân hàng, miền Bắc, 1997)",
-    hint: "Tìm xuyên suốt tất cả 15 quốc gia và 328 mốc lịch sử — khớp tiêu đề, mô tả, mẹo người tương lai và cạm bẫy.",
+    placeholder: "Tìm theo sự kiện, tài sản, từ khóa… (vd: ngân hàng, miền Bắc, 1997)",
+    hint: "Tìm xuyên suốt tất cả 15 quốc gia và 328 mốc lịch sử — khớp tiêu đề, mô tả, mẹo người biết trước và cạm bẫy.",
     results: (n: number) => `${n} kết quả`,
-    empty: "Chưa gõ gì — hãy thử một từ khoá.",
-    noMatch: "Không tìm thấy mốc nào khớp. Thử từ khoá khác hoặc ngắn hơn.",
+    empty: "Chưa gõ gì — hãy thử một từ khóa.",
+    noMatch: "Không tìm thấy mốc nào khớp. Thử từ khóa khác hoặc ngắn hơn.",
   },
   en: {
     placeholder: "Search events, assets, keywords… (e.g. banking, embargo, 1997)",

@@ -10,19 +10,19 @@ const COPY = {
     sections: [
       {
         h: "Không phải lời khuyên đầu tư",
-        p: "Toàn bộ nội dung trên The Reincarnation Checklist — các mốc lịch sử, số liệu lợi nhuận, 'Giả lập trọng sinh', 'Bảng giá theo năm' — mang tính giải trí và giáo dục lịch sử tài chính. Đây không phải khuyến nghị mua, bán hay nắm giữ bất kỳ cổ phiếu, tiền mã hoá, vàng, bất động sản hay tài sản nào, và không cấu thành dịch vụ tư vấn đầu tư theo Luật Chứng khoán 2019. Chúng tôi không có giấy phép tư vấn đầu tư chứng khoán. Quyết định đầu tư của bạn là trách nhiệm của riêng bạn; hãy tham khảo chuyên gia tài chính được cấp phép trước khi ra quyết định.",
+        p: "Toàn bộ nội dung trên The Reincarnation Checklist — các mốc lịch sử, số liệu lợi nhuận, 'Sổ trọng sinh', 'Bảng giá theo năm' — mang tính giải trí và giáo dục lịch sử tài chính. Đây không phải khuyến nghị mua, bán hay nắm giữ bất kỳ cổ phiếu, tiền mã hóa, vàng, bất động sản hay tài sản nào, và không cấu thành dịch vụ tư vấn đầu tư theo Luật Chứng khoán 2019. Chúng tôi không có giấy phép tư vấn đầu tư chứng khoán. Quyết định đầu tư của bạn là trách nhiệm của riêng bạn; hãy tham khảo chuyên gia tài chính được cấp phép trước khi ra quyết định.",
       },
       {
         h: "Số liệu lịch sử, không đảm bảo tương lai",
         p: "'Lợi nhuận quá khứ không đảm bảo kết quả tương lai.' Các con số về lợi nhuận, giá mua/bán trong quá khứ được tổng hợp từ nguồn công khai tại thời điểm nghiên cứu và có thể đã lỗi thời, làm tròn, hoặc dựa trên cách tính khác với cách bạn tính. Một số mốc được đánh dấu 'Chưa kiểm chứng' nghĩa là số liệu chưa được đối chiếu với nguồn gốc chính thức.",
       },
       {
-        h: "Tiền mã hoá",
-        p: "Tại Việt Nam, tiền mã hoá chưa được công nhận là phương tiện thanh toán hợp pháp (Ngân hàng Nhà nước, công văn 5747/NHNN-PC 2017; Nghị định 52/2024/NĐ-CP). Nội dung liên quan đến crypto trên trang chỉ mang tính ghi chép lịch sử thị trường, không phải khuyến khích giao dịch.",
+        h: "Tiền mã hóa",
+        p: "Tại Việt Nam, tiền mã hóa chưa được công nhận là phương tiện thanh toán hợp pháp (Ngân hàng Nhà nước, công văn 5747/NHNN-PC 2017; Nghị định 52/2024/NĐ-CP). Nội dung liên quan đến crypto trên trang chỉ mang tính ghi chép lịch sử thị trường, không phải khuyến khích giao dịch.",
       },
       {
-        h: "'Giả lập trọng sinh' là trò chơi",
-        p: "Mọi kết quả trong trò chơi mô phỏng là giả định, dựa trên dữ liệu lịch sử được đơn giản hoá cho mục đích giải trí. Kết quả trò chơi không phản ánh khả năng sinh lời thực tế nếu áp dụng ngoài đời.",
+        h: "'Sổ trọng sinh' là trò chơi",
+        p: "Mọi kết quả trong trò chơi mô phỏng là giả định, dựa trên dữ liệu lịch sử được đơn giản hóa cho mục đích giải trí. Kết quả trò chơi không phản ánh khả năng sinh lời thực tế nếu áp dụng ngoài đời.",
       },
       {
         h: "Bảng giá theo năm",

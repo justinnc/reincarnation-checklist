@@ -23,15 +23,15 @@
     "topAhead": "Những nước đi tốt nhất từ năm này",
     "seeAll": "Xem toàn bộ dòng thời gian",
     "biggest": "Những thương vụ lời nhất",
-    "biggestNote": "Xếp hạng theo số lần tăng giá đã kiểm chứng.",
+    "biggestNote": "Xếp hạng theo số lần nhân vốn đã kiểm chứng.",
     "countries": "Chọn quốc gia",
     "milestones": "mốc",
     "verified": "đã kiểm chứng",
     "how": "Cách dùng checklist",
     "steps": [
       "Chọn năm bạn trọng sinh.",
-      "Mở một mốc: đọc cách kiếm tiền, mẹo “người tương lai” và các cái bẫy.",
-      "Tích chọn để thêm vào checklist của riêng bạn.",
+      "Mở một mốc: đọc cách kiếm tiền, mẹo người biết trước và cạm bẫy.",
+      "Lưu vào Bùa 🧿 — lịch mua/bán riêng của bạn.",
       "Chơi đố vui để chứng minh bạn sống sót được ở quá khứ."
     ],
     "playQuiz": "Chơi đố vui"
@@ -44,14 +44,14 @@
     "sortReturn": "Lời nhiều nhất",
     "risk": "Rủi ro",
     "empty": "Không có mốc phù hợp. Hãy bỏ bớt bộ lọc.",
-    "clear": "Xoá bộ lọc",
+    "clear": "Xóa bộ lọc",
     "range": "Giai đoạn",
     "best": "Tăng mạnh nhất",
     "count": "Số mốc",
     "opportunity": "Cách kiếm tiền",
     "asset": "Tài sản",
-    "buyWhen": "Thời điểm vào",
-    "sellWhen": "Thời điểm ra",
+    "buyWhen": "Điểm vào",
+    "sellWhen": "Điểm ra",
     "estimatedReturn": "Lợi nhuận ước tính",
     "whatIf": "bỏ vào khi đó",
     "becomes": "thành",
@@ -72,19 +72,20 @@
       "technology": "Công nghệ",
       "business": "Kinh doanh",
       "macro": "Vĩ mô",
-      "commodities": "Hàng hoá"
+      "commodities": "Hàng hóa"
     },
-    "drop": "Giá sụp — cách kiếm tiền là bán, bán khống hoặc tránh xa"
+    "drop": "Giá sụp — cách kiếm tiền là bán, bán khống hoặc tránh xa",
+    "verifiedMeaning": "Có ít nhất 2 nguồn độc lập xác nhận ngày và giá. Lợi nhuận là giá trị danh nghĩa, chưa được kiểm toán."
   },
   "detail": {
     "back": "Quay lại dòng thời gian",
     "story": "Chuyện gì đã xảy ra",
-    "insider": "Điều chỉ bạn biết",
-    "pitfalls": "Cái bẫy cần tránh",
+    "insider": "Mẹo người biết trước",
+    "pitfalls": "Cạm bẫy cần né",
     "numbers": "Các con số",
-    "entry": "Giá vào",
-    "exit": "Giá ra",
-    "multiple": "Số lần tăng",
+    "entry": "Điểm vào",
+    "exit": "Điểm ra",
+    "multiple": "Số lần nhân vốn",
     "test": "Thử trí nhớ",
     "prev": "Trước đó",
     "next": "Sau đó",
@@ -110,6 +111,13 @@
       "Khách du lịch may mắn",
       "Người trọng sinh lão luyện",
       "Nhà tiên tri thị trường"
-    ]
+    ],
+    "missed": "Những câu bạn trượt",
+    "perfect": "Trọn điểm — không trượt câu nào.",
+    "share": "Chia sẻ kết quả",
+    "shared": "Đã sao chép!",
+    "shareText": "Mình được {score}/{total} điểm đố vui The Reincarnation Checklist — “{rank}”. Bạn sống sót được ở quá khứ không?",
+    "saveMissed": "🧿 Lưu các mốc đã trượt vào Bùa",
+    "savedMissed": "✓ Đã lưu vào Bùa"
   }
 }

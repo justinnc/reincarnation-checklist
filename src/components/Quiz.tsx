@@ -5,6 +5,7 @@ import { useState } from "react";
 import { t, type Locale } from "@/lib/i18n";
 import type { Country, Milestone } from "@/lib/types";
 import type { Dictionary } from "@/lib/dictionaries";
+import { addCharmIds } from "@/lib/charm";
 
 type Q = Pick<Milestone, "id" | "country" | "date" | "title"> & { quiz: NonNullable<Milestone["quiz"]> };
 const ROUND = 10;
@@ -24,6 +25,9 @@ export default function Quiz({ questions, countries, lang, dict }: { questions: 
   const [index, setIndex] = useState(0);
   const [picked, setPicked] = useState<number | null>(null);
   const [score, setScore] = useState(0);
+  const [missed, setMissed] = useState<Q[]>([]);
+  const [shared, setShared] = useState(false);
+  const [savedMissed, setSavedMissed] = useState(false);
 
   const start = () => {
     const src = questions.filter((q) => pool === "all" || q.country === pool);
@@ -39,6 +43,9 @@ export default function Quiz({ questions, countries, lang, dict }: { questions: 
     setIndex(0);
     setPicked(null);
     setScore(0);
+    setMissed([]);
+    setShared(false);
+    setSavedMissed(false);
   };
 
   if (!round) {
@@ -54,7 +61,7 @@ export default function Quiz({ questions, countries, lang, dict }: { questions: 
               onClick={() => setPool(o.code)}
               className={`rounded-full px-4 py-2 text-sm transition-colors ${pool === o.code ? "bg-ink font-medium text-bg" : "bg-raised text-muted hover:text-ink"}`}
             >
-              {o.label} <span className="font-mono tabular opacity-60">({questions.filter((q) => o.code === "all" || q.country === o.code).length})</span>
+              {o.label} <span className="font-mono tabular font-normal">({questions.filter((q) => o.code === "all" || q.country === o.code).length})</span>
             </button>
           ))}
         </div>
@@ -69,16 +76,72 @@ export default function Quiz({ questions, countries, lang, dict }: { questions: 
   if (done) {
     const pct = score / round.length;
     const rank = dict.ranks[Math.min(dict.ranks.length - 1, Math.floor(pct * dict.ranks.length))];
+    const share = async () => {
+      const text = dict.shareText.replace("{score}", String(score)).replace("{total}", String(round.length)).replace("{rank}", rank);
+      const url = window.location.href;
+      // Native share sheet only on touch devices; on desktop a copied link is faster than the OS sheet.
+      if (navigator.share && window.matchMedia("(pointer: coarse)").matches) {
+        try {
+          await navigator.share({ text, url });
+          return;
+        } catch (e) {
+          if (e instanceof Error && e.name === "AbortError") return; // user closed the share sheet
+        }
+      }
+      await navigator.clipboard.writeText(`${text} ${url}`);
+      setShared(true);
+      setTimeout(() => setShared(false), 2000);
+    };
+    const saveMissed = () => {
+      addCharmIds(missed.map((m) => m.id));
+      setSavedMissed(true);
+    };
     return (
-      <div className="rounded-3xl border border-line bg-surface p-10 text-center">
-        <div className="text-sm uppercase tracking-wider text-faint">{dict.score}</div>
-        <div className="mt-2 font-display text-8xl font-extrabold tabular text-gold">
-          {score}/{round.length}
+      <div className="rounded-3xl border border-line bg-surface p-6 sm:p-10">
+        <div className="text-center">
+          <div className="text-sm uppercase tracking-wider text-faint">{dict.score}</div>
+          <div className="mt-2 font-display text-8xl font-extrabold tabular text-gold">
+            {score}/{round.length}
+          </div>
+          <div className="mt-3 font-display text-2xl font-bold">{rank}</div>
+          <div className="mt-8 flex flex-wrap justify-center gap-3">
+            <button type="button" onClick={share} className="rounded-full bg-gold px-6 py-3 font-semibold text-on-gold hover:brightness-110">
+              {shared ? dict.shared : dict.share}
+            </button>
+            <button type="button" onClick={start} className="rounded-full border border-line-strong px-6 py-3 font-semibold text-muted hover:text-ink">
+              {dict.again}
+            </button>
+          </div>
         </div>
-        <div className="mt-3 font-display text-2xl font-bold">{rank}</div>
-        <button type="button" onClick={start} className="mt-8 rounded-full bg-gold px-6 py-3 font-semibold text-on-gold hover:brightness-110">
-          {dict.again}
-        </button>
+
+        <div className="mt-10 border-t border-line pt-6">
+          <div className="flex flex-wrap items-center justify-between gap-3">
+            <h3 className="text-sm font-semibold uppercase tracking-wider text-faint">{dict.missed}</h3>
+            {missed.length > 0 && (
+              <button type="button" onClick={saveMissed} disabled={savedMissed} className="text-xs font-medium text-gold hover:brightness-110 disabled:opacity-70">
+                {savedMissed ? dict.savedMissed : dict.saveMissed}
+              </button>
+            )}
+          </div>
+          {missed.length === 0 ? (
+            <p className="mt-3 text-gain">{dict.perfect}</p>
+          ) : (
+            <ol className="mt-3 space-y-2">
+              {missed.map((m) => (
+                <li key={m.id}>
+                  <Link
+                    href={`/${lang}/${m.country}/${m.id}`}
+                    className="flex items-center gap-3 rounded-xl border border-line bg-raised p-3 transition-colors hover:border-gold"
+                  >
+                    <span className="shrink-0 font-mono text-xs tabular text-gold">{m.date.slice(0, 4)}</span>
+                    <span className="min-w-0 flex-1 truncate text-sm font-medium">{t(m.title, lang)}</span>
+                    <span className="shrink-0 text-xs text-faint">{dict.learn} →</span>
+                  </Link>
+                </li>
+              ))}
+            </ol>
+          )}
+        </div>
       </div>
     );
   }
@@ -89,6 +152,7 @@ export default function Quiz({ questions, countries, lang, dict }: { questions: 
     if (answered) return;
     setPicked(i);
     if (i === q.quiz.answer) setScore((s) => s + 1);
+    else setMissed((list) => [...list, q]);
   };
 
   return (
@@ -100,7 +164,7 @@ export default function Quiz({ questions, countries, lang, dict }: { questions: 
         <span className="text-gold">{score} ✓</span>
       </div>
       <div className="mt-2 h-1 overflow-hidden rounded-full bg-raised">
-        <div className="h-full bg-gold transition-[width]" style={{ width: `${(index / round.length) * 100}%` }} />
+        <div className="h-full origin-left bg-gold transition-transform" style={{ transform: `scaleX(${index / round.length})` }} />
       </div>
       <h2 className="mt-8 font-display text-2xl font-bold leading-snug sm:text-3xl">{t(q.quiz.question, lang)}</h2>
       <div className="mt-6 grid gap-3">

@@ -44,7 +44,7 @@ export function NodeCard({
         <span className="font-mono text-xs text-faint">{card.year}</span>
       </div>
       <div className="mt-2 text-center text-3xl">{card.icon}</div>
-      <div className="mt-2 text-center font-display font-semibold">{card.verb}</div>
+      <div className="mt-2 text-center font-display font-bold">{card.verb}</div>
       <p className="mt-1 text-center text-xs text-muted">{showReal && card.real ? card.real.explain : card.story}</p>
       <p className="mt-3 text-center text-xs text-faint">Nếu chơi 10 lần giống vầy thì thường:</p>
       <div className="mt-1.5">

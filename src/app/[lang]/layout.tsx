@@ -6,12 +6,12 @@ import { hasLocale, locales } from "@/lib/i18n";
 import { getDictionary } from "@/lib/dictionaries";
 import { SITE_URL, localeAlternates } from "@/lib/seo";
 import LangSwitch from "@/components/LangSwitch";
-import { CharmNavBadge } from "@/components/CharmToggle";
+import NavLinks from "@/components/NavLinks";
 import "../globals.css";
 
 const text = Be_Vietnam_Pro({ subsets: ["latin", "vietnamese"], weight: ["400", "500", "600", "700"], variable: "--nf-text" });
-const display = Bricolage_Grotesque({ subsets: ["latin", "vietnamese"], weight: ["600", "700", "800"], variable: "--nf-display" });
-const mono = JetBrains_Mono({ subsets: ["latin", "vietnamese"], weight: ["400", "500", "600"], variable: "--nf-mono" });
+const display = Bricolage_Grotesque({ subsets: ["latin", "vietnamese"], weight: ["700", "800"], variable: "--nf-display" });
+const mono = JetBrains_Mono({ subsets: ["latin", "vietnamese"], weight: ["400", "600", "700"], variable: "--nf-mono" });
 
 export async function generateStaticParams() {
   return locales.map((lang) => ({ lang }));
@@ -47,27 +47,18 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[la
     <html lang={lang} className={`${text.variable} ${display.variable} ${mono.variable} h-full antialiased`}>
       <body className="flex min-h-full flex-col">
         <header className="border-b border-line">
-          <nav className="mx-auto flex max-w-[1120px] items-center gap-4 px-4 py-3 sm:gap-6 sm:py-4">
+          <nav aria-label="Main" className="mx-auto flex max-w-[1120px] items-center gap-3 px-4 py-2 sm:gap-5 sm:py-3">
             <Link href={`/${lang}`} className="flex items-center gap-2 font-display text-lg font-extrabold tracking-tight">
               <span className="flex h-7 w-7 items-center justify-center rounded-md bg-gold text-on-gold">✓</span>
-              <span className="hidden sm:inline">{dict.site.name}</span>
+              <span className="hidden xl:inline">{dict.site.name}</span>
             </Link>
-            <div className="no-scrollbar flex min-w-0 flex-1 items-center gap-4 overflow-x-auto whitespace-nowrap text-sm text-muted sm:gap-5">
-              <Link href={`/${lang}#countries`} className="shrink-0 hover:text-ink">{dict.nav.timeline}</Link>
-              <Link href={`/${lang}/world`} className="shrink-0 hover:text-ink">{dict.nav.world}</Link>
-              <Link href={`/${lang}/search`} className="shrink-0 hover:text-ink">{dict.nav.search}</Link>
-              <Link href={`/${lang}/almanac`} className="shrink-0 hover:text-ink">{dict.nav.almanac}</Link>
-              <Link href={`/${lang}/whatif`} className="shrink-0 font-semibold text-gold hover:brightness-110">{dict.nav.whatif}</Link>
-              <Link href={`/${lang}/simulator`} className="shrink-0 hover:text-ink">{dict.nav.simulator}</Link>
-              <Link href={`/${lang}/quiz`} className="shrink-0 hover:text-ink">{dict.nav.quiz}</Link>
-              <CharmNavBadge lang={lang} />
-            </div>
+            <NavLinks lang={lang} labels={dict.nav} />
             <div className="shrink-0">
               <LangSwitch lang={lang} />
             </div>
           </nav>
         </header>
-        <main className="mx-auto w-full max-w-[1120px] flex-1 px-4 py-6 sm:py-10">{children}</main>
+        <main className="mx-auto w-full max-w-[1120px] flex-1 overflow-x-clip px-4 py-6 sm:py-10">{children}</main>
         <footer className="border-t border-line">
           <div className="mx-auto flex max-w-[1120px] flex-col gap-3 px-4 py-10 sm:flex-row sm:items-end sm:justify-between">
             <div>

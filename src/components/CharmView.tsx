@@ -37,7 +37,7 @@ const STARTER_US = [
 
 const COPY = {
   vi: {
-    empty: "Bùa Trọng Sinh của bạn đang trống. Hãy bấm '+ Lưu vào Bùa' trên bất kỳ cột mốc nào, hoặc nạp nhanh bộ Bùa mẫu bên dưới:",
+    empty: "Bùa Trọng Sinh của bạn đang trống. Hãy bấm '+ Lưu vào Bùa' trên bất kỳ mốc nào, hoặc nạp nhanh bộ Bùa mẫu bên dưới:",
     loadVn: "⚡ Nạp Bùa mẫu Việt Nam (8 mốc)",
     loadUs: "⚡ Nạp Bùa mẫu Mỹ (7 mốc)",
     printBtn: "🖨️ In Bùa 1 Trang (PDF/Giấy)",
@@ -45,10 +45,10 @@ const COPY = {
     copied: "✓ Đã chép link!",
     clearBtn: "Xóa hết",
     saveShared: "💾 Lưu bộ Bùa đang xem vào máy",
-    gainsTitle: "💰 Lịch Mua – Bán (Cơ hội nhân tài sản)",
+    gainsTitle: "💰 Lịch Mua – Bán (Cơ hội nhân vốn)",
     trapsTitle: "🚫 Cạm bẫy & Phốt Phải Né (Bán khống / Rút trước khi sập)",
-    buy: "Mua/Vào:",
-    sell: "Bán/Thoát:",
+    buy: "Điểm vào:",
+    sell: "Điểm ra:",
     tip: "Mẹo người biết trước:",
     remove: "Bỏ",
   },

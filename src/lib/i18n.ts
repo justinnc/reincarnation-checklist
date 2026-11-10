@@ -14,3 +14,6 @@ export function t(text: LocalizedText | undefined, locale: Locale): string {
 }
 
 export const intlLocale = (l: Locale) => (l === "vi" ? "vi-VN" : "en-US");
+
+/** Home market a visitor most likely wants first — every page's default country derives from this. */
+export const defaultCountry = (l: Locale) => (l === "vi" ? "vn" : "us");

@@ -11,7 +11,7 @@ const COPY = {
     heading: "Sổ trọng sinh",
     intro: "Đi dọc 20 trạm từ 1986 đến 2024, mỗi trạm một mốc lịch sử thật. Mỗi trạm 3 lựa chọn: làm lớn, làm nhỏ, hoặc nghỉ ngơi — đừng để hết tiền, đừng để kiệt sức.",
     disclaimer:
-      "Trò chơi bài dựa trên các mốc lịch sử Việt Nam có thật. Số tiền, tỉ lệ và hệ số trên mỗi lá là số làm tròn cho trò chơi, không phải số liệu tài chính chính xác và không phải khuyến nghị đầu tư.",
+      "Sổ trọng sinh là trò chơi bài dựa trên các mốc lịch sử Việt Nam có thật. Số tiền, tỷ lệ và hệ số trên mỗi lá là số làm tròn cho trò chơi, không phải số liệu tài chính chính xác và không phải khuyến nghị đầu tư.",
   },
   en: {
     kicker: "Card game · Vietnam-only for now",
@@ -48,7 +48,7 @@ export default async function SimulatorPage({ params }: PageProps<"/[lang]/simul
         <p className="text-lg text-muted">{copy.intro}</p>
       </header>
       <div className="mx-auto max-w-md">
-        <Suspense>
+        <Suspense fallback={<div aria-hidden className="h-96 animate-pulse rounded-3xl border border-line bg-surface" />}>
           <CardGameApp />
         </Suspense>
       </div>

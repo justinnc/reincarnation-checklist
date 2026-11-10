@@ -97,12 +97,12 @@ export default function Timeline({ milestones, lang, dict, cards }: Props) {
 
   const groups: { key: string; label: string | null; items: Milestone[] }[] =
     sort === "date"
-      ? decades.map((d) => ({ key: String(d), label: `${d}s`, items: visible.filter((m) => decadeOf(m) === d) }))
+      ? decades.map((d) => ({ key: String(d), label: lang === "vi" ? `Thập niên ${d}` : `${d}s`, items: visible.filter((m) => decadeOf(m) === d) }))
       : [{ key: "all", label: null, items: visible }];
 
   return (
     <div className="space-y-8">
-      <div className="z-10 -mx-4 space-y-3 md:sticky md:top-0 border-b border-line bg-bg/95 px-4 py-4 backdrop-blur">
+      <div className="space-y-3">
         <div className="flex flex-wrap items-center gap-3">
           <label className="relative w-full md:w-64">
             <span className="sr-only">{dict.search}</span>
@@ -113,7 +113,7 @@ export default function Timeline({ milestones, lang, dict, cards }: Props) {
               className="w-full rounded-full border border-line bg-surface px-4 py-2 text-sm text-ink placeholder:text-faint focus:border-gold focus:outline-none"
             />
           </label>
-          <div className="no-scrollbar -mx-4 flex items-center gap-2 overflow-x-auto px-4 text-sm md:mx-0 md:px-0">
+          <div className="no-scrollbar -mx-4 flex min-w-0 flex-1 basis-full items-center gap-2 overflow-x-auto px-4 text-sm md:mx-0 md:basis-auto md:flex-wrap md:overflow-visible md:px-0">
             <Chip active={outcome === "all"} onClick={() => setOutcome("all")}>{OL.all}</Chip>
             <Chip active={outcome === "gain"} onClick={() => setOutcome(outcome === "gain" ? "all" : "gain")}>
               {OL.gain} ({counts.gain})
@@ -128,17 +128,21 @@ export default function Timeline({ milestones, lang, dict, cards }: Props) {
                 {OL.macro} ({counts.macro})
               </Chip>
             )}
-            <span className="mx-1 w-px shrink-0 self-stretch bg-line" />
-            <span className="shrink-0 text-faint">{dict.sort}</span>
-            <Chip active={sort === "date"} onClick={() => setSort("date")}>{dict.sortDate}</Chip>
-            <Chip active={sort === "return"} onClick={() => setSort("return")}>{dict.sortReturn}</Chip>
-            <span className="mx-1 w-px shrink-0 self-stretch bg-line" />
-            <span className="shrink-0 text-faint">{dict.risk}</span>
-            {(["low", "medium", "high"] as const).map((r) => (
-              <Chip key={r} active={risk === r} onClick={() => setRisk(risk === r ? "all" : r)}>
-                {dict.levels[r]}
-              </Chip>
-            ))}
+            <div className="flex shrink-0 items-center gap-2">
+              <span className="mx-1 w-px self-stretch bg-line" />
+              <span className="text-faint">{dict.sort}</span>
+              <Chip active={sort === "date"} onClick={() => setSort("date")}>{dict.sortDate}</Chip>
+              <Chip active={sort === "return"} onClick={() => setSort("return")}>{dict.sortReturn}</Chip>
+            </div>
+            <div className="flex shrink-0 items-center gap-2">
+              <span className="mx-1 w-px self-stretch bg-line" />
+              <span className="text-faint">{dict.risk}</span>
+              {(["low", "medium", "high"] as const).map((r) => (
+                <Chip key={r} active={risk === r} onClick={() => setRisk(risk === r ? "all" : r)}>
+                  {dict.levels[r]}
+                </Chip>
+              ))}
+            </div>
           </div>
         </div>
         <div className="no-scrollbar -mx-4 flex gap-2 overflow-x-auto px-4 pb-1 md:mx-0 md:flex-wrap md:overflow-visible md:px-0">
@@ -149,16 +153,19 @@ export default function Timeline({ milestones, lang, dict, cards }: Props) {
             </Chip>
           ))}
         </div>
-        {sort === "date" && decades.length > 1 && (
-          <nav className="no-scrollbar flex gap-4 overflow-x-auto font-mono text-sm tabular">
-            {decades.map((d) => (
-              <a key={d} href={`#d${d}`} className="text-faint hover:text-gold">
-                {d}s
-              </a>
-            ))}
-          </nav>
-        )}
       </div>
+      {sort === "date" && decades.length > 1 && (
+        <nav
+          aria-label={lang === "vi" ? "Thập niên" : "Decades"}
+          className="no-scrollbar z-10 -mx-4 flex gap-4 overflow-x-auto border-b border-line bg-bg/95 px-4 py-3 font-mono text-sm tabular backdrop-blur md:sticky md:top-0"
+        >
+          {decades.map((d) => (
+            <a key={d} href={`#d${d}`} className="text-faint hover:text-gold">
+              {lang === "vi" ? d : `${d}s`}
+            </a>
+          ))}
+        </nav>
+      )}
 
       {visible.length === 0 && (
         <div className="rounded-2xl border border-dashed border-line p-10 text-center text-muted">
@@ -179,12 +186,12 @@ export default function Timeline({ milestones, lang, dict, cards }: Props) {
       )}
 
       {groups.map((g) => (
-        <section key={g.key} id={`d${g.key}`} className="scroll-mt-48 md:grid md:grid-cols-[160px_1fr] md:gap-8">
+        <section key={g.key} id={`d${g.key}`} className="scroll-mt-16 md:grid md:grid-cols-[160px_1fr] md:gap-8">
           {g.label && (
             <div className="mb-4 md:mb-0">
-              <div className="font-display text-4xl font-extrabold tracking-tight text-gold md:sticky md:top-56 md:text-6xl">
+              <h2 className="font-display text-4xl font-extrabold tracking-tight text-gold md:sticky md:top-16 md:text-6xl">
                 {g.label}
-              </div>
+              </h2>
             </div>
           )}
           <div className={`space-y-4 ${g.label ? "" : "md:col-span-2"}`}>
