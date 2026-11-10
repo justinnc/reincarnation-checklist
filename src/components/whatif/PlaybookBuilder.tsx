@@ -185,7 +185,19 @@ export default function PlaybookBuilder({ lang, countries, milestones }: Props) 
     }
   };
 
-  const presets = [0.5, 1, 5, 10].map((mult) => Math.round(country.stake.amount * mult));
+  const presetTiers = [
+    { mult: 0.5, labelVi: "🌱 Tiết kiệm", labelEn: "🌱 Savings" },
+    { mult: 1, labelVi: "💼 Chuẩn mốc", labelEn: "💼 Standard" },
+    { mult: 5, labelVi: "🚀 Khởi nghiệp", labelEn: "🚀 Startup" },
+    { mult: 10, labelVi: "👑 Cá voi", labelEn: "👑 Whale" },
+  ].map((tier) => ({
+    amount: Math.round(country.stake.amount * tier.mult),
+    label: lang === "vi" ? tier.labelVi : tier.labelEn,
+  }));
+
+  const quickCurrencies = country.code === "vn"
+    ? [10_000_000, 50_000_000, 200_000_000, 1_000_000_000]
+    : [1_000, 5_000, 20_000, 100_000];
 
   return (
     <div className="space-y-6">
@@ -218,18 +230,36 @@ export default function PlaybookBuilder({ lang, countries, milestones }: Props) 
         <div className="space-y-3">
           <div className="text-xs font-semibold uppercase tracking-wider text-faint">{L.capital}</div>
           <div className="flex flex-wrap items-center gap-2">
-            {presets.map((p) => (
+            {presetTiers.map((p) => (
               <button
-                key={p}
+                key={p.amount}
                 type="button"
-                onClick={() => setCapital(p)}
+                onClick={() => setCapital(p.amount)}
                 className={`rounded-full border px-3 py-1.5 font-mono text-xs transition-colors ${
-                  capital === p
+                  capital === p.amount
                     ? "border-gold bg-gold font-semibold text-on-gold"
                     : "border-line bg-raised text-muted hover:border-gold"
                 }`}
               >
-                {formatMoney(p, country.stake.currency, lang)}
+                <span className="font-sans font-medium mr-1">{p.label}:</span>
+                {formatMoney(p.amount, country.stake.currency, lang)}
+              </button>
+            ))}
+          </div>
+          <div className="flex flex-wrap items-center gap-2 pt-0.5">
+            <span className="text-xs text-faint mr-1 font-mono">{lang === "vi" ? "Mốc chẵn:" : "Quick set:"}</span>
+            {quickCurrencies.map((q) => (
+              <button
+                key={q}
+                type="button"
+                onClick={() => setCapital(q)}
+                className={`rounded-full border px-2.5 py-1 font-mono text-xs transition-colors ${
+                  capital === q
+                    ? "border-gold bg-gold font-semibold text-on-gold"
+                    : "border-line bg-raised text-faint hover:text-ink hover:border-gold"
+                }`}
+              >
+                {formatMoney(q, country.stake.currency, lang)}
               </button>
             ))}
             <input

@@ -15,6 +15,35 @@ import {
   type DecisionType,
 } from "@/lib/survival";
 import { addCharmIds } from "@/lib/charm";
+import { soundFx } from "@/lib/soundFx";
+import { generateReincarnationPassCard } from "@/lib/passCard";
+
+function AnimatedNumber({ value }: { value: number }) {
+  const [display, setDisplay] = useState(value);
+
+  useEffect(() => {
+    let start = display;
+    const end = value;
+    if (start === end) return;
+    const duration = 650;
+    const startTime = performance.now();
+
+    const frame = (now: number) => {
+      const elapsed = now - startTime;
+      const progress = Math.min(1, elapsed / duration);
+      const ease = 1 - Math.pow(1 - progress, 4);
+      const current = Math.round(start + (end - start) * ease);
+      setDisplay(current);
+      if (progress < 1) {
+        requestAnimationFrame(frame);
+      }
+    };
+    const req = requestAnimationFrame(frame);
+    return () => cancelAnimationFrame(req);
+  }, [value]);
+
+  return <span>{display.toLocaleString()}</span>;
+}
 
 export default function SurvivalGame({
   lang,
@@ -37,11 +66,18 @@ export default function SurvivalGame({
 
   // Roulette spinning state
   const [isSpinning, setIsSpinning] = useState(false);
+  const [isMuted, setIsMuted] = useState(() => soundFx.isMuted);
+  const [isExportingCard, setIsExportingCard] = useState(false);
   const [spinDisplay, setSpinDisplay] = useState({
     flag: run.country.flag,
     countryName: t(run.country.name, lang),
     year: run.startYear,
   });
+
+  const toggleSound = () => {
+    const newMuted = soundFx.toggleMute();
+    setIsMuted(newMuted);
+  };
 
   // In-game state
   const [currentRoundIdx, setCurrentRoundIdx] = useState(0);
@@ -63,7 +99,10 @@ export default function SurvivalGame({
     const startTime = Date.now();
     const duration = 1200;
 
+    let tickCount = 0;
     const interval = setInterval(() => {
+      tickCount++;
+      if (tickCount % 2 === 0) soundFx.play("spin");
       const randomCountry = countries[Math.floor(Math.random() * countries.length)];
       const randomYear = 1980 + Math.floor(Math.random() * 35);
       setSpinDisplay({
@@ -74,6 +113,7 @@ export default function SurvivalGame({
 
       if (Date.now() - startTime >= duration) {
         clearInterval(interval);
+        soundFx.play("success");
         const newRun = generateSurvivalRun(targetCountry);
         setRun(newRun);
         setSpinDisplay({
@@ -87,6 +127,7 @@ export default function SurvivalGame({
   };
 
   const handleStartGame = () => {
+    soundFx.play("click");
     setNetWorth(run.initialCapital);
     setCurrentRoundIdx(0);
     setResults([]);
@@ -102,15 +143,50 @@ export default function SurvivalGame({
     setCurrentRoundResult(res);
     setNetWorth(res.newNetWorth);
     setResults((prev) => [...prev, res]);
+    if (res.isSuccess) {
+      soundFx.play("success");
+    } else {
+      soundFx.play("trap");
+    }
   };
 
   const handleNextRound = () => {
+    soundFx.play("click");
     if (currentRoundIdx + 1 >= run.rounds.length) {
       // Game over!
+      soundFx.play("fanfare");
       setPhase("game_over");
     } else {
       setCurrentRoundIdx((prev) => prev + 1);
       setCurrentRoundResult(null);
+    }
+  };
+
+  const handleDownloadPass = async () => {
+    setIsExportingCard(true);
+    try {
+      const dataUrl = await generateReincarnationPassCard({
+        run,
+        results,
+        finalRank,
+        netWorth,
+        lang,
+      });
+      const a = document.createElement("a");
+      a.href = dataUrl;
+      a.download = `reincarnation-pass-${run.country.code}-${run.startYear}.png`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      setToastMessage(
+        lang === "vi"
+          ? "📸 Đã tải thẻ căn cước trọng sinh (PNG)!"
+          : "📸 Reincarnation Pass (PNG) downloaded!"
+      );
+    } catch {
+      setToastMessage(lang === "vi" ? "❌ Không thể tạo ảnh thẻ" : "❌ Failed to generate card");
+    } finally {
+      setIsExportingCard(false);
     }
   };
 
@@ -143,6 +219,19 @@ export default function SurvivalGame({
 
   return (
     <div className="mx-auto max-w-3xl space-y-8">
+      {/* Top Controls: Sound Toggle */}
+      <div className="flex items-center justify-end">
+        <button
+          type="button"
+          onClick={toggleSound}
+          className="inline-flex items-center gap-1.5 rounded-full border border-line bg-raised px-3 py-1 font-mono text-xs text-muted hover:border-gold hover:text-ink transition"
+          title={isMuted ? "Bật âm thanh" : "Tắt âm thanh"}
+        >
+          <span>{isMuted ? "🔇" : "🔊"}</span>
+          <span>{isMuted ? (lang === "vi" ? "Âm thanh: Tắt" : "Audio: Off") : (lang === "vi" ? "Âm thanh: Bật" : "Audio: On")}</span>
+        </button>
+      </div>
+
       {/* Toast Notification */}
       <AnimatePresence>
         {toastMessage && (
@@ -309,7 +398,7 @@ export default function SurvivalGame({
                 {lang === "vi" ? "Tài sản hiện tại" : "Net Worth"}
               </div>
               <div className="font-display text-2xl font-extrabold text-gold sm:text-3xl">
-                ${netWorth.toLocaleString()}
+                $<AnimatedNumber value={netWorth} />
               </div>
             </div>
           </div>
@@ -564,15 +653,33 @@ export default function SurvivalGame({
             </div>
 
             {/* Action Buttons */}
-            <div className="mt-6 flex flex-col gap-2.5 sm:flex-row sm:justify-center">
+            <div className="mt-6 flex flex-col gap-2.5 sm:flex-row sm:flex-wrap sm:justify-center">
+              <button
+                type="button"
+                onClick={handleDownloadPass}
+                disabled={isExportingCard}
+                className="inline-flex items-center justify-center gap-1.5 rounded-full border border-gold bg-gold px-5 py-2.5 text-xs font-bold text-on-gold shadow-lg shadow-gold/20 transition hover:brightness-110 disabled:opacity-50"
+              >
+                <span>{isExportingCard ? "⏳" : "📸"}</span>
+                <span>
+                  {isExportingCard
+                    ? lang === "vi"
+                      ? "Đang xuất thẻ..."
+                      : "Exporting..."
+                    : lang === "vi"
+                    ? "Tải ảnh Thẻ Căn Cước Trọng Sinh (PNG)"
+                    : "Download Reincarnation Pass (PNG)"}
+                </span>
+              </button>
+
               <button
                 type="button"
                 onClick={handleCopyShare}
-                className="inline-flex items-center justify-center gap-1.5 rounded-full border border-gold bg-gold px-5 py-2.5 text-xs font-bold text-on-gold transition hover:brightness-110"
+                className="inline-flex items-center justify-center gap-1.5 rounded-full border border-line bg-raised px-4 py-2.5 text-xs font-semibold text-ink transition hover:border-gold hover:bg-line"
               >
                 <span>📋</span>
                 <span>
-                  {lang === "vi" ? "Sao chép kết quả để khoe" : "Copy Results to Share"}
+                  {lang === "vi" ? "Copy Text" : "Copy Text"}
                 </span>
               </button>
 
