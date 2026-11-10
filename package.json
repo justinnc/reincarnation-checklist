@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "validate": "node scripts/validate-data.mjs",
-    "test": "vitest run"
+    "test": "NODE_OPTIONS='--experimental-require-module' vitest run"
   },
   "dependencies": {
     "motion": "^14.11.1",
