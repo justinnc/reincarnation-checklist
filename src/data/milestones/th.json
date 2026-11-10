@@ -40,7 +40,7 @@
       "returnMultiple": 2.26,
       "entryPrice": 25,
       "exitPrice": 56.5,
-      "priceCurrency": "THB per USD",
+      "priceCurrency": "THB",
       "exitDate": "1998-01",
       "risk": "medium",
       "capital": "low"
@@ -658,8 +658,8 @@
         "en": "About 23x (4 → 93 baht split-adjusted) in under three years"
       },
       "returnMultiple": 23.25,
-      "entryPrice": 4.0,
-      "exitPrice": 93.0,
+      "entryPrice": 4,
+      "exitPrice": 93,
       "priceCurrency": "THB",
       "exitDate": "2023-01-03",
       "risk": "high",

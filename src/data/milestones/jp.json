@@ -129,14 +129,12 @@
         "en": "Not mandatory — a steady multi-decade compounder thanks to sustainably high margins."
       },
       "estimatedReturn": {
-        "vi": "Cổ phiếu tăng khoảng 96% chỉ trong năm 2020; tài sản của nhà sáng lập tăng từ 7,2 tỷ đô (2015) lên 38,2 tỷ đô (2021), tức hơn 5 lần.",
-        "en": "The stock rose about 96% in 2020 alone; the founder's net worth grew from $7.2 billion (2015) to $38.2 billion (2021), more than 5x."
+        "vi": "Cổ phiếu Keyence tăng khoảng 96% chỉ trong năm 2020 (Business Insider). Việc tài sản nhà sáng lập tăng từ 7,2 tỷ USD (2015) lên 38,2 tỷ USD (2021) không phải là lợi nhuận của cổ đông, nên không đưa ra hệ số nhân dài hạn ở đây.",
+        "en": "Keyence shares rose about 96% in 2020 alone (Business Insider). The founder's net worth growing from $7.2bn (2015) to $38.2bn (2021) is not a shareholder return, so no long-run multiple is given here."
       },
-      "returnMultiple": 5.3,
       "priceCurrency": "JPY",
       "risk": "low",
-      "capital": "medium",
-      "exitDate": "2024"
+      "capital": "medium"
     },
     "insiderTip": {
       "vi": "Keyence giữ bí mật sản xuất, không tự sản xuất mà chỉ thiết kế và bán trực tiếp với biên lợi nhuận gộp hơn 80% — hiểu rõ mô hình kinh doanh độc đáo này từ sớm giúp tự tin nắm giữ qua các chu kỳ suy thoái công nghiệp ngắn hạn.",
@@ -186,7 +184,7 @@
       }
     ],
     "verified": true,
-    "verifiedNote": "Confirmed 1987 Osaka IPO and 1989 Tokyo listing via Bloomberg Billionaires profile; confirmed ~96% 2020 share rise and Takizaki's net-worth growth from $7.2B (2015) to $38.2B (2021) via Business Insider. Exact share price data not independently located, so entry/exit prices are omitted."
+    "verifiedNote": "Confirmed 1987 Osaka IPO and 1989 Tokyo listing via Bloomberg Billionaires profile; ~96% 2020 share rise and Takizaki's net-worth growth via Business Insider. The earlier 5.3x figure was derived from founder net worth, not the stock, and has been removed; no split-adjusted long-run share-price series was located."
   },
   {
     "id": "jp-nikkei-bubble-peak-1989",
@@ -652,7 +650,8 @@
       }
     ],
     "verified": true,
-    "verifiedNote": "Confirmed $20 million 2000 investment and ~$58-75 billion stake valuation around the 2014 IPO via Bloomberg and NYT DealBook reporting."
+    "verifiedNote": "Confirmed $20 million 2000 investment and ~$58-75 billion stake valuation around the 2014 IPO via Bloomberg and NYT DealBook reporting.",
+    "private": true
   },
   {
     "id": "jp-softbank-dotcom-crash-2000",
@@ -1308,6 +1307,10 @@
       {
         "title": "Macrotrends: Tokyo Electron 16 Year Stock Price History",
         "url": "https://www.macrotrends.net/stocks/charts/TOELY/tokyo-electron/stock-price-history"
+      },
+      {
+        "title": "Wikipedia — Tokyo Electron",
+        "url": "https://en.wikipedia.org/wiki/Tokyo_Electron"
       }
     ],
     "verified": true,
@@ -1681,7 +1684,7 @@
     "sources": [
       {
         "title": "Reuters: Airbag maker Takata files for bankruptcy protection in Japan",
-        "url": "https://www.reuters.com/article/us-takata-bankruptcy-japan-filing-idUSKBN19H01W/"
+        "url": "https://web.archive.org/web/2023/https://www.reuters.com/article/us-takata-bankruptcy-japan-filing-idUSKBN19H01W/"
       },
       {
         "title": "Japan Exchange Group: Decision on Delisting — Takata Corporation",
@@ -2273,6 +2276,7 @@
       }
     ],
     "verified": false,
-    "verifiedNote": "Conviction, 8 Nov 2004 meeting, ~3bn-yen profit and ~1.2bn-yen forfeiture confirmed by CNBC/Reuters, Japan Press and the 2009 High Court judgment (which also records the 1,933,100 shares bought for 9,952,162,084 yen and the suspended sentence). Entry price 5,148 yen is derived from those court figures, not a quoted market price, and the 6,280-yen close on 24 Feb 2005 comes from a single source (Japan Times), so prices are not double-confirmed."
+    "verifiedNote": "Conviction, 8 Nov 2004 meeting, ~3bn-yen profit and ~1.2bn-yen forfeiture confirmed by CNBC/Reuters, Japan Press and the 2009 High Court judgment (which also records the 1,933,100 shares bought for 9,952,162,084 yen and the suspended sentence). Entry price 5,148 yen is derived from those court figures, not a quoted market price, and the 6,280-yen close on 24 Feb 2005 comes from a single source (Japan Times), so prices are not double-confirmed.",
+    "private": true
   }
 ]

@@ -1,4 +1,5 @@
-import type { Milestone } from "@/lib/types";
+import type { MilestoneLite } from "@/lib/types";
+import { LATEST_YEAR } from "./engine";
 
 const SPECULATIVE_OR_PRIVATE_IDS = new Set([
   "vn-louis-holdings-tgg-manipulation-2021",
@@ -24,14 +25,14 @@ const ENTRY_DATE_OVERRIDES: Record<string, string> = {
   "de-biontech-covid-vaccine-rally-2020": "2019-10",
 };
 
-export function isSpeculativeOrPrivate(m: Milestone): boolean {
-  if (SPECULATIVE_OR_PRIVATE_IDS.has(m.id)) return true;
+export function isSpeculativeOrPrivate(m: MilestoneLite): boolean {
+  if (m.private === true || SPECULATIVE_OR_PRIVATE_IDS.has(m.id)) return true;
   const text = `${m.id} ${m.title.en}`.toLowerCase();
-  return text.includes("manipulation") || text.includes("ponzi") || text.includes("seed");
+  return /manipulation|ponzi|seed/i.test(text);
 }
 
 export interface PlaybookCandidate {
-  milestone: Milestone;
+  milestone: MilestoneLite;
   startYear: number;
   endYear: number;
   startYM: number;
@@ -60,7 +61,7 @@ export interface PlaybookResult {
   hasLiquidityCap: boolean;
 }
 
-export function effectiveEntryDate(m: Milestone): string {
+export function effectiveEntryDate(m: MilestoneLite): string {
   return ENTRY_DATE_OVERRIDES[m.id] ?? m.date;
 }
 
@@ -76,27 +77,27 @@ export function parseYM(dateStr: string, defaultMonth: number): number {
   return y * 12 + (m - 1);
 }
 
-export function parseEndYear(m: Milestone): number {
+export function parseEndYear(m: MilestoneLite): number {
   const start = parseStartYear(effectiveEntryDate(m));
   const exit = m.opportunity.exitDate;
   if (exit) {
     const y = Number(exit.slice(0, 4));
     if (Number.isFinite(y) && y >= start) return y;
   }
-  return Math.max(start + 1, 2025);
+  return Math.max(start + 1, LATEST_YEAR);
 }
 
-export function parseEndYM(m: Milestone): number {
+export function parseEndYM(m: MilestoneLite): number {
   const startYM = parseYM(effectiveEntryDate(m), 1);
   const exit = m.opportunity.exitDate;
   if (exit) {
     const ym = parseYM(exit, 12);
     if (ym >= startYM) return ym;
   }
-  return Math.max(startYM + 12, 2025 * 12 + 11);
+  return Math.max(startYM + 12, LATEST_YEAR * 12 + 11);
 }
 
-export function getPlaybookCandidates(milestones: Milestone[]): PlaybookCandidate[] {
+export function getPlaybookCandidates(milestones: MilestoneLite[]): PlaybookCandidate[] {
   return milestones
     .filter((m) => (m.opportunity.returnMultiple ?? 0) > 1)
     .map((m) => {

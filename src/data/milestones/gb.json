@@ -567,7 +567,8 @@
       }
     ],
     "verified": true,
-    "verifiedNote": "Date (16 Sept 1992), Soros's ~$10bn position and ~$1bn profit confirmed via contemporary NYT report and Wikipedia/Investopedia summaries."
+    "verifiedNote": "Date (16 Sept 1992), Soros's ~$10bn position and ~$1bn profit confirmed via contemporary NYT report and Wikipedia/Investopedia summaries.",
+    "private": true
   },
   {
     "id": "gb-london-property-boom-1995-2007",
@@ -677,8 +678,8 @@
       "en": "ARM listed on 17 Apr 1998 at 575p, closing 825p on debut — the start of mobile chip giant."
     },
     "description": {
-      "vi": "ARM Holdings, công ty thiết kế vi xử lý tách ra từ Acorn Computers, niêm yết đồng thời trên Sở GDCK London và Nasdaq ngày 17/4/1998 với giá IPO 575p/cổ phiếu (vốn hóa ban đầu 264 triệu bảng). Nhu cầu mạnh đến mức ngân hàng bảo lãnh phải nâng giá chào bán 3 lần; giá đóng cửa ngày đầu đạt 825p, tăng 250p (~43%). Đến tháng 2/2000, cổ phiếu đạt đỉnh 1010p trước khi bong bóng dot-com sụp đổ.",
-      "en": "ARM Holdings, a chip-design spin-off from Acorn Computers, listed simultaneously on the London Stock Exchange and Nasdaq on 17 April 1998 at an IPO price of 575p per share (initial market cap £264m). Demand was so strong the underwriters raised the price three times; the stock closed day one at 825p, up 250p (~43%). By February 2000 shares peaked at 1010p before the dot-com bubble burst."
+      "vi": "ARM Holdings, công ty thiết kế vi xử lý tách ra từ Acorn Computers, niêm yết đồng thời trên Sở GDCK London và Nasdaq ngày 17/4/1998 với giá IPO 575p/cổ phiếu (vốn hóa ban đầu 264 triệu bảng). Nhu cầu mạnh đến mức ngân hàng bảo lãnh phải nâng giá chào bán 3 lần; giá đóng cửa ngày đầu đạt 825p, tăng 250p (~43%). Đến tháng 2/2000, cổ phiếu đạt đỉnh 1010p (đã điều chỉnh chia tách; tính theo cùng cơ sở, giá IPO 575p tương đương khoảng 43p) trước khi bong bóng dot-com sụp đổ.",
+      "en": "ARM Holdings, a chip-design spin-off from Acorn Computers, listed simultaneously on the London Stock Exchange and Nasdaq on 17 April 1998 at an IPO price of 575p per share (initial market cap £264m). Demand was so strong the underwriters raised the price three times; the stock closed day one at 825p, up 250p (~43%). By February 2000 shares peaked at 1010p (split-adjusted; on the same basis the 575p IPO price equals roughly 43p) before the dot-com bubble burst."
     },
     "opportunity": {
       "asset": {
@@ -698,11 +699,11 @@
         "en": "Sell near the dot-com peak in Feb 2000 at around 1010p, before the stock fell over 60% in 2002"
       },
       "estimatedReturn": {
-        "vi": "Khoảng +76% từ IPO đến đỉnh (575p -> 1010p) trong chưa đầy 2 năm",
-        "en": "About +76% from IPO to peak (575p to 1010p) in under two years"
+        "vi": "Khoảng 23 lần từ giá IPO đã điều chỉnh chia tách (~43p) lên đỉnh 1010p tháng 2/2000, trong chưa đầy 2 năm",
+        "en": "About 23x from the split-adjusted IPO price (~43p) to the Feb 2000 peak of 1010p, in under two years"
       },
-      "returnMultiple": 1.76,
-      "entryPrice": 5.75,
+      "returnMultiple": 23.5,
+      "entryPrice": 0.43,
       "exitPrice": 10.1,
       "priceCurrency": "GBP",
       "exitDate": "2000-02",
@@ -757,7 +758,7 @@
       }
     ],
     "verified": true,
-    "verifiedNote": "IPO price 575p, day-one close 825p, Feb 2000 peak 1010p confirmed via The Times and Motley Fool historical accounts."
+    "verifiedNote": "IPO price 575p and day-one close 825p confirmed via The Times and Motley Fool. Motley Fool (2013) states splits make the 575p IPO price equivalent to ~43p and gives the Feb 2000 peak as 1010p on that split-adjusted basis; entry/exit here use that basis (0.43 -> 10.10 GBP, ~23x)."
   },
   {
     "id": "gb-browns-bottom-gold-1999",
@@ -1221,8 +1222,8 @@
         "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-11728/"
       },
       {
-        "title": "Reuters 2008: Bailout to take big stakes in RBS and HBOS",
-        "url": "https://www.reuters.com/article/markets/wealth/bailout-to-take-big-stakes-in-rbs-and-hbos-idUSLNE49800E/"
+        "title": "Wikipedia — 2008 United Kingdom bank rescue package",
+        "url": "https://en.wikipedia.org/wiki/2008_United_Kingdom_bank_rescue_package"
       }
     ],
     "verified": true,
@@ -1550,7 +1551,7 @@
       },
       "returnMultiple": 1.43,
       "entryPrice": 11.89,
-      "exitPrice": 17.0,
+      "exitPrice": 17,
       "priceCurrency": "GBP",
       "exitDate": "2016-09",
       "risk": "medium",
@@ -2089,11 +2090,11 @@
       "en": "Barclays Fined for Rigging Libor"
     },
     "summary": {
-      "vi": "Một ngày sau án phạt Libor, cổ phiếu Barclays rơi 15,5% từ 196p xuống 165,6p, xoá hơn 3 tỷ GBP vốn hoá.",
+      "vi": "Một ngày sau án phạt Libor, cổ phiếu Barclays rơi 15,5% từ 196p xuống 165,6p, xóa hơn 3 tỷ GBP vốn hóa.",
       "en": "The day after its Libor penalty, Barclays shares fell 15.5% from 196p to 165.6p, wiping more than GBP 3bn off its value."
     },
     "description": {
-      "vi": "Ngày 27/6/2012, Cơ quan Dịch vụ Tài chính Anh (FSA) phạt Barclays 59,5 triệu GBP, mức phạt lớn nhất trong lịch sử FSA lúc đó. Cùng ngày, CFTC của Mỹ phạt thêm 200 triệu USD vì ngân hàng này đã tìm cách thao túng và báo cáo sai lãi suất Libor và Euribor. Tổng cộng Barclays phải trả khoảng 290 triệu GBP. Hồ sơ cho thấy các trader phái sinh đã nhờ bộ phận báo giá chỉnh con số Libor để có lợi cho vị thế của mình. Trong khủng hoảng 2007-2009, ngân hàng còn cố tình báo Libor thấp hơn thực tế để trông khoẻ mạnh hơn. Phiên 28/6/2012, cổ phiếu Barclays mất 15,53%, rơi từ khoảng 196p xuống 165,6p, tức hơn 3,2 tỷ GBP vốn hoá bốc hơi trong một phiên. Chủ tịch Marcus Agius và CEO Bob Diamond lần lượt từ chức vào đầu tháng 7.",
+      "vi": "Ngày 27/6/2012, Cơ quan Dịch vụ Tài chính Anh (FSA) phạt Barclays 59,5 triệu GBP, mức phạt lớn nhất trong lịch sử FSA lúc đó. Cùng ngày, CFTC của Mỹ phạt thêm 200 triệu USD vì ngân hàng này đã tìm cách thao túng và báo cáo sai lãi suất Libor và Euribor. Tổng cộng Barclays phải trả khoảng 290 triệu GBP. Hồ sơ cho thấy các trader phái sinh đã nhờ bộ phận báo giá chỉnh con số Libor để có lợi cho vị thế của mình. Trong khủng hoảng 2007-2009, ngân hàng còn cố tình báo Libor thấp hơn thực tế để trông khoẻ mạnh hơn. Phiên 28/6/2012, cổ phiếu Barclays mất 15,53%, rơi từ khoảng 196p xuống 165,6p, tức hơn 3,2 tỷ GBP vốn hóa bốc hơi trong một phiên. Chủ tịch Marcus Agius và CEO Bob Diamond lần lượt từ chức vào đầu tháng 7.",
       "en": "On 27 June 2012 the UK Financial Services Authority fined Barclays GBP 59.5m, its largest fine ever at the time, and the US CFTC added a USD 200m penalty for attempted manipulation and false reporting of Libor and Euribor; the total came to about GBP 290m. The findings showed derivatives traders asking rate submitters to nudge Libor in favour of their positions, and the bank lowballing its Libor submissions during the 2007-2009 crisis to look healthier. On 28 June 2012 Barclays shares fell 15.53%, from about 196p to 165.6p, wiping out more than GBP 3.2bn in one session. Chairman Marcus Agius and CEO Bob Diamond both resigned in early July."
     },
     "opportunity": {
@@ -2118,9 +2119,9 @@
         "en": "Avoids a roughly 15.5% loss in a single session"
       },
       "returnMultiple": 0.8447,
-      "entryPrice": 196.05,
-      "exitPrice": 165.6,
-      "priceCurrency": "GBp",
+      "entryPrice": 1.9605,
+      "exitPrice": 1.656,
+      "priceCurrency": "GBP",
       "exitDate": "2012-06-28",
       "risk": "medium",
       "capital": "medium"
@@ -2158,7 +2159,7 @@
       ],
       "answer": 1,
       "explanation": {
-        "vi": "Theo The Telegraph, Barclays đóng cửa giảm 15,53% xuống 165,6p, mất khoảng 3,2 tỷ GBP vốn hoá.",
+        "vi": "Theo The Telegraph, Barclays đóng cửa giảm 15,53% xuống 165,6p, mất khoảng 3,2 tỷ GBP vốn hóa.",
         "en": "The Telegraph reported Barclays closed down 15.53% at 165.6p, losing about GBP 3.2bn in market value."
       }
     },
@@ -2197,7 +2198,7 @@
       "en": "Tesco admitted overstating its profit guidance by GBP 250m; the shares fell 11.6% to 203p, an 11-year low."
     },
     "description": {
-      "vi": "Ngày 29/8/2014, Tesco công bố dự báo lợi nhuận nửa năm khoảng 1,1 tỷ GBP. Trước giờ mở cửa ngày 22/9/2014, CEO mới Dave Lewis thừa nhận con số này đã bị thổi phồng hơn 250 triệu GBP. Nguyên nhân là thu nhập từ nhà cung cấp được ghi nhận sớm và chi phí bị ghi lùi. Bốn lãnh đạo bị đình chỉ, và cổ phiếu đóng cửa giảm 11,6% xuống 203p, mức thấp nhất từ năm 2003, xoá gần 2,2 tỷ GBP vốn hoá. Năm 2017, Tesco Stores ký thoả thuận hoãn truy tố (DPA) với Văn phòng Chống gian lận nghiêm trọng (SFO) và nộp phạt 129 triệu GBP. Cơ quan FCA cũng kết luận Tesco đã phạm tội lạm dụng thị trường qua bản cập nhật ngày 29/8 và buộc công ty bồi thường cho nhà đầu tư đã mua cổ phiếu từ 29/8 đến 19/9/2014. Ba cựu lãnh đạo bị đưa ra xét xử nhưng không ai bị kết án.",
+      "vi": "Ngày 29/8/2014, Tesco công bố dự báo lợi nhuận nửa năm khoảng 1,1 tỷ GBP. Trước giờ mở cửa ngày 22/9/2014, CEO mới Dave Lewis thừa nhận con số này đã bị thổi phồng hơn 250 triệu GBP. Nguyên nhân là thu nhập từ nhà cung cấp được ghi nhận sớm và chi phí bị ghi lùi. Bốn lãnh đạo bị đình chỉ, và cổ phiếu đóng cửa giảm 11,6% xuống 203p, mức thấp nhất từ năm 2003, xóa gần 2,2 tỷ GBP vốn hóa. Năm 2017, Tesco Stores ký thoả thuận hoãn truy tố (DPA) với Văn phòng Chống gian lận nghiêm trọng (SFO) và nộp phạt 129 triệu GBP. Cơ quan FCA cũng kết luận Tesco đã phạm tội lạm dụng thị trường qua bản cập nhật ngày 29/8 và buộc công ty bồi thường cho nhà đầu tư đã mua cổ phiếu từ 29/8 đến 19/9/2014. Ba cựu lãnh đạo bị đưa ra xét xử nhưng không ai bị kết án.",
       "en": "On 29 August 2014 Tesco guided to first-half trading profit of about GBP 1.1bn. Before the market opened on 22 September 2014, new CEO Dave Lewis admitted that figure was overstated by more than GBP 250m because supplier income had been booked early and costs accrued late. Four executives were suspended and the shares closed 11.6% lower at 203p, the lowest since 2003, wiping almost GBP 2.2bn off the company. In 2017 Tesco Stores agreed a deferred prosecution agreement with the Serious Fraud Office and paid a GBP 129m fine, and the FCA found Tesco had committed market abuse through the 29 August update, ordering compensation for investors who bought between 29 August and 19 September 2014. Three former executives were tried and none was convicted."
     },
     "opportunity": {
@@ -2222,9 +2223,9 @@
         "en": "Avoids an 11.6% one-day loss; the shares kept struggling for months afterwards"
       },
       "returnMultiple": 0.884,
-      "entryPrice": 229.6,
-      "exitPrice": 203,
-      "priceCurrency": "GBp",
+      "entryPrice": 2.296,
+      "exitPrice": 2.03,
+      "priceCurrency": "GBP",
       "exitDate": "2014-09-22",
       "risk": "medium",
       "capital": "medium"
@@ -2262,7 +2263,7 @@
       ],
       "answer": 1,
       "explanation": {
-        "vi": "Tesco xác nhận khoản thổi phồng khoảng 250 triệu GBP. Con số 1,1 tỷ GBP là dự báo lợi nhuận sai, còn 2,2 tỷ GBP là phần vốn hoá bị xoá.",
+        "vi": "Tesco xác nhận khoản thổi phồng khoảng 250 triệu GBP. Con số 1,1 tỷ GBP là dự báo lợi nhuận sai, còn 2,2 tỷ GBP là phần vốn hóa bị xóa.",
         "en": "Tesco confirmed an overstatement of about GBP 250m; GBP 1.1bn was the false guidance and GBP 2.2bn the market value wiped out."
       }
     },

@@ -18,7 +18,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "Private business licenses / small trading",
+        "vi": "Giấy phép kinh doanh tư nhân / buôn bán nhỏ",
         "en": "Private business licenses / small trading"
       },
       "action": {
@@ -89,7 +89,7 @@
   {
     "id": "vn-phu-my-hung-land",
     "country": "vn",
-    "date": "1993-01-01",
+    "date": "1993",
     "category": "real-estate",
     "title": {
       "vi": "Đất Phú Mỹ Hưng từ đầm lầy thành “Phố nhà giàu”",
@@ -446,7 +446,7 @@
   {
     "id": "vn-mobile-phone-boom",
     "country": "vn",
-    "date": "2000-01-01",
+    "date": "2000",
     "category": "technology",
     "title": {
       "vi": "Bùng nổ điện thoại di động đầu những năm 2000",
@@ -917,8 +917,8 @@
         "en": "Before 13 Dec 2006 (OTC market) or right at the listing session."
       },
       "estimatedReturn": {
-        "vi": "Giá OTC từng quanh 22.000đ/CP trước khi vọt lên trên 400.000đ ngay phiên đầu — tăng hàng chục lần với người mua từ OTC sớm.",
-        "en": "OTC price was around VND 22,000/share before jumping above VND 400,000 on day one — tens of times gains for early OTC buyers."
+        "vi": "Giá tham chiếu 160.000đ chưa bao giờ khớp được — nhà đầu tư nhỏ lẻ sớm nhất chỉ mua được quanh 400.000đ ngay phiên đầu; cổ phiếu lên khoảng 460.000đ cuối năm 2006 (+15%) và còn lập đỉnh cao hơn đầu 2007.",
+        "en": "The VND 160,000 reference price was never tradeable — a retail buyer could first get in at about VND 400,000 on day one; the stock reached about VND 460,000 by year-end 2006 (+15%) and peaked higher in early 2007."
       },
       "risk": "high",
       "capital": "medium",
@@ -926,11 +926,11 @@
         "vi": "Trong vài tuần sau khi niêm yết, trước khi thị trường điều chỉnh năm 2008.",
         "en": "Within weeks of listing, before the 2008 market correction."
       },
-      "returnMultiple": 2.5,
-      "entryPrice": 160000,
-      "exitPrice": 400000,
+      "returnMultiple": 1.15,
+      "entryPrice": 400000,
+      "exitPrice": 460000,
       "priceCurrency": "VND",
-      "exitDate": "2007-02"
+      "exitDate": "2006-12"
     },
     "insiderTip": {
       "vi": "Biết trước FPT sẽ là \"cổ phiếu quốc dân\" của cơn sốt 2006-2007 và tăng kịch trần ngay phiên đầu, nên gom cổ phiếu OTC từ nhiều tháng trước khi niêm yết.",
@@ -980,7 +980,7 @@
       }
     ],
     "verified": true,
-    "verifiedNote": "Confirmed via Vietstock (first trading day 13 Dec 2006, price VND 400,000) and FHSC article (reference price VND 160,000, +150% day one)."
+    "verifiedNote": "Confirmed via Vietstock (first trading day 13 Dec 2006, price VND 400,000) and FHSC article (reference price VND 160,000, +150% day one). Entry uses the day-one price actually buyable (400,000), exit the year-end 2006 level (~460,000) cited in the description."
   },
   {
     "id": "vn-wto-accession-2007",
@@ -1066,8 +1066,8 @@
         "url": "https://www.wto.org/English/thewto_e/acc_e/a1_vietnam_e.htm"
       },
       {
-        "title": "Reuters: Vietnam will become WTO's 150th member in January",
-        "url": "https://www.reuters.com/article/world/vietnam-will-become-wtos-150th-member-in-january-idUSL12638416/"
+        "title": "WTO press release — General Council approves Viet Nam's membership (7 Nov 2006)",
+        "url": "https://www.wto.org/english/news_e/pres06_e/pr455_e.htm"
       }
     ],
     "verified": true,
@@ -1200,15 +1200,13 @@
         "en": "19 Sep 2007, the listing date."
       },
       "estimatedReturn": {
-        "vi": "Vốn hóa nhóm cổ phiếu Vingroup (VIC, VHM, VRE, VPL) tăng từ 800 tỷ lên gần 580.000 tỷ đồng theo thời gian — hàng trăm lần trong gần 2 thập kỷ.",
-        "en": "The combined market cap of the Vingroup family (VIC, VHM, VRE, VPL) grew from VND 800 billion to nearly VND 580 trillion over time — hundreds of times over almost two decades."
+        "vi": "Vốn hóa nhóm cổ phiếu Vingroup (VIC, VHM, VRE, VPL) tăng từ 800 tỷ lên gần 580.000 tỷ đồng — nhưng con số này phản ánh các đợt niêm yết công ty con và phát hành thêm cổ phiếu, không phải lợi nhuận của một cổ đông VIC, nên không đưa ra hệ số nhân trên mỗi cổ phiếu ở đây.",
+        "en": "The combined market cap of the Vingroup family (VIC, VHM, VRE, VPL) grew from VND 800 billion to nearly VND 580 trillion — but that reflects spin-off listings and share issuance, not a single VIC shareholder's return, so no per-share multiple is given here."
       },
       "risk": "medium",
       "capital": "medium",
       "entryPrice": 125000,
-      "priceCurrency": "VND",
-      "returnMultiple": 35,
-      "exitDate": "2018-04"
+      "priceCurrency": "VND"
     },
     "insiderTip": {
       "vi": "Biết trước ông Phạm Nhật Vượng sẽ xây dựng Vingroup thành tập đoàn tư nhân lớn nhất Việt Nam và sau này tách niêm yết Vinhomes, Vincom Retail, Vinpearl thành các cổ phiếu riêng, giúp nắm giữ VIC xuyên suốt thay vì bán sớm.",
@@ -1354,7 +1352,7 @@
   {
     "id": "vn-inflation-crisis-2008",
     "country": "vn",
-    "date": "2008-01-01",
+    "date": "2008",
     "category": "macro",
     "title": {
       "vi": "Khủng hoảng lạm phát 2008: CPI vọt lên 23%",
@@ -1441,7 +1439,7 @@
   {
     "id": "vn-gold-surge-2008-2011",
     "country": "vn",
-    "date": "2008-01-01",
+    "date": "2008",
     "category": "commodities",
     "title": {
       "vi": "Vàng SJC từ 17 triệu lên 49 triệu đồng/lượng (2008-2011)",
@@ -1633,7 +1631,7 @@
   {
     "id": "vn-ecommerce-boom",
     "country": "vn",
-    "date": "2010-03-01",
+    "date": "2010-03",
     "category": "business",
     "title": {
       "vi": "Tiki, Lazada, Shopee khởi động cuộc đua thương mại điện tử",
@@ -1720,7 +1718,7 @@
   {
     "id": "vn-real-estate-slump-2011-2013",
     "country": "vn",
-    "date": "2011-01-01",
+    "date": "2011",
     "category": "real-estate",
     "title": {
       "vi": "Đóng băng bất động sản 2011-2013: cơ hội mua đáy",
@@ -1760,7 +1758,7 @@
       "entryPrice": 13500000,
       "exitPrice": 27000000,
       "priceCurrency": "VND",
-      "returnMultiple": 2.0,
+      "returnMultiple": 2,
       "exitDate": "2018-12"
     },
     "insiderTip": {
@@ -1931,13 +1929,11 @@
         "en": "14 Jul 2014, the listing date."
       },
       "estimatedReturn": {
-        "vi": "MWG tăng giá nhiều lần trong thập kỷ sau nhờ mở rộng mạng lưới cửa hàng từ vài trăm lên hàng nghìn điểm bán trên toàn quốc.",
-        "en": "MWG shares multiplied many times over the following decade as the store network grew from a few hundred to thousands of outlets nationwide."
+        "en": "MWG shares multiplied many times over the following decade as the store network grew from a few hundred to thousands of outlets nationwide. (~12× from the July 2014 listing to the April 2022 peak, split-adjusted; raw listing prices omitted because of later stock dividends.)",
+        "vi": "MWG tăng giá nhiều lần trong thập kỷ sau nhờ mở rộng mạng lưới cửa hàng từ vài trăm lên hàng nghìn điểm bán trên toàn quốc. (~12 lần từ khi niêm yết 7/2014 đến đỉnh 4/2022, đã điều chỉnh chia tách; không ghi giá gốc vì nhiều lần trả cổ tức bằng cổ phiếu.)"
       },
       "risk": "medium",
       "capital": "medium",
-      "entryPrice": 68000,
-      "exitPrice": 81500,
       "priceCurrency": "VND",
       "returnMultiple": 12,
       "exitDate": "2022-04"
@@ -2074,6 +2070,10 @@
       {
         "title": "Đồng Nai: Dấu mốc lịch sử công trình thế kỷ",
         "url": "https://dongnai.gov.vn/vi/news/San-bay-Long-Thanh/dau-moc-lich-su-tai-cong-trinh-the-ky-cua-dat-nuoc-58194.html"
+      },
+      {
+        "title": "Wikipedia — Long Thanh International Airport",
+        "url": "https://en.wikipedia.org/wiki/Long_Thanh_International_Airport"
       }
     ],
     "verified": true,
@@ -2274,7 +2274,7 @@
   {
     "id": "vn-crypto-boom-vietnam",
     "country": "vn",
-    "date": "2021-01-01",
+    "date": "2021",
     "category": "crypto",
     "title": {
       "vi": "Axie Infinity và cơn sốt Play-to-Earn “Made in Vietnam”",
@@ -2302,8 +2302,8 @@
         "en": "2020 - early 2021, before the price exploded."
       },
       "estimatedReturn": {
-        "vi": "AXS tăng từ vài USD lên đỉnh hơn 150 USD vào tháng 10/2021 — tăng hàng chục lần trong chưa đầy 2 năm cho người mua sớm.",
-        "en": "AXS rose from a few dollars to a peak above $150 in October 2021 — tens of times gains in under two years for early buyers."
+        "vi": "AXS tăng từ vài USD lên đỉnh lịch sử khoảng 165 USD ngày 6/11/2021 — tăng hàng chục lần trong chưa đầy 2 năm cho người mua sớm.",
+        "en": "AXS rose from a few dollars to an all-time high of about $165 on 6 November 2021 — tens of times gains in under two years for early buyers."
       },
       "risk": "high",
       "capital": "low",
@@ -2348,8 +2348,8 @@
       ],
       "answer": 1,
       "explanation": {
-        "vi": "Axie Infinity, phát triển bởi Sky Mavis có trụ sở tại TP.HCM, đạt đỉnh hơn 2,8 triệu người dùng hằng ngày năm 2021 và token AXS vượt 150 USD vào tháng 10/2021.",
-        "en": "Axie Infinity, developed by HCMC-based Sky Mavis, peaked at over 2.8 million daily users in 2021, with the AXS token topping $150 in October 2021."
+        "vi": "Axie Infinity, phát triển bởi Sky Mavis có trụ sở tại TP.HCM, đạt đỉnh hơn 2,8 triệu người dùng hằng ngày năm 2021 và token AXS lập đỉnh khoảng 165 USD ngày 6/11/2021.",
+        "en": "Axie Infinity, developed by HCMC-based Sky Mavis, peaked at over 2.8 million daily users in 2021, with the AXS token peaking at about $165 on 6 November 2021."
       }
     },
     "sources": [
@@ -2363,7 +2363,7 @@
       }
     ],
     "verified": true,
-    "verifiedNote": "Confirmed via PHS and Tiger Research: AXS peaked >$150 Oct 2021, Axie reached 2.8M daily users, Ronin hack March 2022 lost over $620M."
+    "verifiedNote": "Confirmed via PHS and Tiger Research: AXS all-time high ~$165 on 6 Nov 2021 (CoinMarketCap), Axie reached 2.8M daily users, Ronin hack March 2022 lost over $620M."
   },
   {
     "id": "vn-vinfast-nasdaq-2023",
@@ -2409,7 +2409,7 @@
       "entryPrice": 10,
       "exitPrice": 37.06,
       "priceCurrency": "USD",
-      "exitDate": "2023-08-28"
+      "exitDate": "2023-08-15"
     },
     "insiderTip": {
       "vi": "Biết trước đợt tăng giá là hiện tượng thanh khoản mỏng, đầu cơ ngắn hạn (chỉ 99% cổ phần vẫn do ông Phạm Nhật Vượng nắm giữ, free-float cực thấp) và sẽ sụp đổ nhanh trong vài tuần giúp bán chốt lời ngay lập tức thay vì tin vào định giá 85 tỷ USD là bền vững.",
@@ -2464,7 +2464,7 @@
   {
     "id": "vn-gold-surge-2024",
     "country": "vn",
-    "date": "2024-05-01",
+    "date": "2024-05",
     "category": "commodities",
     "title": {
       "vi": "Vàng SJC lập đỉnh lịch sử 92 triệu đồng/lượng",
@@ -2571,8 +2571,8 @@
       "en": "FLC shares fell from VND 24,100 to VND 3,570 after its chairman's undisclosed share dump and arrest for market manipulation."
     },
     "description": {
-      "vi": "Sau khi FLC được đẩy từ 14.650 đồng (1/12/2021) lên đỉnh 22.550-24.100 đồng đầu tháng 1/2022, ngày 10/1/2022 Chủ tịch Trịnh Văn Quyết bán 74,8 triệu cổ phiếu FLC mà không công bố thông tin trước; HoSE hủy giao dịch này vào tối 11/1 và UBCKNN phạt ông 1,5 tỷ đồng ngày 18/1. Ngày 29/3/2022, Bộ Công an khởi tố, bắt tạm giam ông Quyết về tội thao túng thị trường chứng khoán và che giấu thông tin. FLC bị đình chỉ giao dịch ngày 8/9/2022 ở mức 3.570 đồng và bị hủy niêm yết bắt buộc ngày 14/2/2023, khiến hơn 64.700 cổ đông mắc kẹt.",
-      "en": "After FLC was pushed from VND 14,650 (1 Dec 2021) to a peak of VND 22,550-24,100 in early January 2022, chairman Trinh Van Quyet sold 74.8 million FLC shares on 10 January 2022 without the required prior disclosure; HoSE cancelled the trade on the evening of 11 January and the State Securities Commission fined him VND 1.5 billion on 18 January. On 29 March 2022 the Ministry of Public Security charged and detained Quyet for stock-market manipulation and concealing securities information. FLC was suspended from trading on 8 September 2022 at VND 3,570 and forcibly delisted on 14 February 2023, trapping more than 64,700 shareholders."
+      "vi": "Sau khi FLC được đẩy từ 14.650 đồng (1/12/2021) lên đỉnh 22.550-24.100 đồng đầu tháng 1/2022, ngày 10/1/2022 Chủ tịch Trịnh Văn Quyết bán 74,8 triệu cổ phiếu FLC mà không công bố thông tin trước; HoSE hủy giao dịch này vào tối 11/1 và UBCKNN phạt ông 1,5 tỷ đồng ngày 18/1. Ngày 29/3/2022, Bộ Công an khởi tố, bắt tạm giam ông Quyết về tội thao túng thị trường chứng khoán và che giấu thông tin. FLC bị đình chỉ giao dịch từ ngày 9/9/2022 ở mức 3.570 đồng và bị hủy niêm yết bắt buộc ngày 14/2/2023, khiến hơn 64.700 cổ đông mắc kẹt.",
+      "en": "After FLC was pushed from VND 14,650 (1 Dec 2021) to a peak of VND 22,550-24,100 in early January 2022, chairman Trinh Van Quyet sold 74.8 million FLC shares on 10 January 2022 without the required prior disclosure; HoSE cancelled the trade on the evening of 11 January and the State Securities Commission fined him VND 1.5 billion on 18 January. On 29 March 2022 the Ministry of Public Security charged and detained Quyet for stock-market manipulation and concealing securities information. FLC was suspended from trading from 9 September 2022 at VND 3,570 and forcibly delisted on 14 February 2023, trapping more than 64,700 shareholders."
     },
     "opportunity": {
       "asset": {
@@ -2592,14 +2592,14 @@
         "en": "The morning of 10 January 2022, before the 74.8 million-share undisclosed sale hit the market"
       },
       "estimatedReturn": {
-        "vi": "Mất khoảng 85% giá trị đến khi bị đình chỉ giao dịch (8/9/2022); lãi lớn nếu bán khống",
-        "en": "Lost about 85% of value by the trading suspension (8 Sep 2022); large gains if shorted"
+        "vi": "Mất khoảng 85% giá trị đến khi bị đình chỉ giao dịch (9/9/2022); lãi lớn nếu bán khống",
+        "en": "Lost about 85% of value by the trading suspension (9 Sep 2022); large gains if shorted"
       },
       "returnMultiple": 0.1481,
       "entryPrice": 24100,
       "exitPrice": 3570,
       "priceCurrency": "VND",
-      "exitDate": "2022-09-08",
+      "exitDate": "2022-09-09",
       "risk": "high",
       "capital": "medium"
     },
@@ -2659,7 +2659,7 @@
       }
     ],
     "verified": true,
-    "verifiedNote": "74.8M-share sale on 10 Jan 2022, 29 Mar 2022 arrest, VND 1.5bn fine and VND 24,100 pre-sale price confirmed by Reuters and Tuoi Tre; VND 14,650->24,050 run-up from Dan Viet; 8 Sep 2022 suspension at VND 3,570 and 14 Feb 2023 delisting from Tien Phong. Exit price is the last traded price at suspension; the stock later moved to UPCoM."
+    "verifiedNote": "74.8M-share sale on 10 Jan 2022, 29 Mar 2022 arrest, VND 1.5bn fine and VND 24,100 pre-sale price confirmed by Reuters and Tuoi Tre; VND 14,650->24,050 run-up from Dan Viet; suspension effective 9 Sep 2022 (HoSE decision dated 8 Sep) at VND 3,570 and 14 Feb 2023 delisting from Tien Phong. Exit price is the last traded price at suspension; the stock later moved to UPCoM."
   },
   {
     "id": "vn-sjc-gold-premium-collapse-2024",
@@ -3184,7 +3184,7 @@
   {
     "id": "vn-thu-thiem-land-boom-2002",
     "country": "vn",
-    "date": "2002",
+    "date": "2015",
     "category": "real-estate",
     "title": {
       "vi": "Bán đảo Thủ Thiêm: từ đầm lầy giải tỏa đến phiên đấu giá 2,43 tỷ đồng/m²",
@@ -3288,7 +3288,7 @@
   {
     "id": "vn-phu-quoc-land-fever-2014",
     "country": "vn",
-    "date": "2012-12",
+    "date": "2014-12",
     "category": "real-estate",
     "title": {
       "vi": "Sốt đất Phú Quốc: sân bay quốc tế, kỳ vọng đặc khu và cú phanh tháng 6/2018",
@@ -3320,12 +3320,10 @@
         "en": "March-April 2018 at the peak of the fever; never hold past May 2018, when Kien Giang halted transactions, and June 2018, when the SEZ law was postponed."
       },
       "estimatedReturn": {
-        "vi": "Đất nền tăng khoảng 10 lần trong 3 năm theo Hội Môi giới BĐS; ví dụ một mảnh 1 công từ 4 tỷ (11/2017) lên 20 tỷ đồng (4/2018), gấp 5 lần trong 5 tháng.",
-        "en": "Land plots rose about 10x over three years per the Vietnam Association of Realtors; one 1,000 m² plot went from VND 4 billion (Nov 2017) to VND 20 billion (Apr 2018), 5x in five months."
+        "vi": "Đất nền tăng khoảng 10 lần trong khoảng 3 năm (cuối 2014 đến đỉnh tháng 4/2018) theo Hội Môi giới BĐS; ví dụ một mảnh 1.000 m² từ 4 tỷ (11/2017) lên 20 tỷ đồng (4/2018), gấp 5 lần trong 5 tháng.",
+        "en": "Land plots rose about 10x over roughly three years (late 2014 to the April 2018 peak) per the Vietnam Association of Realtors; one 1,000 m² plot went from VND 4 billion (Nov 2017) to VND 20 billion (Apr 2018), 5x in five months."
       },
-      "returnMultiple": 5,
-      "entryPrice": 4000000000,
-      "exitPrice": 20000000000,
+      "returnMultiple": 10,
       "priceCurrency": "VND",
       "exitDate": "2018-04",
       "risk": "high",
@@ -3387,7 +3385,7 @@
       }
     ],
     "verified": true,
-    "verifiedNote": "Airport opening 2 Dec 2012 confirmed by SGGP, Vietnam Tourism and Wikipedia; 11 Jun 2018 postponement (85.63%) by Thanh Tra, Bao Ve Phap Luat and BBC Vietnamese; May 2018 Kien Giang transaction halt and May 2017-Apr 2018 fever window by VietNamNet (EN, Nov 2018). '~10x in 3 years' is the Vietnam Association of Realtors figure via VietNamNet (a broker site also cites ~10x over 5 years). The VND 4bn -> 20bn plot is a single resident's account in Tien Phong (Apr 2018); 20-30% loss sales from VietNamNet (Jan 2021). The id's '2014' refers to the investment wave; the milestone date uses the Dec 2012 airport opening."
+    "verifiedNote": "Airport opening 2 Dec 2012 confirmed by SGGP, Vietnam Tourism and Wikipedia; 11 Jun 2018 postponement (85.63%) by Thanh Tra, Bao Ve Phap Luat and BBC Vietnamese; May 2018 Kien Giang transaction halt and May 2017-Apr 2018 fever window by VietNamNet (EN, Nov 2018). '~10x in 3 years' is the Vietnam Association of Realtors figure via VietNamNet (a broker site also cites ~10x over 5 years). The VND 4bn -> 20bn plot is a single resident's account in Tien Phong (Apr 2018); 20-30% loss sales from VietNamNet (Jan 2021). The milestone date (Dec 2014, Vinpearl's arrival) marks the start of the investment wave; the airport opened Dec 2012. returnMultiple uses the VARS ~10x figure; the single-plot VND 4bn -> 20bn anecdote is not used as entry/exit."
   },
   {
     "id": "vn-net-cafe-volam-boom-2005",

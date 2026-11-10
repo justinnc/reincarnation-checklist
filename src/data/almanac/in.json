@@ -488,7 +488,7 @@
     "sources": [
       {
         "title": "Reuters - Fuel prices in India's capital since 1989",
-        "url": "https://www.reuters.com/article/world/us/fuel-prices-in-indias-capital-since-1989-idUSSGE66F08P/"
+        "url": "https://web.archive.org/web/2023/https://www.reuters.com/article/world/us/fuel-prices-in-indias-capital-since-1989-idUSSGE66F08P/"
       },
       {
         "title": "PIB - Average Cost of Petroleum Products (Lok Sabha reply, Delhi FY averages 2016-17 to 2021-22)",
@@ -513,7 +513,7 @@
     },
     "quality": "B",
     "note": {
-      "vi": "McDonald's Ấn Độ không bán Big Mac (thịt bò) vì lý do tôn giáo/văn hoá; The Economist dùng Chicken Maharaja Mac làm vật thay thế gần nhất trong Big Mac Index từ 2011. Vì không cùng loại nguyên liệu (gà thay vì bò) nên so sánh xuyên quốc gia kém chính xác hơn các nước khác trong chỉ số.",
+      "vi": "McDonald's Ấn Độ không bán Big Mac (thịt bò) vì lý do tôn giáo/văn hóa; The Economist dùng Chicken Maharaja Mac làm vật thay thế gần nhất trong Big Mac Index từ 2011. Vì không cùng loại nguyên liệu (gà thay vì bò) nên so sánh xuyên quốc gia kém chính xác hơn các nước khác trong chỉ số.",
       "en": "McDonald's India does not sell the beef Big Mac for religious/cultural reasons; The Economist has used the Chicken Maharaja Mac as the closest substitute in the Big Mac Index since 2011. Because the patty is chicken rather than beef, cross-country comparisons for India are less exact than for other countries in the index."
     },
     "kind": "point",

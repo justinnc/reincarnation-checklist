@@ -407,14 +407,14 @@
         "en": "Consider trimming near the February 2021 peak (~2,628 yuan) before China's baijiu/luxury-liquor demand cooled."
       },
       "estimatedReturn": {
-        "vi": "Từ 31,39 NDT (2001) lên khoảng 1.453 NDT hiện tại — hơn 46 lần trong khoảng hai thập kỷ.",
-        "en": "From 31.39 yuan (2001) to about 1,453 yuan currently — more than 46x over roughly two decades."
+        "vi": "Từ giá IPO 31,39 NDT lên đỉnh đóng cửa 2.627,88 NDT tháng 2/2021 — khoảng 84 lần theo giá thô (chưa điều chỉnh cổ phiếu thưởng và cổ tức, vốn khiến lợi nhuận thực còn cao hơn).",
+        "en": "From the 31.39 yuan IPO price to the 2,627.88 yuan peak close in February 2021 — about 84x on raw prices (not adjusted for bonus shares and dividends, which make the real return higher)."
       },
       "entryPrice": 31.39,
-      "exitPrice": 1453.0,
+      "exitPrice": 2627.88,
       "priceCurrency": "CNY",
-      "exitDate": "2026-11-06",
-      "returnMultiple": 46.3,
+      "exitDate": "2021-02",
+      "returnMultiple": 83.7,
       "risk": "medium",
       "capital": "medium"
     },
@@ -466,7 +466,7 @@
       }
     ],
     "verified": true,
-    "verifiedNote": "IPO price 31.39 yuan confirmed via Shenzhen Daily/Moomoo; current price ~1,453 yuan confirmed via Trading Economics/Bloomberg (Nov 2026)."
+    "verifiedNote": "IPO price 31.39 yuan confirmed via Shenzhen Daily/Moomoo; Feb 2021 peak close 2,627.88 yuan per Trading Economics history. Multiple uses raw (non-bonus-adjusted) prices and a fixed past exit date."
   },
   {
     "id": "cn-wto-accession-2001",
@@ -685,13 +685,13 @@
         "en": "Consider trimming near the 2021 peak before Beijing's big-tech regulatory crackdown."
       },
       "estimatedReturn": {
-        "vi": "Cổ phiếu từng đạt HK$159,60 chỉ sau 3 năm (gấp 43 lần giá IPO) trước khi tiếp tục tăng mạnh hơn trong các năm sau.",
-        "en": "The stock hit HK$159.60 within 3 years (43x the IPO price) and climbed much further in the years after."
+        "vi": "Cổ phiếu đạt HK$159,60 (gấp 43 lần giá IPO, tính trước đợt chia tách 2014) vào đầu năm 2010 — chưa đầy 6 năm sau niêm yết — rồi tiếp tục tăng mạnh hơn trong các năm sau.",
+        "en": "The stock reached HK$159.60 (43x the IPO price, pre-2014 split) by early 2010, under six years after listing, and climbed much further in the years after."
       },
       "entryPrice": 3.7,
       "exitPrice": 159.6,
       "priceCurrency": "HKD",
-      "exitDate": "2007",
+      "exitDate": "2010-01",
       "returnMultiple": 43.1,
       "risk": "medium",
       "capital": "medium"
@@ -748,7 +748,7 @@
       }
     ],
     "verified": true,
-    "verifiedNote": "IPO price HK$3.70 confirmed via Tencent IR release; HK$159.60 level (43x) confirmed via SCMP; 2014 5-for-1 split confirmed via Capital.com."
+    "verifiedNote": "IPO price HK$3.70 confirmed via Tencent IR release; HK$159.60 level (43x, pre-split) per SCMP (article dates to early 2010 — the stock ended 2007 near HK$60, so the earlier 'within 3 years' claim was wrong); 2014 5-for-1 split confirmed via Capital.com."
   },
   {
     "id": "cn-baidu-ipo-2005",
@@ -1024,6 +1024,10 @@
       {
         "title": "Wikipedia — 2008 Summer Olympics",
         "url": "https://en.wikipedia.org/wiki/2008_Summer_Olympics"
+      },
+      {
+        "title": "Wikipedia — 2008 Summer Olympics opening ceremony",
+        "url": "https://en.wikipedia.org/wiki/2008_Summer_Olympics_opening_ceremony"
       }
     ],
     "verified": true,
@@ -1122,7 +1126,8 @@
       }
     ],
     "verified": true,
-    "verifiedNote": "Purchase price HK$8/share, 225M shares, HK$1.8B total confirmed via CNBC/FinanceAsia/SCMP; 38x total return confirmed via TradingKey report on full exit."
+    "verifiedNote": "Purchase price HK$8/share, 225M shares, HK$1.8B total confirmed via CNBC/FinanceAsia/SCMP; 38x total return confirmed via TradingKey report on full exit.",
+    "private": true
   },
   {
     "id": "cn-stimulus-2008",
@@ -1295,8 +1300,8 @@
     },
     "sources": [
       {
-        "title": "Reuters — Timeline: China Evergrande's snowballing debt crisis",
-        "url": "http://www.reuters.com/article/china-evergrande-debt-timeline-idUSKBN2GK0IW"
+        "title": "Wikipedia — Evergrande Group",
+        "url": "https://en.wikipedia.org/wiki/Evergrande_Group"
       }
     ],
     "verified": false,
@@ -1528,7 +1533,7 @@
         "en": "Avoided a 43% loss as the index fell from 5,166 to 2,927 points in under three months."
       },
       "entryPrice": 5166.35,
-      "exitPrice": 2927.0,
+      "exitPrice": 2927,
       "priceCurrency": "points",
       "exitDate": "2015-08-26",
       "returnMultiple": 0.567,

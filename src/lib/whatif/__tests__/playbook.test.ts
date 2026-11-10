@@ -3,6 +3,7 @@ import { allMilestones } from "@/lib/data";
 import {
   findOptimalNonOverlappingChain,
   getPlaybookCandidates,
+  isSpeculativeOrPrivate,
   simulatePlaybook,
 } from "../playbook";
 
@@ -29,5 +30,10 @@ describe("playbook compounding engine", () => {
     const overlappingPair = vnCandidates.slice(0, 2).map((c) => c.milestone.id);
     const sim = simulatePlaybook(vnCandidates, overlappingPair, 1_000_000);
     expect(sim.steps).toHaveLength(2);
+  });
+
+  it("flags a private: true milestone as speculative regardless of id", () => {
+    const base = allMilestones.find((m) => !isSpeculativeOrPrivate(m))!;
+    expect(isSpeculativeOrPrivate({ ...base, private: true })).toBe(true);
   });
 });

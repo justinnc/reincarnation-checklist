@@ -2,19 +2,19 @@
   {
     "id": "us-berkshire-hathaway-1980",
     "country": "us",
-    "date": "1980-03-16",
+    "date": "1980",
     "category": "stocks",
     "title": {
-      "vi": "Berkshire Hathaway niêm yết (1980)",
-      "en": "Berkshire Hathaway goes public (1980)"
+      "vi": "Berkshire Hathaway ở mức khoảng 290 USD/cổ phiếu (1980)",
+      "en": "Berkshire Hathaway at about $290 a share (1980)"
     },
     "summary": {
       "vi": "Cổ phiếu Warren Buffett từ 290 USD leo lên 700.000 USD — chưa từng chia tách.",
       "en": "Warren Buffett's stock went from $290 to $700,000 — and has never split."
     },
     "description": {
-      "vi": "Ngày 16/3/1980, Berkshire Hathaway của Warren Buffett chính thức niêm yết cổ phiếu hạng A với giá 290 USD/cổ phiếu. Buffett kiên quyết không bao giờ chia tách cổ phiếu hạng A để khuyến khích nhà đầu tư dài hạn thay vì lướt sóng. Đến tháng 8/2024, cổ phiếu này đã vượt mốc 700.000 USD — mức giá cổ phiếu cao nhất trong lịch sử các công ty đại chúng.",
-      "en": "On March 16, 1980, Warren Buffett's Berkshire Hathaway began publicly trading its Class A shares at $290 each. Buffett has always refused to split the A shares, to discourage short-term trading. By August 2024 that single share had crossed $700,000 — the highest nominal share price of any public company ever."
+      "vi": "Warren Buffett nắm quyền kiểm soát Berkshire Hathaway từ năm 1965 và cổ phiếu công ty đã giao dịch OTC từ thập niên 1960 — không có đợt IPO nào năm 1980. Năm 1980, một cổ phiếu hạng A có thể mua với giá khoảng 290 USD. Buffett kiên quyết không bao giờ chia tách cổ phiếu hạng A để khuyến khích nhà đầu tư dài hạn thay vì lướt sóng. Đến tháng 8/2024, cổ phiếu này đã vượt mốc 700.000 USD — mức giá cổ phiếu cao nhất trong lịch sử các công ty đại chúng.",
+      "en": "Warren Buffett took control of Berkshire Hathaway in 1965 and its shares had traded over the counter since the 1960s — there was no 1980 IPO. In 1980 a single Class A share could be bought for roughly $290. Buffett has always refused to split the A shares, to discourage short-term trading. By August 2024 that single share had crossed $700,000 — the highest nominal share price of any public company ever."
     },
     "opportunity": {
       "asset": {
@@ -84,16 +84,16 @@
     },
     "sources": [
       {
-        "title": "Wikipedia - Berkshire Hathaway",
-        "url": "https://en.wikipedia.org/?title=National_Indemnity_Company"
+        "title": "Berkshire Hathaway — Shareholder Letters (per-share market value table)",
+        "url": "https://www.berkshirehathaway.com/letters/letters.html"
       },
       {
-        "title": "O'Reilly - Berkshire Hathaway Common Stock year-end prices",
-        "url": "https://www.oreilly.com/library/view/warren-buffett-on/9780470502303/9780470502303_berkshire_hathaway_common_stock.html"
+        "title": "Wikipedia — Berkshire Hathaway",
+        "url": "https://en.wikipedia.org/wiki/Berkshire_Hathaway"
       }
     ],
     "verified": true,
-    "verifiedNote": "1980-03-16 IPO date and $290 price confirmed by Wikipedia; $700,000 Aug 2024 price confirmed by Wikipedia (citing the all-time-high share price fact)."
+    "verifiedNote": "There was no 1980 IPO — Berkshire traded OTC since the 1960s (Wikipedia). ~$290 is an approximate early-1980 price level consistent with the per-share market-value series in Berkshire's annual letters; it is a price point, not a listing price. $700,000 Aug 2024 price confirmed by Wikipedia."
   },
   {
     "id": "us-microsoft-ipo-1986",
@@ -684,15 +684,15 @@
         "en": "Never sell — a classic buy-and-hold forever stock."
       },
       "estimatedReturn": {
-        "vi": "10.000 USD thành khoảng 11,5 triệu USD (lợi nhuận ~115.933%), theo Nasdaq.",
-        "en": "$10,000 became about $11.5 million (~115,933% gain), per Nasdaq."
+        "vi": "10.000 USD thành khoảng 11,5 triệu USD (lợi nhuận ~115.933%) tính đến cuối 2022, theo Nasdaq; cổ phiếu còn tăng thêm sau đó.",
+        "en": "$10,000 became about $11.5 million (~115,933% gain) by late 2022, per Nasdaq; the stock has risen further since."
       },
       "returnMultiple": 1150,
       "entryPrice": 18,
       "risk": "low",
       "capital": "low",
       "priceCurrency": "USD",
-      "exitDate": "2024"
+      "exitDate": "2022-12"
     },
     "insiderTip": {
       "vi": "Amazon sẽ gần như phá sản về mặt định giá trong khủng hoảng dot-com (giảm hơn 90% từ đỉnh 1999), nhưng Jeff Bezos sẽ không bao giờ ngừng tái đầu tư — cứ giữ nguyên, đừng bán theo nỗi sợ.",
@@ -1152,8 +1152,8 @@
         "en": "Consider trimming some near the late-2021 peak before the stock's sharp 2022 decline."
       },
       "estimatedReturn": {
-        "vi": "1.000 USD IPO trở thành khoảng 654.000 USD tính đến cuối 2025 (sau 3 lần chia tách cổ phiếu).",
-        "en": "A $1,000 IPO stake grew to about $654,000 by late 2025 (after three stock splits)."
+        "vi": "1.000 USD mua IPO thành khoảng 654.000 USD tại đỉnh tháng 11/2021 (~700 USD/cổ phiếu, sau 2 lần chia tách).",
+        "en": "A $1,000 IPO stake grew to about $654,000 at the November 2021 peak (~$700 a share, after two stock splits)."
       },
       "returnMultiple": 654,
       "entryPrice": 15,
@@ -1210,7 +1210,7 @@
       }
     ],
     "verified": true,
-    "verifiedNote": "IPO date/price confirmed by Netflix's own investor relations press release. The $1,000->$654,000 and three-split figures confirmed by a Yahoo Finance article tied to a specific (later) date."
+    "verifiedNote": "IPO date/price confirmed by Netflix's own investor relations press release. The $1,000->$654,000 figure (Yahoo Finance) corresponds to the ~$700 Nov 2021 peak on a two-split-adjusted basis (IPO $15 / 14 = $1.07)."
   },
   {
     "id": "us-google-ipo-2004",
@@ -1431,8 +1431,8 @@
         "en": "Hold long-term through subsequent iPhone generations."
       },
       "estimatedReturn": {
-        "vi": "Khoảng 57,5 lần (theo giá cổ phiếu Apple hiện tại khoảng 211 USD).",
-        "en": "About 57.5x (based on a recent Apple share price around $211)."
+        "vi": "Khoảng 57,5 lần (theo giá cổ phiếu Apple khoảng 251 USD cuối năm 2024).",
+        "en": "About 57.5x (based on an Apple share price around $251 in late 2024)."
       },
       "returnMultiple": 57.5,
       "entryPrice": 4.36,
@@ -1440,7 +1440,7 @@
       "risk": "low",
       "capital": "low",
       "priceCurrency": "USD",
-      "exitDate": "2024"
+      "exitDate": "2024-12"
     },
     "insiderTip": {
       "vi": "iPhone sẽ định nghĩa lại cả ngành công nghiệp di động, buộc Nokia và BlackBerry suy tàn — doanh thu iPhone sẽ trở thành trụ cột tài chính của Apple suốt nhiều năm.",
@@ -1535,7 +1535,7 @@
       "risk": "medium",
       "capital": "low",
       "priceCurrency": "USD",
-      "exitDate": "2021-12"
+      "exitDate": "2018-03"
     },
     "insiderTip": {
       "vi": "Ngày 10/3/2009, một bức thư nội bộ rò rỉ cho biết Citigroup có lãi đã giúp thị trường tăng vọt 6,4% — đây chính xác là thời điểm 'đáy đã qua', nên mua càng sớm càng tốt quanh mốc 666 điểm.",
@@ -1577,7 +1577,7 @@
     "sources": [
       {
         "title": "Reuters - Wall Street's oldest-ever bull market turns 10",
-        "url": "https://www.reuters.com/article/usa-stocks-bull-idUSL1N20V1RK"
+        "url": "https://web.archive.org/web/2023/https://www.reuters.com/article/usa-stocks-bull-idUSL1N20V1RK"
       },
       {
         "title": "Wikipedia - Closing milestones of the S&P 500",
@@ -1768,7 +1768,7 @@
     "sources": [
       {
         "title": "Reuters - Tesla prices at $17 in upsized IPO",
-        "url": "https://www.reuters.com/article/markets/us/tesla-prices-at-17-in-upsized-ipo-source-idUSN27243875/"
+        "url": "https://web.archive.org/web/2023/https://www.reuters.com/article/markets/us/tesla-prices-at-17-in-upsized-ipo-source-idUSN27243875/"
       },
       {
         "title": "Yahoo Finance - $1,000 in Tesla's 2010 IPO",
@@ -2013,7 +2013,7 @@
       "risk": "medium",
       "capital": "low",
       "priceCurrency": "USD",
-      "exitDate": "2021-12"
+      "exitDate": "2023-03"
     },
     "insiderTip": {
       "vi": "Thị trường sẽ phục hồi cực nhanh (chưa đầy 6 tháng để lập đỉnh mới) nhờ các gói kích thích khổng lồ của Fed — các công ty hưởng lợi từ xu hướng 'ở nhà' (Zoom, Amazon, Netflix, Peloton) sẽ tăng đặc biệt mạnh.",
@@ -2387,7 +2387,7 @@
       "entryPrice": 90.75,
       "exitPrice": 0.26,
       "priceCurrency": "USD",
-      "exitDate": "2001-11-30",
+      "exitDate": "2001-12-02",
       "risk": "high",
       "capital": "medium"
     },
@@ -2651,7 +2651,8 @@
       }
     ],
     "verified": false,
-    "verifiedNote": "Trade details ($58.43 average on 3,928 shares, 27 Dec 2001), the $55.25 to $46 drop by 31 Dec 2001 and the $45,673 avoided loss come only from SEC filings (Stewart and Waksal releases), i.e. a single agency; no independent press source for the share prices was found. Conviction date (5 Mar 2004) and sentence (5 months, $30,000) confirmed by CNN; 2006 settlement (~$195,000) from the SEC."
+    "verifiedNote": "Trade details ($58.43 average on 3,928 shares, 27 Dec 2001), the $55.25 to $46 drop by 31 Dec 2001 and the $45,673 avoided loss come only from SEC filings (Stewart and Waksal releases), i.e. a single agency; no independent press source for the share prices was found. Conviction date (5 Mar 2004) and sentence (5 months, $30,000) confirmed by CNN; 2006 settlement (~$195,000) from the SEC.",
+    "private": true
   },
   {
     "id": "us-tesla-funding-secured-tweet-2018",
@@ -3065,7 +3066,8 @@
       }
     ],
     "verified": true,
-    "verifiedNote": "$800 buyout of the 10% stake confirmed by Snopes, CNBC and Wikipedia; withdrawal date of 12 Apr 1976 from History of Information and CNBC ('12 days'); extra $1,500 on incorporation from Snopes and Wikipedia. IPO on 12 Dec 1980 at $22, 4.6m shares, $29 close and $1.778bn valuation from Cult of Mac (and NYT archive). The ~$178m figure is our own naive calculation (10% x $1.778bn) and ignores dilution from incorporation and pre-IPO investment, so no return multiple or exit price is given; Fortune/Yahoo's 'up to $400bn today' figure is likewise undiluted and hypothetical."
+    "verifiedNote": "$800 buyout of the 10% stake confirmed by Snopes, CNBC and Wikipedia; withdrawal date of 12 Apr 1976 from History of Information and CNBC ('12 days'); extra $1,500 on incorporation from Snopes and Wikipedia. IPO on 12 Dec 1980 at $22, 4.6m shares, $29 close and $1.778bn valuation from Cult of Mac (and NYT archive). The ~$178m figure is our own naive calculation (10% x $1.778bn) and ignores dilution from incorporation and pre-IPO investment, so no return multiple or exit price is given; Fortune/Yahoo's 'up to $400bn today' figure is likewise undiluted and hypothetical.",
+    "private": true
   },
   {
     "id": "us-victorias-secret-roy-raymond-sale-1982",
@@ -3166,12 +3168,13 @@
       }
     ],
     "verified": true,
-    "verifiedNote": "~$1 million sale price confirmed by the LA Times 1993 obituary report, Fox Business (citing the NYT 1993 obituary), Entrepreneur, Business Insider and Wikipedia; a 1986 NYT article and the Evening Standard say a 'reported $4 million', so $1m is used as the better-corroborated figure. Five stores, 42-page catalogue and ~$6m annual sales from Fox Business/NYT and Wikipedia (Business Insider says six stores). 'Billion-dollar brand within ten years' from Entrepreneur; ~100 stores by 1986 from Wikipedia citing the NYT. My Child's Destiny bankruptcy in 1986 from the NYT and Fox Business. Exact month of the 1982 deal is unclear (Business Insider implies July), so the date is given as the year only; no exit price exists because Victoria's Secret was not separately traded."
+    "verifiedNote": "~$1 million sale price confirmed by the LA Times 1993 obituary report, Fox Business (citing the NYT 1993 obituary), Entrepreneur, Business Insider and Wikipedia; a 1986 NYT article and the Evening Standard say a 'reported $4 million', so $1m is used as the better-corroborated figure. Five stores, 42-page catalogue and ~$6m annual sales from Fox Business/NYT and Wikipedia (Business Insider says six stores). 'Billion-dollar brand within ten years' from Entrepreneur; ~100 stores by 1986 from Wikipedia citing the NYT. My Child's Destiny bankruptcy in 1986 from the NYT and Fox Business. Exact month of the 1982 deal is unclear (Business Insider implies July), so the date is given as the year only; no exit price exists because Victoria's Secret was not separately traded.",
+    "private": true
   },
   {
     "id": "us-monster-beverage-hansen-compounding-2002",
     "country": "us",
-    "date": "2002-04",
+    "date": "2004",
     "category": "stocks",
     "title": {
       "vi": "Hansen Natural tung Monster Energy — cổ phiếu tăng hơn 1.000 lần",
@@ -3372,6 +3375,7 @@
       }
     ],
     "verified": true,
-    "verifiedNote": "$500,000 for 10.2% in Aug 2004 confirmed by Wikipedia, the LA Times, IT History Society and Newstalk ZB/NZ Herald; ~$4.9m implied valuation from Newstalk ZB/NZ Herald (consistent with $0.5m / 10.2%). 16.8m shares sold in the IPO for ~$640m and ~20m shares sold 16-17 Aug 2012 at $19.27-$20.69 for $395.8m (total 'just over $1 billion', sale plan set on IPO day) from CNNMoney and the LA Times; BBC and Reuters also report the $395.8m. $38 IPO price and ~$104bn valuation from Boston.com and Reuters. Exit total of $1.0358bn and returnMultiple 2,071.6 are our sum of the two reported sales; proceeds were fund-level, not all Thiel's personally. The 'convertible note' structure is per Thiel's own accounts and Wikipedia. Later ~$790 2025 peak per the existing us-facebook-ipo-2012 entry's source."
+    "verifiedNote": "$500,000 for 10.2% in Aug 2004 confirmed by Wikipedia, the LA Times, IT History Society and Newstalk ZB/NZ Herald; ~$4.9m implied valuation from Newstalk ZB/NZ Herald (consistent with $0.5m / 10.2%). 16.8m shares sold in the IPO for ~$640m and ~20m shares sold 16-17 Aug 2012 at $19.27-$20.69 for $395.8m (total 'just over $1 billion', sale plan set on IPO day) from CNNMoney and the LA Times; BBC and Reuters also report the $395.8m. $38 IPO price and ~$104bn valuation from Boston.com and Reuters. Exit total of $1.0358bn and returnMultiple 2,071.6 are our sum of the two reported sales; proceeds were fund-level, not all Thiel's personally. The 'convertible note' structure is per Thiel's own accounts and Wikipedia. Later ~$790 2025 peak per the existing us-facebook-ipo-2012 entry's source.",
+    "private": true
   }
 ]

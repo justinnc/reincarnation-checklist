@@ -81,6 +81,10 @@
       {
         "title": "Wipro corporate action history - Trendlyne",
         "url": "https://trendlyne.com/equity/corporate-actions/WIPRO/1526/wipro-ltd"
+      },
+      {
+        "title": "Wikipedia — Wipro",
+        "url": "https://en.wikipedia.org/wiki/Wipro"
       }
     ],
     "verified": true,
@@ -540,6 +544,10 @@
       {
         "title": "HDFC Bank Milestones 1995-2023 (official PDF)",
         "url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/about-us/who-we-are/pdfs/milestones.pdf"
+      },
+      {
+        "title": "Wikipedia — HDFC Bank",
+        "url": "https://en.wikipedia.org/wiki/HDFC_Bank"
       }
     ],
     "verified": true,
@@ -683,7 +691,7 @@
       "exitPrice": 28000,
       "priceCurrency": "INR",
       "exitDate": "2008-04",
-      "returnMultiple": 7.0,
+      "returnMultiple": 7,
       "risk": "medium",
       "capital": "high"
     },
@@ -730,8 +738,8 @@
         "url": "https://business-standard.com/article/opinion/arvind-singhal-the-denial-of-reality-108112001076_1.html"
       }
     ],
-    "verified": true,
-    "verifiedNote": "Per-square-foot price progression (₹4,000 to ₹28,000 for South Mumbai residential, 2003-April 2008) confirmed via contemporaneous Business Standard opinion piece citing market data."
+    "verified": false,
+    "verifiedNote": "Per-square-foot price progression (₹4,000 to ₹28,000 for South Mumbai residential, 2003-April 2008) confirmed via contemporaneous Business Standard opinion piece citing market data. Marked unverified: only a single (opinion-piece) source."
   },
   {
     "id": "in-gold-bull-run-2003-2012",
@@ -822,8 +830,8 @@
         "url": "https://rbidocs.rbi.org.in/rdocs/Bulletin/PDFs/34T_BUL101012F.pdf"
       }
     ],
-    "verified": true,
-    "verifiedNote": "Both the 2003-04 fiscal-year average (₹5,719/10g) and September 2012 monthly average (₹31,673/10g) are official RBI Bulletin figures sourced directly from an RBI document (via search result quoting the RBI Bulletin PDF)."
+    "verified": false,
+    "verifiedNote": "Both the 2003-04 fiscal-year average (₹5,719/10g) and September 2012 monthly average (₹31,673/10g) are official RBI Bulletin figures sourced directly from an RBI document (via search result quoting the RBI Bulletin PDF). Marked unverified: only a single source."
   },
   {
     "id": "in-global-financial-crisis-2008",
@@ -1046,7 +1054,7 @@
         "en": "Before election results are announced, mid-May 2009"
       },
       "sellWhen": {
-        "vi": "Có thể chốt lời một phần ngay sau phiên tăng 17/5/2009",
+        "vi": "Có thể chốt lời một phần ngay sau phiên tăng 18/5/2009",
         "en": "Can take partial profits right after the 18 May 2009 spike"
       },
       "estimatedReturn": {
@@ -1197,8 +1205,8 @@
         "url": "https://economictimes.indiatimes.com/markets/stocks/news/a-decade-of-multibaggers-bajaj-groups-wealth-creation-legacy-sets-stage-for-bajaj-housing-finance-ipo/articleshow/113112633.cms?from=mdr"
       }
     ],
-    "verified": true,
-    "verifiedNote": "2,876% ten-year (2014-2024) return and ~34% profit CAGR confirmed via Economic Times/ETMarkets article. Entry/exit per-share prices omitted because historical split-adjusted price tables conflict across sources."
+    "verified": false,
+    "verifiedNote": "2,876% ten-year (2014-2024) return and ~34% profit CAGR confirmed via Economic Times/ETMarkets article. Entry/exit per-share prices omitted because historical split-adjusted price tables conflict across sources. Marked unverified: only a single source."
   },
   {
     "id": "in-modi-election-rally-2014",
@@ -1559,6 +1567,10 @@
       {
         "title": "2016 Indian banknote demonetisation - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/2016_Indian_banknote_demonetisation"
+      },
+      {
+        "title": "RBI press release — Withdrawal of Legal Tender Status for ₹500 and ₹1000 Notes (8 Nov 2016)",
+        "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=38520"
       }
     ],
     "verified": true,
@@ -1645,7 +1657,7 @@
     "sources": [
       {
         "title": "India's top court strikes down RBI banking ban on cryptocurrency - Reuters",
-        "url": "https://www.reuters.com/article/business/indias-top-court-strikes-down-rbi-banking-ban-on-cryptocurrency-idUSKBN20R0KW/"
+        "url": "https://web.archive.org/web/2023/https://www.reuters.com/article/business/indias-top-court-strikes-down-rbi-banking-ban-on-cryptocurrency-idUSKBN20R0KW/"
       },
       {
         "title": "Supreme Court judgment, Writ Petition (Civil) No.528 of 2018",

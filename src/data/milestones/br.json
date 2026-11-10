@@ -1393,8 +1393,8 @@
         "url": "https://dealbook.nytimes.com/2010/09/24/petrobras-raises-70-billion-in-share-issue?_php=true&_r=1&_type=blogs"
       },
       {
-        "title": "Petrobras raises $70 bln in largest offering ever - Reuters",
-        "url": "https://reuters.com/article/petrobras-raises-70-bln-in-largest-offering-ever-idUSN2499993"
+        "title": "Wikipedia — Petrobras",
+        "url": "https://en.wikipedia.org/wiki/Petrobras"
       }
     ],
     "verified": true,
@@ -2093,7 +2093,7 @@
         "en": "Lost 77.33% in a single session (R$12.00 → R$2.72); anyone who dodged it kept their capital"
       },
       "returnMultiple": 0.2267,
-      "entryPrice": 12.0,
+      "entryPrice": 12,
       "exitPrice": 2.72,
       "priceCurrency": "BRL",
       "exitDate": "2023-01-12",

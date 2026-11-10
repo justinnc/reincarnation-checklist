@@ -197,7 +197,7 @@ export function computeWhatIf(asset: AssetDef, startYear: number, amount: number
     endYear,
     amount,
     finalValue: Math.round(finalValue),
-    multiple: finalValue / amount,
+    multiple: amount > 0 ? finalValue / amount : 0,
     currency: asset.currency,
     caveat: asset.caveat?.vi,
   };

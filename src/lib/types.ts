@@ -55,7 +55,14 @@ export interface Milestone {
   sources: Source[];
   verified: boolean;
   verifiedNote?: string;
+  /** Deal was not buyable by a retail investor (VC/private stake, insider deal, hedge-fund trade). Excluded from "Realistic" playbooks. */
+  private?: boolean;
 }
+
+/** The slice of a milestone the client-side explorers (homepage, world, playbook) need. */
+export type MilestoneLite = Pick<Milestone, "id" | "country" | "date" | "title" | "verified" | "private"> & {
+  opportunity: Pick<Opportunity, "returnMultiple" | "exitDate" | "capital" | "asset">;
+};
 
 export interface Country {
   code: string;
