@@ -6,7 +6,7 @@ import { useEffect, useRef, useState } from "react";
 import type { Locale } from "@/lib/i18n";
 import { CharmNavBadge } from "@/components/CharmToggle";
 
-type Labels = Record<"timeline" | "world" | "search" | "almanac" | "whatif" | "simulator" | "quiz", string>;
+type Labels = Record<"timeline" | "world" | "search" | "almanac" | "whatif" | "simulator" | "quiz", string> & { survival?: string };
 
 export default function NavLinks({ lang, labels }: { lang: Locale; labels: Labels }) {
   const pathname = usePathname() ?? "";
@@ -32,6 +32,7 @@ export default function NavLinks({ lang, labels }: { lang: Locale; labels: Label
 
   const items: { href: string; label: string; match: string }[] = [
     { href: `/${lang}#countries`, label: labels.timeline, match: `/${lang}` },
+    { href: `/${lang}/survival`, label: `🎲 ${labels.survival ?? (lang === "vi" ? "Thử thách" : "Survival")}`, match: `/${lang}/survival` },
     { href: `/${lang}/world`, label: labels.world, match: `/${lang}/world` },
     { href: `/${lang}/search`, label: labels.search, match: `/${lang}/search` },
     { href: `/${lang}/almanac`, label: labels.almanac, match: `/${lang}/almanac` },

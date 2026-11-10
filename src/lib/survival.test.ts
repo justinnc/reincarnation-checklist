@@ -92,7 +92,7 @@ describe("survival minigame mechanics", () => {
     ];
     const textVi = generateShareText(run, results, 5000, "vi");
     expect(textVi).toContain("Thử Thách Trọng Sinh");
-    expect(textVi).toContain("5.000");
+    expect(textVi).toContain("5.0×");
 
     const textEn = generateShareText(run, results, 5000, "en");
     expect(textEn).toContain("Reincarnation Survival Run");
