@@ -68,6 +68,7 @@ export default function SurvivalGame({
   const [isSpinning, setIsSpinning] = useState(false);
   const [isMuted, setIsMuted] = useState(() => soundFx.isMuted);
   const [isExportingCard, setIsExportingCard] = useState(false);
+  const [cardPreviewUrl, setCardPreviewUrl] = useState<string | null>(null);
   const [spinDisplay, setSpinDisplay] = useState({
     flag: run.country.flag,
     countryName: t(run.country.name, lang),
@@ -92,6 +93,23 @@ export default function SurvivalGame({
     const timer = setTimeout(() => setToastMessage(null), 3000);
     return () => clearTimeout(timer);
   }, [toastMessage]);
+
+  // Generate Card Preview when entering game_over
+  useEffect(() => {
+    if (phase === "game_over") {
+      generateReincarnationPassCard({
+        run,
+        results,
+        finalRank,
+        netWorth,
+        lang,
+      })
+        .then((url) => setCardPreviewUrl(url))
+        .catch(() => {});
+    } else {
+      setCardPreviewUrl(null);
+    }
+  }, [phase, run, results, finalRank, netWorth, lang]);
 
   // Spin simulation
   const handleSpin = (targetCountry?: string) => {
