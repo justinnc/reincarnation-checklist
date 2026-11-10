@@ -5,8 +5,9 @@ import type { Locale } from "./i18n";
 import { t } from "./i18n";
 
 /**
- * Generates a high-resolution PNG image of the Reincarnation Pass
- * for sharing on social networks (Facebook, Twitter/X, Instagram).
+ * Generates a luxury, high-fidelity Reincarnation Pass Card (3:4 portrait)
+ * with security guilloche patterns, gold foil accents, EMV chip, official seal stamp,
+ * and crisp typography ready for social media bragging.
  */
 export async function generateReincarnationPassCard({
   run,
@@ -21,8 +22,9 @@ export async function generateReincarnationPassCard({
   netWorth: number;
   lang: Locale;
 }): Promise<string> {
-  const width = 1200;
-  const height = 675; // Standard 16:9 social share ratio
+  // High-resolution 3:4 portrait card (ideal for Story, Feed & Mobile viewing)
+  const width = 840;
+  const height = 1180;
 
   const canvas = document.createElement("canvas");
   canvas.width = width;
@@ -30,181 +32,484 @@ export async function generateReincarnationPassCard({
   const ctx = canvas.getContext("2d");
   if (!ctx) throw new Error("Cannot get canvas context");
 
-  // 1. Dark futuristic luxury background
-  const bgGrad = ctx.createLinearGradient(0, 0, width, height);
-  bgGrad.addColorStop(0, "#0a0b0f");
-  bgGrad.addColorStop(0.5, "#12151d");
-  bgGrad.addColorStop(1, "#0a0b0f");
+  // ---------------------------------------------------------
+  // 1. BASE BACKGROUND: Deep Obsidian with Radial Vignette
+  // ---------------------------------------------------------
+  const bgGrad = ctx.createRadialGradient(
+    width / 2,
+    height * 0.35,
+    80,
+    width / 2,
+    height * 0.5,
+    width * 0.85
+  );
+  bgGrad.addColorStop(0, "#161922");
+  bgGrad.addColorStop(0.55, "#0c0e14");
+  bgGrad.addColorStop(1, "#050608");
   ctx.fillStyle = bgGrad;
   ctx.fillRect(0, 0, width, height);
 
-  // Radial gold glow from center-top
-  const glow = ctx.createRadialGradient(width / 2, 80, 10, width / 2, 80, 500);
-  glow.addColorStop(0, "rgba(234, 179, 8, 0.15)");
-  glow.addColorStop(1, "rgba(234, 179, 8, 0)");
-  ctx.fillStyle = glow;
-  ctx.fillRect(0, 0, width, height);
-
-  // 2. Ornate dual-layer gold borders
-  ctx.strokeStyle = "rgba(234, 179, 8, 0.45)";
-  ctx.lineWidth = 3;
-  ctx.strokeRect(30, 30, width - 60, height - 60);
-
-  ctx.strokeStyle = "rgba(234, 179, 8, 0.15)";
+  // ---------------------------------------------------------
+  // 2. SECURITY GUILLOCHÉ & GEOMETRIC TIME-GRID BACKGROUND
+  // ---------------------------------------------------------
+  ctx.save();
+  ctx.strokeStyle = "rgba(234, 179, 8, 0.045)";
   ctx.lineWidth = 1;
-  ctx.strokeRect(40, 40, width - 80, height - 80);
 
-  // Corner accents
-  const drawCorner = (x: number, y: number, dx: number, dy: number) => {
-    ctx.strokeStyle = "#eab308";
-    ctx.lineWidth = 4;
+  // Circular guilloche waves
+  for (let r = 80; r < 750; r += 38) {
     ctx.beginPath();
-    ctx.moveTo(x + dx * 24, y);
-    ctx.lineTo(x, y);
-    ctx.lineTo(x, y + dy * 24);
+    ctx.arc(width / 2, height * 0.38, r, 0, Math.PI * 2);
     ctx.stroke();
-  };
-  drawCorner(30, 30, 1, 1);
-  drawCorner(width - 30, 30, -1, 1);
-  drawCorner(30, height - 30, 1, -1);
-  drawCorner(width - 30, height - 30, -1, -1);
+  }
 
-  // 3. Header: App title & Certificate badge
+  // Crossed safety lattice lines
+  ctx.strokeStyle = "rgba(255, 255, 255, 0.02)";
+  for (let x = 0; x < width; x += 32) {
+    ctx.beginPath();
+    ctx.moveTo(x, 0);
+    ctx.lineTo(x, height);
+    ctx.stroke();
+  }
+  for (let y = 0; y < height; y += 32) {
+    ctx.beginPath();
+    ctx.moveTo(0, y);
+    ctx.lineTo(width, y);
+    ctx.stroke();
+  }
+  ctx.restore();
+
+  // ---------------------------------------------------------
+  // 3. GOLD FOIL MULTI-LAYER BORDERS & CORNER ART DECO
+  // ---------------------------------------------------------
+  const margin = 28;
+  const innerM = 38;
+
+  // Outer border with subtle gold shine
+  const goldBorderGrad = ctx.createLinearGradient(0, 0, width, height);
+  goldBorderGrad.addColorStop(0, "#eab308");
+  goldBorderGrad.addColorStop(0.25, "#ca8a04");
+  goldBorderGrad.addColorStop(0.5, "#fef08a");
+  goldBorderGrad.addColorStop(0.75, "#ca8a04");
+  goldBorderGrad.addColorStop(1, "#eab308");
+
+  ctx.save();
+  ctx.strokeStyle = goldBorderGrad;
+  ctx.lineWidth = 2.5;
+  ctx.strokeRect(margin, margin, width - margin * 2, height - margin * 2);
+
+  // Inner fine border
+  ctx.strokeStyle = "rgba(234, 179, 8, 0.25)";
+  ctx.lineWidth = 1;
+  ctx.strokeRect(innerM, innerM, width - innerM * 2, height - innerM * 2);
+
+  // Corner Art Deco Flourishes
+  const drawCornerDeco = (cx: number, cy: number, sx: number, sy: number) => {
+    ctx.strokeStyle = "#facc15";
+    ctx.lineWidth = 3;
+    ctx.beginPath();
+    ctx.moveTo(cx + sx * 28, cy);
+    ctx.lineTo(cx, cy);
+    ctx.lineTo(cx, cy + sy * 28);
+    ctx.stroke();
+
+    ctx.fillStyle = "#eab308";
+    ctx.beginPath();
+    ctx.arc(cx + sx * 10, cy + sy * 10, 2.5, 0, Math.PI * 2);
+    ctx.fill();
+  };
+  drawCornerDeco(margin, margin, 1, 1);
+  drawCornerDeco(width - margin, margin, -1, 1);
+  drawCornerDeco(margin, height - margin, 1, -1);
+  drawCornerDeco(width - margin, height - margin, -1, -1);
+  ctx.restore();
+
+  // ---------------------------------------------------------
+  // 4. HEADER: MINISTRY OF REINCARNATION & CARD SERIAL
+  // ---------------------------------------------------------
+  // Header Pill / Crest
   ctx.textAlign = "center";
-  ctx.fillStyle = "#eab308";
-  ctx.font = "700 14px monospace";
+  ctx.fillStyle = "#94a3b8";
+  ctx.font = "600 11px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif";
+  ctx.letterSpacing = "3px";
   ctx.fillText(
     lang === "vi"
-      ? "THE REINCARNATION CHECKLIST · CHỨNG NHẬN TRỌNG SINH"
-      : "THE REINCARNATION CHECKLIST · REINCARNATION PASS",
+      ? "BỘ QUẢN LÝ THỜI GIAN & ĐẦU THAI QUỐC TẾ"
+      : "MINISTRY OF TEMPORAL REINCARNATION & DESTINY",
     width / 2,
-    75
+    70
   );
 
-  // 4. Large Rank Badge Emoji & Title
-  ctx.font = "64px serif";
-  ctx.fillText(finalRank.badge, width / 2, 155);
+  ctx.fillStyle = goldBorderGrad;
+  ctx.font = "900 24px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif";
+  ctx.letterSpacing = "4px";
+  ctx.fillText(
+    lang === "vi" ? "THẺ CĂN CƯỚC TRỌNG SINH" : "REINCARNATION IDENTITY PASS",
+    width / 2,
+    102
+  );
+
+  // Serial Number
+  const hashSeed = Math.abs(run.startYear * 31 + run.initialCapital * 7 + netWorth);
+  const cardSerial = `RC-${run.startYear}-${run.country.code}-${String((hashSeed % 9000) + 1000)}`;
+  ctx.fillStyle = "#ca8a04";
+  ctx.font = "700 12px ui-monospace, Menlo, Consolas, monospace";
+  ctx.letterSpacing = "2px";
+  ctx.fillText(`DOCUMENT NO: ${cardSerial} · SPECIAL CLEARANCE`, width / 2, 126);
+
+  // Horizontal Divider
+  const divGrad = ctx.createLinearGradient(70, 0, width - 70, 0);
+  divGrad.addColorStop(0, "rgba(234, 179, 8, 0)");
+  divGrad.addColorStop(0.5, "rgba(234, 179, 8, 0.45)");
+  divGrad.addColorStop(1, "rgba(234, 179, 8, 0)");
+  ctx.strokeStyle = divGrad;
+  ctx.lineWidth = 1;
+  ctx.beginPath();
+  ctx.moveTo(70, 142);
+  ctx.lineTo(width - 70, 142);
+  ctx.stroke();
+
+  // ---------------------------------------------------------
+  // 5. TOP SECTION: GOLD CHIP + AWAKENING PROFILE
+  // ---------------------------------------------------------
+  const topY = 160;
+
+  // 5.1 EMV Gold Security Chip (Left)
+  const chipX = 64;
+  const chipY = topY + 12;
+  const chipW = 74;
+  const chipH = 56;
+
+  const chipGrad = ctx.createLinearGradient(chipX, chipY, chipX + chipW, chipY + chipH);
+  chipGrad.addColorStop(0, "#eab308");
+  chipGrad.addColorStop(0.5, "#fef08a");
+  chipGrad.addColorStop(1, "#b45309");
+  ctx.fillStyle = chipGrad;
+  ctx.beginPath();
+  ctx.roundRect(chipX, chipY, chipW, chipH, 8);
+  ctx.fill();
+  ctx.strokeStyle = "#78350f";
+  ctx.lineWidth = 1;
+  ctx.stroke();
+
+  // Chip circuits
+  ctx.strokeStyle = "rgba(120, 53, 15, 0.65)";
+  ctx.lineWidth = 1.2;
+  ctx.beginPath();
+  ctx.moveTo(chipX + 24, chipY);
+  ctx.lineTo(chipX + 24, chipY + chipH);
+  ctx.moveTo(chipX + 50, chipY);
+  ctx.lineTo(chipX + 50, chipY + chipH);
+  ctx.moveTo(chipX, chipY + 28);
+  ctx.lineTo(chipX + chipW, chipY + 28);
+  ctx.stroke();
+  ctx.strokeRect(chipX + 24, chipY + 16, 26, 24);
+
+  // 5.2 Awakening Identity Info
+  ctx.textAlign = "left";
+  ctx.letterSpacing = "normal";
+
+  const profileX = 160;
+  ctx.fillStyle = "#64748b";
+  ctx.font = "700 11px ui-monospace, monospace";
+  ctx.fillText(lang === "vi" ? "ĐIỂM ĐÁP ĐẦU THAI" : "AWAKENING COORDINATES", profileX, topY + 20);
 
   ctx.fillStyle = "#ffffff";
-  ctx.font = "800 36px sans-serif";
-  ctx.fillText(t(finalRank.title, lang), width / 2, 210);
+  ctx.font = "800 24px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif";
+  ctx.fillText(
+    `${run.country.flag} ${t(run.country.name, lang)}  (${run.country.code})`,
+    profileX,
+    topY + 50
+  );
 
   ctx.fillStyle = "#94a3b8";
-  ctx.font = "500 16px sans-serif";
-  ctx.fillText(t(finalRank.description, lang), width / 2, 240);
+  ctx.font = "500 14px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif";
+  ctx.fillText(
+    lang === "vi"
+      ? `Thức tỉnh: Năm ${run.startYear} · 18 tuổi · Vốn: $${run.initialCapital.toLocaleString()}`
+      : `Reincarnated: Year ${run.startYear} · Age 18 · Initial: $${run.initialCapital.toLocaleString()}`,
+    profileX,
+    topY + 76
+  );
 
-  // 5. Grid Box: Left (Identity), Right (Performance)
-  const boxY = 275;
-  const boxH = 240;
-  const boxW = 520;
-  const box1X = 65;
-  const box2X = 615;
+  // ---------------------------------------------------------
+  // 6. CENTERPIECE: 3D RANK BADGE & HONORARY TITLE
+  // ---------------------------------------------------------
+  const rankBoxY = 275;
+  const rankBoxH = 265;
+  const rankBoxW = width - 128;
+  const rankBoxX = 64;
 
-  // Box 1: Awakening Identity
-  ctx.fillStyle = "rgba(24, 27, 35, 0.7)";
+  // Glowing container background for Rank
+  const rankBoxGrad = ctx.createLinearGradient(0, rankBoxY, 0, rankBoxY + rankBoxH);
+  rankBoxGrad.addColorStop(0, "rgba(26, 30, 42, 0.85)");
+  rankBoxGrad.addColorStop(1, "rgba(14, 17, 24, 0.95)");
+  ctx.fillStyle = rankBoxGrad;
+  ctx.beginPath();
+  ctx.roundRect(rankBoxX, rankBoxY, rankBoxW, rankBoxH, 18);
+  ctx.fill();
+
+  // Gold edge with glow
+  ctx.strokeStyle = "rgba(234, 179, 8, 0.35)";
+  ctx.lineWidth = 1.5;
+  ctx.stroke();
+
+  // Rank Emblem circular halo
+  const haloGrad = ctx.createRadialGradient(
+    width / 2,
+    rankBoxY + 70,
+    10,
+    width / 2,
+    rankBoxY + 70,
+    90
+  );
+  haloGrad.addColorStop(0, "rgba(234, 179, 8, 0.25)");
+  haloGrad.addColorStop(1, "rgba(234, 179, 8, 0)");
+  ctx.fillStyle = haloGrad;
+  ctx.beginPath();
+  ctx.arc(width / 2, rankBoxY + 70, 90, 0, Math.PI * 2);
+  ctx.fill();
+
+  // Badge Emoji
+  ctx.textAlign = "center";
+  ctx.font = "68px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif";
+  ctx.fillText(finalRank.badge, width / 2, rankBoxY + 80);
+
+  // Rank Title
+  ctx.fillStyle = goldBorderGrad;
+  ctx.font = "900 32px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif";
+  ctx.fillText(t(finalRank.title, lang).toUpperCase(), width / 2, rankBoxY + 145);
+
+  // Rank Description
+  ctx.fillStyle = "#cbd5e1";
+  ctx.font = "500 15px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif";
+  ctx.fillText(t(finalRank.description, lang), width / 2, rankBoxY + 178);
+
+  // Badge level subtitle / status pill
+  ctx.fillStyle = "rgba(234, 179, 8, 0.12)";
+  ctx.beginPath();
+  ctx.roundRect(width / 2 - 140, rankBoxY + 205, 280, 32, 16);
+  ctx.fill();
+  ctx.strokeStyle = "rgba(234, 179, 8, 0.4)";
+  ctx.lineWidth = 1;
+  ctx.stroke();
+
+  ctx.fillStyle = "#facc15";
+  ctx.font = "700 12px ui-monospace, monospace";
+  ctx.letterSpacing = "1px";
+  ctx.fillText(
+    lang === "vi" ? "★ CHỨNG NHẬN ĐẲNG CẤP LUÂN HỒI ★" : "★ OFFICIALLY VERIFIED SURVIVOR ★",
+    width / 2,
+    rankBoxY + 225
+  );
+
+  // ---------------------------------------------------------
+  // 7. FINANCIAL PERFORMANCE: BIG NET WORTH & ROI BADGE
+  // ---------------------------------------------------------
+  const finY = 565;
+  const finBoxH = 185;
+  const finBoxW = width - 128;
+  const finBoxX = 64;
+
+  ctx.fillStyle = "rgba(18, 21, 30, 0.75)";
+  ctx.beginPath();
+  ctx.roundRect(finBoxX, finY, finBoxW, finBoxH, 18);
+  ctx.fill();
   ctx.strokeStyle = "rgba(255, 255, 255, 0.08)";
   ctx.lineWidth = 1;
-  ctx.roundRect(box1X, boxY, boxW, boxH, 16);
-  ctx.fill();
   ctx.stroke();
 
+  // Left Column: Final Net Worth
   ctx.textAlign = "left";
-  ctx.fillStyle = "#64748b";
-  ctx.font = "700 12px monospace";
-  ctx.fillText(lang === "vi" ? "HỒ SƠ ĐẦU THAI" : "AWAKENING IDENTITY", box1X + 24, boxY + 36);
-
-  ctx.fillStyle = "#ffffff";
-  ctx.font = "600 20px sans-serif";
-  ctx.fillText(
-    `${run.country.flag} ${t(run.country.name, lang)} (${run.country.code})`,
-    box1X + 24,
-    boxY + 74
-  );
+  ctx.letterSpacing = "normal";
 
   ctx.fillStyle = "#94a3b8";
-  ctx.font = "400 15px sans-serif";
+  ctx.font = "700 12px ui-monospace, monospace";
   ctx.fillText(
-    lang === "vi" ? `Thức tỉnh năm: ${run.startYear} (18 tuổi)` : `Awakened: ${run.startYear} (Age 18)`,
-    box1X + 24,
-    boxY + 104
+    lang === "vi" ? "TỔNG TÀI SẢN THU VỀ" : "FINAL NET WORTH",
+    finBoxX + 28,
+    finY + 38
   );
-
-  ctx.fillText(
-    lang === "vi" ? `Vốn ban đầu: $${run.initialCapital.toLocaleString()}` : `Starting capital: $${run.initialCapital.toLocaleString()}`,
-    box1X + 24,
-    boxY + 132
-  );
-
-  // Timeline pills
-  ctx.fillStyle = "#64748b";
-  ctx.font = "700 11px monospace";
-  ctx.fillText(lang === "vi" ? "5 NGÃ RẼ LỊCH SỬ:" : "5 TURNING POINTS:", box1X + 24, boxY + 172);
-
-  results.forEach((r, idx) => {
-    const px = box1X + 24 + idx * 88;
-    const py = boxY + 188;
-    ctx.fillStyle = r.isSuccess ? "rgba(34, 197, 94, 0.2)" : "rgba(239, 68, 68, 0.2)";
-    ctx.strokeStyle = r.isSuccess ? "#22c55e" : "#ef4444";
-    ctx.roundRect(px, py, 76, 26, 6);
-    ctx.fill();
-    ctx.stroke();
-    ctx.fillStyle = r.isSuccess ? "#4ade80" : "#f87171";
-    ctx.font = "600 11px monospace";
-    ctx.textAlign = "center";
-    ctx.fillText(`${r.round.year} ${r.isSuccess ? "✓" : "✗"}`, px + 38, py + 17);
-  });
-
-  // Box 2: Financial Scorecard
-  ctx.fillStyle = "rgba(24, 27, 35, 0.7)";
-  ctx.strokeStyle = "rgba(234, 179, 8, 0.3)";
-  ctx.roundRect(box2X, boxY, boxW, boxH, 16);
-  ctx.fill();
-  ctx.stroke();
-
-  ctx.textAlign = "left";
-  ctx.fillStyle = "#eab308";
-  ctx.font = "700 12px monospace";
-  ctx.fillText(lang === "vi" ? "KẾT QUẢ TÀI SẢN" : "FINANCIAL SCORECARD", box2X + 24, boxY + 36);
 
   ctx.fillStyle = "#ffffff";
-  ctx.font = "800 44px sans-serif";
-  ctx.fillText(`$${netWorth.toLocaleString()}`, box2X + 24, boxY + 90);
+  ctx.font = "900 48px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif";
+  ctx.fillText(`$${netWorth.toLocaleString()}`, finBoxX + 28, finY + 95);
 
-  const mult = (netWorth / run.initialCapital).toFixed(1);
-  ctx.fillStyle = "#eab308";
-  ctx.font = "700 24px monospace";
-  ctx.fillText(`${mult}× ROI`, box2X + 24, boxY + 130);
+  ctx.fillStyle = "#64748b";
+  ctx.font = "500 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif";
+  ctx.fillText(
+    lang === "vi"
+      ? `Vốn gốc: $${run.initialCapital.toLocaleString()} USD · Chu kỳ 5 ngã rẽ`
+      : `Base: $${run.initialCapital.toLocaleString()} USD · 5 Epoch Cycle`,
+    finBoxX + 28,
+    finY + 130
+  );
+
+  // Right Column: ROI multiplier & Success Count
+  const roi = (netWorth / run.initialCapital).toFixed(1);
+  const isProfitable = netWorth >= run.initialCapital;
+
+  // ROI Pill
+  const pillX = finBoxX + finBoxW - 200;
+  const pillY = finY + 36;
+  ctx.fillStyle = isProfitable ? "rgba(34, 197, 94, 0.15)" : "rgba(239, 68, 68, 0.15)";
+  ctx.beginPath();
+  ctx.roundRect(pillX, pillY, 172, 54, 12);
+  ctx.fill();
+  ctx.strokeStyle = isProfitable ? "#22c55e" : "#ef4444";
+  ctx.lineWidth = 1.5;
+  ctx.stroke();
+
+  ctx.textAlign = "center";
+  ctx.fillStyle = isProfitable ? "#4ade80" : "#f87171";
+  ctx.font = "800 24px ui-monospace, monospace";
+  ctx.fillText(`${roi}× ROI`, pillX + 86, pillY + 36);
 
   const wins = results.filter((r) => r.isSuccess).length;
+  ctx.textAlign = "right";
+  ctx.fillStyle = "#e2e8f0";
+  ctx.font = "700 15px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif";
+  ctx.fillText(
+    lang === "vi" ? `Thắng ${wins}/5 ngã rẽ lịch sử` : `Won ${wins}/5 Historical Epochs`,
+    finBoxX + finBoxW - 28,
+    finY + 130
+  );
+
+  // ---------------------------------------------------------
+  // 8. 5 TURNING POINTS TIMELINE CHIPS
+  // ---------------------------------------------------------
+  const turnsY = 775;
+  const turnsH = 155;
+  const turnsW = width - 128;
+  const turnsX = 64;
+
+  ctx.fillStyle = "rgba(18, 21, 30, 0.75)";
+  ctx.beginPath();
+  ctx.roundRect(turnsX, turnsY, turnsW, turnsH, 18);
+  ctx.fill();
+  ctx.strokeStyle = "rgba(255, 255, 255, 0.08)";
+  ctx.lineWidth = 1;
+  ctx.stroke();
+
+  ctx.textAlign = "left";
   ctx.fillStyle = "#94a3b8";
-  ctx.font = "500 15px sans-serif";
+  ctx.font = "700 12px ui-monospace, monospace";
   ctx.fillText(
-    lang === "vi"
-      ? `Thắng: ${wins}/5 ngã rẽ · Vượt đỉnh chu kỳ`
-      : `Decisions: ${wins}/5 correct · Survived cycle`,
-    box2X + 24,
-    boxY + 168
+    lang === "vi" ? "HÀNH TRÌNH 5 MỐC ĐỊNH MỆNH" : "5 TURNING POINTS RECORD",
+    turnsX + 28,
+    turnsY + 36
   );
 
-  ctx.fillStyle = "#475569";
-  ctx.font = "400 13px sans-serif";
-  ctx.fillText(
-    lang === "vi"
-      ? "Dựa trên dữ liệu giá tài sản thực tế trong lịch sử."
-      : "Grounded in historical real asset price benchmarks.",
-    box2X + 24,
-    boxY + 196
-  );
+  const chipSlotW = (turnsW - 56) / 5;
+  results.forEach((r, idx) => {
+    const cx = turnsX + 28 + idx * chipSlotW + 4;
+    const cy = turnsY + 54;
+    const cw = chipSlotW - 8;
+    const ch = 74;
 
-  // 6. Footer
+    ctx.fillStyle = r.isSuccess ? "rgba(34, 197, 94, 0.12)" : "rgba(239, 68, 68, 0.12)";
+    ctx.beginPath();
+    ctx.roundRect(cx, cy, cw, ch, 10);
+    ctx.fill();
+    ctx.strokeStyle = r.isSuccess ? "rgba(34, 197, 94, 0.5)" : "rgba(239, 68, 68, 0.5)";
+    ctx.lineWidth = 1.2;
+    ctx.stroke();
+
+    ctx.textAlign = "center";
+    ctx.fillStyle = "#ffffff";
+    ctx.font = "700 13px ui-monospace, monospace";
+    ctx.fillText(String(r.round.year), cx + cw / 2, cy + 24);
+
+    ctx.fillStyle = r.isSuccess ? "#4ade80" : "#f87171";
+    ctx.font = "800 15px -apple-system, sans-serif";
+    ctx.fillText(r.isSuccess ? "✓ THẮNG" : "✗ DÍNH", cx + cw / 2, cy + 46);
+
+    ctx.fillStyle = "#94a3b8";
+    ctx.font = "600 11px ui-monospace, monospace";
+    ctx.fillText(
+      r.decision === "all_in" ? "100%" : r.decision === "cautious" ? "25%" : "0%",
+      cx + cw / 2,
+      cy + 64
+    );
+  });
+
+  // ---------------------------------------------------------
+  // 9. RED OFFICIAL CIRCULAR STAMP (VINTAGE TILTED SEAL)
+  // ---------------------------------------------------------
+  ctx.save();
+  const stampX = width - 150;
+  const stampY = turnsY + turnsH - 30;
+  ctx.translate(stampX, stampY);
+  ctx.rotate((-14 * Math.PI) / 180); // Tilted 14 degrees
+
+  ctx.strokeStyle = "rgba(220, 38, 38, 0.75)";
+  ctx.lineWidth = 3;
+  ctx.beginPath();
+  ctx.arc(0, 0, 58, 0, Math.PI * 2);
+  ctx.stroke();
+
+  ctx.lineWidth = 1;
+  ctx.beginPath();
+  ctx.arc(0, 0, 51, 0, Math.PI * 2);
+  ctx.stroke();
+
+  ctx.fillStyle = "rgba(220, 38, 38, 0.85)";
+  ctx.font = "900 10px ui-monospace, monospace";
   ctx.textAlign = "center";
-  ctx.fillStyle = "#64748b";
-  ctx.font = "500 13px sans-serif";
+  ctx.letterSpacing = "1px";
+  ctx.fillText("BỘ QUẢN LÝ THỜI GIAN", 0, -28);
+  ctx.font = "900 14px ui-monospace, monospace";
+  ctx.fillText("ĐÃ XÁC THỰC", 0, 4);
+  ctx.font = "800 11px ui-monospace, monospace";
+  ctx.fillText("★ APPROVED ★", 0, 24);
+  ctx.font = "700 8px monospace";
+  ctx.fillText(`SEQ: ${hashSeed.toString(16).toUpperCase()}`, 0, 38);
+  ctx.restore();
+
+  // ---------------------------------------------------------
+  // 10. FOOTER: BARCODE, SECURITY HASH & WATERMARK
+  // ---------------------------------------------------------
+  const footY = 960;
+
+  // Barcode simulation
+  ctx.save();
+  const barX = 74;
+  const barY = footY + 15;
+  const barW = width - 148;
+  const barH = 46;
+
+  ctx.fillStyle = "#ffffff";
+  let currX = barX;
+  // Deterministic barcode lines based on run
+  for (let b = 0; currX < barX + barW - 20; b++) {
+    const lw = ((b * 7 + hashSeed) % 4) + 1.5;
+    const gap = ((b * 13 + hashSeed) % 3) + 2;
+    ctx.fillRect(currX, barY, lw, barH);
+    currX += lw + gap;
+  }
+
+  // Machine readable MRZ string
+  ctx.textAlign = "center";
+  ctx.fillStyle = "#475569";
+  ctx.font = "600 11px ui-monospace, monospace";
+  ctx.letterSpacing = "2px";
   ctx.fillText(
-    "reincarnation-checklist.com · Trọng sinh về quá khứ với toàn bộ ký ức",
+    `P<${run.country.code}REINCARNATION<<${run.startYear}<<<<<<<<<<<<<<<<<<<<<<<`,
     width / 2,
-    height - 50
+    footY + 84
   );
+  ctx.fillText(
+    `${cardSerial}<<<<<<NETWORTH<${netWorth}<<<<ROI<${roi}<<<<`,
+    width / 2,
+    footY + 104
+  );
+
+  // URL branding watermark
+  ctx.fillStyle = "#eab308";
+  ctx.font = "700 12px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif";
+  ctx.letterSpacing = "1px";
+  ctx.fillText("REINCARNATION-CHECKLIST.COM", width / 2, footY + 138);
+  ctx.restore();
 
   return canvas.toDataURL("image/png");
 }

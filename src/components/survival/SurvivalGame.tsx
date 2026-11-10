@@ -94,23 +94,6 @@ export default function SurvivalGame({
     return () => clearTimeout(timer);
   }, [toastMessage]);
 
-  // Generate Card Preview when entering game_over
-  useEffect(() => {
-    if (phase === "game_over") {
-      generateReincarnationPassCard({
-        run,
-        results,
-        finalRank,
-        netWorth,
-        lang,
-      })
-        .then((url) => setCardPreviewUrl(url))
-        .catch(() => {});
-    } else {
-      setCardPreviewUrl(null);
-    }
-  }, [phase, run, results, finalRank, netWorth, lang]);
-
   // Spin simulation
   const handleSpin = (targetCountry?: string) => {
     setIsSpinning(true);
@@ -234,6 +217,23 @@ export default function SurvivalGame({
 
   const currentRound = run.rounds[currentRoundIdx];
   const finalRank = useMemo(() => getSurvivalRank(netWorth, run.initialCapital), [netWorth, run.initialCapital]);
+
+  // Generate Card Preview when entering game_over
+  useEffect(() => {
+    if (phase === "game_over") {
+      generateReincarnationPassCard({
+        run,
+        results,
+        finalRank,
+        netWorth,
+        lang,
+      })
+        .then((url) => setCardPreviewUrl(url))
+        .catch(() => {});
+    } else {
+      setCardPreviewUrl(null);
+    }
+  }, [phase, run, results, finalRank, netWorth, lang]);
 
   return (
     <div className="mx-auto max-w-3xl space-y-8">
