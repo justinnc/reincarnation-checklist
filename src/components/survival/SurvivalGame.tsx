@@ -724,6 +724,22 @@ export default function SurvivalGame({
                 <span>{lang === "vi" ? "Chơi kiếp khác" : "New Run"}</span>
               </button>
             </div>
+
+            {/* Live Reincarnation Card Preview */}
+            {cardPreviewUrl && (
+              <div className="mt-6 border-t border-line pt-6">
+                <div className="mb-3 text-xs font-semibold uppercase tracking-wider text-muted">
+                  {lang === "vi" ? "Xem trước Thẻ Căn Cước Trọng Sinh:" : "Reincarnation Pass Preview:"}
+                </div>
+                <div className="mx-auto max-w-xs overflow-hidden rounded-2xl border-2 border-gold/40 bg-surface shadow-2xl shadow-gold/15 transition-all hover:scale-[1.02] hover:border-gold">
+                  <img
+                    src={cardPreviewUrl}
+                    alt="Thẻ Căn Cước Trọng Sinh"
+                    className="block h-auto w-full"
+                  />
+                </div>
+              </div>
+            )}
           </div>
         </motion.section>
       )}
