@@ -4,6 +4,7 @@ import {
   calculateDecisionOutcome,
   getSurvivalRank,
   generateShareText,
+  getContemporaryDispatch,
   type SurvivalRound,
 } from "./survival";
 import { allMilestones } from "./data";
@@ -121,5 +122,22 @@ describe("survival minigame mechanics", () => {
 
     const textEn = generateShareText(run, results, 5000, "en");
     expect(textEn).toContain("Reincarnation Survival Run");
+  });
+
+  it("masks hindsight spoilers in Fog of War contemporary dispatches", () => {
+    const breXMilestone = allMilestones.find((m) => m.id === "ca-bre-x-gold-fraud-1997")!;
+    const trapRound: SurvivalRound = {
+      roundIndex: 1,
+      milestone: breXMilestone,
+      isTrap: true,
+      rawMultiple: 0,
+      cappedMultiple: 0,
+      year: 1996,
+    };
+    const dispatch = getContemporaryDispatch(trapRound);
+    expect(dispatch.headline.vi).not.toContain("lừa đảo");
+    expect(dispatch.headline.en.toLowerCase()).not.toContain("fraud");
+    expect(dispatch.headline.vi).toContain("Bre-X Minerals");
+    expect(dispatch.sentiment.vi.length).toBeGreaterThan(0);
   });
 });

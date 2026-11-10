@@ -10,6 +10,7 @@ import {
   calculateDecisionOutcome,
   getSurvivalRank,
   generateShareText,
+  getContemporaryDispatch,
   type SurvivalRun,
   type DecisionResult,
   type DecisionType,
@@ -218,6 +219,7 @@ export default function SurvivalGame({
   };
 
   const currentRound = run.rounds[currentRoundIdx];
+  const currentDispatch = currentRound ? getContemporaryDispatch(currentRound) : null;
   const finalRank = getSurvivalRank(netWorth, run.initialCapital);
 
   // Generate Card Preview when entering game_over
@@ -434,35 +436,75 @@ export default function SurvivalGame({
           {/* Main Event Card */}
           <div className="relative overflow-hidden rounded-3xl border border-line bg-surface p-6 shadow-xl sm:p-8">
             <div className="space-y-4">
-              <div className="flex flex-wrap items-center gap-2">
-                <span className="rounded-full border border-gold/40 bg-gold/10 px-2.5 py-0.5 font-mono text-xs font-semibold text-gold">
-                  📅 {currentRound.milestone.date}
-                </span>
-                <span className="rounded-full border border-line bg-raised px-2.5 py-0.5 text-xs text-muted capitalize">
-                  {currentRound.milestone.category}
-                </span>
-              </div>
-
-              <h2 className="font-display text-2xl font-bold tracking-tight text-ink sm:text-3xl">
-                {t(currentRound.milestone.title, lang)}
-              </h2>
-
-              <p className="text-sm leading-relaxed text-muted sm:text-base">
-                {t(currentRound.milestone.summary ?? currentRound.milestone.description, lang)}
-              </p>
-
-              {/* Prompt Box */}
-              {!currentRoundResult && (
-                <div className="rounded-2xl border border-line-strong bg-raised/50 p-4 text-sm text-ink">
-                  <div className="font-semibold text-gold">
-                    ❓ {lang === "vi" ? "Bạn sẽ làm gì với $ " + netWorth.toLocaleString() + " của mình?" : "What will you do with your $" + netWorth.toLocaleString() + "?"}
+              {!currentRoundResult ? (
+                <>
+                  {/* Fog of War: Contemporary Dispatch view */}
+                  <div className="flex flex-wrap items-center gap-2">
+                    <span className="rounded-full border border-gold/40 bg-gold/10 px-2.5 py-0.5 font-mono text-xs font-semibold text-gold">
+                      📅 {currentRound.milestone.date}
+                    </span>
+                    <span className="rounded-full border border-line bg-raised px-2.5 py-0.5 text-xs text-muted capitalize">
+                      {currentRound.milestone.category}
+                    </span>
+                    <span className="rounded-full border border-cyan-500/30 bg-cyan-500/10 px-2.5 py-0.5 text-xs font-semibold text-cyan-400">
+                      🗞️ {lang === "vi" ? "Điện tín đương thời" : "Contemporary Dispatch"}
+                    </span>
                   </div>
-                  <p className="mt-1 text-xs text-muted">
-                    {lang === "vi"
-                      ? "Đọc kỹ bối cảnh lịch sử. Đây là cơ hội đổi đời hay một cái bẫy chết người?"
-                      : "Evaluate the historical context. Is this a compounding wave or a fatal trap?"}
+
+                  <h2 className="font-display text-2xl font-bold tracking-tight text-ink sm:text-3xl">
+                    {currentDispatch ? currentDispatch.headline[lang] : t(currentRound.milestone.title, lang)}
+                  </h2>
+
+                  <p className="text-sm leading-relaxed text-muted sm:text-base">
+                    {currentDispatch ? currentDispatch.dispatch[lang] : t(currentRound.milestone.summary ?? currentRound.milestone.description, lang)}
                   </p>
-                </div>
+
+                  {currentDispatch && (
+                    <div className="flex items-center gap-2 rounded-xl border border-gold/20 bg-gold/5 px-3.5 py-2 text-xs">
+                      <span className="font-semibold text-gold">
+                        📻 {lang === "vi" ? "Dư luận đương thời:" : "Market Sentiment:"}
+                      </span>
+                      <span className="text-ink">{currentDispatch.sentiment[lang]}</span>
+                    </div>
+                  )}
+
+                  {/* Prompt Box */}
+                  <div className="rounded-2xl border border-line-strong bg-raised/50 p-4 text-sm text-ink">
+                    <div className="font-semibold text-gold">
+                      ❓ {lang === "vi" ? `Bạn sẽ làm gì với $${netWorth.toLocaleString()} của mình?` : `What will you do with your $${netWorth.toLocaleString()}?`}
+                    </div>
+                    <p className="mt-1 text-xs text-muted">
+                      {lang === "vi"
+                        ? "Đứng trước thời khắc lịch sử này mà không biết trước kết cục: bạn chọn Tất tay đón sóng, Thăm dò thận trọng hay Giữ tiền né bão?"
+                        : "Standing at this historical moment with no hindsight: will you go all-in, enter cautiously, or preserve cash?"}
+                    </p>
+                  </div>
+                </>
+              ) : (
+                <>
+                  {/* Historical Reality Revealed */}
+                  <div className="flex flex-wrap items-center gap-2">
+                    <span className="rounded-full border border-gold/40 bg-gold/10 px-2.5 py-0.5 font-mono text-xs font-semibold text-gold">
+                      📅 {currentRound.milestone.date}
+                    </span>
+                    <span className="rounded-full border border-line bg-raised px-2.5 py-0.5 text-xs text-muted capitalize">
+                      {currentRound.milestone.category}
+                    </span>
+                  </div>
+
+                  <div className="rounded-2xl border border-line bg-raised/60 p-4 sm:p-5">
+                    <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-gold">
+                      <span>📜</span>
+                      <span>{lang === "vi" ? "Sự thật lịch sử đã giải mã:" : "Historical Reality Revealed:"}</span>
+                    </div>
+                    <h2 className="mt-1.5 font-display text-xl font-bold tracking-tight text-ink sm:text-2xl">
+                      {t(currentRound.milestone.title, lang)}
+                    </h2>
+                    <p className="mt-2 text-xs leading-relaxed text-muted sm:text-sm">
+                      {t(currentRound.milestone.summary ?? currentRound.milestone.description, lang)}
+                    </p>
+                  </div>
+                </>
               )}
             </div>
 
