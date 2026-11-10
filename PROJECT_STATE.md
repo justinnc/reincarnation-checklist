@@ -68,6 +68,7 @@ ada7acb feat: Add Web Audio SFX, animated net worth counter, quick capital prese
 
 ### 🟡 Recently Committed work
 
+- [x] **Seed Challenge Mode (?seed=...) in Survival** (`src/lib/survival.ts`, `src/components/survival/SurvivalGame.tsx`, `survival.test.ts`) — Deterministic Mulberry32 PRNG seed engine, challenge mode banner on arrival, copy challenge link & auto-embedded seed in share text (`f095e2c`).
 - [x] **Fog of War (Tin tức đương thời) in Survival** (`src/lib/survival.ts`, `src/components/survival/SurvivalGame.tsx`, `survival.test.ts`) — Masked hindsight spoiler titles with contemporary headlines, sentiment indicators, and post-round reality reveals (`7776dc3`).
 - [x] **Charm soft-hide from UI** (`src/app/[lang]/charm/page.tsx`, `src/components/CharmToggle.tsx`, `src/components/NavLinks.tsx`) — Hidden from navbar, cards and pages without deleting underlying logic (`dd5c8f6`).
 - [x] **NavLinks hamburger menu + mobile drawer** (`src/components/NavLinks.tsx`) — Committed in `e7a078a`.
