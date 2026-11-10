@@ -36,6 +36,11 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
 export default async function CharmPage({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;
   if (!hasLocale(lang)) notFound();
+
+  // Route temporarily hidden from public view
+  notFound();
+
+  /* Original implementation retained for future activation:
   const copy = COPY[lang];
 
   return (
@@ -50,4 +55,5 @@ export default async function CharmPage({ params }: { params: Promise<{ lang: st
       </Suspense>
     </div>
   );
+  */
 }

@@ -217,7 +217,8 @@ export default function RebirthPicker({ milestones, countries, lang, dict, minYe
                 🚫 {lang === "vi" ? "Cạm bẫy cần né" : "Traps to Avoid"} ({trapsAhead.length})
               </button>
             </div>
-            {activeList.length > 0 && (
+            {/* Save to charm temporarily hidden */}
+            {false && activeList.length > 0 && (
               <motion.button
                 type="button"
                 onClick={handleSaveTop3}

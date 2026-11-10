@@ -718,16 +718,19 @@ export default function SurvivalGame({
                 </span>
               </button>
 
-              <button
-                type="button"
-                onClick={handleSaveToCharm}
-                className="inline-flex items-center justify-center gap-1.5 rounded-full border border-line bg-raised px-5 py-2.5 text-xs font-semibold text-ink transition hover:border-line-strong hover:bg-line"
-              >
-                <span>📜</span>
-                <span>
-                  {lang === "vi" ? "Lưu 5 mốc vào Bùa" : "Save 5 to Cheat Sheet"}
-                </span>
-              </button>
+              {/* Charm save button temporarily hidden */}
+              {false && (
+                <button
+                  type="button"
+                  onClick={handleSaveToCharm}
+                  className="inline-flex items-center justify-center gap-1.5 rounded-full border border-line bg-raised px-5 py-2.5 text-xs font-semibold text-ink transition hover:border-line-strong hover:bg-line"
+                >
+                  <span>📜</span>
+                  <span>
+                    {lang === "vi" ? "Lưu 5 mốc vào Bùa" : "Save 5 to Cheat Sheet"}
+                  </span>
+                </button>
+              )}
 
               <button
                 type="button"

@@ -117,7 +117,8 @@ export default function Quiz({ questions, countries, lang, dict }: { questions: 
         <div className="mt-10 border-t border-line pt-6">
           <div className="flex flex-wrap items-center justify-between gap-3">
             <h3 className="text-sm font-semibold uppercase tracking-wider text-faint">{dict.missed}</h3>
-            {missed.length > 0 && (
+            {/* Save missed to charm temporarily hidden */}
+            {false && missed.length > 0 && (
               <button type="button" onClick={saveMissed} disabled={savedMissed} className="text-xs font-medium text-gold hover:brightness-110 disabled:opacity-70">
                 {savedMissed ? dict.savedMissed : dict.saveMissed}
               </button>
