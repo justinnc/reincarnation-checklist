@@ -68,6 +68,8 @@ ada7acb feat: Add Web Audio SFX, animated net worth counter, quick capital prese
 
 ### 🟡 Recently Committed work
 
+- [x] **Fog of War (Tin tức đương thời) in Survival** (`src/lib/survival.ts`, `src/components/survival/SurvivalGame.tsx`, `survival.test.ts`) — Masked hindsight spoiler titles with contemporary headlines, sentiment indicators, and post-round reality reveals (`7776dc3`).
+- [x] **Charm soft-hide from UI** (`src/app/[lang]/charm/page.tsx`, `src/components/CharmToggle.tsx`, `src/components/NavLinks.tsx`) — Hidden from navbar, cards and pages without deleting underlying logic (`dd5c8f6`).
 - [x] **NavLinks hamburger menu + mobile drawer** (`src/components/NavLinks.tsx`) — Committed in `e7a078a`.
 - [x] **Pass Card text overflow clamping** (`src/lib/passCard.ts`) — Committed in `e7a078a`.
 - [x] **Sprint 2 inflation mechanic** (`src/lib/survival.ts`, `survival.test.ts`, `src/components/survival/SurvivalGame.tsx`) — Committed in `e7a078a`.
