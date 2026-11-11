@@ -9,7 +9,7 @@ import AlmanacExplorer, { type AlmanacMilestone } from "@/components/AlmanacExpl
 
 const COPY = {
   vi: {
-    kicker: "Dành cho người viết truyện trọng sinh",
+    kicker: "Vật giá qua từng năm",
     heading: "Bảng giá theo năm",
     intro:
       "Giá cả qua từng năm ở nhiều quốc gia, có nguồn trích dẫn — để viết đúng số liệu khi nhân vật của bạn trọng sinh về một năm, một đất nước cụ thể. Xếp hạng chất lượng A/B/C cho biết độ tin cậy của từng chuỗi dữ liệu.",
@@ -21,7 +21,7 @@ const COPY = {
       "Dữ liệu tổng hợp từ các nguồn công khai (xem mục Nguồn ở mỗi mục). Một số chuỗi (xếp hạng C) chỉ có vài mốc rời rạc, chưa phải số liệu liên tục theo năm — dùng để tham khảo, không phải số liệu thống kê chính thức. Năm không có số liệu được nội suy (đánh dấu ~).",
   },
   en: {
-    kicker: "For reborn-in-the-past (\u201ctrọng sinh\u201d) novel writers",
+    kicker: "What things cost, year by year",
     heading: "Price Almanac",
     intro:
       "Prices year by year across many countries, with sources — so your reborn character spends the right amount of money for the year and country they land in. A/B/C quality ratings show how reliable each series is.",

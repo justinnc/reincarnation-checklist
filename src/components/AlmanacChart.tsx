@@ -31,10 +31,10 @@ export default function AlmanacChart({ item, lang }: { item: AlmanacItem; lang: 
             const barMax = (((p.max ?? v) - min) / span) * 100;
             const edge = i === 0 ? "left-0 translate-x-0" : i === pts.length - 1 ? "right-0 left-auto translate-x-0" : "left-1/2 -translate-x-1/2";
             return (
-              <div key={i} className="group relative flex w-9 shrink-0 flex-col items-center gap-2 sm:w-12">
+              <div key={i} tabIndex={0} className="group relative flex w-9 shrink-0 cursor-pointer flex-col items-center gap-2 outline-none sm:w-12">
                 <div className="relative h-32 w-3 overflow-hidden rounded-full bg-line sm:w-4">
                   <div
-                    className="absolute bottom-0 w-full rounded-full bg-gold transition-colors group-hover:bg-gain"
+                    className="absolute bottom-0 w-full rounded-full bg-gold transition-colors group-hover:bg-gain group-focus:bg-gain"
                     style={{ height: `${barMax}%`, top: "auto" }}
                   />
                   {p.min != null && (
@@ -43,7 +43,7 @@ export default function AlmanacChart({ item, lang }: { item: AlmanacItem; lang: 
                 </div>
                 <span className="font-mono text-xs tabular text-faint">{label}</span>
                 <div
-                  className={`pointer-events-none absolute bottom-full z-10 mb-2 hidden max-w-[200px] rounded-md bg-ink px-2 py-1 text-xs font-medium text-bg group-hover:block ${edge}`}
+                  className={`pointer-events-none absolute bottom-full z-10 mb-2 hidden max-w-[200px] rounded-md bg-ink px-2 py-1 text-xs font-medium text-bg group-hover:block group-focus:block ${edge}`}
                 >
                   <div className="whitespace-nowrap">
                     {p.min != null ? `${fmt(p.min, lang)}–${fmt(p.max!, lang)}` : fmt(v, lang)} {t(item.unit, lang)}
@@ -55,7 +55,7 @@ export default function AlmanacChart({ item, lang }: { item: AlmanacItem; lang: 
           })}
         </div>
       </div>
-      <p className="text-xs text-faint">{lang === "vi" ? "Di chuột vào từng cột để xem chi tiết." : "Hover a bar for details."}</p>
+      <p className="text-xs text-faint">{lang === "vi" ? "Chạm hoặc di chuột vào từng cột để xem chi tiết." : "Tap or hover a bar for details."}</p>
     </div>
   );
 }

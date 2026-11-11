@@ -39,7 +39,11 @@ export default function GlobalSearch({
   const copy = COPY[lang];
   const countryMap = useMemo(() => new Map(countries.map((c) => [c.code, c])), [countries]);
 
-  const results = useMemo(() => searchMilestones(milestones, lang, query), [milestones, lang, query]);
+  // Vietnamese readers mostly look for Vietnamese events: rank those first among equal matches.
+  const results = useMemo(
+    () => searchMilestones(milestones, lang, query, { preferCountry: lang === "vi" ? "vn" : undefined }),
+    [milestones, lang, query],
+  );
 
   const onChange = (value: string) => {
     setQuery(value);

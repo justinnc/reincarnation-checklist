@@ -9,6 +9,7 @@ import { describePriceBasis } from "@/lib/priceBasis";
 import { localeAlternates, SITE_URL } from "@/lib/seo";
 import { DropBadge, MultipleBadge, RiskBadge, SourceLinksBadge } from "@/components/Badges";
 import { CharmToggle } from "@/components/CharmToggle";
+import InlineQuiz from "@/components/InlineQuiz";
 
 export async function generateStaticParams() {
   return locales.flatMap((lang) => allMilestones.map((m) => ({ lang, country: m.country, id: m.id })));
@@ -199,15 +200,7 @@ export default async function MilestonePage({ params }: PageProps<"/[lang]/[coun
             )}
           </section>
 
-          {m.quiz && (
-            <Link
-              href={`/${lang}/quiz`}
-              className="block rounded-2xl border border-line bg-surface p-6 transition-colors hover:border-gold"
-            >
-              <div className="text-xs font-semibold uppercase tracking-wider text-gold">{d.test}</div>
-              <p className="mt-2 font-medium">{t(m.quiz.question, lang)}</p>
-            </Link>
-          )}
+          {m.quiz && <InlineQuiz quiz={m.quiz} lang={lang} title={d.test} />}
         </aside>
       </div>
 

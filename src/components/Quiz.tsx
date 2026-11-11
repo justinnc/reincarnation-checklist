@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { t, type Locale } from "@/lib/i18n";
 import type { Country, Milestone } from "@/lib/types";
 import type { Dictionary } from "@/lib/dictionaries";
@@ -28,6 +28,18 @@ export default function Quiz({ questions, countries, lang, dict }: { questions: 
   const [missed, setMissed] = useState<Q[]>([]);
   const [shared, setShared] = useState(false);
   const [savedMissed, setSavedMissed] = useState(false);
+  const [shareFailed, setShareFailed] = useState(false);
+  const cardRef = useRef<HTMLDivElement>(null);
+  const feedbackRef = useRef<HTMLDivElement>(null);
+
+  // On phones the question, feedback and Next button don't fit one screen: keep the
+  // relevant part in view instead of making players hunt for it.
+  useEffect(() => {
+    if (round) cardRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }, [round, index]);
+  useEffect(() => {
+    if (picked !== null) feedbackRef.current?.scrollIntoView({ behavior: "smooth", block: "nearest" });
+  }, [picked]);
 
   const start = () => {
     const src = questions.filter((q) => pool === "all" || q.country === pool);
@@ -45,6 +57,7 @@ export default function Quiz({ questions, countries, lang, dict }: { questions: 
     setScore(0);
     setMissed([]);
     setShared(false);
+    setShareFailed(false);
     setSavedMissed(false);
   };
 
@@ -65,9 +78,12 @@ export default function Quiz({ questions, countries, lang, dict }: { questions: 
             </button>
           ))}
         </div>
-        <button type="button" onClick={start} className="mt-8 rounded-full bg-gold px-6 py-3 font-semibold text-on-gold hover:brightness-110">
-          {dict.start} →
-        </button>
+        {/* Sticky on phones so Start stays reachable below the long country list. */}
+        <div className="sticky bottom-4 z-10 mt-8">
+          <button type="button" onClick={start} className="rounded-full bg-gold px-6 py-3 font-semibold text-on-gold shadow-lg hover:brightness-110">
+            {dict.start} →
+          </button>
+        </div>
       </div>
     );
   }
@@ -88,16 +104,21 @@ export default function Quiz({ questions, countries, lang, dict }: { questions: 
           if (e instanceof Error && e.name === "AbortError") return; // user closed the share sheet
         }
       }
-      await navigator.clipboard.writeText(`${text} ${url}`);
-      setShared(true);
-      setTimeout(() => setShared(false), 2000);
+      try {
+        await navigator.clipboard.writeText(`${text} ${url}`);
+        setShared(true);
+        setTimeout(() => setShared(false), 2000);
+      } catch {
+        // Clipboard can be blocked (permissions, unfocused document): say so instead of failing silently.
+        setShareFailed(true);
+      }
     };
     const saveMissed = () => {
       addCharmIds(missed.map((m) => m.id));
       setSavedMissed(true);
     };
     return (
-      <div className="rounded-3xl border border-line bg-surface p-6 sm:p-10">
+      <div ref={cardRef} className="scroll-mt-4 rounded-3xl border border-line bg-surface p-6 sm:p-10">
         <div className="text-center">
           <div className="text-sm uppercase tracking-wider text-faint">{dict.score}</div>
           <div className="mt-2 font-display text-8xl font-extrabold tabular text-gold">
@@ -112,6 +133,11 @@ export default function Quiz({ questions, countries, lang, dict }: { questions: 
               {dict.again}
             </button>
           </div>
+          {shareFailed && (
+            <p className="mt-3 text-sm text-muted" role="status">
+              {lang === "vi" ? "Không sao chép được. Hãy chụp màn hình để chia sẻ kết quả." : "Couldn't copy the link. Take a screenshot to share your result."}
+            </p>
+          )}
         </div>
 
         <div className="mt-10 border-t border-line pt-6">
@@ -157,7 +183,7 @@ export default function Quiz({ questions, countries, lang, dict }: { questions: 
   };
 
   return (
-    <div className="rounded-3xl border border-line bg-surface p-6 sm:p-10">
+    <div ref={cardRef} className="scroll-mt-4 rounded-3xl border border-line bg-surface p-6 sm:p-10">
       <div className="flex items-center justify-between font-mono text-sm tabular text-faint">
         <span>
           {dict.question} {index + 1} {dict.of} {round.length}
@@ -197,7 +223,7 @@ export default function Quiz({ questions, countries, lang, dict }: { questions: 
         })}
       </div>
       {answered && (
-        <div className="mt-6 rounded-xl bg-raised p-5" role="status">
+        <div ref={feedbackRef} className="mt-6 scroll-mb-4 rounded-xl bg-raised p-5" role="status">
           <div className={`font-semibold ${picked === q.quiz.answer ? "text-gain" : "text-danger"}`}>
             {picked === q.quiz.answer ? dict.correct : dict.wrong}
           </div>

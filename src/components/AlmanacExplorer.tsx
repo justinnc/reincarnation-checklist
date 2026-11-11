@@ -6,6 +6,7 @@ import { useSearchParams } from "next/navigation";
 import { defaultCountry, t, type Locale, type LocalizedText } from "@/lib/i18n";
 import { interpolateAlmanacValue, type AlmanacItem } from "@/lib/almanac";
 import { formatDate, formatDrop, formatMoney, formatMultiple } from "@/lib/format";
+import { quantityLabel } from "@/lib/almanacUnits";
 import AlmanacChart from "./AlmanacChart";
 
 export interface AlmanacMilestone {
@@ -226,7 +227,10 @@ export default function AlmanacExplorer({
                     </span>
                   </div>
                   <div className="mt-1.5 font-mono text-xl font-bold text-gold tabular">
-                    {formattedUnits} <span className="text-xs font-normal text-muted">× {t(it.unit, lang)}</span>
+                    {formattedUnits}{" "}
+                    <span className="text-xs font-normal text-muted">
+                      {quantityLabel(t(it.unit, lang), units, lang) || `× ${t(it.unit, lang)}`}
+                    </span>
                   </div>
                   <div className="mt-1 font-mono text-xs text-faint tabular">
                     {L.priceInYear} {year}: {formatMoney(price, it.currency ?? stake.currency, lang)}

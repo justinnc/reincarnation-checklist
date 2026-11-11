@@ -24,6 +24,9 @@ const COPY = {
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params;
   if (!hasLocale(lang)) return {};
+  // Route is hidden (see notFound below): don't advertise or index it until it relaunches.
+  return { robots: { index: false, follow: false } };
+  /* Original metadata retained for future activation:
   const copy = COPY[lang];
   return {
     title: copy.heading,
@@ -31,6 +34,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
     alternates: { canonical: `${SITE_URL}/${lang}/charm`, languages: localeAlternates("/charm") },
     openGraph: { images: ["/opengraph-image"], title: copy.heading, description: copy.intro, url: `/${lang}/charm` },
   };
+  */
 }
 
 export default async function CharmPage({ params }: { params: Promise<{ lang: string }> }) {

@@ -38,7 +38,7 @@ function Pills({ lang, query }: { lang: Locale; query: string }) {
           key={l}
           href={`/${l}${rest ? `/${rest}` : ""}${suffix}`}
           aria-current={l === lang ? "true" : undefined}
-          className={`rounded-full px-2.5 py-1 uppercase transition-colors ${
+          className={`flex min-h-9 items-center rounded-full px-3 py-2 uppercase transition-colors ${
             l === lang ? "bg-gold text-on-gold" : "text-muted hover:text-ink"
           }`}
         >

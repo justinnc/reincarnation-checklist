@@ -17,10 +17,23 @@ function render(milestones = allMilestonesLite.filter((m) => m.country === "us" 
 }
 
 describe("RebirthPicker empty states", () => {
-  it("does not promise future context when no milestones remain from the selected year", async () => {
+  it("keeps the slider inside the country's data instead of showing an empty future year", async () => {
     const html = await render();
-    expect(html).toContain("No milestones from 2024");
+    // US data in this fixture ends in 2023, so a requested 2024 is clamped to 2023.
+    expect(html).toContain('max="2023"');
+    expect(html).not.toContain("No milestones from 2024");
     expect(html).not.toContain("Context milestones are still");
+    expect(html).toContain("1</span> <span class=\"text-muted\">milestone from this year onward");
+  });
+
+  it("hides the compounding CTA when nothing can be chained", async () => {
+    const html = await render();
+    expect(html).not.toContain("Build compounding chain");
+    expect(html).toContain("try an earlier year");
+  });
+
+  it("still words the no-milestones message for an empty year", () => {
+    expect(pickerEmptyMessage("en", "gain", 2024, 0, 0)).toContain("No milestones from 2024");
   });
 
   it("mentions remaining context only when unpriced milestones exist from the selected year", async () => {

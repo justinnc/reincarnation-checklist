@@ -34,8 +34,14 @@ export function pickerEmptyMessage(lang: Locale, tab: "gain" | "trap", year: num
 }
 
 export default function RebirthPicker({ milestones, countries, lang, dict, minYear, maxYear }: Props) {
-  const [year, setYear] = useState(Math.max(minYear, 1995));
+  const [rawYear, setYear] = useState(Math.max(minYear, 1995));
   const [country, setCountry] = useState(() => defaultCountry(lang));
+  // Slider range follows the selected country's data (e.g. US starts in 1980, not 1978).
+  const [countryMin, countryMax] = useMemo(() => {
+    const ys = milestones.filter((m) => m.country === country).map((m) => Number(m.date.slice(0, 4)));
+    return ys.length ? [Math.min(...ys), Math.max(...ys)] : [minYear, maxYear];
+  }, [milestones, country, minYear, maxYear]);
+  const year = Math.min(Math.max(rawYear, countryMin), countryMax);
   const [tab, setTab] = useState<"gain" | "trap">("gain");
   const [savedToast, setSavedToast] = useState(false);
   const reduceMotion = useReducedMotion();
@@ -144,19 +150,20 @@ export default function RebirthPicker({ milestones, countries, lang, dict, minYe
           <input
             id="year"
             type="range"
-            min={minYear}
-            max={maxYear}
+            min={countryMin}
+            max={countryMax}
             value={year}
             onChange={(e) => setYear(Number(e.target.value))}
-            className="mt-6 w-full accent-[#f4b740]"
+            aria-label={lang === "vi" ? "Năm bắt đầu" : "Starting year"}
+            className="mt-6 h-8 w-full cursor-pointer accent-[#f4b740]"
           />
           <div className="mt-1 flex justify-between font-mono text-xs tabular text-faint">
-            <span>{minYear}</span>
-            <span>{maxYear}</span>
+            <span>{countryMin}</span>
+            <span>{countryMax}</span>
           </div>
           <p className="mt-5 text-base sm:text-lg">
             <span className="font-mono text-3xl font-semibold tabular text-ink">{ahead.length}</span>{" "}
-            <span className="text-muted">{dict.ahead}</span>{" "}
+            <span className="text-muted">{lang === "en" && ahead.length === 1 ? dict.ahead.replace(/^milestones\b/, "milestone") : dict.ahead}</span>{" "}
             <span className="text-xs text-faint">
               ({gainsAhead.length} {lang === "vi" ? "cơ hội" : "gains"} · {trapsAhead.length} {lang === "vi" ? "cạm bẫy" : "traps"}
               {ahead.length - gainsAhead.length - trapsAhead.length > 0 &&
@@ -167,30 +174,39 @@ export default function RebirthPicker({ milestones, countries, lang, dict, minYe
           {chain && stake && (
             <p className="mt-3 text-sm text-muted">
               {lang === "vi"
-                ? `Với ${formatMoney(stake.amount, stake.currency, lang)} và ${chain.steps.length} kèo thực tế nối nhau, đến ${chain.steps[chain.steps.length - 1].candidate.endYear} bạn có `
+                ? `Với ${formatMoney(stake.amount, stake.currency, lang)} và ${chain.steps.length} thương vụ thực tế nối nhau, đến ${chain.steps[chain.steps.length - 1].candidate.endYear} bạn có `
                 : `With ${formatMoney(stake.amount, stake.currency, lang)} and ${chain.steps.length} realistic ${chain.steps.length === 1 ? "trade" : "trades"} chained, by ${chain.steps[chain.steps.length - 1].candidate.endYear} you'd hold `}
               <span className="font-mono text-lg font-semibold tabular text-gain">{formatMoney(chain.finalCapital, stake.currency, lang)}</span>{" "}
               <span className="font-mono text-xs tabular text-faint">({formatMultiple(chain.totalMultiple, lang)})</span>
             </p>
           )}
+          {!chain && (
+            <p className="mt-3 text-sm text-faint">
+              {lang === "vi"
+                ? `Chưa có thương vụ thực tế nào từ ${year} để nối thành chuỗi — thử chọn năm sớm hơn.`
+                : `No realistic trades from ${year} to chain yet — try an earlier year.`}
+            </p>
+          )}
           <div className="mt-4 flex flex-wrap gap-2.5">
-            <Link
-              href={`/${lang}/whatif?mode=playbook&country=${country}&from=${year}`}
-              className="rounded-full bg-gold px-4 py-2 text-xs font-semibold text-on-gold hover:brightness-110"
-            >
-              {lang === "vi" ? `⚡ Lập chuỗi lãi kép từ ${year} →` : `⚡ Build compounding chain from ${year} →`}
-            </Link>
+            {chain && (
+              <Link
+                href={`/${lang}/whatif?mode=playbook&country=${country}&from=${year}`}
+                className="rounded-full bg-gold px-4 py-2.5 text-xs font-semibold text-on-gold hover:brightness-110"
+              >
+                {lang === "vi" ? `⚡ Lập chuỗi lãi kép từ ${year} →` : `⚡ Build compounding chain from ${year} →`}
+              </Link>
+            )}
             {(
               <Link
                 href={`/${lang}/almanac?country=${country}&year=${year}`}
-                className="rounded-full border border-line-strong bg-raised px-4 py-2 text-xs font-semibold text-ink hover:border-gold"
+                className="rounded-full border border-line-strong bg-raised px-4 py-2.5 text-xs font-semibold text-ink hover:border-gold"
               >
                 {lang === "vi" ? `🍜 Vật giá năm ${year} →` : `🍜 Prices in ${year} →`}
               </Link>
             )}
             <Link
               href={`/${lang}/survival?country=${country}&year=${year}`}
-              className="inline-flex items-center gap-1.5 rounded-full border border-emerald-500/40 bg-emerald-500/10 px-3 py-1.5 text-xs font-semibold text-emerald-400 transition hover:border-emerald-500 hover:bg-emerald-500/20"
+              className="inline-flex items-center gap-1.5 rounded-full border border-emerald-500/40 bg-emerald-500/10 px-4 py-2.5 text-xs font-semibold text-emerald-400 transition hover:border-emerald-500 hover:bg-emerald-500/20"
             >
               <span>🎲</span>
               <span>
@@ -201,7 +217,7 @@ export default function RebirthPicker({ milestones, countries, lang, dict, minYe
             </Link>
             <Link
               href={`/${lang}/world?year=${year}`}
-              className="rounded-full border border-line-strong bg-raised px-4 py-2 text-xs font-semibold text-ink hover:border-gold"
+              className="rounded-full border border-line-strong bg-raised px-4 py-2.5 text-xs font-semibold text-ink hover:border-gold"
             >
               {lang === "vi" ? `🌍 Mốc toàn cầu năm ${year} →` : `🌍 World milestones in ${year} →`}
             </Link>
@@ -214,7 +230,7 @@ export default function RebirthPicker({ milestones, countries, lang, dict, minYe
               <button
                 type="button"
                 onClick={() => setTab("gain")}
-                className={`rounded-full px-3 py-1 font-semibold transition-colors ${
+                className={`rounded-full px-3 py-2 font-semibold transition-colors ${
                   tab === "gain" ? "bg-gold text-on-gold" : "text-muted hover:text-ink"
                 }`}
               >
@@ -223,7 +239,7 @@ export default function RebirthPicker({ milestones, countries, lang, dict, minYe
               <button
                 type="button"
                 onClick={() => setTab("trap")}
-                className={`rounded-full px-3 py-1 font-semibold transition-colors ${
+                className={`rounded-full px-3 py-2 font-semibold transition-colors ${
                   tab === "trap" ? "bg-danger text-[#2a0606]" : "text-muted hover:text-ink"
                 }`}
               >

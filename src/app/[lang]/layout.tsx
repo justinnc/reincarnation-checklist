@@ -48,8 +48,8 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[la
       <body className="flex min-h-full flex-col">
         <header className="border-b border-line">
           <nav aria-label="Main" className="mx-auto flex max-w-[1120px] items-center gap-3 px-4 py-2 sm:gap-5 sm:py-3">
-            <Link href={`/${lang}`} className="flex items-center gap-2 font-display text-lg font-extrabold tracking-tight">
-              <span className="flex h-7 w-7 items-center justify-center rounded-md bg-gold text-on-gold">✓</span>
+            <Link href={`/${lang}`} aria-label={dict.site.name} className="flex min-h-11 items-center gap-2 font-display text-lg font-extrabold tracking-tight">
+              <span className="flex h-8 w-8 items-center justify-center rounded-md bg-gold text-on-gold">✓</span>
               <span className="hidden xl:inline">{dict.site.name}</span>
             </Link>
             <NavLinks lang={lang} labels={dict.nav} />

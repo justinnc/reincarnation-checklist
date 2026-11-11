@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
 import type { Milestone } from "../types";
+import { allMilestones } from "../data";
 import { searchMilestones } from "../search";
 
 const mk = (id: string, title: { en: string; vi?: string }, extra: Partial<Milestone> = {}): Milestone => ({
@@ -39,9 +40,9 @@ describe("searchMilestones", () => {
     expect(searchMilestones(all, "vi", "KINH TẾ")).toEqual([doiMoi]);
   });
 
-  it("does not strip diacritics, so an ASCII-only query misses accented text", () => {
-    // TODO: "kinh te" should arguably match "kinh tế" — no diacritic folding today.
-    expect(searchMilestones(all, "vi", "kinh te")).toEqual([]);
+  it("folds diacritics so an ASCII-only query matches accented text", () => {
+    expect(searchMilestones(all, "vi", "kinh te")).toEqual([doiMoi]);
+    expect(searchMilestones(all, "vi", "KINH TE")).toEqual([doiMoi]);
   });
 
   it("requires every term to match (AND semantics)", () => {
@@ -72,5 +73,27 @@ describe("searchMilestones", () => {
     const copy = [...input];
     searchMilestones(input, "en", "o");
     expect(input).toEqual(copy);
+  });
+});
+
+describe("searchMilestones on real data (persona queries typed without accents)", () => {
+  const ids = (q: string, opts = {}) => searchMilestones(allMilestones, "vi", q, opts).map((m) => m.id);
+
+  it("finds Hòa Phát from 'hoa phat'", () => {
+    expect(ids("hoa phat")[0]).toBe("vn-hoa-phat-listing-2007");
+  });
+  it("treats 'vnindex', 'vn-index' and 'vn index' alike", () => {
+    expect(ids("vnindex").length).toBeGreaterThan(0);
+    expect(ids("vnindex")).toEqual(ids("vn-index"));
+    expect(ids("vn index")).toEqual(expect.arrayContaining(ids("vnindex")));
+  });
+  it("finds the Vietnamese manipulation cases from 'thao tung'", () => {
+    expect(ids("thao tung")).toEqual(expect.arrayContaining(["vn-louis-holdings-tgg-manipulation-2021", "vn-flc-trinh-van-quyet-manipulation-2022"]));
+  });
+  it("ranks the preferred country first among equal scores", () => {
+    const au = mk("au-div", { en: "x", vi: "Cổ tức đều đặn" }, { country: "au", date: "1990" });
+    const vn = mk("vn-div", { en: "x", vi: "Cổ tức đều đặn" }, { country: "vn", date: "2000" });
+    expect(searchMilestones([au, vn], "vi", "co tuc", { preferCountry: "vn" }).map((m) => m.id)).toEqual(["vn-div", "au-div"]);
+    expect(searchMilestones([au, vn], "vi", "co tuc").map((m) => m.id)).toEqual(["au-div", "vn-div"]);
   });
 });
