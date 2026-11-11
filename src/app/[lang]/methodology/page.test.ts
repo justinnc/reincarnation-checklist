@@ -16,6 +16,8 @@ describe("methodology page", () => {
     expect(html).not.toContain("Gate 1");
     expect(html).not.toContain("historicalOnly");
     expect(html).toContain("github.com/justinnc/reincarnation-checklist/issues/new");
+    expect(html).toContain("5. Analytics");
+    expect(html).toContain("no session recordings");
   });
 
   it("renders transparency principles and correction link in Vietnamese", async () => {
@@ -24,6 +26,7 @@ describe("methodology page", () => {
     expect(html).toContain("Có liên kết nguồn");
     expect(html).toContain("Đã rà soát chéo (tự động)");
     expect(html).not.toContain("kiểm toán biên tập");
+    expect(html).toContain("5. Thống kê truy cập (analytics)");
     expect(html).toContain("github.com/justinnc/reincarnation-checklist/issues/new");
   });
 });

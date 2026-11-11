@@ -52,6 +52,16 @@ const COPY: Record<string, { heading: string; subtitle: string; updated: string;
       {
         h: "4. Đơn giản hoá trong công cụ mô phỏng & trò chơi",
         p: "Các công cụ như 'Nếu bạn đã đầu tư' và 'Thử thách sống sót' dùng mô hình đơn giản (không tính trượt giá, tỷ lệ lạm phát cố định) để minh hoạ và giải trí, không thay thế được kế hoạch tài chính cá nhân."
+      },
+      {
+        h: "5. Thống kê truy cập (analytics)",
+        p: "Chúng tôi dùng PostHog để đếm lượt xem trang và một số thao tác trong trò chơi, nhằm biết phần nào hữu ích để cải thiện trang:",
+        bullets: [
+          "Dữ liệu gửi đi: trang đã xem, và các sự kiện trong Thử thách sống sót và Đố vui (quốc gia, năm bắt đầu, lựa chọn ở từng vòng, điểm/xếp hạng, ngôn ngữ, việc tải hoặc chia sẻ thẻ).",
+          "Không thu thập: tên, email hay tài khoản; không ghi lại thao tác chuột hay quay màn hình phiên truy cập; không theo dõi từng cú nhấp.",
+          "Không dùng cookie hay bộ nhớ trình duyệt cho thống kê: mã nhận diện chỉ tồn tại trong một lần mở trang và mất khi bạn đóng hoặc tải lại trang.",
+          "Như mọi yêu cầu web, máy chủ của PostHog nhận địa chỉ IP và thông tin trình duyệt của bạn khi các sự kiện được gửi."
+        ]
       }
     ],
     feedbackTitle: "Báo lỗi & đề xuất sửa số liệu",
@@ -97,6 +107,16 @@ const COPY: Record<string, { heading: string; subtitle: string; updated: string;
       {
         h: "4. Simulation & game simplifications",
         p: "Tools such as the 'What If' calculator and 'Survival Run' use simplified assumptions (no slippage, stylized inflation rates) for illustration and entertainment. They are not a substitute for personal financial planning."
+      },
+      {
+        h: "5. Analytics",
+        p: "We use PostHog to count page views and a few game interactions, so we can see which parts are useful and improve them:",
+        bullets: [
+          "What is sent: pages viewed, plus Survival and Quiz events (country, starting year, the choice made each round, score/rank, language, and whether a pass card was downloaded or shared).",
+          "What is not collected: no names, emails or accounts; no session recordings, heatmaps or click tracking.",
+          "No cookies or browser storage are used for analytics: the identifier lives only for one page session and is gone when you close or reload the page.",
+          "As with any web request, PostHog's servers receive your IP address and browser details when events are sent."
+        ]
       }
     ],
     feedbackTitle: "Report an error or suggest a correction",

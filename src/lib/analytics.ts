@@ -26,6 +26,16 @@ export function initAnalytics(): void {
       capture_pageleave: true,
       persistence: "memory",
       person_profiles: "identified_only",
+      // Data minimisation: only page views and the named game events below are sent. Pinned off
+      // in code so a PostHog dashboard toggle can't silently widen collection beyond what the
+      // Methodology page discloses.
+      autocapture: false,
+      rageclick: false,
+      capture_dead_clicks: false,
+      capture_heatmaps: false,
+      capture_exceptions: false,
+      disable_session_recording: true,
+      disable_surveys: true,
     });
     initialized = true;
   } catch {

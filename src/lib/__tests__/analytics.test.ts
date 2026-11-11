@@ -43,6 +43,9 @@ describe("analytics (PostHog)", () => {
         capture_pageview: "history_change",
         persistence: "memory",
         person_profiles: "identified_only",
+        autocapture: false,
+        disable_session_recording: true,
+        capture_heatmaps: false,
       }),
     );
 
