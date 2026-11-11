@@ -508,22 +508,40 @@
         "en": "Soros built his GBP short in early September 1992 as ERM pressure mounted; a saver would have switched pounds into DEM/USD in the same window"
       },
       "sellWhen": {
-        "vi": "Soros đóng vị thế ngay sau khi Anh rút khỏi ERM ngày 16/9/1992, khi đồng Bảng đã mất giá khoảng 15% so với Mark Đức",
-        "en": "Soros closed the position right after the UK exited the ERM on 16 Sept 1992, once sterling had fallen roughly 15% against the Deutschmark"
+        "vi": "Sau khi Anh rời ERM ngày 16/9/1992: đồng Bảng thấp hơn khoảng 5% so với Mark Đức ngay hôm sau và khoảng 10% vào ngày 30/9/1992 (tỷ giá giao ngay của Ngân hàng Trung ương Anh). Người tiết kiệm chỉ cần giữ Mark Đức đến hết tháng 9.",
+        "en": "After the UK left the ERM on 16 Sept 1992: sterling was about 5% lower against the Deutschmark the next day and about 10% lower by 30 Sept 1992 (Bank of England spot rates). A saver could simply stay in Deutschmarks through the end of September."
       },
       "estimatedReturn": {
-        "vi": "Soros lãi khoảng 1 tỷ USD trên vị thế khoảng 10 tỷ USD",
-        "en": "Soros profited about $1bn on a roughly $10bn position"
+        "vi": "Người tiết kiệm: khoảng 1,11 lần tính theo Bảng Anh. 1 Bảng đổi được 2,7784 Mark Đức ngày 16/9/1992 và 2,5095 Mark Đức ngày 30/9, tức 100 Mark Đức tăng từ 35,99 lên 39,85 Bảng. Quỹ của Soros được cho là lãi khoảng 1 tỷ USD trên vị thế khoảng 10 tỷ USD.",
+        "en": "Saver: about 1.11x in sterling terms. £1 bought DM 2.7784 on 16 Sept 1992 and DM 2.5095 on 30 Sept, so 100 Deutschmarks went from £35.99 to £39.85. Soros's fund reportedly profited about $1bn on a roughly $10bn position."
       },
-      "returnMultiple": 1.1,
-      "priceCurrency": "USD",
-      "exitDate": "1992-09-16",
+      "returnMultiple": 1.11,
+      "priceCurrency": "GBP",
+      "exitDate": "1992-09-30",
       "risk": "high",
-      "capital": "high"
+      "capital": "high",
+      "entryPrice": 35.99,
+      "exitPrice": 39.85,
+      "priceObservations": {
+        "entry": {
+          "date": "1992-09-16",
+          "basis": "other",
+          "currency": "GBP",
+          "unit": "100 Deutschmarks",
+          "sourceUrl": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?Travel=NIxAZxSUx&FromSeries=1&ToSeries=50&DAT=RNG&FD=1&FM=Sep&FY=1992&TD=30&TM=Sep&TY=1992&FNY=Y&CSVF=TT&html.x=66&html.y=26&SeriesCodes=XUDLDMS&UsingCodes=Y&Filter=N&title=XUDLDMS&VPD=Y"
+        },
+        "exit": {
+          "date": "1992-09-30",
+          "basis": "other",
+          "currency": "GBP",
+          "unit": "100 Deutschmarks",
+          "sourceUrl": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?Travel=NIxAZxSUx&FromSeries=1&ToSeries=50&DAT=RNG&FD=1&FM=Sep&FY=1992&TD=30&TM=Sep&TY=1992&FNY=Y&CSVF=TT&html.x=66&html.y=26&SeriesCodes=XUDLDMS&UsingCodes=Y&Filter=N&title=XUDLDMS&VPD=Y"
+        }
+      }
     },
     "insiderTip": {
-      "vi": "Quỹ của Soros đã vay Bảng Anh để bán, đặt cược rằng Chính phủ Anh không giữ nổi tỷ giá sàn 2,778 Mark Đức/Bảng. Với lợi thế biết trước, người tiết kiệm bình thường không cần đặt cược như vậy: chỉ cần giữ tiền bằng Mark Đức hoặc USD thay vì Bảng Anh từ đầu tháng 9/1992 là tránh được mức mất giá khoảng 15%.",
-      "en": "Soros's fund borrowed sterling and sold it, betting the UK could not defend its 2.778 Deutschmark floor. With hindsight, an ordinary saver did not need that bet: simply holding savings in Deutschmarks or dollars rather than pounds from early September 1992 avoided the roughly 15% fall."
+      "vi": "Quỹ của Soros đã vay Bảng Anh để bán, đặt cược rằng Chính phủ Anh không giữ nổi tỷ giá sàn 2,778 Mark Đức/Bảng. Với lợi thế biết trước, người tiết kiệm bình thường không cần đặt cược như vậy: chỉ cần giữ tiền bằng Mark Đức hoặc USD thay vì Bảng Anh từ đầu tháng 9/1992 là tránh được mức mất giá khoảng 10% tính đến cuối tháng 9 (khoảng 14% tại đáy ngày 5/10).",
+      "en": "Soros's fund borrowed sterling and sold it, betting the UK could not defend its 2.778 Deutschmark floor. With hindsight, an ordinary saver did not need that bet: simply holding savings in Deutschmarks or dollars rather than pounds from early September 1992 avoided a fall of about 10% by the end of September (about 14% at the 5 October low)."
     },
     "pitfalls": {
       "vi": "Giao dịch của Soros đòi hỏi vốn và đòn bẩy rất lớn; nếu Chính phủ Anh bảo vệ thành công tỷ giá (như nhiều người kỳ vọng ban đầu), khoản lỗ có thể vô cùng lớn. Bán khống tiền tệ kéo theo chi phí vay và rủi ro lỗ không giới hạn — không phải chiến lược dành cho người tiết kiệm cá nhân.",
@@ -570,10 +588,14 @@
       {
         "title": "Investopedia: Black Wednesday",
         "url": "https://www.investopedia.com/terms/b/black-wednesday.asp"
+      },
+      {
+        "title": "Bank of England database - daily spot rate, Deutschemark into Sterling (XUDLDMS), Sep 1992: 2.7784 on 16 Sep, 2.5095 on 30 Sep",
+        "url": "https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?Travel=NIxAZxSUx&FromSeries=1&ToSeries=50&DAT=RNG&FD=1&FM=Sep&FY=1992&TD=30&TM=Sep&TY=1992&FNY=Y&CSVF=TT&html.x=66&html.y=26&SeriesCodes=XUDLDMS&UsingCodes=Y&Filter=N&title=XUDLDMS&VPD=Y"
       }
     ],
     "verified": true,
-    "verifiedNote": "Date (16 Sept 1992), Soros's ~$10bn position and ~$1bn profit confirmed via contemporary NYT report and Wikipedia/Investopedia summaries.",
+    "verifiedNote": "Date (16 Sept 1992), Soros's ~$10bn position and ~$1bn profit confirmed via contemporary NYT report and Wikipedia/Investopedia summaries. Saver prices are 100 divided by the Bank of England's indicative DM-per-pound spot rate (2.7784 on 16 Sep 1992, 2.5095 on 30 Sep 1992).",
     "private": true
   },
   {

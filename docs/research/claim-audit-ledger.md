@@ -184,7 +184,7 @@
 | `vn-mwg-listing-2014` | 12× | 16.7× | 81,500 first-day close → 160,200 (2022-04-15), ×8.5; old 12× from a CafeF series missing the 2021 stock dividend |
 | `vn-crypto-boom-vietnam` | 30× | 27.8× | AXS $5.76 (2021-07-01) → $160.36 (2021-11-07) |
 
-**Left as "reported, no prices":** `gb-black-wednesday-1992`, `jp-softbank-alibaba-stake-2000` (private deals) and `vn-phu-quoc-land-fever-2014` (only price pair is one resident's quoted plot, not a recorded sale).
+**Left as "reported, no prices"** (`gb-black-wednesday-1992` superseded 2026-11-12: now priced as the saver scenario, see "Black Wednesday: saver scenario priced" at the end)**:** `gb-black-wednesday-1992`, `jp-softbank-alibaba-stake-2000` (private deals) and `vn-phu-quoc-land-fever-2014` (only price pair is one resident's quoted plot, not a recorded sale).
 
 **Follow-up:** replace Yahoo-derived prices (Monster entry, Bajaj, Olympus exit, CP All) with exchange or news closes when available. → Done 2026-11-11, see "Yahoo-derived prices: firmer sources" below.
 
@@ -220,3 +220,32 @@ Still not pinned to the day after another attempt:
 - **Bajaj, exchange file:** NSE bhavcopy, NSE historical API and BSE price API all return 403 "Access Denied" (curl and a real browser); no Wayback copy of the 5 Sep 2024 bhavcopies.
 - **Hansen 2 Jan 2004 ($8.28):** EDGAR has no Hansen filing dated or reporting that day (nearest: a Form 4 for 7 Jan 2004, an S-8 on 4 Feb 2004). No primary daily quote found; stays bracketed by the 10-K quarterly range.
 - **Olympus 30 Dec 2015 (¥4,800):** only aggregator daily tables were found (Stooq; Kabutan's yearly table shows a 2015 close of 1,200.0, which is ¥4,800 ÷ 4 on a split-adjusted basis); stays bracketed by the 有価証券報告書 monthly range.
+
+## Black Wednesday: saver scenario priced (2026-11-12)
+
+Status: **agent-checked** (single agent; the Bank of England table was fetched directly as CSV and as HTML), not human-verified. Owner approved pricing the saver scenario instead of Soros's trade.
+
+**Defect found.** `gb-black-wednesday-1992` said Soros closed "right after the UK exited the ERM on 16 Sept 1992, once sterling had fallen roughly 15% against the Deutschmark", and the insider tip said a saver "avoided the roughly 15% fall". The Bank of England's daily spot series does not support 15% at that point.
+
+**Evidence.** Bank of England Statistical Interactive Database, series XUDLDMS "Spot exchange rate, Deutschemark into Sterling" and XUDLUSS (US dollar), fetched 2026-11-12. The Bank states these rates "are not official rates and are no more authoritative than that of any commercial bank operating in the London foreign exchange market". Rows as returned:
+
+| Date | DM per £ (XUDLDMS) | $ per £ (XUDLUSS) |
+|---|---|---|
+| 01 Sep 1992 | 2.7859 | 2.0002 |
+| 16 Sep 1992 | 2.7784 | 1.8467 |
+| 17 Sep 1992 | 2.6323 | 1.775 |
+| 30 Sep 1992 | 2.5095 | 1.777 |
+| 05 Oct 1992 (lowest DM rate Aug–Dec 1992) | 2.393 | 1.716 |
+| 31 Dec 1992 | 2.452 | 1.515 |
+
+Computed: 16 Sep → 17 Sep −5.3%; 16 Sep → 30 Sep −9.7%; 16 Sep → 5 Oct −13.9%; 1 Sep → 30 Sep −9.9%; 1 Sep → 5 Oct −14.1%.
+
+**Changes.**
+- `sellWhen` and `insiderTip` (EN/VI): "roughly 15%" replaced by the dated figures (about 5% next day, about 10% by 30 Sep, about 14% at the 5 Oct low). The claim about when Soros closed his position was dropped: no cited source dates it.
+- Priced as the saver scenario: `entryPrice` 35.99, `exitPrice` 39.85, `priceCurrency` GBP (was USD), unit "100 Deutschmarks", `exitDate` 1992-09-30 (was 1992-09-16), `returnMultiple` 1.11 (was 1.1, the reported Soros ratio of about $1bn on about $10bn).
+- **Derived, not quoted:** the two prices are 100 ÷ the quoted DM-per-£ rate (100 ÷ 2.7784 = 35.99; 100 ÷ 2.5095 = 39.85). `estimatedReturn` prints the quoted rates next to them. `priceObservations.basis` is "other" (indicative spot rate, not an exchange close).
+- The 5 Oct low is mentioned in text only; it is not used for the multiple (bottom-picking).
+- `private: true` kept, so the item still stays out of Biggest wins and Realistic playbooks. Soros's ~$1bn / ~$10bn remains in the text as reported.
+- Source added: Bank of England database, XUDLDMS, September 1992.
+
+**Known display nit:** the detail page rounds the prices to "£36" and "£40"; the exact figures are in the estimated-return text.
