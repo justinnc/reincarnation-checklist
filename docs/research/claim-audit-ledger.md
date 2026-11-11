@@ -203,7 +203,20 @@ Researched by 4 parallel agents (read-only), then every excerpt below was re-fet
 | `jp-olympus-accounting-scandal-2011` | exit ¥4,800 | Olympus 有価証券報告書 FY ending Mar 2016, p.46: "月別 平成27年10月 11月 12月 … 最高（円） 4,135 5,000 4,950 … 最低（円） 3,665 4,025 4,520", TSE First Section | **Bracketed** (Dec 2015 range ¥4,520–4,950). Exact 30 Dec 2015 close 4,800.07 only from Stooq unadjusted daily data (aggregator; not added as a source). |
 | `jp-olympus-accounting-scandal-2011` | entry ¥460 | Arab News: "It slipped nearly 5 percent to 460 yen Friday on the Tokyo Stock Exchange." | **Confirmed** as the 11 Nov 2011 close (date inferred from "Friday"; Stooq close 459.96). Source title was wrong ("Olympus slips to 460 yen"); now the page's real title. The true Nov 2011 low was ¥424 intraday (Olympus AR2013); ¥460 kept as the realistic fill. |
 | `in-bajaj-finance-decade-2014-2024` | entry ₹2,437 | Bajaj Finance 28th Annual Report FY2015, p.34, Table 2: "Sept – 14 2,711.00 2,426.00 2,721.30 2,429.25" (BSE H/L, NSE H/L) | **Bracketed** (Sep 2014 NSE range ₹2,429.25–2,721.30). |
-| `in-bajaj-finance-decade-2014-2024` | exit ₹7,244.90 | — | **Still Yahoo-only.** NSE/BSE bhavcopies returned 403; ET Now live blog has an intraday ₹7,218 at 14:40 IST. Note: a second ×10 action (Jun 2025 1:2 split + 4:1 bonus) means today's Yahoo shows ~₹724.49 for this date; the stored figure is nominal pre-2025. |
+| `in-bajaj-finance-decade-2014-2024` | exit ₹7,244.90 | — | **Still Yahoo-only** as of 2026-11-11; **superseded 2026-11-12, see the follow-up below.** NSE/BSE bhavcopies returned 403; ET Now live blog has an intraday ₹7,218 at 14:40 IST. Note: a second ×10 action (Jun 2025 1:2 split + 4:1 bonus) means today's Yahoo shows ~₹724.49 for this date; the stored figure is nominal pre-2025. |
 | `us-monster-beverage-hansen-compounding-2002` | entry $8.28 | Hansen Natural 10-K FY2004 (SEC), Item 5: "First Quarter $ 14.43 $ 7.92" (2004 bid closing quotations, pre-split); FY2003 Q4 $9.40 / $5.79 | **Bracketed** (Q1 2004 range). Exact 2 Jan 2004 close not found in a primary source. Split dates per 10-Ks: 2-for-1 8 Aug 2005, 4-for-1 7 Jul 2006, 2-for-1 15 Feb 2012, 3-for-1 Nov 2016, 2-for-1 27 Mar 2023, 2-for-1 10 Aug 2026 (×192). |
 
 **Remaining follow-up:** exact daily closes for Bajaj (5 Sep 2024) and Hansen (2 Jan 2004) need an exchange bhavcopy / archived newspaper table; the data stays labelled "about" where only a range is confirmed.
+
+### Follow-up 2026-11-12: Bajaj exit close confirmed
+
+Status: **agent-checked** (single agent, document downloaded and read directly), not human-verified. No stored price or multiple changed; one source added.
+
+| Milestone | Price | Evidence | Result |
+|---|---|---|---|
+| `in-bajaj-finance-decade-2014-2024` | exit ₹7,244.90 (5 Sep 2024) | Aditya Birla Sun Life Mutual Fund, "Daily Equity Market Pulse-September 09, 2024" (PDF created 2024-09-09), table "Nifty 50 Top 5 Gainers", columns "Company / 6-Sep-24 / Prev_Day / % Change / 1 Week": "Bajaj Finance 7,317.15 7,244.90 1.00 1.63", footer "Source: NSE" | **Confirmed exact.** 6 Sep 2024 was a Friday, so "Prev_Day" is Thursday 5 Sep 2024. This is a fund house's daily sheet quoting NSE, not the exchange's own file; it is independent of Yahoo and matches it to the paisa. |
+
+Still not pinned to the day after another attempt:
+- **Bajaj, exchange file:** NSE bhavcopy, NSE historical API and BSE price API all return 403 "Access Denied" (curl and a real browser); no Wayback copy of the 5 Sep 2024 bhavcopies.
+- **Hansen 2 Jan 2004 ($8.28):** EDGAR has no Hansen filing dated or reporting that day (nearest: a Form 4 for 7 Jan 2004, an S-8 on 4 Feb 2004). No primary daily quote found; stays bracketed by the 10-K quarterly range.
+- **Olympus 30 Dec 2015 (¥4,800):** only aggregator daily tables were found (Stooq; Kabutan's yearly table shows a 2015 close of 1,200.0, which is ¥4,800 ÷ 4 on a split-adjusted basis); stays bracketed by the 有価証券報告書 monthly range.
