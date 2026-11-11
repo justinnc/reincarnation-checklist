@@ -186,6 +186,24 @@
 
 **Left as "reported, no prices":** `gb-black-wednesday-1992`, `jp-softbank-alibaba-stake-2000` (private deals) and `vn-phu-quoc-land-fever-2014` (only price pair is one resident's quoted plot, not a recorded sale).
 
-**Follow-up:** replace Yahoo-derived prices (Monster entry, Bajaj, Olympus exit, CP All) with exchange or news closes when available.
+**Follow-up:** replace Yahoo-derived prices (Monster entry, Bajaj, Olympus exit, CP All) with exchange or news closes when available. → Done 2026-11-11, see "Yahoo-derived prices: firmer sources" below.
 
 **Trap framing:** 52 milestones rewritten (EN+VI) so advice fields lead with exit / stay out / protect savings; shorting, puts, CDS and currency shorts appear only as past-tense descriptions of what professionals did, with a risk note. Enforced by `data.test.ts › trap framing in every market` (the previous data fails it on 50 milestones).
+
+---
+
+## Yahoo-derived prices: firmer sources (2026-11-11)
+
+Researched by 4 parallel agents (read-only), then every excerpt below was re-fetched and checked by the parent agent before editing data. Status: **agent-checked**, not human-verified. No stored price or multiple changed; sources were added and one source title corrected.
+
+| Milestone | Price | Primary evidence (re-fetched) | Result |
+|---|---|---|---|
+| `th-cp-all-7eleven-compounder-2008` | entry ฿12.30 | SET company highlight, archived 2009-08-09: "ค่าสถิติสำคัญ ณ วันที่ … 30/12/2551 … ราคาล่าสุด(บาท) … 12.30", market cap 55,265.72m (= 12.30 × 4,493.15m shares, so unadjusted) | **Confirmed exact** (30 Dec 2008 close). Not the crisis low: CP All FY08 IR deck gives a 12-month low of ฿7.00 (agent-read; deck PDF blocked to direct fetch). Copy already says "end-2008", so no wording change. |
+| `th-cp-all-7eleven-compounder-2008` | exit ฿77 | SET company highlight, archived 2021-10-28: "Statistics as of 29/12/2017 … Last Price(Baht) 77.00", market cap 691,698.80 | **Confirmed exact.** splitFactor 2 (2012 1:1 stock dividend) supported by CP All 3Q12 statements (agent-read); share count 4,493.1m → 8,983.1m shows no other event 2008–2017. |
+| `jp-olympus-accounting-scandal-2011` | exit ¥4,800 | Olympus 有価証券報告書 FY ending Mar 2016, p.46: "月別 平成27年10月 11月 12月 … 最高（円） 4,135 5,000 4,950 … 最低（円） 3,665 4,025 4,520", TSE First Section | **Bracketed** (Dec 2015 range ¥4,520–4,950). Exact 30 Dec 2015 close 4,800.07 only from Stooq unadjusted daily data (aggregator; not added as a source). |
+| `jp-olympus-accounting-scandal-2011` | entry ¥460 | Arab News: "It slipped nearly 5 percent to 460 yen Friday on the Tokyo Stock Exchange." | **Confirmed** as the 11 Nov 2011 close (date inferred from "Friday"; Stooq close 459.96). Source title was wrong ("Olympus slips to 460 yen"); now the page's real title. The true Nov 2011 low was ¥424 intraday (Olympus AR2013); ¥460 kept as the realistic fill. |
+| `in-bajaj-finance-decade-2014-2024` | entry ₹2,437 | Bajaj Finance 28th Annual Report FY2015, p.34, Table 2: "Sept – 14 2,711.00 2,426.00 2,721.30 2,429.25" (BSE H/L, NSE H/L) | **Bracketed** (Sep 2014 NSE range ₹2,429.25–2,721.30). |
+| `in-bajaj-finance-decade-2014-2024` | exit ₹7,244.90 | — | **Still Yahoo-only.** NSE/BSE bhavcopies returned 403; ET Now live blog has an intraday ₹7,218 at 14:40 IST. Note: a second ×10 action (Jun 2025 1:2 split + 4:1 bonus) means today's Yahoo shows ~₹724.49 for this date; the stored figure is nominal pre-2025. |
+| `us-monster-beverage-hansen-compounding-2002` | entry $8.28 | Hansen Natural 10-K FY2004 (SEC), Item 5: "First Quarter $ 14.43 $ 7.92" (2004 bid closing quotations, pre-split); FY2003 Q4 $9.40 / $5.79 | **Bracketed** (Q1 2004 range). Exact 2 Jan 2004 close not found in a primary source. Split dates per 10-Ks: 2-for-1 8 Aug 2005, 4-for-1 7 Jul 2006, 2-for-1 15 Feb 2012, 3-for-1 Nov 2016, 2-for-1 27 Mar 2023, 2-for-1 10 Aug 2026 (×192). |
+
+**Remaining follow-up:** exact daily closes for Bajaj (5 Sep 2024) and Hansen (2 Jan 2004) need an exchange bhavcopy / archived newspaper table; the data stays labelled "about" where only a range is confirmed.
