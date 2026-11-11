@@ -2580,20 +2580,20 @@
         "en": "FLC Group (FLC)"
       },
       "action": {
-        "vi": "Bán khống hoặc thoát toàn bộ vị thế FLC trước phiên 10/1/2022",
-        "en": "Short, or fully exit, FLC before the 10 January 2022 session"
+        "vi": "Đứng ngoài FLC, hoặc bán hết cổ phiếu đang nắm giữ trước phiên 10/1/2022.",
+        "en": "Stay out of FLC, or sell any shares you already hold, before the 10 January 2022 session."
       },
       "buyWhen": {
-        "vi": "Không mua — thoát hàng ở vùng đỉnh 22.550-24.100 đồng đầu tháng 1/2022",
-        "en": "Don't buy — exit near the VND 22,550-24,100 peak in early January 2022"
+        "vi": "Không mua. Giá tăng 64% trong sáu tuần lên vùng 22.550-24.100 đồng đầu tháng 1/2022 là dấu hiệu cảnh báo, không phải điểm vào.",
+        "en": "Don't buy. A 64% run in six weeks to VND 22,550-24,100 in early January 2022 was a warning sign, not an entry."
       },
       "sellWhen": {
-        "vi": "Sáng 10/1/2022, trước khi lệnh bán chui 74,8 triệu cổ phiếu khớp",
-        "en": "The morning of 10 January 2022, before the 74.8 million-share undisclosed sale hit the market"
+        "vi": "Nếu đang nắm giữ: trước phiên 10/1/2022, khi lệnh bán chui 74,8 triệu cổ phiếu được khớp.",
+        "en": "If you already hold FLC: before the 10 January 2022 session, when the 74.8 million-share undisclosed sale hit the market."
       },
       "estimatedReturn": {
-        "vi": "Mất khoảng 85% giá trị đến khi bị đình chỉ giao dịch (9/9/2022); lãi lớn nếu bán khống",
-        "en": "Lost about 85% of value by the trading suspension (9 Sep 2022); large gains if shorted"
+        "vi": "Giảm khoảng 85% đến khi bị đình chỉ giao dịch (9/9/2022). Người giữ lại hoặc 'bắt đáy' bị mắc kẹt.",
+        "en": "Fell about 85% by the trading suspension (9 Sep 2022). Holders who stayed or 'bought the dip' were trapped."
       },
       "returnMultiple": 0.1481,
       "entryPrice": 24100,
@@ -2604,8 +2604,8 @@
       "capital": "medium"
     },
     "insiderTip": {
-      "vi": "Người du hành thời gian biết FLC tăng 64% trong 6 tuần là do nhóm của ông Quyết dùng nhiều tài khoản 'thổi giá' để xả hàng — họ sẽ chốt lời trong sáng 10/1/2022, trước khi 74,8 triệu cổ phiếu bị bán chui, và tuyệt đối không quay lại khi tin bắt giữ ngày 29/3/2022 xuất hiện.",
-      "en": "A time traveler knows FLC's 64% run in six weeks was engineered by Quyet's circle trading across many accounts to set up a dump — they take profit on the morning of 10 January 2022, before the 74.8 million-share undisclosed sale, and never return when the 29 March 2022 arrest news breaks."
+      "vi": "Dấu hiệu cảnh báo mà người du hành thời gian nhận ra: giá tăng mạnh trong vài tuần nhờ giao dịch qua nhiều tài khoản liên quan, rồi Chủ tịch bán chui 74,8 triệu cổ phiếu ngày 10/1/2022. Cổ phiếu bị thao túng hiếm khi cho người thường bán ở đỉnh, nên cách an toàn nhất là đứng ngoài — và tiếp tục đứng ngoài khi tin bắt giữ ngày 29/3/2022 xuất hiện.",
+      "en": "Warning signs a time traveler would recognise: a sharp run in a few weeks driven by trading across many related accounts, then the chairman's undisclosed sale of 74.8 million shares on 10 January 2022. Manipulated stocks rarely let ordinary holders sell at the top, so the safe move is to stay out — and stay out after the 29 March 2022 arrest news."
     },
     "pitfalls": {
       "vi": "Việc HoSE hủy giao dịch không cứu được giá: nhiều nhà đầu tư nhỏ lẻ 'bắt đáy' ở 12.000-19.000 đồng rồi mắc kẹt khi cổ phiếu bị đình chỉ và hủy niêm yết. Bán khống cổ phiếu gần như không khả thi trên thị trường Việt Nam, nên với người thường, 'cơ hội' thực tế chỉ là thoát hàng đúng lúc.",

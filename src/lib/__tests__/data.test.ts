@@ -52,6 +52,17 @@ describe("homepage listed-return ranking", () => {
   });
 });
 
+describe("Vietnam market framing", () => {
+  it("never recommends short-selling, which retail investors cannot do on HOSE/HNX", () => {
+    const SHORT = /bán khống|\bshort(?:ed|ing)?\b(?!-)/i;
+    for (const m of allMilestones.filter((x) => x.country === "vn")) {
+      const o = m.opportunity;
+      const advice = [o.action, o.buyWhen, o.sellWhen, o.estimatedReturn, m.insiderTip].flatMap((x) => (x ? [x.en, x.vi] : []));
+      expect(advice.filter((s) => SHORT.test(s ?? "")), m.id).toEqual([]);
+    }
+  });
+});
+
 describe("historical price corrections", () => {
   it("does not send a historical-only numeric return to client-side gain lists", () => {
     const base = allMilestones[0];

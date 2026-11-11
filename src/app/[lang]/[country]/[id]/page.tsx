@@ -54,6 +54,8 @@ export default async function MilestonePage({ params }: PageProps<"/[lang]/[coun
   const prev = list[i - 1];
   const next = list[i + 1];
   const cur = o.priceCurrency ?? (country === "us" ? "USD" : undefined);
+  /** Loss milestones are traps to avoid, never a "play" to profit from. */
+  const isTrap = !o.historicalOnly && o.returnMultiple != null && o.returnMultiple < 1;
   const price = (v: number) =>
     cur && cur !== "points" ? formatMoney(v, cur, lang) : new Intl.NumberFormat(lang === "vi" ? "vi-VN" : "en-US").format(v);
 
@@ -103,7 +105,7 @@ export default async function MilestonePage({ params }: PageProps<"/[lang]/[coun
 
         <aside className="space-y-6">
           <section className="rounded-2xl border border-line bg-surface p-6">
-            <h2 className="text-xs font-semibold uppercase tracking-wider text-faint">{o.historicalOnly ? (lang === "vi" ? "Bài học lịch sử" : "Historical case study") : tl.opportunity}</h2>
+            <h2 className="text-xs font-semibold uppercase tracking-wider text-faint">{o.historicalOnly ? (lang === "vi" ? "Bài học lịch sử" : "Historical case study") : isTrap ? (lang === "vi" ? "Cách tránh bẫy" : "How to avoid it") : tl.opportunity}</h2>
             {o.asset && <div className="mt-3 font-mono text-sm text-gold">{t(o.asset, lang)}</div>}
             <p className="mt-2 text-lg">{t(o.action, lang)}</p>
             <dl className="mt-5 space-y-3 text-sm">
@@ -118,8 +120,8 @@ export default async function MilestonePage({ params }: PageProps<"/[lang]/[coun
                 </div>
               )}
               <div className="flex flex-col gap-1 border-t border-line pt-3 sm:flex-row sm:justify-between sm:gap-4">
-                <dt className="shrink-0 whitespace-nowrap text-faint">{o.historicalOnly ? (lang === "vi" ? "So sánh lịch sử" : "Historical comparison") : tl.estimatedReturn}</dt>
-                <dd className={`font-semibold sm:text-right ${o.historicalOnly ? "text-ink" : "text-gain"}`}>{t(o.estimatedReturn, lang)}</dd>
+                <dt className="shrink-0 whitespace-nowrap text-faint">{o.historicalOnly ? (lang === "vi" ? "So sánh lịch sử" : "Historical comparison") : isTrap ? (lang === "vi" ? "Diễn biến giá" : "What happened") : tl.estimatedReturn}</dt>
+                <dd className={`font-semibold sm:text-right ${o.historicalOnly ? "text-ink" : isTrap ? "text-loss" : "text-gain"}`}>{t(o.estimatedReturn, lang)}</dd>
               </div>
               {o.entryPrice != null && (
                 <div className="flex flex-col gap-1 border-t border-line pt-3 sm:flex-row sm:justify-between sm:gap-4 font-mono tabular">
