@@ -8,7 +8,7 @@ describe("SITE_URL", () => {
       process.env.NEXT_PUBLIC_SITE_URL = "";
       vi.resetModules();
       const { SITE_URL: url } = await import("../seo");
-      expect(url).toBe("https://reincarnation-checklist.vn");
+      expect(url).toBe("https://reincarnation-checklist-justinncs-projects.vercel.app");
       expect(() => new URL(url)).not.toThrow();
     } finally {
       if (previous === undefined) delete process.env.NEXT_PUBLIC_SITE_URL;
