@@ -2,6 +2,7 @@ import { allMilestones, countries, getCountry, yearOf } from "./data";
 import type { Locale } from "./i18n";
 import { intlLocale, t } from "./i18n";
 import type { Country, Milestone } from "./types";
+import contemporaryDispatches from "@/data/survival-dispatches.json";
 
 export interface ContemporaryDispatch {
   headline: { vi: string; en: string };
@@ -804,6 +805,10 @@ export function getContemporaryDispatch(round: SurvivalRound): ContemporaryDispa
   if (CONTEMPORARY_TRAP_DISPATCHES[m.id]) {
     return CONTEMPORARY_TRAP_DISPATCHES[m.id];
   }
+  // Hand-written, hindsight-free dispatches (src/data/survival-dispatches.json); only facts
+  // already in the milestone's own sourced description. Enforced by survival-dispatches.test.ts.
+  const handWritten = (contemporaryDispatches as Record<string, ContemporaryDispatch>)[m.id];
+  if (handWritten) return handWritten;
 
   const eventYear = yearOf(m);
   const viTitle = sanitizeDispatchHeadline(m.title.vi, true, eventYear);
