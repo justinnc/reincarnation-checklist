@@ -1,6 +1,6 @@
 import { allMilestones, countries, getCountry, yearOf } from "./data";
 import type { Locale } from "./i18n";
-import { t } from "./i18n";
+import { intlLocale, t } from "./i18n";
 import type { Country, Milestone } from "./types";
 
 export interface ContemporaryDispatch {
@@ -26,8 +26,59 @@ export interface SurvivalRun {
   id: string;
   country: Country;
   startYear: number;
+  /** Year asked for via URL/preference, when it differed from the playable start year. */
+  requestedYear?: number;
   initialCapital: number;
   rounds: SurvivalRound[];
+}
+
+/** Locale-aware number formatting ("1,000" / "1.000"). */
+export function formatNumber(value: number, lang: Locale, maximumFractionDigits = 0): string {
+  return new Intl.NumberFormat(intlLocale(lang), { maximumFractionDigits }).format(value);
+}
+
+/** Game capital in USD: EN "$1,000", VI "1.000 USD". */
+export function formatUsd(value: number, lang: Locale): string {
+  const n = formatNumber(Math.round(value), lang);
+  return lang === "vi" ? `${n} USD` : `$${n}`;
+}
+
+/** Multiplier such as "18×" / "2,5×". */
+export function formatTimes(value: number, lang: Locale): string {
+  return `${formatNumber(value, lang, 2)}×`;
+}
+
+/** "1 year" / "5 years" / "5 năm". */
+export function formatYears(years: number, lang: Locale): string {
+  if (lang === "vi") return `${formatNumber(years, lang)} năm`;
+  return `${formatNumber(years, lang)} ${years === 1 ? "year" : "years"}`;
+}
+
+/** Copy for the Skip button: hides the holding period when it is zero. */
+export function skipChoiceText(yearGap: number, lang: Locale): string {
+  if (yearGap <= 0) {
+    return lang === "vi"
+      ? "Giữ tiền mặt. Không có thời gian chờ đến mốc tiếp theo nên không hao hụt sức mua; không có thưởng né bẫy."
+      : "Hold cash. No time passes before the next event, so no purchasing-power loss; no dodge bonus.";
+  }
+  return lang === "vi"
+    ? `Giữ tiền ${formatYears(yearGap, lang)} đến mốc tiếp theo. Sức mua giảm theo lạm phát giả định 3%/năm; không có thưởng né bẫy.`
+    : `Hold cash for ${formatYears(yearGap, lang)} until the next event. Purchasing power falls at an assumed 3%/year; no dodge bonus.`;
+}
+
+/** Short notice when the requested start year had to be moved to a playable one. */
+export function getYearClampNotice(run: SurvivalRun, lang: Locale): string | null {
+  const requested = run.requestedYear;
+  if (requested === undefined || !Number.isFinite(requested) || requested === run.startYear) return null;
+  const country = t(run.country.name, lang);
+  if (requested > run.startYear) {
+    return lang === "vi"
+      ? `Không đủ sự kiện từ năm ${requested} cho ${country} — bắt đầu từ năm ${run.startYear}.`
+      : `Not enough events from ${requested} on for ${country} — starting in ${run.startYear}.`;
+  }
+  return lang === "vi"
+    ? `Chưa có sự kiện nào trước năm ${run.startYear} cho ${country} — bắt đầu từ năm ${run.startYear}.`
+    : `No events before ${run.startYear} for ${country} — starting in ${run.startYear}.`;
 }
 
 export type DecisionType = "all_in" | "cautious" | "skip";
@@ -145,6 +196,9 @@ export function generateSurvivalRun(
     id: `run-${Date.now()}-${Math.random().toString(36).slice(2, 7)}`,
     country,
     startYear,
+    ...(preferredYear !== undefined && Number.isFinite(preferredYear) && preferredYear !== startYear
+      ? { requestedYear: preferredYear }
+      : {}),
     initialCapital: 1000,
     rounds,
   };
@@ -167,10 +221,11 @@ export function calculateDecisionOutcome(
       multiplierEffect = 0.1;
       newNetWorth = Math.max(10, Math.round(prevNetWorth * multiplierEffect));
       isSuccess = false;
-      headline = {
-        vi: "💀 ĐU ĐỈNH CHÁY TÀI KHOẢN!",
-        en: "💀 CAUGHT IN THE CRASH! ACCOUNT WIPED!",
-      };
+      // Only call the account "wiped" when practically nothing is left.
+      const wiped = newNetWorth <= Math.max(10, prevNetWorth * 0.01);
+      headline = wiped
+        ? { vi: "💀 ĐU ĐỈNH! TÀI KHOẢN VỀ GẦN 0!", en: "💀 CAUGHT IN THE CRASH! ACCOUNT WIPED!" }
+        : { vi: "💀 ĐU ĐỈNH! BỐC HƠI 90% VỐN!", en: "💀 CAUGHT IN THE CRASH! −90% IN ONE HIT!" };
       feedback = {
         vi: `Bạn tất tay vào một cạm bẫy huỷ diệt tài sản. Vốn bốc hơi 90%, chỉ còn lại chút tàn dư sinh tồn.`,
         en: `You went all-in on a devastating historical trap. 90% of your net worth dissolved instantly.`,
@@ -185,8 +240,8 @@ export function calculateDecisionOutcome(
         en: "🚀 ALL-IN JACKPOT! WEALTH MULTIPLIED!",
       };
       feedback = {
-        vi: `Quyết định dũng cảm! Bạn ăn trọn con sóng lớn với mức nhân ${round.cappedMultiple}× vốn.`,
-        en: `Audacious move! You captured the full historical wave with a ${round.cappedMultiple}× return.`,
+        vi: `Quyết định dũng cảm! Bạn ăn trọn con sóng lớn, vốn nhân ${formatTimes(round.cappedMultiple, "vi")}.`,
+        en: `Audacious move! You captured the full historical wave and multiplied your stake ${formatTimes(round.cappedMultiple, "en")}.`,
       };
     }
   } else if (decision === "cautious") {
@@ -230,10 +285,16 @@ export function calculateDecisionOutcome(
     headline = round.isTrap
       ? { vi: "🛡️ NÉ BẪY THÀNH CÔNG", en: "🛡️ TRAP AVOIDED" }
       : { vi: "👀 BỎ LỠ CƠ HỘI", en: "👀 OPPORTUNITY MISSED" };
-    feedback = {
-      vi: `Giữ tiền ${years} năm; lạm phát giả định ${rate * 100}%/năm. Sức mua quy đổi giảm ${prevNetWorth - newNetWorth}. Đây là luật game, không phải CPI lịch sử hay khoản trừ tiền ngân hàng.`,
-      en: `Cash held for ${years} years; assumed inflation ${rate * 100}%/year. Purchasing-power equivalent falls by ${prevNetWorth - newNetWorth}. This is a game rule, not historical CPI or a bank debit.`,
-    };
+    const loss = prevNetWorth - newNetWorth;
+    feedback = years > 0
+      ? {
+          vi: `Giữ tiền ${formatYears(years, "vi")}; lạm phát giả định ${formatNumber(rate * 100, "vi", 2)}%/năm. Sức mua quy đổi giảm ${formatUsd(loss, "vi")}. Đây là luật game, không phải CPI lịch sử hay khoản trừ tiền ngân hàng.`,
+          en: `Cash held for ${formatYears(years, "en")}; assumed inflation ${formatNumber(rate * 100, "en", 2)}%/year. Purchasing-power equivalent falls by ${formatUsd(loss, "en")}. This is a game rule, not historical CPI or a bank debit.`,
+        }
+      : {
+          vi: "Giữ tiền mặt. Không có thời gian chờ đến mốc tiếp theo nên sức mua không đổi.",
+          en: "Held cash. No time passes before the next event, so purchasing power is unchanged.",
+        };
   }
 
   return {
@@ -250,18 +311,84 @@ export function calculateDecisionOutcome(
   };
 }
 
-export function getSurvivalRank(finalNetWorth: number, initialCapital = 1000): SurvivalRank {
-  const multiple = finalNetWorth / initialCapital;
+export interface SurvivalStats {
+  wins: number;
+  rounds: number;
+  /** Trap rounds where any money was at risk (All-in or Cautious). */
+  trapsHit: number;
+  /** Trap rounds hit with the whole stack. */
+  allInTrapsHit: number;
+  multiple: number;
+}
+
+export function getSurvivalStats(
+  results: DecisionResult[],
+  finalNetWorth: number,
+  initialCapital = 1000
+): SurvivalStats {
+  const trapRounds = results.filter((r) => r.round.isTrap && r.decision !== "skip");
+  return {
+    wins: results.filter((r) => r.isSuccess).length,
+    rounds: results.length,
+    trapsHit: trapRounds.length,
+    allInTrapsHit: trapRounds.filter((r) => r.decision === "all_in").length,
+    multiple: finalNetWorth / initialCapital,
+  };
+}
+
+function trapCount(n: number, lang: Locale): string {
+  if (lang === "vi") return `${formatNumber(n, lang)} cạm bẫy`;
+  return `${formatNumber(n, lang)} ${n === 1 ? "trap" : "traps"}`;
+}
+
+/**
+ * Rank depends on the final multiple AND how it was earned, so the shared title never
+ * claims flawless foresight for a run that walked into traps.
+ */
+export function getSurvivalRank(
+  finalNetWorth: number,
+  initialCapital = 1000,
+  results: DecisionResult[] = []
+): SurvivalRank {
+  const s = getSurvivalStats(results, finalNetWorth, initialCapital);
+  const multiple = s.multiple;
+  const hasLog = s.rounds > 0;
+  const flawless = hasLog && s.trapsHit === 0 && s.wins === s.rounds;
+  const finalVi = formatUsd(finalNetWorth, "vi");
+  const finalEn = formatUsd(finalNetWorth, "en");
+  const startVi = formatUsd(initialCapital, "vi");
+  const startEn = formatUsd(initialCapital, "en");
+  const scarVi = s.trapsHit > 0 ? ` Dù vậy, bạn đã dính ${trapCount(s.trapsHit, "vi")} trên đường đi.` : "";
+  const scarEn = s.trapsHit > 0 ? ` You did step on ${trapCount(s.trapsHit, "en")} along the way.` : "";
+
   if (multiple < 0.3) {
     return {
       tier: "broke",
       badge: "💀",
-      title: { vi: "Kẻ Trắng Tay", en: "Broke Time Traveler" },
-      description: {
-        vi: "Bị thị trường vắt kiệt. Dù mang ký ức tương lai nhưng bạn đã gục ngã trước những cạm bẫy tàn khốc.",
-        en: "Wiped out by historical traps. Even with future memories, market crashes left you empty-handed.",
-      },
+      title: { vi: "Kẻ Du Hành Cháy Túi", en: "Rekt Time Traveler" },
+      description:
+        s.trapsHit > 0
+          ? {
+              vi: `Mang ký ức tương lai mà vẫn đu đỉnh: ${trapCount(s.trapsHit, "vi")} thiêu rụi vốn, từ ${startVi} còn ${finalVi}. Chụp lại làm bài học cho hậu thế!`,
+              en: `Knew the future, still bought the top: ${trapCount(s.trapsHit, "en")} torched ${startEn} down to ${finalEn}. Share it as a warning to others!`,
+            }
+          : {
+              vi: `Từ ${startVi} còn ${finalVi}. Biết trước tương lai cũng không cứu được ví tiền này!`,
+              en: `${startEn} down to ${finalEn}. Even future memories couldn't save this wallet!`,
+            },
       emoji: "💀",
+    };
+  }
+  if (multiple < 1) {
+    return {
+      tier: "singed",
+      badge: "🔥",
+      title: { vi: "Kẻ Du Hành Sém Cánh", en: "Singed Time Traveler" },
+      description: {
+        vi: `Kết thúc dưới vốn ban đầu (${finalVi} so với ${startVi}). Tương lai tưởng dễ đoán — hóa ra không.`,
+        en: `Finished below your starting capital (${finalEn} vs ${startEn}). The future looked obvious — it wasn't.`,
+      },
+      emoji: "🔥",
     };
   }
   if (multiple < 1.5) {
@@ -270,8 +397,8 @@ export function getSurvivalRank(finalNetWorth: number, initialCapital = 1000): S
       badge: "💼",
       title: { vi: "Thường Dân An Phận", en: "Cautious Citizen" },
       description: {
-        vi: "Sống sót qua nhiều biến động nhưng bỏ lỡ hầu hết các cơ hội lớn. Ít nhất bạn không bị phá sản!",
-        en: "Survived the turbulence by playing it safe, but missed life-changing turning points.",
+        vi: "Về đích gần như hòa vốn. Sống sót được, nhưng bỏ lỡ hầu hết các bước ngoặt đổi đời.",
+        en: "Ended roughly where you started. You survived, but missed the life-changing turning points.",
       },
       emoji: "💼",
     };
@@ -282,8 +409,8 @@ export function getSurvivalRank(finalNetWorth: number, initialCapital = 1000): S
       badge: "🏠",
       title: { vi: "Phú Nông Mới Nổi", en: "Comfortable Trader" },
       description: {
-        vi: "Nhân nhiều lần tài sản, xây được cơ ngơi vững chắc. Một kiếp sống trọng sinh ấm no.",
-        en: "Multiplied your net worth several times. Built a solid life and secured assets.",
+        vi: `Nhân tài sản lên ${formatTimes(Number(multiple.toFixed(1)), "vi")}, xây được cơ ngơi vững chắc.${scarVi}`,
+        en: `Multiplied your net worth ${formatTimes(Number(multiple.toFixed(1)), "en")} and built a solid life.${scarEn}`,
       },
       emoji: "🏠",
     };
@@ -294,21 +421,44 @@ export function getSurvivalRank(finalNetWorth: number, initialCapital = 1000): S
       badge: "🏎️",
       title: { vi: "Đại Gia Địa Phương", en: "Local Whale" },
       description: {
-        vi: "Tay to thực thụ! Bạn nắm giữ chuỗi tài sản đắc địa và được nể trọng trên thương trường.",
-        en: "A recognized market player with prime assets and an enviable portfolio.",
+        vi: `Tay to thực thụ! Bạn nắm giữ chuỗi tài sản đắc địa.${scarVi}`,
+        en: `A recognized market player with prime assets.${scarEn}`,
       },
       emoji: "🏎️",
     };
   }
-  if (multiple < 500) {
+  const god = multiple >= 500;
+  if (s.allInTrapsHit > 0) {
+    return {
+      tier: god ? "god" : "master",
+      badge: "🩹",
+      title: { vi: "Cá Mập Hồi Sinh", en: "Comeback Whale" },
+      description: {
+        vi: `Mất 90% vì ${trapCount(s.allInTrapsHit, "vi")} mà vẫn về đích ${formatTimes(Number(multiple.toFixed(1)), "vi")}. Không phải tiên tri — chỉ là sóng tăng quá lớn.`,
+        en: `Lost 90% on ${trapCount(s.allInTrapsHit, "en")} and still finished at ${formatTimes(Number(multiple.toFixed(1)), "en")}. Not foresight — just huge bull runs.`,
+      },
+      emoji: "🩹",
+    };
+  }
+  if (!god) {
     return {
       tier: "master",
       badge: "👑",
       title: { vi: "Bậc Thầy Trọng Sinh", en: "Reincarnation Master" },
-      description: {
-        vi: "Kỹ năng phán đoán xuất sắc. Né chuẩn cạm bẫy, ăn trọn mọi sóng thần tài chính!",
-        en: "Exceptional foresight. Evaded deadly crashes, rode every major bull market to perfection!",
-      },
+      description: flawless
+        ? {
+            vi: "Kỹ năng phán đoán xuất sắc. Né chuẩn cạm bẫy, ăn trọn mọi sóng thần tài chính!",
+            en: "Exceptional foresight. Evaded deadly crashes, rode every major bull market to perfection!",
+          }
+        : hasLog
+        ? {
+            vi: `Đúng ${s.wins}/${s.rounds} ngã rẽ. Lỡ vài con sóng${s.trapsHit > 0 ? ", sứt mẻ vì bẫy" : ""}, nhưng các cú lớn đã sinh lời.`,
+            en: `${s.wins}/${s.rounds} calls right. Missed a few waves${s.trapsHit > 0 ? " and got nicked by a trap" : ""}, but the big bets paid off.`,
+          }
+        : {
+            vi: "Lợi nhuận khủng — các cú lớn đã sinh lời.",
+            en: "Huge returns — the big bets paid off.",
+          },
       emoji: "👑",
     };
   }
@@ -316,10 +466,15 @@ export function getSurvivalRank(finalNetWorth: number, initialCapital = 1000): S
     tier: "god",
     badge: "🚀",
     title: { vi: "Ông Trùm Thời Gian", en: "God of Time" },
-    description: {
-      vi: "Thao túng toàn bộ lịch sử kinh tế. Bạn nắm quyền lực tài chính làm rung chuyển các thị trường!",
-      en: "Rewrote economic history. Your astronomical wealth rivals sovereign nations!",
-    },
+    description: flawless
+      ? {
+          vi: "Thao túng toàn bộ lịch sử kinh tế. Bạn nắm quyền lực tài chính làm rung chuyển các thị trường!",
+          en: "Rewrote economic history. Your astronomical wealth rivals sovereign nations!",
+        }
+      : {
+          vi: `Khối tài sản khổng lồ${hasLog ? ` với ${s.wins}/${s.rounds} ngã rẽ đúng` : ""}.${scarVi}`,
+          en: `Astronomical wealth${hasLog ? ` with ${s.wins}/${s.rounds} calls right` : ""}.${scarEn}`,
+        },
     emoji: "🚀",
   };
 }
@@ -330,15 +485,17 @@ export function generateShareText(
   finalNetWorth: number,
   lang: Locale
 ): string {
-  const rank = getSurvivalRank(finalNetWorth, run.initialCapital);
-  const multiple = (finalNetWorth / run.initialCapital).toFixed(1);
+  const rank = getSurvivalRank(finalNetWorth, run.initialCapital, results);
+  const multipleText = new Intl.NumberFormat(intlLocale(lang), { minimumFractionDigits: 1, maximumFractionDigits: 1 }).format(
+    finalNetWorth / run.initialCapital
+  );
   const icons = results.map((r) => (r.isSuccess ? "🟩" : "🟥")).join("");
 
   if (lang === "vi") {
-    return `🎲 Thử Thách Trọng Sinh: Kiếp sống tại ${run.country.flag} ${run.country.name.vi} (${run.startYear} - 2024)\n💰 Vốn: $${run.initialCapital.toLocaleString()} ➔ $${finalNetWorth.toLocaleString()} (${multiple}×)\n${rank.badge} Danh hiệu: ${rank.title.vi}\n${icons}\nThử xem bạn sống sót được qua 5 ngã rẽ lịch sử không?`;
+    return `🎲 Thử Thách Trọng Sinh: Kiếp sống tại ${run.country.flag} ${run.country.name.vi} (${run.startYear} - 2024)\n💰 Vốn: ${formatUsd(run.initialCapital, "vi")} ➔ ${formatUsd(finalNetWorth, "vi")} (${multipleText}×)\n${rank.badge} Danh hiệu: ${rank.title.vi}\n${icons}\nThử xem bạn sống sót được qua 5 ngã rẽ lịch sử không?`;
   }
 
-  return `🎲 Reincarnation Survival Run: Life in ${run.country.flag} ${run.country.name.en} (${run.startYear} - 2024)\n💰 Capital: $${run.initialCapital.toLocaleString()} ➔ $${finalNetWorth.toLocaleString()} (${multiple}×)\n${rank.badge} Rank: ${rank.title.en}\n${icons}\nCan you survive 5 historical market turnarounds?`;
+  return `🎲 Reincarnation Survival Run: Life in ${run.country.flag} ${run.country.name.en} (${run.startYear} - 2024)\n💰 Capital: ${formatUsd(run.initialCapital, "en")} ➔ ${formatUsd(finalNetWorth, "en")} (${multipleText}×)\n${rank.badge} Rank: ${rank.title.en}\n${icons}\nCan you survive 5 historical market turnarounds?`;
 }
 
 const CONTEMPORARY_TRAP_DISPATCHES: Record<string, ContemporaryDispatch> = {
@@ -582,26 +739,64 @@ const CONTEMPORARY_TRAP_DISPATCHES: Record<string, ContemporaryDispatch> = {
   },
 };
 
-function cleanHindsightSpoilers(text: string | undefined, isVi: boolean): string {
-  if (!text) return "";
-  if (isVi) {
-    return text
-      .replace(/—\s*chưa từng chia tách.*/i, "")
-      .replace(/từ\s+\d+[\d.,]*\s*(?:USD|CAD|EUR|VND|đồng)?\s*leo lên\s+\d+[\d.,]*\s*(?:USD|CAD|EUR|VND|đồng)?/gi, "ghi nhận lực cầu mua vào gia tăng mạnh mẽ")
-      .replace(/vượt mốc\s+\d+[\d.,]*\s*(?:tỷ|triệu)?\s*(?:USD|CAD|EUR|VND)?/gi, "thu hút dòng tiền quy mô lớn")
-      .replace(/tăng\s+\d+[\d.,]*\s*lần/gi, "bước vào chu kỳ tăng trưởng")
-      .replace(/giảm\s+\d+[\d.,]*%/gi, "biến động mạnh")
-      .replace(/mất\s+\d+[\d.,]*%/gi, "đối mặt áp lực điều chỉnh")
-      .trim();
+// Words that only make sense with hindsight (outcomes, later prices, verdicts). The dispatch is
+// shown BEFORE the player decides, so any clause containing one of these is dropped.
+const HINDSIGHT_EN =
+  /\b(later|eventually|ultimately|subsequently|afterwards?|since|then|until|within|would|went on|became|become|becoming|turn(?:ed|ing)? (?:into|out)|grew|grow(?:n|ing)?|rose|rise|rising|risen|soar\w*|surg\w*|skyrocket\w*|rall\w*|recover\w*|tripl\w*|doubl\w*|multibagger|fell|fall(?:s|en|ing)?|drop\w*|plung\w*|crash\w*|collaps\w*|tank\w*|lost|los(?:e|es|ing)|wip\w*|eras\w*|bankrupt\w*|insolven\w*|fraud\w*|scam\w*|scandal\w*|ponzi|delist\w*|disaster\w*|peak\w*|bottom\w*|top|all-time|worst|best|greatest|ever|forever|history's|empire|giant|trillion-dollar|billion-dollar|returned|return of|gain\w*|hold (?:forever|for|until)|sell (?:before|at|the|out)|buy (?:the|at|before|and)|buying the|outpac\w*|sank|sunk|sink\w*|slump\w*|low of|lows?|record low|losses?|hollow\w*|once|initially|at first|at the time|right when|just (?:before|as)|push\w*|dragg\w*|sent \w+ (?:up|down)|further|(?:up|down) (?:about |nearly |roughly |over |by )?\d+|over the (?:next|following)|following (?:decade|years?)|decades?|by (?:(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)\w* )?\d{4})\b|\d+(?:[.,]\d+)?\s*[x×](?![a-z])|×/i;
+const HINDSIGHT_VI =
+  /(sau này|sau đó|sau đổi|đổi tên thành|kéo dài|mở màn|về sau|trước khi|cuối cùng|rốt cuộc|trở thành|kể từ|đến nay|tới nay|ngày nay|hiện nay|thập kỷ|thập niên|tăng|giảm|mất|lao dốc|sụp|sập|vỡ|phá sản|lừa đảo|bê bối|thao túng|gian lận|đỉnh|đáy|bốc hơi|thảm họa|nghìn tỷ|ngàn tỷ|gấp|\d+(?:[.,]\d+)?\s*lần|đế chế|khổng lồ|mãi mãi|lịch sử|tồi tệ|tốt nhất|lớn nhất|nắm giữ|thua lỗ|ban đầu|từng|khi đó|lúc đó|đẩy|thêm \d|×|\d+(?:[.,]\d+)?\s*x(?![a-zà-ỹ]))/i;
+
+function hasHindsight(text: string, isVi: boolean, eventYear: number): boolean {
+  if ((isVi ? HINDSIGHT_VI : HINDSIGHT_EN).test(text)) return true;
+  // Any year after the event is, by definition, the future.
+  if (eventYear > 0) {
+    for (const match of text.matchAll(/\b(1[89]\d{2}|20\d{2})\b/g)) {
+      if (Number(match[1]) > eventYear) return true;
+    }
   }
-  return text
-    .replace(/—\s*and has never split.*/i, "")
-    .replace(/went from\s+[\$€£]?\d+[\d.,]*\s*to\s+[\$€£]?\d+[\d.,]*/gi, "experienced strong buying momentum")
-    .replace(/soared to\s+[\$€£]?\d+[\d.,]*/gi, "attracted massive investor inflows")
-    .replace(/over\s+\d+[\d.,]*x/gi, "solid historical momentum")
-    .replace(/dropped\s+\d+[\d.,]*%/gi, "facing market volatility")
-    .replace(/plunged\s+\d+[\d.,]*%/gi, "under high trading volatility")
-    .trim();
+  return false;
+}
+
+/**
+ * Builds a "no hindsight" dispatch: keeps leading sentences/clauses until the first one that
+ * leaks the outcome, and stops there. Returns "" if nothing usable survives.
+ */
+export function sanitizeDispatchText(text: string | undefined, isVi: boolean, eventYear = 0, maxSentences = 2, maxChars = 280): string {
+  if (!text) return "";
+  const sentences = text.trim().split(/(?<=[.!?])\s+(?=[A-ZÀ-Ỹ'"‘“(0-9])/u);
+  const kept: string[] = [];
+  let length = 0;
+  for (const sentence of sentences) {
+    if (kept.length >= maxSentences) break;
+    if (kept.length > 0 && length + sentence.length > maxChars) break;
+    const clauses = sentence.split(/(\s+[—–]\s+|;\s+|,\s+(?=(?:then|before|after|but|while|which|only|turning|making|sending|creating|trước khi|sau đó|rồi|nhưng|khiến|biến)\b))/u);
+    let out = "";
+    for (let i = 0; i < clauses.length; i += 2) {
+      const clause = clauses[i];
+      if (hasHindsight(clause, isVi, eventYear)) break;
+      out += (i > 0 ? clauses[i - 1] : "") + clause;
+    }
+    out = out.trim().replace(/[\s,;:—–-]+$/u, "");
+    if (!out) break;
+    const complete = out.length === sentence.trim().length;
+    // A truncated follow-up sentence reads as a fragment; only the opener may be shortened,
+    // and only if what is left still ends in a real phrase (not "…, China Evergrande Group.").
+    if (!complete && kept.length > 0) break;
+    if (!complete && (out.split(/,\s+/).pop() ?? "").trim().split(/\s+/).length < 4) break;
+    kept.push(/[.!?]$/.test(out) ? out : `${out}.`);
+    length += out.length;
+    if (!complete) break;
+  }
+  return kept.join(" ");
+}
+
+/** Headlines: keep the part before a dash/colon if the full title leaks the outcome. */
+export function sanitizeDispatchHeadline(title: string | undefined, isVi: boolean, eventYear = 0): string {
+  if (!title) return "";
+  const full = title.trim();
+  if (!hasHindsight(full, isVi, eventYear)) return full;
+  const head = full.split(/\s+[—–-]\s+|:\s+|,\s+/u)[0].trim();
+  return head && head !== full && !hasHindsight(head, isVi, eventYear) ? head : "";
 }
 
 export function getContemporaryDispatch(round: SurvivalRound): ContemporaryDispatch {
@@ -610,13 +805,26 @@ export function getContemporaryDispatch(round: SurvivalRound): ContemporaryDispa
     return CONTEMPORARY_TRAP_DISPATCHES[m.id];
   }
 
-  const viTitle = cleanHindsightSpoilers(m.title.vi, true);
-  const enTitle = cleanHindsightSpoilers(m.title.en, false);
-  const viSummary = cleanHindsightSpoilers(m.summary ? m.summary.vi : m.description.vi, true);
-  const enSummary = cleanHindsightSpoilers(m.summary ? m.summary.en : m.description.en, false);
+  const eventYear = yearOf(m);
+  const viTitle = sanitizeDispatchHeadline(m.title.vi, true, eventYear);
+  const enTitle = sanitizeDispatchHeadline(m.title.en, false, eventYear);
+  // The long description usually opens with what was known on the day; summaries are retrospective.
+  const pick = (isVi: boolean) => {
+    const lang = isVi ? "vi" : "en";
+    const fromDescription = sanitizeDispatchText(m.description[lang], isVi, eventYear);
+    if (fromDescription.length >= 40) return fromDescription;
+    const fromSummary = sanitizeDispatchText(m.summary?.[lang], isVi, eventYear);
+    return fromSummary.length >= 40 ? fromSummary : "";
+  };
+  const viSummary = pick(true);
+  const enSummary = pick(false);
 
-  const assetNameVi = t(m.opportunity.asset, "vi");
-  const assetNameEn = t(m.opportunity.asset, "en");
+  // Asset labels sometimes carry later context in brackets, e.g. "(2000-2001 period)".
+  // Also keep only the first of "Old name / New name" pairs (e.g. "Facebook / Meta Platforms").
+  const cleanAsset = (name: string, isVi: boolean) =>
+    name.split(/\s+\/\s+/)[0].replace(/\s*\([^)]*\)/g, (group) => (hasHindsight(group, isVi, eventYear) ? "" : group)).trim();
+  const assetNameVi = cleanAsset(t(m.opportunity.asset, "vi"), true);
+  const assetNameEn = cleanAsset(t(m.opportunity.asset, "en"), false);
 
   return {
     headline: {

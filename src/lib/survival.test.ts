@@ -144,10 +144,13 @@ describe("survival minigame mechanics", () => {
     ];
     const textVi = generateShareText(run, results, 5000, "vi");
     expect(textVi).toContain("Thử Thách Trọng Sinh");
-    expect(textVi).toContain("5.0×");
+    expect(textVi).toContain("5,0×");
+    expect(textVi).toContain("5.000 USD");
 
     const textEn = generateShareText(run, results, 5000, "en");
     expect(textEn).toContain("Reincarnation Survival Run");
+    expect(textEn).toContain("5.0×");
+    expect(textEn).toContain("$5,000");
   });
 
   it("masks hindsight spoilers in Fog of War contemporary dispatches", () => {

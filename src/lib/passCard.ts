@@ -1,8 +1,42 @@
 "use client";
 
-import type { SurvivalRun, DecisionResult, SurvivalRank } from "./survival";
+import { formatNumber, formatUsd, type SurvivalRun, type DecisionResult, type SurvivalRank } from "./survival";
 import type { Locale } from "./i18n";
 import { t } from "./i18n";
+
+/** Wraps text into at most `maxLines` lines that fit `maxWidth`, ellipsising the last one. */
+function wrapText(ctx: CanvasRenderingContext2D, text: string, maxWidth: number, maxLines: number): string[] {
+  const fit = (str: string, suffix = "") => {
+    let out = str;
+    while (out.length > 1 && ctx.measureText(`${out}${suffix}`).width > maxWidth) out = out.slice(0, -1);
+    return out === str && !suffix ? str : `${out.trimEnd()}${suffix || "…"}`;
+  };
+  const lines: string[] = [];
+  let line = "";
+  for (const word of text.split(/\s+/).filter(Boolean)) {
+    const candidate = line ? `${line} ${word}` : word;
+    if (!line || ctx.measureText(candidate).width <= maxWidth) {
+      line = candidate;
+    } else {
+      lines.push(line);
+      line = word;
+    }
+  }
+  if (line) lines.push(line);
+  const kept = lines.slice(0, maxLines).map((l) => fit(l));
+  if (lines.length > maxLines) kept[maxLines - 1] = fit(kept[maxLines - 1].replace(/…$/, ""), "…");
+  return kept;
+}
+
+/** Shrinks the font size until `text` fits `maxWidth`. */
+function fitFont(ctx: CanvasRenderingContext2D, text: string, maxWidth: number, weight: string, size: number, family: string, min = 14) {
+  let px = size;
+  ctx.font = `${weight} ${px}px ${family}`;
+  while (px > min && ctx.measureText(text).width > maxWidth) {
+    px -= 1;
+    ctx.font = `${weight} ${px}px ${family}`;
+  }
+}
 
 /**
  * Generates a luxury, high-fidelity Reincarnation Pass Card (3:4 portrait)
@@ -155,7 +189,11 @@ export async function generateReincarnationPassCard({
   ctx.fillStyle = "#ca8a04";
   ctx.font = "700 12px ui-monospace, Menlo, Consolas, monospace";
   ctx.letterSpacing = "2px";
-  ctx.fillText(`DOCUMENT NO: ${cardSerial} · SPECIAL CLEARANCE`, width / 2, 126);
+  ctx.fillText(
+    lang === "vi" ? `SỐ HIỆU: ${cardSerial} · CẤP ĐẶC BIỆT` : `DOCUMENT NO: ${cardSerial} · SPECIAL CLEARANCE`,
+    width / 2,
+    126
+  );
 
   // Horizontal Divider
   const divGrad = ctx.createLinearGradient(70, 0, width - 70, 0);
@@ -228,9 +266,14 @@ export async function generateReincarnationPassCard({
   ctx.fillStyle = "#94a3b8";
   ctx.font = "500 14px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif";
   ctx.fillText(
-    lang === "vi"
-      ? `Thức tỉnh: Năm ${run.startYear} · 18 tuổi · Vốn: $${run.initialCapital.toLocaleString()}`
-      : `Reincarnated: Year ${run.startYear} · Age 18 · Initial: $${run.initialCapital.toLocaleString()}`,
+    wrapText(
+      ctx,
+      lang === "vi"
+        ? `Năm bắt đầu: ${run.startYear} · 18 tuổi · Vốn: ${formatUsd(run.initialCapital, lang)}`
+        : `Start year: ${run.startYear} · Age 18 · Initial: ${formatUsd(run.initialCapital, lang)}`,
+      width - profileX - 64,
+      1
+    )[0],
     profileX,
     topY + 76
   );
@@ -279,19 +322,24 @@ export async function generateReincarnationPassCard({
   ctx.fillText(finalRank.badge, width / 2, rankBoxY + 80);
 
   // Rank Title
+  const sansFamily = "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif";
+  const rankTitle = t(finalRank.title, lang).toUpperCase();
   ctx.fillStyle = goldBorderGrad;
-  ctx.font = "900 32px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif";
-  ctx.fillText(t(finalRank.title, lang).toUpperCase(), width / 2, rankBoxY + 145);
+  fitFont(ctx, rankTitle, rankBoxW - 48, "900", 32, sansFamily, 18);
+  ctx.fillText(rankTitle, width / 2, rankBoxY + 140);
 
-  // Rank Description
+  // Rank Description — wrapped/clamped to the inner card width (2 lines max)
   ctx.fillStyle = "#cbd5e1";
-  ctx.font = "500 15px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif";
-  ctx.fillText(t(finalRank.description, lang), width / 2, rankBoxY + 178);
+  ctx.font = `500 15px ${sansFamily}`;
+  wrapText(ctx, t(finalRank.description, lang), rankBoxW - 60, 2).forEach((line, i) => {
+    ctx.fillText(line, width / 2, rankBoxY + 170 + i * 20);
+  });
 
   // Badge level subtitle / status pill
+  const isLoss = netWorth < run.initialCapital;
   ctx.fillStyle = "rgba(234, 179, 8, 0.12)";
   ctx.beginPath();
-  ctx.roundRect(width / 2 - 140, rankBoxY + 205, 280, 32, 16);
+  ctx.roundRect(width / 2 - 160, rankBoxY + 212, 320, 32, 16);
   ctx.fill();
   ctx.strokeStyle = "rgba(234, 179, 8, 0.4)";
   ctx.lineWidth = 1;
@@ -301,9 +349,15 @@ export async function generateReincarnationPassCard({
   ctx.font = "700 12px ui-monospace, monospace";
   ctx.letterSpacing = "1px";
   ctx.fillText(
-    lang === "vi" ? "★ CHỨNG NHẬN ĐẲNG CẤP LUÂN HỒI ★" : "★ OFFICIALLY VERIFIED SURVIVOR ★",
+    isLoss
+      ? lang === "vi"
+        ? "★ CHỨNG NHẬN CHÁY TÚI CHÍNH CHỦ ★"
+        : "★ OFFICIALLY CERTIFIED REKT ★"
+      : lang === "vi"
+      ? "★ CHỨNG NHẬN ĐẲNG CẤP LUÂN HỒI ★"
+      : "★ OFFICIALLY VERIFIED SURVIVOR ★",
     width / 2,
-    rankBoxY + 225
+    rankBoxY + 233
   );
 
   // ---------------------------------------------------------
@@ -337,7 +391,7 @@ export async function generateReincarnationPassCard({
   ctx.fillStyle = "#ffffff";
   ctx.font = "900 48px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif";
   // Clamp net worth text to fit within financial box (max width ~520px from x=28)
-  const netWorthText = `$${netWorth.toLocaleString()}`;
+  const netWorthText = formatUsd(netWorth, lang);
   const maxNetWorthWidth = 520;
   const netWorthMetrics = ctx.measureText(netWorthText);
   const displayNetWorth = netWorthMetrics.width > maxNetWorthWidth
@@ -349,14 +403,15 @@ export async function generateReincarnationPassCard({
   ctx.font = "500 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif";
   ctx.fillText(
     lang === "vi"
-      ? `Vốn gốc: $${run.initialCapital.toLocaleString()} USD · Chu kỳ 5 ngã rẽ`
-      : `Base: $${run.initialCapital.toLocaleString()} USD · 5 Epoch Cycle`,
+      ? `Vốn gốc: ${formatUsd(run.initialCapital, lang)} · Chu kỳ 5 ngã rẽ`
+      : `Base: ${formatUsd(run.initialCapital, lang)} · 5 Epoch Cycle`,
     finBoxX + 28,
     finY + 130
   );
 
   // Right Column: ROI multiplier & Success Count
   const roi = (netWorth / run.initialCapital).toFixed(1);
+  const roiLabel = formatNumber(Number(roi), lang, 1);
   const isProfitable = netWorth >= run.initialCapital;
 
   // ROI Pill
@@ -373,14 +428,14 @@ export async function generateReincarnationPassCard({
   ctx.textAlign = "center";
   ctx.fillStyle = isProfitable ? "#4ade80" : "#f87171";
   ctx.font = "800 24px ui-monospace, monospace";
-  ctx.fillText(`${roi}× ROI`, pillX + 86, pillY + 36);
+  ctx.fillText(`${roiLabel}× ROI`, pillX + 86, pillY + 36);
 
   const wins = results.filter((r) => r.isSuccess).length;
   ctx.textAlign = "right";
   ctx.fillStyle = "#e2e8f0";
   ctx.font = "700 15px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif";
   ctx.fillText(
-    lang === "vi" ? `Thắng ${wins}/5 ngã rẽ lịch sử` : `Won ${wins}/5 Historical Epochs`,
+    lang === "vi" ? `Thắng ${wins}/${results.length} ngã rẽ lịch sử` : `Won ${wins}/${results.length} Historical Epochs`,
     finBoxX + finBoxW - 28,
     finY + 130
   );
@@ -432,7 +487,11 @@ export async function generateReincarnationPassCard({
 
     ctx.fillStyle = r.isSuccess ? "#4ade80" : "#f87171";
     ctx.font = "800 15px -apple-system, sans-serif";
-    const statusText = r.isSuccess ? "✓ THẮNG" : "✗ DÍNH";
+    const statusText = r.isSuccess
+      ? lang === "vi" ? "✓ THẮNG" : "✓ WIN"
+      : r.decision === "skip"
+      ? lang === "vi" ? "✗ LỠ" : "✗ MISSED"
+      : lang === "vi" ? "✗ DÍNH" : "✗ TRAP";
     const maxStatusWidth = cw - 16;
     const statusMetrics = ctx.measureText(statusText);
     const displayStatus = statusMetrics.width > maxStatusWidth
@@ -470,11 +529,11 @@ export async function generateReincarnationPassCard({
   ctx.font = "900 10px ui-monospace, monospace";
   ctx.textAlign = "center";
   ctx.letterSpacing = "1px";
-  ctx.fillText("BỘ QUẢN LÝ THỜI GIAN", 0, -28);
+  ctx.fillText(lang === "vi" ? "BỘ QUẢN LÝ THỜI GIAN" : "MINISTRY OF TIME", 0, -28);
   ctx.font = "900 14px ui-monospace, monospace";
-  ctx.fillText("ĐÃ XÁC THỰC", 0, 4);
+  ctx.fillText(lang === "vi" ? "ĐÃ XÁC THỰC" : "VERIFIED", 0, 4);
   ctx.font = "800 11px ui-monospace, monospace";
-  ctx.fillText("★ APPROVED ★", 0, 24);
+  ctx.fillText(lang === "vi" ? "★ ĐÃ DUYỆT ★" : "★ APPROVED ★", 0, 24);
   ctx.font = "700 8px monospace";
   ctx.fillText(`SEQ: ${hashSeed.toString(16).toUpperCase()}`, 0, 38);
   ctx.restore();

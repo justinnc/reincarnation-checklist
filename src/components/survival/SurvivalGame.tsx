@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import { hashSeed, mulberry32 } from "@/lib/cardgame/rng";
 import { motion, AnimatePresence } from "motion/react";
@@ -12,6 +12,10 @@ import {
   getSurvivalRank,
   generateShareText,
   getContemporaryDispatch,
+  getYearClampNotice,
+  formatNumber,
+  formatUsd,
+  skipChoiceText,
   type SurvivalRun,
   type DecisionResult,
   type DecisionType,
@@ -41,7 +45,10 @@ export default function SurvivalGame({
 
   // Roulette spinning state
   const [isSpinning, setIsSpinning] = useState(false);
-  const [isMuted, setIsMuted] = useState(() => soundFx.isMuted);
+  // Audio is off by default; render muted on SSR/hydration and sync the stored choice after mount.
+  const [isMuted, setIsMuted] = useState(true);
+  const [showRules, setShowRules] = useState(false);
+  const eventCardRef = useRef<HTMLDivElement>(null);
   const [isExportingCard, setIsExportingCard] = useState(false);
   const [cardPreviewUrl, setCardPreviewUrl] = useState<string | null>(null);
   const [spinDisplay, setSpinDisplay] = useState({
@@ -62,6 +69,19 @@ export default function SurvivalGame({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      try {
+        // No stored preference yet: persist "off" as the default.
+        if (window.localStorage.getItem("rc:muted") === null && !soundFx.isMuted) soundFx.toggleMute();
+      } catch {
+        // Storage unavailable (private mode): keep the in-memory state.
+      }
+      setIsMuted(soundFx.isMuted);
+    }, 0);
+    return () => clearTimeout(timer);
+  }, []);
+
   const toggleSound = () => {
     const newMuted = soundFx.toggleMute();
     setIsMuted(newMuted);
@@ -73,6 +93,17 @@ export default function SurvivalGame({
   const [results, setResults] = useState<DecisionResult[]>([]);
   const [currentRoundResult, setCurrentRoundResult] = useState<DecisionResult | null>(null);
   const [toastMessage, setToastMessage] = useState<string | null>(null);
+
+  // Keep the event card (and its choices / Next button) in view after each step on small screens.
+  useEffect(() => {
+    if (phase !== "playing") return;
+    const card = eventCardRef.current;
+    if (!card || typeof window === "undefined") return;
+    const rect = card.getBoundingClientRect();
+    if (rect.top < 0 || rect.top > window.innerHeight * 0.5) {
+      card.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  }, [phase, currentRoundIdx, currentRoundResult]);
 
   // Toast auto-clear
   useEffect(() => {
@@ -204,7 +235,9 @@ export default function SurvivalGame({
 
   const currentRound = run.rounds[currentRoundIdx];
   const currentDispatch = currentRound ? getContemporaryDispatch(currentRound) : null;
-  const finalRank = getSurvivalRank(netWorth, run.initialCapital);
+  const finalRank = getSurvivalRank(netWorth, run.initialCapital, results);
+  const yearClampNotice = phase === "roulette" && !isSpinning ? getYearClampNotice(run, lang) : null;
+  const money = (n: number) => formatUsd(n, lang);
 
   // Generate Card Preview when entering game_over
   useEffect(() => {
@@ -229,23 +262,36 @@ export default function SurvivalGame({
   return (
     <div className="mx-auto max-w-3xl space-y-8">
       {/* Top Controls: Sound Toggle */}
-      <div className="flex items-center justify-end">
+      <div className="flex items-center justify-end gap-2">
+        <button
+          type="button"
+          onClick={() => setShowRules((v) => !v)}
+          aria-expanded={showRules}
+          aria-controls="survival-rules"
+          className="inline-flex items-center gap-1.5 rounded-full border border-line bg-raised px-3 py-1 font-mono text-xs text-muted hover:border-gold hover:text-ink transition"
+        >
+          <span aria-hidden="true">ⓘ</span>
+          <span>{lang === "vi" ? "Luật chơi" : "Rules"}</span>
+        </button>
         <button
           type="button"
           onClick={toggleSound}
           className="inline-flex items-center gap-1.5 rounded-full border border-line bg-raised px-3 py-1 font-mono text-xs text-muted hover:border-gold hover:text-ink transition"
-          title={isMuted ? "Bật âm thanh" : "Tắt âm thanh"}
+          aria-pressed={!isMuted}
+          title={isMuted ? (lang === "vi" ? "Bật âm thanh" : "Turn audio on") : (lang === "vi" ? "Tắt âm thanh" : "Turn audio off")}
         >
           <span>{isMuted ? "🔇" : "🔊"}</span>
           <span>{isMuted ? (lang === "vi" ? "Âm thanh: Tắt" : "Audio: Off") : (lang === "vi" ? "Âm thanh: Bật" : "Audio: On")}</span>
         </button>
       </div>
 
-      <p className="text-xs text-muted" data-testid="inflation-rule">
+      {showRules && (
+        <p id="survival-rules" className="rounded-xl border border-line bg-raised/50 p-3 text-xs text-muted" data-testid="inflation-rule">
         {lang === "vi"
           ? "Luật arcade: chỉ lựa chọn Né chịu hao hụt sức mua giả định 3%/năm đến mốc tiếp theo. Cùng năm và vòng cuối: không trừ. Số dư là điểm vốn quy đổi của game, không phải số dư ngân hàng hay mô phỏng CPI lịch sử; các lựa chọn khác giữ luật cũ."
           : "Arcade rule: only Skip incurs assumed 3% annual purchasing-power erosion until the next event. Same-year and final rounds: no deduction. Balance is a game capital score, not a bank balance or historical CPI simulation; other choices retain existing rules."}
-      </p>
+        </p>
+      )}
       {/* Toast Notification */}
       <AnimatePresence>
         {toastMessage && (
@@ -277,7 +323,7 @@ export default function SurvivalGame({
             </h1>
             <p className="mx-auto max-w-xl text-sm text-muted sm:text-base">
               {lang === "vi"
-                ? "Bạn sắp bước qua cánh cổng thời gian. Bốc thăm điểm xuất phát của kiếp này: bạn có $1.000 và phải sống sót qua 5 biến động lịch sử!"
+                ? "Bạn sắp bước qua cánh cổng thời gian. Bốc thăm điểm xuất phát của kiếp này: bạn có 1.000 USD và phải sống sót qua 5 biến động lịch sử!"
                 : "Step through the portal of time. Roll your starting identity: start with $1,000 and navigate 5 historical market turning points!"}
             </p>
           </div>
@@ -299,20 +345,30 @@ export default function SurvivalGame({
 
               <div className="rounded-2xl border border-line bg-raised p-4">
                 <div className="text-xs uppercase tracking-wider text-muted">
-                  {lang === "vi" ? "Năm thức tỉnh" : "Birth Year"}
+                  {lang === "vi" ? "Năm bắt đầu" : "Start year"}
                 </div>
                 <div className="mt-2 font-display text-4xl font-extrabold tracking-tight text-gold sm:text-5xl">
                   {spinDisplay.year}
                 </div>
                 <div className="mt-1 text-xs text-muted">
-                  {lang === "vi" ? "Bạn 18 tuổi" : "You are 18"}
+                  {lang === "vi" ? "Bạn 18 tuổi" : "You start at age 18"}
                 </div>
               </div>
             </div>
 
+            {yearClampNotice && (
+              <p
+                role="status"
+                className="mt-4 rounded-2xl border border-warning/40 bg-warning/10 p-3 text-xs text-warning"
+                data-testid="year-clamp-notice"
+              >
+                ⚠️ {yearClampNotice}
+              </p>
+            )}
+
             <div className="mt-4 rounded-2xl border border-line bg-raised/50 p-3 text-xs text-muted">
-              💰 {lang === "vi" ? "Vốn khởi nghiệp ban đầu:" : "Starting Capital:"}{" "}
-              <span className="font-bold text-ink">$1,000 USD</span> · 5 {lang === "vi" ? "ngã rẽ lịch sử" : "turning points"}
+              💰 {lang === "vi" ? "Vốn ban đầu:" : "Starting capital:"}{" "}
+              <span className="font-bold text-ink">{money(run.initialCapital)}</span> · 5 {lang === "vi" ? "ngã rẽ lịch sử" : "turning points"}
             </div>
 
             {/* Spin Buttons */}
@@ -412,13 +468,16 @@ export default function SurvivalGame({
                 {lang === "vi" ? "Tài sản hiện tại" : "Net Worth"}
               </div>
               <div className="font-display text-2xl font-extrabold text-gold sm:text-3xl">
-                ${netWorth.toLocaleString()}
+                {money(netWorth)}
               </div>
             </div>
           </div>
 
           {/* Main Event Card */}
-          <div className="relative overflow-hidden rounded-3xl border border-line bg-surface p-6 shadow-xl sm:p-8">
+          <div
+            ref={eventCardRef}
+            className="relative scroll-mt-4 rounded-3xl border border-line bg-surface p-6 shadow-xl sm:p-8"
+          >
             <div className="space-y-4">
               {!currentRoundResult ? (
                 <>
@@ -455,7 +514,7 @@ export default function SurvivalGame({
                   {/* Prompt Box */}
                   <div className="rounded-2xl border border-line-strong bg-raised/50 p-4 text-sm text-ink">
                     <div className="font-semibold text-gold">
-                      ❓ {lang === "vi" ? `Bạn sẽ làm gì với $${netWorth.toLocaleString()} của mình?` : `What will you do with your $${netWorth.toLocaleString()}?`}
+                      ❓ {lang === "vi" ? `Bạn sẽ làm gì với ${money(netWorth)} của mình?` : `What will you do with your ${money(netWorth)}?`}
                     </div>
                     <p className="mt-1 text-xs text-muted">
                       {lang === "vi"
@@ -494,70 +553,75 @@ export default function SurvivalGame({
 
             {/* Decision Choices or Feedback */}
             {!currentRoundResult ? (
-              <div className="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-3">
+              <>
+              <ul className="mt-4 space-y-1 text-xs text-muted sm:hidden" data-testid="choice-legend">
+                <li>🚀 {lang === "vi" ? "Tất tay: nhân mạnh vốn nếu đúng, mất 90% nếu dính bẫy." : "All-in: huge multiplier if right; lose 90% if it's a trap."}</li>
+                <li>🟡 {lang === "vi" ? "Thăm dò: cược 25%, giữ 75% tiền mặt." : "Cautious: bet 25%, keep 75% in cash."}</li>
+                <li>🛡️ {skipChoiceText(currentRound.yearGap ?? 0, lang)}</li>
+              </ul>
+              <div className="sticky bottom-2 z-10 -mx-2 mt-6 grid grid-cols-3 gap-2 rounded-2xl bg-surface/95 p-2 backdrop-blur sm:static sm:mx-0 sm:gap-3 sm:bg-transparent sm:p-0 sm:backdrop-blur-none">
                 <button
                   type="button"
                   onClick={() => handleMakeDecision("all_in")}
-                  className="group flex flex-col justify-between rounded-2xl border border-emerald-500/40 bg-emerald-500/10 p-4 text-left transition hover:border-emerald-500 hover:bg-emerald-500/20"
+                  className="group flex flex-col justify-between rounded-2xl border border-emerald-500/40 bg-emerald-500/10 p-2.5 text-left sm:p-4 transition hover:border-emerald-500 hover:bg-emerald-500/20"
                 >
                   <div>
-                    <div className="flex items-center gap-1.5 text-base font-bold text-emerald-400">
+                    <div className="flex flex-wrap items-center gap-1 text-sm font-bold sm:gap-1.5 sm:text-base text-emerald-400">
                       <span>🚀</span>
                       <span>{lang === "vi" ? "Tất tay (100%)" : "All-in (100%)"}</span>
                     </div>
-                    <p className="mt-1 text-xs text-muted group-hover:text-ink">
+                    <p className="mt-1 hidden text-xs text-muted group-hover:text-ink sm:block">
                       {lang === "vi"
                         ? "Nhân mạnh vốn nếu đúng, mất 90% nếu dính bẫy."
-                        : "Huge multiplier if right; wiped out if a trap."}
+                        : "Huge multiplier if right; lose 90% if it's a trap."}
                     </p>
                   </div>
-                  <div className="mt-3 font-mono text-xs font-semibold text-emerald-400">
-                    ${netWorth.toLocaleString()}
+                  <div className="mt-1.5 font-mono text-xs font-semibold sm:mt-3 text-emerald-400">
+                    {money(netWorth)}
                   </div>
                 </button>
 
                 <button
                   type="button"
                   onClick={() => handleMakeDecision("cautious")}
-                  className="group flex flex-col justify-between rounded-2xl border border-amber-500/40 bg-amber-500/10 p-4 text-left transition hover:border-amber-500 hover:bg-amber-500/20"
+                  className="group flex flex-col justify-between rounded-2xl border border-amber-500/40 bg-amber-500/10 p-2.5 text-left sm:p-4 transition hover:border-amber-500 hover:bg-amber-500/20"
                 >
                   <div>
-                    <div className="flex items-center gap-1.5 text-base font-bold text-amber-400">
+                    <div className="flex flex-wrap items-center gap-1 text-sm font-bold sm:gap-1.5 sm:text-base text-amber-400">
                       <span>🟡</span>
                       <span>{lang === "vi" ? "Thăm dò (25%)" : "Cautious (25%)"}</span>
                     </div>
-                    <p className="mt-1 text-xs text-muted group-hover:text-ink">
+                    <p className="mt-1 hidden text-xs text-muted group-hover:text-ink sm:block">
                       {lang === "vi"
                         ? "Lãi vừa phải, rủi ro thấp nếu thị trường sập."
                         : "Moderate gain, keeps 75% in safe cash."}
                     </p>
                   </div>
-                  <div className="mt-3 font-mono text-xs font-semibold text-amber-400">
-                    ${Math.round(netWorth * 0.25).toLocaleString()}
+                  <div className="mt-1.5 font-mono text-xs font-semibold sm:mt-3 text-amber-400">
+                    {money(Math.round(netWorth * 0.25))}
                   </div>
                 </button>
 
                 <button
                   type="button"
                   onClick={() => handleMakeDecision("skip")}
-                  className="group flex flex-col justify-between rounded-2xl border border-line bg-raised p-4 text-left transition hover:border-line-strong hover:bg-line"
+                  className="group flex flex-col justify-between rounded-2xl border border-line bg-raised p-2.5 text-left sm:p-4 transition hover:border-line-strong hover:bg-line"
                 >
                   <div>
-                    <div className="flex items-center gap-1.5 text-base font-bold text-ink">
+                    <div className="flex flex-wrap items-center gap-1 text-sm font-bold sm:gap-1.5 sm:text-base text-ink">
                       <span>🛡️</span>
                       <span>{lang === "vi" ? "Né / Giữ tiền" : "Skip / Hold Cash"}</span>
                     </div>
-                    <p className="mt-1 text-xs text-muted group-hover:text-ink">
-                      {lang === "vi"
-                        ? `Giữ tiền ${currentRound.yearGap ?? 0} năm đến mốc tiếp theo. Sức mua giảm theo lạm phát giả định 3%/năm; không có thưởng né bẫy.`
-                        : `Hold cash for ${currentRound.yearGap ?? 0} years until the next event. Purchasing power falls at an assumed 3%/year; no dodge bonus.`}
+                    <p className="mt-1 hidden text-xs text-muted group-hover:text-ink sm:block">
+                      {skipChoiceText(currentRound.yearGap ?? 0, lang)}
                     </p>
                   </div>
-                  <div className="mt-3 font-mono text-xs font-semibold text-muted">
-                    $0
+                  <div className="mt-1.5 font-mono text-xs font-semibold sm:mt-3 text-muted">
+                    {money(0)}
                   </div>
                 </button>
               </div>
+              </>
             ) : (
               /* Decision Outcome Reveal */
               <motion.div
@@ -574,13 +638,13 @@ export default function SurvivalGame({
                     {t(currentRoundResult.headline, lang)}
                   </div>
                   <div className="font-mono text-sm font-semibold">
-                    ${currentRoundResult.prevNetWorth.toLocaleString()} ➔{" "}
+                    {money(currentRoundResult.prevNetWorth)} ➔{" "}
                     <span
                       className={`text-base font-bold ${
                         currentRoundResult.isSuccess ? "text-gain" : "text-trap"
                       }`}
                     >
-                      ${currentRoundResult.newNetWorth.toLocaleString()}
+                      {money(currentRoundResult.newNetWorth)}
                     </span>
                   </div>
                 </div>
@@ -590,7 +654,7 @@ export default function SurvivalGame({
                   {currentRoundResult.decision === "skip" && (
                     <span className="mt-2 block font-mono text-warning" data-testid="inflation-log">
                       {currentRound.year} → {currentRound.year + (currentRound.yearGap ?? 0)}
-                      {" · "}{lang === "vi" ? "Giảm sức mua (game)" : "Purchasing-power loss (game)"}: −${currentRoundResult.inflationLoss.toLocaleString()}
+                      {" · "}{lang === "vi" ? "Giảm sức mua (game)" : "Purchasing-power loss (game)"}: −{money(currentRoundResult.inflationLoss)}
                     </span>
                   )}
                 </p>
@@ -605,11 +669,11 @@ export default function SurvivalGame({
                   </div>
                 )}
 
-                <div className="mt-5 flex justify-end">
+                <div className="sticky bottom-2 z-10 mt-5 flex justify-end">
                   <button
                     type="button"
                     onClick={handleNextRound}
-                    className="inline-flex items-center gap-2 rounded-full border border-gold bg-gold px-5 py-2.5 text-sm font-bold text-on-gold transition hover:brightness-110"
+                    className="inline-flex w-full items-center justify-center gap-2 rounded-full border border-gold bg-gold px-5 py-2.5 text-sm font-bold text-on-gold shadow-lg shadow-black/30 transition hover:brightness-110 sm:w-auto"
                   >
                     <span>
                       {currentRoundIdx + 1 >= run.rounds.length
@@ -656,7 +720,7 @@ export default function SurvivalGame({
                   {lang === "vi" ? "Vốn ban đầu" : "Initial Capital"}
                 </div>
                 <div className="font-display text-2xl font-bold text-ink">
-                  ${run.initialCapital.toLocaleString()}
+                  {money(run.initialCapital)}
                 </div>
               </div>
               <div>
@@ -664,7 +728,7 @@ export default function SurvivalGame({
                   {lang === "vi" ? "Tài sản chung cuộc" : "Final Net Worth"}
                 </div>
                 <div className="font-display text-2xl font-extrabold text-gold sm:text-3xl">
-                  ${netWorth.toLocaleString()}
+                  {money(netWorth)}
                 </div>
               </div>
             </div>
@@ -673,7 +737,7 @@ export default function SurvivalGame({
               <span>
                 {lang === "vi" ? "Tăng trưởng danh mục:" : "Portfolio Multiple:"}{" "}
                 <span className="font-mono font-bold text-ink">
-                  {(netWorth / run.initialCapital).toFixed(1)}×
+                  {formatNumber(Number((netWorth / run.initialCapital).toFixed(1)), lang, 1)}×
                 </span>
               </span>
               <span>
@@ -703,11 +767,11 @@ export default function SurvivalGame({
                   </div>
                   <div className="shrink-0 font-mono font-semibold text-muted">
                     {res.decision === "all_in"
-                      ? "All-in"
+                      ? (lang === "vi" ? "Tất tay" : "All-in")
                       : res.decision === "cautious"
                       ? "25%"
                       : (lang === "vi" ? "Né" : "Skip")}
-                    {res.decision === "skip" && <span className="block text-warning">−${res.inflationLoss.toLocaleString()} {lang === "vi" ? "sức mua" : "purchasing power"}</span>}
+                    {res.decision === "skip" && <span className="block text-warning">−{money(res.inflationLoss)} {lang === "vi" ? "sức mua" : "purchasing power"}</span>}
                   </div>
                 </div>
               ))}
@@ -782,7 +846,7 @@ export default function SurvivalGame({
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     src={cardPreviewUrl}
-                    alt="Thẻ Căn Cước Trọng Sinh"
+                    alt={lang === "vi" ? "Thẻ Căn Cước Trọng Sinh" : "Reincarnation Identity Pass"}
                     className="block h-auto w-full"
                   />
                 </div>
