@@ -1255,8 +1255,8 @@
       "en": "VW shares shed about EUR 15 billion in market value in a single session once the emissions-cheating scandal broke."
     },
     "description": {
-      "vi": "Ngày 18/9/2015, Cơ quan Bảo vệ Môi trường Mỹ (EPA) công bố VW đã cài 'thiết bị gian lận' (defeat device) trên khoảng 500.000 xe diesel để qua mặt kiểm tra khí thải. Cổ phiếu VW giảm 19,4% trong phiên 21/9/2015 xuống gần đáy 3 năm ở mức 130,20 EUR, thổi bay khoảng 15 tỷ EUR vốn hóa chỉ trong một ngày và cuối cùng khiến CEO Martin Winterkorn từ chức.",
-      "en": "On 18 September 2015, the US EPA revealed VW had installed 'defeat devices' on roughly 500,000 diesel cars to cheat emissions tests. VW shares fell 19.4% on 21 September 2015 to a near three-year low of 130.20 EUR, wiping out about EUR 15 billion in market value in a single day and ultimately forcing CEO Martin Winterkorn to resign."
+      "vi": "Ngày 18/9/2015, Cơ quan Bảo vệ Môi trường Mỹ (EPA) công bố VW đã cài 'thiết bị gian lận' (defeat device) trên khoảng 500.000 xe diesel để qua mặt kiểm tra khí thải. Cổ phiếu ưu đãi VW đóng cửa giảm 18,6% trong phiên 21/9/2015, ở mức 132,20 EUR, gần đáy 3 năm, thổi bay khoảng 15 tỷ EUR vốn hóa chỉ trong một ngày và cuối cùng khiến CEO Martin Winterkorn từ chức.",
+      "en": "On 18 September 2015, the US EPA revealed VW had installed 'defeat devices' on roughly 500,000 diesel cars to cheat emissions tests. VW preference shares closed 18.6% lower on 21 September 2015, at 132.20 EUR, a near three-year low, wiping out about EUR 15 billion in market value in a single day and ultimately forcing CEO Martin Winterkorn to resign."
     },
     "opportunity": {
       "asset": {
@@ -1276,19 +1276,20 @@
         "en": "18-21 September 2015, right as the scandal was disclosed"
       },
       "estimatedReturn": {
-        "vi": "Giá giảm khoảng 19,4% chỉ trong phiên 21/9, và tiếp tục giảm hơn 40% so với đỉnh đầu năm trong các tháng sau",
-        "en": "Price fell about 19.4% in a single session on 21 Sep, and more than 40% below its earlier-2015 peak in the following months"
+        "vi": "Người nắm giữ mất 18,6% chỉ trong một phiên: cổ phiếu ưu đãi VW đóng cửa 162,40 euro thứ Sáu 18/9/2015 và 132,20 euro thứ Hai 21/9, rồi tiếp tục giảm hơn 40% so với đỉnh đầu năm 2015.",
+        "en": "Holders lost 18.6% in one session: VW preference shares closed at €162.40 on Fri 18 Sep 2015 and €132.20 on Mon 21 Sep, and kept falling to more than 40% below their earlier-2015 peak."
       },
-      "returnMultiple": 0.81,
-      "exitPrice": 130.2,
+      "returnMultiple": 0.814,
+      "exitPrice": 132.2,
       "priceCurrency": "EUR",
       "exitDate": "2015-09-21",
       "risk": "high",
-      "capital": "medium"
+      "capital": "medium",
+      "entryPrice": 162.4
     },
     "insiderTip": {
-      "vi": "Biết trước ngày 18/9/2015 EPA sẽ công khai cáo buộc gian lận khí thải, bạn có thể bán VW vài ngày trước đó, tránh cú giảm 19,4%.",
-      "en": "Knowing the EPA will go public with the emissions-cheating allegations on 18 September 2015 lets you sell VW days ahead, before the 19.4% plunge."
+      "vi": "Biết trước ngày 18/9/2015 EPA sẽ công khai cáo buộc gian lận khí thải, bạn có thể bán VW vài ngày trước đó, tránh cú giảm 18,6%.",
+      "en": "Knowing the EPA will go public with the emissions-cheating allegations on 18 September 2015 lets you sell VW days ahead, before the 18.6% plunge."
     },
     "pitfalls": {
       "vi": "Cổ phiếu phục hồi một phần cuối năm 2015 khi tin tức tạm lắng — đó chỉ là nhịp hồi, chưa phải tín hiệu an toàn. Người bán khống giữ vị thế quá lâu bị nhịp hồi này bào mòn lợi nhuận, cho thấy canh thời điểm bán khống rủi ro thế nào.",
@@ -1334,7 +1335,7 @@
       }
     ],
     "verified": true,
-    "verifiedNote": "19.4% single-day drop to a near-three-year low of 130.20 EUR on 21 Sep 2015, and the ~EUR 15bn market-value loss, confirmed by CNBC and Jalopnik/AP reporting. EntryPrice omitted (derivable only indirectly from the stated percentage) to avoid presenting a guessed figure as fact."
+    "verifiedNote": "VOW3 Xetra closes: €162.40 (2015-09-18) and €132.20 (2015-09-21, -18.6%) per Reuters, MarketWatch and German financial press. The previous exit of €130.20 was unsupported."
   },
   {
     "id": "de-deutsche-bank-crisis-2016",

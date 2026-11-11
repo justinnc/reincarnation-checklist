@@ -346,15 +346,16 @@
         "en": "20 December 2006, after the equity exemption"
       },
       "estimatedReturn": {
-        "vi": "Khoảng +11% chỉ sau một phiên (theo VOA)",
-        "en": "About +11% in a single session (per VOA)"
+        "vi": "Khoảng +11% trong một phiên: SET đóng cửa 622,14 điểm ngày 'Thứ Ba đen' (19/12/2006) và 691,55 điểm ngày hôm sau khi biện pháp kiểm soát vốn được nới lỏng.",
+        "en": "About +11% in one session: the SET closed at 622.14 on Black Tuesday (19 Dec 2006) and at 691.55 the next day after the controls were eased."
       },
       "returnMultiple": 1.11,
       "entryPrice": 622.14,
       "priceCurrency": "points",
-      "exitDate": "2007-10",
+      "exitDate": "2006-12-20",
       "risk": "high",
-      "capital": "medium"
+      "capital": "medium",
+      "exitPrice": 691.55
     },
     "insiderTip": {
       "vi": "Chính phủ quân sự sẽ không chịu nổi áp lực và quay xe trong vòng chưa đầy 24 giờ — cú sập là do chính sách, không phải doanh nghiệp xấu đi.",
@@ -409,10 +410,14 @@
       {
         "title": "Thailand's stock market rebounds - VOA (20 Dec 2006)",
         "url": "https://www.voakorea.com/a/a-35-2006-12-20-voa8-91210189/1297704.html"
+      },
+      {
+        "title": "Taipei Times - SET Index ends at 691.55 (20 Dec 2006)",
+        "url": "https://www.taipeitimes.com/News/front/archives/2006/12/21/2003341277"
       }
     ],
     "verified": true,
-    "verifiedNote": "18 Dec 2006 announcement, 30% URR and the equity exemption confirmed via BOT notice and SSRN/KBank snippets. 622.14 close, −14.8%, intraday −19.5% and lowest-since-Oct-2004 via AP (Press Democrat, fetched); first-ever trading halt via Al Jazeera; +11% rebound on 20 Dec via VOA snippet. Prior close 730.55 is back-computed from 622.14 and −14.84%, not read directly. The URR being lifted for remaining flows in 2008 is general knowledge, not source-checked here."
+    "verifiedNote": "SET closes 622.14 (2006-12-19, AP) and 691.55 (2006-12-20, Taipei Times). The exit date previously said Oct 2007, which did not match the one-session return."
   },
   {
     "id": "th-cp-all-7eleven-compounder-2008",
@@ -420,12 +425,12 @@
     "date": "2008",
     "category": "stocks",
     "title": {
-      "vi": "CP All — cỗ máy 7-Eleven nhân 16 lần (2009-2017)",
-      "en": "CP All — the 7-Eleven Compounder (~16x, 2009-2017)"
+      "vi": "CP All — cỗ máy 7-Eleven nhân 12,5 lần (2008-2017)",
+      "en": "CP All — the 7-Eleven Compounder (~12.5x, 2008-2017)"
     },
     "summary": {
-      "vi": "Chuỗi 7-Eleven của CP All tăng từ 4.279 cửa hàng (cuối 2007) lên hơn 11.000 (2018); giá cổ phiếu tăng khoảng 16 lần trong 2009-2017.",
-      "en": "CP All's 7-Eleven network grew from 4,279 stores (end-2007) to over 11,000 (2018); the share price rose about 16x over 2009-2017."
+      "vi": "Chuỗi 7-Eleven của CP All tăng từ 4.279 cửa hàng (cuối 2007) lên hơn 11.000 (2018); giá cổ phiếu tăng khoảng 12,5 lần từ cuối 2008 đến cuối 2017 (khoảng 16 lần nếu tái đầu tư cổ tức).",
+      "en": "CP All's 7-Eleven network grew from 4,279 stores (end-2007) to over 11,000 (2018); the share price rose about 12.5x from end-2008 to end-2017 (about 16x with dividends reinvested)."
     },
     "description": {
       "vi": "CP All, thuộc tập đoàn Charoen Pokphand, vận hành 7-Eleven tại Thái Lan. Tại ngày 31/12/2007, chuỗi có 4.279 cửa hàng; đến năm 2018, Bangkok Post dự báo vượt 11.000 cửa hàng — gần như mọi góc phố Thái Lan đều có một cửa hàng. Lợi nhuận ròng hợp nhất đạt 20.930 triệu baht năm 2018. Theo dữ liệu hiệu suất giá hằng năm, cổ phiếu CPALL tăng 120,7% (2009), 87,5% (2010), 24,7% (2011), 83,2% (2012)…, cộng dồn khoảng 16,5 lần trong 2009-2017 (chưa tính cổ tức). Năm 2013, CP All mua Siam Makro với giá trị khoảng 188,9 tỷ baht bằng vốn vay, làm cổ phiếu rơi xuống 38,50 baht.",
@@ -449,13 +454,17 @@
         "en": "End of 2017 (CPALL fell 11.6% in 2018)"
       },
       "estimatedReturn": {
-        "vi": "Khoảng 16 lần giá (2009-2017, theo hiệu suất năm cộng dồn), chưa kể cổ tức",
-        "en": "About 16x in price (2009-2017, compounded annual performance), excluding dividends"
+        "vi": "Khoảng 12,5 lần theo giá: 12,30 baht cuối năm 2008 → 77 baht cuối năm 2017; 1 cổ phiếu thành 2 cổ phiếu sau đợt cổ tức bằng cổ phiếu năm 2012 (khoảng 16 lần nếu tái đầu tư cổ tức).",
+        "en": "About 12.5x in price: ฿12.30 at end-2008 → ฿77 at end-2017, with 1 share becoming 2 after the 2012 stock dividend (about 16x with dividends reinvested)."
       },
-      "returnMultiple": 16.47,
-      "exitDate": "2017-12",
+      "returnMultiple": 12.5,
+      "exitDate": "2017-12-29",
       "risk": "low",
-      "capital": "low"
+      "capital": "low",
+      "entryPrice": 12.3,
+      "exitPrice": 77,
+      "splitFactor": 2,
+      "priceCurrency": "THB"
     },
     "insiderTip": {
       "vi": "Người Thái ghé 7-Eleven nhiều lần mỗi ngày để mua đồ ăn, trả hóa đơn, nạp tiền — đây là mô hình dòng tiền mặt mạnh, không nợ (trước thương vụ Makro) với dư địa mở rộng rất lớn.",
@@ -510,10 +519,14 @@
       {
         "title": "CP All shares hit by high Makro price - Bangkok Post",
         "url": "https://www.bangkokpost.com/business/general/346887/cp-all-shares-hit-by-high-makro-price"
+      },
+      {
+        "title": "CP All Annual Report 2012 (1:1 stock dividend)",
+        "url": "https://www.cpall.co.th/wp-content/uploads/2018/05/Annual_Report_2012_EN.pdf"
       }
     ],
     "verified": true,
-    "verifiedNote": "Annual price performance 2009-2017 (fetched from CompaniesMarketCap) compounds to 16.47x (computed); this is price-only and the site's split-adjusted absolute prices look unreliable, so no entry/exit prices are given. Store counts: 4,279 (31 Dec 2007) from SEC Thailand filing snippet; '>11,000 in 2018' from Bangkok Post (cited on Wikipedia). 2018 net profit 20,930m baht from AR2018 snippet. Makro deal (188.88bn baht), 38.50 low and ~6x D/E from Bangkok Post (fetched). The brief's '10x+' claim holds."
+    "verifiedNote": "1:1 stock dividend in 2012 (CP All Annual Report 2012). Closes ฿12.30 (2008-12-30) and ฿77 (2017-12-29) derived from Yahoo data. The previous 16.47x included reinvested dividends."
   },
   {
     "id": "th-great-floods-industrial-shock-2011",

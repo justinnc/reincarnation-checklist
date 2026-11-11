@@ -156,3 +156,36 @@
 | `ca-bre-x-gold-fraud-1997` | 0.0003 | 0.000314 | rounding only. |
 
 **Residual uncertainty:** Amazon article publication date inferred (Dec 2022); Netflix 2004/2015 split days confirmed to month only; Vietnamese corporate-action lists come from an aggregator (cophieu68), cross-checked against Vietstock (VNM) and VietnamFinance (HPG); HPG exit close from a single broker bulletin.
+
+---
+
+## Unpriced multiples and trap framing (2026-11-11)
+
+**Prices added** (same rule: `exitPrice × splitFactor ÷ entryPrice`; researched by four agents, applied after review; several excerpts came from search snippets and are marked as such in agent transcripts):
+
+| Milestone | Was | Now | Basis |
+|---|---|---|---|
+| `us-dell-ipo-1988` | 420.7× (no prices) | 420.7× | $8.50 → $37.25 (2000-01-28), ×96 — all from Dell FY2000 annual report |
+| `us-march-2009-bottom` | 3.98× | 4.12× | 676.53 → 2,786.57 (2018-03-09) |
+| `us-covid-crash-bottom-2020` | 1.76× | 1.76× | 2,237.40 → 3,948.72 (2023-03-23) |
+| `us-monster-beverage-hansen-compounding-2002` | 1,040× | 1,134× | ~$8.28 (2004-01-02, Yahoo-derived) → $48.92 (2026-08-24), ×192; article's "$1.04M" contradicts its own "111,000%" |
+| `de-vw-dieselgate-2015` | 0.81× (exit €130.20, no entry) | 0.814× | €162.40 → €132.20 (VOW3 Xetra closes) |
+| `it-luxottica-growth` | 50× | 64.1× | ~$9.50 (derived from $0.95 split-adj.) → $60.90 last NYSE close, ×10; company's 50× mixed USD and EUR |
+| `it-campari-growth` | 15× (market cap) | 16.6× (price) | €31 IPO → €12.86 (2021-12-31), ×40; matches Campari AR +1,558.7% |
+| `gb-right-to-buy-1980` | 5.36× | 6.36× | Halifax £30,898 (1983) → £196,478 (2007); 5.36 misread "+536%" |
+| `gb-london-property-boom-1995-2007` | 3.2× | 3.19× | Halifax £61,666 (1995) → £196,478 (2007); national average |
+| `gb-fca-crypto-derivatives-ban-2020` | 5.5× | 6.37× | BTC $10,604 (2020-10-06) → $67,567 (2021-11-08) |
+| `in-bajaj-finance-decade-2014-2024` | 29.76× | 29.73× | ₹2,437 → ₹7,245 (Sep 2014 → Sep 2024, Yahoo-derived), ×10 |
+| `in-adani-hindenburg-2023` | 0.364× | 0.455× | ₹3,442 → ₹1,565 (2023-02-02); 0.364 matched no price |
+| `jp-olympus-accounting-scandal-2011` | 10× | 10.4× | ¥460 (2011-11-11) → ¥4,800 (2015-12-30, Yahoo-derived) |
+| `jp-abenomics-kuroda-qqe-2013` | 1.8× | 1.8× | 8,664.73 (2012-11-14) → 15,627.26 (2013-05-22); milestone date moved to 14 Nov announcement |
+| `th-capital-controls-black-tuesday-2006` | 1.11× (exit "2007-10") | 1.11× | 622.14 → 691.55 next session; exit date fixed |
+| `th-cp-all-7eleven-compounder-2008` | 16.47× | 12.5× | ฿12.30 → ฿77 (Yahoo-derived), ×2; 16.47 included dividends |
+| `vn-mwg-listing-2014` | 12× | 16.7× | 81,500 first-day close → 160,200 (2022-04-15), ×8.5; old 12× from a CafeF series missing the 2021 stock dividend |
+| `vn-crypto-boom-vietnam` | 30× | 27.8× | AXS $5.76 (2021-07-01) → $160.36 (2021-11-07) |
+
+**Left as "reported, no prices":** `gb-black-wednesday-1992`, `jp-softbank-alibaba-stake-2000` (private deals) and `vn-phu-quoc-land-fever-2014` (only price pair is one resident's quoted plot, not a recorded sale).
+
+**Follow-up:** replace Yahoo-derived prices (Monster entry, Bajaj, Olympus exit, CP All) with exchange or news closes when available.
+
+**Trap framing:** 52 milestones rewritten (EN+VI) so advice fields lead with exit / stay out / protect savings; shorting, puts, CDS and currency shorts appear only as past-tense descriptions of what professionals did, with a risk note. Enforced by `data.test.ts › trap framing in every market` (the previous data fails it on 50 milestones).

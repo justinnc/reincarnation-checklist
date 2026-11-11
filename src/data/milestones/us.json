@@ -357,13 +357,17 @@
         "en": "Consider trimming some gains near the dot-com peak in early 2000, since Dell fell sharply afterward."
       },
       "estimatedReturn": {
-        "vi": "Khoảng 420 lần tính đến tháng 1/2000 (theo báo cáo thường niên của Dell).",
-        "en": "About 420x by January 2000 (per Dell's own annual report)."
+        "vi": "Khoảng 421 lần: giá IPO 8,50 USD → giá đóng cửa 37,25 USD ngày 28/1/2000; 1 cổ phiếu thành 96 cổ phiếu sau 7 lần chia tách (100 USD thành khoảng 42.070 USD, theo báo cáo thường niên của Dell).",
+        "en": "About 421x: $8.50 IPO price → $37.25 close on 28 Jan 2000, with 1 share becoming 96 shares after seven splits ($100 became about $42,070, per Dell's annual report)."
       },
       "returnMultiple": 420.7,
       "exitDate": "2000-01-28",
       "risk": "low",
-      "capital": "low"
+      "capital": "low",
+      "entryPrice": 8.5,
+      "exitPrice": 37.25,
+      "splitFactor": 96,
+      "priceCurrency": "USD"
     },
     "insiderTip": {
       "vi": "PC để bàn giá rẻ bán trực tiếp qua điện thoại/catalogue là mô hình đột phá của Michael Dell — nhu cầu bùng nổ suốt thập niên 1990.",
@@ -413,7 +417,7 @@
       }
     ],
     "verified": true,
-    "verifiedNote": "IPO date/price and the $100->$42,070 figure are both taken directly from Dell's own FY2000 annual report PDF."
+    "verifiedNote": "IPO $8.50 on 1988-06-22, seven splits (100 IPO shares = 9,600 shares) and the $37.25 close on 2000-01-28 all from Dell's FY2000 annual report."
   },
   {
     "id": "us-cisco-ipo-1990",
@@ -1571,8 +1575,8 @@
       "en": "The financial crisis bottom (March 2009)"
     },
     "summary": {
-      "vi": "S&P 500 chạm đáy 666,79 điểm — mua vào lúc này rồi thị trường tăng gần 300% trong 9 năm.",
-      "en": "The S&P 500 bottomed at 666.79 — buying here led to nearly 300% gains over the next 9 years."
+      "vi": "S&P 500 chạm đáy 666,79 điểm — mua vào lúc này rồi thị trường tăng hơn 300% (khoảng 4,1 lần) trong 9 năm.",
+      "en": "The S&P 500 bottomed at 666.79 — buying here led to gains of over 300% (about 4.1x) over the next 9 years."
     },
     "description": {
       "vi": "Sau khi giảm 56,8% từ đỉnh tháng 10/2007, chỉ số S&P 500 chạm đáy nội phiên 666,79 điểm ngày 6/3/2009 và đóng cửa đáy 676,53 điểm ngày 9/3/2009. Đây là khởi đầu của thị trường tăng giá (bull market) dài nhất lịch sử nước Mỹ, với S&P 500 tăng gần 300% chỉ trong 9 năm sau đó.",
@@ -1596,15 +1600,16 @@
         "en": "Hold long-term through the decade-plus bull market that follows."
       },
       "estimatedReturn": {
-        "vi": "Gần 300% chỉ trong 9 năm đầu (tính đến 2018), còn tăng mạnh hơn nữa sau đó.",
-        "en": "Nearly 300% in the first 9 years alone (by 2018), with much more gained since."
+        "vi": "Khoảng 4,1 lần (+312%): S&P 500 từ mức đóng cửa 676,53 điểm ngày 9/3/2009 lên 2.786,57 điểm ngày 9/3/2018, đúng 9 năm sau đáy. Chỉ tính theo điểm, chưa gồm cổ tức.",
+        "en": "About 4.1x (+312%): S&P 500 from its 676.53 close on 9 Mar 2009 to 2,786.57 on 9 Mar 2018, the bull market's ninth anniversary. Index points only, dividends excluded."
       },
-      "returnMultiple": 3.98,
+      "returnMultiple": 4.12,
       "entryPrice": 676.53,
       "risk": "medium",
       "capital": "low",
-      "priceCurrency": "USD",
-      "exitDate": "2018-03"
+      "priceCurrency": "points",
+      "exitDate": "2018-03-09",
+      "exitPrice": 2786.57
     },
     "insiderTip": {
       "vi": "Ngày 10/3/2009, một bức thư nội bộ rò rỉ cho biết Citigroup có lãi đã giúp thị trường tăng vọt 6,4% — đây chính xác là thời điểm 'đáy đã qua', nên mua càng sớm càng tốt quanh mốc 666 điểm.",
@@ -1651,10 +1656,14 @@
       {
         "title": "Wikipedia - Closing milestones of the S&P 500",
         "url": "https://en.wikipedia.org/wiki/Closing_milestones_of_the_S&P_500"
+      },
+      {
+        "title": "LA Times/AP - S&P 500 closes at 2,786.57 (9 Mar 2018)",
+        "url": "https://www.latimes.com/business/la-fi-financial-markets-20180309-story.html"
       }
     ],
     "verified": true,
-    "verifiedNote": "666.79 intraday low (March 6) and 676.53 closing low (March 9, 2009) confirmed by Reuters and Wikipedia. The ~300%/9-year gain figure confirmed by Reuters and Business Insider articles marking the anniversary."
+    "verifiedNote": "Entry 676.53 (2009-03-09 closing low) and exit 2,786.57 (2018-03-09 close, AP/LA Times). The previous 3.98x could not be reproduced from any close."
   },
   {
     "id": "us-bitcoin-pizza-day-2010",
@@ -2122,15 +2131,16 @@
         "en": "Hold through the V-shaped recovery over the following months."
       },
       "estimatedReturn": {
-        "vi": "Khoảng 76% chỉ trong 3 năm đầu (tính đến 2023), phục hồi về đỉnh cũ trong chưa đầy 6 tháng.",
-        "en": "About 76% in the first 3 years alone (by 2023), with the old peak reclaimed in under 6 months."
+        "vi": "Khoảng 1,76 lần (+76%): S&P 500 từ mức đóng cửa 2.237,40 điểm ngày 23/3/2020 lên 3.948,72 điểm ngày 23/3/2023, và lấy lại đỉnh cũ trong chưa đầy 6 tháng. Chỉ tính theo điểm.",
+        "en": "About 1.76x (+76%): S&P 500 from its 2,237.40 close on 23 Mar 2020 to 3,948.72 on 23 Mar 2023, with the old peak reclaimed in under six months. Index points only."
       },
       "returnMultiple": 1.76,
       "entryPrice": 2237.4,
       "risk": "medium",
       "capital": "low",
-      "priceCurrency": "USD",
-      "exitDate": "2023-03"
+      "priceCurrency": "points",
+      "exitDate": "2023-03-23",
+      "exitPrice": 3948.72
     },
     "insiderTip": {
       "vi": "Thị trường sẽ phục hồi cực nhanh (chưa đầy 6 tháng để lập đỉnh mới) nhờ các gói kích thích khổng lồ của Fed — các công ty hưởng lợi từ xu hướng 'ở nhà' (Zoom, Amazon, Netflix, Peloton) sẽ tăng đặc biệt mạnh.",
@@ -2177,10 +2187,14 @@
       {
         "title": "Finabase - The COVID crash of 2020",
         "url": "https://finabase.io/learn/articles/covid-crash-2020"
+      },
+      {
+        "title": "LA Times/AP - S&P 500 closes at 3,948.72 (23 Mar 2023)",
+        "url": "https://www.latimes.com/business/story/2023-03-23/stocks-recover-much-of-steep-loss-from-day-before"
       }
     ],
     "verified": true,
-    "verifiedNote": "Peak (3,386.15 on Feb 19), bottom (2,237.40 on Mar 23), 33.9% decline over 33 days, and the Aug 18, 2020 new-record-high date all confirmed by MarketWatch and Finabase (Dow Jones Market Data)."
+    "verifiedNote": "Entry 2,237.40 (2020-03-23 closing low, MarketWatch) and exit 3,948.72 (2023-03-23 close, AP)."
   },
   {
     "id": "us-gamestop-squeeze-2021",
@@ -3298,8 +3312,8 @@
       "en": "Hansen Natural Launches Monster Energy — a 1,000x Stock"
     },
     "summary": {
-      "vi": "Tháng 4/2002, công ty nước trái cây và soda nhỏ Hansen Natural tung nước tăng lực Monster Energy. Cổ phiếu (nay là Monster Beverage, MNST) trở thành một trong hai cổ phiếu S&P 500 tăng mạnh nhất thế kỷ 21: 1.000 USD đầu tư năm 2004 thành khoảng 1,04 triệu USD vào năm 2026.",
-      "en": "In April 2002 small juice and soda maker Hansen Natural launched Monster Energy. The stock (now Monster Beverage, MNST) became one of the two best-performing S&P 500 stocks of the 21st century: $1,000 invested in 2004 grew to about $1.04 million by 2026."
+      "vi": "Tháng 4/2002, công ty nước trái cây và soda nhỏ Hansen Natural tung nước tăng lực Monster Energy. Cổ phiếu (nay là Monster Beverage, MNST) trở thành một trong hai cổ phiếu S&P 500 tăng mạnh nhất thế kỷ 21: 1.000 USD đầu tư đầu năm 2004 thành hơn 1 triệu USD vào tháng 8/2026 (tăng hơn 111.000%).",
+      "en": "In April 2002 small juice and soda maker Hansen Natural launched Monster Energy. The stock (now Monster Beverage, MNST) became one of the two best-performing S&P 500 stocks of the 21st century: $1,000 invested at the start of 2004 grew to more than $1 million by August 2026 (over 111,000%)."
     },
     "description": {
       "vi": "Rodney Sacks và Hilton Schlosberg mua Hansen Natural năm 1992 với giá 14,5 triệu USD, khi đó là một hãng nước trái cây và soda tự nhiên ít tên tuổi. Tháng 4/2002, công ty tung Monster Energy — lon 16 ounce to gấp đôi Red Bull với cùng mức giá — và nhanh chóng dẫn đầu phân khúc nước tăng lực lon 16 ounce ở Mỹ. Doanh thu vượt 2 tỷ USD năm 2012 (gấp hơn 20 lần một thập kỷ trước), cùng năm công ty đổi tên thành Monster Beverage. Ngày 14/8/2014, Coca-Cola công bố mua 16,7% cổ phần Monster với 2,15 tỷ USD tiền mặt và đổi các thương hiệu nước tăng lực của mình lấy mảng nước không tăng lực của Monster; thương vụ hoàn tất ngày 12/6/2015. Theo StatMuse, MNST tăng khoảng 204.900% từ năm 2000 đến 2026, chỉ sau Nvidia trong S&P 500; theo Yahoo Finance, 1.000 USD đầu tư từ năm 2004 đã thành khoảng 1,04 triệu USD (khoảng 37%/năm), so với khoảng 8.748 USD nếu đầu tư vào S&P 500.",
@@ -3323,14 +3337,17 @@
         "en": "Don't sell — hold through the ~70% drop of 2007-2008 and the 2014 Coca-Cola deal"
       },
       "estimatedReturn": {
-        "vi": "Khoảng 1.040 lần: 1.000 USD đầu tư năm 2004 thành khoảng 1,04 triệu USD năm 2026 (Yahoo Finance)",
-        "en": "About 1,040x: $1,000 invested in 2004 became about $1.04 million by 2026 (Yahoo Finance)"
+        "vi": "Khoảng 1.134 lần: Hansen Natural khoảng 8,28 USD ngày 2/1/2004 → Monster 48,92 USD ngày 24/8/2026; 1 cổ phiếu thành 192 cổ phiếu sau 6 lần chia tách (tăng hơn 111.000%, theo Yahoo Finance).",
+        "en": "About 1,134x: Hansen Natural at about $8.28 on 2 Jan 2004 → Monster at $48.92 on 24 Aug 2026, with 1 share becoming 192 shares after six splits (more than 111,000%, per Yahoo Finance)."
       },
-      "returnMultiple": 1040,
+      "returnMultiple": 1134,
       "priceCurrency": "USD",
-      "exitDate": "2026-08",
+      "exitDate": "2026-08-24",
       "risk": "high",
-      "capital": "low"
+      "capital": "low",
+      "entryPrice": 8.28,
+      "exitPrice": 48.92,
+      "splitFactor": 192
     },
     "insiderTip": {
       "vi": "Người tái sinh biết lon 16 ounce giá ngang Red Bull sẽ biến một hãng soda vô danh thành đối thủ ngang hàng Red Bull. Tín hiệu có thể quan sát được lúc đó là doanh số tăng vọt và các nhà phân phối bia như Anheuser-Busch tranh nhau phân phối Monster. Mấu chốt không phải là mua đúng đáy mà là đủ kiên nhẫn để không bán khi cổ phiếu đã tăng 50 lần rồi giảm 70% năm 2008.",
@@ -3385,10 +3402,18 @@
       {
         "title": "Monster Run: This Consumer Stock Turned $1,000 Into $1M Over 22 Years - Yahoo Finance",
         "url": "https://finance.yahoo.com/markets/stocks/articles/monster-run-consumer-stock-turned-095436408.html"
+      },
+      {
+        "title": "Monster Beverage - split history (DEFA14A, 2023)",
+        "url": "https://investors.monsterbevcorp.com/static-files/94d090d0-dcd3-4bb4-827b-f728392e2941"
+      },
+      {
+        "title": "SEC 8-K - Monster declares two-for-one stock split (2026)",
+        "url": "https://sec.gov/Archives/edgar/data/865752/000110465926081842/tm2619964d1_ex99-1.htm"
       }
     ],
     "verified": true,
-    "verifiedNote": "April 2002 launch from Monster Beverage's own investor-relations release and Wikipedia. Coca-Cola's 16.7% stake for ~$2.15bn from Coca-Cola's closing release (12 Jun 2015) plus BBC, CBC, CNBC and WSJ (announced 14 Aug 2014). Return magnitude confirmed independently: StatMuse ~204,900% total return 2000-2026 (second to NVDA; earlier versions ranked MNST first), Yahoo Finance $1,000 -> ~$1.04m since 2004, Motley Fool/Nasdaq 65,610% over 20 years, IBD 4,929% from Jul 2003 to Oct 2007. returnMultiple of 1,040 uses the Yahoo Finance 2004-2026 figure; no per-share entry/exit prices are given because split adjustments (incl. the 2026 2-for-1 split) make quoted cents inconsistent across sources. $14.5m 1992 purchase price from TSOH Investment Research."
+    "verifiedNote": "Splits 2:1 (2005), 4:1 (2006), 2:1 (2012), 3:1 (2016), 2:1 (2023), 2:1 (Aug 2026) = 192 shares (company DEFA14A and SEC 8-K). Exit close $48.92 on 2026-08-24. Entry $8.28 is Yahoo's split-adjusted 2004-01-02 close x 192 (consistent with the FY2003 10-K bid range). The article's '$1.04 million' conflicts with its own '111,000%' and is not used."
   },
   {
     "id": "us-peter-thiel-facebook-seed-2004",

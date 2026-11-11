@@ -1154,13 +1154,17 @@
         "en": "Consider trimming some profit around the 2023 peak before the stock goes flat in 2023-2024"
       },
       "estimatedReturn": {
-        "vi": "Khoảng 2.876% (gần 30 lần) trong 10 năm, 2014-2024",
-        "en": "About 2,876% (nearly 30x) over ten years, 2014-2024"
+        "vi": "Khoảng 30 lần (+2.876%) sau 10 năm: khoảng 2.437 rupee tháng 9/2014 → 7.245 rupee tháng 9/2024; 1 cổ phiếu thành 10 cổ phiếu sau đợt chia tách và thưởng năm 2016. Chỉ tính theo giá.",
+        "en": "About 30x (+2,876%) in ten years: about ₹2,437 in Sep 2014 → ₹7,245 in Sep 2024, with 1 share becoming 10 after the 2016 split and bonus. Price only."
       },
-      "returnMultiple": 29.76,
+      "returnMultiple": 29.73,
       "risk": "medium",
       "capital": "low",
-      "exitDate": "2024"
+      "exitDate": "2024-09-05",
+      "entryPrice": 2437,
+      "exitPrice": 7244.9,
+      "splitFactor": 10,
+      "priceCurrency": "INR"
     },
     "insiderTip": {
       "vi": "Biết trước thẻ tín dụng tiêu dùng và tài trợ EMI tại điểm bán sẽ bùng nổ cùng tầng lớp trung lưu Ấn Độ, hãy ưu tiên Bajaj Finance hơn các ngân hàng truyền thống trong danh mục tài chính của bạn.",
@@ -1203,10 +1207,14 @@
       {
         "title": "A decade of multibaggers! Bajaj Group's wealth creation legacy - Economic Times",
         "url": "https://economictimes.indiatimes.com/markets/stocks/news/a-decade-of-multibaggers-bajaj-groups-wealth-creation-legacy-sets-stage-for-bajaj-housing-finance-ipo/articleshow/113112633.cms?from=mdr"
+      },
+      {
+        "title": "Business Standard - Bajaj Finance ex-bonus and ex-split on 8 Sep 2016",
+        "url": "https://www.business-standard.com/article/markets/bajaj-finance-gains-on-fixing-record-date-for-bonus-stock-split-116083100627_1.html"
       }
     ],
     "verified": false,
-    "verifiedNote": "2,876% ten-year (2014-2024) return and ~34% profit CAGR confirmed via Economic Times/ETMarkets article. Entry/exit per-share prices omitted because historical split-adjusted price tables conflict across sources. Marked unverified: only a single source."
+    "verifiedNote": "Economic Times (Sep 2024): +2,876% over the past decade. 1:1 bonus + 10:2 split ex 2016-09-08 (NSE, Business Standard) = 10 shares. Closes ₹2,437 (2014-09-05) and ₹7,244.9 (2024-09-05) derived from Yahoo split-adjusted data; the 2024 level matches ET's ₹7,299 quote of 2024-09-04."
   },
   {
     "id": "in-modi-election-rally-2014",
@@ -2086,12 +2094,16 @@
         "en": "Right on 24 January 2023, when the report drops"
       },
       "estimatedReturn": {
-        "vi": "Tránh khoản lỗ vốn hóa khoảng 63,6% riêng với Adani Enterprises chỉ trong 9 ngày giao dịch",
-        "en": "Avoids a roughly 63.6% market-cap loss for Adani Enterprises alone within nine trading days"
+        "vi": "Tránh khoản lỗ khoảng 55% chỉ trong 8 phiên: Adani Enterprises đóng cửa 3.442 rupee ngày 24/1/2023 và 1.565 rupee ngày 2/2 (đáy trong phiên 1.017 rupee ngày hôm sau, -70%).",
+        "en": "Avoids a loss of about 55% in eight sessions: Adani Enterprises closed at ₹3,442 on 24 Jan 2023 and ₹1,565 on 2 Feb (intraday low ₹1,017 the next day, -70%)."
       },
-      "returnMultiple": 0.364,
+      "returnMultiple": 0.455,
       "risk": "high",
-      "capital": "medium"
+      "capital": "medium",
+      "entryPrice": 3442,
+      "exitPrice": 1565.25,
+      "exitDate": "2023-02-02",
+      "priceCurrency": "INR"
     },
     "insiderTip": {
       "vi": "Biết trước báo cáo Hindenburg công bố đúng ngày 24/1/2023 sẽ châm ngòi đợt bán tháo lớn nhất lịch sử với một tập đoàn Ấn Độ, hãy thoát toàn bộ vị thế các công ty Adani và hủy mọi đăng ký FPO trước thời điểm đó.",
@@ -2138,10 +2150,18 @@
       {
         "title": "Adani Group firms' M-cap falls below Rs 7 lakh crore - New Indian Express",
         "url": "https://www.newindianexpress.com/business/2023/feb/28/adani-group-firms-m-cap-falls-below-rs-7-lakh-crore-as-shares-head-south-2551636.html"
+      },
+      {
+        "title": "Reuters - Adani Enterprises recovers pre-Hindenburg levels (closed at 3,442 on 24 Jan 2023)",
+        "url": "https://www.reuters.com/world/india/indias-adani-enterprises-recovers-pre-hindenburg-levels-2024-05-24/"
+      },
+      {
+        "title": "Moneylife - Adani Enterprises closed at Rs1,564.70 on 2 Feb 2023",
+        "url": "https://www.moneylife.in/article/4-adani-group-companies-including-adani-enterprises-hit-52week-low/69721.html"
       }
     ],
     "verified": true,
-    "verifiedNote": "Report publication date (24 Jan 2023), Adani Enterprises market-cap figures ($48.03bn to $17.46bn, -63.64%) and the $2.5bn FPO cancellation all confirmed via CNBC's own fetched article with its FactSet-sourced table."
+    "verifiedNote": "ADANIENT closes: ₹3,442 (2023-01-24, Reuters) and ₹1,565 (2023-02-02, Moneylife: 'lost nearly 55%' in eight sessions). The previous 0.364 matched no price on any date."
   },
   {
     "id": "in-infosys-whistleblower-crash-2019",

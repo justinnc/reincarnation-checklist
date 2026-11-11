@@ -34,14 +34,16 @@
         "en": "Hold the property long-term through the 1980s, 1990s-2000s and 2010s-2020s house-price booms"
       },
       "estimatedReturn": {
-        "vi": "Giá nhà Anh tăng trung bình 8%/năm (gấp hơn 5 lần) từ 1983-2007, cộng thêm chiết khấu mua ban đầu 44%",
-        "en": "UK house prices rose an average 8% a year (over 5x) from 1983-2007, on top of an initial ~44% purchase discount"
+        "vi": "Giá nhà trung bình ở Anh tăng từ khoảng 30.900 bảng năm 1983 lên 196.500 bảng năm 2007 (Halifax), tức +536% hay khoảng 6,4 lần — chưa kể mức chiết khấu 33-50% mà người thuê được hưởng khi mua.",
+        "en": "The average UK home rose from about £30,900 in 1983 to £196,500 in 2007 (Halifax), +536% or about 6.4x — on top of the 33-50% Right to Buy discount tenants received."
       },
-      "returnMultiple": 5.36,
+      "returnMultiple": 6.36,
       "priceCurrency": "GBP",
       "risk": "low",
       "capital": "medium",
-      "exitDate": "2024"
+      "exitDate": "2007",
+      "entryPrice": 30898,
+      "exitPrice": 196478
     },
     "insiderTip": {
       "vi": "Biết trước giá nhà Anh sẽ tăng hơn 500% trong 24 năm tới (1983-2007), mua nhà hội đồng với chiết khấu tối đa (lên tới 70%) ngay khi đủ điều kiện và giữ càng lâu càng tốt, đặc biệt ở London nơi giá tăng gấp đôi sau mỗi thập kỷ.",
@@ -88,10 +90,14 @@
       {
         "title": "BBC: Town halls buy back Right-to-Buy homes",
         "url": "https://www.bbc.com/news/uk-england-39264631"
+      },
+      {
+        "title": "lovemoney - Britain's greatest property investors (Halifax data)",
+        "url": "https://www.lovemoney.com/news/4595/britains-greatest-property-investors"
       }
     ],
     "verified": true,
-    "verifiedNote": "Housing Act 1980 in force 3 Oct 1980, discounts 33-70%, 2m+ homes sold, 44% average discount confirmed via Wikipedia and BBC history pieces."
+    "verifiedNote": "Halifax annual average UK house price 1983 £30,898 → 2007 peak £196,478 (+536%), via lovemoney. The previous 5.36 misread +536% as a multiple. Tracks average market prices, not individual tenants' discounted purchases."
   },
   {
     "id": "gb-bt-privatisation-1984",
@@ -605,14 +611,16 @@
         "en": "Sell or lock in gains in late 2007, right before the credit crunch hit"
       },
       "estimatedReturn": {
-        "vi": "+220% (hơn gấp 3 lần) trong 12 năm, theo chỉ số Halifax toàn quốc; London tăng mạnh hơn mức trung bình",
-        "en": "+220% (over 3x) over 12 years nationally per Halifax; London rose even more than the average"
+        "vi": "Giá nhà trung bình ở Anh tăng từ khoảng 61.700 bảng năm 1995 lên 196.500 bảng năm 2007 (Halifax), tức +219% hay khoảng 3,2 lần sau 12 năm; London còn tăng mạnh hơn mức trung bình toàn quốc.",
+        "en": "The average UK home rose from about £61,700 in 1995 to £196,500 in 2007 (Halifax), +219% or about 3.2x over 12 years; London rose even more than this national average."
       },
-      "returnMultiple": 3.2,
+      "returnMultiple": 3.19,
       "priceCurrency": "GBP",
       "risk": "medium",
       "capital": "high",
-      "exitDate": "2007-10"
+      "exitDate": "2007",
+      "entryPrice": 61666,
+      "exitPrice": 196478
     },
     "insiderTip": {
       "vi": "Biết trước Anh sắp bước vào chu kỳ tăng giá nhà dài và mạnh nhất lịch sử, vay thế chấp tối đa để mua càng nhiều bất động sản London càng tốt năm 1995-1996, và quan trọng hơn — bán sạch trước cuối 2007 để tránh sụp đổ 2008.",
@@ -662,7 +670,7 @@
       }
     ],
     "verified": true,
-    "verifiedNote": "220% national rise 1995-2007 (Halifax), ~£3trn wealth creation, 2008 -16.4% fall confirmed via lovemoney/Halifax data and European Commission report."
+    "verifiedNote": "Halifax annual average UK house price: 1995 trough £61,666, 2007 peak £196,478 (+219%), via lovemoney. National figures; no London-only series was sourced."
   },
   {
     "id": "gb-arm-ipo-1998",
@@ -1738,14 +1746,16 @@
         "en": "Take profit near the November 2021 peak when Bitcoin hit almost $69,000"
       },
       "estimatedReturn": {
-        "vi": "Khoảng +5 đến +6 lần trong vòng một năm với Bitcoin nắm giữ trực tiếp",
-        "en": "Roughly 5-6x within a year holding Bitcoin directly"
+        "vi": "Khoảng 6,4 lần: Bitcoin đóng cửa khoảng 10.600 USD ngày 6/10/2020, ngày FCA công bố lệnh cấm, và đạt mức đóng cửa kỷ lục 67.567 USD ngày 8/11/2021 (nắm giữ BTC trực tiếp, không qua phái sinh).",
+        "en": "About 6.4x: Bitcoin closed at about $10,600 on 6 Oct 2020, the day the FCA ban was announced, and at a record $67,567 on 8 Nov 2021 (holding BTC directly, not derivatives)."
       },
-      "returnMultiple": 5.5,
+      "returnMultiple": 6.37,
       "priceCurrency": "USD",
-      "exitDate": "2021-11",
+      "exitDate": "2021-11-08",
       "risk": "high",
-      "capital": "medium"
+      "capital": "medium",
+      "entryPrice": 10604.41,
+      "exitPrice": 67566.83
     },
     "insiderTip": {
       "vi": "Biết trước FCA sắp siết chặt quản lý phái sinh tiền mã hóa nhưng Bitcoin bản thân sẽ không bị cấm, chuyển hoàn toàn từ CFD sang mua và giữ Bitcoin thực trước ngày 6/1/2021 để vừa tránh lệnh cấm vừa hưởng trọn đợt tăng giá kỷ lục cuối 2021.",
@@ -1795,7 +1805,7 @@
       }
     ],
     "verified": true,
-    "verifiedNote": "Announced 6 Oct 2020, effective 6 Jan 2021, confirmed directly via official FCA press release and policy statement PDF."
+    "verifiedNote": "BTC-USD closes: $10,604.41 (2020-10-06) and the 2021 record close $67,566.83 (2021-11-08), per Yahoo/CoinMarketCap data. The previous 5.5x implied an entry near $12,300 that did not match the milestone date."
   },
   {
     "id": "gb-astrazeneca-oxford-vaccine-2020",

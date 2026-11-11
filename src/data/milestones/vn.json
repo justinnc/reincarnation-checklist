@@ -1957,14 +1957,17 @@
         "en": "14 Jul 2014, the listing date."
       },
       "estimatedReturn": {
-        "en": "MWG shares multiplied many times over the following decade as the store network grew from a few hundred to thousands of outlets nationwide. (~12× from the July 2014 listing to the April 2022 peak, split-adjusted; raw listing prices omitted because of later stock dividends.)",
-        "vi": "MWG tăng giá nhiều lần trong thập kỷ sau nhờ mở rộng mạng lưới cửa hàng từ vài trăm lên hàng nghìn điểm bán trên toàn quốc. (~12 lần từ khi niêm yết 7/2014 đến đỉnh 4/2022, đã điều chỉnh chia tách; không ghi giá gốc vì nhiều lần trả cổ tức bằng cổ phiếu.)"
+        "vi": "Khoảng 16,7 lần: giá đóng cửa phiên đầu 81.500 đồng (14/7/2014) → giá đóng cửa đỉnh 160.200 đồng (15/4/2022); 1 cổ phiếu thành 8,5 cổ phiếu nhờ cổ phiếu thưởng và cổ tức bằng cổ phiếu. Chưa gồm cổ tức tiền mặt.",
+        "en": "About 16.7x: VND 81,500 first-day close (14 Jul 2014) → VND 160,200 peak close (15 Apr 2022), with 1 share becoming 8.5 shares through bonus shares and stock dividends. Cash dividends excluded."
       },
       "risk": "medium",
       "capital": "medium",
       "priceCurrency": "VND",
-      "returnMultiple": 12,
-      "exitDate": "2022-04"
+      "returnMultiple": 16.7,
+      "exitDate": "2022-04-15",
+      "entryPrice": 81500,
+      "exitPrice": 160200,
+      "splitFactor": 8.5
     },
     "insiderTip": {
       "vi": "Biết trước MWG sẽ nhân rộng mô hình chuỗi bán lẻ hiện đại ra toàn quốc và mở thêm Điện Máy Xanh, Bách Hóa Xanh thành công vang dội, giúp mua và giữ MWG xuyên suốt thay vì chỉ lướt sóng ngày chào sàn.",
@@ -2011,10 +2014,14 @@
       {
         "title": "Vietstock: Thế giới Di động tăng kịch biên phiên chào sàn",
         "url": "https://vietstock.vn/2014/07/the-gioi-di-dong-tang-kich-bien-trong-phien-chao-san-741-355826.htm"
+      },
+      {
+        "title": "CafeF - MWG thông tin chung (giá phiên đầu, lịch sử cổ tức)",
+        "url": "https://cafef.vn/du-lieu/mwg/thong-tin-chung.chn"
       }
     ],
     "verified": true,
-    "verifiedNote": "Confirmed via Vietstock: MWG first trading day 14 Jul 2014, reference price VND 68,000, closed day one at VND 81,500 (+19.9%)."
+    "verifiedNote": "First-day close VND 81,500 (listing reference 68,000; Vietstock, CafeF). Bonus/stock dividends 2014-2021: x1.70, x1.25, x2, x1.333, x1.5 = 8.5 (CafeF); the June 2022 100% stock dividend is after the exit. Peak close VND 160,200 on 2022-04-15 (CafeF). The previous 12x came from a CafeF adjusted series that omits the Aug 2021 stock dividend."
   },
   {
     "id": "vn-long-thanh-airport-2015",
@@ -2330,8 +2337,8 @@
         "en": "2020 - early 2021, before the price exploded."
       },
       "estimatedReturn": {
-        "vi": "AXS tăng từ vài USD lên đỉnh lịch sử khoảng 165 USD ngày 6/11/2021 — tăng hàng chục lần trong chưa đầy 2 năm cho người mua sớm.",
-        "en": "AXS rose from a few dollars to an all-time high of about $165 on 6 November 2021 — tens of times gains in under two years for early buyers."
+        "vi": "Khoảng 28 lần: AXS đóng cửa khoảng 5,76 USD ngày 1/7/2021, ngay trước cơn sốt Axie mùa hè, và đạt đỉnh đóng cửa 160,36 USD ngày 7/11/2021 (đỉnh trong phiên khoảng 165 USD ngày 6/11).",
+        "en": "About 28x: AXS closed at about $5.76 on 1 Jul 2021, just before the summer Axie boom, and peaked at a $160.36 close on 7 Nov 2021 (intraday high about $165 on 6 Nov)."
       },
       "risk": "high",
       "capital": "low",
@@ -2339,9 +2346,11 @@
         "vi": "Trước tháng 3/2022, khi vụ hack Ronin Network làm sập giá.",
         "en": "Before March 2022, when the Ronin Network hack crashed the price."
       },
-      "returnMultiple": 30,
+      "returnMultiple": 27.8,
       "priceCurrency": "USD",
-      "exitDate": "2021-10"
+      "exitDate": "2021-11-07",
+      "entryPrice": 5.76,
+      "exitPrice": 160.36
     },
     "insiderTip": {
       "vi": "Biết trước đội ngũ Việt Nam Sky Mavis sẽ tạo ra hiện tượng game blockchain lớn nhất thế giới năm 2021 (2,8 triệu người dùng/ngày) giúp mua AXS/tham gia chơi từ rất sớm năm 2020, đồng thời biết trước vụ hack Ronin tháng 3/2022 (thiệt hại 620 triệu USD) để thoát hàng đúng lúc trước khi crash.",
@@ -2388,10 +2397,14 @@
       {
         "title": "Tiger Research: Vietnam Web3 Market Report 2025",
         "url": "https://reports.tiger-research.com/p/2025-vietnam-web3-market-report-vnd"
+      },
+      {
+        "title": "CoinMarketCap - Axie Infinity (AXS) historical data",
+        "url": "https://coinmarketcap.com/currencies/axie-infinity/historical-data/"
       }
     ],
     "verified": true,
-    "verifiedNote": "Confirmed via PHS and Tiger Research: AXS all-time high ~$165 on 6 Nov 2021 (CoinMarketCap), Axie reached 2.8M daily users, Ronin hack March 2022 lost over $620M."
+    "verifiedNote": "AXS daily closes from CoinMarketCap: $5.76 (2021-07-01) and $160.36 (2021-11-07, the highest close of 2021). AXS began 2021 near $0.59, so earlier entries give far larger multiples."
   },
   {
     "id": "vn-vinfast-nasdaq-2023",
