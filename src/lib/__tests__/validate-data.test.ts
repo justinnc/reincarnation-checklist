@@ -109,8 +109,11 @@ describe("milestone validator fixtures", () => {
     expect(checkFixture({ ...withEvidence, returnMultiple: 2.1 }).stderr).toContain("prices contradict returnMultiple");
   });
 
-  it("does not infer comparable units from a legacy entry/exit pair without observations", () => {
-    expect(checkFixture({ ...priced, returnMultiple: 3 }).status).toBe(0);
+  it("applies one price rule to every entry/exit pair: multiple = exit × splitFactor ÷ entry", () => {
+    expect(checkFixture({ ...priced, returnMultiple: 3 }).stderr).toContain("prices contradict returnMultiple");
+    expect(checkFixture({ ...priced, splitFactor: 1.5, returnMultiple: 3 }).status).toBe(0);
+    expect(checkFixture({ ...priced, splitFactor: 0 }).stderr).toContain("bad splitFactor");
+    expect(checkFixture({ ...priced, exitPrice: undefined, splitFactor: 2 }).stderr).toContain("splitFactor needs both");
   });
 
   it("rejects incomplete, unlinked or incomparable observation metadata", () => {

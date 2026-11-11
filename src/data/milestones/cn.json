@@ -1043,8 +1043,8 @@
       "en": "Buffett's BYD Investment"
     },
     "summary": {
-      "vi": "Berkshire Hathaway mua 10% cổ phần BYD giá HK$8/cổ phiếu — khoản đầu tư sinh lời gấp 38 lần.",
-      "en": "Berkshire Hathaway bought a 10% BYD stake at HK$8/share — a trade that eventually returned 38x."
+      "vi": "Berkshire Hathaway mua 10% BYD giá HK$8 qua phát hành riêng; nhà đầu tư thường có thể mua khoảng HK$11,90 hai ngày sau — tăng khoảng 33 lần đến khi Berkshire thoái vốn hết đầu năm 2025.",
+      "en": "Berkshire Hathaway bought 10% of BYD at HK$8 in a private placement; ordinary investors could buy at about HK$11.90 two days later — roughly 33x by the time Berkshire had fully exited in early 2025."
     },
     "description": {
       "vi": "Ngày 27/9/2008, MidAmerican Energy Holdings (công ty con của Berkshire Hathaway) công bố mua 225 triệu cổ phiếu H mới phát hành của BYD với giá HK$8/cổ phiếu, tổng giá trị HK$1,8 tỷ (~230 triệu USD), tương đương gần 10% cổ phần công ty. BYD khi đó là nhà sản xuất pin và linh kiện điện thoại, mới bắt đầu làm xe điện. Berkshire nắm giữ cổ phần này suốt 14 năm và hoàn tất thoái vốn năm 2022-2025 với lợi nhuận gấp khoảng 38 lần.",
@@ -1060,23 +1060,24 @@
         "en": "Buy BYD shares alongside Berkshire Hathaway's announced investment."
       },
       "buyWhen": {
-        "vi": "27/9/2008, giá HK$8/cổ phiếu (chiết khấu 4,8% so với giá đóng cửa trước đó).",
-        "en": "September 27, 2008, at HK$8/share (a 4.8% discount to the prior close)."
+        "vi": "29/9/2008, khoảng HK$11,90 — phiên giao dịch công khai đầu tiên sau khi thương vụ được công bố. (Giá HK$8 của Berkshire là phát hành riêng, nhà đầu tư thường không mua được.)",
+        "en": "29 September 2008, at about HK$11.90 — the first public trading session after the deal was announced. (Berkshire's HK$8 was a private placement not open to ordinary investors.)"
       },
       "sellWhen": {
         "vi": "Có thể giữ đến 2022 khi Berkshire bắt đầu thoái vốn dần, hoặc chốt lời sớm hơn quanh đỉnh giá xe điện 2021-2022.",
         "en": "Hold until 2022 when Berkshire begins trimming, or take profits earlier around the 2021-2022 EV valuation peak."
       },
       "estimatedReturn": {
-        "vi": "Berkshire Hathaway ghi nhận lợi nhuận gấp khoảng 38 lần trên khoản đầu tư ban đầu sau khi thoái vốn hoàn toàn.",
-        "en": "Berkshire Hathaway booked roughly a 38x return on its original investment after fully exiting."
+        "vi": "Khoảng 33 lần: HK$11,90 (đóng cửa 29/9/2008) → HK$392,80 (đóng cửa 31/3/2025, thời điểm Berkshire đã bán hết). Không có cổ phiếu thưởng trước ngày này. Berkshire bán dần từ năm 2022 nên lợi nhuận thực tế của họ thấp hơn và không được công bố.",
+        "en": "About 33x: HK$11.90 (29 Sep 2008 close) → HK$392.80 (31 Mar 2025 close, by which date Berkshire had sold its entire stake). No bonus shares before that date. Berkshire sold gradually from 2022, so its own realised return was lower and was never disclosed."
       },
-      "entryPrice": 8,
+      "entryPrice": 11.9,
       "priceCurrency": "HKD",
-      "returnMultiple": 38,
+      "returnMultiple": 33,
       "risk": "high",
       "capital": "medium",
-      "exitDate": "2022-08"
+      "exitDate": "2025-03-31",
+      "exitPrice": 392.8
     },
     "insiderTip": {
       "vi": "BYD sẽ vượt Tesla để trở thành hãng xe điện bán chạy nhất thế giới theo doanh số vào năm 2023-2024 — kiên nhẫn giữ cổ phiếu qua nhiều năm công ty chỉ được biết đến như nhà sản xuất pin.",
@@ -1123,10 +1124,22 @@
       {
         "title": "TradingKey — Buffett Sells Entire BYD Stake, Capping 38-Bagger",
         "url": "https://www.tradingkey.com/news/stocks/251125529-warren-buffett-sells-entire-byd-stake-stock-falls-tradingkey"
+      },
+      {
+        "title": "CNBC - Buffett's Berkshire totally exits its BYD stake (2025)",
+        "url": "https://www.cnbc.com/2025/09/21/buffett-munger-byd-exits-stake.html"
+      },
+      {
+        "title": "Reuters - Berkshire Hathaway exits China's BYD, filing shows (2025)",
+        "url": "https://www.reuters.com/business/autos-transportation/warren-buffetts-berkshire-hathaway-exits-chinas-byd-filing-shows-2025-09-22/"
+      },
+      {
+        "title": "Yahoo Finance - 1211.HK historical prices",
+        "url": "https://finance.yahoo.com/quote/1211.HK/history/"
       }
     ],
     "verified": true,
-    "verifiedNote": "Purchase price HK$8/share, 225M shares, HK$1.8B total confirmed via CNBC/FinanceAsia/SCMP; 38x total return confirmed via TradingKey report on full exit.",
+    "verifiedNote": "HK$8 x 225M H-shares (private placement) from CNBC 2008. Retail entry = first public close 2008-09-29 (HK$11.90; Yahoo split-adjusted 3.967 x 3). Stake valued at zero by 2025-03-31 per Berkshire Hathaway Energy filing (Reuters/CNBC 2025); close that day HK$392.80. The 2025 bonus/capitalisation issue (x3) went ex on 2025-06-10, after the exit. TradingKey's '38x' gives no method and is not used.",
     "private": true
   },
   {

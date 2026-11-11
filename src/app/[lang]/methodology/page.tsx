@@ -33,8 +33,8 @@ const COPY: Record<string, { heading: string; subtitle: string; updated: string;
         p: "Hệ số lợi nhuận được tính theo các nguyên tắc sau:",
         bullets: [
           "Giá danh nghĩa: Mọi giá trị là số tiền danh nghĩa theo đồng tiền gốc của từng thị trường, chưa trừ lạm phát, trừ khi ghi rõ.",
-          "Chỉ tính theo giá: Hệ số = giá bán ÷ giá mua, chưa gồm cổ tức tái đầu tư, thuế, phí giao dịch, phí lưu ký hay chi phí vay.",
-          "Chia tách & cổ phiếu thưởng: Cơ sở điều chỉnh theo nguồn được trích dẫn. Nếu nguồn dùng giá đã điều chỉnh chia tách (ví dụ giá IPO đã điều chỉnh của Nvidia) thì cả giá mua và giá bán đều dùng cùng cơ sở đó; nếu không, giá là giá danh nghĩa như nguồn ghi.",
+          "Chỉ tính theo giá: Hệ số chỉ phản ánh thay đổi giá, chưa gồm cổ tức tiền mặt, thuế, phí giao dịch, phí lưu ký hay chi phí vay.",
+          "Chia tách & cổ phiếu thưởng: Giá mua và giá bán luôn là giá thực tế tại thời điểm giao dịch. Nếu giữa hai thời điểm cổ phiếu được chia tách hoặc phát hành cổ phiếu thưởng/cổ tức bằng cổ phiếu, trang của mốc sẽ ghi 1 cổ phiếu ban đầu thành bao nhiêu cổ phiếu, và hệ số = giá bán × số cổ phiếu đó ÷ giá mua. Không có dòng này nghĩa là hệ số = giá bán ÷ giá mua.",
           "Giá mua phải mua được vào thời điểm đó: Với thương vụ nhà đầu tư cá nhân mua được, giá mua là giá có thể giao dịch vào hoặc sau ngày của mốc. Giá ICO, giá trước niêm yết chỉ được nêu làm bối cảnh, không dùng để tính hệ số.",
           "Thương vụ riêng tư: Vòng gọi vốn hạt giống, cổ phần trước IPO và các thương vụ người thường không tham gia được bị loại khỏi bảng xếp hạng và chế độ 'Thực tế'.",
           "Ngày quan sát: Khi có dữ liệu, trang của từng mốc ghi ngày mua, ngày bán và cơ sở giá. Bảng xếp hạng gồm các mốc có ngày kết thúc và đồng tiền khác nhau, nên không so sánh trực tiếp được."
@@ -78,8 +78,8 @@ const COPY: Record<string, { heading: string; subtitle: string; updated: string;
         p: "Multiples follow these rules:",
         bullets: [
           "Nominal: Figures are in each market's own currency at the time, not inflation-adjusted unless stated.",
-          "Price-only: Multiple = exit price ÷ entry price. It excludes reinvested dividends, taxes, trading fees, custody fees and borrowing costs.",
-          "Splits & bonus shares: The adjustment basis follows the cited source. Where a source uses split-adjusted prices (e.g. Nvidia's split-adjusted IPO price), entry and exit use that same basis; otherwise prices are nominal as quoted.",
+          "Price-only: Multiples reflect price change only. They exclude cash dividends, taxes, trading fees, custody fees and borrowing costs.",
+          "Splits & bonus shares: Entry and exit prices are always the actual quoted prices on each date. If the stock split or issued bonus shares or stock dividends in between, the milestone page shows how many shares one original share became, and multiple = exit price × that number ÷ entry price. If no such row is shown, multiple = exit price ÷ entry price.",
           "Entry must have been buyable: For retail-buyable milestones, the entry price is one you could trade at on or after the milestone's date. Presale and pre-listing prices are given as context only and are not used for the multiple.",
           "Private deals: Seed rounds, pre-IPO stakes and other deals ordinary investors could not join are excluded from rankings and from 'Realistic' playbooks.",
           "Observation dates: Where recorded, each milestone page shows the entry date, exit date and price basis. Rankings mix different end dates and currencies, so rows are not directly comparable."

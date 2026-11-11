@@ -45,12 +45,15 @@ interface OpportunityBase {
 
 /** Historical comparisons cannot carry executable prices or scenario returns. */
 export type Opportunity = OpportunityBase & (
-  | { historicalOnly: true; returnMultiple?: never; entryPrice?: never; exitPrice?: never; priceObservations?: never }
+  | { historicalOnly: true; returnMultiple?: never; entryPrice?: never; exitPrice?: never; splitFactor?: never; priceObservations?: never }
   | {
       historicalOnly?: false;
       returnMultiple?: number;
       entryPrice?: number;
       exitPrice?: number;
+      /** Shares held at exit per share bought at entry (splits, bonus issues, stock dividends).
+       *  Prices stay nominal as quoted; returnMultiple = exitPrice x splitFactor / entryPrice. */
+      splitFactor?: number;
       /** Opt-in comparable evidence; legacy pairs have no assumed unit/basis. */
       priceObservations?: { entry: PriceObservation; exit: PriceObservation };
     }

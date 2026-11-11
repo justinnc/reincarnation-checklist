@@ -136,3 +136,23 @@
   * Split-adjusted IPO price: $12 / 480 = $0.025 per share.
 * **Multiple:** $9,196,000 / $1,000 = 9,196x.
 * **Auditor Status:** Verified; explicit split explanation documented.
+
+---
+
+## Price-basis corrections (2026-11-11)
+
+**Rule adopted:** entry and exit prices are the actual quoted prices on each date; `splitFactor` = shares held at exit per share bought (splits, bonus issues, stock dividends; paid rights issues excluded); `returnMultiple = exitPrice × splitFactor ÷ entryPrice`, enforced by `scripts/validate-data.mjs` (±2%) for every priced milestone. Found by simulated persona review; researched by four agents, figures and sources checked before applying.
+
+| Milestone | Was | Now | Basis |
+|---|---|---|---|
+| `us-nvidia-ipo-1999` | 9,196×, exit "2024" | 9,119× | $12 → $227.98 close 2026-08-27, ×480 (six splits). Article's $229.91 matches no daily close. |
+| `us-amazon-ipo-1997` | 1,150× | 1,157× | $18 → $86.77 close 2022-12-21, ×240. Article's "115,933%" is internally inconsistent; dropped. |
+| `us-netflix-ipo-2002` | 654× | 646× | $15 → $691.69 close 2021-11-17, ×14. 654× used 2026 prices with a Nov-2021 exit date. |
+| `us-starbucks-ipo-1992` | entry $0.27 (adjusted), exit "2024" | 402× | $17 → $106.82 close 2026-05-15, ×64. Entry now nominal like every other milestone. |
+| `cn-byd-buffett-2008` | 38× (no stated method) | 33× | HK$8 was a private placement; retail entry HK$11.90 (2008-09-29 close) → HK$392.80 (2025-03-31, stake confirmed fully sold). 2025 ×3 bonus issue is after the exit. |
+| `vn-vinamilk-listing-2006` | 15× (unsourced) | 30.6× | VND 53,000 → 208,600 close 2017-12-29, ×7.776 (bonus/stock dividends 2009–2016). |
+| `vn-hoa-phat-listing-2007` | 20× (unsourced) | 11.2× | VND 110,000 → 50,700 close 2021-06-25, ×24.32 (12 events 2008–2021). 9.7× from the 127,000 first-day close. |
+| `vn-vnindex-peak-2007` | 3.6× / text 290% | 3.81× | 307.50 (end-2005 close, CafeF/SSC) → 1,170.67. |
+| `ca-bre-x-gold-fraud-1997` | 0.0003 | 0.000314 | rounding only. |
+
+**Residual uncertainty:** Amazon article publication date inferred (Dec 2022); Netflix 2004/2015 split days confirmed to month only; Vietnamese corporate-action lists come from an aggregator (cophieu68), cross-checked against Vietstock (VNM) and VietnamFinance (HPG); HPG exit close from a single broker bulletin.

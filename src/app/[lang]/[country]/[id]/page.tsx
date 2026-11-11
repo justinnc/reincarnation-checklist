@@ -5,6 +5,7 @@ import { hasLocale, locales, t } from "@/lib/i18n";
 import { getDictionary } from "@/lib/dictionaries";
 import { allMilestones, getCountry, getMilestone, getMilestones } from "@/lib/data";
 import { formatDate, formatDrop, formatMoney, formatMultiple } from "@/lib/format";
+import { describePriceBasis } from "@/lib/priceBasis";
 import { localeAlternates, SITE_URL } from "@/lib/seo";
 import { DropBadge, MultipleBadge, RiskBadge, SourceLinksBadge } from "@/components/Badges";
 import { CharmToggle } from "@/components/CharmToggle";
@@ -137,17 +138,20 @@ export default async function MilestonePage({ params }: PageProps<"/[lang]/[coun
                   <dd>{price(o.exitPrice)}</dd>
                 </div>
               )}
+              {!o.historicalOnly && o.splitFactor && o.splitFactor !== 1 ? (
+                <div className="flex flex-col gap-1 border-t border-line pt-3 sm:flex-row sm:justify-between sm:gap-4 font-mono tabular">
+                  <dt className="shrink-0 whitespace-nowrap font-sans text-faint">{lang === "vi" ? "Chia tách & cổ phiếu thưởng" : "Splits & bonus shares"}</dt>
+                  <dd>
+                    {lang === "vi" ? "1 cổ phiếu → " : "1 share → "}
+                    {new Intl.NumberFormat(lang === "vi" ? "vi-VN" : "en-US", { maximumFractionDigits: 3 }).format(o.splitFactor)}
+                    {lang === "vi" ? " cổ phiếu" : " shares"}
+                  </dd>
+                </div>
+              ) : null}
             </dl>
-            {!o.historicalOnly && o.returnMultiple ? (
+            {describePriceBasis(o, lang) ? (
               <p className="mt-3 text-xs leading-relaxed text-faint">
-                {o.priceObservations
-                  ? lang === "vi"
-                    ? `Cơ sở giá: mua ${formatDate(o.priceObservations.entry.date, lang)}, bán ${formatDate(o.priceObservations.exit.date, lang)}. `
-                    : `Price basis: entry ${formatDate(o.priceObservations.entry.date, lang)}, exit ${formatDate(o.priceObservations.exit.date, lang)}. `
-                  : ""}
-                {lang === "vi"
-                  ? "Hệ số chỉ tính theo giá (chưa gồm cổ tức, thuế, phí). Việc điều chỉnh chia tách theo nguồn được trích dẫn bên dưới."
-                  : "Price-only multiple (excludes dividends, taxes and fees). Split adjustment follows the cited sources below."}{" "}
+                {describePriceBasis(o, lang)}{" "}
                 <Link href={`/${lang}/methodology`} className="underline underline-offset-2 hover:text-gold">
                   {lang === "vi" ? "Phương pháp tính" : "Methodology"}
                 </Link>

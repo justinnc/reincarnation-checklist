@@ -56,7 +56,7 @@ for (const file of readdirSync(dir).filter((f) => f.endsWith(".json"))) {
     const o = m.opportunity ?? {};
     if (o.historicalOnly !== undefined && typeof o.historicalOnly !== "boolean") errors.push(`${p}: historicalOnly must be boolean`);
     if (o.historicalOnly === true) {
-      for (const k of ["returnMultiple", "entryPrice", "exitPrice", "priceObservations"])
+      for (const k of ["returnMultiple", "entryPrice", "exitPrice", "priceObservations", "splitFactor"])
         if (o[k] != null) errors.push(`${p}: historicalOnly cannot have ${k}`);
     }
     lt(o.action, `${p}.opportunity.action`);
@@ -64,8 +64,16 @@ for (const file of readdirSync(dir).filter((f) => f.endsWith(".json"))) {
     lt(o.estimatedReturn, `${p}.opportunity.estimatedReturn`);
     for (const k of ["risk", "capital"]) if (o[k] && !LEVELS.includes(o[k])) errors.push(`${p}: bad ${k}`);
     if (o.returnMultiple != null && (typeof o.returnMultiple !== "number" || !Number.isFinite(o.returnMultiple) || o.returnMultiple <= 0)) errors.push(`${p}: bad returnMultiple`);
-    for (const k of ["entryPrice", "exitPrice"])
+    for (const k of ["entryPrice", "exitPrice", "splitFactor"])
       if (o[k] != null && (typeof o[k] !== "number" || !Number.isFinite(o[k]) || o[k] <= 0)) errors.push(`${p}: bad ${k}`);
+    if (o.splitFactor != null && (o.entryPrice == null || o.exitPrice == null))
+      errors.push(`${p}: splitFactor needs both entryPrice and exitPrice`);
+    // One rule for every priced milestone: multiple = exitPrice x splitFactor / entryPrice (nominal prices).
+    if (o.entryPrice > 0 && o.exitPrice > 0 && o.returnMultiple > 0) {
+      const implied = (o.exitPrice * (o.splitFactor ?? 1)) / o.entryPrice;
+      if (Math.abs(implied - o.returnMultiple) / o.returnMultiple > 0.02)
+        errors.push(`${p}: prices contradict returnMultiple (${implied.toPrecision(4)} vs ${o.returnMultiple})`);
+    }
     if (o.priceObservations !== undefined) {
       const observations = o.priceObservations;
       const complete = observations && typeof observations === "object" && o.entryPrice > 0 && o.exitPrice > 0 && o.returnMultiple > 0 && observations.entry && observations.exit;
@@ -81,11 +89,6 @@ for (const file of readdirSync(dir).filter((f) => f.endsWith(".json"))) {
         if (entryRange && exitRange && exitRange.to < entryRange.from) errors.push(`${p}: priceObservations exit before entry`);
         if (entry.unit !== exit.unit || entry.currency !== exit.currency || (o.priceCurrency && o.priceCurrency !== entry.currency))
           errors.push(`${p}: priceObservations units/currencies are not comparable`);
-        else if (entryRange && exitRange && o.entryPrice > 0 && o.exitPrice > 0 && o.returnMultiple > 0) {
-          const implied = o.exitPrice / o.entryPrice;
-          if (Math.abs(implied - o.returnMultiple) / o.returnMultiple > 0.02)
-            errors.push(`${p}: prices contradict returnMultiple (${implied.toFixed(2)} vs ${o.returnMultiple})`);
-        }
       }
     }
     if (o.exitDate != null) {

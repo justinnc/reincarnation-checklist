@@ -822,8 +822,8 @@
         "en": "19 Jan 2006, the first trading day."
       },
       "estimatedReturn": {
-        "vi": "Tăng trưởng ổn định nhiều lần qua 20 năm nhờ thương hiệu sữa thống lĩnh thị trường, cổ tức tiền mặt đều đặn hàng năm.",
-        "en": "Multi-fold stable growth over 20 years thanks to Vinamilk's dominant dairy brand, plus steady annual cash dividends."
+        "vi": "Khoảng 30,6 lần đến cuối 2017: 53.000 đồng khi niêm yết → giá đóng cửa 208.600 đồng ngày 29/12/2017; 1 cổ phiếu thành 7,776 cổ phiếu nhờ cổ phiếu thưởng và cổ tức bằng cổ phiếu. Chưa gồm cổ tức tiền mặt trả hằng năm.",
+        "en": "About 30.6x by end-2017: VND 53,000 at listing → VND 208,600 close on 29 Dec 2017, with 1 share becoming 7.776 shares through bonus shares and stock dividends. Annual cash dividends are not included."
       },
       "risk": "low",
       "capital": "medium",
@@ -833,8 +833,10 @@
       },
       "entryPrice": 53000,
       "priceCurrency": "VND",
-      "returnMultiple": 15,
-      "exitDate": "2017-12"
+      "returnMultiple": 30.6,
+      "exitDate": "2017-12-29",
+      "exitPrice": 208600,
+      "splitFactor": 7.776
     },
     "insiderTip": {
       "vi": "Biết trước Vinamilk sẽ là một trong vài cổ phiếu blue-chip hiếm hoi duy trì tăng trưởng và trả cổ tức ổn định suốt 2 thập kỷ bất chấp các cuộc khủng hoảng 2008 và 2011, nên tích lũy dài hạn thay vì lướt sóng.",
@@ -881,10 +883,18 @@
       {
         "title": "Vietstock: VNM hồ sơ doanh nghiệp",
         "url": "https://finance.vietstock.vn/vnm/ho-so-doanh-nghiep.htm"
+      },
+      {
+        "title": "Cophieu68 - Lịch sử sự kiện VNM (thưởng cổ phiếu, chia cổ tức)",
+        "url": "https://www.cophieu68.vn/quote/event.php?id=vnm"
+      },
+      {
+        "title": "Viettimes - VNM đóng cửa năm 2017 ở 208.600 đồng",
+        "url": "https://viettimes.vn/vn-index-chot-984-diem-khep-lai-nam-2017-giau-cam-xuc-post66980.html"
       }
     ],
     "verified": true,
-    "verifiedNote": "Confirmed via SSC official notice and Vietstock: VNM first trading day 19 Jan 2006, listing price VND 53,000."
+    "verifiedNote": "Listing price VND 53,000 on 2006-01-19. Bonus/stock-dividend events to end-2017: 1:1 (2009), +50% (2011), +50% (2012), +20% (2014, 2015, 2016) = 7.776 shares (paid rights issues excluded). Exit close VND 208,600 on 2017-12-29 (Viettimes)."
   },
   {
     "id": "vn-fpt-listing-2006",
@@ -1087,8 +1097,8 @@
       "en": "The WTO wave and loose credit push the VN-Index to 1,170.67, with market P/E spiking to 34-50x."
     },
     "description": {
-      "vi": "Ngày 12/3/2007, VN-Index xác lập đỉnh lịch sử đầu tiên ở mức 1.170,67 điểm, tăng gấp 3,6 lần so với đầu năm 2006, nhờ hiệu ứng gia nhập WTO, tăng trưởng tín dụng trên 50% và làn sóng IPO doanh nghiệp nhà nước. Định giá thị trường khi đó đạt mức P/E 34-50 lần — mức đầu cơ cực đoan ngay trước khi bong bóng vỡ.",
-      "en": "On 12 March 2007, the VN-Index set its first historic peak at 1,170.67 points, 3.6 times its level at the start of 2006, driven by WTO euphoria, credit growth above 50%, and a wave of SOE IPOs. Market valuation hit a P/E of 34-50x — extreme speculative territory right before the bubble burst."
+      "vi": "Ngày 12/3/2007, VN-Index xác lập đỉnh lịch sử đầu tiên ở mức 1.170,67 điểm, tăng gấp khoảng 3,8 lần so với cuối năm 2005 (307,50 điểm), nhờ hiệu ứng gia nhập WTO, tăng trưởng tín dụng trên 50% và làn sóng IPO doanh nghiệp nhà nước. Định giá thị trường khi đó đạt mức P/E 34-50 lần — mức đầu cơ cực đoan ngay trước khi bong bóng vỡ.",
+      "en": "On 12 March 2007, the VN-Index set its first historic peak at 1,170.67 points, about 3.8 times its end-2005 level (307.50), driven by WTO euphoria, credit growth above 50%, and a wave of SOE IPOs. Market valuation hit a P/E of 34-50x — extreme speculative territory right before the bubble burst."
     },
     "opportunity": {
       "asset": {
@@ -1104,8 +1114,8 @@
         "en": "Having accumulated from 2005-2006 while the market was still cheap."
       },
       "estimatedReturn": {
-        "vi": "Nhà đầu tư mua từ đầu 2006 (khoảng 300 điểm) và bán đúng đỉnh có thể lãi khoảng 290% tính theo chỉ số.",
-        "en": "Investors who bought near the start of 2006 (around 300 points) and sold at the exact peak could gain roughly 290% in index terms."
+        "vi": "Mua theo chỉ số cuối năm 2005 (307,50 điểm) và bán đúng đỉnh 1.170,67 điểm: khoảng 3,8 lần (lãi khoảng 280%), chỉ tính theo điểm, chưa gồm cổ tức.",
+        "en": "Buying at the end-2005 index level (307.50) and selling at the exact 1,170.67 peak: about 3.8x (roughly +280%), index points only, dividends excluded."
       },
       "risk": "high",
       "capital": "medium",
@@ -1113,8 +1123,8 @@
         "vi": "Đúng ngày 12/3/2007 hoặc trong vài tuần quanh đó.",
         "en": "Right on 12 Mar 2007 or within a few weeks of it."
       },
-      "returnMultiple": 3.6,
-      "entryPrice": 300,
+      "returnMultiple": 3.81,
+      "entryPrice": 307.5,
       "exitPrice": 1170.67,
       "priceCurrency": "points",
       "exitDate": "2007-03-12"
@@ -1164,6 +1174,10 @@
       {
         "title": "Tạp chí Kinh tế Tài chính",
         "url": "https://tapchikinhtetaichinh.vn/su-bien-dong-gia-co-phieu-niem-yet-tren-thi-truong-chung-khoan.html"
+      },
+      {
+        "title": "CafeF - Lịch sử VN-Index (năm 2005: 254,5 → 307,5 điểm)",
+        "url": "https://cafef.vn/thi-truong-chung-khoan/lich-su-vn-index-sau-ngay-quoc-khanh-20090831033920325.chn"
       }
     ],
     "verified": true,
@@ -1289,15 +1303,17 @@
         "en": "15 Nov 2007, or at a deeper discount during 2008-2009."
       },
       "estimatedReturn": {
-        "vi": "Tăng trưởng nhiều lần trong 15 năm sau nhờ chu kỳ xây dựng, hạ tầng và bất động sản bùng nổ tại Việt Nam.",
-        "en": "Multi-fold growth over the following 15 years thanks to Vietnam's construction, infrastructure and real-estate boom."
+        "vi": "Khoảng 11 lần đến giữa 2021: giá tham chiếu 110.000 đồng → giá đóng cửa 50.700 đồng ngày 25/6/2021; 1 cổ phiếu thành 24,32 cổ phiếu nhờ cổ tức bằng cổ phiếu và cổ phiếu thưởng. Nếu mua ở giá đóng cửa phiên đầu (127.000 đồng) thì khoảng 9,7 lần.",
+        "en": "About 11x by mid-2021: VND 110,000 reference price → VND 50,700 close on 25 Jun 2021, with 1 share becoming 24.32 shares through stock dividends and bonus shares. Bought at the first-day close (VND 127,000), it is about 9.7x."
       },
       "risk": "medium",
       "capital": "medium",
       "entryPrice": 110000,
       "priceCurrency": "VND",
-      "returnMultiple": 20,
-      "exitDate": "2021-06"
+      "returnMultiple": 11.2,
+      "exitDate": "2021-06-25",
+      "exitPrice": 50700,
+      "splitFactor": 24.32
     },
     "insiderTip": {
       "vi": "Biết trước ngành thép sẽ hưởng lợi trực tiếp từ các siêu dự án hạ tầng và bất động sản bùng nổ 2009-2021 giúp lựa chọn HPG làm khoản đầu tư \"mua và quên\" ngay từ khi vừa chào sàn giá rẻ.",
@@ -1344,10 +1360,22 @@
       {
         "title": "Vietstock: HPG hồ sơ doanh nghiệp",
         "url": "https://finance.vietstock.vn/hpg/ho-so-doanh-nghiep.htm"
+      },
+      {
+        "title": "Cophieu68 - Lịch sử sự kiện HPG (cổ tức cổ phiếu, thưởng)",
+        "url": "https://www.cophieu68.vn/quote/event.php?id=hpg"
+      },
+      {
+        "title": "CSI Research - Bản tin thị trường tuần 25/06/2021 (HPG 50.700)",
+        "url": "https://kirins.vn/data/data/anhpnh/files/ban-tin-thi-truong-tuan-25_06_2021.pdf"
+      },
+      {
+        "title": "VietnamFinance - Bỏ 1 tỷ mua bluechip năm 2007, gần 20 năm sau ra sao",
+        "url": "https://vietnamfinance.vn/bo-1-ty-dong-mua-bluechip-nam-2007-gan-20-nam-sau-tai-san-nha-dau-tu-se-ra-sao-d153392.html"
       }
     ],
     "verified": true,
-    "verifiedNote": "Confirmed via Dantri and Vietstock: HPG listed 15 Nov 2007, reference price VND 110,000-127,000 depending on source (opening vs listing price)."
+    "verifiedNote": "Reference price VND 110,000 on 2007-11-15 (first-day close 127,000). Twelve stock-dividend/bonus events 2008-2021 = 24.32 shares per listing share (2017 paid rights issue excluded); factor matches VietnamFinance's free-share calculation when extended to 2026. Exit close VND 50,700 on 2021-06-25 (CSI Research). The previous 20x had no source."
   },
   {
     "id": "vn-inflation-crisis-2008",

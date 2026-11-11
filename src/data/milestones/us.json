@@ -543,15 +543,17 @@
         "en": "Hold for decades as the chain expands globally."
       },
       "estimatedReturn": {
-        "vi": "Khoảng 400 lần tính theo giá điều chỉnh chia tách.",
-        "en": "Roughly 400x on a split-adjusted basis."
+        "vi": "Khoảng 400 lần: giá IPO 17 USD → giá đóng cửa 106,82 USD ngày 15/5/2026; 1 cổ phiếu thành 64 cổ phiếu sau 6 lần chia tách 2:1.",
+        "en": "About 400x: $17 IPO price → $106.82 close on 15 May 2026, with 1 share becoming 64 shares after six 2-for-1 splits."
       },
-      "returnMultiple": 400,
-      "entryPrice": 0.27,
+      "returnMultiple": 402,
+      "entryPrice": 17,
       "risk": "low",
       "capital": "low",
       "priceCurrency": "USD",
-      "exitDate": "2024"
+      "exitDate": "2026-05-15",
+      "exitPrice": 106.82,
+      "splitFactor": 64
     },
     "insiderTip": {
       "vi": "Mô hình 'không gian thứ ba' (third place) giữa nhà và công sở của Starbucks sẽ bùng nổ toàn cầu trong thập niên 1990-2000 — cứ mỗi cửa hàng mới mở là tín hiệu tăng trưởng.",
@@ -598,10 +600,14 @@
       {
         "title": "Yahoo Finance - 408x Starbucks run",
         "url": "https://finance.yahoo.com/markets/stocks/articles/5-coffee-habit-compounded-40-134907991.html"
+      },
+      {
+        "title": "Starbucks IR - Dividend & stock split history",
+        "url": "https://investor.starbucks.com/stock-info-and-resources/dividend-and-stock-split-history/default.aspx"
       }
     ],
     "verified": true,
-    "verifiedNote": "IPO date, $17 price and split-adjusted ~$0.27 price confirmed by Starbucks Investor Relations FAQ; ~400x multiple corroborated by Yahoo Finance (408x figure, slightly different calc)."
+    "verifiedNote": "IPO $17 on 1992-06-26 and six 2-for-1 splits (64 shares; $0.27 split-adjusted) from Starbucks IR. Exit is the 2026-05-15 close ($106.82) referenced by the Yahoo/BeInCrypto article; its '408x' rounds the entry to $0.26 and is not used."
   },
   {
     "id": "us-domain-name-gold-rush-1995",
@@ -729,15 +735,17 @@
         "en": "Never sell — a classic buy-and-hold forever stock."
       },
       "estimatedReturn": {
-        "vi": "10.000 USD thành khoảng 11,5 triệu USD (lợi nhuận ~115.933%) tính đến cuối 2022, theo Nasdaq; cổ phiếu còn tăng thêm sau đó.",
-        "en": "$10,000 became about $11.5 million (~115,933% gain) by late 2022, per Nasdaq; the stock has risen further since."
+        "vi": "Khoảng 1.157 lần: giá IPO 18 USD → giá đóng cửa 86,77 USD ngày 21/12/2022; 1 cổ phiếu thành 240 cổ phiếu sau 4 lần chia tách (10.000 USD thành khoảng 11,5 triệu USD).",
+        "en": "About 1,157x: $18 IPO price → $86.77 close on 21 Dec 2022, with 1 share becoming 240 shares after four splits ($10,000 became about $11.5 million)."
       },
-      "returnMultiple": 1150,
+      "returnMultiple": 1157,
       "entryPrice": 18,
       "risk": "low",
       "capital": "low",
       "priceCurrency": "USD",
-      "exitDate": "2022-12"
+      "exitDate": "2022-12-21",
+      "exitPrice": 86.77,
+      "splitFactor": 240
     },
     "insiderTip": {
       "vi": "Amazon sẽ gần như phá sản về mặt định giá trong khủng hoảng dot-com (giảm hơn 90% từ đỉnh 1999), nhưng Jeff Bezos sẽ không bao giờ ngừng tái đầu tư — cứ giữ nguyên, đừng bán theo nỗi sợ.",
@@ -772,8 +780,8 @@
       ],
       "answer": 2,
       "explanation": {
-        "vi": "Theo Nasdaq, 10.000 USD đầu tư vào IPO Amazon trị giá khoảng 11,5 triệu USD, mức sinh lời khoảng 115.933%.",
-        "en": "Per Nasdaq, a $10,000 Amazon IPO investment was worth about $11.5 million, a gain of roughly 115,933%."
+        "vi": "Theo Nasdaq, 10.000 USD đầu tư vào IPO Amazon trị giá khoảng 11,5 triệu USD vào cuối năm 2022 (giá 86,77 USD, sau 4 lần chia tách).",
+        "en": "Per Nasdaq, a $10,000 Amazon IPO investment was worth about $11.5 million in late 2022 (at $86.77 a share, after four splits)."
       }
     },
     "sources": [
@@ -787,7 +795,7 @@
       }
     ],
     "verified": true,
-    "verifiedNote": "IPO date/price/splits confirmed directly by Amazon's own investor relations FAQ page; the $10,000->$11.5M figure confirmed by Nasdaq article (price point in time, grows further afterward)."
+    "verifiedNote": "IPO $18 on 1997-05-15 and four splits (2:1, 3:1, 2:1, 20:1 = 240) from Amazon IR FAQ. Exit is the 2022-12-21 close ($86.77) used by the Nasdaq/Motley Fool article. The article's '115,933%' does not match its own inputs and is not used."
   },
   {
     "id": "us-apple-jobs-return-1997",
@@ -915,15 +923,17 @@
         "en": "Never sell — each new tech wave (gaming GPUs, crypto mining, generative AI) pushes the stock to fresh records."
       },
       "estimatedReturn": {
-        "vi": "Khoảng 9.196 lần (1.000 USD thành khoảng 9,2 triệu USD), theo Yahoo Finance.",
-        "en": "About 9,196x ($1,000 became roughly $9.2 million), per Yahoo Finance."
+        "vi": "Khoảng 9.100 lần: giá IPO 12 USD → giá đóng cửa 227,98 USD ngày 27/8/2026; 1 cổ phiếu thành 480 cổ phiếu sau 6 lần chia tách (1.000 USD thành khoảng 9,1 triệu USD).",
+        "en": "About 9,100x: $12 IPO price → $227.98 close on 27 Aug 2026, with 1 share becoming 480 shares after six splits ($1,000 became about $9.1 million)."
       },
-      "returnMultiple": 9196,
+      "returnMultiple": 9119,
       "entryPrice": 12,
       "risk": "medium",
       "capital": "low",
       "priceCurrency": "USD",
-      "exitDate": "2024"
+      "exitDate": "2026-08-27",
+      "exitPrice": 227.98,
+      "splitFactor": 480
     },
     "insiderTip": {
       "vi": "GPU của Nvidia ban đầu chỉ để chơi game, nhưng sẽ trở thành phần cứng cốt lõi cho đào Bitcoin (2017) rồi huấn luyện AI (2023+) — đừng đánh giá thấp một công ty chip 'chỉ làm đồ họa'.",
@@ -970,10 +980,18 @@
       {
         "title": "Yahoo Finance - $1,000 in Nvidia IPO",
         "url": "https://finance.yahoo.com/markets/stocks/articles/invested-1-000-nvidia-stock-233108798.html?.tsrc=rss"
+      },
+      {
+        "title": "Stock Split History - NVIDIA (six splits, cumulative 480:1)",
+        "url": "https://stocksplithistory.com/nvidia/"
+      },
+      {
+        "title": "Yahoo Finance - NVDA historical prices",
+        "url": "https://finance.yahoo.com/quote/NVDA/history/"
       }
     ],
     "verified": true,
-    "verifiedNote": "IPO date and $12 price confirmed directly by Nvidia Investor Relations FAQ. $1,000->$9.19M / 9,196x figure confirmed by Yahoo Finance article (figure tied to a specific recent date, will keep changing)."
+    "verifiedNote": "IPO $12 on 1999-01-22 (Nvidia IR). Six splits (2:1 2000, 2:1 2001, 2:1 2006, 3:2 2007, 4:1 2021, 10:1 2024) = 480 shares per IPO share. Exit is the 2026-08-27 daily close ($227.98, Yahoo). The cited Yahoo/Benzinga article (2026-08-30) used $229.91, which matches no daily close, so its 9,196x is not used."
   },
   {
     "id": "us-dotcom-peak-2000",
@@ -1197,15 +1215,17 @@
         "en": "Consider trimming some near the late-2021 peak before the stock's sharp 2022 decline."
       },
       "estimatedReturn": {
-        "vi": "1.000 USD mua IPO thành khoảng 654.000 USD tại đỉnh tháng 11/2021 (~700 USD/cổ phiếu, sau 2 lần chia tách).",
-        "en": "A $1,000 IPO stake grew to about $654,000 at the November 2021 peak (~$700 a share, after two stock splits)."
+        "vi": "Khoảng 646 lần: giá IPO 15 USD → giá đóng cửa cao nhất 691,69 USD ngày 17/11/2021; 1 cổ phiếu thành 14 cổ phiếu sau 2 lần chia tách (1.000 USD thành khoảng 646.000 USD).",
+        "en": "About 646x: $15 IPO price → $691.69 closing high on 17 Nov 2021, with 1 share becoming 14 shares after two splits ($1,000 became about $646,000)."
       },
-      "returnMultiple": 654,
+      "returnMultiple": 646,
       "entryPrice": 15,
       "risk": "medium",
       "capital": "low",
       "priceCurrency": "USD",
-      "exitDate": "2021-11"
+      "exitDate": "2021-11-17",
+      "exitPrice": 691.69,
+      "splitFactor": 14
     },
     "insiderTip": {
       "vi": "Trong vòng 5 tháng đầu, cổ phiếu Netflix sẽ giảm khoảng 65% — đừng hoảng, công ty sẽ chuyển hướng sang streaming năm 2007 và bùng nổ sau đó.",
@@ -1252,10 +1272,14 @@
       {
         "title": "Yahoo Finance - Netflix $1,000 since IPO",
         "url": "https://finance.yahoo.com/markets/stocks/articles/netflix-stock-turned-1-000-211301942.html"
+      },
+      {
+        "title": "Yahoo Finance - NFLX historical prices",
+        "url": "https://finance.yahoo.com/quote/NFLX/history/"
       }
     ],
     "verified": true,
-    "verifiedNote": "IPO date/price confirmed by Netflix's own investor relations press release. The $1,000->$654,000 figure (Yahoo Finance) corresponds to the ~$700 Nov 2021 peak on a two-split-adjusted basis (IPO $15 / 14 = $1.07)."
+    "verifiedNote": "IPO $15 on 2002-05-23 (Netflix IR). Splits before the exit: 2:1 (Feb 2004) and 7:1 (Jul 2015) = 14 shares; the Nov 2025 10:1 split is after the exit and not counted. Exit is the 2021-11-17 closing high ($691.69); the cited Motley Fool article gives ~$646,000 for that peak."
   },
   {
     "id": "us-google-ipo-2004",
