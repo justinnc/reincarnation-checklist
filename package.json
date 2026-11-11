@@ -13,6 +13,7 @@
   "dependencies": {
     "motion": "^14.11.1",
     "next": "16.4.5",
+    "posthog-js": "^1.447.12",
     "react": "19.3.0",
     "react-dom": "19.3.0",
     "server-only": "^0.0.1"

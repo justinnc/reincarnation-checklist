@@ -6,6 +6,7 @@ import { t, type Locale } from "@/lib/i18n";
 import type { Country, Milestone } from "@/lib/types";
 import type { Dictionary } from "@/lib/dictionaries";
 import { addCharmIds } from "@/lib/charm";
+import { trackEvent } from "@/lib/analytics";
 
 type Q = Pick<Milestone, "id" | "country" | "date" | "title"> & { quiz: NonNullable<Milestone["quiz"]> };
 const ROUND = 10;
@@ -59,6 +60,7 @@ export default function Quiz({ questions, countries, lang, dict }: { questions: 
     setShared(false);
     setShareFailed(false);
     setSavedMissed(false);
+    trackEvent("quiz_started", { pool, lang });
   };
 
   if (!round) {
@@ -99,6 +101,7 @@ export default function Quiz({ questions, countries, lang, dict }: { questions: 
       if (navigator.share && window.matchMedia("(pointer: coarse)").matches) {
         try {
           await navigator.share({ text, url });
+          trackEvent("quiz_shared", { pool, score, total: round.length, lang });
           return;
         } catch (e) {
           if (e instanceof Error && e.name === "AbortError") return; // user closed the share sheet
@@ -106,6 +109,7 @@ export default function Quiz({ questions, countries, lang, dict }: { questions: 
       }
       try {
         await navigator.clipboard.writeText(`${text} ${url}`);
+        trackEvent("quiz_shared", { pool, score, total: round.length, lang });
         setShared(true);
         setTimeout(() => setShared(false), 2000);
       } catch {
@@ -232,6 +236,9 @@ export default function Quiz({ questions, countries, lang, dict }: { questions: 
             <button
               type="button"
               onClick={() => {
+                if (index + 1 === round.length) {
+                  trackEvent("quiz_completed", { pool, score, total: round.length, lang });
+                }
                 setIndex((n) => n + 1);
                 setPicked(null);
               }}

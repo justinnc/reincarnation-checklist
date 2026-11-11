@@ -23,6 +23,7 @@ import {
 import { addCharmIds } from "@/lib/charm";
 import { soundFx } from "@/lib/soundFx";
 import { generateReincarnationPassCard } from "@/lib/passCard";
+import { trackEvent } from "@/lib/analytics";
 
 export default function SurvivalGame({
   lang,
@@ -152,6 +153,11 @@ export default function SurvivalGame({
     setResults([]);
     setCurrentRoundResult(null);
     setPhase("playing");
+    trackEvent("survival_started", {
+      country: run.country.code,
+      start_year: run.startYear,
+      lang,
+    });
   };
 
   const handleMakeDecision = (decision: DecisionType) => {
@@ -162,6 +168,14 @@ export default function SurvivalGame({
     setCurrentRoundResult(res);
     setNetWorth(res.newNetWorth);
     setResults((prev) => [...prev, res]);
+    trackEvent("survival_round_decided", {
+      country: run.country.code,
+      round: currentRoundIdx + 1,
+      milestone_id: round.milestone.id,
+      decision,
+      is_success: res.isSuccess,
+      lang,
+    });
     if (res.isSuccess) {
       soundFx.play("success");
     } else {
@@ -175,6 +189,13 @@ export default function SurvivalGame({
       // Game over!
       soundFx.play("fanfare");
       setPhase("game_over");
+      trackEvent("survival_completed", {
+        country: run.country.code,
+        start_year: run.startYear,
+        final_rank: finalRank.tier,
+        net_worth: Math.round(netWorth),
+        lang,
+      });
     } else {
       setCurrentRoundIdx((prev) => prev + 1);
       setCurrentRoundResult(null);
@@ -197,6 +218,12 @@ export default function SurvivalGame({
       document.body.appendChild(a);
       a.click();
       document.body.removeChild(a);
+      trackEvent("pass_card_downloaded", {
+        country: run.country.code,
+        start_year: run.startYear,
+        final_rank: finalRank.tier,
+        lang,
+      });
       setToastMessage(
         lang === "vi"
           ? "📸 Đã tải thẻ căn cước trọng sinh (PNG)!"
@@ -213,6 +240,12 @@ export default function SurvivalGame({
     const shareText = generateShareText(run, results, netWorth, lang);
     try {
       await navigator.clipboard.writeText(shareText);
+      trackEvent("survival_shared", {
+        country: run.country.code,
+        start_year: run.startYear,
+        final_rank: finalRank.tier,
+        lang,
+      });
       setToastMessage(
         lang === "vi"
           ? "✅ Đã sao chép kết quả vào bộ nhớ tạm!"
