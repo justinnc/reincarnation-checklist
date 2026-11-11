@@ -248,6 +248,12 @@ export async function generateReincarnationPassCard({
   ctx.letterSpacing = "normal";
 
   const profileX = 160;
+  // The red seal sits in the empty top-right corner of this row (drawn last, §9);
+  // profile text is clamped to stop short of it.
+  const stampR = 58;
+  const stampX = width - 130;
+  const stampY = topY + 46;
+  const profileMaxW = stampX - stampR - 16 - profileX;
   ctx.fillStyle = "#64748b";
   ctx.font = "700 11px ui-monospace, monospace";
   ctx.fillText(lang === "vi" ? "ĐIỂM ĐÁP ĐẦU THAI" : "AWAKENING COORDINATES", profileX, topY + 20);
@@ -255,8 +261,8 @@ export async function generateReincarnationPassCard({
   const countryName = `${run.country.flag} ${t(run.country.name, lang)}  (${run.country.code})`;
   ctx.fillStyle = "#ffffff";
   ctx.font = "800 24px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif";
-  // Clamp country name to fit within profile area (max width ~580px from x=160)
-  const maxCountryWidth = 580;
+  // Clamp country name so it never runs under the seal
+  const maxCountryWidth = profileMaxW;
   const countryMetrics = ctx.measureText(countryName);
   const displayCountryName = countryMetrics.width > maxCountryWidth
     ? countryName.slice(0, Math.floor(countryName.length * maxCountryWidth / countryMetrics.width)) + "…"
@@ -271,7 +277,7 @@ export async function generateReincarnationPassCard({
       lang === "vi"
         ? `Năm bắt đầu: ${run.startYear} · 18 tuổi · Vốn: ${formatUsd(run.initialCapital, lang)}`
         : `Start year: ${run.startYear} · Age 18 · Initial: ${formatUsd(run.initialCapital, lang)}`,
-      width - profileX - 64,
+      profileMaxW,
       1
     )[0],
     profileX,
@@ -427,8 +433,9 @@ export async function generateReincarnationPassCard({
 
   ctx.textAlign = "center";
   ctx.fillStyle = isProfitable ? "#4ade80" : "#f87171";
-  ctx.font = "800 24px ui-monospace, monospace";
-  ctx.fillText(`${roiLabel}× ROI`, pillX + 86, pillY + 36);
+  const roiText = `${roiLabel}× ROI`;
+  fitFont(ctx, roiText, 172 - 20, "800", 24, "ui-monospace, monospace", 14);
+  ctx.fillText(roiText, pillX + 86, pillY + 36);
 
   const wins = results.filter((r) => r.isSuccess).length;
   ctx.textAlign = "right";
@@ -509,29 +516,49 @@ export async function generateReincarnationPassCard({
   // 9. RED OFFICIAL CIRCULAR STAMP (VINTAGE TILTED SEAL)
   // ---------------------------------------------------------
   ctx.save();
-  const stampX = width - 150;
-  const stampY = turnsY + turnsH - 30;
   ctx.translate(stampX, stampY);
   ctx.rotate((-14 * Math.PI) / 180); // Tilted 14 degrees
 
   ctx.strokeStyle = "rgba(220, 38, 38, 0.75)";
   ctx.lineWidth = 3;
   ctx.beginPath();
-  ctx.arc(0, 0, 58, 0, Math.PI * 2);
+  ctx.arc(0, 0, stampR, 0, Math.PI * 2);
   ctx.stroke();
 
   ctx.lineWidth = 1;
   ctx.beginPath();
-  ctx.arc(0, 0, 51, 0, Math.PI * 2);
+  ctx.arc(0, 0, stampR - 7, 0, Math.PI * 2);
   ctx.stroke();
 
   ctx.fillStyle = "rgba(220, 38, 38, 0.85)";
-  ctx.font = "900 10px ui-monospace, monospace";
   ctx.textAlign = "center";
   ctx.letterSpacing = "1px";
-  ctx.fillText(lang === "vi" ? "BỘ QUẢN LÝ THỜI GIAN" : "MINISTRY OF TIME", 0, -28);
-  ctx.font = "900 14px ui-monospace, monospace";
-  ctx.fillText(lang === "vi" ? "ĐÃ XÁC THỰC" : "VERIFIED", 0, 4);
+  // Top line follows the inner ring (like a real seal) so it never spills past it.
+  const stampTopText = lang === "vi" ? "BỘ QUẢN LÝ THỜI GIAN" : "MINISTRY OF TIME";
+  const arcR = stampR - 16; // leaves room for Vietnamese diacritics under the inner ring
+  const maxArc = arcR * Math.PI * 0.85; // stay within the upper ~150° of the ring
+  const tracking = 1.5;
+  const charW = (px: number) => {
+    ctx.font = `900 ${px}px ui-monospace, monospace`;
+    return [...stampTopText].map((ch) => ctx.measureText(ch).width + tracking);
+  };
+  let topPx = 10;
+  let widths = charW(topPx);
+  while (topPx > 7 && widths.reduce((x, y) => x + y, 0) > maxArc) widths = charW(--topPx);
+  const totalArc = widths.reduce((x, y) => x + y, 0);
+  ctx.letterSpacing = "0px";
+  let acc = 0;
+  [...stampTopText].forEach((ch, i) => {
+    ctx.save();
+    ctx.rotate((acc + widths[i] / 2 - totalArc / 2) / arcR);
+    ctx.fillText(ch, 0, -arcR);
+    ctx.restore();
+    acc += widths[i];
+  });
+  ctx.letterSpacing = "1px";
+  const stampMidText = lang === "vi" ? "ĐÃ XÁC THỰC" : "VERIFIED";
+  fitFont(ctx, stampMidText, 2 * (stampR - 7) - 30, "900", 14, "ui-monospace, monospace", 10);
+  ctx.fillText(stampMidText, 0, 4);
   ctx.font = "800 11px ui-monospace, monospace";
   ctx.fillText(lang === "vi" ? "★ ĐÃ DUYỆT ★" : "★ APPROVED ★", 0, 24);
   ctx.font = "700 8px monospace";
