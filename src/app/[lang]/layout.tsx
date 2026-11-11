@@ -67,9 +67,15 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[la
             </div>
             <div className="max-w-sm space-y-1 text-xs text-faint">
               <p>{dict.site.disclaimer}</p>
-              <Link href={`/${lang}/disclaimer`} className="inline-block underline decoration-line-strong underline-offset-4 hover:text-gold">
-                {dict.nav.disclaimer}
-              </Link>
+              <div className="flex items-center gap-3 pt-1">
+                <Link href={`/${lang}/methodology`} className="inline-block underline decoration-line-strong underline-offset-4 hover:text-gold">
+                  {dict.nav.methodology}
+                </Link>
+                <span>·</span>
+                <Link href={`/${lang}/disclaimer`} className="inline-block underline decoration-line-strong underline-offset-4 hover:text-gold">
+                  {dict.nav.disclaimer}
+                </Link>
+              </div>
             </div>
           </div>
         </footer>

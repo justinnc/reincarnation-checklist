@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import { hasLocale } from "@/lib/i18n";
 import { localeAlternates, SITE_URL } from "@/lib/seo";
@@ -30,7 +31,7 @@ const COPY = {
       },
       {
         h: "Góp ý & báo lỗi",
-        p: "Nếu bạn phát hiện số liệu sai, vui lòng cho chúng tôi biết qua kênh liên hệ của dự án để chúng tôi kiểm tra và sửa lại.",
+        p: "Nếu bạn phát hiện số liệu sai, vui lòng cho chúng tôi biết qua kênh liên hệ của dự án hoặc xem trang Phương pháp tính để biết thêm chi tiết.",
       },
     ],
   },
@@ -60,7 +61,7 @@ const COPY = {
       },
       {
         h: "Corrections",
-        p: "If you spot an error, please reach out through the project's contact channel so we can review and fix it.",
+        p: "If you spot an error, please reach out through the project's contact channel or visit our Methodology page for audit and correction details.",
       },
     ],
   },
@@ -98,6 +99,12 @@ export default async function DisclaimerPage({ params }: PageProps<"/[lang]/disc
           </section>
         ))}
       </div>
+      <footer className="pt-4 border-t border-line text-sm text-muted">
+        <Link href={`/${lang}/methodology`} className="inline-flex items-center gap-1.5 font-semibold text-gold underline underline-offset-4">
+          <span>\u2696\ufe0f</span>
+          <span>{lang === "vi" ? "Xem chi tiết Phương pháp tính & Tiếp nhận sửa đổi \u2192" : "View detailed Methodology & Corrections \u2192"}</span>
+        </Link>
+      </footer>
     </article>
   );
 }
