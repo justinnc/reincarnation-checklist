@@ -38,6 +38,18 @@ describe("homepage listed-return ranking", () => {
     const historical = { ...linked, id: "historical", verified: true, opportunity: { ...linked.opportunity, returnMultiple: 30, historicalOnly: true } } as unknown as Milestone;
     expect(rankListedReturns([linked, legacy, historical]).map((m) => m.id)).toEqual(["linked"]);
   });
+  it("excludes private deals a retail buyer could not have entered", () => {
+    const base = allMilestones[0];
+    const linked = { ...base, id: "linked", private: false, sources: [base.sources[0], base.sources[0]], opportunity: { ...base.opportunity, returnMultiple: 10, historicalOnly: false } } as Milestone;
+    const privateDeal = { ...linked, id: "private", private: true, opportunity: { ...linked.opportunity, returnMultiple: 50 } } as Milestone;
+    expect(rankListedReturns([linked, privateDeal]).map((m) => m.id)).toEqual(["linked"]);
+    expect(rankListedReturns(allMilestones).some((m) => m.private)).toBe(false);
+  });
+  it("ranks Ethereum from its first exchange price, not the 2014 presale", () => {
+    const eth = allMilestones.find((m) => m.id === "us-ethereum-launch-2015")!;
+    expect(eth.opportunity.entryPrice).toBe(2.77);
+    expect(eth.opportunity.priceObservations!.entry.date >= eth.date).toBe(true);
+  });
 });
 
 describe("historical price corrections", () => {

@@ -60,8 +60,8 @@
           "sourceUrl": "https://en.wikipedia.org/wiki/Berkshire_Hathaway"
         }
       }
-      },
-      "claimReview": {
+    },
+    "claimReview": {
       "status": "agent-checked",
       "claim": {
         "vi": "Cổ phiếu Berkshire Hathaway hạng A tăng từ khoảng 290 USD (tháng 3/1980) lên vượt 700.000 USD (tháng 8/2024), chưa từng chia tách.",
@@ -81,8 +81,8 @@
           "observedOn": "2024-08-29"
         }
       ]
-      },
-      "insiderTip": {
+    },
+    "insiderTip": {
       "vi": "Buffett sẽ không chia tách cổ phiếu hạng A — nếu không đủ vốn, có thể chờ đến 1996 khi cổ phiếu hạng B (BRK.B) ra đời với giá thấp hơn nhiều.",
       "en": "Buffett will never split the Class A shares — if capital is tight, wait for the cheaper Class B shares (BRK.B), created in 1996."
     },
@@ -1932,8 +1932,8 @@
       "en": "Ethereum launches (2015)"
     },
     "summary": {
-      "vi": "Mua Ethereum từ đợt bán trước giá 0,31 USD — lợi nhuận hơn 1 triệu phần trăm cho người kiên nhẫn.",
-      "en": "Buying Ethereum in the presale at $0.31 — a gain of over 1,000,000% for the patient."
+      "vi": "Mua ETH ngay khi được niêm yết lần đầu (2,77 USD, 7/8/2015) — khoảng 1.180 lần đến giữa năm 2024.",
+      "en": "Buying ETH at its first exchange listing ($2.77, Aug 7, 2015) — roughly 1,180× by mid-2024."
     },
     "description": {
       "vi": "Từ 22/7 đến 2/9/2014, dự án Ethereum của Vitalik Buterin gọi vốn cộng đồng (ICO), bán ETH với giá khoảng 0,31 USD, huy động hơn 18 triệu USD. Ngày 30/7/2015, mạng lưới Ethereum chính thức khởi chạy (khối Genesis), mở ra kỷ nguyên hợp đồng thông minh (smart contract) và sau này là DeFi, NFT.",
@@ -1945,62 +1945,67 @@
         "en": "Ethereum (ETH)"
       },
       "action": {
-        "vi": "Tham gia đợt bán trước (ICO) của Ethereum năm 2014 hoặc mua ETH ngay khi mạng lưới khởi chạy năm 2015.",
-        "en": "Join Ethereum's 2014 ICO presale, or buy ETH right when the network launches in 2015."
+        "vi": "Mua ETH khi sàn Kraken niêm yết lần đầu tháng 8/2015, một tuần sau khi mạng chính khởi chạy.",
+        "en": "Buy ETH when Kraken first lists it in August 2015, a week after mainnet launch."
       },
       "buyWhen": {
-        "vi": "Tháng 7-9/2014 (giá ICO) hoặc 30/7/2015 (ngày ra mắt mạng chính).",
-        "en": "July-September 2014 (ICO price) or July 30, 2015 (mainnet launch)."
+        "vi": "7/8/2015 (giao dịch đầu tiên trên sàn, 2,77 USD). Đợt ICO năm 2014 (~0,31 USD) chỉ là bối cảnh, không dùng để tính lợi nhuận.",
+        "en": "August 7, 2015 (first exchange trade, $2.77). The 2014 ICO (~$0.31) is context only and is not used for the return."
       },
       "sellWhen": {
         "vi": "Có thể bán dần khi ETH lập đỉnh mới (2017-2018, 2021, các chu kỳ sau).",
         "en": "Sell gradually at new ETH highs (2017-2018, 2021, subsequent cycles)."
       },
       "estimatedReturn": {
-        "vi": "Hơn 1.000.000% nếu giữ từ giá ICO 0,31 USD đến vùng giá hàng nghìn USD sau này.",
-        "en": "Over 1,000,000% if held from the $0.31 ICO price to later thousand-dollar-plus levels."
+        "vi": "Khoảng 1.180 lần (2,77 USD ngày 7/8/2015 → khoảng 3.275 USD ngày 26/7/2024), chưa tính phí và chỉ theo giá.",
+        "en": "About 1,180× ($2.77 on Aug 7, 2015 → about $3,275 on Jul 26, 2024), price-only and before fees."
       },
-      "returnMultiple": 10570,
-      "entryPrice": 0.31,
+      "returnMultiple": 1182,
+      "entryPrice": 2.77,
       "exitPrice": 3275,
       "risk": "high",
       "capital": "low",
       "priceCurrency": "USD",
-      "exitDate": "2024",
+      "exitDate": "2024-07-26",
       "priceObservations": {
         "entry": {
-          "date": "2014-07-22",
-          "basis": "average",
-          "currency": "USD",
-          "unit": "ETH",
-          "sourceUrl": "https://cointelegraph.com/magazine/11-critical-moments-ethereum-history-that-made-eth-no2-blockchain"
-        },
-        "exit": {
-          "date": "2024-07-20",
+          "date": "2015-08-07",
           "basis": "close",
           "currency": "USD",
           "unit": "ETH",
-          "sourceUrl": "https://cointelegraph.com/magazine/11-critical-moments-ethereum-history-that-made-eth-no2-blockchain"
+          "sourceUrl": "https://cointelegraph.com/magazine/five-years-of-ethereum-from-a-teenage-dream-to-a-38b-blockchain"
+        },
+        "exit": {
+          "date": "2024-07-26",
+          "basis": "close",
+          "currency": "USD",
+          "unit": "ETH",
+          "sourceUrl": "https://coinranking.com/coin/razxDUgYGNAdQ+ethereum-eth/historical-data"
         }
       }
-      },
-      "claimReview": {
+    },
+    "claimReview": {
       "status": "agent-checked",
       "claim": {
-        "vi": "Ethereum huy động vốn cộng đồng (ICO) năm 2014 với giá khoảng 0,31 USD/ETH và đạt mốc trên 3.200 USD năm 2024.",
-        "en": "Ethereum held a crowdsale (ICO) in 2014 at roughly $0.31/ETH and reached over $3,200 by 2024."
+        "vi": "ETH được giao dịch lần đầu trên Kraken ngày 7/8/2015 ở mức 2,77 USD và đóng cửa khoảng 3.275 USD ngày 26/7/2024.",
+        "en": "ETH first traded on Kraken on Aug 7, 2015 at $2.77 and closed around $3,275 on Jul 26, 2024."
       },
       "proposedBy": "research-agent-1",
       "checkedBy": "audit-agent-2",
       "evidence": [
         {
-          "url": "https://cointelegraph.com/magazine/11-critical-moments-ethereum-history-that-made-eth-no2-blockchain",
-          "excerpt": "The crowd sale sold over 60 million ETH at an average price of around $0.31 per token, raising approximately $18.3 million.",
-          "observedOn": "2024-07-20"
+          "url": "https://cointelegraph.com/magazine/five-years-of-ethereum-from-a-teenage-dream-to-a-38b-blockchain",
+          "excerpt": "The first existing historical record of Ether's price is from Aug. 7, 2015, when ETH was added to the Kraken crypto exchange at $2.77 per coin.",
+          "observedOn": "2026-11-11"
+        },
+        {
+          "url": "https://coinranking.com/coin/razxDUgYGNAdQ+ethereum-eth/historical-data",
+          "excerpt": "Jul 26, 2024 — Close $3,275.96",
+          "observedOn": "2026-11-11"
         }
       ]
-      },
-      "insiderTip": {
+    },
+    "insiderTip": {
       "vi": "Ethereum sẽ trở thành nền tảng cho hầu hết hợp đồng thông minh, DeFi và NFT sau này — khác biệt căn bản so với Bitcoin ở khả năng lập trình, nên đừng chỉ tập trung vào Bitcoin.",
       "en": "Ethereum becomes the foundation for most smart contracts, DeFi and NFTs later on — fundamentally different from Bitcoin in its programmability, so don't focus on Bitcoin alone."
     },
@@ -2045,10 +2050,18 @@
       {
         "title": "MyEtherWallet - 10 Years of Ethereum in 10 Chapters",
         "url": "https://www.myetherwallet.com/blog/10-years-of-ethereum-in-10-chapters/"
+      },
+      {
+        "title": "Cointelegraph - Five Years of Ethereum (first Kraken price, Aug 7 2015)",
+        "url": "https://cointelegraph.com/magazine/five-years-of-ethereum-from-a-teenage-dream-to-a-38b-blockchain"
+      },
+      {
+        "title": "Coinranking - Ethereum historical daily closes",
+        "url": "https://coinranking.com/coin/razxDUgYGNAdQ+ethereum-eth/historical-data"
       }
     ],
     "verified": true,
-    "verifiedNote": "ICO dates/price ($0.31) and mainnet launch date (2015-07-30) confirmed by Cointelegraph and MyEtherWallet. The ~1,057,000% / $3,275 figure is from Cointelegraph tied to the date that article was written; exact current multiple will vary."
+    "verifiedNote": "Entry uses the first exchange price ($2.77, Kraken, 2015-08-07), not the 2014 ICO price ($0.31), so the milestone date and return basis match. Exit is the 2024-07-26 daily close (~$3,275). Price-only; ETH fell to ~$0.68 within days of listing."
   },
   {
     "id": "us-covid-crash-bottom-2020",

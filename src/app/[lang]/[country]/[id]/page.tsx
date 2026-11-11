@@ -130,12 +130,27 @@ export default async function MilestonePage({ params }: PageProps<"/[lang]/[coun
               {o.exitPrice != null && (
                 <div className="flex flex-col gap-1 border-t border-line pt-3 sm:flex-row sm:justify-between sm:gap-4 font-mono tabular">
                   <dt className="shrink-0 whitespace-nowrap font-sans text-faint">
-                    {d.exit} {o.exitDate && <span className="text-xs">({o.exitDate})</span>}
+                    {d.exit} {o.exitDate && <span className="text-xs">({formatDate(o.exitDate, lang)})</span>}
                   </dt>
                   <dd>{price(o.exitPrice)}</dd>
                 </div>
               )}
             </dl>
+            {!o.historicalOnly && o.returnMultiple ? (
+              <p className="mt-3 text-xs leading-relaxed text-faint">
+                {o.priceObservations
+                  ? lang === "vi"
+                    ? `Cơ sở giá: mua ${formatDate(o.priceObservations.entry.date, lang)}, bán ${formatDate(o.priceObservations.exit.date, lang)}. `
+                    : `Price basis: entry ${formatDate(o.priceObservations.entry.date, lang)}, exit ${formatDate(o.priceObservations.exit.date, lang)}. `
+                  : ""}
+                {lang === "vi"
+                  ? "Hệ số chỉ tính theo giá (chưa gồm cổ tức, thuế, phí). Việc điều chỉnh chia tách theo nguồn được trích dẫn bên dưới."
+                  : "Price-only multiple (excludes dividends, taxes and fees). Split adjustment follows the cited sources below."}{" "}
+                <Link href={`/${lang}/methodology`} className="underline underline-offset-2 hover:text-gold">
+                  {lang === "vi" ? "Phương pháp tính" : "Methodology"}
+                </Link>
+              </p>
+            ) : null}
             {o.returnMultiple && o.returnMultiple >= 1 ? (
               <div className="mt-5 rounded-xl bg-raised p-4 text-sm">
                 <span className="text-muted">

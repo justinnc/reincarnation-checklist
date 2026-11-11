@@ -16,89 +16,93 @@ interface Section {
 const COPY: Record<string, { heading: string; subtitle: string; updated: string; sections: Section[]; feedbackTitle: string; feedbackText: string; feedbackAction: string; disclaimerLinkText: string }> = {
   vi: {
     heading: "Phương pháp tính & Tiếp nhận sửa đổi",
-    subtitle: "Cách chúng tôi thu thập, tính toán số liệu và quy trình tiếp nhận phản hồi hiệu đính.",
-    updated: "Cập nhật lần cuối: 2026-11-11",
+    subtitle: "Cách chúng tôi thu thập, tính toán số liệu và cách bạn có thể báo lỗi.",
+    updated: "Cập nhật lần cuối: 11/11/2026",
     sections: [
       {
-        h: "1. Phân biệt 'Có liên kết nguồn' và 'Đã kiểm toán độc lập'",
-        p: "Chúng tôi phân tách rõ ràng mức độ xác thực của từng số liệu trên website nhằm đảm bảo tính minh bạch:",
+        h: "1. 'Có liên kết nguồn' và 'Đã rà soát chéo' nghĩa là gì",
+        p: "Mỗi con số trên trang có mức độ kiểm tra khác nhau. Chúng tôi nói rõ từng mức:",
         bullets: [
-          "Có liên kết nguồn (Source-linked): Đa số mốc sự kiện hiển thị nhãn số lượng nguồn (ví dụ: '2 nguồn', '3 nguồn'). Điều này thể hiện số lượng tài liệu tham khảo công khai (báo chí, hồ sơ IPO, văn bản pháp luật, trang dữ liệu lịch sử) được dẫn link trực tiếp để người đọc đối chiếu, KHÔNG đồng nghĩa số liệu đã được kiểm toán tài chính độc lập.",
-          "Đã kiểm toán biên tập (Agent-checked): Một số lượng chọn lọc các mốc có ảnh hưởng lớn được ghi nhận trong sổ kiểm toán nội bộ thông qua quy trình đối soát chéo độc lập giữa 2 tác nhân (người đề xuất và người kiểm toán) đối chiếu từng đoạn trích dẫn, ngày quan sát và cơ sở giá.",
-          "Không chứng nhận chuyên môn: Cả hai cấp độ trên đều là quy trình biên tập nội bộ, tuyệt đối không cấu thành chứng nhận pháp lý hoặc kiểm toán chuyên nghiệp từ tổ chức tài chính có thẩm quyền."
+          "Có liên kết nguồn: Nhãn '2 liên kết nguồn', '3 liên kết nguồn' cho biết số tài liệu công khai (báo chí, hồ sơ niêm yết, văn bản pháp luật, dữ liệu giá lịch sử) được dẫn link để bạn tự đối chiếu. Nhãn này KHÔNG có nghĩa là số liệu đã được kiểm chứng độc lập.",
+          "Đã rà soát chéo (tự động): Với một số ít con số nổi bật nhất, một quy trình có hỗ trợ AI đối chiếu giá và ngày tháng với đoạn trích từ nguồn, sau đó một lượt AI thứ hai kiểm tra lại. Đây là bước kiểm tra nội bộ, không phải thẩm định của con người hay kiểm toán chuyên nghiệp, và vẫn có thể bỏ sót lỗi. Ví dụ: lần rà soát đầu tiên đã không phát hiện mốc Ethereum dùng giá ICO năm 2014; con số này đã được sửa.",
+          "Không có chứng nhận chuyên môn: Cả hai mức trên đều là quy trình biên tập nội bộ, không phải chứng nhận pháp lý hay tư vấn đầu tư. Chúng tôi không phải tổ chức tài chính được cấp phép."
         ]
       },
       {
-        h: "2. Cơ sở giá & Cách tính hệ số lợi nhuận",
-        p: "Các hệ số lợi nhuận (Return Multiples) được tính toán dựa trên các nguyên tắc chuẩn mực sau:",
+        h: "2. Cơ sở giá & cách tính hệ số lợi nhuận",
+        p: "Hệ số lợi nhuận được tính theo các nguyên tắc sau:",
         bullets: [
-          "Giá danh nghĩa vs Giá thực: Toàn bộ giá trị trong các mốc sự kiện phản ánh số tiền danh nghĩa (nominal) theo đồng tiền gốc tại thời điểm diễn ra, trừ khi có chú thích rõ ràng về điều chỉnh lạm phát (real terms).",
-          "Lợi nhuận theo giá (Price-only) vs Tổng lợi nhuận (Total Return): Các hệ số nhân phản ánh biến động giá mua - giá bán thuần túy, chưa bao gồm cổ tức tái đầu tư, chi phí cơ hội, chi phí vay mượn (đối với bán khống), hay phí lưu ký/lưu trữ tài sản.",
-          "Chia tách cổ phiếu & Tỷ giá hối đoái: Với cổ phiếu niêm yết (như Nvidia, Apple), các mức giá mua vào sau này được quy đổi theo hệ số chia tách lũy kế để phản ánh đúng số vốn ban đầu (ví dụ: $1.000 ban đầu tăng trưởng tương ứng với số lượng cổ phiếu sau 6 đợt chia tách).",
-          "Thời điểm quan sát: Giá vào và giá ra đều ghi nhận ngày cụ thể và cơ sở giá (giá đóng cửa ngày, giá chào bán IPO danh nghĩa, hoặc mức đỉnh giao dịch trong ngày khi đạt cột mốc vốn hóa)."
+          "Giá danh nghĩa: Mọi giá trị là số tiền danh nghĩa theo đồng tiền gốc của từng thị trường, chưa trừ lạm phát, trừ khi ghi rõ.",
+          "Chỉ tính theo giá: Hệ số = giá bán ÷ giá mua, chưa gồm cổ tức tái đầu tư, thuế, phí giao dịch, phí lưu ký hay chi phí vay.",
+          "Chia tách & cổ phiếu thưởng: Cơ sở điều chỉnh theo nguồn được trích dẫn. Nếu nguồn dùng giá đã điều chỉnh chia tách (ví dụ giá IPO đã điều chỉnh của Nvidia) thì cả giá mua và giá bán đều dùng cùng cơ sở đó; nếu không, giá là giá danh nghĩa như nguồn ghi.",
+          "Giá mua phải mua được vào thời điểm đó: Với thương vụ nhà đầu tư cá nhân mua được, giá mua là giá có thể giao dịch vào hoặc sau ngày của mốc. Giá ICO, giá trước niêm yết chỉ được nêu làm bối cảnh, không dùng để tính hệ số.",
+          "Thương vụ riêng tư: Vòng gọi vốn hạt giống, cổ phần trước IPO và các thương vụ người thường không tham gia được bị loại khỏi bảng xếp hạng và chế độ 'Thực tế'.",
+          "Ngày quan sát: Khi có dữ liệu, trang của từng mốc ghi ngày mua, ngày bán và cơ sở giá. Bảng xếp hạng gồm các mốc có ngày kết thúc và đồng tiền khác nhau, nên không so sánh trực tiếp được."
         ]
       },
       {
-        h: "3. Thanh khoản, Khả thi thực tế & Định kiến kẻ sống sót",
-        p: "Các con số trên lý thuyết thường khác biệt lớn so với việc thực thi trong thực tế:",
+        h: "3. Thanh khoản, khả năng thực hiện & thiên kiến kẻ sống sót",
+        p: "Con số trên lý thuyết thường khác xa kết quả thực tế:",
         bullets: [
-          "Rào cản thanh khoản: Nhiều thương vụ mang lại lợi nhuận khổng lồ trên giấy tờ (như vòng hạt giống thiên thần của Facebook hay ICO Ethereum) đòi hỏi tư cách nhà đầu tư chuyên nghiệp hoặc chịu rủi ro khóa vốn hoàn toàn trong nhiều năm.",
-          "Thao túng & Khối lượng ảo: Các trường hợp thao túng giá (như vụ án Louis Holdings TGG tại Việt Nam) được gắn cờ 'Chỉ lưu trữ lịch sử' (historicalOnly). Chúng bị loại khỏi mọi bảng xếp hạng hay công cụ tính toán do thanh khoản một chiều và nhà đầu tư đại chúng không thể chốt lời ở vùng đỉnh.",
-          "Định kiến kẻ sống sót (Survivorship Bias): Website tập trung vào những mốc thành công vang dội nhất trong lịch sử. Trong thực tế, hàng ngàn đợt IPO, dự án crypto và doanh nghiệp khác đã phá sản hoặc giảm về 0."
+          "Rào cản thanh khoản: Nhiều thương vụ lãi khủng trên giấy (như vòng gọi vốn hạt giống của Facebook hay đợt bán trước của các đồng tiền mã hoá) chỉ dành cho nhà đầu tư chuyên nghiệp hoặc bị khoá vốn nhiều năm.",
+          "Thao túng giá: Các vụ thao túng (như vụ Louis Holdings – TGG tại Việt Nam) chỉ được trình bày như bài học lịch sử. Chúng bị loại khỏi bảng xếp hạng và công cụ tính toán vì nhà đầu tư đại chúng không thể bán ở vùng đỉnh.",
+          "Thiên kiến kẻ sống sót: Trang này tập trung vào những thương vụ thành công nổi bật nhất. Trong thực tế, hàng nghìn đợt IPO, dự án tiền mã hoá và doanh nghiệp khác đã phá sản hoặc mất gần hết giá trị."
         ]
       },
       {
-        h: "4. Đơn giản hóa trong công cụ mô phỏng & trò chơi",
-        p: "Các công cụ tương tác như 'Nếu bạn đã đầu tư' (What-If) và 'Thử thách sống sót' (Survival Run) áp dụng các mô hình đơn giản hóa (ví dụ: tái cân bằng danh mục không mất phí trượt giá, tỷ lệ lạm phát cố định) phục vụ mục đích trực quan hóa và giải trí giáo dục, không thể thay thế mô hình hoạch định tài chính cá nhân chuyên nghiệp."
+        h: "4. Đơn giản hoá trong công cụ mô phỏng & trò chơi",
+        p: "Các công cụ như 'Nếu bạn đã đầu tư' và 'Thử thách sống sót' dùng mô hình đơn giản (không tính trượt giá, tỷ lệ lạm phát cố định) để minh hoạ và giải trí, không thay thế được kế hoạch tài chính cá nhân."
       }
     ],
-    feedbackTitle: "Quy trình tiếp nhận sửa đổi & Báo lỗi số liệu",
-    feedbackText: "Chúng tôi cam kết duy trì tính trung thực và chính xác của dữ liệu. Nếu bạn phát hiện một liên kết hỏng, số liệu ghi nhận sai ngày, mức giá không khớp với nguồn công khai, hoặc giải thích sai lệch bản chất sự kiện, xin vui lòng gửi phản hồi cho đội ngũ phát triển.",
+    feedbackTitle: "Báo lỗi & đề xuất sửa số liệu",
+    feedbackText: "Nếu bạn thấy liên kết hỏng, ngày sai, giá không khớp với nguồn công khai hoặc phần giải thích sai bản chất sự kiện, hãy gửi cho chúng tôi kèm mã mốc và nguồn đối chiếu. Chúng tôi sẽ kiểm tra và cập nhật.",
     feedbackAction: "Gửi phản hồi / Báo lỗi số liệu",
-    disclaimerLinkText: "Đọc thêm tuyên bố Miễn trừ trách nhiệm đầy đủ"
+    disclaimerLinkText: "Đọc toàn bộ tuyên bố miễn trừ trách nhiệm"
   },
   en: {
     heading: "Methodology & Data Corrections",
-    subtitle: "How we compile, calculate, and audit historical financial data \u2014 and how to submit corrections.",
-    updated: "Last updated: 2026-11-11",
+    subtitle: "How we compile and calculate historical figures — and how to report an error.",
+    updated: "Last revised: Nov 11, 2026",
     sections: [
       {
-        h: "1. 'Source-Linked' vs. 'Separately Audited' Claims",
-        p: "We distinguish between levels of data verification to maintain complete transparency:",
+        h: "1. What 'source-linked' and 'cross-checked' mean",
+        p: "Figures on this site have different levels of checking. Here is what each level means:",
         bullets: [
-          "Source-Linked: Most milestones display a badge showing the number of citations (e.g. '2 sources', '3 sources'). This indicates public contemporary references (news reports, regulatory filings, IPO prospectuses, historical archives) available for cross-referencing. It does NOT mean the milestone has been certified by an independent financial auditor.",
-          "Agent-Checked (Separately Audited): A select cohort of high-visibility claims is documented in an internal claim audit ledger via a two-agent review process (proposer agent vs. auditor agent) verifying exact quotations, observation dates, price bases, and execution caveats.",
-          "No Professional Certification: Neither category constitutes professional legal or investment certification. We are not a licensed financial institution."
+          "Source-linked: The '2 source links' badge counts the public references (news reports, filings, prospectuses, price archives) linked on the page so you can check them yourself. It does NOT mean the figure was independently verified.",
+          "Cross-checked (automated): For a small set of the most prominent figures, an AI-assisted process compares the listed prices and dates against excerpts from the cited sources, and a second AI pass reviews the first. This is an internal consistency check, not a human or professional audit, and it can miss errors. Example: the first pass missed that the Ethereum milestone used a 2014 presale price; that figure has since been corrected.",
+          "No professional certification: Neither level is legal certification or investment advice. We are not a licensed financial institution."
         ]
       },
       {
-        h: "2. Price Basis & Return Multiples Calculation",
-        p: "Multiples and financial values adhere to clear arithmetic standards:",
+        h: "2. Price basis & how multiples are calculated",
+        p: "Multiples follow these rules:",
         bullets: [
-          "Nominal vs. Real: Milestone figures represent nominal currencies as recorded at the time of the event, unless explicitly labeled as inflation-adjusted.",
-          "Price-Only vs. Total Return: Multipliers reflect capital appreciation between entry and exit price benchmarks. They exclude reinvested dividends, stock borrow fees (for short positions), custodial charges, and capital gains taxes.",
-          "Stock Splits & Corporate Actions: For public equities with extensive split histories (e.g., Nvidia, Apple), entry values reflect cumulative split factors so initial capital tracks correctly against post-split shares.",
-          "Observation Timing: Records capture specific observation dates and basis types (e.g., daily market close, nominal IPO issue price, or milestone intraday valuation peaks)."
+          "Nominal: Figures are in each market's own currency at the time, not inflation-adjusted unless stated.",
+          "Price-only: Multiple = exit price ÷ entry price. It excludes reinvested dividends, taxes, trading fees, custody fees and borrowing costs.",
+          "Splits & bonus shares: The adjustment basis follows the cited source. Where a source uses split-adjusted prices (e.g. Nvidia's split-adjusted IPO price), entry and exit use that same basis; otherwise prices are nominal as quoted.",
+          "Entry must have been buyable: For retail-buyable milestones, the entry price is one you could trade at on or after the milestone's date. Presale and pre-listing prices are given as context only and are not used for the multiple.",
+          "Private deals: Seed rounds, pre-IPO stakes and other deals ordinary investors could not join are excluded from rankings and from 'Realistic' playbooks.",
+          "Observation dates: Where recorded, each milestone page shows the entry date, exit date and price basis. Rankings mix different end dates and currencies, so rows are not directly comparable."
         ]
       },
       {
-        h: "3. Liquidity, Feasibility & Survivorship Bias",
-        p: "Theoretical calculations must be interpreted alongside real-world execution hurdles:",
+        h: "3. Liquidity, feasibility & survivorship bias",
+        p: "Theoretical numbers often differ sharply from what was achievable:",
         bullets: [
-          "Liquidity Constraints: Extraordinary returns (such as angel convertible notes or early token crowdsales) were restricted to accredited participants or carried multi-year lockups with zero secondary liquidity.",
-          "Market Manipulation: Severe manipulation cases (such as Louis Holdings TGG in Vietnam) are tagged as 'historicalOnly'. They are excluded from return rankings and calculators because artificial volume made peak exits unachievable for public retail investors.",
-          "Survivorship Bias: Highlighted milestones reflect prominent outliers in financial history. Thousands of contemporary ventures, IPOs, and tokens incurred total capital loss."
+          "Liquidity: Many extraordinary paper returns (such as angel notes or token presales) were limited to accredited investors or locked up for years with no way to sell.",
+          "Market manipulation: Manipulation cases (such as Louis Holdings – TGG in Vietnam) are presented as historical case studies only. They are excluded from rankings and calculators because public investors could not exit at the peak.",
+          "Survivorship bias: This site highlights the most prominent winners. Thousands of other IPOs, tokens and companies from the same periods went bankrupt or lost almost all their value."
         ]
       },
       {
-        h: "4. Simulation & Game Simplifications",
-        p: "Interactive tools such as the 'What If' calculator and 'Survival Run' use simplified assumptions (zero slippage, stylized inflation rates) designed for educational exploration and storytelling rather than actual portfolio construction."
+        h: "4. Simulation & game simplifications",
+        p: "Tools such as the 'What If' calculator and 'Survival Run' use simplified assumptions (no slippage, stylized inflation rates) for illustration and entertainment. They are not a substitute for personal financial planning."
       }
     ],
-    feedbackTitle: "Data Corrections & Community Feedback",
-    feedbackText: "We welcome community review and correction. If you find an outdated citation, an inaccurate entry/exit price, a flawed split calculation, or missing context, please notify us so we can audit and update the ledger.",
-    feedbackAction: "Submit Data Correction / Feedback",
-    disclaimerLinkText: "Read our full Legal Disclaimer"
+    feedbackTitle: "Report an error or suggest a correction",
+    feedbackText: "If you find a broken link, a wrong date, a price that doesn't match a public source, or an explanation that misstates what happened, send it to us with the milestone ID and your source. We will check it and update the record.",
+    feedbackAction: "Submit a correction",
+    disclaimerLinkText: "Read the full disclaimer"
   }
 };
 
@@ -122,10 +126,6 @@ export default async function MethodologyPage({ params }: PageProps) {
   return (
     <article className="mx-auto max-w-3xl space-y-8">
       <header className="space-y-3 border-b border-line pb-6">
-        <div className="inline-flex items-center gap-1.5 rounded-full border border-line bg-surface px-3 py-1 text-xs font-semibold text-gold">
-          <span>\u2696\ufe0f</span>
-          <span>Gate 1 Baseline</span>
-        </div>
         <h1 className="font-display text-3xl font-extrabold tracking-tight sm:text-4xl">{copy.heading}</h1>
         <p className="text-base text-muted sm:text-lg">{copy.subtitle}</p>
         <p className="text-xs text-faint">{copy.updated}</p>
@@ -150,7 +150,7 @@ export default async function MethodologyPage({ params }: PageProps) {
         ))}
       </div>
 
-      <section className="rounded-2xl border border-gold/40 bg-gold/5 p-6 sm:p-8">
+      <section id="corrections" className="scroll-mt-20 rounded-2xl border border-gold/40 bg-gold/5 p-6 sm:p-8">
         <h2 className="font-display text-xl font-bold text-ink">{copy.feedbackTitle}</h2>
         <p className="mt-2 text-[15px] leading-relaxed text-muted">{copy.feedbackText}</p>
         <div className="mt-5 flex flex-wrap items-center gap-4">
@@ -160,14 +160,14 @@ export default async function MethodologyPage({ params }: PageProps) {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-xl bg-gold px-4 py-2.5 text-sm font-semibold text-on-gold shadow-sm transition hover:opacity-90"
           >
-            <span>\u2709\ufe0f</span>
+            <span>✉️</span>
             <span>{copy.feedbackAction}</span>
           </a>
           <Link
             href={`/${lang}/disclaimer`}
             className="text-sm font-medium text-muted underline decoration-line-strong underline-offset-4 hover:text-gold"
           >
-            {copy.disclaimerLinkText} \u2192
+            {copy.disclaimerLinkText} →
           </Link>
         </div>
       </section>

@@ -14,7 +14,7 @@
 | `us-berkshire-hathaway-1980` | BRK.A $290 (1980) to $700,000 (Aug 2024) | `research-agent-1` / `audit-agent-2` | 2,414x | Nominal OTC quote (1980-03-17) to NYSE intraday peak milestone | OTC quote illustrative; no 1980 IPO; 44-year hold | Publish with qualified entry basis |
 | `us-bitcoin-pizza-day-2010` | 10,000 BTC exchanged for 2 pizzas | `research-agent-1` / `audit-agent-2` | N/A (`historicalOnly`) | $41 forum resale estimate; $1.1B (2025) comparison | Not executable; barter transaction; zero liquidity | Keep `historicalOnly`, no multiplier |
 | `vn-louis-holdings-tgg-manipulation-2021` | TGG pump 1,800 to 74,800 VND | `research-agent-1` / `audit-agent-2` | N/A (`historicalOnly`) | Criminal manipulation; 154B VND illicit gain covers TGG+BII | Artificial volume; cannot execute at peak; legal penalty | Keep `historicalOnly`, no multiplier |
-| `us-ethereum-launch-2015` | ETH $0.31 ICO (2014) to $3,275 (2024) | `research-agent-1` / `audit-agent-2` | 10,570x | ICO crowdsale price (BTC conversion) to 2024 spot close | Presale lockup; 80%+ drawdowns; multi-year wait to mainnet | Publish with presale vs launch note |
+| `us-ethereum-launch-2015` | ETH $2.77 first exchange trade (2015-08-07) to $3,275 (2024-07-26) | `research-agent-1` / `audit-agent-2` | 1,182x (corrected from 10,570x) | First exchange close to 2024 daily close | Fell to ~$0.68 within days; 80%+ drawdowns | Corrected 2026-11-11 (see Record 4) |
 | `us-nvidia-ipo-1999` | NVDA $12 IPO (1999) to 2024 AI peak | `research-agent-1` / `audit-agent-2` | 9,196x | $1,000 invested became ~$9.2M (split-adjusted 480x factor) | Split arithmetic requires explicit disclosure; 50%+ crashes | Clarify split adjustment in entry/exit |
 | `us-peter-thiel-facebook-seed-2004` | Peter Thiel $500k convertible note in Facebook | `research-agent-1` / `audit-agent-2` | 2,071.6x | Private convertible note to IPO sell-off ($1.035B) | Private accredited angel round, closed to retail | Tagged `private: true`, excluded from retail playbooks |
 
@@ -106,7 +106,15 @@
 * **Multiple:** 3,275 / 0.31 = 10,564.5 (reported as 10,570x, ~0.05% deviation due to exact ICO BTC pricing rounds).
 * **Caveats:**
   * Crowdsale tokens could not be transferred until the Frontier launch on July 30, 2015 (one year holding period with zero liquidity).
-* **Auditor Status:** Verified; added `claimReview` metadata recommended for Gate 0.
+* **Auditor Status:** ~~Verified~~ **SUPERSEDED 2026-11-11 — see correction below.**
+
+#### Correction (2026-11-11)
+* **Found by:** simulated persona review (`docs/reviews/gate1-simulated-persona-feedback.md`), confirmed against data and sources.
+* **Defect 1 — entry basis:** milestone date is the 2015-07-30 mainnet launch, but the multiple used the 2014 presale price ($0.31). A buyer at the milestone date could not get that price; presale tokens were BTC-only and illiquid for a year.
+* **Defect 2 — exit observation:** `$3,275` was tagged `2024-07-20`; ETH closed ~$3,518 that day. $3,275 matches the 2024-07-26 close.
+* **Fix:** entry $2.77 (first Kraken trade, 2015-08-07; Cointelegraph "Five Years of Ethereum"), exit $3,275 (2024-07-26 close; Coinranking). Multiple 3,275 / 2.77 = 1,182.3 → **1,182×** (was 10,570×). Summary, action, buyWhen, estimatedReturn, priceObservations, claimReview evidence and sources updated in `src/data/milestones/us.json`. ICO price kept as context and in the quiz question only.
+* **Process lesson:** the auditor checked that each number matched *a* source excerpt, not that the entry was buyable *at the milestone date*. Audits now also check: entry observation date ≥ milestone date for retail-buyable milestones, and exit observation date matches the quoted exit price.
+* **Sweep:** all ranked, non-private milestones were scanned for presale/ICO/seed/pre-IPO/OTC entry wording or entry observations before the milestone date. Only this record failed; `jp-softbank-alibaba-stake-2000` and `us-peter-thiel-facebook-seed-2004` are `private` and are now excluded from the home ranking.
 
 ---
 

@@ -80,16 +80,17 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
               <tbody>
                 {biggest.map((m, i) => {
                   const c = getCountry(m.country)!;
+                  const span = `${m.date.slice(0, 4)}→${m.opportunity.exitDate?.slice(0, 4) ?? "?"}`;
                   return (
                     <Reveal key={m.id} as="tr" index={i} className="border-b border-line bg-surface last:border-0 hover:bg-raised">
                       <td className="w-10 py-4 pl-4 align-top font-display text-xl font-extrabold text-faint sm:w-12 sm:pl-5 sm:align-middle">{i + 1}</td>
-                      <td className="hidden w-16 py-4 font-mono tabular text-gold sm:table-cell">{m.date.slice(0, 4)}</td>
+                      <td className="hidden w-28 py-4 font-mono text-sm tabular text-gold sm:table-cell">{span}</td>
                       <td className="py-4 pr-3 sm:pr-4">
                         <Link href={`/${lang}/${m.country}/${m.id}`} className="font-medium hover:text-gold">
                           {c.flag} {t(m.title, lang)}
                         </Link>
                         <div className="mt-0.5 text-xs text-faint">
-                          <span className="font-mono text-gold sm:hidden">{m.date.slice(0, 4)} · </span>
+                          <span className="font-mono text-gold sm:hidden">{span} · </span>
                           {t(m.opportunity.asset, lang)}
                         </div>
                       </td>

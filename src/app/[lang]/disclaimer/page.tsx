@@ -31,7 +31,7 @@ const COPY = {
       },
       {
         h: "Góp ý & báo lỗi",
-        p: "Nếu bạn phát hiện số liệu sai, vui lòng cho chúng tôi biết qua kênh liên hệ của dự án hoặc xem trang Phương pháp tính để biết thêm chi tiết.",
+        p: "Nếu bạn phát hiện số liệu sai, hãy gửi báo lỗi qua mục \"Báo lỗi & đề xuất sửa số liệu\" ở cuối trang Phương pháp tính (liên kết bên dưới), kèm mã mốc và nguồn đối chiếu.",
       },
     ],
   },
@@ -61,7 +61,7 @@ const COPY = {
       },
       {
         h: "Corrections",
-        p: "If you spot an error, please reach out through the project's contact channel or visit our Methodology page for audit and correction details.",
+        p: "If you spot an error, use \"Report an error\" at the bottom of the Methodology page (linked below) and include the milestone ID and your source.",
       },
     ],
   },
@@ -100,9 +100,9 @@ export default async function DisclaimerPage({ params }: PageProps<"/[lang]/disc
         ))}
       </div>
       <footer className="pt-4 border-t border-line text-sm text-muted">
-        <Link href={`/${lang}/methodology`} className="inline-flex items-center gap-1.5 font-semibold text-gold underline underline-offset-4">
-          <span>\u2696\ufe0f</span>
-          <span>{lang === "vi" ? "Xem chi tiết Phương pháp tính & Tiếp nhận sửa đổi \u2192" : "View detailed Methodology & Corrections \u2192"}</span>
+        <Link href={`/${lang}/methodology#corrections`} className="inline-flex items-center gap-1.5 font-semibold text-gold underline underline-offset-4">
+          <span>⚖️</span>
+          <span>{lang === "vi" ? "Xem chi tiết Phương pháp tính & Tiếp nhận sửa đổi →" : "View detailed Methodology & Corrections →"}</span>
         </Link>
       </footer>
     </article>

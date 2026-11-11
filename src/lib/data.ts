@@ -62,10 +62,11 @@ export const toMilestoneLite = (m: Milestone): MilestoneLite => ({
 
 export const allMilestonesLite: MilestoneLite[] = allMilestones.map(toMilestoneLite);
 
-/** Illustrative listed multiples, not a claim-quality or independent-review ranking. */
+/** Illustrative listed multiples, not a claim-quality or independent-review ranking.
+ *  Excludes historical-only cases and private deals a retail buyer could not have entered. */
 export function rankListedReturns(milestones: Milestone[], limit = 10): Milestone[] {
   return milestones
-    .filter((m) => !m.opportunity.historicalOnly && (m.opportunity.returnMultiple ?? 0) > 1 && m.sources.length >= 2)
+    .filter((m) => !m.opportunity.historicalOnly && !m.private && (m.opportunity.returnMultiple ?? 0) > 1 && m.sources.length >= 2)
     .sort((a, b) => b.opportunity.returnMultiple! - a.opportunity.returnMultiple!)
     .slice(0, limit);
 }
