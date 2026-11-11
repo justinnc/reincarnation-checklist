@@ -10,13 +10,24 @@ const byId = new Map(allMilestones.map((m) => [m.id, m]));
 // Outcome/verdict words that cannot appear in a dispatch shown BEFORE the player decides.
 const BANNED_EN =
   /\b((?<!pay-)later|eventually|ultimately|subsequently|afterwards?|went on|would go on|turned out|in hindsight|became|bankrupt\w*|insolven\w*|fraud\w*|scam\w*|scandal\w*|ponzi|delist\w*|multibagger|all-time high)\b|\d+(?:\.\d+)?\s*[x×](?![a-z])|×/i;
+// "N lần" is banned as a return multiple, except straight after "đặt mua (cao) gấp": an IPO's
+// oversubscription ratio is known on the day.
 const BANNED_VI =
-  /(sau này|sau đó|về sau|cuối cùng|rốt cuộc|trở thành|phá sản|lừa đảo|bê bối|gian lận|thao túng|đến nay|hiện nay|ngày nay|tới nay|\d+(?:[.,]\d+)?\s*lần|×)/i;
+  /(sau này|sau đó|về sau|cuối cùng|rốt cuộc|trở thành|phá sản|lừa đảo|bê bối|gian lận|thao túng|đến nay|hiện nay|ngày nay|tới nay|(?<![\d.,])(?<!đặt mua (?:cao )?gấp )\d+(?:[.,]\d+)?\s*lần|×)/i;
 
 const digitTokens = (s: string) =>
   (s.match(/\d[\d.,]*/g) ?? []).map((t) => t.replace(/\D/g, "")).filter(Boolean);
 
 describe("hand-written Survival dispatches", () => {
+  it("bans Vietnamese return multiples but allows oversubscription ratios", () => {
+    for (const s of ["giá tăng 34 lần", "gấp 38,25 lần vốn ban đầu", "lãi gấp 5 lần", "tăng 2.000lần"]) {
+      expect(s, s).toMatch(BANNED_VI);
+    }
+    for (const s of ["lượng đặt mua cao gấp 34 lần lượng chào bán", "lượng đặt mua gấp 38,25 lần số cổ phiếu chào bán"]) {
+      expect(s, s).not.toMatch(BANNED_VI);
+    }
+  });
+
   it("only cover real, playable milestones", () => {
     for (const [id] of entries) {
       const m = byId.get(id);
