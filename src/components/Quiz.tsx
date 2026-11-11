@@ -7,6 +7,7 @@ import type { Country, Milestone } from "@/lib/types";
 import type { Dictionary } from "@/lib/dictionaries";
 import { addCharmIds } from "@/lib/charm";
 import { trackEvent } from "@/lib/analytics";
+import { inQuizPool } from "@/lib/quizPools";
 
 type Q = Pick<Milestone, "id" | "country" | "date" | "title"> & { quiz: NonNullable<Milestone["quiz"]> };
 const ROUND = 10;
@@ -43,7 +44,7 @@ export default function Quiz({ questions, countries, lang, dict }: { questions: 
   }, [picked]);
 
   const start = () => {
-    const src = questions.filter((q) => pool === "all" || q.country === pool);
+    const src = questions.filter((q) => inQuizPool(q, pool));
     // Shuffle answer order each round so the correct answer is not always in the same slot.
     setRound(
       shuffle(src)
@@ -68,7 +69,7 @@ export default function Quiz({ questions, countries, lang, dict }: { questions: 
       <div className="rounded-3xl border border-line bg-surface p-8">
         <h2 className="text-sm font-medium uppercase tracking-wider text-faint">{dict.choose}</h2>
         <div className="mt-4 flex flex-wrap gap-2">
-          {[{ code: "all", label: dict.allCountries }, ...countries.map((c) => ({ code: c.code, label: `${c.flag} ${t(c.name, lang)}` }))].map((o) => (
+          {[{ code: "easy", label: dict.easyPool }, { code: "all", label: dict.allCountries }, ...countries.map((c) => ({ code: c.code, label: `${c.flag} ${t(c.name, lang)}` }))].map((o) => (
             <button
               key={o.code}
               type="button"
@@ -76,7 +77,7 @@ export default function Quiz({ questions, countries, lang, dict }: { questions: 
               onClick={() => setPool(o.code)}
               className={`rounded-full px-4 py-2 text-sm transition-colors ${pool === o.code ? "bg-ink font-medium text-bg" : "bg-raised text-muted hover:text-ink"}`}
             >
-              {o.label} <span className="font-mono tabular font-normal">({questions.filter((q) => o.code === "all" || q.country === o.code).length})</span>
+              {o.label} <span className="font-mono tabular font-normal">({questions.filter((q) => inQuizPool(q, o.code)).length})</span>
             </button>
           ))}
         </div>

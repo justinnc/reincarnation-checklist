@@ -39,6 +39,9 @@ interface OpportunityBase {
   estimatedReturn: LocalizedText;
   priceCurrency?: string;
   exitDate?: string;
+  /** The exit is timed at a peak the milestone's own sellWhen names (not a hold-to-date exit).
+   *  Shown next to the multiple so peak exits are not read as buy-and-hold results. */
+  exitAtPeak?: boolean;
   risk?: Level;
   capital?: Level;
 }

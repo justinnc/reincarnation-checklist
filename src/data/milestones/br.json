@@ -1533,6 +1533,7 @@
       "exitPrice": 27.42,
       "priceCurrency": "BRL",
       "exitDate": "2020-11",
+      "exitAtPeak": true,
       "returnMultiple": 914,
       "risk": "high",
       "capital": "low"

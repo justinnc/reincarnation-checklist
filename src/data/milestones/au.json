@@ -246,6 +246,7 @@
       "exitPrice": 340,
       "priceCurrency": "AUD",
       "exitDate": "2020-02",
+      "exitAtPeak": true,
       "risk": "medium",
       "capital": "low"
     },
@@ -450,6 +451,7 @@
       "exitPrice": 13.15,
       "priceCurrency": "AUD",
       "exitDate": "2008-06",
+      "exitAtPeak": true,
       "risk": "high",
       "capital": "low"
     },

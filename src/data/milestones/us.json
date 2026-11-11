@@ -1228,6 +1228,7 @@
       "capital": "low",
       "priceCurrency": "USD",
       "exitDate": "2021-11-17",
+      "exitAtPeak": true,
       "exitPrice": 691.69,
       "splitFactor": 14
     },

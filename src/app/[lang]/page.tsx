@@ -21,12 +21,22 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
           <div className="animate-fade-up animate-fade-up-1 font-mono text-sm uppercase tracking-widest text-gold">{dict.home.kicker}</div>
           <h1 className="animate-fade-up animate-fade-up-2 text-balance font-display text-[2.6rem] font-extrabold leading-[1.1] tracking-tight sm:text-7xl sm:leading-[1.05]">{dict.home.heading}</h1>
           <p className="animate-fade-up animate-fade-up-3 text-lg leading-relaxed text-muted">{dict.home.intro}</p>
-          <a
-            href="#rebirth-picker"
-            className="animate-fade-up animate-fade-up-3 inline-flex items-center rounded-full bg-gold px-5 py-3 text-sm font-semibold text-on-gold transition hover:brightness-110 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-ring"
-          >
-            {lang === "vi" ? "Chọn năm bắt đầu ↓" : "Choose your starting year ↓"}
-          </a>
+          <div className="animate-fade-up animate-fade-up-3 flex flex-wrap items-center gap-3">
+            <a
+              href="#rebirth-picker"
+              className="inline-flex items-center rounded-full bg-gold px-5 py-3 text-sm font-semibold text-on-gold transition hover:brightness-110 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-ring"
+            >
+              {lang === "vi" ? "Chọn năm bắt đầu ↓" : "Choose your starting year ↓"}
+            </a>
+            <Link
+              href={`/${lang}/survival`}
+              data-testid="hero-survival-link"
+              className="inline-flex items-center gap-2 rounded-full border border-gold/60 px-5 py-3 text-sm font-semibold text-gold transition hover:bg-gold/10 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-ring"
+            >
+              <span aria-hidden>🎲</span>
+              {lang === "vi" ? "Chơi Thử Thách Sống Sót (60s)" : "Play the Survival game (60s)"}
+            </Link>
+          </div>
         </div>
         <div id="rebirth-picker" className="animate-fade-up animate-fade-up-3 scroll-mt-20">
           <RebirthPicker
@@ -102,6 +112,11 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
                         <span className="rounded-md bg-gain px-2 py-0.5 font-mono font-semibold tabular text-on-gain">
                           {formatMultiple(m.opportunity.returnMultiple!, lang)}
                         </span>
+                        {m.opportunity.exitAtPeak && (
+                          <div className="mt-1 whitespace-nowrap text-[11px] text-warning" data-testid="exit-at-peak">
+                            {lang === "vi" ? "bán tại đỉnh" : "sold at peak"}
+                          </div>
+                        )}
                       </td>
                     </Reveal>
                   );

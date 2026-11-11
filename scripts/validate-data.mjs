@@ -91,6 +91,8 @@ for (const file of readdirSync(dir).filter((f) => f.endsWith(".json"))) {
           errors.push(`${p}: priceObservations units/currencies are not comparable`);
       }
     }
+    if (o.exitAtPeak !== undefined && (o.exitAtPeak !== true || o.exitDate == null || !(o.returnMultiple > 0) || o.historicalOnly))
+      errors.push(`${p}: exitAtPeak must be true and needs exitDate and returnMultiple`);
     if (o.exitDate != null) {
       const exitDate = dateRange(o.exitDate);
       if (!exitDate) errors.push(`${p}: bad exitDate ${o.exitDate}`);
