@@ -1,65 +1,79 @@
 # PROJECT_STATE.md — The Reincarnation Checklist
 
-> Handoff document for a fresh agent session. Last updated 2026-11-11 (see §0 first).
-> Project root: `/Users/justindang/reincarnation-checklist` (macOS, branch `main` → `origin/main` = `github.com/justinnc/reincarnation-checklist`, public).
+> Handoff for a fresh agent session. **Last updated 2026-11-11, at `27b2627`.** Read §0 first; §1 onward is older background and is stale where it conflicts with §0.
+> Project root: `/Users/justindang/reincarnation-checklist` (macOS). Branch `main` tracks `origin/main` = `github.com/justinnc/reincarnation-checklist` (public, Issues enabled). Pushes to `main` deploy to Vercel.
 
 ---
 
-## 0a. Update after `6d22504` (2026-11-11 evening) — supersedes §0 where they conflict
+## 0. Session handoff — READ FIRST
 
-**Now live:** deployed on Vercel at `https://reincarnation-checklist-justinncs-projects.vercel.app` (HTTP 200). Public GitHub repo `justinnc/reincarnation-checklist`, Issues enabled. Sections below that say "no remote / deployed nowhere / `gh` not installed" are stale.
+### 0.1 Where things stand
+- **Live:** https://reincarnation-checklist-justinncs-projects.vercel.app (Vercel). `SITE_URL` = `NEXT_PUBLIC_SITE_URL` or that domain (`src/lib/seo.ts`).
+- **Git:** working tree clean, `main` = `origin/main` at `27b2627`. Nothing unpushed.
+- **Gates:** Gate 0 done. Gate 1 (`IMPLEMENTATION_PLAN.md` §Gate 1):
+  - [x] Step 1: bilingual Methodology & Corrections page (`/[lang]/methodology`, now including §5 Analytics).
+  - [ ] Step 2: real-user sessions (EN + VI). **Owner task.** Only a *simulated* persona review exists (`docs/reviews/gate1-simulated-persona-feedback.md`); all of its findings are fixed.
+  - [x] Step 3: iterate on feedback, plus the second-agent claim audit (ledger: `docs/research/claim-audit-ledger.md`).
+  - [~] Step 4: launch prep. Site is already public; the owner decisions in 0.4 remain.
 
-**Commits since §0:** `0e99c31` PostHog analytics (`src/lib/analytics.ts`, `src/instrumentation-client.ts`; events: survival_started/round_decided/completed, pass_card_downloaded, survival_shared, quiz_started/completed/shared; no-op when `NEXT_PUBLIC_POSTHOG_KEY` unset — see `.env.example`) · `a4392bf` + `437a311` `SITE_URL` = `NEXT_PUBLIC_SITE_URL` or the vercel.app domain (`src/lib/seo.ts`; the `.vn` placeholder is gone) · `d479355` English home kicker · `dfd2591` `engines.node` = `24.x`, `@types/node` ^24.
+### 0.2 Run & verify (Node 24 required)
+```bash
+source ~/.nvm/nvm.sh && nvm use 24     # system Node 22.5.1 does NOT match engines "24.x"
+npm run test                            # 215/215 (31 files)
+node scripts/validate-data.mjs          # OK: 328 milestones
+npx tsc --noEmit -p tsconfig.json       # clean
+npm run lint                            # 0 errors, 13 warnings (hidden Charm files)
+npm run build                           # 763 static pages
+npm run dev                             # :3000. Start with background=true; a killed server can leave a
+                                        # next-server child on :3000 (check `lsof -ti tcp:3000`)
+```
+The `NODE_OPTIONS='--experimental-require-module'` prefix in the npm scripts is redundant on Node 24 but harmless.
 
-**Node:** run everything under Node 24 (`source ~/.nvm/nvm.sh && nvm use 24`; system Node 22.5.1 no longer matches `engines`). The `NODE_OPTIONS='--experimental-require-module'` script prefix is now redundant on 24 but harmless.
+### 0.3 What this session did (2026-11-11, oldest → newest, all pushed)
+| Commit | Change |
+|---|---|
+| `5ea4db0` | "Submit a correction" link pointed to a 404 (`justindang/…`); now `github.com/justinnc/reincarnation-checklist/issues/new` |
+| `73ae40e` | Next "`params` outside `<Suspense>`" warning on `/[lang]/[country]` and `/[lang]/[country]/[id]`: `export const instant = false`. **Don't** switch to Suspense: unknown URLs would become 200 soft-404s (`dynamicParams` isn't allowed with `cacheComponents`) |
+| `74d51a8` | Pass card: seal moved off the 5th turning-point chip to the empty top-right corner; seal text curves along the ring; seal and ROI text shrink to fit (EN + VI checked from real rendered PNGs) |
+| `e020f42` | Olympus/Facebook "buy the dip" copy tied to each one's sourced `buyWhen`; new `quiz-answers.test.ts` checks that every correct quiz answer's numbers appear in the milestone text |
+| `0d5885b` | Home hero gets a second CTA to Survival (above the fold); `opportunity.exitAtPeak` flag (validated) shows "sold at peak / bán tại đỉnh" in Biggest wins (Luiza, Fortescue, Netflix, CSL); quiz gets an "⭐ Famous names (easy)" pool (`src/lib/quizPools.ts`) |
+| `074e8be` | Survival: 189 of 326 playable milestones used to show the generic dispatch. All now have hand-written, hindsight-free dispatches in `src/data/survival-dispatches.json`, guarded by `survival-dispatches.test.ts` |
+| `7d9bb12` | Methodology §5 "Analytics" (EN/VI) discloses what PostHog receives; autocapture, recordings, heatmaps, surveys and exceptions are pinned off in `src/lib/analytics.ts` |
+| `48a98cc` | Primary sources added for the Yahoo-derived CP All, Olympus, Bajaj and Hansen prices (no price changed); Arab News source title corrected. Details in the ledger |
 
-**Baseline (Node 24.21):** 207/207 tests, 28 files · validate OK (328) · tsc clean · lint 0 errors / 13 warnings · build 763 routes.
+### 0.4 Open items (priority order)
+1. **Owner: PostHog "Discard client IP data"** project setting. IPs reach PostHog with every event; there's no code switch for this. PDPA-relevant.
+2. **Owner, deferred:** the pass-card footer prints `REINCARNATION-CHECKLIST.COM` (`src/lib/passCard.ts` §10), a domain the project doesn't own. Owner decided to refactor it later together with the domain choice. Don't change it without asking.
+3. **Owner: Gate 1 step 2** with real EN + VI users. **Gate 1 step 4:** custom domain, confirm the corrections channel (GitHub issues need an account; email/form are alternatives), rollback owner.
+4. **Data:** Bajaj exit close (₹7,244.90, 5 Sep 2024) is still Yahoo-only. Hansen 2 Jan 2004 and Olympus 30 Dec 2015 closes are bracketed by filings but not pinned to the day. Needs an exchange bhavcopy / archived newspaper table.
+5. **Data:** still "reported, no prices": `gb-black-wednesday-1992`, `jp-softbank-alibaba-stake-2000` (private), `vn-phu-quoc-land-fever-2014`.
+6. **Copy nit:** Survival dispatches avoid Vietnamese "N lần" because the test bans it to catch return multiples, so oversubscription reads stiffly ("gấp 34 lượng chào bán"). Fix only by narrowing the regex in `survival-dispatches.test.ts` to multiples and re-running.
+7. **Review:** `b24f8ce` BrandLogo/icons came from a parallel session; review or revert.
+8. Roadmap ideas (§3 Sprints 2–4, Q2 monetization) are untouched and unprioritised.
 
-**Open item 1 partially resolved:** the live "Submit a correction" link pointed to `github.com/justindang/...` (404). Repointed to `github.com/justinnc/reincarnation-checklist/issues/new` (`src/app/[lang]/methodology/page.tsx` + test). Owner can still swap to email/form; corrections arriving as public GitHub issues means submitters need a GitHub account.
+### 0.5 Rules enforced by tests/validator — keep them
+- **Price rule:** `returnMultiple = exitPrice × (splitFactor ?? 1) ÷ entryPrice` (±2%). Prices are nominal as quoted; `splitFactor` = shares held per original share. `src/lib/priceBasis.ts` renders the formula on detail pages.
+- **Buyable entry:** retail-buyable entries must be tradable on/after the milestone date; `private: true` deals stay out of Biggest wins and Realistic playbooks.
+- **`exitAtPeak`:** only where the milestone's own `sellWhen` names the peak; it must have `exitDate` + `returnMultiple`.
+- **Trap framing:** loss milestones say how to avoid them; advice fields never instruct shorting, puts or CDS (`data.test.ts`).
+- **Survival dispatches** (`src/data/survival-dispatches.json`): EN+VI; only facts and numbers from that milestone's own text; nothing known after the date (no later years, no outcome words, no post-entry same-day moves); every playable milestone must have a non-generic dispatch. Lookup order: `CONTEMPORARY_TRAP_DISPATCHES` → JSON → sanitiser.
+- **Quiz:** numbers in every correct answer must appear in the milestone text. Wrong options may be unsourced but must not be arguably correct.
+- **Analytics:** the Methodology §5 text must match what `src/lib/analytics.ts` sends. If you add an event or property, update both languages.
+- **Data edits:** exact string replacement + `json.loads` validation (keeps formatting/diffs clean). Log every correction with verbatim source excerpts in `docs/research/claim-audit-ledger.md`. Public copy says "cross-checked", never "audited/kiểm toán".
+- No raw `\uXXXX` in JSX; internal provenance (`claimReview.proposedBy/checkedBy`) never rendered.
 
-**Done after §0a was written:** `73ae40e` — the "`params` accessed outside `<Suspense>`" dev warning (open item 6) fixed on `/[lang]/[country]` and `/[lang]/[country]/[id]` with `export const instant = false`. The Suspense/stream fix was tried and rejected: unknown URLs became 200 soft-404s because `notFound()` fired after streaming began; `dynamicParams` is not allowed with `cacheComponents`. Unknown country/id still return 404. · `74d51a8` — pass-card seal moved from the turning-point chips to the empty top-right of the profile row (open item 4, stamp part); seal top line now curves along the ring; seal middle line and ROI pill shrink to fit (large VI ROIs like `39.715,9× ROI` used to overflow).
+### 0.6 Hard rules (owner, non-negotiable)
+1. **Không được bịa:** never fabricate names, numbers or URLs. If a source can't be found, drop it and report it.
+2. `defaultLocale = "en"`.
+3. Card game `/simulator` is Vietnam-only.
+4. Survival inflation = 3%/year game assumption, not CPI; shown on the Skip choice and in Rules.
+5. No database: static JSON only.
+6. Don't commit/push unless asked; small topical commits (`feat:`/`fix:`/`docs:`); update this file in its own `docs:` commit.
 
-**New finding (owner decision):** the pass-card footer prints `REINCARNATION-CHECKLIST.COM` (`src/lib/passCard.ts`, §10), a domain the project does not appear to own. Every shared card advertises it. **Owner decided (2026-11-11): leave it for now; it will be refactored later together with the domain.**
-
-**Done later on 2026-11-11 (after the push of `7515170`):**
-- **Survival dispatches (open item 4):** 189 of 326 playable milestones used to fall back to the generic template (not ~1/3). Every one now has a hand-written, hindsight-free dispatch in `src/data/survival-dispatches.json`. `getContemporaryDispatch` checks `CONTEMPORARY_TRAP_DISPATCHES` first, then this file, then the sanitiser. The text was drafted per country from each milestone's own sourced description only, then reviewed. Guarded by `src/lib/__tests__/survival-dispatches.test.ts`: real ids, EN+VI, length limits, banned outcome words, no year after the event, every number must appear in the milestone's own text, and no playable milestone left on the generic template. IPO dispatches stop at the pricing when the entry is the IPO price. Known nit: Vietnamese avoids "N lần" (the test bans it to catch return multiples), so oversubscription reads a bit stiffly ("gấp 34 lượng chào bán").
-- **Quiz (open item 5):** all correct answers are backed by the milestone text, guarded by `src/lib/__tests__/quiz-answers.test.ts` with rounding tolerance. The wrong options in 28/39 VN quizzes are unsourced by design: they are wrong answers. None were found to be ambiguous with the right answer, so they were kept. The "buy the dip" copy that read as generic advice (Olympus `action.vi`, Facebook `pitfalls.en`) is now tied to each milestone's sourced `buyWhen`. The other "bắt đáy" hits are warnings against it, which is correct.
-- **Persona items (open item 6):** home hero has a second CTA linking to Survival above the fold; new `opportunity.exitAtPeak` flag (validated) shows "sold at peak / bán tại đỉnh" in Biggest wins for Luiza, Fortescue, Netflix and CSL, whose own `sellWhen` names a peak exit, and the table note explains it; the quiz has an "⭐ Famous names (easy)" pool of 16 curated ids (`src/lib/quizPools.ts`, editorial picks only).
-- **Analytics notice (`7d9bb12`):** Methodology §5 (EN/VI) discloses exactly what PostHog receives; autocapture, recordings, heatmaps, surveys and exceptions are pinned off in `src/lib/analytics.ts` (asserted in the test). **Owner action still open:** turn on "Discard client IP data" in the PostHog project; there's no code switch for it.
-- **Yahoo-derived prices (open item 2):** CP All entry and exit now confirmed exactly by archived SET pages; Olympus exit, Bajaj entry and Hansen entry are bracketed by company or SEC filings; the Arab News source title is corrected. No price changed. Still Yahoo-only: Bajaj exit close (5 Sep 2024). Details in the ledger section "Yahoo-derived prices: firmer sources".
-
-**Open item 7 note:** the site is already public, so Gate 1 step 4 (launch prep) is partly done de facto — remaining owner decisions: custom domain, feedback channel confirmation, rollback owner, PostHog "Discard client IP data" setting (the privacy notice itself is done).
-
----
-
-## 0. Latest session handoff (2026-11-11) — READ FIRST
-
-**Where we are:** Gate 0 done. Gate 1 (Beta preparation, `IMPLEMENTATION_PLAN.md` §Gate 1) in progress:
-- [x] Step 1 — bilingual Methodology & Corrections page (`/[lang]/methodology`).
-- [~] Step 2 — real-user sessions (EN + VI). **Not done with real people.** A *simulated* 4-persona review was run instead: `docs/reviews/gate1-simulated-persona-feedback.md` (AI role-play, not user evidence). Its findings are now fixed (below).
-- [~] Step 3 — iterate on feedback + second-agent audit of highlighted claims: done for everything in the persona report.
-- [ ] Step 4 — launch prep (owner picks remote repo, domain, host, feedback channel, rollback owner).
-
-**Baseline now:** 204/204 tests (`npm run test`), `node scripts/validate-data.mjs` OK (328 milestones), `npx tsc --noEmit -p tsconfig.json` clean, lint 0 errors (13 warnings, all in the hidden Charm files), `npm run build` 761 routes. Dev server: `npm run dev` on :3000.
-
-**Commits this session (oldest → newest):** `80f11b6` methodology page · `a1f6c9f` trust fixes (Ethereum entry basis, private deals out of rankings, as-of ranges, methodology copy) · `1e1e058` loss milestones framed as traps, FLC rewritten · `296bd34` one price rule + `splitFactor` · `7975420` no shorting advice in any market · `dee0dcb` sourced prices for 18 milestones · `ffbc0ff` nav/search/quiz/picker/almanac UX · `f73b85e` Survival fixes · `80073bf` VI localization + VN content · `b24f8ce` BrandLogo/icons (**from a parallel session, committed separately — review or revert**).
-
-**Rules established this session (enforced by validator/tests — keep them):**
-- **Price rule:** `returnMultiple = exitPrice × (splitFactor ?? 1) ÷ entryPrice` (±2%) for every priced milestone (`scripts/validate-data.mjs`, `src/lib/__tests__/priceBasis.test.ts`). Prices are nominal as quoted; `splitFactor` = shares held per original share (splits/bonus/stock dividends, paid rights excluded). Detail pages explain the formula via `src/lib/priceBasis.ts`.
-- **Buyable entry:** for retail-buyable milestones the entry must be tradable on/after the milestone date (presale/pre-listing prices are context only). `private: true` deals are excluded from home "Biggest wins" (`rankListedReturns`) and Realistic playbooks.
-- **Trap framing:** loss milestones show "How to avoid it / Cách tránh bẫy" + "What happened / Diễn biến giá". Advice fields (asset/action/buyWhen/sellWhen/estimatedReturn) must never instruct shorting, puts or CDS in any market; VN milestones also not in insiderTip (`src/lib/__tests__/data.test.ts`). Professionals' shorts may be described in past tense with a risk note.
-- **No raw `\uXXXX` in JSX text** — use native glyphs.
-- **Internal provenance** (`claimReview.proposedBy/checkedBy`) never rendered in UI.
-- All corrections and their sources are logged in `docs/research/claim-audit-ledger.md`.
-
-**Open items / next steps:**
-1. **Corrections channel (owner decision, do LAST before release):** "Submit a correction" points to `github.com/justindang/reincarnation-checklist/issues`, which may not exist (no remote). Pick email / form / public repo at launch prep.
-2. Firmer sources for Yahoo-derived prices: Monster entry, Bajaj entry/exit, Olympus exit, CP All entry/exit (ledger lists them). Some research excerpts came from search snippets.
-3. Still "reported, no prices": `gb-black-wednesday-1992`, `jp-softbank-alibaba-stake-2000` (private), `vn-phu-quoc-land-fever-2014` (anecdotal plot quote).
-4. Survival: ~1/3 of events now show a generic dispatch because the hindsight sanitiser is strict — hand-write contemporary dispatches in `src/data`. Pass-card red stamp still overlaps the 5th chip.
-5. Some new VN quiz distractors are plausible invented values (wrong answers, unsourced). A few "buy the dip" phrasings remain in non-VN tips.
-6. Persona items not yet done: easy/pop-culture quiz pool; Survival callout above the fold on home; Magazine Luiza ranked at its peak; Next dev warning "`params` accessed outside `<Suspense>`" on `/[lang]/[country]/[id]`.
-7. Gate 1 step 2 with **real** EN + VI users, then Gate 1 step 4 launch prep.
+### 0.7 Agent environment notes
+- Skills: `nextjs-app-maintenance` (repo workflow, pitfalls) and `grounded-citations` (data/claims work; `references/derived-copy-authoring.md` for generated copy).
+- `delegate_task` subagents work now (the old "broken" note in §4 is stale). Use them for parallel research or copy drafting, then verify their output yourself.
+- Screenshots: the browser tool attaches them directly; inject `*{opacity:1!important;transform:none!important}` before capturing scroll-revealed sections.
 
 ---
 
