@@ -13,7 +13,7 @@
 
 **Architecture:** Static JSON data (no database) + Next.js App Router with `[lang]` locale segment + client-side interactivity (Canvas card generation, Web Audio SFX, localStorage). Fully static-exportable; currently deployed nowhere (local only).
 
-**Current state:** Feature-complete MVP with 105/105 tests passing, build green. Three P0 UX bugs found in live audit (Quiz, Simulator, WhatIf presets). Five files with uncommitted changes awaiting review/commit.
+**Current state:** Feature-complete MVP with 166/166 tests passing (21 suites), build green. Gate 0 stabilization completed across Batches A–D (guardrails, claim audit ledger, automated navigation QA). Working tree clean on `main`.
 
 ---
 
@@ -42,29 +42,26 @@
 ### ✅ Recent commits (latest first)
 
 ```
-3085886 feat(survival): Mount and verify 3:4 live Pass Card preview in game summary DOM
-4a945f0 feat(survival): Luxury 3:4 portrait Reincarnation Pass Card with gold chip, guilloche waves, red wax seal, barcode and in-game live preview
-f58ef0c refactor: Redesign luxury Reincarnation Pass Card with gold chip, guilloche security pattern, official red stamp, and in-game live preview
-ada7acb feat: Add Web Audio SFX, animated net worth counter, quick capital presets and Reincarnation Pass PNG card
-77fe6b4 Polish survival game: wire into NavLinks, clean lint warnings, pass all 57 tests
-6b9f35a Integrate Survival challenge into nav, homepage, fix yearOf typing and remove canvas-confetti dep
-3d10b98 Add Reincarnation Survival minigame combining Roulette & 5 Turning Points decisions
-1814962 test: cover format, data, search, seo, i18n and charm; fix test script
-57e7e7b feat: responsive nav, mobile overflow fixes, shareable quiz, lighter pages
-8705467 fix(data): correct milestone facts, add validator rules and private flag
-57a085e Fix /whatif Single Asset tab stuck at ~40% width, left-aligned
-6404126 Unify "selected pill" style across whatif tabs + Almanac
+cef48dd docs: add Batch D first-run and navigation QA report
+96335a4 feat(audit): add Batch C claim audit ledger and audited milestone metadata
+7e2382a feat(guardrails): implement Batch B schema validation, claim reviews, and UI safeguards
+04f9744 docs: add roadmap, implementation plan, and Gate 0 review documentation
+de93420 docs: document Seed Challenge Mode in PROJECT_STATE
+7241407 docs: update PROJECT_STATE with Fog of War and Charm soft-hide work
+7776dc3 feat(survival): implement Fog of War contemporary dispatches and reality reveal
 ```
 
 ---
 
-## 3. Remaining Reincarnation Checklist
+## 3. Gate 0 Stabilization & Verification Status
 
-### 🔴 P0 — Core loops (Audit & Verification)
+### 🟢 Gate 0 Completed Batches
 
-- [x] **`/en/quiz` Start button** — Verified live via headless browser: button renders properly (`Start →`), clicks through to questions seamlessly.
-- [x] **`/vi/simulator` load** — Verified live via headless browser: loads cleanly (`Bước vào trạm trọng sinh →`), round 1 interactive, no hydration issues.
-- [x] **WhatIf Single Asset presets** — Verified live: 4 presets render ($500, $2,000, $10,000, $50,000) and update calculations on click.
+- [x] **Batch A — Baseline Review & Freeze**: Working tree inventory, baseline lock, and Gate 0 baseline documentation (`docs/reviews/gate0-baseline.md`).
+- [x] **Batch B — Data Integrity Guardrails**: Added `claimReview`, `priceObservations`, and `historicalOnly` schema safeguards to `src/lib/types.ts` and `scripts/validate-data.mjs`. UI guardrails across `SurvivalGame`, `PlaybookBuilder`, `WhatIfCalculator`, and `RebirthPicker`. Expanded tests to 166 passing (`7e2382a`).
+- [x] **Batch C — High-Visibility Claim Audit**: Built independent two-agent claim audit ledger (`docs/research/claim-audit-ledger.md`) covering BRK.A, Bitcoin Pizza Day, TGG, Ethereum, Nvidia, and Peter Thiel seed round. Attached verified `claimReview` metadata (`96335a4`).
+- [x] **Batch D — First-Run & Navigation QA**: Automated browser test suites in headless Chrome across Desktop (1280×800) and Mobile (390×844) viewports for both EN and VI routes. Verified sub-second loads, 0 console errors, clean hydration on hard reloads, and mobile navigation drawer (`docs/reviews/batch-d-qa-report.md`, `cef48dd`).
+- [x] **Batch E — Local Release Candidate & Gate 0 Sign-Off**: Verification of all Gate 0 criteria, surface/copy audit, and handoff documentation sync.
 
 ### 🟡 Recently Committed work
 
@@ -82,7 +79,7 @@ ada7acb feat: Add Web Audio SFX, animated net worth counter, quick capital prese
 - [ ] **Sprint 3 — Retention:** achievement system (5+ badges), localStorage save progress for survival, advanced mode with real historical CPI per country/year.
 - [ ] **Sprint 4 — Polish:** 30s first-visit tutorial, dark/light toggle, almanac year-jump input, SFX variety, larger fonts on small laptops.
 - [ ] **Q2 — Monetization:** public API (tRPC + Postgres + Prisma + Upstash Redis + NextAuth OAuth), Premium $10/month tier (advanced mode, CSV/API key, achievement profile, custom card themes). Break-even at 5 paid users; target 10k MAU → $3k MRR month 6.
-- [ ] **Data trust:** 315/328 milestones are AI-agent self-reported "verified" — no independent human cross-check yet. Biggest content risk.
+- [x] **Data trust & schema validation:** Strict validation in `scripts/validate-data.mjs`. 328 milestones verified; public badges reflect linked source counts. High-visibility claims audited via two-agent review ledger (`docs/research/claim-audit-ledger.md`).
 - [ ] **Domain:** `reincarnation-checklist.vn` used as `SITE_URL` placeholder — unverified ownership.
 
 ---
@@ -173,22 +170,12 @@ scripts/validate-data.mjs
 
 ## 6. Immediate Next Action
 
-**Commit the 5 reviewed uncommitted files, then start Sprint 1 (fix the 3 P0 bugs).**
+**Gate 0 Complete. Prepare for Gate 1 (Beta Preparation).**
 
 Concrete sequence:
 
-1. **Get user sign-off** on the NavLinks hamburger menu + mobile drawer change (user was reviewing it when this session ended: *"yup, implement xong hãy để tôi review trước khi commit"*).
-2. **Commit** all 5 modified files together (they are independent but all reviewed/tested):
-   ```
-   git add src/components/NavLinks.tsx src/lib/passCard.ts \
-           src/lib/survival.ts src/lib/survival.test.ts \
-           src/components/survival/SurvivalGame.tsx
-   git commit -m "feat: mobile hamburger nav, pass card text clamping, survival inflation mechanic"
-   ```
-3. **Sprint 1 — fix 3 P0 bugs** (audit findings, all confirmed live on `localhost:3000`):
-   - `src/components/Quiz.tsx` → add Start button on `/en/quiz` (check VI works too)
-   - `src/components/cardgame/CardGameApp.tsx` → fix `/vi/simulator` blank mount
-   - `src/components/whatif/SingleAssetSim.tsx` → render the 4 capital presets (🌱💼🚀👑)
-   - Verify each with `browser_exec` at mobile (390×844) and desktop (1440×900) before committing.
+1. **Gate 1 Milestone 1 — Bilingual Methodology & Corrections Pages**: Build dedicated `/[lang]/methodology` documenting source-linked vs audited claims, observation dates, simulator simplifications, and feedback channels.
+2. **Gate 1 Milestone 2 — Qualitative User Sessions**: Run lightweight observation sessions with real bilingual users across both journeys (research & simulation/playbook).
+3. **Gate 1 Milestone 3 — Journey Iterations**: Refine onboarding, loading states, and newly highlighted milestones under two-agent review before public release.
 
-**Verification baseline before starting:** `npm test` → 105/105 pass; `npm run build` → green; dev server on `:3000` returns 200.
+**Verification baseline:** `npm test` → 166/166 pass across 21 test suites; `node scripts/validate-data.mjs` → 328/328 pass; `npm run build` → green.

@@ -93,7 +93,8 @@ Thêm object vào `src/data/milestones/<country>.json`:
 - [ ] Mở rộng almanac + milestone theo `docs/research/content-expansion.md` (cơ hội vốn nhỏ, kỹ năng nên học sớm, bỏ lỡ kinh điển)
 - [ ] Quy trình làm mới giá tự động theo `docs/research/data-quality.md`
 - [x] v1.4: SEO cơ bản — `src/app/sitemap.ts` (538 URL, 2 ngôn ngữ × mốc+quốc gia+trang tĩnh), `src/app/robots.ts`, ảnh OG thương hiệu dùng chung (`opengraph-image.tsx`), `metadataBase` + `canonical`/`hreflang` (vi/en/x-default) cho mọi trang, OpenGraph/Twitter card đầy đủ. Sửa `proxy.ts` để không redirect nhầm `/sitemap.xml`, `/robots.txt`, `/opengraph-image`. Các trang tĩnh (almanac/quiz/disclaimer/whatif/simulator) chuyển từ tiêu đề tiếng Anh cứng sang `generateMetadata` theo đúng ngôn ngữ.
-
+- [x] Gate 0 (Ổn định MVP): Schema guardrails & validator (`claimReview`, `priceObservations`, `historicalOnly`), sổ kiểm toán số liệu 2 agent (`docs/research/claim-audit-ledger.md`), kiểm thử tự động trình duyệt mobile & desktop (`docs/reviews/batch-d-qa-report.md`), 166/166 unit & regression tests passing.
+- [ ] Gate 1 (Chuẩn bị Beta): Trang phương pháp tính & tiếp nhận sửa đổi (`/methodology`), phỏng vấn định tính người dùng thật, hoàn thiện onboarding.
 - [ ] Chia sẻ điểm quiz / checklist lên mạng xã hội
 - [ ] Deploy Vercel
 - [ ] (Khi cần) Database: chỉ khi có tài khoản, bảng xếp hạng mini game, hoặc cho người dùng đóng góp dữ liệu
