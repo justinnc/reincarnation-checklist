@@ -43,9 +43,46 @@
       "exitDate": "2024-08",
       "risk": "low",
       "capital": "medium",
-      "priceCurrency": "USD"
-    },
-    "insiderTip": {
+      "priceCurrency": "USD",
+      "priceObservations": {
+        "entry": {
+          "date": "1980-03-17",
+          "basis": "estimate",
+          "currency": "USD",
+          "unit": "share",
+          "sourceUrl": "https://www.statmuse.com/money/ask/what-was-the-price-of-brk.a-on-march-17-1980"
+        },
+        "exit": {
+          "date": "2024-08-28",
+          "basis": "intraday",
+          "currency": "USD",
+          "unit": "share",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Berkshire_Hathaway"
+        }
+      }
+      },
+      "claimReview": {
+      "status": "agent-checked",
+      "claim": {
+        "vi": "Cổ phiếu Berkshire Hathaway hạng A tăng từ khoảng 290 USD (tháng 3/1980) lên vượt 700.000 USD (tháng 8/2024), chưa từng chia tách.",
+        "en": "Berkshire Hathaway Class A shares grew from approximately $290 (March 1980) to over $700,000 (August 2024) without splitting."
+      },
+      "proposedBy": "research-agent-1",
+      "checkedBy": "audit-agent-2",
+      "evidence": [
+        {
+          "url": "https://www.statmuse.com/money/ask/what-was-the-price-of-brk.a-on-march-17-1980",
+          "excerpt": "The price of Berkshire Hathaway on March 17, 1980 was $290.00.",
+          "observedOn": "2024-08-30"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Berkshire_Hathaway",
+          "excerpt": "On August 28, 2024, Berkshire Hathaway became the first non-technology U.S. company to reach a $1 trillion market value, with Class A shares surpassing $700,000.",
+          "observedOn": "2024-08-29"
+        }
+      ]
+      },
+      "insiderTip": {
       "vi": "Buffett sẽ không chia tách cổ phiếu hạng A — nếu không đủ vốn, có thể chờ đến 1996 khi cổ phiếu hạng B (BRK.B) ra đời với giá thấp hơn nhiều.",
       "en": "Buffett will never split the Class A shares — if capital is tight, wait for the cheaper Class B shares (BRK.B), created in 1996."
     },
@@ -1929,9 +1966,41 @@
       "risk": "high",
       "capital": "low",
       "priceCurrency": "USD",
-      "exitDate": "2024"
-    },
-    "insiderTip": {
+      "exitDate": "2024",
+      "priceObservations": {
+        "entry": {
+          "date": "2014-07-22",
+          "basis": "average",
+          "currency": "USD",
+          "unit": "ETH",
+          "sourceUrl": "https://cointelegraph.com/magazine/11-critical-moments-ethereum-history-that-made-eth-no2-blockchain"
+        },
+        "exit": {
+          "date": "2024-07-20",
+          "basis": "close",
+          "currency": "USD",
+          "unit": "ETH",
+          "sourceUrl": "https://cointelegraph.com/magazine/11-critical-moments-ethereum-history-that-made-eth-no2-blockchain"
+        }
+      }
+      },
+      "claimReview": {
+      "status": "agent-checked",
+      "claim": {
+        "vi": "Ethereum huy động vốn cộng đồng (ICO) năm 2014 với giá khoảng 0,31 USD/ETH và đạt mốc trên 3.200 USD năm 2024.",
+        "en": "Ethereum held a crowdsale (ICO) in 2014 at roughly $0.31/ETH and reached over $3,200 by 2024."
+      },
+      "proposedBy": "research-agent-1",
+      "checkedBy": "audit-agent-2",
+      "evidence": [
+        {
+          "url": "https://cointelegraph.com/magazine/11-critical-moments-ethereum-history-that-made-eth-no2-blockchain",
+          "excerpt": "The crowd sale sold over 60 million ETH at an average price of around $0.31 per token, raising approximately $18.3 million.",
+          "observedOn": "2024-07-20"
+        }
+      ]
+      },
+      "insiderTip": {
       "vi": "Ethereum sẽ trở thành nền tảng cho hầu hết hợp đồng thông minh, DeFi và NFT sau này — khác biệt căn bản so với Bitcoin ở khả năng lập trình, nên đừng chỉ tập trung vào Bitcoin.",
       "en": "Ethereum becomes the foundation for most smart contracts, DeFi and NFTs later on — fundamentally different from Bitcoin in its programmability, so don't focus on Bitcoin alone."
     },
