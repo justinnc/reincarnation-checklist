@@ -1,7 +1,38 @@
 # PROJECT_STATE.md — The Reincarnation Checklist
 
-> Handoff document for a fresh agent session. Generated 2026-11-10.
-> Project root: `/Users/justindang/reincarnation-checklist` (macOS, local git only, branch `main`, **no remote**).
+> Handoff document for a fresh agent session. Last updated 2026-11-11 (see §0 first).
+> Project root: `/Users/justindang/reincarnation-checklist` (macOS, local git only, branch `main`, **no remote** — nothing is pushed anywhere).
+
+---
+
+## 0. Latest session handoff (2026-11-11) — READ FIRST
+
+**Where we are:** Gate 0 done. Gate 1 (Beta preparation, `IMPLEMENTATION_PLAN.md` §Gate 1) in progress:
+- [x] Step 1 — bilingual Methodology & Corrections page (`/[lang]/methodology`).
+- [~] Step 2 — real-user sessions (EN + VI). **Not done with real people.** A *simulated* 4-persona review was run instead: `docs/reviews/gate1-simulated-persona-feedback.md` (AI role-play, not user evidence). Its findings are now fixed (below).
+- [~] Step 3 — iterate on feedback + second-agent audit of highlighted claims: done for everything in the persona report.
+- [ ] Step 4 — launch prep (owner picks remote repo, domain, host, feedback channel, rollback owner).
+
+**Baseline now:** 204/204 tests (`npm run test`), `node scripts/validate-data.mjs` OK (328 milestones), `npx tsc --noEmit -p tsconfig.json` clean, lint 0 errors (13 warnings, all in the hidden Charm files), `npm run build` 761 routes. Dev server: `npm run dev` on :3000.
+
+**Commits this session (oldest → newest):** `80f11b6` methodology page · `a1f6c9f` trust fixes (Ethereum entry basis, private deals out of rankings, as-of ranges, methodology copy) · `1e1e058` loss milestones framed as traps, FLC rewritten · `296bd34` one price rule + `splitFactor` · `7975420` no shorting advice in any market · `dee0dcb` sourced prices for 18 milestones · `ffbc0ff` nav/search/quiz/picker/almanac UX · `f73b85e` Survival fixes · `80073bf` VI localization + VN content · `b24f8ce` BrandLogo/icons (**from a parallel session, committed separately — review or revert**).
+
+**Rules established this session (enforced by validator/tests — keep them):**
+- **Price rule:** `returnMultiple = exitPrice × (splitFactor ?? 1) ÷ entryPrice` (±2%) for every priced milestone (`scripts/validate-data.mjs`, `src/lib/__tests__/priceBasis.test.ts`). Prices are nominal as quoted; `splitFactor` = shares held per original share (splits/bonus/stock dividends, paid rights excluded). Detail pages explain the formula via `src/lib/priceBasis.ts`.
+- **Buyable entry:** for retail-buyable milestones the entry must be tradable on/after the milestone date (presale/pre-listing prices are context only). `private: true` deals are excluded from home "Biggest wins" (`rankListedReturns`) and Realistic playbooks.
+- **Trap framing:** loss milestones show "How to avoid it / Cách tránh bẫy" + "What happened / Diễn biến giá". Advice fields (asset/action/buyWhen/sellWhen/estimatedReturn) must never instruct shorting, puts or CDS in any market; VN milestones also not in insiderTip (`src/lib/__tests__/data.test.ts`). Professionals' shorts may be described in past tense with a risk note.
+- **No raw `\uXXXX` in JSX text** — use native glyphs.
+- **Internal provenance** (`claimReview.proposedBy/checkedBy`) never rendered in UI.
+- All corrections and their sources are logged in `docs/research/claim-audit-ledger.md`.
+
+**Open items / next steps:**
+1. **Corrections channel (owner decision, do LAST before release):** "Submit a correction" points to `github.com/justindang/reincarnation-checklist/issues`, which may not exist (no remote). Pick email / form / public repo at launch prep.
+2. Firmer sources for Yahoo-derived prices: Monster entry, Bajaj entry/exit, Olympus exit, CP All entry/exit (ledger lists them). Some research excerpts came from search snippets.
+3. Still "reported, no prices": `gb-black-wednesday-1992`, `jp-softbank-alibaba-stake-2000` (private), `vn-phu-quoc-land-fever-2014` (anecdotal plot quote).
+4. Survival: ~1/3 of events now show a generic dispatch because the hindsight sanitiser is strict — hand-write contemporary dispatches in `src/data`. Pass-card red stamp still overlaps the 5th chip.
+5. Some new VN quiz distractors are plausible invented values (wrong answers, unsourced). A few "buy the dip" phrasings remain in non-VN tips.
+6. Persona items not yet done: easy/pop-culture quiz pool; Survival callout above the fold on home; Magazine Luiza ranked at its peak; Next dev warning "`params` accessed outside `<Suspense>`" on `/[lang]/[country]/[id]`.
+7. Gate 1 step 2 with **real** EN + VI users, then Gate 1 step 4 launch prep.
 
 ---
 
@@ -13,7 +44,7 @@
 
 **Architecture:** Static JSON data (no database) + Next.js App Router with `[lang]` locale segment + client-side interactivity (Canvas card generation, Web Audio SFX, localStorage). Fully static-exportable; currently deployed nowhere (local only).
 
-**Current state:** Feature-complete MVP with 166/166 tests passing (21 suites), build green. Gate 0 stabilization completed across Batches A–D (guardrails, claim audit ledger, automated navigation QA). Working tree clean on `main`.
+**Current state:** Feature-complete MVP, 204/204 tests passing, build green (see §0 for the latest session). Gate 0 stabilization completed across Batches A–D (guardrails, claim audit ledger, automated navigation QA). Working tree clean on `main`.
 
 ---
 
