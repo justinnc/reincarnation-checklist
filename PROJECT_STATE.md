@@ -28,7 +28,7 @@
 - **Analytics notice (`7d9bb12`):** Methodology §5 (EN/VI) discloses exactly what PostHog receives; autocapture, recordings, heatmaps, surveys and exceptions are pinned off in `src/lib/analytics.ts` (asserted in the test). **Owner action still open:** turn on "Discard client IP data" in the PostHog project; there's no code switch for it.
 - **Yahoo-derived prices (open item 2):** CP All entry and exit now confirmed exactly by archived SET pages; Olympus exit, Bajaj entry and Hansen entry are bracketed by company or SEC filings; the Arab News source title is corrected. No price changed. Still Yahoo-only: Bajaj exit close (5 Sep 2024). Details in the ledger section "Yahoo-derived prices: firmer sources".
 
-**Open item 7 note:** the site is already public, so Gate 1 step 4 (launch prep) is partly done de facto — remaining owner decisions: custom domain, feedback channel confirmation, rollback owner, PostHog key/privacy notice (analytics is not mentioned on the methodology page yet).
+**Open item 7 note:** the site is already public, so Gate 1 step 4 (launch prep) is partly done de facto — remaining owner decisions: custom domain, feedback channel confirmation, rollback owner, PostHog "Discard client IP data" setting (the privacy notice itself is done).
 
 ---
 
