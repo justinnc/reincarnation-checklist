@@ -63,6 +63,26 @@ describe("Vietnam market framing", () => {
   });
 });
 
+describe("trap framing in every market", () => {
+  // Advice fields tell an ordinary reader what to do; shorting, puts and CDS may only be
+  // described as what professionals did (insiderTip/pitfalls), never as the instruction.
+  const SHORT_ADVICE = /(?<!ép |siết lệnh )bán khống|\bshort(?:ed|ing|s)?\b(?![- ](?:squeeze|flip|term|lived)|,? memorable)|\bbuy(?:ing)? puts\b|\bput options?\b|quyền chọn bán|credit default swaps?/i;
+  const DESCRIBED_NOT_ADVISED = new Set([
+    "gb-black-wednesday-1992", // private case: describes what Soros did, plus the saver's alternative
+    "de-porsche-vw-short-squeeze-2008", // advice is to *avoid* shorting
+    "kr-daewoo-group-collapse-1999", // "professionals could short", reader is told to exit
+  ]);
+
+  it("never instructs readers to short, buy puts or buy CDS", () => {
+    for (const m of allMilestones) {
+      if (DESCRIBED_NOT_ADVISED.has(m.id)) continue;
+      const o = m.opportunity;
+      const advice = [o.asset, o.action, o.buyWhen, o.sellWhen, o.estimatedReturn].flatMap((x) => (x ? [x.en, x.vi] : []));
+      expect(advice.filter((s) => SHORT_ADVICE.test(s ?? "")), m.id).toEqual([]);
+    }
+  });
+});
+
 describe("historical price corrections", () => {
   it("does not send a historical-only numeric return to client-side gain lists", () => {
     const base = allMilestones[0];

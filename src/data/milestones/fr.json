@@ -300,8 +300,8 @@
         "en": "Eurotunnel (Groupe Eurotunnel)"
       },
       "action": {
-        "vi": "TRÁNH MUA hoặc bán khống nếu có thể — đây là bẫy đầu tư, không phải cơ hội",
-        "en": "AVOID buying, or short if possible — this is a trap, not an opportunity"
+        "vi": "TRÁNH MUA hoàn toàn — đây là bẫy đầu tư, không phải cơ hội",
+        "en": "AVOID buying entirely — this is a trap, not an opportunity"
       },
       "buyWhen": {
         "vi": "Không bao giờ nên mua ở đợt IPO",
@@ -587,8 +587,8 @@
         "en": "Crédit Lyonnais"
       },
       "action": {
-        "vi": "TRÁNH hoặc bán khống cổ phiếu/trái phiếu liên quan trước khi khủng hoảng công bố",
-        "en": "AVOID or short related equity/debt before the crisis was disclosed"
+        "vi": "TRÁNH hoặc bán cổ phiếu/trái phiếu liên quan trước khi khủng hoảng được công bố",
+        "en": "AVOID or sell related shares/bonds before the crisis was disclosed"
       },
       "buyWhen": {
         "vi": "Không nên nắm giữ qua giai đoạn 1992-1995",
@@ -693,7 +693,7 @@
         "vi": "Tăng gấp đôi chỉ trong 2 năm đầu (300→600 franc)",
         "en": "Doubled in just the first 2 years (FF300→FF600)"
       },
-      "returnMultiple": 2.0,
+      "returnMultiple": 2,
       "entryPrice": 300,
       "exitPrice": 600,
       "priceCurrency": "EUR",
@@ -783,7 +783,7 @@
       },
       "sellWhen": {
         "vi": "Cuối 1996, giá 229 franc (lướt sóng ngắn hạn) hoặc giữ dài hạn",
-        "en": "End of 1996 at FF229 (short flip) or hold long-term"
+        "en": "End of 1996 at FF229 (quick flip) or hold long-term"
       },
       "estimatedReturn": {
         "vi": "Gần gấp đôi chỉ trong 6 tháng",
@@ -1150,20 +1150,20 @@
         "en": "CAC 40 index"
       },
       "action": {
-        "vi": "Bán toàn bộ cổ phiếu công nghệ/viễn thông hoặc bán khống chỉ số",
-        "en": "Sell all tech/telecom holdings or short the index"
+        "vi": "Bán toàn bộ cổ phiếu công nghệ/viễn thông quanh đỉnh và giữ tiền mặt",
+        "en": "Sell all tech/telecom holdings near the peak and hold cash"
       },
       "buyWhen": {
-        "vi": "Mua lại (hoặc đóng vị thế short) tại đáy 12/3/2003",
-        "en": "Cover/buy back at the 12 March 2003 bottom"
+        "vi": "Mua lại tại đáy 12/3/2003",
+        "en": "Buy back at the 12 March 2003 bottom"
       },
       "sellWhen": {
         "vi": "4/9/2000, đỉnh 6.922,33 điểm",
         "en": "4 Sept 2000, peak of 6,922.33"
       },
       "estimatedReturn": {
-        "vi": "Tránh được khoản lỗ 65,3%; vị thế bán khống (short) có thể lãi tương ứng mức giảm của chỉ số",
-        "en": "Avoids a 65.3% loss; a short position would gain roughly in proportion to the index's decline"
+        "vi": "Tránh được khoản lỗ 65,3% từ đỉnh đến đáy tháng 3/2003",
+        "en": "Avoids a 65.3% loss from the peak to the March 2003 bottom"
       },
       "entryPrice": 6922.33,
       "exitPrice": 2403.04,
@@ -1173,12 +1173,12 @@
       "capital": "medium"
     },
     "insiderTip": {
-      "vi": "Biết chính xác ngày đỉnh (4/9/2000) và đáy (12/3/2003) cho phép định thời điểm short chỉ số hoặc futures CAC 40 với độ chính xác gần như hoàn hảo.",
-      "en": "Knowing the exact peak (4 Sept 2000) and trough (12 March 2003) dates allows near-perfect timing of a CAC 40 index/futures short."
+      "vi": "Biết chính xác ngày đỉnh (4/9/2000) và đáy (12/3/2003) giúp bạn bán gần đỉnh, giữ tiền mặt và mua lại gần đáy.",
+      "en": "Knowing the exact peak (4 Sept 2000) and trough (12 March 2003) dates lets you sell near the top, sit in cash, and buy back near the bottom."
     },
     "pitfalls": {
-      "vi": "Short bán khống đòi hỏi vốn ký quỹ và chịu được biến động mạnh — thị trường có nhiều đợt hồi phục giả trong 2001-2002 có thể kích hoạt margin call.",
-      "en": "Shorting requires margin and tolerance for violent swings — several false rallies in 2001-2002 could trigger margin calls."
+      "vi": "Nhiều đợt hồi phục giả trong 2001-2002 dễ khiến nhà đầu tư bắt đáy quá sớm. Giới chuyên nghiệp bán khống chỉ số phải ký quỹ, và chính những đợt hồi này có thể kích hoạt margin call — bán khống tiềm ẩn rủi ro lỗ không giới hạn.",
+      "en": "Several false rallies in 2001-2002 tempted investors to buy the dip too early. Professionals who shorted the index needed margin, and those same rallies could trigger margin calls — shorting carries unlimited-loss risk."
     },
     "quiz": {
       "question": {
@@ -1245,8 +1245,8 @@
         "en": "Vivendi Universal"
       },
       "action": {
-        "vi": "Bán hoặc bán khống trước khi công bố lỗ; tránh hoàn toàn cổ phiếu trong giai đoạn thâu tóm điên cuồng",
-        "en": "Sell or short before the loss disclosures; avoid the stock entirely during the acquisition spree"
+        "vi": "Bán trước khi công bố lỗ; tránh hoàn toàn cổ phiếu trong giai đoạn thâu tóm điên cuồng",
+        "en": "Sell before the loss disclosures; avoid the stock entirely during the acquisition spree"
       },
       "buyWhen": {
         "vi": "Không nên mua vào trong giai đoạn 2000-2002",
@@ -1319,8 +1319,8 @@
     "date": "2002-09-30",
     "category": "stocks",
     "title": {
-      "vi": "Bán khống France Télécom tới đáy 2002",
-      "en": "Shorting France Télécom to its 2002 low"
+      "vi": "France Télécom sụp đổ 97% (2000–2002)",
+      "en": "France Télécom's 97% collapse (2000–2002)"
     },
     "summary": {
       "vi": "Từ đỉnh 219 euro (3/2000), cổ phiếu France Télécom rơi tự do xuống 6,94 euro ngày 30/9/2002 — giảm 97%.",
@@ -1336,20 +1336,20 @@
         "en": "France Télécom (ORA.PA)"
       },
       "action": {
-        "vi": "Bán khống từ đỉnh 2000, đóng vị thế khi giá chạm đáy cuối 9/2002",
-        "en": "Short from the 2000 peak, cover when price bottoms in late Sept 2002"
+        "vi": "Bán hoặc đứng ngoài quanh đỉnh năm 2000; có thể mua lại gần đáy cuối 9/2002",
+        "en": "Sell or stay out near the 2000 peak; optionally buy back near the late-Sept 2002 bottom"
       },
       "buyWhen": {
-        "vi": "Đóng vị thế short (mua lại) ngày 30/9/2002, giá 6,94 euro",
-        "en": "Cover (buy back) on 30 Sept 2002 at €6.94"
+        "vi": "Đừng mua gần đỉnh tháng 3/2000 (219 euro); nếu muốn mua lại, chờ đáy ngày 30/9/2002 ở mức 6,94 euro",
+        "en": "Don't buy near the March 2000 peak (€219); if buying back, wait for the 30 Sept 2002 bottom at €6.94"
       },
       "sellWhen": {
-        "vi": "Mở vị thế short đầu tháng 3/2000, giá 219 euro",
-        "en": "Open the short in early March 2000 at €219"
+        "vi": "Bán trước hoặc trong đầu tháng 3/2000, gần đỉnh 219 euro",
+        "en": "Sell by early March 2000, near the €219 peak"
       },
       "estimatedReturn": {
-        "vi": "Lãi khoảng 97% trên vị thế short nếu giữ trọn vẹn đến đáy",
-        "en": "~97% gain on a short position held to the exact bottom"
+        "vi": "Tránh được khoản lỗ khoảng 97%: cổ phiếu mua gần đỉnh 219 euro chỉ còn 6,94 euro tại đáy 30/9/2002",
+        "en": "Avoids a ~97% loss: shares bought near the €219 peak were worth €6.94 at the 30 Sept 2002 bottom"
       },
       "returnMultiple": 0.0317,
       "entryPrice": 219,
@@ -1360,12 +1360,12 @@
       "capital": "medium"
     },
     "insiderTip": {
-      "vi": "Biết đáy chính xác là 30/9/2002 cho phép đóng vị thế short đúng lúc trước khi cổ phiếu bật tăng hơn 25% chỉ trong 2 ngày sau tin bổ nhiệm CEO mới và kế hoạch TOP tháng 12/2002.",
-      "en": "Knowing the exact 30 Sept 2002 bottom lets a trader cover the short right before the stock jumped over 25% in two days on the new-CEO and TOP-plan news in December 2002."
+      "vi": "Biết đáy chính xác là 30/9/2002 giúp nhà đầu tư đã bán gần đỉnh mua lại đúng lúc, trước khi cổ phiếu bật tăng hơn 25% chỉ trong 2 ngày sau tin bổ nhiệm CEO mới và kế hoạch TOP tháng 12/2002.",
+      "en": "Knowing the exact 30 Sept 2002 bottom lets an investor who sold near the peak buy back right before the stock jumped over 25% in two days on the new-CEO and TOP-plan news in December 2002."
     },
     "pitfalls": {
-      "vi": "Bán khống cổ phiếu quốc doanh lớn rủi ro bị can thiệp chính trị/nhà nước bất ngờ hỗ trợ, có thể gây short squeeze.",
-      "en": "Shorting a major state-linked stock risks sudden political/state intervention support that could trigger a short squeeze."
+      "vi": "Bắt đáy trên đà giảm chính là cái bẫy — cổ phiếu tiếp tục rơi đến 6,94 euro. Giới chuyên nghiệp bán khống cổ phiếu quốc doanh lớn này còn đối mặt rủi ro nhà nước bất ngờ can thiệp hỗ trợ, gây short squeeze, cộng thêm chi phí vay cổ phiếu và rủi ro lỗ không giới hạn.",
+      "en": "Buying the dip on the way down was the trap — the stock kept falling to €6.94. Professionals who shorted this major state-linked stock also faced the risk of sudden political/state support triggering a short squeeze, on top of borrowing costs and unlimited-loss risk."
     },
     "quiz": {
       "question": {
@@ -1528,16 +1528,16 @@
         "en": "Société Générale (GLE.PA)"
       },
       "action": {
-        "vi": "Bán khống ngắn hạn quanh tin tức, sau đó mua lại khi giá quá bán phục hồi",
-        "en": "Short the headline shock, then buy the oversold rebound"
+        "vi": "Đứng ngoài hoặc bán trước cú sốc tin tức, sau đó cân nhắc mua khi giá quá bán phục hồi",
+        "en": "Stay out or sell before the headline shock, then consider buying the oversold rebound"
       },
       "buyWhen": {
         "vi": "Sau khi tăng vốn khẩn cấp được công bố, giá đã chiết khấu sâu",
         "en": "After the emergency capital raise, once the stock was deeply discounted"
       },
       "sellWhen": {
-        "vi": "Bán/short trước khi công bố chính thức ngày 24/1/2008",
-        "en": "Sell/short before the 24 Jan 2008 public disclosure"
+        "vi": "Bán trước khi công bố chính thức ngày 24/1/2008",
+        "en": "Sell before the 24 Jan 2008 public disclosure"
       },
       "estimatedReturn": {
         "vi": "Tránh khoản sụt giảm hơn 20% trong vài ngày; cơ hội mua giá rẻ sau đó",
@@ -1547,8 +1547,8 @@
       "capital": "medium"
     },
     "insiderTip": {
-      "vi": "Biết chính xác ngày công bố (24/1/2008) và quy mô thiệt hại (4,9 tỷ euro) cho phép định vị giao dịch quyền chọn hoặc short trước khi tin tức ra ngoài.",
-      "en": "Knowing the exact disclosure date (24 Jan 2008) and loss size (€4.9bn) allows positioning options or shorts ahead of the public news."
+      "vi": "Biết chính xác ngày công bố (24/1/2008) và quy mô thiệt hại (4,9 tỷ euro) giúp bạn thoát vị thế trước khi tin tức ra ngoài và chờ mức giá chiết khấu sâu sau đợt tăng vốn khẩn cấp.",
+      "en": "Knowing the exact disclosure date (24 Jan 2008) and loss size (€4.9bn) lets you exit before the public news and wait for the deeply discounted price after the emergency capital raise."
     },
     "pitfalls": {
       "vi": "Sự kiện trùng thời điểm thị trường toàn cầu đã biến động mạnh (đầu khủng hoảng tài chính 2008), khiến việc tách bạch nguyên nhân giảm giá khó khăn.",
@@ -1923,7 +1923,7 @@
       },
       "returnMultiple": 2.61,
       "entryPrice": 278.7,
-      "exitPrice": 727.0,
+      "exitPrice": 727,
       "priceCurrency": "EUR",
       "exitDate": "2021-12-31",
       "risk": "medium",
@@ -2098,16 +2098,16 @@
         "en": "Orpea SA (ORP.PA, now Emeis)"
       },
       "action": {
-        "vi": "Thoát Orpea hoặc bán khống trước khi Le Monde đăng trích đoạn sách",
-        "en": "Exit or short Orpea before Le Monde publishes the book excerpts"
+        "vi": "Thoát Orpea trước khi Le Monde đăng trích đoạn sách",
+        "en": "Exit Orpea before Le Monde publishes the book excerpts"
       },
       "buyWhen": {
         "vi": "Không mua — đóng vị thế mua trước ngày 24/1/2022",
         "en": "Don't buy — close any long before 24 January 2022"
       },
       "sellWhen": {
-        "vi": "Phiên 21/1/2022 (thứ Sáu trước ngày đăng báo); nếu bán khống, có thể chốt quanh 26/1/2022",
-        "en": "On 21 January 2022 (the Friday before publication); a short could be covered around 26 January 2022"
+        "vi": "Phiên 21/1/2022 (thứ Sáu trước ngày đăng báo)",
+        "en": "On 21 January 2022 (the Friday before publication)"
       },
       "estimatedReturn": {
         "vi": "Tránh được khoản lỗ khoảng 43% trong ba phiên, và hơn 90% trong một năm",
@@ -2126,8 +2126,8 @@
       "en": "A reincarnated investor knows the date Le Monde will run the story and that Orpea will never see EUR 80 again. Bloomberg noted short interest in Orpea was already at its highest since July just before publication, so some funds seem to have smelled trouble early."
     },
     "pitfalls": {
-      "vi": "Giá vào 82,58 EUR được suy ra từ mức giảm 16,11% về 69,28 EUR, còn 46,94 EUR là giá trong phiên chứ không phải giá đóng cửa. Cổ phiếu bị tạm ngừng giao dịch nhiều lần, nên lệnh bán khống có thể bị kẹt. Ai biết trước nội dung cuốn sách nhờ làm ở nhà xuất bản hay toà soạn mà giao dịch thì phạm tội giao dịch nội gián. Bắt đáy cũng là sai lầm: cổ đông cũ gần như bị xóa sạch trong đợt tái cấu trúc.",
-      "en": "The EUR 82.58 entry is derived from the 16.11% fall to EUR 69.28, and EUR 46.94 is an intraday quote, not a close. Trading was suspended more than once, so shorts could get stuck. Anyone trading on advance knowledge of the book through a publisher or newsroom would be committing insider dealing. Bottom-fishing was also a trap: existing shareholders were almost wiped out in the restructuring."
+      "vi": "Giá vào 82,58 EUR được suy ra từ mức giảm 16,11% về 69,28 EUR, còn 46,94 EUR là giá trong phiên chứ không phải giá đóng cửa. Cổ phiếu bị tạm ngừng giao dịch nhiều lần, nên người nắm giữ có thể bị kẹt không bán được (người bán khống cũng có thể bị mắc kẹt). Ai biết trước nội dung cuốn sách nhờ làm ở nhà xuất bản hay toà soạn mà giao dịch thì phạm tội giao dịch nội gián. Bắt đáy cũng là sai lầm: cổ đông cũ gần như bị xóa sạch trong đợt tái cấu trúc.",
+      "en": "The EUR 82.58 entry is derived from the 16.11% fall to EUR 69.28, and EUR 46.94 is an intraday quote, not a close. Trading was suspended more than once, so holders could get stuck unable to sell (short sellers could get trapped too). Anyone trading on advance knowledge of the book through a publisher or newsroom would be committing insider dealing. Bottom-fishing was also a trap: existing shareholders were almost wiped out in the restructuring."
     },
     "quiz": {
       "question": {

@@ -111,35 +111,35 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "USD/ITL or DEM/ITL (short lira)",
-        "en": "USD/ITL or DEM/ITL (short lira)"
+        "vi": "Tiền tiết kiệm bằng USD hoặc DEM thay vì lira Ý",
+        "en": "Savings in USD or DEM instead of Italian lira"
       },
       "action": {
-        "vi": "Bán khống đồng lira trước ngày 16/9/1992, hoặc mua ngoại tệ mạnh (USD/DEM) trước khủng hoảng",
-        "en": "Short the Italian lira before 16 September 1992, or hold hard currency (USD/DEM) ahead of the crisis"
+        "vi": "Giữ tiền tiết kiệm bằng ngoại tệ mạnh (USD/DEM) thay vì lira trước ngày 16/9/1992",
+        "en": "Hold savings in hard currency (USD/DEM) rather than lira before 16 September 1992"
       },
       "buyWhen": {
-        "vi": "Đầu tháng 9/1992 khi áp lực lên ERM đã rõ ràng",
-        "en": "Early September 1992, once pressure on the ERM was evident"
+        "vi": "Đổi tiền tiết kiệm từ lira sang USD/DEM vào đầu tháng 9/1992 khi áp lực lên ERM đã rõ ràng",
+        "en": "Convert lira savings into USD/DEM in early September 1992, once pressure on the ERM was evident"
       },
       "sellWhen": {
-        "vi": "Ngay sau khi lira rút khỏi ERM và mất giá mạnh (cuối tháng 9/1992)",
-        "en": "Right after the lira exited the ERM and devalued sharply (late September 1992)"
+        "vi": "Chỉ đổi lại khi cần, sau khi lira rút khỏi ERM và mất giá mạnh (cuối tháng 9/1992)",
+        "en": "Convert back only if needed, after the lira exited the ERM and devalued sharply (late September 1992)"
       },
       "estimatedReturn": {
-        "vi": "Khoảng 20-30% trên vị thế bán khống lira trong vài tuần",
-        "en": "Roughly 20-30% on a short-lira position within weeks"
+        "vi": "Tiền tiết kiệm giữ bằng USD/DEM tránh được mức mất giá khoảng 20-30% của lira trong vài tuần",
+        "en": "Savings held in USD/DEM avoided a roughly 20-30% fall in the lira within weeks"
       },
       "risk": "high",
       "capital": "medium"
     },
     "insiderTip": {
-      "vi": "Biết trước chính xác ngày 16/9/1992 cho phép đặt cược đòn bẩy cực lớn vào việc lira sụp đổ, giống như Soros đã làm với bảng Anh.",
-      "en": "Knowing the exact date of 16 September 1992 lets you place a maximally leveraged bet on the lira's collapse, just as Soros did with the pound."
+      "vi": "Biết trước chính xác ngày 16/9/1992 cho phép chuyển tiền tiết kiệm khỏi lira kịp thời. Giới chuyên nghiệp đã đặt cược đòn bẩy lớn vào việc lira sụp đổ, giống như Soros làm với bảng Anh — những giao dịch có thể gây thua lỗ nặng nề nếu việc bảo vệ tỷ giá thành công.",
+      "en": "Knowing the exact date of 16 September 1992 lets you move savings out of lira in time. Professionals placed heavily leveraged bets on the collapse, as Soros did with the pound — trades that could have been ruinous had the defence held."
     },
     "pitfalls": {
-      "vi": "Ngân hàng Ý can thiệp mạnh trước đó khiến thời điểm chính xác khó đoán nếu không biết trước; đòn bẩy cao trên FX có thể bị thanh lý nếu vào lệnh quá sớm.",
-      "en": "The Bank of Italy intervened heavily beforehand, so timing is hard without foreknowledge; high FX leverage risks liquidation if the position is entered too early."
+      "vi": "Ngân hàng Ý can thiệp mạnh trước đó khiến thời điểm chính xác khó đoán nếu không biết trước; đòn bẩy cao trên FX có thể bị thanh lý nếu vào lệnh quá sớm — thêm lý do để cách làm thực tế chỉ là giữ ngoại tệ mạnh.",
+      "en": "The Bank of Italy intervened heavily beforehand, so timing is hard without foreknowledge; high FX leverage risked liquidation for anyone entering too early — another reason the realistic move is simply holding hard currency."
     },
     "quiz": {
       "question": {
@@ -492,8 +492,8 @@
         "en": "Sell or avoid Telecom Italia / Nuovo Mercato shares before the bubble burst in March 2000"
       },
       "buyWhen": {
-        "vi": "Không mua - đây là cơ hội BÁN hoặc bán khống",
-        "en": "Do not buy - this is a SELL or short opportunity"
+        "vi": "Không mua - đây là cơ hội BÁN hoặc đứng ngoài",
+        "en": "Do not buy - this is a SELL / stay-out opportunity"
       },
       "sellWhen": {
         "vi": "Trước hoặc ngay đầu tháng 3/2000",
@@ -511,8 +511,8 @@
       "capital": "medium"
     },
     "insiderTip": {
-      "vi": "Biết chính xác ngày đỉnh (6/3/2000 cho cổ phiếu phổ thông theo TradingView) cho phép bán toàn bộ hoặc bán khống ngay trước khi dot-com sụp đổ toàn cầu.",
-      "en": "Knowing the exact peak date (6 March 2000 for ordinary shares per TradingView) lets you sell everything or go short right before the global dot-com collapse."
+      "vi": "Biết chính xác ngày đỉnh (6/3/2000 cho cổ phiếu phổ thông theo TradingView) cho phép bán toàn bộ và giữ tiền mặt ngay trước khi dot-com sụp đổ toàn cầu.",
+      "en": "Knowing the exact peak date (6 March 2000 for ordinary shares per TradingView) lets you sell everything and hold cash right before the global dot-com collapse."
     },
     "pitfalls": {
       "vi": "Các nguồn có số liệu đỉnh hơi khác nhau (báo cáo công ty vs TradingView) do điều chỉnh cổ tức/tách cổ phiếu; không nên nhầm giữa cổ phiếu phổ thông và cổ phiếu tiết kiệm.",
@@ -677,20 +677,20 @@
         "en": "Parmalat Finanziaria S.p.A."
       },
       "action": {
-        "vi": "Bán khống hoặc thoát toàn bộ vị thế Parmalat trước tháng 12/2003",
-        "en": "Short or fully exit any Parmalat position before December 2003"
+        "vi": "Thoát toàn bộ vị thế Parmalat trước tháng 12/2003",
+        "en": "Fully exit any Parmalat position before December 2003"
       },
       "buyWhen": {
-        "vi": "Không mua trước sự kiện - đây là cơ hội bán khống/tránh",
-        "en": "Do not buy before the event - this is a short/avoid play"
+        "vi": "Không mua trước sự kiện - đây là trường hợp nên tránh",
+        "en": "Do not buy before the event - this is an avoid play"
       },
       "sellWhen": {
         "vi": "Trước ngày 9/12/2003 khi công ty vỡ nợ khoản trái phiếu 150 triệu euro đầu tiên",
         "en": "Before 9 December 2003, when the company first defaulted on a EUR 150 million bond payment"
       },
       "estimatedReturn": {
-        "vi": "Tránh được khoản lỗ gần như toàn bộ (95%) hoặc thu lợi lớn từ vị thế bán khống",
-        "en": "Avoids a near-total (95%) loss, or captures large gains from a short position"
+        "vi": "Tránh được khoản lỗ gần như toàn bộ (95%)",
+        "en": "Avoids a near-total (95%) loss"
       },
       "exitPrice": 0.4,
       "priceCurrency": "USD",
@@ -699,8 +699,8 @@
       "capital": "low"
     },
     "insiderTip": {
-      "vi": "Biết trước ngày 19/12/2003 là lúc gian lận bị phanh phui cho phép thoát vị thế hoặc mở bán khống đúng lúc tối ưu, trước cả khi S&P hạ xếp hạng tín dụng xuống 'junk'.",
-      "en": "Knowing 19 December 2003 is when the fraud surfaced lets you exit or open a short at the optimal moment, even before S&P downgraded the debt to junk."
+      "vi": "Biết trước ngày 19/12/2003 là lúc gian lận bị phanh phui cho phép thoát vị thế đúng lúc, trước cả khi S&P hạ xếp hạng tín dụng xuống 'junk' — và không nhầm các đợt giảm giá trước đó là cơ hội mua vào.",
+      "en": "Knowing 19 December 2003 is when the fraud surfaced lets you exit at the right moment, even before S&P downgraded the debt to junk — and not mistake the earlier price drops for a buying opportunity."
     },
     "pitfalls": {
       "vi": "Cổ phiếu đã biến động mạnh trước đó do tin đồn, dễ bị dừng giao dịch đột ngột (29/12/2003) khiến khó thoát vị thế nếu vào quá muộn.",
@@ -2085,8 +2085,8 @@
         "en": "Banca Monte dei Paschi di Siena (BMPS.MI)"
       },
       "action": {
-        "vi": "Thoát MPS hoặc bán khống trước khi Il Fatto Quotidiano đăng bài về hợp đồng 'Alexandria'",
-        "en": "Exit or short MPS before Il Fatto Quotidiano publishes the 'Alexandria' story"
+        "vi": "Thoát MPS trước khi Il Fatto Quotidiano đăng bài về hợp đồng 'Alexandria'",
+        "en": "Exit MPS before Il Fatto Quotidiano publishes the 'Alexandria' story"
       },
       "buyWhen": {
         "vi": "Không mua — đóng vị thế trước ngày 22/1/2013",
@@ -2113,8 +2113,8 @@
       "en": "A reincarnated investor knows MPS will need repeated rescues (2014, 2015 and a state bailout in 2017), so the 'Alexandria' scandal is not a buying opportunity but a signal to leave the stock for good."
     },
     "pitfalls": {
-      "vi": "Cổ phiếu bị tạm ngừng giao dịch nhiều lần vì giảm quá biên độ, và Ý từng hạn chế bán khống cổ phiếu ngân hàng trong khủng hoảng, nên vị thế bán có thể không khớp lệnh. Vụ án hình sự kết thúc bằng trắng án ở phúc thẩm, nên không nên gọi các cá nhân là 'đã bị kết tội'. Giá năm 2013 cũng chưa điều chỉnh cho các lần gộp cổ phiếu sau này.",
-      "en": "The stock was repeatedly suspended limit-down, and Italy had restricted short-selling of bank shares during the crisis, so a short might not fill. The criminal case ended in acquittals on appeal, so don't describe the individuals as 'convicted'. 2013 prices are also not adjusted for later reverse splits."
+      "vi": "Cổ phiếu bị tạm ngừng giao dịch nhiều lần vì giảm quá biên độ, nên lệnh bán có thể không khớp khi tin đã ra — hãy thoát sớm (Ý cũng từng hạn chế bán khống cổ phiếu ngân hàng trong khủng hoảng). Vụ án hình sự kết thúc bằng trắng án ở phúc thẩm, nên không nên gọi các cá nhân là 'đã bị kết tội'. Giá năm 2013 cũng chưa điều chỉnh cho các lần gộp cổ phiếu sau này.",
+      "en": "The stock was repeatedly suspended limit-down, so sell orders might not fill once the news broke — get out early (Italy had also restricted short-selling of bank shares during the crisis). The criminal case ended in acquittals on appeal, so don't describe the individuals as 'convicted'. 2013 prices are also not adjusted for later reverse splits."
     },
     "quiz": {
       "question": {

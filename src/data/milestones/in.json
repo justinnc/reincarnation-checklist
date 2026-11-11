@@ -225,8 +225,8 @@
       "capital": "medium"
     },
     "insiderTip": {
-      "vi": "Biết trước bài báo ngày 23/4/1992 sắp nổ ra, hãy bán khống hoặc thoát hoàn toàn khỏi thị trường đầu tháng 4/1992 — đừng tin vào đà tăng “không thể cản” của Mehta.",
-      "en": "Knowing the 23 April 1992 exposé is coming, sell out or short the market in early April 1992 — don't believe Mehta's 'unstoppable' rally."
+      "vi": "Biết trước bài báo ngày 23/4/1992 sắp nổ ra, hãy thoát hoàn toàn khỏi thị trường đầu tháng 4/1992 và giữ tiền mặt — đừng tin vào đà tăng “không thể cản” của Mehta.",
+      "en": "Knowing the 23 April 1992 exposé is coming, sell out of the market entirely in early April 1992 and hold cash — don't believe Mehta's 'unstoppable' rally."
     },
     "pitfalls": {
       "vi": "Nhiều nhà đầu tư nhỏ lẻ đi theo các mã Mehta mua vì tin vào thành tích của ông; khi sự thật lộ ra, hàng trăm nghìn tài khoản mất trắng tiền tiết kiệm.",
@@ -950,8 +950,8 @@
         "en": "Satyam Computer Services Ltd"
       },
       "action": {
-        "vi": "Bán toàn bộ hoặc bán khống cổ phiếu Satyam trước ngày 7/1/2009; tránh xa các cổ phiếu có dấu hiệu quản trị doanh nghiệp đáng ngờ tương tự.",
-        "en": "Sell out of or short Satyam stock before 7 January 2009; avoid other stocks showing similarly dubious corporate-governance red flags."
+        "vi": "Bán toàn bộ cổ phiếu Satyam trước ngày 7/1/2009; tránh xa các cổ phiếu có dấu hiệu quản trị doanh nghiệp đáng ngờ tương tự.",
+        "en": "Sell out of Satyam stock before 7 January 2009; avoid other stocks showing similarly dubious corporate-governance red flags."
       },
       "buyWhen": {
         "vi": "Không mua — đây là tín hiệu bán/tránh",
@@ -1414,8 +1414,8 @@
         "en": "Reliance Industries Ltd (NSE: RELIANCE)"
       },
       "action": {
-        "vi": "Mua cổ phiếu Reliance Industries trước khi Jio ra mắt tháng 9/2016 và giữ qua giai đoạn Jio trở thành nhà mạng lớn nhất Ấn Độ; tránh/bán khống các cổ phiếu viễn thông đối thủ (Bharti Airtel, Vodafone Idea) cùng thời điểm.",
-        "en": "Buy Reliance Industries stock before Jio's September 2016 launch and hold as Jio becomes India's largest carrier; avoid/short rival telecom stocks (Bharti Airtel, Vodafone Idea) over the same period."
+        "vi": "Mua cổ phiếu Reliance Industries trước khi Jio ra mắt tháng 9/2016 và giữ qua giai đoạn Jio trở thành nhà mạng lớn nhất Ấn Độ; tránh các cổ phiếu viễn thông đối thủ (Bharti Airtel, Vodafone Idea) cùng thời điểm.",
+        "en": "Buy Reliance Industries stock before Jio's September 2016 launch and hold as Jio becomes India's largest carrier; avoid rival telecom stocks (Bharti Airtel, Vodafone Idea) over the same period."
       },
       "buyWhen": {
         "vi": "Trước ngày 1/9/2016 (ngày công bố) hoặc 5/9/2016 (ngày ra mắt chính thức)",
@@ -1690,8 +1690,8 @@
         "en": "Yes Bank Ltd (NSE: YESBANK)"
       },
       "action": {
-        "vi": "Bán hoặc bán khống cổ phiếu Yes Bank trước khi RBI công bố lệnh hoãn trả nợ; tránh hoàn toàn các ngân hàng có tỷ lệ nợ xấu phình to từ cho vay tập trung vào nhóm doanh nghiệp rủi ro cao.",
-        "en": "Sell or short Yes Bank stock before the RBI's moratorium announcement; avoid banks with ballooning bad-loan ratios concentrated in high-risk corporate borrowers altogether."
+        "vi": "Bán cổ phiếu Yes Bank trước khi RBI công bố lệnh hoãn trả nợ; tránh hoàn toàn các ngân hàng có tỷ lệ nợ xấu phình to từ cho vay tập trung vào nhóm doanh nghiệp rủi ro cao.",
+        "en": "Sell Yes Bank stock before the RBI's moratorium announcement; avoid banks with ballooning bad-loan ratios concentrated in high-risk corporate borrowers altogether."
       },
       "buyWhen": {
         "vi": "Không mua — đây là tín hiệu bán/tránh rõ ràng",
@@ -2074,12 +2074,12 @@
         "en": "Adani Enterprises & other listed Adani Group companies"
       },
       "action": {
-        "vi": "Bán hoặc bán khống các cổ phiếu Adani Group ngay khi báo cáo Hindenburg được công bố ngày 24/1/2023; tránh tham gia đợt FPO 2,5 tỷ USD đang chào bán cùng thời điểm.",
-        "en": "Sell or short Adani Group stocks the moment the Hindenburg report drops on 24 January 2023; avoid the concurrent $2.5bn follow-on share offering entirely."
+        "vi": "Bán các cổ phiếu Adani Group ngay khi báo cáo Hindenburg được công bố ngày 24/1/2023 và đừng bắt đáy; tránh hoàn toàn đợt FPO 2,5 tỷ USD đang chào bán cùng thời điểm.",
+        "en": "Sell Adani Group stocks the moment the Hindenburg report drops on 24 January 2023, and don't buy the dip; avoid the concurrent $2.5bn follow-on share offering entirely."
       },
       "buyWhen": {
-        "vi": "Không mua — đây là tín hiệu bán/tránh/bán khống",
-        "en": "N/A — this is a sell/avoid/short signal"
+        "vi": "Không mua — đây là tín hiệu bán/tránh",
+        "en": "N/A — this is a sell/avoid signal"
       },
       "sellWhen": {
         "vi": "Ngay ngày 24/1/2023, khi báo cáo được công bố",
@@ -2098,8 +2098,8 @@
       "en": "Knowing the Hindenburg report drops on exactly 24 January 2023 and will trigger the largest sell-off ever for an Indian conglomerate, exit all Adani Group positions and cancel any FPO subscription ahead of that date."
     },
     "pitfalls": {
-      "vi": "Cổ phiếu Adani phục hồi đáng kể trong các năm sau (2024-2025) khi tập đoàn bác bỏ cáo buộc và ổn định tài chính — bán khống quá lâu sau cú sập ban đầu có thể gây lỗ nếu không chốt lời đúng thời điểm.",
-      "en": "Adani stocks recovered substantially in later years (2024-2025) as the group denied the allegations and stabilized its finances — staying short too long after the initial crash could produce losses if profits weren't locked in at the right time."
+      "vi": "Cổ phiếu Adani phục hồi đáng kể trong các năm sau (2024-2025) khi tập đoàn bác bỏ cáo buộc và ổn định tài chính. Quỹ bán khống Hindenburg có lãi, nhưng đặt cược giá giảm mang rủi ro lỗ không giới hạn, chi phí vay cổ phiếu và nguy cơ bị ép giá — và nhà đầu tư cá nhân tại Ấn Độ bị hạn chế bán khống. Với nhà đầu tư thông thường, lựa chọn thực tế là thoát ra, không phải đặt cược vào cú sập.",
+      "en": "Adani stocks recovered substantially in later years (2024-2025) as the group denied the allegations and stabilized its finances. Short-seller Hindenburg profited, but betting against a stock carries unlimited loss risk, borrowing costs and squeeze risk — and retail short-selling in India is restricted. For ordinary investors, the realistic move was to exit, not to bet on the fall."
     },
     "quiz": {
       "question": {

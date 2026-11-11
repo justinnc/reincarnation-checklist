@@ -399,8 +399,8 @@
         "en": "FTSE 100 index / UK blue-chip equities"
       },
       "action": {
-        "vi": "Bán khống hoặc thoát vị thế cổ phiếu trước ngày 19/10, sau đó mua lại đáy",
-        "en": "Short or exit equities before 19 Oct, then buy back near the bottom"
+        "vi": "Thoát vị thế cổ phiếu trước ngày 19/10, sau đó mua lại gần đáy",
+        "en": "Exit equities before 19 Oct, then buy back near the bottom"
       },
       "buyWhen": {
         "vi": "Mua lại sau khi thị trường ổn định cuối tháng 10/đầu tháng 11/1987",
@@ -422,12 +422,12 @@
       "capital": "medium"
     },
     "insiderTip": {
-      "vi": "Biết chính xác ngày sụp đổ, bán khống chỉ số FTSE 100 hoặc mua quyền chọn bán (put option) ngay trước ngày 19/10/1987 để thu lợi khổng lồ từ cú sốc một ngày.",
-      "en": "Knowing the exact crash date, short the FTSE 100 or buy put options right before 19 Oct 1987 to profit massively from the single-day shock."
+      "vi": "Biết chính xác ngày sụp đổ, chuyển các khoản nắm giữ FTSE 100 sang tiền mặt ngay trước ngày 19/10/1987, rồi chờ thị trường ổn định mới mua lại. Giới chuyên nghiệp thời đó cũng dùng bán khống hoặc quyền chọn bán (put option), nhưng các công cụ này có rủi ro đòn bẩy, hết hạn và bị 'squeeze'.",
+      "en": "Knowing the exact crash date, move FTSE 100 holdings into cash right before 19 Oct 1987, then wait for markets to stabilise before buying back. Professionals at the time also used shorts or put options, but those carry leverage, expiry and squeeze risks."
     },
     "pitfalls": {
-      "vi": "Thị trường hồi phục khá nhanh trong 2 năm sau đó nên giữ vị thế short quá lâu sẽ mất lợi nhuận; thị trường tổng thể giảm khoảng 31% từ đỉnh xuống đáy trong năm 1987.",
-      "en": "Markets recovered fairly quickly over the following two years, so holding a short position too long would give back the gains; the broader 1987 peak-to-trough fall was about 31%."
+      "vi": "Thị trường hồi phục khá nhanh trong 2 năm sau đó nên đứng ngoài quá lâu sẽ bỏ lỡ nhịp hồi; thị trường tổng thể giảm khoảng 31% từ đỉnh xuống đáy trong năm 1987.",
+      "en": "Markets recovered fairly quickly over the following two years, so staying in cash too long would miss the rebound; the broader 1987 peak-to-trough fall was about 31%."
     },
     "quiz": {
       "question": {
@@ -494,16 +494,16 @@
         "en": "GBP/DEM (British pound vs Deutschmark)"
       },
       "action": {
-        "vi": "Bán khống đồng Bảng Anh trước ngày 16/9/1992",
-        "en": "Short the British pound ahead of 16 Sept 1992"
+        "vi": "Soros bán khống đồng Bảng Anh trước ngày 16/9/1992; với người tiết kiệm bình thường, cách thực tế là giữ tiền tiết kiệm bằng Mark Đức hoặc USD thay vì Bảng Anh",
+        "en": "Soros shorted the British pound ahead of 16 Sept 1992; for ordinary savers, the realistic move was holding savings in Deutschmarks or dollars instead of pounds"
       },
       "buyWhen": {
-        "vi": "Mở vị thế bán khống GBP trong các tuần đầu tháng 9/1992 khi áp lực ERM gia tăng",
-        "en": "Open the GBP short in early September 1992 as ERM pressure mounted"
+        "vi": "Soros xây dựng vị thế bán khống GBP trong các tuần đầu tháng 9/1992 khi áp lực ERM gia tăng; người tiết kiệm sẽ đổi Bảng sang DEM/USD trong cùng khoảng thời gian đó",
+        "en": "Soros built his GBP short in early September 1992 as ERM pressure mounted; a saver would have switched pounds into DEM/USD in the same window"
       },
       "sellWhen": {
-        "vi": "Đóng vị thế ngay sau khi Anh rút khỏi ERM ngày 16/9/1992, khi đồng Bảng mất giá khoảng 15% so với Mark Đức",
-        "en": "Close the position right after the UK exited the ERM on 16 Sept 1992, once sterling had fallen roughly 15% against the Deutschmark"
+        "vi": "Soros đóng vị thế ngay sau khi Anh rút khỏi ERM ngày 16/9/1992, khi đồng Bảng đã mất giá khoảng 15% so với Mark Đức",
+        "en": "Soros closed the position right after the UK exited the ERM on 16 Sept 1992, once sterling had fallen roughly 15% against the Deutschmark"
       },
       "estimatedReturn": {
         "vi": "Soros lãi khoảng 1 tỷ USD trên vị thế khoảng 10 tỷ USD",
@@ -516,12 +516,12 @@
       "capital": "high"
     },
     "insiderTip": {
-      "vi": "Biết chắc chắn Chính phủ Anh sẽ thất bại trong việc bảo vệ tỷ giá sàn 2,778 Mark Đức/Bảng, vay càng nhiều Bảng càng tốt để bán khống ngay từ đầu tháng 9/1992 — không cần chờ đến gần ngày 16/9 như Soros đã làm.",
-      "en": "Knowing for certain the UK would fail to defend its 2.778 Deutschmark floor, borrow and short as much sterling as possible from early September 1992 rather than waiting, as Soros did, until closer to the 16th."
+      "vi": "Quỹ của Soros đã vay Bảng Anh để bán, đặt cược rằng Chính phủ Anh không giữ nổi tỷ giá sàn 2,778 Mark Đức/Bảng. Với lợi thế biết trước, người tiết kiệm bình thường không cần đặt cược như vậy: chỉ cần giữ tiền bằng Mark Đức hoặc USD thay vì Bảng Anh từ đầu tháng 9/1992 là tránh được mức mất giá khoảng 15%.",
+      "en": "Soros's fund borrowed sterling and sold it, betting the UK could not defend its 2.778 Deutschmark floor. With hindsight, an ordinary saver did not need that bet: simply holding savings in Deutschmarks or dollars rather than pounds from early September 1992 avoided the roughly 15% fall."
     },
     "pitfalls": {
-      "vi": "Chiến lược bán khống đòi hỏi vốn và đòn bẩy rất lớn; nếu Chính phủ Anh bảo vệ thành công tỷ giá (như nhiều người kỳ vọng ban đầu), khoản lỗ có thể vô cùng lớn.",
-      "en": "The short strategy required enormous capital and leverage; had the UK government successfully defended the rate (as many initially expected), losses could have been catastrophic."
+      "vi": "Giao dịch của Soros đòi hỏi vốn và đòn bẩy rất lớn; nếu Chính phủ Anh bảo vệ thành công tỷ giá (như nhiều người kỳ vọng ban đầu), khoản lỗ có thể vô cùng lớn. Bán khống tiền tệ kéo theo chi phí vay và rủi ro lỗ không giới hạn — không phải chiến lược dành cho người tiết kiệm cá nhân.",
+      "en": "Soros's trade required enormous capital and leverage; had the UK government successfully defended the rate (as many initially expected), losses could have been catastrophic. Short-selling a currency means borrowing costs and potentially unlimited losses — not a strategy for retail savers."
     },
     "quiz": {
       "question": {
@@ -901,12 +901,12 @@
       "capital": "medium"
     },
     "insiderTip": {
-      "vi": "Biết chính xác bong bóng dot-com sẽ sụp đổ ngay sau Tết 2000, bán khống chỉ số FTSE 100 hoặc các cổ phiếu công nghệ/viễn thông (như BT, Marconi, Vodafone) ngay tại đỉnh tháng 12/1999.",
-      "en": "Knowing the dot-com bubble would burst right after New Year 2000, short the FTSE 100 or tech/telecom names (BT, Marconi, Vodafone) right at the December 1999 peak."
+      "vi": "Biết chính xác bong bóng dot-com sẽ sụp đổ ngay sau Tết 2000, bán các khoản nắm giữ FTSE 100 và cổ phiếu công nghệ/viễn thông (như BT, Marconi, Vodafone) ngay tại đỉnh tháng 12/1999, giữ tiền mặt thay vì bắt đáy.",
+      "en": "Knowing the dot-com bubble would burst right after New Year 2000, sell FTSE 100 holdings and tech/telecom names (BT, Marconi, Vodafone) right at the December 1999 peak and hold cash instead of buying the dip."
     },
     "pitfalls": {
-      "vi": "Rất khó xác định chính xác thời điểm đỉnh khi đang ở giữa cơn sốt; nhiều nhà đầu tư bán khống quá sớm (1998) đã bị 'squeeze' nặng trước khi thị trường cuối cùng đảo chiều.",
-      "en": "Timing the exact top is hard while euphoria is peaking; investors who shorted too early (1998) were badly squeezed before the market eventually turned."
+      "vi": "Rất khó xác định chính xác thời điểm đỉnh khi đang ở giữa cơn sốt; nhiều nhà đầu tư chuyên nghiệp bán khống quá sớm (1998) đã bị 'squeeze' nặng trước khi thị trường cuối cùng đảo chiều — bán khống có thể lỗ nhiều hơn số vốn bỏ ra.",
+      "en": "Timing the exact top is hard while euphoria is peaking; professionals who shorted too early (1998) were badly squeezed before the market eventually turned — shorts can lose more than the money put in."
     },
     "quiz": {
       "question": {
@@ -1069,31 +1069,31 @@
         "en": "Northern Rock plc shares / UK bank stocks"
       },
       "action": {
-        "vi": "Bán khống cổ phiếu Northern Rock và các ngân hàng Anh phụ thuộc vốn vay liên ngân hàng",
-        "en": "Short Northern Rock and UK banks dependent on wholesale funding"
+        "vi": "Bán cổ phiếu Northern Rock và tránh các ngân hàng Anh phụ thuộc vốn vay liên ngân hàng",
+        "en": "Sell Northern Rock and avoid UK banks dependent on wholesale funding"
       },
       "buyWhen": {
-        "vi": "Mở vị thế bán khống đầu/giữa 2007 khi khủng hoảng tín dụng dưới chuẩn Mỹ bắt đầu lan rộng",
-        "en": "Open shorts in early/mid-2007 as the US subprime credit crunch began spreading"
+        "vi": "Không mua — thoát ra đầu/giữa 2007 khi khủng hoảng tín dụng dưới chuẩn Mỹ bắt đầu lan rộng, và không bắt đáy",
+        "en": "Don't buy — get out in early/mid-2007 as the US subprime credit crunch began spreading, and don't buy the dip"
       },
       "sellWhen": {
-        "vi": "Đóng vị thế khi cổ phiếu bị đình chỉ giao dịch và quốc hữu hóa tháng 2/2008",
-        "en": "Close out when shares were suspended and the bank nationalised in Feb 2008"
+        "vi": "Bán ra trước khá lâu so với lúc cổ phiếu bị đình chỉ giao dịch và ngân hàng bị quốc hữu hóa tháng 2/2008",
+        "en": "Sell well before shares were suspended and the bank nationalised in Feb 2008"
       },
       "estimatedReturn": {
-        "vi": "Cổ phiếu Northern Rock mất gần như toàn bộ giá trị trước khi bị quốc hữu hóa",
-        "en": "Northern Rock shares lost almost all value before nationalisation"
+        "vi": "Tránh được khoản lỗ gần như toàn bộ — cổ phiếu Northern Rock mất gần như toàn bộ giá trị trước khi bị quốc hữu hóa",
+        "en": "Avoided an almost total loss — Northern Rock shares lost almost all value before nationalisation"
       },
       "risk": "high",
       "capital": "medium"
     },
     "insiderTip": {
-      "vi": "Biết trước mô hình huy động vốn bán buôn (wholesale funding) của Northern Rock sẽ sụp đổ ngay khi thị trường liên ngân hàng đóng băng, bán khống cổ phiếu từ giữa năm 2007 — trước cả khi tin tức rò rỉ công khai ngày 13/9.",
-      "en": "Knowing Northern Rock's wholesale-funding model would collapse the moment interbank markets froze, short the stock from mid-2007 — well before the leak became public on 13 Sept."
+      "vi": "Biết trước mô hình huy động vốn bán buôn (wholesale funding) của Northern Rock sẽ sụp đổ ngay khi thị trường liên ngân hàng đóng băng, bán cổ phiếu chậm nhất vào giữa năm 2007 — trước cả khi tin tức rò rỉ công khai ngày 13/9.",
+      "en": "Knowing Northern Rock's wholesale-funding model would collapse the moment interbank markets froze, sell the stock by mid-2007 — well before the leak became public on 13 Sept."
     },
     "pitfalls": {
-      "vi": "Chính phủ Anh có thể can thiệp bảo lãnh đột ngột (như đã làm ngày 17/9), khiến vị thế bán khống gặp rủi ro bị siết nếu thị trường phục hồi niềm tin tạm thời.",
-      "en": "The government could abruptly intervene with guarantees (as it did on 17 Sept), creating squeeze risk for shorts if confidence temporarily recovered."
+      "vi": "Việc Chính phủ Anh bất ngờ can thiệp bảo lãnh (ngày 17/9) có thể khiến niềm tin phục hồi tạm thời và dụ người nắm giữ bắt đáy trước khi cổ phiếu mất trắng khi quốc hữu hóa; các quỹ phòng hộ bán khống đã đối mặt rủi ro bị siết (squeeze) chính vì những can thiệp như vậy.",
+      "en": "The government's abrupt guarantee (17 Sept) could briefly restore confidence and tempt holders to buy the dip before the stock was wiped out at nationalisation; hedge funds that shorted faced squeeze risk from exactly such interventions."
     },
     "quiz": {
       "question": {
@@ -1160,32 +1160,32 @@
         "en": "Royal Bank of Scotland (RBS.L) / Lloyds Banking Group (LLOY.L)"
       },
       "action": {
-        "vi": "Bán khống cổ phiếu RBS/HBOS trước tháng 10/2008; sau đó mua lại cổ phần giá rẻ của Lloyds sau giải cứu",
-        "en": "Short RBS/HBOS before October 2008, then buy discounted Lloyds shares post-bailout"
+        "vi": "Thoát cổ phiếu RBS/HBOS trước tháng 10/2008; sau đó cân nhắc mua cổ phần giá rẻ của Lloyds sau giải cứu",
+        "en": "Exit RBS/HBOS before October 2008, then consider discounted Lloyds shares post-bailout"
       },
       "buyWhen": {
-        "vi": "Mở vị thế bán khống giữa 2008 khi khủng hoảng Lehman lan rộng; mua lại Lloyds/RBS cuối 2009-2010 khi giá hồi phục",
-        "en": "Short mid-2008 as the Lehman crisis spread; buy back into Lloyds/RBS late 2009-2010 as prices recovered"
+        "vi": "Đứng ngoài suốt giữa 2008 khi khủng hoảng Lehman lan rộng; mua lại Lloyds/RBS cuối 2009-2010 khi giá hồi phục",
+        "en": "Stay out through mid-2008 as the Lehman crisis spread; buy back into Lloyds/RBS late 2009-2010 as prices recovered"
       },
       "sellWhen": {
-        "vi": "Đóng vị thế bán khống ngay trước/trong ngày 13/10/2008 khi tin giải cứu được công bố",
-        "en": "Close the short right before/on 13 Oct 2008 when the bailout news broke"
+        "vi": "Bán RBS/HBOS trước khá lâu so với ngày 13/10/2008, khi tin giải cứu được công bố",
+        "en": "Sell RBS/HBOS well before 13 Oct 2008, when the bailout news broke"
       },
       "estimatedReturn": {
-        "vi": "RBS giảm 87% giá trị trong năm 2008 — mức lãi tiềm năng khổng lồ cho vị thế bán khống",
-        "en": "RBS fell 87% in 2008 — a huge potential short-side gain"
+        "vi": "Tránh được mức giảm 87% của RBS trong năm 2008",
+        "en": "Avoided RBS's 87% fall in 2008"
       },
       "priceCurrency": "GBP",
       "risk": "high",
       "capital": "high"
     },
     "insiderTip": {
-      "vi": "Biết trước RBS sẽ gần như phá sản chỉ trong một buổi sáng ngày 7/10/2008, bán khống cổ phiếu từ đầu năm 2008 và đóng vị thế đúng lúc tin giải cứu được công bố để tránh short-squeeze từ đợt bơm vốn nhà nước.",
-      "en": "Knowing RBS would nearly collapse in a single morning on 7 Oct 2008, short from early 2008 and close out right as the bailout news broke, to avoid a short squeeze from the state capital injection."
+      "vi": "Biết trước RBS sẽ gần như phá sản chỉ trong một buổi sáng ngày 7/10/2008, bán cổ phiếu từ đầu năm 2008 và đừng coi tin giải cứu là tín hiệu mua lại ngay.",
+      "en": "Knowing RBS would nearly collapse in a single morning on 7 Oct 2008, sell from early 2008 and don't treat the bailout news as a signal to buy back straight away."
     },
     "pitfalls": {
-      "vi": "Chính phủ có thể can thiệp bất cứ lúc nào, gây short-squeeze đột ngột; cổ phần nhà nước tại RBS vẫn chưa được bán hết hoàn toàn hàng chục năm sau, chứng tỏ hồi phục rất chậm.",
-      "en": "Government intervention could trigger a sudden short squeeze at any time; the state's RBS stake still wasn't fully sold off decades later, showing how slow the recovery was."
+      "vi": "Mua lại quá sớm sẽ phải trả giá: cổ phần nhà nước tại RBS vẫn chưa được bán hết hoàn toàn hàng chục năm sau, chứng tỏ hồi phục rất chậm. Giới chuyên nghiệp bán khống cổ phiếu ngân hàng đã đối mặt short-squeeze đột ngột mỗi khi Chính phủ can thiệp.",
+      "en": "Buying back too early was costly: the state's RBS stake still wasn't fully sold off decades later, showing how slow the recovery was. Professionals who shorted bank stocks faced sudden squeezes whenever the government intervened."
     },
     "quiz": {
       "question": {
@@ -1252,12 +1252,12 @@
         "en": "Woolworths Group plc shares"
       },
       "action": {
-        "vi": "Bán khống/tránh cổ phiếu Woolworths và các chuỗi bán lẻ phố cao nợ nhiều",
-        "en": "Short or avoid Woolworths and other heavily indebted high-street retailers"
+        "vi": "Tránh hoặc bán cổ phiếu Woolworths và các chuỗi bán lẻ phố cao nợ nhiều",
+        "en": "Avoid or sell Woolworths and other heavily indebted high-street retailers"
       },
       "buyWhen": {
-        "vi": "Không áp dụng — đây là vị thế tránh/short",
-        "en": "N/A — this is an avoid/short play"
+        "vi": "Không áp dụng — đây là trường hợp nên đứng ngoài",
+        "en": "N/A — this is a stay-out play"
       },
       "sellWhen": {
         "vi": "Thoát toàn bộ vị thế cổ phiếu trước tháng 11/2008 khi tín dụng thắt chặt rõ rệt",
@@ -1271,12 +1271,12 @@
       "capital": "low"
     },
     "insiderTip": {
-      "vi": "Biết trước mô hình bán lẻ đa dạng hóa kiểu cũ (đĩa nhạc, đồ chơi, kẹo) của Woolworths sẽ không trụ nổi trước Amazon và các chuỗi giảm giá như Primark/Poundland, bán khống cổ phiếu từ đầu 2008 trước khi khủng hoảng tín dụng giáng đòn cuối cùng.",
-      "en": "Knowing Woolworths' old-style diversified retail model (music, toys, pick'n'mix) couldn't survive Amazon and discounters like Primark, short the stock from early 2008 before the credit crunch delivered the final blow."
+      "vi": "Biết trước mô hình bán lẻ đa dạng hóa kiểu cũ (đĩa nhạc, đồ chơi, kẹo) của Woolworths sẽ không trụ nổi trước Amazon và các chuỗi giảm giá như Primark/Poundland, bán cổ phiếu từ đầu 2008 và không bắt đáy trước khi khủng hoảng tín dụng giáng đòn cuối cùng.",
+      "en": "Knowing Woolworths' old-style diversified retail model (music, toys, pick'n'mix) couldn't survive Amazon and discounters like Primark, sell the stock from early 2008 and don't buy the dip before the credit crunch delivered the final blow."
     },
     "pitfalls": {
-      "vi": "Thương hiệu Woolworths vẫn tồn tại trực tuyến dưới Shop Direct sau khi được mua lại tháng 2/2009, nên vị thế bán khống cần đóng đúng lúc công ty mẹ vào diện phá sản, không chờ thương hiệu biến mất hoàn toàn.",
-      "en": "The Woolworths brand survived online under Shop Direct after a Feb 2009 purchase, so the short needed closing when the parent entered administration, not when the brand fully vanished."
+      "vi": "Thương hiệu Woolworths vẫn tồn tại trực tuyến dưới Shop Direct sau khi được mua lại tháng 2/2009, nhưng điều đó không cứu được cổ đông của công ty mẹ khi công ty này vào diện phá sản — đừng nhầm thương hiệu còn sống với cổ phiếu còn giá trị.",
+      "en": "The Woolworths brand survived online under Shop Direct after a Feb 2009 purchase, but that did not save the parent's shareholders once it entered administration — don't mistake a surviving brand for a surviving stock."
     },
     "quiz": {
       "question": {
@@ -1439,20 +1439,20 @@
         "en": "GBP/USD"
       },
       "action": {
-        "vi": "Bán khống đồng Bảng Anh ngay khi kết quả kiểm phiếu bắt đầu nghiêng về 'Leave'",
-        "en": "Short the British pound as soon as vote counts began tilting toward 'Leave'"
+        "vi": "Giữ tiền tiết kiệm bằng USD thay vì Bảng Anh trước khi có kết quả trưng cầu dân ý",
+        "en": "Hold savings in USD rather than GBP before the referendum results came in"
       },
       "buyWhen": {
-        "vi": "Mở vị thế bán khống GBP/USD đêm 23/6/2016 khi kết quả Sunderland/Newcastle công bố cho thấy xu hướng Leave",
-        "en": "Open the GBP/USD short on the night of 23 June 2016 as Sunderland/Newcastle results signalled a Leave trend"
+        "vi": "Đổi Bảng Anh sang USD trước cuộc bỏ phiếu ngày 23/6/2016 — không đợi đến đêm kiểm phiếu, khi kết quả Sunderland/Newcastle đã cho thấy xu hướng Leave",
+        "en": "Convert pounds to dollars before the 23 June 2016 vote — not on the night, when Sunderland/Newcastle results were already signalling a Leave trend"
       },
       "sellWhen": {
-        "vi": "Đóng vị thế khi GBP chạm đáy dưới 1,32 USD rạng sáng 24/6/2016",
-        "en": "Close out once GBP bottomed below $1.32 in the early hours of 24 June 2016"
+        "vi": "Chỉ đổi lại sang Bảng khi cần dùng, sau khi GBP chạm đáy dưới 1,32 USD rạng sáng 24/6/2016",
+        "en": "Convert back only if you need pounds, after GBP bottomed below $1.32 in the early hours of 24 June 2016"
       },
       "estimatedReturn": {
-        "vi": "Hơn +10% trên vị thế bán khống GBP trong vài giờ",
-        "en": "Over +10% on a GBP short position within hours"
+        "vi": "Tiền tiết kiệm giữ bằng USD tránh được mức mất giá hơn 10% của đồng Bảng chỉ trong vài giờ",
+        "en": "Savings held in USD avoided a fall of over 10% in the pound within hours"
       },
       "entryPrice": 1.5,
       "exitPrice": 1.3229,
@@ -1462,12 +1462,12 @@
       "capital": "medium"
     },
     "insiderTip": {
-      "vi": "Biết chắc chắn kết quả 'Leave' sẽ thắng, bán khống đồng Bảng ngay từ đầu buổi tối kiểm phiếu (thay vì chờ các cuộc thăm dò exit poll gây nhiễu) để tối đa hóa lợi nhuận trước khi thị trường kịp phản ứng đầy đủ.",
-      "en": "Knowing for certain 'Leave' would win, short the pound right at the start of vote counting (rather than waiting on misleading exit polls) to maximise profit before the market fully reacted."
+      "vi": "Biết chắc chắn 'Leave' sẽ thắng, chuyển tiền tiết kiệm bằng Bảng sang USD trước khi bắt đầu kiểm phiếu, bỏ qua các cuộc thăm dò exit poll gây nhiễu, thay vì cố phản ứng khi thị trường đã biến động.",
+      "en": "Knowing for certain 'Leave' would win, move GBP savings into dollars before vote counting began, ignoring the misleading exit polls, rather than trying to react once the market moved."
     },
     "pitfalls": {
-      "vi": "Biến động cực lớn trong vài giờ khiến việc thực thi lệnh khó khăn (thanh khoản mỏng lúc nửa đêm); nhiều quỹ đã bị thiệt hại nặng vì đặt cược sai hướng dựa theo các cuộc thăm dò dự đoán 'Remain' thắng.",
-      "en": "Extreme volatility within hours made execution difficult (thin overnight liquidity); many funds were badly burned betting the wrong way based on polls predicting a 'Remain' win."
+      "vi": "Biến động cực lớn trong vài giờ khiến việc thực thi lệnh khó khăn (thanh khoản mỏng lúc nửa đêm); nhiều quỹ đã bị thiệt hại nặng vì đặt cược sai hướng dựa theo các cuộc thăm dò dự đoán 'Remain' thắng — đặt cược tiền tệ có đòn bẩy có thể lỗ nhiều hơn số vốn bỏ ra.",
+      "en": "Extreme volatility within hours made execution difficult (thin overnight liquidity); many funds were badly burned betting the wrong way based on polls predicting a 'Remain' win — leveraged currency bets can lose more than you put in."
     },
     "quiz": {
       "question": {
@@ -1912,20 +1912,20 @@
         "en": "GBP/USD, UK 30-year gilts"
       },
       "action": {
-        "vi": "Bán khống đồng Bảng và trái phiếu chính phủ Anh (gilt) trước ngày công bố mini-budget",
-        "en": "Short the pound and UK government bonds (gilts) ahead of the mini-budget announcement"
+        "vi": "Giữ tiền tiết kiệm bằng USD thay vì Bảng Anh và tránh trái phiếu chính phủ Anh (gilt) dài hạn trước ngày công bố mini-budget",
+        "en": "Hold savings in USD rather than GBP and avoid long-dated UK gilts ahead of the mini-budget announcement"
       },
       "buyWhen": {
-        "vi": "Mở vị thế bán khống GBP/gilt ngay trước/trong ngày 23/9/2022",
-        "en": "Open GBP/gilt shorts right before/on 23 Sept 2022"
+        "vi": "Chuyển tiền tiết kiệm từ Bảng sang USD và đứng ngoài gilt dài hạn trước ngày 23/9/2022",
+        "en": "Move GBP savings into USD and stay out of long gilts before 23 Sept 2022"
       },
       "sellWhen": {
-        "vi": "Đóng vị thế khi GBP chạm đáy kỷ lục 1,03 USD ngày 26/9/2022, trước khi Ngân hàng Trung ương Anh can thiệp ngày 28/9",
-        "en": "Close out once GBP hit its record low of $1.03 on 26 Sept 2022, before the Bank of England intervened on 28 Sept"
+        "vi": "Chỉ đổi lại sang Bảng khi cần dùng, sau khi GBP chạm đáy kỷ lục 1,03 USD ngày 26/9/2022; Ngân hàng Trung ương Anh can thiệp ngày 28/9",
+        "en": "Convert back only if you need pounds, after GBP hit its record low of $1.03 on 26 Sept 2022; the Bank of England intervened on 28 Sept"
       },
       "estimatedReturn": {
-        "vi": "Bảng Anh giảm khoảng 9% từ 1,13 xuống 1,03 USD trong vài ngày",
-        "en": "The pound fell about 9% from $1.13 to $1.03 within days"
+        "vi": "Tiền tiết kiệm giữ bằng USD tránh được mức giảm khoảng 9% của Bảng Anh, từ 1,13 xuống 1,03 USD trong vài ngày",
+        "en": "Savings held in USD avoided the pound's roughly 9% fall from $1.13 to $1.03 within days"
       },
       "entryPrice": 1.13,
       "exitPrice": 1.03,
@@ -1935,12 +1935,12 @@
       "capital": "high"
     },
     "insiderTip": {
-      "vi": "Biết chắc chắn thị trường trái phiếu sẽ phản ứng cực đoan và Ngân hàng Trung ương Anh sẽ phải can thiệp khẩn cấp trong vòng 5 ngày, bán khống GBP và gilt dài hạn ngay ngày 23/9/2022 rồi đóng vị thế đúng lúc trước khi BoE công bố chương trình mua trái phiếu ngày 28/9.",
-      "en": "Knowing for certain the bond market would react extremely and the Bank of England would be forced into emergency intervention within five days, short GBP and long gilts right on 23 Sept 2022 and close out just before the BoE's 28 Sept bond-buying announcement."
+      "vi": "Biết chắc chắn thị trường trái phiếu sẽ phản ứng cực đoan và Ngân hàng Trung ương Anh sẽ phải can thiệp khẩn cấp trong vòng 5 ngày, giữ tiền tiết kiệm bằng USD và tránh xa gilt dài hạn từ ngày 23/9/2022. Các quỹ bán khống GBP và gilt đã phải thoát vị thế trước khi BoE công bố chương trình mua trái phiếu ngày 28/9.",
+      "en": "Knowing for certain the bond market would react extremely and the Bank of England would be forced into emergency intervention within five days, keep savings in dollars and out of long-dated gilts from 23 Sept 2022. Funds that shorted GBP and gilts had to exit before the BoE's 28 Sept bond-buying announcement."
     },
     "pitfalls": {
-      "vi": "Biến động cực lớn trong thời gian ngắn khiến quản trị rủi ro rất khó; việc Ngân hàng Trung ương can thiệp đột ngột có thể gây short-squeeze nghiêm trọng nếu giữ vị thế quá lâu.",
-      "en": "Extreme short-term volatility made risk management very hard; the sudden central-bank intervention could trigger a severe short squeeze if the position was held too long."
+      "vi": "Biến động cực lớn trong thời gian ngắn khiến quản trị rủi ro rất khó; với giới chuyên nghiệp bán khống GBP hoặc gilt, việc Ngân hàng Trung ương can thiệp đột ngột có thể gây short-squeeze nghiêm trọng, và vị thế bán khống mang rủi ro lỗ không giới hạn.",
+      "en": "Extreme short-term volatility made risk management very hard; for professionals shorting GBP or gilts, the sudden central-bank intervention could trigger a severe short squeeze, and short positions carry unlimited loss risk."
     },
     "quiz": {
       "question": {
@@ -2103,8 +2103,8 @@
         "en": "Barclays plc (BARC.L)"
       },
       "action": {
-        "vi": "Thoát vị thế Barclays (hoặc mua quyền chọn bán) trước khi án phạt Libor được công bố",
-        "en": "Exit Barclays (or buy puts) before the Libor settlement is announced"
+        "vi": "Thoát vị thế Barclays trước khi án phạt Libor được công bố",
+        "en": "Exit Barclays before the Libor settlement is announced"
       },
       "buyWhen": {
         "vi": "Không mua — bán ra trước ngày 27/6/2012",
@@ -2131,8 +2131,8 @@
       "en": "A reincarnated investor knows Barclays will be the first bank to settle over Libor and that the settlement will publish traders' emails asking for rates to be 'adjusted'. Knowing the 27 June 2012 date, simply trimming Barclays the week before avoids the 15% drop and the resignations that follow."
     },
     "pitfalls": {
-      "vi": "Cú rơi chỉ là phản ứng một phiên; cổ phiếu Barclays sau đó hồi phục dần cùng toàn ngành ngân hàng nên lợi nhuận bán khống không kéo dài. Nếu bạn là người trong cuộc biết trước kết quả điều tra mà giao dịch thì đó là giao dịch nội gián, một tội hình sự. Các trader Libor như Tom Hayes đã thực sự lĩnh án tù.",
-      "en": "The drop was largely a one-session reaction; Barclays later recovered with the rest of the sector, so a short would not have kept paying. Trading on advance knowledge of a regulatory settlement, if you were actually an insider, is criminal insider dealing, and Libor traders such as Tom Hayes were in fact jailed."
+      "vi": "Cú rơi chỉ là phản ứng một phiên; cổ phiếu Barclays sau đó hồi phục dần cùng toàn ngành ngân hàng, nên lợi ích chỉ là không nắm giữ qua phiên đó, chứ không phải đặt cược giá giảm. Nếu bạn là người trong cuộc biết trước kết quả điều tra mà giao dịch thì đó là giao dịch nội gián, một tội hình sự. Các trader Libor như Tom Hayes đã thực sự lĩnh án tù.",
+      "en": "The drop was largely a one-session reaction; Barclays later recovered with the rest of the sector, so the win was simply not holding through that session, not betting against the stock. Trading on advance knowledge of a regulatory settlement, if you were actually an insider, is criminal insider dealing, and Libor traders such as Tom Hayes were in fact jailed."
     },
     "quiz": {
       "question": {

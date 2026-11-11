@@ -474,8 +474,8 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "USD cash / Brazilian exporters (Ibovespa), short BRL",
-        "en": "USD cash / Brazilian exporters (Ibovespa), short BRL"
+        "vi": "Tiền mặt USD / cổ phiếu doanh nghiệp xuất khẩu Brazil (Ibovespa)",
+        "en": "USD cash / Brazilian exporters (Ibovespa)"
       },
       "action": {
         "vi": "Chuyển tài sản sang USD trước phá giá, sau đó mua cổ phiếu xuất khẩu Brazil hưởng lợi từ real yếu",
@@ -1326,12 +1326,12 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "Petrobras (PETR3/PETR4) — short or avoid",
-        "en": "Petrobras (PETR3/PETR4) — short or avoid"
+        "vi": "Petrobras (PETR3/PETR4) — tránh xa",
+        "en": "Petrobras (PETR3/PETR4) — avoid"
       },
       "action": {
-        "vi": "Tránh mua vào đợt phát hành 9/2010 hoặc bán khống/thoát vị thế hiện có trước Lava Jato",
-        "en": "Avoid buying into the September 2010 offering, or short/exit existing positions before Lava Jato"
+        "vi": "Tránh mua vào đợt phát hành 9/2010, hoặc thoát vị thế hiện có trước Lava Jato",
+        "en": "Avoid buying into the September 2010 offering, or exit existing positions before Lava Jato"
       },
       "buyWhen": {
         "vi": "Không nên mua — đây là tín hiệu 'bán trước' (sell before) cho nhà đầu tư dài hạn đã nắm giữ từ 2007",
@@ -1351,8 +1351,8 @@
       "capital": "high"
     },
     "insiderTip": {
-      "vi": "Biết trước vụ bê bối tham nhũng Lava Jato sẽ nổ ra năm 2014 và phá hủy phần lớn giá trị thị trường của Petrobras giúp nhà đầu tư né tránh hoặc bán khống ngay quanh đỉnh phát hành 70 tỷ USD năm 2010.",
-      "en": "Knowing the Lava Jato corruption scandal would erupt in 2014 and destroy much of Petrobras's market value lets an investor avoid or short the stock right around the $70 billion 2010 offering peak."
+      "vi": "Biết trước vụ bê bối tham nhũng Lava Jato sẽ nổ ra năm 2014 và phá hủy phần lớn giá trị thị trường của Petrobras giúp nhà đầu tư đứng ngoài hoặc bán ra ngay quanh đỉnh phát hành 70 tỷ USD năm 2010.",
+      "en": "Knowing the Lava Jato corruption scandal would erupt in 2014 and destroy much of Petrobras's market value lets an investor stay out of the stock, or sell, right around the $70 billion 2010 offering peak."
     },
     "pitfalls": {
       "vi": "Tại thời điểm 2010, kế hoạch pre-salt được xem là câu chuyện tăng trưởng hấp dẫn nhất của Brazil; phần lớn nhà đầu tư tổ chức toàn cầu (quỹ Trung Đông, Mỹ) tham gia mạnh mẽ, nên 'nhìn thấy trước đỉnh' đòi hỏi thông tin tương lai thực sự.",
@@ -1419,16 +1419,16 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "Petrobras (PETR3/PETR4/PBR) — short or avoid",
-        "en": "Petrobras (PETR3/PETR4/PBR) — short or avoid"
+        "vi": "Petrobras (PETR3/PETR4/PBR) — tránh xa",
+        "en": "Petrobras (PETR3/PETR4/PBR) — avoid"
       },
       "action": {
-        "vi": "Bán khống hoặc thoát hoàn toàn vị thế Petrobras trước ngày 27/10/2014",
-        "en": "Short or fully exit Petrobras positions before October 27, 2014"
+        "vi": "Thoát hoàn toàn vị thế Petrobras trước ngày 27/10/2014",
+        "en": "Fully exit Petrobras positions before October 27, 2014"
       },
       "buyWhen": {
-        "vi": "Không mua — đây là tín hiệu bán khống/tránh rõ ràng",
-        "en": "Don't buy — this is a clear short/avoid signal"
+        "vi": "Không mua — đây là tín hiệu tránh xa rõ ràng, và đừng vội bắt đáy",
+        "en": "Don't buy — this is a clear stay-away signal, and don't rush to buy the dip"
       },
       "sellWhen": {
         "vi": "Trước hoặc ngay ngày 27/10/2014 khi tin tức được công bố chính thức",
@@ -1442,8 +1442,8 @@
       "capital": "high"
     },
     "insiderTip": {
-      "vi": "Biết trước ngày 27/10/2014 scandal sẽ được công bố công khai giúp nhà đầu tư bán khống đúng lúc hoặc mua quyền chọn bán (put option) ngay trước thông báo, thu lợi lớn từ cú sập giá tiếp theo.",
-      "en": "Knowing the exact Oct 27 2014 date the scandal would go public lets an investor short the stock or buy put options right before the announcement, profiting heavily from the ensuing crash."
+      "vi": "Biết trước ngày 27/10/2014 scandal sẽ được công bố công khai giúp nhà đầu tư bán ra trước thông báo và giữ tiền mặt trong suốt cú sập giá tiếp theo.",
+      "en": "Knowing the exact Oct 27 2014 date the scandal would go public lets an investor sell before the announcement and stay in cash through the ensuing crash."
     },
     "pitfalls": {
       "vi": "Thời điểm và quy mô thiệt hại tài chính thực tế vẫn chưa rõ ràng với nhà đầu tư đương thời trong nhiều tháng; giá cổ phiếu tiếp tục biến động dữ dội qua 2015 khi thêm thông tin bê bối được tiết lộ dần.",

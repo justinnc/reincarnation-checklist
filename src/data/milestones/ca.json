@@ -205,8 +205,8 @@
         "en": "Bre-X Minerals Ltd. (TSX: BXM)"
       },
       "action": {
-        "vi": "Tránh hoàn toàn hoặc bán khống khi giá còn ở vùng đỉnh",
-        "en": "Avoid entirely, or short near the peak"
+        "vi": "Tránh hoàn toàn, hoặc bán hết cổ phiếu đang nắm giữ khi giá còn ở vùng đỉnh",
+        "en": "Avoid entirely, or sell any shares you hold while the price is still near the peak"
       },
       "buyWhen": {
         "vi": "Không nên mua — đây là ví dụ kinh điển để TRÁNH",
@@ -229,8 +229,8 @@
       "returnMultiple": 0.000314
     },
     "insiderTip": {
-      "vi": "Biết trước rằng mẫu lõi bị “muối hóa” bằng vàng từ nhẫn cưới và vàng vụn mua ở chợ địa phương sẽ giúp bán khống chính xác thời điểm công bố kết quả kiểm tra độc lập của Strathcona (đầu tháng 5/1997).",
-      "en": "Knowing the core samples were salted with gold filed from a wedding ring and locally panned gold dust lets you short precisely before Strathcona Minerals' independent report (early May 1997) confirmed the fraud."
+      "vi": "Biết trước rằng mẫu lõi bị “muối hóa” bằng vàng từ nhẫn cưới và vàng vụn mua ở chợ địa phương giúp bạn thoát ra trước khi báo cáo kiểm tra độc lập của Strathcona (đầu tháng 5/1997) xác nhận vụ lừa đảo.",
+      "en": "Knowing the core samples were salted with gold filed from a wedding ring and locally panned gold dust lets you get out before Strathcona Minerals' independent report (early May 1997) confirmed the fraud."
     },
     "pitfalls": {
       "vi": "Ngay cả các nhà phân tích và quỹ hưu trí lớn cũng tin vào câu chuyện này đến tận cùng; đừng để lòng tham về “mỏ vàng lớn nhất thế giới” che mờ việc thẩm định độc lập.",
@@ -397,8 +397,8 @@
         "en": "Nortel Networks Corp. (TSX/NYSE: NT)"
       },
       "action": {
-        "vi": "Bán toàn bộ hoặc bán khống ngay tại đỉnh tháng 7/2000",
-        "en": "Sell everything or short right at the July 2000 peak"
+        "vi": "Bán toàn bộ ngay tại đỉnh tháng 7/2000",
+        "en": "Sell everything right at the July 2000 peak"
       },
       "buyWhen": {
         "vi": "Không mua — hoặc chỉ mua đầu cơ ngắn hạn trước đỉnh rồi thoát ngay",
@@ -585,8 +585,8 @@
         "en": "Air Canada (TSX: AC)"
       },
       "action": {
-        "vi": "Tránh hoàn toàn hoặc bán khống trước khi nộp đơn phá sản",
-        "en": "Avoid entirely or short ahead of the bankruptcy filing"
+        "vi": "Tránh hoàn toàn, hoặc bán hết trước khi nộp đơn phá sản",
+        "en": "Avoid entirely, or sell everything ahead of the bankruptcy filing"
       },
       "buyWhen": {
         "vi": "Không nên nắm giữ cổ phiếu cũ qua giai đoạn tái cấu trúc",
@@ -607,8 +607,8 @@
       "capital": "low"
     },
     "insiderTip": {
-      "vi": "Biết trước tác động kép của SARS (ảnh hưởng mạnh đến Toronto) và chi phí vận hành cao sẽ đẩy Air Canada vào bảo hộ phá sản giúp bạn bán khống hoặc tránh cổ phiếu trước tháng 4/2003.",
-      "en": "Knowing the combined impact of SARS (which hit Toronto hard) and high operating costs would push Air Canada into bankruptcy protection lets you short or avoid the stock before April 2003."
+      "vi": "Biết trước tác động kép của SARS (ảnh hưởng mạnh đến Toronto) và chi phí vận hành cao sẽ đẩy Air Canada vào bảo hộ phá sản giúp bạn bán ra hoặc tránh xa cổ phiếu trước tháng 4/2003.",
+      "en": "Knowing the combined impact of SARS (which hit Toronto hard) and high operating costs would push Air Canada into bankruptcy protection lets you sell or avoid the stock before April 2003."
     },
     "pitfalls": {
       "vi": "Công ty kế thừa (ACE Aviation, sau này vẫn là Air Canada) phục hồi và trở thành hãng hàng không có lãi — nhưng cổ phiếu CŨ trước tái cấu trúc không liên quan gì đến cổ phiếu MỚI sau tái cấu trúc.",
@@ -1339,8 +1339,8 @@
         "en": "Canadian energy stocks / WTI Crude"
       },
       "action": {
-        "vi": "Bán hoặc bán khống cổ phiếu năng lượng trước đợt giảm; mua lại sau đáy đầu 2016",
-        "en": "Sell or short energy stocks ahead of the decline; buy back after the early-2016 bottom"
+        "vi": "Bán cổ phiếu năng lượng trước đợt giảm và giữ tiền mặt; mua lại sau đáy đầu 2016",
+        "en": "Sell energy stocks ahead of the decline and hold cash; buy back after the early-2016 bottom"
       },
       "buyWhen": {
         "vi": "Mua lại từ tháng 2-3/2016, gần đáy 26,19 USD/thùng",
@@ -1363,12 +1363,12 @@
       "capital": "medium"
     },
     "insiderTip": {
-      "vi": "Biết trước đợt bùng nổ dầu đá phiến Mỹ và việc OPEC từ chối cắt giảm sản lượng cuối 2014 sẽ gây dư cung nghiêm trọng giúp bạn bán khống cổ phiếu năng lượng Canada và đồng loonie đúng lúc.",
-      "en": "Knowing the US shale boom and OPEC's late-2014 refusal to cut production would cause severe oversupply lets you short Canadian energy stocks and the loonie at the right time."
+      "vi": "Biết trước đợt bùng nổ dầu đá phiến Mỹ và việc OPEC từ chối cắt giảm sản lượng cuối 2014 sẽ gây dư cung nghiêm trọng giúp bạn thoát khỏi cổ phiếu năng lượng Canada đúng lúc.",
+      "en": "Knowing the US shale boom and OPEC's late-2014 refusal to cut production would cause severe oversupply lets you exit Canadian energy stocks at the right time."
     },
     "pitfalls": {
-      "vi": "Giá dầu biến động dữ dội với nhiều đợt hồi phục giả trong giai đoạn 2015-2016; bán khống quá sớm hoặc quá muộn có thể gây thua lỗ lớn do biên độ dao động cao.",
-      "en": "Oil prices were extremely volatile with several false rebounds in 2015-2016; shorting too early or too late could cause large losses due to high swings."
+      "vi": "Giá dầu biến động dữ dội với nhiều đợt hồi phục giả trong giai đoạn 2015-2016; mua lại quá sớm ở một đợt hồi giả có thể gây thua lỗ lớn — và chính những cú dao động mạnh đó cũng có thể gây lỗ nặng cho người đặt cược giá tiếp tục giảm.",
+      "en": "Oil prices were extremely volatile with several false rebounds in 2015-2016; buying back too early on a false rebound could cause large losses — and the same violent swings could hurt traders who bet on further declines."
     },
     "quiz": {
       "question": {
@@ -1516,8 +1516,8 @@
       "en": "Valeant Pharmaceuticals Collapse (2015-2016)"
     },
     "summary": {
-      "vi": "Cổ phiếu dược phẩm Canada từng được Bill Ackman ưa chuộng rơi từ 262,50 USD xuống 33,51 USD — avoid/short kinh điển.",
-      "en": "The Canadian pharma darling backed by Bill Ackman crashed from $262.50 to $33.51 — a textbook avoid/short."
+      "vi": "Cổ phiếu dược phẩm Canada từng được Bill Ackman ưa chuộng rơi từ 262,50 USD xuống 33,51 USD — bài học kinh điển về cổ phiếu nên tránh.",
+      "en": "The Canadian pharma darling backed by Bill Ackman crashed from $262.50 to $33.51 — a textbook stock to avoid."
     },
     "description": {
       "vi": "Valeant Pharmaceuticals (có trụ sở thuế tại Canada), công ty theo đuổi chiến lược mua lại và tăng giá thuốc mạnh tay, được các quỹ đầu cơ lớn như Bill Ackman và John Paulson ưa chuộng, đạt đỉnh khoảng 262,50-263,70 USD vào tháng 8/2015. Ngày 21/10/2015, báo cáo của Citron Research cáo buộc Valeant dùng mạng lưới nhà thuốc đặc biệt (như Philidor) để tạo doanh thu giả, khiến cổ phiếu giảm tới 40% trong ngày. Đến 15/3/2016, sau cảnh báo về nguy cơ vỡ nợ, cổ phiếu giảm thêm 51% trong một ngày, đóng cửa ở 33,51 USD — giảm 87% từ đỉnh.",
@@ -1529,8 +1529,8 @@
         "en": "Valeant Pharmaceuticals International Inc. (NYSE/TSX: VRX)"
       },
       "action": {
-        "vi": "Tránh hoàn toàn hoặc bán khống sau báo cáo Citron tháng 10/2015",
-        "en": "Avoid entirely, or short after the October 2015 Citron report"
+        "vi": "Tránh hoàn toàn, hoặc bán muộn nhất ngay sau báo cáo Citron tháng 10/2015",
+        "en": "Avoid entirely, or sell at the latest right after the October 2015 Citron report"
       },
       "buyWhen": {
         "vi": "Không nên mua/giữ — ví dụ kinh điển về cổ phiếu tăng trưởng qua nợ và kế toán đáng ngờ cần tránh",
@@ -1551,12 +1551,12 @@
       "capital": "medium"
     },
     "insiderTip": {
-      "vi": "Biết trước mối quan hệ ẩn giấu giữa Valeant và nhà thuốc Philidor sẽ bị phanh phui, cùng rủi ro vỡ nợ năm 2016, giúp bạn bán khống đúng lúc báo cáo của Citron Research công bố tháng 10/2015.",
-      "en": "Knowing Valeant's hidden ties to the Philidor pharmacy would be exposed, along with 2016 default risk, lets you short right as the Citron Research report dropped in October 2015."
+      "vi": "Biết trước mối quan hệ ẩn giấu giữa Valeant và nhà thuốc Philidor sẽ bị phanh phui, cùng rủi ro vỡ nợ năm 2016, giúp bạn thoát ra trước hoặc ngay khi báo cáo của Citron Research công bố tháng 10/2015. Citron là một nhà bán khống chuyên nghiệp đặt cược vào cú giảm — chiến lược có rủi ro lỗ không giới hạn, chi phí vay cổ phiếu và nguy cơ bị 'ép giá' (short squeeze), không dành cho nhà đầu tư thông thường.",
+      "en": "Knowing Valeant's hidden ties to the Philidor pharmacy would be exposed, along with 2016 default risk, lets you get out before or right as the Citron Research report dropped in October 2015. Citron was a professional short seller betting on the fall — a strategy with unlimited-loss risk, borrowing costs and squeezes, not one for ordinary investors."
     },
     "pitfalls": {
-      "vi": "Cổ phiếu có các đợt hồi phục ngắn hạn gây nhiễu (dead-cat bounce) trong giai đoạn giảm — bán khống cần quản lý rủi ro chặt chẽ do biến động cực mạnh.",
-      "en": "The stock had misleading short-term dead-cat bounces during the decline — shorting required tight risk management given the extreme volatility."
+      "vi": "Cổ phiếu có các đợt hồi phục ngắn hạn gây nhiễu (dead-cat bounce) trong giai đoạn giảm — đừng nhầm đó là phục hồi mà 'bắt đáy'; biến động cực mạnh khiến ngay cả vị thế của các nhà bán khống chuyên nghiệp cũng rất rủi ro.",
+      "en": "The stock had misleading short-term dead-cat bounces during the decline — don't mistake them for a recovery or 'buy the dip'; the extreme volatility made even professional short sellers' positions very risky."
     },
     "quiz": {
       "question": {
@@ -1810,8 +1810,8 @@
         "en": "Canopy Growth Corp. (TSX: WEED)"
       },
       "action": {
-        "vi": "Mua trước tin tức, bán trước hoặc đúng ngày hợp pháp hóa, sau đó tránh xa/bán khống",
-        "en": "Buy ahead of the hype, sell at or just before legalization day, then avoid/short afterward"
+        "vi": "Mua trước tin tức, bán trước hoặc đúng ngày hợp pháp hóa, sau đó đứng ngoài",
+        "en": "Buy ahead of the hype, sell at or just before legalization day, then stay out afterward"
       },
       "buyWhen": {
         "vi": "Mua sau khi Constellation Brands công bố đầu tư tháng 8/2018",

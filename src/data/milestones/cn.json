@@ -869,8 +869,8 @@
         "en": "SSE Composite Index"
       },
       "action": {
-        "vi": "Bán hoặc short trước đỉnh tháng 10/2007; đứng ngoài thị trường A-share Trung Quốc suốt năm 2008.",
-        "en": "Sell or short ahead of the October 2007 peak; stay out of China A-shares through 2008."
+        "vi": "Bán ra trước đỉnh tháng 10/2007; đứng ngoài thị trường A-share Trung Quốc suốt năm 2008 và giữ tiền mặt thay vì bắt đáy.",
+        "en": "Sell ahead of the October 2007 peak; stay out of China A-shares through 2008 and hold cash instead of buying the dip."
       },
       "buyWhen": {
         "vi": "Không áp dụng — đây là tín hiệu bán, không phải mua.",
@@ -1818,27 +1818,27 @@
         "en": "Luckin Coffee (formerly NASDAQ: LK)"
       },
       "action": {
-        "vi": "Bán hoặc short cổ phiếu ngay khi tin tức gian lận rò rỉ; tránh hoàn toàn các công ty Trung Quốc niêm yết Mỹ thiếu minh bạch kiểm toán tương tự.",
-        "en": "Sell or short immediately when the fraud news breaks; avoid similarly opaque US-listed Chinese companies altogether."
+        "vi": "Bán ngay khi tin gian lận rò rỉ (hoặc đừng mua ngay từ đầu); tránh hoàn toàn các công ty Trung Quốc niêm yết Mỹ thiếu minh bạch kiểm toán tương tự.",
+        "en": "Sell immediately when the fraud news breaks (or don't buy at all); avoid similarly opaque US-listed Chinese companies altogether."
       },
       "buyWhen": {
-        "vi": "Không áp dụng — đây là ví dụ kinh điển về cổ phiếu cần tránh/short.",
-        "en": "N/A — this is a textbook avoid/short example."
+        "vi": "Không áp dụng — đây là ví dụ kinh điển về cổ phiếu cần tránh.",
+        "en": "N/A — this is a textbook stock to avoid."
       },
       "sellWhen": {
         "vi": "Ngay ngày 2/4/2020 khi tin gian lận được công bố, trước khi cổ phiếu bị đình chỉ giao dịch.",
         "en": "Right on April 2, 2020 when the fraud was disclosed, before the stock was halted."
       },
       "estimatedReturn": {
-        "vi": "Short-seller đúng lúc có thể thu lợi khi cổ phiếu giảm hơn 90% chỉ trong vài tuần (từng đạt đỉnh khoảng 50 USD đầu 2020, mất giá trị gần như toàn bộ sau đó).",
-        "en": "A well-timed short could have captured a drop of over 90% within weeks (the stock had peaked near $50 in early 2020 before losing nearly all its value)."
+        "vi": "Người nắm giữ mất hơn 90% chỉ trong vài tuần (cổ phiếu từng đạt đỉnh khoảng 50 USD đầu 2020, sau đó mất gần như toàn bộ giá trị) — tránh xa hoặc thoát sớm giúp né được khoản lỗ này.",
+        "en": "Holders lost over 90% within weeks (the stock had peaked near $50 in early 2020 before losing nearly all its value) — avoiding or exiting it sidestepped that loss."
       },
       "risk": "high",
       "capital": "low"
     },
     "insiderTip": {
-      "vi": "Báo cáo của quỹ bán khống Muddy Waters công bố trước đó vài tháng (tháng 1-2/2020) đã cáo buộc gian lận nhưng bị công ty phủ nhận — ai tin vào báo cáo bán khống này và short sớm sẽ có lợi nhuận lớn nhất trước khi tin chính thức được xác nhận.",
-      "en": "Short-seller Muddy Waters published allegations of fraud months earlier (Jan-Feb 2020) which the company denied — those who trusted the short report and shorted early capture the biggest gains before the fraud is officially confirmed."
+      "vi": "Quỹ bán khống Muddy Waters đã công bố báo cáo cáo buộc gian lận từ vài tháng trước (tháng 1-2/2020) nhưng bị công ty phủ nhận. Với nhà đầu tư thông thường, bài học là coi báo cáo này như tín hiệu cảnh báo và thoát sớm — không phải bắt chước bán khống: bán khống có rủi ro lỗ không giới hạn, chi phí vay cổ phiếu và nguy cơ bị ép giá (short squeeze).",
+      "en": "Short-seller Muddy Waters published fraud allegations months earlier (Jan-Feb 2020), which the company denied. For ordinary investors, the lesson is to treat such a report as a red flag and exit early — not to copy the short: short-selling carries unlimited loss risk, borrowing costs and squeeze risk."
     },
     "pitfalls": {
       "vi": "Vụ việc làm dấy lên nghi ngờ rộng hơn về các công ty Trung Quốc niêm yết tại Mỹ không tuân thủ kiểm toán PCAOB, dẫn đến Đạo luật HFCAA (2020) đe dọa hủy niêm yết hàng loạt công ty Trung Quốc tại Mỹ sau này.",
@@ -2002,8 +2002,8 @@
         "en": "Bitcoin (BTC) / Chinese crypto-mining operations"
       },
       "action": {
-        "vi": "Rút vốn khỏi sàn giao dịch và hoạt động đào coin đặt tại Trung Quốc trước lệnh cấm; hoặc short Bitcoin ngắn hạn quanh ngày công bố.",
-        "en": "Pull capital out of China-based exchanges and mining operations ahead of the ban; or short Bitcoin short-term around the announcement."
+        "vi": "Rút vốn khỏi sàn giao dịch và hoạt động đào coin đặt tại Trung Quốc trước lệnh cấm, và tránh mua thêm Bitcoin ngay quanh ngày công bố.",
+        "en": "Pull capital out of China-based exchanges and mining operations ahead of the ban, and avoid adding to Bitcoin positions right around the announcement."
       },
       "buyWhen": {
         "vi": "Không áp dụng cho chiến lược mua — đây là tín hiệu rút vốn/tránh.",
@@ -2093,12 +2093,12 @@
         "en": "China Evergrande Group (3333.HK) and other highly-leveraged Chinese developers"
       },
       "action": {
-        "vi": "Bán hoặc short cổ phiếu/trái phiếu Evergrande và các nhà phát triển có đòn bẩy cao trước khi khủng hoảng công khai bùng nổ.",
-        "en": "Sell or short Evergrande stock/bonds and other highly-leveraged developers before the crisis goes public."
+        "vi": "Bán cổ phiếu/trái phiếu Evergrande và các nhà phát triển có đòn bẩy cao trước khi khủng hoảng công khai bùng nổ — và đừng mua lại khi giá đang rơi.",
+        "en": "Sell Evergrande stock/bonds and other highly-leveraged developers before the crisis goes public — and don't buy them back on the way down."
       },
       "buyWhen": {
-        "vi": "Không áp dụng — đây là tín hiệu bán/short/tránh.",
-        "en": "N/A — this is a sell/short/avoid signal."
+        "vi": "Không áp dụng — đây là tín hiệu bán/tránh.",
+        "en": "N/A — this is a sell/avoid signal."
       },
       "sellWhen": {
         "vi": "Trước giữa năm 2021, ngay khi chính sách 'ba lằn ranh đỏ' (tháng 8/2020) bắt đầu siết các nhà phát triển có đòn bẩy cao.",

@@ -1012,24 +1012,24 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "Cổ phiếu công nghệ Nasdaq (short) / tiền mặt",
-        "en": "Nasdaq tech stocks (short) / cash"
+        "vi": "Cổ phiếu công nghệ Nasdaq (thoát hàng) / tiền mặt",
+        "en": "Nasdaq tech stocks (exit) / cash"
       },
       "action": {
-        "vi": "Bán hết hoặc bán khống các cổ phiếu dot-com không có lợi nhuận quanh đỉnh tháng 3/2000, giữ tiền mặt chờ đáy.",
-        "en": "Sell or short unprofitable dot-com stocks around the March 2000 peak, then hold cash and wait for the bottom."
+        "vi": "Bán hết các cổ phiếu dot-com không có lợi nhuận quanh đỉnh tháng 3/2000, giữ tiền mặt chờ đáy.",
+        "en": "Sell unprofitable dot-com stocks around the March 2000 peak, then hold cash and wait for the bottom."
       },
       "buyWhen": {
-        "vi": "Mua lại cổ phiếu chất lượng (Amazon, Cisco không kể bán khống...) quanh đáy tháng 10/2002.",
+        "vi": "Mua lại các cổ phiếu chất lượng quanh đáy tháng 10/2002.",
         "en": "Buy back quality names around the October 2002 bottom."
       },
       "sellWhen": {
-        "vi": "Bán/khống hóa quanh đỉnh 10/3/2000.",
-        "en": "Sell/short around the March 10, 2000 peak."
+        "vi": "Bán quanh đỉnh 10/3/2000.",
+        "en": "Sell around the March 10, 2000 peak."
       },
       "estimatedReturn": {
-        "vi": "Tránh được khoản lỗ gần 78% nếu thoát đúng lúc; lãi lớn nếu bán khống đúng thời điểm.",
-        "en": "Avoids a near-78% loss if timed correctly; large gains if shorting at the right moment."
+        "vi": "Tránh được khoản lỗ gần 78% nếu thoát đúng lúc.",
+        "en": "Avoids a near-78% loss if you exit in time."
       },
       "risk": "high",
       "capital": "medium"
@@ -1384,8 +1384,8 @@
       "en": "The housing bubble bursts (2007-2009)"
     },
     "summary": {
-      "vi": "Giá nhà Mỹ giảm gần 30% đỉnh-đáy — cơ hội bán khống trái phiếu dưới chuẩn như trong 'The Big Short'.",
-      "en": "US home prices fell nearly 30% peak-to-trough — the setup for shorting subprime bonds, as in 'The Big Short'."
+      "vi": "Giá nhà Mỹ giảm gần 30% từ đỉnh xuống đáy. Một số ít nhà đầu tư chuyên nghiệp kiếm lời nhờ đặt cược vào sự sụp đổ của trái phiếu dưới chuẩn ('The Big Short'); với người thường, cách đúng là tránh nhà đất vay nợ quá mức.",
+      "en": "US home prices fell nearly 30% peak-to-trough. A few professionals profited by betting against subprime bonds ('The Big Short'); for everyone else the move was avoiding over-leveraged housing."
     },
     "description": {
       "vi": "Từ đầu 2007, chỉ số giá nhà toàn quốc Case-Shiller bắt đầu chuỗi giảm liên tục kéo dài 3 năm, với mức giảm theo năm kỷ lục -19% vào đầu 2009, tổng cộng giá nhà giảm gần 30% từ đỉnh giữa 2006. Những nhà đầu tư như Michael Burry đã bán khống trái phiếu thế chấp dưới chuẩn (CDS) trước khi khủng hoảng nổ ra, thu lợi khổng lồ — câu chuyện trong phim 'The Big Short'.",
@@ -1393,24 +1393,24 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "Hợp đồng hoán đổi rủi ro tín dụng (CDS) trên trái phiếu thế chấp dưới chuẩn / bán khống cổ phiếu ngân hàng, nhà xây dựng",
-        "en": "Credit default swaps (CDS) on subprime mortgage bonds / short bank and homebuilder stocks"
+        "vi": "Khoản vay thế chấp đòn bẩy cao, cổ phiếu ngân hàng và công ty xây nhà (tránh) / tiền mặt",
+        "en": "Over-leveraged mortgages, bank and homebuilder stocks (avoid) / cash"
       },
       "action": {
-        "vi": "Mua hợp đồng CDS đặt cược vào sự sụp đổ của trái phiếu thế chấp dưới chuẩn, hoặc bán khống cổ phiếu ngân hàng và nhà xây dựng.",
-        "en": "Buy credit default swaps betting against subprime mortgage bonds, or short bank and homebuilder stocks."
+        "vi": "Tránh xa các khoản vay thế chấp đòn bẩy quá cao cùng cổ phiếu nhà xây dựng và ngân hàng, giữ tiền mặt và chỉ mua tài sản chất lượng sau khi thị trường sụp đổ.",
+        "en": "Stay away from over-leveraged mortgages and from homebuilder and bank stocks, hold cash, and buy quality assets later, after the crash."
       },
       "buyWhen": {
-        "vi": "Cuối 2005 đến 2006, trước khi bong bóng vỡ.",
-        "en": "Late 2005 through 2006, before the bubble bursts."
+        "vi": "Đừng mua cổ phiếu nhà xây dựng, ngân hàng hay vay thế chấp quá sức khi thị trường ở đỉnh; chỉ cân nhắc mua lại sau giai đoạn khủng hoảng đỉnh điểm cuối 2008 - đầu 2009.",
+        "en": "Don't buy homebuilder or bank stocks or stretch for a big mortgage near the top; only consider buying back after the height of the crisis in late 2008/early 2009."
       },
       "sellWhen": {
-        "vi": "Chốt lời khi khủng hoảng đạt đỉnh điểm cuối 2008 - đầu 2009.",
-        "en": "Close out positions at the height of the crisis in late 2008/early 2009."
+        "vi": "Bán cổ phiếu nhà xây dựng và ngân hàng trong khoảng cuối 2005 đến 2006, trước khi bong bóng vỡ.",
+        "en": "Sell homebuilder and bank stocks in late 2005 through 2006, before the bubble bursts."
       },
       "estimatedReturn": {
-        "vi": "Một số quỹ phòng hộ lãi hàng trăm phần trăm tới hàng nghìn phần trăm nhờ đặt cược đúng thời điểm (như Michael Burry, John Paulson).",
-        "en": "Some hedge funds made hundreds to thousands of percent by timing this correctly (e.g. Michael Burry, John Paulson)."
+        "vi": "Tránh bị cuốn vào cú sập của cổ phiếu ngân hàng và nhà xây dựng (Lehman Brothers phá sản tháng 9/2008). Một số quỹ phòng hộ (như Michael Burry, John Paulson) lãi hàng trăm đến hàng nghìn phần trăm nhờ các vụ đặt cược phức tạp vào sự sụp đổ của trái phiếu thế chấp — đó là giao dịch của giới chuyên nghiệp, không phải của nhà đầu tư cá nhân.",
+        "en": "Avoids being caught in the collapse of bank and homebuilder stocks (Lehman Brothers went bankrupt in Sept 2008). A few hedge funds (e.g. Michael Burry, John Paulson) made hundreds to thousands of percent with complex bets against mortgage bonds — a professional trade, not a retail one."
       },
       "risk": "high",
       "capital": "high"
@@ -1420,8 +1420,8 @@
       "en": "Subprime loans packaged into 'AAA' securities will default en masse — avoid investment-bank stocks (Lehman Brothers goes bankrupt in Sept 2008) and highly-leveraged real estate."
     },
     "pitfalls": {
-      "vi": "Chiến lược bán khống đòi hỏi vốn lớn, kiến thức sản phẩm phái sinh phức tạp (CDS) và khả năng chịu đựng thua lỗ tạm thời kéo dài trước khi thị trường 'chịu thua' — rất khó cho nhà đầu tư cá nhân thông thường.",
-      "en": "The short strategy requires large capital, deep knowledge of complex derivatives (CDS), and the ability to endure prolonged temporary losses before the market 'breaks' — very hard for an ordinary retail investor."
+      "vi": "Thương vụ 'Big Short' chỉ do một số ít nhà đầu tư chuyên nghiệp thực hiện bằng cách mua hợp đồng hoán đổi rủi ro tín dụng (CDS) trên trái phiếu thế chấp dưới chuẩn. Nó đòi hỏi vốn lớn, kiến thức sâu về phái sinh phức tạp và khả năng chịu đựng thua lỗ tạm thời kéo dài trước khi thị trường 'chịu thua' — nhà đầu tư cá nhân thông thường không thể và không nên bắt chước.",
+      "en": "The 'Big Short' was done by a handful of professionals who bought credit default swaps (CDS) on subprime mortgage bonds. It required large capital, deep knowledge of complex derivatives, and the ability to endure prolonged temporary losses before the market 'broke' — not something an ordinary retail investor could or should copy."
     },
     "quiz": {
       "question": {
@@ -2485,20 +2485,20 @@
         "en": "Enron Corporation (ENE)"
       },
       "action": {
-        "vi": "Bán khống hoặc thoát toàn bộ cổ phiếu Enron trước khi các khoản nợ ẩn bị phơi bày",
-        "en": "Short, or fully exit, Enron before its hidden debts come to light"
+        "vi": "Thoát toàn bộ cổ phiếu Enron trước khi các khoản nợ ẩn bị phơi bày",
+        "en": "Fully exit Enron before its hidden debts come to light"
       },
       "buyWhen": {
-        "vi": "Không mua — mở vị thế bán khống quanh đỉnh 90,75 USD tháng 8/2000",
-        "en": "Don't buy — open a short near the $90.75 peak in August 2000"
+        "vi": "Không mua — nhất là quanh đỉnh 90,75 USD tháng 8/2000",
+        "en": "Don't buy — especially not near the $90.75 peak in August 2000"
       },
       "sellWhen": {
         "vi": "Muộn nhất là 16/10/2001, khi Enron công bố khoản lỗ quý III; giá về 0,26 USD vào 30/11/2001",
         "en": "No later than 16 October 2001, when Enron reported its Q3 loss; the price hit $0.26 by 30 November 2001"
       },
       "estimatedReturn": {
-        "vi": "Mất khoảng 99,7% giá trị từ đỉnh; lãi rất lớn nếu bán khống",
-        "en": "Lost about 99.7% from the peak; huge gains if shorted"
+        "vi": "Mất khoảng 99,7% giá trị từ đỉnh — đây là khoản lỗ bạn tránh được nếu thoát kịp",
+        "en": "Lost about 99.7% from the peak — the loss you avoid by getting out in time"
       },
       "returnMultiple": 0.0029,
       "entryPrice": 90.75,
@@ -2509,12 +2509,12 @@
       "capital": "medium"
     },
     "insiderTip": {
-      "vi": "Người du hành thời gian biết rằng 'lợi nhuận' của Enron được dựng lên nhờ các pháp nhân ngoài bảng cân đối, và chính các pháp nhân này được bảo đảm bằng cổ phiếu Enron — giá càng giảm thì lỗ càng dội ngược về công ty mẹ. Biết trước điều đó, bạn sẽ bán khống quanh đỉnh 90,75 USD tháng 8/2000, hoặc ít nhất thoát hết khi CEO Jeffrey Skilling đột ngột từ chức tháng 8/2001 — rất lâu trước ngày phá sản 2/12/2001.",
-      "en": "A time traveler knows Enron's 'profits' were propped up by off-balance-sheet entities that were themselves backed by Enron stock — so every drop in the share price pushed losses back onto the parent. Knowing that, you would short near the $90.75 peak of August 2000, or at the very least get out when CEO Jeffrey Skilling abruptly resigned in August 2001, long before the 2 December 2001 bankruptcy."
+      "vi": "Người du hành thời gian biết rằng 'lợi nhuận' của Enron được dựng lên nhờ các pháp nhân ngoài bảng cân đối, và chính các pháp nhân này được bảo đảm bằng cổ phiếu Enron — giá càng giảm thì lỗ càng dội ngược về công ty mẹ. Biết trước điều đó, bạn sẽ bán ra quanh đỉnh 90,75 USD tháng 8/2000, hoặc ít nhất thoát hết khi CEO Jeffrey Skilling đột ngột từ chức tháng 8/2001 — rất lâu trước ngày phá sản 2/12/2001.",
+      "en": "A time traveler knows Enron's 'profits' were propped up by off-balance-sheet entities that were themselves backed by Enron stock — so every drop in the share price pushed losses back onto the parent. Knowing that, you would sell near the $90.75 peak of August 2000, or at the very least get out when CEO Jeffrey Skilling abruptly resigned in August 2001, long before the 2 December 2001 bankruptcy."
     },
     "pitfalls": {
-      "vi": "Bán khống quá sớm rất nguy hiểm: cuối năm 2000 cổ phiếu vẫn ở quanh 83 USD và giới phân tích gần như đồng loạt khuyến nghị mua. Hàng nghìn nhân viên Enron dồn tiền hưu trí vào cổ phiếu công ty và mất gần như tất cả — đừng bao giờ đặt toàn bộ tài sản vào một mã, và đừng 'bắt đáy' một công ty đang bị nghi gian lận.",
-      "en": "Shorting too early was dangerous: at the end of 2000 the stock was still around $83 and analysts almost uniformly rated it a buy. Thousands of Enron employees had their retirement savings in company stock and lost nearly everything — never put your whole net worth in one stock, and never 'buy the dip' in a company under suspicion of fraud."
+      "vi": "Thị trường tin tưởng Enron rất lâu: cuối năm 2000 cổ phiếu vẫn ở quanh 83 USD và giới phân tích gần như đồng loạt khuyến nghị mua — ai bán khống quá sớm có thể chịu thua lỗ lớn, thậm chí không giới hạn. Hàng nghìn nhân viên Enron dồn tiền hưu trí vào cổ phiếu công ty và mất gần như tất cả — đừng bao giờ đặt toàn bộ tài sản vào một mã, và đừng 'bắt đáy' một công ty đang bị nghi gian lận.",
+      "en": "The market stayed convinced for a long time: at the end of 2000 the stock was still around $83 and analysts almost uniformly rated it a buy — anyone betting against it too early via short-selling risked large, potentially unlimited losses. Thousands of Enron employees had their retirement savings in company stock and lost nearly everything — never put your whole net worth in one stock, and never 'buy the dip' in a company under suspicion of fraud."
     },
     "quiz": {
       "question": {

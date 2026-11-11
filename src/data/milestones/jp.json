@@ -22,20 +22,20 @@
         "en": "USD/JPY"
       },
       "action": {
-        "vi": "Bán khống đô la Mỹ / mua Yên trước và ngay sau thỏa thuận.",
-        "en": "Short the US dollar / go long yen right before and after the accord."
+        "vi": "Giữ tiền tiết kiệm bằng đồng Yên thay vì đô la Mỹ (hoặc chuyển tiền tiết kiệm đô la sang Yên) ngay trước và sau thỏa thuận.",
+        "en": "Hold savings in yen rather than US dollars (or move dollar savings into yen) right before and after the accord."
       },
       "buyWhen": {
         "vi": "Ngay sau 22/9/1985 khi thỏa thuận được công bố.",
         "en": "Immediately after the Sept 22, 1985 announcement."
       },
       "sellWhen": {
-        "vi": "Cuối 1987, khi Yên đã tăng giá mạnh và Hiệp định Louvre (1987) tìm cách ổn định lại tỷ giá.",
-        "en": "Late 1987, once the yen had appreciated sharply and the 1987 Louvre Accord sought to stabilize rates."
+        "vi": "Cuối 1987, khi Yên đã tăng giá mạnh và Hiệp định Louvre (1987) tìm cách ổn định lại tỷ giá — thời điểm hợp lý để đổi lại nếu cần dùng đô la.",
+        "en": "Late 1987, once the yen had appreciated sharply and the 1987 Louvre Accord sought to stabilize rates — a sensible point to convert back if you need dollars."
       },
       "estimatedReturn": {
-        "vi": "Khoảng 40% lợi nhuận trên vị thế Yên/đô la trong hơn 2 năm.",
-        "en": "Roughly a 40% gain on a long-yen/short-dollar position over just over two years."
+        "vi": "Khoảng 40% lợi nhuận tính theo đô la cho khoản tiết kiệm giữ bằng Yên thay vì đô la trong hơn 2 năm.",
+        "en": "Roughly a 40% gain in dollar terms on savings held in yen instead of dollars over just over two years."
       },
       "entryPrice": 240,
       "exitPrice": 150,
@@ -45,8 +45,8 @@
       "capital": "high"
     },
     "insiderTip": {
-      "vi": "Biết trước ngày họp G5 cho phép đặt cược full-size vào Yên trước khi thị trường phản ứng; các đợt can thiệp của Mỹ-Đức diễn ra dồn dập chỉ trong vài tuần đầu.",
-      "en": "Knowing the G5 meeting date in advance lets you take a full-size long-yen position before the market reacts; US-German interventions were concentrated in just the first few weeks."
+      "vi": "Biết trước ngày họp G5 cho phép bạn chuyển tiền tiết kiệm sang Yên trước khi thị trường phản ứng; các đợt can thiệp của Mỹ-Đức diễn ra dồn dập chỉ trong vài tuần đầu.",
+      "en": "Knowing the G5 meeting date in advance lets you move savings into yen before the market reacts; US-German interventions were concentrated in just the first few weeks."
     },
     "pitfalls": {
       "vi": "Yên tăng giá cũng bóp nghẹt các nhà xuất khẩu Nhật và gây ra 'cú sốc đồng Yên cao' (endaka fukyo); nhiều công ty như Olympus chuyển sang đầu cơ tài chính để bù lỗ, gieo mầm cho bê bối sau này.",
@@ -209,12 +209,12 @@
         "en": "Nikkei 225"
       },
       "action": {
-        "vi": "Bán toàn bộ cổ phiếu Nhật / mở vị thế bán khống chỉ số trước năm mới 1990.",
-        "en": "Sell all Japanese equities / short the index ahead of 1990."
+        "vi": "Bán toàn bộ cổ phiếu Nhật trước năm mới 1990 và đứng ngoài thay vì bắt đáy.",
+        "en": "Sell all Japanese equities ahead of 1990 and stay out rather than buying the dip."
       },
       "buyWhen": {
         "vi": "Không mua — đây là tín hiệu bán.",
-        "en": "N/A — this is a sell/short signal."
+        "en": "N/A — this is a sell signal."
       },
       "sellWhen": {
         "vi": "Ngay tại hoặc trước phiên 29/12/1989.",
@@ -233,8 +233,8 @@
       "capital": "medium"
     },
     "insiderTip": {
-      "vi": "Chỉ số này sẽ không lập đỉnh mới trong 34 năm — nếu buộc phải nắm giữ cổ phiếu Nhật, hãy chuyển sang tiền mặt, trái phiếu nước ngoài hoặc bán khống hợp đồng tương lai Nikkei ngay đầu 1990.",
-      "en": "This index will not make a new high for 34 years — if forced to hold Japanese equities, rotate into cash, foreign bonds, or short Nikkei futures right at the start of 1990."
+      "vi": "Chỉ số này sẽ không lập đỉnh mới trong 34 năm — hãy chuyển khỏi cổ phiếu Nhật sang tiền mặt hoặc trái phiếu nước ngoài ngay đầu 1990.",
+      "en": "This index will not make a new high for 34 years — rotate out of Japanese equities into cash or foreign bonds right at the start of 1990."
     },
     "pitfalls": {
       "vi": "Thị trường tiếp tục tăng thêm vài điểm phần trăm trong vài tuần đầu 1990 trước khi sụp đổ thật sự bắt đầu vào tháng 2/1990 — đừng cố bắt đỉnh tuyệt đối.",
@@ -676,8 +676,8 @@
         "en": "SoftBank Group (9984.T)"
       },
       "action": {
-        "vi": "Bán khống hoặc chốt lời cổ phiếu SoftBank quanh đỉnh dot-com tháng 2/2000.",
-        "en": "Short or take profits on SoftBank stock around its Feb 2000 dot-com peak."
+        "vi": "Chốt lời và thoát khỏi cổ phiếu SoftBank quanh đỉnh dot-com tháng 2/2000.",
+        "en": "Take profits and exit SoftBank stock around its Feb 2000 dot-com peak."
       },
       "buyWhen": {
         "vi": "Không mua lúc này — đây là tín hiệu bán/tránh.",
@@ -1149,8 +1149,8 @@
         "en": "Nikkei 225 / USD-JPY"
       },
       "action": {
-        "vi": "Mua cổ phiếu Nhật (đặc biệt các nhà xuất khẩu) và bán khống Yên.",
-        "en": "Buy Japanese equities (especially exporters) and short the yen."
+        "vi": "Mua cổ phiếu Nhật (đặc biệt các nhà xuất khẩu). Nếu bạn giữ tiền tiết kiệm bằng Yên, hãy lưu ý đồng Yên sẽ suy yếu dưới chính sách này.",
+        "en": "Buy Japanese equities (especially exporters). If you hold savings in yen, be aware the yen was set to weaken under this policy."
       },
       "buyWhen": {
         "vi": "Giữa tháng 11/2012, ngay khi Hạ viện giải tán và bầu cử được ấn định.",
@@ -1624,12 +1624,12 @@
         "en": "Takata Corp (7312.T)"
       },
       "action": {
-        "vi": "Bán khống hoặc tránh hoàn toàn cổ phiếu Takata ngay khi các vụ triệu hồi lớn leo thang từ 2014-2015.",
-        "en": "Short or completely avoid Takata stock as major recalls escalated from 2014-2015."
+        "vi": "Bán ra hoặc tránh hoàn toàn cổ phiếu Takata khi các vụ triệu hồi lớn leo thang từ 2014-2015.",
+        "en": "Sell, or completely avoid, Takata stock as major recalls escalated from 2014-2015."
       },
       "buyWhen": {
-        "vi": "Không mua — đây là trường hợp tránh/bán khống hoàn toàn.",
-        "en": "N/A — a complete avoid/short case."
+        "vi": "Không mua — đây là trường hợp cần tránh hoàn toàn.",
+        "en": "N/A — a complete avoid case."
       },
       "sellWhen": {
         "vi": "Trước năm 2014, khi quy mô vấn đề túi khí bắt đầu được báo chí Mỹ phanh phui.",

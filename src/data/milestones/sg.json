@@ -229,8 +229,8 @@
         "en": "China Aviation Oil (Singapore) (G92.SI)"
       },
       "action": {
-        "vi": "Bán sạch hoặc bán khống cổ phiếu CAO trước khi công ty dừng giao dịch",
-        "en": "Sell out of, or short, CAO shares before trading was halted"
+        "vi": "Bán sạch cổ phiếu CAO trước khi công ty dừng giao dịch",
+        "en": "Sell out of CAO shares before trading was halted"
       },
       "buyWhen": {
         "vi": "Thoát vị thế trong tháng 10-11/2004 khi giá dầu leo thang và có tin công ty mẹ bán bớt cổ phần",
@@ -535,16 +535,16 @@
         "en": "Noble Group (N21.SI)"
       },
       "action": {
-        "vi": "Bán khống hoặc thoát hết Noble ngay khi báo cáo Iceberg xuất hiện, thay vì tin lời phủ nhận",
-        "en": "Short or fully exit Noble as soon as the Iceberg report landed, instead of trusting the denial"
+        "vi": "Thoát hết Noble ngay khi báo cáo Iceberg xuất hiện, thay vì tin lời phủ nhận",
+        "en": "Fully exit Noble as soon as the Iceberg report landed, instead of trusting the denial"
       },
       "buyWhen": {
-        "vi": "Bán ở khoảng S$1,20 trước phiên 16/2/2015",
-        "en": "Sell around S$1.20 before the 16 Feb 2015 session"
+        "vi": "Không mua — nếu đang nắm giữ, bán ở khoảng S$1,20 trước phiên 16/2/2015",
+        "en": "Don't buy — if you hold, sell around S$1.20 before the 16 Feb 2015 session"
       },
       "sellWhen": {
-        "vi": "Đóng vị thế bán khống quanh tháng 1/2018 khi kế hoạch tái cấu trúc xóa gần hết vốn cổ đông",
-        "en": "Cover any short around Jan 2018 when the restructuring all but wiped out equity"
+        "vi": "Đừng mua lại — đến tháng 1/2018 kế hoạch tái cấu trúc đã xóa gần hết vốn cổ đông",
+        "en": "Don't buy back — by Jan 2018 the restructuring had all but wiped out equity"
       },
       "estimatedReturn": {
         "vi": "Người giữ cổ phiếu mất khoảng 98%: S$1,205 (13/2/2015) → S$0,23 sau gộp 10:1 (30/1/2018), tương đương S$0,023 trước gộp",

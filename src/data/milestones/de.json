@@ -300,8 +300,8 @@
       "en": "Neuer Markt Bubble Bursts"
     },
     "summary": {
-      "vi": "Nemax 50 đạt đỉnh 9.666 điểm rồi mất hơn 96% giá trị trong 31 tháng — tránh xa hoặc bán khống.",
-      "en": "The Nemax 50 peaked at 9,666 points then lost over 96% in 31 months — avoid or short it."
+      "vi": "Nemax 50 đạt đỉnh 9.666 điểm rồi mất hơn 96% giá trị trong 31 tháng — một thị trường nên đứng ngoài.",
+      "en": "The Nemax 50 peaked at 9,666 points then lost over 96% in 31 months — a market to stay out of."
     },
     "description": {
       "vi": "Sàn Neuer Markt (mở năm 1997 theo mô hình Nasdaq) và chỉ số chủ chốt Nemax 50 đạt đỉnh lịch sử 9.666 điểm ngày 10/3/2000 với vốn hóa hơn 230 tỷ EUR cho khoảng 229-300 công ty công nghệ. Sau khi bong bóng dot-com vỡ và vụ khủng bố 11/9/2001, chỉ số rơi xuống chỉ còn 318 điểm vào ngày 9/10/2002 — mất hơn 96% giá trị — buộc Deutsche Börse phải đóng cửa hẳn sàn này vào 5/6/2003.",
@@ -313,20 +313,20 @@
         "en": "Nemax 50 Index"
       },
       "action": {
-        "vi": "Tránh mua hoặc bán khống các cổ phiếu Neuer Markt quanh đỉnh",
-        "en": "Avoid buying, or short Neuer Markt stocks, near the peak"
+        "vi": "Tránh mua cổ phiếu Neuer Markt quanh đỉnh; bán ra nếu đang nắm giữ",
+        "en": "Avoid buying Neuer Markt stocks near the peak; sell if already holding"
       },
       "buyWhen": {
-        "vi": "Không nên mua — hoặc bán khống ngay sau đỉnh 10/3/2000",
-        "en": "Do not buy — or open a short right after the 10 Mar 2000 peak"
+        "vi": "Không nên mua — nhất là quanh đỉnh 10/3/2000, và đừng bắt đáy trước khi chỉ số chạm đáy cuối 2002",
+        "en": "Do not buy — especially near the 10 Mar 2000 peak, and don't buy the dip before the late-2002 bottom"
       },
       "sellWhen": {
-        "vi": "Đóng vị thế khi chỉ số chạm đáy khoảng cuối 2002",
-        "en": "Cover around the index bottom in late 2002"
+        "vi": "Bán trước hoặc tại đỉnh 10/3/2000 nếu đang nắm giữ",
+        "en": "Sell by the 10 Mar 2000 peak if holding"
       },
       "estimatedReturn": {
-        "vi": "Mất hơn 96% nếu mua tại đỉnh; lãi lớn nếu bán khống",
-        "en": "Over 96% loss if bought at the peak; large gains if shorted"
+        "vi": "Tránh được khoản lỗ hơn 96% nếu mua tại đỉnh",
+        "en": "Avoids an over 96% loss from buying at the peak"
       },
       "returnMultiple": 0.033,
       "entryPrice": 9666,
@@ -337,12 +337,12 @@
       "capital": "medium"
     },
     "insiderTip": {
-      "vi": "Biết trước ngày đỉnh chính xác 10/3/2000 cho phép bạn thoát toàn bộ vị thế công nghệ Đức hoặc mở vị thế bán khống đúng lúc thị trường quay đầu ngay hôm sau.",
-      "en": "Knowing the exact peak date of 10 March 2000 lets you exit all German tech positions — or open a short — right as the market turns the very next day."
+      "vi": "Biết trước ngày đỉnh chính xác 10/3/2000 cho phép bạn thoát toàn bộ vị thế công nghệ Đức đúng lúc thị trường quay đầu ngay hôm sau.",
+      "en": "Knowing the exact peak date of 10 March 2000 lets you exit all German tech positions right as the market turns the very next day."
     },
     "pitfalls": {
-      "vi": "Bán khống sớm quá sẽ bị thiêu rụi bởi đà tăng điên cuồng trước đó (cổ phiếu như Mobilcom tăng 2.800% trong năm đầu); cần đúng thời điểm.",
-      "en": "Shorting too early gets burned by the preceding mania (Mobilcom rose 2,800% in its first year) — timing right at the top matters."
+      "vi": "Cơn sốt trước đó (cổ phiếu như Mobilcom tăng 2.800% trong năm đầu) kéo nhà đầu tư đến muộn mua vào sát đỉnh. Giới chuyên nghiệp bán khống quá sớm cũng bị chính cơn sốt này thiêu rụi — bán khống có rủi ro lỗ không giới hạn và rất khó canh đúng thời điểm.",
+      "en": "The preceding mania (Mobilcom rose 2,800% in its first year) pulled late buyers in near the top. Professionals who shorted too early got burned by that same mania — shorting carries unlimited-loss risk and timing it is extremely hard."
     },
     "quiz": {
       "question": {
@@ -973,8 +973,8 @@
         "en": "Commerzbank (CBK)"
       },
       "action": {
-        "vi": "Tránh nắm giữ cổ phiếu Commerzbank qua giai đoạn cứu trợ/pha loãng 2008-2009, hoặc bán khống trước tin quốc hữu hóa",
-        "en": "Avoid holding Commerzbank through the 2008-09 bailout/dilution, or short ahead of the nationalization news"
+        "vi": "Tránh nắm giữ cổ phiếu Commerzbank qua giai đoạn cứu trợ/pha loãng 2008-2009; bán ra trước tin quốc hữu hóa",
+        "en": "Avoid holding Commerzbank through the 2008-09 bailout/dilution; sell ahead of the nationalization news"
       },
       "buyWhen": {
         "vi": "Không mua — nếu đang giữ thì bán trước tháng 11/2008",
@@ -995,8 +995,8 @@
       "capital": "medium"
     },
     "insiderTip": {
-      "vi": "Biết trước vụ sáp nhập Dresdner Bank sẽ buộc chính phủ phải cứu trợ và pha loãng cổ đông hiện hữu, bạn có thể tránh mua hoặc bán khống Commerzbank từ giữa năm 2008, trước khi tin bơm vốn chính thức công bố.",
-      "en": "Knowing the Dresdner Bank merger will force a government rescue that dilutes existing shareholders lets you avoid buying, or short Commerzbank, from mid-2008 — before the capital-injection news is officially announced."
+      "vi": "Biết trước vụ sáp nhập Dresdner Bank sẽ buộc chính phủ phải cứu trợ và pha loãng cổ đông hiện hữu, bạn có thể tránh mua hoặc bán Commerzbank từ giữa năm 2008, trước khi tin bơm vốn chính thức công bố.",
+      "en": "Knowing the Dresdner Bank merger will force a government rescue that dilutes existing shareholders lets you avoid buying, or sell Commerzbank, from mid-2008 — before the capital-injection news is officially announced."
     },
     "pitfalls": {
       "vi": "Nhà nước Đức giữ cổ phần Commerzbank tới tận hơn một thập kỷ sau đó, cổ phiếu không bao giờ phục hồi về mức trước khủng hoảng — đây là ví dụ cổ điển về cổ phiếu ngân hàng 'zombie' cần tránh dài hạn.",
@@ -1264,12 +1264,12 @@
         "en": "Volkswagen preferred shares (VOW3)"
       },
       "action": {
-        "vi": "Bán khống hoặc thoát vị thế VW ngay khi tin tức EPA được công bố",
-        "en": "Short or exit VW positions the moment the EPA news breaks"
+        "vi": "Thoát vị thế VW ngay khi tin tức EPA được công bố",
+        "en": "Exit VW positions the moment the EPA news breaks"
       },
       "buyWhen": {
-        "vi": "Không mua — mở vị thế bán khống ngay khi tin EPA ra (18/9/2015)",
-        "en": "Don't buy — open a short the moment the EPA news breaks (18 Sep 2015)"
+        "vi": "Không mua — và đừng bắt đáy ngay sau khi tin EPA ra (18/9/2015)",
+        "en": "Don't buy — and don't buy the dip right after the EPA news breaks (18 Sep 2015)"
       },
       "sellWhen": {
         "vi": "18-21/9/2015, ngay khi bê bối được công bố",
@@ -1287,12 +1287,12 @@
       "capital": "medium"
     },
     "insiderTip": {
-      "vi": "Biết trước ngày 18/9/2015 EPA sẽ công khai cáo buộc gian lận khí thải, bạn có thể bán khống VW vài ngày trước và chốt lời ngay sau cú giảm 19,4%.",
-      "en": "Knowing the EPA will go public with the emissions-cheating allegations on 18 September 2015 lets you short VW days ahead and cover right after the 19.4% plunge."
+      "vi": "Biết trước ngày 18/9/2015 EPA sẽ công khai cáo buộc gian lận khí thải, bạn có thể bán VW vài ngày trước đó, tránh cú giảm 19,4%.",
+      "en": "Knowing the EPA will go public with the emissions-cheating allegations on 18 September 2015 lets you sell VW days ahead, before the 19.4% plunge."
     },
     "pitfalls": {
-      "vi": "Cổ phiếu phục hồi một phần cuối năm 2015 khi tin tức tạm lắng, nên vị thế bán khống kéo dài quá lâu có thể bị lỗ; chốt lời sớm quanh đáy ngắn hạn.",
-      "en": "Shares partially recovered by late 2015 as news flow cooled, so holding a short position too long can backfire — take profits near the short-term low."
+      "vi": "Cổ phiếu phục hồi một phần cuối năm 2015 khi tin tức tạm lắng — đó chỉ là nhịp hồi, chưa phải tín hiệu an toàn. Người bán khống giữ vị thế quá lâu bị nhịp hồi này bào mòn lợi nhuận, cho thấy canh thời điểm bán khống rủi ro thế nào.",
+      "en": "Shares partially recovered by late 2015 as news flow cooled — a bounce, not an all-clear. Short sellers who held too long saw that rebound eat into their gains, a reminder of how risky timing a short is."
     },
     "quiz": {
       "question": {
@@ -1359,8 +1359,8 @@
         "en": "Deutsche Bank (DBK)"
       },
       "action": {
-        "vi": "Tránh nắm giữ hoặc bán khống Deutsche Bank trong năm 2016, mua lại sau khi đạt thoả thuận với DOJ",
-        "en": "Avoid holding, or short, Deutsche Bank through 2016, then buy back after the DOJ settlement"
+        "vi": "Tránh nắm giữ Deutsche Bank trong năm 2016, mua lại sau khi đạt thoả thuận với DOJ",
+        "en": "Avoid holding Deutsche Bank through 2016, then buy back after the DOJ settlement"
       },
       "buyWhen": {
         "vi": "Cuối 2016/đầu 2017 sau khi tin tức xấu nhất qua đi",
@@ -1551,20 +1551,20 @@
         "en": "Wirecard AG (WDI)"
       },
       "action": {
-        "vi": "Bán khống hoặc thoát toàn bộ vị thế Wirecard ngay khi tin kiểm toán xuất hiện",
-        "en": "Short, or fully exit, Wirecard the moment the audit news breaks"
+        "vi": "Thoát toàn bộ vị thế Wirecard ngay khi tin kiểm toán xuất hiện — tốt hơn nữa là trước đó",
+        "en": "Fully exit Wirecard the moment the audit news breaks — or better, before"
       },
       "buyWhen": {
-        "vi": "Không mua — mở vị thế bán khống trước ngày 18/6/2020",
-        "en": "Don't buy — open a short before 18 June 2020"
+        "vi": "Không mua — và bán hết cổ phiếu đang nắm giữ trước ngày 18/6/2020",
+        "en": "Don't buy — and sell any holdings before 18 June 2020"
       },
       "sellWhen": {
         "vi": "18/6/2020, ngày EY công bố không xác nhận được 1,9 tỷ EUR",
         "en": "18 June 2020, the day EY disclosed it couldn't confirm the EUR 1.9bn"
       },
       "estimatedReturn": {
-        "vi": "Mất hơn 98% giá trị trong chưa đầy 2 tuần; lãi lớn nếu bán khống",
-        "en": "Lost over 98% of value in under two weeks; large gains if shorted"
+        "vi": "Tránh mất hơn 98% giá trị trong chưa đầy 2 tuần",
+        "en": "Avoids losing over 98% of value in under two weeks"
       },
       "returnMultiple": 0.0122,
       "entryPrice": 104.5,
@@ -1575,8 +1575,8 @@
       "capital": "medium"
     },
     "insiderTip": {
-      "vi": "Người du hành thời gian biết trước 1,9 tỷ EUR 'tiền mặt' của Wirecard thực chất không tồn tại — họ có thể bán khống hoặc thoát lệnh từ rất lâu trước báo cáo kiểm toán tháng 6/2020, khi nhiều nhà báo điều tra (FT) đã cảnh báo từ năm 2019 nhưng ít ai tin.",
-      "en": "A time traveler knows in advance that Wirecard's EUR 1.9bn in 'cash' simply doesn't exist, and can short or exit long before the June 2020 audit report — even though the Financial Times had raised red flags as early as 2019 with few believers."
+      "vi": "Người du hành thời gian biết trước 1,9 tỷ EUR 'tiền mặt' của Wirecard thực chất không tồn tại — họ có thể thoát lệnh từ rất lâu trước báo cáo kiểm toán tháng 6/2020, khi nhiều nhà báo điều tra (FT) đã cảnh báo từ năm 2019 nhưng ít ai tin.",
+      "en": "A time traveler knows in advance that Wirecard's EUR 1.9bn in 'cash' simply doesn't exist, and can exit long before the June 2020 audit report — even though the Financial Times had raised red flags as early as 2019 with few believers."
     },
     "pitfalls": {
       "vi": "Nhiều nhà đầu tư cá nhân mua vào khi giá rơi sâu, tin rằng đây là cơ hội 'bắt đáy', nhưng công ty đã nộp đơn phá sản và cổ phiếu gần như về 0 — đừng bắt dao rơi.",
