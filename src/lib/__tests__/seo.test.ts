@@ -1,7 +1,22 @@
-import { describe, expect, it } from "vitest";
+import { describe, expect, it, vi } from "vitest";
 import { SITE_URL, localeAlternates } from "../seo";
 
 describe("SITE_URL", () => {
+  it("uses the default URL when the environment variable is empty", async () => {
+    const previous = process.env.NEXT_PUBLIC_SITE_URL;
+    try {
+      process.env.NEXT_PUBLIC_SITE_URL = "";
+      vi.resetModules();
+      const { SITE_URL: url } = await import("../seo");
+      expect(url).toBe("https://reincarnation-checklist.vn");
+      expect(() => new URL(url)).not.toThrow();
+    } finally {
+      if (previous === undefined) delete process.env.NEXT_PUBLIC_SITE_URL;
+      else process.env.NEXT_PUBLIC_SITE_URL = previous;
+      vi.resetModules();
+    }
+  });
+
   it("is an absolute https URL without a trailing slash", () => {
     expect(SITE_URL).toMatch(/^https:\/\/[^/]+$/);
   });
