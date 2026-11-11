@@ -155,7 +155,7 @@ export default async function MethodologyPage({ params }: PageProps) {
         <p className="mt-2 text-[15px] leading-relaxed text-muted">{copy.feedbackText}</p>
         <div className="mt-5 flex flex-wrap items-center gap-4">
           <a
-            href="https://github.com/justindang/reincarnation-checklist/issues/new?title=%5BData+Correction%5D&body=Milestone+ID%3A%0APage+URL%3A%0AProposed+Correction%3A%0ASource+Citation%3A"
+            href="https://github.com/justinnc/reincarnation-checklist/issues/new?title=%5BData+Correction%5D&body=Milestone+ID%3A%0APage+URL%3A%0AProposed+Correction%3A%0ASource+Citation%3A"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-xl bg-gold px-4 py-2.5 text-sm font-semibold text-on-gold shadow-sm transition hover:opacity-90"

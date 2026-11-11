@@ -1,7 +1,23 @@
 # PROJECT_STATE.md — The Reincarnation Checklist
 
 > Handoff document for a fresh agent session. Last updated 2026-11-11 (see §0 first).
-> Project root: `/Users/justindang/reincarnation-checklist` (macOS, local git only, branch `main`, **no remote** — nothing is pushed anywhere).
+> Project root: `/Users/justindang/reincarnation-checklist` (macOS, branch `main` → `origin/main` = `github.com/justinnc/reincarnation-checklist`, public).
+
+---
+
+## 0a. Update after `6d22504` (2026-11-11 evening) — supersedes §0 where they conflict
+
+**Now live:** deployed on Vercel at `https://reincarnation-checklist-justinncs-projects.vercel.app` (HTTP 200). Public GitHub repo `justinnc/reincarnation-checklist`, Issues enabled. Sections below that say "no remote / deployed nowhere / `gh` not installed" are stale.
+
+**Commits since §0:** `0e99c31` PostHog analytics (`src/lib/analytics.ts`, `src/instrumentation-client.ts`; events: survival_started/round_decided/completed, pass_card_downloaded, survival_shared, quiz_started/completed/shared; no-op when `NEXT_PUBLIC_POSTHOG_KEY` unset — see `.env.example`) · `a4392bf` + `437a311` `SITE_URL` = `NEXT_PUBLIC_SITE_URL` or the vercel.app domain (`src/lib/seo.ts`; the `.vn` placeholder is gone) · `d479355` English home kicker · `dfd2591` `engines.node` = `24.x`, `@types/node` ^24.
+
+**Node:** run everything under Node 24 (`source ~/.nvm/nvm.sh && nvm use 24`; system Node 22.5.1 no longer matches `engines`). The `NODE_OPTIONS='--experimental-require-module'` script prefix is now redundant on 24 but harmless.
+
+**Baseline (Node 24.21):** 207/207 tests, 28 files · validate OK (328) · tsc clean · lint 0 errors / 13 warnings · build 763 routes.
+
+**Open item 1 partially resolved:** the live "Submit a correction" link pointed to `github.com/justindang/...` (404). Repointed to `github.com/justinnc/reincarnation-checklist/issues/new` (`src/app/[lang]/methodology/page.tsx` + test). Owner can still swap to email/form; corrections arriving as public GitHub issues means submitters need a GitHub account.
+
+**Open item 7 note:** the site is already public, so Gate 1 step 4 (launch prep) is partly done de facto — remaining owner decisions: custom domain, feedback channel confirmation, rollback owner, PostHog key/privacy notice (analytics is not mentioned on the methodology page yet).
 
 ---
 
