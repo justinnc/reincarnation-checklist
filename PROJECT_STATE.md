@@ -17,6 +17,10 @@
 
 **Open item 1 partially resolved:** the live "Submit a correction" link pointed to `github.com/justindang/...` (404). Repointed to `github.com/justinnc/reincarnation-checklist/issues/new` (`src/app/[lang]/methodology/page.tsx` + test). Owner can still swap to email/form; corrections arriving as public GitHub issues means submitters need a GitHub account.
 
+**Done after §0a was written:** `73ae40e` — the "`params` accessed outside `<Suspense>`" dev warning (open item 6) fixed on `/[lang]/[country]` and `/[lang]/[country]/[id]` with `export const instant = false`. The Suspense/stream fix was tried and rejected: unknown URLs became 200 soft-404s because `notFound()` fired after streaming began; `dynamicParams` is not allowed with `cacheComponents`. Unknown country/id still return 404. · `74d51a8` — pass-card seal moved from the turning-point chips to the empty top-right of the profile row (open item 4, stamp part); seal top line now curves along the ring; seal middle line and ROI pill shrink to fit (large VI ROIs like `39.715,9× ROI` used to overflow).
+
+**New finding (owner decision):** the pass-card footer prints `REINCARNATION-CHECKLIST.COM` (`src/lib/passCard.ts`, §10), a domain the project does not appear to own. Every shared card advertises it. Replace it with the real site host once the domain is decided.
+
 **Open item 7 note:** the site is already public, so Gate 1 step 4 (launch prep) is partly done de facto — remaining owner decisions: custom domain, feedback channel confirmation, rollback owner, PostHog key/privacy notice (analytics is not mentioned on the methodology page yet).
 
 ---
