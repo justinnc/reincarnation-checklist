@@ -19,20 +19,20 @@
     "kicker": "Trọng sinh · Reborn",
     "wakeUp": "You wake up in",
     "heading": "You remember everything that happens next.",
-    "intro": "A curated, sourced list of the moments a time traveller could turn into a fortune — what to buy, when to buy, when to sell, and what would go wrong.",
-    "ahead": "opportunities still ahead of you",
+    "intro": "Pick a country and a year. Explore the turning points that came next, with sources for each story.",
+    "ahead": "milestones from this year onward",
     "topAhead": "Your best plays from here",
     "seeAll": "See the full timeline",
     "biggest": "Biggest wins on record",
-    "biggestNote": "Ranked by verified price multiple.",
+    "biggestNote": "Entries with 2+ listed links, ranked by listed price multiples; links and returns have not been independently checked.",
     "countries": "Choose your country",
     "milestones": "milestones",
-    "verified": "verified",
+    "verified": "with 2+ sources listed",
     "how": "How to use the checklist",
     "steps": [
       "Pick the year you are reborn in.",
       "Open a milestone: read the play, the insider tip and the traps.",
-      "Save it to your Cheat Sheet 🧿 — your personal buy/sell schedule.",
+      "Compare prices in the Almanac or test an investment in What If.",
       "Prove you would survive the past in the quiz."
     ],
     "playQuiz": "Play the quiz"
@@ -57,8 +57,8 @@
     "whatIf": "invested then",
     "becomes": "becomes",
     "sources": "Sources",
-    "unverified": "Unverified",
-    "verified": "Verified",
+    "unverified": "Source status unconfirmed",
+    "verified": "2+ sources listed",
     "readMore": "Details",
     "levels": {
       "low": "Low",
@@ -76,7 +76,7 @@
       "commodities": "Commodities"
     },
     "drop": "Price fell — the play is to sell, short or avoid",
-    "verifiedMeaning": "At least two independent sources confirm the dates and prices. Returns are nominal and not audited."
+    "verifiedMeaning": "Listed source links are references, not a claim-level audit; claims and returns have not been independently fact-checked."
   },
   "detail": {
     "back": "Back to timeline",

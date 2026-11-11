@@ -1964,16 +1964,16 @@
     "date": "2021-12-09",
     "category": "stocks",
     "title": {
-      "vi": "Nubank IPO trên NYSE, định giá gần 52 tỷ USD",
-      "en": "Nubank IPOs on the NYSE at a near-$52 billion valuation"
+      "vi": "Nubank mở cửa phiên IPO trên NYSE với vốn hóa gần 52 tỷ USD",
+      "en": "Nubank opens on the NYSE at a near-$52 billion market cap"
     },
     "summary": {
       "vi": "Ngân hàng số lớn nhất Mỹ Latinh niêm yết với giá IPO 9 USD, tăng 15% ngày đầu, được Warren Buffett hậu thuẫn.",
       "en": "Latin America's biggest digital bank listed at a $9 IPO price, jumped 15% on debut day, and was backed by Warren Buffett."
     },
     "description": {
-      "vi": "Ngày 9/12/2021, Nubank (Nu Holdings) niêm yết trên NYSE với mã NU, định giá IPO 9 USD/cổ phiếu (mức cao trong khoảng 8-9 USD đã hạ so với dự kiến ban đầu 10-11 USD), huy động khoảng 2,6 tỷ USD. Cổ phiếu mở cửa 11,25 USD (tăng 25%) và đóng cửa phiên đầu tiên ở 10,33 USD (tăng gần 15%), đưa vốn hóa thị trường lên gần 52 tỷ USD — vượt qua Itaú Unibanco để trở thành ngân hàng niêm yết giá trị nhất Mỹ Latinh. Berkshire Hathaway của Warren Buffett là một trong các nhà đầu tư hậu thuẫn then chốt.",
-      "en": "On Dec 9, 2021, Nubank (Nu Holdings) listed on the NYSE under ticker NU, priced its IPO at $9/share (the top of an already-lowered $8-9 range, down from an original $10-11), and raised about $2.6 billion. The stock opened at $11.25 (up 25%) and closed its first session at $10.33 (up nearly 15%), pushing its market cap to almost $52 billion — overtaking Itaú Unibanco to become Latin America's most valuable listed bank. Warren Buffett's Berkshire Hathaway was among its key backers."
+      "vi": "Ngày 9/12/2021, Nubank (Nu Holdings) niêm yết trên NYSE với mã NU, định giá IPO 9 USD/cổ phiếu (mức cao trong khoảng 8-9 USD đã hạ so với dự kiến ban đầu 10-11 USD), huy động khoảng 2,6 tỷ USD. Cổ phiếu mở cửa ở 11,25 USD (tăng 25%), đưa vốn hóa lên gần 52 tỷ USD và vượt Itaú Unibanco về giá trị thị trường. Cổ phiếu đóng cửa phiên đầu ở 10,33 USD (tăng gần 15% so với giá IPO), tương ứng vốn hóa khoảng 50 tỷ USD. Berkshire Hathaway của Warren Buffett là một trong các nhà đầu tư hậu thuẫn then chốt.",
+      "en": "On Dec 9, 2021, Nubank (Nu Holdings) listed on the NYSE under ticker NU, priced its IPO at $9/share (the top of an already-lowered $8-9 range, down from an original $10-11), and raised about $2.6 billion. The stock opened at $11.25 (up 25%), giving it a market cap of nearly $52 billion and surpassing Itaú Unibanco by market value. It closed its first session at $10.33 (up nearly 15% from the IPO price), at a market cap of about $50 billion. Warren Buffett's Berkshire Hathaway was among its key backers."
     },
     "opportunity": {
       "asset": {
@@ -1997,10 +1997,10 @@
         "en": "About a 15% first-day gain versus the IPO price"
       },
       "entryPrice": 9,
-      "exitPrice": 11.91,
+      "exitPrice": 10.33,
       "priceCurrency": "USD",
       "exitDate": "2021-12-09",
-      "returnMultiple": 1.323,
+      "returnMultiple": 1.148,
       "risk": "high",
       "capital": "medium"
     },
@@ -2049,10 +2049,14 @@
       {
         "title": "Nubank debuts with $52 bln market cap - Reuters",
         "url": "https://reuters.com/markets/europe/brazils-nubank-valued-nearly-52-bln-nyse-debut-2021-12-09"
+      },
+      {
+        "title": "Nubank hits big with US IPO - S&P Global (intraday quote)",
+        "url": "https://www.spglobal.com/market-intelligence/en/news-insights/articles/2021/12/nubank-hits-big-with-us-ipo-santander-raises-stake-in-mexican-unit-68027679"
       }
     ],
     "verified": true,
-    "verifiedNote": "Confirmed IPO date (Dec 9 2021), IPO price ($9), opening ($11.25) and closing ($10.33) first-day prices, and ~$48-52bn market cap via CNBC, Reuters and Bloomberg reporting. | Corrected: first-day close was $11.91 (not $10.33) per NYSE data, audited 2026-11-07."
+    "verifiedNote": "IPO price $9, opening $11.25, and Dec 9 2021 closing $10.33 reported by CNBC; $11.91 was an intraday quote, not the closing price (S&P Global). Rechecked 2026-11-10."
   },
   {
     "id": "br-americanas-rombo-contabil-2023",

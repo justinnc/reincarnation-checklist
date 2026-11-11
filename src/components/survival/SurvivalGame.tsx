@@ -1,7 +1,8 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import { useSearchParams } from "next/navigation";
+import { hashSeed, mulberry32 } from "@/lib/cardgame/rng";
 import { motion, AnimatePresence } from "motion/react";
 import { t, type Locale } from "@/lib/i18n";
 import type { Country } from "@/lib/types";
@@ -19,35 +20,6 @@ import { addCharmIds } from "@/lib/charm";
 import { soundFx } from "@/lib/soundFx";
 import { generateReincarnationPassCard } from "@/lib/passCard";
 
-function AnimatedNumber({ value }: { value: number }) {
-  const [display, setDisplay] = useState(value);
-  const startRef = useRef(display);
-
-  useEffect(() => {
-    const start = startRef.current;
-    const end = value;
-    if (start === end) return;
-    const duration = 650;
-    const startTime = performance.now();
-
-    const frame = (now: number) => {
-      const elapsed = now - startTime;
-      const progress = Math.min(1, elapsed / duration);
-      const ease = 1 - Math.pow(1 - progress, 4);
-      const current = Math.round(start + (end - start) * ease);
-      setDisplay(current);
-      startRef.current = current;
-      if (progress < 1) {
-        requestAnimationFrame(frame);
-      }
-    };
-    const req = requestAnimationFrame(frame);
-    return () => cancelAnimationFrame(req);
-  }, [value]);
-
-  return <span>{display.toLocaleString()}</span>;
-}
-
 export default function SurvivalGame({
   lang,
   countries,
@@ -64,7 +36,7 @@ export default function SurvivalGame({
   // Game state
   const [phase, setPhase] = useState<"roulette" | "playing" | "game_over">( "roulette" );
   const [run, setRun] = useState<SurvivalRun>(() =>
-    generateSurvivalRun(initialCountryParam, initialYearParam)
+    generateSurvivalRun(initialCountryParam, initialYearParam, mulberry32(hashSeed(`survival:${initialCountryParam ?? ""}:${initialYearParam ?? ""}`)))
   );
 
   // Roulette spinning state
@@ -77,6 +49,18 @@ export default function SurvivalGame({
     countryName: t(run.country.name, lang),
     year: run.startYear,
   });
+
+  // Keep SSR and hydration identical, then draw a fresh run for each visit.
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      const freshRun = generateSurvivalRun(initialCountryParam, initialYearParam);
+      setRun(freshRun);
+      setSpinDisplay({ flag: freshRun.country.flag, countryName: t(freshRun.country.name, lang), year: freshRun.startYear });
+    }, 0);
+    return () => clearTimeout(timer);
+    // URL parameters are only an initial preference; spinning can replace them.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   const toggleSound = () => {
     const newMuted = soundFx.toggleMute();
@@ -428,7 +412,7 @@ export default function SurvivalGame({
                 {lang === "vi" ? "Tài sản hiện tại" : "Net Worth"}
               </div>
               <div className="font-display text-2xl font-extrabold text-gold sm:text-3xl">
-                $<AnimatedNumber value={netWorth} />
+                ${netWorth.toLocaleString()}
               </div>
             </div>
           </div>
@@ -590,7 +574,7 @@ export default function SurvivalGame({
                     {t(currentRoundResult.headline, lang)}
                   </div>
                   <div className="font-mono text-sm font-semibold">
-                    ${currentRoundResult.prevNetWorth.toLocaleString()} ➔ ${" "}
+                    ${currentRoundResult.prevNetWorth.toLocaleString()} ➔{" "}
                     <span
                       className={`text-base font-bold ${
                         currentRoundResult.isSuccess ? "text-gain" : "text-trap"

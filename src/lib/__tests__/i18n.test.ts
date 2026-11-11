@@ -1,5 +1,27 @@
 import { describe, expect, it } from "vitest";
 import { defaultCountry, defaultLocale, hasLocale, intlLocale, locales, t } from "../i18n";
+import en from "../../dictionaries/en.json";
+import vi from "../../dictionaries/vi.json";
+
+describe("milestone source labels", () => {
+  it("describes source count rather than claiming independent verification", () => {
+    expect(en.timeline.verified).toBe("2+ sources listed");
+    expect(vi.timeline.verified).toBe("Có từ 2 nguồn");
+    expect(en.timeline.verifiedMeaning).toContain("Listed source links");
+    expect(en.timeline.verifiedMeaning).toContain("not been independently fact-checked");
+    expect(vi.timeline.verifiedMeaning).toContain("Liên kết nguồn được liệt kê");
+    expect(vi.timeline.verifiedMeaning).toContain("chưa được kiểm chứng độc lập");
+    expect(en.timeline.unverified).toBe("Source status unconfirmed");
+    expect(vi.timeline.unverified).toBe("Chưa xác nhận nguồn");
+  });
+});
+
+describe("homepage onboarding", () => {
+  it("does not promise a save-to-Cheat-Sheet flow while Charm is hidden", () => {
+    expect(en.home.steps.join(" ")).not.toMatch(/save.*cheat sheet/i);
+    expect(vi.home.steps.join(" ")).not.toMatch(/lưu.*bùa/i);
+  });
+});
 
 describe("t", () => {
   it("returns the requested locale when present", () => {

@@ -14,7 +14,7 @@ const COPY = {
       },
       {
         h: "Số liệu lịch sử, không đảm bảo tương lai",
-        p: "'Lợi nhuận quá khứ không đảm bảo kết quả tương lai.' Các con số về lợi nhuận, giá mua/bán trong quá khứ được tổng hợp từ nguồn công khai tại thời điểm nghiên cứu và có thể đã lỗi thời, làm tròn, hoặc dựa trên cách tính khác với cách bạn tính. Một số mốc được đánh dấu 'Chưa kiểm chứng' nghĩa là số liệu chưa được đối chiếu với nguồn gốc chính thức.",
+        p: "'Lợi nhuận quá khứ không đảm bảo kết quả tương lai.' Các con số về lợi nhuận, giá mua/bán trong quá khứ được tổng hợp từ nguồn công khai tại thời điểm nghiên cứu và có thể đã lỗi thời, làm tròn, hoặc dựa trên cách tính khác với cách bạn tính. Số liên kết nguồn chỉ cho biết có bao nhiêu tài liệu tham khảo được liệt kê; không có nghĩa là số liệu hay từng khẳng định đã được kiểm tra độc lập.",
       },
       {
         h: "Tiền mã hóa",
@@ -44,7 +44,7 @@ const COPY = {
       },
       {
         h: "Historical figures, no future guarantee",
-        p: "Past performance does not guarantee future results. Historical return and price figures were compiled from public sources at research time and may be outdated, rounded, or computed on a different basis than you expect. A milestone marked 'Unverified' means its figures have not been cross-checked against an authoritative source.",
+        p: "Past performance does not guarantee future results. Historical return and price figures were compiled from public sources at research time and may be outdated, rounded, or computed on a different basis than you expect. A source-link count only shows how many references are listed; it does not mean the figures or claims have been independently checked.",
       },
       {
         h: "Cryptocurrency",

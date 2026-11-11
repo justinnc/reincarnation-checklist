@@ -6,7 +6,7 @@ import { defaultCountry, type Locale } from "@/lib/i18n";
 import { formatMoney, formatMultiple } from "@/lib/format";
 import { allCountries } from "@/lib/countries";
 import Link from "next/link";
-import { assetMaxYear, assetsForCountry, cashBaseline, computeWhatIf, PRE_BOUNDARY_NOTE } from "@/lib/whatif/engine";
+import { assetMaxYear, assetsForCountry, comparableCashBaseline, computeWhatIf, PRE_BOUNDARY_NOTE } from "@/lib/whatif/engine";
 
 const PRESET_AMOUNTS_VND = [1_000_000, 10_000_000, 50_000_000, 100_000_000];
 const PRESET_AMOUNTS_USD = [100, 1_000, 10_000, 100_000];
@@ -36,7 +36,7 @@ const COPY = {
     copied: "Đã sao chép!",
     screenshotHint: "Mẹo: chụp màn hình thẻ này để chia sẻ lên mạng xã hội.",
     caveatLabel: "Lưu ý",
-    baseline: "So với để không (lạm phát ăn mòn)",
+    baseline: "Sức mua của tiền mặt (quy về giá trị năm bắt đầu, theo CPI; không phải số dư danh nghĩa)",
   },
   en: {
     countryLabel: "Country",
@@ -53,7 +53,7 @@ const COPY = {
     copied: "Copied!",
     screenshotHint: "Tip: screenshot this card to share it.",
     caveatLabel: "Note",
-    baseline: "vs. doing nothing (inflation erodes it)",
+    baseline: "Cash purchasing power (in starting-year currency, CPI-adjusted; not nominal balance)",
   },
 };
 
@@ -81,7 +81,7 @@ export default function WhatIfCalculator({ lang }: { lang: Locale }) {
   const y = Math.min(Math.max(year, minYear), maxYear);
 
   const result = useMemo(() => computeWhatIf(asset, y, amount), [asset, y, amount]);
-  const baseline = useMemo(() => cashBaseline(country, y, amount), [country, y, amount]);
+  const baseline = useMemo(() => comparableCashBaseline(country, asset, y, amount), [country, asset, y, amount]);
 
   const syncUrl = (next: { country?: string; asset?: string; year?: number; amount?: number }) => {
     const sp = new URLSearchParams({
@@ -144,8 +144,11 @@ export default function WhatIfCalculator({ lang }: { lang: Locale }) {
   return (
     <div className="space-y-6">
       <div className="rounded-3xl border border-line bg-surface p-6">
-        <p className="text-sm font-semibold uppercase tracking-wider text-faint">{copy.countryLabel}</p>
-        <div className="mt-3 flex flex-wrap gap-2">
+        <label htmlFor="whatif-country" className="block text-sm font-semibold uppercase tracking-wider text-faint">{copy.countryLabel}</label>
+        <select id="whatif-country" value={country} onChange={(e) => pickCountry(e.target.value)} className="mt-3 w-full rounded-lg border border-line bg-bg px-3 py-2.5 text-ink sm:hidden">
+          {allCountries.map((c) => <option key={c.code} value={c.code}>{c.flag} {c.name[lang]}</option>)}
+        </select>
+        <div className="mt-3 hidden flex-wrap gap-2 sm:flex">
           {allCountries.map((c) => (
             <button
               key={c.code}
@@ -289,7 +292,7 @@ export default function WhatIfCalculator({ lang }: { lang: Locale }) {
         <p className="mt-1 text-muted">
           {lang === "vi" && result.multiple < 1 ? "— còn" : copy.multiplePrefix} {formatMultiple(result.multiple, lang)} {copy.resultPrefix}
         </p>
-        {baseline && asset.id !== `${country}_cash` && (
+        {baseline && (
           <p className="mt-3 text-xs text-faint">
             {copy.baseline}: {formatMoney(baseline.finalValue, baseline.currency, lang)} ({formatMultiple(baseline.multiple, lang)})
           </p>

@@ -2,14 +2,16 @@
 
 > Phạm vi: nguồn dữ liệu giá cho build-time refresh, kiểm tra độ phủ thực tế (live test), audit độc lập mẫu 25 milestone, và đề xuất hệ thống data-quality. Không có file dữ liệu nào trong `src/data/milestones/*.json` bị chỉnh sửa khi thực hiện báo cáo này.
 
+> **Đính chính 2026-11-10:** Kết luận mẫu về `br-nubank-ipo-2021` bên dưới là **sai**: $11.91 là giá trong phiên, không phải giá đóng cửa 9/12/2021. [CNBC](https://www.cnbc.com/2021/12/09/buffett-backed-nubank-rises-in-trading-on-the-nyse-in-blockbuster-ipo.html) ghi giá đóng cửa **$10.33** (+gần 15% từ IPO $9); [S&P Global](https://www.spglobal.com/market-intelligence/en/news-insights/articles/2021/12/nubank-hits-big-with-us-ipo-santander-raises-stake-in-mexican-unit-68027679) ghi $11.91 là giá đã đạt được *trong phiên*, đồng thời xác nhận mức tăng cuối ngày 15%. Bản ghi dữ liệu trước đó đã bị sửa nhầm theo audit cũ; hiện đã khôi phục `exitPrice: 10.33`, `returnMultiple: 1.148`. `it-natural-gas-crisis-2022` đã bỏ cặp giá gộp sai từ trước. Giữ `audit-sample.json` làm snapshot lịch sử, **không dùng thống kê 2/25 wrong hay ngoại suy 8% ở dưới làm tỷ lệ lỗi hiện tại**. Cần rà soát độc lập lại 5 mục minor và các bản ghi khác.
+
 ## Tóm tắt điều hành (Executive Summary)
 
 - **Vấn đề cốt lõi đã xác nhận**: nhiều `returnMultiple` bị "đóng băng" tại thời điểm agent nghiên cứu viết bài (vd. Facebook 44.6x tính đến 2025-08-12), không tự cập nhật — đúng như mô tả trong brief. Không có cơ chế `asOf`/refresh nào trong schema hiện tại (`src/lib/types.ts`).
 - **Licensing là rào cản lớn hơn kỹ thuật**: hầu hết nguồn miễn phí/rẻ (Stooq, Yahoo/yfinance, Alpha Vantage free, FRED) đều **cấm hiển thị công khai trên website** hoặc cấm dùng để train/lưu trữ AI — kể cả khi kỹ thuật lấy dữ liệu dễ dàng. Chỉ CoinGecko (có attribution), FMP Enterprise, Tiingo (license riêng), và Twelve Data Business cho phép display công khai hợp pháp ở các mức giá khác nhau.
 - **Live test xác nhận Stooq bị chặn bot tự động**: endpoint CSV công khai (`stooq.com/q/d/l/`) hiện trả về trang thách thức proof-of-work JS (Cloudflare-style), không trả CSV thô qua `curl`/HTTP client thường — cần trình duyệt thật hoặc giải pháp headless, làm tăng độ giòn (fragility) cho GitHub Action. CoinGecko hoạt động tốt qua `curl` thuần, không cần API key cho dữ liệu cơ bản.
 - **Ước tính độ phủ auto-refresh**: trong 157/252 milestone có numeric field, nhóm có thể refresh tự động với độ tin cậy cao (chỉ số lớn: SSE, CAC40, DAX, FTSE, cổ phiếu US/EU niêm yết, BTC) chiếm khoảng **55-65%**; phần còn lại (bất động sản, VND/chỉ số Việt Nam qua nguồn không chính thức, tỷ giá lịch sử, dữ liệu gộp nhiều tài sản trong 1 trường) khó hoặc không thể tự động hóa rẻ tiền.
-- **Audit 25 mẫu (random seed 42)**: 18/25 **OK** (72%), 5/25 **minor issue** (20%, chủ yếu do thiếu `priceBasis`/split-adjustment hoặc thiếu field), 2/25 **wrong** (8%) — một lỗi giá rõ ràng (Nu Holdings exitPrice sai) và một bản ghi gộp sai hai loại tài sản khác nhau (Eni cổ phiếu vs giá khí đốt TTF) khiến cặp entry/exit không thể tái lập từ bất kỳ nguồn nào.
-- **Tỷ lệ lỗi ước tính**: ~8% milestone có numeric field chứa lỗi giá rõ ràng cần sửa ngay; ~20% khác cần làm rõ/khớp lại nguồn. Ngoại suy sang toàn bộ 157 milestone có numeric field: ước tính khoảng **12-13 milestone** có lỗi giá thực sự, **~31 milestone** cần rà soát thêm.
+- **Audit 25 mẫu (random seed 42; snapshot lịch sử)**: báo cáo ban đầu phân loại 18 OK, 5 minor, 2 wrong; một kết luận wrong (Nubank) đã bị bác bỏ khi kiểm tra giá đóng cửa so với giá trong phiên. Đây không phải thống kê lỗi hiện tại.
+- **Chưa có tỷ lệ lỗi hiện tại đáng tin cậy**: các phép ngoại suy từ 2/25 wrong trong báo cáo gốc không còn hợp lệ; cần audit lại mẫu sau khi định nghĩa rõ giá đóng cửa/giá trong phiên và cơ sở điều chỉnh chia tách.
 - **Đề xuất stack chính**: Stooq cho mirror cá nhân (không public), Twelve Data Business/FMP Enterprise cho hiển thị công khai cổ phiếu/chỉ số toàn cầu khi ngân sách cho phép, CoinGecko Demo (miễn phí, có attribution) cho crypto, FRED cho dữ liệu vĩ mô Mỹ, World Bank/IMF API cho vĩ mô toàn cầu (public domain), và với Việt Nam: vnstock (thư viện Python mã nguồn mở bọc TCBS/VCI) chỉ nên dùng nội bộ để sinh snapshot JSON tĩnh, không gọi trực tiếp runtime vì các API này không công bố ToS cho public redistribution.
 
 ---
@@ -90,7 +92,7 @@
 ### Hai lỗi rõ ràng (wrong)
 
 1. **`it-natural-gas-crisis-2022`** — `entryPrice: 20`, `exitPrice: 213.895 EUR` cùng ngày `2022-03-07`. Trường `asset` gộp hai công cụ khác nhau ("Eni S.p.A. (ENI.MI) / natural gas futures (TTF)") nhưng chỉ lưu một cặp giá — không khớp với giá cổ phiếu Eni thực tế đầu tháng 3/2022 (~12-13 EUR) cũng không rõ tương ứng đơn vị nào của TTF. Nguồn: [Eni Annual Report 2022](https://www.eni.com/content/dam/enicom/documents/eng/reports/2022/Annual-Report-2022.pdf).
-2. **`br-nubank-ipo-2021`** — `exitPrice: 10.33 USD`. Giá đóng cửa phiên giao dịch đầu tiên theo MarketWatch là **11.91 USD** (+32.4%), không phải 10.33 USD; `returnMultiple` đúng phải ~1.32x. Nguồn: [MarketWatch](http://www.marketwatch.com/story/nu-holdings-stock-opens-25-above-ipo-price-valuing-company-at-nearly-52-billion-2021-12-09).
+2. **`br-nubank-ipo-2021` — đính chính: kết luận audit sai.** Giá **11.91 USD** trong [MarketWatch](http://www.marketwatch.com/story/nu-holdings-stock-opens-25-above-ipo-price-valuing-company-at-nearly-52-billion-2021-12-09) là giá đã đạt được *trong phiên*; [CNBC](https://www.cnbc.com/2021/12/09/buffett-backed-nubank-rises-in-trading-on-the-nyse-in-blockbuster-ipo.html) ghi giá đóng cửa đầu tiên **10.33 USD**. `exitPrice` hiện là 10.33 USD, `returnMultiple` là 1.148x. Xem đính chính đầu tài liệu.
 
 ### Năm vấn đề nhỏ (minor issue)
 
@@ -99,9 +101,11 @@
 - `ca-toronto-housing-boom-2000-2022`: `entryPrice` lệch ~0.6% so với số liệu TRREB chính thức (243,255 vs 244,653 CAD) — sai số nhỏ, không ảnh hưởng kết luận.
 - `us-starbucks-ipo-1992`: có `returnMultiple: 400` nhưng thiếu `exitPrice`/`exitDate`/`currency` — vi phạm tính toàn vẹn dữ liệu dù entryPrice đúng.
 
-### Ước tính tỷ lệ lỗi
+### Ước tính tỷ lệ lỗi (lịch sử, không còn dùng)
 
-- Tỷ lệ lỗi rõ ràng trong mẫu: **8%** (2/25).
+> Các ước tính dưới đây được tính trước đính chính Nubank; không dùng để đánh giá dữ liệu hiện tại. Cần lấy mẫu và kiểm tra lại.
+
+- Tỷ lệ lỗi rõ ràng trong mẫu: **8%** (2/25), theo phân loại ban đầu đã bị đính chính.
 - Tỷ lệ cần rà soát thêm (wrong + minor): **28%** (7/25).
 - Ngoại suy tuyến tính sang 157 milestone có numeric field: ước tính khoảng **12-13 milestone** có lỗi giá thực sự cần sửa, và khoảng **44 milestone** nên được rà soát lại nguồn/thêm chú thích.
 - Đáng chú ý: **18/25 (72%)** các con số cốt lõi (ngày tháng, mức giá, IPO price, mức đáy/đỉnh chỉ số) khớp chính xác hoặc gần như chính xác với nguồn báo chí/tài chính uy tín — cho thấy chất lượng nghiên cứu nền tảng khá tốt, vấn đề chính nằm ở (a) thiếu metadata hỗ trợ (split basis, exitDate), và (b) một số ít lỗi nhập liệu/diễn giải nguồn.

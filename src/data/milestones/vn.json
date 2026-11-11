@@ -3087,45 +3087,39 @@
       "en": "Louis Holdings Pumps TGG from VND 1,800 to VND 74,800"
     },
     "summary": {
-      "vi": "Nhóm ông Đỗ Thành Nhân dùng nhiều tài khoản khớp lệnh chéo, đẩy cổ phiếu 'rác' TGG lên gấp hơn 40 lần trong bảy tháng rồi xả hàng, thu lợi bất chính hơn 153 tỷ đồng.",
-      "en": "Do Thanh Nhan's group used many accounts to cross-trade 'junk' stock TGG up more than 40-fold in seven months before dumping it, reaping over VND 153 billion in illegal profit."
+      "vi": "Nhóm ông Đỗ Thành Nhân bị truy tố vì thao túng TGG và BII; TGG lập đỉnh 74.800 đồng, còn khoản thu lợi bất chính hơn 154 tỷ đồng thuộc cả hai mã.",
+      "en": "Do Thanh Nhan's group was prosecuted for manipulating TGG and BII; TGG peaked at VND 74,800, while the reported VND 154 billion-plus illegal gain covered both stocks."
     },
     "description": {
-      "vi": "Từ tháng 2 đến 6/2021, nhóm ông Đỗ Thành Nhân (Chủ tịch Louis Holdings) gom hơn 10 triệu cổ phiếu TGG của Công ty Xây dựng Trường Giang (sau đổi tên thành Louis Capital) ở khoảng 1.800 đồng/cổ phiếu, với nguồn vốn vay chủ yếu từ Công ty Quản lý tài sản Trí Việt. Với sự giúp sức của ông Đỗ Đức Nam (Tổng giám đốc Chứng khoán Trí Việt), nhóm này dùng các tài khoản đứng tên người thân, nhân viên để mua bán nội bộ, khớp lệnh chéo và tạo giá đóng cửa ATC, khiến TGG tăng trần liên tiếp và lập đỉnh 74.800 đồng ngày 22/9/2021 (BII cũng lập đỉnh 33.800 đồng ngày 18/9/2021). Đến 6/10/2021 nhóm xả hết hàng, thu lợi hơn 153 tỷ đồng. Ngày 20/4/2022, Bộ Công an khởi tố và bắt ông Nhân, ông Nam về tội thao túng thị trường chứng khoán; TGG sau đó rơi xuống đáy 2.300 đồng vào giữa tháng 11/2022.",
-      "en": "From February to June 2021, the group of Do Thanh Nhan (chairman of Louis Holdings) accumulated more than 10 million shares of TGG, Truong Giang Construction (later renamed Louis Capital), at around VND 1,800 each, funded mainly by loans from Tri Viet Asset Management. Helped by Do Duc Nam (CEO of Tri Viet Securities), the group used accounts held in the names of relatives and staff to trade internally, cross-match orders and set ATC closing prices, driving TGG through repeated limit-up sessions to a peak of VND 74,800 on 22 September 2021 (BII also peaked at VND 33,800 on 18 September 2021). By 6 October 2021 the group had sold out, making over VND 153 billion. On 20 April 2022 the Ministry of Public Security charged and arrested Nhan and Nam for stock-market manipulation; TGG later hit a low of VND 2,300 in mid-November 2022."
+      "vi": "Theo cáo trạng, nhóm ông Đỗ Thành Nhân giao dịch TGG và BII qua các tài khoản liên quan để tạo cung cầu giả trong năm 2021. Giá TGG được ghi nhận quanh 1.800 đồng khi nhóm bắt đầu mua, nhưng các giao dịch mua sau đó cũng được báo cáo ở mức 4.000–5.000 đồng; không thể coi 1.800 đồng là giá mua của toàn bộ số cổ phiếu. TGG lập đỉnh 74.800 đồng ngày 22/9/2021; sau đó nhóm bán ra và thanh khoản suy giảm mạnh. Khoản thu lợi bất chính hơn 154 tỷ đồng được cáo trạng quy cho cả TGG và BII, không phải riêng TGG. Ngày 20/4/2022, Bộ Công an khởi tố, bắt ông Nhân và các bị can liên quan. Chênh lệch giữa giá đầu kỳ và giá đỉnh là số liệu nhìn lại, không chứng minh một nhà đầu tư độc lập có thể mua và bán ở cả hai mức đó.",
+      "en": "According to prosecutors, Do Thanh Nhan's group used related accounts to create artificial demand and supply in TGG and BII during 2021. TGG was quoted near VND 1,800 when the group began buying, but later purchases were also reported at VND 4,000–5,000; VND 1,800 was not the entry price of every share. TGG peaked at VND 74,800 on 22 September 2021; the group subsequently sold shares and liquidity deteriorated. Prosecutors attributed more than VND 154 billion in illicit gains to TGG and BII combined, not TGG alone. On 20 April 2022 police charged and detained Nhan and other suspects. The low-to-peak price comparison is hindsight, not evidence that an independent investor could buy and sell at both prices."
     },
     "opportunity": {
+      "historicalOnly": true,
       "asset": {
         "vi": "Louis Capital (TGG)",
         "en": "Louis Capital (TGG)"
       },
       "action": {
-        "vi": "Mua TGG từ đầu năm 2021 và bán hết quanh đỉnh 22/9/2021, tuyệt đối không giữ qua tháng 10/2021",
-        "en": "Buy TGG in early 2021 and sell everything around the 22 September 2021 peak; never hold past October 2021"
+        "vi": "Nhận diện dấu hiệu thao túng và rủi ro thanh khoản; đứng ngoài thay vì tìm cách bắt đúng đáy và đỉnh.",
+        "en": "Recognize manipulation and liquidity risk; stay out rather than attempting to capture the exact low and peak."
       },
       "buyWhen": {
-        "vi": "Tháng 2/2021, khi TGG còn quanh 1.800 đồng/cổ phiếu",
-        "en": "February 2021, while TGG was still around VND 1,800 a share"
-      },
-      "sellWhen": {
-        "vi": "Quanh ngày 22/9/2021 khi TGG lập đỉnh 74.800 đồng, trước khi nhóm thao túng xả hàng xong vào 6/10/2021",
-        "en": "Around 22 September 2021 when TGG peaked at VND 74,800, before the manipulators finished dumping on 6 October 2021"
+        "vi": "Đầu năm 2021 là mốc giá tham chiếu, không phải giá mua được xác nhận cho nhà đầu tư độc lập.",
+        "en": "Early 2021 is a historical reference, not a verified fill for an independent investor."
       },
       "estimatedReturn": {
-        "vi": "Lý thuyết khoảng 41 lần nếu mua đúng đáy và bán đúng đỉnh; người mua ở đỉnh mất hơn 95% đến tháng 11/2022",
-        "en": "About 41x in theory if bought at the bottom and sold at the top; buyers at the peak lost over 95% by November 2022"
+        "vi": "Giá TGG từng được ghi nhận quanh 1.800 đồng và đạt đỉnh 74.800 đồng; đây không phải mức lợi nhuận nhà đầu tư đã thực hiện.",
+        "en": "TGG was quoted near VND 1,800 and later peaked at VND 74,800; this is not a realized investor return."
       },
-      "returnMultiple": 41.5556,
-      "entryPrice": 1800,
-      "exitPrice": 74800,
       "priceCurrency": "VND",
       "exitDate": "2021-09-22",
       "risk": "high",
       "capital": "low"
     },
     "insiderTip": {
-      "vi": "Người 'trọng sinh' biết cú tăng của TGG không dựa trên kinh doanh mà do nhóm ông Nhân tự mua tự bán. Họ có thể 'đi nhờ sóng' từ đầu năm nhưng phải thoát hàng quanh 22/9/2021 — chỉ hai tuần sau, nhóm thao túng đã bán sạch, và mọi đợt hồi sau đó đều là bẫy.",
-      "en": "A reincarnated investor knows TGG's rally was not driven by the business but by Nhan's group trading with itself. They could ride the wave from early 2021 but must get out around 22 September 2021 — two weeks later the manipulators had sold everything, and every later bounce was a trap."
+      "vi": "Nhìn lại, đợt tăng giá TGG gắn với giao dịch tạo cung cầu giả, không phải bằng chứng tăng trưởng doanh nghiệp. Không có cơ sở để giả định một nhà đầu tư thông thường mua được ở giá thấp nhất và bán hết ở đúng đỉnh.",
+      "en": "In hindsight, TGG's rally was linked to trades creating artificial demand, not demonstrated business growth. There is no basis to assume an ordinary investor could buy at the low and exit an entire position at the peak."
     },
     "pitfalls": {
       "vi": "Đây là sóng của cổ phiếu bị thao túng: thanh khoản ảo có thể biến mất trong một phiên, và người mua sau thường là người gánh lỗ. Tham gia giúp sức tạo cung cầu giả (cho mượn tài khoản, khớp lệnh chéo) là phạm tội thao túng theo Điều 211 Bộ luật Hình sự. Bán khống cổ phiếu ở Việt Nam gần như không khả thi, nên cách an toàn nhất là đứng ngoài.",
@@ -3156,8 +3150,8 @@
       ],
       "answer": 2,
       "explanation": {
-        "vi": "Theo cáo trạng, TGG lập đỉnh 74.800 đồng ngày 22/9/2021; 33.800 đồng là đỉnh của BII, còn hơn 153 tỷ đồng là số tiền thu lợi bất chính.",
-        "en": "Per the indictment, TGG peaked at VND 74,800 on 22 September 2021; VND 33,800 was BII's peak, and over VND 153 billion was the illegal profit."
+        "vi": "Theo cáo trạng, TGG lập đỉnh 74.800 đồng ngày 22/9/2021; khoản thu lợi bất chính hơn 154 tỷ đồng thuộc cả TGG và BII, không phải riêng TGG.",
+        "en": "Prosecutors report TGG peaked at VND 74,800 on 22 September 2021; the more than VND 154 billion illicit gain covered both TGG and BII."
       }
     },
     "sources": [
@@ -3176,10 +3170,14 @@
       {
         "title": "Nhờ đâu mà ông chủ Louis Holdings có thể thổi giá cổ phiếu rác gấp 37 lần? - Lao Động",
         "url": "https://laodong.vn/phap-luat/nho-dau-ma-ong-chu-louis-holdings-co-the-thoi-gia-co-phieu-rac-gap-37-lan-1096375.ldo"
+      },
+      {
+        "title": "Tiền Phong — prosecution details on TGG acquisition prices and combined gains",
+        "url": "https://tienphong.vn/cuu-chu-tich-louis-holdings-hau-toa-vu-thoi-gia-chung-khoan-thu-loi-bat-chinh-hon-154-ty-dong-post1532168.tpo"
       }
     ],
     "verified": true,
-    "verifiedNote": "Manipulation window (4 Jan-6 Oct 2021) and 20 Apr 2022 arrests from the Ministry of Public Security; VND 74,800 peak on 22 Sep 2021 confirmed by Kiem sat (indictment), Lao Dong, Thanh Nien and VnExpress International; ~VND 1,800 accumulation price confirmed by Thanh Nien, Bao Dau Tu and Bao Hai Phong (VnExpress cites ~VND 1,200 as the pre-rally low, Lao Dong calls the run '37x'). VND 2,300 Nov 2022 low from Thanh Nien only. Entry/exit are the indictment's buy price and peak, not achievable fills."
+    "verifiedNote": "Ministry of Public Security gives manipulation window Jan 4–Oct 6, 2021 and Apr 20, 2022 arrests. Kiem Sat reports TGG's VND 74,800 peak on Sep 22, 2021; prosecution reporting distinguishes early VND 1,800 quotes from later VND 4,000–5,000 purchases and attributes the >VND 154 billion gain to TGG and BII combined. No documented independent-investor low-to-peak trade; returnMultiple and price-based scenario fields deliberately omitted."
   },
   {
     "id": "vn-thu-thiem-land-boom-2002",

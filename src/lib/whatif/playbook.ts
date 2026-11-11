@@ -54,6 +54,7 @@ export interface PlaybookStep {
 
 export interface PlaybookResult {
   steps: PlaybookStep[];
+  skippedOverlaps: PlaybookCandidate[];
   initialCapital: number;
   finalCapital: number;
   totalMultiple: number;
@@ -99,7 +100,7 @@ export function parseEndYM(m: MilestoneLite): number {
 
 export function getPlaybookCandidates(milestones: MilestoneLite[]): PlaybookCandidate[] {
   return milestones
-    .filter((m) => (m.opportunity.returnMultiple ?? 0) > 1)
+    .filter((m) => !m.opportunity.historicalOnly && (m.opportunity.returnMultiple ?? 0) > 1)
     .map((m) => {
       const entryRaw = effectiveEntryDate(m);
       const startYear = parseStartYear(entryRaw);
@@ -149,9 +150,15 @@ export function simulatePlaybook(
   let hasOverlap = false;
   let hasLiquidityCap = false;
 
-  const steps: PlaybookStep[] = ordered.map((c) => {
+  const steps: PlaybookStep[] = [];
+  const skippedOverlaps: PlaybookCandidate[] = [];
+  for (const c of ordered) {
     const overlapsPrevious = prevEndYM !== null && c.startYM <= prevEndYM;
-    if (overlapsPrevious) hasOverlap = true;
+    if (overlapsPrevious) {
+      hasOverlap = true;
+      skippedOverlaps.push(c);
+      continue;
+    }
     const capitalBefore = capital;
     let deployedCapital = capital;
     let cappedByLiquidity = false;
@@ -168,7 +175,7 @@ export function simulatePlaybook(
     capital = capitalAfter;
     prevEndYM = Math.max(prevEndYM ?? c.endYM, c.endYM);
     const cumulativeMultiple = initialCapital > 0 ? capitalAfter / initialCapital : 1;
-    return {
+    steps.push({
       candidate: c,
       capitalBefore,
       deployedCapital,
@@ -176,12 +183,13 @@ export function simulatePlaybook(
       cumulativeMultiple,
       overlapsPrevious,
       cappedByLiquidity,
-    };
-  });
+    });
+  }
 
   const totalMultiple = initialCapital > 0 ? capital / initialCapital : 1;
   return {
     steps,
+    skippedOverlaps,
     initialCapital,
     finalCapital: capital,
     totalMultiple,

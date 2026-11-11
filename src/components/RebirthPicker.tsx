@@ -20,6 +20,19 @@ type Props = {
 
 const LOW_DATA_THRESHOLD = 15;
 
+export function pickerEmptyMessage(lang: Locale, tab: "gain" | "trap", year: number, aheadCount: number, contextCount: number): string {
+  if (aheadCount === 0) return lang === "vi"
+    ? `Không có mốc nào từ ${year} cho quốc gia này. Xem dòng thời gian để tìm các mốc trước đó.`
+    : `No milestones from ${year} for this country. See the full timeline for earlier events.`;
+  const missing = lang === "vi"
+    ? `Hiện không có hệ số ${tab === "gain" ? "tăng" : "giảm"} từ ${year} cho quốc gia này.`
+    : `No listed ${tab === "gain" ? "gain" : "trap"} multiples from ${year} for this country.`;
+  if (contextCount > 0) return `${missing} ${lang === "vi"
+    ? `Các mốc bối cảnh từ ${year} có trong dòng thời gian của quốc gia.`
+    : `Context milestones from ${year} are in the country's full timeline.`}`;
+  return `${missing} ${lang === "vi" ? "Xem dòng thời gian để tìm các mốc khác." : "See the full timeline for other milestones."}`;
+}
+
 export default function RebirthPicker({ milestones, countries, lang, dict, minYear, maxYear }: Props) {
   const [year, setYear] = useState(Math.max(minYear, 1995));
   const [country, setCountry] = useState(() => defaultCountry(lang));
@@ -238,6 +251,11 @@ export default function RebirthPicker({ milestones, countries, lang, dict, minYe
           </div>
 
           <ol className="mt-4 space-y-3">
+            {activeList.length === 0 && (
+              <li className="list-none rounded-xl border border-dashed border-line p-4 text-sm text-muted">
+                {pickerEmptyMessage(lang, tab, year, ahead.length, ahead.length - gainsAhead.length - trapsAhead.length)}
+              </li>
+            )}
             <AnimatePresence mode="wait" initial={false}>
               <motion.div
                 key={`${tab}-${country}`}

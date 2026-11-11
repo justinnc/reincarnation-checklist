@@ -17,20 +17,44 @@ export interface Source {
   url: string;
 }
 
-export interface Opportunity {
+/** Optional editorial record; legacy `verified` only describes listed links. */
+export type ClaimReview =
+  | { status: "pending" }
+  | { status: "agent-checked"; claim: LocalizedText; proposedBy: string; checkedBy: string; evidence: { url: string; excerpt: string; observedOn: string }[] };
+
+export interface PriceObservation {
+  date: string;
+  basis: "open" | "close" | "intraday" | "average" | "estimate" | "other";
+  currency: string;
+  /** Identical unit on both sides, e.g. "share" or "5kg bag". */
+  unit: string;
+  sourceUrl: string;
+}
+
+interface OpportunityBase {
   asset?: LocalizedText;
   action: LocalizedText;
   buyWhen: LocalizedText;
   sellWhen?: LocalizedText;
   estimatedReturn: LocalizedText;
-  returnMultiple?: number;
-  entryPrice?: number;
-  exitPrice?: number;
   priceCurrency?: string;
   exitDate?: string;
   risk?: Level;
   capital?: Level;
 }
+
+/** Historical comparisons cannot carry executable prices or scenario returns. */
+export type Opportunity = OpportunityBase & (
+  | { historicalOnly: true; returnMultiple?: never; entryPrice?: never; exitPrice?: never; priceObservations?: never }
+  | {
+      historicalOnly?: false;
+      returnMultiple?: number;
+      entryPrice?: number;
+      exitPrice?: number;
+      /** Opt-in comparable evidence; legacy pairs have no assumed unit/basis. */
+      priceObservations?: { entry: PriceObservation; exit: PriceObservation };
+    }
+);
 
 export interface Quiz {
   question: LocalizedText;
@@ -55,13 +79,16 @@ export interface Milestone {
   sources: Source[];
   verified: boolean;
   verifiedNote?: string;
+  claimReview?: ClaimReview;
   /** Deal was not buyable by a retail investor (VC/private stake, insider deal, hedge-fund trade). Excluded from "Realistic" playbooks. */
   private?: boolean;
 }
 
 /** The slice of a milestone the client-side explorers (homepage, world, playbook) need. */
 export type MilestoneLite = Pick<Milestone, "id" | "country" | "date" | "title" | "verified" | "private"> & {
-  opportunity: Pick<Opportunity, "returnMultiple" | "exitDate" | "capital" | "asset">;
+  /** Filled by toMilestoneLite; optional for older callers passing a full Milestone. */
+  sourceCount?: number;
+  opportunity: Pick<Opportunity, "historicalOnly" | "returnMultiple" | "exitDate" | "capital" | "asset">;
 };
 
 export interface Country {

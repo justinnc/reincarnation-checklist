@@ -77,7 +77,7 @@ Chip (default / hover / active / focus-visible), Card (default / hover border-st
 ## Do's and Don'ts
 
 - Do show a number whenever we have one; say "≈" for estimates.
-- Do show the "Unverified" badge on any `verified: false` item.
+- Do label `verified: false` as "Source status unconfirmed"; `verified: true` only means 2+ source links are listed, not independent fact-checking.
 - Don't use gold for money or green for time.
 - Don't add drop shadows, glassmorphism, or gradient text.
 

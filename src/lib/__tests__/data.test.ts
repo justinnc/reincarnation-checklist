@@ -1,8 +1,8 @@
 import { readdirSync } from "node:fs";
 import path from "node:path";
 import { describe, expect, it } from "vitest";
-import { allMilestones, countries, countryStats, getCountry, getMilestone, getMilestones, yearOf } from "../data";
-import { categories } from "../types";
+import { allMilestones, countries, countryStats, getCountry, getMilestone, getMilestones, rankListedReturns, sanitizeHistoricalMilestone, toMilestoneLite, yearOf } from "../data";
+import { categories, type Milestone } from "../types";
 
 const MILESTONE_DIR = path.resolve(__dirname, "../../data/milestones");
 const DATE_RE = /^\d{4}(-\d{2}(-\d{2})?)?$/;
@@ -27,6 +27,82 @@ describe("allMilestones", () => {
       expect(codes.has(m.country)).toBe(true);
       expect(m.title.en).toBeTruthy();
     }
+  });
+});
+
+describe("homepage listed-return ranking", () => {
+  it("uses listed links rather than the legacy flag and excludes historical-only figures", () => {
+    const base = allMilestones[0];
+    const linked = { ...base, id: "linked", verified: false, sources: [base.sources[0], base.sources[0]], opportunity: { ...base.opportunity, returnMultiple: 10, historicalOnly: false } } as Milestone;
+    const legacy = { ...linked, id: "legacy", verified: true, sources: [base.sources[0]], opportunity: { ...linked.opportunity, returnMultiple: 20 } } as Milestone;
+    const historical = { ...linked, id: "historical", verified: true, opportunity: { ...linked.opportunity, returnMultiple: 30, historicalOnly: true } } as unknown as Milestone;
+    expect(rankListedReturns([linked, legacy, historical]).map((m) => m.id)).toEqual(["linked"]);
+  });
+});
+
+describe("historical price corrections", () => {
+  it("does not send a historical-only numeric return to client-side gain lists", () => {
+    const base = allMilestones[0];
+    const malformed = { ...base, opportunity: { ...base.opportunity, historicalOnly: true, returnMultiple: 99 } } as unknown as Milestone;
+    expect(toMilestoneLite(malformed).opportunity.returnMultiple).toBeUndefined();
+  });
+  it("suppresses accidental historical-only prices before a full milestone reaches the UI", () => {
+    const base = allMilestones[0];
+    const malformed = { ...base, opportunity: { ...base.opportunity, historicalOnly: true, returnMultiple: 99, entryPrice: 1, exitPrice: 99 } } as unknown as Milestone;
+    const safe = sanitizeHistoricalMilestone(malformed);
+    expect(safe.opportunity.historicalOnly).toBe(true);
+    expect(safe.opportunity.returnMultiple).toBeUndefined();
+    expect(safe.opportunity.entryPrice).toBeUndefined();
+    expect(safe.opportunity.exitPrice).toBeUndefined();
+    expect(sanitizeHistoricalMilestone(base)).toBe(base);
+  });
+  it("does not describe Berkshire's March 1980 quote as a Sunday IPO", () => {
+    const m = getMilestone("us", "us-berkshire-hathaway-1980")!;
+    for (const lang of ["en", "vi"] as const) {
+      expect(m.opportunity.buyWhen[lang]).not.toMatch(/March 16|16\/3\/1980/);
+      expect(m.quiz!.question[lang]).not.toMatch(/IPO/i);
+      expect(m.quiz!.explanation![lang]).not.toMatch(/offered|chào bán|March 16|16\/3\/1980/i);
+    }
+    expect(m.opportunity.entryPrice).toBe(290);
+  });
+
+  it("does not offer a pizza valuation as an executable Bitcoin return", () => {
+    const m = getMilestone("us", "us-bitcoin-pizza-day-2010")!;
+    expect(m.opportunity.returnMultiple).toBeUndefined();
+    expect(m.opportunity.entryPrice).toBeUndefined();
+    expect(m.opportunity.historicalOnly).toBe(true);
+    expect(m.description.en).toContain("$41");
+    expect(m.description.en).toContain("$0.0041");
+  });
+
+  it("frames manipulated TGG prices as history, not a realizable trade", () => {
+    const m = getMilestone("vn", "vn-louis-holdings-tgg-manipulation-2021")!;
+    expect(m.opportunity.returnMultiple).toBeUndefined();
+    expect(m.opportunity.entryPrice).toBeUndefined();
+    expect(m.opportunity.exitPrice).toBeUndefined();
+    expect(m.opportunity.historicalOnly).toBe(true);
+    for (const lang of ["en", "vi"] as const) {
+      expect(m.opportunity.action[lang]).not.toMatch(/buy|mua/i);
+      expect(m.description[lang]).toMatch(/BII/);
+    }
+  });
+
+  it("uses Nubank's Dec 9, 2021 closing price, not its intraday $11.91 quote", () => {
+    // CNBC reported the $10.33 close; S&P Global reported $11.91 during the session.
+    const m = getMilestone("br", "br-nubank-ipo-2021");
+    expect(m).toBeDefined();
+    expect(m!.opportunity.entryPrice).toBe(9);
+    expect(m!.opportunity.exitPrice).toBe(10.33);
+    expect(m!.opportunity.returnMultiple).toBeCloseTo(10.33 / 9, 2);
+    expect(m!.summary?.en).toContain("15%");
+    expect(m!.description.en).toContain("closed its first session at $10.33");
+    for (const lang of ["en", "vi"] as const) {
+      expect(m!.title[lang]).toMatch(/open|mở cửa/i);
+      expect(m!.description[lang]).toMatch(/52/);
+      expect(m!.description[lang]).toMatch(/50/);
+    }
+    expect(m!.description.en).toMatch(/opened at \$11\.25.*\$52 billion/i);
+    expect(m!.description.en).toMatch(/closed its first session at \$10\.33.*\$50 billion/i);
   });
 });
 
@@ -87,6 +163,15 @@ describe("countryStats", () => {
     expect(stats.from).toBeLessThanOrEqual(stats.to);
     expect(stats.verified).toBe(list.filter((m) => m.verified).length);
     expect(stats.verified).toBeLessThanOrEqual(stats.count);
+    expect(stats.sourceLinked).toBe(list.filter((m) => m.sources.length >= 2).length);
+  });
+
+  it("counts links independently of the legacy verified flag", () => {
+    const m = getMilestone("us", "us-martha-stewart-imclone-insider-trading-2001")!;
+    expect(m.verified).toBe(false);
+    expect(m.sources.length).toBe(4);
+    expect(toMilestoneLite(m).sourceCount).toBe(4);
+    expect(countryStats("us").sourceLinked).toBe(getMilestones("us").filter((item) => item.sources.length >= 2).length);
   });
 
   it("picks the milestone with the highest returnMultiple as best, for every country", () => {

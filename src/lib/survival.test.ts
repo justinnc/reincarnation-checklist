@@ -8,8 +8,34 @@ import {
   type SurvivalRound,
 } from "./survival";
 import { allMilestones } from "./data";
+import type { Milestone } from "./types";
+import { mulberry32 } from "./cardgame/rng";
 
 describe("survival minigame mechanics", () => {
+  it("never picks a historical-only case, even with an invalid numeric return", () => {
+    const base = allMilestones.find((m) => m.country === "vn" && (m.opportunity.returnMultiple ?? 0) > 1)!;
+    const malformed = {
+      ...base,
+      id: "fixture-historical-only",
+      date: "2021-01",
+      opportunity: { ...base.opportunity, historicalOnly: true, returnMultiple: 999 },
+    } as unknown as Milestone;
+    allMilestones.push(malformed);
+    try {
+      for (let seed = 0; seed < 100; seed++) {
+        const run = generateSurvivalRun("vn", 2021, mulberry32(seed));
+        expect(run.rounds.map((r) => r.milestone.id)).not.toContain(malformed.id);
+      }
+    } finally {
+      allMilestones.pop();
+    }
+  });
+  it("replays the same initial country, year and rounds from a seeded RNG", () => {
+    const first = generateSurvivalRun(undefined, undefined, mulberry32(42));
+    const second = generateSurvivalRun(undefined, undefined, mulberry32(42));
+    expect([first.country.code, first.startYear, ...first.rounds.map((r) => r.milestone.id)])
+      .toEqual([second.country.code, second.startYear, ...second.rounds.map((r) => r.milestone.id)]);
+  });
   it("generates a valid 5-round run sorted chronologically", () => {
     const run = generateSurvivalRun("vn", 1990);
     expect(run.country.code).toBe("vn");

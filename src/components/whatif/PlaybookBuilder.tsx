@@ -6,11 +6,13 @@ import { useRouter, useSearchParams } from "next/navigation";
 import { t, type Locale, defaultCountry } from "@/lib/i18n";
 import type { Country, MilestoneLite } from "@/lib/types";
 import { formatMoney, formatMultiple } from "@/lib/format";
+import { SourceLinksBadge } from "@/components/Badges";
 import {
   findOptimalChainIncluding,
   findOptimalNonOverlappingChain,
   getPlaybookCandidates,
   simulatePlaybook,
+  type PlaybookCandidate,
 } from "@/lib/whatif/playbook";
 
 type Props = {
@@ -32,7 +34,7 @@ const LABELS = {
     ledgerTitle: "Lộ trình Lãi Kép Trọng Sinh",
     emptyLedger: "Hãy tích chọn ít nhất 1 mốc bên dưới (hoặc bấm nút Tự chọn chuỗi tối ưu).",
     overlapWarn:
-      "⚠️ Có mốc trùng khoảng thời gian nắm giữ (theo tháng) với bước trước. Trong thực tế bạn phải thoát sớm hoặc chia nhỏ vốn.",
+      "⚠️ Các mốc trùng thời gian nắm giữ đã bị loại khỏi phép tính. Chọn chuỗi không trùng tháng để mô phỏng đầu tư nối tiếp.",
     capWarn:
       "🛡️ Một số bước đã được áp trần thanh khoản (phần vốn vượt trần giữ nguyên tiền mặt) để tránh con số ảo vượt quy mô thị trường.",
     overlapStep: "⚠️ Trùng thời gian với bước trước",
@@ -43,7 +45,6 @@ const LABELS = {
     totalMult: "Số lần nhân vốn",
     copyLink: "🔗 Sao chép link chuỗi này",
     copied: "✓ Đã sao chép link!",
-    unverified: "Chưa kiểm chứng đủ 2 nguồn",
     viewDetail: "Chi tiết",
     fromYearNote: "Đang lọc từ năm",
     resetFromYear: "Xem mọi năm",
@@ -60,7 +61,7 @@ const LABELS = {
     ledgerTitle: "Compounding Playbook Ledger",
     emptyLedger: "Select at least 1 milestone below (or click Auto-pick optimal chain).",
     overlapWarn:
-      "⚠️ Some selected milestones overlap in holding months. In reality you would need to exit early or split capital.",
+      "⚠️ Overlapping holdings were excluded from this calculation. Choose non-overlapping months to model sequential investment.",
     capWarn:
       "🛡️ Liquidity caps were applied on one or more steps (excess capital held in cash) to prevent fantasy numbers exceeding market depth.",
     overlapStep: "⚠️ Overlaps previous holding period",
@@ -71,12 +72,24 @@ const LABELS = {
     totalMult: "Cumulative multiple",
     copyLink: "🔗 Copy shareable playbook link",
     copied: "✓ Link copied!",
-    unverified: "Single-source / unverified",
     viewDetail: "Details",
     fromYearNote: "Filtering from year",
     resetFromYear: "Show all years",
   },
 };
+
+export function PlaybookOverlapNotice({ lang, skippedOverlaps }: { lang: Locale; skippedOverlaps: PlaybookCandidate[] }) {
+  if (skippedOverlaps.length === 0) return null;
+  return (
+    <div className="rounded-xl border border-warning/40 bg-warning/10 px-4 py-2.5 text-xs text-warning" role="status">
+      <p>{LABELS[lang].overlapWarn}</p>
+      <p className="mt-2 font-semibold">{lang === "vi" ? "Các mốc đã chọn nhưng không được tính:" : "Excluded selected milestones:"}</p>
+      <ul className="mt-1 list-inside list-disc">
+        {skippedOverlaps.map((c) => <li key={c.milestone.id}>{t(c.milestone.title, lang)} ({c.periodLabel})</li>)}
+      </ul>
+    </div>
+  );
+}
 
 export default function PlaybookBuilder({ lang, countries, milestones }: Props) {
   const search = useSearchParams();
@@ -203,8 +216,11 @@ export default function PlaybookBuilder({ lang, countries, milestones }: Props) 
     <div className="space-y-6">
       <div className="rounded-2xl border border-line bg-surface p-5 sm:p-6 space-y-5">
         <div>
-          <div className="mb-2.5 text-xs font-semibold uppercase tracking-wider text-faint">{L.country}</div>
-          <div className="flex flex-wrap gap-2">
+          <label htmlFor="playbook-country" className="mb-2.5 block text-xs font-semibold uppercase tracking-wider text-faint">{L.country}</label>
+          <select id="playbook-country" value={country.code} onChange={(e) => switchCountry(e.target.value)} className="w-full rounded-lg border border-line bg-bg px-3 py-2.5 text-ink sm:hidden">
+            {countries.map((c) => <option key={c.code} value={c.code}>{c.flag} {t(c.name, lang)} ({milestoneCountByCountry.get(c.code) ?? 0})</option>)}
+          </select>
+          <div className="hidden flex-wrap gap-2 sm:flex">
             {countries.map((c) => {
               const active = c.code === country.code;
               return (
@@ -336,11 +352,7 @@ export default function PlaybookBuilder({ lang, countries, milestones }: Props) 
               </div>
             </div>
 
-            {result.hasOverlap && (
-              <div className="rounded-xl border border-warning/40 bg-warning/10 px-4 py-2.5 text-xs text-warning">
-                {L.overlapWarn}
-              </div>
-            )}
+            <PlaybookOverlapNotice lang={lang} skippedOverlaps={result.skippedOverlaps} />
 
             {result.hasLiquidityCap && (
               <div className="rounded-xl border border-gain/40 bg-gain/10 px-4 py-2.5 text-xs text-gain">
@@ -457,10 +469,8 @@ export default function PlaybookBuilder({ lang, countries, milestones }: Props) 
                           {L.speculativeBadge}
                         </span>
                       )}
-                      {!c.milestone.verified && (
-                        <span className="rounded border border-danger/40 px-1.5 py-0.2 text-xs text-danger">
-                          {L.unverified}
-                        </span>
+                      {c.milestone.sourceCount !== undefined && (
+                        <SourceLinksBadge count={c.milestone.sourceCount} lang={lang} />
                       )}
                     </div>
                     <div className="font-medium leading-snug">{t(c.milestone.title, lang)}</div>

@@ -171,9 +171,7 @@ export function computeWhatIf(asset: AssetDef, startYear: number, amount: number
   } else {
     const data = LOCAL[asset.countryCode!];
     if (asset.id.endsWith("_cash")) {
-      const p0 = num(data.cpiIndex, startYear) ?? 1;
-      const p1 = num(data.cpiIndex, endYear) ?? 100;
-      finalValue = amount * (p0 / p1);
+      finalValue = amount;
     } else if (asset.id.endsWith("_savings")) {
       const rates = data.returns[asset.id] ?? data.riskFree ?? {};
       let factor = 1;
@@ -203,12 +201,27 @@ export function computeWhatIf(asset: AssetDef, startYear: number, amount: number
   };
 }
 
-/** The "do nothing" cash-erosion baseline for a country, used as a comparison anchor.
- * Returns null for countries with no local CPI/inflation data (no honest baseline to show). */
+/** Cash's purchasing-power equivalent in starting-year currency units, not a nominal balance. */
 export function cashBaseline(countryCode: string, startYear: number, amount: number, endYear = LATEST_YEAR): WhatIfResult | null {
   const cashId = `${countryCode}_cash`;
   const asset = localAssetsFor(countryCode).find((a) => a.id === cashId);
-  return asset ? computeWhatIf(asset, startYear, amount, endYear) : null;
+  if (!asset) return null;
+  const data = LOCAL[countryCode];
+  const p0 = num(data.cpiIndex, startYear);
+  const p1 = num(data.cpiIndex, endYear);
+  if (!p0 || !p1) return null;
+  const finalValue = amount * p0 / p1;
+  return {
+    ...computeWhatIf(asset, startYear, amount, endYear),
+    finalValue: Math.round(finalValue),
+    multiple: amount > 0 ? finalValue / amount : 0,
+  };
+}
+
+/** Only compare equal units; a USD investment is not the same stake as local-currency cash. */
+export function comparableCashBaseline(countryCode: string, asset: AssetDef, startYear: number, amount: number): WhatIfResult | null {
+  const cash = localAssetsFor(countryCode).find((a) => a.id === `${countryCode}_cash`);
+  return cash?.currency === asset.currency ? cashBaseline(countryCode, startYear, amount) : null;
 }
 
 /** For countries whose local series only start after a currency changeover, the single

@@ -4,7 +4,7 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { defaultCountry, t, type Locale, type LocalizedText } from "@/lib/i18n";
-import { pointValue, pointYear, type AlmanacItem, type AlmanacPoint } from "@/lib/almanac";
+import { interpolateAlmanacValue, type AlmanacItem } from "@/lib/almanac";
 import { formatDate, formatDrop, formatMoney, formatMultiple } from "@/lib/format";
 import AlmanacChart from "./AlmanacChart";
 
@@ -59,33 +59,6 @@ const SLIDER_COPY = {
 const MIN_YEAR = 1986;
 const MAX_YEAR = 2025;
 
-function interpolateValue(series: AlmanacPoint[], targetYear: number): { value: number; exact: boolean } | null {
-  const valid = series
-    .map((p) => ({ year: pointYear(p), val: pointValue(p) }))
-    .filter((x): x is { year: number; val: number } => Number.isFinite(x.year) && x.year > 0 && x.val !== undefined && x.val > 0)
-    .sort((a, b) => a.year - b.year);
-  if (valid.length === 0) return null;
-  if (targetYear <= valid[0].year) {
-    return { value: valid[0].val, exact: targetYear === valid[0].year };
-  }
-  const last = valid[valid.length - 1];
-  if (targetYear >= last.year) {
-    return { value: last.val, exact: targetYear === last.year };
-  }
-  for (let i = 0; i < valid.length - 1; i++) {
-    const a = valid[i];
-    const b = valid[i + 1];
-    if (targetYear === a.year) return { value: a.val, exact: true };
-    if (targetYear === b.year) return { value: b.val, exact: true };
-    if (targetYear > a.year && targetYear < b.year) {
-      const ratio = (targetYear - a.year) / (b.year - a.year);
-      const logVal = Math.log(a.val) + ratio * (Math.log(b.val) - Math.log(a.val));
-      return { value: Math.round(Math.exp(logVal)), exact: false };
-    }
-  }
-  return { value: last.val, exact: false };
-}
-
 export default function AlmanacExplorer({
   items: allItems,
   countries,
@@ -134,7 +107,7 @@ export default function AlmanacExplorer({
       items
         .filter((it) => it.kind !== "event" && it.purchasable !== false && (it.currency ?? stake.currency) === stake.currency)
         .map((it) => {
-          const interp = interpolateValue(it.series, year);
+          const interp = interpolateAlmanacValue(it.series, year);
           if (!interp) return null;
           const price = interp.value * (it.valueMultiplier ?? 1);
           const units = stake.amount / Math.max(price, 1e-9);
@@ -168,8 +141,11 @@ export default function AlmanacExplorer({
   return (
     <div className="space-y-8">
       <div className="space-y-2">
-        <div className="text-xs font-semibold uppercase tracking-wider text-faint">{dict.countryLabel}</div>
-        <div className="flex flex-wrap gap-2">
+        <label htmlFor="almanac-country" className="block text-xs font-semibold uppercase tracking-wider text-faint">{dict.countryLabel}</label>
+        <select id="almanac-country" value={country.code} onChange={(e) => selectCountry(e.target.value)} className="w-full rounded-lg border border-line bg-surface px-3 py-2.5 text-ink sm:hidden">
+          {countries.map((c) => <option key={c.code} value={c.code}>{c.flag} {t(c.name, lang)} ({milestoneCountByCountry.get(c.code) ?? 0})</option>)}
+        </select>
+        <div className="hidden flex-wrap gap-2 sm:flex">
           {countries.map((c) => (
             <button
               key={c.code}

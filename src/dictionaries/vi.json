@@ -19,20 +19,20 @@
     "kicker": "Trọng sinh · Reborn",
     "wakeUp": "Bạn tỉnh dậy vào năm",
     "heading": "Bạn nhớ hết mọi chuyện sắp xảy ra.",
-    "intro": "Danh sách có nguồn kiểm chứng về những thời điểm mà người trọng sinh có thể biến thành gia tài — mua gì, mua khi nào, bán khi nào, và điều gì có thể sai.",
-    "ahead": "cơ hội vẫn đang chờ bạn phía trước",
+    "intro": "Chọn quốc gia và năm bắt đầu. Khám phá những bước ngoặt tiếp theo, với nguồn tham khảo cho từng câu chuyện.",
+    "ahead": "mốc từ năm này trở đi",
     "topAhead": "Những nước đi tốt nhất từ năm này",
     "seeAll": "Xem toàn bộ dòng thời gian",
     "biggest": "Những thương vụ lời nhất",
-    "biggestNote": "Xếp hạng theo số lần nhân vốn đã kiểm chứng.",
+    "biggestNote": "Chỉ gồm mốc có từ 2 liên kết nguồn, xếp theo hệ số lợi nhuận được ghi lại; liên kết và số liệu chưa được kiểm tra độc lập.",
     "countries": "Chọn quốc gia",
     "milestones": "mốc",
-    "verified": "đã kiểm chứng",
+    "verified": "có từ 2 nguồn",
     "how": "Cách dùng checklist",
     "steps": [
       "Chọn năm bạn trọng sinh.",
       "Mở một mốc: đọc cách kiếm tiền, mẹo người biết trước và cạm bẫy.",
-      "Lưu vào Bùa 🧿 — lịch mua/bán riêng của bạn.",
+      "So sánh vật giá trong Bảng giá hoặc thử một khoản đầu tư ở mục Nếu bạn đã đầu tư.",
       "Chơi đố vui để chứng minh bạn sống sót được ở quá khứ."
     ],
     "playQuiz": "Chơi đố vui"
@@ -57,8 +57,8 @@
     "whatIf": "bỏ vào khi đó",
     "becomes": "thành",
     "sources": "Nguồn",
-    "unverified": "Chưa kiểm chứng",
-    "verified": "Đã kiểm chứng",
+    "unverified": "Chưa xác nhận nguồn",
+    "verified": "Có từ 2 nguồn",
     "readMore": "Chi tiết",
     "levels": {
       "low": "Thấp",
@@ -76,7 +76,7 @@
       "commodities": "Hàng hóa"
     },
     "drop": "Giá sụp — cách kiếm tiền là bán, bán khống hoặc tránh xa",
-    "verifiedMeaning": "Có ít nhất 2 nguồn độc lập xác nhận ngày và giá. Lợi nhuận là giá trị danh nghĩa, chưa được kiểm toán."
+    "verifiedMeaning": "Liên kết nguồn được liệt kê để tham khảo, không phải kiểm tra từng khẳng định; thông tin và lợi nhuận chưa được kiểm chứng độc lập."
   },
   "detail": {
     "back": "Quay lại dòng thời gian",

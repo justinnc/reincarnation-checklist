@@ -11,17 +11,17 @@ const COPY = {
     kicker: "Công cụ tính toán & Lộ trình lãi kép",
     heading: "Nếu bạn đã đầu tư...",
     intro:
-      "Tính lợi nhuận 1 tài sản tại Việt Nam hoặc tự ghép Chuỗi Trọng Sinh Liên Hoàn qua 15 quốc gia để xem vốn nhân lên bao nhiêu lần.",
+      "Tính lợi nhuận của một tài sản ở 15 quốc gia hoặc ghép các cột mốc lịch sử thành lộ trình lãi kép.",
     disclaimer:
-      "Số liệu dựa trên dữ liệu lịch sử đã nghiên cứu (CPI, tỷ giá, vàng SJC, VN-Index, Bitcoin và 328 cột mốc lịch sử). Mọi con số là giá trị danh nghĩa (chưa trừ lạm phát) và chưa điều chỉnh chia tách/cổ tức trừ khi mốc ghi rõ. “Đã kiểm chứng” nghĩa là có ít nhất 2 nguồn độc lập, không phải lợi nhuận đã được kiểm toán. Không tính thuế, phí giao dịch, độ trượt thanh khoản. Không phải khuyến nghị đầu tư.",
+      "Số liệu dựa trên dữ liệu lịch sử (CPI, tỷ giá, vàng SJC, VN-Index, Bitcoin và các cột mốc). Mọi con số là giá trị danh nghĩa (chưa trừ lạm phát) và chưa điều chỉnh chia tách/cổ tức trừ khi mốc ghi rõ. Có từ 2 nguồn nghĩa là có từ 2 liên kết nguồn, không phải thông tin đã được kiểm chứng hoặc lợi nhuận đã được kiểm toán. Không tính thuế, phí giao dịch, độ trượt thanh khoản. Không phải khuyến nghị đầu tư.",
   },
   en: {
     kicker: "Calculator & Compounding Playbook",
     heading: "If you had invested...",
     intro:
-      "Calculate a single Vietnam asset hold or chain multiple historical milestones across 15 countries into a compounding playbook.",
+      "Calculate a single asset hold in any of 15 countries, or chain historical milestones into a compounding playbook.",
     disclaimer:
-      "Based on researched historical data (CPI, FX, SJC gold, VN-Index, Bitcoin, and 328 historical milestones). All figures are nominal (not inflation-adjusted) and not split- or dividend-adjusted unless the milestone says so. “Verified” means at least two independent sources were found, not that the return was audited. Does not account for taxes, fees, or liquidity slippage. Not investment advice.",
+      "Based on historical data (CPI, FX, SJC gold, VN-Index, Bitcoin, and milestones). All figures are nominal (not inflation-adjusted) and not split- or dividend-adjusted unless the milestone says so. Two or more sources listed means links are provided, not that claims were independently fact-checked or returns audited. Does not account for taxes, fees, or liquidity slippage. Not investment advice.",
   },
 };
 

@@ -26,16 +26,16 @@
         "en": "Buy and hold Berkshire Hathaway Class A shares from 1980 — never sell."
       },
       "buyWhen": {
-        "vi": "16/3/1980, giá 290 USD/cổ phiếu.",
-        "en": "March 16, 1980, at $290/share."
+        "vi": "Khoảng tháng 3/1980; dữ liệu giá lịch sử ghi nhận khoảng 290 USD/cổ phiếu ngày 17/3. Đây là giá minh họa, không phải giá IPO hay giá khớp lệnh được bảo đảm.",
+        "en": "Around March 1980; historical quotes show about $290/share on March 17. This is an illustrative quote, not an IPO or a guaranteed fill."
       },
       "sellWhen": {
         "vi": "Không cần bán — tài sản gia tăng đều đặn suốt 4 thập kỷ dưới sự quản lý của Buffett.",
         "en": "No need to sell — steady compounding for four decades under Buffett's management."
       },
       "estimatedReturn": {
-        "vi": "Hơn 2.400 lần tính đến 2024 (không qua chia tách cổ phiếu).",
-        "en": "Over 2,400x by 2024 (with no stock splits ever)."
+        "vi": "Khoảng 2.400 lần nếu so giá tham chiếu 290 USD với mức 700.000 USD năm 2024; chưa tính chi phí hay khả năng khớp lệnh.",
+        "en": "About 2,400x comparing the illustrative $290 quote with $700,000 in 2024; excludes costs and execution uncertainty."
       },
       "returnMultiple": 2414,
       "entryPrice": 290,
@@ -55,8 +55,8 @@
     },
     "quiz": {
       "question": {
-        "vi": "Giá IPO cổ phiếu hạng A của Berkshire Hathaway năm 1980 là bao nhiêu?",
-        "en": "What was Berkshire Hathaway's Class A IPO price in 1980?"
+        "vi": "Giá giao dịch xấp xỉ của Berkshire Hathaway vào tháng 3/1980 là bao nhiêu?",
+        "en": "What was Berkshire Hathaway's approximate trading price around March 1980?"
       },
       "choices": [
         {
@@ -78,8 +78,8 @@
       ],
       "answer": 1,
       "explanation": {
-        "vi": "Cổ phiếu hạng A chào bán 290 USD/cổ phiếu ngày 16/3/1980, theo Wikipedia và hồ sơ công ty.",
-        "en": "Class A shares were offered at $290 each on March 16, 1980, per Wikipedia and corporate records."
+        "vi": "Dữ liệu giá lịch sử ghi nhận khoảng 290 USD ngày 17/3/1980. Berkshire đã giao dịch trước đó; đây không phải đợt IPO.",
+        "en": "Historical quotes show about $290 on March 17, 1980. Berkshire already traded before then; this was not an IPO."
       }
     },
     "sources": [
@@ -90,10 +90,18 @@
       {
         "title": "Wikipedia — Berkshire Hathaway",
         "url": "https://en.wikipedia.org/wiki/Berkshire_Hathaway"
+      },
+      {
+        "title": "Berkshire Hathaway — 1988 shareholder letter (OTC trading before NYSE listing)",
+        "url": "https://www.berkshirehathaway.com/letters/1988.html"
+      },
+      {
+        "title": "StatMuse — BRK.A historical quote, March 17, 1980",
+        "url": "https://www.statmuse.com/money/ask/what-was-the-price-of-brk.a-on-march-17-1980"
       }
     ],
     "verified": true,
-    "verifiedNote": "There was no 1980 IPO — Berkshire traded OTC since the 1960s (Wikipedia). ~$290 is an approximate early-1980 price level consistent with the per-share market-value series in Berkshire's annual letters; it is a price point, not a listing price. $700,000 Aug 2024 price confirmed by Wikipedia."
+    "verifiedNote": "No 1980 IPO: Berkshire's 1988 letter describes prior OTC trading. StatMuse quotes $290 on March 17, 1980 but warns early daily data may be incomplete; March 16 was a Sunday. $290 is an illustrative approximate quote, not an execution price. The 2,414x ratio compares it to the approximately $700,000 Aug 2024 figure; it is not a documented realized trade."
   },
   {
     "id": "us-microsoft-ipo-1986",
@@ -1597,36 +1605,31 @@
       "en": "Bitcoin Pizza Day (2010)"
     },
     "summary": {
-      "vi": "10.000 BTC đổi lấy 2 chiếc pizza trị giá 41 USD — số Bitcoin đó sau này trị giá hơn 1 tỷ USD.",
-      "en": "10,000 BTC for two pizzas worth $41 — those coins later became worth over $1 billion."
+      "vi": "10.000 BTC đổi lấy 2 chiếc pizza; khi đó có người ước tính số BTC ấy trị giá khoảng 41 USD, về sau hơn 1 tỷ USD.",
+      "en": "10,000 BTC for two pizzas; the coins were estimated at about $41 then and later valued above $1 billion."
     },
     "description": {
-      "vi": "Ngày 22/5/2010, lập trình viên Laszlo Hanyecz ở Florida trả 10.000 Bitcoin để đổi lấy hai chiếc pizza lớn của Papa John's, giao dịch hàng hóa thực tế đầu tiên bằng Bitcoin được ghi nhận. Khi đó 10.000 BTC chỉ trị giá khoảng 41 USD. Đến kỷ niệm 15 năm (2025), số Bitcoin đó trị giá khoảng 1,1 tỷ USD.",
-      "en": "On May 22, 2010, Florida-based programmer Laszlo Hanyecz paid 10,000 Bitcoin for two large Papa John's pizzas — the first documented real-world commercial Bitcoin transaction. At the time, those 10,000 BTC were worth only about $41. By the 15th anniversary (2025), that same amount of Bitcoin was worth roughly $1.1 billion."
+      "vi": "Ngày 22/5/2010, Laszlo Hanyecz xác nhận đã đổi 10.000 BTC lấy hai chiếc pizza. Một thành viên diễn đàn lúc đó ước tính số BTC có thể bán được 41 USD (tương đương 0,0041 USD/BTC); đây không phải giá tiền của pizza hay bằng chứng một nhà đầu tư khác mua được số BTC lớn ở mức giá đó. Đến kỷ niệm 15 năm (2025), số BTC tương đương được ước tính trị giá khoảng 1,1 tỷ USD.",
+      "en": "On May 22, 2010, Laszlo Hanyecz confirmed exchanging 10,000 BTC for two pizzas. A forum participant estimated those coins could sell for $41 (implying $0.0041/BTC); that was not the pizzas' cash cost or proof that a new investor could buy a large BTC position at that price. Around the 15th anniversary in 2025, the same quantity was valued at roughly $1.1 billion."
     },
     "opportunity": {
+      "historicalOnly": true,
       "asset": {
         "vi": "Bitcoin (BTC)",
         "en": "Bitcoin (BTC)"
       },
       "action": {
-        "vi": "Mua và giữ Bitcoin với giá gần như không đáng kể vào năm 2010, lưu trữ ví an toàn trong nhiều năm.",
-        "en": "Buy and hold Bitcoin at its near-negligible 2010 price, storing the wallet safely for years."
+        "vi": "Tìm hiểu giao dịch pizza và sự khác biệt giữa định giá lịch sử với một giao dịch đầu tư có thể thực hiện.",
+        "en": "Study the pizza exchange and the difference between a historical valuation and an executable investment."
       },
       "buyWhen": {
-        "vi": "Tháng 5/2010, khi 10.000 BTC chỉ đáng giá khoảng 41 USD.",
-        "en": "May 2010, when 10,000 BTC was worth only about $41."
-      },
-      "sellWhen": {
-        "vi": "Không cần bán hết — có thể bán dần khi Bitcoin lập các đỉnh giá mới (2017, 2021, 2024-2025).",
-        "en": "No need to sell everything — sell gradually as Bitcoin hits new highs (2017, 2021, 2024-2025)."
+        "vi": "Tháng 5/2010; 41 USD là ước tính giá trị của 10.000 BTC, không phải giá mua được xác nhận.",
+        "en": "May 2010; $41 was an estimated value of 10,000 BTC, not a confirmed purchase quote."
       },
       "estimatedReturn": {
-        "vi": "Khoảng 27 triệu lần (từ 41 USD lên khoảng 1,1 tỷ USD) tính đến 2025.",
-        "en": "Roughly 27 million times (from $41 to about $1.1 billion) by 2025."
+        "vi": "Giá trị tham chiếu của 10.000 BTC: khoảng 41 USD (ước tính năm 2010) so với khoảng 1,1 tỷ USD (ước tính năm 2025); không phải lợi nhuận đầu tư đã thực hiện.",
+        "en": "Reference value for 10,000 BTC: about $41 (2010 estimate) versus roughly $1.1 billion (2025 estimate); not a realized investor return."
       },
-      "returnMultiple": 26829268,
-      "entryPrice": 0.0041,
       "exitDate": "2025-05",
       "risk": "high",
       "capital": "low",
@@ -1665,8 +1668,8 @@
       ],
       "answer": 2,
       "explanation": {
-        "vi": "Hanyecz trả 10.000 BTC (trị giá khoảng 41 USD khi đó) cho hai chiếc pizza Papa John's ngày 22/5/2010.",
-        "en": "Hanyecz paid 10,000 BTC (worth about $41 at the time) for two Papa John's pizzas on May 22, 2010."
+        "vi": "Hanyecz đổi 10.000 BTC lấy hai chiếc pizza; 41 USD là ước tính giá trị số BTC khi đó, không phải giá tiền hai chiếc pizza.",
+        "en": "Hanyecz exchanged 10,000 BTC for two pizzas; $41 was an estimated value of the coins, not the pizzas' cash cost."
       }
     },
     "sources": [
@@ -1677,10 +1680,18 @@
       {
         "title": "Business Standard - Bitcoin Pizza Day explainer",
         "url": "https://www.business-standard.com/markets/cryptocurrency/bitcoin-pizza-day-from-2-pizzas-worth-10k-btc-to-trillion-dollar-ecosystem-126052200099_1.html"
+      },
+      {
+        "title": "BitcoinTalk — Hanyecz confirms pizza exchange (May 22, 2010)",
+        "url": "https://bitcointalk.org/index.php?topic=137.msg1195#msg1195"
+      },
+      {
+        "title": "BitcoinTalk — contemporary $41 resale estimate",
+        "url": "https://bitcointalk.org/index.php?topic=137.msg1146#msg1146"
       }
     ],
     "verified": true,
-    "verifiedNote": "Date, 10,000 BTC amount, ~$41 value at the time, and ~$1.1 billion value as of the 15th anniversary (2025) all confirmed by Fortune and Business Standard."
+    "verifiedNote": "Hanyecz's May 22, 2010 BitcoinTalk post confirms the 10,000 BTC exchange. Another participant's $41 comment estimates the coins' resale value, not the pizzas' cash price or an executable large-position entry; $0.0041/BTC is the implied arithmetic. Fortune/AP reports a roughly $1.1 billion valuation around the May 2025 anniversary. The 2010-to-2025 ratio is not a documented trade."
   },
   {
     "id": "us-tesla-ipo-2010",

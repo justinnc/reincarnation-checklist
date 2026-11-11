@@ -18,8 +18,7 @@ function resultIcon(rec: NodeRecord | undefined): string {
   return "";
 }
 
-/** A vertical list of every node on the board — the "roadmap". Distinguishes node
- * type by icon+shape BEFORE arrival, and shows the outcome icon once resolved. */
+/** A roadmap that shows each stop's type but conceals its story until arrival. */
 export function BoardStrip({ nodes, index, history }: { nodes: BoardNode[]; index: number; history: NodeRecord[] }) {
   const currentRef = useRef<HTMLDivElement>(null);
   useEffect(() => {
@@ -44,7 +43,9 @@ export function BoardStrip({ nodes, index, history }: { nodes: BoardNode[]; inde
               <span className="w-8 font-mono text-faint">{node.year}</span>
               <span>{isDone ? resultIcon(rec) || nodeIcon(node) : nodeIcon(node)}</span>
               <span className="flex-1 truncate">
-                {node.kind === "event" ? node.event.title : node.kind === "fork" ? `${node.left.verb} / ${node.right.verb}` : node.card.verb}
+                {!isDone && !isCurrent
+                  ? node.kind === "event" ? "Sự kiện sắp tới" : node.kind === "fork" ? "Ngã rẽ sắp tới" : "Lựa chọn sắp tới"
+                  : node.kind === "event" ? node.event.title : node.kind === "fork" ? `${node.left.verb} / ${node.right.verb}` : node.card.verb}
               </span>
               {isCurrent && <span className="text-gold">👈 bạn đang ở đây</span>}
             </div>

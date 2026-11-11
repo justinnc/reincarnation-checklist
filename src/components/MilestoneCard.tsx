@@ -3,7 +3,7 @@ import { t, type Locale } from "@/lib/i18n";
 import type { Country, Milestone } from "@/lib/types";
 import type { Dictionary } from "@/lib/dictionaries";
 import { formatDate, formatDrop, formatMoney, formatMultiple } from "@/lib/format";
-import { DropBadge, MultipleBadge, RiskBadge, UnverifiedBadge } from "./Badges";
+import { DropBadge, MultipleBadge, RiskBadge, SourceLinksBadge } from "./Badges";
 import { CharmToggle } from "./CharmToggle";
 
 type Props = { m: Milestone; lang: Locale; dict: Dictionary["timeline"]; country: Country };
@@ -17,7 +17,7 @@ export default function MilestoneCard({ m, lang, dict, country }: Props) {
         <time className="font-mono tabular text-gold">{formatDate(m.date, lang)}</time>
         <span className="text-faint">·</span>
         <span className="text-muted">{dict.categories[m.category]}</span>
-        {!m.verified && <UnverifiedBadge label={dict.unverified} />}
+        <SourceLinksBadge count={m.sources.length} lang={lang} />
       </div>
       <h3 className="mt-2 font-display text-xl font-bold leading-snug sm:text-2xl">
         <Link href={href} className="hover:text-gold">
@@ -32,7 +32,7 @@ export default function MilestoneCard({ m, lang, dict, country }: Props) {
             {t(o.asset, lang) && <div className="font-mono text-xs text-gold">{t(o.asset, lang)}</div>}
             <div className="text-ink">{t(o.action, lang)}</div>
             <div className="text-muted">
-              {dict.buyWhen}: <span className="text-ink">{t(o.buyWhen, lang)}</span>
+              {o.historicalOnly ? (lang === "vi" ? "Bối cảnh" : "Historical context") : dict.buyWhen}: <span className="text-ink">{t(o.buyWhen, lang)}</span>
             </div>
             {t(o.sellWhen, lang) && (
               <div className="text-muted">
@@ -63,8 +63,8 @@ export default function MilestoneCard({ m, lang, dict, country }: Props) {
         </div>
         {!o.returnMultiple && (
           <div className="mt-3 border-t border-line pt-3 text-sm">
-            <span className="text-muted">{dict.estimatedReturn}: </span>
-            <span className="font-medium text-gain">{t(o.estimatedReturn, lang)}</span>
+            <span className="text-muted">{o.historicalOnly ? (lang === "vi" ? "So sánh lịch sử" : "Historical comparison") : dict.estimatedReturn}: </span>
+            <span className={o.historicalOnly ? "font-medium text-ink" : "font-medium text-gain"}>{t(o.estimatedReturn, lang)}</span>
           </div>
         )}
       </div>

@@ -32,6 +32,11 @@ export interface SurvivalRun {
 
 export type DecisionType = "all_in" | "cautious" | "skip";
 
+/** Loss thresholds used consistently for round selection and scoring. */
+function isSurvivalTrap(m: Milestone): boolean {
+  return (m.opportunity.returnMultiple ?? 1) <= 0.2;
+}
+
 export interface DecisionResult {
   roundIndex: number;
   round: SurvivalRound;
@@ -54,10 +59,10 @@ export interface SurvivalRank {
 }
 
 /** Shuffles an array in place and returns it */
-function shuffle<T>(arr: T[]): T[] {
+function shuffle<T>(arr: T[], random: () => number): T[] {
   const copy = [...arr];
   for (let i = copy.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
+    const j = Math.floor(random() * (i + 1));
     [copy[i], copy[j]] = [copy[j], copy[i]];
   }
   return copy;
@@ -65,22 +70,24 @@ function shuffle<T>(arr: T[]): T[] {
 
 export function generateSurvivalRun(
   preferredCountry?: string,
-  preferredYear?: number
+  preferredYear?: number,
+  random: () => number = Math.random
 ): SurvivalRun {
   let country = preferredCountry ? getCountry(preferredCountry) : undefined;
   if (!country) {
-    country = countries[Math.floor(Math.random() * countries.length)];
+    country = countries[Math.floor(random() * countries.length)];
   }
 
+  // Context-only cases must never become scored rounds, even if malformed data has a numeric return.
   const countryMilestones = allMilestones.filter(
-    (m) => m.country.toLowerCase() === country.code.toLowerCase()
+    (m) => m.country.toLowerCase() === country.code.toLowerCase() && !m.opportunity.historicalOnly
   );
 
   const years = countryMilestones.map((m) => yearOf(m)).filter((y) => y > 0);
   const minCountryYear = years.length ? Math.min(...years) : 1980;
   const maxCountryYear = years.length ? Math.max(...years) : 2024;
 
-  let startYear = preferredYear ?? (minCountryYear + Math.floor(Math.random() * Math.max(1, maxCountryYear - minCountryYear - 12)));
+  let startYear = preferredYear ?? (minCountryYear + Math.floor(random() * Math.max(1, maxCountryYear - minCountryYear - 12)));
   if (startYear < minCountryYear) startYear = minCountryYear;
   if (startYear > maxCountryYear - 8) startYear = Math.max(minCountryYear, maxCountryYear - 12);
 
@@ -90,17 +97,17 @@ export function generateSurvivalRun(
     startYear = minCountryYear;
   }
 
-  const traps = pool.filter((m) => (m.opportunity.returnMultiple ?? 1) <= 0.2);
-  const gains = pool.filter((m) => (m.opportunity.returnMultiple ?? 1) > 1);
+  const traps = pool.filter(isSurvivalTrap);
+  const gains = pool.filter((m) => !isSurvivalTrap(m) && (m.opportunity.returnMultiple ?? 1) > 1);
 
   const pickedMilestones: Milestone[] = [];
 
   // Target: 1 to 2 traps, remaining gains
-  const targetTraps = Math.min(traps.length, Math.random() > 0.4 ? 2 : 1);
+  const targetTraps = Math.min(traps.length, random() > 0.4 ? 2 : 1);
   const targetGains = 5 - targetTraps;
 
-  const shuffledTraps = shuffle(traps);
-  const shuffledGains = shuffle(gains);
+  const shuffledTraps = shuffle(traps, random);
+  const shuffledGains = shuffle(gains, random);
 
   pickedMilestones.push(...shuffledTraps.slice(0, targetTraps));
   pickedMilestones.push(...shuffledGains.slice(0, targetGains));
@@ -108,7 +115,7 @@ export function generateSurvivalRun(
   // If still less than 5, backfill from remaining pool
   if (pickedMilestones.length < 5) {
     const pickedIds = new Set(pickedMilestones.map((m) => m.id));
-    const leftovers = shuffle(pool.filter((m) => !pickedIds.has(m.id)));
+    const leftovers = shuffle(pool.filter((m) => !pickedIds.has(m.id)), random);
     while (pickedMilestones.length < 5 && leftovers.length > 0) {
       pickedMilestones.push(leftovers.pop()!);
     }
@@ -119,7 +126,7 @@ export function generateSurvivalRun(
 
   const rounds: SurvivalRound[] = pickedMilestones.map((m, idx) => {
     const mult = m.opportunity.returnMultiple ?? 1;
-    const isTrap = mult <= 0.2;
+    const isTrap = isSurvivalTrap(m);
     // Cap multiple for game balance: 1.5x up to 18x per round
     const cappedMultiple = isTrap ? 0 : Math.min(Math.max(mult, 1.5), 18);
     return {
@@ -137,7 +144,7 @@ export function generateSurvivalRun(
   return {
     id: `run-${Date.now()}-${Math.random().toString(36).slice(2, 7)}`,
     country,
-    startYear: rounds[0]?.year ?? startYear,
+    startYear,
     initialCapital: 1000,
     rounds,
   };

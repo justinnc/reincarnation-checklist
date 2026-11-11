@@ -2,7 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { hasLocale, t } from "@/lib/i18n";
 import { getDictionary } from "@/lib/dictionaries";
-import { allMilestones, countries, countryStats, getCountry, yearOf, allMilestonesLite } from "@/lib/data";
+import { allMilestones, countries, countryStats, getCountry, yearOf, allMilestonesLite, rankListedReturns } from "@/lib/data";
 import { formatMoney, formatMultiple } from "@/lib/format";
 import RebirthPicker from "@/components/RebirthPicker";
 import { Reveal } from "@/components/Reveal";
@@ -12,10 +12,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
   if (!hasLocale(lang)) notFound();
   const dict = await getDictionary(lang);
   const years = allMilestones.map(yearOf);
-  const biggest = allMilestones
-    .filter((m) => (m.opportunity.returnMultiple ?? 0) > 1 && m.verified)
-    .sort((a, b) => b.opportunity.returnMultiple! - a.opportunity.returnMultiple!)
-    .slice(0, 10);
+  const biggest = rankListedReturns(allMilestones);
 
   return (
     <div className="space-y-14 sm:space-y-20">
@@ -24,8 +21,14 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
           <div className="animate-fade-up animate-fade-up-1 font-mono text-sm uppercase tracking-widest text-gold">{dict.home.kicker}</div>
           <h1 className="animate-fade-up animate-fade-up-2 text-balance font-display text-[2.6rem] font-extrabold leading-[1.1] tracking-tight sm:text-7xl sm:leading-[1.05]">{dict.home.heading}</h1>
           <p className="animate-fade-up animate-fade-up-3 text-lg leading-relaxed text-muted">{dict.home.intro}</p>
+          <a
+            href="#rebirth-picker"
+            className="animate-fade-up animate-fade-up-3 inline-flex items-center rounded-full bg-gold px-5 py-3 text-sm font-semibold text-on-gold transition hover:brightness-110 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-ring"
+          >
+            {lang === "vi" ? "Chọn năm bắt đầu ↓" : "Choose your starting year ↓"}
+          </a>
         </div>
-        <div className="animate-fade-up animate-fade-up-3">
+        <div id="rebirth-picker" className="animate-fade-up animate-fade-up-3 scroll-mt-20">
           <RebirthPicker
             milestones={allMilestonesLite}
             countries={countries}
@@ -68,9 +71,9 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
 
       {biggest.length > 0 && (
         <section>
-          <div className="flex items-end justify-between gap-4">
+          <div className="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between sm:gap-4">
             <h2 className="font-display text-3xl font-bold sm:text-4xl">{dict.home.biggest}</h2>
-            <p className="hidden text-sm text-faint sm:block">{dict.home.biggestNote}</p>
+            <p className="text-sm text-faint">{dict.home.biggestNote}</p>
           </div>
           <div className="mt-6 overflow-hidden rounded-2xl border border-line">
             <table className="w-full text-left text-sm">
@@ -128,7 +131,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
                   <div className="mt-4 font-display text-2xl font-bold group-hover:text-gold">{t(c.name, lang)}</div>
                   <div className="mt-1 text-sm text-muted">
                     <span className="font-mono tabular text-ink">{s.count}</span> {dict.home.milestones} ·{" "}
-                    <span className="font-mono tabular text-ink">{s.verified}</span> {dict.home.verified}
+                    <span className="font-mono tabular text-ink">{s.sourceLinked}</span> {dict.home.verified}
                   </div>
                 </Link>
               </Reveal>

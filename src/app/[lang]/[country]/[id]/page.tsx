@@ -6,7 +6,7 @@ import { getDictionary } from "@/lib/dictionaries";
 import { allMilestones, getCountry, getMilestone, getMilestones } from "@/lib/data";
 import { formatDate, formatDrop, formatMoney, formatMultiple } from "@/lib/format";
 import { localeAlternates, SITE_URL } from "@/lib/seo";
-import { DropBadge, MultipleBadge, RiskBadge, UnverifiedBadge } from "@/components/Badges";
+import { DropBadge, MultipleBadge, RiskBadge, SourceLinksBadge } from "@/components/Badges";
 import { CharmToggle } from "@/components/CharmToggle";
 
 export async function generateStaticParams() {
@@ -69,11 +69,7 @@ export default async function MilestonePage({ params }: PageProps<"/[lang]/[coun
             <span>{c.flag}</span>
             <time className="font-mono tabular text-gold">{formatDate(m.date, lang)}</time>
             <span className="text-muted">{tl.categories[m.category]}</span>
-            {m.verified ? (
-              <span title={tl.verifiedMeaning} className="rounded-md border border-gain/40 px-2 py-0.5 text-xs text-gain">{tl.verified}</span>
-            ) : (
-              <UnverifiedBadge label={tl.unverified} />
-            )}
+            <SourceLinksBadge count={m.sources.length} lang={lang} />
             <CharmToggle id={m.id} lang={lang} />
           </div>
           <h1 className="mt-3 max-w-3xl text-balance font-display text-[2.1rem] font-extrabold leading-[1.15] tracking-tight sm:text-6xl sm:leading-[1.1]">
@@ -107,12 +103,12 @@ export default async function MilestonePage({ params }: PageProps<"/[lang]/[coun
 
         <aside className="space-y-6">
           <section className="rounded-2xl border border-line bg-surface p-6">
-            <h2 className="text-xs font-semibold uppercase tracking-wider text-faint">{tl.opportunity}</h2>
+            <h2 className="text-xs font-semibold uppercase tracking-wider text-faint">{o.historicalOnly ? (lang === "vi" ? "Bài học lịch sử" : "Historical case study") : tl.opportunity}</h2>
             {o.asset && <div className="mt-3 font-mono text-sm text-gold">{t(o.asset, lang)}</div>}
             <p className="mt-2 text-lg">{t(o.action, lang)}</p>
             <dl className="mt-5 space-y-3 text-sm">
               <div className="flex flex-col gap-1 border-t border-line pt-3 sm:flex-row sm:justify-between sm:gap-4">
-                <dt className="shrink-0 whitespace-nowrap text-faint">{tl.buyWhen}</dt>
+                <dt className="shrink-0 whitespace-nowrap text-faint">{o.historicalOnly ? (lang === "vi" ? "Bối cảnh" : "Historical context") : tl.buyWhen}</dt>
                 <dd className="sm:text-right">{t(o.buyWhen, lang)}</dd>
               </div>
               {t(o.sellWhen, lang) && (
@@ -122,8 +118,8 @@ export default async function MilestonePage({ params }: PageProps<"/[lang]/[coun
                 </div>
               )}
               <div className="flex flex-col gap-1 border-t border-line pt-3 sm:flex-row sm:justify-between sm:gap-4">
-                <dt className="shrink-0 whitespace-nowrap text-faint">{tl.estimatedReturn}</dt>
-                <dd className="font-semibold text-gain sm:text-right">{t(o.estimatedReturn, lang)}</dd>
+                <dt className="shrink-0 whitespace-nowrap text-faint">{o.historicalOnly ? (lang === "vi" ? "So sánh lịch sử" : "Historical comparison") : tl.estimatedReturn}</dt>
+                <dd className={`font-semibold sm:text-right ${o.historicalOnly ? "text-ink" : "text-gain"}`}>{t(o.estimatedReturn, lang)}</dd>
               </div>
               {o.entryPrice != null && (
                 <div className="flex flex-col gap-1 border-t border-line pt-3 sm:flex-row sm:justify-between sm:gap-4 font-mono tabular">
@@ -164,6 +160,7 @@ export default async function MilestonePage({ params }: PageProps<"/[lang]/[coun
 
           <section className="rounded-2xl border border-line bg-surface p-6 text-sm">
             <h2 className="text-xs font-semibold uppercase tracking-wider text-faint">{tl.sources}</h2>
+            <p className="mt-2 text-xs text-faint">{tl.verifiedMeaning}</p>
             <ul className="mt-3 space-y-2">
               {m.sources.map((s) => (
                 <li key={s.url}>

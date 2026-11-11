@@ -1,4 +1,5 @@
 import type { Level } from "@/lib/types";
+import type { Locale } from "@/lib/i18n";
 
 const riskColor: Record<Level, string> = {
   low: "text-gain border-gain/40",
@@ -28,6 +29,17 @@ export function MultipleBadge({ text, large = false }: { text: string; large?: b
 
 export function UnverifiedBadge({ label }: { label: string }) {
   return <span className="rounded-md border border-danger/40 px-2 py-0.5 text-xs text-danger">{label}</span>;
+}
+
+/** A link count is observable; it does not certify any claim those links appear beside. */
+export function SourceLinksBadge({ count, lang }: { count: number; lang: Locale }) {
+  const label = count === 0
+    ? (lang === "vi" ? "Chưa có liên kết nguồn" : "No source links")
+    : (lang === "vi" ? `${count} liên kết nguồn` : `${count} source ${count === 1 ? "link" : "links"}`);
+  const explanation = lang === "vi"
+    ? "Số liên kết được liệt kê; đây không phải kiểm tra từng khẳng định hay lợi nhuận."
+    : "Listed links only; not a claim-level check of facts or returns.";
+  return <span title={explanation} className="rounded-md border border-line-strong px-2 py-0.5 text-xs text-muted">{label}</span>;
 }
 
 export function DropBadge({ text, label, large = false }: { text: string; label: string; large?: boolean }) {

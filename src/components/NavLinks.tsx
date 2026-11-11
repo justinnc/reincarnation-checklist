@@ -45,7 +45,7 @@ export default function NavLinks({ lang, labels }: { lang: Locale; labels: Label
 
   const items: { href: string; label: string; match: string; icon: string }[] = [
     { href: `/${lang}#countries`, label: labels.timeline, match: `/${lang}`, icon: ICONS.countries },
-    { href: `/${lang}/survival`, label: `🎲 ${labels.survival ?? (lang === "vi" ? "Thử thách" : "Survival")}`, match: `/${lang}/survival`, icon: ICONS.survival },
+    { href: `/${lang}/survival`, label: labels.survival ?? (lang === "vi" ? "Thử thách" : "Survival"), match: `/${lang}/survival`, icon: ICONS.survival },
     { href: `/${lang}/world`, label: labels.world, match: `/${lang}/world`, icon: ICONS.world },
     { href: `/${lang}/search`, label: labels.search, match: `/${lang}/search`, icon: ICONS.search },
     { href: `/${lang}/almanac`, label: labels.almanac, match: `/${lang}/almanac`, icon: ICONS.almanac },
@@ -140,13 +140,6 @@ export default function NavLinks({ lang, labels }: { lang: Locale; labels: Label
               </Link>
             ))}
           </nav>
-
-          <div className="mt-6 pt-6 border-t border-line">
-            <div className="flex items-center justify-between">
-              <span className="text-sm text-muted">Cheat Sheet</span>
-              <CharmNavBadge lang={lang} />
-            </div>
-          </div>
         </div>
       )}
     </>
