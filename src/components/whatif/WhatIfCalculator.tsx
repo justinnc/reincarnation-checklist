@@ -6,7 +6,8 @@ import { defaultCountry, type Locale } from "@/lib/i18n";
 import { formatMoney, formatMultiple } from "@/lib/format";
 import { allCountries } from "@/lib/countries";
 import Link from "next/link";
-import { assetMaxYear, assetsForCountry, comparableCashBaseline, computeWhatIf, PRE_BOUNDARY_NOTE } from "@/lib/whatif/engine";
+import { assetMaxYear, assetsForCountry, caveatFor, comparableCashBaseline, computeWhatIf, PRE_BOUNDARY_NOTE } from "@/lib/whatif/engine";
+import { formatAmountInput, parseAmountInput } from "@/lib/whatif/amountInput";
 
 const PRESET_AMOUNTS_VND = [1_000_000, 10_000_000, 50_000_000, 100_000_000];
 const PRESET_AMOUNTS_USD = [100, 1_000, 10_000, 100_000];
@@ -36,7 +37,7 @@ const COPY = {
     copied: "Đã sao chép!",
     screenshotHint: "Mẹo: chụp màn hình thẻ này để chia sẻ lên mạng xã hội.",
     caveatLabel: "Lưu ý",
-    baseline: "Sức mua của tiền mặt (quy về giá trị năm bắt đầu, theo CPI; không phải số dư danh nghĩa)",
+    baseline: "Nếu chỉ giữ tiền mặt (sức mua sau lạm phát, quy về giá năm bắt đầu)",
   },
   en: {
     countryLabel: "Country",
@@ -53,7 +54,7 @@ const COPY = {
     copied: "Copied!",
     screenshotHint: "Tip: screenshot this card to share it.",
     caveatLabel: "Note",
-    baseline: "Cash purchasing power (in starting-year currency, CPI-adjusted; not nominal balance)",
+    baseline: "If you had just held cash (purchasing power after inflation, in starting-year money)",
   },
 };
 
@@ -82,6 +83,7 @@ export default function WhatIfCalculator({ lang }: { lang: Locale }) {
 
   const result = useMemo(() => computeWhatIf(asset, y, amount), [asset, y, amount]);
   const baseline = useMemo(() => comparableCashBaseline(country, asset, y, amount), [country, asset, y, amount]);
+  const caveat = caveatFor(asset, y);
 
   const syncUrl = (next: { country?: string; asset?: string; year?: number; amount?: number }) => {
     const sp = new URLSearchParams({
@@ -262,21 +264,25 @@ export default function WhatIfCalculator({ lang }: { lang: Locale }) {
               </button>
             ))}
             <input
-              type="number"
-              min={1}
-              max={MAX_AMOUNT}
+              type="text"
+              inputMode="numeric"
+              autoComplete="off"
               aria-label={copy.customAmount}
               placeholder={copy.customAmount}
               value={customAmount}
               onChange={(e) => {
-                setCustomAmount(e.target.value);
-                const v = Number(e.target.value);
+                const v = parseAmountInput(e.target.value);
+                if (v === null) {
+                  setCustomAmount("");
+                  return;
+                }
+                setCustomAmount(formatAmountInput(v, lang));
                 if (isValidAmount(v)) {
                   setAmount(v);
                   syncUrl({ amount: v });
                 }
               }}
-              className="w-28 rounded-full border border-line bg-raised px-3 py-1.5 text-sm"
+              className="w-36 rounded-full border border-line bg-raised px-3 py-1.5 text-sm tabular"
             />
           </div>
         </div>
@@ -297,7 +303,7 @@ export default function WhatIfCalculator({ lang }: { lang: Locale }) {
             {copy.baseline}: {formatMoney(baseline.finalValue, baseline.currency, lang)} ({formatMultiple(baseline.multiple, lang)})
           </p>
         )}
-        {asset.caveat && <p className="mx-auto mt-4 max-w-md text-xs text-faint">⚠️ {copy.caveatLabel}: {asset.caveat[lang]}</p>}
+        {caveat && <p className="mx-auto mt-4 max-w-md text-xs text-faint">⚠️ {copy.caveatLabel}: {caveat[lang]}</p>}
         <p className="mt-5 text-xs text-faint">{copy.screenshotHint}</p>
         <button
           onClick={copyLink}

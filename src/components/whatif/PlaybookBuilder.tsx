@@ -7,9 +7,11 @@ import { t, type Locale, defaultCountry } from "@/lib/i18n";
 import type { Country, MilestoneLite } from "@/lib/types";
 import { formatMoney, formatMultiple } from "@/lib/format";
 import { SourceLinksBadge } from "@/components/Badges";
+import { formatAmountInput, parseAmountInput } from "@/lib/whatif/amountInput";
 import {
   findOptimalChainIncluding,
   findOptimalNonOverlappingChain,
+  formatPeriodLabel,
   getPlaybookCandidates,
   simulatePlaybook,
   type PlaybookCandidate,
@@ -25,8 +27,8 @@ const LABELS = {
   vi: {
     country: "1. Chọn quốc gia trọng sinh",
     capital: "2. Vốn khởi đầu & Chế độ thanh khoản",
-    realisticOn: "🛡️ Thực tế (Chỉ tài sản đại chúng, có trần thanh khoản)",
-    realisticOff: "🚀 Tối đa lý thuyết (Mọi kèo, không trần thanh khoản)",
+    realisticOn: "🛡️ Thực tế (Chỉ tài sản đại chúng, có giới hạn thanh khoản)",
+    realisticOff: "🚀 Tối đa lý thuyết (Mọi thương vụ, không giới hạn thanh khoản)",
     pickTitle: "3. Chọn các mốc nối tiếp nhau",
     pickSub: "Tích chọn nhiều mốc để lãi kép nối tiếp từ thương vụ này sang thương vụ khác.",
     autoOptimal: "⚡ Tự chọn chuỗi tối ưu (không trùng tháng)",
@@ -36,10 +38,10 @@ const LABELS = {
     overlapWarn:
       "⚠️ Các mốc trùng thời gian nắm giữ đã bị loại khỏi phép tính. Chọn chuỗi không trùng tháng để mô phỏng đầu tư nối tiếp.",
     capWarn:
-      "🛡️ Một số bước đã được áp trần thanh khoản (phần vốn vượt trần giữ nguyên tiền mặt) để tránh con số ảo vượt quy mô thị trường.",
+      "🛡️ Một số bước đã bị áp giới hạn thanh khoản (phần vốn vượt giới hạn được giữ nguyên tiền mặt) để tránh con số ảo vượt quy mô thị trường.",
     overlapStep: "⚠️ Trùng thời gian với bước trước",
-    cappedStep: "🛡️ Chạm trần thanh khoản",
-    speculativeBadge: "Đầu cơ / Angel hẹp",
+    cappedStep: "🛡️ Chạm giới hạn thanh khoản",
+    speculativeBadge: "Đầu cơ / thị trường ngách",
     initial: "Vốn ban đầu",
     final: "Tổng tài sản cuối",
     totalMult: "Số lần nhân vốn",
@@ -66,7 +68,7 @@ const LABELS = {
       "🛡️ Liquidity caps were applied on one or more steps (excess capital held in cash) to prevent fantasy numbers exceeding market depth.",
     overlapStep: "⚠️ Overlaps previous holding period",
     cappedStep: "🛡️ Liquidity capped",
-    speculativeBadge: "Speculative / Private Angel",
+    speculativeBadge: "Speculative / Private deal",
     initial: "Starting capital",
     final: "Final net worth",
     totalMult: "Cumulative multiple",
@@ -85,7 +87,7 @@ export function PlaybookOverlapNotice({ lang, skippedOverlaps }: { lang: Locale;
       <p>{LABELS[lang].overlapWarn}</p>
       <p className="mt-2 font-semibold">{lang === "vi" ? "Các mốc đã chọn nhưng không được tính:" : "Excluded selected milestones:"}</p>
       <ul className="mt-1 list-inside list-disc">
-        {skippedOverlaps.map((c) => <li key={c.milestone.id}>{t(c.milestone.title, lang)} ({c.periodLabel})</li>)}
+        {skippedOverlaps.map((c) => <li key={c.milestone.id}>{t(c.milestone.title, lang)} ({formatPeriodLabel(c, lang)})</li>)}
       </ul>
     </div>
   );
@@ -263,7 +265,7 @@ export default function PlaybookBuilder({ lang, countries, milestones }: Props) 
             ))}
           </div>
           <div className="flex flex-wrap items-center gap-2 pt-0.5">
-            <span className="text-xs text-faint mr-1 font-mono">{lang === "vi" ? "Mốc chẵn:" : "Quick set:"}</span>
+            <span className="text-xs text-faint mr-1 font-mono">{lang === "vi" ? "Mức vốn nhanh:" : "Quick amounts:"}</span>
             {quickCurrencies.map((q) => (
               <button
                 key={q}
@@ -279,10 +281,12 @@ export default function PlaybookBuilder({ lang, countries, milestones }: Props) 
               </button>
             ))}
             <input
-              type="number"
-              min={1}
-              value={capital}
-              onChange={(e) => setCapital(Math.max(1, Number(e.target.value) || 1))}
+              type="text"
+              inputMode="numeric"
+              autoComplete="off"
+              aria-label={lang === "vi" ? "Vốn khởi đầu" : "Starting capital"}
+              value={formatAmountInput(capital, lang)}
+              onChange={(e) => setCapital(Math.max(1, parseAmountInput(e.target.value) ?? 1))}
               className="w-36 rounded-lg border border-line bg-bg px-3 py-1.5 font-mono text-xs text-ink focus:border-gold focus:outline-none"
             />
             <span className="font-mono text-xs text-faint">{country.stake.currency}</span>
@@ -369,7 +373,7 @@ export default function PlaybookBuilder({ lang, countries, milestones }: Props) 
                   <div className="min-w-0">
                     <div className="flex flex-wrap items-center gap-2 text-xs">
                       <span className="rounded bg-gold/20 px-1.5 py-0.5 font-mono font-semibold text-gold">
-                        #{idx + 1} · {s.candidate.periodLabel}
+                        #{idx + 1} · {formatPeriodLabel(s.candidate, lang)}
                       </span>
                       {s.overlapsPrevious && (
                         <span className="text-warning font-medium">{L.overlapStep}</span>
@@ -459,7 +463,7 @@ export default function PlaybookBuilder({ lang, countries, milestones }: Props) 
                   <div className="min-w-0">
                     <div className="flex flex-wrap items-center gap-2 text-xs">
                       <span className="font-mono text-gold">
-                        {c.periodLabel}
+                        {formatPeriodLabel(c, lang)}
                       </span>
                       {c.milestone.opportunity.asset && (
                         <span className="font-mono text-faint">· {t(c.milestone.opportunity.asset, lang)}</span>

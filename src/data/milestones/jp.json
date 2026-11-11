@@ -301,7 +301,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "Tokyo commercial land",
+        "vi": "Đất thương mại tại Tokyo",
         "en": "Tokyo commercial land"
       },
       "action": {
@@ -578,7 +578,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "Alibaba Group (via SoftBank stake)",
+        "vi": "Alibaba Group (qua cổ phần SoftBank nắm giữ)",
         "en": "Alibaba Group (via SoftBank stake)"
       },
       "action": {
@@ -1351,7 +1351,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "Bitcoin (BTC) / Mt. Gox exposure",
+        "vi": "Bitcoin (BTC) / tài sản gửi tại Mt. Gox",
         "en": "Bitcoin (BTC) / Mt. Gox exposure"
       },
       "action": {
@@ -1729,7 +1729,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "Itochu, Marubeni, Mitsubishi, Mitsui, Sumitomo (Japanese sogo shosha)",
+        "vi": "Itochu, Marubeni, Mitsubishi, Mitsui, Sumitomo (các tổng công ty thương mại sogo shosha Nhật Bản)",
         "en": "Itochu, Marubeni, Mitsubishi, Mitsui, Sumitomo (Japanese sogo shosha)"
       },
       "action": {
@@ -1915,7 +1915,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "Japanese table rice (per 5kg retail bag)",
+        "vi": "Gạo ăn Nhật Bản (giá bán lẻ bao 5kg)",
         "en": "Japanese table rice (per 5kg retail bag)"
       },
       "action": {
@@ -2011,7 +2011,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "Nikkei 225 / USD-JPY carry trade",
+        "vi": "Nikkei 225 / giao dịch chênh lệch lãi suất (carry trade) USD-JPY",
         "en": "Nikkei 225 / USD-JPY carry trade"
       },
       "action": {
@@ -2209,7 +2209,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "Nippon Broadcasting System (NBS, TSE 2nd section)",
+        "vi": "Nippon Broadcasting System (NBS, Khu vực 2 của TSE)",
         "en": "Nippon Broadcasting System (NBS, TSE 2nd section)"
       },
       "action": {

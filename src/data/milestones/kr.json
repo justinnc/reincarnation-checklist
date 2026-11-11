@@ -18,7 +18,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "KOSPI index",
+        "vi": "Chỉ số KOSPI",
         "en": "KOSPI index"
       },
       "action": {
@@ -122,7 +122,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "Daewoo affiliates (Daewoo Corp, Daewoo Motor, etc.)",
+        "vi": "Các công ty thuộc Daewoo (Daewoo Corp, Daewoo Motor, v.v.)",
         "en": "Daewoo affiliates (Daewoo Corp, Daewoo Motor, etc.)"
       },
       "action": {
@@ -325,7 +325,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "Apgujeong Hyundai apartment (196㎡), Gangnam, Seoul",
+        "vi": "Căn hộ Apgujeong Hyundai (196㎡), Gangnam, Seoul",
         "en": "Apgujeong Hyundai apartment (196㎡), Gangnam, Seoul"
       },
       "action": {
@@ -429,7 +429,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "KOSPI index / Korean exporters",
+        "vi": "Chỉ số KOSPI / doanh nghiệp xuất khẩu Hàn Quốc",
         "en": "KOSPI index / Korean exporters"
       },
       "action": {

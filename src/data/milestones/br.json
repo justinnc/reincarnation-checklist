@@ -18,7 +18,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "Durable goods / real estate / USD cash (hedge), avoid cruzado time deposits",
+        "vi": "Hàng hóa lâu bền / bất động sản / tiền mặt USD (phòng hộ), tránh tiền gửi có kỳ hạn bằng cruzado",
         "en": "Durable goods / real estate / USD cash (hedge), avoid cruzado time deposits"
       },
       "action": {
@@ -109,7 +109,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "Physical assets / foreign currency outside the banking system, avoid BRL bank deposits",
+        "vi": "Tài sản hữu hình / ngoại tệ giữ ngoài hệ thống ngân hàng, tránh tiền gửi ngân hàng bằng BRL",
         "en": "Physical assets / foreign currency outside the banking system, avoid BRL bank deposits"
       },
       "action": {
@@ -200,7 +200,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "Ibovespa index / Brazilian blue-chip stocks (Telebras, banks)",
+        "vi": "Chỉ số Ibovespa / cổ phiếu blue-chip Brazil (Telebras, ngân hàng)",
         "en": "Ibovespa index / Brazilian blue-chip stocks (Telebras, banks)"
       },
       "action": {
@@ -383,7 +383,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "Baby Telebras shares (Embratel, Telesp, Tele Centro Sul, etc.)",
+        "vi": "Cổ phiếu các công ty “Baby Telebras” (Embratel, Telesp, Tele Centro Sul, v.v.)",
         "en": "Baby Telebras shares (Embratel, Telesp, Tele Centro Sul, etc.)"
       },
       "action": {
@@ -653,8 +653,8 @@
     "date": "2002-10-27",
     "category": "macro",
     "title": {
-      "vi": "Nỗi sợ Lula 2002 — cơ hội mua lớn nhất lịch sử",
-      "en": "The 2002 'Lula risk' panic — history's great buying opportunity"
+      "vi": "Nỗi sợ Lula 2002 — thị trường hoảng loạn trước bầu cử",
+      "en": "The 2002 'Lula risk' panic — markets sell off before the election"
     },
     "summary": {
       "vi": "Thị trường hoảng loạn trước khả năng Lula thắng cử; Ibovespa rơi xuống 8.863 điểm rồi tăng 1.500% bằng USD trong 5 năm.",
@@ -666,7 +666,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "Ibovespa index",
+        "vi": "Chỉ số Ibovespa",
         "en": "Ibovespa index"
       },
       "action": {
@@ -766,7 +766,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "Ibovespa index",
+        "vi": "Chỉ số Ibovespa",
         "en": "Ibovespa index"
       },
       "action": {
@@ -866,7 +866,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "Vale (iron ore), agribusiness/soy exporters, Brazilian real",
+        "vi": "Vale (quặng sắt), doanh nghiệp xuất khẩu nông sản/đậu nành, đồng real Brazil",
         "en": "Vale (iron ore), agribusiness/soy exporters, Brazilian real"
       },
       "action": {
@@ -962,7 +962,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "AmBev (ABEV3) / InBev / AB InBev shares",
+        "vi": "Cổ phiếu AmBev (ABEV3) / InBev / AB InBev",
         "en": "AmBev (ABEV3) / InBev / AB InBev shares"
       },
       "action": {
@@ -1235,7 +1235,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "Rio de Janeiro residential property (Zona Sul: Copacabana, Ipanema, Leblon)",
+        "vi": "Nhà ở tại Rio de Janeiro (Zona Sul: Copacabana, Ipanema, Leblon)",
         "en": "Rio de Janeiro residential property (Zona Sul: Copacabana, Ipanema, Leblon)"
       },
       "action": {
@@ -1610,7 +1610,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "Ibovespa index / Brazilian real",
+        "vi": "Chỉ số Ibovespa / đồng real Brazil",
         "en": "Ibovespa index / Brazilian real"
       },
       "action": {
@@ -1701,7 +1701,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "Ibovespa index",
+        "vi": "Chỉ số Ibovespa",
         "en": "Ibovespa index"
       },
       "action": {
@@ -1795,7 +1795,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "Fintech stocks (Nubank, StoneCo, PagSeguro) / digital banks",
+        "vi": "Cổ phiếu fintech (Nubank, StoneCo, PagSeguro) / ngân hàng số",
         "en": "Fintech stocks (Nubank, StoneCo, PagSeguro) / digital banks"
       },
       "action": {
@@ -1886,7 +1886,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "HASH11 / QBTC11 (B3-listed crypto ETFs)",
+        "vi": "HASH11 / QBTC11 (quỹ ETF tiền mã hóa niêm yết trên sàn B3)",
         "en": "HASH11 / QBTC11 (B3-listed crypto ETFs)"
       },
       "action": {

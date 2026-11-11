@@ -18,7 +18,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "Singtel (Z74.SI) — Group A Special Discounted Shares",
+        "vi": "Singtel (Z74.SI) — cổ phiếu chiết khấu đặc biệt Nhóm A (Group A Special Discounted Shares)",
         "en": "Singtel (Z74.SI) — Group A Special Discounted Shares"
       },
       "action": {
@@ -122,7 +122,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "Straits Times Index (Singapore blue chips / index funds)",
+        "vi": "Chỉ số Straits Times (cổ phiếu blue-chip Singapore / quỹ chỉ số)",
         "en": "Straits Times Index (Singapore blue chips / index funds)"
       },
       "action": {
@@ -324,7 +324,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "Singapore private condominiums (URA Private Residential Price Index)",
+        "vi": "Căn hộ chung cư tư nhân Singapore (chỉ số giá nhà ở tư nhân của URA)",
         "en": "Singapore private condominiums (URA Private Residential Price Index)"
       },
       "action": {
@@ -843,7 +843,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "Exposure to Singapore oil-trade financing",
+        "vi": "Khoản tài trợ thương mại dầu mỏ tại Singapore",
         "en": "Exposure to Singapore oil-trade financing"
       },
       "action": {
@@ -938,7 +938,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "Crypto lending platforms & LUNA/GBTC exposure",
+        "vi": "Nền tảng cho vay tiền mã hóa & tài sản LUNA/GBTC",
         "en": "Crypto lending platforms & LUNA/GBTC exposure"
       },
       "action": {

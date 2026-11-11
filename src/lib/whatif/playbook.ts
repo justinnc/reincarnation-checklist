@@ -1,4 +1,6 @@
 import type { MilestoneLite } from "@/lib/types";
+import type { Locale } from "@/lib/i18n";
+import { formatDate } from "@/lib/format";
 import { LATEST_YEAR } from "./engine";
 
 const SPECULATIVE_OR_PRIVATE_IDS = new Set([
@@ -37,7 +39,10 @@ export interface PlaybookCandidate {
   endYear: number;
   startYM: number;
   endYM: number;
+  /** Raw ISO-ish period ("2005-01→2007-03"); use formatPeriodLabel() for display. */
   periodLabel: string;
+  periodStart: string;
+  periodEnd: string;
   multiple: number;
   speculative: boolean;
 }
@@ -117,11 +122,18 @@ export function getPlaybookCandidates(milestones: MilestoneLite[]): PlaybookCand
         startYM,
         endYM,
         periodLabel: `${startStr}→${endStr}`,
+        periodStart: startStr,
+        periodEnd: endStr,
         multiple: m.opportunity.returnMultiple!,
         speculative: isSpeculativeOrPrivate(m),
       };
     })
     .sort((a, b) => a.startYM - b.startYM || a.endYM - b.endYM || b.multiple - a.multiple);
+}
+
+/** Localized holding period, e.g. vi "1/2005 → 3/2007", en "Jan 2005 → Mar 2007". */
+export function formatPeriodLabel(c: Pick<PlaybookCandidate, "periodStart" | "periodEnd">, lang: Locale): string {
+  return `${formatDate(c.periodStart, lang)} → ${formatDate(c.periodEnd, lang)}`;
 }
 
 function maxDeployableFor(c: PlaybookCandidate, stakeUnit: number): number {

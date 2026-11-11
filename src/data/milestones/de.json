@@ -109,7 +109,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "DAX Index",
+        "vi": "Chỉ số DAX",
         "en": "DAX Index"
       },
       "action": {
@@ -309,7 +309,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "Nemax 50 Index",
+        "vi": "Chỉ số Nemax 50",
         "en": "Nemax 50 Index"
       },
       "action": {
@@ -501,7 +501,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "DEM/EUR fixed conversion",
+        "vi": "Tỷ giá chuyển đổi cố định DEM/EUR",
         "en": "DEM/EUR fixed conversion"
       },
       "action": {
@@ -592,7 +592,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "DAX Index",
+        "vi": "Chỉ số DAX",
         "en": "DAX Index"
       },
       "action": {
@@ -779,7 +779,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "Volkswagen ordinary shares (VOW)",
+        "vi": "Cổ phiếu phổ thông Volkswagen (VOW)",
         "en": "Volkswagen ordinary shares (VOW)"
       },
       "action": {
@@ -873,7 +873,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "Berlin development land / residential property",
+        "vi": "Đất phát triển dự án / nhà ở tại Berlin",
         "en": "Berlin development land / residential property"
       },
       "action": {
@@ -1067,7 +1067,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "DAX Index",
+        "vi": "Chỉ số DAX",
         "en": "DAX Index"
       },
       "action": {
@@ -1260,7 +1260,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "Volkswagen preferred shares (VOW3)",
+        "vi": "Cổ phiếu ưu đãi Volkswagen (VOW3)",
         "en": "Volkswagen preferred shares (VOW3)"
       },
       "action": {
@@ -1452,7 +1452,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "DAX Index",
+        "vi": "Chỉ số DAX",
         "en": "DAX Index"
       },
       "action": {
@@ -1744,7 +1744,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "Bitcoin (BTC) held by a German tax resident",
+        "vi": "Bitcoin (BTC) do người cư trú thuế tại Đức nắm giữ",
         "en": "Bitcoin (BTC) held by a German tax resident"
       },
       "action": {
@@ -1935,7 +1935,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "Dutch TTF natural gas futures",
+        "vi": "Hợp đồng tương lai khí đốt TTF (Hà Lan)",
         "en": "Dutch TTF natural gas futures"
       },
       "action": {

@@ -18,7 +18,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "S&P/ASX All Ordinaries (XAO) / Australian blue chips",
+        "vi": "S&P/ASX All Ordinaries (XAO) / cổ phiếu blue-chip Úc",
         "en": "S&P/ASX All Ordinaries (XAO) / Australian blue chips"
       },
       "action": {
@@ -326,7 +326,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "HIH Insurance (ASX: HIH) — avoid",
+        "vi": "HIH Insurance (ASX: HIH) — nên tránh",
         "en": "HIH Insurance (ASX: HIH) — avoid"
       },
       "action": {
@@ -530,7 +530,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "S&P/ASX 200 index funds — without leverage",
+        "vi": "Quỹ chỉ số S&P/ASX 200 — không dùng đòn bẩy",
         "en": "S&P/ASX 200 index funds — without leverage"
       },
       "action": {
@@ -630,7 +630,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "Sydney detached houses",
+        "vi": "Nhà ở riêng lẻ tại Sydney",
         "en": "Sydney detached houses"
       },
       "action": {
@@ -942,7 +942,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "Bitcoin via VanEck Bitcoin ETF (ASX: VBTC)",
+        "vi": "Bitcoin qua quỹ VanEck Bitcoin ETF (ASX: VBTC)",
         "en": "Bitcoin via VanEck Bitcoin ETF (ASX: VBTC)"
       },
       "action": {

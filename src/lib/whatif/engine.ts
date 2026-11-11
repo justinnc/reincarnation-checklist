@@ -60,6 +60,7 @@ const UNIVERSAL_ASSETS: AssetDef[] = [
     icon: "₿",
     label: { vi: "Bitcoin", en: "Bitcoin" },
     minYear: seriesYearRange(UNIVERSAL.closes.btc_usd)[0],
+    caveatUntilYear: 2011,
     caveat: {
       vi: "Giá năm 2010-2011 từ giai đoạn thị trường còn rất mỏng, độ tin cậy thấp hơn các năm sau.",
       en: "2010-2011 prices come from a very thin early market and are less reliable than later years.",
@@ -222,6 +223,13 @@ export function cashBaseline(countryCode: string, startYear: number, amount: num
 export function comparableCashBaseline(countryCode: string, asset: AssetDef, startYear: number, amount: number): WhatIfResult | null {
   const cash = localAssetsFor(countryCode).find((a) => a.id === `${countryCode}_cash`);
   return cash?.currency === asset.currency ? cashBaseline(countryCode, startYear, amount) : null;
+}
+
+/** The asset's caveat, if it applies to the chosen start year. */
+export function caveatFor(asset: AssetDef, startYear: number): AssetDef["caveat"] {
+  if (!asset.caveat) return undefined;
+  if (asset.caveatUntilYear !== undefined && startYear > asset.caveatUntilYear) return undefined;
+  return asset.caveat;
 }
 
 /** For countries whose local series only start after a currency changeover, the single

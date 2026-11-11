@@ -302,7 +302,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "Italian BTP government bonds (10-year)",
+        "vi": "Trái phiếu chính phủ Ý BTP (kỳ hạn 10 năm)",
         "en": "Italian BTP government bonds (10-year)"
       },
       "action": {
@@ -867,7 +867,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "Italian 10-year BTP government bonds",
+        "vi": "Trái phiếu chính phủ Ý BTP kỳ hạn 10 năm",
         "en": "Italian 10-year BTP government bonds"
       },
       "action": {
@@ -949,8 +949,8 @@
     "date": "2012",
     "category": "real-estate",
     "title": {
-      "vi": "Giá nhà Ý giảm sâu 2008-2013, cơ hội mua đáy",
-      "en": "Italian home prices slump 2008-2013, a buy-the-dip window"
+      "vi": "Giá nhà Ý giảm sâu 2008-2013",
+      "en": "Italian home prices slump 2008-2013"
     },
     "summary": {
       "vi": "Chỉ số giá nhà Ý (Istat HPI) giảm liên tục từ 2008, chạm đáy khoảng -5,7% năm 2013 so với 2012, tạo cơ hội mua bất động sản giá rẻ.",
@@ -962,7 +962,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "Residential real estate, Milan / major Italian cities",
+        "vi": "Nhà ở tại Milan / các thành phố lớn của Ý",
         "en": "Residential real estate, Milan / major Italian cities"
       },
       "action": {
@@ -1148,7 +1148,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "Italian & Spanish government bonds / FTSE MIB index",
+        "vi": "Trái phiếu chính phủ Ý & Tây Ban Nha / chỉ số FTSE MIB",
         "en": "Italian & Spanish government bonds / FTSE MIB index"
       },
       "action": {
@@ -1429,7 +1429,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "Milan residential real estate (Porta Nuova / CityLife districts)",
+        "vi": "Nhà ở tại Milan (khu Porta Nuova / CityLife)",
         "en": "Milan residential real estate (Porta Nuova / CityLife districts)"
       },
       "action": {
@@ -1996,7 +1996,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "Dutch TTF natural gas futures",
+        "vi": "Hợp đồng tương lai khí đốt TTF (Hà Lan)",
         "en": "Dutch TTF natural gas futures"
       },
       "action": {
@@ -2192,7 +2192,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "Banca Popolare di Vicenza shares (unlisted)",
+        "vi": "Cổ phiếu Banca Popolare di Vicenza (không niêm yết)",
         "en": "Banca Popolare di Vicenza shares (unlisted)"
       },
       "action": {

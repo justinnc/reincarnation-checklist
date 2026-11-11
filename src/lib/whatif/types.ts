@@ -29,6 +29,8 @@ export interface AssetDef {
   label: { vi: string; en: string };
   minYear: number;
   caveat?: { vi: string; en: string };
+  /** Only show the caveat when the chosen start year is at or before this year. */
+  caveatUntilYear?: number;
 }
 
 export interface WhatIfResult {

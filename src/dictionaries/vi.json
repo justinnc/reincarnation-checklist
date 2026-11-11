@@ -1,7 +1,7 @@
 {
   "site": {
     "name": "The Reincarnation Checklist",
-    "tagline": "Trọng sinh về quá khứ với toàn bộ ký ức. Đây là những gì bạn nên làm.",
+    "tagline": "Trọng sinh về quá khứ với toàn bộ ký ức. Đây là những cơ hội từng xuất hiện.",
     "disclaimer": "Nội dung mang tính giải trí và giáo dục, không phải lời khuyên đầu tư. Lợi nhuận là số liệu lịch sử, mang tính xấp xỉ."
   },
   "nav": {
@@ -17,7 +17,7 @@
     "survival": "Thử thách sống sót"
   },
   "home": {
-    "kicker": "Trọng sinh · Reborn",
+    "kicker": "Trọng sinh",
     "wakeUp": "Bạn tỉnh dậy vào năm",
     "heading": "Bạn nhớ hết mọi chuyện sắp xảy ra.",
     "intro": "Chọn quốc gia và năm bắt đầu. Khám phá những bước ngoặt tiếp theo, với nguồn tham khảo cho từng câu chuyện.",
@@ -52,8 +52,8 @@
     "count": "Số mốc",
     "opportunity": "Cách kiếm tiền",
     "asset": "Tài sản",
-    "buyWhen": "Điểm vào",
-    "sellWhen": "Điểm ra",
+    "buyWhen": "Thời điểm vào",
+    "sellWhen": "Thời điểm ra",
     "estimatedReturn": "Lợi nhuận ước tính",
     "whatIf": "bỏ vào khi đó",
     "becomes": "thành",
@@ -85,8 +85,8 @@
     "insider": "Mẹo người biết trước",
     "pitfalls": "Cạm bẫy cần né",
     "numbers": "Các con số",
-    "entry": "Điểm vào",
-    "exit": "Điểm ra",
+    "entry": "Giá vào",
+    "exit": "Giá ra",
     "multiple": "Số lần nhân vốn",
     "test": "Thử trí nhớ",
     "prev": "Trước đó",

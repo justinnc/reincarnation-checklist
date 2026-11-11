@@ -122,7 +122,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "SET Index (chỉ số / quỹ cổ phiếu blue-chip Thái)",
+        "vi": "Chỉ số SET (chỉ số / quỹ cổ phiếu blue-chip Thái)",
         "en": "SET Index (Thai blue-chip index/funds)"
       },
       "action": {
@@ -330,7 +330,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "SET Index / blue-chip Thái",
+        "vi": "Chỉ số SET / cổ phiếu blue-chip Thái",
         "en": "SET Index / Thai blue chips"
       },
       "action": {

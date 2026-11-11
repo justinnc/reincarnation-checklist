@@ -18,7 +18,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "Berkshire Hathaway Class A (BRK.A)",
+        "vi": "Cổ phiếu Berkshire Hathaway loại A (BRK.A)",
         "en": "Berkshire Hathaway Class A (BRK.A)"
       },
       "action": {
@@ -250,7 +250,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "S&P 500 / Dow Jones blue chips",
+        "vi": "S&P 500 / cổ phiếu blue-chip Dow Jones",
         "en": "S&P 500 / Dow Jones blue chips"
       },
       "action": {
@@ -644,7 +644,7 @@
         "en": "1994-1996, when registration cost only about $70-100 and there was almost no competition."
       },
       "sellWhen": {
-        "vi": "Cuối thập niên 1990 đến 2000s, khi các công ty lớn sẵn sàng trả hàng triệu USD để có tên miền đẹp.",
+        "vi": "Cuối thập niên 1990 đến thập niên 2000, khi các công ty lớn sẵn sàng trả hàng triệu USD để có tên miền đẹp.",
         "en": "Late 1990s through the 2000s, when big companies were willing to pay millions for a premium domain."
       },
       "estimatedReturn": {
@@ -1584,7 +1584,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "S&P 500 index fund",
+        "vi": "Quỹ chỉ số S&P 500",
         "en": "S&P 500 index fund"
       },
       "action": {
@@ -2115,7 +2115,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "S&P 500 index fund / cổ phiếu công nghệ lớn",
+        "vi": "Quỹ chỉ số S&P 500 / cổ phiếu công nghệ lớn",
         "en": "S&P 500 index fund / large-cap tech stocks"
       },
       "action": {
@@ -2595,7 +2595,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "FTX Token (FTT)",
+        "vi": "Token FTX (FTT)",
         "en": "FTX Token (FTT)"
       },
       "action": {
@@ -3116,7 +3116,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "Apple Computer partnership stake (later AAPL)",
+        "vi": "Cổ phần hợp danh Apple Computer (sau này là AAPL)",
         "en": "Apple Computer partnership stake (later AAPL)"
       },
       "action": {
@@ -3219,7 +3219,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "Victoria's Secret (acquired by The Limited, later L Brands)",
+        "vi": "Victoria's Secret (được The Limited mua lại, sau này là L Brands)",
         "en": "Victoria's Secret (acquired by The Limited, later L Brands)"
       },
       "action": {
@@ -3321,7 +3321,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "Hansen Natural / Monster Beverage (MNST)",
+        "vi": "Hansen Natural (nay là Monster Beverage, MNST)",
         "en": "Hansen Natural / Monster Beverage (MNST)"
       },
       "action": {
@@ -3434,7 +3434,7 @@
     },
     "opportunity": {
       "asset": {
-        "vi": "Facebook seed round (later META)",
+        "vi": "Vòng gọi vốn hạt giống của Facebook (sau này là META)",
         "en": "Facebook seed round (later META)"
       },
       "action": {
