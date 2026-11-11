@@ -1,4 +1,5 @@
 import { ImageResponse } from "next/og";
+import BrandLogo from "@/components/BrandLogo";
 import { allMilestones, countries } from "@/lib/data";
 
 export const size = { width: 1200, height: 630 };
@@ -21,22 +22,7 @@ export default function Image() {
         }}
       >
         <div style={{ display: "flex", alignItems: "center", gap: 20 }}>
-          <div
-            style={{
-              display: "flex",
-              width: 64,
-              height: 64,
-              alignItems: "center",
-              justifyContent: "center",
-              borderRadius: 14,
-              background: "#e8b23d",
-              color: "#1a1206",
-              fontSize: 36,
-              fontWeight: 800,
-            }}
-          >
-            ✓
-          </div>
+          <BrandLogo size={80} />
           <div style={{ fontSize: 32, fontWeight: 700, letterSpacing: -0.5 }}>The Reincarnation Checklist</div>
         </div>
         <div style={{ marginTop: 48, fontSize: 56, fontWeight: 800, lineHeight: 1.15, maxWidth: 1000 }}>

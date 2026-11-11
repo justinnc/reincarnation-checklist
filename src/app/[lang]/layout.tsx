@@ -7,6 +7,7 @@ import { getDictionary } from "@/lib/dictionaries";
 import { SITE_URL, localeAlternates } from "@/lib/seo";
 import LangSwitch from "@/components/LangSwitch";
 import NavLinks from "@/components/NavLinks";
+import BrandLogo from "@/components/BrandLogo";
 import "../globals.css";
 
 const text = Be_Vietnam_Pro({ subsets: ["latin", "vietnamese"], weight: ["400", "500", "600", "700"], variable: "--nf-text" });
@@ -49,7 +50,7 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[la
         <header className="border-b border-line">
           <nav aria-label="Main" className="mx-auto flex max-w-[1120px] items-center gap-3 px-4 py-2 sm:gap-5 sm:py-3">
             <Link href={`/${lang}`} aria-label={dict.site.name} className="flex min-h-11 items-center gap-2 font-display text-lg font-extrabold tracking-tight">
-              <span className="flex h-8 w-8 items-center justify-center rounded-md bg-gold text-on-gold">✓</span>
+              <BrandLogo size={40} />
               <span className="hidden xl:inline">{dict.site.name}</span>
             </Link>
             <NavLinks lang={lang} labels={dict.nav} />
