@@ -1,6 +1,6 @@
 # PROJECT_STATE.md — The Reincarnation Checklist
 
-> Handoff for a fresh agent session. **Last updated 2026-11-12, at `58c2b93`.** Read §0 first; §1 onward is older background and is stale where it conflicts with §0.
+> Handoff for a fresh agent session. **Last updated 2026-11-12, at `955649b`.** Read §0 first; §1 onward is older background and is stale where it conflicts with §0.
 > Project root: `/Users/justindang/reincarnation-checklist` (macOS). Branch `main` tracks `origin/main` = `github.com/justinnc/reincarnation-checklist` (public, Issues enabled). Pushes to `main` deploy to Vercel.
 
 ---
@@ -9,7 +9,7 @@
 
 ### 0.1 Where things stand
 - **Live:** https://reincarnation-checklist-justinncs-projects.vercel.app (Vercel). `SITE_URL` = `NEXT_PUBLIC_SITE_URL` or that domain (`src/lib/seo.ts`).
-- **Git:** working tree clean. `main` is ahead of `origin/main` (`461baf6`) by `58c2b93` and the docs commit after it: **not pushed yet**.
+- **Git:** working tree clean, `main` = `origin/main` (this docs commit, on top of `955649b`). Nothing unpushed.
 - **Gates:** Gate 0 done. Gate 1 (`IMPLEMENTATION_PLAN.md` §Gate 1):
   - [x] Step 1: bilingual Methodology & Corrections page (`/[lang]/methodology`, now including §5 Analytics).
   - [ ] Step 2: real-user sessions (EN + VI). **Owner task.** Only a *simulated* persona review exists (`docs/reviews/gate1-simulated-persona-feedback.md`); all of its findings are fixed.
@@ -40,13 +40,14 @@ The `NODE_OPTIONS='--experimental-require-module'` prefix in the npm scripts is 
 | `074e8be` | Survival: 189 of 326 playable milestones used to show the generic dispatch. All now have hand-written, hindsight-free dispatches in `src/data/survival-dispatches.json`, guarded by `survival-dispatches.test.ts` |
 | `7d9bb12` | Methodology §5 "Analytics" (EN/VI) discloses what PostHog receives; autocapture, recordings, heatmaps, surveys and exceptions are pinned off in `src/lib/analytics.ts` |
 | `48a98cc` | Primary sources added for the Yahoo-derived CP All, Olympus, Bajaj and Hansen prices (no price changed); Arab News source title corrected. Details in the ledger |
-| `58c2b93` (2026-11-12, unpushed) | Survival: Vietnamese oversubscription dispatches (Hermès, Zomato) now say "gấp N lần"; the test's "N lần" ban is narrowed to return multiples (allowed only straight after "đặt mua (cao) gấp") and has its own test |
+| `58c2b93` (2026-11-12) | Survival: Vietnamese oversubscription dispatches (Hermès, Zomato) now say "gấp N lần"; the test's "N lần" ban is narrowed to return multiples (allowed only straight after "đặt mua (cao) gấp") and has its own test |
+| `955649b` (2026-11-12) | Bajaj Finance 5 Sep 2024 exit close confirmed from an NSE-sourced fund-house daily sheet (source added, no price changed); ledger follow-up records what is still unpinned |
 
 ### 0.4 Open items (priority order)
 1. **Owner: PostHog "Discard client IP data"** project setting. IPs reach PostHog with every event; there's no code switch for this. PDPA-relevant.
 2. **Owner, deferred:** the pass-card footer prints `REINCARNATION-CHECKLIST.COM` (`src/lib/passCard.ts` §10), a domain the project doesn't own. Owner decided to refactor it later together with the domain choice. Don't change it without asking.
 3. **Owner: Gate 1 step 2** with real EN + VI users. **Gate 1 step 4:** custom domain, confirm the corrections channel (GitHub issues need an account; email/form are alternatives), rollback owner.
-4. **Data:** Bajaj exit close (₹7,244.90, 5 Sep 2024) is still Yahoo-only. Hansen 2 Jan 2004 and Olympus 30 Dec 2015 closes are bracketed by filings but not pinned to the day. Needs an exchange bhavcopy / archived newspaper table.
+4. **Data:** Hansen 2 Jan 2004 and Olympus 30 Dec 2015 closes are bracketed by filings but not pinned to the day; a second search on 2026-11-12 found only aggregators (see the ledger follow-up). Bajaj's 5 Sep 2024 exit close (₹7,244.90) is now confirmed by an NSE-sourced fund-house daily sheet; the exchange's own bhavcopy is still blocked (403).
 5. **Data:** still "reported, no prices": `gb-black-wednesday-1992`, `jp-softbank-alibaba-stake-2000` (private), `vn-phu-quoc-land-fever-2014`.
 6. **Review, optional:** `b24f8ce` BrandLogo/icons (parallel session) was code-reviewed on 2026-11-12 and kept: self-contained, tested, OG route builds. The rendered header and OG image were not checked in a browser.
 7. Roadmap ideas (§3 Sprints 2–4, Q2 monetization) are untouched and unprioritised.
