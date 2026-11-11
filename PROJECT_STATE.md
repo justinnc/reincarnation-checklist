@@ -1,6 +1,6 @@
 # PROJECT_STATE.md — The Reincarnation Checklist
 
-> Handoff for a fresh agent session. **Last updated 2026-11-11, at `27b2627`.** Read §0 first; §1 onward is older background and is stale where it conflicts with §0.
+> Handoff for a fresh agent session. **Last updated 2026-11-12, at `58c2b93`.** Read §0 first; §1 onward is older background and is stale where it conflicts with §0.
 > Project root: `/Users/justindang/reincarnation-checklist` (macOS). Branch `main` tracks `origin/main` = `github.com/justinnc/reincarnation-checklist` (public, Issues enabled). Pushes to `main` deploy to Vercel.
 
 ---
@@ -9,7 +9,7 @@
 
 ### 0.1 Where things stand
 - **Live:** https://reincarnation-checklist-justinncs-projects.vercel.app (Vercel). `SITE_URL` = `NEXT_PUBLIC_SITE_URL` or that domain (`src/lib/seo.ts`).
-- **Git:** working tree clean, `main` = `origin/main` at `27b2627`. Nothing unpushed.
+- **Git:** working tree clean. `main` is ahead of `origin/main` (`461baf6`) by `58c2b93` and the docs commit after it: **not pushed yet**.
 - **Gates:** Gate 0 done. Gate 1 (`IMPLEMENTATION_PLAN.md` §Gate 1):
   - [x] Step 1: bilingual Methodology & Corrections page (`/[lang]/methodology`, now including §5 Analytics).
   - [ ] Step 2: real-user sessions (EN + VI). **Owner task.** Only a *simulated* persona review exists (`docs/reviews/gate1-simulated-persona-feedback.md`); all of its findings are fixed.
@@ -19,7 +19,7 @@
 ### 0.2 Run & verify (Node 24 required)
 ```bash
 source ~/.nvm/nvm.sh && nvm use 24     # system Node 22.5.1 does NOT match engines "24.x"
-npm run test                            # 215/215 (31 files)
+npm run test                            # 216/216 (31 files)
 node scripts/validate-data.mjs          # OK: 328 milestones
 npx tsc --noEmit -p tsconfig.json       # clean
 npm run lint                            # 0 errors, 13 warnings (hidden Charm files)
@@ -40,6 +40,7 @@ The `NODE_OPTIONS='--experimental-require-module'` prefix in the npm scripts is 
 | `074e8be` | Survival: 189 of 326 playable milestones used to show the generic dispatch. All now have hand-written, hindsight-free dispatches in `src/data/survival-dispatches.json`, guarded by `survival-dispatches.test.ts` |
 | `7d9bb12` | Methodology §5 "Analytics" (EN/VI) discloses what PostHog receives; autocapture, recordings, heatmaps, surveys and exceptions are pinned off in `src/lib/analytics.ts` |
 | `48a98cc` | Primary sources added for the Yahoo-derived CP All, Olympus, Bajaj and Hansen prices (no price changed); Arab News source title corrected. Details in the ledger |
+| `58c2b93` (2026-11-12, unpushed) | Survival: Vietnamese oversubscription dispatches (Hermès, Zomato) now say "gấp N lần"; the test's "N lần" ban is narrowed to return multiples (allowed only straight after "đặt mua (cao) gấp") and has its own test |
 
 ### 0.4 Open items (priority order)
 1. **Owner: PostHog "Discard client IP data"** project setting. IPs reach PostHog with every event; there's no code switch for this. PDPA-relevant.
@@ -47,9 +48,8 @@ The `NODE_OPTIONS='--experimental-require-module'` prefix in the npm scripts is 
 3. **Owner: Gate 1 step 2** with real EN + VI users. **Gate 1 step 4:** custom domain, confirm the corrections channel (GitHub issues need an account; email/form are alternatives), rollback owner.
 4. **Data:** Bajaj exit close (₹7,244.90, 5 Sep 2024) is still Yahoo-only. Hansen 2 Jan 2004 and Olympus 30 Dec 2015 closes are bracketed by filings but not pinned to the day. Needs an exchange bhavcopy / archived newspaper table.
 5. **Data:** still "reported, no prices": `gb-black-wednesday-1992`, `jp-softbank-alibaba-stake-2000` (private), `vn-phu-quoc-land-fever-2014`.
-6. **Copy nit:** Survival dispatches avoid Vietnamese "N lần" because the test bans it to catch return multiples, so oversubscription reads stiffly ("gấp 34 lượng chào bán"). Fix only by narrowing the regex in `survival-dispatches.test.ts` to multiples and re-running.
-7. **Review:** `b24f8ce` BrandLogo/icons came from a parallel session; review or revert.
-8. Roadmap ideas (§3 Sprints 2–4, Q2 monetization) are untouched and unprioritised.
+6. **Review, optional:** `b24f8ce` BrandLogo/icons (parallel session) was code-reviewed on 2026-11-12 and kept: self-contained, tested, OG route builds. The rendered header and OG image were not checked in a browser.
+7. Roadmap ideas (§3 Sprints 2–4, Q2 monetization) are untouched and unprioritised.
 
 ### 0.5 Rules enforced by tests/validator — keep them
 - **Price rule:** `returnMultiple = exitPrice × (splitFactor ?? 1) ÷ entryPrice` (±2%). Prices are nominal as quoted; `splitFactor` = shares held per original share. `src/lib/priceBasis.ts` renders the formula on detail pages.
