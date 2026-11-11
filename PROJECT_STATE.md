@@ -25,6 +25,8 @@
 - **Survival dispatches (open item 4):** 189 of 326 playable milestones used to fall back to the generic template (not ~1/3). Every one now has a hand-written, hindsight-free dispatch in `src/data/survival-dispatches.json`. `getContemporaryDispatch` checks `CONTEMPORARY_TRAP_DISPATCHES` first, then this file, then the sanitiser. The text was drafted per country from each milestone's own sourced description only, then reviewed. Guarded by `src/lib/__tests__/survival-dispatches.test.ts`: real ids, EN+VI, length limits, banned outcome words, no year after the event, every number must appear in the milestone's own text, and no playable milestone left on the generic template. IPO dispatches stop at the pricing when the entry is the IPO price. Known nit: Vietnamese avoids "N lần" (the test bans it to catch return multiples), so oversubscription reads a bit stiffly ("gấp 34 lượng chào bán").
 - **Quiz (open item 5):** all correct answers are backed by the milestone text, guarded by `src/lib/__tests__/quiz-answers.test.ts` with rounding tolerance. The wrong options in 28/39 VN quizzes are unsourced by design: they are wrong answers. None were found to be ambiguous with the right answer, so they were kept. The "buy the dip" copy that read as generic advice (Olympus `action.vi`, Facebook `pitfalls.en`) is now tied to each milestone's sourced `buyWhen`. The other "bắt đáy" hits are warnings against it, which is correct.
 - **Persona items (open item 6):** home hero has a second CTA linking to Survival above the fold; new `opportunity.exitAtPeak` flag (validated) shows "sold at peak / bán tại đỉnh" in Biggest wins for Luiza, Fortescue, Netflix and CSL, whose own `sellWhen` names a peak exit, and the table note explains it; the quiz has an "⭐ Famous names (easy)" pool of 16 curated ids (`src/lib/quizPools.ts`, editorial picks only).
+- **Analytics notice (`7d9bb12`):** Methodology §5 (EN/VI) discloses exactly what PostHog receives; autocapture, recordings, heatmaps, surveys and exceptions are pinned off in `src/lib/analytics.ts` (asserted in the test). **Owner action still open:** turn on "Discard client IP data" in the PostHog project; there's no code switch for it.
+- **Yahoo-derived prices (open item 2):** CP All entry and exit now confirmed exactly by archived SET pages; Olympus exit, Bajaj entry and Hansen entry are bracketed by company or SEC filings; the Arab News source title is corrected. No price changed. Still Yahoo-only: Bajaj exit close (5 Sep 2024). Details in the ledger section "Yahoo-derived prices: firmer sources".
 
 **Open item 7 note:** the site is already public, so Gate 1 step 4 (launch prep) is partly done de facto — remaining owner decisions: custom domain, feedback channel confirmation, rollback owner, PostHog key/privacy notice (analytics is not mentioned on the methodology page yet).
 
@@ -146,7 +148,7 @@ de93420 docs: document Seed Challenge Mode in PROJECT_STATE
 
 | Severity | Bug | Location | Status |
 |----------|-----|----------|--------|
-| P1 | Survival rule text `missing` on first load (SSR timing) | `SurvivalGame.tsx` `data-testid="inflation-rule"` | Open |
+| P1 | Survival rule text `missing` on first load (SSR timing) | `SurvivalGame.tsx` `data-testid="inflation-rule"` | **Obsolete (2026-11-11):** the rule text is now behind the "Rules" toggle by design and renders when opened; the 3%/yr assumption is shown on the Skip choice itself (hard rule #4 satisfied) |
 | P2 | Pass Card text overflow on long values | `src/lib/passCard.ts` | **Fixed & Committed** |
 
 ### Technical debt
