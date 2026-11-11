@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: PageProps<"/[lang]/search">):
     title: copy.heading,
     description: copy.intro,
     alternates: { canonical: `${SITE_URL}/${lang}/search`, languages: localeAlternates("/search") },
-    openGraph: { images: ["/opengraph-image"], title: copy.heading, description: copy.intro, url: `/${lang}/search` },
+    openGraph: { images: [`/${lang}/opengraph-image`], title: copy.heading, description: copy.intro, url: `/${lang}/search` },
   };
 }
 

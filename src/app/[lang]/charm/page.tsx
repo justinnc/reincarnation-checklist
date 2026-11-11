@@ -32,7 +32,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
     title: copy.heading,
     description: copy.intro,
     alternates: { canonical: `${SITE_URL}/${lang}/charm`, languages: localeAlternates("/charm") },
-    openGraph: { images: ["/opengraph-image"], title: copy.heading, description: copy.intro, url: `/${lang}/charm` },
+    openGraph: { images: [`/${lang}/opengraph-image`], title: copy.heading, description: copy.intro, url: `/${lang}/charm` },
   };
   */
 }

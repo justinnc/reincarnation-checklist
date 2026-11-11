@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: LayoutProps<"/[lang]">): Prom
     title: { default: dict.site.name, template: `%s · ${dict.site.name}` },
     description: dict.site.tagline,
     alternates: { canonical: `${SITE_URL}/${lang}`, languages: localeAlternates("") },
-    openGraph: { images: ["/opengraph-image"],
+    openGraph: { images: [`/${lang}/opengraph-image`],
       type: "website",
       siteName: dict.site.name,
       title: dict.site.name,

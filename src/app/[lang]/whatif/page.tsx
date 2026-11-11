@@ -33,7 +33,7 @@ export async function generateMetadata({ params }: PageProps<"/[lang]/whatif">):
     title: copy.heading,
     description: copy.intro,
     alternates: { canonical: `${SITE_URL}/${lang}/whatif`, languages: localeAlternates("/whatif") },
-    openGraph: { images: ["/opengraph-image"], title: copy.heading, description: copy.intro, url: `/${lang}/whatif` },
+    openGraph: { images: [`/${lang}/opengraph-image`], title: copy.heading, description: copy.intro, url: `/${lang}/whatif` },
   };
 }
 

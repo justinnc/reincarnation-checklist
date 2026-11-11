@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: PageProps<"/[lang]/world">): 
     title: copy.heading,
     description: copy.intro,
     alternates: { canonical: `${SITE_URL}/${lang}/world`, languages: localeAlternates("/world") },
-    openGraph: { images: ["/opengraph-image"], title: copy.heading, description: copy.intro, url: `/${lang}/world` },
+    openGraph: { images: [`/${lang}/opengraph-image`], title: copy.heading, description: copy.intro, url: `/${lang}/world` },
   };
 }
 

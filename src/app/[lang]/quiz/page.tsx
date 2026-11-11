@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: PageProps<"/[lang]/quiz">): P
     title: dict.quiz.heading,
     description: dict.quiz.intro,
     alternates: { canonical: `${SITE_URL}/${lang}/quiz`, languages: localeAlternates("/quiz") },
-    openGraph: { images: ["/opengraph-image"], title: dict.quiz.heading, description: dict.quiz.intro, url: `/${lang}/quiz` },
+    openGraph: { images: [`/${lang}/opengraph-image`], title: dict.quiz.heading, description: dict.quiz.intro, url: `/${lang}/quiz` },
   };
 }
 

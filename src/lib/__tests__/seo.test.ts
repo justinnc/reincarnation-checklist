@@ -1,5 +1,5 @@
 import { describe, expect, it, vi } from "vitest";
-import { SITE_URL, localeAlternates } from "../seo";
+import { SITE_URL, localeAlternates, ogHeadline } from "../seo";
 
 describe("SITE_URL", () => {
   it("uses the default URL when the environment variable is empty", async () => {
@@ -41,5 +41,15 @@ describe("localeAlternates", () => {
 
   it("adds a leading slash when the path lacks one", () => {
     expect(localeAlternates("vn").en).toBe(`${SITE_URL}/en/vn`);
+  });
+});
+
+describe("ogHeadline", () => {
+  it("is written in the page's language and carries the live counts", () => {
+    const en = ogHeadline("en", 328, 15);
+    const vi = ogHeadline("vi", 328, 15);
+    expect(en).toContain("328 historical milestones, 15 countries");
+    expect(en).not.toMatch(/[ạảấầẩậắằẳặẹẻếềểệịọỏốồổộớờởợụủứừửựỳỵỷđ]/i);
+    expect(vi).toContain("328 mốc lịch sử, 15 quốc gia");
   });
 });

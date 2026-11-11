@@ -134,7 +134,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     title: copy.heading,
     description: copy.subtitle,
     alternates: { canonical: `${SITE_URL}/${lang}/methodology`, languages: localeAlternates("/methodology") },
-    openGraph: { images: ["/opengraph-image"], title: copy.heading, description: copy.subtitle, url: `/${lang}/methodology` },
+    openGraph: { images: [`/${lang}/opengraph-image`], title: copy.heading, description: copy.subtitle, url: `/${lang}/methodology` },
   };
 }
 

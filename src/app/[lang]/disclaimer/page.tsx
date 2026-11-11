@@ -76,7 +76,7 @@ export async function generateMetadata({ params }: PageProps<"/[lang]/disclaimer
     title: copy.heading,
     description,
     alternates: { canonical: `${SITE_URL}/${lang}/disclaimer`, languages: localeAlternates("/disclaimer") },
-    openGraph: { images: ["/opengraph-image"], title: copy.heading, description, url: `/${lang}/disclaimer` },
+    openGraph: { images: [`/${lang}/opengraph-image`], title: copy.heading, description, url: `/${lang}/disclaimer` },
   };
 }
 

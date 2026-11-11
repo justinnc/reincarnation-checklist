@@ -1,12 +1,20 @@
 import { ImageResponse } from "next/og";
 import BrandLogo from "@/components/BrandLogo";
 import { allMilestones, countries } from "@/lib/data";
+import { hasLocale, locales } from "@/lib/i18n";
+import { SITE_URL, ogHeadline } from "@/lib/seo";
 
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 export const alt = "The Reincarnation Checklist";
 
-export default function Image() {
+export function generateStaticParams() {
+  return locales.map((lang) => ({ lang }));
+}
+
+export default async function Image({ params }: { params: Promise<{ lang: string }> }) {
+  const { lang } = await params;
+  if (!hasLocale(lang)) return new Response(null, { status: 404 });
   return new ImageResponse(
     (
       <div
@@ -26,9 +34,9 @@ export default function Image() {
           <div style={{ fontSize: 32, fontWeight: 700, letterSpacing: -0.5 }}>The Reincarnation Checklist</div>
         </div>
         <div style={{ marginTop: 48, fontSize: 56, fontWeight: 800, lineHeight: 1.15, maxWidth: 1000 }}>
-          {`${allMilestones.length} mốc lịch sử, ${countries.length} quốc gia. Nếu được trọng sinh, cơ hội và cạm bẫy nào đang chờ bạn?`}
+          {ogHeadline(lang, allMilestones.length, countries.length)}
         </div>
-        <div style={{ marginTop: 32, fontSize: 26, color: "#b9b0a0" }}>reincarnation-checklist.vn</div>
+        <div style={{ marginTop: 32, fontSize: 26, color: "#b9b0a0" }}>{new URL(SITE_URL).host}</div>
       </div>
     ),
     { ...size },

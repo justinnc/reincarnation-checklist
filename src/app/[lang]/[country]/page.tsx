@@ -34,7 +34,7 @@ export async function generateMetadata({ params }: PageProps<"/[lang]/[country]"
     title: name,
     description,
     alternates: { canonical: `${SITE_URL}/${lang}/${country}`, languages: localeAlternates(`/${country}`) },
-    openGraph: { images: ["/opengraph-image"], title: name, description, url: `/${lang}/${country}` },
+    openGraph: { images: [`/${lang}/opengraph-image`], title: name, description, url: `/${lang}/${country}` },
   };
 }
 

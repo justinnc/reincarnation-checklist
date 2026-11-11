@@ -42,7 +42,7 @@ export async function generateMetadata({ params }: PageProps<"/[lang]/almanac">)
     title: copy.heading,
     description: copy.intro,
     alternates: { canonical: `${SITE_URL}/${lang}/almanac`, languages: localeAlternates("/almanac") },
-    openGraph: { images: ["/opengraph-image"], title: copy.heading, description: copy.intro, url: `/${lang}/almanac` },
+    openGraph: { images: [`/${lang}/opengraph-image`], title: copy.heading, description: copy.intro, url: `/${lang}/almanac` },
   };
 }
 

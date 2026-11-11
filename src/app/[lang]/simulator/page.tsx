@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: PageProps<"/[lang]/simulator"
     title: copy.heading,
     description: copy.intro,
     alternates: { canonical: `${SITE_URL}/${lang}/simulator`, languages: localeAlternates("/simulator") },
-    openGraph: { images: ["/opengraph-image"], title: copy.heading, description: copy.intro, url: `/${lang}/simulator` },
+    openGraph: { images: [`/${lang}/opengraph-image`], title: copy.heading, description: copy.intro, url: `/${lang}/simulator` },
   };
 }
 
