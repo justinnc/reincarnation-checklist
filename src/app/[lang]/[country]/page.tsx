@@ -8,6 +8,14 @@ import { localeAlternates, SITE_URL } from "@/lib/seo";
 import Timeline from "@/components/Timeline";
 import MilestoneCard from "@/components/MilestoneCard";
 
+/**
+ * Allowed to block navigation: `country`/`id` aren't resolved by the shared `[lang]`
+ * layout, but every valid value is prerendered via generateStaticParams. Streaming
+ * behind <Suspense> instead would turn unknown URLs into 200 soft-404s, because
+ * notFound() would fire after the status is sent.
+ */
+export const instant = false;
+
 export async function generateStaticParams() {
   return locales.flatMap((lang) => countries.map((c) => ({ lang, country: c.code })));
 }

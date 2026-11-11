@@ -11,6 +11,14 @@ import { DropBadge, MultipleBadge, RiskBadge, SourceLinksBadge } from "@/compone
 import { CharmToggle } from "@/components/CharmToggle";
 import InlineQuiz from "@/components/InlineQuiz";
 
+/**
+ * Allowed to block navigation: `country`/`id` aren't resolved by the shared `[lang]`
+ * layout, but every valid value is prerendered via generateStaticParams. Streaming
+ * behind <Suspense> instead would turn unknown URLs into 200 soft-404s, because
+ * notFound() would fire after the status is sent.
+ */
+export const instant = false;
+
 export async function generateStaticParams() {
   return locales.flatMap((lang) => allMilestones.map((m) => ({ lang, country: m.country, id: m.id })));
 }
