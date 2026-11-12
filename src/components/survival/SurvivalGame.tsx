@@ -684,7 +684,7 @@ export default function SurvivalGame({
 
                 <p className="mt-2 text-sm text-ink">
                   {t(currentRoundResult.feedback, lang)}
-                  {currentRoundResult.decision === "skip" && (
+                  {currentRoundResult.decision === "skip" && currentRoundResult.inflationLoss > 0 && (
                     <span className="mt-2 block font-mono text-warning" data-testid="inflation-log">
                       {currentRound.year} → {currentRound.year + (currentRound.yearGap ?? 0)}
                       {" · "}{lang === "vi" ? "Giảm sức mua (game)" : "Purchasing-power loss (game)"}: −{money(currentRoundResult.inflationLoss)}
@@ -804,7 +804,7 @@ export default function SurvivalGame({
                       : res.decision === "cautious"
                       ? "25%"
                       : (lang === "vi" ? "Né" : "Skip")}
-                    {res.decision === "skip" && <span className="block text-warning">−{money(res.inflationLoss)} {lang === "vi" ? "sức mua" : "purchasing power"}</span>}
+                    {res.decision === "skip" && res.inflationLoss > 0 && <span className="block text-warning">−{money(res.inflationLoss)} {lang === "vi" ? "sức mua" : "purchasing power"}</span>}
                   </div>
                 </div>
               ))}
