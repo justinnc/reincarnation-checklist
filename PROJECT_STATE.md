@@ -1,6 +1,6 @@
 # PROJECT_STATE.md — The Reincarnation Checklist
 
-> Handoff for a fresh agent session. **Last updated 2026-11-12, at `7221e38`.** Read §0 first; §1 onward is older background and is stale where it conflicts with §0.
+> Handoff for a fresh agent session. **Last updated 2026-11-12, at `cb4b6b9`.** Read §0 first; §1 onward is older background and is stale where it conflicts with §0.
 > Project root: `/Users/justindang/reincarnation-checklist` (macOS). Branch `main` tracks `origin/main` = `github.com/justinnc/reincarnation-checklist` (public, Issues enabled). Pushes to `main` deploy to Vercel.
 
 ---
@@ -9,7 +9,7 @@
 
 ### 0.1 Where things stand
 - **Live:** https://reincarnation-checklist-justinncs-projects.vercel.app (Vercel). `SITE_URL` = `NEXT_PUBLIC_SITE_URL` or that domain (`src/lib/seo.ts`).
-- **Git:** working tree clean, `main` = `origin/main` (this docs commit, on top of `7221e38`). Nothing unpushed.
+- **Git:** working tree clean. `main` is ahead of `origin/main` (`91812f4`) by `39d6ebe`, `cb4b6b9` and the docs commit after them: **not pushed yet** (pushing deploys).
 - **Gates:** Gate 0 done. Gate 1 (`IMPLEMENTATION_PLAN.md` §Gate 1):
   - [x] Step 1: bilingual Methodology & Corrections page (`/[lang]/methodology`, now including §5 Analytics).
   - [ ] Step 2: real-user sessions (EN + VI). **Owner task.** Only a *simulated* persona review exists (`docs/reviews/gate1-simulated-persona-feedback.md`); all of its findings are fixed.
@@ -19,7 +19,7 @@
 ### 0.2 Run & verify (Node 24 required)
 ```bash
 source ~/.nvm/nvm.sh && nvm use 24     # system Node 22.5.1 does NOT match engines "24.x"
-npm run test                            # 217/217 (31 files)
+npm run test                            # 223/223 (32 files)
 node scripts/validate-data.mjs          # OK: 328 milestones
 npx tsc --noEmit -p tsconfig.json       # clean
 npm run lint                            # 0 errors, 13 warnings (hidden Charm files)
@@ -44,13 +44,15 @@ The `NODE_OPTIONS='--experimental-require-module'` prefix in the npm scripts is 
 | `955649b` (2026-11-12) | Bajaj Finance 5 Sep 2024 exit close confirmed from an NSE-sourced fund-house daily sheet (source added, no price changed); ledger follow-up records what is still unpinned |
 | `08c7da7` (2026-11-12) | Share (OG) image is per language: `src/app/[lang]/opengraph-image.tsx`, EN headline on `/en`, VI on `/vi`, footer = host of `SITE_URL` (was Vietnamese-only with the unowned `.vn` domain). All page metadata points at its own language's image; `/opengraph-image` redirects to the EN one |
 | `7221e38` (2026-11-12) | Black Wednesday: "roughly 15%" fall replaced by dated Bank of England spot rates; now priced as the saver scenario (100 Deutschmarks £35.99 → £39.85, 16 → 30 Sep 1992, 1.11×). Prices are 100 ÷ the quoted DM-per-£ rate; details in the ledger |
+| `39d6ebe` (2026-11-12, unpushed) | Detail page shows cents on quoted entry/exit prices below 1,000 (`formatPrice`): "$48.92" instead of "$49", "£35.99" instead of "£36" |
+| `cb4b6b9` (2026-11-12, unpushed) | Roadmap Sprint 2, export: "Download data: CSV / JSON" on the Almanac item card (stored observations + sources, no interpolation) and under the Playbook ledger (steps, capital, caps, links). Pure builders in `src/lib/exportData.ts` (CSV escaping + spreadsheet-formula guard, tested); UI in `src/components/ExportButtons.tsx`. No analytics event added, so Methodology §5 is unchanged |
 
 ### 0.4 Open items (priority order)
 1. **Owner: PostHog "Discard client IP data"** project setting. IPs reach PostHog with every event; there's no code switch for this. PDPA-relevant.
 2. **Owner, deferred:** the pass-card footer prints `REINCARNATION-CHECKLIST.COM` (`src/lib/passCard.ts` §10), a domain the project doesn't own. Owner decided to refactor it later together with the domain choice. Don't change it without asking. Same refactor: `src/components/cardgame/CardGameApp.tsx:201` still falls back to `https://reincarnation-checklist.vn` as origin.
 3. **Owner: Gate 1 step 2** with real EN + VI users. **Gate 1 step 4:** custom domain, confirm the corrections channel (GitHub issues need an account; email/form are alternatives), rollback owner.
 4. **Data:** Hansen 2 Jan 2004 and Olympus 30 Dec 2015 closes are bracketed by filings but not pinned to the day; a second search on 2026-11-12 found only aggregators (see the ledger follow-up). Bajaj's 5 Sep 2024 exit close (₹7,244.90) is now confirmed by an NSE-sourced fund-house daily sheet; the exchange's own bhavcopy is still blocked (403).
-5. **Data:** still "reported, no prices": `jp-softbank-alibaba-stake-2000` (private) and `vn-phu-quoc-land-fever-2014` (land); neither has a quotable entry/exit price. Display nit on `gb-black-wednesday-1992`: the detail page rounds its prices to £36 / £40.
+5. **Data:** still "reported, no prices": `jp-softbank-alibaba-stake-2000` (private) and `vn-phu-quoc-land-fever-2014` (land); neither has a quotable entry/exit price.
 6. **Review, optional:** `b24f8ce` BrandLogo/icons (parallel session) was code-reviewed on 2026-11-12 and kept: self-contained, tested, OG route builds. The rendered header and OG image were not checked in a browser.
 7. Roadmap ideas (§3 Sprints 2–4, Q2 monetization) are untouched and unprioritised.
 
@@ -150,7 +152,7 @@ de93420 docs: document Seed Challenge Mode in PROJECT_STATE
 
 ### 🟢 Roadmap (Next Sprints)
 
-- [ ] **Sprint 2 — Viral features:** Web Share 1-click (native share sheet), embed code (iframe/JS snippet) for pass card, CSV/JSON export for almanac & whatif results.
+- [ ] **Sprint 2 — Viral features:** Web Share 1-click (native share sheet), embed code (iframe/JS snippet) for pass card, CSV/JSON export for almanac & whatif results. *(Export done 2026-11-12 for Almanac series and the Playbook ledger; the single-asset What-If result is one number, so it has no export.)*
 - [ ] **Sprint 3 — Retention:** achievement system (5+ badges), localStorage save progress for survival, advanced mode with real historical CPI per country/year.
 - [ ] **Sprint 4 — Polish:** 30s first-visit tutorial, dark/light toggle, almanac year-jump input, SFX variety, larger fonts on small laptops.
 - [ ] **Q2 — Monetization:** public API (tRPC + Postgres + Prisma + Upstash Redis + NextAuth OAuth), Premium $10/month tier (advanced mode, CSV/API key, achievement profile, custom card themes). Break-even at 5 paid users; target 10k MAU → $3k MRR month 6.
