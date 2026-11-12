@@ -12,6 +12,7 @@ const COPY = {
   vi: {
     sliderSub: "Kéo thanh trượt để xem chuyện gì xảy ra ở TẤT CẢ 15 quốc gia quanh năm đó cùng lúc.",
     toleranceLabel: "Phạm vi",
+    yearLabel: "Năm",
     exact: "Đúng năm",
     near: "±1 năm",
     wide: "±2 năm",
@@ -21,6 +22,7 @@ const COPY = {
   en: {
     sliderSub: "Slide across years to see what happened in ALL 15 countries at the same time.",
     toleranceLabel: "Range",
+    yearLabel: "Year",
     exact: "Exact year",
     near: "±1 year",
     wide: "±2 years",
@@ -128,6 +130,7 @@ export default function WorldYearExplorer({
           min={MIN_YEAR}
           max={MAX_YEAR}
           value={year}
+          aria-label={`${COPY[lang].yearLabel} (${MIN_YEAR}-${MAX_YEAR})`}
           onChange={(e) => onSliderChange(Number(e.target.value))}
           onPointerUp={commitUrl}
           onKeyUp={commitUrl}

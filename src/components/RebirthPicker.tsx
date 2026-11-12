@@ -266,14 +266,14 @@ export default function RebirthPicker({ milestones, countries, lang, dict, minYe
             )}
           </div>
 
-          <ol className="mt-4 space-y-3">
+          <div className="mt-4 space-y-3">
             {activeList.length === 0 && (
-              <li className="list-none rounded-xl border border-dashed border-line p-4 text-sm text-muted">
+              <p className="rounded-xl border border-dashed border-line p-4 text-sm text-muted">
                 {pickerEmptyMessage(lang, tab, year, ahead.length, ahead.length - gainsAhead.length - trapsAhead.length)}
-              </li>
+              </p>
             )}
             <AnimatePresence mode="wait" initial={false}>
-              <motion.div
+              <motion.ol
                 key={`${tab}-${country}`}
                 initial={reduceMotion ? false : { opacity: 0, y: 6 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -304,9 +304,9 @@ export default function RebirthPicker({ milestones, countries, lang, dict, minYe
                     </Link>
                   </li>
                 ))}
-              </motion.div>
+              </motion.ol>
             </AnimatePresence>
-          </ol>
+          </div>
           <Link href={`/${lang}/${country}`} className="mt-5 inline-block text-sm font-medium text-gold hover:underline">
             {dict.seeAll} →
           </Link>
