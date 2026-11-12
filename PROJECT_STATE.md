@@ -1,6 +1,6 @@
 # PROJECT_STATE.md — The Reincarnation Checklist
 
-> Handoff for a fresh agent session. **Last updated 2026-11-12, at `a3d5fe4`.** Read §0 first; §1 onward is older background and is stale where it conflicts with §0.
+> Handoff for a fresh agent session. **Last updated 2026-11-12, at `eb1ecf4`.** Read §0 first; §1 onward is older background and is stale where it conflicts with §0.
 > Project root: `/Users/justindang/reincarnation-checklist` (macOS). Branch `main` tracks `origin/main` = `github.com/justinnc/reincarnation-checklist` (public, Issues enabled). Pushes to `main` deploy to Vercel.
 
 ---
@@ -9,17 +9,17 @@
 
 ### 0.1 Where things stand
 - **Live:** https://reincarnation-checklist-justinncs-projects.vercel.app (Vercel). `SITE_URL` = `NEXT_PUBLIC_SITE_URL` or that domain (`src/lib/seo.ts`).
-- **Git:** working tree clean. `main` is ahead of `origin/main` (`ab7b637`) by `a3d5fe4` and the docs commit after it: **not pushed yet** (pushing deploys).
+- **Git:** working tree clean. `main` is ahead of `origin/main` (the Almanac year box docs commit) by `9ca65be`, `eb1ecf4` and the docs commit after them: **not pushed yet** (pushing deploys).
 - **Gates:** Gate 0 done. Gate 1 (`IMPLEMENTATION_PLAN.md` §Gate 1):
   - [x] Step 1: bilingual Methodology & Corrections page (`/[lang]/methodology`, now including §5 Analytics).
-  - [ ] Step 2: real-user sessions (EN + VI). **Owner task.** Only a *simulated* persona review exists (`docs/reviews/gate1-simulated-persona-feedback.md`); all of its findings are fixed.
+  - [ ] Step 2: real-user sessions (EN + VI). **Owner task.** Script and observation sheet are ready in `docs/reviews/gate1-user-session-kit.md`; results go in `docs/reviews/gate1-real-user-sessions.md`. Only a *simulated* persona review exists (`docs/reviews/gate1-simulated-persona-feedback.md`); all of its findings are fixed.
   - [x] Step 3: iterate on feedback, plus the second-agent claim audit (ledger: `docs/research/claim-audit-ledger.md`).
-  - [~] Step 4: launch prep. Site is already public; the owner decisions in 0.4 remain.
+  - [~] Step 4: launch prep. Site is already public; the owner decisions in 0.4 remain. Production routes/SEO/OG smoke is recorded in `docs/reviews/gate1-production-smoke.md`; accessibility, real-device passes and a rollback drill are not done.
 
 ### 0.2 Run & verify (Node 24 required)
 ```bash
 source ~/.nvm/nvm.sh && nvm use 24     # system Node 22.5.1 does NOT match engines "24.x"
-npm run test                            # 223/223 (32 files)
+npm run test                            # 224/224 (32 files)
 node scripts/validate-data.mjs          # OK: 328 milestones
 npx tsc --noEmit -p tsconfig.json       # clean
 npm run lint                            # 0 errors, 13 warnings (hidden Charm files)
@@ -46,7 +46,10 @@ The `NODE_OPTIONS='--experimental-require-module'` prefix in the npm scripts is 
 | `7221e38` (2026-11-12) | Black Wednesday: "roughly 15%" fall replaced by dated Bank of England spot rates; now priced as the saver scenario (100 Deutschmarks £35.99 → £39.85, 16 → 30 Sep 1992, 1.11×). Prices are 100 ÷ the quoted DM-per-£ rate; details in the ledger |
 | `39d6ebe` (2026-11-12) | Detail page shows cents on quoted entry/exit prices below 1,000 (`formatPrice`): "$48.92" instead of "$49", "£35.99" instead of "£36" |
 | `cb4b6b9` (2026-11-12) | Roadmap Sprint 2, export: "Download data: CSV / JSON" on the Almanac item card (stored observations + sources, no interpolation) and under the Playbook ledger (steps, capital, caps, links). Pure builders in `src/lib/exportData.ts` (CSV escaping + spreadsheet-formula guard, tested); UI in `src/components/ExportButtons.tsx`. No analytics event added, so Methodology §5 is unchanged |
-| `a3d5fe4` (2026-11-12, unpushed) | Roadmap Sprint 4: Almanac "Jump to year / Nhập năm" box next to the big year (applies valid years 1986–2025 as typed, resets on blur); the year slider now has an accessible label |
+| `a3d5fe4` (2026-11-12) | Roadmap Sprint 4: Almanac "Jump to year / Nhập năm" box next to the big year (applies valid years 1986–2025 as typed, resets on blur); the year slider now has an accessible label |
+| `9ca65be` (2026-11-12, unpushed) | Sitemap now lists `/survival` and `/world` (704 URLs); test pins the public top-level pages |
+| `eb1ecf4` (2026-11-12, unpushed) | Site-wide response headers in `next.config.ts`: `nosniff`, `Referrer-Policy`, `X-Frame-Options: SAMEORIGIN`, `Permissions-Policy`. No CSP yet |
+| docs (2026-11-12, unpushed) | `docs/reviews/gate1-production-smoke.md` (700/700 live URLs checked) and `docs/reviews/gate1-user-session-kit.md` (EN/VI script + anonymized observation sheet for Gate 1 step 2) |
 
 ### 0.4 Open items (priority order)
 1. **Owner: PostHog "Discard client IP data"** project setting. IPs reach PostHog with every event; there's no code switch for this. PDPA-relevant.
@@ -55,7 +58,8 @@ The `NODE_OPTIONS='--experimental-require-module'` prefix in the npm scripts is 
 4. **Data:** Hansen 2 Jan 2004 and Olympus 30 Dec 2015 closes are bracketed by filings but not pinned to the day; a second search on 2026-11-12 found only aggregators (see the ledger follow-up). Bajaj's 5 Sep 2024 exit close (₹7,244.90) is now confirmed by an NSE-sourced fund-house daily sheet; the exchange's own bhavcopy is still blocked (403).
 5. **Data:** still "reported, no prices": `jp-softbank-alibaba-stake-2000` (private) and `vn-phu-quoc-land-fever-2014` (land); neither has a quotable entry/exit price.
 6. **Review, optional:** `b24f8ce` BrandLogo/icons (parallel session) was code-reviewed on 2026-11-12 and kept: self-contained, tested, OG route builds. The rendered header and OG image were not checked in a browser.
-7. Roadmap ideas (§3 Sprints 2–4, Q2 monetization) are untouched and unprioritised.
+7. **Security, optional:** no Content-Security-Policy yet (needs nonces + analytics host allow-list). `X-Frame-Options: SAMEORIGIN` means a future pass-card embed needs its own exempted route.
+8. **Roadmap is gated:** per `IMPLEMENTATION_PLAN.md`, Gates 2–4 wait for beta evidence from the real-user sessions. Roadmap ideas (§3 Sprints 2–4, Q2 monetization) are untouched and unprioritised.
 
 ### 0.5 Rules enforced by tests/validator — keep them
 - **Price rule:** `returnMultiple = exitPrice × (splitFactor ?? 1) ÷ entryPrice` (±2%). Prices are nominal as quoted; `splitFactor` = shares held per original share. `src/lib/priceBasis.ts` renders the formula on detail pages.
