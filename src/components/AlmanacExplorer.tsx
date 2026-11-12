@@ -44,6 +44,7 @@ const SLIDER_COPY = {
     playbookFromYear: "⚡ Lập chuỗi lãi kép từ năm",
     seriesHeading: "Biểu đồ chi tiết từng mặt hàng qua các năm",
     noSnapshot: "Chưa có số liệu mua được cho năm này.",
+    yearInput: "Nhập năm",
   },
   en: {
     sliderTitle: (c: string) => `🕰️ ${c} Historical Purchasing Power Time Machine`,
@@ -56,6 +57,7 @@ const SLIDER_COPY = {
     playbookFromYear: "⚡ Build compounding chain from",
     seriesHeading: "Detailed year-by-year series by item",
     noSnapshot: "No purchasable price data for this year yet.",
+    yearInput: "Jump to year",
   },
 };
 
@@ -86,6 +88,8 @@ export default function AlmanacExplorer({
   }, [search, countries, lang]);
 
   const [year, setYear] = useState<number>(initialYear);
+  // Text being typed in the year box; null = show the current year.
+  const [yearDraft, setYearDraft] = useState<string | null>(null);
   const [countryCode, setCountryCode] = useState(initialCountry);
   const country = countries.find((c) => c.code === countryCode) ?? countries[0];
   const items = useMemo(() => allItems.filter((i) => i.country === country?.code), [allItems, country]);
@@ -173,8 +177,27 @@ export default function AlmanacExplorer({
             <h2 className="font-display text-2xl font-bold text-gold">{L.sliderTitle(countryName)}</h2>
             <p className="mt-1 text-sm text-muted">{L.sliderSub(stakeLabel, countryName)}</p>
           </div>
-          <div className="font-display text-5xl font-extrabold tracking-tight text-gold tabular sm:text-6xl">
-            {year}
+          <div className="flex items-end gap-4 sm:flex-col sm:items-end sm:gap-2">
+            <div className="font-display text-5xl font-extrabold tracking-tight text-gold tabular sm:text-6xl">
+              {year}
+            </div>
+            <label className="flex items-center gap-2 whitespace-nowrap text-xs text-faint">
+              {L.yearInput}
+              <input
+                type="number"
+                inputMode="numeric"
+                min={MIN_YEAR}
+                max={MAX_YEAR}
+                value={yearDraft ?? String(year)}
+                onChange={(e) => {
+                  setYearDraft(e.target.value);
+                  const n = Number(e.target.value);
+                  if (Number.isInteger(n) && n >= MIN_YEAR && n <= MAX_YEAR) setYear(n);
+                }}
+                onBlur={() => setYearDraft(null)}
+                className="w-20 rounded-lg border border-line bg-bg px-2 py-1 font-mono text-sm text-ink tabular focus:border-gold focus:outline-none"
+              />
+            </label>
           </div>
         </div>
 
@@ -184,7 +207,11 @@ export default function AlmanacExplorer({
             min={MIN_YEAR}
             max={MAX_YEAR}
             value={year}
-            onChange={(e) => setYear(Number(e.target.value))}
+            aria-label={`${L.yearInput} (${MIN_YEAR}-${MAX_YEAR})`}
+            onChange={(e) => {
+              setYearDraft(null);
+              setYear(Number(e.target.value));
+            }}
             className="w-full accent-[#f4b740]"
           />
           <div className="mt-1 flex justify-between font-mono text-xs text-faint tabular">
