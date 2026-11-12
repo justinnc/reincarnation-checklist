@@ -1,4 +1,5 @@
 import { describe, expect, it, vi } from "vitest";
+import sitemap from "@/app/sitemap";
 import { SITE_URL, localeAlternates, ogHeadline } from "../seo";
 
 describe("SITE_URL", () => {
@@ -51,5 +52,17 @@ describe("ogHeadline", () => {
     expect(en).toContain("328 historical milestones, 15 countries");
     expect(en).not.toMatch(/[ạảấầẩậắằẳặẹẻếềểệịọỏốồổộớờởợụủứừửựỳỵỷđ]/i);
     expect(vi).toContain("328 mốc lịch sử, 15 quốc gia");
+  });
+});
+
+describe("sitemap", () => {
+  it("lists every public top-level page in both languages, once", () => {
+    const urls = sitemap().map((e) => e.url);
+    expect(new Set(urls).size).toBe(urls.length);
+    for (const lang of ["en", "vi"]) {
+      for (const page of ["", "/survival", "/almanac", "/whatif", "/world", "/quiz", "/methodology", "/disclaimer"]) {
+        expect(urls, `${lang}${page}`).toContain(`${SITE_URL}/${lang}${page}`);
+      }
+    }
   });
 });

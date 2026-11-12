@@ -3,7 +3,7 @@ import { locales } from "@/lib/i18n";
 import { allMilestones, countries } from "@/lib/data";
 import { SITE_URL } from "@/lib/seo";
 
-const STATIC_PAGES = ["", "/almanac", "/whatif", "/simulator", "/quiz", "/disclaimer", "/methodology"];
+const STATIC_PAGES = ["", "/survival", "/almanac", "/whatif", "/world", "/simulator", "/quiz", "/disclaimer", "/methodology"];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [];
