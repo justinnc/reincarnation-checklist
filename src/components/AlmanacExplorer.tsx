@@ -7,7 +7,9 @@ import { defaultCountry, t, type Locale, type LocalizedText } from "@/lib/i18n";
 import { interpolateAlmanacValue, type AlmanacItem } from "@/lib/almanac";
 import { formatDate, formatDrop, formatMoney, formatMultiple } from "@/lib/format";
 import { quantityLabel } from "@/lib/almanacUnits";
+import { almanacExport } from "@/lib/exportData";
 import AlmanacChart from "./AlmanacChart";
+import ExportButtons from "./ExportButtons";
 
 export interface AlmanacMilestone {
   id: string;
@@ -330,6 +332,9 @@ export default function AlmanacExplorer({
                 </a>
               </span>
             ))}
+          </div>
+          <div className="mt-4">
+            <ExportButtons lang={lang} build={() => almanacExport(item, lang)} />
           </div>
         </div>
       </div>

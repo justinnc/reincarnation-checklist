@@ -7,6 +7,8 @@ import { t, type Locale, defaultCountry } from "@/lib/i18n";
 import type { Country, MilestoneLite } from "@/lib/types";
 import { formatMoney, formatMultiple } from "@/lib/format";
 import { SourceLinksBadge } from "@/components/Badges";
+import ExportButtons from "@/components/ExportButtons";
+import { playbookExport } from "@/lib/exportData";
 import { formatAmountInput, parseAmountInput } from "@/lib/whatif/amountInput";
 import {
   findOptimalChainIncluding,
@@ -403,6 +405,12 @@ export default function PlaybookBuilder({ lang, countries, milestones }: Props) 
                 </li>
               ))}
             </ol>
+            <ExportButtons
+              lang={lang}
+              build={() =>
+                playbookExport(result, { country: country.code, currency: country.stake.currency, realistic, origin: window.location.origin }, lang)
+              }
+            />
           </>
         )}
       </div>
