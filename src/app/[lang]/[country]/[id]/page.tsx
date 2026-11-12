@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { hasLocale, locales, t } from "@/lib/i18n";
 import { getDictionary } from "@/lib/dictionaries";
 import { allMilestones, getCountry, getMilestone, getMilestones } from "@/lib/data";
-import { formatDate, formatDrop, formatMoney, formatMultiple } from "@/lib/format";
+import { formatDate, formatDrop, formatMoney, formatMultiple, formatPrice } from "@/lib/format";
 import { describePriceBasis } from "@/lib/priceBasis";
 import { localeAlternates, SITE_URL } from "@/lib/seo";
 import { DropBadge, MultipleBadge, RiskBadge, SourceLinksBadge } from "@/components/Badges";
@@ -67,7 +67,7 @@ export default async function MilestonePage({ params }: PageProps<"/[lang]/[coun
   /** Loss milestones are traps to avoid, never a "play" to profit from. */
   const isTrap = !o.historicalOnly && o.returnMultiple != null && o.returnMultiple < 1;
   const price = (v: number) =>
-    cur && cur !== "points" ? formatMoney(v, cur, lang) : new Intl.NumberFormat(lang === "vi" ? "vi-VN" : "en-US").format(v);
+    cur && cur !== "points" ? formatPrice(v, cur, lang) : new Intl.NumberFormat(lang === "vi" ? "vi-VN" : "en-US").format(v);
 
   return (
     <article className="space-y-10">

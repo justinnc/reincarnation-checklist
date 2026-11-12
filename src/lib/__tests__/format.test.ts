@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { formatDate, formatDrop, formatMoney, formatMultiple } from "../format";
+import { formatDate, formatDrop, formatMoney, formatMultiple, formatPrice } from "../format";
 
 describe("formatMoney", () => {
   it("formats VND with a trailing ₫ and locale grouping", () => {
@@ -108,5 +108,18 @@ describe("formatDate", () => {
     // TODO: non-date strings yield "NaN" instead of throwing or returning the input.
     expect(formatDate("garbage", "en")).toBe("NaN");
     expect(formatDate("", "vi")).toBe("0");
+  });
+});
+
+describe("formatPrice", () => {
+  it("keeps cents on quoted prices below 1,000", () => {
+    expect(formatPrice(48.92, "USD", "en")).toBe("$48.92");
+    expect(formatPrice(35.99, "GBP", "vi")).toBe("£35,99");
+    expect(formatPrice(460, "JPY", "en")).toBe("¥460");
+  });
+
+  it("matches formatMoney from 1,000 upward", () => {
+    expect(formatPrice(7244.9, "INR", "en")).toBe(formatMoney(7244.9, "INR", "en"));
+    expect(formatPrice(81_500, "VND", "vi")).toBe("81.500 ₫");
   });
 });

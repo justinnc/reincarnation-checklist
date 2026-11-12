@@ -17,6 +17,14 @@ export function formatMoney(value: number, currency: string, lang: Locale) {
   return `${pre}${n}${post}`;
 }
 
+/** A quoted unit price (share, rate): keeps cents below 1,000 so "$48.92" is not shown as "$49". */
+export function formatPrice(value: number, currency: string, lang: Locale) {
+  if (value >= 1000) return formatMoney(value, currency, lang);
+  const n = new Intl.NumberFormat(intlLocale(lang), { maximumFractionDigits: 2 }).format(value);
+  const [pre, post] = SYMBOLS[currency] ?? ["", ` ${currency}`];
+  return `${pre}${n}${post}`;
+}
+
 export function formatMultiple(x: number, lang: Locale) {
   const digits = x < 10 ? 1 : 0;
   return `${new Intl.NumberFormat(intlLocale(lang), { maximumFractionDigits: digits }).format(x)}×`;
