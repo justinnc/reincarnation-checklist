@@ -1,6 +1,6 @@
 # PROJECT_STATE.md — The Reincarnation Checklist
 
-> Handoff for a fresh agent session. **Last updated 2026-11-12, at `cb4b6b9`.** Read §0 first; §1 onward is older background and is stale where it conflicts with §0.
+> Handoff for a fresh agent session. **Last updated 2026-11-12, at `a3d5fe4`.** Read §0 first; §1 onward is older background and is stale where it conflicts with §0.
 > Project root: `/Users/justindang/reincarnation-checklist` (macOS). Branch `main` tracks `origin/main` = `github.com/justinnc/reincarnation-checklist` (public, Issues enabled). Pushes to `main` deploy to Vercel.
 
 ---
@@ -9,7 +9,7 @@
 
 ### 0.1 Where things stand
 - **Live:** https://reincarnation-checklist-justinncs-projects.vercel.app (Vercel). `SITE_URL` = `NEXT_PUBLIC_SITE_URL` or that domain (`src/lib/seo.ts`).
-- **Git:** working tree clean. `main` is ahead of `origin/main` (`91812f4`) by `39d6ebe`, `cb4b6b9` and the docs commit after them: **not pushed yet** (pushing deploys).
+- **Git:** working tree clean. `main` is ahead of `origin/main` (`ab7b637`) by `a3d5fe4` and the docs commit after it: **not pushed yet** (pushing deploys).
 - **Gates:** Gate 0 done. Gate 1 (`IMPLEMENTATION_PLAN.md` §Gate 1):
   - [x] Step 1: bilingual Methodology & Corrections page (`/[lang]/methodology`, now including §5 Analytics).
   - [ ] Step 2: real-user sessions (EN + VI). **Owner task.** Only a *simulated* persona review exists (`docs/reviews/gate1-simulated-persona-feedback.md`); all of its findings are fixed.
@@ -44,8 +44,9 @@ The `NODE_OPTIONS='--experimental-require-module'` prefix in the npm scripts is 
 | `955649b` (2026-11-12) | Bajaj Finance 5 Sep 2024 exit close confirmed from an NSE-sourced fund-house daily sheet (source added, no price changed); ledger follow-up records what is still unpinned |
 | `08c7da7` (2026-11-12) | Share (OG) image is per language: `src/app/[lang]/opengraph-image.tsx`, EN headline on `/en`, VI on `/vi`, footer = host of `SITE_URL` (was Vietnamese-only with the unowned `.vn` domain). All page metadata points at its own language's image; `/opengraph-image` redirects to the EN one |
 | `7221e38` (2026-11-12) | Black Wednesday: "roughly 15%" fall replaced by dated Bank of England spot rates; now priced as the saver scenario (100 Deutschmarks £35.99 → £39.85, 16 → 30 Sep 1992, 1.11×). Prices are 100 ÷ the quoted DM-per-£ rate; details in the ledger |
-| `39d6ebe` (2026-11-12, unpushed) | Detail page shows cents on quoted entry/exit prices below 1,000 (`formatPrice`): "$48.92" instead of "$49", "£35.99" instead of "£36" |
-| `cb4b6b9` (2026-11-12, unpushed) | Roadmap Sprint 2, export: "Download data: CSV / JSON" on the Almanac item card (stored observations + sources, no interpolation) and under the Playbook ledger (steps, capital, caps, links). Pure builders in `src/lib/exportData.ts` (CSV escaping + spreadsheet-formula guard, tested); UI in `src/components/ExportButtons.tsx`. No analytics event added, so Methodology §5 is unchanged |
+| `39d6ebe` (2026-11-12) | Detail page shows cents on quoted entry/exit prices below 1,000 (`formatPrice`): "$48.92" instead of "$49", "£35.99" instead of "£36" |
+| `cb4b6b9` (2026-11-12) | Roadmap Sprint 2, export: "Download data: CSV / JSON" on the Almanac item card (stored observations + sources, no interpolation) and under the Playbook ledger (steps, capital, caps, links). Pure builders in `src/lib/exportData.ts` (CSV escaping + spreadsheet-formula guard, tested); UI in `src/components/ExportButtons.tsx`. No analytics event added, so Methodology §5 is unchanged |
+| `a3d5fe4` (2026-11-12, unpushed) | Roadmap Sprint 4: Almanac "Jump to year / Nhập năm" box next to the big year (applies valid years 1986–2025 as typed, resets on blur); the year slider now has an accessible label |
 
 ### 0.4 Open items (priority order)
 1. **Owner: PostHog "Discard client IP data"** project setting. IPs reach PostHog with every event; there's no code switch for this. PDPA-relevant.
@@ -154,7 +155,7 @@ de93420 docs: document Seed Challenge Mode in PROJECT_STATE
 
 - [ ] **Sprint 2 — Viral features:** Web Share 1-click (native share sheet), embed code (iframe/JS snippet) for pass card, CSV/JSON export for almanac & whatif results. *(Export done 2026-11-12 for Almanac series and the Playbook ledger; the single-asset What-If result is one number, so it has no export.)*
 - [ ] **Sprint 3 — Retention:** achievement system (5+ badges), localStorage save progress for survival, advanced mode with real historical CPI per country/year.
-- [ ] **Sprint 4 — Polish:** 30s first-visit tutorial, dark/light toggle, almanac year-jump input, SFX variety, larger fonts on small laptops.
+- [ ] **Sprint 4 — Polish:** 30s first-visit tutorial, dark/light toggle, almanac year-jump input, SFX variety, larger fonts on small laptops. *(Almanac year-jump done 2026-11-12.)*
 - [ ] **Q2 — Monetization:** public API (tRPC + Postgres + Prisma + Upstash Redis + NextAuth OAuth), Premium $10/month tier (advanced mode, CSV/API key, achievement profile, custom card themes). Break-even at 5 paid users; target 10k MAU → $3k MRR month 6.
 - [x] **Data trust & schema validation:** Strict validation in `scripts/validate-data.mjs`. 328 milestones verified; public badges reflect linked source counts. High-visibility claims audited via two-agent review ledger (`docs/research/claim-audit-ledger.md`).
 - [ ] **Domain:** `reincarnation-checklist.vn` used as `SITE_URL` placeholder — unverified ownership.
