@@ -1,6 +1,6 @@
 # PROJECT_STATE.md — The Reincarnation Checklist
 
-> Handoff for a fresh agent session. **Last updated 2026-11-12, at `eb1ecf4`.** Read §0 first; §1 onward is older background and is stale where it conflicts with §0.
+> Handoff for a fresh agent session. **Last updated 2026-11-12, at `9efd8b5`.** Read §0 first; §1 onward is older background and is stale where it conflicts with §0.
 > Project root: `/Users/justindang/reincarnation-checklist` (macOS). Branch `main` tracks `origin/main` = `github.com/justinnc/reincarnation-checklist` (public, Issues enabled). Pushes to `main` deploy to Vercel.
 
 ---
@@ -9,12 +9,12 @@
 
 ### 0.1 Where things stand
 - **Live:** https://reincarnation-checklist-justinncs-projects.vercel.app (Vercel). `SITE_URL` = `NEXT_PUBLIC_SITE_URL` or that domain (`src/lib/seo.ts`).
-- **Git:** working tree clean. `main` is ahead of `origin/main` (the Almanac year box docs commit) by `9ca65be`, `eb1ecf4` and the docs commit after them: **not pushed yet** (pushing deploys).
+- **Git:** working tree clean. `main` is ahead of `origin/main` by `82ce77b`, `9efd8b5` and the docs commit after them: **not pushed yet** (pushing deploys).
 - **Gates:** Gate 0 done. Gate 1 (`IMPLEMENTATION_PLAN.md` §Gate 1):
   - [x] Step 1: bilingual Methodology & Corrections page (`/[lang]/methodology`, now including §5 Analytics).
   - [ ] Step 2: real-user sessions (EN + VI). **Owner task.** Script and observation sheet are ready in `docs/reviews/gate1-user-session-kit.md`; results go in `docs/reviews/gate1-real-user-sessions.md`. Only a *simulated* persona review exists (`docs/reviews/gate1-simulated-persona-feedback.md`); all of its findings are fixed.
   - [x] Step 3: iterate on feedback, plus the second-agent claim audit (ledger: `docs/research/claim-audit-ledger.md`).
-  - [~] Step 4: launch prep. Site is already public; the owner decisions in 0.4 remain. Production routes/SEO/OG smoke is recorded in `docs/reviews/gate1-production-smoke.md`; accessibility, real-device passes and a rollback drill are not done.
+  - [~] Step 4: launch prep. Site is already public; the owner decisions in 0.4 remain. Production routes/SEO/OG smoke is recorded in `docs/reviews/gate1-production-smoke.md`; an automated accessibility pass is in `docs/reviews/gate1-accessibility-pass.md`; manual accessibility (keyboard, screen reader), real-device passes and a rollback drill are not done.
 
 ### 0.2 Run & verify (Node 24 required)
 ```bash
@@ -47,9 +47,11 @@ The `NODE_OPTIONS='--experimental-require-module'` prefix in the npm scripts is 
 | `39d6ebe` (2026-11-12) | Detail page shows cents on quoted entry/exit prices below 1,000 (`formatPrice`): "$48.92" instead of "$49", "£35.99" instead of "£36" |
 | `cb4b6b9` (2026-11-12) | Roadmap Sprint 2, export: "Download data: CSV / JSON" on the Almanac item card (stored observations + sources, no interpolation) and under the Playbook ledger (steps, capital, caps, links). Pure builders in `src/lib/exportData.ts` (CSV escaping + spreadsheet-formula guard, tested); UI in `src/components/ExportButtons.tsx`. No analytics event added, so Methodology §5 is unchanged |
 | `a3d5fe4` (2026-11-12) | Roadmap Sprint 4: Almanac "Jump to year / Nhập năm" box next to the big year (applies valid years 1986–2025 as typed, resets on blur); the year slider now has an accessible label |
-| `9ca65be` (2026-11-12, unpushed) | Sitemap now lists `/survival` and `/world` (704 URLs); test pins the public top-level pages |
-| `eb1ecf4` (2026-11-12, unpushed) | Site-wide response headers in `next.config.ts`: `nosniff`, `Referrer-Policy`, `X-Frame-Options: SAMEORIGIN`, `Permissions-Policy`. No CSP yet |
-| docs (2026-11-12, unpushed) | `docs/reviews/gate1-production-smoke.md` (700/700 live URLs checked) and `docs/reviews/gate1-user-session-kit.md` (EN/VI script + anonymized observation sheet for Gate 1 step 2) |
+| `9ca65be` (2026-11-12) | Sitemap now lists `/survival` and `/world` (704 URLs); test pins the public top-level pages |
+| `eb1ecf4` (2026-11-12) | Site-wide response headers in `next.config.ts`: `nosniff`, `Referrer-Policy`, `X-Frame-Options: SAMEORIGIN`, `Permissions-Policy`. No CSP yet |
+| docs (2026-11-12) | `docs/reviews/gate1-production-smoke.md` (700/700 live URLs checked) and `docs/reviews/gate1-user-session-kit.md` (EN/VI script + anonymized observation sheet for Gate 1 step 2) |
+| `82ce77b` (2026-11-12, unpushed) | Accessibility: home picker list is a real `<ol>` (was `<ol><div><li>`); World year slider has a label. Found by an axe-core pass, report in `docs/reviews/gate1-accessibility-pass.md` (38 page runs + Survival/Quiz in-game states, 0 violations after fixes) |
+| `9efd8b5` (2026-11-12, unpushed) | Survival: a Skip that costs nothing (same year / last round) no longer prints "−0 USD purchasing power" |
 
 ### 0.4 Open items (priority order)
 1. **Owner: PostHog "Discard client IP data"** project setting. IPs reach PostHog with every event; there's no code switch for this. PDPA-relevant.
@@ -147,7 +149,7 @@ de93420 docs: document Seed Challenge Mode in PROJECT_STATE
 
 ### 🟡 Recently Committed work
 
-- [x] **Seed Challenge Mode (?seed=...) in Survival** (`src/lib/survival.ts`, `src/components/survival/SurvivalGame.tsx`, `survival.test.ts`) — Deterministic Mulberry32 PRNG seed engine, challenge mode banner on arrival, copy challenge link & auto-embedded seed in share text (`f095e2c`).
+- [ ] ~~**Seed Challenge Mode (?seed=...) in Survival**~~ **(Correction 2026-11-12: this is not in the code. `f095e2c` is not in this repo's history and `/survival?seed=` is ignored; only the engine accepts an injected RNG, used by tests. Treat as not built.)** (`src/lib/survival.ts`, `src/components/survival/SurvivalGame.tsx`, `survival.test.ts`) — Deterministic Mulberry32 PRNG seed engine, challenge mode banner on arrival, copy challenge link & auto-embedded seed in share text (`f095e2c`).
 - [x] **Fog of War (Tin tức đương thời) in Survival** (`src/lib/survival.ts`, `src/components/survival/SurvivalGame.tsx`, `survival.test.ts`) — Masked hindsight spoiler titles with contemporary headlines, sentiment indicators, and post-round reality reveals (`7776dc3`).
 - [x] **Charm soft-hide from UI** (`src/app/[lang]/charm/page.tsx`, `src/components/CharmToggle.tsx`, `src/components/NavLinks.tsx`) — Hidden from navbar, cards and pages without deleting underlying logic (`dd5c8f6`).
 - [x] **NavLinks hamburger menu + mobile drawer** (`src/components/NavLinks.tsx`) — Committed in `e7a078a`.
